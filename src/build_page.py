@@ -383,7 +383,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
 <nav id="fnav" aria-label="Sections">
   <span class="nb">CW</span><span class="ndot" title="Live data"></span>
   <a href="#index">Index</a><a href="#shape" class="hm">Charts</a><a href="#objections" class="hm">Objections</a>
-  <a href="#precedents">Precedents</a><a href="#gazetteer" class="hm">Gazetteer</a><a href="#credit">Cite</a>
+  <a href="#precedents">Precedents</a><a href="#gazetteer" class="hm">Gazetteer</a><a href="#credit">Cite</a><a href="/contact.html">Contact</a>
 </nav>
 
 <div class="wrap">
@@ -592,7 +592,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
       <p>The Compute Net Worth Index&#8482; was created by <b>Pukar C. Hamal</b> and first published at compute.world on August 10, 2026. The index data and methodology are released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: use it, republish it, build products and models on it, freely, with attribution to <b>compute.world</b>.</p>
       <p>Cite as: <code>Hamal, P. (2026). The Compute Net Worth Index. compute.world.</code></p>
       <p>Machine-readable dataset for humans and agents: <a href="data.json">data.json</a> &middot; valuation parameters, reviewed weekly: <a href="params.json">params.json</a> &middot; a plain-language guide for AI agents: <a href="llms.txt">llms.txt</a> &middot; schema.org Dataset and FAQ markup are embedded in this page.</p>
-      <p>&ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo; and &ldquo;Gross Domestic Compute&rdquo; (GDC) are trademarks of Pukar C. Hamal (compute.world)&#8482;. Corrections and better data: hello@compute.world.</p>
+      <p>&ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo; and &ldquo;Gross Domestic Compute&rdquo; (GDC) are trademarks of Pukar C. Hamal (compute.world)&#8482;. Corrections, better data, and collaboration: <a href="/contact.html">get in touch</a>.</p>
     </div>
   </div>
 
@@ -865,7 +865,7 @@ open("deploy/index.html","w").write(html)
 json.dump(PARAMS, open("deploy/params.json","w"), indent=1)
 json.dump(DATASET, open("deploy/data.json","w"), ensure_ascii=False, indent=1)
 open("deploy/robots.txt","w").write("User-agent: *\nAllow: /\nSitemap: https://compute.world/sitemap.xml\n")
-open("deploy/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>https://compute.world/</loc><lastmod>2026-08-10</lastmod><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/data.json</loc><changefreq>daily</changefreq></url>\n</urlset>\n')
+open("deploy/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>https://compute.world/</loc><lastmod>2026-08-10</lastmod><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/contact.html</loc><changefreq>monthly</changefreq></url>\n<url><loc>https://compute.world/data.json</loc><changefreq>daily</changefreq></url>\n</urlset>\n')
 open("deploy/llms.txt","w").write(f"""# The Compute Net Worth Index (compute.world)
 
 > Every country has a Compute Net Worth: the value of AI compute its own energy and geography
