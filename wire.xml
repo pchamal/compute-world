@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>The Wire · compute.world</title>
+  <link>https://compute.world/wire.html</link>
+  <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
+  <language>en</language>
+  <item>
+    <title>NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI infrastructure</title>
+    <link>https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx</link>
+    <guid isPermaLink="false">compute.world/wire#nvidia-500b-platforms</guid>
+    <pubDate>Mon, 10 Aug 2026 12:00:00 GMT</pubDate>
+    <description>NVIDIA partners with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent compute-financing platforms targeting over $500 billion of third-party capital, with NVIDIA guaranteeing up to 25 percent of chip residual value on individual deals. The capital constraint on the global buildout just grew a dedicated channel, and GPUs were declared an investable asset class. [Signal 95, Confirmed, via NVIDIA IR] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Firebird&#x27;s Armenia AI factory goes live: frontier-market sovereign compute has a working example</title>
+    <link>https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/</link>
+    <guid isPermaLink="false">compute.world/wire#firebird-armenia-live</guid>
+    <pubDate>Sat, 08 Aug 2026 12:00:00 GMT</pubDate>
+    <description>The Hrazdan facility went from site to operation in about six months on NVIDIA and Dell infrastructure, with a roadmap of 70,000+ GPUs and 300 MW by end-2027 and NVIDIA stating intent to invest. The proof of concept for small-state compute conversion. [Signal 92, Confirmed, via NVIDIA blog] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Indonesia&#x27;s Indosat launches Zankore, a 1 GW AI-factory platform with Ooredoo, NVIDIA and Nokia</title>
+    <link>https://www.datacenterdynamics.com/en/news/indosat-reinforces-ai-push-with-1gw-data-center-play/</link>
+    <guid isPermaLink="false">compute.world/wire#indosat-zankore-1gw</guid>
+    <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
+    <description>First 200 MW of GB300-class capacity targeted for H1 2027 at Batang, Central Java, with Qatari capital leading. Southeast Asia&#x27;s largest sovereign-flavored compute commitment to date. [Signal 78, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>EU opens the AI Gigafactories call: up to 7 sites, €10B public money, bids due November</title>
+    <link>https://www.eurohpc-ju.europa.eu/eurohpc-joint-undertaking-launches-ai-gigafactories-call-2026-07-30_en</link>
+    <guid isPermaLink="false">compute.world/wire#eu-gigafactories-call</guid>
+    <pubDate>Thu, 30 Jul 2026 12:00:00 GMT</pubDate>
+    <description>EuroHPC launches the formal tender for gigafactory sites across at least seven member states, targeting over €30 billion total investment with selection in early 2027. Europe&#x27;s answer arrives as a procurement document. [Signal 90, Confirmed, via EuroHPC (primary)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>South Korea&#x27;s AIDC Alliance sets an 18.4 GW datacenter target by 2035</title>
+    <link>https://www.techtimes.com/articles/322134/20260729/south-koreas-aidc-alliance-opens-184gw-target-uae-export-push.htm</link>
+    <guid isPermaLink="false">compute.world/wire#korea-aidc-18gw</guid>
+    <pubDate>Wed, 29 Jul 2026 12:00:00 GMT</pubDate>
+    <description>Following the 260,000-GPU national program announced at APEC, the alliance formalizes the most aggressive national capacity target published anywhere, with UAE export ambitions attached. [Signal 66, Corroborated, via TechTimes] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Nepal books record power exports: NPR 29.32B for 3.877 TWh at roughly $0.054 per kWh</title>
+    <link>https://www.myrepublica.nagariknetwork.com/news/nepal-earns-record-rs-2932-billion-from-electricity-exports-in-fy-202526-21-57.html</link>
+    <guid isPermaLink="false">compute.world/wire#nepal-export-record</guid>
+    <pubDate>Thu, 23 Jul 2026 12:00:00 GMT</pubDate>
+    <description>Export earnings rose 68 percent year on year. The same electrons routed through contracted GPU cloud would gross roughly 20 to 40 times more, which is the entire compute-conversion argument in one fiscal year. [Signal 68, Corroborated, via Republica (NEA data)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>The UAE gets a named lane in US export law, with an April 2027 sting attached</title>
+    <link>https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration</link>
+    <guid isPermaLink="false">compute.world/wire#uae-rule-a5</guid>
+    <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
+    <description>Federal Register rule 91 FR 43034 moves the UAE to Country Group A:5 and names approved entities, while G42 and Core42&#x27;s license-free status expires April 6, 2027 unless they become US companies. The template for compute diplomacy, and its price, in one document. [Signal 94, Confirmed, via US Federal Register] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Kazakhstan signs $10B with NVIDIA and Firebird for a gigawatt-scale Data Center Valley at Ekibastuz</title>
+    <link>https://timesca.com/kazakhstan-and-u-s-ai-companies-sign-agreements-worth-10-billion/</link>
+    <guid isPermaLink="false">compute.world/wire#kazakhstan-ekibastuz</guid>
+    <pubDate>Mon, 15 Jun 2026 12:00:00 GMT</pubDate>
+    <description>300 MW rising toward 1 GW and 100,000 GPUs on coal-basin power, with a stated $3 billion per year export ambition. In its officials&#x27; words: transforming Ekibastuz coal into digital export revenue. [Signal 72, Corroborated, via Times of Central Asia] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Meta signs its first India AI datacenter deal: a 168 MW JV inside Reliance&#x27;s Jamnagar campus</title>
+    <link>https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/</link>
+    <guid isPermaLink="false">compute.world/wire#reliance-meta-jamnagar</guid>
+    <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
+    <description>Part of Reliance&#x27;s stated $110 billion AI plan, with 120+ MW already live in H2 2026. The largest private-sector compute bet in the Global South acquires an anchor tenant. [Signal 80, Corroborated, via TechCrunch] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Huang at GTC Taipei: AI factories at $50-60B per GW now, $80-100B per GW soon</title>
+    <link>https://siliconangle.com/2026/06/01/five-thoughts-nvidia-ceo-jensen-huangs-gtc-taipei-2026-keynote/</link>
+    <guid isPermaLink="false">compute.world/wire#huang-taipei-pricing</guid>
+    <pubDate>Mon, 01 Jun 2026 12:00:00 GMT</pubDate>
+    <description>The clearest 2026 restatement of the price of compute capacity, and the basis for this index&#x27;s ceiling band. Every token is revenue, per Huang; every watt is now priced accordingly. [Signal 76, Corroborated, via SiliconANGLE] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>GAO rules the US chip-export non-enforcement posture procedurally defective</title>
+    <link>https://www.gao.gov/products/b-337935</link>
+    <guid isPermaLink="false">compute.world/wire#gao-export-ruling</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 GMT</pubDate>
+    <description>Decision B-337935 holds that the May 2025 non-enforcement announcement was itself a rule that was never submitted to Congress. The legal floor under most emerging markets&#x27; GPU access is officially contested. [Signal 93, Confirmed, via US GAO (primary)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Microsoft and G42&#x27;s Kenya campus stalls for lack of power</title>
+    <link>https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/</link>
+    <guid isPermaLink="false">compute.world/wire#kenya-stall</guid>
+    <pubDate>Thu, 07 May 2026 12:00:00 GMT</pubDate>
+    <description>Chips were available; electricity was not. The clearest single data point that energy, not silicon, is the binding constraint on the global buildout. [Signal 75, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Stargate UK pauses over energy costs</title>
+    <link>https://datacentremagazine.com/news/stargate-uk-why-is-openai-halting-ai-data-centre-project</link>
+    <guid isPermaLink="false">compute.world/wire#stargate-uk-pause</guid>
+    <pubDate>Mon, 20 Apr 2026 12:00:00 GMT</pubDate>
+    <description>The flagship western sovereign deal, 31,000 GPUs planned, halts on power prices while the North East AI Growth Zone still advertises 1.1 GW. Readiness without affordable electrons has a ceiling of its own. [Signal 70, Corroborated, via Data Centre Magazine] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Microsoft contracts 30,000 Rubin GPUs at Nscale&#x27;s hydro-powered Narvik site</title>
+    <link>https://www.datacenterdynamics.com/en/news/microsoft-contracts-30000-nvidia-rubin-gpus-from-nscale-at-data-center-in-narvik-norway/</link>
+    <guid isPermaLink="false">compute.world/wire#microsoft-nscale-narvik</guid>
+    <pubDate>Wed, 15 Apr 2026 12:00:00 GMT</pubDate>
+    <description>Stargate Norway&#x27;s capacity finds a hyperscale offtaker above the Arctic Circle. Cold, cheap, firm power keeps winning the contracts that latency arguments said it could not. [Signal 78, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Brazil approves a 5 GW grid connection for Scala&#x27;s AI City</title>
+    <link>https://datacentremagazine.com/data-centres/scala-data-centers-ai-city-secures-5-gw-approval-in-brazil</link>
+    <guid isPermaLink="false">compute.world/wire#scala-5gw-approval</guid>
+    <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
+    <description>Eldorado do Sul&#x27;s campus gets state sign-off for up to 4.75 GW of planned capacity, roughly $50 billion, with phase one operational. Latin America&#x27;s largest compute project is now also its most grid-real. [Signal 74, Corroborated, via Data Centre Magazine] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>ByteDance begins construction on a ~$39B campus at Pecém with a 20-year wind PPA</title>
+    <link>https://www.datacenterdynamics.com/en/news/casa-dos-ventos-granted-approval-to-construct-tiktok-backed-300mw-data-center-in-brazil-report/</link>
+    <guid isPermaLink="false">compute.world/wire#bytedance-pecem</guid>
+    <pubDate>Tue, 20 Jan 2026 12:00:00 GMT</pubDate>
+    <description>300 MW first phase toward roughly 1 GW in Ceará, wind-fired and export-oriented. The largest Chinese AI-infrastructure project abroad is rising in Brazil. [Signal 72, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>S&amp;P lifts Paraguay to investment grade, joining Moody&#x27;s</title>
+    <link>https://www.bloomberg.com/news/articles/2025-12-17/s-p-lifts-paraguay-rating-to-investment-grade-joining-moody-s</link>
+    <guid isPermaLink="false">compute.world/wire#paraguay-investment-grade</guid>
+    <pubDate>Wed, 17 Dec 2025 12:00:00 GMT</pubDate>
+    <description>BBB- lands on the country holding the index&#x27;s largest redirectable power surplus relative to size, roughly 40 TWh a year currently exported at commodity prices. Capital access arrives before the compute does. [Signal 84, Confirmed, via Bloomberg] More: https://compute.world/wire.html</description>
+  </item>
+</channel></rss>
