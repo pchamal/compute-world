@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers static-assets config for compute.world.
+  // Serves the repo root (index.html + data.json + params.json + og.png ...) as a static site.
+  // Deploy command: npx wrangler deploy
+  "name": "compute-world",
+  "compatibility_date": "2026-08-10",
+  "assets": {
+    "directory": "."
+  }
+}
