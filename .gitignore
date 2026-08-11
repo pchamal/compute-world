@@ -1,0 +1,4 @@
+_page_script.js
+__pycache__/
+src/deploy/
+.DS_Store

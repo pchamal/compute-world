@@ -1,0 +1,8 @@
+{
+ "gw_ceiling_lo": 60,
+ "gw_ceiling_hi": 80,
+ "gw_central": 50,
+ "rev_per_gw_yr": 10,
+ "reviewed": "2026-08-10",
+ "basis": "NVIDIA all-in AI-factory cost $50-60B/GW today, $80-100B forward (Huang, GTC Taipei Jun 2026); Jensen's Math $60-80B/GW (Sep 2025); analysts $35-42B. Reviewed weekly."
+}
