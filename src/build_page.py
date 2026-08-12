@@ -85,7 +85,7 @@ gaz_html = ""
 for region in ["South Asia","Central Asia","East Asia","SE Asia","MENA","Africa","Europe","Americas","Oceania"]:
     if region not in gaz: continue
     arts = "".join(f'<article id="{sl}"><h3>{fg} {n}: compute potential</h3><p>{b}</p></article>' for sl,fg,n,b in sorted(gaz[region], key=lambda x:x[2]))
-    gaz_html += f'<h3 class="gzr">{region}</h3><div class="gzcols">{arts}</div>'
+    gaz_html += f'<h3 class="gzr">{region} <span class="gzn">({len(gaz[region])})</span><span class="gzt">+</span></h3><div class="gzcols">{arts}</div>'
 
 prec_from_v14 = True
 PREC = [
@@ -416,6 +416,7 @@ padding:8px 10px;border-top:1px solid var(--rule2);border-bottom:1px solid var(-
 .st-live{color:var(--pr)}.st-bld{color:var(--in)}.st-con{color:var(--eu)}.st-ann{color:var(--faint)}.st-sta{color:var(--accent)}
 /* gazetteer */
 .gzr{font-weight:400;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:26px 0 10px;border-bottom:1px solid var(--rule);padding-bottom:6px}
+.gzr .gzn{color:var(--faint);letter-spacing:.05em}
 .gzcols{columns:3;column-gap:40px}
 @media(max-width:1100px){.gzcols{columns:2}}
 @media(max-width:760px){.gzcols{columns:1}}
@@ -458,8 +459,63 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
 .colophon .c1{font-size:12px;letter-spacing:.3em;text-transform:uppercase}
 .colophon .c2{margin-top:12px;font-size:12.5px;color:var(--muted);letter-spacing:.06em}
 .colophon .c3{margin-top:16px;font-size:12.5px;color:var(--faint);max-width:760px;margin-left:auto;margin-right:auto;font-style:italic;line-height:1.7}
-@media(max-width:980px){.figures{grid-template-columns:1fr 1fr}.fig{border-bottom:1px solid var(--rule)}}
+/* ---- load-in sequence (runs once) + reveal stagger ---- */
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.li{opacity:0;animation:rise .7s cubic-bezier(.22,.8,.26,1) both}
+.li1{animation-delay:.05s}.li2{animation-delay:.14s}.li3{animation-delay:.24s}.li4{animation-delay:.34s}.li5{animation-delay:.44s}
+.figures.rv.in .fig{opacity:0;animation:rise .55s cubic-bezier(.22,.8,.26,1) both}
+.figures.rv.in .fig:nth-child(1){animation-delay:.02s}.figures.rv.in .fig:nth-child(2){animation-delay:.09s}
+.figures.rv.in .fig:nth-child(3){animation-delay:.16s}.figures.rv.in .fig:nth-child(4){animation-delay:.23s}
+.figures.rv.in .fig:nth-child(5){animation-delay:.30s}
+.board.rv.in .mrow2{opacity:0;animation:rise .5s cubic-bezier(.22,.8,.26,1) both}
+.board.rv.in .mrow2:nth-child(2){animation-delay:.05s}.board.rv.in .mrow2:nth-child(3){animation-delay:.10s}
+.board.rv.in .mrow2:nth-child(4){animation-delay:.15s}.board.rv.in .mrow2:nth-child(5){animation-delay:.20s}
+.board.rv.in .mrow2:nth-child(6){animation-delay:.25s}
+.charts .chart.rv.in .brow{opacity:0;animation:rise .45s ease-out both}
+.charts .chart.rv.in .brow:nth-child(2){animation-delay:.04s}.charts .chart.rv.in .brow:nth-child(3){animation-delay:.08s}
+.charts .chart.rv.in .brow:nth-child(4){animation-delay:.12s}.charts .chart.rv.in .brow:nth-child(5){animation-delay:.16s}
+.charts .chart.rv.in .brow:nth-child(6){animation-delay:.20s}.charts .chart.rv.in .brow:nth-child(7){animation-delay:.24s}
+.charts .chart.rv.in .brow:nth-child(8){animation-delay:.28s}.charts .chart.rv.in .brow:nth-child(9){animation-delay:.32s}
+.charts .chart.rv.in .brow:nth-child(10){animation-delay:.36s}.charts .chart.rv.in .brow:nth-child(11){animation-delay:.40s}
+@media(prefers-reduced-motion:reduce){.li,.figures.rv.in .fig,.board.rv.in .mrow2,.charts .chart.rv.in .brow{animation:none;opacity:1}}
+/* ---- gazetteer accordion (mobile) ---- */
+.gzr .gzt{display:none;color:var(--accent);margin-left:8px}
+@media(max-width:760px){
+  .gzr{cursor:pointer}
+  .gzr .gzt{display:inline}
+  .gzr.closed + .gzcols{display:none}
+}
+.showall{display:none}
+@media(max-width:760px){
+  .showall{display:block;width:100%;background:none;border:1px solid var(--rule2);color:var(--ink);
+  font-family:var(--serif);font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:12px 0;margin:14px 0 4px;cursor:pointer}
+  .showall:hover{background:var(--tint)}
+}
+/* ---- responsive layout ---- */
+@media(max-width:980px){.figures{grid-template-columns:1fr 1fr}
+.fig{border-bottom:1px solid var(--rule)}.fig:nth-child(2),.fig:nth-child(4){border-right:none}
+.fig:nth-child(5){grid-column:1/-1;border-right:none;border-bottom:none}}
 @media(max-width:860px){#q{margin-left:0;width:100%}}
+@media(max-width:760px){
+  .wrap{padding:0 18px}
+  .lede{padding:44px 0 22px}
+  .standfirst{font-size:17.5px}
+  .section{padding:38px 0 4px}
+  .board{margin-top:34px}
+  .mrow2 .mn{flex:0 0 150px}
+  .prose p,.gzcols p{text-align:left;hyphens:none}
+  .fig{padding:15px 14px 16px}
+  .fig .v{font-size:26px}
+  .frow{flex-direction:column;gap:4px;padding:12px 4px}
+  .frow .fl{flex:none}
+  .charts{gap:34px}
+  #ccard{padding:24px 20px 20px}
+  #ccname{font-size:24px}
+  #ccstats{flex-wrap:wrap}
+  #ccstats div{flex:1 1 32%;border-bottom:1px solid var(--rule)}
+  .notes li{font-size:12.5px}
+  .colophon{padding-bottom:44px}
+}
 </style>
 </head>
 <body>
@@ -474,7 +530,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
 </nav>
 
 <div class="wrap">
-  <div class="masthead">
+  <div class="masthead li">
     <div class="name"><b>COMPUTE</b>.WORLD</div>
     <div class="sub">The Compute Net Worth Index&#8482; · No. 1 · August 2026</div>
     <div class="mastrule"></div>
@@ -482,10 +538,10 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
   </div>
 
   <div class="lede">
-    <h1>Every country has a <em>Compute Net Worth</em>. Almost none have calculated it.</h1>
-    <p class="standfirst">Compute Net Worth is the value of AI compute that a nation's own energy and geography could host. NVIDIA prices a gigawatt of AI factory at <b id="pxband">$50 to $60 billion</b> today and says $80 to $100 billion is coming.<sup><a href="#n1">1</a></sup> A kilowatt-hour exported as raw power earns a country about five cents. Run the same kilowatt-hour through a contracted GPU cloud and it produces somewhere between $1.00 and $2.40.<sup><a href="#n2">2</a></sup> Compute is applied electrons. And the map of who holds the electrons looks nothing like the map of GDP. One more thing, because it changes how you should read every number below: these are scarcity prices. <i>Scarcity prices decay. This is a race.</i></p>
-    <div class="byline">Published August 10, 2026 · 108 countries · Every input sourced, every weight editable</div>
-    <div id="livestatus"><span class="dot"></span><span id="lstext">Snapshot of August 10, 2026 · live refresh loading&hellip;</span></div>
+    <h1 class="li li1">Every country has a <em>Compute Net Worth</em>. Almost none have calculated it.</h1>
+    <p class="standfirst li li2">Compute Net Worth is the value of AI compute that a nation's own energy and geography could host. NVIDIA prices a gigawatt of AI factory at <b id="pxband">$50 to $60 billion</b> today and says $80 to $100 billion is coming.<sup><a href="#n1">1</a></sup> A kilowatt-hour exported as raw power earns a country about five cents. Run the same kilowatt-hour through a contracted GPU cloud and it produces somewhere between $1.00 and $2.40.<sup><a href="#n2">2</a></sup> Compute is applied electrons. And the map of who holds the electrons looks nothing like the map of GDP. One more thing, because it changes how you should read every number below: these are scarcity prices. <i>Scarcity prices decay. This is a race.</i></p>
+    <div class="byline li li3">Published August 10, 2026 · 108 countries · Every input sourced, every weight editable</div>
+    <div id="livestatus" class="li li4"><span class="dot"></span><span id="lstext">Snapshot of August 10, 2026 · live refresh loading&hellip;</span></div>
   </div>
 
   <div class="board rv" id="board">
@@ -673,8 +729,8 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
     <div class="prose">
       <p>Two years ago the sovereign AI factory was a concept. As of this month it is a category with live examples on four continents, a rollout playbook, and a growing list of casualties, and the casualties teach as much as the wins: the three stalled projects below all stalled on power, which is the entire thesis in three data points.<sup><a href="#n9">9</a></sup> The running, credibility-scored feed of these signals lives on <a href="/wire.html">The Wire</a>.</p>
     </div>
-    <table class="prec"><thead><tr><th>Country</th><th>Project</th><th>Scale</th><th>Status</th><th>Date</th></tr></thead>
-    <tbody>__PREC_ROWS__</tbody></table>
+    <div class="tblwrap"><table class="prec"><thead><tr><th>Country</th><th>Project</th><th>Scale</th><th>Status</th><th>Date</th></tr></thead>
+    <tbody>__PREC_ROWS__</tbody></table></div>
   </div>
 
   <div class="section rv" id="gazetteer">
@@ -738,7 +794,8 @@ const fmtPC = v => v>=1000 ? "$"+(v/1000).toFixed(v>=100000?0:1)+"k" : "$"+Math.
 const fmtB = (v,e) => v==null ? "&mdash;" : `<span class="${e?"est":""}">${v>=1000?"$"+(v/1000).toFixed(2)+"T":"$"+(v>=100?Math.round(v):v)+"B"}</span>`;
 const fmtGDC = c => c.gdc<1 ? `<span class="est">&lt;$1B</span>` : `<span class="${c.lgE?"est":""}">${fmtT(c.gdc)}</span>`;
 const fmtPct = (v,e) => v==null ? "&mdash;" : `<span class="${(v<0?"neg ":"")+(e?"est":"")}">${v>0?"+":""}${v.toFixed(1)}%</span>`;
-const state = {q:"", tier:"", sort:"u", dir:-1, view:"table"};
+const state = {q:"", tier:"", sort:"u", dir:-1, view:"table", all:false};
+const isNarrow = ()=>window.innerWidth < 760;
 function val(c,k){ if(k==="n") return c.n; if(k==="re2") return c.re; return c[k] ?? -1e18; }
 function recompute(){
   D.forEach(c=>{ c.lo = c.gw*P.gw_ceiling_lo; c.hi = c.gw*P.gw_ceiling_hi;
@@ -759,7 +816,9 @@ function render(){
     (c.n.toLowerCase().includes(state.q)||c.r.toLowerCase().includes(state.q)));
   rows.sort((a,b)=>{ const x=val(a,state.sort), y=val(b,state.sort);
     return (typeof x==="string") ? state.dir*x.localeCompare(y) : state.dir*(x-y); });
-  rows.forEach((c,i)=>{
+  const capped = isNarrow() && !state.all && !state.q && rows.length > 15;
+  const shown = capped ? rows.slice(0,15) : rows;
+  shown.forEach((c,i)=>{
     const tr = document.createElement("tr"); tr.className="row"; tr.dataset.n=c.n;
     tr.innerHTML = `<td class="l rk">${i+1}</td>
       <td class="l cname stick" data-sl="${c.sl}"><span class="fe">${c.fg}</span>${c.n}</td>
@@ -786,9 +845,15 @@ function render(){
     det.querySelector(".cardbtn").onclick = (e)=>{ openCard(e.target.dataset.sl); };
     tb.appendChild(tr); tb.appendChild(det);
   });
+  if(capped){
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td colspan="18" style="padding:0;border:none"><button class="showall">Show all ${rows.length} countries</button></td>`;
+    tr.querySelector("button").onclick = ()=>{ state.all = true; render(); };
+    tb.appendChild(tr);
+  }
 }
 function expandTo(name){
-  state.view="table"; state.q=""; document.getElementById("q").value="";
+  state.view="table"; state.q=""; state.all=true; document.getElementById("q").value="";
   document.getElementById("vtab").classList.add("on"); document.getElementById("vglobe").classList.remove("on");
   document.getElementById("globewrap").style.display="none"; document.getElementById("tablewrap").style.display="block";
   render();
@@ -848,6 +913,19 @@ document.getElementById("ccx").onclick=closeCard;
 document.getElementById("ccover").onclick=(e)=>{ if(e.target.id==="ccover") closeCard(); };
 document.addEventListener("keydown",(e)=>{ if(e.key==="Escape") closeCard(); });
 document.querySelectorAll(".gzcols h3").forEach(h=>{ h.onclick=()=>openCard(h.closest("article").id); });
+// gazetteer accordion on small screens: regions start closed, tap to open
+if(isNarrow()){
+  document.querySelectorAll(".gzr").forEach(r=>{
+    r.classList.add("closed"); r.querySelector(".gzt").textContent="+";
+    r.onclick=()=>{ const c=r.classList.toggle("closed"); r.querySelector(".gzt").textContent=c?"+":"−"; };
+  });
+  // deep links still work: open the region containing the target
+  const _oc = openCard;
+  openCard = function(sl){ const art=document.getElementById(sl);
+    if(art){ const gz=art.closest(".gzcols"); if(gz && gz.previousElementSibling.classList.contains("closed")){
+      gz.previousElementSibling.classList.remove("closed"); gz.previousElementSibling.querySelector(".gzt").textContent="−"; } }
+    _oc(sl); };
+}
 document.querySelectorAll(".cardlink").forEach(a=>{ a.onclick=()=>openCard(a.dataset.sl); });
 const nb=document.getElementById("nburger"), nl=document.getElementById("nlinks");
 nb.onclick=(e)=>{ e.stopPropagation(); const open=nl.classList.toggle("open"); nb.setAttribute("aria-expanded",open); };
