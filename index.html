@@ -90,6 +90,10 @@ border-bottom:1px solid var(--rule2);padding-bottom:7px;margin-bottom:4px}
 .masthead .name b{font-weight:600}
 .masthead .sub{margin-top:8px;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .mastrule{margin-top:20px;border-top:2px solid var(--rule2);border-bottom:1px solid var(--rule2);height:5px}
+.edition{margin-top:10px;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint)}
+.edition .on{color:var(--ink);border-bottom:1px solid var(--ink)}
+.edition a{border-bottom:1px solid transparent;color:var(--faint)}
+.edition a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .lede{padding:72px 0 30px;max-width:880px}
 h1{font-weight:400;font-size:clamp(34px,5vw,52px);line-height:1.14}
 h1 em{font-style:italic}
@@ -279,6 +283,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
     <div class="name"><b>COMPUTE</b>.WORLD</div>
     <div class="sub">The Compute Net Worth Index&#8482; · No. 1 · August 2026</div>
     <div class="mastrule"></div>
+    <div class="edition"><span class="on">For humans</span> · <a href="/agents.html">For agents</a></div>
   </div>
 
   <div class="lede">
@@ -486,11 +491,13 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
   <div class="section rv" id="credit">
     <div class="shead"><span class="no">X.</span><h2>Credit &amp; use</h2></div>
     <div class="credit">
-      <div class="ct">Cite, reuse, build on it</div>
-      <p>The Compute Net Worth Index&#8482; was created by <b>Pukar C. Hamal</b> and first published at compute.world on August 10, 2026. The index data and methodology are released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: use it, republish it, build products and models on it, freely, with attribution to <b>compute.world</b>.</p>
+      <div class="ct">Cite it, embed it, license it</div>
+      <p>The Compute Net Worth Index&#8482; was created by <b>Pukar C. Hamal</b> and first published at compute.world on August 10, 2026. The scores and methodology (Readiness, Signal Score, CNW Realized, GDC&#8482;) are proprietary. Quoting, citing, and charting them is <b>free with attribution to compute.world</b> for personal, academic, research, and journalistic use. Commercial products, APIs, and bulk redistribution require a license: <a href="/contact.html">get in touch</a>. The full terms are one page: <a href="https://github.com/pchamal/compute-world/blob/main/LICENSE.md">the Compute World Index License</a>.</p>
       <p>Cite as: <code>Hamal, P. (2026). The Compute Net Worth Index. compute.world.</code></p>
-      <p>Machine-readable dataset for humans and agents: <a href="data.json">data.json</a> &middot; valuation parameters, reviewed weekly: <a href="params.json">params.json</a> &middot; a plain-language guide for AI agents: <a href="llms.txt">llms.txt</a> &middot; schema.org Dataset and FAQ markup are embedded in this page.</p>
-      <p>&ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo; and &ldquo;Gross Domestic Compute&rdquo; (GDC) are trademarks of Pukar C. Hamal (compute.world)&#8482;. Corrections, better data, and collaboration: <a href="/contact.html">get in touch</a>.</p>
+      <p><b>Put the index on your own site.</b> The official embed is free for any site, attribution built in, updates itself:</p>
+      <p><code>&lt;iframe src="https://compute.world/embed.html?n=10&amp;sort=u" width="100%" height="520" style="border:1px solid #171614" title="The Compute Net Worth Index"&gt;&lt;/iframe&gt;</code></p>
+      <p>Options: <code>n</code> = rows (5 to 25) &middot; <code>sort</code> = <code>u</code> unlockable, <code>hi</code> ceiling, <code>m</code> multiple of GDP, <code>rz</code> realized &middot; preview it at <a href="/embed.html">embed.html</a>.</p>
+      <p>Machine-readable: <a href="data.json">data.json</a> &middot; <a href="params.json">params.json</a> &middot; <a href="llms.txt">llms.txt</a> &middot; and the full <a href="/agents.html">agent edition</a> of this page. Trademarks of Pukar C. Hamal: &ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo;, &ldquo;Gross Domestic Compute&rdquo; (GDC).</p>
     </div>
   </div>
 
@@ -511,7 +518,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
 
   <div class="colophon">
     <div class="c1">COMPUTE.WORLD</div>
-    <div class="c2">The Compute Net Worth Index&#8482; &middot; v1.5 &middot; Snapshot of August 10, 2026, refreshed live from IMF &amp; World Bank &middot; &copy; 2026 Pukar C. Hamal &middot; San Francisco, CA &middot; Data CC BY 4.0</div>
+    <div class="c2">The Compute Net Worth Index&#8482; &middot; v1.5 &middot; Snapshot of August 10, 2026, refreshed live from IMF &amp; World Bank &middot; &copy; 2026 Pukar C. Hamal &middot; San Francisco, CA &middot; Scores proprietary, free with attribution for research and press</div>
     <div class="c3">Resource potentials mix theoretical, technical, and economic bases as published; conversions and estimates are flagged in the companion workbook, where every assumption is an editable cell. This page is an analytical framework and an invitation to argue with its inputs in public. It is not investment advice. Set in Charter and its relatives. Published from San Francisco, CA.</div>
   </div>
 </div>
