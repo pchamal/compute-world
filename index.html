@@ -105,6 +105,9 @@ border-bottom:1px solid var(--rule2);padding-bottom:7px;margin-bottom:4px}
 .lede{padding:72px 0 30px;display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:56px;align-items:center}
 .ledetext{max-width:880px}
 .heroglobe{position:relative;width:100%;aspect-ratio:1/1;max-width:380px;justify-self:end}
+.heroglobe::before{content:"";position:absolute;inset:-14%;border-radius:50%;pointer-events:none;
+background:radial-gradient(circle at 50% 44%, rgba(125,32,39,.055), transparent 62%)}
+html[data-theme="dark"] .heroglobe::before{background:radial-gradient(circle at 50% 44%, rgba(194,86,76,.085), transparent 62%)}
 .heroglobe #gph{position:absolute;inset:0;width:100%;height:100%;animation:phspin 60s linear infinite;transition:opacity 1.2s ease}
 @keyframes phspin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
 .heroglobe.live #gph{opacity:0}
@@ -481,7 +484,7 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
     </div>
     <div id="globewrap">
       <div id="globe"></div><div id="globemsg"></div>
-      <div class="gleg"><span><i style="background:#8a5a2a"></i>Sleeping Giant</span><span><i style="background:#4b5f36"></i>Primed</span><span><i style="background:#3c5568"></i>Incumbent</span><span><i style="background:#77662c"></i>Emerging Upside</span><span style="color:var(--faint)">Spike height = CNW ceiling. Drag to spin, hover for the numbers, click a spike for the country's card.</span></div>
+      <div class="gleg"><span><i style="background:#8a5a2a"></i>Sleeping Giant</span><span><i style="background:#4b5f36"></i>Primed</span><span><i style="background:#3c5568"></i>Incumbent</span><span><i style="background:#77662c"></i>Emerging Upside</span><span style="color:var(--faint)">Dot size = CNW ceiling. Pulsing rings = live Wire signals; claret pulses are stalls. Drag to spin, hover for the numbers, click a dot for the country's card.</span></div>
     </div>
     <p class="tabnote">Click any column head to sort; click again to reverse. Open any row for detail, or click the country's name for a shareable card. <b>Readiness &ne; Built</b>: one is a discount, the other a count of what stands. <span class="est">Grey</span> marks estimate fills where no official series exists.<sup><a href="#n7">7</a></sup> Tiers: <span class="tier t-sg">Sleeping Giant</span> ceiling &ge; 10&times; GDP, readiness &lt; 65% &middot; <span class="tier t-pr">Primed</span> &middot; <span class="tier t-in">Incumbent</span> &middot; <span class="tier t-eu">Emerging Upside</span>.</p>
     <details class="gloss">
@@ -795,9 +798,9 @@ function curTheme(){ return document.documentElement.getAttribute("data-theme")=
 function applyGlobeTheme(){ const d=curTheme()==="dark";
   [window._globe, window._hero].forEach(g=>{ if(!g) return;
     g.globeMaterial().color.set(d?"#26221a":"#ddd4c2");
-    g.polygonCapColor(()=>d?"#332d21":"#f0eadd").polygonStrokeColor(()=>d?"#6b6558":"#9a958a")
-      .polygonSideColor(()=>d?"rgba(236,231,219,0.05)":"rgba(23,22,20,0.06)");
-    g.atmosphereColor(d?"#55503f":"#bdb5a2"); }); }
+    g.hexPolygonColor(()=> d ? "rgba(222,216,200,0.55)" : "rgba(23,22,20,0.42)");
+    g.atmosphereColor(d?"#55503f":"#bdb5a2"); });
+  plotGlobe(); }
 function setTheme(t, save){ document.documentElement.setAttribute("data-theme",t);
   if(save){ try{ localStorage.setItem("cnw_theme",t); }catch(e){} }
   themeMeta.content = t==="dark" ? "#171511" : "#f7f4ee";
@@ -826,30 +829,47 @@ function loadGlobeLibs(){
   })();
   return _libs;
 }
+const TIERCOL_D={"Sleeping Giant":"#c99a5e","Primed":"#8fae72","Incumbent":"#7da3bd","Emerging Upside":"#bfae6a","Long Road":"#8d8a81"};
+function tcol(t){ return (curTheme()==="dark" ? TIERCOL_D : TIERCOL)[t] || "#8d8a81"; }
 function initGlobe(el, w, h, land){
   const g = Globe()(el).width(w).height(h)
     .backgroundColor("rgba(0,0,0,0)")
     .showAtmosphere(true).atmosphereColor("#bdb5a2").atmosphereAltitude(0.10)
-    .polygonsData(land)
-    .polygonCapColor(()=> "#f0eadd")
-    .polygonSideColor(()=> "rgba(23,22,20,0.06)")
-    .polygonStrokeColor(()=> "#9a958a")
-    .polygonAltitude(0.004)
-    .polygonsTransitionDuration(0);
+    .hexPolygonsData(land)
+    .hexPolygonResolution(3)
+    .hexPolygonMargin(0.68)
+    .hexPolygonColor(()=> curTheme()==="dark" ? "rgba(222,216,200,0.55)" : "rgba(23,22,20,0.42)");
   g.globeMaterial().color.set("#ddd4c2");
   g.globeMaterial().shininess = 2;
   g.controls().autoRotate = true; g.controls().enableZoom = false;
+  // rotation yields to attention: pause while the cursor is on the sphere
+  el.addEventListener("pointerenter", ()=>{ g.controls().autoRotate = false; });
+  el.addEventListener("pointerleave", ()=>{ g.controls().autoRotate = true; });
   return g;
 }
+const CARD = d=>`<div style="font-family:Georgia,'Times New Roman',serif;background:#f7f4ee;color:#171614;border:1px solid #171614;padding:8px 12px;font-size:13px;line-height:1.5;max-width:280px"><b>${d.c.fg} ${d.c.n}</b> &middot; <span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase">${d.c.t}</span><br>Ceiling ${fmtT(d.c.lo)}&ndash;${fmtT(d.c.hi)} &middot; Unlockable ${fmtT(d.c.u)}<br>GDC ${d.c.gdc<1?"<$1B":fmtT(d.c.gdc)} &middot; ${d.c.m>=100?Math.round(d.c.m):d.c.m.toFixed(1)}&times; GDP &middot; Readiness ${Math.round(d.c.re*100)}%</div>`;
 function plotOn(g, small){
   const rows = D.filter(c => !state.tier||c.t===state.tier);
   const maxHi = Math.max(...D.map(c=>c.hi));
-  g.pointsData(rows.map(c=>({lat:c.lat,lng:c.lng,c})))
-    .pointAltitude(d=>(small?0.012:0.015)+(small?0.34:0.42)*Math.sqrt(d.c.hi/maxHi))
-    .pointColor(d=>TIERCOL[d.c.t]||"#8d8a81")
-    .pointRadius(small?0.7:0.55)
-    .pointLabel(d=>`<div style="font-family:Georgia,'Times New Roman',serif;background:#f7f4ee;color:#171614;border:1px solid #171614;padding:8px 12px;font-size:13px;line-height:1.5;max-width:280px"><b>${d.c.fg} ${d.c.n}</b> &middot; <span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase">${d.c.t}</span><br>Ceiling ${fmtT(d.c.lo)}&ndash;${fmtT(d.c.hi)} &middot; Unlockable ${fmtT(d.c.u)}<br>GDC ${d.c.gdc<1?"<$1B":fmtT(d.c.gdc)} &middot; ${d.c.m>=100?Math.round(d.c.m):d.c.m.toFixed(1)}&times; GDP &middot; Readiness ${Math.round(d.c.re*100)}%</div>`)
-    .onPointClick(d=>openCard(d.c.sl));
+  // countries as matte pin-dots sized by ceiling (no extrusions)
+  g.labelsData(rows.map(c=>({lat:c.lat,lng:c.lng,c})))
+    .labelLat(d=>d.lat).labelLng(d=>d.lng)
+    .labelText(()=> "")
+    .labelDotRadius(d=> (small?0.55:0.45) + (small?1.05:0.95)*Math.sqrt(d.c.hi/maxHi))
+    .labelColor(d=> tcol(d.c.t))
+    .labelAltitude(0.008)
+    .labelLabel(CARD)
+    .onLabelClick(d=>openCard(d.c.sl));
+  // the news made visible: countries with live Wire signals pulse; stalls pulse claret
+  const active = rows.filter(c=>c.dl!==0);
+  g.ringsData(active.map(c=>({lat:c.lat,lng:c.lng,c})))
+    .ringLat(d=>d.lat).ringLng(d=>d.lng)
+    .ringAltitude(0.006)
+    .ringMaxRadius(d=> d.c.dl>0 ? 4.6 : 3.4)
+    .ringPropagationSpeed(1.4)
+    .ringRepeatPeriod(d=> 1700 + (d.c.n.length*53)%900)
+    .ringColor(d=>{ const base = d.c.dl>0 ? (curTheme()==="dark"?"143,174,114":"75,95,54") : (curTheme()==="dark"?"194,86,76":"125,32,39");
+      return t=>`rgba(${base},${Math.max(0,0.55*(1-t))})`; });
 }
 function plotGlobe(){ if(window._globe) plotOn(window._globe,false); if(window._hero) plotOn(window._hero,true); }
 function gsize(){ const el=document.getElementById("globe"); return {w: el.clientWidth, h: Math.min(640, Math.max(420, Math.round(window.innerWidth*0.62)))}; }
