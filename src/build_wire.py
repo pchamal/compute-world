@@ -46,6 +46,8 @@ PAGE = f'''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7f4ee">
+<script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>The Wire · Sovereign AI &amp; Compute Infrastructure News, Rated · compute.world</title>
 <meta name="description" content="Rated signals on sovereign AI and compute infrastructure: country announcements, AI factory buildouts, chip policy, and compute capital, each scored for credibility. Updated {W["updated"]}.">
 <link rel="canonical" href="https://compute.world/wire.html">
@@ -60,8 +62,11 @@ PAGE = f'''<!DOCTYPE html>
 <script type="application/ld+json">{LD}</script>
 <style>
 :root{{--paper:#f7f4ee;--ink:#171614;--muted:#62605a;--faint:#8d8a81;--rule:#cdc7b9;--rule2:#171614;
---accent:#7d2027;--tint:#efe9dd;--pr:#4b5f36;--sg:#8a5a2a;
+--accent:#7d2027;--tint:#efe9dd;--pr:#4b5f36;--sg:#8a5a2a;--barbg:#e2dcce;
 --serif:'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif}}
+html[data-theme="dark"]{{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9a9484;--rule:#3a352a;
+--rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--pr:#8fae72;--sg:#c99a5e;--barbg:#3a352a}}
+body{{transition:background-color .35s ease,color .35s ease}}
 *{{margin:0;padding:0;box-sizing:border-box}}
 html{{background:var(--paper)}}
 body{{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}}
@@ -100,7 +105,7 @@ h1 em{{font-style:italic}}
 .wcorr{{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase}}
 .c-confirmed{{color:var(--pr)}}.c-corroborated{{color:var(--sg)}}.c-singlesource{{color:var(--faint)}}.c-disputed{{color:var(--accent)}}
 .wscore{{font-variant-numeric:lining-nums tabular-nums;color:var(--muted);font-size:12.5px}}
-.bar{{display:inline-block;width:44px;height:4px;background:#e2dcce;margin-right:7px;vertical-align:2px}}
+.bar{{display:inline-block;width:44px;height:4px;background:var(--barbg);margin-right:7px;vertical-align:2px}}
 .bar i{{display:block;height:4px;background:var(--ink);transform-origin:left;animation:growx .7s ease-out}}
 @keyframes growx{{from{{transform:scaleX(0)}}to{{transform:scaleX(1)}}}}
 .rv{{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,.8,.26,1)}}
@@ -136,6 +141,7 @@ details.meth .mb b{{color:var(--ink)}}
       <a href="/wire.xml">RSS</a>
       <a href="https://x.com/intent/post?text=The%20Wire%3A%20sovereign%20AI%20and%20compute%20signals%2C%20rated.&url=https%3A%2F%2Fcompute.world%2Fwire.html" rel="noopener">Share on X</a>
       <a href="/contact.html">Submit a signal</a>
+      <a id="themetog" style="cursor:pointer" title="Defaults to your local time of day">Night</a>
     </div>
   </div>
 
@@ -169,8 +175,14 @@ document.querySelectorAll(".chip").forEach(function(ch){{
     }});
   }};
 }});
-var io = new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isIntersecting){{e.target.classList.add("in");io.unobserve(e.target);}}}})}},{{threshold:.08}});
+var io = new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isIntersecting){{e.target.classList.add("in");io.unobserve(e.target);}}}})}},{{threshold:0,rootMargin:"0px 0px -60px 0px"}});
 document.querySelectorAll(".rv").forEach(function(el){{io.observe(el)}});
+var tm=document.querySelector('meta[name="theme-color"]'), tg=document.getElementById("themetog");
+function cur(){{return document.documentElement.getAttribute("data-theme")==="dark"?"dark":"light"}}
+function setT(t){{document.documentElement.setAttribute("data-theme",t);try{{localStorage.setItem("cnw_theme",t)}}catch(e){{}}
+tm.content=t==="dark"?"#171511":"#f7f4ee";tg.textContent=t==="dark"?"Day":"Night";}}
+tg.onclick=function(){{setT(cur()==="dark"?"light":"dark")}};
+tg.textContent=cur()==="dark"?"Day":"Night";tm.content=cur()==="dark"?"#171511":"#f7f4ee";
 </script>
 </body>
 </html>'''

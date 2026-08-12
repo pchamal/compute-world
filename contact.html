@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7f4ee">
+<script>(function(){try{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
 <title>Contact · The Compute Net Worth Index · compute.world</title>
 <meta name="description" content="Contact compute.world. Corrections, better data, and collaboration on the Compute Net Worth Index.">
 <link rel="canonical" href="https://compute.world/contact.html">
@@ -17,6 +19,8 @@
 :root{--paper:#f7f4ee;--ink:#171614;--muted:#62605a;--faint:#8d8a81;--rule:#cdc7b9;--rule2:#171614;
 --accent:#7d2027;--tint:#efe9dd;--pr:#4b5f36;
 --serif:'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif}
+html[data-theme="dark"]{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9a9484;--rule:#3a352a;
+--rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--pr:#8fae72}
 *{margin:0;padding:0;box-sizing:border-box}
 html{background:var(--paper)}
 body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.62;
@@ -79,7 +83,7 @@ footer .c2{margin-top:10px;font-size:12px;color:var(--muted);letter-spacing:.05e
            Default below is Cloudflare's official "always passes" TEST key so the page works on first deploy.
            To turn on REAL bot verification: create a free widget at dash.cloudflare.com -> Turnstile,
            add the domain compute.world, and paste your Site Key in place of the test key below. -->
-      <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-callback="onHuman" data-theme="light"></div>
+      <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-callback="onHuman" data-theme="auto"></div>
 
       <div id="reveal">
         <a class="mailbtn" id="mailbtn" href="#">Email Pukar</a>

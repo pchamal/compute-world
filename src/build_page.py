@@ -158,10 +158,10 @@ for s in slim:
     s["rw"] = (latest["title"][:76] + ("…" if len(latest["title"]) > 76 else "")) if latest else \
               ("Live buildout underway" if bpts >= 0.7 else "Contracted, awaiting steel" if bpts >= 0.5 else
                "Announced, unproven" if bpts >= 0.25 else "No live signals yet")
-movers = sorted([s for s in slim if s["dl"] >= 0], key=lambda s: (-s["rz"], -s["u"]))[:5]
-fallers = sorted([s for s in slim if s["dl"] < 0], key=lambda s: -s["hi"])[:2]
+movers = sorted([s for s in slim if s["dl"] >= 0], key=lambda s: (-s["rz"], -s["u"]))[:10]
+fallers = sorted([s for s in slim if s["dl"] < 0], key=lambda s: -s["hi"])
 asleep = sorted([s for s in slim if s["rz"] < 12 and s["t"] == "Sleeping Giant" and s["dl"] >= 0],
-                key=lambda s: -s["hi"])[:3]
+                key=lambda s: -s["hi"])[:10 - len(fallers)]
 def _brow(rank, s, cls):
     arrow = "▲" if s["dl"] > 0 else ("▼" if s["dl"] < 0 else "·")
     return (f'<div class="mrow2"><span class="mr">{rank}</span><span class="mn"><a class="cardlink" data-sl="{s["sl"]}">'
@@ -169,7 +169,7 @@ def _brow(rank, s, cls):
             f'<span class="mwhy">{_html.escape(s["rw"], quote=False)}</span></div>')
 BOARD_UP = "".join(_brow(i + 1, s, "up" if s["dl"] > 0 else "flat") for i, s in enumerate(movers))
 BOARD_DN = "".join(_brow(i + 1, s, "dn") for i, s in enumerate(fallers)) + \
-           "".join(_brow(i + 3, s, "flat") for i, s in enumerate(asleep))
+           "".join(_brow(i + 1 + len(fallers), s, "flat") for i, s in enumerate(asleep))
 
 PARAMS = {"gw_ceiling_lo": 60, "gw_ceiling_hi": 80, "gw_central": 50, "rev_per_gw_yr": 10,
           "reviewed": "2026-08-10",
@@ -212,6 +212,8 @@ TPL = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7f4ee">
+<script>(function(){try{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
 __HEAD_META__
 <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23f7f4ee'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23171614' text-anchor='middle'>W</text></svg>">
@@ -232,7 +234,13 @@ __HEAD_META__
 <style>
 :root{--paper:#f7f4ee;--ink:#171614;--muted:#62605a;--faint:#8d8a81;--rule:#cdc7b9;--rule2:#171614;
 --accent:#7d2027;--tint:#efe9dd;--sg:#8a5a2a;--pr:#4b5f36;--in:#3c5568;--eu:#77662c;--lr:#8d8a81;
+--barbg:#e2dcce;--glass:rgba(247,244,238,.72);--glassborder:rgba(23,22,20,.35);
 --serif:'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif}
+html[data-theme="dark"]{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9a9484;--rule:#3a352a;
+--rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--sg:#c99a5e;--pr:#8fae72;--in:#7da3bd;--eu:#bfae6a;
+--lr:#8d8a81;--barbg:#3a352a;--glass:rgba(23,21,17,.72);--glassborder:rgba(236,231,219,.28)}
+html[data-theme="dark"] .chart svg,html[data-theme="dark"] .lg .sw,html[data-theme="dark"] .gleg i{filter:brightness(1.28) saturate(.92)}
+body,#fnav{transition:background-color .35s ease,color .35s ease,border-color .35s ease}
 *{margin:0;padding:0;box-sizing:border-box}
 html{background:var(--paper);scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.62;
@@ -242,9 +250,9 @@ a:hover{border-bottom-color:var(--accent)}
 .wrap{max-width:1280px;margin:0 auto;padding:0 28px}
 /* floating nav */
 #fnav{position:fixed;top:14px;left:50%;transform:translate(-50%,-160%);z-index:60;display:flex;gap:20px;align-items:center;
-padding:10px 22px;background:rgba(247,244,238,.72);backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
-border:1px solid rgba(23,22,20,.35);border-radius:99px;box-shadow:0 10px 34px rgba(23,22,20,.10);
-transition:transform .55s cubic-bezier(.22,.8,.26,1)}
+padding:10px 22px;background:var(--glass);backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
+border:1px solid var(--glassborder);border-radius:99px;box-shadow:0 10px 34px rgba(0,0,0,.12);
+transition:transform .55s cubic-bezier(.22,.8,.26,1),background-color .35s ease}
 #fnav.show{transform:translate(-50%,0)}
 #fnav .nb{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600}
 #fnav a{border:none;color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
@@ -257,9 +265,9 @@ background:none;border:none;color:var(--ink);cursor:pointer;padding:2px 0}
 @media(max-width:940px){
   #nburger{display:block}
   #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
-  align-items:flex-end;gap:13px;background:rgba(247,244,238,.88);backdrop-filter:blur(14px) saturate(1.1);
-  -webkit-backdrop-filter:blur(14px) saturate(1.1);border:1px solid rgba(23,22,20,.35);border-radius:16px;
-  padding:18px 24px;box-shadow:0 14px 40px rgba(23,22,20,.14);min-width:170px}
+  align-items:flex-end;gap:13px;background:var(--glass);backdrop-filter:blur(16px) saturate(1.1);
+  -webkit-backdrop-filter:blur(16px) saturate(1.1);border:1px solid var(--glassborder);border-radius:16px;
+  padding:18px 24px;box-shadow:0 14px 40px rgba(0,0,0,.16);min-width:170px}
   #fnav .nlinks.open{display:flex;animation:navdrop .35s cubic-bezier(.22,.8,.26,1)}
   @keyframes navdrop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
 }
@@ -363,7 +371,7 @@ text-align:right;padding:4px 10px 8px;border-bottom:1px solid var(--rule2);white
 .d-demo{color:var(--pr)}.d-hyb{color:var(--sg)}.d-auth{color:var(--accent)}
 .agency{color:var(--faint);font-size:10.5px;margin-left:4px}
 @keyframes growx{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-.bar{display:inline-block;width:36px;height:4px;background:#e2dcce;vertical-align:2px;margin-right:6px}
+.bar{display:inline-block;width:36px;height:4px;background:var(--barbg);vertical-align:2px;margin-right:6px}
 .bar i{display:block;height:4px;background:var(--ink);transform-origin:left;animation:growx .6s ease-out}
 .bar.b2 i{background:var(--accent)}
 .mult{color:var(--sg);font-weight:600}
@@ -401,7 +409,7 @@ details.gloss p b{color:var(--ink)}
 .brow .bl{flex:0 0 178px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .brow .bl a.cardlink{border:none;color:var(--ink);cursor:pointer}
 .brow .bl a.cardlink:hover{color:var(--accent)}
-.brow .bt{flex:1 1 auto;height:6px;background:#e2dcce}
+.brow .bt{flex:1 1 auto;height:6px;background:var(--barbg)}
 .brow .bt i{display:block;height:6px;background:var(--sg);transform-origin:left;animation:growx .9s cubic-bezier(.22,.8,.26,1)}
 .brow .bt i.bg{background:var(--pr)}
 .brow .bv{flex:0 0 60px;text-align:right;font-variant-numeric:lining-nums tabular-nums}
@@ -471,6 +479,10 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
 .board.rv.in .mrow2:nth-child(2){animation-delay:.05s}.board.rv.in .mrow2:nth-child(3){animation-delay:.10s}
 .board.rv.in .mrow2:nth-child(4){animation-delay:.15s}.board.rv.in .mrow2:nth-child(5){animation-delay:.20s}
 .board.rv.in .mrow2:nth-child(6){animation-delay:.25s}
+.board.rv.in .mrow2:nth-child(7){animation-delay:.30s}.board.rv.in .mrow2:nth-child(8){animation-delay:.35s}
+.board.rv.in .mrow2:nth-child(9){animation-delay:.40s}.board.rv.in .mrow2:nth-child(10){animation-delay:.45s}
+.board.rv.in .mrow2:nth-child(11){animation-delay:.50s}
+.edition a{cursor:pointer}
 .charts .chart.rv.in .brow{opacity:0;animation:rise .45s ease-out both}
 .charts .chart.rv.in .brow:nth-child(2){animation-delay:.04s}.charts .chart.rv.in .brow:nth-child(3){animation-delay:.08s}
 .charts .chart.rv.in .brow:nth-child(4){animation-delay:.12s}.charts .chart.rv.in .brow:nth-child(5){animation-delay:.16s}
@@ -534,7 +546,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
     <div class="name"><b>COMPUTE</b>.WORLD</div>
     <div class="sub">The Compute Net Worth Index&#8482; · No. 1 · August 2026</div>
     <div class="mastrule"></div>
-    <div class="edition"><span class="on">For humans</span> · <a href="/agents.html">For agents</a></div>
+    <div class="edition"><span class="on">For humans</span> · <a href="/agents.html">For agents</a> · <a id="themetog" title="Defaults to your local time of day; your choice is remembered">Night</a></div>
   </div>
 
   <div class="lede">
@@ -927,6 +939,21 @@ if(isNarrow()){
     _oc(sl); };
 }
 document.querySelectorAll(".cardlink").forEach(a=>{ a.onclick=()=>openCard(a.dataset.sl); });
+// day / night: boots from local time (dark 19:00-07:00), one tap to override, choice remembered
+const themeMeta=document.querySelector('meta[name="theme-color"]'), themeTog=document.getElementById("themetog");
+function curTheme(){ return document.documentElement.getAttribute("data-theme")==="dark"?"dark":"light"; }
+function applyGlobeTheme(){ if(!window._globe) return; const d=curTheme()==="dark";
+  window._globe.globeMaterial().color.set(d?"#26221a":"#ddd4c2");
+  window._globe.polygonCapColor(()=>d?"#332d21":"#f0eadd").polygonStrokeColor(()=>d?"#6b6558":"#9a958a")
+    .polygonSideColor(()=>d?"rgba(236,231,219,0.05)":"rgba(23,22,20,0.06)");
+  window._globe.atmosphereColor(d?"#55503f":"#bdb5a2"); }
+function setTheme(t, save){ document.documentElement.setAttribute("data-theme",t);
+  if(save){ try{ localStorage.setItem("cnw_theme",t); }catch(e){} }
+  themeMeta.content = t==="dark" ? "#171511" : "#f7f4ee";
+  themeTog.textContent = t==="dark" ? "Day" : "Night";
+  applyGlobeTheme(); }
+themeTog.onclick = ()=>setTheme(curTheme()==="dark"?"light":"dark", true);
+setTheme(curTheme(), false);
 const nb=document.getElementById("nburger"), nl=document.getElementById("nlinks");
 nb.onclick=(e)=>{ e.stopPropagation(); const open=nl.classList.toggle("open"); nb.setAttribute("aria-expanded",open); };
 nl.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nl.classList.remove("open")));
@@ -975,7 +1002,7 @@ async function showGlobe(){
     window._globe.globeMaterial().shininess = 2;
     window._globe.controls().autoRotate=true; window._globe.controls().autoRotateSpeed=0.5;
     window._globe.pointOfView({lat:24, lng:64, altitude:2.1});
-    plotGlobe(); msg.textContent="";
+    applyGlobeTheme(); plotGlobe(); msg.textContent="";
     window.addEventListener("resize",()=>{ const s=gsize(); window._globe.width(s.w).height(s.h); });
   }catch(e){ msg.textContent="The globe needs a network connection. The table has everything."; }
   _loading=false;
@@ -1152,10 +1179,19 @@ arows = "".join(
 AGENTS = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Compute Net Worth Index · Agent Edition · compute.world</title>
+<script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <meta name="description" content="Machine-readable edition of The Compute Net Worth Index: all 108 countries, every metric, definitions, license, and citation instructions for AI agents.">
 <link rel="canonical" href="https://compute.world/agents.html">
 <meta name="robots" content="index,follow">
 <style>body{{background:#f7f4ee;color:#171614;font-family:'Charter',Cambria,Georgia,serif;font-size:14px;line-height:1.6;max-width:1200px;margin:0 auto;padding:30px 24px}}
+html[data-theme="dark"] body{{background:#171511;color:#ece7db}}
+html[data-theme="dark"] a{{color:#c2564c}}
+html[data-theme="dark"] h1,html[data-theme="dark"] th{{border-color:#ded8c8}}
+html[data-theme="dark"] th{{color:#a49e8f}}
+html[data-theme="dark"] td{{border-color:#3a352a}}
+html[data-theme="dark"] code,html[data-theme="dark"] pre{{background:#231f17}}
+html[data-theme="dark"] .ed{{color:#9a9484}}
+html[data-theme="dark"] .ed b{{color:#ece7db;border-color:#ece7db}}
 h1{{font-weight:400;font-size:26px;border-bottom:2px solid #171614;padding-bottom:10px}}h2{{font-weight:600;font-size:15px;margin:26px 0 8px}}
 a{{color:#7d2027}}table{{border-collapse:collapse;width:100%;font-size:12.5px;font-variant-numeric:tabular-nums}}
 th,td{{border-bottom:1px solid #cdc7b9;padding:4px 7px;text-align:right;white-space:nowrap}}
