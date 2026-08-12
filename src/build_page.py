@@ -989,8 +989,13 @@ document.getElementById("vtab").onclick=()=>{ state.view="table";
 // ---- floating nav + reveal animations ----
 const nav=document.getElementById("fnav");
 window.addEventListener("scroll",()=>{ nav.classList.toggle("show", window.scrollY>420); },{passive:true});
-const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }),{threshold:.12});
+// threshold 0: reveal as soon as the element's edge enters the viewport. A percentage threshold
+// can never fire for sections taller than the screen (the gazetteer), leaving them invisible.
+const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }),{threshold:0, rootMargin:"0px 0px -60px 0px"});
 document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+// belt and braces: anything still hidden after load (e.g. arriving via a deep link mid-page) reveals itself
+setTimeout(()=>{ document.querySelectorAll(".rv:not(.in)").forEach(el=>{ const r=el.getBoundingClientRect();
+  if(r.top < window.innerHeight && r.bottom > 0){ el.classList.add("in"); io.unobserve(el); } }); }, 900);
 
 // ---- live layer: params.json weekly + IMF/WB daily, cached 24h ----
 const LS="cnw_live_v15";
