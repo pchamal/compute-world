@@ -50,6 +50,8 @@ for c in data:
 RF = {"AAA":1.0,"AA":0.95,"A":0.85,"BBB":0.72,"BB":0.55,"B":0.40,"CCC":0.18,"CC":0.15,"C":0.15,"SD":0.10,"RD":0.10,"NR":0.28}
 for s in slim: s["rf"] = RF.get(s["cr"].rstrip("+-"), 0.28)
 
+# (CNW Realized is computed after the precedents table is defined; see below prec_rows)
+
 sum_hi = sum(s["hi"] for s in slim)/1000; sum_u = sum(s["u"] for s in slim)/1000
 sum_gdc = sum(s["gdc"] for s in slim)/1000; tap_global = sum(s["gdc"] for s in slim)/sum(s["hi"] for s in slim)
 demT = {k: sum(s["hi"] for s in slim if s["d"]==k)/1000 for k in ("Democracy","Hybrid","Authoritarian")}
@@ -119,6 +121,55 @@ prec_rows = "".join(
     f'<tr><td class="l">{f} {c}</td><td class="l">{p}</td><td class="l">{s}</td>'
     f'<td class="l"><span class="st {STCLS[st]}">{st}</span></td><td>{d}</td></tr>'
     for f,c,p,s,st,d in PREC)
+
+# ---- CNW REALIZED: conversion 35% + pipeline 25% + signal velocity 25% + execution 15% ----
+from datetime import datetime as _dt
+import html as _html
+TODAY = _dt(2026, 8, 11)
+try:
+    WIRE = json.load(open("wire.json"))["items"]
+except Exception:
+    WIRE = []
+STATUS_PTS = {"Live": 1.0, "Building": 0.7, "Contracted": 0.5, "Announced": 0.25, "Stalled": 0.1}
+PREC_STATUS = {}
+_alias = {"UK": "United Kingdom"}
+for _f, _c, _p, _s, _st, _d in PREC:
+    _n = _alias.get(_c, _c)
+    if _n == "EU": continue
+    _b, _cnt, _stall = PREC_STATUS.get(_n, (0.0, 0, False))
+    PREC_STATUS[_n] = (max(_b, STATUS_PTS[_st]), _cnt + 1, _stall or _st == "Stalled")
+mom_of = {c["name"]: c["momentum"] for c in data}
+for s in slim:
+    conv = min(1.0, s["tap"] / 0.10)                      # tapping 10% of your ceiling = full marks
+    bpts, cnt, has_stall = PREC_STATUS.get(s["n"], (0.0, 0, False))
+    pipeline = max(min(1.0, bpts + 0.1 * (cnt - 1)) if cnt else 0.0, mom_of[s["n"]] * 0.6)
+    vel = 0.0; latest = None
+    for it in WIRE:
+        if s["i3"] in it.get("countries", []):
+            days = (TODAY - _dt.strptime(it["date"], "%Y-%m-%d")).days
+            decay = max(0.0, 1 - days / 120)
+            sgn = -0.5 if "Stall" in it.get("tags", []) else 1.0
+            vel += sgn * (it["score"] / 100) * decay
+            if latest is None or it["date"] > latest["date"]: latest = it
+    sig = min(1.0, max(0.0, vel) / 1.5)
+    execu = min(1.0, s["b"] / 0.5)
+    s["rz"] = round(100 * (0.35 * conv + 0.25 * pipeline + 0.25 * sig + 0.15 * execu))
+    s["dl"] = 1 if vel > 0.15 else (-1 if (vel < -0.05 or (has_stall and vel <= 0)) else 0)
+    s["rw"] = (latest["title"][:76] + ("…" if len(latest["title"]) > 76 else "")) if latest else \
+              ("Live buildout underway" if bpts >= 0.7 else "Contracted, awaiting steel" if bpts >= 0.5 else
+               "Announced, unproven" if bpts >= 0.25 else "No live signals yet")
+movers = sorted([s for s in slim if s["dl"] >= 0], key=lambda s: (-s["rz"], -s["u"]))[:5]
+fallers = sorted([s for s in slim if s["dl"] < 0], key=lambda s: -s["hi"])[:2]
+asleep = sorted([s for s in slim if s["rz"] < 12 and s["t"] == "Sleeping Giant" and s["dl"] >= 0],
+                key=lambda s: -s["hi"])[:3]
+def _brow(rank, s, cls):
+    arrow = "▲" if s["dl"] > 0 else ("▼" if s["dl"] < 0 else "·")
+    return (f'<div class="mrow2"><span class="mr">{rank}</span><span class="mn"><a class="cardlink" data-sl="{s["sl"]}">'
+            f'{s["fg"]} {s["n"]}</a></span><span class="ms {cls}">{s["rz"]} {arrow}</span>'
+            f'<span class="mwhy">{_html.escape(s["rw"], quote=False)}</span></div>')
+BOARD_UP = "".join(_brow(i + 1, s, "up" if s["dl"] > 0 else "flat") for i, s in enumerate(movers))
+BOARD_DN = "".join(_brow(i + 1, s, "dn") for i, s in enumerate(fallers)) + \
+           "".join(_brow(i + 3, s, "flat") for i, s in enumerate(asleep))
 
 PARAMS = {"gw_ceiling_lo": 60, "gw_ceiling_hi": 80, "gw_central": 50, "rev_per_gw_yr": 10,
           "reviewed": "2026-08-10",
@@ -199,7 +250,36 @@ transition:transform .55s cubic-bezier(.22,.8,.26,1)}
 #fnav a{border:none;color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
 #fnav a:hover{color:var(--accent)}
 #fnav .ndot{width:6px;height:6px;border-radius:50%;background:var(--pr)}
-@media(max-width:900px){#fnav .hm{display:none}}
+#fnav .nlinks{display:flex;gap:20px;align-items:center}
+#nburger{display:none;font-family:var(--serif);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+background:none;border:none;color:var(--ink);cursor:pointer;padding:2px 0}
+#nburger:hover{color:var(--accent)}
+@media(max-width:940px){
+  #nburger{display:block}
+  #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
+  align-items:flex-end;gap:13px;background:rgba(247,244,238,.88);backdrop-filter:blur(14px) saturate(1.1);
+  -webkit-backdrop-filter:blur(14px) saturate(1.1);border:1px solid rgba(23,22,20,.35);border-radius:16px;
+  padding:18px 24px;box-shadow:0 14px 40px rgba(23,22,20,.14);min-width:170px}
+  #fnav .nlinks.open{display:flex;animation:navdrop .35s cubic-bezier(.22,.8,.26,1)}
+  @keyframes navdrop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+}
+.board{margin:44px 0 0;border-top:2px solid var(--rule2);padding-top:18px}
+.board .bt{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin-bottom:16px}
+.board h2{font-size:13.5px}
+.board .bsub{font-size:12px;color:var(--faint);font-style:italic}
+.bcols{display:grid;grid-template-columns:1fr 1fr;gap:10px 54px}
+@media(max-width:900px){.bcols{grid-template-columns:1fr}}
+.bhead{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);
+border-bottom:1px solid var(--rule2);padding-bottom:7px;margin-bottom:4px}
+.mrow2{display:flex;align-items:baseline;gap:12px;padding:8.5px 0;border-bottom:1px solid var(--rule);font-size:14.5px}
+.mrow2 .mr{flex:0 0 16px;color:var(--faint);font-size:12px;font-variant-numeric:tabular-nums}
+.mrow2 .mn{flex:0 0 190px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mrow2 .mn a{border:none;color:var(--ink);cursor:pointer}
+.mrow2 .mn a:hover{color:var(--accent)}
+.mrow2 .ms{flex:0 0 58px;font-variant-numeric:lining-nums tabular-nums;font-weight:600}
+.ms.up{color:var(--pr)}.ms.dn{color:var(--accent)}.ms.flat{color:var(--muted)}
+.mrow2 .mwhy{flex:1 1 auto;color:var(--faint);font-size:12.5px;font-style:italic;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:640px){.mrow2 .mwhy{display:none}}
 .masthead{padding:34px 0 0;text-align:center}
 .masthead .name{font-size:15px;letter-spacing:.34em;text-transform:uppercase}
 .masthead .name b{font-weight:600}
@@ -382,8 +462,11 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
 
 <nav id="fnav" aria-label="Sections">
   <span class="nb">CW</span><span class="ndot" title="Live data"></span>
-  <a href="#index">Index</a><a href="#shape" class="hm">Charts</a><a href="#objections" class="hm">Objections</a>
-  <a href="#precedents">Precedents</a><a href="#gazetteer" class="hm">Gazetteer</a><a href="/wire.html">Wire</a><a href="#credit" class="hm">Cite</a><a href="/contact.html">Contact</a>
+  <button id="nburger" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <div class="nlinks" id="nlinks">
+    <a href="#board">Board</a><a href="#index">Index</a><a href="#shape">Charts</a><a href="#objections">Objections</a>
+    <a href="#precedents">Precedents</a><a href="#gazetteer">Gazetteer</a><a href="/wire.html">Wire</a><a href="#credit">Cite</a><a href="/contact.html">Contact</a>
+  </div>
 </nav>
 
 <div class="wrap">
@@ -398,6 +481,14 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
     <p class="standfirst">Compute Net Worth is the value of AI compute that a nation's own energy and geography could host. NVIDIA prices a gigawatt of AI factory at <b id="pxband">$50 to $60 billion</b> today and says $80 to $100 billion is coming.<sup><a href="#n1">1</a></sup> A kilowatt-hour exported as raw power earns a country about five cents. Run the same kilowatt-hour through a contracted GPU cloud and it produces somewhere between $1.00 and $2.40.<sup><a href="#n2">2</a></sup> Compute is applied electrons. And the map of who holds the electrons looks nothing like the map of GDP. One more thing, because it changes how you should read every number below: these are scarcity prices. <i>Scarcity prices decay. This is a race.</i></p>
     <div class="byline">Published August 10, 2026 · 108 countries · Every input sourced, every weight editable</div>
     <div id="livestatus"><span class="dot"></span><span id="lstext">Snapshot of August 10, 2026 · live refresh loading&hellip;</span></div>
+  </div>
+
+  <div class="board rv" id="board">
+    <div class="bt"><h2>The Realized Board</h2><span class="bsub">Who is converting Compute Net Worth into compute · recomputes with every Wire update · CNW Realized = 35% conversion + 25% pipeline + 25% signal velocity + 15% execution</span></div>
+    <div class="bcols">
+      <div><div class="bhead">Moving ahead</div>__BOARD_UP__</div>
+      <div><div class="bhead">Falling behind &amp; asleep</div>__BOARD_DN__</div>
+    </div>
   </div>
 
   <div class="figures rv">
@@ -443,7 +534,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
       <tr>
         <th class="grp" colspan="3"></th>
         <th class="grp" colspan="5" style="text-align:right" title="Priced from the weekly-reviewed value of compute per GW">Valuation</th>
-        <th class="grp" colspan="2" style="text-align:right">Execution</th>
+        <th class="grp" colspan="3" style="text-align:right">Execution</th>
         <th class="grp" colspan="2">Institutions</th>
         <th class="grp" colspan="5" style="text-align:right" title="Refreshed from IMF and World Bank APIs">Macro &middot; live</th>
       </tr>
@@ -456,6 +547,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
         <th class="col" data-k="gdc" title="Gross Domestic Compute: live datacenter GW x $50B. What hums today.">GDC&#8482;</th>
         <th class="col" data-k="m" title="CNW ceiling (high end) divided by current GDP">Ceiling as &times; of GDP</th>
         <th class="col" data-k="upc" title="CNW Unlockable divided by population. Dollars per person.">Unlockable / person</th>
+        <th class="col" data-k="rz" title="CNW Realized: 35% conversion (GDC / ceiling) + 25% pipeline (precedent status) + 25% signal velocity (Wire items, 120-day decay) + 15% execution (built share). Arrows show direction of recent signals.">Realized</th>
         <th class="col" data-k="re" title="Readiness discount: how underwritable the endowment is today. Not the share built.">Readiness</th>
         <th class="col" data-k="b" title="(Hydro + geothermal developed) / resource ceiling">Built</th>
         <th class="col l" data-k="ds" title="EIU Democracy Index 2025 in three buckets. Sorts by EIU score.">Democracy</th>
@@ -481,6 +573,7 @@ padding:34px 38px 28px;position:relative;transform:translateY(14px);opacity:0;tr
         <p><b>GDC&#8482; (Gross Domestic Compute).</b> Live datacenter IT capacity in GW times the central $50 billion. The tapped counterpart to CNW: what GDP is to output, GDC is to compute. Capacity data: SemiAnalysis, Cushman &amp; Wakefield, Rystad, Knight Frank, national reports, mid-2026; smaller markets are estimates.<sup><a href="#n8">8</a></sup> Valuing all live capacity at the AI-factory figure is a deliberate simplification and flagged as one.</p>
         <p><b>Ceiling as &times; of GDP.</b> CNW ceiling, high end, divided by current-year nominal GDP. The multiple that tells you whether the endowment is a rounding error or a destiny. Named plainly so nobody mistakes it for a forecast.</p>
         <p><b>Unlockable / person.</b> CNW Unlockable divided by population. The per-citizen stake in the conversion. Population: IMF, 2026.</p>
+        <p><b>Realized.</b> CNW Realized, 0 to 100: 35% conversion (GDC as a share of the resource ceiling; tapping 10% earns full marks) + 25% pipeline (best precedent status: live 1.0, building 0.7, contracted 0.5, announced 0.25, stalled 0.1) + 25% signal velocity (Wire items for the country, weighted by Signal Score with 120-day decay; stalls subtract) + 15% execution (built share). Arrows mark direction from recent signals. It recomputes with every Wire update, which means a country moves on this board by doing things in public. That is the point.</p>
         <p><b>Readiness.</b> The discount stack: 18% governance (Transparency International CPI 2025) + 13% political stability + 14% GPU access under the actual August 2026 export regime<sup><a href="#n3">3</a></sup> + 11% grid + 11% fiber + 8% momentum + 14% physical (cooling &times; seismic &times; water) + 11% capital access (rating + IMF financial development). Named Readiness, and deliberately never Realization, because it prices what could be underwritten, and says nothing about what has been.</p>
         <p><b>Built.</b> Hydro plus geothermal capacity already installed, divided by the Resource Ceiling. The physical fact the Readiness score is often mistaken for. Installed capacity: IHA 2024, national data.</p>
         <p><b>Tier.</b> Sleeping Giant: ceiling at least 10&times; GDP and readiness under 65%. Primed: readiness 65%+ with ceiling at least 3&times; GDP. Incumbent: ready, already priced in. Emerging Upside: in between.</p>
@@ -669,6 +762,7 @@ function render(){
       <td>${fmtGDC(c)}</td>
       <td class="mult">${c.m>=100?Math.round(c.m):c.m.toFixed(1)}&times;</td>
       <td>${fmtPC(c.upc)}</td>
+      <td><span class="${c.dl>0?"ms up":c.dl<0?"ms dn":"ms flat"}" style="font-weight:600">${c.rz} ${c.dl>0?"▲":c.dl<0?"▼":"·"}</span></td>
       <td><span class="bar"><i style="width:${Math.round(c.re*100)}%"></i></span>${Math.round(c.re*100)}%</td>
       <td><span class="bar b2"><i style="width:${Math.min(100,Math.round(c.b*100))}%"></i></span>${(c.b*100).toFixed(1)}%</td>
       <td class="l"><span class="dem ${dcls(c.d)}" title="EIU 2025 score ${c.ds.toFixed(2)} (published class: ${c.dc})${c.dn?" — adjusted; open row":""}">${c.d}${c.dn?"*":""}</span></td>
@@ -679,7 +773,7 @@ function render(){
       <td>${fmtB(c.res,c.resE)}</td>
       <td>${fmtB(c.m2,true)}</td>`;
     const det = document.createElement("tr"); det.className="detail"; det.style.display="none";
-    det.innerHTML = `<td colspan="17"><span class="k">${c.r} &middot; resource ceiling ${Math.round(c.gw)} GW &middot; firm untapped ${c.f} GW &middot; live compute ${c.lg>=1?c.lg.toFixed(1)+" GW":Math.round(c.lg*1000)+" MW"} (${(c.tap*100).toFixed(2)}% tapped) &middot; ceiling per person ${fmtPC(c.cpc)} &middot; EIU 2025 ${c.ds.toFixed(2)} (${c.dc}) &middot; rating ${c.cr}${c.ca_!=="unrated"?" from "+c.ca_:""} &middot; IMF FD ${c.fd} &middot; MSCI ${c.ms} &middot; <span class="cardbtn" data-sl="${c.sl}">Open shareable card</span></span><br>${c.note||"&mdash;"}${c.dn?`<br>* ${c.dn}`:""}</td>`;
+    det.innerHTML = `<td colspan="18"><span class="k">${c.r} &middot; realized ${c.rz} (${c.rw}) &middot; resource ceiling ${Math.round(c.gw)} GW &middot; firm untapped ${c.f} GW &middot; live compute ${c.lg>=1?c.lg.toFixed(1)+" GW":Math.round(c.lg*1000)+" MW"} (${(c.tap*100).toFixed(2)}% tapped) &middot; ceiling per person ${fmtPC(c.cpc)} &middot; EIU 2025 ${c.ds.toFixed(2)} (${c.dc}) &middot; rating ${c.cr}${c.ca_!=="unrated"?" from "+c.ca_:""} &middot; IMF FD ${c.fd} &middot; MSCI ${c.ms} &middot; <span class="cardbtn" data-sl="${c.sl}">Open shareable card</span></span><br>${c.note||"&mdash;"}${c.dn?`<br>* ${c.dn}`:""}</td>`;
     tr.onclick = (e)=>{ const cn=e.target.closest(".cname"); if(cn){ openCard(cn.dataset.sl); return; }
       det.style.display = det.style.display==="none"?"":"none"; };
     det.querySelector(".cardbtn").onclick = (e)=>{ openCard(e.target.dataset.sl); };
@@ -748,6 +842,10 @@ document.getElementById("ccover").onclick=(e)=>{ if(e.target.id==="ccover") clos
 document.addEventListener("keydown",(e)=>{ if(e.key==="Escape") closeCard(); });
 document.querySelectorAll(".gzcols h3").forEach(h=>{ h.onclick=()=>openCard(h.closest("article").id); });
 document.querySelectorAll(".cardlink").forEach(a=>{ a.onclick=()=>openCard(a.dataset.sl); });
+const nb=document.getElementById("nburger"), nl=document.getElementById("nlinks");
+nb.onclick=(e)=>{ e.stopPropagation(); const open=nl.classList.toggle("open"); nb.setAttribute("aria-expanded",open); };
+nl.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nl.classList.remove("open")));
+document.addEventListener("click",(e)=>{ if(!nl.contains(e.target)&&e.target!==nb) nl.classList.remove("open"); });
 function routeHash(){ const sl=location.hash.replace("#",""); if(sl && bySlug(sl)) openCard(sl); }
 window.addEventListener("hashchange",routeHash);
 
@@ -857,6 +955,7 @@ html = (TPL.replace("__DATA__", json.dumps(slim, ensure_ascii=False))
            .replace("__CHART_A__", chartA).replace("__LEG_A__", legA)
            .replace("__CHART_B__", chartB).replace("__LEG_B__", legB)
            .replace("__BAR_C__", barC).replace("__BAR_D__", barD).replace("__BAR_E__", barE)
+           .replace("__BOARD_UP__", BOARD_UP).replace("__BOARD_DN__", BOARD_DN)
            .replace("__DSG_COUNT__", str(demSG_count)).replace("__DSG_SUM__", f"{demSG_sum:.0f}")
            .replace("__GAZ__", gaz_html).replace("__PREC_ROWS__", prec_rows))
 open("2026-08-10 — Compute World — compute.world Launch Page v1.5.html","w").write(html)

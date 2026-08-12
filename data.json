@@ -239,7 +239,10 @@
    "fd": 0.213,
    "ms": "-",
    "note": "83 GW theoretical (WECS/Shrestha) / 42.1 GW econ feasible; exports 3.877 TWh FY25/26 at ~NPR 7.56/kWh",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 20,
+   "dl": 1,
+   "rw": "Nepal books record power exports: NPR 29.32B for 3.877 TWh at roughly $0.054…"
   },
   {
    "n": "Bhutan",
@@ -281,7 +284,10 @@
    "fd": 0.227,
    "ms": "-",
    "note": "30 GW gross / 23.76 GW techno-econ feasible; state Bitcoin mining precedent (Druk/Bitdeer)",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 12,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "India",
@@ -323,7 +329,10 @@
    "fd": 0.534,
    "ms": "Emerging",
    "note": "CEA assessed 145.3 GW (>25MW); Feb 2026 US trade framework incl. GPUs",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 40,
+   "dl": 1,
+   "rw": "Meta signs its first India AI datacenter deal: a 168 MW JV inside Reliance's…"
   },
   {
    "n": "Pakistan",
@@ -365,7 +374,10 @@
    "fd": 0.22,
    "ms": "Frontier",
    "note": "WAPDA/NEPRA ~60 GW identified; 2 GW allocated to mining/AI DCs 2025",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 12,
+   "dl": 0,
+   "rw": "Announced, unproven"
   },
   {
    "n": "Bangladesh",
@@ -407,7 +419,10 @@
    "fd": 0.243,
    "ms": "Frontier",
    "note": "Kaptai only; Rooppur nuclear building",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 8,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Sri Lanka",
@@ -449,7 +464,10 @@
    "fd": 0.261,
    "ms": "Frontier",
    "note": "Hydro largely developed; Mannar wind",
-   "rf": 0.18
+   "rf": 0.18,
+   "rz": 8,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Afghanistan",
@@ -491,7 +509,10 @@
    "fd": 0.05,
    "ms": "-",
    "note": "~23 GW cited (n.v.); crisis state",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 3,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Kazakhstan",
@@ -533,7 +554,10 @@
    "fd": 0.354,
    "ms": "Frontier",
    "note": "$10B NVIDIA/Firebird Ekibastuz deal Jun 2026; 300MW->1GW; uranium #1",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 23,
+   "dl": 1,
+   "rw": "Kazakhstan signs $10B with NVIDIA and Firebird for a gigawatt-scale Data Cen…"
   },
   {
    "n": "Uzbekistan",
@@ -575,7 +599,10 @@
    "fd": 0.286,
    "ms": "-",
    "note": "Mountain hydro program growing; uranium #5",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 20,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Kyrgyzstan",
@@ -617,7 +644,10 @@
    "fd": 0.136,
    "ms": "-",
    "note": "142 TWh/yr tech, <10% used (EST-CF045); Kambar-Ata-1 revived; re-export scrutiny",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 12,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Tajikistan",
@@ -659,7 +689,10 @@
    "fd": 0.106,
    "ms": "-",
    "note": "527 TWh/yr gross, 45% tech share assumed then EST-CF045; Rogun 3.6 GW ramping",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 7,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Turkmenistan",
@@ -701,7 +734,10 @@
    "fd": 0.105,
    "ms": "-",
    "note": "Stranded gas reserves; closed economy",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Georgia",
@@ -743,7 +779,10 @@
    "fd": 0.333,
    "ms": "-",
    "note": "~15 GW tech (n.v.); govt 10 GW by 2032 target; own Black Sea cable",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 16,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Armenia",
@@ -785,7 +824,10 @@
    "fd": 0.262,
    "ms": "-",
    "note": "Firebird AI factory LIVE Aug 2026; 70k+ GPUs/300MW by end-2027 roadmap",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 53,
+   "dl": 1,
+   "rw": "Firebird's Armenia AI factory goes live: frontier-market sovereign compute h…"
   },
   {
    "n": "Azerbaijan",
@@ -827,7 +869,10 @@
    "fd": 0.253,
    "ms": "-",
    "note": "Kura hydro modest; gas exporter",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 12,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "China",
@@ -869,7 +914,10 @@
    "fd": 0.634,
    "ms": "Emerging",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 41,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Japan",
@@ -911,7 +959,10 @@
    "fd": 0.888,
    "ms": "Developed",
    "note": "23 GW geothermal resource (3rd largest), 0.61 installed; consenting-constrained",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 40,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "South Korea",
@@ -953,7 +1004,10 @@
    "fd": 0.818,
    "ms": "Emerging",
    "note": "260k+ GPU sovereign program Oct 2025",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 59,
+   "dl": 1,
+   "rw": "South Korea's AIDC Alliance sets an 18.4 GW datacenter target by 2035"
   },
   {
    "n": "Taiwan",
@@ -995,7 +1049,10 @@
    "fd": 0.7,
    "ms": "Emerging",
    "note": "World-class offshore wind; thin reserve margin; cable-cut incidents",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 39,
+   "dl": 1,
+   "rw": "Huang at GTC Taipei: AI factories at $50-60B per GW now, $80-100B per GW soo…"
   },
   {
    "n": "Mongolia",
@@ -1037,7 +1094,10 @@
    "fd": 0.308,
    "ms": "-",
    "note": "Gobi solar/wind exceptional; RU/CN-only fiber transit",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Vietnam",
@@ -1079,7 +1139,10 @@
    "fd": 0.382,
    "ms": "Frontier",
    "note": "123 TWh/yr tech >75% tapped (EST-CF045); offshore wind south",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 28,
+   "dl": 0,
+   "rw": "Contracted, awaiting steel"
   },
   {
    "n": "Laos",
@@ -1121,7 +1184,10 @@
    "fd": 0.17,
    "ms": "-",
    "note": "Battery of SE Asia; 26 GW incl Mekong mainstem; ~33 TWh exports; EDL debt distress",
-   "rf": 0.18
+   "rf": 0.18,
+   "rz": 19,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Cambodia",
@@ -1163,7 +1229,10 @@
    "fd": 0.21,
    "ms": "-",
    "note": "~10 GW cited (n.v.)",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 7,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Myanmar",
@@ -1205,7 +1274,10 @@
    "fd": 0.126,
    "ms": "-",
    "note": "WB 108 GW identified / ADB 46 GW at 92 large sites; civil war",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 4,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Thailand",
@@ -1247,7 +1319,10 @@
    "fd": 0.731,
    "ms": "Emerging",
    "note": "Mature market",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 17,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Malaysia",
@@ -1289,7 +1364,10 @@
    "fd": 0.727,
    "ms": "Emerging",
    "note": "Johor DC boom; Strategic Trade Permit regime = compliance credibility",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 63,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Indonesia",
@@ -1331,7 +1409,10 @@
    "fd": 0.364,
    "ms": "Emerging",
    "note": "75 GW hydro (ESDM) + 23.7 GW geothermal resource (world #2); Indosat 1 GW program",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 31,
+   "dl": 1,
+   "rw": "Indonesia's Indosat launches Zankore, a 1 GW AI-factory platform with Ooredo…"
   },
   {
    "n": "Philippines",
@@ -1373,7 +1454,10 @@
    "fd": 0.379,
    "ms": "Emerging",
    "note": "~13 GW hydro (n.v.); geothermal world #3",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 16,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Singapore",
@@ -1415,7 +1499,10 @@
    "fd": 0.704,
    "ms": "Developed",
    "note": "Hub; power-constrained, imports compute-relevant power",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 15,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Papua New Guinea",
@@ -1457,7 +1544,10 @@
    "fd": 0.184,
    "ms": "-",
    "note": ">14 GW untapped (IHA); stranded gas/LNG",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Saudi Arabia",
@@ -1499,7 +1589,10 @@
    "fd": 0.442,
    "ms": "Emerging",
    "note": "HUMAIN 6.6 GW by 2034 target; licensed 35k GB300-equiv Nov 2025; behind UAE on framework",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 18,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "UAE",
@@ -1541,7 +1634,10 @@
    "fd": 0.486,
    "ms": "Emerging",
    "note": "A:5 status Jul 2026 rule; Stargate UAE 1 GW/~$30B; 5 GW campus; the template",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 44,
+   "dl": 1,
+   "rw": "The UAE gets a named lane in US export law, with an April 2027 sting attache…"
   },
   {
    "n": "Qatar",
@@ -1583,7 +1679,10 @@
    "fd": 0.53,
    "ms": "Emerging",
    "note": "Gas surplus",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 28,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Kuwait",
@@ -1625,7 +1724,10 @@
    "fd": 0.4,
    "ms": "Emerging",
    "note": "",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 11,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Oman",
@@ -1667,7 +1769,10 @@
    "fd": 0.384,
    "ms": "Frontier",
    "note": "Muscat/Salalah cable hub",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 9,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Israel",
@@ -1709,7 +1814,10 @@
    "fd": 0.605,
    "ms": "Developed",
    "note": "",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 50,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Jordan",
@@ -1751,7 +1859,10 @@
    "fd": 0.359,
    "ms": "Frontier",
    "note": "",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 10,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Turkey",
@@ -1793,7 +1904,10 @@
    "fd": 0.5,
    "ms": "Emerging",
    "note": "216 TWh tech/160 econ (EST-CF045); geothermal Europe #1",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 21,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Iraq",
@@ -1835,7 +1949,10 @@
    "fd": 0.1,
    "ms": "-",
    "note": "GGFR #3 flaring",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 7,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Iran",
@@ -1877,7 +1994,10 @@
    "fd": 0.522,
    "ms": "-",
    "note": "Comprehensive sanctions; GGFR #2 flaring",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 8,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Egypt",
@@ -1919,7 +2039,10 @@
    "fd": 0.309,
    "ms": "Emerging",
    "note": "Suez cable chokepoint hub; El Dabaa nuclear building; Cassava GPU rollout",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 11,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Algeria",
@@ -1961,7 +2084,10 @@
    "fd": 0.141,
    "ms": "-",
    "note": "GGFR #7",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Libya",
@@ -2003,7 +2129,10 @@
    "fd": 0.128,
    "ms": "-",
    "note": "GGFR #6; crisis",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 3,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Morocco",
@@ -2045,7 +2174,10 @@
    "fd": 0.351,
    "ms": "Frontier",
    "note": "Digital Morocco 2030; Atlantic/Med cables; Dakhla solar concepts",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 11,
+   "dl": 0,
+   "rw": "Announced, unproven"
   },
   {
    "n": "DR Congo",
@@ -2087,7 +2219,10 @@
    "fd": 0.066,
    "ms": "-",
    "note": "~100 GW tech feasible (Africa #1); Grand Inga site 40-44 GW; 2.5% developed; eastern conflict",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Ethiopia",
@@ -2129,7 +2264,10 @@
    "fd": 0.116,
    "ms": "-",
    "note": "45 GW potential / 30 econ; GERD fully online; power sold to miners; Addis 2,400m cool",
-   "rf": 0.1
+   "rf": 0.1,
+   "rz": 28,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Kenya",
@@ -2171,7 +2309,10 @@
    "fd": 0.165,
    "ms": "Frontier",
    "note": "Geothermal up to 10 GW (world #6 installed); Microsoft/G42 DC stalled on power",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 11,
+   "dl": -1,
+   "rw": "Microsoft and G42's Kenya campus stalls for lack of power"
   },
   {
    "n": "Tanzania",
@@ -2213,7 +2354,10 @@
    "fd": 0.103,
    "ms": "-",
    "note": "JNHPP 2.1 GW entering service; stranded offshore LNG",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 11,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Uganda",
@@ -2255,7 +2399,10 @@
    "fd": 0.104,
    "ms": "-",
    "note": "Nile sites remain (Ayago); Karuma online",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 10,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Rwanda",
@@ -2297,7 +2444,10 @@
    "fd": 0.159,
    "ms": "-",
    "note": "Kigali hub ambitions; DRC entanglement",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 15,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Zambia",
@@ -2339,7 +2489,10 @@
    "fd": 0.199,
    "ms": "-",
    "note": "~6 GW cited (n.v.); drought load-shedding 2024-25",
-   "rf": 0.18
+   "rf": 0.18,
+   "rz": 7,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Zimbabwe",
@@ -2381,7 +2534,10 @@
    "fd": 0.1,
    "ms": "Standalone",
    "note": "Batoka Gorge 2.4 GW planned; Harare 1,500m",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 6,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Mozambique",
@@ -2423,7 +2579,10 @@
    "fd": 0.155,
    "ms": "-",
    "note": "12 GW Zambezi; HCB exports to SA; stranded Rovuma LNG",
-   "rf": 0.18
+   "rf": 0.18,
+   "rz": 6,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Angola",
@@ -2465,7 +2624,10 @@
    "fd": 0.139,
    "ms": "-",
    "note": "~18 GW/150 TWh tech; SACS cable to Brazil",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 6,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Cameroon",
@@ -2507,7 +2669,10 @@
    "fd": 0.101,
    "ms": "-",
    "note": "23 GW/103 TWh tech; Nachtigal online; SAIL cable to Brazil",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 6,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Nigeria",
@@ -2549,7 +2714,10 @@
    "fd": 0.221,
    "ms": "Standalone",
    "note": "ECN 11.25 large + 3.5 small; GGFR #8; Lagos cable hub; grid collapses",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 11,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Ghana",
@@ -2591,7 +2759,10 @@
    "fd": 0.178,
    "ms": "-",
    "note": "Volta developed; 5 cables",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 14,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Guinea",
@@ -2633,7 +2804,10 @@
    "fd": 0.107,
    "ms": "-",
    "note": "Water tower of W Africa ~6 GW (n.v.); junta",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 7,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Namibia",
@@ -2675,7 +2849,10 @@
    "fd": 0.402,
    "ms": "-",
    "note": "World's highest avg solar (ESMAP); uranium #3; Kudu gas stranded; ~50% power imported",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Botswana",
@@ -2717,7 +2894,10 @@
    "fd": 0.345,
    "ms": "Standalone",
    "note": "Stable; uranium deposits",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "South Africa",
@@ -2759,7 +2939,10 @@
    "fd": 0.546,
    "ms": "Emerging",
    "note": "Eskom fragility; Cassava/NVIDIA first 3,000 GPUs; Koeberg nuclear",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 12,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Madagascar",
@@ -2801,7 +2984,10 @@
    "fd": 0.106,
    "ms": "-",
    "note": "180 TWh/yr tech <1% developed (EST-CF045); post-2025 coup",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Sudan",
@@ -2843,7 +3029,10 @@
    "fd": 0.108,
    "ms": "-",
    "note": "Civil war",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 3,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Norway",
@@ -2885,7 +3074,10 @@
    "fd": 0.636,
    "ms": "Developed",
    "note": "Stargate Norway Narvik 230MW+; reservoir hydro; DC registration law filters loads",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 32,
+   "dl": 0,
+   "rw": "Microsoft contracts 30,000 Rubin GPUs at Nscale's hydro-powered Narvik site"
   },
   {
    "n": "Iceland",
@@ -2927,7 +3119,10 @@
    "fd": 0.496,
    "ms": "Frontier",
    "note": "Mature DC industry; power effectively fully allocated; master-plan constrained",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 21,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Sweden",
@@ -2969,7 +3164,10 @@
    "fd": 0.775,
    "ms": "Developed",
    "note": "+4 GW via uprating (AFRY); EcoDataCenter/Mistral lease",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 35,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Finland",
@@ -3011,7 +3209,10 @@
    "fd": 0.646,
    "ms": "Developed",
    "note": "C-Lion1; nuclear OL3",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 30,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Denmark",
@@ -3053,7 +3254,10 @@
    "fd": 0.665,
    "ms": "Developed",
    "note": "",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 29,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "United Kingdom",
@@ -3095,7 +3299,10 @@
    "fd": 0.836,
    "ms": "Developed",
    "note": "Stargate UK; £150B US package; NE AI Growth Zone to 1.1 GW",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 54,
+   "dl": -1,
+   "rw": "Stargate UK pauses over energy costs"
   },
   {
    "n": "Ireland",
@@ -3137,7 +3344,10 @@
    "fd": 0.625,
    "ms": "Developed",
    "note": "Dublin new-connection constraints = cautionary incumbent",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 51,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "France",
@@ -3179,7 +3389,10 @@
    "fd": 0.815,
    "ms": "Developed",
    "note": "Nuclear surplus exporter; Mistral buildout; Brookfield €10B",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 40,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Germany",
@@ -3221,7 +3434,10 @@
    "fd": 0.702,
    "ms": "Developed",
    "note": "FRA hub; nuclear phased out",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 65,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Spain",
@@ -3263,7 +3479,10 @@
    "fd": 0.803,
    "ms": "Developed",
    "note": "Iberian solar + cables",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 31,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Portugal",
@@ -3305,7 +3524,10 @@
    "fd": 0.654,
    "ms": "Developed",
    "note": "Sines hub",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 27,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Italy",
@@ -3347,7 +3569,10 @@
    "fd": 0.767,
    "ms": "Developed",
    "note": "Larderello geothermal",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 34,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Greece",
@@ -3389,7 +3614,10 @@
    "fd": 0.474,
    "ms": "Emerging",
    "note": "Emerging cable hub",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 16,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Netherlands",
@@ -3431,7 +3659,10 @@
    "fd": 0.709,
    "ms": "Developed",
    "note": "AMS hub; grid congestion for new large loads",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 50,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Poland",
@@ -3473,7 +3704,10 @@
    "fd": 0.431,
    "ms": "Emerging",
    "note": "First NPP planned",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 22,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Czechia",
@@ -3515,7 +3749,10 @@
    "fd": 0.317,
    "ms": "Emerging",
    "note": "",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 47,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Romania",
@@ -3557,7 +3794,10 @@
    "fd": 0.275,
    "ms": "Frontier",
    "note": "Dobrogea wind",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 17,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Bulgaria",
@@ -3599,7 +3839,10 @@
    "fd": 0.379,
    "ms": "Standalone",
    "note": "",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 27,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Serbia",
@@ -3641,7 +3884,10 @@
    "fd": 0.256,
    "ms": "Frontier",
    "note": "Drina/Morava basins; 2024-26 protests",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 25,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Albania",
@@ -3683,7 +3929,10 @@
    "fd": 0.203,
    "ms": "-",
    "note": "95%+ hydro generation",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 19,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Bosnia & Herzegovina",
@@ -3725,7 +3974,10 @@
    "fd": 0.266,
    "ms": "Standalone",
    "note": "6.11 GW technical",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 14,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Ukraine",
@@ -3767,7 +4019,10 @@
    "fd": 0.207,
    "ms": "Standalone",
    "note": "War damage ~half of hydro; postwar rebuild upside",
-   "rf": 0.18
+   "rf": 0.18,
+   "rz": 10,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Russia",
@@ -3809,7 +4064,10 @@
    "fd": 0.53,
    "ms": "Standalone",
    "note": "2,295 TWh gross / 852 econ (EST-CF045); Siberia stranded hydro; comprehensively sanctioned",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 7,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Switzerland",
@@ -3851,7 +4109,10 @@
    "fd": 0.939,
    "ms": "Developed",
    "note": "",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 35,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Austria",
@@ -3893,7 +4154,10 @@
    "fd": 0.658,
    "ms": "Developed",
    "note": "",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 33,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "United States",
@@ -3935,7 +4199,10 @@
    "fd": 0.917,
    "ms": "Developed",
    "note": "EIA 2024: 103 GW hydro incl PSH; USGS 39 GW conv. geothermal; Permian flaring; the demand center",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 71,
+   "dl": 1,
+   "rw": "NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI i…"
   },
   {
    "n": "Canada",
@@ -3977,7 +4244,10 @@
    "fd": 0.874,
    "ms": "Developed",
    "note": "163 GW technically feasible remaining (WaterPower Canada); Sovereign AI Compute Strategy; Alberta >10 GW queue",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 22,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Mexico",
@@ -4019,7 +4289,10 @@
    "fd": 0.402,
    "ms": "Emerging",
    "note": "Queretaro DC boom; GGFR #5",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 22,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Guatemala",
@@ -4061,7 +4334,10 @@
    "fd": 0.216,
    "ms": "-",
    "note": "",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 10,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Costa Rica",
@@ -4103,7 +4379,10 @@
    "fd": 0.288,
    "ms": "-",
    "note": "Renewable grid; Intel/DC presence",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 15,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Panama",
@@ -4145,7 +4424,10 @@
    "fd": 0.465,
    "ms": "Standalone",
    "note": "Regional cable hub",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 24,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Colombia",
@@ -4187,7 +4469,10 @@
    "fd": 0.388,
    "ms": "Emerging",
    "note": ">50 GW potential ~22% used; Hidroituango ramping",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 14,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Venezuela",
@@ -4229,7 +4514,10 @@
    "fd": 0.239,
    "ms": "-",
    "note": "Caroni cascade; Guri 10.2 GW; post-Jan 2026 transition in flux",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 11,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Ecuador",
@@ -4271,7 +4559,10 @@
    "fd": 0.17,
    "ms": "-",
    "note": "189.3 TWh tech / 156.7 econ (EST-CF045), ~7% tapped; 2024 drought blackouts",
-   "rf": 0.4
+   "rf": 0.4,
+   "rz": 8,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Peru",
@@ -4313,7 +4604,10 @@
    "fd": 0.374,
    "ms": "Emerging",
    "note": "69.45 GW, 8% harnessed; political churn",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 10,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Bolivia",
@@ -4355,7 +4649,10 @@
    "fd": 0.392,
    "ms": "-",
    "note": "40 GW tech, 1-2% used; Altiplano cool + solar; crisis economy",
-   "rf": 0.18
+   "rf": 0.18,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Brazil",
@@ -4397,7 +4694,10 @@
    "fd": 0.662,
    "ms": "Emerging",
    "note": "176 GW inventoried, 62% used; remainder Amazonian; Fortaleza cable hub",
-   "rf": 0.55
+   "rf": 0.55,
+   "rz": 32,
+   "dl": 0,
+   "rw": "Brazil approves a 5 GW grid connection for Scala's AI City"
   },
   {
    "n": "Paraguay",
@@ -4439,7 +4739,10 @@
    "fd": 0.193,
    "ms": "-",
    "note": "Itaipu+Yacyreta binational; ~40 TWh exported share = redirectable; ANDE courting AI DCs",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 20,
+   "dl": 0,
+   "rw": "S&P lifts Paraguay to investment grade, joining Moody's"
   },
   {
    "n": "Uruguay",
@@ -4481,7 +4784,10 @@
    "fd": 0.304,
    "ms": "-",
    "note": "Top-tier wind share; stable",
-   "rf": 0.72
+   "rf": 0.72,
+   "rz": 12,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Argentina",
@@ -4523,7 +4829,10 @@
    "fd": 0.306,
    "ms": "Standalone",
    "note": "~20% harnessed (IHA implies ~55 GW); Patagonia wind; Vaca Muerta; Stargate Argentina MoU",
-   "rf": 0.18
+   "rf": 0.18,
+   "rz": 11,
+   "dl": -1,
+   "rw": "No live signals yet"
   },
   {
    "n": "Chile",
@@ -4565,7 +4874,10 @@
    "fd": 0.504,
    "ms": "Emerging",
    "note": "Atacama = world-best PV; 2024 National DC Plan; Humboldt cable to Australia",
-   "rf": 0.85
+   "rf": 0.85,
+   "rz": 30,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Suriname",
@@ -4607,7 +4919,10 @@
    "fd": 0.183,
    "ms": "-",
    "note": "",
-   "rf": 0.18
+   "rf": 0.18,
+   "rz": 6,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Guyana",
@@ -4649,7 +4964,10 @@
    "fd": 0.147,
    "ms": "-",
    "note": "Amaila revived; gas-to-energy; fastest-growing GDP base",
-   "rf": 0.28
+   "rf": 0.28,
+   "rz": 5,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Australia",
@@ -4691,7 +5009,10 @@
    "fd": 0.909,
    "ms": "Developed",
    "note": "NextDC S7 612MW w/ Stargate; Snowy 2.0; uranium #4",
-   "rf": 1.0
+   "rf": 1.0,
+   "rz": 17,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "New Zealand",
@@ -4733,7 +5054,10 @@
    "fd": 0.617,
    "ms": "Developed",
    "note": "Geothermal world #5; consenting-constrained hydro",
-   "rf": 0.95
+   "rf": 0.95,
+   "rz": 24,
+   "dl": 0,
+   "rw": "No live signals yet"
   }
  ]
 }
