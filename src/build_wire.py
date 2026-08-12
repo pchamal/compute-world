@@ -63,9 +63,23 @@ PAGE = f'''<!DOCTYPE html>
 <style>
 :root{{--paper:#f7f4ee;--ink:#171614;--muted:#62605a;--faint:#8d8a81;--rule:#cdc7b9;--rule2:#171614;
 --accent:#7d2027;--tint:#efe9dd;--pr:#4b5f36;--sg:#8a5a2a;--barbg:#e2dcce;
+--glass:rgba(247,244,238,.72);--glassborder:rgba(23,22,20,.35);
 --serif:'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif}}
 html[data-theme="dark"]{{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9a9484;--rule:#3a352a;
---rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--pr:#8fae72;--sg:#c99a5e;--barbg:#3a352a}}
+--rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--pr:#8fae72;--sg:#c99a5e;--barbg:#3a352a;
+--glass:rgba(23,21,17,.72);--glassborder:rgba(236,231,219,.28)}}
+.tchip{{position:fixed;top:14px;right:max(14px,env(safe-area-inset-right));z-index:70;width:42px;height:42px;
+border-radius:50%;background:var(--glass);border:1px solid var(--glassborder);
+backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
+color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;
+box-shadow:0 8px 26px rgba(0,0,0,.12);transition:background-color .35s ease,transform .2s ease}}
+.tchip:hover{{transform:scale(1.07)}}.tchip:active{{transform:scale(.93)}}
+.tchip svg{{position:absolute;width:18px;height:18px;transition:opacity .35s ease,transform .5s cubic-bezier(.22,.8,.26,1)}}
+.tchip .ic-sun{{opacity:0;transform:rotate(-90deg) scale(.6)}}
+.tchip .ic-moon{{opacity:1;transform:none}}
+html[data-theme="dark"] .tchip .ic-sun{{opacity:1;transform:none}}
+html[data-theme="dark"] .tchip .ic-moon{{opacity:0;transform:rotate(90deg) scale(.6)}}
+@media(max-width:760px){{.tchip{{top:12px;width:40px;height:40px}}}}
 body{{transition:background-color .35s ease,color .35s ease}}
 *{{margin:0;padding:0;box-sizing:border-box}}
 html{{background:var(--paper)}}
@@ -126,6 +140,10 @@ details.meth .mb b{{color:var(--ink)}}
 </style>
 </head>
 <body>
+<button id="themetog" class="tchip" aria-label="Switch to night mode" title="Day / Night">
+  <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+  <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.9 1.9M19.1 4.9l-1.8 1.8M6.7 17.3l-1.9 1.9"/></svg>
+</button>
 <div class="wrap">
   <div class="masthead">
     <div class="name"><a href="/"><b>COMPUTE</b>.WORLD</a></div>
@@ -141,7 +159,6 @@ details.meth .mb b{{color:var(--ink)}}
       <a href="/wire.xml">RSS</a>
       <a href="https://x.com/intent/post?text=The%20Wire%3A%20sovereign%20AI%20and%20compute%20signals%2C%20rated.&url=https%3A%2F%2Fcompute.world%2Fwire.html" rel="noopener">Share on X</a>
       <a href="/contact.html">Submit a signal</a>
-      <a id="themetog" style="cursor:pointer" title="Defaults to your local time of day">Night</a>
     </div>
   </div>
 
@@ -179,10 +196,11 @@ var io = new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isI
 document.querySelectorAll(".rv").forEach(function(el){{io.observe(el)}});
 var tm=document.querySelector('meta[name="theme-color"]'), tg=document.getElementById("themetog");
 function cur(){{return document.documentElement.getAttribute("data-theme")==="dark"?"dark":"light"}}
-function setT(t){{document.documentElement.setAttribute("data-theme",t);try{{localStorage.setItem("cnw_theme",t)}}catch(e){{}}
-tm.content=t==="dark"?"#171511":"#f7f4ee";tg.textContent=t==="dark"?"Day":"Night";}}
-tg.onclick=function(){{setT(cur()==="dark"?"light":"dark")}};
-tg.textContent=cur()==="dark"?"Day":"Night";tm.content=cur()==="dark"?"#171511":"#f7f4ee";
+function setT(t,sv){{document.documentElement.setAttribute("data-theme",t);
+if(sv){{try{{localStorage.setItem("cnw_theme",t)}}catch(e){{}}}}
+tm.content=t==="dark"?"#171511":"#f7f4ee";tg.setAttribute("aria-label",t==="dark"?"Switch to day mode":"Switch to night mode");}}
+tg.onclick=function(){{setT(cur()==="dark"?"light":"dark",true)}};
+setT(cur(),false);
 </script>
 </body>
 </html>'''
