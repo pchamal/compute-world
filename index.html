@@ -10,7 +10,7 @@
 <meta name="keywords" content="compute net worth, global compute map, global compute hubs, compute potential by country, AI datacenter potential, gross domestic compute, GDC, sovereign AI, AI factory, energy for AI">
 <link rel="canonical" href="https://compute.world/">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<meta property="og:title" content="Every country has a Compute Net Worth. Almost none have calculated it.">
+<meta property="og:title" content="Every country has a Compute Net Worth. Only a handful are converting theirs.">
 <meta property="og:description" content="The global compute map: 108 countries priced. $662T ceiling, $64T unlockable, 0.7% tapped. Search any country's compute potential.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://compute.world/">
@@ -102,7 +102,17 @@ border-bottom:1px solid var(--rule2);padding-bottom:7px;margin-bottom:4px}
 .edition .on{color:var(--ink);border-bottom:1px solid var(--ink)}
 .edition a{border-bottom:1px solid transparent;color:var(--faint)}
 .edition a:hover{color:var(--accent);border-bottom-color:var(--accent)}
-.lede{padding:72px 0 30px;max-width:880px}
+.lede{padding:72px 0 30px;display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:56px;align-items:center}
+.ledetext{max-width:880px}
+.heroglobe{position:relative;width:100%;aspect-ratio:1/1;max-width:380px;justify-self:end}
+.heroglobe #gph{position:absolute;inset:0;width:100%;height:100%;animation:phspin 60s linear infinite;transition:opacity 1.2s ease}
+@keyframes phspin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.heroglobe.live #gph{opacity:0}
+#heroglobecanvas{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
+.heroglobe.live #heroglobecanvas{opacity:1}
+@media(max-width:960px){.lede{grid-template-columns:1fr;gap:26px}
+.heroglobe{max-width:270px;justify-self:center;pointer-events:none}}
+@media(prefers-reduced-motion:reduce){.heroglobe #gph{animation:none}}
 h1{font-weight:400;font-size:clamp(34px,5vw,52px);line-height:1.14}
 h1 em{font-style:italic}
 .standfirst{margin-top:26px;font-size:20px;line-height:1.6;color:var(--muted);max-width:790px}
@@ -217,6 +227,7 @@ details.gloss p b{color:var(--ink)}
 .brow .bt{flex:1 1 auto;height:6px;background:var(--barbg)}
 .brow .bt i{display:block;height:6px;background:var(--sg);transform-origin:left;animation:growx .9s cubic-bezier(.22,.8,.26,1)}
 .brow .bt i.bg{background:var(--pr)}
+.brow .bt i.bi{background:var(--in)}
 .brow .bv{flex:0 0 60px;text-align:right;font-variant-numeric:lining-nums tabular-nums}
 .chart .cap{font-size:12.5px;color:var(--faint);font-style:italic;margin-top:12px}
 table.prec{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:8px;font-variant-numeric:lining-nums}
@@ -372,10 +383,23 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
   </div>
 
   <div class="lede">
-    <h1 class="li li1">Every country has a <em>Compute Net Worth</em>. Almost none have calculated it.</h1>
+   <div class="ledetext">
+    <h1 class="li li1">Every country has a <em>Compute Net Worth</em>. Only a handful are converting theirs.</h1>
     <p class="standfirst li li2">Compute Net Worth is the value of AI compute that a nation's own energy and geography could host. NVIDIA prices a gigawatt of AI factory at <b id="pxband">$50 to $60 billion</b> today and says $80 to $100 billion is coming.<sup><a href="#n1">1</a></sup> A kilowatt-hour exported as raw power earns a country about five cents. Run the same kilowatt-hour through a contracted GPU cloud and it produces somewhere between $1.00 and $2.40.<sup><a href="#n2">2</a></sup> Compute is applied electrons. And the map of who holds the electrons looks nothing like the map of GDP. One more thing, because it changes how you should read every number below: these are scarcity prices. <i>Scarcity prices decay. This is a race.</i></p>
     <div class="byline li li3">Published August 10, 2026 · 108 countries · Every input sourced, every weight editable</div>
     <div id="livestatus" class="li li4"><span class="dot"></span><span id="lstext">Snapshot of August 10, 2026 · live refresh loading&hellip;</span></div>
+   </div>
+   <div class="heroglobe li li3" id="heroglobe" aria-hidden="true">
+     <svg id="gph" viewBox="0 0 200 200" fill="none">
+       <circle cx="100" cy="100" r="86" stroke="var(--rule)" stroke-width="1"/>
+       <ellipse cx="100" cy="100" rx="86" ry="34" stroke="var(--rule)" stroke-width="0.8"/>
+       <ellipse cx="100" cy="100" rx="86" ry="66" stroke="var(--rule)" stroke-width="0.6"/>
+       <ellipse cx="100" cy="100" rx="34" ry="86" stroke="var(--rule)" stroke-width="0.8"/>
+       <ellipse cx="100" cy="100" rx="66" ry="86" stroke="var(--rule)" stroke-width="0.6"/>
+       <line x1="14" y1="100" x2="186" y2="100" stroke="var(--rule)" stroke-width="0.8"/>
+     </svg>
+     <div id="heroglobecanvas"></div>
+   </div>
   </div>
 
   <div class="board rv" id="board">
@@ -505,6 +529,10 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
       <div class="chart rv"><div class="ct">The signature lens: ceiling as a multiple of GDP, top ten</div>
         <div class="brow"><span class="bl"><a class="cardlink" data-sl="bhutan">🇧🇹 Bhutan</a></span><span class="bt"><i style="width:100%"></i></span><span class="bv">836&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="madagascar">🇲🇬 Madagascar</a></span><span class="bt"><i style="width:41%"></i></span><span class="bv">340&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="namibia">🇳🇦 Namibia</a></span><span class="bt"><i style="width:40%"></i></span><span class="bv">334&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="tajikistan">🇹🇯 Tajikistan</a></span><span class="bt"><i style="width:35%"></i></span><span class="bv">289&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="mongolia">🇲🇳 Mongolia</a></span><span class="bt"><i style="width:34%"></i></span><span class="bv">286&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="afghanistan">🇦🇫 Afghanistan</a></span><span class="bt"><i style="width:31%"></i></span><span class="bv">262&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="mozambique">🇲🇿 Mozambique</a></span><span class="bt"><i style="width:27%"></i></span><span class="bv">226&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="sudan">🇸🇩 Sudan</a></span><span class="bt"><i style="width:26%"></i></span><span class="bv">218&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="libya">🇱🇾 Libya</a></span><span class="bt"><i style="width:21%"></i></span><span class="bv">174&times;</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="nepal">🇳🇵 Nepal</a></span><span class="bt"><i style="width:19%"></i></span><span class="bv">157&times;</span></div>
         <div class="cap">The thesis in one chart: ten economies whose compute endowments run past 150 times their GDP. Bhutan is off every other chart's scale at 836. Nepal makes the cut at 157, a $45B economy on a $7T ceiling.</div>
+      </div>
+      <div class="chart rv"><div class="ct">The present tense: who runs today's compute, by GDC&#8482;</div>
+        <div class="brow"><span class="bl"><a class="cardlink" data-sl="united-states">🇺🇸 United States</a></span><span class="bt"><i class="bi" style="width:100%"></i></span><span class="bv">$2.0T</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="china">🇨🇳 China</a></span><span class="bt"><i class="bi" style="width:56%"></i></span><span class="bv">$1.1T</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="germany">🇩🇪 Germany</a></span><span class="bt"><i class="bi" style="width:7%"></i></span><span class="bv">$150B</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="united-kingdom">🇬🇧 United Kingdom</a></span><span class="bt"><i class="bi" style="width:6%"></i></span><span class="bv">$130B</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="japan">🇯🇵 Japan</a></span><span class="bt"><i class="bi" style="width:5%"></i></span><span class="bv">$100B</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="india">🇮🇳 India</a></span><span class="bt"><i class="bi" style="width:5%"></i></span><span class="bv">$95B</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="australia">🇦🇺 Australia</a></span><span class="bt"><i class="bi" style="width:4%"></i></span><span class="bv">$85B</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="malaysia">🇲🇾 Malaysia</a></span><span class="bt"><i class="bi" style="width:4%"></i></span><span class="bv">$75B</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="canada">🇨🇦 Canada</a></span><span class="bt"><i class="bi" style="width:3%"></i></span><span class="bv">$70B</span></div><div class="brow"><span class="bl"><a class="cardlink" data-sl="ireland">🇮🇪 Ireland</a></span><span class="bt"><i class="bi" style="width:3%"></i></span><span class="bv">$65B</span></div>
+        <div class="cap">Gross Domestic Compute: live datacenter capacity at today's value of a gigawatt. Two countries run 68% of the world's live compute. Every other chart on this page is about what that concentration leaves on the table.</div>
       </div>
     </div>
   </div>
@@ -764,11 +792,12 @@ document.querySelectorAll(".cardlink").forEach(a=>{ a.onclick=()=>openCard(a.dat
 // day / night: boots from local time (dark 19:00-07:00), one tap to override, choice remembered
 const themeMeta=document.querySelector('meta[name="theme-color"]'), themeTog=document.getElementById("themetog");
 function curTheme(){ return document.documentElement.getAttribute("data-theme")==="dark"?"dark":"light"; }
-function applyGlobeTheme(){ if(!window._globe) return; const d=curTheme()==="dark";
-  window._globe.globeMaterial().color.set(d?"#26221a":"#ddd4c2");
-  window._globe.polygonCapColor(()=>d?"#332d21":"#f0eadd").polygonStrokeColor(()=>d?"#6b6558":"#9a958a")
-    .polygonSideColor(()=>d?"rgba(236,231,219,0.05)":"rgba(23,22,20,0.06)");
-  window._globe.atmosphereColor(d?"#55503f":"#bdb5a2"); }
+function applyGlobeTheme(){ const d=curTheme()==="dark";
+  [window._globe, window._hero].forEach(g=>{ if(!g) return;
+    g.globeMaterial().color.set(d?"#26221a":"#ddd4c2");
+    g.polygonCapColor(()=>d?"#332d21":"#f0eadd").polygonStrokeColor(()=>d?"#6b6558":"#9a958a")
+      .polygonSideColor(()=>d?"rgba(236,231,219,0.05)":"rgba(23,22,20,0.06)");
+    g.atmosphereColor(d?"#55503f":"#bdb5a2"); }); }
 function setTheme(t, save){ document.documentElement.setAttribute("data-theme",t);
   if(save){ try{ localStorage.setItem("cnw_theme",t); }catch(e){} }
   themeMeta.content = t==="dark" ? "#171511" : "#f7f4ee";
@@ -783,52 +812,80 @@ document.addEventListener("click",(e)=>{ if(!nl.contains(e.target)&&e.target!==n
 function routeHash(){ const sl=location.hash.replace("#",""); if(sl && bySlug(sl)) openCard(sl); }
 window.addEventListener("hashchange",routeHash);
 
-// ---- globe view: print-atlas design (flat inks, no photo texture), lazy-loaded ----
-let _loading=false;
+// ---- globes: print-atlas design (flat inks, no photo texture), shared lazy loader ----
+let _libs=null;
 function script(src){ return new Promise((res,rej)=>{ const s=document.createElement("script"); s.src=src; s.onload=res; s.onerror=rej; document.head.appendChild(s); }); }
-function gsize(){ const el=document.getElementById("globe"); return {w: el.clientWidth, h: Math.min(640, Math.max(420, Math.round(window.innerWidth*0.62)))}; }
-function plotGlobe(){
-  const rows = D.filter(c => !state.tier||c.t===state.tier);
-  const maxHi = Math.max(...D.map(c=>c.hi));
-  window._globe.pointsData(rows.map(c=>({lat:c.lat,lng:c.lng,c})))
-    .pointAltitude(d=>0.015+0.42*Math.sqrt(d.c.hi/maxHi))
-    .pointColor(d=>TIERCOL[d.c.t]||"#8d8a81")
-    .pointRadius(0.55)
-    .pointLabel(d=>`<div style="font-family:Georgia,'Times New Roman',serif;background:#f7f4ee;color:#171614;border:1px solid #171614;padding:8px 12px;font-size:13px;line-height:1.5;max-width:280px"><b>${d.c.fg} ${d.c.n}</b> &middot; <span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase">${d.c.t}</span><br>Ceiling ${fmtT(d.c.lo)}&ndash;${fmtT(d.c.hi)} &middot; Unlockable ${fmtT(d.c.u)}<br>GDC ${d.c.gdc<1?"<$1B":fmtT(d.c.gdc)} &middot; ${d.c.m>=100?Math.round(d.c.m):d.c.m.toFixed(1)}&times; GDP &middot; Readiness ${Math.round(d.c.re*100)}%</div>`)
-    .onPointClick(d=>openCard(d.c.sl));
-}
-async function showGlobe(){
-  document.getElementById("tablewrap").style.display="none";
-  document.getElementById("globewrap").style.display="block";
-  if(window._globe || _loading) return;
-  _loading=true;
-  const msg=document.getElementById("globemsg"); msg.textContent="Drawing the globe…";
-  try{
+function loadGlobeLibs(){
+  if(_libs) return _libs;
+  _libs = (async()=>{
     await script("https://unpkg.com/globe.gl@2");
     if(typeof Globe==="undefined") throw new Error("no Globe");
     await script("https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js");
     const world = await (await fetch("https://unpkg.com/world-atlas@2.0.2/countries-110m.json")).json();
-    const land = topojson.feature(world, world.objects.countries).features;
+    return topojson.feature(world, world.objects.countries).features;
+  })();
+  return _libs;
+}
+function initGlobe(el, w, h, land){
+  const g = Globe()(el).width(w).height(h)
+    .backgroundColor("rgba(0,0,0,0)")
+    .showAtmosphere(true).atmosphereColor("#bdb5a2").atmosphereAltitude(0.10)
+    .polygonsData(land)
+    .polygonCapColor(()=> "#f0eadd")
+    .polygonSideColor(()=> "rgba(23,22,20,0.06)")
+    .polygonStrokeColor(()=> "#9a958a")
+    .polygonAltitude(0.004)
+    .polygonsTransitionDuration(0);
+  g.globeMaterial().color.set("#ddd4c2");
+  g.globeMaterial().shininess = 2;
+  g.controls().autoRotate = true; g.controls().enableZoom = false;
+  return g;
+}
+function plotOn(g, small){
+  const rows = D.filter(c => !state.tier||c.t===state.tier);
+  const maxHi = Math.max(...D.map(c=>c.hi));
+  g.pointsData(rows.map(c=>({lat:c.lat,lng:c.lng,c})))
+    .pointAltitude(d=>(small?0.012:0.015)+(small?0.34:0.42)*Math.sqrt(d.c.hi/maxHi))
+    .pointColor(d=>TIERCOL[d.c.t]||"#8d8a81")
+    .pointRadius(small?0.7:0.55)
+    .pointLabel(d=>`<div style="font-family:Georgia,'Times New Roman',serif;background:#f7f4ee;color:#171614;border:1px solid #171614;padding:8px 12px;font-size:13px;line-height:1.5;max-width:280px"><b>${d.c.fg} ${d.c.n}</b> &middot; <span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase">${d.c.t}</span><br>Ceiling ${fmtT(d.c.lo)}&ndash;${fmtT(d.c.hi)} &middot; Unlockable ${fmtT(d.c.u)}<br>GDC ${d.c.gdc<1?"<$1B":fmtT(d.c.gdc)} &middot; ${d.c.m>=100?Math.round(d.c.m):d.c.m.toFixed(1)}&times; GDP &middot; Readiness ${Math.round(d.c.re*100)}%</div>`)
+    .onPointClick(d=>openCard(d.c.sl));
+}
+function plotGlobe(){ if(window._globe) plotOn(window._globe,false); if(window._hero) plotOn(window._hero,true); }
+function gsize(){ const el=document.getElementById("globe"); return {w: el.clientWidth, h: Math.min(640, Math.max(420, Math.round(window.innerWidth*0.62)))}; }
+async function showGlobe(){
+  document.getElementById("tablewrap").style.display="none";
+  document.getElementById("globewrap").style.display="block";
+  if(window._globe || window._gloading) return;
+  window._gloading=true;
+  const msg=document.getElementById("globemsg"); msg.textContent="Drawing the globe…";
+  try{
+    const land = await loadGlobeLibs();
     const el=document.getElementById("globe"); const s0=gsize();
-    window._globe = Globe()(el)
-      .width(s0.w).height(s0.h)
-      .backgroundColor("rgba(0,0,0,0)")
-      .showAtmosphere(true).atmosphereColor("#bdb5a2").atmosphereAltitude(0.10)
-      .polygonsData(land)
-      .polygonCapColor(()=> "#f0eadd")
-      .polygonSideColor(()=> "rgba(23,22,20,0.06)")
-      .polygonStrokeColor(()=> "#9a958a")
-      .polygonAltitude(0.004)
-      .polygonsTransitionDuration(0);
-    window._globe.globeMaterial().color.set("#ddd4c2");
-    window._globe.globeMaterial().shininess = 2;
-    window._globe.controls().autoRotate=true; window._globe.controls().autoRotateSpeed=0.5;
+    window._globe = initGlobe(el, s0.w, s0.h, land);
+    window._globe.controls().autoRotateSpeed=0.5;
     window._globe.pointOfView({lat:24, lng:64, altitude:2.1});
-    applyGlobeTheme(); plotGlobe(); msg.textContent="";
+    applyGlobeTheme(); plotOn(window._globe,false); msg.textContent="";
     window.addEventListener("resize",()=>{ const s=gsize(); window._globe.width(s.w).height(s.h); });
   }catch(e){ msg.textContent="The globe needs a network connection. The table has everything."; }
-  _loading=false;
+  window._gloading=false;
 }
+// hero globe: initialized after first paint so the text always wins the race
+async function initHeroGlobe(){
+  const box=document.getElementById("heroglobe"), el=document.getElementById("heroglobecanvas");
+  if(!box || window._hero) return;
+  try{
+    const land = await loadGlobeLibs();
+    const w = box.clientWidth;
+    window._hero = initGlobe(el, w, w, land);
+    window._hero.controls().autoRotateSpeed=0.8;
+    window._hero.pointOfView({lat:26, lng:78, altitude:1.9});
+    applyGlobeTheme(); plotOn(window._hero,true);
+    box.classList.add("live");
+    window.addEventListener("resize",()=>{ const w2=box.clientWidth; window._hero.width(w2).height(w2); });
+  }catch(e){ /* the wireframe placeholder keeps spinning; no harm done */ }
+}
+window.addEventListener("load",()=>{ (window.requestIdleCallback||function(f){setTimeout(f,400)})(initHeroGlobe); });
 document.getElementById("vglobe").onclick=()=>{ state.view="globe";
   document.getElementById("vglobe").classList.add("on"); document.getElementById("vtab").classList.remove("on"); showGlobe(); };
 document.getElementById("vtab").onclick=()=>{ state.view="table";
