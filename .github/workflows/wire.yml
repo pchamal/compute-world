@@ -28,7 +28,7 @@ jobs:
       - name: Rebuild index (Realized Board recomputes from Wire signals)
         run: |
           cp wire.json src/wire.json
-          cd src && python3 build_page.py
+          cd src && python3 cnw_model.py && python3 build_page.py
           cp deploy/index.html deploy/data.json deploy/sitemap.xml deploy/llms.txt deploy/embed.html deploy/agents.html ..
       - name: Commit changes
         run: |
