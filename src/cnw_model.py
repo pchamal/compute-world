@@ -149,6 +149,7 @@ W_GOV,W_STAB,W_GPU,W_GRID,W_FIB,W_MOM,W_PHY,W_CAP = .18,.13,.14,.11,.11,.08,.14,
 
 from aux_data import AUX, FD_EST, rating_factor, rating_split, DEM3, DEM_OVERRIDE
 from macro_data import M as MACRO, flag as flag_emoji
+from exec_data import EXEC, OECD, PUE_BAND
 
 def model(row):
     (name,region,land,pop,gdp,cpi,stab,sanc,gpu,mom,ll,fib,grid,cool,seis,wat,
@@ -161,6 +162,12 @@ def model(row):
     firm = (h_unt*F_HYDRO + g_unt*F_GEO + solar_ceil*F_SOLAR +
             wind*WIND_ADD*F_WIND + gas*GAS_ADD*F_GAS + (exp/8.76)*F_EXP)
     phys = COOL[cool]*SEIS[seis]*WAT[wat]
+    iso3_tmp = MACRO[name][0]
+    inst_gw, cloud_reg = EXEC.get(iso3_tmp, (None, 0))
+    # execution signal: an operating US hyperscaler region certifies land, power, permits, and
+    # export comfort in one fact; it floors the momentum component (1 region -> 0.75, 2+ -> 1.0)
+    if cloud_reg >= 2: mom = max(mom, 1.0)
+    elif cloud_reg == 1: mom = max(mom, 0.75)
     eiu_class, eiu_score, rating, fd, msci = AUX[name]
     fd_f = fd if fd is not None else FD_EST[name]
     rat_f = rating_factor(rating)
@@ -197,6 +204,7 @@ def model(row):
         fd_est=fd is None,msci=msci or "-",capital_access=round(capital,3),
         built_pct=round(built,3),
         iso3=iso3,iso2=iso2,femoji=flag_emoji(iso2),
+        installed_gw=inst_gw,cloud_regions=cloud_reg,oecd=(iso3 in OECD),pue_band=PUE_BAND[cool],
         reserves_B=res_B,reserves_est=bool(resE),ca_gdp=ca,ca_est=bool(caE),
         debt_gdp=debt,m2_B=m2_B,unlock_pc=unlock_pc,ceiling_pc=ceiling_pc,
         readiness=round(real,3),cnw_ceiling_lo_B=round(cnw_lo),cnw_ceiling_hi_B=round(cnw_hi),

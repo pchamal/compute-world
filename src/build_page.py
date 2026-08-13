@@ -19,7 +19,9 @@ def blurb(c, lg):
     w1,w2 = weakest(c)
     lo,hi,u,g = c["cnw_ceiling_lo_B"],c["cnw_ceiling_hi_B"],c["cnw_unlockable_B"],c["gdp_B"]
     m = c["gdp_multiple"]; b=c["built_pct"]*100; upc=c["unlock_pc"]; gdc=lg*50
-    live = f"{lg:.1f} GW" if lg>=1 else f"about {max(1,round(lg*1000))} MW"
+    ig = c["installed_gw"]
+    grid = f" on a grid of roughly {ig:.0f} GW" if ig and ig>=10 else (f" on a grid of roughly {ig} GW" if ig else "")
+    live = (f"{lg:.1f} GW" if lg>=1 else f"about {max(1,round(lg*1000))} MW") + grid
     gdcS = fT(gdc) if gdc>=1 else "under $1B"
     t = c["tier"]
     tl = {"Sleeping Giant": f"A sleeping giant: the endowment runs {m:.0f} times the economy, and the readiness gap is the to-do list.",
@@ -46,7 +48,9 @@ for c in data:
         m=c["gdp_multiple"], g=c["gdp_B"], d=c["dem3"], ds=c["eiu_score"], dc=c["eiu_class"],
         dn=c["dem_note"] or "", cr=c["rating_letter"], ca_=c["rating_agency"],
         ca=c["ca_gdp"], caE=c["ca_est"], dbt=c["debt_gdp"], res=c["reserves_B"], resE=c["reserves_est"],
-        m2=c["m2_B"], fd=c["fd_index"], ms=c["msci"], note=c["note"].replace("%%","%")))
+        m2=c["m2_B"], fd=c["fd_index"], ms=c["msci"], cpi=c["cpi"],
+        ig=c["installed_gw"], crg=c["cloud_regions"], oe=c["oecd"], pue=c["pue_band"],
+        note=c["note"].replace("%%","%")))
 RF = {"AAA":1.0,"AA":0.95,"A":0.85,"BBB":0.72,"BB":0.55,"B":0.40,"CCC":0.18,"CC":0.15,"C":0.15,"SD":0.10,"RD":0.10,"NR":0.28}
 for s in slim: s["rf"] = RF.get(s["cr"].rstrip("+-"), 0.28)
 
@@ -719,6 +723,7 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
         <p><b>Debt %.</b> General government gross debt as a share of GDP, IMF WEO. Whether the sovereign can co-invest or only concede.</p>
         <p><b>Reserves.</b> Total reserves including gold, $B, World Bank series FI.RES.TOTL.CD (2024), refreshed on load. The war chest behind any sovereign compute stake.</p>
         <p><b>Broad money.</b> Broad money in $B, derived (share of GDP times GDP). The closest cross-country proxy for domestic bank liquidity, which has no official global series. Held as an estimate throughout and shown in grey on purpose.</p>
+        <p><b>Execution signals (row detail).</b> Four facts that answer whether a country can physically and institutionally deliver a campus. Installed grid GW: the absorption question; a 100 MW hall is a rounding error on a 300 GW grid and a national event on a 3 GW one (estimates). US cloud regions: AWS, Azure, and Google Cloud regions operating in-country; one certified region proves land, power, permitting, connectivity, and US export comfort in a single fact, and floors the momentum component (one region 0.75, two or more 1.0). OECD: displayed and deliberately unweighted, since it moves with corruption scores and credit ratings that are already priced. Achievable PUE: the power-efficiency band the climate permits (free-cooling countries ~1.1 to 1.25, hot ones ~1.35 to 1.6); no per-country average PUE series exists publicly, so the index states what physics allows rather than inventing an average. Land for facilities is deliberately unpriced: a gigawatt campus needs about half a square kilometer, and land is almost never the binding constraint; land for energy is already priced in the solar allowance.</p>
       </div>
     </details>
   </div>
@@ -761,7 +766,7 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
       <div class="dlrow"><span>GPU access under the August 2026 export regime</span><span class="dots"></span><span class="val">14%</span></div>
       <div class="dlrow"><span>Grid quality</span><span class="dots"></span><span class="val">11%</span></div>
       <div class="dlrow"><span>Fiber and subsea connectivity</span><span class="dots"></span><span class="val">11%</span></div>
-      <div class="dlrow"><span>Momentum: live AI and data-center engagement</span><span class="dots"></span><span class="val">8%</span></div>
+      <div class="dlrow"><span>Momentum and execution signals: live AI and data-center engagement; a US hyperscaler cloud region in-country floors this component</span><span class="dots"></span><span class="val">8%</span></div>
       <div class="dlrow"><span>Physical: cooling &times; seismic &times; water</span><span class="dots"></span><span class="val">14%</span></div>
       <div class="dlrow"><span>Capital access: sovereign rating + IMF financial development</span><span class="dots"></span><span class="val">11%</span></div>
     </div>
@@ -917,7 +922,7 @@ function render(){
       <td>${fmtB(c.res,c.resE)}</td>
       <td>${fmtB(c.m2,true)}</td>`;
     const det = document.createElement("tr"); det.className="detail"; det.style.display="none";
-    det.innerHTML = `<td colspan="18"><span class="k">${c.r} &middot; realized ${c.rz} (${c.rw}) &middot; resource ceiling ${Math.round(c.gw)} GW &middot; firm untapped ${c.f} GW &middot; live compute ${c.lg>=1?c.lg.toFixed(1)+" GW":Math.round(c.lg*1000)+" MW"} (${(c.tap*100).toFixed(2)}% tapped) &middot; ceiling per person ${fmtPC(c.cpc)} &middot; EIU 2025 ${c.ds.toFixed(2)} (${c.dc}) &middot; rating ${c.cr}${c.ca_!=="unrated"?" from "+c.ca_:""} &middot; IMF FD ${c.fd} &middot; MSCI ${c.ms} &middot; <span class="cardbtn" data-sl="${c.sl}">Open shareable card</span></span><br>${c.note||"&mdash;"}${c.dn?`<br>* ${c.dn}`:""}</td>`;
+    det.innerHTML = `<td colspan="18"><span class="k">${c.r} &middot; realized ${c.rz} (${c.rw}) &middot; resource ceiling ${Math.round(c.gw)} GW &middot; firm untapped ${c.f} GW &middot; installed grid ${c.ig!=null?(c.ig>=100?Math.round(c.ig):c.ig)+" GW":"&mdash;"} &middot; live compute ${c.lg>=1?c.lg.toFixed(1)+" GW":Math.round(c.lg*1000)+" MW"} (${(c.tap*100).toFixed(2)}% tapped) &middot; achievable PUE ${c.pue} &middot; US cloud regions ${c.crg}${c.oe?" &middot; OECD":""} &middot; CPI ${c.cpi} &middot; ceiling per person ${fmtPC(c.cpc)} &middot; EIU 2025 ${c.ds.toFixed(2)} (${c.dc}) &middot; rating ${c.cr}${c.ca_!=="unrated"?" from "+c.ca_:""} &middot; IMF FD ${c.fd} &middot; MSCI ${c.ms} &middot; <span class="cardbtn" data-sl="${c.sl}">Open shareable card</span></span><br>${c.note||"&mdash;"}${c.dn?`<br>* ${c.dn}`:""}</td>`;
     tr.onclick = (e)=>{ const cn=e.target.closest(".cname"); if(cn){ openCard(cn.dataset.sl); return; }
       det.style.display = det.style.display==="none"?"":"none"; };
     det.querySelector(".cardbtn").onclick = (e)=>{ openCard(e.target.dataset.sl); };
