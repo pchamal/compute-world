@@ -70,16 +70,58 @@ padding:13px 26px;font-family:var(--serif);font-size:16px;letter-spacing:.02em;b
 .fallback{font-size:13px;color:var(--faint);margin-top:20px;font-style:italic}
 .back{margin-top:36px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
 .back a{border:none;color:var(--muted)}.back a:hover{color:var(--accent)}
+/* floating nav — keep in sync with src/fnav.py (page=contact) */
+body,#fnav{transition:background-color .35s ease,color .35s ease,border-color .35s ease}
+body.fnav-inner{padding-top:64px}
+#fnav-hit{position:fixed;top:0;left:0;right:0;height:28px;z-index:59}
+#fnav{position:fixed;top:14px;left:50%;transform:translate(-50%,-160%);z-index:60;display:flex;gap:20px;align-items:center;
+padding:10px 22px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
+border:1px solid var(--glassborder,rgba(23,22,20,.35));border-radius:99px;box-shadow:0 10px 34px rgba(0,0,0,.12);
+transition:transform .55s cubic-bezier(.22,.8,.26,1),background-color .35s ease;
+font-family:var(--serif,'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif);color:var(--ink,#171614)}
+#fnav.show,#fnav:hover,#fnav:focus-within,#fnav-hit:hover+#fnav{transform:translate(-50%,0)}
+#fnav .nb{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600}
+#fnav a{border:none;color:var(--ink,#171614);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
+#fnav a:hover{color:var(--accent,#7d2027)}
+#fnav a.here{color:var(--accent,#7d2027)}
+#fnav .ndot{width:6px;height:6px;border-radius:50%;background:var(--pr,#4b5f36);flex:0 0 auto}
+#fnav .nlinks{display:flex;gap:20px;align-items:center}
+#nburger{display:none;font-family:inherit;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+background:none;border:none;color:inherit;cursor:pointer;padding:2px 0}
+#nburger:hover{color:var(--accent,#7d2027)}
+html[data-theme="dark"] #fnav{background:var(--glass,rgba(23,21,17,.72));border-color:var(--glassborder,rgba(236,231,219,.28));color:var(--ink,#ece7db)}
+html[data-theme="dark"] #fnav a{color:var(--ink,#ece7db)}
+html[data-theme="dark"] #fnav a:hover,html[data-theme="dark"] #fnav a.here,html[data-theme="dark"] #nburger:hover{color:var(--accent,#c2564c)}
+html[data-theme="dark"] #fnav .ndot{background:var(--pr,#8fae72)}
+@media(max-width:1080px){
+  #nburger{display:block}
+  #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
+  align-items:flex-end;gap:13px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(16px) saturate(1.1);
+  -webkit-backdrop-filter:blur(16px) saturate(1.1);border:1px solid var(--glassborder,rgba(23,22,20,.35));border-radius:16px;
+  padding:18px 24px;box-shadow:0 14px 40px rgba(0,0,0,.16);min-width:170px}
+  #fnav .nlinks.open{display:flex;animation:navdrop .35s cubic-bezier(.22,.8,.26,1)}
+  html[data-theme="dark"] #fnav .nlinks{background:var(--glass,rgba(23,21,17,.72));border-color:var(--glassborder,rgba(236,231,219,.28))}
+  @keyframes navdrop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+}
+@media(prefers-reduced-motion:reduce){#fnav{transition:none}#fnav .nlinks.open{animation:none}}
 footer{flex-shrink:0;border-top:2px solid var(--rule2);padding:22px 0 40px;text-align:center}
 footer .c1{font-size:12px;letter-spacing:.3em;text-transform:uppercase}
 footer .c2{margin-top:10px;font-size:12px;color:var(--muted);letter-spacing:.05em}
 </style>
 </head>
-<body>
+<body class="fnav-inner">
 <button id="themetog" class="tchip" aria-label="Switch to night mode" title="Day / Night">
   <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
   <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.9 1.9M19.1 4.9l-1.8 1.8M6.7 17.3l-1.9 1.9"/></svg>
 </button>
+<div id="fnav-hit" aria-hidden="true"></div>
+<nav id="fnav" class="show" aria-label="Sections" data-show-at="80" data-sticky="1">
+  <span class="nb">CW</span><span class="ndot" title="Live data"></span>
+  <button id="nburger" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <div class="nlinks" id="nlinks">
+    <a href="/#board">Board</a><a href="/#index">Index</a><a href="/#shape">Charts</a><a href="/#objections">Objections</a><a href="/#precedents">Precedents</a><a href="/#gazetteer">Gazetteer</a><a href="/wire.html">Wire</a><a href="/#credit">Cite</a><a href="/contact.html" class="here" aria-current="page">Contact</a><a href="/agents.html">Agents</a>
+  </div>
+</nav>
 <div class="wrap">
   <div class="masthead">
     <div class="name"><a href="/"><b>COMPUTE</b>.WORLD</a></div>
@@ -147,6 +189,20 @@ function _setT(t,sv){document.documentElement.setAttribute("data-theme",t);
   _tg.setAttribute("aria-label",t==="dark"?"Switch to day mode":"Switch to night mode");}
 _tg.onclick=function(){_setT(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark",true)};
 _setT(document.documentElement.getAttribute("data-theme")==="dark"?"dark":"light",false);
+(function(){
+  var nav=document.getElementById("fnav"), nb=document.getElementById("nburger"), nl=document.getElementById("nlinks");
+  if(!nav) return;
+  var threshold=parseInt(nav.getAttribute("data-show-at")||"80",10);
+  var sticky=nav.getAttribute("data-sticky")==="1";
+  function sync(){ if(sticky){ nav.classList.add("show"); return; } nav.classList.toggle("show", window.scrollY>threshold); }
+  sync();
+  window.addEventListener("scroll",sync,{passive:true});
+  if(nb&&nl){
+    nb.onclick=function(e){ e.stopPropagation(); var open=nl.classList.toggle("open"); nb.setAttribute("aria-expanded",open); nav.classList.add("show"); };
+    nl.querySelectorAll("a").forEach(function(a){ a.addEventListener("click",function(){ nl.classList.remove("open"); }); });
+    document.addEventListener("click",function(e){ if(!nl.contains(e.target)&&e.target!==nb) nl.classList.remove("open"); });
+  }
+})();
 // If Turnstile is blocked (e.g. offline), reveal after an explicit click fallback so the page is never a dead end.
 setTimeout(function(){
   if(!window.turnstile){

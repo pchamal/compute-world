@@ -5,6 +5,7 @@
 # on github.com is all it takes to publish; the HTML and RSS regenerate themselves.
 import json, html, os
 from datetime import datetime
+from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -80,6 +81,7 @@ box-shadow:0 8px 26px rgba(0,0,0,.12);transition:background-color .35s ease,tran
 html[data-theme="dark"] .tchip .ic-sun{{opacity:1;transform:none}}
 html[data-theme="dark"] .tchip .ic-moon{{opacity:0;transform:rotate(90deg) scale(.6)}}
 @media(max-width:760px){{.tchip{{top:12px;width:40px;height:40px}}}}
+{fnav_css()}
 body{{transition:background-color .35s ease,color .35s ease}}
 *{{margin:0;padding:0;box-sizing:border-box}}
 html{{background:var(--paper)}}
@@ -139,11 +141,12 @@ details.meth .mb b{{color:var(--ink)}}
 .witem h3{{font-size:18px}}.wmeta{{flex-wrap:wrap}}.wtags{{margin-left:0}}.witem p{{text-align:left;hyphens:none}}}}
 </style>
 </head>
-<body>
+<body class="fnav-inner">
 <button id="themetog" class="tchip" aria-label="Switch to night mode" title="Day / Night">
   <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
   <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.9 1.9M19.1 4.9l-1.8 1.8M6.7 17.3l-1.9 1.9"/></svg>
 </button>
+{fnav_markup("wire")}
 <div class="wrap">
   <div class="masthead">
     <div class="name"><a href="/"><b>COMPUTE</b>.WORLD</a></div>
@@ -201,6 +204,7 @@ if(sv){{try{{localStorage.setItem("cnw_theme",t)}}catch(e){{}}}}
 tm.content=t==="dark"?"#171511":"#f7f4ee";tg.setAttribute("aria-label",t==="dark"?"Switch to day mode":"Switch to night mode");}}
 tg.onclick=function(){{setT(cur()==="dark"?"light":"dark",true)}};
 setT(cur(),false);
+{fnav_script("wire")}
 </script>
 </body>
 </html>'''

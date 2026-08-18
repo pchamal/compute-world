@@ -47,7 +47,41 @@ html[data-theme="dark"]{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9
 --rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--sg:#c99a5e;--pr:#8fae72;--in:#7da3bd;--eu:#bfae6a;
 --lr:#8d8a81;--barbg:#3a352a;--glass:rgba(23,21,17,.72);--glassborder:rgba(236,231,219,.28)}
 html[data-theme="dark"] .chart svg,html[data-theme="dark"] .lg .sw,html[data-theme="dark"] .gleg i{filter:brightness(1.28) saturate(.92)}
+/* floating nav — shared via src/fnav.py */
 body,#fnav{transition:background-color .35s ease,color .35s ease,border-color .35s ease}
+body.fnav-inner{padding-top:64px}
+#fnav-hit{position:fixed;top:0;left:0;right:0;height:28px;z-index:59}
+#fnav{position:fixed;top:14px;left:50%;transform:translate(-50%,-160%);z-index:60;display:flex;gap:20px;align-items:center;
+padding:10px 22px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
+border:1px solid var(--glassborder,rgba(23,22,20,.35));border-radius:99px;box-shadow:0 10px 34px rgba(0,0,0,.12);
+transition:transform .55s cubic-bezier(.22,.8,.26,1),background-color .35s ease;
+font-family:var(--serif,'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif);color:var(--ink,#171614)}
+#fnav.show,#fnav:hover,#fnav:focus-within,#fnav-hit:hover+#fnav{transform:translate(-50%,0)}
+#fnav .nb{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600}
+#fnav a{border:none;color:var(--ink,#171614);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
+#fnav a:hover{color:var(--accent,#7d2027)}
+#fnav a.here{color:var(--accent,#7d2027)}
+#fnav .ndot{width:6px;height:6px;border-radius:50%;background:var(--pr,#4b5f36);flex:0 0 auto}
+#fnav .nlinks{display:flex;gap:20px;align-items:center}
+#nburger{display:none;font-family:inherit;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+background:none;border:none;color:inherit;cursor:pointer;padding:2px 0}
+#nburger:hover{color:var(--accent,#7d2027)}
+html[data-theme="dark"] #fnav{background:var(--glass,rgba(23,21,17,.72));border-color:var(--glassborder,rgba(236,231,219,.28));color:var(--ink,#ece7db)}
+html[data-theme="dark"] #fnav a{color:var(--ink,#ece7db)}
+html[data-theme="dark"] #fnav a:hover,html[data-theme="dark"] #fnav a.here,html[data-theme="dark"] #nburger:hover{color:var(--accent,#c2564c)}
+html[data-theme="dark"] #fnav .ndot{background:var(--pr,#8fae72)}
+@media(max-width:1080px){
+  #nburger{display:block}
+  #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
+  align-items:flex-end;gap:13px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(16px) saturate(1.1);
+  -webkit-backdrop-filter:blur(16px) saturate(1.1);border:1px solid var(--glassborder,rgba(23,22,20,.35));border-radius:16px;
+  padding:18px 24px;box-shadow:0 14px 40px rgba(0,0,0,.16);min-width:170px}
+  #fnav .nlinks.open{display:flex;animation:navdrop .35s cubic-bezier(.22,.8,.26,1)}
+  html[data-theme="dark"] #fnav .nlinks{background:var(--glass,rgba(23,21,17,.72));border-color:var(--glassborder,rgba(236,231,219,.28))}
+  @keyframes navdrop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+}
+@media(prefers-reduced-motion:reduce){#fnav{transition:none}#fnav .nlinks.open{animation:none}}
+
 *{margin:0;padding:0;box-sizing:border-box}
 html{background:var(--paper);scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.62;
@@ -55,29 +89,6 @@ body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size
 a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(125,32,39,.35)}
 a:hover{border-bottom-color:var(--accent)}
 .wrap{max-width:1280px;margin:0 auto;padding:0 28px}
-/* floating nav */
-#fnav{position:fixed;top:14px;left:50%;transform:translate(-50%,-160%);z-index:60;display:flex;gap:20px;align-items:center;
-padding:10px 22px;background:var(--glass);backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
-border:1px solid var(--glassborder);border-radius:99px;box-shadow:0 10px 34px rgba(0,0,0,.12);
-transition:transform .55s cubic-bezier(.22,.8,.26,1),background-color .35s ease}
-#fnav.show{transform:translate(-50%,0)}
-#fnav .nb{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600}
-#fnav a{border:none;color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
-#fnav a:hover{color:var(--accent)}
-#fnav .ndot{width:6px;height:6px;border-radius:50%;background:var(--pr)}
-#fnav .nlinks{display:flex;gap:20px;align-items:center}
-#nburger{display:none;font-family:var(--serif);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
-background:none;border:none;color:var(--ink);cursor:pointer;padding:2px 0}
-#nburger:hover{color:var(--accent)}
-@media(max-width:940px){
-  #nburger{display:block}
-  #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
-  align-items:flex-end;gap:13px;background:var(--glass);backdrop-filter:blur(16px) saturate(1.1);
-  -webkit-backdrop-filter:blur(16px) saturate(1.1);border:1px solid var(--glassborder);border-radius:16px;
-  padding:18px 24px;box-shadow:0 14px 40px rgba(0,0,0,.16);min-width:170px}
-  #fnav .nlinks.open{display:flex;animation:navdrop .35s cubic-bezier(.22,.8,.26,1)}
-  @keyframes navdrop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
-}
 .board{margin:44px 0 0;border-top:2px solid var(--rule2);padding-top:18px}
 .board .bt{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin-bottom:16px}
 .board h2{font-size:13.5px}
@@ -132,7 +143,7 @@ sup a{border-bottom:none}
 /* reveal animation */
 .rv{opacity:0;transform:translateY(16px);transition:opacity .8s ease,transform .8s cubic-bezier(.22,.8,.26,1)}
 .rv.in{opacity:1;transform:none}
-@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}#fnav{transition:none}}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
 .figures{margin:44px 0 0;border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule);
 display:grid;grid-template-columns:repeat(5,1fr)}
 .fig{padding:20px 16px 22px;border-right:1px solid var(--rule)}
@@ -370,14 +381,15 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
   <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.9 1.9M19.1 4.9l-1.8 1.8M6.7 17.3l-1.9 1.9"/></svg>
 </button>
 
-<nav id="fnav" aria-label="Sections">
+<div id="fnav-hit" aria-hidden="true"></div>
+<nav id="fnav" aria-label="Sections" data-show-at="80" data-sticky="0">
   <span class="nb">CW</span><span class="ndot" title="Live data"></span>
   <button id="nburger" aria-label="Open menu" aria-expanded="false">Menu</button>
   <div class="nlinks" id="nlinks">
-    <a href="#board">Board</a><a href="#index">Index</a><a href="#shape">Charts</a><a href="#objections">Objections</a>
-    <a href="#precedents">Precedents</a><a href="#gazetteer">Gazetteer</a><a href="/wire.html">Wire</a><a href="#credit">Cite</a><a href="/contact.html">Contact</a>
+    <a href="#board">Board</a><a href="#index" class="here" aria-current="page">Index</a><a href="#shape">Charts</a><a href="#objections">Objections</a><a href="#precedents">Precedents</a><a href="#gazetteer">Gazetteer</a><a href="/wire.html">Wire</a><a href="#credit">Cite</a><a href="/contact.html">Contact</a><a href="/agents.html">Agents</a>
   </div>
 </nav>
+
 
 <div class="wrap">
   <div class="masthead li">
@@ -811,10 +823,21 @@ function setTheme(t, save){ document.documentElement.setAttribute("data-theme",t
   applyGlobeTheme(); }
 themeTog.onclick = ()=>setTheme(curTheme()==="dark"?"light":"dark", true);
 setTheme(curTheme(), false);
-const nb=document.getElementById("nburger"), nl=document.getElementById("nlinks");
-nb.onclick=(e)=>{ e.stopPropagation(); const open=nl.classList.toggle("open"); nb.setAttribute("aria-expanded",open); };
-nl.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nl.classList.remove("open")));
-document.addEventListener("click",(e)=>{ if(!nl.contains(e.target)&&e.target!==nb) nl.classList.remove("open"); });
+(function(){
+  var nav=document.getElementById("fnav"), nb=document.getElementById("nburger"), nl=document.getElementById("nlinks");
+  if(!nav) return;
+  var threshold=parseInt(nav.getAttribute("data-show-at")||"80",10);
+  var sticky=nav.getAttribute("data-sticky")==="1";
+  function sync(){ if(sticky){ nav.classList.add("show"); return; } nav.classList.toggle("show", window.scrollY>threshold); }
+  sync();
+  window.addEventListener("scroll",sync,{passive:true});
+  if(nb&&nl){
+    nb.onclick=function(e){ e.stopPropagation(); var open=nl.classList.toggle("open"); nb.setAttribute("aria-expanded",open); nav.classList.add("show"); };
+    nl.querySelectorAll("a").forEach(function(a){ a.addEventListener("click",function(){ nl.classList.remove("open"); }); });
+    document.addEventListener("click",function(e){ if(!nl.contains(e.target)&&e.target!==nb) nl.classList.remove("open"); });
+  }
+})();
+
 function routeHash(){ const sl=location.hash.replace("#",""); if(sl && bySlug(sl)) openCard(sl); }
 window.addEventListener("hashchange",routeHash);
 
@@ -915,9 +938,7 @@ document.getElementById("vtab").onclick=()=>{ state.view="table";
   document.getElementById("vtab").classList.add("on"); document.getElementById("vglobe").classList.remove("on");
   document.getElementById("globewrap").style.display="none"; document.getElementById("tablewrap").style.display="block"; };
 
-// ---- floating nav + reveal animations ----
-const nav=document.getElementById("fnav");
-window.addEventListener("scroll",()=>{ nav.classList.toggle("show", window.scrollY>420); },{passive:true});
+// ---- reveal animations ----
 // threshold 0: reveal as soon as the element's edge enters the viewport. A percentage threshold
 // can never fire for sections taller than the screen (the gazetteer), leaving them invisible.
 const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }),{threshold:0, rootMargin:"0px 0px -60px 0px"});
