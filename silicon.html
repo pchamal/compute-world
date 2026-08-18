@@ -794,7 +794,9 @@ document.querySelectorAll("tr.chiprow").forEach(function(r){
 document.getElementById("dclose").onclick = closeD;
 scrim.onclick = closeD;
 document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeD(); });
-if(location.hash){ var hid = location.hash.slice(1); if(document.getElementById(hid)) openD(hid); }
+function routeChip(){ var hid=location.hash.slice(1); if(hid && document.getElementById(hid)) openD(hid); }
+if(location.hash) routeChip();
+window.addEventListener("hashchange", routeChip);
 
 document.querySelectorAll(".chips .chip").forEach(function(ch){
   ch.onclick = function(){
