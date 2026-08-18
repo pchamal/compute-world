@@ -16,42 +16,42 @@
     <link>https://compute.world/brief#nvidia-b200-sxm6</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-b200-sxm6</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 18 Aug 2026. Display: Lambda OD. Also-print on the tape: CoreWeave $8.60 OD. SA Apr composite $3.68 is a different term.</description>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 18 Aug 2026. Display: Lambda OD 8× SXM6. 90d is 0% (21 May $6.69). Lambda 1y is a dash (no 8× instance a year ago). CoreWeave OD 1y is 0%. AWS CB $12.355 is a different term.</description>
   </item>
   <item>
-    <title>H100 SXM 80GB · $2.35 1y contract</title>
+    <title>H100 SXM 80GB · $3.99 on-demand</title>
     <link>https://compute.world/brief#nvidia-h100-sxm-80gb</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-h100-sxm-80gb</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM 80GB: display $2.35 1y contract at SemiAnalysis as of Mar 2026. Display is the SA 1y print ($2.35, Mar 2026). A prior sourced print on the same series is $1.70 (Oct 2025 trough), already on the tape and in note 4 of the index. Not a 7-day move.</description>
+    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 18 Aug 2026. Display is Lambda OD $3.99 (buy now, 8×). SA 1y $2.35 (Mar 2026) is STALE — last public period Apr 2026. 1y is $2.99 (12 Aug 2025) → $3.99. 90d is 0% (21 May $3.99). Not a 7-day move.</description>
   </item>
   <item>
     <title>H200 SXM 141GB · $6.31 on-demand</title>
     <link>https://compute.world/brief#nvidia-h200-sxm-141gb</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-h200-sxm-141gb</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>H200 SXM 141GB: display $6.31 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave OD. No second dated print of this display series in the repo.</description>
+    <description>H200 SXM 141GB: display $6.31 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave OD. 1y is 0% ($6.31 on 21 Aug 2025 = today). Also Crusoe $4.29 OD.</description>
   </item>
   <item>
     <title>GB200 NVL72 · $10.50 on-demand</title>
     <link>https://compute.world/brief#nvidia-gb200-nvl72</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-gb200-nvl72</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>GB200 NVL72: display $10.50 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave. No second dated print of this display series in the repo.</description>
+    <description>GB200 NVL72: display $10.50 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave $10.50 — 4-GPU instance, not a 72-rack.</description>
   </item>
   <item>
     <title>A100 SXM 80GB · $2.79 on-demand</title>
     <link>https://compute.world/brief#nvidia-a100-sxm-80gb</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-a100-sxm-80gb</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>A100 SXM 80GB: display $2.79 on-demand at Lambda as of 18 Aug 2026. Display: Lambda OD. No second dated print of this display series in the repo.</description>
+    <description>A100 SXM 80GB: display $2.79 on-demand at Lambda as of 18 Aug 2026. Display: Lambda OD. 90d is 0% (21 May $2.79). Also CoreWeave $2.70 OD.</description>
   </item>
   <item>
-    <title>MI355X · $2.95 from</title>
+    <title>MI355X · — sales-gated</title>
     <link>https://compute.world/brief#amd-mi355x</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/amd-mi355x</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $2.95 from at TensorWave as of 18 Aug 2026. Display: TensorWave from-price. No second dated print of this display series in the repo.</description>
+    <description>MI355X: display — sales-gated at — as of 18 Aug 2026. No public on-demand list. TensorWave is not a list. DigitalOcean spot $4.50 is interruptible, not the display.</description>
   </item>
   <item>
     <title>TPU v7 Ironwood · $12.00 on-demand</title>
@@ -65,21 +65,21 @@
     <link>https://compute.world/brief#nvidia-l40s-48gb</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-l40s-48gb</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>L40S 48GB: display $2.25 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave OD. No second dated print of this display series in the repo.</description>
+    <description>L40S 48GB: display $2.25 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave OD. Also DigitalOcean $1.57 OD.</description>
   </item>
   <item>
-    <title>MI300X · $1.71 on-demand</title>
+    <title>MI300X · $2.59 on-demand</title>
     <link>https://compute.world/brief#amd-mi300x</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/amd-mi300x</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>MI300X: display $1.71 on-demand at TensorWave as of 18 Aug 2026. Display: TensorWave. No second dated print of this display series in the repo.</description>
+    <description>MI300X: display $2.59 on-demand at DigitalOcean as of 18 Aug 2026. Display: DigitalOcean OD $2.59 (pricing effective 1 Aug 2026). 12m reserved $1.91. TensorWave is not a public list.</description>
   </item>
   <item>
-    <title>MI325X · $2.25 on-demand</title>
+    <title>MI325X · $3.80 on-demand</title>
     <link>https://compute.world/brief#amd-mi325x</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/amd-mi325x</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>MI325X: display $2.25 on-demand at TensorWave as of 18 Aug 2026. Display: TensorWave. No second dated print of this display series in the repo.</description>
+    <description>MI325X: display $3.80 on-demand at DigitalOcean as of 18 Aug 2026. Display: DigitalOcean OD $3.80. 12m reserved $2.88. TensorWave is not a public list.</description>
   </item>
   <item>
     <title>TPU v6e Trillium · $2.70 on-demand</title>
@@ -107,28 +107,28 @@
     <link>https://compute.world/brief#nvidia-b300-hgx</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-b300-hgx</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>HGX B300: display $4.48 spot at CoreWeave NA as of 18 Aug 2026. Display: CoreWeave NA spot ($35.84/8). OD contact sales. EU spot $36.70/8. Not a 7-day move.</description>
+    <description>HGX B300: display $4.48 spot at CoreWeave NA as of 18 Aug 2026. Display: CoreWeave NA spot ($35.84/8 = $4.48). OD contact sales. Also AWS CB $14.04 (different term).</description>
   </item>
   <item>
     <title>Ascend 910C · $1.59 1y monthly · ¥10.79/hr</title>
     <link>https://compute.world/brief#huawei-ascend-910c</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/huawei-ascend-910c</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Ascend 910C: display $1.59 1y monthly · ¥10.79/hr at SMM Beijing as of 29 Jul 2026. CNY primary: ¥63,000/month per 8-card Atlas 800T A3, 1y min → ¥10.79/hr. USD ~$1.59 at PBOC 6.7905 (18 Aug 2026). Tight Beijing supply.</description>
+    <description>Ascend 910C: display $1.59 1y monthly · ¥10.79/hr at SMM Beijing as of 29 Jul 2026. CNY primary: ¥63,000/month per 8-card Atlas 800T A3, 1y min → ¥10.79/hr. USD ~$1.59 at PBOC 6.7899 (29 Jul 2026). Tight Beijing supply.</description>
   </item>
   <item>
     <title>WSE-3 · — token / enterprise</title>
     <link>https://compute.world/brief#cerebras-wse3</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/cerebras-wse3</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>WSE-3: display — token / enterprise at Cerebras as of 18 Aug 2026. No public accelerator-hour. Do not use aggregator $0.75–$12.50.</description>
+    <description>WSE-3: display — token / enterprise at Cerebras as of 18 Aug 2026. No public accelerator-hour. gpt-oss-120b $0.35 / $0.75 per 1M tok. Do not use aggregator $0.75–$12.50.</description>
   </item>
   <item>
     <title>LPU · — token API</title>
     <link>https://compute.world/brief#groq-lpu</link>
     <guid isPermaLink="false">compute.world/brief/2026-08-18/groq-lpu</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>LPU: display — token API at Groq as of 18 Aug 2026. Token API at groq.com/pricing. No invented chip-hour.</description>
+    <description>LPU: display — token API at Groq as of 18 Aug 2026. Token API. gpt-oss-120b $0.15 / $0.60 per 1M tok. No invented chip-hour.</description>
   </item>
   <item>
     <title>GH200 · $6.50 on-demand</title>

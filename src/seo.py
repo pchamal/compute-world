@@ -55,6 +55,7 @@ DEFAULT_SITEMAP = [
     {"loc": f"{SITE}/", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/silicon.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/silicon.json", "lastmod": "2026-08-18", "changefreq": "weekly"},
+    {"loc": f"{SITE}/silicon-history.json", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/silicon.xml", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/brief", "lastmod": "2026-08-18", "changefreq": "daily"},
     {"loc": f"{SITE}/brief.json", "lastmod": "2026-08-18", "changefreq": "daily"},

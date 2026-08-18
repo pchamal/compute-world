@@ -13,6 +13,7 @@ Created by **Pukar C. Hamal**. First published August 10, 2026, San Francisco, C
 index.html      the site: Countries tab (board, index, essay) and Silicon tab (the tape)
 silicon.html    The Silicon Tape — standalone shareable rental index (from silicon.json)
 silicon.json    Silicon Tape source of truth (CC BY 4.0)
+silicon-history.json  append-only dated observed prints (no interpolations; each scrape adds a point)
 brief.json      daily briefing source of truth (country signals + sourced silicon prints)
 brief.html      public brief page (from brief.json)
 params.json     the $/GW value of compute. Reviewed weekly. Edit this file, the site reprices.
@@ -39,8 +40,10 @@ edit `params.json`, commit, done.
 
 - **Weekly $/GW update:** edit `params.json` (lo, hi, central, reviewed date, basis). Nothing
   else needs to change; the page reads it at load.
-- **Silicon Tape prices:** edit `silicon.json`, then `python3 src/build_silicon.py`. Do not
-  invent chips, averages, or 7d/30d changes.
+- **Silicon Tape prices:** edit `silicon.json`, append a dated point to
+  `silicon-history.json` (append-only on each scrape — never interpolate a candle),
+  then `python3 src/build_silicon.py`. Do not invent chips, averages, or 1d/7d candles.
+  30d / 90d / 1y light up only from two dated same-venue same-term prints.
 - **Daily brief:** edit `brief.json`, then `python3 src/build_brief.py`. Same motion as
   Wire / Silicon. Seed display prints from `silicon.json`. Leave `prev_usd` and `delta`
   null unless a second dated sourced print already exists in the repo. Do not invent a

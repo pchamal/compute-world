@@ -18,7 +18,7 @@ LINKS = (
 )
 
 # Homepage section hashes stay in-page; inner pages point at the homepage anchors.
-HOME_CURRENT = ("index",)  # Countries tab; JS marks Silicon when that tab is open
+HOME_CURRENT = ("silicon",)  # Silicon is the home mark; JS marks Index when Countries is open
 INNER = {
     "wire": "wire",
     "silicon": "silicon",

@@ -18,7 +18,9 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 ## What this is (and is not)
 - The index = CNW™ (108 countries) + the Silicon Tape (sourced accelerator prints).
 - Display prices are labeled terms (on-demand, 1y, spot, Capacity Blocks, token/enterprise).
-- No 7-day or 30-day percent change: there is no sourced series; do not invent one.
+- Buy-now headline is the current public list (Lambda OD for H100/B200/A100). SemiAnalysis 1y is STALE as of April 2026 and is not today's H100.
+- 30d / 90d / 1y percent change exists only from two dated same-venue same-term prints in silicon-history.json (30d ±5d, 90d ±10d, 1y 365d ±21d). Missing pair = em dash, never an invented 0%.
+- 1h / 24h / 7d stay dashes: US list prices do not tick daily. Sparklines are step charts of dated prints, not 1d/7d candles. Carry-forward is for drawing only.
 - Cerebras and Groq have no $/accelerator-hr. They are token/enterprise (Cerebras) and
   a token API (Groq). Do not use aggregator $0.75–$12.50 as a Cerebras hour.
 - No official NVIDIA MSRP as a rental print. No invented chips (Cambricon, Biren,
@@ -41,7 +43,8 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /data.json — full dataset (108 countries, all metrics, precedents catalog), CC BY 4.0
 - /params.json — the $/GW valuation parameters, reviewed weekly
 - /wire.json + /wire.html — The Wire: current sovereign-AI and compute-infrastructure news, each item scored for credibility (source tier, corroboration, specificity, delivery track record). RSS at /wire.xml.
-- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator prints (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026). Includes NVIDIA (B200, B300, H100, H200, GB200, A100, GH200, L40S, RTX PRO 6000 Blackwell), AMD, Google TPU, Trainium2, Huawei Ascend 910C (CNY-primary, SMM Beijing), Cerebras WSE-3 (token/enterprise), Groq LPU (token API). RSS at /silicon.xml. Homepage tab: /#silicon
+- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator prints (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026, STALE). Includes NVIDIA (B200, B300, H100, H200, GB200, A100, GH200, L40S, RTX PRO 6000 Blackwell), AMD, Google TPU, Trainium2, Huawei Ascend 910C (CNY-primary, SMM Beijing), Cerebras WSE-3 (token/enterprise), Groq LPU (token API). RSS at /silicon.xml. Homepage default tab: /#silicon ( /#countries still works; last-tab localStorage wins if set).
+- /silicon-history.json — append-only dated observed prints. The only source for 30d / 90d / 1y and sparklines. No interpolations.
 - /brief + /brief.json + /brief.xml — The daily tape: weekday public brief of country conversion signals and sourced silicon display prints. No invented 7d/30d deltas.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - /llms.txt — this file. Crawlers (Googlebot, Bingbot, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot, Applebot-Extended, Bytespider, CCBot) are allowed.
