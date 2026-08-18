@@ -1,15 +1,24 @@
 #!/usr/bin/env python3
-# The Silicon Tape generator: silicon.json (single source of truth) -> silicon.html + silicon.xml.
+# The Silicon Tape generator: silicon.json + silicon-history.json -> silicon.html + silicon.xml.
 # Run from repo root or src/:  python3 src/build_silicon.py
+# Do not invent prices or daily candles. History is append-only dated prints.
 import json, html, os, sys
 from datetime import datetime
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
 from subscribe import css as sub_css, markup as sub_markup, script as sub_script
 from seo import og_block, breadcrumb_ld, person_author, org_publisher
+from tape_print import DASH_TITLE, enrich_silicon
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 S = json.load(open(os.path.join(ROOT, "silicon.json")))
+HIST_PATH = os.path.join(ROOT, "silicon-history.json")
+H = json.load(open(HIST_PATH))
+S, H, _appended = enrich_silicon(S, H)
+json.dump(H, open(HIST_PATH, "w"), indent=2, ensure_ascii=False)
+open(HIST_PATH, "a").write("\n")
+json.dump(S, open(os.path.join(ROOT, "silicon.json"), "w"), indent=2, ensure_ascii=False)
+open(os.path.join(ROOT, "silicon.json"), "a").write("\n")
 SRC = {s["id"]: s for s in S["sources"]}
 chips = sorted(S["chips"], key=lambda c: c["rank"])
 
@@ -74,6 +83,96 @@ def src_url(sid):
     return SRC[sid]["url"]
 
 
+def chg_cell(chg, key):
+    row = (chg or {}).get(key) or {}
+    pct = row.get("pct")
+    title = html.escape(row.get("title") or DASH_TITLE, quote=True)
+    if pct is None:
+        return f'<td class="chg chg-na" data-col="{key}" data-chg="" title="{title}">—</td>'
+    cls = "chg-flat"
+    caret = ""
+    if pct > 0:
+        cls = "chg-up"
+        caret = '<span class="caret" aria-hidden="true">▲</span>'
+        text = f"+{pct:.1f}%"
+    elif pct < 0:
+        cls = "chg-dn"
+        caret = '<span class="caret" aria-hidden="true">▼</span>'
+        text = f"{pct:.1f}%"
+    else:
+        text = "0%"
+    return f'<td class="chg {cls}" data-col="{key}" data-chg="{pct}" title="{title}">{caret}{text}</td>'
+
+
+def spark_cell(c):
+    spark = c.get("spark") or {}
+    svg = spark.get("svg") or ""
+    title = html.escape(spark.get("title") or "Dated step chart.", quote=True)
+    n = len(spark.get("points") or [])
+    if not svg or n < 2:
+        return f'<td class="sparktd" data-col="spark" title="{title}">—</td>'
+    return f'<td class="sparktd" data-col="spark" title="{title}">{svg}</td>'
+
+
+def tape_sub(c):
+    tp = c.get("tape_print") or {}
+    if not tp.get("show"):
+        return ""
+    return f'<span class="tape" title="Tape Print is a same-term constellation. We do not publish the sleeve weights.">tape {html.escape(money(tp.get("usd_per_gpu_hr")))} · n={tp.get("n")}</span>'
+
+
+def price_pop(d, href, src_lab):
+    unit = "card-hr" if d.get("primary") == "CNY" else "GPU-hr"
+    bits = [
+        f'<b>{html.escape(d.get("label") or "Display print")}</b>',
+        f'<span>{html.escape(display_px(d))} / {unit}</span>',
+        f'<span>{html.escape(d.get("venue") or "—")} · {html.escape(d.get("term") or "")}</span>',
+        f'<span>as of {html.escape(nice_date(d.get("as_of")))}</span>',
+    ]
+    if href:
+        bits.append(f'<a href="{href}" rel="noopener">{html.escape(src_lab)}</a>')
+    elif src_lab:
+        bits.append(f"<span>{html.escape(src_lab)}</span>")
+    if d.get("note"):
+        bits.append(f'<span class="qnote">{html.escape(d["note"])}</span>')
+    return '<div class="pop">' + "".join(bits) + "</div>"
+
+
+def venue_bar(c):
+    n = len(c.get("venues") or [])
+    liq = c.get("liquidity") or 0
+    width = min(100, max(8, int(round((liq / 3) * 100)))) if liq else (min(100, n * 25) if n else 8)
+    title = html.escape(f"{n} venue{'s' if n != 1 else ''} · liquidity {liq}/3 · {c.get('scarcity_label') or ''}", quote=True)
+    return (
+        f'<span class="vbar" title="{title}"><i style="width:{width}%"></i></span>'
+        f'<span class="vcount">{n} venue{"s" if n != 1 else ""}</span>'
+        f'<span class="sub">{html.escape(c.get("scarcity_label") or "")}</span>'
+    )
+
+
+def weather_html(items, href_prefix="#"):
+    if not items:
+        return ""
+    parts = ['<div class="weather" aria-label="Tape weather">', '<span class="wlab">Tape</span>']
+    for w in items:
+        pct = w["pct"]
+        if pct > 0:
+            cls, mark = "w-up", f"▲ +{pct:.1f}%"
+        elif pct < 0:
+            cls, mark = "w-dn", f"▼ {pct:.1f}%"
+        else:
+            cls, mark = "w-flat", "0%"
+        title = html.escape(w.get("title") or "", quote=True)
+        href = href_prefix + html.escape(w["id"])
+        parts.append(
+            f'<a class="witem {cls}" href="{href}" title="{title}">'
+            f'{html.escape(w["name"])} {html.escape(w["window"])} <b>{mark}</b> '
+            f'{html.escape(w.get("venue") or "")}</a>'
+        )
+    parts.append("</div>")
+    return "".join(parts)
+
+
 for c in chips:
     got, exp = c["score"], expected_score(c)
     if abs(got - exp) > 0.001:
@@ -85,31 +184,30 @@ for c in chips:
     d = c["display"]
     also = c.get("also") or {}
     also_text = html.escape(also.get("text") or "—")
-    disp_note = html.escape(d.get("note") or "")
     href = src_url(d.get("source_id"))
-    src_lab = html.escape(src_name(d.get("source_id")))
-    src_a = f'<a href="{href}" rel="noopener">{src_lab}</a>' if href else src_lab
-    price_title = f'{d["label"]} · {nice_date(d["as_of"])} · {src_name(d.get("source_id"))}'
-    mem = html.escape(c["memory"])
-    mem_note = html.escape(c["memory_note"] or "")
-    mem_html = f'<span class="mem">{mem}</span>'
-    if mem_note:
-        mem_html += f'<span class="sub" title="{mem_note}">{mem_note}</span>'
-    venues = html.escape(" · ".join(c["venues"]))
-    rows.append(f'''<tr class="chiprow" id="{html.escape(c["id"])}" data-id="{html.escape(c["id"])}" data-vendor="{html.escape(c["vendor"])}" data-rank="{c["rank"]}" data-score="{c["score"]}" data-price="{d["usd_per_gpu_hr"] if d.get("usd_per_gpu_hr") is not None else ""}" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
+    src_lab = src_name(d.get("source_id"))
+    tick = html.escape(" · ".join(x for x in (c.get("vendor"), c.get("memory")) if x))
+    chg = c.get("changes") or {}
+    d30 = (chg.get("d30") or {}).get("pct")
+    d90 = (chg.get("d90") or {}).get("pct")
+    d1y = (chg.get("d1y") or {}).get("pct")
+    nven = len(c.get("venues") or [])
+    rows.append(f'''<tr class="chiprow" id="{html.escape(c["id"])}" data-id="{html.escape(c["id"])}" data-vendor="{html.escape(c["vendor"])}" data-rank="{c["rank"]}" data-score="{c["score"]}" data-price="{d["usd_per_gpu_hr"] if d.get("usd_per_gpu_hr") is not None else ""}" data-d30="{"" if d30 is None else d30}" data-d90="{"" if d90 is None else d90}" data-d1y="{"" if d1y is None else d1y}" data-venues="{nven}" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">{c["rank"]}</td>
-  <td class="chip" data-col="name"><span class="cn">{html.escape(c["name"])}</span></td>
-  <td data-col="vendor">{html.escape(c["vendor"])}</td>
-  <td class="memtd" data-col="memory">{mem_html}</td>
-  <td class="price" data-col="price" title="{html.escape(price_title)}">
+  <td class="chip" data-col="name"><span class="cn">{html.escape(c["name"])}</span><span class="tick">{tick}</span></td>
+  <td class="price" data-col="price">
     <span class="px">{html.escape(display_px(d))}</span>
     <span class="term">{html.escape(d["label"])}</span>
-    <span class="asof">{html.escape(nice_date(d["as_of"]))} · {src_a}</span>
-    {f'<span class="sub">{disp_note}</span>' if disp_note else ""}
+    {tape_sub(c)}
+    {price_pop(d, href, src_lab)}
   </td>
+  <td class="chg chg-na" data-col="d7" data-chg="" title="{html.escape(DASH_TITLE)}">—</td>
+  {chg_cell(chg, "d30")}
+  {chg_cell(chg, "d90")}
+  {chg_cell(chg, "d1y")}
+  {spark_cell(c)}
   <td class="also" data-col="also"><span class="also-t">{also_text}</span></td>
-  <td class="venues" data-col="venues">{venues}</td>
-  <td class="scarce" data-col="scarcity">{html.escape(c["scarcity_label"])}<span class="sub">{html.escape(c["scarcity"])}</span></td>
+  <td class="venues" data-col="venues">{venue_bar(c)}</td>
   <td class="num score" data-col="score">{c["score"]:.2f}</td>
 </tr>''')
 
@@ -156,8 +254,12 @@ faq_ld = json.dumps({
     "mainEntity": [
         {"@type": "Question", "name": "What is the Silicon Tape?",
          "acceptedAnswer": {"@type": "Answer", "text": "The Silicon Tape is the silicon half of compute.world, the world's compute & silicon index. It is a public index of sourced AI accelerator rental prints — labeled on-demand, 1y, spot, Capacity Blocks, or token/enterprise. Scores are ordinal hygiene (0.40 liquidity + 0.35 demand + 0.25 frontier). It is not a market cap."}},
-        {"@type": "Question", "name": "Why does the tape refuse 7-day percent change?",
-         "acceptedAnswer": {"@type": "Answer", "text": "There is no sourced 7-day or 30-day percent-change series for these prints. compute.world will not invent a move. A prior dated print is shown only when that same display series already lives in the repo (H100 SemiAnalysis 1y $1.70 in Oct 2025 beside $2.35 in Mar 2026)."}},
+        {"@type": "Question", "name": "Why is 7-day percent change a dash?",
+         "acceptedAnswer": {"@type": "Answer", "text": "US list prices do not tick daily. 7d lights up after a week of our own scrape. 30d, 90d, and 1y are computed only from two dated same-venue same-term prints. A missing pair is an em dash, never an invented 0%."}},
+        {"@type": "Question", "name": "Why isn't today's H100 $2.35?",
+         "acceptedAnswer": {"@type": "Answer", "text": "SemiAnalysis 1y $2.35 is a March 2026 print. The last public SA period is April 2026 and is labeled STALE. Buy-now is the current Lambda on-demand list: $3.99 as of 18 August 2026."}},
+        {"@type": "Question", "name": "Why are sparklines steps, not candles?",
+         "acceptedAnswer": {"@type": "Answer", "text": "The tape has dated observed prints, not a daily market. A sparkline is a step chart of those prints. Carry-forward is for drawing only. We do not invent 1d or 7d candles."}},
         {"@type": "Question", "name": "Why does Cerebras have no $/hour?",
          "acceptedAnswer": {"@type": "Answer", "text": "Cerebras Cloud is sold as a token API and as enterprise. There is no sourced public accelerator-hour in this snapshot. Aggregator ranges such as $0.75–$12.50 are omitted on purpose. Groq is listed the same way: token API, no invented chip-hour."}},
         {"@type": "Question", "name": "What is compute.world?",
@@ -167,8 +269,8 @@ faq_ld = json.dumps({
 si_title = "The Silicon Tape · AI accelerator rental index · compute.world"
 si_desc = (
     f"The Silicon Tape: {len(chips)} sourced AI accelerator prints. "
-    f"Snapshot {S['updated']}. B200 $6.69 Lambda OD · H100 $2.35 SA 1y · Ascend 910C ¥10.79/hr. "
-    "No market cap. No invented 7-day moves."
+    f"Snapshot {S['updated']}. B200 $6.69 Lambda OD · H100 $3.99 Lambda OD · Ascend 910C ¥10.79/hr. "
+    "Dated 30d / 90d / 1y only. No invented 7-day candles."
 )
 si_og = og_block(
     si_title, html.escape(si_desc),
@@ -243,27 +345,55 @@ h1 em{{font-style:italic}}
 .chip:hover{{border-bottom-color:var(--rule)}}
 .chip.on{{color:var(--accent);border-bottom:1px solid var(--accent)}}
 .tblwrap{{overflow-x:auto;margin:8px 0 0;border-top:2px solid var(--rule2)}}
-table.tape{{width:100%;border-collapse:collapse;font-size:13.5px;min-width:980px}}
+.weather{{display:flex;flex-wrap:wrap;align-items:baseline;gap:7px 18px;margin:2px 0 0;padding:10px 0 12px;border-bottom:1px solid var(--rule);font-size:13px}}
+.weather .wlab{{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}}
+.weather .witem{{border:none;color:var(--muted);white-space:nowrap}}
+.weather .witem:hover{{color:var(--ink)}}
+.weather .witem b{{font-weight:600}}
+.weather .w-up,.weather .w-up b{{color:var(--pr)}}
+.weather .w-dn,.weather .w-dn b{{color:var(--accent)}}
+.weather .w-flat b{{color:var(--ink)}}
+table.tape{{width:100%;border-collapse:collapse;font-size:12.5px;min-width:1020px}}
 .tape th{{font-weight:400;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;
-padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}}
-.tape th.num,.tape td.num{{text-align:right}}
+padding:9px 8px 8px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}}
+.tape th.num,.tape td.num,.tape th.price,.tape td.price,.tape th.chg,.tape td.chg{{text-align:right}}
 .tape th:hover{{color:var(--ink)}}
 .tape th.sorted{{color:var(--ink)}}
 .tape th .arr{{display:inline-block;margin-left:4px;color:var(--faint);font-size:9px}}
-.tape td{{padding:13px 10px;border-bottom:1px solid var(--rule);vertical-align:top}}
+.tape td{{padding:9px 8px;border-bottom:1px solid var(--rule);vertical-align:middle}}
 .tape tr.chiprow{{cursor:pointer}}
 .tape tr.chiprow:hover td{{background:var(--tint)}}
 .tape tr.chiprow.open td{{background:var(--tint)}}
 .tape .cn{{font-weight:600;border-bottom:1px solid transparent}}
 .tape tr.chiprow:hover .cn{{color:var(--accent);border-bottom-color:var(--accent)}}
-.tape .px{{font-size:16px;font-weight:600;letter-spacing:-.02em;display:block}}
+.tape .tick{{display:block;font-size:11px;color:var(--faint);margin-top:2px;letter-spacing:.02em}}
+.tape .px{{font-size:15px;font-weight:600;letter-spacing:-.02em;display:block}}
 .tape .term,.tape .asof,.tape .sub{{display:block;font-size:11px;letter-spacing:.02em;color:var(--faint);line-height:1.45;margin-top:2px;text-transform:none}}
-.tape .asof a{{border:none;color:var(--muted)}}
-.tape .asof a:hover{{color:var(--accent)}}
-.tape .also-t{{color:var(--muted);font-size:12.5px}}
-.tape .venues{{color:var(--muted);font-size:12px;max-width:160px}}
-.tape .scarce{{font-size:12.5px}}
+.tape .also-t{{color:var(--muted);font-size:12px}}
+.tape .venues{{color:var(--muted);font-size:12px;max-width:120px}}
+.tape .vbar{{display:block;height:3px;background:var(--barbg);margin:0 0 6px;max-width:72px}}
+.tape .vbar i{{display:block;height:100%;background:var(--ink);opacity:.42}}
+.tape .vcount{{display:block}}
 .tape .score{{font-weight:600}}
+.tape .chg{{font-variant-numeric:tabular-nums;white-space:nowrap;font-size:12.5px}}
+.tape .chg .caret{{display:inline-block;margin-right:3px;font-size:9px;transform:translateY(-1px)}}
+.tape .chg-up{{color:var(--pr)}}
+.tape .chg-dn{{color:var(--accent)}}
+.tape .chg-flat,.tape .chg-na{{color:var(--faint)}}
+.tape .sparktd{{width:88px;min-width:80px}}
+.tape .spark{{display:block;margin-left:auto;color:var(--muted)}}
+.tape .spark-up{{color:var(--pr)}}
+.tape .spark-dn{{color:var(--accent)}}
+.tape .tape{{display:block;margin-top:4px;font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}}
+.tape td.price{{position:relative}}
+.tape .pop{{display:none;position:absolute;right:6px;top:calc(100% - 2px);z-index:8;min-width:228px;padding:10px 12px;
+background:var(--paper);border:1px solid var(--rule2);box-shadow:0 12px 32px rgba(0,0,0,.14);text-align:left;
+font-size:12px;color:var(--muted);line-height:1.45}}
+.tape td.price:hover .pop{{display:block}}
+.tape .pop b{{color:var(--ink);display:block;margin-bottom:3px}}
+.tape .pop span,.tape .pop a{{display:block;margin-top:2px}}
+.tape .pop a{{border:none}}
+.tape .pop .qnote{{color:var(--faint);font-size:11px}}
 .hint{{margin:10px 0 0;font-size:12px;color:var(--faint);letter-spacing:.04em}}
 #scrim{{position:fixed;inset:0;background:rgba(23,22,20,.28);opacity:0;pointer-events:none;z-index:80;transition:opacity .3s ease}}
 #scrim.on{{opacity:1;pointer-events:auto}}
@@ -285,6 +415,10 @@ letter-spacing:.12em;text-transform:uppercase;color:var(--muted);cursor:pointer}
 #drawer .qtable td{{padding:8px 8px 8px 0;border-bottom:1px solid var(--rule);vertical-align:top}}
 #drawer .qtable .qpx{{font-weight:600;white-space:nowrap}}
 #drawer .qnote{{display:block;font-size:11.5px;color:var(--faint);margin-top:2px}}
+#drawer .dspark{{margin:8px 0 12px}}
+#drawer .dspark svg{{width:220px;height:64px;color:var(--muted)}}
+#drawer .spark-up{{color:var(--pr)}}
+#drawer .spark-dn{{color:var(--accent)}}
 #drawer p{{font-size:14.5px;color:var(--muted);margin-bottom:10px}}
 #drawer p b{{color:var(--ink)}}
 #drawer ul{{margin:0 0 8px 18px;color:var(--muted);font-size:14px}}
@@ -333,6 +467,7 @@ details.meth .mb li{{margin-bottom:6px}}
       <span>{len(chips)} chips</span>
       <span>SA prints as-of April 2026</span>
       <a href="/silicon.json">silicon.json</a>
+      <a href="/silicon-history.json">history</a>
       <a href="/silicon.xml">RSS</a>
       <a href="/">Nation-State Index</a>
       <a href="/brief">Daily brief</a>
@@ -344,6 +479,7 @@ details.meth .mb li{{margin-bottom:6px}}
   <div class="chips" role="tablist" aria-label="Vendor filter">
     {vendor_bar}
   </div>
+  {weather_html(S.get("weather") or [])}
 
   <div class="tblwrap">
     <table class="tape" id="tape">
@@ -351,12 +487,14 @@ details.meth .mb li{{margin-bottom:6px}}
         <tr>
           <th class="num sorted" data-sort="rank" data-type="num"># <span class="arr">▼</span></th>
           <th data-sort="name" data-type="str">Chip <span class="arr"></span></th>
-          <th data-sort="vendor" data-type="str">Vendor <span class="arr"></span></th>
-          <th data-sort="memory" data-type="str">Memory <span class="arr"></span></th>
-          <th data-sort="price" data-type="num">Display print <span class="arr"></span></th>
-          <th data-sort="also" data-type="str">Range / second quote <span class="arr"></span></th>
-          <th data-sort="venues" data-type="str">Venues <span class="arr"></span></th>
-          <th data-sort="scarcity" data-type="str">Scarcity <span class="arr"></span></th>
+          <th class="price" data-sort="price" data-type="num">Price <span class="arr"></span></th>
+          <th class="num" data-sort="d7" data-type="num" title="{html.escape(DASH_TITLE)}">7d <span class="arr"></span></th>
+          <th class="num" data-sort="d30" data-type="num">30d <span class="arr"></span></th>
+          <th class="num" data-sort="d90" data-type="num">90d <span class="arr"></span></th>
+          <th class="num" data-sort="d1y" data-type="num">1y <span class="arr"></span></th>
+          <th data-sort="spark" data-type="str">Sparkline <span class="arr"></span></th>
+          <th data-sort="also" data-type="str">Also <span class="arr"></span></th>
+          <th data-sort="venues" data-type="num">Venues <span class="arr"></span></th>
           <th class="num" data-sort="score" data-type="num">Score <span class="arr"></span></th>
         </tr>
       </thead>
@@ -365,7 +503,7 @@ details.meth .mb li{{margin-bottom:6px}}
       </tbody>
     </table>
   </div>
-  <p class="hint">Click a row for every sourced quote, dates, and what we will not show. Display prices are labeled terms — not averages.</p>
+  <p class="hint">Hover a price for venue, term, as-of, and source. 30d / 90d / 1y use caret + color + sign from two dated prints. 7d is a dash until we have a week of our own scrape. Sparklines are ~80px step charts, colored by the longest honest window.</p>
 
   <details class="meth" open>
     <summary>How the tape is ranked — and what it refuses to be</summary>
@@ -374,8 +512,11 @@ details.meth .mb li{{margin-bottom:6px}}
       <p><b>Liquidity.</b> 0 none; 1 one primary venue; 2 two–three venues; 3 four or more spanning a neocloud and a hyperscaler.</p>
       <p><b>Demand.</b> 3 named sold-out, booked, or scarce in 2026 trade press; 2 listed but sales-gated or tight; 1 widely listed on-demand; 0 unknown.</p>
       <p><b>Frontier.</b> 3 current training / rack frontier; 2 current workhorse; 1 commodity / prior-gen.</p>
-      <p><b>Display-price convention.</b> Prefer a labeled <b>1y contract</b> when SemiAnalysis publishes one (H100). Else a labeled <b>on-demand</b> print from the most liquid public neocloud (Lambda, else CoreWeave). A second venue stays in the row. Capacity Blocks, marketplace floors, and on-demand are never blended into one unlabeled number.</p>
-      <p><b>As-of dates.</b> SemiAnalysis public prints <b>stop at April 2026</b> and are labeled that way. August 2026 figures are neocloud and hyperscaler list pages fetched <b>2026-08-18</b>.</p>
+      <p><b>Display-price convention.</b> Prefer a labeled <b>on-demand</b> print from the most liquid public neocloud (Lambda, else CoreWeave, else DigitalOcean). SemiAnalysis 1y is a dated series — last public period <b>April 2026, STALE</b> — and is never today's buy-now headline. A second venue stays in the row. Capacity Blocks, marketplace floors, and on-demand are never blended into one unlabeled number. TensorWave is not treated as a public list.</p>
+      <p><b>Change windows.</b> 30d ±5d, 90d ±10d, 1y = 365d ±21d. Percent = 100 × (now/then − 1), only from two real same-chip same-venue same-term same-config prints. A missing pair is an em dash, never an invented 0%. 1h / 24h / 7d stay dashes: US list prices do not tick daily.</p>
+      <p><b>Sparklines.</b> Step charts of dated observed prints. Carry-forward is for drawing only. We do not invent 1d or 7d candles.</p>
+      <p><b>Tape Print.</b> Tape Print is a same-term constellation. We do not publish the sleeve weights. The big number on the row is always the labeled venue price.</p>
+      <p><b>As-of dates.</b> SemiAnalysis public prints <b>stop at April 2026</b> and are labeled that way. August 2026 figures are neocloud and hyperscaler list pages fetched <b>2026-08-18</b>. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a> (append-only).</p>
       <p><b>Omitted this snapshot</b> — no invented rows:</p>
       <ul>{omitted}</ul>
       <p>Machine-readable: <a href="/silicon.json">silicon.json</a> (CC BY 4.0, attribution to compute.world). Cite as: <code>{html.escape(S["cite"])}</code>. Corrections: <a href="/contact.html">get in touch</a>. Half of <a href="/">the world's compute &amp; silicon index</a>.</p>
@@ -390,8 +531,14 @@ details.meth .mb li{{margin-bottom:6px}}
     <p>compute.world is <b>the world's compute &amp; silicon index</b>. The Compute Net Worth Index&#8482; (CNW™) prices 108 countries. The Silicon Tape prints sourced chips. Gross Domestic Compute (GDC™) is the tapped counterpart to CNW. Two tapes, one index.</p>
     <h3>What is the tape?</h3>
     <p>The Silicon Tape is a public rental index. Every display number is a <b>labeled term</b> — on-demand, 1y, spot, Capacity Blocks, or token/enterprise — from a named venue and date. Rank is 0.40 × liquidity + 0.35 × demand + 0.25 × frontier. It is not a market cap.</p>
-    <h3>Why is there no 7-day percent change?</h3>
-    <p>No source publishes a 7-day or 30-day percent-change series for these prints. We will not invent one. A prior dated print appears only when that same display series already lives in the repo.</p>
+    <h3>Why is 7-day a dash?</h3>
+    <p>US list prices do not tick daily. 7d lights up after a week of our own scrape. We will not invent a daily coin chart.</p>
+    <h3>Why isn't today's H100 $2.35?</h3>
+    <p>SemiAnalysis 1y $2.35 is a <b>March 2026</b> print. The last public SA period is April 2026 and is labeled STALE. Buy-now is Lambda on-demand <b>$3.99</b> as of 18 August 2026. The SA series still lives in the drawer, as a step chart, not as today's headline.</p>
+    <h3>Why are sparklines steps, not candles?</h3>
+    <p>The tape has dated observed prints — not a session market. A sparkline is a step chart of those prints. Carry-forward is for drawing only. A percent needs two real same-venue same-term prints. Missing pair = —.</p>
+    <h3>What is Tape Print?</h3>
+    <p>Tape Print is a same-term constellation. We do not publish the sleeve weights. The auditable number is the labeled venue price.</p>
     <h3>Why does Cerebras have no $/hour?</h3>
     <p>Cerebras Cloud is token and enterprise. There is no sourced public accelerator-hour. Aggregator ranges such as $0.75–$12.50 are omitted on purpose. Groq is the same motion: a token API, not an invented chip-hour.</p>
   </section>
@@ -416,11 +563,12 @@ var TAPE = JSON.parse(document.getElementById("tape-data").textContent);
 var SRC = {{}}; TAPE.sources.forEach(function(s){{ SRC[s.id] = s; }});
 function money(x){{ if(x==null) return "—"; var s=Number(x).toFixed(3); if(s.slice(-1)==="0") s=s.slice(0,-1); return "$"+s; }}
 function qPrice(q){{
+  if(q.in_per_mtok!=null) return "$"+Number(q.in_per_mtok).toFixed(2)+" / $"+Number(q.out_per_mtok).toFixed(2)+" per 1M tok";
   if(q.cny_per_gpu_hr!=null) return "¥"+Number(q.cny_per_gpu_hr).toFixed(2)+(q.usd_per_gpu_hr!=null?" · "+money(q.usd_per_gpu_hr):"");
   if(q.range) return money(q.range[0])+"–"+money(q.range[1]);
   var p = money(q.usd_per_gpu_hr);
   if(q.approx && q.usd_per_gpu_hr!=null) p = "~"+p;
-  if(q.unit) p += " / "+q.unit;
+  if(q.unit && q.usd_per_gpu_hr!=null) p += " / "+q.unit;
   if(q.fx_usdcny) p = "USD/CNY "+q.fx_usdcny;
   return p;
 }}
@@ -464,8 +612,15 @@ function openD(id){{
   }}).join("");
   var noshow = (c.cannot_show||[]).map(function(x){{ return "<li>"+x+"</li>"; }}).join("");
   var extra = (c.notes||[]).map(function(x){{ return "<p>"+x+"</p>"; }}).join("");
+  var spark = c.spark||{{}};
+  var sparkH = (spark.svg && (spark.points||[]).length>=2) ? "<h3>Dated tape</h3><p>"+(spark.title||"Step chart of dated prints.")+"</p><div class=\\"dspark\\">"+spark.svg+"</div>" : "";
+  var sa = c.spark_sa_1y;
+  if(sa && sa.svg){{ sparkH += "<h3>"+sa.label+" (STALE)</h3><p>"+sa.title+"</p><div class=\\"dspark\\">"+sa.svg+"</div>"; }}
+  var tp = c.tape_print||{{}};
+  var tapeH = tp.show ? "<h3>Tape Print</h3><p>Tape Print is a same-term constellation. We do not publish the sleeve weights. The labeled venue price above is the auditable number. Tape "+money(tp.usd_per_gpu_hr)+" · n="+tp.n+".</p>" : "";
   document.getElementById("dbody").innerHTML =
     "<h3>Quotes</h3><table class=\\"qtable\\"><thead><tr><th>Venue / term</th><th>$ / GPU-hr</th><th>As-of · source</th></tr></thead><tbody>"+qrows+"</tbody></table>"+
+    sparkH+tapeH+
     "<h3>Availability</h3><p>"+c.availability+"</p>"+
     "<h3>Demand note</h3><p>"+c.scarcity+"</p>"+
     extra+
@@ -478,12 +633,14 @@ function openD(id){{
 document.querySelectorAll("tr.chiprow").forEach(function(r){{
   r.addEventListener("click", function(){{ openD(r.dataset.id); }});
   r.addEventListener("keydown", function(e){{ if(e.key==="Enter"||e.key===" "){{ e.preventDefault(); openD(r.dataset.id); }} }});
-  r.querySelectorAll("a").forEach(function(a){{ a.addEventListener("click", function(e){{ e.stopPropagation(); }}); }});
+  r.querySelectorAll("a,.pop").forEach(function(a){{ a.addEventListener("click", function(e){{ e.stopPropagation(); }}); }});
 }});
 document.getElementById("dclose").onclick = closeD;
 scrim.onclick = closeD;
 document.addEventListener("keydown", function(e){{ if(e.key==="Escape") closeD(); }});
-if(location.hash){{ var hid = location.hash.slice(1); if(document.getElementById(hid)) openD(hid); }}
+function routeChip(){{ var hid=location.hash.slice(1); if(hid && document.getElementById(hid)) openD(hid); }}
+if(location.hash) routeChip();
+window.addEventListener("hashchange", routeChip);
 
 document.querySelectorAll(".chips .chip").forEach(function(ch){{
   ch.onclick = function(){{
@@ -511,8 +668,9 @@ document.querySelectorAll(".chips .chip").forEach(function(ch){{
         var av = a.querySelector('[data-col="'+key+'"]');
         var bv = b.querySelector('[data-col="'+key+'"]');
         if(type==="num"){{
-          var an = parseFloat(key==="price"?a.dataset.price: key==="score"?a.dataset.score: a.dataset.rank);
-          var bn = parseFloat(key==="price"?b.dataset.price: key==="score"?b.dataset.score: b.dataset.rank);
+          var map={{price:"price",score:"score",rank:"rank",d30:"d30",d90:"d90",d1y:"d1y",d7:"d7",venues:"venues"}};
+          var an = parseFloat(a.dataset[map[key]||"rank"]);
+          var bn = parseFloat(b.dataset[map[key]||"rank"]);
           if(isNaN(an)) an = -Infinity; if(isNaN(bn)) bn = -Infinity;
           return (an-bn)*state.dir;
         }}

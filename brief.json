@@ -38,20 +38,20 @@
       "venue": "Lambda",
       "term": "on-demand",
       "as_of": "2026-08-18",
-      "prev_usd": null,
-      "delta": null,
-      "note": "Display: Lambda OD. Also-print on the tape: CoreWeave $8.60 OD. SA Apr composite $3.68 is a different term."
+      "prev_usd": 6.69,
+      "delta": "0% 90d",
+      "note": "Display: Lambda OD 8× SXM6. 90d is 0% (21 May $6.69). Lambda 1y is a dash (no 8× instance a year ago). CoreWeave OD 1y is 0%. AWS CB $12.355 is a different term."
     },
     {
       "id": "nvidia-h100-sxm-80gb",
       "name": "H100 SXM 80GB",
-      "display_usd": 2.35,
-      "venue": "SemiAnalysis",
-      "term": "1y contract",
-      "as_of": "2026-03",
-      "prev_usd": 1.7,
-      "delta": null,
-      "note": "Display is the SA 1y print ($2.35, Mar 2026). A prior sourced print on the same series is $1.70 (Oct 2025 trough), already on the tape and in note 4 of the index. Not a 7-day move."
+      "display_usd": 3.99,
+      "venue": "Lambda",
+      "term": "on-demand",
+      "as_of": "2026-08-18",
+      "prev_usd": 2.99,
+      "delta": "+33.4% 1y",
+      "note": "Display is Lambda OD $3.99 (buy now, 8×). SA 1y $2.35 (Mar 2026) is STALE — last public period Apr 2026. 1y is $2.99 (12 Aug 2025) → $3.99. 90d is 0% (21 May $3.99). Not a 7-day move."
     },
     {
       "id": "nvidia-h200-sxm-141gb",
@@ -60,9 +60,9 @@
       "venue": "CoreWeave",
       "term": "on-demand",
       "as_of": "2026-08-18",
-      "prev_usd": null,
-      "delta": null,
-      "note": "Display: CoreWeave OD. No second dated print of this display series in the repo."
+      "prev_usd": 6.31,
+      "delta": "0% 1y",
+      "note": "Display: CoreWeave OD. 1y is 0% ($6.31 on 21 Aug 2025 = today). Also Crusoe $4.29 OD."
     },
     {
       "id": "nvidia-gb200-nvl72",
@@ -73,7 +73,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: CoreWeave. No second dated print of this display series in the repo."
+      "note": "Display: CoreWeave $10.50 — 4-GPU instance, not a 72-rack."
     },
     {
       "id": "nvidia-a100-sxm-80gb",
@@ -82,20 +82,20 @@
       "venue": "Lambda",
       "term": "on-demand",
       "as_of": "2026-08-18",
-      "prev_usd": null,
-      "delta": null,
-      "note": "Display: Lambda OD. No second dated print of this display series in the repo."
+      "prev_usd": 2.79,
+      "delta": "0% 90d",
+      "note": "Display: Lambda OD. 90d is 0% (21 May $2.79). Also CoreWeave $2.70 OD."
     },
     {
       "id": "amd-mi355x",
       "name": "MI355X",
-      "display_usd": 2.95,
-      "venue": "TensorWave",
-      "term": "from",
+      "display_usd": null,
+      "venue": "—",
+      "term": "sales-gated",
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: TensorWave from-price. No second dated print of this display series in the repo."
+      "note": "No public on-demand list. TensorWave is not a list. DigitalOcean spot $4.50 is interruptible, not the display."
     },
     {
       "id": "google-tpu-v7-ironwood",
@@ -117,29 +117,29 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: CoreWeave OD. No second dated print of this display series in the repo."
+      "note": "Display: CoreWeave OD. Also DigitalOcean $1.57 OD."
     },
     {
       "id": "amd-mi300x",
       "name": "MI300X",
-      "display_usd": 1.71,
-      "venue": "TensorWave",
+      "display_usd": 2.59,
+      "venue": "DigitalOcean",
       "term": "on-demand",
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: TensorWave. No second dated print of this display series in the repo."
+      "note": "Display: DigitalOcean OD $2.59 (pricing effective 1 Aug 2026). 12m reserved $1.91. TensorWave is not a public list."
     },
     {
       "id": "amd-mi325x",
       "name": "MI325X",
-      "display_usd": 2.25,
-      "venue": "TensorWave",
+      "display_usd": 3.80,
+      "venue": "DigitalOcean",
       "term": "on-demand",
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: TensorWave. No second dated print of this display series in the repo."
+      "note": "Display: DigitalOcean OD $3.80. 12m reserved $2.88. TensorWave is not a public list."
     },
     {
       "id": "google-tpu-v6e-trillium",
@@ -183,7 +183,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: CoreWeave NA spot ($35.84/8). OD contact sales. EU spot $36.70/8. Not a 7-day move."
+      "note": "Display: CoreWeave NA spot ($35.84/8 = $4.48). OD contact sales. Also AWS CB $14.04 (different term)."
     },
     {
       "id": "huawei-ascend-910c",
@@ -194,7 +194,7 @@
       "as_of": "2026-07-29",
       "prev_usd": null,
       "delta": null,
-      "note": "CNY primary: ¥63,000/month per 8-card Atlas 800T A3, 1y min → ¥10.79/hr. USD ~$1.59 at PBOC 6.7905 (18 Aug 2026). Tight Beijing supply."
+      "note": "CNY primary: ¥63,000/month per 8-card Atlas 800T A3, 1y min → ¥10.79/hr. USD ~$1.59 at PBOC 6.7899 (29 Jul 2026). Tight Beijing supply."
     },
     {
       "id": "cerebras-wse3",
@@ -205,7 +205,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "No public accelerator-hour. Do not use aggregator $0.75–$12.50."
+      "note": "No public accelerator-hour. gpt-oss-120b $0.35 / $0.75 per 1M tok. Do not use aggregator $0.75–$12.50."
     },
     {
       "id": "groq-lpu",
@@ -216,7 +216,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Token API at groq.com/pricing. No invented chip-hour."
+      "note": "Token API. gpt-oss-120b $0.15 / $0.60 per 1M tok. No invented chip-hour."
     },
     {
       "id": "nvidia-gh200",
@@ -265,7 +265,9 @@
     {"name": "The Silicon Tape", "url": "/silicon.html", "note": "Ranked rental index; display prints are labeled terms."},
     {"name": "The Wire", "url": "/wire.html", "note": "Country items above are already-scored Wire signals, not new prints."},
     {"name": "SEC NVIDIA 8-K", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm", "note": "PORTS-Pike, 17 Aug 2026."},
-    {"name": "SemiAnalysis GPU Rental Index", "url": "https://gpu-index.semianalysis.com/", "note": "H100 SA 1y $2.35 (Mar 2026) and $1.70 (Oct 2025 trough). Public prints stop at April 2026."},
+    {"name": "silicon-history.json", "url": "/silicon-history.json", "note": "Append-only dated observed prints. Source of 30d / 90d / 1y and sparklines."},
+    {"name": "SemiAnalysis GPU Rental Index", "url": "https://gpu-index.semianalysis.com/", "note": "H100 SA 1y $2.35 (Mar 2026) is STALE. Last public period April 2026. Not today's buy-now."},
+    {"name": "DigitalOcean GPU Droplets", "url": "https://www.digitalocean.com/pricing/gpu-droplets", "note": "MI300X $2.59 OD, MI325X $3.80 OD, L40S $1.57. Fetched 2026-08-18."},
     {"name": "CoreWeave pricing", "url": "https://www.coreweave.com/pricing", "note": "B300 NA/EU spot, RTX PRO 6000, GH200. Fetched 2026-08-18."},
     {"name": "SMM Computing Power Bulletin", "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000", "note": "Ascend 910C ¥63,000/month per 8-card, 29 Jul 2026."},
     {"name": "PBOC USD/CNY central parity", "url": "https://www.news.cn/20260818/49fc10868e3d40d889d5cf1a3cd0526d/c.html", "note": "6.7905 on 18 Aug 2026. Labels the 910C print in USD only."},

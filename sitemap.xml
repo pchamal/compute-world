@@ -16,6 +16,11 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
+<loc>https://compute.world/silicon-history.json</loc>
+<lastmod>2026-08-18</lastmod>
+<changefreq>weekly</changefreq>
+</url>
+<url>
 <loc>https://compute.world/silicon.xml</loc>
 <lastmod>2026-08-18</lastmod>
 <changefreq>weekly</changefreq>

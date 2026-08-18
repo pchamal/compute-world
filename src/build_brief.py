@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # Daily brief generator: brief.json (single source of truth) -> brief.html + brief.xml.
 # Run from repo root or src/:  python3 src/build_brief.py
-# Do not invent prices, chips, or 7d/30d changes. prev_usd / delta stay null unless
-# a second dated sourced print already sits in the repo.
+# Do not invent prices, chips, or 1d/7d candles. prev_usd / delta stay null unless
+# a second dated sourced print already sits in silicon-history.json.
 import json, html, os
 from datetime import datetime
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
@@ -102,8 +102,8 @@ faq_ld = json.dumps({
     "mainEntity": [
         {"@type": "Question", "name": "What is the daily tape?",
          "acceptedAnswer": {"@type": "Answer", "text": "The daily tape is the weekday public brief of compute.world, the world's compute & silicon index: country conversion signals already on The Wire, plus today's display prints from the Silicon Tape. Labeled terms only."}},
-        {"@type": "Question", "name": "Why is there no 7-day percent change?",
-         "acceptedAnswer": {"@type": "Answer", "text": "No source publishes a 7-day or 30-day move for these prints. prev_usd and delta stay empty unless a second dated sourced print of the same display series already sits in the repo."}},
+        {"@type": "Question", "name": "Why is 7-day percent change a dash?",
+         "acceptedAnswer": {"@type": "Answer", "text": "US list prices do not tick daily. 7d lights up after a week of our own scrape. prev_usd and delta appear only from two dated same-series prints in silicon-history.json."}},
         {"@type": "Question", "name": "Why does Cerebras have no $/hour?",
          "acceptedAnswer": {"@type": "Answer", "text": "Cerebras is token/enterprise. There is no sourced public accelerator-hour. The brief will not print aggregator $0.75–$12.50 as a Cerebras hour."}},
     ],
@@ -248,7 +248,7 @@ padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
       </tbody>
     </table>
   </div>
-  <p class="hint">Delta is empty unless a second dated sourced print of the same display series already lives in the repo. H100 is the one row with a prior SA 1y print ($1.70, Oct 2025). That is not a 7-day change.</p>
+  <p class="hint">Delta is empty unless a second dated sourced print of the same display series already lives in <a href="/silicon-history.json">silicon-history.json</a>. H100 1y is Lambda $2.99 (12 Aug 2025) → $3.99. That is not a 7-day change. SA 1y $2.35 is STALE.</p>
 
   <h2>Watch</h2>
   <ul class="prose">{wa_lis}</ul>
@@ -262,8 +262,8 @@ padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
     <p>compute.world is <b>the world's compute &amp; silicon index</b>: CNW™ prices 108 countries; the Silicon Tape prints sourced chips.</p>
     <h3>What is the tape?</h3>
     <p>This page is the weekday public brief — country conversion already on The Wire, plus labeled silicon display prints. Not a market cap.</p>
-    <h3>Why no 7-day percent?</h3>
-    <p>No source. prev_usd and delta stay empty unless a second dated sourced print of the same series already lives in the repo.</p>
+    <h3>Why is 7-day a dash?</h3>
+    <p>US list prices do not tick daily. 7d lights up after a week of our own scrape. H100 1y (+33.4%) is Lambda $2.99 → $3.99, not a daily candle. SA 1y $2.35 is STALE.</p>
     <h3>Why does Cerebras have no $/hour?</h3>
     <p>Token / enterprise. No public accelerator-hour. We will not print aggregator $0.75–$12.50 as a Cerebras hour.</p>
   </section>

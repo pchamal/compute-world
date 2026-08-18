@@ -225,7 +225,9 @@ CRUMB_LD = json.dumps(breadcrumb_ld([("compute.world", "https://compute.world/")
 FAQ_LD = json.dumps({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
  {"@type":"Question","name":"What is the index?","acceptedAnswer":{"@type":"Answer","text":"compute.world is the world's compute & silicon index. The Compute Net Worth Index (CNW™) prices 108 countries three ways — CNW Ceiling, CNW Unlockable, and Gross Domestic Compute (GDC™). The Silicon Tape prints sourced AI accelerator rentals. Created by Pukar C. Hamal, San Francisco, 2026."}},
  {"@type":"Question","name":"What is the tape?","acceptedAnswer":{"@type":"Answer","text":"The Silicon Tape is the silicon half of the index: a public rental tape of sourced accelerator prints. Every display number is a labeled term (on-demand, 1y, spot, Capacity Blocks, or token/enterprise) from a named venue and date. Rank is 0.40 × liquidity + 0.35 × demand + 0.25 × frontier. It is not a market cap."}},
- {"@type":"Question","name":"Why is there no 7-day percent change?","acceptedAnswer":{"@type":"Answer","text":"No source publishes a 7-day or 30-day percent-change series for these prints. compute.world will not invent a move. A prior dated print is shown only when that same display series already lives in the repo."}},
+ {"@type":"Question","name":"Why is 7-day percent change a dash?","acceptedAnswer":{"@type":"Answer","text":"US list prices do not tick daily. 7d lights up after a week of our own scrape. 30d, 90d, and 1y need two dated same-venue same-term prints. A missing pair is an em dash, never an invented 0%."}},
+ {"@type":"Question","name":"Why isn't today's H100 $2.35?","acceptedAnswer":{"@type":"Answer","text":"SemiAnalysis 1y $2.35 is a March 2026 print. Last public SA period is April 2026, labeled STALE. Buy-now is Lambda on-demand $3.99 as of 18 August 2026."}},
+ {"@type":"Question","name":"Why are sparklines steps, not candles?","acceptedAnswer":{"@type":"Answer","text":"The tape has dated observed prints, not a daily market. Sparklines are step charts of those prints. Carry-forward is for drawing only. We do not invent 1d or 7d candles."}},
  {"@type":"Question","name":"Why does Cerebras have no $/hour?","acceptedAnswer":{"@type":"Answer","text":"Cerebras Cloud is sold as a token API and as enterprise. There is no sourced public accelerator-hour. Aggregator ranges such as $0.75–$12.50 are omitted on purpose. Groq is listed the same way."}},
  {"@type":"Question","name":"What is Compute Net Worth?","acceptedAnswer":{"@type":"Answer","text":"Compute Net Worth (CNW) is the value of AI compute that a country's own energy resources and geography could host, priced at the market value of AI factory capacity per gigawatt (currently $60-80B per GW). The index prices 108 countries three ways: the CNW Ceiling (full endowment), CNW Unlockable (the bankable slice at today's readiness), and Gross Domestic Compute (what is live today)."}},
  {"@type":"Question","name":"What is Gross Domestic Compute (GDC)?","acceptedAnswer":{"@type":"Answer","text":"Gross Domestic Compute (GDC) is a country's live datacenter IT capacity in gigawatts multiplied by the market value of compute per GW. What GDP is to output, GDC is to compute. Global GDC is roughly $4.7 trillion against a $662 trillion ceiling: the world has tapped 0.7% of its compute net worth."}},
@@ -334,26 +336,54 @@ html[data-theme="dark"] .tabswitch [role="tab"][aria-selected="true"]{background
 #panel-silicon .chip:hover{border-bottom-color:var(--rule)}
 #panel-silicon .chip.on{color:var(--accent);border-bottom:1px solid var(--accent)}
 #panel-silicon .tblwrap{overflow-x:auto;margin:8px 0 0;border-top:2px solid var(--rule2)}
-table.tape{width:100%;border-collapse:collapse;font-size:13.5px;min-width:980px}
+.weather{display:flex;flex-wrap:wrap;align-items:baseline;gap:7px 18px;margin:2px 0 0;padding:10px 0 12px;border-bottom:1px solid var(--rule);font-size:13px}
+.weather .wlab{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+.weather .witem{border:none;color:var(--muted);white-space:nowrap}
+.weather .witem:hover{color:var(--ink)}
+.weather .witem b{font-weight:600}
+.weather .w-up,.weather .w-up b{color:var(--pr)}
+.weather .w-dn,.weather .w-dn b{color:var(--accent)}
+.weather .w-flat b{color:var(--ink)}
+table.tape{width:100%;border-collapse:collapse;font-size:12.5px;min-width:1020px}
 .tape th{font-weight:400;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;
-padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}
-.tape th.num,.tape td.num{text-align:right}
+padding:9px 8px 8px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}
+.tape th.num,.tape td.num,.tape th.price,.tape td.price,.tape th.chg,.tape td.chg{text-align:right}
 .tape th:hover{color:var(--ink)}
 .tape th.sorted{color:var(--ink)}
 .tape th .arr{display:inline-block;margin-left:4px;color:var(--faint);font-size:9px}
-.tape td{padding:13px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+.tape td{padding:9px 8px;border-bottom:1px solid var(--rule);vertical-align:middle}
 .tape tr.chiprow{cursor:pointer}
 .tape tr.chiprow:hover td{background:var(--tint)}
 .tape .cn{font-weight:600;border-bottom:1px solid transparent}
 .tape tr.chiprow:hover .cn{color:var(--accent);border-bottom-color:var(--accent)}
-.tape .px{font-size:16px;font-weight:600;letter-spacing:-.02em;display:block}
+.tape .tick{display:block;font-size:11px;color:var(--faint);margin-top:2px;letter-spacing:.02em}
+.tape .px{font-size:15px;font-weight:600;letter-spacing:-.02em;display:block}
 .tape .term,.tape .asof,.tape .sub{display:block;font-size:11px;letter-spacing:.02em;color:var(--faint);line-height:1.45;margin-top:2px;text-transform:none}
-.tape .asof a{border:none;color:var(--muted)}
-.tape .asof a:hover{color:var(--accent)}
-.tape .also-t{color:var(--muted);font-size:12.5px}
-.tape .venues{color:var(--muted);font-size:12px;max-width:160px}
-.tape .scarce{font-size:12.5px}
+.tape .also-t{color:var(--muted);font-size:12px}
+.tape .venues{color:var(--muted);font-size:12px;max-width:120px}
+.tape .vbar{display:block;height:3px;background:var(--barbg);margin:0 0 6px;max-width:72px}
+.tape .vbar i{display:block;height:100%;background:var(--ink);opacity:.42}
+.tape .vcount{display:block}
 .tape .score{font-weight:600}
+.tape .chg{font-variant-numeric:tabular-nums;white-space:nowrap;font-size:12.5px}
+.tape .chg .caret{display:inline-block;margin-right:3px;font-size:9px;transform:translateY(-1px)}
+.tape .chg-up{color:var(--pr)}
+.tape .chg-dn{color:var(--accent)}
+.tape .chg-flat,.tape .chg-na{color:var(--faint)}
+.tape .sparktd{width:88px;min-width:80px}
+.tape .spark{display:block;margin-left:auto;color:var(--muted)}
+.tape .spark-up{color:var(--pr)}
+.tape .spark-dn{color:var(--accent)}
+.tape .tape{display:block;margin-top:4px;font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}
+.tape td.price{position:relative}
+.tape .pop{display:none;position:absolute;right:6px;top:calc(100% - 2px);z-index:8;min-width:228px;padding:10px 12px;
+background:var(--paper);border:1px solid var(--rule2);box-shadow:0 12px 32px rgba(0,0,0,.14);text-align:left;
+font-size:12px;color:var(--muted);line-height:1.45}
+.tape td.price:hover .pop{display:block}
+.tape .pop b{color:var(--ink);display:block;margin-bottom:3px}
+.tape .pop span,.tape .pop a{display:block;margin-top:2px}
+.tape .pop a{border:none}
+.tape .pop .qnote{color:var(--faint);font-size:11px}
 #panel-silicon .hint{margin:10px 0 8px;font-size:12px;color:var(--faint);letter-spacing:.04em}
 h1{font-weight:400;font-size:clamp(34px,5vw,52px);line-height:1.14}
 h1 em{font-style:italic}
@@ -644,11 +674,11 @@ __FNAV_HTML__
 
   <div class="hometabs" id="hometabs">
     <div class="tabswitch" role="tablist" aria-label="Index">
-      <button type="button" role="tab" id="tab-countries" aria-controls="panel-countries" aria-selected="true" tabindex="0">Countries</button>
-      <button type="button" role="tab" id="tab-silicon" aria-controls="panel-silicon" aria-selected="false" tabindex="-1">Silicon</button>
+      <button type="button" role="tab" id="tab-silicon" aria-controls="panel-silicon" aria-selected="true" tabindex="0">Silicon</button>
+      <button type="button" role="tab" id="tab-countries" aria-controls="panel-countries" aria-selected="false" tabindex="-1">Countries</button>
     </div>
     __SUBSCRIBE__
-    <div id="panel-countries" role="tabpanel" aria-labelledby="tab-countries">
+    <div id="panel-countries" role="tabpanel" aria-labelledby="tab-countries" hidden>
 
   <div class="board rv" id="board">
     <div class="bt"><h2>The Realized Board</h2><span class="bsub">Who is converting Compute Net Worth into compute · recomputes with every Wire update · CNW Realized = 35% conversion + 25% pipeline + 25% signal velocity + 15% execution</span></div>
@@ -859,7 +889,7 @@ __FNAV_HTML__
       <p><b>Put the index on your own site.</b> The official embed is free for any site, attribution built in, updates itself:</p>
       <p><code>&lt;iframe src="https://compute.world/embed.html?n=10&amp;sort=u" width="100%" height="520" style="border:1px solid #171614" title="The Compute Net Worth Index"&gt;&lt;/iframe&gt;</code></p>
       <p>Options: <code>n</code> = rows (5 to 25) &middot; <code>sort</code> = <code>u</code> unlockable, <code>hi</code> ceiling, <code>m</code> multiple of GDP, <code>rz</code> realized &middot; preview it at <a href="/embed.html">embed.html</a>.</p>
-      <p>Machine-readable: <a href="data.json">data.json</a> &middot; <a href="params.json">params.json</a> &middot; <a href="llms.txt">llms.txt</a> &middot; <a href="/silicon.json">silicon.json</a> (The Silicon Tape) &middot; <a href="/brief.json">brief.json</a> (the daily tape) &middot; and the full <a href="/agents.html">agent edition</a> of this page. Trademarks of Pukar C. Hamal: &ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo;, &ldquo;Gross Domestic Compute&rdquo; (GDC).</p>
+      <p>Machine-readable: <a href="data.json">data.json</a> &middot; <a href="params.json">params.json</a> &middot; <a href="llms.txt">llms.txt</a> &middot; <a href="/silicon.json">silicon.json</a> (The Silicon Tape) &middot; <a href="/silicon-history.json">silicon-history.json</a> (dated prints, append-only) &middot; <a href="/brief.json">brief.json</a> (the daily tape) &middot; and the full <a href="/agents.html">agent edition</a> of this page. Trademarks of Pukar C. Hamal: &ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo;, &ldquo;Gross Domestic Compute&rdquo; (GDC).</p>
     </div>
   </div>
 
@@ -886,35 +916,38 @@ __FNAV_HTML__
 
     </div><!-- /panel-countries -->
 
-    <div id="panel-silicon" role="tabpanel" aria-labelledby="tab-silicon" hidden>
+    <div id="panel-silicon" role="tabpanel" aria-labelledby="tab-silicon">
       <div class="si-head">
-        <p class="si-one">The public rental tape. Display prints are <b>labeled terms</b> — not averages, not market caps, not 7-day moves. Rank is ordinal hygiene. Methodology lives on the standalone tape.</p>
+        <p class="si-one">The public rental tape. Display prints are <b>labeled terms</b> — not averages, not market caps, not invented candles. 30d / 90d / 1y need two dated same-venue prints. Rank is ordinal hygiene. Methodology lives on the standalone tape.</p>
         <a class="si-full" href="/silicon.html">full tape →</a>
       </div>
       <div class="chips" id="si-vendors" role="group" aria-label="Vendor filter">
         <button class="chip on" data-v="" type="button">All</button>
       </div>
+      <div class="weather" id="si-weather" hidden></div>
       <div class="tblwrap">
         <table class="tape" id="home-tape">
           <thead>
             <tr>
               <th class="num sorted" data-sort="rank" data-type="num"># <span class="arr">▼</span></th>
               <th data-sort="name" data-type="str">Chip <span class="arr"></span></th>
-              <th data-sort="vendor" data-type="str">Vendor <span class="arr"></span></th>
-              <th data-sort="memory" data-type="str">Memory <span class="arr"></span></th>
-              <th data-sort="price" data-type="num">Display print <span class="arr"></span></th>
-              <th data-sort="also" data-type="str">Range / second quote <span class="arr"></span></th>
-              <th data-sort="venues" data-type="str">Venues <span class="arr"></span></th>
-              <th data-sort="scarcity" data-type="str">Scarcity <span class="arr"></span></th>
+              <th class="price" data-sort="price" data-type="num">Price <span class="arr"></span></th>
+              <th class="num" data-sort="d7" data-type="num" title="US list prices do not tick daily. 7d lights up after a week of our own scrape.">7d <span class="arr"></span></th>
+              <th class="num" data-sort="d30" data-type="num">30d <span class="arr"></span></th>
+              <th class="num" data-sort="d90" data-type="num">90d <span class="arr"></span></th>
+              <th class="num" data-sort="d1y" data-type="num">1y <span class="arr"></span></th>
+              <th data-sort="spark" data-type="str">Sparkline <span class="arr"></span></th>
+              <th data-sort="also" data-type="str">Also <span class="arr"></span></th>
+              <th data-sort="venues" data-type="num">Venues <span class="arr"></span></th>
               <th class="num" data-sort="score" data-type="num">Score <span class="arr"></span></th>
             </tr>
           </thead>
           <tbody id="home-tape-body">
-            <tr><td colspan="9" class="hint">Loading the tape from silicon.json…</td></tr>
+            <tr><td colspan="11" class="hint">Loading the tape from silicon.json…</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="hint">Same columns as <a href="/silicon.html">The Silicon Tape</a>. Click a row for every sourced quote. Snapshot and sources stay in silicon.json.</p>
+      <p class="hint">Same density as <a href="/silicon.html">The Silicon Tape</a>. Hover a price for the exact venue print. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a>.</p>
     </div>
   </div><!-- /hometabs -->
 
@@ -924,8 +957,12 @@ __FNAV_HTML__
     <p>compute.world is <b>the world's compute &amp; silicon index</b>. The Compute Net Worth Index&#8482; (CNW™) prices 108 countries — ceiling, unlockable, Gross Domestic Compute (GDC™). The Silicon Tape prints sourced chips. Two tapes. One index. Created by Pukar C. Hamal.</p>
     <h3>What is the tape?</h3>
     <p>The Silicon Tape is a public rental index. Every display number is a <b>labeled term</b> from a named venue and date — on-demand, 1y, spot, Capacity Blocks, or token/enterprise. Rank is 0.40 × liquidity + 0.35 × demand + 0.25 × frontier. It is not a market cap.</p>
-    <h3>Why is there no 7-day percent change?</h3>
-    <p>No source publishes a 7-day or 30-day percent-change series for these prints. We will not invent one. A prior dated print appears only when that same display series already lives in the repo.</p>
+    <h3>Why is 7-day a dash?</h3>
+    <p>US list prices do not tick daily. 7d lights up after a week of our own scrape. 30d, 90d, and 1y are computed only from two dated same-venue same-term prints. A missing pair is an em dash, never an invented 0%.</p>
+    <h3>Why isn't today's H100 $2.35?</h3>
+    <p>SemiAnalysis 1y $2.35 is a <b>March 2026</b> print. The last public SA period is April 2026 and is labeled STALE. Buy-now is Lambda on-demand <b>$3.99</b> as of 18 August 2026.</p>
+    <h3>Why are sparklines steps, not candles?</h3>
+    <p>The tape has dated observed prints, not a session market. A sparkline is a step chart of those prints. Carry-forward is for drawing only. We do not invent 1d or 7d candles.</p>
     <h3>Why does Cerebras have no $/hour?</h3>
     <p>Cerebras Cloud is token and enterprise. There is no sourced public accelerator-hour. Aggregator ranges such as $0.75–$12.50 are omitted on purpose. Groq is the same motion: a token API, not an invented chip-hour.</p>
   </section>
@@ -1103,7 +1140,7 @@ setTheme(curTheme(), false);
 __FNAV_JS__
 const HOME_TAB_KEY="cnw_home_tab";
 const HOME_SECTIONS=["board","index","shape","objections","precedents","gazetteer","credit","notes","subscribe"];
-let homeTab="countries";
+let homeTab="silicon";
 function syncFnavTab(tab){
   const nav=document.getElementById("fnav"); if(!nav) return;
   nav.querySelectorAll("a[data-nav]").forEach(a=>{
@@ -1152,7 +1189,8 @@ function initHomeTabs(){
   const named=tabFromUrl();
   let tab=named;
   if(!tab){ try{ tab=localStorage.getItem(HOME_TAB_KEY); }catch(e){} }
-  selectHomeTab(tab==="silicon"?"silicon":"countries");
+  if(!tab) tab="silicon";
+  selectHomeTab(tab==="countries"?"countries":"silicon");
   const list=document.querySelector(".tabswitch");
   if(!list) return;
   list.querySelectorAll('[role="tab"]').forEach(btn=>{
@@ -1191,7 +1229,10 @@ window.addEventListener("hashchange",routeHash);
 function moneyTape(x){ if(x==null||x==="") return "—"; var s=Number(x).toFixed(3); if(s.slice(-1)==="0") s=s.slice(0,-1); return "$"+s; }
 function displayTape(d){
   if(d && d.primary==="CNY" && d.cny_per_gpu_hr!=null) return "¥"+Number(d.cny_per_gpu_hr).toFixed(2);
-  if(d && d.usd_per_gpu_hr==null) return d.label||"—";
+  if(d && d.usd_per_gpu_hr==null){
+    if(/token|enterprise/i.test((d.term||"")+" "+(d.label||""))) return d.label||"—";
+    return "—";
+  }
   return moneyTape(d && d.usd_per_gpu_hr);
 }
 function niceTapeDate(d){
@@ -1227,8 +1268,9 @@ function bindHomeTape(){
       const rows=[].slice.call(tb.querySelectorAll("tr.chiprow"));
       rows.sort((a,b)=>{
         if(type==="num"){
-          let an=parseFloat(key==="price"?a.dataset.price:key==="score"?a.dataset.score:a.dataset.rank);
-          let bn=parseFloat(key==="price"?b.dataset.price:key==="score"?b.dataset.score:b.dataset.rank);
+          const map={price:"price",score:"score",rank:"rank",d30:"d30",d90:"d90",d1y:"d1y",d7:"d7",venues:"venues"};
+          let an=parseFloat(a.dataset[map[key]||"rank"]);
+          let bn=parseFloat(b.dataset[map[key]||"rank"]);
           if(isNaN(an)) an=-Infinity; if(isNaN(bn)) bn=-Infinity;
           return (an-bn)*state.dir;
         }
@@ -1262,37 +1304,75 @@ async function loadHomeTape(){
       const u=SRC[id].url?SRC[id].url:"";
       return u?'<a href="'+u+'" rel="noopener">'+SRC[id].name+"</a>":SRC[id].name;
     }
+    function chgCell(chg,key){
+      const row=(chg&&chg[key])||{};
+      const pct=row.pct;
+      const title=(row.title||"US list prices do not tick daily. 7d lights up after a week of our own scrape.").replace(/"/g,"&quot;");
+      if(pct==null) return '<td class="chg chg-na" data-col="'+key+'" title="'+title+'">—</td>';
+      const cls=pct>0?"chg-up":pct<0?"chg-dn":"chg-flat";
+      const caret=pct>0?'<span class="caret" aria-hidden="true">▲</span>':pct<0?'<span class="caret" aria-hidden="true">▼</span>':"";
+      const text=pct===0?"0%":((pct>0?"+":"")+Number(pct).toFixed(1)+"%");
+      return '<td class="chg '+cls+'" data-col="'+key+'" title="'+title+'">'+caret+text+"</td>";
+    }
+    function pricePop(d,href,srcLab){
+      const unit=d.primary==="CNY"?"card-hr":"GPU-hr";
+      let h='<div class="pop"><b>'+(d.label||"Display print")+"</b>";
+      h+="<span>"+displayTape(d)+" / "+unit+"</span>";
+      h+="<span>"+(d.venue||"—")+" · "+(d.term||"")+"</span>";
+      h+="<span>as of "+niceTapeDate(d.as_of)+"</span>";
+      if(href) h+='<a href="'+href+'" rel="noopener">'+(srcLab||"source")+"</a>";
+      else if(srcLab) h+="<span>"+srcLab+"</span>";
+      if(d.note) h+='<span class="qnote">'+d.note+"</span>";
+      return h+"</div>";
+    }
+    const wx=document.getElementById("si-weather");
+    if(wx && S.weather && S.weather.length){
+      wx.hidden=false;
+      wx.innerHTML='<span class="wlab">Tape</span>'+S.weather.map(w=>{
+        const pct=w.pct;
+        const cls=pct>0?"w-up":pct<0?"w-dn":"w-flat";
+        const mark=pct>0?("▲ +"+Number(pct).toFixed(1)+"%"):pct<0?("▼ "+Number(pct).toFixed(1)+"%"):"0%";
+        const title=(w.title||"").replace(/"/g,"&quot;");
+        return '<a class="witem '+cls+'" href="/silicon.html#'+w.id+'" title="'+title+'">'+(w.name||"")+" "+(w.window||"")+" <b>"+mark+"</b> "+(w.venue||"")+"</a>";
+      }).join("");
+    }
     tb.innerHTML=chips.map(c=>{
       const d=c.display||{};
       const also=(c.also&&c.also.text)||"—";
-      const mem=c.memory||"";
-      const memNote=c.memory_note||"";
-      const memHtml='<span class="mem">'+mem+"</span>"+(memNote?'<span class="sub" title="'+memNote.replace(/"/g,"&quot;")+'">'+memNote+"</span>":"");
       const href=d.source_id&&SRC[d.source_id]?SRC[d.source_id].url:"";
       const srcLab=d.source_id&&SRC[d.source_id]?SRC[d.source_id].name:"unlinked";
-      const srcHtml=href?'<a href="'+href+'" rel="noopener">'+srcLab+"</a>":srcLab;
-      const priceTitle=(d.label||"")+" · "+niceTapeDate(d.as_of)+" · "+srcLab;
-      const dispNote=d.note?'<span class="sub">'+d.note+"</span>":"";
+      const tick=[c.vendor,c.memory].filter(Boolean).join(" · ");
       const px=d.usd_per_gpu_hr;
-      return '<tr class="chiprow" data-id="'+c.id+'" data-vendor="'+(c.vendor||"")+'" data-rank="'+c.rank+'" data-score="'+c.score+'" data-price="'+(px==null?"":px)+'">'+
+      const chg=c.changes||{};
+      const spark=c.spark||{};
+      const sparkHtml=(spark.svg&&(spark.points||[]).length>=2)?spark.svg:"—";
+      const sparkTitle=(spark.title||"Dated step chart.").replace(/"/g,"&quot;");
+      const tp=c.tape_print||{};
+      const tapeHtml=tp.show?'<span class="tape" title="Tape Print is a same-term constellation. We do not publish the sleeve weights.">tape '+moneyTape(tp.usd_per_gpu_hr)+" · n="+tp.n+"</span>":"";
+      const d30=chg.d30&&chg.d30.pct, d90=chg.d90&&chg.d90.pct, d1y=chg.d1y&&chg.d1y.pct;
+      const nven=(c.venues||[]).length;
+      const liq=c.liquidity||0;
+      const barW=liq?Math.max(8,Math.round(liq/3*100)):Math.min(100,nven*25||8);
+      const vtitle=(nven+" venue"+(nven===1?"":"s")+" · liquidity "+liq+"/3 · "+(c.scarcity_label||"")).replace(/"/g,"&quot;");
+      return '<tr class="chiprow" data-id="'+c.id+'" data-vendor="'+(c.vendor||"")+'" data-rank="'+c.rank+'" data-score="'+c.score+'" data-price="'+(px==null?"":px)+'" data-d30="'+(d30==null?"":d30)+'" data-d90="'+(d90==null?"":d90)+'" data-d1y="'+(d1y==null?"":d1y)+'" data-venues="'+nven+'">'+
         '<td class="num" data-col="rank">'+c.rank+"</td>"+
-        '<td class="chip" data-col="name"><span class="cn">'+(c.name||"")+"</span></td>"+
-        '<td data-col="vendor">'+(c.vendor||"")+"</td>"+
-        '<td class="memtd" data-col="memory">'+memHtml+"</td>"+
-        '<td class="price" data-col="price" title="'+priceTitle.replace(/"/g,"&quot;")+'"><span class="px">'+displayTape(d)+'</span><span class="term">'+(d.label||"")+'</span><span class="asof">'+niceTapeDate(d.as_of)+" · "+srcHtml+"</span>"+dispNote+"</td>"+
+        '<td class="chip" data-col="name"><span class="cn">'+(c.name||"")+'</span><span class="tick">'+tick+"</span></td>"+
+        '<td class="price" data-col="price"><span class="px">'+displayTape(d)+'</span><span class="term">'+(d.label||"")+"</span>"+tapeHtml+pricePop(d,href,srcLab)+"</td>"+
+        '<td class="chg chg-na" data-col="d7" title="US list prices do not tick daily. 7d lights up after a week of our own scrape.">—</td>'+
+        chgCell(chg,"d30")+chgCell(chg,"d90")+chgCell(chg,"d1y")+
+        '<td class="sparktd" data-col="spark" title="'+sparkTitle+'">'+sparkHtml+"</td>"+
         '<td class="also" data-col="also"><span class="also-t">'+also+"</span></td>"+
-        '<td class="venues" data-col="venues">'+(c.venues||[]).join(" · ")+"</td>"+
-        '<td class="scarce" data-col="scarcity">'+(c.scarcity_label||"")+'<span class="sub">'+(c.scarcity||"")+"</span></td>"+
+        '<td class="venues" data-col="venues"><span class="vbar" title="'+vtitle+'"><i style="width:'+barW+'%"></i></span><span class="vcount">'+nven+" venue"+(nven===1?"":"s")+'</span><span class="sub">'+(c.scarcity_label||"")+"</span></td>"+
         '<td class="num score" data-col="score">'+(Number(c.score).toFixed(2))+"</td></tr>";
     }).join("");
     tb.querySelectorAll("tr.chiprow").forEach(r=>{
       r.addEventListener("click",()=>{ location.href="/silicon.html#"+r.dataset.id; });
-      r.querySelectorAll("a").forEach(a=>a.addEventListener("click",e=>e.stopPropagation()));
+      r.querySelectorAll("a,.pop").forEach(a=>a.addEventListener("click",e=>e.stopPropagation()));
     });
     bindHomeTape();
     _tapeLoaded=true;
   }catch(e){
-    tb.innerHTML='<tr><td colspan="9" class="hint">The tape needs silicon.json. The standalone page is at <a href="/silicon.html">silicon.html</a>.</td></tr>';
+    tb.innerHTML='<tr><td colspan="11" class="hint">The tape needs silicon.json. The standalone page is at <a href="/silicon.html">silicon.html</a>.</td></tr>';
   }
 }
 
@@ -1486,7 +1566,9 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 ## What this is (and is not)
 - The index = CNW™ (108 countries) + the Silicon Tape (sourced accelerator prints).
 - Display prices are labeled terms (on-demand, 1y, spot, Capacity Blocks, token/enterprise).
-- No 7-day or 30-day percent change: there is no sourced series; do not invent one.
+- Buy-now headline is the current public list (Lambda OD for H100/B200/A100). SemiAnalysis 1y is STALE as of April 2026 and is not today's H100.
+- 30d / 90d / 1y percent change exists only from two dated same-venue same-term prints in silicon-history.json (30d ±5d, 90d ±10d, 1y 365d ±21d). Missing pair = em dash, never an invented 0%.
+- 1h / 24h / 7d stay dashes: US list prices do not tick daily. Sparklines are step charts of dated prints, not 1d/7d candles. Carry-forward is for drawing only.
 - Cerebras and Groq have no $/accelerator-hr. They are token/enterprise (Cerebras) and
   a token API (Groq). Do not use aggregator $0.75–$12.50 as a Cerebras hour.
 - No official NVIDIA MSRP as a rental print. No invented chips (Cambricon, Biren,
@@ -1509,7 +1591,8 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /data.json — full dataset (108 countries, all metrics, precedents catalog), CC BY 4.0
 - /params.json — the $/GW valuation parameters, reviewed weekly
 - /wire.json + /wire.html — The Wire: current sovereign-AI and compute-infrastructure news, each item scored for credibility (source tier, corroboration, specificity, delivery track record). RSS at /wire.xml.
-- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator prints (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026). Includes NVIDIA (B200, B300, H100, H200, GB200, A100, GH200, L40S, RTX PRO 6000 Blackwell), AMD, Google TPU, Trainium2, Huawei Ascend 910C (CNY-primary, SMM Beijing), Cerebras WSE-3 (token/enterprise), Groq LPU (token API). RSS at /silicon.xml. Homepage tab: /#silicon
+- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator prints (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026, STALE). Includes NVIDIA (B200, B300, H100, H200, GB200, A100, GH200, L40S, RTX PRO 6000 Blackwell), AMD, Google TPU, Trainium2, Huawei Ascend 910C (CNY-primary, SMM Beijing), Cerebras WSE-3 (token/enterprise), Groq LPU (token API). RSS at /silicon.xml. Homepage default tab: /#silicon ( /#countries still works; last-tab localStorage wins if set).
+- /silicon-history.json — append-only dated observed prints. The only source for 30d / 90d / 1y and sparklines. No interpolations.
 - /brief + /brief.json + /brief.xml — The daily tape: weekday public brief of country conversion signals and sourced silicon display prints. No invented 7d/30d deltas.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - /llms.txt — this file. Crawlers (Googlebot, Bingbot, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot, Applebot-Extended, Bytespider, CCBot) are allowed.
@@ -1626,7 +1709,7 @@ code,pre{{background:#efe9dd;font-size:12px;padding:1px 5px}}.ed{{font-size:10.5
 <h2>Instructions</h2>
 <p>Cite as: <code>Hamal, P. (2026). The Compute Net Worth Index. compute.world.</code><br>
 License: scores and methodology are proprietary; quoting with attribution is free for research, personal, and journalistic use; commercial use requires a license (<a href="/contact.html">contact</a>). Full terms: LICENSE.md in the <a href="https://github.com/pchamal/compute-world">repository</a>.<br>
-Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/params.json">/params.json</a> (weekly $/GW value) · <a href="/wire.json">/wire.json</a> (rated news signals) · <a href="/wire.xml">/wire.xml</a> (RSS) · <a href="/silicon.json">/silicon.json</a> (The Silicon Tape) · <a href="/silicon.html">/silicon.html</a> · <a href="/brief.json">/brief.json</a> (daily tape) · <a href="/brief">/brief</a> · <a href="/brief.xml">/brief.xml</a> · <a href="/llms.txt">/llms.txt</a> (summary). Deep links: /#nepal, /#namibia, /#silicon, /#countries.</p>
+Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/params.json">/params.json</a> (weekly $/GW value) · <a href="/wire.json">/wire.json</a> (rated news signals) · <a href="/wire.xml">/wire.xml</a> (RSS) · <a href="/silicon.json">/silicon.json</a> (The Silicon Tape) · <a href="/silicon-history.json">/silicon-history.json</a> (dated prints) · <a href="/silicon.html">/silicon.html</a> · <a href="/brief.json">/brief.json</a> (daily tape) · <a href="/brief">/brief</a> · <a href="/brief.xml">/brief.xml</a> · <a href="/llms.txt">/llms.txt</a> (summary). Deep links: /#nepal, /#namibia, /#silicon, /#countries.</p>
 <h2>Definitions</h2>
 <p>CNW Ceiling ($B) = resource ceiling GW × $60&ndash;80B per GW (NVIDIA all-in AI-factory figure, reviewed weekly). CNW Unlockable ($B) = firm untapped GW × $50B × Readiness. GDC ($B, Gross Domestic Compute) = live datacenter IT GW × $50B. Realized (0&ndash;100) = 35% conversion + 25% pipeline + 25% Wire signal velocity + 15% execution. Readiness (%) = 18% governance + 13% stability + 14% GPU access + 11% grid + 11% fiber + 8% momentum + 14% physical + 11% capital access. Built (%) = installed hydro+geothermal ÷ resource ceiling. Headline finding: global ceiling ~$662T, unlockable ~$64T, GDC ~$4.7T: the world has tapped 0.7% of its compute net worth.</p>
 <h2>The index (sorted by CNW Unlockable, $B)</h2>
