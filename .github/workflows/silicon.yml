@@ -1,0 +1,27 @@
+name: The Silicon Tape
+# On any push touching silicon.json: regenerate silicon.html + silicon.xml.
+# Editing the JSON on github.com is the publishing workflow; do not invent prices in the Action.
+on:
+  push:
+    paths: ["silicon.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  silicon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Rebuild Silicon Tape from silicon.json
+        run: python3 src/build_silicon.py
+      - name: Commit changes
+        run: |
+          git config user.name "silicon-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add silicon.html silicon.xml || true
+          git diff --cached --quiet || git commit -m "silicon: rebuild tape ($(date -u +%Y-%m-%d))"
+          git push

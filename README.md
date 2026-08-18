@@ -10,6 +10,8 @@ Created by **Pukar C. Hamal**. First published August 10, 2026, San Francisco, C
 
 ```
 index.html      the entire site (single file: table, globe, charts, cards, gazetteer)
+silicon.html    The Silicon Tape — public AI accelerator rental index (from silicon.json)
+silicon.json    Silicon Tape source of truth (CC BY 4.0)
 params.json     the $/GW value of compute. Reviewed weekly. Edit this file, the site reprices.
 data.json       the full machine-readable dataset (CC BY 4.0)
 og.png          the social share card
@@ -31,6 +33,8 @@ edit `params.json`, commit, done.
 
 - **Weekly $/GW update:** edit `params.json` (lo, hi, central, reviewed date, basis). Nothing
   else needs to change; the page reads it at load.
+- **Silicon Tape prices:** edit `silicon.json`, then `python3 src/build_silicon.py`. Do not
+  invent chips, averages, or 7d/30d changes.
 - **Data or copy changes:** edit the inputs in `src/` (country rows in `cnw_model.py`,
   ratings and democracy in `aux_data.py`, macro in `macro_data.py`, live capacity in
   `gdc_data.py`, page template and blurbs in `build_page.py`), then rebuild:
@@ -39,7 +43,8 @@ edit `params.json`, commit, done.
   cd src
   python3 cnw_model.py      # recompute the model
   python3 build_page.py     # regenerates the site into src/deploy/
-  cp deploy/index.html deploy/data.json deploy/params.json deploy/llms.txt ..
+  python3 build_silicon.py  # regenerates silicon.html + silicon.xml from silicon.json
+  cp deploy/index.html deploy/data.json deploy/params.json deploy/llms.txt deploy/sitemap.xml deploy/agents.html ..
   ```
 
   The OG image (`make_og.py`) needs Pillow: `pip install pillow`.
