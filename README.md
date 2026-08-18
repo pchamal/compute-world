@@ -43,7 +43,8 @@ edit `params.json`, commit, done.
 - **Silicon Tape prices:** edit `silicon.json`, append a dated point to
   `silicon-history.json` (append-only on each scrape — never interpolate a candle),
   then `python3 src/build_silicon.py`. Do not invent chips, averages, or 1d/7d candles.
-  30d / 90d / 1y light up only from two dated same-venue same-term prints.
+  1M / 1Q / 1Y / 3Y light up only from two dated same-venue same-term prints.
+  Term-book 1m / 1q / 1y / 3y are sourced labeled $/GPU-hr — never an imputed discount.
 - **Daily brief:** edit `brief.json`, then `python3 src/build_brief.py`. Same motion as
   Wire / Silicon. Seed display prints from `silicon.json`. Leave `prev_usd` and `delta`
   null unless a second dated sourced print already exists in the repo. Do not invent a

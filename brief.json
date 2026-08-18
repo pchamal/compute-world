@@ -39,8 +39,8 @@
       "term": "on-demand",
       "as_of": "2026-08-18",
       "prev_usd": 6.69,
-      "delta": "0% 90d",
-      "note": "Display: Lambda OD 8× SXM6. 90d is 0% (21 May $6.69). Lambda 1y is a dash (no 8× instance a year ago). CoreWeave OD 1y is 0%. AWS CB $12.355 is a different term."
+      "delta": "0% 1Q",
+      "note": "Display: Lambda OD 8× SXM6. 1Q is 0% (21 May $6.69). Term-book 1y is Lambda 1CC 16-GPU $9.86 (2w–1y), not instance reserved. Lambda 1Y change is a dash (no 8× instance a year ago). CoreWeave OD 1Y is 0%."
     },
     {
       "id": "nvidia-h100-sxm-80gb",
@@ -50,8 +50,8 @@
       "term": "on-demand",
       "as_of": "2026-08-18",
       "prev_usd": 2.99,
-      "delta": "+33.4% 1y",
-      "note": "Display is Lambda OD $3.99 (buy now, 8×). SA 1y $2.35 (Mar 2026) is STALE — last public period Apr 2026. 1y is $2.99 (12 Aug 2025) → $3.99. 90d is 0% (21 May $3.99). Not a 7-day move."
+      "delta": "+33.4% 1Y",
+      "note": "Display is Lambda OD $3.99 (buy now, 8×). Term-book 1y is DigitalOcean 12m reserved $3.26 (vs DO OD $4.41). SA 1y $2.35 (Mar 2026) is STALE. 1Y change is $2.99 (12 Aug 2025) → $3.99. 1Q is 0%. Not a 7-day move."
     },
     {
       "id": "nvidia-h200-sxm-141gb",
@@ -61,8 +61,8 @@
       "term": "on-demand",
       "as_of": "2026-08-18",
       "prev_usd": 6.31,
-      "delta": "0% 1y",
-      "note": "Display: CoreWeave OD. 1y is 0% ($6.31 on 21 Aug 2025 = today). Also Crusoe $4.29 OD."
+      "delta": "0% 1Y",
+      "note": "Display: CoreWeave OD. 1Y change is 0% ($6.31 on 21 Aug 2025 = today). Term-book 1y is DigitalOcean 12m $3.40 (DO OD $4.47). Also Crusoe $4.29 OD."
     },
     {
       "id": "nvidia-gb200-nvl72",
@@ -83,19 +83,30 @@
       "term": "on-demand",
       "as_of": "2026-08-18",
       "prev_usd": 2.79,
-      "delta": "0% 90d",
-      "note": "Display: Lambda OD. 90d is 0% (21 May $2.79). Also CoreWeave $2.70 OD."
+      "delta": "0% 1Q",
+      "note": "Display: Lambda OD. 1Q is 0% (21 May $2.79). Term-book 1y is a dash (no public reserved card). Also CoreWeave $2.70 OD."
     },
     {
       "id": "amd-mi355x",
       "name": "MI355X",
-      "display_usd": null,
-      "venue": "—",
-      "term": "sales-gated",
+      "display_usd": 4.5,
+      "venue": "DigitalOcean",
+      "term": "spot",
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "No public on-demand list. TensorWave is not a list. DigitalOcean spot $4.50 is interruptible, not the display."
+      "note": "Display is DigitalOcean interruptible spot $4.50 (fetched 2026-08-18). No public OD. Term-book 1y is a dash — no 12m card on the DO page."
+    },
+    {
+      "id": "amd-mi350x",
+      "name": "MI350X",
+      "display_usd": 4.0,
+      "venue": "DigitalOcean",
+      "term": "spot",
+      "as_of": "2026-08-18",
+      "prev_usd": null,
+      "delta": null,
+      "note": "New row from a clean DO primary: interruptible spot $4.00 (display) and 12m reserved $4.76 (term-book 1y). No public OD. Pricing effective 1 Aug 2026."
     },
     {
       "id": "google-tpu-v7-ironwood",
@@ -106,7 +117,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: GCP OD. No second dated print of this display series in the repo."
+      "note": "Display: GCP OD $12.00. Term-book 1y $8.40 · 3y $5.40 (sourced GCP CUD, not imputed). No second dated print of the OD series."
     },
     {
       "id": "nvidia-l40s-48gb",
@@ -128,7 +139,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: DigitalOcean OD $2.59 (pricing effective 1 Aug 2026). 12m reserved $1.91. TensorWave is not a public list."
+      "note": "Display: DigitalOcean OD $2.59 (pricing effective 1 Aug 2026). Term-book 1y is 12m reserved $1.91. 1m / 1q / 3y are dashes. TensorWave is not a public list."
     },
     {
       "id": "amd-mi325x",
@@ -139,7 +150,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: DigitalOcean OD $3.80. 12m reserved $2.88. TensorWave is not a public list."
+      "note": "Display: DigitalOcean OD $3.80. Term-book 1y is 12m reserved $2.88. 1m / 1q / 3y are dashes. TensorWave is not a public list."
     },
     {
       "id": "google-tpu-v6e-trillium",
@@ -150,7 +161,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: GCP OD. No second dated print of this display series in the repo."
+      "note": "Display: GCP OD $2.70. Term-book 1y is sourced GCP 1y $1.89. No second dated print of the OD series."
     },
     {
       "id": "amazon-trainium2",
@@ -183,7 +194,7 @@
       "as_of": "2026-08-18",
       "prev_usd": null,
       "delta": null,
-      "note": "Display: CoreWeave NA spot ($35.84/8 = $4.48). OD contact sales. Also AWS CB $14.04 (different term)."
+      "note": "Display: CoreWeave NA spot ($35.84/8 = $4.48). OD contact sales. Term-book 1y is DigitalOcean 12m $7.94 (DO spot $11.19). CoreWeave reserved is contact — dash."
     },
     {
       "id": "huawei-ascend-910c",
@@ -265,9 +276,10 @@
     {"name": "The Silicon Tape", "url": "/silicon.html", "note": "Ranked rental index; display prints are labeled terms."},
     {"name": "The Wire", "url": "/wire.html", "note": "Country items above are already-scored Wire signals, not new prints."},
     {"name": "SEC NVIDIA 8-K", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm", "note": "PORTS-Pike, 17 Aug 2026."},
-    {"name": "silicon-history.json", "url": "/silicon-history.json", "note": "Append-only dated observed prints. Source of 30d / 90d / 1y and sparklines."},
+    {"name": "silicon-history.json", "url": "/silicon-history.json", "note": "Append-only dated observed prints. Source of 1M / 1Q / 1Y / 3Y and sparklines."},
     {"name": "SemiAnalysis GPU Rental Index", "url": "https://gpu-index.semianalysis.com/", "note": "H100 SA 1y $2.35 (Mar 2026) is STALE. Last public period April 2026. Not today's buy-now."},
-    {"name": "DigitalOcean GPU Droplets", "url": "https://www.digitalocean.com/pricing/gpu-droplets", "note": "MI300X $2.59 OD, MI325X $3.80 OD, L40S $1.57. Fetched 2026-08-18."},
+    {"name": "DigitalOcean GPU Droplets", "url": "https://www.digitalocean.com/pricing/gpu-droplets", "note": "New pricing effective 1 Aug 2026. 12m reserved: B300 $7.94, H200 $3.40, H100 $3.26, MI350X $4.76, MI325X $2.88, MI300X $1.91. Spot: B300 $11.19, MI355X $4.50, MI350X $4.00. OD: H200 $4.47, H100 $4.41, MI325X $3.80, MI300X $2.59, L40S $1.57. Fetched 2026-08-18."},
+    {"name": "Lambda pricing", "url": "https://lambda.ai/pricing", "note": "Instance OD: B200 $6.69, H100 $3.99, A100 $2.79. 1-Click Clusters B200 16-GPU $9.86 (2w–1y). 1y+ contact. Fetched 2026-08-18."},
     {"name": "CoreWeave pricing", "url": "https://www.coreweave.com/pricing", "note": "B300 NA/EU spot, RTX PRO 6000, GH200. Fetched 2026-08-18."},
     {"name": "SMM Computing Power Bulletin", "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000", "note": "Ascend 910C ¥63,000/month per 8-card, 29 Jul 2026."},
     {"name": "PBOC USD/CNY central parity", "url": "https://www.news.cn/20260818/49fc10868e3d40d889d5cf1a3cd0526d/c.html", "note": "6.7905 on 18 Aug 2026. Labels the 910C print in USD only."},

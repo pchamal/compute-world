@@ -11,8 +11,9 @@ from __future__ import annotations
 from datetime import date, datetime, timedelta
 
 AS_OF = date(2026, 8, 18)
-WINDOWS = {"d30": (30, 5), "d90": (90, 10), "d1y": (365, 21)}
+WINDOWS = {"d30": (30, 5), "d90": (90, 10), "d1y": (365, 21), "d3y": (1095, 45)}
 DASH_TITLE = "US list prices do not tick daily. 7d lights up after a week of our own scrape."
+TERM_KEYS = ("m1", "q1", "y1", "y3")
 
 # Internal sleeve weights. Never serialize these onto a public page.
 _OD_W = {"Lambda": 5, "CoreWeave": 4, "Crusoe": 3, "DigitalOcean": 3, "GCP": 2}
@@ -45,7 +46,10 @@ _TERM_FAMILY = (
     ("cny-monthly", ("1y monthly", "cny monthly")),
     ("token", ("token", "enterprise")),
     ("spot", ("spot",)),
-    ("1y", ("1y", "1-year", "12m", "12-month", "reserved")),
+    ("3y", ("3y", "3-year", "36m", "36-month")),
+    ("1y", ("1y", "1-year", "12m", "12-month", "1cc", "1-click", "2w–1y", "2w-1y", "reserved")),
+    ("1q", ("1q", "1-quarter", "3-month", "quarterly")),
+    ("1m", ("1-month", "monthly lease", "monthly index")),
     ("on-demand", ("on-demand", "od", "from")),
 )
 
@@ -281,9 +285,10 @@ def changes_for(points, chip, venue, term, config, now):
     rows = series_for(points, chip, venue, term, config)
     out = {
         "d7": {"pct": None, "title": DASH_TITLE},
-        "d30": {"pct": None, "title": "No dated pair in the 30-day window (±5d)."},
-        "d90": {"pct": None, "title": "No dated pair in the 90-day window (±10d)."},
-        "d1y": {"pct": None, "title": "No dated pair in the 1-year window (365d ±21d)."},
+        "d30": {"pct": None, "title": "No dated pair in the 1M window (30d ±5d)."},
+        "d90": {"pct": None, "title": "No dated pair in the 1Q window (90d ±10d)."},
+        "d1y": {"pct": None, "title": "No dated pair in the 1Y window (365d ±21d)."},
+        "d3y": {"pct": None, "title": "No dated pair in the 3Y window (1095d ±45d)."},
     }
     for key, (lb, tol) in WINDOWS.items():
         pair = window_pair(rows, now, lb, tol)
@@ -337,8 +342,8 @@ def spark_steps(pts, n=10):
 
 
 def longest_window(chg):
-    """Prefer 1y, then 90d, then 30d — the longest honest pair."""
-    for key, lab in (("d1y", "1y"), ("d90", "90d"), ("d30", "30d")):
+    """Prefer 3Y, then 1Y, then 1Q, then 1M — the longest honest pair."""
+    for key, lab in (("d3y", "3Y"), ("d1y", "1Y"), ("d90", "1Q"), ("d30", "1M")):
         pct = (chg.get(key) or {}).get("pct")
         if pct is not None:
             return key, lab, pct
@@ -392,7 +397,7 @@ def weather_items(chips, limit=4):
         ("nvidia-a100-sxm-80gb", "d90"),
     )
     by = {c["id"]: c for c in chips}
-    labs = {"d1y": "1y", "d90": "90d", "d30": "30d"}
+    labs = {"d3y": "3Y", "d1y": "1Y", "d90": "1Q", "d30": "1M"}
     items = []
     seen = set()
 
@@ -421,7 +426,7 @@ def weather_items(chips, limit=4):
     for c in chips:
         if len(items) >= limit:
             break
-        for key in ("d1y", "d90", "d30"):
+        for key in ("d3y", "d1y", "d90", "d30"):
             if (c["id"], key) in seen:
                 continue
             if add(c, key):
@@ -539,6 +544,140 @@ def alt_1y(points, chip_id, term, now):
     return found
 
 
+def tenor_slot(term):
+    """Map a labeled quote term onto the 1m / 1q / 1y / 3y book. None = not a tenor."""
+    t = (term or "").lower()
+    if not t:
+        return None
+    if any(k in t for k in ("3y", "3-year", "36m", "36-month")):
+        return "y3"
+    if any(k in t for k in ("1cc", "1-click", "2w–1y", "2w-1y")):
+        return "y1"
+    if "1y monthly" in t or "cny monthly" in t:
+        return "y1"
+    if any(k in t for k in ("12m", "12-month", "1-year")) or t == "1y" or t.startswith("1y "):
+        return "y1"
+    if "reserved" in t and "spot" not in t:
+        return "y1"
+    if any(k in t for k in ("1q", "1-quarter", "3-month", "quarterly")):
+        return "q1"
+    if any(k in t for k in ("monthly lease", "monthly index", "1-month")) or t in ("1m", "1m contract"):
+        return "m1"
+    return None
+
+
+def _term_priority(quote, slot):
+    """Prefer current public reserved lists; never invent a rank to fill a dash."""
+    v = (quote.get("venue") or "").lower()
+    t = (quote.get("term") or "").lower()
+    cfg = (quote.get("config") or "").lower()
+    if slot == "y1":
+        if "digitalocean" in v and ("12m" in t or "reserved" in t):
+            return 0
+        if "1cc" in t or "1-click" in t or "1cc" in cfg:
+            # Prefer the 16-GPU 1-Click Cluster row.
+            if "16" in cfg or "16" in (quote.get("note") or ""):
+                return 1
+            return 2
+        if "semianalysis" in v and "1y" in t and "composite" not in t and "p25" not in t:
+            return 3
+        if v.startswith("gcp"):
+            return 4
+        if "smm" in v:
+            return 5
+        return 6
+    return 5
+
+
+def _quote_url(quote, sources):
+    if quote.get("url"):
+        return quote["url"]
+    sid = quote.get("source_id")
+    return ((sources or {}).get(sid) or {}).get("url") or None
+
+
+def _term_label(quote, slot):
+    v = quote.get("venue") or ""
+    t = quote.get("term") or ""
+    tl = t.lower()
+    if "digitalocean" in v.lower() and ("12m" in tl or "reserved" in tl):
+        return "DO 12m"
+    if "1cc" in tl or "1-click" in tl:
+        return "1CC 2w–1y"
+    if "semianalysis" in v.lower():
+        return "SA 1y · as_of 2026-03/04"
+    if v.lower().startswith("gcp") and slot == "y3":
+        return "GCP 3y"
+    if v.lower().startswith("gcp"):
+        return "GCP 1y"
+    if "smm" in v.lower():
+        return "SMM 1y"
+    return t or slot
+
+
+def _term_record(quote, sources, slot, primary=None):
+    price = quote.get("usd_per_gpu_hr")
+    cny = quote.get("cny_per_gpu_hr")
+    if price is None and cny is None:
+        return None
+    is_cny = (
+        quote.get("primary") == "CNY"
+        or primary == "CNY"
+        or (cny is not None and "smm" in (quote.get("venue") or "").lower())
+    )
+    rec = {
+        "price": cny if (is_cny and cny is not None) else (price if price is not None else cny),
+        "venue": quote.get("venue"),
+        "term": quote.get("term"),
+        "label": _term_label(quote, slot),
+        "as_of": quote.get("as_of"),
+        "url": _quote_url(quote, sources),
+        "currency": "CNY" if (is_cny and cny is not None) else (quote.get("currency") or "USD"),
+    }
+    if cny is not None:
+        rec["cny_per_gpu_hr"] = cny
+    if price is not None:
+        rec["usd_per_gpu_hr"] = price
+    if quote.get("note"):
+        rec["note"] = quote["note"]
+    return rec
+
+
+def attach_terms(chip, sources=None):
+    """Fill terms.m1 / q1 / y1 / y3 from sourced quotes only. Missing tenor = null."""
+    sources = sources or {}
+    buckets = {k: [] for k in TERM_KEYS}
+    for q in chip.get("quotes") or []:
+        if rejected(q.get("venue"), q.get("note") or ""):
+            continue
+        if q.get("usd_per_gpu_hr") is None and q.get("cny_per_gpu_hr") is None:
+            continue
+        slot = tenor_slot(q.get("term"))
+        if slot not in buckets:
+            continue
+        buckets[slot].append(q)
+    # SMM 910C display is a 1y monthly print when quotes already carry it.
+    disp = chip.get("display") or {}
+    dslot = tenor_slot(disp.get("term"))
+    if dslot in buckets and (disp.get("usd_per_gpu_hr") is not None or disp.get("cny_per_gpu_hr") is not None):
+        if not any(
+            (x.get("venue") == disp.get("venue") and x.get("term") == disp.get("term"))
+            for x in buckets[dslot]
+        ):
+            buckets[dslot].append({**disp, "primary": disp.get("primary")})
+    out = {}
+    for slot in TERM_KEYS:
+        cands = buckets[slot]
+        if not cands:
+            out[slot] = None
+            continue
+        cands = sorted(cands, key=lambda q: _term_priority(q, slot))
+        rec = _term_record(cands[0], sources, slot, primary=(chip.get("display") or {}).get("primary"))
+        out[slot] = rec
+    chip["terms"] = out
+    return chip
+
+
 def enrich_chip(chip, points, now):
     disp = chip.get("display") or {}
     venue = disp.get("venue")
@@ -608,8 +747,10 @@ def enrich_silicon(silicon, history):
     harvested = harvest_quotes(silicon)
     history, appended = merge_history(history, harvested)
     points = history["points"]
+    sources = {s["id"]: s for s in silicon.get("sources") or []}
     for c in silicon.get("chips") or []:
         enrich_chip(c, points, now)
+        attach_terms(c, sources)
     silicon["weather"] = weather_items(silicon.get("chips") or [])
     return silicon, history, appended
 
@@ -633,7 +774,36 @@ def expected_grid_pcts(silicon, history):
     checks.append(("a100-90d", pct("nvidia-a100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d90"), 0.0))
     checks.append(("cw-h100-1y", pct("nvidia-h100-sxm-80gb", "CoreWeave", "on-demand", "list", "d1y"), 0.0))
     checks.append(("cw-h200-1y", pct("nvidia-h200-sxm-141gb", "CoreWeave", "on-demand", "list", "d1y"), 0.0))
+    checks.append(("h100-3y", pct("nvidia-h100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d3y"), None))
     return checks
+
+
+def expected_terms(silicon):
+    by = {c["id"]: c for c in silicon.get("chips") or []}
+
+    def price(cid, key):
+        rec = ((by.get(cid) or {}).get("terms") or {}).get(key)
+        if not rec:
+            return None
+        return rec.get("usd_per_gpu_hr", rec.get("price"))
+
+    return [
+        ("h100-y1-do", price("nvidia-h100-sxm-80gb", "y1"), 3.26),
+        ("h100-m1", price("nvidia-h100-sxm-80gb", "m1"), None),
+        ("h100-q1", price("nvidia-h100-sxm-80gb", "q1"), None),
+        ("h100-y3", price("nvidia-h100-sxm-80gb", "y3"), None),
+        ("h200-y1-do", price("nvidia-h200-sxm-141gb", "y1"), 3.40),
+        ("b200-y1-1cc", price("nvidia-b200-sxm6", "y1"), 9.86),
+        ("b300-y1-do", price("nvidia-b300-hgx", "y1"), 7.94),
+        ("mi300-y1", price("amd-mi300x", "y1"), 1.91),
+        ("mi325-y1", price("amd-mi325x", "y1"), 2.88),
+        ("mi350-y1", price("amd-mi350x", "y1"), 4.76),
+        ("mi355-y1", price("amd-mi355x", "y1"), None),
+        ("gb200-y1", price("nvidia-gb200-nvl72", "y1"), None),
+        ("tpuv7-y1", price("google-tpu-v7-ironwood", "y1"), 8.4),
+        ("tpuv7-y3", price("google-tpu-v7-ironwood", "y3"), 5.4),
+        ("a100-y1", price("nvidia-a100-sxm-80gb", "y1"), None),
+    ]
 
 
 if __name__ == "__main__":
@@ -654,11 +824,20 @@ if __name__ == "__main__":
         print("\n".join(bad))
         sys.exit(1)
     wx = {f"{w['id']}:{w['window']}": w["pct"] for w in silicon.get("weather") or []}
-    if wx.get("nvidia-h100-sxm-80gb:1y") != 33.4:
-        sys.exit(f"weather H100 1y: {wx}")
-    if wx.get("nvidia-b200-sxm6:90d") != 0.0:
-        sys.exit(f"weather B200 90d: {wx}")
+    if wx.get("nvidia-h100-sxm-80gb:1Y") != 33.4:
+        sys.exit(f"weather H100 1Y: {wx}")
+    if wx.get("nvidia-b200-sxm6:1Q") != 0.0:
+        sys.exit(f"weather B200 1Q: {wx}")
+    for name, got, exp in expected_terms(silicon):
+        if got != exp:
+            bad.append(f"{name}: got {got} expected {exp}")
+    if bad:
+        print("FAIL")
+        print("\n".join(bad))
+        sys.exit(1)
     print(f"ok · {len(history['points'])} dated points · harvested+{n}")
     for name, got, exp in expected_grid_pcts(silicon, history):
         print(f"  {name}: {got}")
     print("  weather", wx)
+    for name, got, exp in expected_terms(silicon):
+        print(f"  {name}: {got}")
