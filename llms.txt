@@ -28,7 +28,8 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /data.json — full dataset (108 countries, all metrics, precedents catalog), CC BY 4.0
 - /params.json — the $/GW valuation parameters, reviewed weekly
 - /wire.json + /wire.html — The Wire: current sovereign-AI and compute-infrastructure news, each item scored for credibility (source tier, corroboration, specificity, delivery track record). RSS at /wire.xml.
-- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator spot/rental prices (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026). RSS at /silicon.xml.
+- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator spot/rental prices (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026). RSS at /silicon.xml. Homepage tab: /#silicon
+- /brief + /brief.json + /brief.xml — The daily tape: weekday public brief of country conversion signals and sourced silicon display prints. No invented 7d/30d deltas.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - License: scores are proprietary; citing with attribution to compute.world is free for research and press; commercial use requires a license (see /contact.html).
 - Per-country anchors: https://compute.world/#nepal, /#bhutan, /#namibia, etc. (108 slugs)

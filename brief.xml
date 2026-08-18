@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>The daily tape · compute.world</title>
+  <link>https://compute.world/brief</link>
+  <description>Weekday briefing: country conversion signals already on The Wire, and today&#x27;s display prints from The Silicon Tape. Display prices are labeled terms. prev_usd and delta stay empty unless a second dated sourced print already sits in the repo. This is not a 7-day move sheet.</description>
+  <language>en</language>
+  <item>
+    <title>The daily tape · 18 August 2026</title>
+    <link>https://compute.world/brief</link>
+    <guid isPermaLink="true">https://compute.world/brief#2026-08-18</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Weekday briefing: country conversion signals already on The Wire, and today&#x27;s display prints from The Silicon Tape. Display prices are labeled terms. prev_usd and delta stay empty unless a second dated sourced print already sits in the repo. This is not a 7-day move sheet. Countries: United States: NVIDIA 8-K (17 Aug 2026): residual-value guaranties on PORTS-Pike, ~4.25 IT-GW, OpenAI 20-year lease. Conversion as land-power-shell finance. Source: SEC. India: L&amp;T × Together AI (13 Aug 2026): 10,000 B300s at Chennai; Phase 1 sized at 250 MW. Source: The Hindu Business Line / Reuters. Armenia: Firebird Hrazdan factory live (8 Aug 2026): NVIDIA/Dell, roadmap 70k+ GPUs and 300 MW by end-2027. Source: NVIDIA blog. Indonesia: Indosat Zankore (7 Aug 2026): 1 GW platform; first 200 MW GB300-class targeted H1 2027. Source: Data Center Dynamics.</description>
+  </item>
+  <item>
+    <title>B200 SXM6 · $6.69 on-demand</title>
+    <link>https://compute.world/brief#nvidia-b200-sxm6</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-b200-sxm6</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 18 Aug 2026. Display: Lambda OD. Also-print on the tape: CoreWeave $8.60 OD. SA Apr composite $3.68 is a different term.</description>
+  </item>
+  <item>
+    <title>H100 SXM 80GB · $2.35 1y contract</title>
+    <link>https://compute.world/brief#nvidia-h100-sxm-80gb</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-h100-sxm-80gb</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM 80GB: display $2.35 1y contract at SemiAnalysis as of Mar 2026. Display is the SA 1y print ($2.35, Mar 2026). A prior sourced print on the same series is $1.70 (Oct 2025 trough), already on the tape and in note 4 of the index. Not a 7-day move.</description>
+  </item>
+  <item>
+    <title>H200 SXM 141GB · $6.31 on-demand</title>
+    <link>https://compute.world/brief#nvidia-h200-sxm-141gb</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-h200-sxm-141gb</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>H200 SXM 141GB: display $6.31 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave OD. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>GB200 NVL72 · $10.50 on-demand</title>
+    <link>https://compute.world/brief#nvidia-gb200-nvl72</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-gb200-nvl72</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>GB200 NVL72: display $10.50 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>A100 SXM 80GB · $2.79 on-demand</title>
+    <link>https://compute.world/brief#nvidia-a100-sxm-80gb</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-a100-sxm-80gb</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>A100 SXM 80GB: display $2.79 on-demand at Lambda as of 18 Aug 2026. Display: Lambda OD. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>MI355X · $2.95 from</title>
+    <link>https://compute.world/brief#amd-mi355x</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/amd-mi355x</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $2.95 from at TensorWave as of 18 Aug 2026. Display: TensorWave from-price. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>TPU v7 Ironwood · $12.00 on-demand</title>
+    <link>https://compute.world/brief#google-tpu-v7-ironwood</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/google-tpu-v7-ironwood</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>TPU v7 Ironwood: display $12.00 on-demand at GCP as of 18 Aug 2026. Display: GCP OD. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>L40S 48GB · $2.25 on-demand</title>
+    <link>https://compute.world/brief#nvidia-l40s-48gb</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-l40s-48gb</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>L40S 48GB: display $2.25 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave OD. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>MI300X · $1.71 on-demand</title>
+    <link>https://compute.world/brief#amd-mi300x</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/amd-mi300x</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>MI300X: display $1.71 on-demand at TensorWave as of 18 Aug 2026. Display: TensorWave. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>MI325X · $2.25 on-demand</title>
+    <link>https://compute.world/brief#amd-mi325x</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/amd-mi325x</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>MI325X: display $2.25 on-demand at TensorWave as of 18 Aug 2026. Display: TensorWave. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>TPU v6e Trillium · $2.70 on-demand</title>
+    <link>https://compute.world/brief#google-tpu-v6e-trillium</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/google-tpu-v6e-trillium</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>TPU v6e Trillium: display $2.70 on-demand at GCP as of 18 Aug 2026. Display: GCP OD. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>Trainium2 · $2.235 Capacity Blocks</title>
+    <link>https://compute.world/brief#amazon-trainium2</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/amazon-trainium2</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Trainium2: display $2.235 Capacity Blocks at AWS as of 18 Aug 2026. Display: AWS Capacity Blocks (chip-hr). Not on-demand. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>TPU v5p · $4.20 on-demand</title>
+    <link>https://compute.world/brief#google-tpu-v5p</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/google-tpu-v5p</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>TPU v5p: display $4.20 on-demand at GCP as of 18 Aug 2026. Display: GCP OD. No second dated print of this display series in the repo.</description>
+  </item>
+</channel></rss>

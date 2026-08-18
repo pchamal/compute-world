@@ -4,6 +4,7 @@
 import json, html, os, sys
 from datetime import datetime
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
+from subscribe import css as sub_css, markup as sub_markup, script as sub_script
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -160,6 +161,7 @@ html[data-theme="dark"] .tchip .ic-sun{{opacity:1;transform:none}}
 html[data-theme="dark"] .tchip .ic-moon{{opacity:0;transform:rotate(90deg) scale(.6)}}
 @media(max-width:760px){{.tchip{{top:12px;width:40px;height:40px}}}}
 {fnav_css()}
+{sub_css()}
 body{{transition:background-color .35s ease,color .35s ease}}
 *{{margin:0;padding:0;box-sizing:border-box}}
 html{{background:var(--paper)}}
@@ -271,8 +273,11 @@ details.meth .mb li{{margin-bottom:6px}}
       <a href="/silicon.json">silicon.json</a>
       <a href="/silicon.xml">RSS</a>
       <a href="/">Nation-State Index</a>
+      <a href="/brief">Daily brief</a>
     </div>
   </div>
+
+  {sub_markup()}
 
   <div class="chips" role="tablist" aria-label="Vendor filter">
     <button class="chip on" data-v="" type="button">All</button>
@@ -454,6 +459,7 @@ tm.content=t==="dark"?"#171511":"#f7f4ee";tg.setAttribute("aria-label",t==="dark
 tg.onclick=function(){{setT(cur()==="dark"?"light":"dark",true)}};
 setT(cur(),false);
 {fnav_script("silicon")}
+{sub_script()}
 </script>
 </body>
 </html>'''

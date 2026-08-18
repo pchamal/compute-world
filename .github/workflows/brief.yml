@@ -1,0 +1,27 @@
+name: The daily tape
+# On any push touching brief.json: regenerate brief.html + brief.xml.
+# Editing the JSON on github.com is the publishing workflow; do not invent prices.
+on:
+  push:
+    paths: ["brief.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Rebuild brief from brief.json
+        run: python3 src/build_brief.py
+      - name: Commit changes
+        run: |
+          git config user.name "brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add brief.html brief.xml || true
+          git diff --cached --quiet || git commit -m "brief: rebuild daily tape ($(date -u +%Y-%m-%d))"
+          git push
