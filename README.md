@@ -1,8 +1,9 @@
-# compute.world · The Compute Net Worth Index™
+# compute.world · The World's Compute & Silicon Index
 
 Every country has a Compute Net Worth: the value of AI compute its own energy and geography
-could host. This repo is the site, the data, and the model behind it. 108 countries, priced
-three ways: the CNW Ceiling, the CNW Unlockable, and Gross Domestic Compute (GDC™).
+could host. This repo is the site, the data, and the model behind it — CNW™ (108 countries)
+and the Silicon Tape (sourced accelerator prints). Gross Domestic Compute (GDC™) is the
+tapped counterpart to CNW.
 
 Created by **Pukar C. Hamal**. First published August 10, 2026, San Francisco, CA.
 
@@ -16,7 +17,9 @@ brief.json      daily briefing source of truth (country signals + sourced silico
 brief.html      public brief page (from brief.json)
 params.json     the $/GW value of compute. Reviewed weekly. Edit this file, the site reprices.
 data.json       the full machine-readable dataset (CC BY 4.0)
-og.png          the social share card
+og.png          homepage unfurl card (the world's compute & silicon index)
+og-silicon.png  Silicon Tape unfurl card
+og-brief.png    daily-tape unfurl card
 llms.txt        plain-language guide for AI agents
 robots.txt, sitemap.xml
 functions/      Cloudflare Pages Functions (POST /api/subscribe)
@@ -52,7 +55,8 @@ edit `params.json`, commit, done.
   python3 build_page.py     # regenerates the site into src/deploy/
   python3 build_silicon.py  # regenerates silicon.html + silicon.xml from silicon.json
   python3 build_brief.py    # regenerates brief.html + brief.xml from brief.json
-  cp deploy/index.html deploy/data.json deploy/params.json deploy/llms.txt deploy/sitemap.xml deploy/agents.html ..
+  python3 make_og.py        # regenerates og.png, og-silicon.png, og-brief.png
+  cp deploy/index.html deploy/data.json deploy/params.json deploy/llms.txt deploy/sitemap.xml deploy/robots.txt deploy/agents.html ..
   ```
 
 - **Subscribe list (email):** the form posts to `/api/subscribe` (`functions/api/subscribe.js`).

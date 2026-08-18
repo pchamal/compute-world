@@ -6,6 +6,7 @@
 import json, html, os
 from datetime import datetime
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
+from seo import og_block, breadcrumb_ld
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -53,11 +54,10 @@ PAGE = f'''<!DOCTYPE html>
 <meta name="description" content="Rated signals on sovereign AI and compute infrastructure: country announcements, AI factory buildouts, chip policy, and compute capital, each scored for credibility. Updated {W["updated"]}.">
 <link rel="canonical" href="https://compute.world/wire.html">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<meta property="og:title" content="The Wire · compute news, rated">
-<meta property="og:description" content="Sovereign AI and compute infrastructure signals, scored for credibility. From the Compute Net Worth Index.">
-<meta property="og:url" content="https://compute.world/wire.html">
-<meta property="og:image" content="https://compute.world/og.png">
-<meta name="twitter:card" content="summary_large_image">
+{og_block("The Wire · compute news, rated",
+    "Sovereign AI and compute infrastructure signals, scored for credibility. From the world's compute &amp; silicon index.",
+    "https://compute.world/wire.html", "og.png", image_alt="compute.world — the world's compute & silicon index")}
+<script type="application/ld+json">{json.dumps(breadcrumb_ld([("compute.world","https://compute.world/"),("The Wire","https://compute.world/wire.html")]))}</script>
 <link rel="alternate" type="application/rss+xml" title="The Wire · compute.world" href="https://compute.world/wire.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23f7f4ee'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23171614' text-anchor='middle'>W</text></svg>">
 <script type="application/ld+json">{LD}</script>
