@@ -7,8 +7,9 @@
   "cite": "Hamal, P. (2026). The Silicon Tape. compute.world.",
   "thesis": "The public rental tape is split: marketplace 1x H100s still print cheap; committed H100/H200/B200 clusters and NVL72 offtake are scarce (SemiAnalysis Apr 2026; CoreWeave Aug 2026 sold-out after a ~25% July raise).",
   "rank_formula": "score = 0.40*liquidity + 0.35*demand + 0.25*frontier; each component 0–3. Scores are ordinal hygiene, not a valuation.",
-  "methodology": "Display price is the labeled buy-now list: on-demand from the most liquid public neocloud (Lambda, else CoreWeave, else DigitalOcean). SemiAnalysis 1y is a dated series — last public period April 2026, STALE — and is never today's headline. When OD is contact-sales, a labeled spot print may be the display (B300). CNY prints stay CNY-primary (Ascend 910C) with a dated PBOC USD label — no guessed FX. Token/enterprise SKUs (Cerebras, Groq) carry no invented $/hour. A second venue stays in the row and is never blended into the headline number. Capacity Blocks, marketplace floors, and on-demand are incompatible terms. 30d / 90d / 1y percent change is computed only from two real same-venue same-term same-config dated prints (30d ±5d, 90d ±10d, 1y 365d ±21d). Missing pair = em dash, never a invented 0%. 1h / 24h / 7d stay dashes: US list prices do not tick daily. Sparklines are step charts of dated points (carry-forward for drawing only). August 2026 figures are neocloud and hyperscaler list pages fetched 2026-08-18. No market-cap, no invented chips, no invented candles.",
-  "display_convention": "Prefer labeled on-demand from Lambda, else CoreWeave, else DigitalOcean. SA 1y is a stale second quote, never the buy-now headline. Always show at least one other venue when a second sourced print exists. Never average incompatible terms. Never use TensorWave or aggregator floors as display.",
+  "methodology": "Display price is the labeled buy-now list: on-demand from the most liquid public neocloud (Lambda, else CoreWeave, else DigitalOcean). SemiAnalysis 1y is a dated series — last public period April 2026, STALE — and is never today's headline. When OD is contact-sales, a labeled spot print may be the display (B300, MI355X, MI350X). CNY prints stay CNY-primary (Ascend 910C) with a dated PBOC USD label — no guessed FX. Token/enterprise SKUs (Cerebras, Groq) carry no invented $/hour. A second venue stays in the row and is never blended into the headline number. Capacity Blocks, marketplace floors, and on-demand are incompatible terms. The term book (1m / 1q / 1y / 3y) is sourced labeled $/GPU-hr only — DigitalOcean 12-month reserved, Lambda 1-Click Clusters (labeled 1CC 2w–1y), SemiAnalysis 1y (labeled STALE), or a hyperscaler 1y/3y CUD already on the quote list. Missing tenor = em dash. We do not impute 1y = OD × 0.8 or 3y = OD × 0.65. 1M / 1Q / 1Y / 3Y percent change is computed only from two real same-venue same-term same-config dated prints (1M = 30d ±5d, 1Q = 90d ±10d, 1Y = 365d ±21d, 3Y = 1095d ±45d). Missing pair = em dash, never an invented 0%. 1h / 24h / 7d stay dashes: US list prices do not tick daily. Sparklines are step charts of dated points (carry-forward for drawing only). August 2026 figures are neocloud and hyperscaler list pages fetched 2026-08-18. No market-cap, no invented chips, no invented candles, no invented tenors.",
+  "display_convention": "Prefer labeled on-demand from Lambda, else CoreWeave, else DigitalOcean. SA 1y is a stale second quote, never the buy-now headline. Term-book 1y prefers a current DigitalOcean 12-month reserved card, else a labeled Lambda 1-Click Cluster (2w–1y, 16-GPU row), else SA 1y (STALE), else a sourced GCP 1y. Always show at least one other venue when a second sourced print exists. Never average incompatible terms. Never use TensorWave or aggregator floors as display. Never invent a 1m / 1q / 3y US neocloud card.",
+  "term_book": "Each chip carries terms: { m1, q1, y1, y3 }. A filled slot is { price, venue, term, label, as_of, url } (url may be null). A missing tenor is null — never a guessed discount off on-demand. Lead display stays the spot / on-demand buy-now print.",
   "omitted": [
     {
       "id": "cambricon",
@@ -40,7 +41,7 @@
     },
     {
       "id": "1h-24h-7d-tick",
-      "reason": "US list prices do not tick daily. 1h / 24h / 7d stay em dashes until a week of our own scrape exists. 30d / 90d / 1y light up only from two dated same-venue same-term prints."
+      "reason": "US list prices do not tick daily. 1h / 24h / 7d stay em dashes until a week of our own scrape exists. 1M / 1Q / 1Y / 3Y light up only from two dated same-venue same-term prints. 1m / 1q / 3y term prices stay dashes on most US lists — venues do not publish those tenors, and we do not impute them off on-demand."
     },
     {
       "id": "voltage-park-1.99",
@@ -53,6 +54,10 @@
     {
       "id": "cerebras-aggregator-hour",
       "reason": "Do not use aggregator $0.75–$12.50 as a Cerebras accelerator-hour. Cerebras is token/enterprise."
+    },
+    {
+      "id": "invented-tenors",
+      "reason": "No public US neocloud 1-month, 1-quarter, or 3-year card in this snapshot. SMM H100 western monthly 13.45 CNY/card-hr and SMM 3y 72,000 CNY/mo are omitted: no dated bulletin URL already in this repo. Do not invent those prints."
     }
   ],
   "cannot_show_global": [
@@ -63,7 +68,9 @@
     "TensorWave as a public list (no list in this snapshot)",
     "Cambricon, Biren, Moore Threads, MetaX, Kunlun, Intel Gaudi 3 (no sourced chip-hour)",
     "Cerebras aggregator $0.75–$12.50 as an accelerator-hour",
-    "An invented Groq chip-hour"
+    "An invented Groq chip-hour",
+    "An invented 1M / 1Q / 1Y / 3Y move without two dated same-venue same-term prints",
+    "An invented 1m / 1q / 1y / 3y tenor (no 1y = OD × 0.8, no 3y = OD × 0.65)"
   ],
   "sources": [
     {
@@ -208,10 +215,10 @@
         "note": "8× SXM6 instance."
       },
       "also": {
-        "text": "CoreWeave $8.60 OD · AWS CB $12.355 (different term)",
+        "text": "1CC 16-GPU $9.86 (2w–1y) · CoreWeave $8.60 OD · AWS CB $12.355 (different term)",
         "as_of": "2026-08-18"
       },
-      "availability": "Crusoe sales-gated. SemiAnalysis (2 Apr 2026): rental capacity increasingly impossible; market-wide booked through August–September 2026. CoreWeave near-term capacity sold-out in August 2026 after a ~25% July raise.",
+      "availability": "Crusoe sales-gated. SemiAnalysis (2 Apr 2026): rental capacity increasingly impossible; market-wide booked through August–September 2026. CoreWeave near-term capacity sold-out in August 2026 after a ~25% July raise. Lambda 1-Click Clusters print $9.86 / GPU-hr on the 16-GPU row (2 weeks–1 year); 1y+ is contact.",
       "cannot_show": [
         "Official NVIDIA MSRP",
         "1h / 24h / 7d ticks (US lists do not tick daily)",
@@ -275,6 +282,42 @@
           "as_of": "2026-08-18",
           "source_id": "crusoe",
           "note": "Sales-gated; no public dollar print in this snapshot."
+        },
+        {
+          "venue": "Lambda",
+          "term": "1CC 2w–1y",
+          "usd_per_gpu_hr": 9.86,
+          "as_of": "2026-08-18",
+          "source_id": "lambda",
+          "config": "1cc-16",
+          "note": "1-Click Clusters, 16 GPU, reservation 2 weeks–1 year. Not instance OD. 1y+ is contact — no public card."
+        },
+        {
+          "venue": "Lambda",
+          "term": "1CC 2w–1y",
+          "usd_per_gpu_hr": 9.36,
+          "as_of": "2026-08-18",
+          "source_id": "lambda",
+          "config": "1cc-64",
+          "note": "1-Click Clusters, 64 GPU, 2 weeks–1 year. Prefer the 16-GPU row on the tape."
+        },
+        {
+          "venue": "Lambda",
+          "term": "1CC 2w–1y",
+          "usd_per_gpu_hr": 8.87,
+          "as_of": "2026-08-18",
+          "source_id": "lambda",
+          "config": "1cc-256",
+          "note": "1-Click Clusters, 256+ GPU, 2 weeks–1 year. Prefer the 16-GPU row on the tape."
+        },
+        {
+          "venue": "Lambda",
+          "term": "1y+",
+          "usd_per_gpu_hr": null,
+          "as_of": "2026-08-18",
+          "source_id": "lambda",
+          "config": "1cc-1y-plus",
+          "note": "Contact. No public 1y+ card."
         }
       ],
       "changes": {
@@ -284,7 +327,7 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
@@ -299,6 +342,10 @@
           "title": "Lambda on-demand: no print a year ago. CoreWeave on-demand 1y: 0.0% ($8.6 → $8.6).",
           "alt_venue": "CoreWeave",
           "alt_pct": 0.0
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -363,9 +410,9 @@
           }
         ],
         "direction": "flat",
-        "window": "90d",
+        "window": "1Q",
         "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,26.0 H10.4 V26.0 H18.9 V26.0 H27.3 V26.0 H35.8 V26.0 H44.2 V26.0 H52.7 V2.0 H61.1 V2.0 H69.6 V2.0 H78.0 V2.0\"/></svg>",
-        "title": "Colored by 90d (0%). Step chart of dated prints. Carry-forward is for drawing only."
+        "title": "Colored by 1Q (0%). Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
         "usd_per_gpu_hr": 6.69,
@@ -373,6 +420,22 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": true
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 9.86,
+          "venue": "Lambda",
+          "term": "1CC 2w–1y",
+          "label": "1CC 2w–1y",
+          "as_of": "2026-08-18",
+          "url": "https://lambda.ai/pricing",
+          "currency": "USD",
+          "usd_per_gpu_hr": 9.86,
+          "note": "1-Click Clusters, 16 GPU, reservation 2 weeks–1 year. Not instance OD. 1y+ is contact — no public card."
+        },
+        "y3": null
       }
     },
     {
@@ -395,7 +458,8 @@
         "CoreWeave",
         "Crusoe",
         "AWS",
-        "GCP"
+        "GCP",
+        "DigitalOcean"
       ],
       "display": {
         "usd_per_gpu_hr": 3.99,
@@ -408,10 +472,10 @@
         "note": "Current list — this is what buy-now is. 8× SXM."
       },
       "also": {
-        "text": "CoreWeave $6.16 OD · Crusoe $3.90 · SA 1y $2.35 Mar 2026 STALE · Apr p25–p75 $2.10–$2.70",
+        "text": "DO OD $4.41 · 12m $3.26 · CoreWeave $6.16 · SA 1y $2.35 Mar 2026 STALE · Apr p25–p75 $2.10–$2.70",
         "as_of": "2026-08-18"
       },
-      "availability": "Widely listed as 1x on-demand. Committed H100 clusters remain scarce on the Apr 2026 SemiAnalysis read. Today's headline is Lambda OD $3.99 (8×). SA 1y $2.35 (Mar 2026) is a stale second quote — last public period April 2026. Sourced Lambda path: $2.99 (12 Aug 2025) → $3.99 (21 May 2026, still the 18 Aug 2026 list).",
+      "availability": "Widely listed as 1x on-demand. Committed H100 clusters remain scarce on the Apr 2026 SemiAnalysis read. Today's headline is Lambda OD $3.99 (8×). DigitalOcean prints OD $4.41 and 12-month reserved $3.26 (effective 1 Aug 2026). SA 1y $2.35 (Mar 2026) is a stale second quote — last public period April 2026. Sourced Lambda path: $2.99 (12 Aug 2025) → $3.99 (21 May 2026, still the 18 Aug 2026 list).",
       "cannot_show": [
         "$8 as a 2023 1y peak (not on the current public dashboard)",
         "Vast $1.33 as a headline number (single listing, not an SLA)",
@@ -525,6 +589,24 @@
           "as_of": "2026-08-18",
           "source_id": null,
           "note": "Single listing, not an SLA. Not a headline number. No primary URL in this snapshot."
+        },
+        {
+          "venue": "DigitalOcean",
+          "term": "on-demand",
+          "usd_per_gpu_hr": 4.41,
+          "as_of": "2026-08-18",
+          "source_id": "digitalocean",
+          "config": "gpu-droplet",
+          "note": "New DO pricing effective 1 Aug 2026."
+        },
+        {
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "usd_per_gpu_hr": 3.26,
+          "as_of": "2026-08-18",
+          "source_id": "digitalocean",
+          "config": "gpu-droplet-12m",
+          "note": "Contractual 12-month reserved. Not on-demand. Not a guessed discount off OD."
         }
       ],
       "changes": {
@@ -534,7 +616,7 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
@@ -551,6 +633,10 @@
           "now": 3.99,
           "now_date": "2026-08-18",
           "title": "Lambda on-demand $2.99 on 2025-08-12 → $3.99 on 2026-08-18 (+33.4%)"
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -619,9 +705,9 @@
           }
         ],
         "direction": "up",
-        "window": "1y",
+        "window": "1Y",
         "svg": "<svg class=\"spark spark-up\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,26.0 H10.4 V26.0 H18.9 V26.0 H27.3 V26.0 H35.8 V26.0 H44.2 V26.0 H52.7 V26.0 H61.1 V2.0 H69.6 V2.0 H78.0 V2.0\"/></svg>",
-        "title": "Colored by 1y (+33.4%). Step chart of dated prints. Carry-forward is for drawing only."
+        "title": "Colored by 1Y (+33.4%). Step chart of dated prints. Carry-forward is for drawing only."
       },
       "spark_sa_1y": {
         "label": "SA 1y",
@@ -683,11 +769,27 @@
         "title": "SemiAnalysis 1y — last public period Apr 2026, STALE. Not today's on-demand %."
       },
       "tape_print": {
-        "usd_per_gpu_hr": 3.99,
-        "n": 4,
+        "usd_per_gpu_hr": 4.41,
+        "n": 5,
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": true
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 3.26,
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "label": "DO 12m",
+          "as_of": "2026-08-18",
+          "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+          "currency": "USD",
+          "usd_per_gpu_hr": 3.26,
+          "note": "Contractual 12-month reserved. Not on-demand. Not a guessed discount off OD."
+        },
+        "y3": null
       }
     },
     {
@@ -709,7 +811,8 @@
         "Crusoe",
         "AWS",
         "GCP",
-        "Azure"
+        "Azure",
+        "DigitalOcean"
       ],
       "display": {
         "usd_per_gpu_hr": 6.31,
@@ -722,7 +825,7 @@
         "config": "list"
       },
       "also": {
-        "text": "Crusoe $4.29 OD",
+        "text": "DO OD $4.47 · 12m $3.40 · Crusoe $4.29",
         "as_of": "2026-08-18"
       },
       "availability": "Listed at CoreWeave, Crusoe, and hyperscaler Capacity Blocks / OD stickers. SemiAnalysis public composite is blank.",
@@ -789,6 +892,24 @@
           "as_of": "2026-04",
           "source_id": "sa-index",
           "note": "Public composite is blank."
+        },
+        {
+          "venue": "DigitalOcean",
+          "term": "on-demand",
+          "usd_per_gpu_hr": 4.47,
+          "as_of": "2026-08-18",
+          "source_id": "digitalocean",
+          "config": "gpu-droplet",
+          "note": "New DO pricing effective 1 Aug 2026."
+        },
+        {
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "usd_per_gpu_hr": 3.4,
+          "as_of": "2026-08-18",
+          "source_id": "digitalocean",
+          "config": "gpu-droplet-12m",
+          "note": "Contractual 12-month reserved. Not on-demand."
         }
       ],
       "changes": {
@@ -798,11 +919,11 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": 0.0,
@@ -811,6 +932,10 @@
           "now": 6.31,
           "now_date": "2026-08-18",
           "title": "CoreWeave on-demand $6.31 on 2025-08-21 → $6.31 on 2026-08-18 (0.0%)"
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -867,16 +992,32 @@
           }
         ],
         "direction": "flat",
-        "window": "1y",
+        "window": "1Y",
         "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0 H10.4 V14.0 H18.9 V14.0 H27.3 V14.0 H35.8 V14.0 H44.2 V14.0 H52.7 V14.0 H61.1 V14.0 H69.6 V14.0 H78.0 V14.0\"/></svg>",
-        "title": "Colored by 1y (0%). Step chart of dated prints. Carry-forward is for drawing only."
+        "title": "Colored by 1Y (0%). Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
-        "usd_per_gpu_hr": 6.31,
-        "n": 2,
+        "usd_per_gpu_hr": 4.47,
+        "n": 3,
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": true
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 3.4,
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "label": "DO 12m",
+          "as_of": "2026-08-18",
+          "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+          "currency": "USD",
+          "usd_per_gpu_hr": 3.4,
+          "note": "Contractual 12-month reserved. Not on-demand."
+        },
+        "y3": null
       }
     },
     {
@@ -947,15 +1088,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -982,6 +1127,12 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
@@ -1081,7 +1232,7 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
@@ -1098,6 +1249,10 @@
           "now": 2.79,
           "now_date": "2026-08-18",
           "title": "Lambda on-demand $2.79 on 2025-08-12 → $2.79 on 2026-08-18 (0.0%)"
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -1162,9 +1317,9 @@
           }
         ],
         "direction": "flat",
-        "window": "1y",
+        "window": "1Y",
         "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0 H10.4 V14.0 H18.9 V14.0 H27.3 V14.0 H35.8 V14.0 H44.2 V14.0 H52.7 V14.0 H61.1 V14.0 H69.6 V14.0 H78.0 V14.0\"/></svg>",
-        "title": "Colored by 1y (0%). Step chart of dated prints. Carry-forward is for drawing only."
+        "title": "Colored by 1Y (0%). Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
         "usd_per_gpu_hr": 2.7,
@@ -1172,6 +1327,12 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": true
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
@@ -1188,7 +1349,8 @@
       "scarcity_label": "OD contact sales",
       "venues": [
         "CoreWeave",
-        "AWS"
+        "AWS",
+        "DigitalOcean"
       ],
       "display": {
         "usd_per_gpu_hr": 4.48,
@@ -1201,10 +1363,10 @@
         "config": "8x-na"
       },
       "also": {
-        "text": "AWS CB $14.04 · OD contact sales",
+        "text": "DO 12m $7.94 · DO spot $11.19 · AWS CB $14.04 · OD contact sales",
         "as_of": "2026-08-18"
       },
-      "availability": "CoreWeave lists NA spot $35.84 / 8 GPUs ($4.48/GPU-hr) and EU spot $36.70 / 8. On-demand is contact sales — no public OD dollar print in this snapshot.",
+      "availability": "CoreWeave lists NA spot $35.84 / 8 GPUs ($4.48/GPU-hr) and EU spot $36.70 / 8. On-demand is contact sales — no public OD dollar print in this snapshot. DigitalOcean prints interruptible spot $11.19 and 12-month reserved $7.94 (pricing effective 1 Aug 2026).",
       "cannot_show": [
         "A public on-demand dollar print",
         "Official NVIDIA MSRP",
@@ -1247,6 +1409,24 @@
           "source_id": "aws-cb",
           "config": "cb",
           "note": "p6-b300.48xlarge, $14.04 / accelerator-hr. Not on-demand."
+        },
+        {
+          "venue": "DigitalOcean",
+          "term": "spot",
+          "usd_per_gpu_hr": 11.19,
+          "as_of": "2026-08-18",
+          "source_id": "digitalocean",
+          "config": "gpu-droplet-spot",
+          "note": "Interruptible spot. Not a public on-demand list."
+        },
+        {
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "usd_per_gpu_hr": 7.94,
+          "as_of": "2026-08-18",
+          "source_id": "digitalocean",
+          "config": "gpu-droplet-12m",
+          "note": "Contractual 12-month reserved. CoreWeave reserved is contact — no public card."
         }
       ],
       "score": 1.85,
@@ -1258,15 +1438,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -1288,11 +1472,27 @@
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
-        "usd_per_gpu_hr": 4.48,
-        "n": 2,
+        "usd_per_gpu_hr": 4.588,
+        "n": 3,
         "term_family": "spot",
         "as_of": "2026-08-18",
         "show": true
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 7.94,
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "label": "DO 12m",
+          "as_of": "2026-08-18",
+          "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+          "currency": "USD",
+          "usd_per_gpu_hr": 7.94,
+          "note": "Contractual 12-month reserved. CoreWeave reserved is contact — no public card."
+        },
+        "y3": null
       }
     },
     {
@@ -1307,27 +1507,27 @@
       "liquidity": 1,
       "demand": 2,
       "frontier": 3,
-      "scarcity": "No public OD list. Crusoe listed, no number. DigitalOcean spot only.",
-      "scarcity_label": "Sales-gated",
+      "scarcity": "No public OD list. DigitalOcean spot $4.50 (interruptible). Crusoe listed, no number.",
+      "scarcity_label": "Spot only",
       "venues": [
         "DigitalOcean",
         "Crusoe"
       ],
       "display": {
-        "usd_per_gpu_hr": null,
-        "term": "sales-gated",
-        "venue": "—",
+        "usd_per_gpu_hr": 4.5,
+        "term": "spot",
+        "venue": "DigitalOcean",
         "as_of": "2026-08-18",
-        "source_id": null,
-        "label": "sales-gated",
-        "config": "list",
-        "note": "No sourced public on-demand list. TensorWave is not a list in this snapshot."
+        "source_id": "digitalocean",
+        "label": "DigitalOcean spot",
+        "config": "gpu-droplet-spot",
+        "note": "Interruptible spot. No public on-demand list. Not a reserved tenor."
       },
       "also": {
-        "text": "DigitalOcean spot $4.50 (interruptible) · no public OD",
+        "text": "No public OD · Crusoe listed, no number",
         "as_of": "2026-08-18"
       },
-      "availability": "Insufficient public on-demand list. DigitalOcean prints MI355X as spot $4.50 (interruptible), not buy-now OD. Crusoe lists the SKU without a number. TensorWave is not treated as a public list.",
+      "availability": "No public on-demand list. Display is DigitalOcean interruptible spot $4.50 (fetched 2026-08-18; pricing effective 1 Aug 2026). Crusoe lists the SKU without a number. TensorWave is not treated as a public list. No 12-month reserved card on the DO page.",
       "cannot_show": [
         "TensorWave from $2.95 as a public list",
         "A buy-now on-demand dollar print",
@@ -1342,7 +1542,7 @@
           "as_of": "2026-08-18",
           "source_id": "digitalocean",
           "config": "gpu-droplet-spot",
-          "note": "Interruptible spot. Not a public on-demand list. Not the display."
+          "note": "Interruptible spot. Display print. Not on-demand. Not a reserved tenor."
         },
         {
           "venue": "Crusoe",
@@ -1367,31 +1567,51 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
-        "points": [],
-        "steps": [],
+        "points": [
+          {
+            "date": "2026-08-18",
+            "price": 4.5
+          }
+        ],
+        "steps": [
+          {
+            "date": "2026-08-18",
+            "price": 4.5
+          }
+        ],
         "direction": "flat",
         "window": null,
-        "svg": "",
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
-        "usd_per_gpu_hr": null,
-        "n": 0,
-        "term_family": "sales-gated",
+        "usd_per_gpu_hr": 4.5,
+        "n": 1,
+        "term_family": "spot",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
@@ -1464,15 +1684,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -1499,6 +1723,153 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 8.4,
+          "venue": "GCP",
+          "term": "1y",
+          "label": "GCP 1y",
+          "as_of": "2026-08-18",
+          "url": "https://cloud.google.com/tpu/pricing",
+          "currency": "USD",
+          "usd_per_gpu_hr": 8.4
+        },
+        "y3": {
+          "price": 5.4,
+          "venue": "GCP",
+          "term": "3y",
+          "label": "GCP 3y",
+          "as_of": "2026-08-18",
+          "url": "https://cloud.google.com/tpu/pricing",
+          "currency": "USD",
+          "usd_per_gpu_hr": 5.4
+        }
+      }
+    },
+    {
+      "id": "amd-mi350x",
+      "rank": 9,
+      "name": "MI350X",
+      "vendor": "AMD",
+      "memory": "288 GB HBM3E",
+      "memory_note": "AMD Instinct MI350 series; DO list does not reprint HBM on the reserved/spot cards.",
+      "process": "TSMC N3P",
+      "score": 1.6,
+      "liquidity": 1,
+      "demand": 2,
+      "frontier": 2,
+      "scarcity": "No public OD. DigitalOcean spot $4.00 and 12m reserved $4.76.",
+      "scarcity_label": "Spot / 12m",
+      "venues": [
+        "DigitalOcean"
+      ],
+      "display": {
+        "usd_per_gpu_hr": 4.0,
+        "term": "spot",
+        "venue": "DigitalOcean",
+        "as_of": "2026-08-18",
+        "source_id": "digitalocean",
+        "label": "DigitalOcean spot",
+        "config": "gpu-droplet-spot",
+        "note": "Interruptible spot. No public on-demand list."
+      },
+      "also": {
+        "text": "DO 12m reserved $4.76 · no public OD",
+        "as_of": "2026-08-18"
+      },
+      "availability": "DigitalOcean is the public primary: interruptible spot $4.00 and contractual 12-month reserved $4.76 (pricing effective 1 Aug 2026, fetched 2026-08-18). No on-demand card on the DO page. No other sourced public list in this snapshot.",
+      "cannot_show": [
+        "A public on-demand dollar print",
+        "TensorWave as a public list",
+        "An invented 1m / 1q / 3y tenor",
+        "1h / 24h / 7d ticks (US lists do not tick daily)",
+        "An invented 1M / 1Q / 1Y / 3Y without two dated prints"
+      ],
+      "quotes": [
+        {
+          "venue": "DigitalOcean",
+          "term": "spot",
+          "usd_per_gpu_hr": 4.0,
+          "as_of": "2026-08-18",
+          "source_id": "digitalocean",
+          "config": "gpu-droplet-spot",
+          "note": "Interruptible spot. Display print. Not on-demand."
+        },
+        {
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "usd_per_gpu_hr": 4.76,
+          "as_of": "2026-08-18",
+          "source_id": "digitalocean",
+          "config": "gpu-droplet-12m",
+          "note": "Contractual 12-month reserved. Not a guessed discount off spot."
+        }
+      ],
+      "changes": {
+        "d7": {
+          "pct": null,
+          "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
+        },
+        "d30": {
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
+        },
+        "d90": {
+          "pct": null,
+          "title": "No dated pair in the 1Q window (90d ±10d)."
+        },
+        "d1y": {
+          "pct": null,
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
+        }
+      },
+      "spark": {
+        "points": [
+          {
+            "date": "2026-08-18",
+            "price": 4.0
+          }
+        ],
+        "steps": [
+          {
+            "date": "2026-08-18",
+            "price": 4.0
+          }
+        ],
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
+        "title": "Step chart of dated prints. Carry-forward is for drawing only."
+      },
+      "tape_print": {
+        "usd_per_gpu_hr": 4.0,
+        "n": 1,
+        "term_family": "spot",
+        "as_of": "2026-08-18",
+        "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 4.76,
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "label": "DO 12m",
+          "as_of": "2026-08-18",
+          "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+          "currency": "USD",
+          "usd_per_gpu_hr": 4.76,
+          "note": "Contractual 12-month reserved. Not a guessed discount off spot."
+        },
+        "y3": null
       }
     },
     {
@@ -1566,7 +1937,7 @@
         }
       ],
       "score": 1.6,
-      "rank": 9,
+      "rank": 10,
       "changes": {
         "d7": {
           "pct": null,
@@ -1574,15 +1945,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -1609,6 +1984,23 @@
         "term_family": "cny-monthly",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 10.79,
+          "venue": "SMM Beijing",
+          "term": "1y monthly",
+          "label": "SMM 1y",
+          "as_of": "2026-07-29",
+          "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000",
+          "currency": "CNY",
+          "cny_per_gpu_hr": 10.79,
+          "usd_per_gpu_hr": 1.59,
+          "note": "¥63,000 / 8-card month, 1y min. ¥7,875/card-month ÷ 730 h/mo = ¥10.79/hr."
+        },
+        "y3": null
       }
     },
     {
@@ -1672,7 +2064,7 @@
         }
       ],
       "score": 1.5,
-      "rank": 10,
+      "rank": 11,
       "changes": {
         "d7": {
           "pct": null,
@@ -1680,15 +2072,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -1705,11 +2101,17 @@
         "term_family": "token",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
       "id": "nvidia-l40s-48gb",
-      "rank": 11,
+      "rank": 12,
       "name": "L40S 48GB",
       "vendor": "NVIDIA",
       "memory": "48 GB GDDR6",
@@ -1785,15 +2187,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -1820,11 +2226,17 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": true
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
       "id": "amd-mi300x",
-      "rank": 12,
+      "rank": 13,
       "name": "MI300X",
       "vendor": "AMD",
       "memory": "192 GB HBM3",
@@ -1904,15 +2316,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -1939,11 +2355,27 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": true
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 1.91,
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "label": "DO 12m",
+          "as_of": "2026-08-18",
+          "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+          "currency": "USD",
+          "usd_per_gpu_hr": 1.91,
+          "note": "Contractual 12-month reserved. Not on-demand."
+        },
+        "y3": null
       }
     },
     {
       "id": "amd-mi325x",
-      "rank": 13,
+      "rank": 14,
       "name": "MI325X",
       "vendor": "AMD",
       "memory": "256 GB HBM3E",
@@ -2004,15 +2436,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -2039,11 +2475,27 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 2.88,
+          "venue": "DigitalOcean",
+          "term": "12m reserved",
+          "label": "DO 12m",
+          "as_of": "2026-08-18",
+          "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+          "currency": "USD",
+          "usd_per_gpu_hr": 2.88,
+          "note": "Contractual 12-month reserved. Not on-demand."
+        },
+        "y3": null
       }
     },
     {
       "id": "google-tpu-v6e-trillium",
-      "rank": 14,
+      "rank": 15,
       "name": "TPU v6e Trillium",
       "vendor": "Google",
       "memory": "32 GB",
@@ -2103,15 +2555,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -2138,11 +2594,26 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 1.89,
+          "venue": "GCP",
+          "term": "1y",
+          "label": "GCP 1y",
+          "as_of": "2026-08-18",
+          "url": "https://cloud.google.com/tpu/pricing",
+          "currency": "USD",
+          "usd_per_gpu_hr": 1.89
+        },
+        "y3": null
       }
     },
     {
       "id": "amazon-trainium2",
-      "rank": 15,
+      "rank": 16,
       "name": "Trainium2",
       "vendor": "Amazon",
       "memory": "96 GiB / chip",
@@ -2198,15 +2669,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -2233,6 +2708,12 @@
         "term_family": "capacity-blocks",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
@@ -2296,7 +2777,7 @@
         }
       ],
       "score": 1.25,
-      "rank": 16,
+      "rank": 17,
       "changes": {
         "d7": {
           "pct": null,
@@ -2304,15 +2785,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -2329,6 +2814,12 @@
         "term_family": "token",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
@@ -2381,7 +2872,7 @@
         }
       ],
       "score": 1.25,
-      "rank": 17,
+      "rank": 18,
       "changes": {
         "d7": {
           "pct": null,
@@ -2389,15 +2880,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -2424,6 +2919,12 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
@@ -2483,7 +2984,7 @@
         }
       ],
       "score": 1.0,
-      "rank": 18,
+      "rank": 19,
       "changes": {
         "d7": {
           "pct": null,
@@ -2491,15 +2992,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -2526,11 +3031,17 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": null,
+        "y3": null
       }
     },
     {
       "id": "google-tpu-v5p",
-      "rank": 19,
+      "rank": 20,
       "name": "TPU v5p",
       "vendor": "Google",
       "memory": "95 GiB",
@@ -2590,15 +3101,19 @@
         },
         "d30": {
           "pct": null,
-          "title": "No dated pair in the 30-day window (±5d)."
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": null,
-          "title": "No dated pair in the 90-day window (±10d)."
+          "title": "No dated pair in the 1Q window (90d ±10d)."
         },
         "d1y": {
           "pct": null,
-          "title": "No dated pair in the 1-year window (365d ±21d)."
+          "title": "No dated pair in the 1Y window (365d ±21d)."
+        },
+        "d3y": {
+          "pct": null,
+          "title": "No dated pair in the 3Y window (1095d ±45d)."
         }
       },
       "spark": {
@@ -2625,6 +3140,21 @@
         "term_family": "on-demand",
         "as_of": "2026-08-18",
         "show": false
+      },
+      "terms": {
+        "m1": null,
+        "q1": null,
+        "y1": {
+          "price": 2.94,
+          "venue": "GCP",
+          "term": "1y",
+          "label": "GCP 1y",
+          "as_of": "2026-08-18",
+          "url": "https://cloud.google.com/tpu/pricing",
+          "currency": "USD",
+          "usd_per_gpu_hr": 2.94
+        },
+        "y3": null
       }
     }
   ],
@@ -2632,7 +3162,7 @@
     {
       "id": "nvidia-h100-sxm-80gb",
       "name": "H100 SXM 80GB",
-      "window": "1y",
+      "window": "1Y",
       "pct": 33.4,
       "venue": "Lambda OD",
       "title": "Lambda on-demand $2.99 on 2025-08-12 → $3.99 on 2026-08-18 (+33.4%)"
@@ -2640,7 +3170,7 @@
     {
       "id": "nvidia-b200-sxm6",
       "name": "B200 SXM6",
-      "window": "90d",
+      "window": "1Q",
       "pct": 0.0,
       "venue": "Lambda OD",
       "title": "Lambda on-demand $6.69 on 2026-05-21 → $6.69 on 2026-08-18 (0.0%)"
@@ -2648,7 +3178,7 @@
     {
       "id": "nvidia-h200-sxm-141gb",
       "name": "H200 SXM 141GB",
-      "window": "1y",
+      "window": "1Y",
       "pct": 0.0,
       "venue": "CoreWeave OD",
       "title": "CoreWeave on-demand $6.31 on 2025-08-21 → $6.31 on 2026-08-18 (0.0%)"
@@ -2656,7 +3186,7 @@
     {
       "id": "nvidia-a100-sxm-80gb",
       "name": "A100 SXM 80GB",
-      "window": "90d",
+      "window": "1Q",
       "pct": 0.0,
       "venue": "Lambda OD",
       "title": "Lambda on-demand $2.79 on 2026-05-21 → $2.79 on 2026-08-18 (0.0%)"

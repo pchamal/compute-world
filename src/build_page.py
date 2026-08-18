@@ -225,7 +225,8 @@ CRUMB_LD = json.dumps(breadcrumb_ld([("compute.world", "https://compute.world/")
 FAQ_LD = json.dumps({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
  {"@type":"Question","name":"What is the index?","acceptedAnswer":{"@type":"Answer","text":"compute.world is the world's compute & silicon index. The Compute Net Worth Index (CNW™) prices 108 countries three ways — CNW Ceiling, CNW Unlockable, and Gross Domestic Compute (GDC™). The Silicon Tape prints sourced AI accelerator rentals. Created by Pukar C. Hamal, San Francisco, 2026."}},
  {"@type":"Question","name":"What is the tape?","acceptedAnswer":{"@type":"Answer","text":"The Silicon Tape is the silicon half of the index: a public rental tape of sourced accelerator prints. Every display number is a labeled term (on-demand, 1y, spot, Capacity Blocks, or token/enterprise) from a named venue and date. Rank is 0.40 × liquidity + 0.35 × demand + 0.25 × frontier. It is not a market cap."}},
- {"@type":"Question","name":"Why is 7-day percent change a dash?","acceptedAnswer":{"@type":"Answer","text":"US list prices do not tick daily. 7d lights up after a week of our own scrape. 30d, 90d, and 1y need two dated same-venue same-term prints. A missing pair is an em dash, never an invented 0%."}},
+ {"@type":"Question","name":"Why is 7-day percent change a dash?","acceptedAnswer":{"@type":"Answer","text":"US list prices do not tick daily. 7d lights up after a week of our own scrape. 1M, 1Q, 1Y, and 3Y need two dated same-venue same-term prints. A missing pair is an em dash, never an invented 0%."}},
+ {"@type":"Question","name":"Why are 1m / 1q / 3y dashes on most US lists?","acceptedAnswer":{"@type":"Answer","text":"US neoclouds publish on-demand, sometimes spot, and rarely a 12-month reserved card. They do not publish 1-month, 1-quarter, or 3-year list prices. We do not impute a discount off on-demand. A dash means no sourced tenor."}},
  {"@type":"Question","name":"Why isn't today's H100 $2.35?","acceptedAnswer":{"@type":"Answer","text":"SemiAnalysis 1y $2.35 is a March 2026 print. Last public SA period is April 2026, labeled STALE. Buy-now is Lambda on-demand $3.99 as of 18 August 2026."}},
  {"@type":"Question","name":"Why are sparklines steps, not candles?","acceptedAnswer":{"@type":"Answer","text":"The tape has dated observed prints, not a daily market. Sparklines are step charts of those prints. Carry-forward is for drawing only. We do not invent 1d or 7d candles."}},
  {"@type":"Question","name":"Why does Cerebras have no $/hour?","acceptedAnswer":{"@type":"Answer","text":"Cerebras Cloud is sold as a token API and as enterprise. There is no sourced public accelerator-hour. Aggregator ranges such as $0.75–$12.50 are omitted on purpose. Groq is listed the same way."}},
@@ -262,11 +263,13 @@ __HEAD_META__
 <script type="application/ld+json">__CRUMB_LD__</script>
 <style>
 :root{--paper:#f7f4ee;--ink:#171614;--muted:#62605a;--faint:#8d8a81;--rule:#cdc7b9;--rule2:#171614;
---accent:#7d2027;--tint:#efe9dd;--sg:#8a5a2a;--pr:#4b5f36;--in:#3c5568;--eu:#77662c;--lr:#8d8a81;
+--accent:#7d2027;--tint:#efe9dd;--stripe:color-mix(in srgb,var(--ink) 5.5%,var(--paper));
+--row-hover:color-mix(in srgb,var(--ink) 10%,var(--paper));--sg:#8a5a2a;--pr:#4b5f36;--in:#3c5568;--eu:#77662c;--lr:#8d8a81;
 --barbg:#e2dcce;--glass:rgba(247,244,238,.72);--glassborder:rgba(23,22,20,.35);
 --serif:'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif}
 html[data-theme="dark"]{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9a9484;--rule:#3a352a;
---rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--sg:#c99a5e;--pr:#8fae72;--in:#7da3bd;--eu:#bfae6a;
+--rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--stripe:color-mix(in srgb,var(--ink) 6%,var(--paper));
+--row-hover:color-mix(in srgb,var(--ink) 11%,var(--paper));--sg:#c99a5e;--pr:#8fae72;--in:#7da3bd;--eu:#bfae6a;
 --lr:#8d8a81;--barbg:#3a352a;--glass:rgba(23,21,17,.72);--glassborder:rgba(236,231,219,.28)}
 html[data-theme="dark"] .chart svg,html[data-theme="dark"] .lg .sw,html[data-theme="dark"] .gleg i{filter:brightness(1.28) saturate(.92)}
 __FNAV_CSS__
@@ -344,21 +347,30 @@ html[data-theme="dark"] .tabswitch [role="tab"][aria-selected="true"]{background
 .weather .w-up,.weather .w-up b{color:var(--pr)}
 .weather .w-dn,.weather .w-dn b{color:var(--accent)}
 .weather .w-flat b{color:var(--ink)}
-table.tape{width:100%;border-collapse:collapse;font-size:12.5px;min-width:1020px}
+table.tape{width:100%;border-collapse:collapse;font-size:12.5px;min-width:1280px}
 .tape th{font-weight:400;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;
-padding:9px 8px 8px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}
-.tape th.num,.tape td.num,.tape th.price,.tape td.price,.tape th.chg,.tape td.chg{text-align:right}
+padding:8px 7px 7px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none;
+position:sticky;top:0;background:var(--paper);z-index:4;box-shadow:0 1px 0 var(--rule2)}
+.tape th.num,.tape td.num,.tape th.price,.tape td.price,.tape th.chg,.tape td.chg,.tape th.termx,.tape td.termx{text-align:right}
 .tape th:hover{color:var(--ink)}
 .tape th.sorted{color:var(--ink)}
 .tape th .arr{display:inline-block;margin-left:4px;color:var(--faint);font-size:9px}
-.tape td{padding:9px 8px;border-bottom:1px solid var(--rule);vertical-align:middle}
+.tape td{padding:8px 7px;border-bottom:1px solid color-mix(in srgb,var(--rule) 55%,transparent);vertical-align:middle}
 .tape tr.chiprow{cursor:pointer}
-.tape tr.chiprow:hover td{background:var(--tint)}
+.tape tbody tr.chiprow.odd td{background:var(--paper)}
+.tape tbody tr.chiprow.even td{background:var(--tint)}
+.tape tbody tr.chiprow:hover td{background:var(--row-hover)}
 .tape .cn{font-weight:600;border-bottom:1px solid transparent}
 .tape tr.chiprow:hover .cn{color:var(--accent);border-bottom-color:var(--accent)}
 .tape .tick{display:block;font-size:11px;color:var(--faint);margin-top:2px;letter-spacing:.02em}
 .tape .px{font-size:15px;font-weight:600;letter-spacing:-.02em;display:block}
 .tape .term,.tape .asof,.tape .sub{display:block;font-size:11px;letter-spacing:.02em;color:var(--faint);line-height:1.45;margin-top:2px;text-transform:none}
+.tape .leadlab{display:inline;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);margin-right:4px}
+.tape td.termx{position:relative;font-variant-numeric:tabular-nums}
+.tape td.termx .px{font-size:13px;font-weight:600;letter-spacing:-.02em;display:block}
+.tape td.termx .tsub{display:block;font-size:10px;color:var(--faint);margin-top:2px;letter-spacing:.02em;text-transform:none}
+.tape td.term-na .px{font-weight:400;color:var(--faint);font-size:13px}
+.tape td.termx:hover .pop{display:block}
 .tape .also-t{color:var(--muted);font-size:12px}
 .tape .venues{color:var(--muted);font-size:12px;max-width:120px}
 .tape .vbar{display:block;height:3px;background:var(--barbg);margin:0 0 6px;max-width:72px}
@@ -375,7 +387,7 @@ padding:9px 8px 8px;border-bottom:1px solid var(--rule2);white-space:nowrap;curs
 .tape .spark-up{color:var(--pr)}
 .tape .spark-dn{color:var(--accent)}
 .tape .tape{display:block;margin-top:4px;font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}
-.tape td.price{position:relative}
+.tape td.price,.tape td.termx{position:relative}
 .tape .pop{display:none;position:absolute;right:6px;top:calc(100% - 2px);z-index:8;min-width:228px;padding:10px 12px;
 background:var(--paper);border:1px solid var(--rule2);box-shadow:0 12px 32px rgba(0,0,0,.14);text-align:left;
 font-size:12px;color:var(--muted);line-height:1.45}
@@ -918,7 +930,7 @@ __FNAV_HTML__
 
     <div id="panel-silicon" role="tabpanel" aria-labelledby="tab-silicon">
       <div class="si-head">
-        <p class="si-one">The public rental tape. Display prints are <b>labeled terms</b> — not averages, not market caps, not invented candles. 30d / 90d / 1y need two dated same-venue prints. Rank is ordinal hygiene. Methodology lives on the standalone tape.</p>
+        <p class="si-one">The public rental tape. Display prints are <b>labeled terms</b> — not averages, not market caps, not invented candles. The term book (1m / 1q / 1y / 3y) is sourced $/GPU-hr or an em dash. Change windows 1M / 1Q / 1Y / 3Y need two dated same-venue prints. Rank is ordinal hygiene. Methodology lives on the standalone tape.</p>
         <a class="si-full" href="/silicon.html">full tape →</a>
       </div>
       <div class="chips" id="si-vendors" role="group" aria-label="Vendor filter">
@@ -931,11 +943,16 @@ __FNAV_HTML__
             <tr>
               <th class="num sorted" data-sort="rank" data-type="num"># <span class="arr">▼</span></th>
               <th data-sort="name" data-type="str">Chip <span class="arr"></span></th>
-              <th class="price" data-sort="price" data-type="num">Price <span class="arr"></span></th>
+              <th class="price" data-sort="price" data-type="num" title="Buy-now on-demand or labeled spot. Not a reserved tenor.">OD / Spot <span class="arr"></span></th>
+              <th class="termx" data-sort="m1" data-type="num" title="1-month contract / monthly lease. Dash if no public list — we do not impute.">1m <span class="arr"></span></th>
+              <th class="termx" data-sort="q1" data-type="num" title="1-quarter (3-month) contract. Almost no US public list.">1q <span class="arr"></span></th>
+              <th class="termx" data-sort="y1" data-type="num" title="1-year / 12-month reserved, or a labeled 1CC / SA 1y print.">1y <span class="arr"></span></th>
+              <th class="termx" data-sort="y3" data-type="num" title="3-year reserved. No Lambda / CoreWeave / DO public 3y card.">3y <span class="arr"></span></th>
               <th class="num" data-sort="d7" data-type="num" title="US list prices do not tick daily. 7d lights up after a week of our own scrape.">7d <span class="arr"></span></th>
-              <th class="num" data-sort="d30" data-type="num">30d <span class="arr"></span></th>
-              <th class="num" data-sort="d90" data-type="num">90d <span class="arr"></span></th>
-              <th class="num" data-sort="d1y" data-type="num">1y <span class="arr"></span></th>
+              <th class="num" data-sort="d30" data-type="num" title="1M change: 30d ±5. Same venue + same term + two dated prints.">1M <span class="arr"></span></th>
+              <th class="num" data-sort="d90" data-type="num" title="1Q change: 90d ±10. Same venue + same term + two dated prints.">1Q <span class="arr"></span></th>
+              <th class="num" data-sort="d1y" data-type="num" title="1Y change: 365d ±21. Same venue + same term + two dated prints.">1Y <span class="arr"></span></th>
+              <th class="num" data-sort="d3y" data-type="num" title="3Y change: 1095d ±45. Almost none exist. Em dash is correct.">3Y <span class="arr"></span></th>
               <th data-sort="spark" data-type="str">Sparkline <span class="arr"></span></th>
               <th data-sort="also" data-type="str">Also <span class="arr"></span></th>
               <th data-sort="venues" data-type="num">Venues <span class="arr"></span></th>
@@ -943,11 +960,11 @@ __FNAV_HTML__
             </tr>
           </thead>
           <tbody id="home-tape-body">
-            <tr><td colspan="11" class="hint">Loading the tape from silicon.json…</td></tr>
+            <tr><td colspan="16" class="hint">Loading the tape from silicon.json…</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="hint">Same density as <a href="/silicon.html">The Silicon Tape</a>. Hover a price for the exact venue print. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a>.</p>
+      <p class="hint">Same book as <a href="/silicon.html">The Silicon Tape</a>. Hover a filled cell for venue · term · as-of · URL. Lowercase 1m / 1q / 1y / 3y are term prices; uppercase 1M / 1Q / 1Y / 3Y are dated percent change. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a>.</p>
     </div>
   </div><!-- /hometabs -->
 
@@ -958,7 +975,9 @@ __FNAV_HTML__
     <h3>What is the tape?</h3>
     <p>The Silicon Tape is a public rental index. Every display number is a <b>labeled term</b> from a named venue and date — on-demand, 1y, spot, Capacity Blocks, or token/enterprise. Rank is 0.40 × liquidity + 0.35 × demand + 0.25 × frontier. It is not a market cap.</p>
     <h3>Why is 7-day a dash?</h3>
-    <p>US list prices do not tick daily. 7d lights up after a week of our own scrape. 30d, 90d, and 1y are computed only from two dated same-venue same-term prints. A missing pair is an em dash, never an invented 0%.</p>
+    <p>US list prices do not tick daily. 7d lights up after a week of our own scrape. 1M, 1Q, 1Y, and 3Y are computed only from two dated same-venue same-term prints. A missing pair is an em dash, never an invented 0%.</p>
+    <h3>Why are 1m / 1q / 3y dashes on most US lists?</h3>
+    <p>Venues do not publish those tenors. US neoclouds print on-demand, sometimes spot, and rarely a 12-month reserved card. They do not publish 1-month, 1-quarter, or 3-year list prices. We do not impute a discount off on-demand. A dash means no sourced tenor.</p>
     <h3>Why isn't today's H100 $2.35?</h3>
     <p>SemiAnalysis 1y $2.35 is a <b>March 2026</b> print. The last public SA period is April 2026 and is labeled STALE. Buy-now is Lambda on-demand <b>$3.99</b> as of 18 August 2026.</p>
     <h3>Why are sparklines steps, not candles?</h3>
@@ -1228,12 +1247,23 @@ window.addEventListener("hashchange",routeHash);
 
 function moneyTape(x){ if(x==null||x==="") return "—"; var s=Number(x).toFixed(3); if(s.slice(-1)==="0") s=s.slice(0,-1); return "$"+s; }
 function displayTape(d){
-  if(d && d.primary==="CNY" && d.cny_per_gpu_hr!=null) return "¥"+Number(d.cny_per_gpu_hr).toFixed(2);
-  if(d && d.usd_per_gpu_hr==null){
+  if(!d) return "—";
+  if((d.primary==="CNY"||d.currency==="CNY") && d.cny_per_gpu_hr!=null) return "¥"+Number(d.cny_per_gpu_hr).toFixed(2);
+  if(d.currency==="CNY" && d.price!=null && d.usd_per_gpu_hr==null) return "¥"+Number(d.price).toFixed(2);
+  const usd=d.usd_per_gpu_hr!=null?d.usd_per_gpu_hr:d.price;
+  if(usd==null){
     if(/token|enterprise/i.test((d.term||"")+" "+(d.label||""))) return d.label||"—";
     return "—";
   }
-  return moneyTape(d && d.usd_per_gpu_hr);
+  return moneyTape(usd);
+}
+function leadMark(d){
+  const t=((d&&d.term)||"")+" "+((d&&d.label)||"");
+  if(/spot/i.test(t)) return "Spot";
+  if(/on-demand|\bOD\b/i.test(t)) return "OD";
+  if(/capacity|\bCB\b/i.test(t)) return "CB";
+  if(/token|enterprise/i.test(t)) return "Token";
+  return ((d&&d.label)||(d&&d.term)||"Print").slice(0,18);
 }
 function niceTapeDate(d){
   if(!d) return "";
@@ -1254,6 +1284,7 @@ function bindHomeTape(){
       document.querySelectorAll("#home-tape tr.chiprow").forEach(r=>{
         r.style.display=(!v||r.dataset.vendor===v)?"":"none";
       });
+      restripeHome();
     };
   });
   const tb=document.getElementById("home-tape-body");
@@ -1268,7 +1299,7 @@ function bindHomeTape(){
       const rows=[].slice.call(tb.querySelectorAll("tr.chiprow"));
       rows.sort((a,b)=>{
         if(type==="num"){
-          const map={price:"price",score:"score",rank:"rank",d30:"d30",d90:"d90",d1y:"d1y",d7:"d7",venues:"venues"};
+          const map={price:"price",score:"score",rank:"rank",d30:"d30",d90:"d90",d1y:"d1y",d3y:"d3y",d7:"d7",venues:"venues",m1:"m1",q1:"q1",y1:"y1",y3:"y3"};
           let an=parseFloat(a.dataset[map[key]||"rank"]);
           let bn=parseFloat(b.dataset[map[key]||"rank"]);
           if(isNaN(an)) an=-Infinity; if(isNaN(bn)) bn=-Infinity;
@@ -1279,7 +1310,17 @@ function bindHomeTape(){
         return (av.textContent.trim().toLowerCase()).localeCompare(bv.textContent.trim().toLowerCase())*state.dir;
       });
       rows.forEach(r=>tb.appendChild(r));
+      restripeHome();
     };
+  });
+}
+function restripeHome(){
+  let i=0;
+  document.querySelectorAll("#home-tape tr.chiprow").forEach(r=>{
+    r.classList.remove("odd","even");
+    if(r.style.display==="none") return;
+    r.classList.add(i%2?"even":"odd");
+    i++;
   });
 }
 async function loadHomeTape(){
@@ -1315,7 +1356,7 @@ async function loadHomeTape(){
       return '<td class="chg '+cls+'" data-col="'+key+'" title="'+title+'">'+caret+text+"</td>";
     }
     function pricePop(d,href,srcLab){
-      const unit=d.primary==="CNY"?"card-hr":"GPU-hr";
+      const unit=(d.primary==="CNY"||d.currency==="CNY")?"card-hr":"GPU-hr";
       let h='<div class="pop"><b>'+(d.label||"Display print")+"</b>";
       h+="<span>"+displayTape(d)+" / "+unit+"</span>";
       h+="<span>"+(d.venue||"—")+" · "+(d.term||"")+"</span>";
@@ -1324,6 +1365,24 @@ async function loadHomeTape(){
       else if(srcLab) h+="<span>"+srcLab+"</span>";
       if(d.note) h+='<span class="qnote">'+d.note+"</span>";
       return h+"</div>";
+    }
+    function termCell(terms,key){
+      const rec=(terms&&terms[key])||null;
+      const na="No sourced public list for this tenor. We do not impute a discount off on-demand.";
+      if(!rec || (rec.usd_per_gpu_hr==null && rec.cny_per_gpu_hr==null && rec.price==null)){
+        return '<td class="termx term-na" data-col="'+key+'" data-px="" title="'+na+'"><span class="px">—</span></td>';
+      }
+      const href=rec.url||"";
+      const srcLab=rec.venue||"source";
+      let px=rec.usd_per_gpu_hr;
+      if(px==null && rec.currency!=="CNY") px=rec.price;
+      return '<td class="termx" data-col="'+key+'" data-px="'+(px==null?"":px)+'"><span class="px">'+displayTape(rec)+'</span><span class="tsub">'+(rec.label||rec.term||"")+"</span>"+pricePop(rec,href,srcLab)+"</td>";
+    }
+    function termPx(terms,key){
+      const rec=(terms&&terms[key])||{};
+      let v=rec.usd_per_gpu_hr;
+      if(v==null && rec.currency!=="CNY") v=rec.price;
+      return v==null?"":v;
     }
     const wx=document.getElementById("si-weather");
     if(wx && S.weather && S.weather.length){
@@ -1349,17 +1408,19 @@ async function loadHomeTape(){
       const sparkTitle=(spark.title||"Dated step chart.").replace(/"/g,"&quot;");
       const tp=c.tape_print||{};
       const tapeHtml=tp.show?'<span class="tape" title="Tape Print is a same-term constellation. We do not publish the sleeve weights.">tape '+moneyTape(tp.usd_per_gpu_hr)+" · n="+tp.n+"</span>":"";
-      const d30=chg.d30&&chg.d30.pct, d90=chg.d90&&chg.d90.pct, d1y=chg.d1y&&chg.d1y.pct;
+      const terms=c.terms||{};
+      const d30=chg.d30&&chg.d30.pct, d90=chg.d90&&chg.d90.pct, d1y=chg.d1y&&chg.d1y.pct, d3y=chg.d3y&&chg.d3y.pct;
       const nven=(c.venues||[]).length;
       const liq=c.liquidity||0;
       const barW=liq?Math.max(8,Math.round(liq/3*100)):Math.min(100,nven*25||8);
       const vtitle=(nven+" venue"+(nven===1?"":"s")+" · liquidity "+liq+"/3 · "+(c.scarcity_label||"")).replace(/"/g,"&quot;");
-      return '<tr class="chiprow" data-id="'+c.id+'" data-vendor="'+(c.vendor||"")+'" data-rank="'+c.rank+'" data-score="'+c.score+'" data-price="'+(px==null?"":px)+'" data-d30="'+(d30==null?"":d30)+'" data-d90="'+(d90==null?"":d90)+'" data-d1y="'+(d1y==null?"":d1y)+'" data-venues="'+nven+'">'+
+      return '<tr class="chiprow" data-id="'+c.id+'" data-vendor="'+(c.vendor||"")+'" data-rank="'+c.rank+'" data-score="'+c.score+'" data-price="'+(px==null?"":px)+'" data-m1="'+termPx(terms,"m1")+'" data-q1="'+termPx(terms,"q1")+'" data-y1="'+termPx(terms,"y1")+'" data-y3="'+termPx(terms,"y3")+'" data-d30="'+(d30==null?"":d30)+'" data-d90="'+(d90==null?"":d90)+'" data-d1y="'+(d1y==null?"":d1y)+'" data-d3y="'+(d3y==null?"":d3y)+'" data-venues="'+nven+'">'+
         '<td class="num" data-col="rank">'+c.rank+"</td>"+
         '<td class="chip" data-col="name"><span class="cn">'+(c.name||"")+'</span><span class="tick">'+tick+"</span></td>"+
-        '<td class="price" data-col="price"><span class="px">'+displayTape(d)+'</span><span class="term">'+(d.label||"")+"</span>"+tapeHtml+pricePop(d,href,srcLab)+"</td>"+
+        '<td class="price" data-col="price"><span class="px">'+displayTape(d)+'</span><span class="term"><span class="leadlab">'+leadMark(d)+"</span> "+(d.label||"")+"</span>"+tapeHtml+pricePop(d,href,srcLab)+"</td>"+
+        termCell(terms,"m1")+termCell(terms,"q1")+termCell(terms,"y1")+termCell(terms,"y3")+
         '<td class="chg chg-na" data-col="d7" title="US list prices do not tick daily. 7d lights up after a week of our own scrape.">—</td>'+
-        chgCell(chg,"d30")+chgCell(chg,"d90")+chgCell(chg,"d1y")+
+        chgCell(chg,"d30")+chgCell(chg,"d90")+chgCell(chg,"d1y")+chgCell(chg,"d3y")+
         '<td class="sparktd" data-col="spark" title="'+sparkTitle+'">'+sparkHtml+"</td>"+
         '<td class="also" data-col="also"><span class="also-t">'+also+"</span></td>"+
         '<td class="venues" data-col="venues"><span class="vbar" title="'+vtitle+'"><i style="width:'+barW+'%"></i></span><span class="vcount">'+nven+" venue"+(nven===1?"":"s")+'</span><span class="sub">'+(c.scarcity_label||"")+"</span></td>"+
@@ -1370,9 +1431,10 @@ async function loadHomeTape(){
       r.querySelectorAll("a,.pop").forEach(a=>a.addEventListener("click",e=>e.stopPropagation()));
     });
     bindHomeTape();
+    restripeHome();
     _tapeLoaded=true;
   }catch(e){
-    tb.innerHTML='<tr><td colspan="11" class="hint">The tape needs silicon.json. The standalone page is at <a href="/silicon.html">silicon.html</a>.</td></tr>';
+    tb.innerHTML='<tr><td colspan="16" class="hint">The tape needs silicon.json. The standalone page is at <a href="/silicon.html">silicon.html</a>.</td></tr>';
   }
 }
 
@@ -1567,7 +1629,8 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - The index = CNW™ (108 countries) + the Silicon Tape (sourced accelerator prints).
 - Display prices are labeled terms (on-demand, 1y, spot, Capacity Blocks, token/enterprise).
 - Buy-now headline is the current public list (Lambda OD for H100/B200/A100). SemiAnalysis 1y is STALE as of April 2026 and is not today's H100.
-- 30d / 90d / 1y percent change exists only from two dated same-venue same-term prints in silicon-history.json (30d ±5d, 90d ±10d, 1y 365d ±21d). Missing pair = em dash, never an invented 0%.
+- Term book 1m / 1q / 1y / 3y is sourced labeled $/GPU-hr only (DigitalOcean 12m reserved, Lambda 1-Click Clusters labeled 1CC 2w–1y, SA 1y STALE, or a sourced GCP 1y/3y). Missing tenor = em dash. We do not impute 1y = OD × 0.8.
+- 1M / 1Q / 1Y / 3Y percent change exists only from two dated same-venue same-term prints in silicon-history.json (1M = 30d ±5d, 1Q = 90d ±10d, 1Y = 365d ±21d, 3Y = 1095d ±45d). Missing pair = em dash, never an invented 0%.
 - 1h / 24h / 7d stay dashes: US list prices do not tick daily. Sparklines are step charts of dated prints, not 1d/7d candles. Carry-forward is for drawing only.
 - Cerebras and Groq have no $/accelerator-hr. They are token/enterprise (Cerebras) and
   a token API (Groq). Do not use aggregator $0.75–$12.50 as a Cerebras hour.
@@ -1591,8 +1654,8 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /data.json — full dataset (108 countries, all metrics, precedents catalog), CC BY 4.0
 - /params.json — the $/GW valuation parameters, reviewed weekly
 - /wire.json + /wire.html — The Wire: current sovereign-AI and compute-infrastructure news, each item scored for credibility (source tier, corroboration, specificity, delivery track record). RSS at /wire.xml.
-- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator prints (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026, STALE). Includes NVIDIA (B200, B300, H100, H200, GB200, A100, GH200, L40S, RTX PRO 6000 Blackwell), AMD, Google TPU, Trainium2, Huawei Ascend 910C (CNY-primary, SMM Beijing), Cerebras WSE-3 (token/enterprise), Groq LPU (token API). RSS at /silicon.xml. Homepage default tab: /#silicon ( /#countries still works; last-tab localStorage wins if set).
-- /silicon-history.json — append-only dated observed prints. The only source for 30d / 90d / 1y and sparklines. No interpolations.
+- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator prints (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026, STALE). Includes NVIDIA (B200, B300, H100, H200, GB200, A100, GH200, L40S, RTX PRO 6000 Blackwell), AMD (MI355X, MI350X, MI325X, MI300X), Google TPU, Trainium2, Huawei Ascend 910C (CNY-primary, SMM Beijing), Cerebras WSE-3 (token/enterprise), Groq LPU (token API). Term book: 1m / 1q / 1y / 3y. Change windows: 1M / 1Q / 1Y / 3Y. RSS at /silicon.xml. Homepage default tab: /#silicon ( /#countries still works; last-tab localStorage wins if set).
+- /silicon-history.json — append-only dated observed prints. The only source for 1M / 1Q / 1Y / 3Y and sparklines. No interpolations.
 - /brief + /brief.json + /brief.xml — The daily tape: weekday public brief of country conversion signals and sourced silicon display prints. No invented 7d/30d deltas.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - /llms.txt — this file. Crawlers (Googlebot, Bingbot, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot, Applebot-Extended, Bytespider, CCBot) are allowed.

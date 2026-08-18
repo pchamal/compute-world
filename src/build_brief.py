@@ -104,6 +104,8 @@ faq_ld = json.dumps({
          "acceptedAnswer": {"@type": "Answer", "text": "The daily tape is the weekday public brief of compute.world, the world's compute & silicon index: country conversion signals already on The Wire, plus today's display prints from the Silicon Tape. Labeled terms only."}},
         {"@type": "Question", "name": "Why is 7-day percent change a dash?",
          "acceptedAnswer": {"@type": "Answer", "text": "US list prices do not tick daily. 7d lights up after a week of our own scrape. prev_usd and delta appear only from two dated same-series prints in silicon-history.json."}},
+        {"@type": "Question", "name": "Why are 1m / 1q / 3y dashes on most US lists?",
+         "acceptedAnswer": {"@type": "Answer", "text": "US neoclouds do not publish 1-month, 1-quarter, or 3-year list prices. We do not impute a discount off on-demand."}},
         {"@type": "Question", "name": "Why does Cerebras have no $/hour?",
          "acceptedAnswer": {"@type": "Answer", "text": "Cerebras is token/enterprise. There is no sourced public accelerator-hour. The brief will not print aggregator $0.75–$12.50 as a Cerebras hour."}},
     ],
@@ -181,8 +183,12 @@ h2{{font-weight:400;font-size:13px;letter-spacing:.16em;text-transform:uppercase
 .tblwrap{{overflow-x:auto;margin:8px 0 0;border-top:2px solid var(--rule2)}}
 table.tape{{width:100%;border-collapse:collapse;font-size:13.5px;min-width:720px}}
 .tape th{{font-weight:400;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;
-padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
-.tape td{{padding:12px 10px;border-bottom:1px solid var(--rule);vertical-align:top}}
+padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap;
+position:sticky;top:0;background:var(--paper);z-index:3}}
+.tape td{{padding:12px 10px;border-bottom:1px solid color-mix(in srgb,var(--rule) 55%,transparent);vertical-align:top}}
+.tape tbody tr:nth-child(odd) td{{background:var(--paper)}}
+.tape tbody tr:nth-child(even) td{{background:var(--tint)}}
+.tape tbody tr:hover td{{background:color-mix(in srgb,var(--ink) 10%,var(--paper))}}
 .tape .px{{font-weight:600;font-size:15px;letter-spacing:-.02em}}
 .tape .sub{{display:block;font-size:11px;color:var(--faint);margin-top:2px}}
 .tape .note{{font-size:12.5px;color:var(--muted);max-width:320px}}
@@ -248,7 +254,7 @@ padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
       </tbody>
     </table>
   </div>
-  <p class="hint">Delta is empty unless a second dated sourced print of the same display series already lives in <a href="/silicon-history.json">silicon-history.json</a>. H100 1y is Lambda $2.99 (12 Aug 2025) → $3.99. That is not a 7-day change. SA 1y $2.35 is STALE.</p>
+  <p class="hint">Delta is empty unless a second dated sourced print of the same display series already lives in <a href="/silicon-history.json">silicon-history.json</a>. H100 1Y is Lambda $2.99 (12 Aug 2025) → $3.99. That is not a 7-day change. SA 1y $2.35 is STALE. Term-book 1m / 1q / 3y stay dashes on most US lists — venues do not publish those tenors, and we do not impute them.</p>
 
   <h2>Watch</h2>
   <ul class="prose">{wa_lis}</ul>
@@ -263,7 +269,9 @@ padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
     <h3>What is the tape?</h3>
     <p>This page is the weekday public brief — country conversion already on The Wire, plus labeled silicon display prints. Not a market cap.</p>
     <h3>Why is 7-day a dash?</h3>
-    <p>US list prices do not tick daily. 7d lights up after a week of our own scrape. H100 1y (+33.4%) is Lambda $2.99 → $3.99, not a daily candle. SA 1y $2.35 is STALE.</p>
+    <p>US list prices do not tick daily. 7d lights up after a week of our own scrape. H100 1Y (+33.4%) is Lambda $2.99 → $3.99, not a daily candle. SA 1y $2.35 is STALE.</p>
+    <h3>Why are 1m / 1q / 3y dashes on most US lists?</h3>
+    <p>Venues do not publish those tenors. We do not impute a discount off on-demand.</p>
     <h3>Why does Cerebras have no $/hour?</h3>
     <p>Token / enterprise. No public accelerator-hour. We will not print aggregator $0.75–$12.50 as a Cerebras hour.</p>
   </section>

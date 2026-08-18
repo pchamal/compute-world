@@ -9,21 +9,21 @@
     <link>https://compute.world/silicon.html#nvidia-b200-sxm6</link>
     <guid isPermaLink="false">compute.world/silicon#nvidia-b200-sxm6</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6 (NVIDIA, 180 GB HBM3e): display $6.69 Lambda OD as of 18 Aug 2026. CoreWeave $8.60 OD · AWS CB $12.355 (different term). Score 3.00. SA Apr: rental capacity increasingly impossible; market-wide booked through Aug–Sep 2026 as of Apr 2. Crusoe sales-gated. More: https://compute.world/silicon.html#nvidia-b200-sxm6</description>
+    <description>B200 SXM6 (NVIDIA, 180 GB HBM3e): display $6.69 Lambda OD as of 18 Aug 2026. 1CC 16-GPU $9.86 (2w–1y) · CoreWeave $8.60 OD · AWS CB $12.355 (different term). Score 3.00. SA Apr: rental capacity increasingly impossible; market-wide booked through Aug–Sep 2026 as of Apr 2. Crusoe sales-gated. More: https://compute.world/silicon.html#nvidia-b200-sxm6</description>
   </item>
   <item>
     <title>H100 SXM 80GB · $3.99 Lambda OD</title>
     <link>https://compute.world/silicon.html#nvidia-h100-sxm-80gb</link>
     <guid isPermaLink="false">compute.world/silicon#nvidia-h100-sxm-80gb</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM 80GB (NVIDIA, 80 GB HBM3): display $3.99 Lambda OD as of 18 Aug 2026. CoreWeave $6.16 OD · Crusoe $3.90 · SA 1y $2.35 Mar 2026 STALE · Apr p25–p75 $2.10–$2.70. Score 2.75. Marketplace 1x still prints cheap; committed clusters are scarce. More: https://compute.world/silicon.html#nvidia-h100-sxm-80gb</description>
+    <description>H100 SXM 80GB (NVIDIA, 80 GB HBM3): display $3.99 Lambda OD as of 18 Aug 2026. DO OD $4.41 · 12m $3.26 · CoreWeave $6.16 · SA 1y $2.35 Mar 2026 STALE · Apr p25–p75 $2.10–$2.70. Score 2.75. Marketplace 1x still prints cheap; committed clusters are scarce. More: https://compute.world/silicon.html#nvidia-h100-sxm-80gb</description>
   </item>
   <item>
     <title>H200 SXM 141GB · $6.31 CoreWeave OD</title>
     <link>https://compute.world/silicon.html#nvidia-h200-sxm-141gb</link>
     <guid isPermaLink="false">compute.world/silicon#nvidia-h200-sxm-141gb</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>H200 SXM 141GB (NVIDIA, 141 GB HBM3e): display $6.31 CoreWeave OD as of 18 Aug 2026. Crusoe $4.29 OD. Score 2.75. Committed clusters scarce. SA public composite blank. More: https://compute.world/silicon.html#nvidia-h200-sxm-141gb</description>
+    <description>H200 SXM 141GB (NVIDIA, 141 GB HBM3e): display $6.31 CoreWeave OD as of 18 Aug 2026. DO OD $4.47 · 12m $3.40 · Crusoe $4.29. Score 2.75. Committed clusters scarce. SA public composite blank. More: https://compute.world/silicon.html#nvidia-h200-sxm-141gb</description>
   </item>
   <item>
     <title>GB200 NVL72 · $10.50 CoreWeave</title>
@@ -44,14 +44,14 @@
     <link>https://compute.world/silicon.html#nvidia-b300-hgx</link>
     <guid isPermaLink="false">compute.world/silicon#nvidia-b300-hgx</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>HGX B300 (NVIDIA, 270 GB): display $4.48 CoreWeave NA spot as of 18 Aug 2026. AWS CB $14.04 · OD contact sales. Score 1.85. OD contact sales. Public tape is spot only. More: https://compute.world/silicon.html#nvidia-b300-hgx</description>
+    <description>HGX B300 (NVIDIA, 270 GB): display $4.48 CoreWeave NA spot as of 18 Aug 2026. DO 12m $7.94 · DO spot $11.19 · AWS CB $14.04 · OD contact sales. Score 1.85. OD contact sales. Public tape is spot only. More: https://compute.world/silicon.html#nvidia-b300-hgx</description>
   </item>
   <item>
-    <title>MI355X · — sales-gated</title>
+    <title>MI355X · $4.50 DigitalOcean spot</title>
     <link>https://compute.world/silicon.html#amd-mi355x</link>
     <guid isPermaLink="false">compute.world/silicon#amd-mi355x</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>MI355X (AMD, 288 GB HBM3E): display — sales-gated as of 18 Aug 2026. DigitalOcean spot $4.50 (interruptible) · no public OD. Score 1.85. No public OD list. Crusoe listed, no number. DigitalOcean spot only. More: https://compute.world/silicon.html#amd-mi355x</description>
+    <description>MI355X (AMD, 288 GB HBM3E): display $4.50 DigitalOcean spot as of 18 Aug 2026. No public OD · Crusoe listed, no number. Score 1.85. No public OD list. DigitalOcean spot $4.50 (interruptible). Crusoe listed, no number. More: https://compute.world/silicon.html#amd-mi355x</description>
   </item>
   <item>
     <title>TPU v7 Ironwood · $12.00 GCP OD</title>
@@ -59,6 +59,13 @@
     <guid isPermaLink="false">compute.world/silicon#google-tpu-v7-ironwood</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
     <description>TPU v7 Ironwood (Google, 192 GiB HBM): display $12.00 GCP OD as of 18 Aug 2026. 1y $8.40 · 3y $5.40. Score 1.85. GCP-only sticker. More: https://compute.world/silicon.html#google-tpu-v7-ironwood</description>
+  </item>
+  <item>
+    <title>MI350X · $4.00 DigitalOcean spot</title>
+    <link>https://compute.world/silicon.html#amd-mi350x</link>
+    <guid isPermaLink="false">compute.world/silicon#amd-mi350x</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>MI350X (AMD, 288 GB HBM3E): display $4.00 DigitalOcean spot as of 18 Aug 2026. DO 12m reserved $4.76 · no public OD. Score 1.60. No public OD. DigitalOcean spot $4.00 and 12m reserved $4.76. More: https://compute.world/silicon.html#amd-mi350x</description>
   </item>
   <item>
     <title>Ascend 910C · ¥10.79 SMM Beijing · ¥10.79/hr</title>

@@ -245,9 +245,9 @@
    "pue": "~1.2-1.4",
    "note": "83 GW theoretical (WECS/Shrestha) / 42.1 GW econ feasible; exports 3.877 TWh FY25/26 at ~NPR 7.56/kWh",
    "rf": 0.55,
-   "rz": 20,
-   "dl": 1,
-   "rw": "Nepal books record power exports: NPR 29.32B for 3.877 TWh at roughly $0.054…"
+   "rz": 10,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Bhutan",
@@ -345,9 +345,9 @@
    "pue": "~1.35-1.6",
    "note": "CEA assessed 145.3 GW (>25MW); Feb 2026 US trade framework incl. GPUs",
    "rf": 0.72,
-   "rz": 54,
-   "dl": 1,
-   "rw": "L&T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k…"
+   "rz": 34,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Pakistan",
@@ -595,9 +595,9 @@
    "pue": "~1.2-1.4",
    "note": "$10B NVIDIA/Firebird Ekibastuz deal Jun 2026; 300MW->1GW; uranium #1",
    "rf": 0.72,
-   "rz": 23,
-   "dl": 1,
-   "rw": "Kazakhstan signs $10B with NVIDIA and Firebird for a gigawatt-scale Data Cen…"
+   "rz": 17,
+   "dl": 0,
+   "rw": "Contracted, awaiting steel"
   },
   {
    "n": "Uzbekistan",
@@ -895,9 +895,9 @@
    "pue": "~1.2-1.4",
    "note": "Firebird AI factory LIVE Aug 2026; 70k+ GPUs/300MW by end-2027 roadmap",
    "rf": 0.55,
-   "rz": 53,
-   "dl": 1,
-   "rw": "Firebird's Armenia AI factory goes live: frontier-market sovereign compute h…"
+   "rz": 38,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Azerbaijan",
@@ -1095,9 +1095,9 @@
    "pue": "~1.2-1.4",
    "note": "260k+ GPU sovereign program Oct 2025",
    "rf": 0.95,
-   "rz": 59,
-   "dl": 1,
-   "rw": "South Korea's AIDC Alliance sets an 18.4 GW datacenter target by 2035"
+   "rz": 49,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Taiwan",
@@ -1145,9 +1145,9 @@
    "pue": "~1.2-1.4",
    "note": "World-class offshore wind; thin reserve margin; cable-cut incidents",
    "rf": 0.95,
-   "rz": 39,
-   "dl": 1,
-   "rw": "Huang at GTC Taipei: AI factories at $50-60B per GW now, $80-100B per GW soo…"
+   "rz": 34,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Mongolia",
@@ -1545,9 +1545,9 @@
    "pue": "~1.35-1.6",
    "note": "75 GW hydro (ESDM) + 23.7 GW geothermal resource (world #2); Indosat 1 GW program",
    "rf": 0.72,
-   "rz": 31,
-   "dl": 1,
-   "rw": "Indonesia's Indosat launches Zankore, a 1 GW AI-factory platform with Ooredo…"
+   "rz": 18,
+   "dl": 0,
+   "rw": "Contracted, awaiting steel"
   },
   {
    "n": "Philippines",
@@ -1745,9 +1745,9 @@
    "pue": "~1.35-1.6",
    "note": "HUMAIN 6.6 GW by 2034 target; licensed 35k GB300-equiv Nov 2025; behind UAE on framework",
    "rf": 0.85,
-   "rz": 28,
-   "dl": 1,
-   "rw": "DataVolt: Neom Oxagon 1.5 GW AI factory enters last-mile, groundbreaking in …"
+   "rz": 18,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "UAE",
@@ -1795,9 +1795,9 @@
    "pue": "~1.35-1.6",
    "note": "A:5 status Jul 2026 rule; Stargate UAE 1 GW/~$30B; 5 GW campus; the template",
    "rf": 0.95,
-   "rz": 44,
-   "dl": 1,
-   "rw": "The UAE gets a named lane in US export law, with an April 2027 sting attache…"
+   "rz": 32,
+   "dl": 0,
+   "rw": "Live buildout underway"
   },
   {
    "n": "Qatar",
@@ -2547,7 +2547,7 @@
    "rf": 0.4,
    "rz": 11,
    "dl": -1,
-   "rw": "Microsoft and G42's Kenya campus stalls for lack of power"
+   "rw": "No live signals yet"
   },
   {
    "n": "Tanzania",
@@ -3397,7 +3397,7 @@
    "rf": 1.0,
    "rz": 32,
    "dl": 0,
-   "rw": "Microsoft contracts 30,000 Rubin GPUs at Nscale's hydro-powered Narvik site"
+   "rw": "Contracted, awaiting steel"
   },
   {
    "n": "Iceland",
@@ -3647,7 +3647,7 @@
    "rf": 0.95,
    "rz": 54,
    "dl": -1,
-   "rw": "Stargate UK pauses over energy costs"
+   "rw": "No live signals yet"
   },
   {
    "n": "Ireland",
@@ -4645,9 +4645,9 @@
    "pue": "~1.2-1.4",
    "note": "EIA 2024: 103 GW hydro incl PSH; USGS 39 GW conv. geothermal; Permian flaring; the demand center",
    "rf": 0.95,
-   "rz": 71,
-   "dl": 1,
-   "rw": "NVIDIA caps $105B residual-value backstop on PORTS-Pike: 4.25 IT-GW, OpenAI …"
+   "rz": 46,
+   "dl": 0,
+   "rw": "No live signals yet"
   },
   {
    "n": "Canada",
@@ -5197,7 +5197,7 @@
    "rf": 0.55,
    "rz": 32,
    "dl": 0,
-   "rw": "Brazil approves a 5 GW grid connection for Scala's AI City"
+   "rw": "Live buildout underway"
   },
   {
    "n": "Paraguay",
@@ -5247,7 +5247,7 @@
    "rf": 0.72,
    "rz": 20,
    "dl": 0,
-   "rw": "S&P lifts Paraguay to investment grade, joining Moody's"
+   "rw": "No live signals yet"
   },
   {
    "n": "Uruguay",

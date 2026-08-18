@@ -866,6 +866,138 @@
       "venue": "GCP",
       "config": "1y",
       "url": "https://cloud.google.com/tpu/pricing"
+    },
+    {
+      "id": "nvidia-b200-sxm6|Lambda|1CC 2w–1y|2026-08-18|9.86",
+      "chip": "nvidia-b200-sxm6",
+      "date": "2026-08-18",
+      "price": 9.86,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "1CC 2w–1y",
+      "venue": "Lambda",
+      "config": "1cc-16",
+      "url": "https://lambda.ai/pricing"
+    },
+    {
+      "id": "nvidia-b200-sxm6|Lambda|1CC 2w–1y|2026-08-18|9.36",
+      "chip": "nvidia-b200-sxm6",
+      "date": "2026-08-18",
+      "price": 9.36,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "1CC 2w–1y",
+      "venue": "Lambda",
+      "config": "1cc-64",
+      "url": "https://lambda.ai/pricing"
+    },
+    {
+      "id": "nvidia-b200-sxm6|Lambda|1CC 2w–1y|2026-08-18|8.87",
+      "chip": "nvidia-b200-sxm6",
+      "date": "2026-08-18",
+      "price": 8.87,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "1CC 2w–1y",
+      "venue": "Lambda",
+      "config": "1cc-256",
+      "url": "https://lambda.ai/pricing"
+    },
+    {
+      "id": "nvidia-h100-sxm-80gb|DigitalOcean|on-demand|2026-08-18|4.41",
+      "chip": "nvidia-h100-sxm-80gb",
+      "date": "2026-08-18",
+      "price": 4.41,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "on-demand",
+      "venue": "DigitalOcean",
+      "config": "gpu-droplet",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
+    },
+    {
+      "id": "nvidia-h100-sxm-80gb|DigitalOcean|12m reserved|2026-08-18|3.26",
+      "chip": "nvidia-h100-sxm-80gb",
+      "date": "2026-08-18",
+      "price": 3.26,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "12m reserved",
+      "venue": "DigitalOcean",
+      "config": "gpu-droplet-12m",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
+    },
+    {
+      "id": "nvidia-h200-sxm-141gb|DigitalOcean|on-demand|2026-08-18|4.47",
+      "chip": "nvidia-h200-sxm-141gb",
+      "date": "2026-08-18",
+      "price": 4.47,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "on-demand",
+      "venue": "DigitalOcean",
+      "config": "gpu-droplet",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
+    },
+    {
+      "id": "nvidia-h200-sxm-141gb|DigitalOcean|12m reserved|2026-08-18|3.4",
+      "chip": "nvidia-h200-sxm-141gb",
+      "date": "2026-08-18",
+      "price": 3.4,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "12m reserved",
+      "venue": "DigitalOcean",
+      "config": "gpu-droplet-12m",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
+    },
+    {
+      "id": "nvidia-b300-hgx|DigitalOcean|spot|2026-08-18|11.19",
+      "chip": "nvidia-b300-hgx",
+      "date": "2026-08-18",
+      "price": 11.19,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "spot",
+      "venue": "DigitalOcean",
+      "config": "gpu-droplet-spot",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
+    },
+    {
+      "id": "nvidia-b300-hgx|DigitalOcean|12m reserved|2026-08-18|7.94",
+      "chip": "nvidia-b300-hgx",
+      "date": "2026-08-18",
+      "price": 7.94,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "12m reserved",
+      "venue": "DigitalOcean",
+      "config": "gpu-droplet-12m",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
+    },
+    {
+      "id": "amd-mi350x|DigitalOcean|spot|2026-08-18|4.0",
+      "chip": "amd-mi350x",
+      "date": "2026-08-18",
+      "price": 4.0,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "spot",
+      "venue": "DigitalOcean",
+      "config": "gpu-droplet-spot",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
+    },
+    {
+      "id": "amd-mi350x|DigitalOcean|12m reserved|2026-08-18|4.76",
+      "chip": "amd-mi350x",
+      "date": "2026-08-18",
+      "price": 4.76,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "12m reserved",
+      "venue": "DigitalOcean",
+      "config": "gpu-droplet-12m",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
     }
   ]
 }
