@@ -2,14 +2,14 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Weekday briefing: country conversion signals already on The Wire, and today&#x27;s display prints from The Silicon Tape. Display prices are labeled terms. prev_usd and delta stay empty unless a second dated sourced print already sits in the repo. This is not a 7-day move sheet.</description>
+  <description>Weekday briefing: country conversion already on The Wire, plus today&#x27;s Silicon Tape display prints. Labeled terms only. This is not a 7-day move sheet.</description>
   <language>en</language>
   <item>
     <title>The daily tape · 18 August 2026</title>
     <link>https://compute.world/brief</link>
     <guid isPermaLink="true">https://compute.world/brief#2026-08-18</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Weekday briefing: country conversion signals already on The Wire, and today&#x27;s display prints from The Silicon Tape. Display prices are labeled terms. prev_usd and delta stay empty unless a second dated sourced print already sits in the repo. This is not a 7-day move sheet. Countries: United States: NVIDIA 8-K (17 Aug 2026): residual-value guaranties on PORTS-Pike, ~4.25 IT-GW, OpenAI 20-year lease. Conversion as land-power-shell finance. Source: SEC. India: L&amp;T × Together AI (13 Aug 2026): 10,000 B300s at Chennai; Phase 1 sized at 250 MW. Source: The Hindu Business Line / Reuters. Armenia: Firebird Hrazdan factory live (8 Aug 2026): NVIDIA/Dell, roadmap 70k+ GPUs and 300 MW by end-2027. Source: NVIDIA blog. Indonesia: Indosat Zankore (7 Aug 2026): 1 GW platform; first 200 MW GB300-class targeted H1 2027. Source: Data Center Dynamics.</description>
+    <description>Weekday briefing: country conversion already on The Wire, plus today&#x27;s Silicon Tape display prints. Labeled terms only. This is not a 7-day move sheet. Countries: United States: NVIDIA 8-K (17 Aug 2026): residual-value guaranties on PORTS-Pike, ~4.25 IT-GW, OpenAI 20-year lease. Conversion as land-power-shell finance. Source: SEC. India: L&amp;T × Together AI (13 Aug 2026): 10,000 B300s at Chennai; Phase 1 sized at 250 MW. Source: The Hindu Business Line / Reuters. Armenia: Firebird Hrazdan factory live (8 Aug 2026): NVIDIA/Dell, roadmap 70k+ GPUs and 300 MW by end-2027. Source: NVIDIA blog. Indonesia: Indosat Zankore (7 Aug 2026): 1 GW platform; first 200 MW GB300-class targeted H1 2027. Source: Data Center Dynamics.</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
@@ -101,5 +101,47 @@
     <guid isPermaLink="false">compute.world/brief/2026-08-18/google-tpu-v5p</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
     <description>TPU v5p: display $4.20 on-demand at GCP as of 18 Aug 2026. Display: GCP OD. No second dated print of this display series in the repo.</description>
+  </item>
+  <item>
+    <title>HGX B300 · $4.48 spot</title>
+    <link>https://compute.world/brief#nvidia-b300-hgx</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-b300-hgx</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>HGX B300: display $4.48 spot at CoreWeave NA as of 18 Aug 2026. Display: CoreWeave NA spot ($35.84/8). OD contact sales. EU spot $36.70/8. Not a 7-day move.</description>
+  </item>
+  <item>
+    <title>Ascend 910C · $1.59 1y monthly · ¥10.79/hr</title>
+    <link>https://compute.world/brief#huawei-ascend-910c</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/huawei-ascend-910c</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Ascend 910C: display $1.59 1y monthly · ¥10.79/hr at SMM Beijing as of 29 Jul 2026. CNY primary: ¥63,000/month per 8-card Atlas 800T A3, 1y min → ¥10.79/hr. USD ~$1.59 at PBOC 6.7905 (18 Aug 2026). Tight Beijing supply.</description>
+  </item>
+  <item>
+    <title>WSE-3 · — token / enterprise</title>
+    <link>https://compute.world/brief#cerebras-wse3</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/cerebras-wse3</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>WSE-3: display — token / enterprise at Cerebras as of 18 Aug 2026. No public accelerator-hour. Do not use aggregator $0.75–$12.50.</description>
+  </item>
+  <item>
+    <title>LPU · — token API</title>
+    <link>https://compute.world/brief#groq-lpu</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/groq-lpu</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>LPU: display — token API at Groq as of 18 Aug 2026. Token API at groq.com/pricing. No invented chip-hour.</description>
+  </item>
+  <item>
+    <title>GH200 · $6.50 on-demand</title>
+    <link>https://compute.world/brief#nvidia-gh200</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-gh200</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>GH200: display $6.50 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave OD, 1 GPU. No spot.</description>
+  </item>
+  <item>
+    <title>RTX PRO 6000 Blackwell · $2.50 on-demand</title>
+    <link>https://compute.world/brief#nvidia-rtx-pro-6000-blackwell</link>
+    <guid isPermaLink="false">compute.world/brief/2026-08-18/nvidia-rtx-pro-6000-blackwell</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>RTX PRO 6000 Blackwell: display $2.50 on-demand at CoreWeave as of 18 Aug 2026. Display: CoreWeave OD ($20/8). Spot $1.39 ($11.09/8).</description>
   </item>
 </channel></rss>

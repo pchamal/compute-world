@@ -1,7 +1,9 @@
 {
   "updated": "2026-08-18",
   "title": "The daily tape · 18 August 2026",
-  "lede": "Weekday briefing: country conversion signals already on The Wire, and today's display prints from The Silicon Tape. Display prices are labeled terms. prev_usd and delta stay empty unless a second dated sourced print already sits in the repo. This is not a 7-day move sheet.",
+  "description": "Daily tape · 18 Aug 2026. Country signals and sourced silicon prints. Labeled terms only — no invented 7-day moves.",
+  "og_kicker": "Country conversion signals and sourced silicon prints.",
+  "lede": "Weekday briefing: country conversion already on The Wire, plus today's Silicon Tape display prints. Labeled terms only. This is not a 7-day move sheet.",
   "countries": [
     {
       "id": "usa-ports-pike",
@@ -171,6 +173,72 @@
       "prev_usd": null,
       "delta": null,
       "note": "Display: GCP OD. No second dated print of this display series in the repo."
+    },
+    {
+      "id": "nvidia-b300-hgx",
+      "name": "HGX B300",
+      "display_usd": 4.48,
+      "venue": "CoreWeave NA",
+      "term": "spot",
+      "as_of": "2026-08-18",
+      "prev_usd": null,
+      "delta": null,
+      "note": "Display: CoreWeave NA spot ($35.84/8). OD contact sales. EU spot $36.70/8. Not a 7-day move."
+    },
+    {
+      "id": "huawei-ascend-910c",
+      "name": "Ascend 910C",
+      "display_usd": 1.59,
+      "venue": "SMM Beijing",
+      "term": "1y monthly · ¥10.79/hr",
+      "as_of": "2026-07-29",
+      "prev_usd": null,
+      "delta": null,
+      "note": "CNY primary: ¥63,000/month per 8-card Atlas 800T A3, 1y min → ¥10.79/hr. USD ~$1.59 at PBOC 6.7905 (18 Aug 2026). Tight Beijing supply."
+    },
+    {
+      "id": "cerebras-wse3",
+      "name": "WSE-3",
+      "display_usd": null,
+      "venue": "Cerebras",
+      "term": "token / enterprise",
+      "as_of": "2026-08-18",
+      "prev_usd": null,
+      "delta": null,
+      "note": "No public accelerator-hour. Do not use aggregator $0.75–$12.50."
+    },
+    {
+      "id": "groq-lpu",
+      "name": "LPU",
+      "display_usd": null,
+      "venue": "Groq",
+      "term": "token API",
+      "as_of": "2026-08-18",
+      "prev_usd": null,
+      "delta": null,
+      "note": "Token API at groq.com/pricing. No invented chip-hour."
+    },
+    {
+      "id": "nvidia-gh200",
+      "name": "GH200",
+      "display_usd": 6.50,
+      "venue": "CoreWeave",
+      "term": "on-demand",
+      "as_of": "2026-08-18",
+      "prev_usd": null,
+      "delta": null,
+      "note": "Display: CoreWeave OD, 1 GPU. No spot."
+    },
+    {
+      "id": "nvidia-rtx-pro-6000-blackwell",
+      "name": "RTX PRO 6000 Blackwell",
+      "display_usd": 2.50,
+      "venue": "CoreWeave",
+      "term": "on-demand",
+      "as_of": "2026-08-18",
+      "prev_usd": null,
+      "delta": null,
+      "note": "Display: CoreWeave OD ($20/8). Spot $1.39 ($11.09/8)."
     }
   ],
   "watch": [
@@ -197,6 +265,11 @@
     {"name": "The Silicon Tape", "url": "/silicon.html", "note": "Ranked rental index; display prints are labeled terms."},
     {"name": "The Wire", "url": "/wire.html", "note": "Country items above are already-scored Wire signals, not new prints."},
     {"name": "SEC NVIDIA 8-K", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm", "note": "PORTS-Pike, 17 Aug 2026."},
-    {"name": "SemiAnalysis GPU Rental Index", "url": "https://gpu-index.semianalysis.com/", "note": "H100 SA 1y $2.35 (Mar 2026) and $1.70 (Oct 2025 trough). Public prints stop at April 2026."}
+    {"name": "SemiAnalysis GPU Rental Index", "url": "https://gpu-index.semianalysis.com/", "note": "H100 SA 1y $2.35 (Mar 2026) and $1.70 (Oct 2025 trough). Public prints stop at April 2026."},
+    {"name": "CoreWeave pricing", "url": "https://www.coreweave.com/pricing", "note": "B300 NA/EU spot, RTX PRO 6000, GH200. Fetched 2026-08-18."},
+    {"name": "SMM Computing Power Bulletin", "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000", "note": "Ascend 910C ¥63,000/month per 8-card, 29 Jul 2026."},
+    {"name": "PBOC USD/CNY central parity", "url": "https://www.news.cn/20260818/49fc10868e3d40d889d5cf1a3cd0526d/c.html", "note": "6.7905 on 18 Aug 2026. Labels the 910C print in USD only."},
+    {"name": "Cerebras pricing", "url": "https://www.cerebras.ai/pricing", "note": "Token / enterprise. No public accelerator-hour."},
+    {"name": "Groq pricing", "url": "https://groq.com/pricing", "note": "Token API. No invented chip-hour."}
   ]
 }

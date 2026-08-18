@@ -6,6 +6,7 @@
 import json, html, os
 from datetime import datetime
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
+from seo import og_block, breadcrumb_ld, person_author, org_publisher
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -78,17 +79,43 @@ src_lis = "".join(
 
 updated = B["updated"]
 nice_upd = datetime.strptime(updated, "%Y-%m-%d").strftime("%d %b %Y")
+brief_desc = B.get("description") or B["lede"]
 ld = json.dumps({
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": B["title"],
     "datePublished": updated,
     "dateModified": updated,
-    "description": B["lede"],
+    "description": brief_desc,
     "url": "https://compute.world/brief",
-    "author": {"@type": "Person", "name": "Pukar C. Hamal"},
-    "publisher": {"@type": "Organization", "name": "compute.world", "url": "https://compute.world"},
+    "author": person_author(),
+    "publisher": org_publisher(),
+    "isAccessibleForFree": True,
 })
+crumb = json.dumps(breadcrumb_ld([
+    ("compute.world", "https://compute.world/"),
+    ("The daily tape", "https://compute.world/brief"),
+]))
+faq_ld = json.dumps({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {"@type": "Question", "name": "What is the daily tape?",
+         "acceptedAnswer": {"@type": "Answer", "text": "The daily tape is the weekday public brief of compute.world, the world's compute & silicon index: country conversion signals already on The Wire, plus today's display prints from the Silicon Tape. Labeled terms only."}},
+        {"@type": "Question", "name": "Why is there no 7-day percent change?",
+         "acceptedAnswer": {"@type": "Answer", "text": "No source publishes a 7-day or 30-day move for these prints. prev_usd and delta stay empty unless a second dated sourced print of the same display series already sits in the repo."}},
+        {"@type": "Question", "name": "Why does Cerebras have no $/hour?",
+         "acceptedAnswer": {"@type": "Answer", "text": "Cerebras is token/enterprise. There is no sourced public accelerator-hour. The brief will not print aggregator $0.75–$12.50 as a Cerebras hour."}},
+    ],
+})
+brief_og = og_block(
+    html.escape(B["title"]),
+    html.escape(brief_desc),
+    "https://compute.world/brief",
+    "og-brief.png",
+    og_type="article",
+    image_alt="The daily tape — sourced country signals and silicon prints",
+)
 
 PAGE = f'''<!DOCTYPE html>
 <html lang="en">
@@ -98,17 +125,15 @@ PAGE = f'''<!DOCTYPE html>
 <meta name="theme-color" content="#f7f4ee">
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>{html.escape(B["title"])} · compute.world</title>
-<meta name="description" content="{html.escape(B["lede"])}">
+<meta name="description" content="{html.escape(brief_desc)}">
 <link rel="canonical" href="https://compute.world/brief">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<meta property="og:title" content="{html.escape(B["title"])}">
-<meta property="og:description" content="{html.escape(B["lede"])}">
-<meta property="og:url" content="https://compute.world/brief">
-<meta property="og:image" content="https://compute.world/og.png">
-<meta name="twitter:card" content="summary_large_image">
+{brief_og}
 <link rel="alternate" type="application/rss+xml" title="The daily tape · compute.world" href="https://compute.world/brief.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23f7f4ee'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23171614' text-anchor='middle'>B</text></svg>">
 <script type="application/ld+json">{ld}</script>
+<script type="application/ld+json">{crumb}</script>
+<script type="application/ld+json">{faq_ld}</script>
 <style>
 :root{{--paper:#f7f4ee;--ink:#171614;--muted:#62605a;--faint:#8d8a81;--rule:#cdc7b9;--rule2:#171614;
 --accent:#7d2027;--tint:#efe9dd;--pr:#4b5f36;--sg:#8a5a2a;
@@ -167,6 +192,11 @@ padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
 .colophon{{margin-top:56px;border-top:2px solid var(--rule2);padding:24px 0 56px;text-align:center}}
 .colophon .c1{{font-size:12px;letter-spacing:.3em;text-transform:uppercase}}
 .colophon .c2{{margin-top:10px;font-size:12.5px;color:var(--muted)}}
+.faq{{margin:44px 0 0;border-top:1px solid var(--rule2);padding-top:18px}}
+.faq h2{{font-weight:400;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}}
+.faq h3{{font-weight:600;font-size:16px;margin:16px 0 6px}}
+.faq p{{font-size:15px;color:var(--muted)}}
+.faq p b{{color:var(--ink)}}
 @media(max-width:760px){{.wrap{{padding:0 18px}}.lede{{padding:36px 0 8px}}}}
 </style>
 </head>
@@ -179,7 +209,7 @@ padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
 <div class="wrap">
   <div class="masthead">
     <div class="name"><a href="/"><b>COMPUTE</b>.WORLD</a></div>
-    <div class="sub">The daily tape · public brief · {nice_upd}</div>
+    <div class="sub">The daily tape · the world's compute &amp; silicon index · {nice_upd}</div>
     <div class="mastrule"></div>
   </div>
 
@@ -205,7 +235,7 @@ padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
       <thead>
         <tr>
           <th>Chip</th>
-          <th>Display $/GPU-hr</th>
+          <th>Display print</th>
           <th>Venue / term</th>
           <th>As-of</th>
           <th>Prior sourced</th>
@@ -226,9 +256,21 @@ padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap}}
   <h2>Sources</h2>
   <ul class="prose">{src_lis}</ul>
 
+  <section class="faq" id="faq">
+    <h2>In brief</h2>
+    <h3>What is the index?</h3>
+    <p>compute.world is <b>the world's compute &amp; silicon index</b>: CNW™ prices 108 countries; the Silicon Tape prints sourced chips.</p>
+    <h3>What is the tape?</h3>
+    <p>This page is the weekday public brief — country conversion already on The Wire, plus labeled silicon display prints. Not a market cap.</p>
+    <h3>Why no 7-day percent?</h3>
+    <p>No source. prev_usd and delta stay empty unless a second dated sourced print of the same series already lives in the repo.</p>
+    <h3>Why does Cerebras have no $/hour?</h3>
+    <p>Token / enterprise. No public accelerator-hour. We will not print aggregator $0.75–$12.50 as a Cerebras hour.</p>
+  </section>
+
   <div class="colophon">
     <div class="c1">COMPUTE.WORLD</div>
-    <div class="c2">The daily tape · {nice_upd} · part of The Compute Net Worth Index&#8482; · &copy; 2026 Pukar C. Hamal · San Francisco, CA</div>
+    <div class="c2">The daily tape · {nice_upd} · the world's compute &amp; silicon index · CNW™ · GDC™ · &copy; 2026 Pukar C. Hamal · San Francisco, CA</div>
   </div>
 </div>
 <script>
