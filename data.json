@@ -345,9 +345,9 @@
    "pue": "~1.35-1.6",
    "note": "CEA assessed 145.3 GW (>25MW); Feb 2026 US trade framework incl. GPUs",
    "rf": 0.72,
-   "rz": 40,
+   "rz": 54,
    "dl": 1,
-   "rw": "Meta signs its first India AI datacenter deal: a 168 MW JV inside Reliance's…"
+   "rw": "L&T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k…"
   },
   {
    "n": "Pakistan",
@@ -1745,9 +1745,9 @@
    "pue": "~1.35-1.6",
    "note": "HUMAIN 6.6 GW by 2034 target; licensed 35k GB300-equiv Nov 2025; behind UAE on framework",
    "rf": 0.85,
-   "rz": 18,
-   "dl": 0,
-   "rw": "Live buildout underway"
+   "rz": 28,
+   "dl": 1,
+   "rw": "DataVolt: Neom Oxagon 1.5 GW AI factory enters last-mile, groundbreaking in …"
   },
   {
    "n": "UAE",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI i…"
+   "rw": "NVIDIA caps $105B residual-value backstop on PORTS-Pike: 4.25 IT-GW, OpenAI …"
   },
   {
    "n": "Canada",

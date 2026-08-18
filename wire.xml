@@ -5,6 +5,27 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>NVIDIA caps $105B residual-value backstop on PORTS-Pike: 4.25 IT-GW, OpenAI 20-year lease, exclusive DSX</title>
+    <link>https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm</link>
+    <guid isPermaLink="false">compute.world/wire#nvidia-ports-pike-ohio</guid>
+    <pubDate>Mon, 17 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 17 August 2026 NVIDIA’s 8-K locked residual-value guaranties with SB Energy for ~4.25 IT-GW at the PORTS Technology Campus in Pike County, Ohio, cumulatively capped at $105 billion, with ready-for-service expected from 2028. The SEC-filed press release adds a $1.5 billion equity check into SB Energy, exclusive NVIDIA compute, a 20-year OpenAI lease, an option on the remaining ~3.75–3.8 IT-GW (press vs 8-K), plus 10 GW of new generation and a $4.2 billion AEP Ohio grid package that SB Energy/SoftBank say yields 8 IT-GW. This restates US conversion as land-power-shell finance: NVIDIA is now underwriting the campus, not just selling the stack. [Signal 97, Confirmed, via SEC] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Draft State letter: Pax Silica / AI Opportunity signatories must pick sides vs China</title>
+    <link>https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/</link>
+    <guid isPermaLink="false">compute.world/wire#pax-silica-pick-sides</guid>
+    <pubDate>Fri, 14 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 14 August 2026 Reuters reported an undated State Department draft, reviewed with a US official, warning the 35 June AI Opportunity Statement signatories they will be dropped from the US-led AI coalition if they also join a competing framework. The draft says Pax Silica “is not merely a membership subscription, but a commitment” and “cannot be held alongside membership in duplicative initiatives”; Reuters names Kazakhstan as the only known dual member. This is a chip-access/export-alignment signal, not a GW print — and it is still a draft. State declined to comment on leaked internals; send date unconfirmed. [Signal 63, Single-source, via Reuters] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>L&amp;T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k crore</title>
+    <link>https://www.thehindubusinessline.com/companies/lt-secures-ai-data-centre-order-worth-up-to-15000-crore/article71339801.ece</link>
+    <guid isPermaLink="false">compute.world/wire#lt-together-chennai-factory</guid>
+    <pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 13 August 2026 Larsen &amp; Toubro said LTN Compute / Vyoma.AI won a ₹10,000–15,000 crore ($1.05–1.57 billion) order from Together AI for a 10,000-GPU NVIDIA B300 factory at its Chennai campus — L&amp;T’s stated largest single-cluster AI deployment in India. L&amp;T’s own statement, reprinted on the company newswire, sizes the campus as gigawatt-scale with Phase 1 at 250 MW and 150 MVA of power readiness. This is India’s conversion print for the window: a named cluster, a rupee ticket, and a megawatt envelope on Indian soil. [Signal 84, Confirmed, via Reuters / The Hindu Business Line] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI infrastructure</title>
     <link>https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx</link>
     <guid isPermaLink="false">compute.world/wire#nvidia-500b-platforms</guid>
@@ -19,11 +40,32 @@
     <description>The Hrazdan facility went from site to operation in about six months on NVIDIA and Dell infrastructure, with a roadmap of 70,000+ GPUs and 300 MW by end-2027 and NVIDIA stating intent to invest. The proof of concept for small-state compute conversion. [Signal 92, Confirmed, via NVIDIA blog] More: https://compute.world/wire.html</description>
   </item>
   <item>
+    <title>Amazon confirms GW Ranch: up to 7.65 GW off-grid gas for a Pecos AI campus</title>
+    <link>https://newsletter.cleanview.co/p/scoop-amazon-is-behind-one-of-the</link>
+    <guid isPermaLink="false">compute.world/wire#amazon-gw-ranch-pecos</guid>
+    <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 7 August 2026 Amazon confirmed to Cleanview it acquired the GW Ranch site in Pecos County, Texas, and will buy power from an on-site gas plant permitted for 35 turbines at up to 7.65 GW nameplate (permit also states ~5 GW nominal delivered). Amazon’s on-record line: new on-site generation that “won’t raise electricity costs for Texas families,” designed to move to grid service when interconnection allows; Pacifico separately cites 750 MW solar and 1.8 GW BESS. In a 474 GW ERCOT freeze, this is the US workaround — behind-the-meter gigawatts that convert Texas compute without waiting for Batch Zero. [Signal 74, Corroborated, via Cleanview] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Indonesia&#x27;s Indosat launches Zankore, a 1 GW AI-factory platform with Ooredoo, NVIDIA and Nokia</title>
     <link>https://www.datacenterdynamics.com/en/news/indosat-reinforces-ai-push-with-1gw-data-center-play/</link>
     <guid isPermaLink="false">compute.world/wire#indosat-zankore-1gw</guid>
     <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
     <description>First 200 MW of GB300-class capacity targeted for H1 2027 at Batang, Central Java, with Qatari capital leading. Southeast Asia&#x27;s largest sovereign-flavored compute commitment to date. [Signal 78, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>DataVolt: Neom Oxagon 1.5 GW AI factory enters last-mile, groundbreaking in 2–3 months</title>
+    <link>https://www.agbi.com/tech/2026/08/neom-to-start-constructing-oxagon-ai-data-centre-in-months/</link>
+    <guid isPermaLink="false">compute.world/wire#neom-oxagon-datavolt</guid>
+    <pubDate>Wed, 05 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 5 August 2026 DataVolt CEO Rajit Nanda told AGBI the 1.5 GW Oxagon AI-factory campus at Neom has reached “the last mile for the first phase” and should break ground in two to three months, with first-phase ops still aimed at 2028. The land/infrastructure deal with Oxagon dates to February 2025; first-phase funding sits inside DataVolt’s previously stated $5 billion Saudi commitment — customers and first-phase MW were not disclosed. This is the live KSA conversion clock: a named 1.5 GW campus moving from MOU to dirt, not a new GW number. [Signal 62, Single-source, via AGBI] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Abbott freezes Texas interconnects: 474 GW queue, ~90% data centers, PUCT/ERCOT audit first</title>
+    <link>https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit</link>
+    <guid isPermaLink="false">compute.world/wire#texas-ercot-dc-audit</guid>
+    <pubDate>Mon, 03 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 3 August 2026 Governor Greg Abbott ordered PUCT and ERCOT to finish a comprehensive verification audit before any data-center project in the interconnection process can advance, citing ~474 GW of requests — more than five times ERCOT peak — of which about 90% are data centers. At the 14 August PUCT meeting ERCOT put the live Batch Zero slice at 250–300 projects and ~200 GW, said the work will take several months, and confirmed the 7 August Batch Zero classification notice was shelved. This is the live US grid stall: Texas conversion is now gated by audit, not by queued megawatts. [Signal 96, Confirmed, via Office of the Texas Governor] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>EU opens the AI Gigafactories call: up to 7 sites, €10B public money, bids due November</title>

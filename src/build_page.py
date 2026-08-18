@@ -3,6 +3,7 @@
 # animations, democratic-sleeping-giants chart, OG image, llms.txt/sitemap, default sort Unlockable
 import json, os, math, re
 from gdc_data import GDC_GW, LATLNG
+from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
 
 data = json.load(open("cnw_computed.json"))
 STABV={"H":1.0,"M":0.65,"L":0.35,"C":0.10}; TRIV={"S":1.0,"M":0.6,"W":0.25}; FIBV={"S":1.0,"M":0.6,"W":0.3}
@@ -262,7 +263,7 @@ html[data-theme="dark"]{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9
 --rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--sg:#c99a5e;--pr:#8fae72;--in:#7da3bd;--eu:#bfae6a;
 --lr:#8d8a81;--barbg:#3a352a;--glass:rgba(23,21,17,.72);--glassborder:rgba(236,231,219,.28)}
 html[data-theme="dark"] .chart svg,html[data-theme="dark"] .lg .sw,html[data-theme="dark"] .gleg i{filter:brightness(1.28) saturate(.92)}
-body,#fnav{transition:background-color .35s ease,color .35s ease,border-color .35s ease}
+__FNAV_CSS__
 *{margin:0;padding:0;box-sizing:border-box}
 html{background:var(--paper);scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.62;
@@ -270,29 +271,6 @@ body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size
 a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(125,32,39,.35)}
 a:hover{border-bottom-color:var(--accent)}
 .wrap{max-width:1280px;margin:0 auto;padding:0 28px}
-/* floating nav */
-#fnav{position:fixed;top:14px;left:50%;transform:translate(-50%,-160%);z-index:60;display:flex;gap:20px;align-items:center;
-padding:10px 22px;background:var(--glass);backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
-border:1px solid var(--glassborder);border-radius:99px;box-shadow:0 10px 34px rgba(0,0,0,.12);
-transition:transform .55s cubic-bezier(.22,.8,.26,1),background-color .35s ease}
-#fnav.show{transform:translate(-50%,0)}
-#fnav .nb{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600}
-#fnav a{border:none;color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
-#fnav a:hover{color:var(--accent)}
-#fnav .ndot{width:6px;height:6px;border-radius:50%;background:var(--pr)}
-#fnav .nlinks{display:flex;gap:20px;align-items:center}
-#nburger{display:none;font-family:var(--serif);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
-background:none;border:none;color:var(--ink);cursor:pointer;padding:2px 0}
-#nburger:hover{color:var(--accent)}
-@media(max-width:940px){
-  #nburger{display:block}
-  #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
-  align-items:flex-end;gap:13px;background:var(--glass);backdrop-filter:blur(16px) saturate(1.1);
-  -webkit-backdrop-filter:blur(16px) saturate(1.1);border:1px solid var(--glassborder);border-radius:16px;
-  padding:18px 24px;box-shadow:0 14px 40px rgba(0,0,0,.16);min-width:170px}
-  #fnav .nlinks.open{display:flex;animation:navdrop .35s cubic-bezier(.22,.8,.26,1)}
-  @keyframes navdrop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
-}
 .board{margin:44px 0 0;border-top:2px solid var(--rule2);padding-top:18px}
 .board .bt{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin-bottom:16px}
 .board h2{font-size:13.5px}
@@ -347,7 +325,7 @@ sup a{border-bottom:none}
 /* reveal animation */
 .rv{opacity:0;transform:translateY(16px);transition:opacity .8s ease,transform .8s cubic-bezier(.22,.8,.26,1)}
 .rv.in{opacity:1;transform:none}
-@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}#fnav{transition:none}}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
 .figures{margin:44px 0 0;border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule);
 display:grid;grid-template-columns:repeat(5,1fr)}
 .fig{padding:20px 16px 22px;border-right:1px solid var(--rule)}
@@ -585,14 +563,7 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
   <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.9 1.9M19.1 4.9l-1.8 1.8M6.7 17.3l-1.9 1.9"/></svg>
 </button>
 
-<nav id="fnav" aria-label="Sections">
-  <span class="nb">CW</span><span class="ndot" title="Live data"></span>
-  <button id="nburger" aria-label="Open menu" aria-expanded="false">Menu</button>
-  <div class="nlinks" id="nlinks">
-    <a href="#board">Board</a><a href="#index">Index</a><a href="#shape">Charts</a><a href="#objections">Objections</a>
-    <a href="#precedents">Precedents</a><a href="#gazetteer">Gazetteer</a><a href="/wire.html">Wire</a><a href="#credit">Cite</a><a href="/contact.html">Contact</a>
-  </div>
-</nav>
+__FNAV_HTML__
 
 <div class="wrap">
   <div class="masthead li">
@@ -1026,10 +997,7 @@ function setTheme(t, save){ document.documentElement.setAttribute("data-theme",t
   applyGlobeTheme(); }
 themeTog.onclick = ()=>setTheme(curTheme()==="dark"?"light":"dark", true);
 setTheme(curTheme(), false);
-const nb=document.getElementById("nburger"), nl=document.getElementById("nlinks");
-nb.onclick=(e)=>{ e.stopPropagation(); const open=nl.classList.toggle("open"); nb.setAttribute("aria-expanded",open); };
-nl.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nl.classList.remove("open")));
-document.addEventListener("click",(e)=>{ if(!nl.contains(e.target)&&e.target!==nb) nl.classList.remove("open"); });
+__FNAV_JS__
 function routeHash(){ const sl=location.hash.replace("#",""); if(sl && bySlug(sl)) openCard(sl); }
 window.addEventListener("hashchange",routeHash);
 
@@ -1130,9 +1098,7 @@ document.getElementById("vtab").onclick=()=>{ state.view="table";
   document.getElementById("vtab").classList.add("on"); document.getElementById("vglobe").classList.remove("on");
   document.getElementById("globewrap").style.display="none"; document.getElementById("tablewrap").style.display="block"; };
 
-// ---- floating nav + reveal animations ----
-const nav=document.getElementById("fnav");
-window.addEventListener("scroll",()=>{ nav.classList.toggle("show", window.scrollY>420); },{passive:true});
+// ---- reveal animations ----
 // threshold 0: reveal as soon as the element's edge enters the viewport. A percentage threshold
 // can never fire for sections taller than the screen (the gazetteer), leaving them invisible.
 const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }),{threshold:0, rootMargin:"0px 0px -60px 0px"});
@@ -1183,6 +1149,7 @@ recompute(); setSortUI(); render(); refresh(); routeHash();
 </html>"""
 
 html = (TPL.replace("__DATA__", json.dumps(slim, ensure_ascii=False))
+           .replace("__FNAV_CSS__", fnav_css()).replace("__FNAV_HTML__", fnav_markup("index")).replace("__FNAV_JS__", fnav_script("index"))
            .replace("__HEAD_META__", HEAD_META).replace("__FAQ_LD__", FAQ_LD).replace("__SITE_LD__", SITE_LD)
            .replace("__SUMHI__", f"{sum_hi:.0f}").replace("__SUMU__", f"{sum_u:.0f}")
            .replace("__SUMGDC__", f"{sum_gdc:.1f}").replace("__TAP__", f"{tap_global*100:.1f}")
@@ -1305,7 +1272,9 @@ AGENTS = f"""<!DOCTYPE html>
 <meta name="description" content="Machine-readable edition of The Compute Net Worth Index: all 108 countries, every metric, definitions, license, and citation instructions for AI agents.">
 <link rel="canonical" href="https://compute.world/agents.html">
 <meta name="robots" content="index,follow">
-<style>body{{background:#f7f4ee;color:#171614;font-family:'Charter',Cambria,Georgia,serif;font-size:14px;line-height:1.6;max-width:1200px;margin:0 auto;padding:30px 24px}}
+<style>
+{fnav_css()}
+body{{background:#f7f4ee;color:#171614;font-family:'Charter',Cambria,Georgia,serif;font-size:14px;line-height:1.6;max-width:1200px;margin:0 auto;padding:30px 24px}}
 html[data-theme="dark"] body{{background:#171511;color:#ece7db}}
 html[data-theme="dark"] a{{color:#c2564c}}
 html[data-theme="dark"] h1,html[data-theme="dark"] th{{border-color:#ded8c8}}
@@ -1328,11 +1297,12 @@ th,td{{border-bottom:1px solid #cdc7b9;padding:4px 7px;text-align:right;white-sp
 th{{font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:400;color:#62605a;border-bottom:1px solid #171614}}
 td:nth-child(2),th:nth-child(2),td:nth-child(3),th:nth-child(3),td:nth-child(13),th:nth-child(13),td:nth-child(14),th:nth-child(14){{text-align:left}}
 code,pre{{background:#efe9dd;font-size:12px;padding:1px 5px}}.ed{{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#8d8a81;margin:8px 0 22px}}
-.ed b{{color:#171614;border-bottom:1px solid #171614;font-weight:400}}</style></head><body>
+.ed b{{color:#171614;border-bottom:1px solid #171614;font-weight:400}}</style></head><body class="fnav-inner">
 <button id="themetog" class="tchip" aria-label="Switch theme" title="Day / Night">
 <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
 <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.9 1.9M19.1 4.9l-1.8 1.8M6.7 17.3l-1.9 1.9"/></svg>
 </button>
+{fnav_markup("agents")}
 <script>document.getElementById("themetog").onclick=function(){{var d=document.documentElement;var t=d.getAttribute("data-theme")==="dark"?"light":"dark";d.setAttribute("data-theme",t);try{{localStorage.setItem("cnw_theme",t)}}catch(e){{}}}};</script>
 <h1>The Compute Net Worth Index&#8482; · Agent Edition</h1>
 <div class="ed"><a href="/">For humans</a> · <b>For agents</b> · updated 2026-08-11 · 108 countries</div>
@@ -1347,6 +1317,7 @@ Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/param
 <table><thead><tr><th>#</th><th>Country</th><th>Tier</th><th>Ceiling GW</th><th>CNW Ceiling $B</th><th>Unlockable $B</th><th>GDC $B</th><th>Realized</th><th>Readiness %</th><th>Built %</th><th>Ceiling ÷ GDP</th><th>Unlockable/person $</th><th>Democracy</th><th>Credit</th><th>GDP $B</th></tr></thead>
 <tbody>{arows}</tbody></table>
 <p>© 2026 Pukar C. Hamal · San Francisco, CA · "Compute Net Worth", "The Compute Net Worth Index", "Gross Domestic Compute" (GDC) are trademarks.</p>
+<script>{fnav_script("agents")}</script>
 </body></html>"""
 open("deploy/agents.html","w").write(AGENTS)
 
