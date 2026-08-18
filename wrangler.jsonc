@@ -1,6 +1,8 @@
 {
   // Cloudflare Workers static-assets config for compute.world.
   // Serves the repo root (index.html + data.json + params.json + og.png ...) as a static site.
+  // Git Pages also deploys /functions (POST /api/subscribe). Optional: Pages env
+  // SUBSCRIBE_WEBHOOK and/or KV binding SUBSCRIBERS — see README. No secrets here.
   // Deploy command: npx wrangler deploy
   "name": "compute-world",
   "compatibility_date": "2026-08-10",

@@ -11,19 +11,20 @@ LINKS = (
     ("precedents", "Precedents", "#precedents"),
     ("gazetteer", "Gazetteer", "#gazetteer"),
     ("wire", "Wire", "/wire.html"),
-    ("silicon", "Silicon", "/silicon.html"),
+    ("silicon", "Silicon", "#silicon"),  # homepage tab; inner pages become /#silicon
     ("credit", "Cite", "#credit"),
     ("contact", "Contact", "/contact.html"),
     ("agents", "Agents", "/agents.html"),
 )
 
 # Homepage section hashes stay in-page; inner pages point at the homepage anchors.
-HOME_CURRENT = ("index",)  # Index is the page; Board is a section
+HOME_CURRENT = ("index",)  # Countries tab; JS marks Silicon when that tab is open
 INNER = {
     "wire": "wire",
     "silicon": "silicon",
     "contact": "contact",
     "agents": "agents",
+    "brief": "brief",
 }
 
 
@@ -91,7 +92,7 @@ def markup(page):
     for key, label, dest in LINKS:
         cls = ' class="here"' if key in here else ""
         cur = ' aria-current="page"' if key in here else ""
-        links.append(f'<a href="{href(dest, page)}"{cls}{cur}>{label}</a>')
+        links.append(f'<a href="{href(dest, page)}" data-nav="{key}"{cls}{cur}>{label}</a>')
     return (
         f'<div id="fnav-hit" aria-hidden="true"></div>\n'
         f'<nav id="fnav"{shown} aria-label="Sections" data-show-at="{threshold}" data-sticky="{sticky}">\n'

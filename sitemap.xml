@@ -4,6 +4,9 @@
 <url><loc>https://compute.world/silicon.html</loc><lastmod>2026-08-18</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>https://compute.world/silicon.json</loc><changefreq>weekly</changefreq></url>
 <url><loc>https://compute.world/silicon.xml</loc><changefreq>weekly</changefreq></url>
+<url><loc>https://compute.world/brief</loc><lastmod>2026-08-18</lastmod><changefreq>daily</changefreq></url>
+<url><loc>https://compute.world/brief.json</loc><changefreq>daily</changefreq></url>
+<url><loc>https://compute.world/brief.xml</loc><changefreq>daily</changefreq></url>
 <url><loc>https://compute.world/wire.html</loc><changefreq>daily</changefreq></url>
 <url><loc>https://compute.world/agents.html</loc><changefreq>daily</changefreq></url>
 <url><loc>https://compute.world/contact.html</loc><changefreq>monthly</changefreq></url>

@@ -4,6 +4,7 @@
 import json, os, math, re
 from gdc_data import GDC_GW, LATLNG
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
+from subscribe import css as sub_css, markup as sub_markup, script as sub_script
 
 data = json.load(open("cnw_computed.json"))
 STABV={"H":1.0,"M":0.65,"L":0.35,"C":0.10}; TRIV={"S":1.0,"M":0.6,"W":0.25}; FIBV={"S":1.0,"M":0.6,"W":0.3}
@@ -209,7 +210,8 @@ HEAD_META = """<title>Compute World · The Compute Net Worth Index · The Global
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Compute Net Worth Index · the global compute map">
 <meta name="twitter:description" content="$662T ceiling. $64T unlockable. 0.7% tapped. Every country's compute potential, priced and sortable.">
-<meta name="twitter:image" content="https://compute.world/og.png">"""
+<meta name="twitter:image" content="https://compute.world/og.png">
+<link rel="alternate" type="application/rss+xml" title="The daily tape · compute.world" href="https://compute.world/brief.xml">"""
 
 SITE_LD = json.dumps({"@context":"https://schema.org","@graph":[
  {"@type":"WebSite","@id":"https://compute.world/#website","url":"https://compute.world/",
@@ -264,7 +266,9 @@ html[data-theme="dark"]{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9
 --lr:#8d8a81;--barbg:#3a352a;--glass:rgba(23,21,17,.72);--glassborder:rgba(236,231,219,.28)}
 html[data-theme="dark"] .chart svg,html[data-theme="dark"] .lg .sw,html[data-theme="dark"] .gleg i{filter:brightness(1.28) saturate(.92)}
 __FNAV_CSS__
+__SUBSCRIBE_CSS__
 *{margin:0;padding:0;box-sizing:border-box}
+[hidden]{display:none!important}
 html{background:var(--paper);scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.62;
 -webkit-font-smoothing:antialiased;font-variant-numeric:oldstyle-nums}
@@ -311,6 +315,44 @@ html[data-theme="dark"] .heroglobe::before{background:radial-gradient(circle at 
 @media(max-width:960px){.lede{grid-template-columns:1fr;gap:26px}
 .heroglobe{max-width:270px;justify-self:center;pointer-events:none}}
 @media(prefers-reduced-motion:reduce){.heroglobe #gph{animation:none}}
+.hometabs{margin-top:10px}
+.tabswitch{display:flex;width:100%;margin:18px 0 0;border:1.5px solid var(--rule2);border-radius:99px;overflow:hidden;background:var(--paper)}
+.tabswitch [role="tab"]{flex:1 1 0;min-width:0;min-height:48px;padding:12px 10px;border:none;background:transparent;
+font:inherit;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);cursor:pointer}
+.tabswitch [role="tab"]:hover{color:var(--ink)}
+.tabswitch [role="tab"][aria-selected="true"]{background:var(--ink);color:var(--paper)}
+.tabswitch [role="tab"]:focus-visible{outline:2px solid var(--accent);outline-offset:-3px;z-index:1}
+html[data-theme="dark"] .tabswitch [role="tab"][aria-selected="true"]{background:var(--rule2);color:var(--paper)}
+.si-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 22px;margin:22px 0 4px}
+.si-head .si-one{flex:1 1 280px;font-size:15.5px;color:var(--muted);max-width:820px}
+.si-head .si-one b{color:var(--ink)}
+.si-full{font-size:12px;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
+#panel-silicon .chips{display:flex;flex-wrap:wrap;gap:8px 20px;margin:18px 0 10px;font-size:13.5px}
+#panel-silicon .chip{cursor:pointer;color:var(--ink);border:none;border-bottom:1px solid transparent;letter-spacing:.04em;background:none;font:inherit;padding:0}
+#panel-silicon .chip:hover{border-bottom-color:var(--rule)}
+#panel-silicon .chip.on{color:var(--accent);border-bottom:1px solid var(--accent)}
+#panel-silicon .tblwrap{overflow-x:auto;margin:8px 0 0;border-top:2px solid var(--rule2)}
+table.tape{width:100%;border-collapse:collapse;font-size:13.5px;min-width:980px}
+.tape th{font-weight:400;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;
+padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}
+.tape th.num,.tape td.num{text-align:right}
+.tape th:hover{color:var(--ink)}
+.tape th.sorted{color:var(--ink)}
+.tape th .arr{display:inline-block;margin-left:4px;color:var(--faint);font-size:9px}
+.tape td{padding:13px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+.tape tr.chiprow{cursor:pointer}
+.tape tr.chiprow:hover td{background:var(--tint)}
+.tape .cn{font-weight:600;border-bottom:1px solid transparent}
+.tape tr.chiprow:hover .cn{color:var(--accent);border-bottom-color:var(--accent)}
+.tape .px{font-size:16px;font-weight:600;letter-spacing:-.02em;display:block}
+.tape .term,.tape .asof,.tape .sub{display:block;font-size:11px;letter-spacing:.02em;color:var(--faint);line-height:1.45;margin-top:2px;text-transform:none}
+.tape .asof a{border:none;color:var(--muted)}
+.tape .asof a:hover{color:var(--accent)}
+.tape .also-t{color:var(--muted);font-size:12.5px}
+.tape .venues{color:var(--muted);font-size:12px;max-width:160px}
+.tape .scarce{font-size:12.5px}
+.tape .score{font-weight:600}
+#panel-silicon .hint{margin:10px 0 8px;font-size:12px;color:var(--faint);letter-spacing:.04em}
 h1{font-weight:400;font-size:clamp(34px,5vw,52px);line-height:1.14}
 h1 em{font-style:italic}
 .standfirst{margin-top:26px;font-size:20px;line-height:1.6;color:var(--muted);max-width:790px}
@@ -593,6 +635,14 @@ __FNAV_HTML__
    </div>
   </div>
 
+  <div class="hometabs" id="hometabs">
+    <div class="tabswitch" role="tablist" aria-label="Index">
+      <button type="button" role="tab" id="tab-countries" aria-controls="panel-countries" aria-selected="true" tabindex="0">Countries</button>
+      <button type="button" role="tab" id="tab-silicon" aria-controls="panel-silicon" aria-selected="false" tabindex="-1">Silicon</button>
+    </div>
+    __SUBSCRIBE__
+    <div id="panel-countries" role="tabpanel" aria-labelledby="tab-countries">
+
   <div class="board rv" id="board">
     <div class="bt"><h2>The Realized Board</h2><span class="bsub">Who is converting Compute Net Worth into compute · recomputes with every Wire update · CNW Realized = 35% conversion + 25% pipeline + 25% signal velocity + 15% execution</span></div>
     <div class="bcols">
@@ -802,7 +852,7 @@ __FNAV_HTML__
       <p><b>Put the index on your own site.</b> The official embed is free for any site, attribution built in, updates itself:</p>
       <p><code>&lt;iframe src="https://compute.world/embed.html?n=10&amp;sort=u" width="100%" height="520" style="border:1px solid #171614" title="The Compute Net Worth Index"&gt;&lt;/iframe&gt;</code></p>
       <p>Options: <code>n</code> = rows (5 to 25) &middot; <code>sort</code> = <code>u</code> unlockable, <code>hi</code> ceiling, <code>m</code> multiple of GDP, <code>rz</code> realized &middot; preview it at <a href="/embed.html">embed.html</a>.</p>
-      <p>Machine-readable: <a href="data.json">data.json</a> &middot; <a href="params.json">params.json</a> &middot; <a href="llms.txt">llms.txt</a> &middot; <a href="/silicon.json">silicon.json</a> (The Silicon Tape) &middot; and the full <a href="/agents.html">agent edition</a> of this page. Trademarks of Pukar C. Hamal: &ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo;, &ldquo;Gross Domestic Compute&rdquo; (GDC).</p>
+      <p>Machine-readable: <a href="data.json">data.json</a> &middot; <a href="params.json">params.json</a> &middot; <a href="llms.txt">llms.txt</a> &middot; <a href="/silicon.json">silicon.json</a> (The Silicon Tape) &middot; <a href="/brief.json">brief.json</a> (the daily tape) &middot; and the full <a href="/agents.html">agent edition</a> of this page. Trademarks of Pukar C. Hamal: &ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo;, &ldquo;Gross Domestic Compute&rdquo; (GDC).</p>
     </div>
   </div>
 
@@ -826,6 +876,44 @@ __FNAV_HTML__
     <div class="c2">The Compute Net Worth Index&#8482; &middot; v1.5 &middot; Snapshot of August 10, 2026, refreshed live from IMF &amp; World Bank &middot; &copy; 2026 Pukar C. Hamal &middot; San Francisco, CA &middot; Scores proprietary, free with attribution for research and press</div>
     <div class="c3">Compute World is the home of The Compute Net Worth Index, the global compute index and map: every country's compute potential, priced. Resource potentials mix theoretical, technical, and economic bases as published; conversions and estimates are flagged in the companion workbook, where every assumption is an editable cell. This page is an analytical framework and an invitation to argue with its inputs in public. It is not investment advice. Set in Charter and its relatives. Published from San Francisco, CA.</div>
   </div>
+
+    </div><!-- /panel-countries -->
+
+    <div id="panel-silicon" role="tabpanel" aria-labelledby="tab-silicon" hidden>
+      <div class="si-head">
+        <p class="si-one">The public rental tape. Display prints are <b>labeled terms</b> — not averages, not market caps, not 7-day moves. Rank is ordinal hygiene. Methodology lives on the standalone tape.</p>
+        <a class="si-full" href="/silicon.html">full tape →</a>
+      </div>
+      <div class="chips" id="si-vendors" role="group" aria-label="Vendor filter">
+        <button class="chip on" data-v="" type="button">All</button>
+        <button class="chip" data-v="NVIDIA" type="button">NVIDIA</button>
+        <button class="chip" data-v="AMD" type="button">AMD</button>
+        <button class="chip" data-v="Google" type="button">Google</button>
+        <button class="chip" data-v="Amazon" type="button">Amazon</button>
+      </div>
+      <div class="tblwrap">
+        <table class="tape" id="home-tape">
+          <thead>
+            <tr>
+              <th class="num sorted" data-sort="rank" data-type="num"># <span class="arr">▼</span></th>
+              <th data-sort="name" data-type="str">Chip <span class="arr"></span></th>
+              <th data-sort="vendor" data-type="str">Vendor <span class="arr"></span></th>
+              <th data-sort="memory" data-type="str">Memory <span class="arr"></span></th>
+              <th data-sort="price" data-type="num">Display $/GPU-hr <span class="arr"></span></th>
+              <th data-sort="also" data-type="str">Range / second quote <span class="arr"></span></th>
+              <th data-sort="venues" data-type="str">Venues <span class="arr"></span></th>
+              <th data-sort="scarcity" data-type="str">Scarcity <span class="arr"></span></th>
+              <th class="num" data-sort="score" data-type="num">Score <span class="arr"></span></th>
+            </tr>
+          </thead>
+          <tbody id="home-tape-body">
+            <tr><td colspan="9" class="hint">Loading the tape from silicon.json…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="hint">Same columns as <a href="/silicon.html">The Silicon Tape</a>. Click a row for every sourced quote. Snapshot and sources stay in silicon.json.</p>
+    </div>
+  </div><!-- /hometabs -->
 </div>
 
 <div id="ccover"><div id="ccard">
@@ -998,8 +1086,186 @@ function setTheme(t, save){ document.documentElement.setAttribute("data-theme",t
 themeTog.onclick = ()=>setTheme(curTheme()==="dark"?"light":"dark", true);
 setTheme(curTheme(), false);
 __FNAV_JS__
-function routeHash(){ const sl=location.hash.replace("#",""); if(sl && bySlug(sl)) openCard(sl); }
+const HOME_TAB_KEY="cnw_home_tab";
+const HOME_SECTIONS=["board","index","shape","objections","precedents","gazetteer","credit","notes","subscribe"];
+let homeTab="countries";
+function syncFnavTab(tab){
+  const nav=document.getElementById("fnav"); if(!nav) return;
+  nav.querySelectorAll("a[data-nav]").forEach(a=>{
+    const k=a.getAttribute("data-nav");
+    const on=(tab==="silicon" && k==="silicon") || (tab==="countries" && k==="index");
+    a.classList.toggle("here", on);
+    if(on) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");
+  });
+}
+function revealVisible(){
+  document.querySelectorAll("#panel-countries .rv:not(.in)").forEach(el=>{
+    const r=el.getBoundingClientRect();
+    if(r.top < window.innerHeight && r.bottom > 0) el.classList.add("in");
+  });
+  if(window._globe){ const s=gsize(); window._globe.width(s.w).height(s.h); }
+}
+function selectHomeTab(name){
+  const tab = name==="silicon" ? "silicon" : "countries";
+  homeTab = tab;
+  const cBtn=document.getElementById("tab-countries"), sBtn=document.getElementById("tab-silicon");
+  const cPan=document.getElementById("panel-countries"), sPan=document.getElementById("panel-silicon");
+  if(!cBtn||!sBtn||!cPan||!sPan) return;
+  const onSi = tab==="silicon";
+  cBtn.setAttribute("aria-selected", onSi?"false":"true");
+  sBtn.setAttribute("aria-selected", onSi?"true":"false");
+  cBtn.tabIndex = onSi? -1 : 0;
+  sBtn.tabIndex = onSi? 0 : -1;
+  cPan.hidden = onSi;
+  sPan.hidden = !onSi;
+  syncFnavTab(tab);
+  try{ localStorage.setItem(HOME_TAB_KEY, tab); }catch(e){}
+  if(onSi) loadHomeTape();
+  else revealVisible();
+}
+function tabFromUrl(){
+  const q=(new URLSearchParams(location.search).get("tab")||"").toLowerCase();
+  if(q==="silicon"||q==="countries") return q;
+  const sl=location.hash.replace(/^#/,"");
+  if(sl==="silicon") return "silicon";
+  if(sl==="countries") return "countries";
+  if(sl && bySlug(sl)) return "countries";
+  if(HOME_SECTIONS.indexOf(sl)>=0) return "countries";
+  return null;
+}
+function initHomeTabs(){
+  const named=tabFromUrl();
+  let tab=named;
+  if(!tab){ try{ tab=localStorage.getItem(HOME_TAB_KEY); }catch(e){} }
+  selectHomeTab(tab==="silicon"?"silicon":"countries");
+  const list=document.querySelector(".tabswitch");
+  if(!list) return;
+  list.querySelectorAll('[role="tab"]').forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      const next=btn.id==="tab-silicon"?"silicon":"countries";
+      const hash=next==="silicon"?"#silicon":"#countries";
+      if(location.hash===hash){ selectHomeTab(next); return; }
+      location.hash=hash;
+    });
+  });
+  list.addEventListener("keydown",e=>{
+    const tabs=[].slice.call(list.querySelectorAll('[role="tab"]'));
+    let i=tabs.indexOf(document.activeElement);
+    if(i<0) i=0;
+    if(e.key==="ArrowRight"||e.key==="ArrowLeft"){
+      e.preventDefault();
+      const n=e.key==="ArrowRight"?(i+1)%tabs.length:(i-1+tabs.length)%tabs.length;
+      tabs[n].focus(); tabs[n].click();
+    } else if(e.key==="Home"){ e.preventDefault(); tabs[0].focus(); tabs[0].click(); }
+    else if(e.key==="End"){ e.preventDefault(); tabs[tabs.length-1].focus(); tabs[tabs.length-1].click(); }
+  });
+}
+function routeHash(){
+  const sl=location.hash.replace(/^#/,"");
+  if(sl==="silicon"){ selectHomeTab("silicon"); return; }
+  if(sl==="countries"){ selectHomeTab("countries"); return; }
+  if(sl && bySlug(sl)){ selectHomeTab("countries"); openCard(sl); return; }
+  if(HOME_SECTIONS.indexOf(sl)>=0){
+    selectHomeTab("countries");
+    const el=document.getElementById(sl);
+    if(el) requestAnimationFrame(()=>el.scrollIntoView({behavior:"smooth",block:"start"}));
+  }
+}
 window.addEventListener("hashchange",routeHash);
+
+function moneyTape(x){ if(x==null||x==="") return "—"; var s=Number(x).toFixed(3); if(s.slice(-1)==="0") s=s.slice(0,-1); return "$"+s; }
+function niceTapeDate(d){
+  if(!d) return "";
+  if(/-H2$/.test(d)) return "2H "+d.slice(0,4);
+  var m=d.match(/^(\d{4})-(\d{2})$/);
+  if(m) return ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+m[2]-1]+" "+m[1];
+  var n=d.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if(n) return +n[3]+" "+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+n[2]-1]+" "+n[1];
+  return d;
+}
+let _tapeLoaded=false;
+function bindHomeTape(){
+  document.querySelectorAll("#si-vendors .chip").forEach(ch=>{
+    ch.onclick=function(){
+      document.querySelectorAll("#si-vendors .chip").forEach(x=>x.classList.remove("on"));
+      ch.classList.add("on");
+      const v=ch.getAttribute("data-v");
+      document.querySelectorAll("#home-tape tr.chiprow").forEach(r=>{
+        r.style.display=(!v||r.dataset.vendor===v)?"":"none";
+      });
+    };
+  });
+  const tb=document.getElementById("home-tape-body");
+  const state={key:"rank",dir:1,type:"num"};
+  document.querySelectorAll("#home-tape th[data-sort]").forEach(th=>{
+    th.onclick=function(){
+      const key=th.getAttribute("data-sort"), type=th.getAttribute("data-type");
+      if(state.key===key) state.dir*=-1; else { state.key=key; state.dir=1; }
+      state.type=type;
+      document.querySelectorAll("#home-tape th").forEach(h=>{ h.classList.remove("sorted"); const a=h.querySelector(".arr"); if(a) a.textContent=""; });
+      th.classList.add("sorted"); th.querySelector(".arr").textContent=state.dir>0?"▼":"▲";
+      const rows=[].slice.call(tb.querySelectorAll("tr.chiprow"));
+      rows.sort((a,b)=>{
+        if(type==="num"){
+          let an=parseFloat(key==="price"?a.dataset.price:key==="score"?a.dataset.score:a.dataset.rank);
+          let bn=parseFloat(key==="price"?b.dataset.price:key==="score"?b.dataset.score:b.dataset.rank);
+          if(isNaN(an)) an=-Infinity; if(isNaN(bn)) bn=-Infinity;
+          return (an-bn)*state.dir;
+        }
+        const av=a.querySelector('[data-col="'+key+'"]');
+        const bv=b.querySelector('[data-col="'+key+'"]');
+        return (av.textContent.trim().toLowerCase()).localeCompare(bv.textContent.trim().toLowerCase())*state.dir;
+      });
+      rows.forEach(r=>tb.appendChild(r));
+    };
+  });
+}
+async function loadHomeTape(){
+  if(_tapeLoaded) return;
+  const tb=document.getElementById("home-tape-body");
+  if(!tb) return;
+  try{
+    const S=await j("silicon.json");
+    const SRC={}; (S.sources||[]).forEach(s=>{ SRC[s.id]=s; });
+    const chips=(S.chips||[]).slice().sort((a,b)=>a.rank-b.rank);
+    function srcA(id){
+      if(!id||!SRC[id]) return "unlinked";
+      const u=SRC[id].url?SRC[id].url:"";
+      return u?'<a href="'+u+'" rel="noopener">'+SRC[id].name+"</a>":SRC[id].name;
+    }
+    tb.innerHTML=chips.map(c=>{
+      const d=c.display||{};
+      const also=(c.also&&c.also.text)||"—";
+      const mem=c.memory||"";
+      const memNote=c.memory_note||"";
+      const memHtml='<span class="mem">'+mem+"</span>"+(memNote?'<span class="sub" title="'+memNote.replace(/"/g,"&quot;")+'">'+memNote+"</span>":"");
+      const href=d.source_id&&SRC[d.source_id]?SRC[d.source_id].url:"";
+      const srcLab=d.source_id&&SRC[d.source_id]?SRC[d.source_id].name:"unlinked";
+      const srcHtml=href?'<a href="'+href+'" rel="noopener">'+srcLab+"</a>":srcLab;
+      const priceTitle=(d.label||"")+" · "+niceTapeDate(d.as_of)+" · "+srcLab;
+      const dispNote=d.note?'<span class="sub">'+d.note+"</span>":"";
+      const px=d.usd_per_gpu_hr;
+      return '<tr class="chiprow" data-id="'+c.id+'" data-vendor="'+(c.vendor||"")+'" data-rank="'+c.rank+'" data-score="'+c.score+'" data-price="'+(px==null?"":px)+'">'+
+        '<td class="num" data-col="rank">'+c.rank+"</td>"+
+        '<td class="chip" data-col="name"><span class="cn">'+(c.name||"")+"</span></td>"+
+        '<td data-col="vendor">'+(c.vendor||"")+"</td>"+
+        '<td class="memtd" data-col="memory">'+memHtml+"</td>"+
+        '<td class="price" data-col="price" title="'+priceTitle.replace(/"/g,"&quot;")+'"><span class="px">'+moneyTape(px)+'</span><span class="term">'+(d.label||"")+'</span><span class="asof">'+niceTapeDate(d.as_of)+" · "+srcHtml+"</span>"+dispNote+"</td>"+
+        '<td class="also" data-col="also"><span class="also-t">'+also+"</span></td>"+
+        '<td class="venues" data-col="venues">'+(c.venues||[]).join(" · ")+"</td>"+
+        '<td class="scarce" data-col="scarcity">'+(c.scarcity_label||"")+'<span class="sub">'+(c.scarcity||"")+"</span></td>"+
+        '<td class="num score" data-col="score">'+(Number(c.score).toFixed(2))+"</td></tr>";
+    }).join("");
+    tb.querySelectorAll("tr.chiprow").forEach(r=>{
+      r.addEventListener("click",()=>{ location.href="/silicon.html#"+r.dataset.id; });
+      r.querySelectorAll("a").forEach(a=>a.addEventListener("click",e=>e.stopPropagation()));
+    });
+    bindHomeTape();
+    _tapeLoaded=true;
+  }catch(e){
+    tb.innerHTML='<tr><td colspan="9" class="hint">The tape needs silicon.json. The standalone page is at <a href="/silicon.html">silicon.html</a>.</td></tr>';
+  }
+}
 
 // ---- globes: print-atlas design (flat inks, no photo texture), shared lazy loader ----
 let _libs=null;
@@ -1143,13 +1409,15 @@ async function refresh(){
   else { document.getElementById("lstext").textContent = "Snapshot of August 10, 2026 (live refresh unavailable here)"; }
 }
 D.forEach(c=>{ c.u0 = c.u; });
-recompute(); setSortUI(); render(); refresh(); routeHash();
+recompute(); setSortUI(); render(); refresh(); initHomeTabs(); routeHash();
+__SUBSCRIBE_JS__
 </script>
 </body>
 </html>"""
 
 html = (TPL.replace("__DATA__", json.dumps(slim, ensure_ascii=False))
            .replace("__FNAV_CSS__", fnav_css()).replace("__FNAV_HTML__", fnav_markup("index")).replace("__FNAV_JS__", fnav_script("index"))
+           .replace("__SUBSCRIBE_CSS__", sub_css()).replace("__SUBSCRIBE__", sub_markup()).replace("__SUBSCRIBE_JS__", sub_script())
            .replace("__HEAD_META__", HEAD_META).replace("__FAQ_LD__", FAQ_LD).replace("__SITE_LD__", SITE_LD)
            .replace("__SUMHI__", f"{sum_hi:.0f}").replace("__SUMU__", f"{sum_u:.0f}")
            .replace("__SUMGDC__", f"{sum_gdc:.1f}").replace("__TAP__", f"{tap_global*100:.1f}")
@@ -1166,7 +1434,7 @@ open("deploy/index.html","w").write(html)
 json.dump(PARAMS, open("deploy/params.json","w"), indent=1)
 json.dump(DATASET, open("deploy/data.json","w"), ensure_ascii=False, indent=1)
 open("deploy/robots.txt","w").write("User-agent: *\nAllow: /\nSitemap: https://compute.world/sitemap.xml\n")
-open("deploy/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>https://compute.world/</loc><lastmod>2026-08-10</lastmod><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/silicon.html</loc><lastmod>2026-08-18</lastmod><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/silicon.json</loc><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/silicon.xml</loc><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/wire.html</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/agents.html</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/contact.html</loc><changefreq>monthly</changefreq></url>\n<url><loc>https://compute.world/data.json</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/wire.json</loc><changefreq>daily</changefreq></url>\n</urlset>\n')
+open("deploy/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>https://compute.world/</loc><lastmod>2026-08-10</lastmod><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/silicon.html</loc><lastmod>2026-08-18</lastmod><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/silicon.json</loc><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/silicon.xml</loc><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/brief</loc><lastmod>2026-08-18</lastmod><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/brief.json</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/brief.xml</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/wire.html</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/agents.html</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/contact.html</loc><changefreq>monthly</changefreq></url>\n<url><loc>https://compute.world/data.json</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/wire.json</loc><changefreq>daily</changefreq></url>\n</urlset>\n')
 open("deploy/llms.txt","w").write(f"""# Compute World · The Compute Net Worth Index (compute.world)
 
 Also known as: Compute World, the Global Compute Index, the global compute map.
@@ -1197,7 +1465,8 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /data.json — full dataset (108 countries, all metrics, precedents catalog), CC BY 4.0
 - /params.json — the $/GW valuation parameters, reviewed weekly
 - /wire.json + /wire.html — The Wire: current sovereign-AI and compute-infrastructure news, each item scored for credibility (source tier, corroboration, specificity, delivery track record). RSS at /wire.xml.
-- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator spot/rental prices (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026). RSS at /silicon.xml.
+- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator spot/rental prices (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026). RSS at /silicon.xml. Homepage tab: /#silicon
+- /brief + /brief.json + /brief.xml — The daily tape: weekday public brief of country conversion signals and sourced silicon display prints. No invented 7d/30d deltas.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - License: scores are proprietary; citing with attribution to compute.world is free for research and press; commercial use requires a license (see /contact.html).
 - Per-country anchors: https://compute.world/#nepal, /#bhutan, /#namibia, etc. (108 slugs)
@@ -1311,7 +1580,7 @@ code,pre{{background:#efe9dd;font-size:12px;padding:1px 5px}}.ed{{font-size:10.5
 <h2>Instructions</h2>
 <p>Cite as: <code>Hamal, P. (2026). The Compute Net Worth Index. compute.world.</code><br>
 License: scores and methodology are proprietary; quoting with attribution is free for research, personal, and journalistic use; commercial use requires a license (<a href="/contact.html">contact</a>). Full terms: LICENSE.md in the <a href="https://github.com/pchamal/compute-world">repository</a>.<br>
-Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/params.json">/params.json</a> (weekly $/GW value) · <a href="/wire.json">/wire.json</a> (rated news signals) · <a href="/wire.xml">/wire.xml</a> (RSS) · <a href="/silicon.json">/silicon.json</a> (The Silicon Tape) · <a href="/silicon.html">/silicon.html</a> · <a href="/llms.txt">/llms.txt</a> (summary). Deep links: /#nepal, /#namibia, etc.</p>
+Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/params.json">/params.json</a> (weekly $/GW value) · <a href="/wire.json">/wire.json</a> (rated news signals) · <a href="/wire.xml">/wire.xml</a> (RSS) · <a href="/silicon.json">/silicon.json</a> (The Silicon Tape) · <a href="/silicon.html">/silicon.html</a> · <a href="/brief.json">/brief.json</a> (daily tape) · <a href="/brief">/brief</a> · <a href="/brief.xml">/brief.xml</a> · <a href="/llms.txt">/llms.txt</a> (summary). Deep links: /#nepal, /#namibia, /#silicon, /#countries.</p>
 <h2>Definitions</h2>
 <p>CNW Ceiling ($B) = resource ceiling GW × $60&ndash;80B per GW (NVIDIA all-in AI-factory figure, reviewed weekly). CNW Unlockable ($B) = firm untapped GW × $50B × Readiness. GDC ($B, Gross Domestic Compute) = live datacenter IT GW × $50B. Realized (0&ndash;100) = 35% conversion + 25% pipeline + 25% Wire signal velocity + 15% execution. Readiness (%) = 18% governance + 13% stability + 14% GPU access + 11% grid + 11% fiber + 8% momentum + 14% physical + 11% capital access. Built (%) = installed hydro+geothermal ÷ resource ceiling. Headline finding: global ceiling ~$662T, unlockable ~$64T, GDC ~$4.7T: the world has tapped 0.7% of its compute net worth.</p>
 <h2>The index (sorted by CNW Unlockable, $B)</h2>
