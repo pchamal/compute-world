@@ -336,7 +336,31 @@ def spark_steps(pts, n=10):
     return out
 
 
-def spark_svg(steps, width=88, height=26, up=True):
+def longest_window(chg):
+    """Prefer 1y, then 90d, then 30d — the longest honest pair."""
+    for key, lab in (("d1y", "1y"), ("d90", "90d"), ("d30", "30d")):
+        pct = (chg.get(key) or {}).get("pct")
+        if pct is not None:
+            return key, lab, pct
+    return None, None, None
+
+
+def spark_direction(chg, pts):
+    _, lab, pct = longest_window(chg)
+    if pct is not None:
+        if pct > 0:
+            return "up", lab, pct
+        if pct < 0:
+            return "down", lab, pct
+        return "flat", lab, pct
+    if pts and pts[-1]["price"] > pts[0]["price"]:
+        return "up", None, None
+    if pts and pts[-1]["price"] < pts[0]["price"]:
+        return "down", None, None
+    return "flat", None, None
+
+
+def spark_svg(steps, width=80, height=28, direction="flat"):
     if not steps:
         return ""
     prices = [s["price"] for s in steps]
@@ -347,21 +371,62 @@ def spark_svg(steps, width=88, height=26, up=True):
     else:
         ys = [pad + (1 - (p - lo) / (hi - lo)) * (height - 2 * pad) for p in prices]
     xs = [pad + i * (width - 2 * pad) / max(len(steps) - 1, 1) for i in range(len(steps))]
-    # Step path: horizontal then vertical
     d = [f"M{xs[0]:.1f},{ys[0]:.1f}"]
     for i in range(1, len(steps)):
         d.append(f"H{xs[i]:.1f}")
         d.append(f"V{ys[i]:.1f}")
-    cls = "spark"
-    if prices[-1] > prices[0]:
-        cls = "spark spark-up"
-    elif prices[-1] < prices[0]:
-        cls = "spark spark-dn"
+    cls = {"up": "spark spark-up", "down": "spark spark-dn"}.get(direction, "spark")
     return (
         f'<svg class="{cls}" viewBox="0 0 {width} {height}" width="{width}" height="{height}" '
-        f'aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.4" '
+        f'aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.5" '
         f'stroke-linejoin="miter" stroke-linecap="butt" d="{" ".join(d)}"/></svg>'
     )
+
+
+def weather_items(chips, limit=4):
+    """Slim tape-weather: only real dated windows. No Fear & Greed."""
+    prefer = (
+        ("nvidia-h100-sxm-80gb", "d1y"),
+        ("nvidia-b200-sxm6", "d90"),
+        ("nvidia-h200-sxm-141gb", "d1y"),
+        ("nvidia-a100-sxm-80gb", "d90"),
+    )
+    by = {c["id"]: c for c in chips}
+    labs = {"d1y": "1y", "d90": "90d", "d30": "30d"}
+    items = []
+    seen = set()
+
+    def add(c, key):
+        row = (c.get("changes") or {}).get(key) or {}
+        if row.get("pct") is None:
+            return False
+        disp = c.get("display") or {}
+        items.append({
+            "id": c["id"],
+            "name": c["name"],
+            "window": labs[key],
+            "pct": row["pct"],
+            "venue": disp.get("label") or disp.get("venue") or "",
+            "title": row.get("title") or "",
+        })
+        seen.add((c["id"], key))
+        return True
+
+    for cid, key in prefer:
+        c = by.get(cid)
+        if c:
+            add(c, key)
+        if len(items) >= limit:
+            return items
+    for c in chips:
+        if len(items) >= limit:
+            break
+        for key in ("d1y", "d90", "d30"):
+            if (c["id"], key) in seen:
+                continue
+            if add(c, key):
+                break
+    return items
 
 
 def last_print_before(rows, venue, as_of):
@@ -496,15 +561,23 @@ def enrich_chip(chip, points, now):
     rows = series_for(points, chip["id"], venue, term, cfg)
     pts = spark_points(rows)
     steps = spark_steps(pts)
-    up = True
-    if pts and pts[-1]["price"] < pts[0]["price"]:
-        up = False
+    direction, wlab, wpct = spark_direction(chg, pts)
+    if wlab is not None:
+        sign = "+" if wpct > 0 else ""
+        title = (
+            f"Colored by {wlab} ({sign}{wpct:g}%). "
+            "Step chart of dated prints. Carry-forward is for drawing only."
+        )
+    else:
+        title = "Step chart of dated prints. Carry-forward is for drawing only."
     chip["changes"] = chg
     chip["spark"] = {
         "points": pts,
         "steps": steps,
-        "svg": spark_svg(steps, up=up) if steps else "",
-        "title": "Step chart of dated prints. Carry-forward is for drawing only.",
+        "direction": direction,
+        "window": wlab,
+        "svg": spark_svg(steps, direction=direction) if steps else "",
+        "title": title,
     }
     # SA 1y drawer series (H100): labeled, stale, not today's OD %
     sa_rows = series_for(points, chip["id"], "SemiAnalysis", "1y contract", "1y-mid")
@@ -518,7 +591,12 @@ def enrich_chip(chip, points, now):
             "as_of": "2026-04",
             "points": sa_pts,
             "steps": spark_steps(sa_pts),
-            "svg": spark_svg(spark_steps(sa_pts), up=sa_pts[-1]["price"] >= sa_pts[0]["price"]),
+            "svg": spark_svg(
+                spark_steps(sa_pts),
+                direction="up" if sa_pts[-1]["price"] > sa_pts[0]["price"] else (
+                    "down" if sa_pts[-1]["price"] < sa_pts[0]["price"] else "flat"
+                ),
+            ),
             "title": "SemiAnalysis 1y — last public period Apr 2026, STALE. Not today's on-demand %.",
         }
     chip["tape_print"] = tape_print_for(chip, points, now)
@@ -532,6 +610,7 @@ def enrich_silicon(silicon, history):
     points = history["points"]
     for c in silicon.get("chips") or []:
         enrich_chip(c, points, now)
+    silicon["weather"] = weather_items(silicon.get("chips") or [])
     return silicon, history, appended
 
 
@@ -574,6 +653,12 @@ if __name__ == "__main__":
         print("FAIL")
         print("\n".join(bad))
         sys.exit(1)
+    wx = {f"{w['id']}:{w['window']}": w["pct"] for w in silicon.get("weather") or []}
+    if wx.get("nvidia-h100-sxm-80gb:1y") != 33.4:
+        sys.exit(f"weather H100 1y: {wx}")
+    if wx.get("nvidia-b200-sxm6:90d") != 0.0:
+        sys.exit(f"weather B200 90d: {wx}")
     print(f"ok · {len(history['points'])} dated points · harvested+{n}")
     for name, got, exp in expected_grid_pcts(silicon, history):
         print(f"  {name}: {got}")
+    print("  weather", wx)

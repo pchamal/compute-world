@@ -88,18 +88,20 @@ def chg_cell(chg, key):
     pct = row.get("pct")
     title = html.escape(row.get("title") or DASH_TITLE, quote=True)
     if pct is None:
-        return f'<td class="chg" data-col="{key}" data-chg="" title="{title}">—</td>'
+        return f'<td class="chg chg-na" data-col="{key}" data-chg="" title="{title}">—</td>'
     cls = "chg-flat"
+    caret = ""
     if pct > 0:
         cls = "chg-up"
+        caret = '<span class="caret" aria-hidden="true">▲</span>'
+        text = f"+{pct:.1f}%"
     elif pct < 0:
         cls = "chg-dn"
-    if pct == 0:
-        text = "0%"
+        caret = '<span class="caret" aria-hidden="true">▼</span>'
+        text = f"{pct:.1f}%"
     else:
-        sign = "+" if pct > 0 else ""
-        text = f"{sign}{pct:.1f}%"
-    return f'<td class="chg {cls}" data-col="{key}" data-chg="{pct}" title="{title}">{text}</td>'
+        text = "0%"
+    return f'<td class="chg {cls}" data-col="{key}" data-chg="{pct}" title="{title}">{caret}{text}</td>'
 
 
 def spark_cell(c):
@@ -119,6 +121,58 @@ def tape_sub(c):
     return f'<span class="tape" title="Tape Print is a same-term constellation. We do not publish the sleeve weights.">tape {html.escape(money(tp.get("usd_per_gpu_hr")))} · n={tp.get("n")}</span>'
 
 
+def price_pop(d, href, src_lab):
+    unit = "card-hr" if d.get("primary") == "CNY" else "GPU-hr"
+    bits = [
+        f'<b>{html.escape(d.get("label") or "Display print")}</b>',
+        f'<span>{html.escape(display_px(d))} / {unit}</span>',
+        f'<span>{html.escape(d.get("venue") or "—")} · {html.escape(d.get("term") or "")}</span>',
+        f'<span>as of {html.escape(nice_date(d.get("as_of")))}</span>',
+    ]
+    if href:
+        bits.append(f'<a href="{href}" rel="noopener">{html.escape(src_lab)}</a>')
+    elif src_lab:
+        bits.append(f"<span>{html.escape(src_lab)}</span>")
+    if d.get("note"):
+        bits.append(f'<span class="qnote">{html.escape(d["note"])}</span>')
+    return '<div class="pop">' + "".join(bits) + "</div>"
+
+
+def venue_bar(c):
+    n = len(c.get("venues") or [])
+    liq = c.get("liquidity") or 0
+    width = min(100, max(8, int(round((liq / 3) * 100)))) if liq else (min(100, n * 25) if n else 8)
+    title = html.escape(f"{n} venue{'s' if n != 1 else ''} · liquidity {liq}/3 · {c.get('scarcity_label') or ''}", quote=True)
+    return (
+        f'<span class="vbar" title="{title}"><i style="width:{width}%"></i></span>'
+        f'<span class="vcount">{n} venue{"s" if n != 1 else ""}</span>'
+        f'<span class="sub">{html.escape(c.get("scarcity_label") or "")}</span>'
+    )
+
+
+def weather_html(items, href_prefix="#"):
+    if not items:
+        return ""
+    parts = ['<div class="weather" aria-label="Tape weather">', '<span class="wlab">Tape</span>']
+    for w in items:
+        pct = w["pct"]
+        if pct > 0:
+            cls, mark = "w-up", f"▲ +{pct:.1f}%"
+        elif pct < 0:
+            cls, mark = "w-dn", f"▼ {pct:.1f}%"
+        else:
+            cls, mark = "w-flat", "0%"
+        title = html.escape(w.get("title") or "", quote=True)
+        href = href_prefix + html.escape(w["id"])
+        parts.append(
+            f'<a class="witem {cls}" href="{href}" title="{title}">'
+            f'{html.escape(w["name"])} {html.escape(w["window"])} <b>{mark}</b> '
+            f'{html.escape(w.get("venue") or "")}</a>'
+        )
+    parts.append("</div>")
+    return "".join(parts)
+
+
 for c in chips:
     got, exp = c["score"], expected_score(c)
     if abs(got - exp) > 0.001:
@@ -130,32 +184,22 @@ for c in chips:
     d = c["display"]
     also = c.get("also") or {}
     also_text = html.escape(also.get("text") or "—")
-    disp_note = html.escape(d.get("note") or "")
     href = src_url(d.get("source_id"))
-    src_lab = html.escape(src_name(d.get("source_id")))
-    src_a = f'<a href="{href}" rel="noopener">{src_lab}</a>' if href else src_lab
-    price_title = f'{d["label"]} · {nice_date(d["as_of"])} · {src_name(d.get("source_id"))}'
-    mem = html.escape(c["memory"])
-    mem_note = html.escape(c["memory_note"] or "")
-    mem_html = f'<span class="mem">{mem}</span>'
-    if mem_note:
-        mem_html += f'<span class="sub" title="{mem_note}">{mem_note}</span>'
-    venues = html.escape(" · ".join(c["venues"]))
+    src_lab = src_name(d.get("source_id"))
+    tick = html.escape(" · ".join(x for x in (c.get("vendor"), c.get("memory")) if x))
     chg = c.get("changes") or {}
     d30 = (chg.get("d30") or {}).get("pct")
     d90 = (chg.get("d90") or {}).get("pct")
     d1y = (chg.get("d1y") or {}).get("pct")
-    rows.append(f'''<tr class="chiprow" id="{html.escape(c["id"])}" data-id="{html.escape(c["id"])}" data-vendor="{html.escape(c["vendor"])}" data-rank="{c["rank"]}" data-score="{c["score"]}" data-price="{d["usd_per_gpu_hr"] if d.get("usd_per_gpu_hr") is not None else ""}" data-d30="{"" if d30 is None else d30}" data-d90="{"" if d90 is None else d90}" data-d1y="{"" if d1y is None else d1y}" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
+    nven = len(c.get("venues") or [])
+    rows.append(f'''<tr class="chiprow" id="{html.escape(c["id"])}" data-id="{html.escape(c["id"])}" data-vendor="{html.escape(c["vendor"])}" data-rank="{c["rank"]}" data-score="{c["score"]}" data-price="{d["usd_per_gpu_hr"] if d.get("usd_per_gpu_hr") is not None else ""}" data-d30="{"" if d30 is None else d30}" data-d90="{"" if d90 is None else d90}" data-d1y="{"" if d1y is None else d1y}" data-venues="{nven}" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">{c["rank"]}</td>
-  <td class="chip" data-col="name"><span class="cn">{html.escape(c["name"])}</span></td>
-  <td data-col="vendor">{html.escape(c["vendor"])}</td>
-  <td class="memtd" data-col="memory">{mem_html}</td>
-  <td class="price" data-col="price" title="{html.escape(price_title)}">
+  <td class="chip" data-col="name"><span class="cn">{html.escape(c["name"])}</span><span class="tick">{tick}</span></td>
+  <td class="price" data-col="price">
     <span class="px">{html.escape(display_px(d))}</span>
     <span class="term">{html.escape(d["label"])}</span>
-    <span class="asof">{html.escape(nice_date(d["as_of"]))} · {src_a}</span>
-    {f'<span class="sub">{disp_note}</span>' if disp_note else ""}
     {tape_sub(c)}
+    {price_pop(d, href, src_lab)}
   </td>
   <td class="chg chg-na" data-col="d7" data-chg="" title="{html.escape(DASH_TITLE)}">—</td>
   {chg_cell(chg, "d30")}
@@ -163,8 +207,7 @@ for c in chips:
   {chg_cell(chg, "d1y")}
   {spark_cell(c)}
   <td class="also" data-col="also"><span class="also-t">{also_text}</span></td>
-  <td class="venues" data-col="venues">{venues}</td>
-  <td class="scarce" data-col="scarcity">{html.escape(c["scarcity_label"])}<span class="sub">{html.escape(c["scarcity"])}</span></td>
+  <td class="venues" data-col="venues">{venue_bar(c)}</td>
   <td class="num score" data-col="score">{c["score"]:.2f}</td>
 </tr>''')
 
@@ -302,36 +345,55 @@ h1 em{{font-style:italic}}
 .chip:hover{{border-bottom-color:var(--rule)}}
 .chip.on{{color:var(--accent);border-bottom:1px solid var(--accent)}}
 .tblwrap{{overflow-x:auto;margin:8px 0 0;border-top:2px solid var(--rule2)}}
-table.tape{{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1240px}}
+.weather{{display:flex;flex-wrap:wrap;align-items:baseline;gap:7px 18px;margin:2px 0 0;padding:10px 0 12px;border-bottom:1px solid var(--rule);font-size:13px}}
+.weather .wlab{{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}}
+.weather .witem{{border:none;color:var(--muted);white-space:nowrap}}
+.weather .witem:hover{{color:var(--ink)}}
+.weather .witem b{{font-weight:600}}
+.weather .w-up,.weather .w-up b{{color:var(--pr)}}
+.weather .w-dn,.weather .w-dn b{{color:var(--accent)}}
+.weather .w-flat b{{color:var(--ink)}}
+table.tape{{width:100%;border-collapse:collapse;font-size:12.5px;min-width:1020px}}
 .tape th{{font-weight:400;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;
-padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}}
-.tape th.num,.tape td.num{{text-align:right}}
+padding:9px 8px 8px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}}
+.tape th.num,.tape td.num,.tape th.price,.tape td.price,.tape th.chg,.tape td.chg{{text-align:right}}
 .tape th:hover{{color:var(--ink)}}
 .tape th.sorted{{color:var(--ink)}}
 .tape th .arr{{display:inline-block;margin-left:4px;color:var(--faint);font-size:9px}}
-.tape td{{padding:13px 10px;border-bottom:1px solid var(--rule);vertical-align:top}}
+.tape td{{padding:9px 8px;border-bottom:1px solid var(--rule);vertical-align:middle}}
 .tape tr.chiprow{{cursor:pointer}}
 .tape tr.chiprow:hover td{{background:var(--tint)}}
 .tape tr.chiprow.open td{{background:var(--tint)}}
 .tape .cn{{font-weight:600;border-bottom:1px solid transparent}}
 .tape tr.chiprow:hover .cn{{color:var(--accent);border-bottom-color:var(--accent)}}
-.tape .px{{font-size:16px;font-weight:600;letter-spacing:-.02em;display:block}}
+.tape .tick{{display:block;font-size:11px;color:var(--faint);margin-top:2px;letter-spacing:.02em}}
+.tape .px{{font-size:15px;font-weight:600;letter-spacing:-.02em;display:block}}
 .tape .term,.tape .asof,.tape .sub{{display:block;font-size:11px;letter-spacing:.02em;color:var(--faint);line-height:1.45;margin-top:2px;text-transform:none}}
-.tape .asof a{{border:none;color:var(--muted)}}
-.tape .asof a:hover{{color:var(--accent)}}
-.tape .also-t{{color:var(--muted);font-size:12.5px}}
-.tape .venues{{color:var(--muted);font-size:12px;max-width:160px}}
-.tape .scarce{{font-size:12.5px}}
+.tape .also-t{{color:var(--muted);font-size:12px}}
+.tape .venues{{color:var(--muted);font-size:12px;max-width:120px}}
+.tape .vbar{{display:block;height:3px;background:var(--barbg);margin:0 0 6px;max-width:72px}}
+.tape .vbar i{{display:block;height:100%;background:var(--ink);opacity:.42}}
+.tape .vcount{{display:block}}
 .tape .score{{font-weight:600}}
-.tape .chg{{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-size:13px}}
+.tape .chg{{font-variant-numeric:tabular-nums;white-space:nowrap;font-size:12.5px}}
+.tape .chg .caret{{display:inline-block;margin-right:3px;font-size:9px;transform:translateY(-1px)}}
 .tape .chg-up{{color:var(--pr)}}
 .tape .chg-dn{{color:var(--accent)}}
 .tape .chg-flat,.tape .chg-na{{color:var(--faint)}}
-.tape .sparktd{{width:96px;min-width:88px;vertical-align:middle}}
-.tape .spark{{display:block;color:var(--muted)}}
+.tape .sparktd{{width:88px;min-width:80px}}
+.tape .spark{{display:block;margin-left:auto;color:var(--muted)}}
 .tape .spark-up{{color:var(--pr)}}
 .tape .spark-dn{{color:var(--accent)}}
 .tape .tape{{display:block;margin-top:4px;font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}}
+.tape td.price{{position:relative}}
+.tape .pop{{display:none;position:absolute;right:6px;top:calc(100% - 2px);z-index:8;min-width:228px;padding:10px 12px;
+background:var(--paper);border:1px solid var(--rule2);box-shadow:0 12px 32px rgba(0,0,0,.14);text-align:left;
+font-size:12px;color:var(--muted);line-height:1.45}}
+.tape td.price:hover .pop{{display:block}}
+.tape .pop b{{color:var(--ink);display:block;margin-bottom:3px}}
+.tape .pop span,.tape .pop a{{display:block;margin-top:2px}}
+.tape .pop a{{border:none}}
+.tape .pop .qnote{{color:var(--faint);font-size:11px}}
 .hint{{margin:10px 0 0;font-size:12px;color:var(--faint);letter-spacing:.04em}}
 #scrim{{position:fixed;inset:0;background:rgba(23,22,20,.28);opacity:0;pointer-events:none;z-index:80;transition:opacity .3s ease}}
 #scrim.on{{opacity:1;pointer-events:auto}}
@@ -417,6 +479,7 @@ details.meth .mb li{{margin-bottom:6px}}
   <div class="chips" role="tablist" aria-label="Vendor filter">
     {vendor_bar}
   </div>
+  {weather_html(S.get("weather") or [])}
 
   <div class="tblwrap">
     <table class="tape" id="tape">
@@ -424,17 +487,14 @@ details.meth .mb li{{margin-bottom:6px}}
         <tr>
           <th class="num sorted" data-sort="rank" data-type="num"># <span class="arr">▼</span></th>
           <th data-sort="name" data-type="str">Chip <span class="arr"></span></th>
-          <th data-sort="vendor" data-type="str">Vendor <span class="arr"></span></th>
-          <th data-sort="memory" data-type="str">Memory <span class="arr"></span></th>
-          <th data-sort="price" data-type="num">Display print <span class="arr"></span></th>
+          <th class="price" data-sort="price" data-type="num">Price <span class="arr"></span></th>
           <th class="num" data-sort="d7" data-type="num" title="{html.escape(DASH_TITLE)}">7d <span class="arr"></span></th>
           <th class="num" data-sort="d30" data-type="num">30d <span class="arr"></span></th>
           <th class="num" data-sort="d90" data-type="num">90d <span class="arr"></span></th>
           <th class="num" data-sort="d1y" data-type="num">1y <span class="arr"></span></th>
           <th data-sort="spark" data-type="str">Sparkline <span class="arr"></span></th>
-          <th data-sort="also" data-type="str">Range / second quote <span class="arr"></span></th>
-          <th data-sort="venues" data-type="str">Venues <span class="arr"></span></th>
-          <th data-sort="scarcity" data-type="str">Scarcity <span class="arr"></span></th>
+          <th data-sort="also" data-type="str">Also <span class="arr"></span></th>
+          <th data-sort="venues" data-type="num">Venues <span class="arr"></span></th>
           <th class="num" data-sort="score" data-type="num">Score <span class="arr"></span></th>
         </tr>
       </thead>
@@ -443,7 +503,7 @@ details.meth .mb li{{margin-bottom:6px}}
       </tbody>
     </table>
   </div>
-  <p class="hint">Click a row for every sourced quote, dates, and the step chart. Display prices are labeled terms — not averages. 7d is a dash until we have a week of our own scrape. 30d / 90d / 1y need two dated same-venue same-term prints.</p>
+  <p class="hint">Hover a price for venue, term, as-of, and source. 30d / 90d / 1y use caret + color + sign from two dated prints. 7d is a dash until we have a week of our own scrape. Sparklines are ~80px step charts, colored by the longest honest window.</p>
 
   <details class="meth" open>
     <summary>How the tape is ranked — and what it refuses to be</summary>
@@ -573,12 +633,14 @@ function openD(id){{
 document.querySelectorAll("tr.chiprow").forEach(function(r){{
   r.addEventListener("click", function(){{ openD(r.dataset.id); }});
   r.addEventListener("keydown", function(e){{ if(e.key==="Enter"||e.key===" "){{ e.preventDefault(); openD(r.dataset.id); }} }});
-  r.querySelectorAll("a").forEach(function(a){{ a.addEventListener("click", function(e){{ e.stopPropagation(); }}); }});
+  r.querySelectorAll("a,.pop").forEach(function(a){{ a.addEventListener("click", function(e){{ e.stopPropagation(); }}); }});
 }});
 document.getElementById("dclose").onclick = closeD;
 scrim.onclick = closeD;
 document.addEventListener("keydown", function(e){{ if(e.key==="Escape") closeD(); }});
-if(location.hash){{ var hid = location.hash.slice(1); if(document.getElementById(hid)) openD(hid); }}
+function routeChip(){{ var hid=location.hash.slice(1); if(hid && document.getElementById(hid)) openD(hid); }}
+if(location.hash) routeChip();
+window.addEventListener("hashchange", routeChip);
 
 document.querySelectorAll(".chips .chip").forEach(function(ch){{
   ch.onclick = function(){{
@@ -606,7 +668,7 @@ document.querySelectorAll(".chips .chip").forEach(function(ch){{
         var av = a.querySelector('[data-col="'+key+'"]');
         var bv = b.querySelector('[data-col="'+key+'"]');
         if(type==="num"){{
-          var map={{price:"price",score:"score",rank:"rank",d30:"d30",d90:"d90",d1y:"d1y",d7:"d7"}};
+          var map={{price:"price",score:"score",rank:"rank",d30:"d30",d90:"d90",d1y:"d1y",d7:"d7",venues:"venues"}};
           var an = parseFloat(a.dataset[map[key]||"rank"]);
           var bn = parseFloat(b.dataset[map[key]||"rank"]);
           if(isNaN(an)) an = -Infinity; if(isNaN(bn)) bn = -Infinity;

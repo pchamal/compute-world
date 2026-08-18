@@ -336,35 +336,54 @@ html[data-theme="dark"] .tabswitch [role="tab"][aria-selected="true"]{background
 #panel-silicon .chip:hover{border-bottom-color:var(--rule)}
 #panel-silicon .chip.on{color:var(--accent);border-bottom:1px solid var(--accent)}
 #panel-silicon .tblwrap{overflow-x:auto;margin:8px 0 0;border-top:2px solid var(--rule2)}
-table.tape{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1240px}
+.weather{display:flex;flex-wrap:wrap;align-items:baseline;gap:7px 18px;margin:2px 0 0;padding:10px 0 12px;border-bottom:1px solid var(--rule);font-size:13px}
+.weather .wlab{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+.weather .witem{border:none;color:var(--muted);white-space:nowrap}
+.weather .witem:hover{color:var(--ink)}
+.weather .witem b{font-weight:600}
+.weather .w-up,.weather .w-up b{color:var(--pr)}
+.weather .w-dn,.weather .w-dn b{color:var(--accent)}
+.weather .w-flat b{color:var(--ink)}
+table.tape{width:100%;border-collapse:collapse;font-size:12.5px;min-width:1020px}
 .tape th{font-weight:400;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;
-padding:11px 10px 10px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}
-.tape th.num,.tape td.num{text-align:right}
+padding:9px 8px 8px;border-bottom:1px solid var(--rule2);white-space:nowrap;cursor:pointer;user-select:none}
+.tape th.num,.tape td.num,.tape th.price,.tape td.price,.tape th.chg,.tape td.chg{text-align:right}
 .tape th:hover{color:var(--ink)}
 .tape th.sorted{color:var(--ink)}
 .tape th .arr{display:inline-block;margin-left:4px;color:var(--faint);font-size:9px}
-.tape td{padding:13px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+.tape td{padding:9px 8px;border-bottom:1px solid var(--rule);vertical-align:middle}
 .tape tr.chiprow{cursor:pointer}
 .tape tr.chiprow:hover td{background:var(--tint)}
 .tape .cn{font-weight:600;border-bottom:1px solid transparent}
 .tape tr.chiprow:hover .cn{color:var(--accent);border-bottom-color:var(--accent)}
-.tape .px{font-size:16px;font-weight:600;letter-spacing:-.02em;display:block}
+.tape .tick{display:block;font-size:11px;color:var(--faint);margin-top:2px;letter-spacing:.02em}
+.tape .px{font-size:15px;font-weight:600;letter-spacing:-.02em;display:block}
 .tape .term,.tape .asof,.tape .sub{display:block;font-size:11px;letter-spacing:.02em;color:var(--faint);line-height:1.45;margin-top:2px;text-transform:none}
-.tape .asof a{border:none;color:var(--muted)}
-.tape .asof a:hover{color:var(--accent)}
-.tape .also-t{color:var(--muted);font-size:12.5px}
-.tape .venues{color:var(--muted);font-size:12px;max-width:160px}
-.tape .scarce{font-size:12.5px}
+.tape .also-t{color:var(--muted);font-size:12px}
+.tape .venues{color:var(--muted);font-size:12px;max-width:120px}
+.tape .vbar{display:block;height:3px;background:var(--barbg);margin:0 0 6px;max-width:72px}
+.tape .vbar i{display:block;height:100%;background:var(--ink);opacity:.42}
+.tape .vcount{display:block}
 .tape .score{font-weight:600}
-.tape .chg{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-size:13px}
+.tape .chg{font-variant-numeric:tabular-nums;white-space:nowrap;font-size:12.5px}
+.tape .chg .caret{display:inline-block;margin-right:3px;font-size:9px;transform:translateY(-1px)}
 .tape .chg-up{color:var(--pr)}
 .tape .chg-dn{color:var(--accent)}
 .tape .chg-flat,.tape .chg-na{color:var(--faint)}
-.tape .sparktd{width:96px;min-width:88px;vertical-align:middle}
-.tape .spark{display:block;color:var(--muted)}
+.tape .sparktd{width:88px;min-width:80px}
+.tape .spark{display:block;margin-left:auto;color:var(--muted)}
 .tape .spark-up{color:var(--pr)}
 .tape .spark-dn{color:var(--accent)}
 .tape .tape{display:block;margin-top:4px;font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}
+.tape td.price{position:relative}
+.tape .pop{display:none;position:absolute;right:6px;top:calc(100% - 2px);z-index:8;min-width:228px;padding:10px 12px;
+background:var(--paper);border:1px solid var(--rule2);box-shadow:0 12px 32px rgba(0,0,0,.14);text-align:left;
+font-size:12px;color:var(--muted);line-height:1.45}
+.tape td.price:hover .pop{display:block}
+.tape .pop b{color:var(--ink);display:block;margin-bottom:3px}
+.tape .pop span,.tape .pop a{display:block;margin-top:2px}
+.tape .pop a{border:none}
+.tape .pop .qnote{color:var(--faint);font-size:11px}
 #panel-silicon .hint{margin:10px 0 8px;font-size:12px;color:var(--faint);letter-spacing:.04em}
 h1{font-weight:400;font-size:clamp(34px,5vw,52px);line-height:1.14}
 h1 em{font-style:italic}
@@ -905,32 +924,30 @@ __FNAV_HTML__
       <div class="chips" id="si-vendors" role="group" aria-label="Vendor filter">
         <button class="chip on" data-v="" type="button">All</button>
       </div>
+      <div class="weather" id="si-weather" hidden></div>
       <div class="tblwrap">
         <table class="tape" id="home-tape">
           <thead>
             <tr>
               <th class="num sorted" data-sort="rank" data-type="num"># <span class="arr">▼</span></th>
               <th data-sort="name" data-type="str">Chip <span class="arr"></span></th>
-              <th data-sort="vendor" data-type="str">Vendor <span class="arr"></span></th>
-              <th data-sort="memory" data-type="str">Memory <span class="arr"></span></th>
-              <th data-sort="price" data-type="num">Display print <span class="arr"></span></th>
+              <th class="price" data-sort="price" data-type="num">Price <span class="arr"></span></th>
               <th class="num" data-sort="d7" data-type="num" title="US list prices do not tick daily. 7d lights up after a week of our own scrape.">7d <span class="arr"></span></th>
               <th class="num" data-sort="d30" data-type="num">30d <span class="arr"></span></th>
               <th class="num" data-sort="d90" data-type="num">90d <span class="arr"></span></th>
               <th class="num" data-sort="d1y" data-type="num">1y <span class="arr"></span></th>
               <th data-sort="spark" data-type="str">Sparkline <span class="arr"></span></th>
-              <th data-sort="also" data-type="str">Range / second quote <span class="arr"></span></th>
-              <th data-sort="venues" data-type="str">Venues <span class="arr"></span></th>
-              <th data-sort="scarcity" data-type="str">Scarcity <span class="arr"></span></th>
+              <th data-sort="also" data-type="str">Also <span class="arr"></span></th>
+              <th data-sort="venues" data-type="num">Venues <span class="arr"></span></th>
               <th class="num" data-sort="score" data-type="num">Score <span class="arr"></span></th>
             </tr>
           </thead>
           <tbody id="home-tape-body">
-            <tr><td colspan="14" class="hint">Loading the tape from silicon.json…</td></tr>
+            <tr><td colspan="11" class="hint">Loading the tape from silicon.json…</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="hint">Same columns as <a href="/silicon.html">The Silicon Tape</a>. Click a row for every sourced quote. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a>.</p>
+      <p class="hint">Same density as <a href="/silicon.html">The Silicon Tape</a>. Hover a price for the exact venue print. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a>.</p>
     </div>
   </div><!-- /hometabs -->
 
@@ -1251,7 +1268,7 @@ function bindHomeTape(){
       const rows=[].slice.call(tb.querySelectorAll("tr.chiprow"));
       rows.sort((a,b)=>{
         if(type==="num"){
-          const map={price:"price",score:"score",rank:"rank",d30:"d30",d90:"d90",d1y:"d1y",d7:"d7"};
+          const map={price:"price",score:"score",rank:"rank",d30:"d30",d90:"d90",d1y:"d1y",d7:"d7",venues:"venues"};
           let an=parseFloat(a.dataset[map[key]||"rank"]);
           let bn=parseFloat(b.dataset[map[key]||"rank"]);
           if(isNaN(an)) an=-Infinity; if(isNaN(bn)) bn=-Infinity;
@@ -1291,22 +1308,40 @@ async function loadHomeTape(){
       const row=(chg&&chg[key])||{};
       const pct=row.pct;
       const title=(row.title||"US list prices do not tick daily. 7d lights up after a week of our own scrape.").replace(/"/g,"&quot;");
-      if(pct==null) return '<td class="chg" data-col="'+key+'" title="'+title+'">—</td>';
+      if(pct==null) return '<td class="chg chg-na" data-col="'+key+'" title="'+title+'">—</td>';
       const cls=pct>0?"chg-up":pct<0?"chg-dn":"chg-flat";
+      const caret=pct>0?'<span class="caret" aria-hidden="true">▲</span>':pct<0?'<span class="caret" aria-hidden="true">▼</span>':"";
       const text=pct===0?"0%":((pct>0?"+":"")+Number(pct).toFixed(1)+"%");
-      return '<td class="chg '+cls+'" data-col="'+key+'" title="'+title+'">'+text+"</td>";
+      return '<td class="chg '+cls+'" data-col="'+key+'" title="'+title+'">'+caret+text+"</td>";
+    }
+    function pricePop(d,href,srcLab){
+      const unit=d.primary==="CNY"?"card-hr":"GPU-hr";
+      let h='<div class="pop"><b>'+(d.label||"Display print")+"</b>";
+      h+="<span>"+displayTape(d)+" / "+unit+"</span>";
+      h+="<span>"+(d.venue||"—")+" · "+(d.term||"")+"</span>";
+      h+="<span>as of "+niceTapeDate(d.as_of)+"</span>";
+      if(href) h+='<a href="'+href+'" rel="noopener">'+(srcLab||"source")+"</a>";
+      else if(srcLab) h+="<span>"+srcLab+"</span>";
+      if(d.note) h+='<span class="qnote">'+d.note+"</span>";
+      return h+"</div>";
+    }
+    const wx=document.getElementById("si-weather");
+    if(wx && S.weather && S.weather.length){
+      wx.hidden=false;
+      wx.innerHTML='<span class="wlab">Tape</span>'+S.weather.map(w=>{
+        const pct=w.pct;
+        const cls=pct>0?"w-up":pct<0?"w-dn":"w-flat";
+        const mark=pct>0?("▲ +"+Number(pct).toFixed(1)+"%"):pct<0?("▼ "+Number(pct).toFixed(1)+"%"):"0%";
+        const title=(w.title||"").replace(/"/g,"&quot;");
+        return '<a class="witem '+cls+'" href="/silicon.html#'+w.id+'" title="'+title+'">'+(w.name||"")+" "+(w.window||"")+" <b>"+mark+"</b> "+(w.venue||"")+"</a>";
+      }).join("");
     }
     tb.innerHTML=chips.map(c=>{
       const d=c.display||{};
       const also=(c.also&&c.also.text)||"—";
-      const mem=c.memory||"";
-      const memNote=c.memory_note||"";
-      const memHtml='<span class="mem">'+mem+"</span>"+(memNote?'<span class="sub" title="'+memNote.replace(/"/g,"&quot;")+'">'+memNote+"</span>":"");
       const href=d.source_id&&SRC[d.source_id]?SRC[d.source_id].url:"";
       const srcLab=d.source_id&&SRC[d.source_id]?SRC[d.source_id].name:"unlinked";
-      const srcHtml=href?'<a href="'+href+'" rel="noopener">'+srcLab+"</a>":srcLab;
-      const priceTitle=(d.label||"")+" · "+niceTapeDate(d.as_of)+" · "+srcLab;
-      const dispNote=d.note?'<span class="sub">'+d.note+"</span>":"";
+      const tick=[c.vendor,c.memory].filter(Boolean).join(" · ");
       const px=d.usd_per_gpu_hr;
       const chg=c.changes||{};
       const spark=c.spark||{};
@@ -1315,28 +1350,29 @@ async function loadHomeTape(){
       const tp=c.tape_print||{};
       const tapeHtml=tp.show?'<span class="tape" title="Tape Print is a same-term constellation. We do not publish the sleeve weights.">tape '+moneyTape(tp.usd_per_gpu_hr)+" · n="+tp.n+"</span>":"";
       const d30=chg.d30&&chg.d30.pct, d90=chg.d90&&chg.d90.pct, d1y=chg.d1y&&chg.d1y.pct;
-      return '<tr class="chiprow" data-id="'+c.id+'" data-vendor="'+(c.vendor||"")+'" data-rank="'+c.rank+'" data-score="'+c.score+'" data-price="'+(px==null?"":px)+'" data-d30="'+(d30==null?"":d30)+'" data-d90="'+(d90==null?"":d90)+'" data-d1y="'+(d1y==null?"":d1y)+'">'+
+      const nven=(c.venues||[]).length;
+      const liq=c.liquidity||0;
+      const barW=liq?Math.max(8,Math.round(liq/3*100)):Math.min(100,nven*25||8);
+      const vtitle=(nven+" venue"+(nven===1?"":"s")+" · liquidity "+liq+"/3 · "+(c.scarcity_label||"")).replace(/"/g,"&quot;");
+      return '<tr class="chiprow" data-id="'+c.id+'" data-vendor="'+(c.vendor||"")+'" data-rank="'+c.rank+'" data-score="'+c.score+'" data-price="'+(px==null?"":px)+'" data-d30="'+(d30==null?"":d30)+'" data-d90="'+(d90==null?"":d90)+'" data-d1y="'+(d1y==null?"":d1y)+'" data-venues="'+nven+'">'+
         '<td class="num" data-col="rank">'+c.rank+"</td>"+
-        '<td class="chip" data-col="name"><span class="cn">'+(c.name||"")+"</span></td>"+
-        '<td data-col="vendor">'+(c.vendor||"")+"</td>"+
-        '<td class="memtd" data-col="memory">'+memHtml+"</td>"+
-        '<td class="price" data-col="price" title="'+priceTitle.replace(/"/g,"&quot;")+'"><span class="px">'+displayTape(d)+'</span><span class="term">'+(d.label||"")+'</span><span class="asof">'+niceTapeDate(d.as_of)+" · "+srcHtml+"</span>"+dispNote+tapeHtml+"</td>"+
+        '<td class="chip" data-col="name"><span class="cn">'+(c.name||"")+'</span><span class="tick">'+tick+"</span></td>"+
+        '<td class="price" data-col="price"><span class="px">'+displayTape(d)+'</span><span class="term">'+(d.label||"")+"</span>"+tapeHtml+pricePop(d,href,srcLab)+"</td>"+
         '<td class="chg chg-na" data-col="d7" title="US list prices do not tick daily. 7d lights up after a week of our own scrape.">—</td>'+
         chgCell(chg,"d30")+chgCell(chg,"d90")+chgCell(chg,"d1y")+
         '<td class="sparktd" data-col="spark" title="'+sparkTitle+'">'+sparkHtml+"</td>"+
         '<td class="also" data-col="also"><span class="also-t">'+also+"</span></td>"+
-        '<td class="venues" data-col="venues">'+(c.venues||[]).join(" · ")+"</td>"+
-        '<td class="scarce" data-col="scarcity">'+(c.scarcity_label||"")+'<span class="sub">'+(c.scarcity||"")+"</span></td>"+
+        '<td class="venues" data-col="venues"><span class="vbar" title="'+vtitle+'"><i style="width:'+barW+'%"></i></span><span class="vcount">'+nven+" venue"+(nven===1?"":"s")+'</span><span class="sub">'+(c.scarcity_label||"")+"</span></td>"+
         '<td class="num score" data-col="score">'+(Number(c.score).toFixed(2))+"</td></tr>";
     }).join("");
     tb.querySelectorAll("tr.chiprow").forEach(r=>{
       r.addEventListener("click",()=>{ location.href="/silicon.html#"+r.dataset.id; });
-      r.querySelectorAll("a").forEach(a=>a.addEventListener("click",e=>e.stopPropagation()));
+      r.querySelectorAll("a,.pop").forEach(a=>a.addEventListener("click",e=>e.stopPropagation()));
     });
     bindHomeTape();
     _tapeLoaded=true;
   }catch(e){
-    tb.innerHTML='<tr><td colspan="14" class="hint">The tape needs silicon.json. The standalone page is at <a href="/silicon.html">silicon.html</a>.</td></tr>';
+    tb.innerHTML='<tr><td colspan="11" class="hint">The tape needs silicon.json. The standalone page is at <a href="/silicon.html">silicon.html</a>.</td></tr>';
   }
 }
 

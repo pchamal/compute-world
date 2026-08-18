@@ -362,8 +362,10 @@
             "price": 6.69
           }
         ],
-        "svg": "<svg class=\"spark spark-up\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,24.0 H11.3 V24.0 H20.7 V24.0 H30.0 V24.0 H39.3 V24.0 H48.7 V24.0 H58.0 V2.0 H67.3 V2.0 H76.7 V2.0 H86.0 V2.0\"/></svg>",
-        "title": "Step chart of dated prints. Carry-forward is for drawing only."
+        "direction": "flat",
+        "window": "90d",
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,26.0 H10.4 V26.0 H18.9 V26.0 H27.3 V26.0 H35.8 V26.0 H44.2 V26.0 H52.7 V2.0 H61.1 V2.0 H69.6 V2.0 H78.0 V2.0\"/></svg>",
+        "title": "Colored by 90d (0%). Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
         "usd_per_gpu_hr": 6.69,
@@ -616,8 +618,10 @@
             "price": 3.99
           }
         ],
-        "svg": "<svg class=\"spark spark-up\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,24.0 H11.3 V24.0 H20.7 V24.0 H30.0 V24.0 H39.3 V24.0 H48.7 V24.0 H58.0 V24.0 H67.3 V2.0 H76.7 V2.0 H86.0 V2.0\"/></svg>",
-        "title": "Step chart of dated prints. Carry-forward is for drawing only."
+        "direction": "up",
+        "window": "1y",
+        "svg": "<svg class=\"spark spark-up\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,26.0 H10.4 V26.0 H18.9 V26.0 H27.3 V26.0 H35.8 V26.0 H44.2 V26.0 H52.7 V26.0 H61.1 V2.0 H69.6 V2.0 H78.0 V2.0\"/></svg>",
+        "title": "Colored by 1y (+33.4%). Step chart of dated prints. Carry-forward is for drawing only."
       },
       "spark_sa_1y": {
         "label": "SA 1y",
@@ -675,7 +679,7 @@
             "price": 2.35
           }
         ],
-        "svg": "<svg class=\"spark spark-up\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,24.0 H11.3 V24.0 H20.7 V24.0 H30.0 V24.0 H39.3 V24.0 H48.7 V24.0 H58.0 V24.0 H67.3 V24.0 H76.7 V24.0 H86.0 V2.0\"/></svg>",
+        "svg": "<svg class=\"spark spark-up\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,26.0 H10.4 V26.0 H18.9 V26.0 H27.3 V26.0 H35.8 V26.0 H44.2 V26.0 H52.7 V26.0 H61.1 V26.0 H69.6 V26.0 H78.0 V2.0\"/></svg>",
         "title": "SemiAnalysis 1y — last public period Apr 2026, STALE. Not today's on-demand %."
       },
       "tape_print": {
@@ -862,8 +866,10 @@
             "price": 6.31
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0 H11.3 V13.0 H20.7 V13.0 H30.0 V13.0 H39.3 V13.0 H48.7 V13.0 H58.0 V13.0 H67.3 V13.0 H76.7 V13.0 H86.0 V13.0\"/></svg>",
-        "title": "Step chart of dated prints. Carry-forward is for drawing only."
+        "direction": "flat",
+        "window": "1y",
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0 H10.4 V14.0 H18.9 V14.0 H27.3 V14.0 H35.8 V14.0 H44.2 V14.0 H52.7 V14.0 H61.1 V14.0 H69.6 V14.0 H78.0 V14.0\"/></svg>",
+        "title": "Colored by 1y (0%). Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
         "usd_per_gpu_hr": 6.31,
@@ -965,7 +971,9 @@
             "price": 10.5
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -1153,8 +1161,10 @@
             "price": 2.79
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0 H11.3 V13.0 H20.7 V13.0 H30.0 V13.0 H39.3 V13.0 H48.7 V13.0 H58.0 V13.0 H67.3 V13.0 H76.7 V13.0 H86.0 V13.0\"/></svg>",
-        "title": "Step chart of dated prints. Carry-forward is for drawing only."
+        "direction": "flat",
+        "window": "1y",
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0 H10.4 V14.0 H18.9 V14.0 H27.3 V14.0 H35.8 V14.0 H44.2 V14.0 H52.7 V14.0 H61.1 V14.0 H69.6 V14.0 H78.0 V14.0\"/></svg>",
+        "title": "Colored by 1y (0%). Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
         "usd_per_gpu_hr": 2.7,
@@ -1272,7 +1282,9 @@
             "price": 4.48
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -1369,6 +1381,8 @@
       "spark": {
         "points": [],
         "steps": [],
+        "direction": "flat",
+        "window": null,
         "svg": "",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
@@ -1474,7 +1488,9 @@
             "price": 12.0
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -1582,7 +1598,9 @@
             "price": 10.79
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -1676,6 +1694,8 @@
       "spark": {
         "points": [],
         "steps": [],
+        "direction": "flat",
+        "window": null,
         "svg": "",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
@@ -1789,7 +1809,9 @@
             "price": 2.25
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -1906,7 +1928,9 @@
             "price": 2.59
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -2004,7 +2028,9 @@
             "price": 3.8
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -2101,7 +2127,9 @@
             "price": 2.7
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -2194,7 +2222,9 @@
             "price": 2.235
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -2288,6 +2318,8 @@
       "spark": {
         "points": [],
         "steps": [],
+        "direction": "flat",
+        "window": null,
         "svg": "",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
@@ -2381,7 +2413,9 @@
             "price": 6.5
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -2481,7 +2515,9 @@
             "price": 2.5
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -2578,7 +2614,9 @@
             "price": 4.2
           }
         ],
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 88 26\" width=\"88\" height=\"26\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,13.0\"/></svg>",
+        "direction": "flat",
+        "window": null,
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -2588,6 +2626,40 @@
         "as_of": "2026-08-18",
         "show": false
       }
+    }
+  ],
+  "weather": [
+    {
+      "id": "nvidia-h100-sxm-80gb",
+      "name": "H100 SXM 80GB",
+      "window": "1y",
+      "pct": 33.4,
+      "venue": "Lambda OD",
+      "title": "Lambda on-demand $2.99 on 2025-08-12 → $3.99 on 2026-08-18 (+33.4%)"
+    },
+    {
+      "id": "nvidia-b200-sxm6",
+      "name": "B200 SXM6",
+      "window": "90d",
+      "pct": 0.0,
+      "venue": "Lambda OD",
+      "title": "Lambda on-demand $6.69 on 2026-05-21 → $6.69 on 2026-08-18 (0.0%)"
+    },
+    {
+      "id": "nvidia-h200-sxm-141gb",
+      "name": "H200 SXM 141GB",
+      "window": "1y",
+      "pct": 0.0,
+      "venue": "CoreWeave OD",
+      "title": "CoreWeave on-demand $6.31 on 2025-08-21 → $6.31 on 2026-08-18 (0.0%)"
+    },
+    {
+      "id": "nvidia-a100-sxm-80gb",
+      "name": "A100 SXM 80GB",
+      "window": "90d",
+      "pct": 0.0,
+      "venue": "Lambda OD",
+      "title": "Lambda on-demand $2.79 on 2026-05-21 → $2.79 on 2026-08-18 (0.0%)"
     }
   ]
 }
