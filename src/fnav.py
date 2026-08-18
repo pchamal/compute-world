@@ -1,4 +1,4 @@
-# Shared floating nav for public compute.world pages (index, wire, contact, agents).
+# Shared floating nav for public compute.world pages (index, wire, silicon, contact, agents).
 # Builders import css/markup/script. contact.html inlines the same snippets by hand
 # so a rebuild of generated pages cannot drop the bar on that page.
 # embed.html is an embeddable widget — do not add this chrome there.
@@ -11,6 +11,7 @@ LINKS = (
     ("precedents", "Precedents", "#precedents"),
     ("gazetteer", "Gazetteer", "#gazetteer"),
     ("wire", "Wire", "/wire.html"),
+    ("silicon", "Silicon", "/silicon.html"),
     ("credit", "Cite", "#credit"),
     ("contact", "Contact", "/contact.html"),
     ("agents", "Agents", "/agents.html"),
@@ -20,6 +21,7 @@ LINKS = (
 HOME_CURRENT = ("index",)  # Index is the page; Board is a section
 INNER = {
     "wire": "wire",
+    "silicon": "silicon",
     "contact": "contact",
     "agents": "agents",
 }
@@ -66,7 +68,7 @@ html[data-theme="dark"] #fnav{background:var(--glass,rgba(23,21,17,.72));border-
 html[data-theme="dark"] #fnav a{color:var(--ink,#ece7db)}
 html[data-theme="dark"] #fnav a:hover,html[data-theme="dark"] #fnav a.here,html[data-theme="dark"] #nburger:hover{color:var(--accent,#c2564c)}
 html[data-theme="dark"] #fnav .ndot{background:var(--pr,#8fae72)}
-@media(max-width:1080px){
+@media(max-width:1240px){
   #nburger{display:block}
   #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
   align-items:flex-end;gap:13px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(16px) saturate(1.1);

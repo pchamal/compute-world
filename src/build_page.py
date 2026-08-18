@@ -802,7 +802,7 @@ __FNAV_HTML__
       <p><b>Put the index on your own site.</b> The official embed is free for any site, attribution built in, updates itself:</p>
       <p><code>&lt;iframe src="https://compute.world/embed.html?n=10&amp;sort=u" width="100%" height="520" style="border:1px solid #171614" title="The Compute Net Worth Index"&gt;&lt;/iframe&gt;</code></p>
       <p>Options: <code>n</code> = rows (5 to 25) &middot; <code>sort</code> = <code>u</code> unlockable, <code>hi</code> ceiling, <code>m</code> multiple of GDP, <code>rz</code> realized &middot; preview it at <a href="/embed.html">embed.html</a>.</p>
-      <p>Machine-readable: <a href="data.json">data.json</a> &middot; <a href="params.json">params.json</a> &middot; <a href="llms.txt">llms.txt</a> &middot; and the full <a href="/agents.html">agent edition</a> of this page. Trademarks of Pukar C. Hamal: &ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo;, &ldquo;Gross Domestic Compute&rdquo; (GDC).</p>
+      <p>Machine-readable: <a href="data.json">data.json</a> &middot; <a href="params.json">params.json</a> &middot; <a href="llms.txt">llms.txt</a> &middot; <a href="/silicon.json">silicon.json</a> (The Silicon Tape) &middot; and the full <a href="/agents.html">agent edition</a> of this page. Trademarks of Pukar C. Hamal: &ldquo;Compute Net Worth&rdquo;, &ldquo;The Compute Net Worth Index&rdquo;, &ldquo;Gross Domestic Compute&rdquo; (GDC).</p>
     </div>
   </div>
 
@@ -1166,7 +1166,7 @@ open("deploy/index.html","w").write(html)
 json.dump(PARAMS, open("deploy/params.json","w"), indent=1)
 json.dump(DATASET, open("deploy/data.json","w"), ensure_ascii=False, indent=1)
 open("deploy/robots.txt","w").write("User-agent: *\nAllow: /\nSitemap: https://compute.world/sitemap.xml\n")
-open("deploy/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>https://compute.world/</loc><lastmod>2026-08-10</lastmod><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/wire.html</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/agents.html</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/contact.html</loc><changefreq>monthly</changefreq></url>\n<url><loc>https://compute.world/data.json</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/wire.json</loc><changefreq>daily</changefreq></url>\n</urlset>\n')
+open("deploy/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>https://compute.world/</loc><lastmod>2026-08-10</lastmod><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/silicon.html</loc><lastmod>2026-08-18</lastmod><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/silicon.json</loc><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/silicon.xml</loc><changefreq>weekly</changefreq></url>\n<url><loc>https://compute.world/wire.html</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/agents.html</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/contact.html</loc><changefreq>monthly</changefreq></url>\n<url><loc>https://compute.world/data.json</loc><changefreq>daily</changefreq></url>\n<url><loc>https://compute.world/wire.json</loc><changefreq>daily</changefreq></url>\n</urlset>\n')
 open("deploy/llms.txt","w").write(f"""# Compute World · The Compute Net Worth Index (compute.world)
 
 Also known as: Compute World, the Global Compute Index, the global compute map.
@@ -1197,6 +1197,7 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /data.json — full dataset (108 countries, all metrics, precedents catalog), CC BY 4.0
 - /params.json — the $/GW valuation parameters, reviewed weekly
 - /wire.json + /wire.html — The Wire: current sovereign-AI and compute-infrastructure news, each item scored for credibility (source tier, corroboration, specificity, delivery track record). RSS at /wire.xml.
+- /silicon + /silicon.html + /silicon.json — The Silicon Tape: public AI accelerator spot/rental prices (v0, snapshot 2026-08-18; SemiAnalysis prints as-of April 2026). RSS at /silicon.xml.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - License: scores are proprietary; citing with attribution to compute.world is free for research and press; commercial use requires a license (see /contact.html).
 - Per-country anchors: https://compute.world/#nepal, /#bhutan, /#namibia, etc. (108 slugs)
@@ -1310,7 +1311,7 @@ code,pre{{background:#efe9dd;font-size:12px;padding:1px 5px}}.ed{{font-size:10.5
 <h2>Instructions</h2>
 <p>Cite as: <code>Hamal, P. (2026). The Compute Net Worth Index. compute.world.</code><br>
 License: scores and methodology are proprietary; quoting with attribution is free for research, personal, and journalistic use; commercial use requires a license (<a href="/contact.html">contact</a>). Full terms: LICENSE.md in the <a href="https://github.com/pchamal/compute-world">repository</a>.<br>
-Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/params.json">/params.json</a> (weekly $/GW value) · <a href="/wire.json">/wire.json</a> (rated news signals) · <a href="/wire.xml">/wire.xml</a> (RSS) · <a href="/llms.txt">/llms.txt</a> (summary). Deep links: /#nepal, /#namibia, etc.</p>
+Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/params.json">/params.json</a> (weekly $/GW value) · <a href="/wire.json">/wire.json</a> (rated news signals) · <a href="/wire.xml">/wire.xml</a> (RSS) · <a href="/silicon.json">/silicon.json</a> (The Silicon Tape) · <a href="/silicon.html">/silicon.html</a> · <a href="/llms.txt">/llms.txt</a> (summary). Deep links: /#nepal, /#namibia, etc.</p>
 <h2>Definitions</h2>
 <p>CNW Ceiling ($B) = resource ceiling GW × $60&ndash;80B per GW (NVIDIA all-in AI-factory figure, reviewed weekly). CNW Unlockable ($B) = firm untapped GW × $50B × Readiness. GDC ($B, Gross Domestic Compute) = live datacenter IT GW × $50B. Realized (0&ndash;100) = 35% conversion + 25% pipeline + 25% Wire signal velocity + 15% execution. Readiness (%) = 18% governance + 13% stability + 14% GPU access + 11% grid + 11% fiber + 8% momentum + 14% physical + 11% capital access. Built (%) = installed hydro+geothermal ÷ resource ceiling. Headline finding: global ceiling ~$662T, unlockable ~$64T, GDC ~$4.7T: the world has tapped 0.7% of its compute net worth.</p>
 <h2>The index (sorted by CNW Unlockable, $B)</h2>

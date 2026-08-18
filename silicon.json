@@ -1,0 +1,525 @@
+{
+  "name": "The Silicon Tape · compute.world",
+  "updated": "2026-08-18",
+  "snapshot": "2026-08-18",
+  "version": "v0",
+  "license": "CC BY 4.0 with attribution to compute.world",
+  "cite": "Hamal, P. (2026). The Silicon Tape. compute.world.",
+  "thesis": "The public rental tape is split: marketplace 1x H100s still print cheap; committed H100/H200/B200 clusters and NVL72 offtake are scarce (SemiAnalysis Apr 2026; CoreWeave Aug 2026 sold-out after a ~25% July raise).",
+  "rank_formula": "score = 0.40*liquidity + 0.35*demand + 0.25*frontier; each component 0–3. Scores are ordinal hygiene, not a valuation.",
+  "methodology": "Display price prefers a labeled SemiAnalysis 1y contract when one exists (H100). Otherwise a labeled on-demand print from the most liquid public neocloud (Lambda, else CoreWeave). A second venue is shown in the row and never blended into the headline number. Capacity Blocks, marketplace floors, and on-demand are incompatible terms. SemiAnalysis public prints stop at April 2026 and are labeled as such. August 2026 figures are neocloud and hyperscaler list pages fetched 2026-08-18. No market-cap, no 7d/30d change, no invented chips.",
+  "display_convention": "Prefer labeled 1y if SemiAnalysis has one. Else labeled on-demand from Lambda or CoreWeave. Always show at least one other venue when a second sourced print exists. Never average incompatible terms.",
+  "omitted": [
+    {"id": "intel-gaudi-3", "reason": "No sourced public chip-hour tape in this snapshot; do not invent a row."},
+    {"id": "groq-lpu", "reason": "Priced as a token API, not a chip-hour."},
+    {"id": "rtx-6000-ada", "reason": "No sourced row in this snapshot."},
+    {"id": "nvidia-msrp", "reason": "Official NVIDIA MSRP is not a rental print."},
+    {"id": "7d-30d-change", "reason": "No source for 7-day or 30-day percent change."},
+    {"id": "voltage-park-1.99", "reason": "Aggregator-only; not a primary venue print."}
+  ],
+  "cannot_show_global": [
+    "Official NVIDIA MSRP",
+    "7-day or 30-day percent change (no source)",
+    "Voltage Park $1.99 (aggregator-only)",
+    "Intel Gaudi 3, Groq LPU (token API), RTX 6000 Ada"
+  ],
+  "sources": [
+    {"id": "sa-index", "name": "SemiAnalysis GPU Rental Index", "url": "https://gpu-index.semianalysis.com/", "note": "Public dashboard prints stop at April 2026."},
+    {"id": "sa-shortage", "name": "SemiAnalysis: The Great GPU Shortage", "url": "https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity", "note": "Apr 2026 scarcity read; rental capacity increasingly impossible."},
+    {"id": "lambda", "name": "Lambda", "url": "https://lambda.ai/pricing", "note": "List page fetched 2026-08-18."},
+    {"id": "coreweave", "name": "CoreWeave", "url": "https://www.coreweave.com/pricing", "note": "List page fetched 2026-08-18."},
+    {"id": "crusoe", "name": "Crusoe", "url": "https://www.crusoe.ai/cloud/pricing", "note": "List page fetched 2026-08-18."},
+    {"id": "aws-cb", "name": "AWS Capacity Blocks", "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/", "note": "List page fetched 2026-08-18. Not on-demand."},
+    {"id": "gcp-tpu", "name": "Google Cloud TPU", "url": "https://cloud.google.com/tpu/pricing", "note": "List page fetched 2026-08-18."},
+    {"id": "gcp-accel", "name": "Google Cloud accelerator-optimized", "url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized", "note": "List page fetched 2026-08-18."},
+    {"id": "tw-mi300x", "name": "TensorWave MI300X", "url": "https://tensorwave.com/products/accelerators/amd-mi300x", "note": "List page fetched 2026-08-18."},
+    {"id": "tw-mi325x", "name": "TensorWave MI325X", "url": "https://tensorwave.com/products/accelerators/amd-mi325x", "note": "List page fetched 2026-08-18."},
+    {"id": "tw-mi355x", "name": "TensorWave MI355X", "url": "https://tensorwave.com/products/accelerators/amd-mi355x", "note": "List page fetched 2026-08-18."},
+    {"id": "oracle", "name": "Oracle Cloud GPU", "url": "https://www.oracle.com/cloud/compute/gpu/", "note": "List page fetched 2026-08-18."},
+    {"id": "inc-cw", "name": "Inc.: CoreWeave sold-out after a ~25% July raise", "url": "https://www.inc.com/georgia-fearn/coreweave-raised-prices-25-percent-near-term-computing-capacity-still-sold-out/91389601", "note": "August 2026 trade press."}
+  ],
+  "chips": [
+    {
+      "id": "nvidia-b200-sxm6",
+      "rank": 1,
+      "name": "B200 SXM6",
+      "vendor": "NVIDIA",
+      "memory": "180 GB HBM3e",
+      "memory_note": "Lambda/CoreWeave list; AWS 179 GiB; marketing often 192.",
+      "process": "TSMC 4NP",
+      "score": 3.0,
+      "liquidity": 3,
+      "demand": 3,
+      "frontier": 3,
+      "scarcity": "SA Apr: rental capacity increasingly impossible; market-wide booked through Aug–Sep 2026 as of Apr 2. Crusoe sales-gated.",
+      "scarcity_label": "Booked / sales-gated",
+      "venues": ["Lambda", "CoreWeave", "AWS", "GCP", "Crusoe"],
+      "display": {
+        "usd_per_gpu_hr": 6.69,
+        "term": "on-demand",
+        "venue": "Lambda",
+        "as_of": "2026-08-18",
+        "source_id": "lambda",
+        "label": "Lambda OD"
+      },
+      "also": {
+        "text": "CoreWeave $8.60 OD · SA Apr $3.68",
+        "as_of": "2026-08-18"
+      },
+      "availability": "Crusoe sales-gated. SemiAnalysis (2 Apr 2026): rental capacity increasingly impossible; market-wide booked through August–September 2026. CoreWeave near-term capacity sold-out in August 2026 after a ~25% July raise.",
+      "cannot_show": ["Official NVIDIA MSRP", "7d/30d % change", "A blended OD / Capacity Block / SA composite average"],
+      "quotes": [
+        {"venue": "Lambda", "term": "on-demand", "usd_per_gpu_hr": 6.69, "as_of": "2026-08-18", "source_id": "lambda"},
+        {"venue": "CoreWeave", "term": "on-demand", "usd_per_gpu_hr": 8.60, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "CoreWeave", "term": "spot", "usd_per_gpu_hr": 4.26, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "SemiAnalysis", "term": "composite", "usd_per_gpu_hr": 3.68, "as_of": "2026-04", "source_id": "sa-index", "note": "Public dashboard print. SA public prints stop at April 2026."},
+        {"venue": "AWS", "term": "Capacity Blocks", "usd_per_gpu_hr": 12.355, "as_of": "2026-08-18", "source_id": "aws-cb", "note": "Not on-demand."},
+        {"venue": "GCP", "term": "1y CUD", "usd_per_gpu_hr": 11.12, "as_of": "2026-08-18", "source_id": "gcp-accel", "note": "On-demand N/A on the fetched list."},
+        {"venue": "Crusoe", "term": "listed, no number", "usd_per_gpu_hr": null, "as_of": "2026-08-18", "source_id": "crusoe", "note": "Sales-gated; no public dollar print in this snapshot."}
+      ]
+    },
+    {
+      "id": "nvidia-h100-sxm-80gb",
+      "rank": 2,
+      "name": "H100 SXM 80GB",
+      "vendor": "NVIDIA",
+      "memory": "80 GB HBM3",
+      "memory_note": null,
+      "process": "TSMC 4N",
+      "score": 2.75,
+      "liquidity": 3,
+      "demand": 3,
+      "frontier": 2,
+      "scarcity": "Marketplace 1x still prints cheap; committed clusters are scarce.",
+      "scarcity_label": "1x cheap / clusters scarce",
+      "venues": ["SemiAnalysis", "Lambda", "CoreWeave", "Crusoe", "AWS", "GCP"],
+      "display": {
+        "usd_per_gpu_hr": 2.35,
+        "term": "1y contract",
+        "venue": "SemiAnalysis",
+        "as_of": "2026-03",
+        "source_id": "sa-index",
+        "label": "SA 1y",
+        "note": "March 2026 point on the public dashboard. SA public prints stop at April 2026. April p25–p75 $2.10–$2.70."
+      },
+      "also": {
+        "text": "Lambda $3.99 OD · SA Apr p25–p75 $2.10–$2.70",
+        "as_of": "2026-08-18"
+      },
+      "availability": "Widely listed as 1x on-demand. Committed H100 clusters remain scarce on the Apr 2026 SemiAnalysis read. Sourced path: $1.70 Oct 2025 trough → $2.35 Mar 2026 (+40%).",
+      "cannot_show": [
+        "$8 as a 2023 1y peak (not on the current public dashboard)",
+        "Vast $1.33 as a headline number (single listing, not an SLA)",
+        "7d/30d % change"
+      ],
+      "notes": [
+        "Closest sourced 2023 peak is the SemiAnalysis composite $6.62 (2H 2023), not an $8 1y print.",
+        "Vast marketplace floor $1.33 is a single listing, not an SLA — detail only."
+      ],
+      "quotes": [
+        {"venue": "SemiAnalysis", "term": "1y contract", "usd_per_gpu_hr": 2.35, "as_of": "2026-03", "source_id": "sa-index", "note": "March 2026 point. SA public prints stop at April 2026."},
+        {"venue": "SemiAnalysis", "term": "1y p25–p75", "usd_per_gpu_hr": null, "range": [2.10, 2.70], "as_of": "2026-04", "source_id": "sa-index"},
+        {"venue": "SemiAnalysis", "term": "composite", "usd_per_gpu_hr": 2.82, "as_of": "2026-04", "source_id": "sa-index"},
+        {"venue": "Lambda", "term": "on-demand", "usd_per_gpu_hr": 3.99, "as_of": "2026-08-18", "source_id": "lambda"},
+        {"venue": "CoreWeave", "term": "on-demand", "usd_per_gpu_hr": 6.16, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "CoreWeave", "term": "spot", "usd_per_gpu_hr": 2.46, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "Crusoe", "term": "on-demand", "usd_per_gpu_hr": 3.90, "as_of": "2026-08-18", "source_id": "crusoe"},
+        {"venue": "AWS", "term": "Capacity Blocks", "usd_per_gpu_hr": 5.191, "as_of": "2026-08-18", "source_id": "aws-cb", "note": "Not on-demand."},
+        {"venue": "GCP", "term": "on-demand", "usd_per_gpu_hr": 11.06, "as_of": "2026-08-18", "source_id": "gcp-accel"},
+        {"venue": "SemiAnalysis", "term": "composite trough", "usd_per_gpu_hr": 1.70, "as_of": "2025-10", "source_id": "sa-index", "note": "Oct 2025 trough on the sourced path to the Mar 2026 1y $2.35."},
+        {"venue": "SemiAnalysis", "term": "composite 2H 2023 peak", "usd_per_gpu_hr": 6.62, "as_of": "2023-H2", "source_id": "sa-index", "note": "Closest sourced 2023 peak. Do not treat $8 as a 2023 1y peak — that print is not on the current public dashboard."},
+        {"venue": "Vast", "term": "marketplace floor", "usd_per_gpu_hr": 1.33, "as_of": "2026-08-18", "source_id": null, "note": "Single listing, not an SLA. Not a headline number. No primary URL in this snapshot."}
+      ]
+    },
+    {
+      "id": "nvidia-h200-sxm-141gb",
+      "rank": 3,
+      "name": "H200 SXM 141GB",
+      "vendor": "NVIDIA",
+      "memory": "141 GB HBM3e",
+      "memory_note": null,
+      "process": null,
+      "score": 2.75,
+      "liquidity": 3,
+      "demand": 3,
+      "frontier": 2,
+      "scarcity": "Committed clusters scarce. SA public composite blank.",
+      "scarcity_label": "Clusters scarce",
+      "venues": ["CoreWeave", "Crusoe", "AWS", "GCP", "Azure"],
+      "display": {
+        "usd_per_gpu_hr": 6.31,
+        "term": "on-demand",
+        "venue": "CoreWeave",
+        "as_of": "2026-08-18",
+        "source_id": "coreweave",
+        "label": "CoreWeave OD",
+        "note": "Spot $2.62 on the same list."
+      },
+      "also": {
+        "text": "Crusoe $4.29 · AWS CB $5.97 / $6.865",
+        "as_of": "2026-08-18"
+      },
+      "availability": "Listed at CoreWeave, Crusoe, and hyperscaler Capacity Blocks / OD stickers. SemiAnalysis public composite is blank.",
+      "cannot_show": ["A SemiAnalysis composite (public print is blank)", "7d/30d % change", "A blended OD / Capacity Block average"],
+      "quotes": [
+        {"venue": "CoreWeave", "term": "on-demand", "usd_per_gpu_hr": 6.31, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "CoreWeave", "term": "spot", "usd_per_gpu_hr": 2.62, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "Crusoe", "term": "on-demand", "usd_per_gpu_hr": 4.29, "as_of": "2026-08-18", "source_id": "crusoe"},
+        {"venue": "AWS", "term": "Capacity Blocks p5e", "usd_per_gpu_hr": 5.97, "as_of": "2026-08-18", "source_id": "aws-cb", "note": "Not on-demand."},
+        {"venue": "AWS", "term": "Capacity Blocks p5en", "usd_per_gpu_hr": 6.865, "as_of": "2026-08-18", "source_id": "aws-cb", "note": "Not on-demand."},
+        {"venue": "GCP / Azure", "term": "on-demand", "usd_per_gpu_hr": 10.60, "approx": true, "as_of": "2026-08-18", "source_id": "gcp-accel", "note": "Sourced as ~$10.60 OD across GCP/Azure. Not a precise single SKU print."},
+        {"venue": "SemiAnalysis", "term": "composite", "usd_per_gpu_hr": null, "as_of": "2026-04", "source_id": "sa-index", "note": "Public composite is blank."}
+      ]
+    },
+    {
+      "id": "nvidia-gb200-nvl72",
+      "rank": 4,
+      "name": "GB200 NVL72",
+      "vendor": "NVIDIA",
+      "memory": "NVL72",
+      "memory_note": "Rack-scale. CoreWeave instance is $42 / 4 GPUs.",
+      "process": null,
+      "score": 2.6,
+      "liquidity": 2,
+      "demand": 3,
+      "frontier": 3,
+      "scarcity": "Thin tape. Do not treat as a deep secondary market.",
+      "scarcity_label": "Thin tape",
+      "venues": ["CoreWeave", "AWS"],
+      "display": {
+        "usd_per_gpu_hr": 10.50,
+        "term": "on-demand",
+        "venue": "CoreWeave",
+        "as_of": "2026-08-18",
+        "source_id": "coreweave",
+        "label": "CoreWeave",
+        "note": "Instance $42 / 4 GPUs. No spot."
+      },
+      "also": {
+        "text": "AWS CB $10.582 / accelerator-hr",
+        "as_of": "2026-08-18"
+      },
+      "availability": "Thin public tape: CoreWeave list plus AWS Capacity Blocks. No spot. Not a deep secondary market.",
+      "cannot_show": ["A spot print (CoreWeave lists none)", "A deep secondary-market tape", "7d/30d % change"],
+      "quotes": [
+        {"venue": "CoreWeave", "term": "on-demand", "usd_per_gpu_hr": 10.50, "as_of": "2026-08-18", "source_id": "coreweave", "note": "Instance $42 / 4 GPUs. No spot."},
+        {"venue": "AWS", "term": "Capacity Blocks u-p6e-gb200x72", "usd_per_gpu_hr": 10.582, "unit": "accelerator-hr", "as_of": "2026-08-18", "source_id": "aws-cb", "note": "Not on-demand."}
+      ]
+    },
+    {
+      "id": "nvidia-a100-sxm-80gb",
+      "rank": 5,
+      "name": "A100 SXM 80GB",
+      "vendor": "NVIDIA",
+      "memory": "80 GB",
+      "memory_note": "Lambda also lists 40GB at $1.99 OD.",
+      "process": null,
+      "score": 2.15,
+      "liquidity": 3,
+      "demand": 2,
+      "frontier": 1,
+      "scarcity": "Liquid prior-gen.",
+      "scarcity_label": "Liquid prior-gen",
+      "venues": ["Lambda", "CoreWeave", "Crusoe", "GCP"],
+      "display": {
+        "usd_per_gpu_hr": 2.79,
+        "term": "on-demand",
+        "venue": "Lambda",
+        "as_of": "2026-08-18",
+        "source_id": "lambda",
+        "label": "Lambda OD",
+        "note": "40GB $1.99 OD on the same list."
+      },
+      "also": {
+        "text": "CoreWeave $2.70 OD · Crusoe $2.30",
+        "as_of": "2026-08-18"
+      },
+      "availability": "Widely listed prior-gen. Liquid relative to Blackwell.",
+      "cannot_show": ["7d/30d % change", "A blended 40GB/80GB average as the headline"],
+      "quotes": [
+        {"venue": "Lambda", "term": "on-demand", "usd_per_gpu_hr": 2.79, "as_of": "2026-08-18", "source_id": "lambda", "note": "80GB."},
+        {"venue": "Lambda", "term": "on-demand 40GB", "usd_per_gpu_hr": 1.99, "as_of": "2026-08-18", "source_id": "lambda", "note": "40GB SKU. Not the headline 80GB print."},
+        {"venue": "CoreWeave", "term": "on-demand", "usd_per_gpu_hr": 2.70, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "CoreWeave", "term": "spot", "usd_per_gpu_hr": 1.21, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "Crusoe", "term": "on-demand", "usd_per_gpu_hr": 2.30, "as_of": "2026-08-18", "source_id": "crusoe"},
+        {"venue": "GCP", "term": "on-demand", "usd_per_gpu_hr": 5.07, "as_of": "2026-08-18", "source_id": "gcp-accel"}
+      ]
+    },
+    {
+      "id": "amd-mi355x",
+      "rank": 6,
+      "name": "MI355X",
+      "vendor": "AMD",
+      "memory": "288 GB HBM3E",
+      "memory_note": null,
+      "process": "TSMC N3P",
+      "score": 1.85,
+      "liquidity": 1,
+      "demand": 2,
+      "frontier": 3,
+      "scarcity": "One-venue tape. Crusoe listed, no number.",
+      "scarcity_label": "One-venue tape",
+      "venues": ["TensorWave", "Crusoe"],
+      "display": {
+        "usd_per_gpu_hr": 2.95,
+        "term": "from",
+        "venue": "TensorWave",
+        "as_of": "2026-08-18",
+        "source_id": "tw-mi355x",
+        "label": "TensorWave from"
+      },
+      "also": {
+        "text": "Crusoe listed, no number",
+        "as_of": "2026-08-18"
+      },
+      "availability": "Public dollar tape is TensorWave only. Crusoe lists the SKU without a number.",
+      "cannot_show": ["A second dollar print", "7d/30d % change"],
+      "quotes": [
+        {"venue": "TensorWave", "term": "from", "usd_per_gpu_hr": 2.95, "as_of": "2026-08-18", "source_id": "tw-mi355x"},
+        {"venue": "Crusoe", "term": "listed, no number", "usd_per_gpu_hr": null, "as_of": "2026-08-18", "source_id": "crusoe"}
+      ]
+    },
+    {
+      "id": "google-tpu-v7-ironwood",
+      "rank": 7,
+      "name": "TPU v7 Ironwood",
+      "vendor": "Google",
+      "memory": "192 GiB HBM",
+      "memory_note": null,
+      "process": null,
+      "score": 1.85,
+      "liquidity": 1,
+      "demand": 2,
+      "frontier": 3,
+      "scarcity": "GCP-only sticker.",
+      "scarcity_label": "GCP-only",
+      "venues": ["GCP"],
+      "display": {
+        "usd_per_gpu_hr": 12.00,
+        "term": "on-demand",
+        "venue": "GCP",
+        "as_of": "2026-08-18",
+        "source_id": "gcp-tpu",
+        "label": "GCP OD"
+      },
+      "also": {
+        "text": "1y $8.40 · 3y $5.40",
+        "as_of": "2026-08-18"
+      },
+      "availability": "GCP-only list. Not a multi-venue rental tape.",
+      "cannot_show": ["A neocloud print", "7d/30d % change"],
+      "quotes": [
+        {"venue": "GCP", "term": "on-demand", "usd_per_gpu_hr": 12.00, "as_of": "2026-08-18", "source_id": "gcp-tpu"},
+        {"venue": "GCP", "term": "1y", "usd_per_gpu_hr": 8.40, "as_of": "2026-08-18", "source_id": "gcp-tpu"},
+        {"venue": "GCP", "term": "3y", "usd_per_gpu_hr": 5.40, "as_of": "2026-08-18", "source_id": "gcp-tpu"}
+      ]
+    },
+    {
+      "id": "nvidia-l40s-48gb",
+      "rank": 8,
+      "name": "L40S 48GB",
+      "vendor": "NVIDIA",
+      "memory": "48 GB GDDR6",
+      "memory_note": null,
+      "process": null,
+      "score": 1.4,
+      "liquidity": 2,
+      "demand": 1,
+      "frontier": 1,
+      "scarcity": "Listed OD.",
+      "scarcity_label": "Listed OD",
+      "venues": ["CoreWeave", "Crusoe"],
+      "display": {
+        "usd_per_gpu_hr": 2.25,
+        "term": "on-demand",
+        "venue": "CoreWeave",
+        "as_of": "2026-08-18",
+        "source_id": "coreweave",
+        "label": "CoreWeave OD",
+        "note": "Spot $0.99 on the same list."
+      },
+      "also": {
+        "text": "Crusoe $1.50",
+        "as_of": "2026-08-18"
+      },
+      "availability": "Listed on-demand at CoreWeave and Crusoe.",
+      "cannot_show": ["7d/30d % change"],
+      "quotes": [
+        {"venue": "CoreWeave", "term": "on-demand", "usd_per_gpu_hr": 2.25, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "CoreWeave", "term": "spot", "usd_per_gpu_hr": 0.99, "as_of": "2026-08-18", "source_id": "coreweave"},
+        {"venue": "Crusoe", "term": "on-demand", "usd_per_gpu_hr": 1.50, "as_of": "2026-08-18", "source_id": "crusoe"}
+      ]
+    },
+    {
+      "id": "amd-mi300x",
+      "rank": 9,
+      "name": "MI300X",
+      "vendor": "AMD",
+      "memory": "192 GB HBM3",
+      "memory_note": "AMD docs.",
+      "process": null,
+      "score": 1.4,
+      "liquidity": 2,
+      "demand": 1,
+      "frontier": 1,
+      "scarcity": "Listed; three venues, wide spread.",
+      "scarcity_label": "Listed",
+      "venues": ["TensorWave", "Crusoe", "Oracle"],
+      "display": {
+        "usd_per_gpu_hr": 1.71,
+        "term": "on-demand",
+        "venue": "TensorWave",
+        "as_of": "2026-08-18",
+        "source_id": "tw-mi300x",
+        "label": "TensorWave"
+      },
+      "also": {
+        "text": "Crusoe $3.45 · Oracle $6.00",
+        "as_of": "2026-08-18"
+      },
+      "availability": "Three public prints. Terms are not interchangeable; the spread is the story.",
+      "cannot_show": ["A blended TensorWave / Crusoe / Oracle average", "7d/30d % change"],
+      "quotes": [
+        {"venue": "TensorWave", "term": "on-demand", "usd_per_gpu_hr": 1.71, "as_of": "2026-08-18", "source_id": "tw-mi300x"},
+        {"venue": "Crusoe", "term": "on-demand", "usd_per_gpu_hr": 3.45, "as_of": "2026-08-18", "source_id": "crusoe"},
+        {"venue": "Oracle", "term": "on-demand", "usd_per_gpu_hr": 6.00, "as_of": "2026-08-18", "source_id": "oracle"}
+      ]
+    },
+    {
+      "id": "amd-mi325x",
+      "rank": 10,
+      "name": "MI325X",
+      "vendor": "AMD",
+      "memory": "256 GB HBM3E",
+      "memory_note": null,
+      "process": null,
+      "score": 1.25,
+      "liquidity": 1,
+      "demand": 1,
+      "frontier": 2,
+      "scarcity": "TensorWave only.",
+      "scarcity_label": "One venue",
+      "venues": ["TensorWave"],
+      "display": {
+        "usd_per_gpu_hr": 2.25,
+        "term": "on-demand",
+        "venue": "TensorWave",
+        "as_of": "2026-08-18",
+        "source_id": "tw-mi325x",
+        "label": "TensorWave"
+      },
+      "also": {
+        "text": "—",
+        "as_of": "2026-08-18",
+        "note": "No second sourced venue."
+      },
+      "availability": "One public dollar print.",
+      "cannot_show": ["A second venue", "7d/30d % change"],
+      "quotes": [
+        {"venue": "TensorWave", "term": "on-demand", "usd_per_gpu_hr": 2.25, "as_of": "2026-08-18", "source_id": "tw-mi325x"}
+      ]
+    },
+    {
+      "id": "google-tpu-v6e-trillium",
+      "rank": 11,
+      "name": "TPU v6e Trillium",
+      "vendor": "Google",
+      "memory": "32 GB",
+      "memory_note": null,
+      "process": null,
+      "score": 1.25,
+      "liquidity": 1,
+      "demand": 1,
+      "frontier": 2,
+      "scarcity": "GCP-only sticker.",
+      "scarcity_label": "GCP-only",
+      "venues": ["GCP"],
+      "display": {
+        "usd_per_gpu_hr": 2.70,
+        "term": "on-demand",
+        "venue": "GCP",
+        "as_of": "2026-08-18",
+        "source_id": "gcp-tpu",
+        "label": "GCP OD"
+      },
+      "also": {
+        "text": "1y $1.89",
+        "as_of": "2026-08-18"
+      },
+      "availability": "GCP-only list.",
+      "cannot_show": ["A neocloud print", "7d/30d % change"],
+      "quotes": [
+        {"venue": "GCP", "term": "on-demand", "usd_per_gpu_hr": 2.70, "as_of": "2026-08-18", "source_id": "gcp-tpu"},
+        {"venue": "GCP", "term": "1y", "usd_per_gpu_hr": 1.89, "as_of": "2026-08-18", "source_id": "gcp-tpu"}
+      ]
+    },
+    {
+      "id": "amazon-trainium2",
+      "rank": 12,
+      "name": "Trainium2",
+      "vendor": "Amazon",
+      "memory": "96 GiB / chip",
+      "memory_note": null,
+      "process": null,
+      "score": 1.25,
+      "liquidity": 1,
+      "demand": 1,
+      "frontier": 2,
+      "scarcity": "Capacity Blocks only. Not on-demand.",
+      "scarcity_label": "CB only",
+      "venues": ["AWS"],
+      "display": {
+        "usd_per_gpu_hr": 2.235,
+        "term": "Capacity Blocks",
+        "venue": "AWS",
+        "as_of": "2026-08-18",
+        "source_id": "aws-cb",
+        "label": "AWS CB",
+        "note": "trn2.48xlarge, $2.235 / chip-hr, 16 chips. Not on-demand."
+      },
+      "also": {
+        "text": "Not on-demand",
+        "as_of": "2026-08-18"
+      },
+      "availability": "AWS Capacity Blocks only (trn2.48xlarge, 16 chips). Not an on-demand SKU in this snapshot.",
+      "cannot_show": ["An on-demand print", "A neocloud print", "7d/30d % change"],
+      "quotes": [
+        {"venue": "AWS", "term": "Capacity Blocks trn2.48xlarge", "usd_per_gpu_hr": 2.235, "unit": "chip-hr", "as_of": "2026-08-18", "source_id": "aws-cb", "note": "16 chips per instance. Not on-demand."}
+      ]
+    },
+    {
+      "id": "google-tpu-v5p",
+      "rank": 13,
+      "name": "TPU v5p",
+      "vendor": "Google",
+      "memory": "95 GiB",
+      "memory_note": null,
+      "process": null,
+      "score": 1.0,
+      "liquidity": 1,
+      "demand": 1,
+      "frontier": 1,
+      "scarcity": "GCP-only sticker.",
+      "scarcity_label": "GCP-only",
+      "venues": ["GCP"],
+      "display": {
+        "usd_per_gpu_hr": 4.20,
+        "term": "on-demand",
+        "venue": "GCP",
+        "as_of": "2026-08-18",
+        "source_id": "gcp-tpu",
+        "label": "GCP OD"
+      },
+      "also": {
+        "text": "1y $2.94",
+        "as_of": "2026-08-18"
+      },
+      "availability": "GCP-only list. Prior-gen TPU.",
+      "cannot_show": ["A neocloud print", "7d/30d % change"],
+      "quotes": [
+        {"venue": "GCP", "term": "on-demand", "usd_per_gpu_hr": 4.20, "as_of": "2026-08-18", "source_id": "gcp-tpu"},
+        {"venue": "GCP", "term": "1y", "usd_per_gpu_hr": 2.94, "as_of": "2026-08-18", "source_id": "gcp-tpu"}
+      ]
+    }
+  ]
+}

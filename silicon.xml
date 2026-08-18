@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>The Silicon Tape · compute.world</title>
+  <link>https://compute.world/silicon.html</link>
+  <description>Public AI accelerator rental tape. Snapshot 2026-08-18. SA prints as-of April 2026. Not a market cap.</description>
+  <language>en</language>
+  <item>
+    <title>B200 SXM6 · $6.69 Lambda OD</title>
+    <link>https://compute.world/silicon.html#nvidia-b200-sxm6</link>
+    <guid isPermaLink="false">compute.world/silicon#nvidia-b200-sxm6</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6 (NVIDIA, 180 GB HBM3e): display $6.69 Lambda OD as of 18 Aug 2026. CoreWeave $8.60 OD · SA Apr $3.68. Score 3.00. SA Apr: rental capacity increasingly impossible; market-wide booked through Aug–Sep 2026 as of Apr 2. Crusoe sales-gated. More: https://compute.world/silicon.html#nvidia-b200-sxm6</description>
+  </item>
+  <item>
+    <title>H100 SXM 80GB · $2.35 SA 1y</title>
+    <link>https://compute.world/silicon.html#nvidia-h100-sxm-80gb</link>
+    <guid isPermaLink="false">compute.world/silicon#nvidia-h100-sxm-80gb</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM 80GB (NVIDIA, 80 GB HBM3): display $2.35 SA 1y as of Mar 2026. Lambda $3.99 OD · SA Apr p25–p75 $2.10–$2.70. Score 2.75. Marketplace 1x still prints cheap; committed clusters are scarce. More: https://compute.world/silicon.html#nvidia-h100-sxm-80gb</description>
+  </item>
+  <item>
+    <title>H200 SXM 141GB · $6.31 CoreWeave OD</title>
+    <link>https://compute.world/silicon.html#nvidia-h200-sxm-141gb</link>
+    <guid isPermaLink="false">compute.world/silicon#nvidia-h200-sxm-141gb</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>H200 SXM 141GB (NVIDIA, 141 GB HBM3e): display $6.31 CoreWeave OD as of 18 Aug 2026. Crusoe $4.29 · AWS CB $5.97 / $6.865. Score 2.75. Committed clusters scarce. SA public composite blank. More: https://compute.world/silicon.html#nvidia-h200-sxm-141gb</description>
+  </item>
+  <item>
+    <title>GB200 NVL72 · $10.50 CoreWeave</title>
+    <link>https://compute.world/silicon.html#nvidia-gb200-nvl72</link>
+    <guid isPermaLink="false">compute.world/silicon#nvidia-gb200-nvl72</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>GB200 NVL72 (NVIDIA, NVL72): display $10.50 CoreWeave as of 18 Aug 2026. AWS CB $10.582 / accelerator-hr. Score 2.60. Thin tape. Do not treat as a deep secondary market. More: https://compute.world/silicon.html#nvidia-gb200-nvl72</description>
+  </item>
+  <item>
+    <title>A100 SXM 80GB · $2.79 Lambda OD</title>
+    <link>https://compute.world/silicon.html#nvidia-a100-sxm-80gb</link>
+    <guid isPermaLink="false">compute.world/silicon#nvidia-a100-sxm-80gb</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>A100 SXM 80GB (NVIDIA, 80 GB): display $2.79 Lambda OD as of 18 Aug 2026. CoreWeave $2.70 OD · Crusoe $2.30. Score 2.15. Liquid prior-gen. More: https://compute.world/silicon.html#nvidia-a100-sxm-80gb</description>
+  </item>
+  <item>
+    <title>MI355X · $2.95 TensorWave from</title>
+    <link>https://compute.world/silicon.html#amd-mi355x</link>
+    <guid isPermaLink="false">compute.world/silicon#amd-mi355x</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>MI355X (AMD, 288 GB HBM3E): display $2.95 TensorWave from as of 18 Aug 2026. Crusoe listed, no number. Score 1.85. One-venue tape. Crusoe listed, no number. More: https://compute.world/silicon.html#amd-mi355x</description>
+  </item>
+  <item>
+    <title>TPU v7 Ironwood · $12.00 GCP OD</title>
+    <link>https://compute.world/silicon.html#google-tpu-v7-ironwood</link>
+    <guid isPermaLink="false">compute.world/silicon#google-tpu-v7-ironwood</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>TPU v7 Ironwood (Google, 192 GiB HBM): display $12.00 GCP OD as of 18 Aug 2026. 1y $8.40 · 3y $5.40. Score 1.85. GCP-only sticker. More: https://compute.world/silicon.html#google-tpu-v7-ironwood</description>
+  </item>
+  <item>
+    <title>L40S 48GB · $2.25 CoreWeave OD</title>
+    <link>https://compute.world/silicon.html#nvidia-l40s-48gb</link>
+    <guid isPermaLink="false">compute.world/silicon#nvidia-l40s-48gb</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>L40S 48GB (NVIDIA, 48 GB GDDR6): display $2.25 CoreWeave OD as of 18 Aug 2026. Crusoe $1.50. Score 1.40. Listed OD. More: https://compute.world/silicon.html#nvidia-l40s-48gb</description>
+  </item>
+  <item>
+    <title>MI300X · $1.71 TensorWave</title>
+    <link>https://compute.world/silicon.html#amd-mi300x</link>
+    <guid isPermaLink="false">compute.world/silicon#amd-mi300x</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>MI300X (AMD, 192 GB HBM3): display $1.71 TensorWave as of 18 Aug 2026. Crusoe $3.45 · Oracle $6.00. Score 1.40. Listed; three venues, wide spread. More: https://compute.world/silicon.html#amd-mi300x</description>
+  </item>
+  <item>
+    <title>MI325X · $2.25 TensorWave</title>
+    <link>https://compute.world/silicon.html#amd-mi325x</link>
+    <guid isPermaLink="false">compute.world/silicon#amd-mi325x</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>MI325X (AMD, 256 GB HBM3E): display $2.25 TensorWave as of 18 Aug 2026. —. Score 1.25. TensorWave only. More: https://compute.world/silicon.html#amd-mi325x</description>
+  </item>
+  <item>
+    <title>TPU v6e Trillium · $2.70 GCP OD</title>
+    <link>https://compute.world/silicon.html#google-tpu-v6e-trillium</link>
+    <guid isPermaLink="false">compute.world/silicon#google-tpu-v6e-trillium</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>TPU v6e Trillium (Google, 32 GB): display $2.70 GCP OD as of 18 Aug 2026. 1y $1.89. Score 1.25. GCP-only sticker. More: https://compute.world/silicon.html#google-tpu-v6e-trillium</description>
+  </item>
+  <item>
+    <title>Trainium2 · $2.235 AWS CB</title>
+    <link>https://compute.world/silicon.html#amazon-trainium2</link>
+    <guid isPermaLink="false">compute.world/silicon#amazon-trainium2</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Trainium2 (Amazon, 96 GiB / chip): display $2.235 AWS CB as of 18 Aug 2026. Not on-demand. Score 1.25. Capacity Blocks only. Not on-demand. More: https://compute.world/silicon.html#amazon-trainium2</description>
+  </item>
+  <item>
+    <title>TPU v5p · $4.20 GCP OD</title>
+    <link>https://compute.world/silicon.html#google-tpu-v5p</link>
+    <guid isPermaLink="false">compute.world/silicon#google-tpu-v5p</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>TPU v5p (Google, 95 GiB): display $4.20 GCP OD as of 18 Aug 2026. 1y $2.94. Score 1.00. GCP-only sticker. More: https://compute.world/silicon.html#google-tpu-v5p</description>
+  </item>
+</channel></rss>
