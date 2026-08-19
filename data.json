@@ -995,9 +995,9 @@
    "pue": "~1.2-1.4",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
-   "rz": 41,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 52,
+   "dl": 1,
+   "rw": "Beijing lets limited H200 batches land: ByteDance and Tencent ~10k each; mos…"
   },
   {
    "n": "Japan",
@@ -1095,9 +1095,9 @@
    "pue": "~1.2-1.4",
    "note": "260k+ GPU sovereign program Oct 2025",
    "rf": 0.95,
-   "rz": 59,
+   "rz": 73,
    "dl": 1,
-   "rw": "South Korea's AIDC Alliance sets an 18.4 GW datacenter target by 2035"
+   "rw": "SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031"
   },
   {
    "n": "Taiwan",
@@ -3545,9 +3545,9 @@
    "pue": "~1.1-1.25",
    "note": "C-Lion1; nuclear OL3",
    "rf": 0.95,
-   "rz": 30,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 44,
+   "dl": 1,
+   "rw": "Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estoni…"
   },
   {
    "n": "Denmark",
@@ -3645,9 +3645,9 @@
    "pue": "~1.1-1.25",
    "note": "Stargate UK; £150B US package; NE AI Growth Zone to 1.1 GW",
    "rf": 0.95,
-   "rz": 54,
-   "dl": -1,
-   "rw": "Stargate UK pauses over energy costs"
+   "rz": 67,
+   "dl": 1,
+   "rw": "Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estoni…"
   },
   {
    "n": "Ireland",

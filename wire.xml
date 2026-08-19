@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Beijing lets limited H200 batches land: ByteDance and Tencent ~10k each; most volume steered to Hong Kong</title>
+    <link>https://www.business-standard.com/world-news/china-allows-limited-nvidia-h200-shipments-why-is-beijing-easing-curbs-126081900438_1.html</link>
+    <guid isPermaLink="false">compute.world/wire#china-h200-limited-landings</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 19 August 2026 the Financial Times, as reprinted by Business Standard, reported that ByteDance and Tencent have each received about 10,000 NVIDIA H200 processors in recent weeks, with a few other Chinese groups queued for similar-sized shipments. Chinese regulators have told companies they may ship H200s to Hong Kong (outside mainland customs) and use them there; Beijing still wants most volume kept off the mainland to protect domestic chipmakers. The reprint cites two conflicting per-customer US caps — FT’s 100,000 vs Reuters’ 75,000 under Commerce licensing — and says purchases still need NDRC approval. NVIDIA has about 500,000 H200s in stock mainly for Chinese customers; Blackwell remains banned. This is a dual-sovereign policy print: US licence is no longer the only gate. [Signal 64, Single-source, via Financial Times / Business Standard] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>NVIDIA caps $105B residual-value backstop on PORTS-Pike: 4.25 IT-GW, OpenAI 20-year lease, exclusive DSX</title>
     <link>https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm</link>
     <guid isPermaLink="false">compute.world/wire#nvidia-ports-pike-ohio</guid>
@@ -26,6 +33,13 @@
     <description>On 13 August 2026 Larsen &amp; Toubro said LTN Compute / Vyoma.AI won a ₹10,000–15,000 crore ($1.05–1.57 billion) order from Together AI for a 10,000-GPU NVIDIA B300 factory at its Chennai campus — L&amp;T’s stated largest single-cluster AI deployment in India. L&amp;T’s own statement, reprinted on the company newswire, sizes the campus as gigawatt-scale with Phase 1 at 250 MW and 150 MVA of power readiness. This is India’s conversion print for the window: a named cluster, a rupee ticket, and a megawatt envelope on Indian soil. [Signal 84, Confirmed, via Reuters / The Hindu Business Line] More: https://compute.world/wire.html</description>
   </item>
   <item>
+    <title>Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estonia, Finland</title>
+    <link>https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf</link>
+    <guid isPermaLink="false">compute.world/wire#nebius-5gw-contracted-2026</guid>
+    <pubDate>Wed, 12 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Nebius’s 12 August 2026 shareholder letter raised year-end 2026 contracted power — defined as secured land and power commitments, not connected megawatts — to 5 GW, from +4 GW last quarter, and said it plans to deploy more than 1 GW per year starting in 2027. Q2 group revenue was $582.3 million (+454% YoY); AI cloud $574.9 million; ARR $3.0 billion; Q2 capex about $5.7 billion. Four landmark deals averaged more than $1 billion TCV and $20–25 million per MW; Q3 short-duration capacity is priced in the $40–50 million per MW range, with the first such deal signed. New 2026 sites listed include the UK, Estonia and Finland plus US states. Contracted 5 GW is a European/US conversion clock, not a named Welsh MW print. [Signal 82, Confirmed, via Nebius IR] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI infrastructure</title>
     <link>https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx</link>
     <guid isPermaLink="false">compute.world/wire#nvidia-500b-platforms</guid>
@@ -38,6 +52,13 @@
     <guid isPermaLink="false">compute.world/wire#firebird-armenia-live</guid>
     <pubDate>Sat, 08 Aug 2026 12:00:00 GMT</pubDate>
     <description>The Hrazdan facility went from site to operation in about six months on NVIDIA and Dell infrastructure, with a roadmap of 70,000+ GPUs and 300 MW by end-2027 and NVIDIA stating intent to invest. The proof of concept for small-state compute conversion. [Signal 92, Confirmed, via NVIDIA blog] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031</title>
+    <link>https://www.sec.gov/Archives/edgar/data/2120882/000119312526339024/d13432d6k.htm</link>
+    <guid isPermaLink="false">compute.world/wire#sk-hynix-yongin-y2</guid>
+    <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 7 August 2026 SK hynix’s board approved ₩35,224,600,000,000 to construct Y2 (phases 1–6 of Fab 2) at the Yongin Semiconductor Cluster, 29.19% of total equity as of 31 December 2025, with a stated investment window of 7 August 2026 to 31 October 2031. The 6-K frames the spend as mid- to long-term memory capacity, not a 2026 wafer print. This is Korea’s conversion ticket for HBM/DRAM land and power already sitting inside the Yongin cluster — volume for 2029+, not this year’s tape. [Signal 88, Confirmed, via SEC] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>Amazon confirms GW Ranch: up to 7.65 GW off-grid gas for a Pecos AI campus</title>
