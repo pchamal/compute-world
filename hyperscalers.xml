@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>The Hyperscaler Index · compute.world</title>
+  <link>https://compute.world/hyperscalers.html</link>
+  <description>General-purpose clouds that also rent GPUs. GPU-only specialists are Neoclouds. Scaleway and OVH are regional hyperscalers — full IaaS, not a neocloud. China and the EU stay visible even when a city is undisclosed. Snapshot 2026-08-19. 17 providers. Not a market cap.</description>
+  <language>en</language>
+  <item>
+    <title>Amazon Web Services · hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#aws</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#aws</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Amazon Web Services (hyperscaler). HQ Seattle · United States. 38 sourced location rows. Cities: 25 named · 5 state/region only · 8 undisclosed. H100, H200, B200, A100, Trainium, Inferentia. Official commercial table fetched 2026-08-19. Marketing: 39 geographic regions / 123–124 AZs. GPU availability is a subset (P/G/Trn/Inf). China and GovCloud are separate accounts. No fake market cap.</description>
+  </item>
+  <item>
+    <title>Microsoft Azure · hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#azure</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#azure</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Microsoft Azure (hyperscaler). HQ Redmond · United States. 66 sourced location rows. Cities: 25 named · 39 state/region only. H100, H200, A100, ND/NC-series GPUs. Footnote on official geographies page (fetched 2026-08-19) lists regions available or coming soon. Do not treat every row as GA GPU. China is operated with 21Vianet. No market cap.</description>
+  </item>
+  <item>
+    <title>Google Cloud · hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#gcp</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#gcp</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Google Cloud (hyperscaler). HQ Mountain View · United States. 43 sourced location rows. Cities: 43 named. A4X Max GB300, A4X GB200, A4 B200, A3 H200/H100, A2 A100, G4 RTX PRO 6000. Locations page (updated 2026-08-17): 43 regions / 130 zones. Region list here is from the official Compute Engine regions-and-zones table. Specialized AI zones exist as extra zone names.</description>
+  </item>
+  <item>
+    <title>Oracle Cloud Infrastructure · hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#oracle-oci</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#oracle-oci</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Oracle Cloud Infrastructure (hyperscaler). HQ Austin · United States. 45 sourced location rows. Cities: 43 named. H100, H200, B200, GB200 — BM.GPU families. Full official commercial-realm region table. Government/sovereign realms omitted (separate docs). Strong GPU IaaS.</description>
+  </item>
+  <item>
+    <title>IBM Cloud · hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#ibm-cloud</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#ibm-cloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>IBM Cloud (hyperscaler). HQ Armonk · United States. 13 sourced location rows. Cities: 13 named. GPU VMs / bare metal — confirm catalog; not a neocloud-scale H100 shop. Official Kubernetes/VPC MZR table. Classic DCs are additional. Public GPU cloud exists but is not the category leader.</description>
+  </item>
+  <item>
+    <title>Alibaba Cloud · hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#alibaba-cloud</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#alibaba-cloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Alibaba Cloud (hyperscaler). HQ Hangzhou · China. 30 sourced location rows. Cities: 26 named · 4 state/region only. NVIDIA GPU ECS + PAI. Official ECS regions-and-zones table. Nanjing/Fuzhou local regions marked closing down on that page — omitted. China champion hyperscaler.</description>
+  </item>
+  <item>
+    <title>Huawei Cloud · hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#huawei-cloud</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#huawei-cloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Huawei Cloud (hyperscaler). HQ Shenzhen · China. 18 sourced location rows. Cities: 17 named · 1 state/region only. Ascend NPU, NVIDIA GPU where offered. International data-protection region list fetched. EU site claims 34 regions / 101 AZs. Mainland extra regions (Beijing1, Shanghai2, Ulanqab, Dublin) appear on other Huawei docs — not all on this intl table. Do not merge blindly.</description>
+  </item>
+  <item>
+    <title>Tencent Cloud · hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#tencent-cloud</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#tencent-cloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Tencent Cloud (hyperscaler). HQ Shenzhen · China. 6 sourced location rows. Cities: 6 named. NVIDIA GPU instances. Short honest core list plus pointer to full official table. Do not invent Chongqing/etc. without the row.</description>
+  </item>
+  <item>
+    <title>Baidu AI Cloud · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#baidu-cloud</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#baidu-cloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Baidu AI Cloud (regional hyperscaler). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. Kunlun + NVIDIA. China regional hyperscaler.</description>
+  </item>
+  <item>
+    <title>Volcengine · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#volcengine</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#volcengine</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Volcengine (regional hyperscaler). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. NVIDIA GPU. China regional hyperscaler + Ark inference.</description>
+  </item>
+  <item>
+    <title>China Telecom Tianyi Cloud · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#tianyi</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#tianyi</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>China Telecom Tianyi Cloud (regional hyperscaler). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. AIDC GPU. Also China Unicom / China Mobile AIDC — same rule: list the company, do not invent cities.</description>
+  </item>
+  <item>
+    <title>JD Cloud · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#jd-cloud</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#jd-cloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>JD Cloud (regional hyperscaler). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. GPU instances — confirm catalog. China regional.</description>
+  </item>
+  <item>
+    <title>Scaleway · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#scaleway</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#scaleway</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Scaleway (regional hyperscaler). HQ Paris · France. 4 sourced location rows. Cities: 4 named. H100, L4, L40S and other GPU instances — confirm GPU product page. CLASSIFICATION: regional-hyperscaler, not neocloud. Reason: full IaaS catalog (compute, storage, network, managed DBs, Kubernetes) plus GPU and Generative APIs. GPU-only buyers still find it; the index home is Hyperscalers. Token APIs dual-listed under Inference.</description>
+  </item>
+  <item>
+    <title>OVHcloud · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#ovhcloud</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#ovhcloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>OVHcloud (regional hyperscaler). HQ Roubaix · France. 1 sourced location rows. Cities: undisclosed. H100 / L4 / L40S and other GPU Public Cloud — confirm product page. European regional hyperscaler. GPU is a product line, not the whole company. Same classification logic as Scaleway.</description>
+  </item>
+  <item>
+    <title>Deutsche Telekom / T-Systems · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#deutsche-telekom</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#deutsche-telekom</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Deutsche Telekom / T-Systems (regional hyperscaler). HQ Bonn · Germany. 1 sourced location rows. Cities: undisclosed. Sovereign / Open Telekom Cloud GPU — sales-gated. EU telco cloud. List company.</description>
+  </item>
+  <item>
+    <title>Orange Business / Cloud · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#orange</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#orange</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Orange Business / Cloud (regional hyperscaler). HQ Paris · France. 1 sourced location rows. Cities: undisclosed. Flexible Engine / sovereign — GPU public list not fetched. List company. Not a neocloud.</description>
+  </item>
+  <item>
+    <title>SAP BTP · regional hyperscaler</title>
+    <link>https://compute.world/hyperscalers.html#sap-btp</link>
+    <guid isPermaLink="false">compute.world/hyperscalers#sap-btp</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>SAP BTP (regional hyperscaler). HQ Walldorf · Germany. 1 sourced location rows. Cities: undisclosed. Not a public GPU rental cloud. Not a public GPU cloud. Keep as an exclusion note.</description>
+  </item>
+</channel></rss>

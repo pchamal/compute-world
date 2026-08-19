@@ -1,0 +1,2846 @@
+{
+  "index": "neoclouds",
+  "as_of": "2026-08-19",
+  "count": 33,
+  "providers": [
+    {
+      "id": "coreweave",
+      "name": "CoreWeave",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "Livingston",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.coreweave.com/",
+      "pricing": "https://www.coreweave.com/pricing",
+      "silicon": [
+        "GB300 NVL72",
+        "GB200 NVL72",
+        "B300",
+        "B200",
+        "H200",
+        "H100",
+        "RTX PRO 6000 Blackwell",
+        "L40S",
+        "L40",
+        "GH200",
+        "A100"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": "Ontario",
+          "country": "Canada",
+          "iso3": "CAN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "CA-EAST-01A General Access; province only",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "CA-EAST-01A"
+        },
+        {
+          "city": "Falun",
+          "region": null,
+          "country": "Sweden",
+          "iso3": "SWE",
+          "lat": 60.607,
+          "lon": 15.626,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-NORTH-01A Dedicated",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-NORTH-01A"
+        },
+        {
+          "city": "Kristiansand",
+          "region": null,
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": 58.16,
+          "lon": 8.018,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-NORTH-02A Dedicated",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-NORTH-02A"
+        },
+        {
+          "city": "Stockholm",
+          "region": null,
+          "country": "Sweden",
+          "iso3": "SWE",
+          "lat": 59.329,
+          "lon": 18.069,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-NORTH-04A Dedicated",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-NORTH-04A"
+        },
+        {
+          "city": "Skovlunde",
+          "region": null,
+          "country": "Denmark",
+          "iso3": "DNK",
+          "lat": 55.723,
+          "lon": 12.396,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-NORTH-05A Dedicated + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-NORTH-05A"
+        },
+        {
+          "city": "Barcelona",
+          "region": "Catalonia",
+          "country": "Spain",
+          "iso3": "ESP",
+          "lat": 41.387,
+          "lon": 2.17,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-SOUTH-01A Dedicated",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-SOUTH-01A"
+        },
+        {
+          "city": "Barcelona",
+          "region": "Catalonia",
+          "country": "Spain",
+          "iso3": "ESP",
+          "lat": 41.387,
+          "lon": 2.17,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-SOUTH-03B General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-SOUTH-03B"
+        },
+        {
+          "city": "Vitoria-Gasteiz",
+          "region": "Álava",
+          "country": "Spain",
+          "iso3": "ESP",
+          "lat": 42.846,
+          "lon": -2.673,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-SOUTH-04A official label Alava; centroid = provincial capital",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-SOUTH-04A"
+        },
+        {
+          "city": "Crawley",
+          "region": "England",
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "lat": 51.109,
+          "lon": -0.187,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-WEST-01A Dedicated",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-WEST-01A"
+        },
+        {
+          "city": "London",
+          "region": "England",
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "lat": 51.507,
+          "lon": -0.128,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-WEST-02A Dedicated",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "EU-WEST-02A"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "AUS1A official location is Texas, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "AUS1A"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "DFW1A official location is Texas, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "DFW1A"
+        },
+        {
+          "city": null,
+          "region": "Indiana",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "SBN1A official location is Indiana, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "SBN1A"
+        },
+        {
+          "city": null,
+          "region": "Illinois",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-01A official location is Illinois, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-01A"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-02A official location is Texas, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-02A"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-03A official location is Texas, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-03A"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-04A official location is Texas, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-04A"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-05A official location is Texas, USA only — no city published. object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-05A"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-06A official location is Texas, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-06A"
+        },
+        {
+          "city": null,
+          "region": "Illinois",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-07A official location is Illinois, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-07A"
+        },
+        {
+          "city": null,
+          "region": "North Dakota",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-08A official location is North Dakota, USA only — no city published. object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-08A"
+        },
+        {
+          "city": null,
+          "region": "North Dakota",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-08B official location is North Dakota, USA only — no city published. object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-08B"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-09A official location is Texas, USA only — no city published. General",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-09A"
+        },
+        {
+          "city": null,
+          "region": "Oklahoma",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-10A official location is Oklahoma, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-10A"
+        },
+        {
+          "city": null,
+          "region": "Ohio",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-CENTRAL-11A official location is Ohio, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-CENTRAL-11A"
+        },
+        {
+          "city": null,
+          "region": "Georgia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "ATL2A official location is Georgia, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "ATL2A"
+        },
+        {
+          "city": null,
+          "region": "Georgia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "ATL4A official location is Georgia, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "ATL4A"
+        },
+        {
+          "city": null,
+          "region": "Virginia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "RDU1A official location is Virginia, USA only — no city published. code RDU is RDU airport; official string is Virginia — do not override",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "RDU1A"
+        },
+        {
+          "city": null,
+          "region": "New York",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-01A official location is New York, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-01A"
+        },
+        {
+          "city": null,
+          "region": "New Jersey",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-02A official location is New Jersey, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-02A"
+        },
+        {
+          "city": null,
+          "region": "New Jersey",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-02B official location is New Jersey, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-02B"
+        },
+        {
+          "city": null,
+          "region": "Pennsylvania",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-03A official location is Pennsylvania, USA only — no city published. object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-03A"
+        },
+        {
+          "city": null,
+          "region": "Virginia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-04A official location is Virginia, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-04A"
+        },
+        {
+          "city": null,
+          "region": "Virginia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-04B official location is Virginia, USA only — no city published. object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-04B"
+        },
+        {
+          "city": null,
+          "region": "Georgia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-05A official location is Georgia, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-05A"
+        },
+        {
+          "city": null,
+          "region": "Ohio",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-06A official location is Ohio, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-06A"
+        },
+        {
+          "city": null,
+          "region": "Ohio",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-07A official location is Ohio, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-07A"
+        },
+        {
+          "city": null,
+          "region": "Ohio",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-08A official location is Ohio, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-08A"
+        },
+        {
+          "city": null,
+          "region": "Georgia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-09A official location is Georgia, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-09A"
+        },
+        {
+          "city": null,
+          "region": "Massachusetts",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-10A official location is Massachusetts, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-10A"
+        },
+        {
+          "city": null,
+          "region": "North Carolina",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-11A official location is North Carolina, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-11A"
+        },
+        {
+          "city": null,
+          "region": "Georgia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-12A official location is Georgia, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-12A"
+        },
+        {
+          "city": null,
+          "region": "Michigan",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-13A official location is Michigan, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-13A"
+        },
+        {
+          "city": null,
+          "region": "New Jersey",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-14A official location is New Jersey, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-14A"
+        },
+        {
+          "city": null,
+          "region": "Virginia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-15A official location is Virginia, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-15A"
+        },
+        {
+          "city": null,
+          "region": "New Jersey",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-EAST-17A official location is New Jersey, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-EAST-17A"
+        },
+        {
+          "city": null,
+          "region": "Oregon",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "PDX2A official location is Oregon, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "PDX2A"
+        },
+        {
+          "city": null,
+          "region": "Nevada",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "RNO2A official location is Nevada, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "RNO2A"
+        },
+        {
+          "city": null,
+          "region": "Nevada",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-01A official location is Nevada, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-01A"
+        },
+        {
+          "city": null,
+          "region": "Arizona",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-02A official location is Arizona, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-02A"
+        },
+        {
+          "city": null,
+          "region": "Arizona",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-02B official location is Arizona, USA only — no city published. General",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-02B"
+        },
+        {
+          "city": null,
+          "region": "Oregon",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-03A official location is Oregon, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-03A"
+        },
+        {
+          "city": null,
+          "region": "Arizona",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-04A official location is Arizona, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-04A"
+        },
+        {
+          "city": null,
+          "region": "Washington",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-05A official location is Washington, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-05A"
+        },
+        {
+          "city": null,
+          "region": "Oregon",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-06A official location is Oregon, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-06A"
+        },
+        {
+          "city": null,
+          "region": "Colorado",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-07A official location is Colorado, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-07A"
+        },
+        {
+          "city": null,
+          "region": "California",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-08A official location is California, USA only — no city published.",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-08A"
+        },
+        {
+          "city": null,
+          "region": "Washington",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-09B official location is Washington, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-09B"
+        },
+        {
+          "city": null,
+          "region": "Nevada",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-WEST-10A official location is Nevada, USA only — no city published. General + object storage",
+          "source_url": "https://docs.coreweave.com/platform/regions/all-availability-zones",
+          "as_of": "2026-08-19",
+          "az": "US-WEST-10A"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Indonesia",
+          "iso3": "IDN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "announced",
+          "note": "First APAC move; city not named on fetched marketing/news page",
+          "source_url": "https://wf.coreweave.com/news/coreweave-expands-cloud-ai-platform-to-indonesia-marking-first-move-into-asia-pacific-region",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://docs.coreweave.com/platform/regions/all-availability-zones",
+        "https://docs.coreweave.com/platform/regions/about-regions-and-azs",
+        "https://coreweave.com/ai-data-centers",
+        "https://docs.coreweave.com/platform/instances/gpu-instances",
+        "https://www.coreweave.com/pricing"
+      ],
+      "notes": "Gold-standard public AZ table (docs last modified 2026-04-17). Marketing: 51 DCs, 1.5 GW active. US rows are state-only; do not invent cities. HQ address on site: 290 W Mt Pleasant Ave, Livingston NJ.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "lambda",
+      "name": "Lambda",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "San Jose",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://lambda.ai/",
+      "pricing": "https://lambda.ai/pricing",
+      "silicon": [
+        "B200",
+        "GH200",
+        "H100 SXM",
+        "H100 PCIe",
+        "A100 SXM",
+        "A100 PCIe",
+        "A10",
+        "A6000",
+        "V100",
+        "RTX 6000"
+      ],
+      "locations": [
+        {
+          "city": "Tokyo",
+          "region": null,
+          "country": "Japan",
+          "iso3": "JPN",
+          "lat": 35.676,
+          "lon": 139.65,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "asia-northeast-1",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Osaka",
+          "region": null,
+          "country": "Japan",
+          "iso3": "JPN",
+          "lat": 34.694,
+          "lon": 135.502,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "asia-northeast-2",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "India",
+          "iso3": "IND",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "asia-south-1 official string is India — no city",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Germany",
+          "iso3": "DEU",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "europe-central-1 official string is Germany — no city",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Israel",
+          "iso3": "ISR",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "me-west-1 official string is Israel — no city",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Virginia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-east-1 state only",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Washington",
+          "region": "District of Columbia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 38.907,
+          "lon": -77.037,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "us-east-2 Washington DC",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Illinois",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-midwest-1 state only",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-south-1",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-south-2 North Texas",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-south-3 Central Texas",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "California",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-west-1 state only",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Arizona",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-west-2 state only",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Utah",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-west-3 state only",
+          "source_url": "https://docs.lambda.ai/public-cloud/on-demand/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://docs.lambda.ai/public-cloud/on-demand/",
+        "https://lambda.ai/service/gpu-cloud",
+        "https://lambda.ai/pricing"
+      ],
+      "notes": "Official ODC Regions table. Press factories (Kansas City, Vernon, Chicago, Atlanta) are capacity builds — not extra ODC rows unless Lambda adds them.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "crusoe",
+      "name": "Crusoe Cloud",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "San Francisco",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.crusoe.ai/",
+      "pricing": "https://www.crusoe.ai/cloud/pricing",
+      "silicon": [
+        "GB200",
+        "B200",
+        "H200",
+        "H100",
+        "A100",
+        "L40S",
+        "MI355X",
+        "MI300X"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-east1-a city not named on VPC docs",
+          "source_url": "https://docs.crusoecloud.com/networking/vpc-networks/overview.md",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Abilene",
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 32.449,
+          "lon": -99.733,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "Flagship campus confirmed in newsroom; VPC table names us-southcentral1-a without a city",
+          "source_url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-flagship-abilene-data-center-is-live",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "us-west1-a city not named",
+          "source_url": "https://docs.crusoecloud.com/networking/vpc-networks/overview.md",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Iceland",
+          "iso3": "ISL",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "eu-iceland1-a; city not on VPC table",
+          "source_url": "https://docs.crusoecloud.com/networking/vpc-networks/overview.md",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "eu-norway1-a on VM types; newsroom 12MW hydro, city unnamed",
+          "source_url": "https://docs.crusoecloud.com/compute/virtual-machines/overview.md",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.crusoe.ai/cloud",
+        "https://www.crusoe.ai/cloud/pricing",
+        "https://docs.crusoecloud.com/networking/vpc-networks/overview.md",
+        "https://www.crusoe.ai/resources/newsroom/crusoe-announces-flagship-abilene-data-center-is-live"
+      ],
+      "notes": "Some regions restricted/sales-gated. Do not invent Glendive as a current Cloud region without an official row.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "voltage-park",
+      "name": "Voltage Park",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.voltagepark.com/",
+      "pricing": "https://www.voltagepark.com/pricing",
+      "silicon": [
+        "HGX H100"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Official: six Tier 3+ US DCs. No city table on /infrastructure or /about. Undisclosed / contact. Do not use third-party Houston/Richardson pins.",
+          "source_url": "https://www.voltagepark.com/infrastructure",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.voltagepark.com/",
+        "https://www.voltagepark.com/infrastructure",
+        "https://voltagepark.com/about",
+        "https://www.voltagepark.com/pricing"
+      ],
+      "notes": "Marketing starting-at prices are not a named-SKU rate card (see Tape research). List the company; cities stay undisclosed.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "tensorwave",
+      "name": "TensorWave",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "Las Vegas",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://tensorwave.com/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "MI300X",
+        "MI325X",
+        "MI355X"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": "Arizona",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "No /locations page; counsel/PR: Tucson TECfusions site",
+          "source_url": "https://www.foley.com/news/2026/01/foley-advises-tensorwave-in-20-mw-data-center-expansion-with-tecfusions/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Pennsylvania",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "building",
+          "note": "Keystone Connect near Pittsburgh, 10MW, 1H 2026 (Foley)",
+          "source_url": "https://www.foley.com/news/2026/01/foley-advises-tensorwave-in-20-mw-data-center-expansion-with-tecfusions/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Carson County",
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 35.403,
+          "lon": -101.354,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "announced",
+          "note": "Official blog: Fermi Project Matador lease",
+          "source_url": "https://tensorwave.com/blog/fermi-announces-binding-lease-agreement-with-tensorwave",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Florida",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Press-only (SiliconANGLE 2026-06-10); not on tensorwave.com locations",
+          "source_url": "https://siliconangle.com/2026/06/10/data-center-infrastructure-startup-tensorwave-raises-350m-help-break-nvidias-ai-chip-monopoly/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://tensorwave.com/",
+        "https://tensorwave.com/blog/fermi-announces-binding-lease-agreement-with-tensorwave"
+      ],
+      "notes": "AMD Instinct specialist. Sales-gated. Prefer official blog over directories.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "nebius",
+      "name": "Nebius",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "iso3": "NLD"
+      },
+      "website": "https://nebius.com/",
+      "pricing": "https://nebius.com/prices",
+      "silicon": [
+        "B300",
+        "B200",
+        "H200",
+        "H100",
+        "RTX PRO 6000",
+        "L40S"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "Finland",
+          "iso3": "FIN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "eu-north1 official: Finland (press often Mäntsälä — not on this row)",
+          "source_url": "https://docs.nebius.com/overview/regions",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "France",
+          "iso3": "FRA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "eu-west1 official: France — no city",
+          "source_url": "https://docs.nebius.com/overview/regions",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Israel",
+          "iso3": "ISR",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "me-west1 official: Israel — no city",
+          "source_url": "https://docs.nebius.com/overview/regions",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Kansas City",
+          "region": "Missouri",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 39.1,
+          "lon": -94.578,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "us-central1",
+          "source_url": "https://docs.nebius.com/overview/regions",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "uk-south1 official: United Kingdom — no city",
+          "source_url": "https://docs.nebius.com/overview/regions",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Iceland",
+          "iso3": "ISL",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "eu-north2 private region",
+          "source_url": "https://docs.nebius.com/overview/regions",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "France",
+          "iso3": "FRA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "eu-west2 private region; France — no city",
+          "source_url": "https://docs.nebius.com/overview/regions",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://docs.nebius.com/overview/regions",
+        "https://docs.nebius.com/vpc/addressing/available-addresses",
+        "https://status.nebius.com/",
+        "https://nebius.com/prices"
+      ],
+      "notes": "Best official region table after CoreWeave. Silicon is per-region on the platforms matrix (B300 in uk-south1 + eu-west2; H100 only eu-north1).",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "runpod",
+      "name": "RunPod",
+      "kind": "marketplace",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.runpod.io/",
+      "pricing": "https://www.runpod.io/pricing",
+      "silicon": [
+        "B300",
+        "B200",
+        "H200",
+        "H100",
+        "A100",
+        "MI300X",
+        "L40S",
+        "RTX 4090",
+        "RTX 5090",
+        "RTX PRO 6000"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Docs example US-GA-1; example location string is United States only",
+          "source_url": "https://docs.runpod.io/runpodctl/reference/runpodctl-datacenter",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": null,
+          "iso3": null,
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Docs example EU-RO-1 location string is Europe",
+          "source_url": "https://docs.runpod.io/runpodctl/reference/runpodctl-datacenter",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": null,
+          "iso3": null,
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Homepage: 31 global regions. Full list is CLI/console, not a static docs table — do not invent the rest",
+          "source_url": "https://www.runpod.io/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.runpod.io/",
+        "https://www.runpod.io/pricing",
+        "https://docs.runpod.io/references/gpu-types",
+        "https://docs.runpod.io/runpodctl/reference/runpodctl-datacenter"
+      ],
+      "notes": "Secure + Community marketplace. Not a single-operator neocloud.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "vast-ai",
+      "name": "Vast.ai",
+      "kind": "marketplace",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://vast.ai/",
+      "pricing": "https://vast.ai/pricing",
+      "silicon": [
+        "Host-dependent; H100/B200/4090 appear on live market"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": null,
+          "iso3": null,
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Distributed marketplace. Official geo: GET /api/v0/metrics/gpu/locations/. Do not snapshot a fake permanent city list.",
+          "source_url": "https://docs.vast.ai/api-reference/machines/show-gpu-locations",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://vast.ai/",
+        "https://docs.vast.ai/api-reference/machines/show-gpu-locations"
+      ],
+      "notes": "Map should bind the live metrics API.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "fluidstack",
+      "name": "Fluidstack",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "New York",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.fluidstack.io/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "Enterprise NVIDIA clusters — SKUs not on homepage"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": "New York",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "announced",
+          "note": "Homepage: Anthropic custom DCs in New York and Texas; cities unnamed",
+          "source_url": "https://www.fluidstack.io/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "announced",
+          "note": "Same Anthropic build-out",
+          "source_url": "https://www.fluidstack.io/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.fluidstack.io/"
+      ],
+      "notes": "2026 site is factory-builder more than self-serve GPU shop. Still list.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "hyperstack",
+      "name": "Hyperstack (NexGen Cloud)",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "London",
+        "country": "United Kingdom",
+        "iso3": "GBR"
+      },
+      "website": "https://www.hyperstack.cloud/",
+      "pricing": "https://www.hyperstack.cloud/gpu-pricing",
+      "silicon": [
+        "B300",
+        "B200",
+        "H200 SXM",
+        "H100 SXM",
+        "H100",
+        "RTX PRO 6000 SE",
+        "A100 SXM",
+        "A100",
+        "L40",
+        "A6000",
+        "A4000"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": "Vestland",
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "NORWAY-1 official: Vestland, Norway (county)",
+          "source_url": "https://docs.hyperstack.cloud/docs/resource-management/regions/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Quebec",
+          "country": "Canada",
+          "iso3": "CAN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "CANADA-1 official: Quebec, Canada (province)",
+          "source_url": "https://docs.hyperstack.cloud/docs/resource-management/regions/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "US-1 official: Texas, United States",
+          "source_url": "https://docs.hyperstack.cloud/docs/resource-management/regions/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://docs.hyperstack.cloud/docs/resource-management/regions/",
+        "https://www.hyperstack.cloud/gpu-pricing",
+        "https://status.hyperstack.cloud/",
+        "https://www.nexgencloud.com/about"
+      ],
+      "notes": "NexGen about page: 2 Canada + 2 Norway deployments. Status also shows Canada 2. Extra regions may appear in API.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "nscale",
+      "name": "Nscale",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "London",
+        "country": "United Kingdom",
+        "iso3": "GBR"
+      },
+      "website": "https://www.nscale.com/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "NVIDIA Blackwell Ultra (Keflavik); other SKUs sales-gated"
+      ],
+      "locations": [
+        {
+          "city": "Glomfjord",
+          "region": null,
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": 66.817,
+          "lon": 13.95,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "30MW operational / 60MW expandable",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Narvik",
+          "region": null,
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": 68.438,
+          "lon": 17.427,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "building",
+          "note": "230MW + 290MW; press also says Kvandal",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Oslo",
+          "region": null,
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": 59.913,
+          "lon": 10.752,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "Partner-run",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Stavanger",
+          "region": null,
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": 58.97,
+          "lon": 5.733,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "Partner-run",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Loughton",
+          "region": "England",
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "lat": 51.649,
+          "lon": 0.056,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "building",
+          "note": "London-proximate, up to 90MW",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Hayes",
+          "region": "England",
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "lat": 51.503,
+          "lon": -0.423,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "Partner-run",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Keflavik",
+          "region": null,
+          "country": "Iceland",
+          "iso3": "ISL",
+          "lat": 63.999,
+          "lon": -22.555,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "announced",
+          "note": ">4600 Blackwell Ultra on Verne campus in 2026",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Blönduós",
+          "region": null,
+          "country": "Iceland",
+          "iso3": "ISL",
+          "lat": 65.659,
+          "lon": -20.28,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "Partner-run",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Sines",
+          "region": null,
+          "country": "Portugal",
+          "iso3": "PRT",
+          "lat": 37.956,
+          "lon": -8.87,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "announced",
+          "note": "Start Campus GW-scale design",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "West Virginia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "announced",
+          "note": "Monarch campus; Phase 1 1.35GW targeted early 2028; no city",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Madison NC",
+          "region": "North Carolina",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 36.386,
+          "lon": -79.96,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "building",
+          "note": "Partner-run 96 acres; 40MW expected 2026",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Ward County",
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 31.51,
+          "lon": -103.138,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "building",
+          "note": "Official: Ward County ~240MW with Ionic Digital",
+          "source_url": "https://www.nscale.com/ai-infrastructure",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.nscale.com/ai-infrastructure",
+        "https://www.nscale.com/"
+      ],
+      "notes": "European AI-factory neocloud. Keep status honest: much of US/Iceland/Portugal is building or partner-run.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "gmi-cloud",
+      "name": "GMI Cloud",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.gmicloud.ai/",
+      "pricing": "https://www.gmicloud.ai/",
+      "silicon": [
+        "H100",
+        "H200",
+        "Blackwell/GB300"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": "California",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Blog: Silicon Valley region; city unpinned",
+          "source_url": "https://www.gmicloud.ai/en/blog/infrastructure-for-generative-media-ai-models-in-production",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": "Colorado",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Same blog",
+          "source_url": "https://www.gmicloud.ai/en/blog/infrastructure-for-generative-media-ai-models-in-production",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Taipei",
+          "region": null,
+          "country": "Taiwan",
+          "iso3": "TWN",
+          "lat": 25.033,
+          "lon": 121.565,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "building",
+          "note": "Official blog AI Factory ~7k Blackwell, target Mar 2026",
+          "source_url": "https://www.gmicloud.ai/en/blog/gmi-cloud-brings-taiwans-first-ai-factory",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Thailand",
+          "iso3": "THA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Blog: Thailand — no city",
+          "source_url": "https://www.gmicloud.ai/en/blog/infrastructure-for-generative-media-ai-models-in-production",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": null,
+          "region": null,
+          "country": "Malaysia",
+          "iso3": "MYS",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Blog: Malaysia — no city",
+          "source_url": "https://www.gmicloud.ai/en/blog/infrastructure-for-generative-media-ai-models-in-production",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Kagoshima",
+          "region": null,
+          "country": "Japan",
+          "iso3": "JPN",
+          "lat": 31.597,
+          "lon": 130.557,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "announced",
+          "note": "Sovereign factory w/ Wistron; construction late 2026 (DCD)",
+          "source_url": "https://www.datacenterdynamics.com/en/news/gmi-cloud-launches-12bn-sovereign-ai-infrastructure-initiative-in-japan/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.gmicloud.ai/",
+        "https://www.gmicloud.ai/en/blog/gmi-cloud-brings-taiwans-first-ai-factory"
+      ],
+      "notes": "Homepage fetched: H100 $2.00 / H200 $2.60 GPU-hr. APAC-heavy.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "applied-digital",
+      "name": "Applied Digital / Polar",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "Dallas",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://applieddigital.com/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "Tenant GPUs (incl. CoreWeave); not a self-serve public GPU shop"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Wholesale AI campuses. No official public GPU-cloud city table fetched. Undisclosed / contact for rentable SKUs.",
+          "source_url": "https://applieddigital.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://applieddigital.com/"
+      ],
+      "notes": "Include as campus operator. Polar appears in Nordic partner deals. Not a CoreWeave-style region list.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "digitalocean-gpu",
+      "name": "DigitalOcean GPU Droplets",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "New York",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.digitalocean.com/products/gpu-droplets",
+      "pricing": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "silicon": [
+        "MI350X",
+        "MI325X",
+        "MI300X",
+        "HGX B300",
+        "H200",
+        "H100",
+        "RTX 4000 Ada",
+        "RTX 6000 Ada",
+        "L40S"
+      ],
+      "locations": [
+        {
+          "city": "New York",
+          "region": "New York",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 40.713,
+          "lon": -74.006,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "NYC2",
+          "source_url": "https://www.digitalocean.com/products/gpu-droplets",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Toronto",
+          "region": "Ontario",
+          "country": "Canada",
+          "iso3": "CAN",
+          "lat": 43.653,
+          "lon": -79.383,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "TOR1",
+          "source_url": "https://www.digitalocean.com/products/gpu-droplets",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Atlanta",
+          "region": "Georgia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 33.749,
+          "lon": -84.388,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "ATL1",
+          "source_url": "https://www.digitalocean.com/products/gpu-droplets",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Richmond",
+          "region": "Virginia",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 37.541,
+          "lon": -77.436,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "RIC1",
+          "source_url": "https://www.digitalocean.com/products/gpu-droplets",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Amsterdam",
+          "region": "North Holland",
+          "country": "Netherlands",
+          "iso3": "NLD",
+          "lat": 52.367,
+          "lon": 4.904,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "AMS3",
+          "source_url": "https://www.digitalocean.com/products/gpu-droplets",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.digitalocean.com/products/gpu-droplets",
+        "https://www.digitalocean.com/pricing/gpu-droplets"
+      ],
+      "notes": "Paperspace acquired — fold that brand here.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "paperspace",
+      "name": "Paperspace (DigitalOcean)",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "New York",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.digitalocean.com/products/gpu-droplets",
+      "pricing": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "silicon": [
+        "See digitalocean-gpu"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": null,
+          "iso3": null,
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Acquired; do not keep a separate invented city list",
+          "source_url": "https://www.digitalocean.com/products/gpu-droplets",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.digitalocean.com/products/gpu-droplets"
+      ],
+      "notes": "Redirect to digitalocean-gpu.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "vultr-gpu",
+      "name": "Vultr GPU",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "West Palm Beach",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.vultr.com/products/cloud-gpu/",
+      "pricing": "https://www.vultr.com/pricing/#cloud-gpu",
+      "silicon": [
+        "H100",
+        "A100",
+        "L40S",
+        "A40",
+        "A16 — confirm live pricing page"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": null,
+          "iso3": null,
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Large global region map; GPU SKUs are a subset. Official Cloud GPU page timed out. Do not invent which cities have H100. Use datacenters page + console filter.",
+          "source_url": "https://www.vultr.com/products/cloud-gpu/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.vultr.com/products/cloud-gpu/",
+        "https://www.vultr.com/features/datacenters/"
+      ],
+      "notes": "City×GPU matrix is console/API.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "taiga-northern-data",
+      "name": "Taiga Cloud (Northern Data)",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "iso3": "DEU"
+      },
+      "website": "https://northerndata.de/taiga-cloud-by-northern-data-group",
+      "pricing": "sales-gated",
+      "silicon": [
+        "H100",
+        "H200"
+      ],
+      "locations": [
+        {
+          "city": "Chester",
+          "region": "England",
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "lat": 53.191,
+          "lon": -2.892,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "H200",
+          "source_url": "https://northerndata.de/taiga-cloud-by-northern-data-group",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Sines",
+          "region": null,
+          "country": "Portugal",
+          "iso3": "PRT",
+          "lat": 37.956,
+          "lon": -8.87,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "H100",
+          "source_url": "https://northerndata.de/taiga-cloud-by-northern-data-group",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "London",
+          "region": "England",
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "lat": 51.507,
+          "lon": -0.128,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "H100",
+          "source_url": "https://northerndata.de/taiga-cloud-by-northern-data-group",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Boden",
+          "region": null,
+          "country": "Sweden",
+          "iso3": "SWE",
+          "lat": 65.825,
+          "lon": 21.689,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "H100",
+          "source_url": "https://northerndata.de/taiga-cloud-by-northern-data-group",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Kristiansand",
+          "region": null,
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": 58.16,
+          "lon": 8.018,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "H100",
+          "source_url": "https://northerndata.de/taiga-cloud-by-northern-data-group",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Lefdal",
+          "region": null,
+          "country": "Norway",
+          "iso3": "NOR",
+          "lat": 61.93,
+          "lon": 5.375,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "Lefdal Mine high-speed compute",
+          "source_url": "https://northerndata.de/taiga-cloud-by-northern-data-group",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://northerndata.de/taiga-cloud-by-northern-data-group",
+        "https://northerndata.de/"
+      ],
+      "notes": "EU sovereign GPU cloud. Page: 6 AI islands, 24,000 GPUs.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "leafcloud",
+      "name": "Leafcloud",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "iso3": "NLD"
+      },
+      "website": "https://www.leaf.cloud/",
+      "pricing": "https://www.leaf.cloud/pricing",
+      "silicon": [
+        "Confirm on product page before publishing chip badges"
+      ],
+      "locations": [
+        {
+          "city": "Amsterdam",
+          "region": "North Holland",
+          "country": "Netherlands",
+          "iso3": "NLD",
+          "lat": 52.367,
+          "lon": 4.904,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "NL residual-heat cloud. Extra cities not fetched — do not invent.",
+          "source_url": "https://www.leaf.cloud/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.leaf.cloud/"
+      ],
+      "notes": "EU regional. Short honest list.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "salad",
+      "name": "SaladCloud",
+      "kind": "marketplace",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://salad.com/",
+      "pricing": "https://salad.com/pricing",
+      "silicon": [
+        "Distributed consumer + DC GPUs"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": null,
+          "iso3": null,
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Distributed residual-capacity network. No official static city table. Undisclosed / live map in console.",
+          "source_url": "https://salad.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://salad.com/"
+      ],
+      "notes": "Marketplace / distributed. Same rule as Vast: do not invent cities.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "thunder-compute",
+      "name": "Thunder Compute",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://thundercompute.com/",
+      "pricing": "https://thundercompute.com/pricing",
+      "silicon": [
+        "Confirm on pricing page"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Public GPU rental. Official city table not fetched in this pass. Undisclosed / contact.",
+          "source_url": "https://thundercompute.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://thundercompute.com/"
+      ],
+      "notes": "List the company; do not invent a city.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "cirrascale",
+      "name": "Cirrascale",
+      "kind": "neocloud",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.cirrascale.com/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "NVIDIA GPU cloud — SKUs sales-gated"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Long-running GPU cloud. Public city table not fetched. Undisclosed / contact.",
+          "source_url": "https://www.cirrascale.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.cirrascale.com/"
+      ],
+      "notes": "Include; locations sales-gated.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "yotta",
+      "name": "Yotta",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "India",
+        "iso3": "IND"
+      },
+      "website": "https://yotta.com/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "Public GPU-cloud SKU list not independently fetched"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "India",
+          "iso3": "IND",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Indian DC/cloud operator. Official public GPU-city table not fetched. List company; cities undisclosed / contact.",
+          "source_url": "https://yotta.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://yotta.com/"
+      ],
+      "notes": "APAC/India mandatory listing even without a city table.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "datavolt",
+      "name": "DataVolt",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": null,
+        "country": "Saudi Arabia",
+        "iso3": "SAU"
+      },
+      "website": "https://www.datavolt.com.sa/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "Sovereign AI campuses — not a self-serve public GPU shop on fetched pages"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "Saudi Arabia",
+          "iso3": "SAU",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "announced",
+          "note": "ME sovereign build. Rentable public GPU cloud not confirmed. List company; cities undisclosed / contact.",
+          "source_url": "https://www.datavolt.com.sa/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.datavolt.com.sa/"
+      ],
+      "notes": "Often wholesale/sovereign, not on-demand.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "g42",
+      "name": "G42 / Core42",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Abu Dhabi",
+        "country": "United Arab Emirates",
+        "iso3": "ARE"
+      },
+      "website": "https://www.g42.ai/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "Sovereign NVIDIA clusters — sales-gated"
+      ],
+      "locations": [
+        {
+          "city": "Abu Dhabi",
+          "region": null,
+          "country": "United Arab Emirates",
+          "iso3": "ARE",
+          "lat": 24.453,
+          "lon": 54.377,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "UAE sovereign AI operator. Public self-serve city/SKU table not fetched.",
+          "source_url": "https://www.g42.ai/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.g42.ai/"
+      ],
+      "notes": "ME sovereign. Not a CoreWeave-style public rental list.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "humain",
+      "name": "HUMAIN",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "iso3": "SAU"
+      },
+      "website": "https://www.humain.ai/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "Sovereign; Groq and NVIDIA partnerships cited in partner press"
+      ],
+      "locations": [
+        {
+          "city": "Riyadh",
+          "region": null,
+          "country": "Saudi Arabia",
+          "iso3": "SAU",
+          "lat": 24.714,
+          "lon": 46.675,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "PIF-backed Saudi AI. Public GPU-rental city table not fetched. Groq lists SA-1 Riyadh separately.",
+          "source_url": "https://www.humain.ai/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.humain.ai/",
+        "https://groq.com/groqcloud"
+      ],
+      "notes": "State-backed. List company; do not invent extra cities.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "alibaba-pai",
+      "name": "Alibaba Cloud PAI / EAS GPU",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Hangzhou",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.alibabacloud.com/product/machine-learning",
+      "pricing": "https://www.alibabacloud.com/product/ecs/gpu",
+      "silicon": [
+        "NVIDIA + Alibaba GPU/NPU instance families — see ECS GPU page"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "PAI/EAS GPU runs on Alibaba Cloud regions. Use Alibaba region table in Hyperscalers. No separate PAI-only city list fetched.",
+          "source_url": "https://www.alibabacloud.com/help/en/ecs/user-guide/regions-and-zones",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.alibabacloud.com/product/machine-learning",
+        "https://www.alibabacloud.com/help/en/ecs/user-guide/regions-and-zones"
+      ],
+      "notes": "China GPU rental = Alibaba regions. Dual-index with hyperscaler.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "huawei-cloud-gpu",
+      "name": "Huawei Cloud GPU",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Shenzhen",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.huaweicloud.com/",
+      "pricing": "https://www.huaweicloud.com/intl/en-us/pricing/",
+      "silicon": [
+        "Ascend NPU + NVIDIA GPU instances where offered"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "GPU/NPU on Huawei Cloud regions. See Hyperscalers for the official international region list.",
+          "source_url": "https://www.huaweicloud.com/intl/en-us/securecenter/data_protection/region_query.html",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.huaweicloud.com/intl/en-us/securecenter/data_protection/region_query.html"
+      ],
+      "notes": "Dual-index.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "tencent-cloud-gpu",
+      "name": "Tencent Cloud GPU",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Shenzhen",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.tencentcloud.com/",
+      "pricing": "https://www.tencentcloud.com/product/gpu",
+      "silicon": [
+        "NVIDIA GPU instances on Tencent Cloud"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Follow Tencent CVM region table in Hyperscalers.",
+          "source_url": "https://www.tencentcloud.com/document/product/213/6091",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.tencentcloud.com/document/product/213/6091"
+      ],
+      "notes": "Dual-index.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "baidu-bce-gpu",
+      "name": "Baidu AI Cloud GPU",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Beijing",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://cloud.baidu.com/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "Baidu Kunlun + NVIDIA — English SKU page not fetched"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "No English public city table fetched. List company; cities undisclosed on this pass.",
+          "source_url": "https://cloud.baidu.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://cloud.baidu.com/"
+      ],
+      "notes": "China mandatory listing.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "volcengine-gpu",
+      "name": "Volcengine GPU",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Beijing",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.volcengine.com/",
+      "pricing": "https://www.volcengine.com/pricing",
+      "silicon": [
+        "NVIDIA GPU instances — confirm console"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "ByteDance cloud. Public English city list not fetched. Undisclosed / contact.",
+          "source_url": "https://www.volcengine.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.volcengine.com/"
+      ],
+      "notes": "Also Ark inference. Dual-index with hyperscaler.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "china-telecom-tianyi",
+      "name": "China Telecom Tianyi / AIDC",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Beijing",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.ctyun.cn/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "AIDC GPU — no public English city/SKU table fetched"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Carrier AIDC. No public city list fetched. List company.",
+          "source_url": "https://www.ctyun.cn/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.ctyun.cn/"
+      ],
+      "notes": "China Telecom / Unicom / Mobile AIDC are real; cities are often sales-gated.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "sensetime",
+      "name": "SenseTime SenseCore",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Shanghai",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.sensetime.com/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "SenseCore AI compute — public rental city table not fetched"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "AI cloud / AIDC. Cities undisclosed on English pages used.",
+          "source_url": "https://www.sensetime.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.sensetime.com/"
+      ],
+      "notes": "List company.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "moore-threads",
+      "name": "Moore Threads Cloud",
+      "kind": "regional",
+      "index": "neocloud",
+      "hq": {
+        "city": "Beijing",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.mthreads.com/",
+      "pricing": "sales-gated",
+      "silicon": [
+        "MTT GPU — public cloud city table not fetched"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "If a public MTT cloud exists it is China-operated. City list not fetched. List company.",
+          "source_url": "https://www.mthreads.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.mthreads.com/"
+      ],
+      "notes": "Include; do not invent a Beijing campus pin without a primary page.",
+      "as_of": "2026-08-19"
+    }
+  ]
+}

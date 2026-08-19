@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>The Inference Index · compute.world</title>
+  <link>https://compute.world/inference.html</link>
+  <description>Token APIs and inference endpoints, as the operator publishes them. China and the EU stay on the list even when the city is sales-gated. This is not a bare-metal catalog, and it is not a market cap. Snapshot 2026-08-19. 21 providers. Not a market cap.</description>
+  <language>en</language>
+  <item>
+    <title>Groq / GroqCloud · inference</title>
+    <link>https://compute.world/inference.html#groq</link>
+    <guid isPermaLink="false">compute.world/inference#groq</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Groq / GroqCloud (inference). HQ Mountain View · United States. 11 sourced location rows. Cities: 11 named. Groq LPU, NVIDIA Groq 3 LPX announced, Llama and other open models via GroqCloud — catalog rotates. Official page says 13 DCs across four continents but lists 11 named sites. Remaining two cities unpublished.</description>
+  </item>
+  <item>
+    <title>Cerebras · inference</title>
+    <link>https://compute.world/inference.html#cerebras</link>
+    <guid isPermaLink="false">compute.world/inference#cerebras</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Cerebras (inference). HQ Sunnyvale · United States. 1 sourced location rows. Cities: undisclosed. Cerebras WSE, Llama, Qwen and others via Cerebras Inference — catalog rotates. Token API on custom WSE. No public city DC table on marketing/pricing pages fetched. Undisclosed / contact. Do not invent hourly WSE rental.</description>
+  </item>
+  <item>
+    <title>Together AI · inference</title>
+    <link>https://compute.world/inference.html#together</link>
+    <guid isPermaLink="false">compute.world/inference#together</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Together AI (inference). HQ San Francisco · United States. 1 sourced location rows. Cities: undisclosed. NVIDIA GPUs (dedicated-endpoint hardware flags), Large open-model catalog — see models page. Serverless + dedicated. API api.together.ai. Dedicated AZs e.g. us-central-4b via CLI; city not on fetched docs.</description>
+  </item>
+  <item>
+    <title>Fireworks AI · inference</title>
+    <link>https://compute.world/inference.html#fireworks</link>
+    <guid isPermaLink="false">compute.world/inference#fireworks</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Fireworks AI (inference). HQ Redwood City · United States. 1 sourced location rows. Cities: undisclosed. NVIDIA GPUs, Open + custom; serverless / on-demand / reserved. Homepage says multi-region on-demand. No public city table fetched. Undisclosed / contact.</description>
+  </item>
+  <item>
+    <title>OpenAI · inference</title>
+    <link>https://compute.world/inference.html#openai</link>
+    <guid isPermaLink="false">compute.world/inference#openai</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>OpenAI (inference). HQ San Francisco · United States. 1 sourced location rows. Cities: undisclosed. Undisclosed mix; partner neoclouds + Azure, GPT / o-series / embeddings — see models page. Global token API. Physical Stargate campuses are not the public API endpoint map. Residency via data-controls docs.</description>
+  </item>
+  <item>
+    <title>Anthropic · inference</title>
+    <link>https://compute.world/inference.html#anthropic</link>
+    <guid isPermaLink="false">compute.world/inference#anthropic</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Anthropic (inference). HQ San Francisco · United States. 1 sourced location rows. Cities: undisclosed. Undisclosed; AWS / GCP / CoreWeave / Fluidstack capacity, Claude Opus / Sonnet / Haiku. Claude API is a token endpoint. Region via Bedrock/Vertex/partners — not an Anthropic DC city table.</description>
+  </item>
+  <item>
+    <title>Google AI Studio / Vertex AI · inference</title>
+    <link>https://compute.world/inference.html#google-ai-studio-vertex</link>
+    <guid isPermaLink="false">compute.world/inference#google-ai-studio-vertex</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Google AI Studio / Vertex AI (inference). HQ Mountain View · United States. 1 sourced location rows. Cities: undisclosed. TPU, NVIDIA GPUs on GCP, Gemini, Imagen, Veo, Model Garden. Endpoints follow GCP regions. Not every region hosts every model. Use Hyperscaler GCP table + Vertex locations doc.</description>
+  </item>
+  <item>
+    <title>Amazon Bedrock · inference</title>
+    <link>https://compute.world/inference.html#amazon-bedrock</link>
+    <guid isPermaLink="false">compute.world/inference#amazon-bedrock</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Amazon Bedrock (inference). HQ Seattle · United States. 1 sourced location rows. Cities: undisclosed. Trainium/Inferentia + NVIDIA on AWS, Nova, Claude, Llama, Mistral, Cohere — marketplace. Regional on AWS. Model×region matrix is the Bedrock availability page — do not assume every AWS region.</description>
+  </item>
+  <item>
+    <title>Azure OpenAI Service · inference</title>
+    <link>https://compute.world/inference.html#azure-openai</link>
+    <guid isPermaLink="false">compute.world/inference#azure-openai</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Azure OpenAI Service (inference). HQ Redmond · United States. 1 sourced location rows. Cities: undisclosed. Azure GPU/CPU mix, OpenAI models on Azure. Subset of Azure regions. Use Microsoft model/region table; do not copy full Azure geography as if every region hosts OpenAI.</description>
+  </item>
+  <item>
+    <title>Mistral AI · inference</title>
+    <link>https://compute.world/inference.html#mistral</link>
+    <guid isPermaLink="false">compute.world/inference#mistral</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Mistral AI (inference). HQ Paris · France. 1 sourced location rows. Cities: undisclosed. Undisclosed; la Plateforme + partner clouds, Mistral Large/Medium/Small, Codestral, Pixtral, open-weight. French operator. Public inference-DC city table not on homepage fetched. Also on Azure/AWS/GCP/Scaleway.</description>
+  </item>
+  <item>
+    <title>Cohere · inference</title>
+    <link>https://compute.world/inference.html#cohere</link>
+    <guid isPermaLink="false">compute.world/inference#cohere</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Cohere (inference). HQ Toronto · Canada. 1 sourced location rows. Cities: undisclosed. Undisclosed, Command, Embed, Rerank. API + private deploy. No public city DC table fetched. Also on AWS/Azure/GCP.</description>
+  </item>
+  <item>
+    <title>SambaNova · inference</title>
+    <link>https://compute.world/inference.html#sambanova</link>
+    <guid isPermaLink="false">compute.world/inference#sambanova</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>SambaNova (inference). HQ Palo Alto · United States. 1 sourced location rows. Cities: undisclosed. SambaNova SN40L / RDU, Llama and others on SambaCloud. Custom RDU inference. Public city list not on marketing pages used. Undisclosed / contact.</description>
+  </item>
+  <item>
+    <title>DeepSeek · inference</title>
+    <link>https://compute.world/inference.html#deepseek</link>
+    <guid isPermaLink="false">compute.world/inference#deepseek</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>DeepSeek (inference). HQ Hangzhou · China. 1 sourced location rows. Cities: undisclosed. Undisclosed China training cluster, DeepSeek-V3/V4/R1 families — names rotate. api.deepseek.com. No official public city list. China-operated, city undisclosed.</description>
+  </item>
+  <item>
+    <title>Moonshot / Kimi · inference</title>
+    <link>https://compute.world/inference.html#moonshot-kimi</link>
+    <guid isPermaLink="false">compute.world/inference#moonshot-kimi</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Moonshot / Kimi (inference). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. Undisclosed, Kimi family. Platform API. No public city DC table fetched.</description>
+  </item>
+  <item>
+    <title>Zhipu / Z.ai (GLM) · inference</title>
+    <link>https://compute.world/inference.html#zhipu</link>
+    <guid isPermaLink="false">compute.world/inference#zhipu</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Zhipu / Z.ai (GLM) (inference). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. Undisclosed, GLM family. Open platform API. No official public city list fetched.</description>
+  </item>
+  <item>
+    <title>Alibaba Qwen / DashScope · inference</title>
+    <link>https://compute.world/inference.html#alibaba-dashscope</link>
+    <guid isPermaLink="false">compute.world/inference#alibaba-dashscope</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Alibaba Qwen / DashScope (inference). HQ Hangzhou · China. 1 sourced location rows. Cities: undisclosed. Alibaba Cloud GPU/NPU, Qwen family. Regional on Alibaba Cloud. Use hyperscaler region table; not every region hosts every Qwen SKU.</description>
+  </item>
+  <item>
+    <title>Baidu Qianfan · inference</title>
+    <link>https://compute.world/inference.html#baidu-qianfan</link>
+    <guid isPermaLink="false">compute.world/inference#baidu-qianfan</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Baidu Qianfan (inference). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. Kunlun / Cloud GPU — English SKU page sales-gated, ERNIE / Wenxin + third-party. No English public city table fetched. List company.</description>
+  </item>
+  <item>
+    <title>ByteDance / Volcengine Ark · inference</title>
+    <link>https://compute.world/inference.html#bytedance-volcengine-ark</link>
+    <guid isPermaLink="false">compute.world/inference#bytedance-volcengine-ark</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>ByteDance / Volcengine Ark (inference). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. Volcengine GPU fleet, Doubao / Seed + open models. Ark model API. English city list not fetched. Operator China.</description>
+  </item>
+  <item>
+    <title>Tencent Hunyuan · inference</title>
+    <link>https://compute.world/inference.html#tencent-hunyuan</link>
+    <guid isPermaLink="false">compute.world/inference#tencent-hunyuan</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Tencent Hunyuan (inference). HQ Shenzhen · China. 1 sourced location rows. Cities: undisclosed. Tencent Cloud GPU, Hunyuan family. API on Tencent Cloud. Use Tencent region table for IaaS.</description>
+  </item>
+  <item>
+    <title>Scaleway Generative APIs · inference</title>
+    <link>https://compute.world/inference.html#scaleway-generative</link>
+    <guid isPermaLink="false">compute.world/inference#scaleway-generative</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Scaleway Generative APIs (inference). HQ Paris · France. 3 sourced location rows. Cities: Paris, Amsterdam, Warsaw. Scaleway GPU instances in PAR/AMS/WAW, Managed open models — catalog on product page. Token product of a regional hyperscaler. Scaleway IaaS is classified under Hyperscalers.</description>
+  </item>
+  <item>
+    <title>Crusoe Managed / Serverless Inference · inference</title>
+    <link>https://compute.world/inference.html#crusoe-inference</link>
+    <guid isPermaLink="false">compute.world/inference#crusoe-inference</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Crusoe Managed / Serverless Inference (inference). HQ San Francisco · United States. 1 sourced location rows. Cities: undisclosed. H100, H200, B200, GB200, MI300X, MI355X. Token SKUs on crusoe.ai/cloud/pricing. Physical regions follow Crusoe Cloud (Neoclouds).</description>
+  </item>
+</channel></rss>

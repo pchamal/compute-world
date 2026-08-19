@@ -12,16 +12,29 @@ LINKS = (
     ("gazetteer", "Gazetteer", "#gazetteer"),
     ("wire", "Wire", "/wire.html"),
     ("silicon", "Silicon", "#silicon"),  # homepage tab; inner pages become /#silicon
+    ("inference", "Inference", "#inference"),
+    ("neoclouds", "Neoclouds", "#neoclouds"),
+    ("hyperscalers", "Hyperscalers", "#hyperscalers"),
     ("credit", "Cite", "#credit"),
     ("contact", "Contact", "/contact.html"),
     ("agents", "Agents", "/agents.html"),
 )
+
+# Homepage hashes for the three new indexes; dedicated pages on inner pages.
+PAGE_HREF = {
+    "inference": "/inference.html",
+    "neoclouds": "/neoclouds.html",
+    "hyperscalers": "/hyperscalers.html",
+}
 
 # Homepage section hashes stay in-page; inner pages point at the homepage anchors.
 HOME_CURRENT = ("silicon",)  # Silicon is the home mark; JS marks Index when Countries is open
 INNER = {
     "wire": "wire",
     "silicon": "silicon",
+    "inference": "inference",
+    "neoclouds": "neoclouds",
+    "hyperscalers": "hyperscalers",
     "contact": "contact",
     "agents": "agents",
     "brief": "brief",
@@ -41,6 +54,9 @@ def current_keys(page):
 
 def href(dest, page):
     if dest.startswith("#") and not is_home(page):
+        key = dest[1:]
+        if key in PAGE_HREF:
+            return PAGE_HREF[key]
         return "/" + dest
     return dest
 
@@ -69,7 +85,7 @@ html[data-theme="dark"] #fnav{background:var(--glass,rgba(23,21,17,.72));border-
 html[data-theme="dark"] #fnav a{color:var(--ink,#ece7db)}
 html[data-theme="dark"] #fnav a:hover,html[data-theme="dark"] #fnav a.here,html[data-theme="dark"] #nburger:hover{color:var(--accent,#c2564c)}
 html[data-theme="dark"] #fnav .ndot{background:var(--pr,#8fae72)}
-@media(max-width:1240px){
+@media(max-width:1520px){
   #nburger{display:block}
   #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
   align-items:flex-end;gap:13px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(16px) saturate(1.1);

@@ -2,7 +2,7 @@
 // No secrets in git. Persist via SUBSCRIBE_WEBHOOK or KV binding SUBSCRIBERS.
 // If neither is configured, return 200 with stored:"pending" — do not promise email.
 
-const ALLOWED = new Set(["countries", "silicon"]);
+const ALLOWED = new Set(["countries", "silicon", "inference", "neoclouds", "hyperscalers"]);
 
 function json(body, status) {
   return new Response(JSON.stringify(body), {

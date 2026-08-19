@@ -44,9 +44,12 @@ def markup():
       <div class="lists">
         <label><input type="checkbox" name="lists" value="countries" checked> Countries</label>
         <label><input type="checkbox" name="lists" value="silicon" checked> Silicon</label>
+        <label><input type="checkbox" name="lists" value="inference"> Inference</label>
+        <label><input type="checkbox" name="lists" value="neoclouds"> Neoclouds</label>
+        <label><input type="checkbox" name="lists" value="hyperscalers"> Hyperscalers</label>
       </div>
     </form>
-    <p class="feeds">RSS: <a href="/brief.xml">/brief.xml</a> · <a href="/silicon.xml">/silicon.xml</a> · <a href="/wire.xml">/wire.xml</a></p>
+    <p class="feeds">RSS: <a href="/brief.xml">/brief.xml</a> · <a href="/silicon.xml">/silicon.xml</a> · <a href="/inference.xml">/inference.xml</a> · <a href="/neoclouds.xml">/neoclouds.xml</a> · <a href="/hyperscalers.xml">/hyperscalers.xml</a> · <a href="/wire.xml">/wire.xml</a></p>
     <p class="submsg" id="submsg" role="status" aria-live="polite"></p>
   </div>
 </section>
@@ -63,7 +66,7 @@ def script():
     var email=(form.email.value||"").trim();
     var lists=[].slice.call(form.querySelectorAll('input[name="lists"]:checked')).map(function(c){ return c.value; });
     if(!email || email.indexOf("@")<1 || email.indexOf(".")<3){ setMsg("A real address, if you please.", "err"); return; }
-    if(!lists.length){ setMsg("Choose Countries, Silicon, or both.", "err"); return; }
+    if(!lists.length){ setMsg("Choose at least one list.", "err"); return; }
     var btn=form.querySelector('button[type="submit"]');
     btn.disabled=true; setMsg("Sending…", "");
     fetch("/api/subscribe", {
@@ -80,7 +83,9 @@ def script():
         setMsg("You're on the list. Today's brief is public; the weekday feed is /brief.xml.", "ok");
       }
       form.reset();
-      form.querySelectorAll('input[name="lists"]').forEach(function(c){ c.checked=true; });
+      form.querySelectorAll('input[name="lists"]').forEach(function(c){
+        c.checked = (c.value==="countries"||c.value==="silicon");
+      });
     }).catch(function(){
       setMsg("The list is unreachable from here. The brief and RSS still are.", "err");
     }).finally(function(){ btn.disabled=false; });

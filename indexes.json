@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "as_of": "2026-08-19",
+    "project": "compute.world",
+    "indexes": [
+      "countries",
+      "silicon",
+      "inference",
+      "neoclouds",
+      "hyperscalers"
+    ],
+    "countries_and_silicon": "already exist \u2014 skipped",
+    "honesty": "Locations only from official pages or clearly labeled press. No invented cities. State/country-only when that is all the primary page says. lat/lon = Wikipedia city centroid when a named city exists.",
+    "classification_scaleway": "regional-hyperscaler (full IaaS catalog), not neocloud",
+    "no_market_caps": true
+  },
+  "files": {
+    "neoclouds": "/workspace/neoclouds.json",
+    "inference": "/workspace/inference.json",
+    "hyperscalers": "/workspace/hyperscalers.json",
+    "research": "/workspace/neoclouds-research.md"
+  },
+  "counts": {
+    "neoclouds": 33,
+    "inference": 21,
+    "hyperscalers": 17
+  }
+}

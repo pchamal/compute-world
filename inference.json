@@ -1,0 +1,1017 @@
+{
+  "index": "inference",
+  "as_of": "2026-08-19",
+  "count": 21,
+  "providers": [
+    {
+      "id": "groq",
+      "name": "Groq / GroqCloud",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Mountain View",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://groq.com/",
+      "pricing": "https://groq.com/pricing",
+      "silicon": [
+        "Groq LPU",
+        "NVIDIA Groq 3 LPX announced"
+      ],
+      "models": [
+        "Llama and other open models via GroqCloud — catalog rotates"
+      ],
+      "locations": [
+        {
+          "city": "Liberty Lake",
+          "region": "Washington",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 47.673,
+          "lon": -117.086,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "US-1",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Saint Paul",
+          "region": "Minnesota",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 44.954,
+          "lon": -93.092,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "US-2 St Paul",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Dallas",
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 32.777,
+          "lon": -96.797,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "US-3",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Houston",
+          "region": "Texas",
+          "country": "United States",
+          "iso3": "USA",
+          "lat": 29.76,
+          "lon": -95.37,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "US-4",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Kamloops",
+          "region": "British Columbia",
+          "country": "Canada",
+          "iso3": "CAN",
+          "lat": 50.675,
+          "lon": -120.328,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "CA-1",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Vaudreuil-Dorion",
+          "region": "Quebec",
+          "country": "Canada",
+          "iso3": "CAN",
+          "lat": 45.4,
+          "lon": -74.033,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "CA-2",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Calgary",
+          "region": "Alberta",
+          "country": "Canada",
+          "iso3": "CAN",
+          "lat": 51.045,
+          "lon": -114.057,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "CA-3",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Vantaa",
+          "region": "Uusimaa",
+          "country": "Finland",
+          "iso3": "FIN",
+          "lat": 60.294,
+          "lon": 25.041,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-1 Helsinki metro",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Sydney",
+          "region": "New South Wales",
+          "country": "Australia",
+          "iso3": "AUS",
+          "lat": -33.869,
+          "lon": 151.209,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "AU-1",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "London",
+          "region": "England",
+          "country": "United Kingdom",
+          "iso3": "GBR",
+          "lat": 51.507,
+          "lon": -0.128,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "EU-2",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Riyadh",
+          "region": "Riyadh",
+          "country": "Saudi Arabia",
+          "iso3": "SAU",
+          "lat": 24.714,
+          "lon": 46.675,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "SA-1",
+          "source_url": "https://groq.com/groqcloud",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://groq.com/groqcloud",
+        "https://groq.com/newsroom/groq-launches-european-data-center-footprint-in-helsinki-finland",
+        "https://groq.com/newsroom/groq-expands-to-asia-pacific-with-sydney-data-center-to-power-the-next-generation-of-ai-inference"
+      ],
+      "notes": "Official page says 13 DCs across four continents but lists 11 named sites. Remaining two cities unpublished.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Sunnyvale",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.cerebras.ai/",
+      "pricing": "https://www.cerebras.ai/pricing",
+      "silicon": [
+        "Cerebras WSE"
+      ],
+      "models": [
+        "Llama, Qwen and others via Cerebras Inference — catalog rotates"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Token API on custom WSE. No public city DC table on marketing/pricing pages fetched. Undisclosed / contact. Do not invent hourly WSE rental.",
+          "source_url": "https://www.cerebras.ai/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.cerebras.ai/",
+        "https://www.cerebras.ai/inference"
+      ],
+      "notes": "Token API on custom WSE. No public city DC table on marketing/pricing pages fetched. Undisclosed / contact. Do not invent hourly WSE rental.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "together",
+      "name": "Together AI",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "San Francisco",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.together.ai/",
+      "pricing": "https://www.together.ai/pricing",
+      "silicon": [
+        "NVIDIA GPUs (dedicated-endpoint hardware flags)"
+      ],
+      "models": [
+        "Large open-model catalog — see models page"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Serverless + dedicated. API api.together.ai. Dedicated AZs e.g. us-central-4b via CLI; city not on fetched docs.",
+          "source_url": "https://www.together.ai/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.together.ai/",
+        "https://www.together.ai/pricing",
+        "https://docs.together.ai/docs/dedicated-endpoints/overview",
+        "https://docs.together.ai/reference/cli/endpoints"
+      ],
+      "notes": "Serverless + dedicated. API api.together.ai. Dedicated AZs e.g. us-central-4b via CLI; city not on fetched docs.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "fireworks",
+      "name": "Fireworks AI",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Redwood City",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://fireworks.ai/",
+      "pricing": "https://fireworks.ai/pricing",
+      "silicon": [
+        "NVIDIA GPUs"
+      ],
+      "models": [
+        "Open + custom; serverless / on-demand / reserved"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Homepage says multi-region on-demand. No public city table fetched. Undisclosed / contact.",
+          "source_url": "https://fireworks.ai/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://fireworks.ai/",
+        "https://fireworks.ai/pricing",
+        "https://docs.fireworks.ai/"
+      ],
+      "notes": "Homepage says multi-region on-demand. No public city table fetched. Undisclosed / contact.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "San Francisco",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://openai.com/",
+      "pricing": "https://openai.com/api/pricing/",
+      "silicon": [
+        "Undisclosed mix; partner neoclouds + Azure"
+      ],
+      "models": [
+        "GPT / o-series / embeddings — see models page"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Global token API. Physical Stargate campuses are not the public API endpoint map. Residency via data-controls docs.",
+          "source_url": "https://openai.com/api/pricing/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://openai.com/api/pricing/",
+        "https://platform.openai.com/docs/models",
+        "https://platform.openai.com/docs/guides/your-data"
+      ],
+      "notes": "Global token API. Physical Stargate campuses are not the public API endpoint map. Residency via data-controls docs.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "San Francisco",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.anthropic.com/",
+      "pricing": "https://www.anthropic.com/pricing",
+      "silicon": [
+        "Undisclosed; AWS / GCP / CoreWeave / Fluidstack capacity"
+      ],
+      "models": [
+        "Claude Opus / Sonnet / Haiku"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Claude API is a token endpoint. Region via Bedrock/Vertex/partners — not an Anthropic DC city table.",
+          "source_url": "https://www.anthropic.com/pricing",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.anthropic.com/pricing",
+        "https://docs.anthropic.com/",
+        "https://www.coreweave.com/news/coreweave-announces-multi-year-agreement-with-anthropic"
+      ],
+      "notes": "Claude API is a token endpoint. Region via Bedrock/Vertex/partners — not an Anthropic DC city table.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "google-ai-studio-vertex",
+      "name": "Google AI Studio / Vertex AI",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Mountain View",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://cloud.google.com/vertex-ai",
+      "pricing": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+      "silicon": [
+        "TPU",
+        "NVIDIA GPUs on GCP"
+      ],
+      "models": [
+        "Gemini, Imagen, Veo, Model Garden"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Endpoints follow GCP regions. Not every region hosts every model. Use Hyperscaler GCP table + Vertex locations doc.",
+          "source_url": "https://aistudio.google.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://aistudio.google.com/",
+        "https://cloud.google.com/vertex-ai",
+        "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations"
+      ],
+      "notes": "Endpoints follow GCP regions. Not every region hosts every model. Use Hyperscaler GCP table + Vertex locations doc.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Seattle",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://aws.amazon.com/bedrock/",
+      "pricing": "https://aws.amazon.com/bedrock/pricing/",
+      "silicon": [
+        "Trainium/Inferentia + NVIDIA on AWS"
+      ],
+      "models": [
+        "Nova, Claude, Llama, Mistral, Cohere — marketplace"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Regional on AWS. Model×region matrix is the Bedrock availability page — do not assume every AWS region.",
+          "source_url": "https://aws.amazon.com/bedrock/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://aws.amazon.com/bedrock/",
+        "https://aws.amazon.com/bedrock/pricing/",
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html"
+      ],
+      "notes": "Regional on AWS. Model×region matrix is the Bedrock availability page — do not assume every AWS region.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "azure-openai",
+      "name": "Azure OpenAI Service",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Redmond",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
+      "pricing": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/",
+      "silicon": [
+        "Azure GPU/CPU mix"
+      ],
+      "models": [
+        "OpenAI models on Azure"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Subset of Azure regions. Use Microsoft model/region table; do not copy full Azure geography as if every region hosts OpenAI.",
+          "source_url": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
+        "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models"
+      ],
+      "notes": "Subset of Azure regions. Use Microsoft model/region table; do not copy full Azure geography as if every region hosts OpenAI.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Paris",
+        "country": "France",
+        "iso3": "FRA"
+      },
+      "website": "https://mistral.ai/",
+      "pricing": "https://mistral.ai/technology/#pricing",
+      "silicon": [
+        "Undisclosed; la Plateforme + partner clouds"
+      ],
+      "models": [
+        "Mistral Large/Medium/Small, Codestral, Pixtral, open-weight"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "France",
+          "iso3": "FRA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "French operator. Public inference-DC city table not on homepage fetched. Also on Azure/AWS/GCP/Scaleway.",
+          "source_url": "https://mistral.ai/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://mistral.ai/",
+        "https://docs.mistral.ai/"
+      ],
+      "notes": "French operator. Public inference-DC city table not on homepage fetched. Also on Azure/AWS/GCP/Scaleway.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Toronto",
+        "country": "Canada",
+        "iso3": "CAN"
+      },
+      "website": "https://cohere.com/",
+      "pricing": "https://cohere.com/pricing",
+      "silicon": [
+        "Undisclosed"
+      ],
+      "models": [
+        "Command, Embed, Rerank"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "Canada",
+          "iso3": "CAN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "API + private deploy. No public city DC table fetched. Also on AWS/Azure/GCP.",
+          "source_url": "https://cohere.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://cohere.com/",
+        "https://cohere.com/pricing",
+        "https://docs.cohere.com/"
+      ],
+      "notes": "API + private deploy. No public city DC table fetched. Also on AWS/Azure/GCP.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "sambanova",
+      "name": "SambaNova",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Palo Alto",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://sambanova.ai/",
+      "pricing": "https://sambanova.ai/pricing",
+      "silicon": [
+        "SambaNova SN40L / RDU"
+      ],
+      "models": [
+        "Llama and others on SambaCloud"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Custom RDU inference. Public city list not on marketing pages used. Undisclosed / contact.",
+          "source_url": "https://sambanova.ai/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://sambanova.ai/",
+        "https://sambanova.ai/sambacloud"
+      ],
+      "notes": "Custom RDU inference. Public city list not on marketing pages used. Undisclosed / contact.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Hangzhou",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.deepseek.com/",
+      "pricing": "https://api-docs.deepseek.com/quick_start/pricing",
+      "silicon": [
+        "Undisclosed China training cluster"
+      ],
+      "models": [
+        "DeepSeek-V3/V4/R1 families — names rotate"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "api.deepseek.com. No official public city list. China-operated, city undisclosed.",
+          "source_url": "https://www.deepseek.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.deepseek.com/",
+        "https://api-docs.deepseek.com/"
+      ],
+      "notes": "api.deepseek.com. No official public city list. China-operated, city undisclosed.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "moonshot-kimi",
+      "name": "Moonshot / Kimi",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Beijing",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.moonshot.cn/",
+      "pricing": "https://platform.moonshot.cn/docs/pricing/chat",
+      "silicon": [
+        "Undisclosed"
+      ],
+      "models": [
+        "Kimi family"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Platform API. No public city DC table fetched.",
+          "source_url": "https://www.moonshot.cn/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.moonshot.cn/",
+        "https://platform.moonshot.cn/"
+      ],
+      "notes": "Platform API. No public city DC table fetched.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "zhipu",
+      "name": "Zhipu / Z.ai (GLM)",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Beijing",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.zhipuai.cn/",
+      "pricing": "https://open.bigmodel.cn/pricing",
+      "silicon": [
+        "Undisclosed"
+      ],
+      "models": [
+        "GLM family"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Open platform API. No official public city list fetched.",
+          "source_url": "https://www.zhipuai.cn/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.zhipuai.cn/",
+        "https://open.bigmodel.cn/"
+      ],
+      "notes": "Open platform API. No official public city list fetched.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "alibaba-dashscope",
+      "name": "Alibaba Qwen / DashScope",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Hangzhou",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.alibabacloud.com/product/model-studio",
+      "pricing": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+      "silicon": [
+        "Alibaba Cloud GPU/NPU"
+      ],
+      "models": [
+        "Qwen family"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Regional on Alibaba Cloud. Use hyperscaler region table; not every region hosts every Qwen SKU.",
+          "source_url": "https://www.alibabacloud.com/product/model-studio",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.alibabacloud.com/product/model-studio",
+        "https://www.alibabacloud.com/help/en/model-studio/regions-and-endpoints"
+      ],
+      "notes": "Regional on Alibaba Cloud. Use hyperscaler region table; not every region hosts every Qwen SKU.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "baidu-qianfan",
+      "name": "Baidu Qianfan",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Beijing",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://qianfan.cloud.baidu.com/",
+      "pricing": "https://cloud.baidu.com/product/wenxinworkshop",
+      "silicon": [
+        "Kunlun / Cloud GPU — English SKU page sales-gated"
+      ],
+      "models": [
+        "ERNIE / Wenxin + third-party"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "No English public city table fetched. List company.",
+          "source_url": "https://qianfan.cloud.baidu.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://qianfan.cloud.baidu.com/",
+        "https://cloud.baidu.com/product/wenxinworkshop"
+      ],
+      "notes": "No English public city table fetched. List company.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "bytedance-volcengine-ark",
+      "name": "ByteDance / Volcengine Ark",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Beijing",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://www.volcengine.com/product/ark",
+      "pricing": "https://www.volcengine.com/pricing",
+      "silicon": [
+        "Volcengine GPU fleet"
+      ],
+      "models": [
+        "Doubao / Seed + open models"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Ark model API. English city list not fetched. Operator China.",
+          "source_url": "https://www.volcengine.com/product/ark",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.volcengine.com/product/ark"
+      ],
+      "notes": "Ark model API. English city list not fetched. Operator China.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "tencent-hunyuan",
+      "name": "Tencent Hunyuan",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Shenzhen",
+        "country": "China",
+        "iso3": "CHN"
+      },
+      "website": "https://hunyuan.tencent.com/",
+      "pricing": "https://cloud.tencent.com/product/hunyuan",
+      "silicon": [
+        "Tencent Cloud GPU"
+      ],
+      "models": [
+        "Hunyuan family"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "China",
+          "iso3": "CHN",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "API on Tencent Cloud. Use Tencent region table for IaaS.",
+          "source_url": "https://hunyuan.tencent.com/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://hunyuan.tencent.com/",
+        "https://cloud.tencent.com/product/hunyuan"
+      ],
+      "notes": "API on Tencent Cloud. Use Tencent region table for IaaS.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "scaleway-generative",
+      "name": "Scaleway Generative APIs",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "Paris",
+        "country": "France",
+        "iso3": "FRA"
+      },
+      "website": "https://www.scaleway.com/en/generative-apis/",
+      "pricing": "https://www.scaleway.com/en/pricing/generative-apis/",
+      "silicon": [
+        "Scaleway GPU instances in PAR/AMS/WAW"
+      ],
+      "models": [
+        "Managed open models — catalog on product page"
+      ],
+      "locations": [
+        {
+          "city": "Paris",
+          "region": "Île-de-France",
+          "country": "France",
+          "iso3": "FRA",
+          "lat": 48.857,
+          "lon": 2.352,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "PAR1/2/3",
+          "source_url": "https://www.scaleway.com/en/docs/console/account/reference-content/products-availability/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Amsterdam",
+          "region": "North Holland",
+          "country": "Netherlands",
+          "iso3": "NLD",
+          "lat": 52.367,
+          "lon": 4.904,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "AMS1/2/3",
+          "source_url": "https://www.scaleway.com/en/docs/console/account/reference-content/products-availability/",
+          "as_of": "2026-08-19"
+        },
+        {
+          "city": "Warsaw",
+          "region": "Masovian",
+          "country": "Poland",
+          "iso3": "POL",
+          "lat": 52.23,
+          "lon": 21.012,
+          "geocode_method": "wikipedia_city_centroid",
+          "status": "live",
+          "note": "WAW1/2/3",
+          "source_url": "https://www.scaleway.com/en/docs/console/account/reference-content/products-availability/",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.scaleway.com/en/docs/console/account/reference-content/products-availability/",
+        "https://www.scaleway.com/en/generative-apis/"
+      ],
+      "notes": "Token product of a regional hyperscaler. Scaleway IaaS is classified under Hyperscalers.",
+      "as_of": "2026-08-19"
+    },
+    {
+      "id": "crusoe-inference",
+      "name": "Crusoe Managed / Serverless Inference",
+      "kind": "inference",
+      "index": "inference",
+      "hq": {
+        "city": "San Francisco",
+        "country": "United States",
+        "iso3": "USA"
+      },
+      "website": "https://www.crusoe.ai/cloud",
+      "pricing": "https://www.crusoe.ai/cloud/pricing",
+      "silicon": [
+        "H100",
+        "H200",
+        "B200",
+        "GB200",
+        "MI300X",
+        "MI355X"
+      ],
+      "models": [
+        "DeepSeek, Llama, Qwen, Gemma, GLM, Nemotron, gpt-oss — listed on pricing page"
+      ],
+      "locations": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "iso3": "USA",
+          "lat": null,
+          "lon": null,
+          "geocode_method": null,
+          "status": "live",
+          "note": "Token SKUs on crusoe.ai/cloud/pricing. Physical regions follow Crusoe Cloud (Neoclouds).",
+          "source_url": "https://www.crusoe.ai/cloud/pricing",
+          "as_of": "2026-08-19"
+        }
+      ],
+      "source_urls": [
+        "https://www.crusoe.ai/cloud/pricing"
+      ],
+      "notes": "Token SKUs on crusoe.ai/cloud/pricing. Physical regions follow Crusoe Cloud (Neoclouds).",
+      "as_of": "2026-08-19"
+    }
+  ]
+}
