@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>The Neocloud Index · compute.world</title>
+  <link>https://compute.world/neoclouds.html</link>
+  <description>GPU rental and dedicated clusters. Token-only shops live on the Inference index. Full IaaS catalogs live with the Hyperscalers. State-only rows stay state-only — Texas is not upgraded to Dallas. Snapshot 2026-08-19. 33 providers. Not a market cap.</description>
+  <language>en</language>
+  <item>
+    <title>CoreWeave · neocloud</title>
+    <link>https://compute.world/neoclouds.html#coreweave</link>
+    <guid isPermaLink="false">compute.world/neoclouds#coreweave</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>CoreWeave (neocloud). HQ Livingston · United States. 60 sourced location rows. Cities: 8 named · 50 state/region only · 1 undisclosed. GB300 NVL72, GB200 NVL72, B300, B200, H200, H100. Gold-standard public AZ table (docs last modified 2026-04-17). Marketing: 51 DCs, 1.5 GW active. US rows are state-only; do not invent cities. HQ address on site: 290 W Mt Pleasant Ave, Livingston NJ.</description>
+  </item>
+  <item>
+    <title>Lambda · neocloud</title>
+    <link>https://compute.world/neoclouds.html#lambda</link>
+    <guid isPermaLink="false">compute.world/neoclouds#lambda</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Lambda (neocloud). HQ San Jose · United States. 14 sourced location rows. Cities: Tokyo, Osaka, Washington. B200, GH200, H100 SXM, H100 PCIe, A100 SXM, A100 PCIe. Official ODC Regions table. Press factories (Kansas City, Vernon, Chicago, Atlanta) are capacity builds — not extra ODC rows unless Lambda adds them.</description>
+  </item>
+  <item>
+    <title>Crusoe Cloud · neocloud</title>
+    <link>https://compute.world/neoclouds.html#crusoe</link>
+    <guid isPermaLink="false">compute.world/neoclouds#crusoe</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Crusoe Cloud (neocloud). HQ San Francisco · United States. 5 sourced location rows. Cities: Abilene. GB200, B200, H200, H100, A100, L40S. Some regions restricted/sales-gated. Do not invent Glendive as a current Cloud region without an official row.</description>
+  </item>
+  <item>
+    <title>Voltage Park · neocloud</title>
+    <link>https://compute.world/neoclouds.html#voltage-park</link>
+    <guid isPermaLink="false">compute.world/neoclouds#voltage-park</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Voltage Park (neocloud). HQ United States. 1 sourced location rows. Cities: undisclosed. HGX H100. Marketing starting-at prices are not a named-SKU rate card (see Tape research). List the company; cities stay undisclosed.</description>
+  </item>
+  <item>
+    <title>TensorWave · neocloud</title>
+    <link>https://compute.world/neoclouds.html#tensorwave</link>
+    <guid isPermaLink="false">compute.world/neoclouds#tensorwave</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>TensorWave (neocloud). HQ Las Vegas · United States. 4 sourced location rows. Cities: Carson County. MI300X, MI325X, MI355X. AMD Instinct specialist. Sales-gated. Prefer official blog over directories.</description>
+  </item>
+  <item>
+    <title>Nebius · neocloud</title>
+    <link>https://compute.world/neoclouds.html#nebius</link>
+    <guid isPermaLink="false">compute.world/neoclouds#nebius</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Nebius (neocloud). HQ Amsterdam · Netherlands. 7 sourced location rows. Cities: Kansas City. B300, B200, H200, H100, RTX PRO 6000, L40S. Best official region table after CoreWeave. Silicon is per-region on the platforms matrix (B300 in uk-south1 + eu-west2; H100 only eu-north1).</description>
+  </item>
+  <item>
+    <title>RunPod · marketplace</title>
+    <link>https://compute.world/neoclouds.html#runpod</link>
+    <guid isPermaLink="false">compute.world/neoclouds#runpod</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>RunPod (marketplace). HQ United States. 3 sourced location rows. Cities: undisclosed. B300, B200, H200, H100, A100, MI300X. Secure + Community marketplace. Not a single-operator neocloud.</description>
+  </item>
+  <item>
+    <title>Vast.ai · marketplace</title>
+    <link>https://compute.world/neoclouds.html#vast-ai</link>
+    <guid isPermaLink="false">compute.world/neoclouds#vast-ai</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Vast.ai (marketplace). HQ United States. 1 sourced location rows. Cities: undisclosed. Host-dependent; H100/B200/4090 appear on live market. Map should bind the live metrics API.</description>
+  </item>
+  <item>
+    <title>Fluidstack · neocloud</title>
+    <link>https://compute.world/neoclouds.html#fluidstack</link>
+    <guid isPermaLink="false">compute.world/neoclouds#fluidstack</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Fluidstack (neocloud). HQ New York · United States. 2 sourced location rows. Cities: state/region only. Enterprise NVIDIA clusters — SKUs not on homepage. 2026 site is factory-builder more than self-serve GPU shop. Still list.</description>
+  </item>
+  <item>
+    <title>Hyperstack (NexGen Cloud) · neocloud</title>
+    <link>https://compute.world/neoclouds.html#hyperstack</link>
+    <guid isPermaLink="false">compute.world/neoclouds#hyperstack</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Hyperstack (NexGen Cloud) (neocloud). HQ London · United Kingdom. 3 sourced location rows. Cities: state/region only. B300, B200, H200 SXM, H100 SXM, H100, RTX PRO 6000 SE. NexGen about page: 2 Canada + 2 Norway deployments. Status also shows Canada 2. Extra regions may appear in API.</description>
+  </item>
+  <item>
+    <title>Nscale · neocloud</title>
+    <link>https://compute.world/neoclouds.html#nscale</link>
+    <guid isPermaLink="false">compute.world/neoclouds#nscale</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Nscale (neocloud). HQ London · United Kingdom. 12 sourced location rows. Cities: 11 named · 1 state/region only. NVIDIA Blackwell Ultra (Keflavik); other SKUs sales-gated. European AI-factory neocloud. Keep status honest: much of US/Iceland/Portugal is building or partner-run.</description>
+  </item>
+  <item>
+    <title>GMI Cloud · neocloud</title>
+    <link>https://compute.world/neoclouds.html#gmi-cloud</link>
+    <guid isPermaLink="false">compute.world/neoclouds#gmi-cloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>GMI Cloud (neocloud). HQ United States. 6 sourced location rows. Cities: Taipei, Kagoshima. H100, H200, Blackwell/GB300. Homepage fetched: H100 $2.00 / H200 $2.60 GPU-hr. APAC-heavy.</description>
+  </item>
+  <item>
+    <title>Applied Digital / Polar · neocloud</title>
+    <link>https://compute.world/neoclouds.html#applied-digital</link>
+    <guid isPermaLink="false">compute.world/neoclouds#applied-digital</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Applied Digital / Polar (neocloud). HQ Dallas · United States. 1 sourced location rows. Cities: undisclosed. Tenant GPUs (incl. CoreWeave); not a self-serve public GPU shop. Include as campus operator. Polar appears in Nordic partner deals. Not a CoreWeave-style region list.</description>
+  </item>
+  <item>
+    <title>DigitalOcean GPU Droplets · regional</title>
+    <link>https://compute.world/neoclouds.html#digitalocean-gpu</link>
+    <guid isPermaLink="false">compute.world/neoclouds#digitalocean-gpu</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>DigitalOcean GPU Droplets (regional). HQ New York · United States. 5 sourced location rows. Cities: 5 named. MI350X, MI325X, MI300X, HGX B300, H200, H100. Paperspace acquired — fold that brand here.</description>
+  </item>
+  <item>
+    <title>Paperspace (DigitalOcean) · regional</title>
+    <link>https://compute.world/neoclouds.html#paperspace</link>
+    <guid isPermaLink="false">compute.world/neoclouds#paperspace</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Paperspace (DigitalOcean) (regional). HQ New York · United States. 1 sourced location rows. Cities: undisclosed. See digitalocean-gpu. Redirect to digitalocean-gpu.</description>
+  </item>
+  <item>
+    <title>Vultr GPU · regional</title>
+    <link>https://compute.world/neoclouds.html#vultr-gpu</link>
+    <guid isPermaLink="false">compute.world/neoclouds#vultr-gpu</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Vultr GPU (regional). HQ West Palm Beach · United States. 1 sourced location rows. Cities: undisclosed. H100, A100, L40S, A40, A16 — confirm live pricing page. City×GPU matrix is console/API.</description>
+  </item>
+  <item>
+    <title>Taiga Cloud (Northern Data) · neocloud</title>
+    <link>https://compute.world/neoclouds.html#taiga-northern-data</link>
+    <guid isPermaLink="false">compute.world/neoclouds#taiga-northern-data</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Taiga Cloud (Northern Data) (neocloud). HQ Frankfurt · Germany. 6 sourced location rows. Cities: 6 named. H100, H200. EU sovereign GPU cloud. Page: 6 AI islands, 24,000 GPUs.</description>
+  </item>
+  <item>
+    <title>Leafcloud · regional</title>
+    <link>https://compute.world/neoclouds.html#leafcloud</link>
+    <guid isPermaLink="false">compute.world/neoclouds#leafcloud</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Leafcloud (regional). HQ Amsterdam · Netherlands. 1 sourced location rows. Cities: Amsterdam. Confirm on product page before publishing chip badges. EU regional. Short honest list.</description>
+  </item>
+  <item>
+    <title>SaladCloud · marketplace</title>
+    <link>https://compute.world/neoclouds.html#salad</link>
+    <guid isPermaLink="false">compute.world/neoclouds#salad</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>SaladCloud (marketplace). HQ United States. 1 sourced location rows. Cities: undisclosed. Distributed consumer + DC GPUs. Marketplace / distributed. Same rule as Vast: do not invent cities.</description>
+  </item>
+  <item>
+    <title>Thunder Compute · neocloud</title>
+    <link>https://compute.world/neoclouds.html#thunder-compute</link>
+    <guid isPermaLink="false">compute.world/neoclouds#thunder-compute</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Thunder Compute (neocloud). HQ United States. 1 sourced location rows. Cities: undisclosed. Confirm on pricing page. List the company; do not invent a city.</description>
+  </item>
+  <item>
+    <title>Cirrascale · neocloud</title>
+    <link>https://compute.world/neoclouds.html#cirrascale</link>
+    <guid isPermaLink="false">compute.world/neoclouds#cirrascale</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Cirrascale (neocloud). HQ United States. 1 sourced location rows. Cities: undisclosed. NVIDIA GPU cloud — SKUs sales-gated. Include; locations sales-gated.</description>
+  </item>
+  <item>
+    <title>Yotta · regional</title>
+    <link>https://compute.world/neoclouds.html#yotta</link>
+    <guid isPermaLink="false">compute.world/neoclouds#yotta</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Yotta (regional). HQ India. 1 sourced location rows. Cities: undisclosed. Public GPU-cloud SKU list not independently fetched. APAC/India mandatory listing even without a city table.</description>
+  </item>
+  <item>
+    <title>DataVolt · regional</title>
+    <link>https://compute.world/neoclouds.html#datavolt</link>
+    <guid isPermaLink="false">compute.world/neoclouds#datavolt</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>DataVolt (regional). HQ Saudi Arabia. 1 sourced location rows. Cities: undisclosed. Sovereign AI campuses — not a self-serve public GPU shop on fetched pages. Often wholesale/sovereign, not on-demand.</description>
+  </item>
+  <item>
+    <title>G42 / Core42 · regional</title>
+    <link>https://compute.world/neoclouds.html#g42</link>
+    <guid isPermaLink="false">compute.world/neoclouds#g42</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>G42 / Core42 (regional). HQ Abu Dhabi · United Arab Emirates. 1 sourced location rows. Cities: Abu Dhabi. Sovereign NVIDIA clusters — sales-gated. ME sovereign. Not a CoreWeave-style public rental list.</description>
+  </item>
+  <item>
+    <title>HUMAIN · regional</title>
+    <link>https://compute.world/neoclouds.html#humain</link>
+    <guid isPermaLink="false">compute.world/neoclouds#humain</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>HUMAIN (regional). HQ Riyadh · Saudi Arabia. 1 sourced location rows. Cities: Riyadh. Sovereign; Groq and NVIDIA partnerships cited in partner press. State-backed. List company; do not invent extra cities.</description>
+  </item>
+  <item>
+    <title>Alibaba Cloud PAI / EAS GPU · regional</title>
+    <link>https://compute.world/neoclouds.html#alibaba-pai</link>
+    <guid isPermaLink="false">compute.world/neoclouds#alibaba-pai</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Alibaba Cloud PAI / EAS GPU (regional). HQ Hangzhou · China. 1 sourced location rows. Cities: undisclosed. NVIDIA + Alibaba GPU/NPU instance families — see ECS GPU page. China GPU rental = Alibaba regions. Dual-index with hyperscaler.</description>
+  </item>
+  <item>
+    <title>Huawei Cloud GPU · regional</title>
+    <link>https://compute.world/neoclouds.html#huawei-cloud-gpu</link>
+    <guid isPermaLink="false">compute.world/neoclouds#huawei-cloud-gpu</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Huawei Cloud GPU (regional). HQ Shenzhen · China. 1 sourced location rows. Cities: undisclosed. Ascend NPU + NVIDIA GPU instances where offered. Dual-index.</description>
+  </item>
+  <item>
+    <title>Tencent Cloud GPU · regional</title>
+    <link>https://compute.world/neoclouds.html#tencent-cloud-gpu</link>
+    <guid isPermaLink="false">compute.world/neoclouds#tencent-cloud-gpu</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Tencent Cloud GPU (regional). HQ Shenzhen · China. 1 sourced location rows. Cities: undisclosed. NVIDIA GPU instances on Tencent Cloud. Dual-index.</description>
+  </item>
+  <item>
+    <title>Baidu AI Cloud GPU · regional</title>
+    <link>https://compute.world/neoclouds.html#baidu-bce-gpu</link>
+    <guid isPermaLink="false">compute.world/neoclouds#baidu-bce-gpu</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Baidu AI Cloud GPU (regional). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. Baidu Kunlun + NVIDIA — English SKU page not fetched. China mandatory listing.</description>
+  </item>
+  <item>
+    <title>Volcengine GPU · regional</title>
+    <link>https://compute.world/neoclouds.html#volcengine-gpu</link>
+    <guid isPermaLink="false">compute.world/neoclouds#volcengine-gpu</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Volcengine GPU (regional). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. NVIDIA GPU instances — confirm console. Also Ark inference. Dual-index with hyperscaler.</description>
+  </item>
+  <item>
+    <title>China Telecom Tianyi / AIDC · regional</title>
+    <link>https://compute.world/neoclouds.html#china-telecom-tianyi</link>
+    <guid isPermaLink="false">compute.world/neoclouds#china-telecom-tianyi</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>China Telecom Tianyi / AIDC (regional). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. AIDC GPU — no public English city/SKU table fetched. China Telecom / Unicom / Mobile AIDC are real; cities are often sales-gated.</description>
+  </item>
+  <item>
+    <title>SenseTime SenseCore · regional</title>
+    <link>https://compute.world/neoclouds.html#sensetime</link>
+    <guid isPermaLink="false">compute.world/neoclouds#sensetime</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>SenseTime SenseCore (regional). HQ Shanghai · China. 1 sourced location rows. Cities: undisclosed. SenseCore AI compute — public rental city table not fetched. List company.</description>
+  </item>
+  <item>
+    <title>Moore Threads Cloud · regional</title>
+    <link>https://compute.world/neoclouds.html#moore-threads</link>
+    <guid isPermaLink="false">compute.world/neoclouds#moore-threads</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Moore Threads Cloud (regional). HQ Beijing · China. 1 sourced location rows. Cities: undisclosed. MTT GPU — public cloud city table not fetched. Include; do not invent a Beijing campus pin without a primary page.</description>
+  </item>
+</channel></rss>

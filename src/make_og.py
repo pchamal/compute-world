@@ -22,6 +22,11 @@ chips = sorted(S["chips"], key=lambda c: c["rank"])
 n_chips = len(chips)
 by_id = {c["id"]: c for c in chips}
 
+def catalog_counts(name):
+    d = json.load(open(os.path.join(ROOT, f"{name}.json")))
+    n_loc = sum(len(p.get("locations") or []) for p in d["providers"])
+    return d.get("count") or len(d["providers"]), n_loc, d.get("as_of") or ""
+
 
 def F(sz, bold=False, italic=False):
     cands = (
@@ -208,3 +213,25 @@ if stats:
     stat_strip(d, stats, y=388, h=110)
 footer(d, f"compute.world/brief  ·  {B.get('updated', '')}")
 save(img, "og-brief.png")
+
+# ---- 4–6. Directory unfurls: sourced counts only. No valuations on a cloud logo. ----
+for slug, kicker, line1, line2, sub in (
+    ("inference", "THE INFERENCE INDEX", "Who sells", "the tokens.", "Token APIs. China and the EU stay listed when the city is undisclosed."),
+    ("neoclouds", "THE NEOCLOUD INDEX", "Who rents", "the GPUs.", "Dedicated clusters. State-only rows stay state-only. Not a market cap."),
+    ("hyperscalers", "THE HYPERSCALER INDEX", "Who runs", "the general cloud.", "Full IaaS that also has GPUs. Scaleway and OVH live here, not as neoclouds."),
+):
+    n_prov, n_loc, as_of = catalog_counts(slug)
+    img, d = new_card()
+    masthead(d, kicker)
+    ctext(d, 168, line1, F(46, italic=True), INK)
+    ctext(d, 226, line2, F(46, italic=True), ACC)
+    ctext(d, 300, sub, F(20), MUT)
+    ctext(d, 334, "Sourced catalogs. No invented cities. No market caps.", F(20), MUT)
+    stat_strip(d, [
+        (str(n_prov), "providers", False),
+        (str(n_loc), "location rows", False),
+        (as_of or "—", "snapshot", True),
+        ("named", "cities only plotted", True),
+    ], y=388, h=110)
+    footer(d, f"compute.world/{slug}  ·  {kicker.title()}")
+    save(img, f"og-{slug}.png")

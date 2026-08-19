@@ -72,7 +72,7 @@ html[data-theme="dark"] #fnav{background:var(--glass,rgba(23,21,17,.72));border-
 html[data-theme="dark"] #fnav a{color:var(--ink,#ece7db)}
 html[data-theme="dark"] #fnav a:hover,html[data-theme="dark"] #fnav a.here,html[data-theme="dark"] #nburger:hover{color:var(--accent,#c2564c)}
 html[data-theme="dark"] #fnav .ndot{background:var(--pr,#8fae72)}
-@media(max-width:1240px){
+@media(max-width:1520px){
   #nburger{display:block}
   #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
   align-items:flex-end;gap:13px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(16px) saturate(1.1);
@@ -253,7 +253,7 @@ details.meth .mb li{margin-bottom:6px}
   <span class="nb">CW</span><span class="ndot" title="Live data"></span>
   <button id="nburger" aria-label="Open menu" aria-expanded="false">Menu</button>
   <div class="nlinks" id="nlinks">
-    <a href="/#board" data-nav="board">Board</a><a href="/#index" data-nav="index">Index</a><a href="/#shape" data-nav="shape">Charts</a><a href="/#objections" data-nav="objections">Objections</a><a href="/#precedents" data-nav="precedents">Precedents</a><a href="/#gazetteer" data-nav="gazetteer">Gazetteer</a><a href="/wire.html" data-nav="wire">Wire</a><a href="/#silicon" data-nav="silicon" class="here" aria-current="page">Silicon</a><a href="/#credit" data-nav="credit">Cite</a><a href="/contact.html" data-nav="contact">Contact</a><a href="/agents.html" data-nav="agents">Agents</a>
+    <a href="/#board" data-nav="board">Board</a><a href="/#index" data-nav="index">Index</a><a href="/#shape" data-nav="shape">Charts</a><a href="/#objections" data-nav="objections">Objections</a><a href="/#precedents" data-nav="precedents">Precedents</a><a href="/#gazetteer" data-nav="gazetteer">Gazetteer</a><a href="/wire.html" data-nav="wire">Wire</a><a href="/#silicon" data-nav="silicon" class="here" aria-current="page">Silicon</a><a href="/inference.html" data-nav="inference">Inference</a><a href="/neoclouds.html" data-nav="neoclouds">Neoclouds</a><a href="/hyperscalers.html" data-nav="hyperscalers">Hyperscalers</a><a href="/#credit" data-nav="credit">Cite</a><a href="/contact.html" data-nav="contact">Contact</a><a href="/agents.html" data-nav="agents">Agents</a>
   </div>
 </nav>
 
@@ -293,9 +293,12 @@ details.meth .mb li{margin-bottom:6px}
       <div class="lists">
         <label><input type="checkbox" name="lists" value="countries" checked> Countries</label>
         <label><input type="checkbox" name="lists" value="silicon" checked> Silicon</label>
+        <label><input type="checkbox" name="lists" value="inference"> Inference</label>
+        <label><input type="checkbox" name="lists" value="neoclouds"> Neoclouds</label>
+        <label><input type="checkbox" name="lists" value="hyperscalers"> Hyperscalers</label>
       </div>
     </form>
-    <p class="feeds">RSS: <a href="/brief.xml">/brief.xml</a> · <a href="/silicon.xml">/silicon.xml</a> · <a href="/wire.xml">/wire.xml</a></p>
+    <p class="feeds">RSS: <a href="/brief.xml">/brief.xml</a> · <a href="/silicon.xml">/silicon.xml</a> · <a href="/inference.xml">/inference.xml</a> · <a href="/neoclouds.xml">/neoclouds.xml</a> · <a href="/hyperscalers.xml">/hyperscalers.xml</a> · <a href="/wire.xml">/wire.xml</a></p>
     <p class="submsg" id="submsg" role="status" aria-live="polite"></p>
   </div>
 </section>
@@ -1016,7 +1019,7 @@ setT(cur(),false);
     var email=(form.email.value||"").trim();
     var lists=[].slice.call(form.querySelectorAll('input[name="lists"]:checked')).map(function(c){ return c.value; });
     if(!email || email.indexOf("@")<1 || email.indexOf(".")<3){ setMsg("A real address, if you please.", "err"); return; }
-    if(!lists.length){ setMsg("Choose Countries, Silicon, or both.", "err"); return; }
+    if(!lists.length){ setMsg("Choose at least one list.", "err"); return; }
     var btn=form.querySelector('button[type="submit"]');
     btn.disabled=true; setMsg("Sending…", "");
     fetch("/api/subscribe", {
@@ -1033,7 +1036,9 @@ setT(cur(),false);
         setMsg("You're on the list. Today's brief is public; the weekday feed is /brief.xml.", "ok");
       }
       form.reset();
-      form.querySelectorAll('input[name="lists"]').forEach(function(c){ c.checked=true; });
+      form.querySelectorAll('input[name="lists"]').forEach(function(c){
+        c.checked = (c.value==="countries"||c.value==="silicon");
+      });
     }).catch(function(){
       setMsg("The list is unreachable from here. The brief and RSS still are.", "err");
     }).finally(function(){ btn.disabled=false; });
