@@ -1,33 +1,39 @@
 {
-  "updated": "2026-08-18",
-  "title": "The daily tape · 18 August 2026",
-  "description": "Daily tape · 18 Aug 2026. Country signals and sourced silicon prints. Labeled terms only — no invented 7-day moves.",
+  "updated": "2026-08-19",
+  "title": "The daily tape · 19 August 2026",
+  "description": "Daily tape · 19 Aug 2026. Country signals and sourced silicon prints. Labeled terms only — no invented 7-day moves.",
   "og_kicker": "Country conversion signals and sourced silicon prints.",
-  "lede": "Weekday briefing: country conversion already on The Wire, plus today's Silicon Tape display prints. Labeled terms only. This is not a 7-day move sheet.",
+  "lede": "The Silicon Tape did not tick overnight: Lambda H100 $3.99 and B200 $6.69, CoreWeave H100 $6.16 / H200 $6.31 / B200 $8.60, Crusoe H100 $3.90 / H200 $4.29, DigitalOcean H100 $4.41 / 12m $3.26 — all unchanged vs 18 Aug. The new conversion print is policy: Beijing is letting limited H200 batches land (ByteDance and Tencent ~10k each) and steering the rest to Hong Kong. PUCT meets tomorrow on the Texas audit.",
   "countries": [
+    {
+      "id": "chn-h200",
+      "name": "China",
+      "slug": "china",
+      "note": "FT via Business Standard (19 Aug 2026): ByteDance and Tencent each ~10,000 H200s; Beijing steering most volume to Hong Kong. 75k vs 100k per-customer US cap unresolved. Blackwell still banned. Source: FT / Business Standard."
+    },
     {
       "id": "usa-ports-pike",
       "name": "United States",
       "slug": "united-states",
-      "note": "NVIDIA 8-K (17 Aug 2026): residual-value guaranties on PORTS-Pike, ~4.25 IT-GW, OpenAI 20-year lease. Conversion as land-power-shell finance. Source: SEC."
+      "note": "NVIDIA 8-K (17 Aug 2026): residual-value guaranties on PORTS-Pike, ~4.25 IT-GW, OpenAI 20-year lease, $105B cap. Conversion as land-power-shell finance. Source: SEC."
+    },
+    {
+      "id": "gbr-nebius",
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "note": "Nebius letter (12 Aug 2026): YE contracted power raised to 5 GW; new 2026 sites include UK, Estonia, Finland. Mid-term $20–25M/MW; short-duration $40–50M/MW. Source: Nebius IR."
+    },
+    {
+      "id": "kor-y2",
+      "name": "South Korea",
+      "slug": "south-korea",
+      "note": "SK hynix 6-K (7 Aug 2026): board FID ₩35.2246T for Yongin Y2 (phases 1–6), investment window to 31 Oct 2031. Source: SEC."
     },
     {
       "id": "ind-chennai",
       "name": "India",
       "slug": "india",
       "note": "L&T × Together AI (13 Aug 2026): 10,000 B300s at Chennai; Phase 1 sized at 250 MW. Source: The Hindu Business Line / Reuters."
-    },
-    {
-      "id": "arm-firebird",
-      "name": "Armenia",
-      "slug": "armenia",
-      "note": "Firebird Hrazdan factory live (8 Aug 2026): NVIDIA/Dell, roadmap 70k+ GPUs and 300 MW by end-2027. Source: NVIDIA blog."
-    },
-    {
-      "id": "idn-zankore",
-      "name": "Indonesia",
-      "slug": "indonesia",
-      "note": "Indosat Zankore (7 Aug 2026): 1 GW platform; first 200 MW GB300-class targeted H1 2027. Source: Data Center Dynamics."
     }
   ],
   "silicon": [
@@ -37,7 +43,7 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": 6.69,
       "delta": "0% 1Q",
       "note": "Display: Lambda OD 8× SXM6. 1Q is 0% (21 May $6.69). Term-book 1y is Lambda 1CC 16-GPU $9.86 (2w–1y), not instance reserved. Lambda 1Y change is a dash (no 8× instance a year ago). CoreWeave OD 1Y is 0%."
@@ -48,7 +54,7 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": 2.99,
       "delta": "+33.4% 1Y",
       "note": "Display is Lambda OD $3.99 (buy now, 8×). Term-book 1y is DigitalOcean 12m reserved $3.26 (vs DO OD $4.41). SA 1y $2.35 (Mar 2026) is STALE. 1Y change is $2.99 (12 Aug 2025) → $3.99. 1Q is 0%. Not a 7-day move."
@@ -59,7 +65,7 @@
       "display_usd": 6.31,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": 6.31,
       "delta": "0% 1Y",
       "note": "Display: CoreWeave OD. 1Y change is 0% ($6.31 on 21 Aug 2025 = today). Term-book 1y is DigitalOcean 12m $3.40 (DO OD $4.47). Also Crusoe $4.29 OD."
@@ -70,7 +76,7 @@
       "display_usd": 10.5,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "Display: CoreWeave $10.50 — 4-GPU instance, not a 72-rack."
@@ -81,7 +87,7 @@
       "display_usd": 2.79,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": 2.79,
       "delta": "0% 1Q",
       "note": "Display: Lambda OD. 1Q is 0% (21 May $2.79). Term-book 1y is a dash (no public reserved card). Also CoreWeave $2.70 OD."
@@ -92,7 +98,7 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "Display is DigitalOcean interruptible spot $4.50 (fetched 2026-08-18). No public OD. Term-book 1y is a dash — no 12m card on the DO page."
@@ -103,7 +109,7 @@
       "display_usd": 4.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "New row from a clean DO primary: interruptible spot $4.00 (display) and 12m reserved $4.76 (term-book 1y). No public OD. Pricing effective 1 Aug 2026."
@@ -125,7 +131,7 @@
       "display_usd": 2.25,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "Display: CoreWeave OD. Also DigitalOcean $1.57 OD."
@@ -136,7 +142,7 @@
       "display_usd": 2.59,
       "venue": "DigitalOcean",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "Display: DigitalOcean OD $2.59 (pricing effective 1 Aug 2026). Term-book 1y is 12m reserved $1.91. 1m / 1q / 3y are dashes. TensorWave is not a public list."
@@ -144,10 +150,10 @@
     {
       "id": "amd-mi325x",
       "name": "MI325X",
-      "display_usd": 3.80,
+      "display_usd": 3.8,
       "venue": "DigitalOcean",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "Display: DigitalOcean OD $3.80. Term-book 1y is 12m reserved $2.88. 1m / 1q / 3y are dashes. TensorWave is not a public list."
@@ -191,7 +197,7 @@
       "display_usd": 4.48,
       "venue": "CoreWeave NA",
       "term": "spot",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "Display: CoreWeave NA spot ($35.84/8 = $4.48). OD contact sales. Term-book 1y is DigitalOcean 12m $7.94 (DO spot $11.19). CoreWeave reserved is contact — dash."
@@ -232,10 +238,10 @@
     {
       "id": "nvidia-gh200",
       "name": "GH200",
-      "display_usd": 6.50,
+      "display_usd": 6.5,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "Display: CoreWeave OD, 1 GPU. No spot."
@@ -243,10 +249,10 @@
     {
       "id": "nvidia-rtx-pro-6000-blackwell",
       "name": "RTX PRO 6000 Blackwell",
-      "display_usd": 2.50,
+      "display_usd": 2.5,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "prev_usd": null,
       "delta": null,
       "note": "Display: CoreWeave OD ($20/8). Spot $1.39 ($11.09/8)."
@@ -256,34 +262,100 @@
     {
       "id": "texas-audit",
       "name": "Texas / ERCOT",
-      "note": "Abbott (3 Aug 2026) froze interconnects pending a PUCT/ERCOT audit of a ~474 GW queue. US conversion is gated by audit, not by queued megawatts. Source: Office of the Texas Governor."
+      "note": "PUCT Open Meeting 20 Aug 2026 is the next checkpoint on Abbott’s 3 Aug interconnect freeze. ~474 GW queue, ~90% data centers. Source: Office of the Texas Governor / Gibson Dunn."
+    },
+    {
+      "id": "nvidia-q2",
+      "name": "NVIDIA FY27 Q2",
+      "note": "Results 26 Aug 2026, 2:00 p.m. PT. Do not pre-wire the $91B blog guide. Source: NVIDIA IR."
     },
     {
       "id": "kenya-stall",
       "name": "Kenya",
       "slug": "kenya",
       "note": "Microsoft–G42 campus still the index's clearest stall-on-power. Source: Data Center Dynamics, 7 May 2026."
-    },
-    {
-      "id": "stargate-uk",
-      "name": "United Kingdom",
-      "slug": "united-kingdom",
-      "note": "Stargate UK pause on energy costs remains on the precedents table. Source: Data Centre Magazine, Apr 2026."
     }
   ],
   "sources": [
-    {"name": "silicon.json", "url": "/silicon.json", "note": "Silicon Tape source of truth. Snapshot 2026-08-18."},
-    {"name": "The Silicon Tape", "url": "/silicon.html", "note": "Ranked rental index; display prints are labeled terms."},
-    {"name": "The Wire", "url": "/wire.html", "note": "Country items above are already-scored Wire signals, not new prints."},
-    {"name": "SEC NVIDIA 8-K", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm", "note": "PORTS-Pike, 17 Aug 2026."},
-    {"name": "silicon-history.json", "url": "/silicon-history.json", "note": "Append-only dated observed prints. Source of 1M / 1Q / 1Y / 3Y and sparklines."},
-    {"name": "SemiAnalysis GPU Rental Index", "url": "https://gpu-index.semianalysis.com/", "note": "H100 SA 1y $2.35 (Mar 2026) is STALE. Last public period April 2026. Not today's buy-now."},
-    {"name": "DigitalOcean GPU Droplets", "url": "https://www.digitalocean.com/pricing/gpu-droplets", "note": "New pricing effective 1 Aug 2026. 12m reserved: B300 $7.94, H200 $3.40, H100 $3.26, MI350X $4.76, MI325X $2.88, MI300X $1.91. Spot: B300 $11.19, MI355X $4.50, MI350X $4.00. OD: H200 $4.47, H100 $4.41, MI325X $3.80, MI300X $2.59, L40S $1.57. Fetched 2026-08-18."},
-    {"name": "Lambda pricing", "url": "https://lambda.ai/pricing", "note": "Instance OD: B200 $6.69, H100 $3.99, A100 $2.79. 1-Click Clusters B200 16-GPU $9.86 (2w–1y). 1y+ contact. Fetched 2026-08-18."},
-    {"name": "CoreWeave pricing", "url": "https://www.coreweave.com/pricing", "note": "B300 NA/EU spot, RTX PRO 6000, GH200. Fetched 2026-08-18."},
-    {"name": "SMM Computing Power Bulletin", "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000", "note": "Ascend 910C ¥63,000/month per 8-card, 29 Jul 2026."},
-    {"name": "PBOC USD/CNY central parity", "url": "https://www.news.cn/20260818/49fc10868e3d40d889d5cf1a3cd0526d/c.html", "note": "6.7905 on 18 Aug 2026. Labels the 910C print in USD only."},
-    {"name": "Cerebras pricing", "url": "https://www.cerebras.ai/pricing", "note": "Token / enterprise. No public accelerator-hour."},
-    {"name": "Groq pricing", "url": "https://groq.com/pricing", "note": "Token API. No invented chip-hour."}
+    {
+      "name": "silicon.json",
+      "url": "/silicon.json",
+      "note": "Silicon Tape source of truth. Snapshot 2026-08-19."
+    },
+    {
+      "name": "The Silicon Tape",
+      "url": "/silicon.html",
+      "note": "Ranked rental index; display prints are labeled terms."
+    },
+    {
+      "name": "The Wire",
+      "url": "/wire.html",
+      "note": "Country items above are already-scored Wire signals, not new prints."
+    },
+    {
+      "name": "FT / Business Standard",
+      "url": "https://www.business-standard.com/world-news/china-allows-limited-nvidia-h200-shipments-why-is-beijing-easing-curbs-126081900438_1.html",
+      "note": "H200 limited landings, 19 Aug 2026."
+    },
+    {
+      "name": "Nebius Q2 2026 letter",
+      "url": "https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf",
+      "note": "5 GW contracted, 12 Aug 2026."
+    },
+    {
+      "name": "SK hynix 6-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526339024/d13432d6k.htm",
+      "note": "Yongin Y2 ₩35.2246T, 7 Aug 2026."
+    },
+    {
+      "name": "SEC NVIDIA 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+      "note": "PORTS-Pike, 17 Aug 2026."
+    },
+    {
+      "name": "silicon-history.json",
+      "url": "/silicon-history.json",
+      "note": "Append-only dated observed prints. Source of 1M / 1Q / 1Y / 3Y and sparklines."
+    },
+    {
+      "name": "SemiAnalysis GPU Rental Index",
+      "url": "https://gpu-index.semianalysis.com/",
+      "note": "H100 SA 1y $2.35 (Mar 2026) is STALE. Last public period April 2026. Not today's buy-now."
+    },
+    {
+      "name": "DigitalOcean GPU Droplets",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "note": "Unchanged vs 18 Aug. 12m: B300 $7.94, H200 $3.40, H100 $3.26. OD: H200 $4.47, H100 $4.41. Fetched 2026-08-19."
+    },
+    {
+      "name": "Lambda pricing",
+      "url": "https://lambda.ai/pricing",
+      "note": "Instance OD: B200 $6.69, H100 $3.99, A100 $2.79. 1-Click Clusters B200 16-GPU $9.86 (2w–1y). Unchanged vs 18 Aug. Fetched 2026-08-19."
+    },
+    {
+      "name": "CoreWeave pricing",
+      "url": "https://www.coreweave.com/pricing",
+      "note": "H100 $6.16, H200 $6.31, B200 $8.60 OD; B300 NA spot $4.48. Unchanged vs 18 Aug. Fetched 2026-08-19."
+    },
+    {
+      "name": "SMM Computing Power Bulletin",
+      "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000",
+      "note": "Ascend 910C ¥63,000/month per 8-card, 29 Jul 2026."
+    },
+    {
+      "name": "PBOC USD/CNY central parity",
+      "url": "https://www.news.cn/20260818/49fc10868e3d40d889d5cf1a3cd0526d/c.html",
+      "note": "6.7905 on 18 Aug 2026. Labels the 910C print in USD only."
+    },
+    {
+      "name": "Cerebras pricing",
+      "url": "https://www.cerebras.ai/pricing",
+      "note": "Token / enterprise. No public accelerator-hour."
+    },
+    {
+      "name": "Groq pricing",
+      "url": "https://groq.com/pricing",
+      "note": "Token API. No invented chip-hour."
+    }
   ]
 }
