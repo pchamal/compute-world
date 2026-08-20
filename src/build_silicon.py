@@ -544,6 +544,7 @@ details.meth .mb li{{margin-bottom:6px}}
       <span>SA prints as-of April 2026</span>
       <a href="/silicon.json">silicon.json</a>
       <a href="/silicon-history.json">history</a>
+      <a href="/rank-history.json">ranks</a>
       <a href="/silicon.xml">RSS</a>
       <a href="/">Nation-State Index</a>
       <a href="/brief">Daily brief</a>
@@ -584,7 +585,7 @@ details.meth .mb li{{margin-bottom:6px}}
       </tbody>
     </table>
   </div>
-  <p class="hint">Hover a filled cell for venue · term · as-of · URL. Lowercase 1m / 1q / 1y / 3y are term prices (sourced $/GPU-hr, or an em dash). Uppercase 1M / 1Q / 1Y / 3Y are percent change from two dated same-venue same-term prints. Missing tenor is never a guessed discount off OD. 7d stays a dash until we have a week of our own scrape.</p>
+  <p class="hint">Hover a filled cell for venue · term · as-of · URL. Lowercase 1m / 1q / 1y / 3y are term prices (sourced $/GPU-hr, or an em dash). Uppercase 1M / 1Q / 1Y / 3Y are percent change from two dated same-venue same-term prints. Missing tenor is never a guessed discount off OD. 7d stays a dash until we have a week of our own scrape. Rank as of {S["updated"]}: snapshotted on publish; machine feed at <a href="/rank-history.json">rank-history.json</a>.</p>
 
   <details class="meth" open>
     <summary>How the tape is ranked — and what it refuses to be</summary>
@@ -598,7 +599,7 @@ details.meth .mb li{{margin-bottom:6px}}
       <p><b>Change windows.</b> 1M = 30d ±5d, 1Q = 90d ±10d, 1Y = 365d ±21d, 3Y = 1095d ±45d. Percent = 100 × (now/then − 1), only from two real same-chip same-venue same-term same-config prints. A missing pair is an em dash, never an invented 0%. 1h / 24h / 7d stay dashes: US list prices do not tick daily.</p>
       <p><b>Sparklines.</b> Step charts of dated observed prints. Carry-forward is for drawing only. We do not invent 1d or 7d candles.</p>
       <p><b>Tape Print.</b> Tape Print is a same-term constellation. We do not publish the sleeve weights. The big number on the row is always the labeled venue price.</p>
-      <p><b>As-of dates.</b> SemiAnalysis public prints <b>stop at April 2026</b> and are labeled that way. August 2026 figures are neocloud and hyperscaler list pages fetched <b>2026-08-18</b>. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a> (append-only).</p>
+      <p><b>As-of dates.</b> SemiAnalysis public prints <b>stop at April 2026</b> and are labeled that way. August 2026 figures are neocloud and hyperscaler list pages fetched <b>2026-08-18</b>. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a> (append-only). Rank snapshots live in <a href="/rank-history.json">rank-history.json</a> (append-only observed ranks; never interpolated). Inference / Neoclouds / Hyperscalers join that tape once they have a published rank formula.</p>
       <p><b>Omitted this snapshot</b> — no invented rows:</p>
       <ul>{omitted}</ul>
       <p>Machine-readable: <a href="/silicon.json">silicon.json</a> (CC BY 4.0, attribution to compute.world). Cite as: <code>{html.escape(S["cite"])}</code>. Corrections: <a href="/contact.html">get in touch</a>. Half of <a href="/">the world's compute &amp; silicon index</a>.</p>

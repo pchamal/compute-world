@@ -1,0 +1,32 @@
+name: Rank history
+# Weekday confirm of published ranks. Never invent a rank or interpolate a candle.
+# Snapshot is also a step in silicon.yml when silicon.json publishes.
+on:
+  schedule:
+    - cron: "0 15 * * 1-5"  # 08:00 America/Los_Angeles
+  workflow_dispatch:
+  push:
+    paths: ["data.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  ranks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Snapshot published ranks
+        run: python3 src/snapshot_ranks.py
+      - name: Commit rank-history.json
+        run: |
+          git config user.name "rank-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add rank-history.json || true
+          git diff --cached --quiet || git commit -m "ranks: snapshot ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
