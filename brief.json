@@ -3,37 +3,37 @@
   "title": "The daily tape · 20 August 2026",
   "description": "Daily tape · 20 Aug 2026. Country signals and sourced silicon prints. Labeled terms only — no invented 7-day moves.",
   "og_kicker": "Country conversion signals and sourced silicon prints.",
-  "lede": "PUCT meets today on ERCOT’s Batch Zero good-cause exceptions; no order was posted as of 8am PT. The Silicon Tape did not tick: Lambda H100 $3.99 / B200 $6.69, CoreWeave H100 $6.16 / H200 $6.31 / B200 $8.60 — all unchanged vs 19 Aug. Beijing remains the H200 gate.",
+  "lede": "ERCOT put numbers on the Texas freeze this morning: PUCT 59142 Item 52, filed 09:01, asks to conditionally classify Batch Zero by 31 Aug and holds 17 large DC/crypto loads (6,608 MW) off energization until a 10 Dec verification report. No Commission order posted yet. Shapiro’s 18 Aug EO gates Pennsylvania data centers over 25 MW. The Silicon Tape did not tick — Lambda H100 $3.99 / B200 $6.69.",
   "countries": [
     {
-      "id": "usa-ercot",
+      "id": "usa-ercot-52",
       "name": "United States",
       "slug": "united-states",
-      "note": "PUCT Open Meeting 20 Aug 2026 is the checkpoint on Abbott’s 3 Aug interconnect freeze. ERCOT asked good-cause exceptions on 10 Aug; verification of ~250–300 Batch Zero projects expected to start shortly after today’s meeting and run several months. No new order posted as of 8am PT. Source: ERCOT M-A080326-01 / Gibson Dunn / Baker Botts."
+      "note": "ERCOT filed PUCT Project 59142 Item 52 at 09:01 on 20 Aug: three pending good-cause exceptions (conditional classify by 31 Aug; QSA inclusion of 6 loads ≈1,959 MW and 17 ≈6,874 MW; late dynamic-data notices). Energization pause on large DC/crypto; 17 loads / 6,608 MW peak over 5 years await ERCOT approval. Reports 10 Dec, Open Meeting 17 Dec. April snapshot 157 medium loads ≈8,766 MW. 290 dynamic models, ~18% first-pass. No minutes or order posted. Source: ERCOT / PUCT Interchange 59142_52."
+    },
+    {
+      "id": "usa-pa-eo",
+      "name": "United States",
+      "slug": "united-states-pennsylvania",
+      "note": "Governor Shapiro signed EO 2026-05 on 18 Aug, effective immediately: DEP Consent Order for any data center over 25 MW peak, Fast Track removal, NDA ban, GRID-tied sales-tax exemption. Recitals: 20 DEP applications, PJM 74 GW through 2045. Source: Commonwealth of Pennsylvania."
+    },
+    {
+      "id": "usa-amzn-la",
+      "name": "United States",
+      "slug": "united-states-louisiana",
+      "note": "Amazon (18 Aug) raised northwest Louisiana from $12B to $18B and added a third STACK campus in Shreveport. SWEPCO 100% of new energy infra; up to $400M water on Amazon’s tab. IT-MW not disclosed. Source: Amazon."
     },
     {
       "id": "chn-h200",
       "name": "China",
       "slug": "china",
-      "note": "FT (19 Aug): ByteDance and Tencent each ~10,000 H200s; Beijing steering most volume to Hong Kong. 75k vs 100k per-customer US cap unresolved. Already on The Wire. Source: FT / Business Standard."
+      "note": "FT (19 Aug): ByteDance and Tencent each ~10,000 H200s; Beijing steering most volume to Hong Kong. No new BIS/NDRC/IR primary on 20 Aug. Already on The Wire."
     },
     {
       "id": "usa-ports-pike",
       "name": "United States",
       "slug": "united-states-ohio",
-      "note": "NVIDIA 8-K (17 Aug): residual-value guaranties on PORTS-Pike, ~4.25 IT-GW, $105B cap, OpenAI 20-year lease. Source: SEC."
-    },
-    {
-      "id": "gbr-nebius",
-      "name": "United Kingdom",
-      "slug": "united-kingdom",
-      "note": "Nebius letter (12 Aug): YE contracted power raised to 5 GW; new 2026 sites include UK, Estonia, Finland. Source: Nebius IR."
-    },
-    {
-      "id": "kor-y2",
-      "name": "South Korea",
-      "slug": "south-korea",
-      "note": "SK hynix 6-K (7 Aug): ₩35.2246T Yongin Y2 through 31 Oct 2031. Source: SEC."
+      "note": "NVIDIA 8-K (17 Aug): residual-value guaranties on PORTS-Pike, ~4.25 IT-GW, $105B cap, OpenAI 20-year lease. No new 8-K in this window."
     }
   ],
   "silicon": [
@@ -260,14 +260,19 @@
   ],
   "watch": [
     {
-      "id": "texas-audit",
-      "name": "Texas / ERCOT",
-      "note": "Watch for a PUCT order on ERCOT’s three good-cause exceptions later today. Audit of 250–300 Batch Zero projects, several months. Source: Baker Botts / Gibson Dunn."
+      "id": "texas-order",
+      "name": "Texas / PUCT",
+      "note": "Watch for a Commission order on ERCOT’s three good-cause exceptions after today’s Open Meeting. Minutes link still blank as of 8:15 PT. Next hard dates: 31 Aug conditional classification (if granted); 10 Dec / 17 Dec reports. Source: ERCOT 59142 Item 52."
     },
     {
       "id": "nvidia-q2",
       "name": "NVIDIA FY27 Q2",
-      "note": "Results 26 Aug 2026, 2:00 p.m. PT. Do not pre-wire blog guides. Source: NVIDIA IR."
+      "note": "Results ~1:20 p.m. PT, call 2:00 p.m. PT on 26 Aug 2026. Do not pre-wire. Source: NVIDIA Newsroom."
+    },
+    {
+      "id": "iso-ne",
+      "name": "ISO-NE large loads",
+      "note": "FERC EL26-72 in 90-day abeyance; §205 Tariff filing due 16 Nov 2026 on BYONG / exclude-from-ICR. Source: ISO-NE."
     },
     {
       "id": "kenya-stall",
