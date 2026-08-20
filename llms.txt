@@ -50,6 +50,7 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /neoclouds.html + /neoclouds.json + /neoclouds.xml — The Neocloud Index: who rents GPUs / dedicated clusters. Sourced 2026-08-19. State-only rows stay state-only (CoreWeave Texas is not Dallas). DigitalOcean / Vultr stay here. Homepage tab: /#neoclouds.
 - /hyperscalers.html + /hyperscalers.json + /hyperscalers.xml — The Hyperscaler Index: who runs a general-purpose cloud that also has GPUs. Sourced 2026-08-19. Scaleway and OVH are regional-hyperscaler, not neoclouds. Homepage tab: /#hyperscalers.
 - /silicon-history.json — append-only dated observed prints. The only source for 1M / 1Q / 1Y / 3Y and sparklines. No interpolations.
+- /rank-history.json — append-only dated observed rank snapshots (silicon + countries). One row per index per calendar date. Never interpolate a rank. Inference / Neoclouds / Hyperscalers join once they have a published rank formula.
 - /brief + /brief.json + /brief.xml — The daily tape: weekday public brief of country conversion signals and sourced silicon display prints. No invented 7d/30d deltas.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - /llms.txt — this file. Crawlers (Googlebot, Bingbot, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot, Applebot-Extended, Bytespider, CCBot) are allowed.

@@ -1,5 +1,6 @@
 name: The Silicon Tape
-# On any push touching silicon.json: regenerate silicon.html + silicon.xml.
+# On any push touching silicon.json: regenerate silicon.html + silicon.xml
+# and upsert today's observed ranks into rank-history.json.
 # Editing the JSON on github.com is the publishing workflow; do not invent prices in the Action.
 on:
   push:
@@ -14,14 +15,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Rebuild Silicon Tape from silicon.json
         run: python3 src/build_silicon.py
+      - name: Snapshot published ranks
+        run: python3 src/snapshot_ranks.py --publish
       - name: Commit changes
         run: |
           git config user.name "silicon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add silicon.html silicon.xml || true
+          git add silicon.html silicon.xml rank-history.json || true
           git diff --cached --quiet || git commit -m "silicon: rebuild tape ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push

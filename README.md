@@ -14,6 +14,7 @@ index.html      the site: Countries tab (board, index, essay) and Silicon tab (t
 silicon.html    The Silicon Tape — standalone shareable rental index (from silicon.json)
 silicon.json    Silicon Tape source of truth (CC BY 4.0)
 silicon-history.json  append-only dated observed prints (no interpolations; each scrape adds a point)
+rank-history.json     append-only dated observed rank snapshots (silicon + countries; no interpolation)
 brief.json      daily briefing source of truth (country signals + sourced silicon prints)
 brief.html      public brief page (from brief.json)
 params.json     the $/GW value of compute. Reviewed weekly. Edit this file, the site reprices.
@@ -45,6 +46,11 @@ edit `params.json`, commit, done.
   then `python3 src/build_silicon.py`. Do not invent chips, averages, or 1d/7d candles.
   1M / 1Q / 1Y / 3Y light up only from two dated same-venue same-term prints.
   Term-book 1m / 1q / 1y / 3y are sourced labeled $/GPU-hr — never an imputed discount.
+- **Rank history:** `python3 src/snapshot_ranks.py` upserts today's observed
+  silicon and country ranks into `rank-history.json`. One snapshot per index per
+  calendar date; a second run the same day replaces that date in place. Never
+  interpolate a rank. Never invent a 7-day rank candle. Inference / Neoclouds /
+  Hyperscalers join once they have a published rank formula.
 - **Daily brief:** edit `brief.json`, then `python3 src/build_brief.py`. Same motion as
   Wire / Silicon. Seed display prints from `silicon.json`. Leave `prev_usd` and `delta`
   null unless a second dated sourced print already exists in the repo. Do not invent a

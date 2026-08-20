@@ -21,6 +21,11 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
+<loc>https://compute.world/rank-history.json</loc>
+<lastmod>2026-08-19</lastmod>
+<changefreq>daily</changefreq>
+</url>
+<url>
 <loc>https://compute.world/silicon.xml</loc>
 <lastmod>2026-08-18</lastmod>
 <changefreq>weekly</changefreq>
