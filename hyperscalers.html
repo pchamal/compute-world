@@ -53,7 +53,7 @@ body,#fnav{transition:background-color .35s ease,color .35s ease,border-color .3
 body.fnav-inner{padding-top:64px}
 #fnav-hit{position:fixed;top:0;left:0;right:0;height:28px;z-index:59}
 #fnav{position:fixed;top:14px;left:50%;transform:translate(-50%,-160%);z-index:60;display:flex;gap:20px;align-items:center;
-padding:10px 22px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
+padding:10px 22px;--glass:rgba(247,244,238,.90);background:var(--glass);backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
 border:1px solid var(--glassborder,rgba(23,22,20,.35));border-radius:99px;box-shadow:0 10px 34px rgba(0,0,0,.12);
 transition:transform .55s cubic-bezier(.22,.8,.26,1),background-color .35s ease;
 font-family:var(--serif,'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif);color:var(--ink,#171614)}
@@ -67,18 +67,18 @@ font-family:var(--serif,'Charter','Bitstream Charter','Sitka Text',Cambria,Georg
 #nburger{display:none;font-family:inherit;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
 background:none;border:none;color:inherit;cursor:pointer;padding:2px 0}
 #nburger:hover{color:var(--accent,#7d2027)}
-html[data-theme="dark"] #fnav{background:var(--glass,rgba(23,21,17,.72));border-color:var(--glassborder,rgba(236,231,219,.28));color:var(--ink,#ece7db)}
+html[data-theme="dark"] #fnav{--glass:rgba(23,21,17,.90);background:var(--glass);border-color:var(--glassborder,rgba(236,231,219,.28));color:var(--ink,#ece7db)}
 html[data-theme="dark"] #fnav a{color:var(--ink,#ece7db)}
 html[data-theme="dark"] #fnav a:hover,html[data-theme="dark"] #fnav a.here,html[data-theme="dark"] #nburger:hover{color:var(--accent,#c2564c)}
 html[data-theme="dark"] #fnav .ndot{background:var(--pr,#8fae72)}
 @media(max-width:1520px){
   #nburger{display:block}
   #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
-  align-items:flex-end;gap:13px;background:var(--glass,rgba(247,244,238,.72));backdrop-filter:blur(16px) saturate(1.1);
+  align-items:flex-end;gap:13px;background:var(--glass);backdrop-filter:blur(16px) saturate(1.1);
   -webkit-backdrop-filter:blur(16px) saturate(1.1);border:1px solid var(--glassborder,rgba(23,22,20,.35));border-radius:16px;
   padding:18px 24px;box-shadow:0 14px 40px rgba(0,0,0,.16);min-width:170px}
   #fnav .nlinks.open{display:flex;animation:navdrop .35s cubic-bezier(.22,.8,.26,1)}
-  html[data-theme="dark"] #fnav .nlinks{background:var(--glass,rgba(23,21,17,.72));border-color:var(--glassborder,rgba(236,231,219,.28))}
+  html[data-theme="dark"] #fnav .nlinks{background:var(--glass);border-color:var(--glassborder,rgba(236,231,219,.28))}
   @keyframes navdrop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
 }
 @media(prefers-reduced-motion:reduce){#fnav{transition:none}#fnav .nlinks.open{animation:none}}
@@ -208,7 +208,7 @@ details.meth .mb b{color:var(--ink)}
 </button>
 <div id="fnav-hit" aria-hidden="true"></div>
 <nav id="fnav" class="show" aria-label="Sections" data-show-at="80" data-sticky="1">
-  <span class="nb">CW</span><span class="ndot" title="Live data"></span>
+  <a class="nb" href="/" aria-label="compute.world home">CW</a><span class="ndot" title="Live data"></span>
   <button id="nburger" aria-label="Open menu" aria-expanded="false">Menu</button>
   <div class="nlinks" id="nlinks">
     <a href="/#board" data-nav="board">Board</a><a href="/#index" data-nav="index">Index</a><a href="/#shape" data-nav="shape">Charts</a><a href="/#objections" data-nav="objections">Objections</a><a href="/#precedents" data-nav="precedents">Precedents</a><a href="/#gazetteer" data-nav="gazetteer">Gazetteer</a><a href="/wire.html" data-nav="wire">Wire</a><a href="/#silicon" data-nav="silicon">Silicon</a><a href="/inference.html" data-nav="inference">Inference</a><a href="/neoclouds.html" data-nav="neoclouds">Neoclouds</a><a href="/hyperscalers.html" data-nav="hyperscalers" class="here" aria-current="page">Hyperscalers</a><a href="/#credit" data-nav="credit">Cite</a><a href="/contact.html" data-nav="contact">Contact</a><a href="/agents.html" data-nav="agents">Agents</a>
