@@ -229,6 +229,7 @@ position:sticky;top:0;background:var(--paper);z-index:3}}
       <a href="/brief.xml">RSS</a>
       <a href="/#silicon">Silicon tab</a>
       <a href="/#subscribe">Subscribe</a>
+      <a href="/contact.html">The Desk</a>
     </div>
   </div>
 

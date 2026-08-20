@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Shared robots / sitemap / Open Graph / JSON-LD helpers. No invented numbers.
 # Builders import these so every public page speaks with one voice.
+from datetime import datetime as _dt
 
 BOTS = (
     "GPTBot",
@@ -72,7 +73,7 @@ DEFAULT_SITEMAP = [
     {"loc": f"{SITE}/brief.xml", "lastmod": "2026-08-18", "changefreq": "daily"},
     {"loc": f"{SITE}/wire.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/agents.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/contact.html", "changefreq": "monthly"},
+    {"loc": f"{SITE}/contact.html", "lastmod": "2026-08-20", "changefreq": "monthly"},
     {"loc": f"{SITE}/data.json", "changefreq": "weekly"},
     {"loc": f"{SITE}/llms.txt", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/wire.json", "changefreq": "weekly"},
@@ -111,8 +112,28 @@ def breadcrumb_ld(items):
     }
 
 
+def nice_day(iso, kind="long"):
+    """Format YYYY-MM-DD. kind=long -> '19 August 2026'; short -> '19 Aug 2026'."""
+    if not iso:
+        return ""
+    s = str(iso)[:10]
+    try:
+        d = _dt.strptime(s, "%Y-%m-%d")
+    except ValueError:
+        return s
+    if kind == "short":
+        return f"{d.day} {d.strftime('%b %Y')}"
+    return f"{d.day} {d.strftime('%B %Y')}"
+
+
 def person_author():
-    return {"@type": "Person", "name": "Pukar C. Hamal", "url": f"{SITE}/contact.html"}
+    # Same facts only: name, desk URL, personal site. No email (Turnstile-gated).
+    return {
+        "@type": "Person",
+        "name": "Pukar C. Hamal",
+        "url": f"{SITE}/contact.html",
+        "sameAs": ["https://pukarhamal.com/"],
+    }
 
 
 def org_publisher():
@@ -124,8 +145,8 @@ def org_publisher():
         "url": SITE,
         "founder": person_author(),
         "description": (
-            "The world's compute & silicon index: the Compute Net Worth Index (CNW™) "
-            "and the Silicon Tape."
+            "Pukar C. Hamal's public compute desk: the world's compute & silicon index "
+            "(CNW™ + Silicon Tape). Companies inquire via https://compute.world/contact.html."
         ),
         "sameAs": ["https://github.com/pchamal/compute-world"],
     }

@@ -6,7 +6,7 @@ import json, html, os, sys
 from datetime import datetime
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
 from subscribe import css as sub_css, markup as sub_markup, script as sub_script
-from seo import og_block, breadcrumb_ld, person_author, org_publisher
+from seo import og_block, breadcrumb_ld, person_author, org_publisher, nice_day
 from tape_print import DASH_TITLE, enrich_silicon
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -21,6 +21,11 @@ json.dump(S, open(os.path.join(ROOT, "silicon.json"), "w"), indent=2, ensure_asc
 open(os.path.join(ROOT, "silicon.json"), "a").write("\n")
 SRC = {s["id"]: s for s in S["sources"]}
 chips = sorted(S["chips"], key=lambda c: c["rank"])
+H100_ASOF = nice_day(S.get("updated"))
+_h100 = next((c for c in chips if c.get("id") == "nvidia-h100-sxm-80gb"), {})
+_h100_disp = _h100.get("display") or {}
+_h100_px = _h100_disp.get("usd_per_gpu_hr")
+H100_PX = f"${_h100_px:.2f}" if isinstance(_h100_px, (int, float)) else "$3.99"
 
 
 def expected_score(c):
@@ -323,13 +328,13 @@ faq_ld = json.dumps({
         {"@type": "Question", "name": "Why are 1m / 1q / 3y dashes on most US lists?",
          "acceptedAnswer": {"@type": "Answer", "text": "US neoclouds publish on-demand, sometimes spot, and rarely a 12-month reserved card. They do not publish 1-month, 1-quarter, or 3-year list prices. We do not impute a discount off on-demand. A dash means no sourced tenor."}},
         {"@type": "Question", "name": "Why isn't today's H100 $2.35?",
-         "acceptedAnswer": {"@type": "Answer", "text": "SemiAnalysis 1y $2.35 is a March 2026 print. The last public SA period is April 2026 and is labeled STALE. Buy-now is the current Lambda on-demand list: $3.99 as of 18 August 2026."}},
+         "acceptedAnswer": {"@type": "Answer", "text": f"SemiAnalysis 1y $2.35 is a March 2026 print. The last public SA period is April 2026 and is labeled STALE. Buy-now is the current Lambda on-demand list: {H100_PX} as of {H100_ASOF}."}},
         {"@type": "Question", "name": "Why are sparklines steps, not candles?",
          "acceptedAnswer": {"@type": "Answer", "text": "The tape has dated observed prints, not a daily market. A sparkline is a step chart of those prints. Carry-forward is for drawing only. We do not invent 1d or 7d candles."}},
         {"@type": "Question", "name": "Why does Cerebras have no $/hour?",
          "acceptedAnswer": {"@type": "Answer", "text": "Cerebras Cloud is sold as a token API and as enterprise. There is no sourced public accelerator-hour in this snapshot. Aggregator ranges such as $0.75–$12.50 are omitted on purpose. Groq is listed the same way: token API, no invented chip-hour."}},
         {"@type": "Question", "name": "What is compute.world?",
-         "acceptedAnswer": {"@type": "Answer", "text": "compute.world is the world's compute & silicon index: the Compute Net Worth Index (CNW™) prices 108 countries, and the Silicon Tape prints sourced chips. Created by Pukar C. Hamal."}},
+         "acceptedAnswer": {"@type": "Answer", "text": "compute.world is Pukar C. Hamal's public compute desk and the world's compute & silicon index: the Compute Net Worth Index (CNW™) prices 108 countries, and the Silicon Tape prints sourced chips. Companies inquire via https://compute.world/contact.html."}},
     ],
 })
 si_title = "The Silicon Tape · AI accelerator rental index · compute.world"
@@ -548,6 +553,7 @@ details.meth .mb li{{margin-bottom:6px}}
       <a href="/silicon.xml">RSS</a>
       <a href="/">Nation-State Index</a>
       <a href="/brief">Daily brief</a>
+      <a href="/contact.html">The Desk</a>
     </div>
   </div>
 
@@ -602,7 +608,7 @@ details.meth .mb li{{margin-bottom:6px}}
       <p><b>As-of dates.</b> SemiAnalysis public prints <b>stop at April 2026</b> and are labeled that way. August 2026 figures are neocloud and hyperscaler list pages fetched <b>2026-08-18</b>. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a> (append-only). Rank snapshots live in <a href="/rank-history.json">rank-history.json</a> (append-only observed ranks; never interpolated). Inference / Neoclouds / Hyperscalers join that tape once they have a published rank formula.</p>
       <p><b>Omitted this snapshot</b> — no invented rows:</p>
       <ul>{omitted}</ul>
-      <p>Machine-readable: <a href="/silicon.json">silicon.json</a> (CC BY 4.0, attribution to compute.world). Cite as: <code>{html.escape(S["cite"])}</code>. Corrections: <a href="/contact.html">get in touch</a>. Half of <a href="/">the world's compute &amp; silicon index</a>.</p>
+      <p>Machine-readable: <a href="/silicon.json">silicon.json</a> (CC BY 4.0, attribution to compute.world). Cite as: <code>{html.escape(S["cite"])}</code>. The Desk: <a href="/contact.html">briefings, corrections, cite / data</a>. Half of <a href="/">the world's compute &amp; silicon index</a>.</p>
       <p><b>Primary sources</b></p>
       <ul>{source_lis}</ul>
     </div>
@@ -619,7 +625,7 @@ details.meth .mb li{{margin-bottom:6px}}
     <h3>Why are 1m / 1q / 3y dashes on most US lists?</h3>
     <p>Venues do not publish those tenors. US neoclouds print on-demand, sometimes spot, and rarely a 12-month reserved card. They do not publish 1-month, 1-quarter, or 3-year list prices. We do not impute a discount off on-demand. A dash means no sourced tenor.</p>
     <h3>Why isn't today's H100 $2.35?</h3>
-    <p>SemiAnalysis 1y $2.35 is a <b>March 2026</b> print. The last public SA period is April 2026 and is labeled STALE. Buy-now is Lambda on-demand <b>$3.99</b> as of 18 August 2026. The SA series still lives in the drawer, as a step chart, not as today's headline.</p>
+    <p>SemiAnalysis 1y $2.35 is a <b>March 2026</b> print. The last public SA period is April 2026 and is labeled STALE. Buy-now is Lambda on-demand <b>{H100_PX}</b> as of {H100_ASOF}. The SA series still lives in the drawer, as a step chart, not as today's headline.</p>
     <h3>Why are sparklines steps, not candles?</h3>
     <p>The tape has dated observed prints — not a session market. A sparkline is a step chart of those prints. Carry-forward is for drawing only. A percent needs two real same-venue same-term prints. Missing pair = —.</p>
     <h3>What is Tape Print?</h3>
