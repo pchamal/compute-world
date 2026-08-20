@@ -114,7 +114,7 @@ def markup(page):
     return (
         f'<div id="fnav-hit" aria-hidden="true"></div>\n'
         f'<nav id="fnav"{shown} aria-label="Sections" data-show-at="{threshold}" data-sticky="{sticky}">\n'
-        f'  <span class="nb">CW</span><span class="ndot" title="Live data"></span>\n'
+        f'  <a class="nb" href="/" aria-label="compute.world home">CW</a><span class="ndot" title="Live data"></span>\n'
         f'  <button id="nburger" aria-label="Open menu" aria-expanded="false">Menu</button>\n'
         f'  <div class="nlinks" id="nlinks">\n'
         f'    {"".join(links)}\n'
