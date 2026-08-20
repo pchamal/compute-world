@@ -35,7 +35,7 @@ def markup():
   <div>
     <div class="kicker">Weekday briefing</div>
     <h2>The daily tape</h2>
-    <p class="lede-s">Country conversion signals and sourced silicon prints. Labeled terms only — no invented deltas. Read it on the <a href="/brief">public brief</a>, or take the RSS.</p>
+    <p class="lede-s">Country conversion signals and sourced silicon prints. Labeled terms only — no invented deltas. Read it on the <a href="/brief">public brief</a>, or take the RSS. Companies and researchers write via <a href="/contact.html">The Desk</a>.</p>
   </div>
   <div>
     <form id="subform" action="/api/subscribe" method="post" novalidate>

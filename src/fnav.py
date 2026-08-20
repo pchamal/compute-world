@@ -2,6 +2,8 @@
 # Builders import css/markup/script. contact.html inlines the same snippets by hand
 # so a rebuild of generated pages cannot drop the bar on that page.
 # embed.html is an embeddable widget — do not add this chrome there.
+# The contact href stays labeled "Contact": the bar already wraps to a burger at 1520px;
+# "Desk" would not uncrowd it. contact.html is The Desk; the URL is unchanged.
 
 LINKS = (
     ("board", "Board", "#board"),
