@@ -5,11 +5,32 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>ERCOT files the Batch Zero clock: conditional classify by 31 Aug, 17 loads / 6,608 MW paused, reports 10 Dec</title>
+    <link>https://interchange.puc.texas.gov/Documents/59142_52_1675838.PDF</link>
+    <guid isPermaLink="false">compute.world/wire#ercot-59142-item-52</guid>
+    <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 20 August 2026 at 09:01 ERCOT filed PUCT Project 59142 Item 52, a 13-slide update for that morning’s Open Meeting. Three good-cause exceptions remain pending: delay final Batch Zero classification past the 7 Aug deadline and conditionally classify large loads by 31 Aug; let conditionally classified base loads into the 1 Aug and 1 Nov Quarterly Stability Assessments; and send late dynamic-data deficiency notices with the same 24-day cure. ERCOT is not asking to move the 9 Apr 2027 study-results deadline. QSA scope is 6 large loads ≈1,959 MW (1 Aug, projected energization Q1 2027) and 17 ≈6,874 MW (1 Nov, Q2 2027); QSA inclusion does not authorize energization. ERCOT has reviewed 290 dynamic models, ~18% acceptable on first pass, and has paused energization of large-load data centers and crypto (≥75 MW) — 17 loads, 6,608 MW total peak over 5 years, have finished every ERCOT process except approval to energize. Verification RFIs run Aug–Nov; Batch Zero Eligibility Verification and Community Impact Review reports file 10 Dec for a 17 Dec Open Meeting. April snapshot: 157 medium DC/crypto loads ≈8,766 MW. No PUCT minutes or order posted as of 8:15 PT. [Signal 93, Confirmed, via ERCOT / PUCT Interchange] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Beijing lets limited H200 batches land: ByteDance and Tencent ~10k each; most volume steered to Hong Kong</title>
     <link>https://www.business-standard.com/world-news/china-allows-limited-nvidia-h200-shipments-why-is-beijing-easing-curbs-126081900438_1.html</link>
     <guid isPermaLink="false">compute.world/wire#china-h200-limited-landings</guid>
     <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 19 August 2026 the Financial Times, as reprinted by Business Standard, reported that ByteDance and Tencent have each received about 10,000 NVIDIA H200 processors in recent weeks, with a few other Chinese groups queued for similar-sized shipments. Chinese regulators have told companies they may ship H200s to Hong Kong (outside mainland customs) and use them there; Beijing still wants most volume kept off the mainland to protect domestic chipmakers. The reprint cites two conflicting per-customer US caps — FT’s 100,000 vs Reuters’ 75,000 under Commerce licensing — and says purchases still need NDRC approval. NVIDIA has about 500,000 H200s in stock mainly for Chinese customers; Blackwell remains banned. This is a dual-sovereign policy print: US licence is no longer the only gate. [Signal 64, Single-source, via Financial Times / Business Standard] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Shapiro EO 2026-05: Pennsylvania gates data centers &gt;25 MW behind a GRID consent order</title>
+    <link>https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/eo2026_05_protecting%20pennsylvania%20consumers%20from%20data%20center%20impacts_final_executed.pdf</link>
+    <guid isPermaLink="false">compute.world/wire#pa-eo-2026-05</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 18 August 2026 Governor Josh Shapiro signed Executive Order 2026-05, effective immediately. DEP’s template Consent Order and Agreement is required for any data center with peak demand over 25 MW; signers get rolling permit review only after local comprehensive-plan consistency and all municipal approvals. Non-signers wait until local approvals and water/wastewater authorizations are in hand, with no rolling issuance and exclusion from PAyback and the Permit Decision Guarantee. The Computer Data Center Equipment sales-and-use exemption is tied to GRID. The Office of Transformation and Opportunity must remove existing data-center projects from the PA Permit Fast Track Program and bar new ones. NDAs on data-center projects are impermissible for agencies under the Governor’s jurisdiction. Recitals cite 20 DEP permit applications, 14 active exemption certificates, PJM’s 74 GW summer-peak growth through 2045, and $29.4 billion / 46% of the last four PJM capacity-auction costs attributed to data centers. This is a state conversion gate on PJM-side load, not a campus FID. [Signal 90, Confirmed, via Commonwealth of Pennsylvania] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Amazon lifts northwest Louisiana to $18B and a third STACK campus in Shreveport</title>
+    <link>https://www.aboutamazon.com/news/company-news/amazon-data-center-louisiana-new-jobs</link>
+    <guid isPermaLink="false">compute.world/wire#amazon-stack-louisiana-18b</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 18 August 2026 Amazon updated its February campus note: planned investment in northwest Louisiana rises from $12 billion to $18 billion with a third planned campus in Shreveport, across Caddo and Bossier Parishes. STACK Infrastructure is developer and owner of all three campuses. Amazon says it will pay 100% of new energy infrastructure and grid upgrades with SWEPCO, and up to $400 million in public water infrastructure funded by Amazon, not ratepayers. Fully built, the three campuses are expected to create up to 750 full-time Amazon data-center jobs and support 2,500 additional positions; STACK cites up to 2,250 construction jobs. IT megawatts are not disclosed on the Amazon page. Distinct from the already-wired Pecos GW Ranch site. [Signal 68, Single-source, via Amazon] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>NVIDIA caps $105B residual-value backstop on PORTS-Pike: 4.25 IT-GW, OpenAI 20-year lease, exclusive DSX</title>
