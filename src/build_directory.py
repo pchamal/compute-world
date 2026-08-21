@@ -576,7 +576,7 @@ border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule);font-size:
 .chip.on{{color:var(--accent);border-bottom:1px solid var(--accent)}}
 .atlaswrap{{margin:8px 0 18px;border:1px solid var(--rule);background:var(--tint)}}
 .atlas{{display:block;width:100%;height:auto}}
-.atlas .land{{fill:var(--paper);stroke:var(--rule);stroke-width:.4}}
+.atlas .land{{fill:color-mix(in srgb,var(--ink) 10%,var(--tint));stroke:var(--ink);stroke-width:.4;stroke-opacity:.4}}
 .atlas .grid{{stroke:var(--rule);stroke-width:.4}}
 .atlas .eq{{stroke:var(--rule2);stroke-width:.7;opacity:.35}}
 .atlas .dot{{fill:var(--accent);opacity:.82}}
