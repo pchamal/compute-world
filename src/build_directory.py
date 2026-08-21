@@ -11,6 +11,12 @@ from seo import og_block, breadcrumb_ld, person_author, org_publisher
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
+# Natural Earth 1:110m land (public domain), via world-atlas@2.0.2 (ISC).
+# Same source the homepage globe uses — baked into the SVG at build time so
+# the directory pages never fetch unpkg. Do not substitute a photo globe.
+LAND_TOPO = os.path.join(HERE, "world-110m-land.json")
+_LAND_PATH_CACHE = {}
+
 # EU chip = EU27 plus the usual European compute geography (UK, Norway, Iceland, Switzerland, Liechtenstein).
 EU_ISO3 = {
     "AUT", "BEL", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "FIN", "FRA", "DEU",
@@ -209,12 +215,139 @@ def nice_date(d):
     return d
 
 
+def _lonlat_to_xy(lon, lat, width, height):
+    """Equirectangular — same formula as the city pins, so land and dots share a plate."""
+    return (lon + 180) / 360 * width, (90 - lat) / 180 * height
+
+
+def _decode_topo_arcs(topo):
+    tr = topo.get("transform") or {}
+    sx, sy = tr.get("scale") or [1, 1]
+    tx, ty = tr.get("translate") or [0, 0]
+    decoded = []
+    for arc in topo["arcs"]:
+        x = y = 0
+        pts = []
+        for dx, dy in arc:
+            x += dx
+            y += dy
+            pts.append((x * sx + tx, y * sy + ty))
+        decoded.append(pts)
+    return decoded
+
+
+def _stitch_arc_ring(decoded, indices):
+    pts = []
+    for i in indices:
+        seg = decoded[~i][::-1] if i < 0 else decoded[i]
+        if pts:
+            seg = seg[1:]
+        pts.extend(seg)
+    return pts
+
+
+def _split_antimeridian(ring):
+    """Cut rings that jump ±180 so a fill never draws a bar across the plate."""
+    if len(ring) < 2:
+        return []
+    lines = [[ring[0]]]
+    for pt in ring[1:]:
+        prev = lines[-1][-1]
+        if abs(pt[0] - prev[0]) > 180:
+            lat = (prev[1] + pt[1]) / 2
+            if prev[0] > 0:
+                lines[-1].append((180.0, lat))
+                lines.append([(-180.0, lat), pt])
+            else:
+                lines[-1].append((-180.0, lat))
+                lines.append([(180.0, lat), pt])
+        else:
+            lines[-1].append(pt)
+    if len(lines) > 1:
+        a, b = lines[0][0], lines[-1][-1]
+        if abs(a[0] - b[0]) < 1e-4 and abs(a[1] - b[1]) < 1e-4:
+            lines[-1].pop()
+            lines[0] = lines[-1] + lines[0]
+            lines.pop()
+    return lines
+
+
+def _svg_coord(n):
+    s = f"{n:.1f}".rstrip("0").rstrip(".")
+    return s or "0"
+
+
+def _polyline_d(pts, width, height):
+    if len(pts) >= 2 and abs(pts[0][0] - pts[-1][0]) < 1e-6 and abs(pts[0][1] - pts[-1][1]) < 1e-6:
+        pts = pts[:-1]
+    if len(pts) < 3:
+        return ""
+    cmds = []
+    for i, (lon, lat) in enumerate(pts):
+        x, y = _lonlat_to_xy(lon, lat, width, height)
+        cmds.append(("M" if i == 0 else "L") + f"{_svg_coord(x)} {_svg_coord(y)}")
+    cmds.append("Z")
+    return "".join(cmds)
+
+
+def _land_object(topo):
+    obj = (topo.get("objects") or {}).get("land")
+    if not obj:
+        raise ValueError("world-110m-land.json has no land object")
+    if obj.get("type") == "GeometryCollection":
+        geoms = obj.get("geometries") or []
+        if not geoms:
+            raise ValueError("world-110m-land.json land collection is empty")
+        return geoms[0]
+    return obj
+
+
+def _iter_rings(geom, decoded):
+    t = geom.get("type")
+    if t == "Polygon":
+        for ring in geom["arcs"]:
+            yield _stitch_arc_ring(decoded, ring)
+    elif t == "MultiPolygon":
+        for poly in geom["arcs"]:
+            for ring in poly:
+                yield _stitch_arc_ring(decoded, ring)
+    elif t == "GeometryCollection":
+        for child in geom.get("geometries") or []:
+            yield from _iter_rings(child, decoded)
+    else:
+        raise ValueError(f"unsupported land geometry {t}")
+
+
+def land_svg_path(width=720, height=360):
+    """Bake Natural Earth 110m land into an equirectangular SVG path (viewBox units)."""
+    key = (width, height)
+    cached = _LAND_PATH_CACHE.get(key)
+    if cached is not None:
+        return cached
+    if not os.path.isfile(LAND_TOPO):
+        raise FileNotFoundError(f"missing self-hosted atlas {LAND_TOPO}")
+    topo = json.load(open(LAND_TOPO))
+    decoded = _decode_topo_arcs(topo)
+    parts = []
+    for ring in _iter_rings(_land_object(topo), decoded):
+        for line in _split_antimeridian(ring):
+            d = _polyline_d(line, width, height)
+            if d:
+                parts.append(d)
+    path = "".join(parts)
+    if path.count("M") < 20:
+        raise ValueError("baked land path is too thin — continents would not read")
+    _LAND_PATH_CACHE[key] = path
+    return path
+
+
 def map_svg(dots, width=720, height=360):
-    """Equirectangular dot plot. Named cities with lat/lon only — no state or undisclosed pins."""
+    """Equirectangular atlas: 110m land under named-city pins. No state or undisclosed pins."""
     parts = [
         f'<svg class="atlas" viewBox="0 0 {width} {height}" role="img" '
         f'aria-label="Named cities only. State-only and undisclosed rows are not plotted.">',
-        f'<rect width="{width}" height="{height}" fill="var(--tint)"/>',
+        f'<rect class="ocean" width="{width}" height="{height}" fill="var(--tint)"/>',
+        f'<path class="land" fill-rule="evenodd" d="{land_svg_path(width, height)}"/>',
     ]
     # meridians / parallels — a ruled atlas, not a GIS product
     for lon in range(-180, 181, 30):
@@ -443,6 +576,7 @@ border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule);font-size:
 .chip.on{{color:var(--accent);border-bottom:1px solid var(--accent)}}
 .atlaswrap{{margin:8px 0 18px;border:1px solid var(--rule);background:var(--tint)}}
 .atlas{{display:block;width:100%;height:auto}}
+.atlas .land{{fill:color-mix(in srgb,var(--ink) 10%,var(--tint));stroke:var(--ink);stroke-width:.4;stroke-opacity:.4}}
 .atlas .grid{{stroke:var(--rule);stroke-width:.4}}
 .atlas .eq{{stroke:var(--rule2);stroke-width:.7;opacity:.35}}
 .atlas .dot{{fill:var(--accent);opacity:.82}}
