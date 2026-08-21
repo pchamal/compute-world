@@ -1,9 +1,29 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "puct-59142-item-53",
+      "date": "2026-08-20",
+      "title": "PUCT grants ERCOT’s Batch Zero good-cause exceptions; classification paused pending the audit",
+      "summary": "On 20 August 2026 at 12:29 PM the Public Utility Commission of Texas filed Project 59142 Item 53, Order Granting Good Cause Exceptions, signed by Chairman Thomas J. Gleeson and Commissioners Kathleen Jackson and Courtney K. Hjaltman. Under 16 TAC § 25.3(b) the Commission grants ERCOT relief from 16 TAC § 25.361(b)(16) so it need not classify Large Loads (≥75 MW, including data centers and virtual currency mining) by the 7 August 2026 Planning Guide § 9.3.1(2)(a) deadline, and need not limit the 1 August and 1 November 2026 quarterly stability assessments to loads already classified as base load. Eligible-but-unclassified base-load submissions may still enter those QSAs. ERCOT may finish dynamic-data review after 7 August and give interconnecting large-load entities 24 days to cure deficiencies. The order recites Governor Abbott’s 3 August letter and states good cause exists for ERCOT to complete the verification and audit and report results to the Commission before continuing Batch Zero. Community-impact information is to be requested from data centers and crypto facilities of 25 MW or more that have not yet energized. The order does not rule individual Batch Zero eligibility and does not restate ERCOT’s 31 August / 10 December clocks from Item 52. Open Meeting minutes for 20 August are still unposted.",
+      "url": "https://interchange.puc.texas.gov/Documents/59142_53_1675960.PDF",
+      "source": "PUCT",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall",
+        "Energy"
+      ],
+      "score": 95
+    },
     {
       "id": "ercot-59142-item-52",
       "date": "2026-08-20",
