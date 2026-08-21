@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>PUCT grants ERCOT’s Batch Zero good-cause exceptions; classification paused pending the audit</title>
+    <link>https://interchange.puc.texas.gov/Documents/59142_53_1675960.PDF</link>
+    <guid isPermaLink="false">compute.world/wire#puct-59142-item-53</guid>
+    <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 20 August 2026 at 12:29 PM the Public Utility Commission of Texas filed Project 59142 Item 53, Order Granting Good Cause Exceptions, signed by Chairman Thomas J. Gleeson and Commissioners Kathleen Jackson and Courtney K. Hjaltman. Under 16 TAC § 25.3(b) the Commission grants ERCOT relief from 16 TAC § 25.361(b)(16) so it need not classify Large Loads (≥75 MW, including data centers and virtual currency mining) by the 7 August 2026 Planning Guide § 9.3.1(2)(a) deadline, and need not limit the 1 August and 1 November 2026 quarterly stability assessments to loads already classified as base load. Eligible-but-unclassified base-load submissions may still enter those QSAs. ERCOT may finish dynamic-data review after 7 August and give interconnecting large-load entities 24 days to cure deficiencies. The order recites Governor Abbott’s 3 August letter and states good cause exists for ERCOT to complete the verification and audit and report results to the Commission before continuing Batch Zero. Community-impact information is to be requested from data centers and crypto facilities of 25 MW or more that have not yet energized. The order does not rule individual Batch Zero eligibility and does not restate ERCOT’s 31 August / 10 December clocks from Item 52. Open Meeting minutes for 20 August are still unposted. [Signal 95, Confirmed, via PUCT] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>ERCOT files the Batch Zero clock: conditional classify by 31 Aug, 17 loads / 6,608 MW paused, reports 10 Dec</title>
     <link>https://interchange.puc.texas.gov/Documents/59142_52_1675838.PDF</link>
     <guid isPermaLink="false">compute.world/wire#ercot-59142-item-52</guid>
