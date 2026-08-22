@@ -58,6 +58,9 @@ edit `params.json`, commit, done.
 - **Data centers FAQ:** edit `data-centers.json`, then `python3 src/build_datacenters.py`.
   Do not invent acres/MW, household-bill dollars, job multipliers, or ranks. Label
   derived arithmetic as derived.
+- **Campuses globe:** edit `campuses.json`, then `python3 src/build_campuses.py`.
+  Do not invent cities, MW, ranks, or statuses. Every pin is the JSON. Grain stays
+  on the pin. Empty regions and empty small-MW filters are coverage holes, not bugs.
 - **Data or copy changes:** edit the inputs in `src/` (country rows in `cnw_model.py`,
   ratings and democracy in `aux_data.py`, macro in `macro_data.py`, live capacity in
   `gdc_data.py`, page template and blurbs in `build_page.py`), then rebuild:

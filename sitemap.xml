@@ -91,6 +91,16 @@
 <changefreq>monthly</changefreq>
 </url>
 <url>
+<loc>https://compute.world/campuses.html</loc>
+<lastmod>2026-08-22</lastmod>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://compute.world/campuses.json</loc>
+<lastmod>2026-08-22</lastmod>
+<changefreq>weekly</changefreq>
+</url>
+<url>
 <loc>https://compute.world/brief</loc>
 <lastmod>2026-08-18</lastmod>
 <changefreq>daily</changefreq>
