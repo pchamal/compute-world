@@ -742,7 +742,94 @@ def enrich_chip(chip, points, now):
     return chip
 
 
+SNAPSHOT_NOTE = "Last sourced confirm day, not the last price tick."
+
+
+def _slot_config(slot, fallback="list"):
+    return norm_config((slot or {}).get("config") or fallback)
+
+
+def _confirm_index(points, day):
+    """chip + venue + term + config → history point on `day`."""
+    out = {}
+    for p in points or []:
+        if (p.get("date") or p.get("as_of")) != day:
+            continue
+        k = (p.get("chip"), norm_venue(p.get("venue")), p.get("term"), _slot_config(p))
+        out[k] = p
+    return out
+
+
+def _confirm_key(chip_id, slot, fallback="list"):
+    return (chip_id, norm_venue(slot.get("venue")), slot.get("term"), _slot_config(slot, fallback))
+
+
+def apply_history_confirms(silicon, history):
+    """Stamp slot as_of from history's last confirm day. Never change a price.
+
+    Snapshot is that confirm day even when every dollar is unchanged. A weekday
+    list-print confirm that only appended silicon-history.json must still bump
+    silicon.json so the tape page is not two weekdays stale.
+    """
+    day = (history.get("as_of") or "").strip()
+    if not day or not parse_date(day):
+        return 0
+    confirms = _confirm_index(history.get("points") or [], day)
+    stamped = 0
+
+    def stamp(slot, *keys):
+        nonlocal stamped
+        if not slot or not isinstance(slot, dict):
+            return False
+        for key in keys:
+            if key is None or key not in confirms:
+                continue
+            if slot.get("as_of") != day:
+                slot["as_of"] = day
+                stamped += 1
+            return True
+        return False
+
+    def keys_for(chip_id, slot, fallback="list"):
+        if not slot:
+            return ()
+        exact = _confirm_key(chip_id, slot, fallback)
+        keys = [exact]
+        # Term-book rows often omit config; a same-day confirm of chip+venue+term is enough.
+        if not slot.get("config"):
+            ven, term = exact[1], exact[2]
+            for k in confirms:
+                if k[0] == chip_id and k[1] == ven and k[2] == term and k not in keys:
+                    keys.append(k)
+        return tuple(keys)
+
+    for c in silicon.get("chips") or []:
+        cid = c["id"]
+        disp = c.get("display") or {}
+        dcfg = _slot_config(disp)
+        display_ok = stamp(disp, *keys_for(cid, disp))
+        for q in c.get("quotes") or []:
+            q_fallback = dcfg if q.get("venue") == disp.get("venue") else "list"
+            stamp(q, *keys_for(cid, q, q_fallback))
+        for rec in (c.get("terms") or {}).values():
+            stamp(rec, *keys_for(cid, rec))
+        also = c.get("also")
+        # `also` has no venue/term/config; it is the companion date on the display row.
+        if also and display_ok and also.get("as_of") and also.get("as_of") != day:
+            also["as_of"] = day
+            stamped += 1
+
+    prev = (silicon.get("updated") or silicon.get("snapshot") or "").strip()
+    if not prev or day >= prev:
+        silicon["updated"] = day
+        silicon["snapshot"] = day
+    if not silicon.get("snapshot_note"):
+        silicon["snapshot_note"] = SNAPSHOT_NOTE
+    return stamped
+
+
 def enrich_silicon(silicon, history):
+    apply_history_confirms(silicon, history)
     now = parse_date(silicon.get("updated") or history.get("as_of")) or AS_OF
     harvested = harvest_quotes(silicon)
     history, appended = merge_history(history, harvested)
@@ -835,6 +922,22 @@ if __name__ == "__main__":
         print("FAIL")
         print("\n".join(bad))
         sys.exit(1)
+    by = {c["id"]: c for c in silicon.get("chips") or []}
+    day = history.get("as_of")
+    if silicon.get("updated") != day or silicon.get("snapshot") != day:
+        sys.exit(f"snapshot {silicon.get('updated')}/{silicon.get('snapshot')} != history {day}")
+    h100 = (by.get("nvidia-h100-sxm-80gb") or {}).get("display") or {}
+    b200 = (by.get("nvidia-b200-sxm6") or {}).get("display") or {}
+    if h100.get("usd_per_gpu_hr") != 3.99 or h100.get("as_of") != day:
+        sys.exit(f"H100 display {h100}")
+    if b200.get("usd_per_gpu_hr") != 6.69 or b200.get("as_of") != day:
+        sys.exit(f"B200 display {b200}")
+    sa = next(q for q in by["nvidia-h100-sxm-80gb"]["quotes"] if q.get("term") == "1y contract")
+    if sa.get("as_of") != "2026-03" or sa.get("usd_per_gpu_hr") != 2.35:
+        sys.exit(f"SA 1y must stay March 2026 STALE: {sa}")
+    smm = (by.get("huawei-ascend-910c") or {}).get("display") or {}
+    if smm.get("as_of") != "2026-07-29":
+        sys.exit(f"SMM 910C as_of {smm.get('as_of')}")
     print(f"ok · {len(history['points'])} dated points · harvested+{n}")
     for name, got, exp in expected_grid_pcts(silicon, history):
         print(f"  {name}: {got}")
