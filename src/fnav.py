@@ -1,4 +1,4 @@
-# Shared floating nav for public compute.world pages (index, wire, silicon, contact, agents, data-centers).
+# Shared floating nav for public compute.world pages (index, wire, silicon, contact, agents, data-centers, campuses).
 # Builders import css/markup/script. contact.html inlines the same snippets by hand
 # so a rebuild of generated pages cannot drop the bar on that page.
 # embed.html is an embeddable widget — do not add this chrome there.
@@ -18,6 +18,7 @@ LINKS = (
     ("neoclouds", "Neoclouds", "#neoclouds"),
     ("hyperscalers", "Hyperscalers", "#hyperscalers"),
     ("datacenters", "Data centers", "/data-centers.html"),
+    ("campuses", "Campuses", "/campuses.html"),
     ("credit", "Cite", "#credit"),
     ("contact", "Contact", "/contact.html"),
     ("agents", "Agents", "/agents.html"),
@@ -39,6 +40,7 @@ INNER = {
     "neoclouds": "neoclouds",
     "hyperscalers": "hyperscalers",
     "datacenters": "datacenters",
+    "campuses": "campuses",
     "contact": "contact",
     "agents": "agents",
     "brief": "brief",
