@@ -18,6 +18,7 @@ Created by Pukar C. Hamal. First published August 10, 2026, San Francisco, CA.
 License: CC BY 4.0 with attribution to compute.world.
 Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
          Hamal, P. (2026). The Silicon Tape. compute.world.
+         Hamal, P. (2026). Data centers FAQ. compute.world.
 Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Compute" (GDC).
 
 ## What this is (and is not)
@@ -56,6 +57,7 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /silicon-history.json — append-only dated observed prints. The only source for 1M / 1Q / 1Y / 3Y and sparklines. No interpolations.
 - /rank-history.json — append-only dated observed rank snapshots (silicon + countries). One row per index per calendar date. Never interpolate a rank. Inference / Neoclouds / Hyperscalers join once they have a published rank formula.
 - /brief + /brief.json + /brief.xml — The daily tape: weekday public brief of country conversion signals and sourced silicon display prints. No invented 7d/30d deltas.
+- /data-centers.html + /data-centers.json + /data-centers.xml — Data centers FAQ: campus power, water, land, tax, and jobs, answered with named sources. Clerk voice. Not a lobby. No invented acres/MW, household-bill dollars, or job multipliers. Cite as: Hamal, P. (2026). Data centers FAQ. compute.world.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - /contact.html — The Desk: briefings, corrections, cite / data, speaking. Companies inquire here.
 - /llms.txt — this file. Crawlers (Googlebot, Bingbot, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot, Applebot-Extended, Bytespider, CCBot) are allowed.

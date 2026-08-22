@@ -1,0 +1,269 @@
+{
+  "updated": "2026-08-22",
+  "title": "Data centers · FAQ",
+  "headline": "Data centers",
+  "kicker": "FAQ · sourced grain, not a lobby",
+  "cite": "Hamal, P. (2026). Data centers FAQ. compute.world.",
+  "description": "Data centers FAQ: campus power, water, land, tax, and jobs, answered with named sources. Clerk voice. Not a lobby. compute.world.",
+  "lede": "Campus fights arrive as slogans. This desk keeps a clerk's book: the claim, the sourced grain, the limit. No invented acres-per-megawatt, no household-bill dollar, no job multiplier. If a figure is not on a page we fetched, it is not here.",
+  "questions": [
+    {
+      "id": "world-share",
+      "q": "Do data centers already use most of the world's electricity?",
+      "ld": "No. IEA Energy and AI (2025): data centres accounted for around 1.5% of world electricity in 2024, or 415 TWh. The United States 45%, China 25%, Europe 15%. Consumption has grown around 12% per year since 2017, more than four times faster than total electricity. A typical AI-focused data centre consumes as much electricity as 100,000 households; the largest under construction about 20 times that. That is still not most of the world's power. Data centres are about one-tenth of global electricity demand growth to 2030 — less than industrial motors, air conditioning, or electric vehicles.",
+      "paragraphs": [
+        {
+          "runin": "They already use most of the world's electricity.",
+          "text": "They do not. The IEA's Energy and AI report (2025) puts 2024 data-centre consumption at around 1.5% of world electricity, or 415 TWh. The United States held 45% of that load, China 25%, Europe 15%. The sector has grown around 12% a year since 2017 — more than four times faster than total electricity. A typical AI-focused campus uses as much electricity as 100,000 households; the largest under construction about 20 times that. That is a factory, not a takeover.",
+          "notes": [1]
+        },
+        {
+          "text": "The limit: a global 1.5% share is not a local 1.5% share. Data centres are about one-tenth of global electricity demand growth to 2030 — less than industrial motors, air conditioning in homes and offices, or electric vehicles. The fight is sited. It is not a global electricity grab.",
+          "notes": [1]
+        }
+      ]
+    },
+    {
+      "id": "us-share",
+      "q": "What share of US electricity do they use, and what is the 2028 range?",
+      "ld": "Lawrence Berkeley National Laboratory / DOE 2024 United States Data Center Energy Usage Report: 58 TWh in 2014 to 176 TWh in 2023, or 4.4% of US electricity. 2018: 76 TWh / 1.9%. Growth after 2017 was driven by GPU-accelerated AI servers. The 2028 scenario range is 325–580 TWh, or 6.7–12.0% of US electricity; at 50% utilization that is about 74–132 GW. IEA: US data centres account for nearly half of US electricity demand growth to 2030 — not half the bill.",
+      "paragraphs": [
+        {
+          "runin": "They already take a fifth of the US grid, and the rest of the bill is next.",
+          "text": "Not a fifth today. The 2024 LBNL / DOE United States Data Center Energy Usage Report: 58 TWh in 2014, 76 TWh / 1.9% in 2018, 176 TWh / 4.4% of US electricity in 2023. After 2017 the installed base started growing again and GPU-accelerated AI servers became a large enough slice that total use climbed. The 2028 scenario range is 325–580 TWh, 6.7–12.0% of forecast US electricity. At 50% utilization the report translates that band to about 74–132 GW.",
+          "notes": [2, 3]
+        },
+        {
+          "text": "The limit: 12% is the high end of a 2028 scenario, not a present fact. The IEA's US line is demand growth, not the bill: data centres account for nearly half of US electricity demand growth to 2030. That is half of the increment, not half of what households already pay.",
+          "notes": [1]
+        }
+      ]
+    },
+    {
+      "id": "steel",
+      "q": "Will they use more power than steel and aluminum?",
+      "ld": "Keep the 2030 tense. IEA Energy and AI (2025): by the end of the decade the United States is set to consume more electricity for data centres than for the production of aluminium, steel, cement, chemicals, and all other energy-intensive goods combined. That is a projection, not a 2024 print. Global base case: around 945 TWh by 2030, slightly more than Japan's electricity consumption today.",
+      "paragraphs": [
+        {
+          "runin": "They already use more power than steel and aluminum.",
+          "text": "Not already. The IEA's sentence is a 2030 projection and should be kept in that tense: by the end of the decade the United States is set to consume more electricity for data centres than for aluminium, steel, cement, chemicals, and all other energy-intensive goods combined. Globally the Base Case is around 945 TWh by 2030 — slightly more than Japan's electricity consumption today.",
+          "notes": [1]
+        },
+        {
+          "text": "The limit: a 2030 comparison is not a 2024 print. Uncertainties widen after 2030. The IEA's own Base Case then runs to around 1,200 TWh by 2035. Anyone who pastes the steel-and-aluminum line into a 2026 hearing as a present fact is misreading the tense.",
+          "notes": [1]
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "q": "Why do local fights feel bigger than the national share?",
+      "ld": "Because the load is clustered. IEA: nearly half of US data-centre capacity is in five regional clusters. Virginia JLARC Rpt 598 (December 2024): about 5,050 MW, roughly the electricity of 2 million Virginia households (about 60% of state households). A typical AI-focused campus uses as much electricity as 100,000 households. Around 20% of planned projects could be delayed without grid action. Transmission takes four to eight years in advanced economies. Local grid strain, not a global takeover.",
+      "paragraphs": [
+        {
+          "runin": "If they are only 1.5% globally, the town-hall fight is theater.",
+          "text": "The 1.5% is a world average. The IEA is blunt that local shares are far larger: nearly half of US data-centre capacity sits in five regional clusters. Virginia is the named cluster on this desk. JLARC Rpt 598 (December 2024): about 5,050 MW, roughly the electricity of 2 million Virginia households — about 60% of households in the state. A typical AI-focused campus uses as much electricity as 100,000 households. That is why a county hears a factory and a continent hears a rounding error.",
+          "notes": [1, 12]
+        },
+        {
+          "text": "The limit: the IEA's live risk is interconnection, not a global takeover. Around 20% of planned data-centre projects could be delayed unless grid risks are addressed. Building new transmission can take four to eight years in advanced economies. Half of US data centres under development sit in those pre-existing large clusters. The fight is the queue.",
+          "notes": [1]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "q": "How much water does a campus use?",
+      "ld": "WUE is annual site water in liters divided by IT energy in kWh (DOE FEMP and The Green Grid). LBNL 2024: modeled US site WUE just over 0.36 L/kWh through 2023, 0.45–0.48 after; direct use about 66 billion liters in 2023; indirect about 800 billion liters / 4.52 L/kWh at the power plant. Site versus source is the grain. Company fleets are not the US average. Virginia JLARC: 2.1 billion gallons in 2023, just over a third reclaimed, under 0.5% of state withdrawals; most buildings at or below a large office (6.7 million gallons a year). The live issue is siting evaporative plants on stressed aquifers.",
+      "paragraphs": [
+        {
+          "runin": "They drink cities.",
+          "text": "A campus uses water, or it uses more electricity to use less water. The clerk's unit is WUE: annual site water in liters divided by IT energy in kilowatt-hours. DOE FEMP writes the same formula The Green Grid coined. LBNL's 2024 report splits site WUE (on-site cooling) from source WUE (water used to make the electricity). Modeled US site WUE stays just over 0.36 L/kWh through 2023, then 0.45–0.48. Direct use about 66 billion liters in 2023; the indirect footprint is nearly 800 billion liters, or 4.52 L/kWh at the power plant. Some hyperscale airside / adiabatic systems report 0.1–0.3 L/kWh. Evaporative towers use more. Air-cooled and closed-loop plants can approach about 0 site liters per kWh, and they pay for it in electricity.",
+          "notes": [3, 4, 5]
+        },
+        {
+          "text": "The limit: LBNL's 66 billion liters is direct site water, not a city-drinking total, and 800 billion liters is source water at the plants — do not mash them into one slogan. Company fleets are not the US average; we did not fetch a 2024/25 Microsoft, AWS, or Google sustainability PDF that printed a WUE we could quote without turning it into an industry mean, so that number stays off this page. Virginia is the named state: JLARC, 2023, 2.1 billion gallons, just over a third reclaimed, under 0.5% of state withdrawals. Most buildings used at or below a large office (6.7 million gallons a year). The live issue is siting evaporative plants on stressed aquifers.",
+          "notes": [3, 12]
+        }
+      ]
+    },
+    {
+      "id": "land",
+      "q": "How much land?",
+      "ld": "Do not invent a national data-center acreage. IEA: US capacity is concentrated in five regional clusters. Virginia JLARC Rpt 598: about 7,200 acres, 63 million square feet, about 5,050 MW. Derived: 7,200 ÷ 5,050 ≈ 1.4 site acres per MW — Virginia stock, not a national rule. USDA: 876,460,000 acres of land in farms in 2024. The pad is small against that farm total. Substations, generation, and transmission are the land.",
+      "paragraphs": [
+        {
+          "runin": "They are paving the farm.",
+          "text": "The building pad is small against the farm. USDA's Farms and Land in Farms 2024 Summary counts 876,460,000 acres of land in farms. The IEA's geography is concentration, not a national acreage: nearly half of US data-centre capacity is in five regional clusters. Virginia is the named state. JLARC Rpt 598: about 7,200 acres, over 63 million square feet, about 5,050 MW. Derived, and labeled as such: 7,200 ÷ 5,050 ≈ 1.4 site acres per MW. That is Virginia's standing stock, not a US rule and not a campus EIS.",
+          "notes": [1, 6, 12]
+        },
+        {
+          "text": "The limit: this desk will not invent a national data-center acreage, and it will not promote 1.4 acres/MW as a planning constant. What sprawls beyond the pad is the substation, the generation, and the transmission. Local land fights are real. A national farmland-vanishing claim needs a sourced US acre figure this page does not have.",
+          "notes": [6, 12]
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "q": "How many permanent jobs?",
+      "ld": "Brookings (BLS-linked, about 1,500 US facilities, 2003–2024): after a county's first large data center, data-processing employment +56% and telecommunications +43% over the first decade; wages unchanged; home prices +2–5%; typical treated county about 100–200 jobs. Virginia JLARC: a typical 250,000-square-foot hall about 50 full-time workers, half contractors; peak construction about 1,500 for 12–18 months. Statewide IMPLAN 74,000 is 80% construction-phase, with 4,400 direct operations jobs — not a BLS count. Good Jobs First (October 2016): average 30–50 permanent jobs, up to about 200; Facebook Rutherford County about 500 construction / 42 permanent. Do not use vendor or IMPLAN multipliers as jobs.",
+      "paragraphs": [
+        {
+          "runin": "A campus is a factory's worth of permanent jobs.",
+          "text": "It is not. Brookings (Bahar and Wright), linking about 1,500 US facilities to BLS county files for 2003–2024: after a labor market's first large data center, data-processing employment rose 56% and telecommunications 43% over the first decade. Wages were unchanged. Home prices rose 2–5%. At a typical treated county those estimates imply about 100–200 jobs. Virginia JLARC, the named-state clerk's book: a typical 250,000-square-foot hall about 50 full-time workers, half of them contractors; at the height of construction about 1,500 workers for 12 to 18 months. Good Jobs First, dated October 2016: an operating center averages 30–50 permanent jobs, larger ones up to about 200; Facebook's original Rutherford County, North Carolina campus about 500 construction jobs and 42 permanent.",
+          "notes": [7, 8, 12]
+        },
+        {
+          "text": "The limit: construction jobs are real and temporary. JLARC's statewide 74,000 is an IMPLAN model — 59,000 construction-phase, 15,000 operations-phase, of which 4,400 are direct operations — and 80% of the annual jobs sit in the construction phase. That is not a BLS employment count and it is not a vendor multiplier. This desk will not print either as permanent jobs. Brookings warns that naive before-and-after comparisons overstate the effect because those counties were already growing.",
+          "notes": [7, 12]
+        }
+      ]
+    },
+    {
+      "id": "tax",
+      "q": "Are tax breaks buying the jobs?",
+      "ld": "NCSL: 38 states currently offer a dedicated data-center incentive; every one of those states provides a state sales-tax exemption. PILOTs are a local add-on some states are considering, not the default instrument. Brookings: hyperscale-county incentives about 2% of construction investment; colocation-county about 62%. Virginia JLARC: sales-and-use exemption since 2010, sunset 2035; $150 million capital / 50 jobs / 150% of prevailing wage; FY23 savings $928.6 million ($683 million state). Brookings: Virginia exemption an estimated $1.6 billion in FY2025. Do not say campuses always pay their way, or never pay tax.",
+      "paragraphs": [
+        {
+          "runin": "The abatement bought the campus, and the jobs justify the abatement.",
+          "text": "The first half is sometimes true; the second does not follow. NCSL, current: 38 states offer a dedicated data-center incentive, Kansas the newest in July 2025, and every one of those states provides a state sales-tax exemption. Eleven offer a statewide property-tax incentive. PILOTs are a local add-on some states are considering — not the default instrument. Brookings: in hyperscale counties, incentives are about 2% of construction investment (location is power, land, fiber). In colocation counties, about 62%. Virginia JLARC: the state instrument is a sales-and-use exemption, in place since 2010, scheduled to expire in 2035; eligibility is $150 million of capital, 50 jobs, wages at least 150% of the local prevailing average. FY23 savings $928.6 million, of which an estimated $683 million was the state share. Brookings separately puts the Virginia exemption at an estimated $1.6 billion in FY2025. Localities still levy business personal property and real-property tax; some have cut the computer-equipment rate.",
+          "notes": [7, 12, 13]
+        },
+        {
+          "text": "The limit: this desk will not say campuses always pay their way, or that they never pay tax. Both claims are lobbying. Brookings' policy line is targeting: the largest incentives attach to the facilities with the smallest employment effect. That is a fact about the incentive, not a veto on the campus.",
+          "notes": [7]
+        }
+      ]
+    },
+    {
+      "id": "bills",
+      "q": "Do households subsidize the power?",
+      "ld": "Not a nationwide residential-subsidy dollar. PJM IMM Scenario 88 (2025/2026 RPM BRA): actual revenues $14,687,047,358; without 7,927 MW of forecast or existing data-center load, $5,354,943,499 — a $9,332,103,858 / 63.5% drop. PJM BRA report: Rest-of-RTO clearing $269.92/MW-day versus $28.92 the prior year. JLARC: current Virginia rates assign costs to the causers; unconstrained 2040 Dominion residential generation-and-transmission +$14 to +$37 a month (1,000 kWh) is a scenario, not a 2026 bill. Texas SB 6 (2025) orders large loads to contribute to interconnection-cost recovery. PUCT 59142 Item 53 is the live clock on this desk.",
+      "paragraphs": [
+        {
+          "runin": "Your bill is the subsidy.",
+          "text": "Sometimes the rate case is the fight. This desk will not invent a nationwide residential-subsidy dollar. PJM's Independent Market Monitor, Scenario 88 on the 2025/2026 RPM Base Residual Auction: actual market revenues $14,687,047,358. Had the auction cleared without 7,927 MW of forecast or existing data-center load, revenues would have been $5,354,943,499 — a $9,332,103,858 drop, 63.5%. That is a capacity-market counterfactual, not a household line-item. The PJM BRA report prints the Rest-of-RTO clearing at $269.92 per MW-day against $28.92 the prior year. JLARC on Virginia: current rates assign costs to the customers who incur them, including data centers. The 2040 Dominion residential generation-and-transmission add is a scenario — about +$14 a month under half-unconstrained demand, +$33 to +$37 under unconstrained, at 1,000 kWh, in 2024 dollars. It is not a 2026 bill.",
+          "notes": [12, 14, 15]
+        },
+        {
+          "text": "The limit: Texas SB 6 (89th Legislature, 2025) orders the commission to ensure large-load customers contribute to interconnection-cost recovery; the default demand threshold is 75 MW. The conversion clock already printed here is PUCT Project 59142 Item 53, filed 20 August 2026: Batch Zero classification waits on the Abbott audit. A PILOT is a tax instrument. A good-cause exception is a grid-process instrument. A 2040 modeled +$14 to +$37 is a scenario. None of those is a sourced nationwide cents-per-kWh on a residential bill.",
+          "notes": [9, 10, 16]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "q": "Why does compute.world keep a FAQ on this?",
+      "ld": "Because campus fights now arrive as slogans, and the index prices the host. compute.world is Pukar C. Hamal's public compute desk. This page is sourced grain — not a lobby. A campus that cannot interconnect is not a conversion. IEA: data-centre emissions stay below 1.5% of energy-sector emissions to 2035; existing AI applications could cut more, and are not a silver bullet. Corrections go to The Desk.",
+      "paragraphs": [
+        {
+          "runin": "This is a lobby shop.",
+          "text": "It is a clerk's desk. compute.world is Pukar C. Hamal's public compute desk. The index prices the host: power, shell, cooling, substations, fiber. A campus that cannot interconnect is not a conversion. Campus fights now arrive as slogans — most of the world's electricity, a factory of permanent jobs, a typical household dollar. This page exists so those slogans meet a named source and a live URL.",
+          "notes": [11]
+        },
+        {
+          "text": "The limit: this is not an \"AI will save the climate\" closer. The IEA is plain that data-centre emissions stay below 1.5% of energy-sector emissions through 2035, that existing AI applications could cut more than the campuses emit, and that they are not a silver bullet. No invented 7-day candles. No market caps. A wrong number goes to The Desk.",
+          "notes": [1, 11]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "name": "IEA, Energy and AI (2025), executive summary",
+      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "text": "International Energy Agency, Energy and AI (2025), executive summary. 2024: around 1.5% of world electricity, 415 TWh; United States 45%, China 25%, Europe 15%; around 12% growth a year since 2017, more than four times total electricity. Typical AI-focused data centre as much electricity as 100,000 households; largest under construction about 20 times that. Nearly half of US capacity in five regional clusters. Base Case around 945 TWh by 2030 (slightly more than Japan today). US data centres nearly half of US electricity demand growth to 2030; by the end of the decade, more US electricity for data centres than aluminium, steel, cement, chemicals, and other energy-intensive goods combined. Around 20% of planned projects at risk of delay; transmission four to eight years in advanced economies; 50% of US data centres under development in pre-existing large clusters. Data centres around one-tenth of global electricity demand growth to 2030, less than industrial motors, air conditioning, or electric vehicles. Emissions from data-centre electricity stay below 1.5% of energy-sector emissions to 2035; existing AI applications could cut more, and are not a silver bullet."
+    },
+    {
+      "id": 2,
+      "name": "Berkeley Lab News Center, 15 January 2025",
+      "url": "https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/",
+      "text": "Lawrence Berkeley National Laboratory News Center, 15 January 2025, summarizing the DOE / LBNL 2024 United States Data Center Energy Usage Report: 58 TWh (2014) to 176 TWh / 4.4% of US electricity (2023); 2028 scenario range 325–580 TWh, 6.7–12% of US electricity. Growth after the last decade driven in large part by AI servers."
+    },
+    {
+      "id": 3,
+      "name": "LBNL, 2024 United States Data Center Energy Usage Report (PDF)",
+      "url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report.pdf",
+      "text": "Shehabi et al., 2024 United States Data Center Energy Usage Report, Lawrence Berkeley National Laboratory, LBNL-2001637. 2018: about 76 TWh / 1.9% of US electricity. Growth after 2017 driven by a rising server installed base and GPU-accelerated AI servers. 2028 low/high about 325 and 580 TWh; at 50% utilization, 74–132 GW; 6.7–12.0% of forecast 2028 US electricity. Distinguishes WUE (site) from WUE (source). Modeled average site WUE just over 0.36 L/kWh through 2023, 0.45–0.48 after. Direct US water use about 66 billion liters in 2023; indirect nearly 800 billion liters / 4.52 L/kWh. Some hyperscale airside / adiabatic systems report 0.1–0.3 L/kWh; a low site WUE is not automatically good because of PUE tradeoffs. Company fleets are not this US modeled average."
+    },
+    {
+      "id": 4,
+      "name": "DOE FEMP, Cooling Water Efficiency Opportunities for Federal Data Centers",
+      "url": "https://www.energy.gov/cmei/femp/cooling-water-efficiency-opportunities-federal-data-centers",
+      "text": "US Department of Energy, Federal Energy Management Program. WUE = annual site water usage (liters) / IT equipment annual energy use (kWh)."
+    },
+    {
+      "id": 5,
+      "name": "The Green Grid, Water Usage Effectiveness (WUE) white paper",
+      "url": "https://www.thegreengrid.org/system/files/store/WUE_v1.pdf",
+      "text": "The Green Grid, Water Usage Effectiveness (WUE): A Green Grid Data Center Sustainability Metric. Site WUE is annual site water usage over IT equipment energy, in L/kWh. WUEsource adds off-site water used to produce the electricity."
+    },
+    {
+      "id": 6,
+      "name": "USDA NASS, Farms and Land in Farms 2024 Summary",
+      "url": "https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/z316rz25j/db78w849h/fnlo0225.pdf",
+      "text": "USDA National Agricultural Statistics Service, Farms and Land in Farms 2024 Summary (February 2025). Total land in farms, 2024: 876,460,000 acres, down 2,100,000 acres from 2023."
+    },
+    {
+      "id": 7,
+      "name": "Brookings, New evidence on data center employment effects",
+      "url": "https://www.brookings.edu/articles/new-evidence-on-data-center-employment-effects/",
+      "text": "Dany Bahar and Greg Wright, New evidence on data center employment effects, Brookings. Dataset of approximately 1,500 US facilities linked to BLS county employment and wages, 2003–2024. First large data center: data-processing employment +56% and telecommunications +43% over the first decade; wages unchanged; home prices +2–5%; typical treated county about 100–200 jobs. Hyperscale-county incentives about 2% of construction investment (location is power, land, fiber); colocation-county incentives about 62%. Virginia data-center sales-tax exemption an estimated $1.6 billion in FY2025. Naive comparisons that ignore pre-existing growth overstate the jobs."
+    },
+    {
+      "id": 8,
+      "name": "Good Jobs First, Money Lost to the Cloud (October 2016)",
+      "url": "https://goodjobsfirst.org/wp-content/uploads/docs/pdf/datacenters.pdf",
+      "text": "Good Jobs First, Money Lost to the Cloud: How Data Centers Benefit from State and Local Government Subsidies, October 2016. Average 30–50 permanent jobs, larger facilities up to about 200. Facebook's original Rutherford County, North Carolina data center: about 500 temporary construction jobs and 42 permanent positions. Dated 2016 — disclose the year; do not treat as a 2026 census."
+    },
+    {
+      "id": 9,
+      "name": "PUCT Project 59142 Item 53 (20 August 2026)",
+      "url": "https://interchange.puc.texas.gov/Documents/59142_53_1675960.PDF",
+      "text": "Public Utility Commission of Texas, Project 59142, Item 53, Order Granting Good Cause Exceptions, filed 20 August 2026. Grants ERCOT relief so Batch Zero large-load classification waits on the verification audit. The live conversion clock on this desk; not a household-bill figure."
+    },
+    {
+      "id": 10,
+      "name": "The Wire · compute.world",
+      "url": "https://compute.world/wire.html",
+      "text": "compute.world, The Wire. Running, credibility-scored feed of the PUCT / ERCOT Batch Zero clock and other conversion signals. Companion to Item 53."
+    },
+    {
+      "id": 11,
+      "name": "The Desk · compute.world",
+      "url": "https://compute.world/contact.html",
+      "text": "The Desk. Briefings, corrections, cite / data, speaking. A wrong number on this FAQ belongs here."
+    },
+    {
+      "id": 12,
+      "name": "Virginia JLARC, Data Centers in Virginia, Rpt 598 (December 2024)",
+      "url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+      "text": "Joint Legislative Audit and Review Commission, Data Centers in Virginia, Report 598, December 2024. About 7,200 acres, over 63 million square feet, about 5,050 MW (Dominion and co-op 2024 peak-load forecast as of August 2023). 5,050 MW roughly equivalent to 2 million Virginia households, about 60% of state households. Derived on this desk: 7,200 ÷ 5,050 ≈ 1.4 site acres per MW — Virginia stock, not a national rule. Typical 250,000-square-foot hall about 50 full-time workers, about half contractors. Peak construction about 1,500 workers for 12–18 months. Statewide IMPLAN (Weldon Cooper): 74,000 jobs annually, 80% construction-phase; operations-phase 15,000 of which 4,400 direct — not a BLS count. Sales-and-use exemption since 2010, scheduled to expire in 2035; $150 million capital / 50 jobs / 150% prevailing wage; FY23 savings $928.6 million ($683 million state). Localities levy business personal property and real-property tax; some have reduced computer-equipment rates. 2023 water: 2.1 billion gallons, just over a third reclaimed, under 0.5% of state withdrawals; most buildings at or below a large office (6.7 million gallons a year). Current rates assign costs to the customers who incur them. Unconstrained 2040 Dominion residential generation-and-transmission: +$33 to +$37 a month at 1,000 kWh (2024 dollars); half-unconstrained about +$14 — a scenario, not a 2026 bill. This desk did not find a printed $4.15 / $100 Loudoun equipment rate or a § 58.1-609.3 citation in the fetched text, so those figures stay off the page."
+    },
+    {
+      "id": 13,
+      "name": "NCSL, Subsidizing Servers",
+      "url": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "text": "National Conference of State Legislatures, Subsidizing Servers: How States Are Competing to Attract Data Centers. Currently 38 states offer dedicated data-center tax incentives; Kansas the newest in July 2025. All of those states provide a state sales-tax exemption. Eleven offer a statewide property-tax incentive. PILOTs are described as an add-on some states are considering (for example Connecticut community-host agreements), not the default dedicated instrument."
+    },
+    {
+      "id": 14,
+      "name": "PJM IMM, Analysis of the 2025/2026 RPM BRA, Part G (revised 3 June 2025)",
+      "url": "https://www.monitoringanalytics.com/reports/reports/2025/IMM_Analysis_of_the_20252026_RPM_Base_Residual_Auction_Part_G_20250603_Revised.pdf",
+      "text": "Monitoring Analytics, Independent Market Monitor for PJM, Analysis of the 2025/2026 RPM Base Residual Auction, Part G, revised 3 June 2025. Scenario 88: actual RPM revenues $14,687,047,358. Without 7,927 MW of forecast or existing data-center load in the 2025 peak-load forecast, $5,354,943,499 — a decrease of $9,332,103,858, or 63.5%. A capacity-market counterfactual, not a residential bill."
+    },
+    {
+      "id": 15,
+      "name": "PJM, 2025/2026 Base Residual Auction Report",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2025-2026/2025-2026-base-residual-auction-report.pdf",
+      "text": "PJM, 2025/2026 Base Residual Auction Report. Rest-of-RTO capacity clearing $269.92 per MW-day for 2025/26 against $28.92 for 2024/25. Total cost to load about $14.7 billion. Price print; the data-center counterfactual lives on the IMM Part G page."
+    },
+    {
+      "id": 16,
+      "name": "Texas SB 6, 89th Legislature (2025), enrolled",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+      "text": "Texas Senate Bill 6, 89th Regular Session, enrolled. Amends Utilities Code § 35.004 and adds § 37.0561: the commission by rule shall ensure a large-load customer contributes to recovery of the interconnecting electric utility's costs to interconnect the large load. Default demand threshold 75 MW unless the commission sets a lower one. Flat study fee of at least $100,000 for initial transmission screening. Not a sourced nationwide household-dollar figure."
+    }
+  ]
+}

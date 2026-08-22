@@ -55,6 +55,9 @@ edit `params.json`, commit, done.
   Wire / Silicon. Seed display prints from `silicon.json`. Leave `prev_usd` and `delta`
   null unless a second dated sourced print already exists in the repo. Do not invent a
   7-day change.
+- **Data centers FAQ:** edit `data-centers.json`, then `python3 src/build_datacenters.py`.
+  Do not invent acres/MW, household-bill dollars, job multipliers, or ranks. Label
+  derived arithmetic as derived.
 - **Data or copy changes:** edit the inputs in `src/` (country rows in `cnw_model.py`,
   ratings and democracy in `aux_data.py`, macro in `macro_data.py`, live capacity in
   `gdc_data.py`, page template and blurbs in `build_page.py`), then rebuild:
