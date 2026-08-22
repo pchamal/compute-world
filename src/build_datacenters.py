@@ -198,6 +198,7 @@ sup a{{border-bottom:none}}
       <span>{nice_short}</span>
       <a href="/data-centers.json">data-centers.json</a>
       <a href="/data-centers.xml">RSS</a>
+      <a href="/campuses.html">Campuses globe</a>
       <a href="/wire.html">The Wire</a>
       <a href="/contact.html">The Desk</a>
     </div>

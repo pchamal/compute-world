@@ -284,7 +284,7 @@ FAQ_LD = json.dumps({"@context":"https://schema.org","@type":"FAQPage","mainEnti
  {"@type":"Question","name":"What is Compute Net Worth?","acceptedAnswer":{"@type":"Answer","text":"Compute Net Worth (CNW) is the value of AI compute that a country's own energy resources and geography could host, priced at the market value of AI factory capacity per gigawatt (currently $60-80B per GW). The index prices 108 countries three ways: the CNW Ceiling (full endowment), CNW Unlockable (the bankable slice at today's readiness), and Gross Domestic Compute (what is live today)."}},
  {"@type":"Question","name":"What is Gross Domestic Compute (GDC)?","acceptedAnswer":{"@type":"Answer","text":"Gross Domestic Compute (GDC) is a country's live datacenter IT capacity in gigawatts multiplied by the market value of compute per GW. What GDP is to output, GDC is to compute. Global GDC is roughly $4.7 trillion against a $662 trillion ceiling: the world has tapped 0.7% of its compute net worth."}},
  {"@type":"Question","name":"Which countries have the largest untapped compute potential?","acceptedAnswer":{"@type":"Answer","text":"By ceiling relative to GDP: Bhutan (836x), Madagascar, Namibia, Tajikistan, Mongolia, and Nepal (157x). By absolute unlockable value: the United States, Australia, Canada, and Brazil. Forty-four countries are Sleeping Giants: endowments above ten times GDP with readiness below 65%."}},
- {"@type":"Question","name":"Campus power, water, land, tax, jobs?","acceptedAnswer":{"@type":"Answer","text":"Campus power, water, land, tax, jobs: Data centers FAQ at https://compute.world/data-centers.html."}}]})
+ {"@type":"Question","name":"Campus power, water, land, tax, jobs?","acceptedAnswer":{"@type":"Answer","text":"Campus power, water, land, tax, jobs: Data centers FAQ at https://compute.world/data-centers.html. Named campuses this desk has folded sit on the Campuses globe at https://compute.world/campuses.html — a register, not a census."}}]})
 
 TPL = r"""<!DOCTYPE html>
 <html lang="en">
@@ -1100,7 +1100,7 @@ __FNAV_HTML__
     <h3>Why does Cerebras have no $/hour?</h3>
     <p>Cerebras Cloud is token and enterprise. There is no sourced public accelerator-hour. Aggregator ranges such as $0.75–$12.50 are omitted on purpose. Groq is the same motion: a token API, not an invented chip-hour.</p>
     <h3>Campus power, water, land, tax, jobs?</h3>
-    <p>Campus power, water, land, tax, jobs: <a href="/data-centers.html">Data centers FAQ</a>.</p>
+    <p>Campus power, water, land, tax, jobs: <a href="/data-centers.html">Data centers FAQ</a>. Named campuses: <a href="/campuses.html">Campuses globe</a> — a register, not a census.</p>
   </section>
 </div>
 
@@ -1830,6 +1830,7 @@ License: CC BY 4.0 with attribution to compute.world.
 Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
          Hamal, P. (2026). The Silicon Tape. compute.world.
          Hamal, P. (2026). Data centers FAQ. compute.world.
+         Hamal, P. (2026). Campuses. compute.world.
 Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Compute" (GDC).
 
 ## What this is (and is not)
@@ -1869,6 +1870,7 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /rank-history.json — append-only dated observed rank snapshots (silicon + countries). One row per index per calendar date. Never interpolate a rank. Inference / Neoclouds / Hyperscalers join once they have a published rank formula.
 - /brief + /brief.json + /brief.xml — The daily tape: weekday public brief of country conversion signals and sourced silicon display prints. No invented 7d/30d deltas.
 - /data-centers.html + /data-centers.json + /data-centers.xml — Data centers FAQ: campus power, water, land, tax, and jobs, answered with named sources. Clerk voice. Not a lobby. No invented acres/MW, household-bill dollars, or job multipliers. Cite as: Hamal, P. (2026). Data centers FAQ. compute.world.
+- /campuses.html + /campuses.json — Campuses: a desk-curated globe of named campus projects. Not a census. MW keeps its grain (IT capacity / facility power / interconnection request / not disclosed). SSA, South Asia, and APAC-ex-Oceania have no pins in this book. Cite as: Hamal, P. (2026). Campuses. compute.world.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - /contact.html — The Desk: briefings, corrections, cite / data, speaking. Companies inquire here.
 - /llms.txt — this file. Crawlers (Googlebot, Bingbot, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot, Applebot-Extended, Bytespider, CCBot) are allowed.
@@ -1986,7 +1988,7 @@ code,pre{{background:#efe9dd;font-size:12px;padding:1px 5px}}.ed{{font-size:10.5
 <h2>Instructions</h2>
 <p>Cite as: <code>Hamal, P. (2026). The Compute Net Worth Index. compute.world.</code><br>
 License: scores and methodology are proprietary; quoting with attribution is free for research, personal, and journalistic use; commercial use requires a license (<a href="/contact.html">The Desk</a>). Full terms: LICENSE.md in the <a href="https://github.com/pchamal/compute-world">repository</a>.<br>
-Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/params.json">/params.json</a> (weekly $/GW value) · <a href="/wire.json">/wire.json</a> (rated news signals) · <a href="/wire.xml">/wire.xml</a> (RSS) · <a href="/silicon.json">/silicon.json</a> (The Silicon Tape) · <a href="/silicon-history.json">/silicon-history.json</a> (dated prints) · <a href="/rank-history.json">/rank-history.json</a> (dated rank snapshots) · <a href="/silicon.html">/silicon.html</a> · <a href="/inference.json">/inference.json</a> · <a href="/inference.html">/inference.html</a> · <a href="/neoclouds.json">/neoclouds.json</a> · <a href="/neoclouds.html">/neoclouds.html</a> · <a href="/hyperscalers.json">/hyperscalers.json</a> · <a href="/hyperscalers.html">/hyperscalers.html</a> · <a href="/data-centers.html">/data-centers.html</a> · <a href="/data-centers.json">/data-centers.json</a> · <a href="/brief.json">/brief.json</a> (daily tape) · <a href="/brief">/brief</a> · <a href="/brief.xml">/brief.xml</a> · <a href="/llms.txt">/llms.txt</a> (summary). Deep links: /#nepal, /#namibia, /#silicon, /#countries, /#inference, /#neoclouds, /#hyperscalers.</p>
+Endpoints: <a href="/data.json">/data.json</a> (full dataset) · <a href="/params.json">/params.json</a> (weekly $/GW value) · <a href="/wire.json">/wire.json</a> (rated news signals) · <a href="/wire.xml">/wire.xml</a> (RSS) · <a href="/silicon.json">/silicon.json</a> (The Silicon Tape) · <a href="/silicon-history.json">/silicon-history.json</a> (dated prints) · <a href="/rank-history.json">/rank-history.json</a> (dated rank snapshots) · <a href="/silicon.html">/silicon.html</a> · <a href="/inference.json">/inference.json</a> · <a href="/inference.html">/inference.html</a> · <a href="/neoclouds.json">/neoclouds.json</a> · <a href="/neoclouds.html">/neoclouds.html</a> · <a href="/hyperscalers.json">/hyperscalers.json</a> · <a href="/hyperscalers.html">/hyperscalers.html</a> · <a href="/data-centers.html">/data-centers.html</a> · <a href="/data-centers.json">/data-centers.json</a> · <a href="/campuses.html">/campuses.html</a> · <a href="/campuses.json">/campuses.json</a> · <a href="/brief.json">/brief.json</a> (daily tape) · <a href="/brief">/brief</a> · <a href="/brief.xml">/brief.xml</a> · <a href="/llms.txt">/llms.txt</a> (summary). Deep links: /#nepal, /#namibia, /#silicon, /#countries, /#inference, /#neoclouds, /#hyperscalers.</p>
 <h2>Definitions</h2>
 <p>CNW Ceiling ($B) = resource ceiling GW × $60&ndash;80B per GW (NVIDIA all-in AI-factory figure, reviewed weekly). CNW Unlockable ($B) = firm untapped GW × $50B × Readiness. GDC ($B, Gross Domestic Compute) = live datacenter IT GW × $50B. Realized (0&ndash;100) = 35% conversion + 25% pipeline + 25% Wire signal velocity + 15% execution. Readiness (%) = 18% governance + 13% stability + 14% GPU access + 11% grid + 11% fiber + 8% momentum + 14% physical + 11% capital access. Built (%) = installed hydro+geothermal ÷ resource ceiling. Headline finding: global ceiling ~$662T, unlockable ~$64T, GDC ~$4.7T: the world has tapped 0.7% of its compute net worth.</p>
 <h2>The index (sorted by CNW Unlockable, $B)</h2>
