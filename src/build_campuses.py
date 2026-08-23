@@ -16,8 +16,8 @@ updated = D["as_of"]
 nice_upd = nice_day(updated)
 nice_short = datetime.strptime(updated, "%Y-%m-%d").strftime("%d %b %Y")
 projects = D["projects"]
-if len(projects) != 50:
-    raise SystemExit(f"expected 50 projects, got {len(projects)}")
+if len(projects) != 54:
+    raise SystemExit(f"expected 54 projects, got {len(projects)}")
 
 GRAIN_LABEL = {
     "it_capacity": "IT capacity",
