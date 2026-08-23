@@ -996,8 +996,8 @@
       "admin1": "Dublin",
       "country_iso3": "IRL",
       "region": "EU",
-      "lat": 53.3143206,
-      "lon": -6.4444743,
+      "lat": 53.321323,
+      "lon": -6.4517381,
       "geo": "named_place",
       "mw": 52,
       "mw_grain": "it_capacity",
@@ -1008,7 +1008,7 @@
       "status_as_of": "2024-04-24",
       "url": "https://vantage-dc.com/news/vantage-data-centers-expands-emea-portfolio-with-first-dublin-campus-featuring-next-generation-energy-solution/",
       "source": "primary",
-      "notes": "Keep 52 MW IT. Do not use 100 MVA generation. Nearby Microsoft Grange Castle uses a different named-park centroid so both stay reachable. lat/lon is the named Profile Park pin from the hunt, not a street parcel invented on this desk."
+      "notes": "Keep 52 MW IT. Do not use 100 MVA generation. Profile Park did not resolve in Nominatim; lat/lon shares the Grange Castle Business Park centroid with Microsoft, CyrusOne, and EdgeConneX so all four offset and stay reachable. Hunt Profile Park pin was 53.3143206, -6.4444743 — not a street parcel."
     },
     {
       "id": "meta-clonee",
@@ -1052,7 +1052,7 @@
       "status_as_of": "2024-11-01",
       "url": "https://news.microsoft.com/europe/2024/11/01/an-taoiseach-simon-harris-welcomes-microsofts-decision-to-deliver-550-new-irish-based-engineering-and-rd-jobs/",
       "source": "primary",
-      "notes": "Do not copy Microsoft 1 GW / 500 MW — those are generation / PPAs, not campus IT. Nearby Vantage DUB1 uses a different named-park centroid so both stay reachable. lat/lon is the named Grange Castle Business Park pin from the hunt, not a street parcel invented on this desk."
+      "notes": "Do not copy Microsoft 1 GW / 500 MW — those are generation / PPAs, not campus IT. lat/lon is the Nominatim Grange Castle Business Park centroid, shared with Vantage DUB1, CyrusOne, and EdgeConneX. The globe offsets the four. Not a street parcel."
     },
     {
       "id": "herbata-naas",
@@ -1162,7 +1162,7 @@
       "status_as_of": "",
       "url": "https://www.cyrusone.com/data-centers/emea/dublin-ireland",
       "source": "primary",
-      "notes": "Keep 54 MW IT. Do not use 80 MVA. Street address was not geocoded; lat/lon is the Nominatim Grange Castle Business Park centroid, shared with Microsoft Grange Castle and EdgeConneX. The globe offsets the trio. Vantage DUB1 stays on the Profile Park hunt pin."
+      "notes": "Keep 54 MW IT. Do not use 80 MVA. Street address was not geocoded; lat/lon is the Nominatim Grange Castle Business Park centroid, shared with Microsoft, Vantage DUB1, and EdgeConneX. The globe offsets the four."
     },
     {
       "id": "edgeconnex-dublin-grange-castle",
@@ -1184,7 +1184,7 @@
       "status_as_of": "",
       "url": "https://www.edgeconnex.com/locations/emea/dublin-ie/",
       "source": "primary",
-      "notes": "Same page prints 32 MW N+1, over 170MW power banked, DUB01 18 / DUB02 7 / DUB03 7 planned, and a power bank for additional 100 MW. MW is left null; this desk did not pick one. lat/lon is the Nominatim Grange Castle Business Park centroid, shared with Microsoft Grange Castle and CyrusOne DUB1. The globe offsets the trio."
+      "notes": "Same page prints 32 MW N+1, over 170MW power banked, DUB01 18 / DUB02 7 / DUB03 7 planned, and a power bank for additional 100 MW. MW is left null; this desk did not pick one. lat/lon is the Nominatim Grange Castle Business Park centroid, shared with Microsoft, Vantage DUB1, and CyrusOne. The globe offsets the four."
     },
     {
       "id": "mayo-data-hub-killala",
