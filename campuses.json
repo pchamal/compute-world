@@ -4,12 +4,12 @@
   "kicker": "Named projects · sourced grain, not a census",
   "cite": "Hamal, P. (2026). Campuses. compute.world.",
   "description": "A desk-curated globe of named data-center campus projects. Not a global inventory. Megawatt figures keep their grain. compute.world.",
-  "lede": "This is a desk-curated named-project register, not a global inventory. Seventy-four pins, each folded from a primary the desk fetched. Virginia is a named-campus shelf in this book, not Data Center Alley. Ireland is a named-campus shelf, not Dublin metro. Malaysia is a named-campus shelf, not a Johor census. Honest holes remain: no named AWS Loudoun or AWS Prince William campus (the AWS pins here are Louisa County only), and no named AWS Ireland campus. Google’s city-only “Dublin, Ireland” line is not a pin. Microsoft Southeast Asia 3, Malaysia West, and AWS ap-southeast-5 are cloud regions, not campus pins. Sub-250 disclosed pins are kept; the 250 MW floor is a filter, not a delete. Energized MW is almost never published. A 4.75 GW interconnection is not IT. SSA and South Asia have no pins in this book — that is a coverage hole, not a load of zero. Homer City Energy Campus is held: it is a generation plant.",
+  "lede": "This is a desk-curated named-project register, not a global inventory. Seventy pins, each folded from a primary the desk fetched. Virginia is a named-campus shelf in this book, not Data Center Alley. Ireland is a named-campus shelf, not Dublin metro. Malaysia is a named-campus shelf, not a Johor census. Honest holes remain: no named AWS Loudoun or AWS Prince William campus (the AWS pins here are Louisa County only), and no named AWS Ireland campus. Google’s city-only “Dublin, Ireland” line is not a pin. Microsoft Southeast Asia 3, Malaysia West, and AWS ap-southeast-5 are cloud regions, not campus pins. Sub-250 disclosed pins are kept; the 250 MW floor is a filter, not a delete. Energized MW is almost never published. A 4.75 GW interconnection is not IT. SSA and South Asia have no pins in this book — that is a coverage hole, not a load of zero. Homer City Energy Campus is held: it is a generation plant. Equinix JH1 / KL1 and TM IPDC / KVDC are held (hall grain).",
   "notes": [
     "Not a census. Empty regions and empty small-MW filters are coverage holes, not bugs.",
     "Virginia fold (2026-08-22): nineteen named campuses. This is a named-campus shelf, not Data Center Alley. No named AWS Loudoun or AWS Prince William campus; AWS pins in this book are Louisa County only.",
     "Ireland fold (2026-08-22): twelve named campuses. This is a named-campus shelf, not Dublin metro. No named AWS Ireland campus. Google’s city-only “Dublin, Ireland” line is not a pin. Do not copy Meta 723.8 MW, Microsoft 1 GW / 500 MW, or Echelon 1 GW / 800 MW wind — those are generation or PPAs. Microsoft Jigginstown and Herbata share Naas townlands but are different operators; they are not merged.",
-    "Malaysia fold (2026-08-22): twenty named campuses. This is a named-campus shelf, not a Johor census. AirTrunk MEL1/MEL2/SYD3 are not re-pinned. Yondr Sedenak is not added (sold to Vantage; same campus as vantage-jhb1-sedenak). Equinix JH2 (unnamed JS-SEZ) is not added. Microsoft Southeast Asia 3, Malaysia West, and AWS ap-southeast-5 are cloud regions, not pins.",
+    "Malaysia fold (2026-08-22): sixteen named campuses. This is a named-campus shelf, not a Johor census. AirTrunk MEL1/MEL2/SYD3 are not re-pinned. Yondr Sedenak is not added (sold to Vantage; same campus as vantage-jhb1-sedenak). Equinix JH2 (unnamed JS-SEZ) is not added. Equinix JH1 / KL1 and TM IPDC / KVDC are held (hall grain — IBX / combined 20 MW IT). Microsoft Southeast Asia 3, Malaysia West, and AWS ap-southeast-5 are cloud regions, not pins.",
     "Sub-250 disclosed pins are kept. The 250 MW floor is a filter, not a delete.",
     "MW-null / not_disclosed pins stay on the default view. A MW-threshold filter hides them; they cannot pass a numeric floor.",
     "Never imply a pin is live load unless status is operational and the primary said so.",
@@ -35,12 +35,29 @@
     "TM Nxera is 200 MW scalable facility power. Do not use 280 TNB ESA.",
     "Bridge MY07 is 200 MW IT. Do not use a later 400.",
     "PDG JH1 is 200 MW, not 150/52. STACK Iskandar Puteri is 220 MW; do not collapse to 216.",
-    "Sub-250 disclosed Malaysia pins stay: Vantage KUL1 31 MW IT, NEXTDC KL1 65 MW IT."
+    "Sub-250 disclosed Malaysia pins stay: Vantage KUL1 31 MW IT, NEXTDC KL1 65 MW IT.",
+    "Equinix JH1 (Nusajaya) and KL1 (Cyberjaya) are held: hall grain (500 cabinets / 1,800 m² and 900 cabinets / 2,630 m²), same as Equinix DB7x. TM IPDC and KVDC are held: those two only have a combined 20 MW IT."
   ],
   "held": [
     {
       "name": "Homer City Energy Campus",
       "reason": "generation plant"
+    },
+    {
+      "name": "Equinix JH1 (Nusajaya)",
+      "reason": "hall grain — 500 cabinets / 1,800 m² IBX, same grain as Equinix DB7x"
+    },
+    {
+      "name": "Equinix KL1 (Cyberjaya)",
+      "reason": "hall grain — 900 cabinets / 2,630 m² IBX, same grain as Equinix DB7x"
+    },
+    {
+      "name": "TM Iskandar Puteri Data Centre (IPDC)",
+      "reason": "hall grain — combined 20 MW IT with KVDC only, not a named-campus print"
+    },
+    {
+      "name": "TM Klang Valley Data Centre (KVDC)",
+      "reason": "hall grain — combined 20 MW IT with IPDC only, not a named-campus print"
     }
   ],
   "coverage_holes": [
@@ -1258,7 +1275,7 @@
       "status_as_of": "",
       "url": "https://airtrunk.com/airtrunk-scales-up-in-malaysia-with-announcement-of-second-malaysia-hyperscale-data-centre-jhb2/",
       "source": "primary",
-      "notes": "Shares the Iskandar Puteri centroid with JHB3, JHB4, TM Nxera, STACK, and TM IPDC. The globe offsets the stack. Not a street parcel."
+      "notes": "Shares the Iskandar Puteri centroid with JHB3, JHB4, TM Nxera, and STACK. The globe offsets the stack. TM IPDC is held (hall grain). Not a street parcel."
     },
     {
       "id": "airtrunk-jhb3-iskandar-puteri",
@@ -1412,7 +1429,7 @@
       "status_as_of": "",
       "url": "https://tm.com.my/news/nxera_topping_out_ceremony",
       "source": "primary",
-      "notes": "200 MW scalable facility power. Do not use 280 TNB ESA. Shares the Iskandar Puteri centroid; the globe offsets the stack."
+      "notes": "200 MW scalable facility power. Do not use 280 TNB ESA. Shares the Iskandar Puteri centroid with JHB2/JHB3/JHB4 and STACK; the globe offsets the stack. TM IPDC is held (hall grain — combined 20 MW IT with KVDC)."
     },
     {
       "id": "dayone-ntp-nusajaya",
@@ -1434,7 +1451,7 @@
       "status_as_of": "",
       "url": "https://dayonedc.com/market/johor",
       "source": "primary",
-      "notes": "Same Johor page prints 390 MW Total Capacity in Service and over 478 MW of operational capacity across two campuses. MW left null. Shares the Nusajaya Tech Park centroid with Equinix JH1; the globe offsets the pair."
+      "notes": "Same Johor page prints 390 MW Total Capacity in Service and over 478 MW of operational capacity across two campuses. MW left null. Equinix JH1 is held (hall grain). lat/lon is the named Nusajaya Tech Park pin from the hunt, not a street parcel."
     },
     {
       "id": "dayone-ktp-kempas",
@@ -1457,28 +1474,6 @@
       "url": "https://dayonedc.com/market/johor",
       "source": "primary",
       "notes": "Same Johor page prints 390 MW Total Capacity in Service and over 478 MW of operational capacity across two campuses. MW left null. lat/lon is the named Kempas Tech Park pin from the hunt, not a street parcel."
-    },
-    {
-      "id": "equinix-jh1-nusajaya",
-      "name": "JH1",
-      "operator": "Equinix",
-      "place": "Nusajaya Tech Park, Iskandar Puteri, Johor, MYS",
-      "admin1": "Johor",
-      "country_iso3": "MYS",
-      "region": "APAC",
-      "lat": 1.4308493,
-      "lon": 103.5951104,
-      "geo": "named_place",
-      "mw": null,
-      "mw_grain": "not_disclosed",
-      "mw_phrase": "",
-      "mw_as_of": "",
-      "status": "operational",
-      "status_phrase": "",
-      "status_as_of": "",
-      "url": "https://newsroom.equinix.com/2024-05-27-Equinixs-Dual-Metro-Data-Centers-Propel-Malaysias-Digital-Economy-Ambition-to-New-Heights",
-      "source": "primary",
-      "notes": "Equinix JH2 (unnamed JS-SEZ) is not added. Shares the Nusajaya Tech Park centroid with DayOne NTP; the globe offsets the pair."
     },
     {
       "id": "stack-iskandar-puteri",
@@ -1525,28 +1520,6 @@
       "notes": "200 MW IT. Do not use a later 400. lat/lon is the named Ulu Tiram centroid from the hunt, not a street parcel."
     },
     {
-      "id": "tm-ipdc-iskandar-puteri",
-      "name": "Iskandar Puteri Data Centre (IPDC)",
-      "operator": "TM Global",
-      "place": "Iskandar Puteri, Johor, MYS",
-      "admin1": "Johor",
-      "country_iso3": "MYS",
-      "region": "APAC",
-      "lat": 1.4522711,
-      "lon": 103.6144729,
-      "geo": "named_place",
-      "mw": null,
-      "mw_grain": "not_disclosed",
-      "mw_phrase": "",
-      "mw_as_of": "",
-      "status": "announced",
-      "status_phrase": "",
-      "status_as_of": "",
-      "url": "https://tm.com.my/news/tm_global_expands_data_centres_cyberjaya_johor",
-      "source": "primary",
-      "notes": "Shared TM 2024-11-11 primary with KVDC. Shares the Iskandar Puteri centroid; the globe offsets the stack."
-    },
-    {
       "id": "vantage-kul1-cyberjaya",
       "name": "Cyberjaya (KUL1)",
       "operator": "Vantage Data Centers",
@@ -1566,7 +1539,7 @@
       "status_as_of": "",
       "url": "https://vantage-dc.com/data-center-locations/apac/cyberjaya-i-malaysia/",
       "source": "primary",
-      "notes": "Sub-250 disclosed pin; kept. Shares the Cyberjaya centroid with KUL2, Equinix KL1, and TM KVDC; the globe offsets the stack."
+      "notes": "Sub-250 disclosed pin; kept. Shares the Cyberjaya centroid with KUL2; the globe offsets the pair. Equinix KL1 and TM KVDC are held (hall grain)."
     },
     {
       "id": "vantage-kul2-cyberjaya",
@@ -1588,29 +1561,7 @@
       "status_as_of": "2024-08-06",
       "url": "https://vantage-dc.com/news/vantage-data-centers-breaks-ground-on-256mw-cyberjaya-campus/",
       "source": "primary",
-      "notes": "MW left null: this page prints 256 MW IT; another print on the same family is 436 MW IT. Combined with KUL1 the page also says 287 MW. The conflict is left on the pin. Shares the Cyberjaya centroid; the globe offsets the stack."
-    },
-    {
-      "id": "equinix-kl1-cyberjaya",
-      "name": "KL1",
-      "operator": "Equinix",
-      "place": "Cyberjaya, Selangor, MYS",
-      "admin1": "Selangor",
-      "country_iso3": "MYS",
-      "region": "APAC",
-      "lat": 2.9338908,
-      "lon": 101.6455587,
-      "geo": "named_place",
-      "mw": null,
-      "mw_grain": "not_disclosed",
-      "mw_phrase": "",
-      "mw_as_of": "",
-      "status": "operational",
-      "status_phrase": "",
-      "status_as_of": "",
-      "url": "https://newsroom.equinix.com/2024-05-27-Equinixs-Dual-Metro-Data-Centers-Propel-Malaysias-Digital-Economy-Ambition-to-New-Heights",
-      "source": "primary",
-      "notes": "Shared Equinix 2024-05-27 primary with JH1. Shares the Cyberjaya centroid; the globe offsets the stack."
+      "notes": "MW left null: this page prints 256 MW IT; another print on the same family is 436 MW IT. Combined with KUL1 the page also says 287 MW. The conflict is left on the pin. Shares the Cyberjaya centroid with KUL1; the globe offsets the pair."
     },
     {
       "id": "nextdc-kl1-petaling-jaya",
@@ -1633,28 +1584,6 @@
       "url": "https://www.nextdc.com/news/nextdc-goes-live-with-kl1-kuala-lumpur-launching-strategic-ai-ready-data-centre-in-southeast-asia",
       "source": "primary",
       "notes": "Sub-250 disclosed pin; kept. lat/lon is the Nominatim Petaling Jaya named-place centroid, not a street parcel."
-    },
-    {
-      "id": "tm-kvdc-cyberjaya",
-      "name": "Klang Valley Data Centre (KVDC)",
-      "operator": "TM Global",
-      "place": "Cyberjaya, Selangor, MYS",
-      "admin1": "Selangor",
-      "country_iso3": "MYS",
-      "region": "APAC",
-      "lat": 2.9338908,
-      "lon": 101.6455587,
-      "geo": "named_place",
-      "mw": null,
-      "mw_grain": "not_disclosed",
-      "mw_phrase": "",
-      "mw_as_of": "",
-      "status": "announced",
-      "status_phrase": "",
-      "status_as_of": "",
-      "url": "https://tm.com.my/news/tm_global_expands_data_centres_cyberjaya_johor",
-      "source": "primary",
-      "notes": "Shared TM 2024-11-11 primary with IPDC. Shares the Cyberjaya centroid; the globe offsets the stack."
     }
   ]
 }
