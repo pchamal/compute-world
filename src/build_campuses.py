@@ -16,8 +16,8 @@ updated = D["as_of"]
 nice_upd = nice_day(updated)
 nice_short = datetime.strptime(updated, "%Y-%m-%d").strftime("%d %b %Y")
 projects = D["projects"]
-if len(projects) != 42:
-    raise SystemExit(f"expected 42 projects, got {len(projects)}")
+if len(projects) != 50:
+    raise SystemExit(f"expected 50 projects, got {len(projects)}")
 
 GRAIN_LABEL = {
     "it_capacity": "IT capacity",
@@ -31,6 +31,7 @@ STATUS_LABEL = {
     "operational": "operational",
     "paused": "paused",
     "canceled": "canceled",
+    "undisclosed": "undisclosed",
 }
 REGIONS = [
     ("NORAM", "NORAM"),
@@ -352,9 +353,9 @@ letter-spacing:.12em;text-transform:uppercase;color:var(--muted);cursor:pointer}
 var BOOK = {BOOK};
 var PROJECTS = BOOK.projects;
 var GRAIN = {{it_capacity:"IT capacity",facility_power:"facility power",interconnection_request:"interconnection request",not_disclosed:"not disclosed"}};
-var STATUS = {{announced:"announced",in_progress:"in progress",operational:"operational",paused:"paused",canceled:"canceled"}};
-var STCOL = {{announced:"#8a5a2a",in_progress:"#4b5f36",operational:"#3c5568",paused:"#8d8a81",canceled:"#7d2027"}};
-var STCOL_D = {{announced:"#c99a5e",in_progress:"#8fae72",operational:"#7da3bd",paused:"#8d8a81",canceled:"#c2564c"}};
+var STATUS = {{announced:"announced",in_progress:"in progress",operational:"operational",paused:"paused",canceled:"canceled",undisclosed:"undisclosed"}};
+var STCOL = {{announced:"#8a5a2a",in_progress:"#4b5f36",operational:"#3c5568",paused:"#8d8a81",canceled:"#7d2027",undisclosed:"#62605a"}};
+var STCOL_D = {{announced:"#c99a5e",in_progress:"#8fae72",operational:"#7da3bd",paused:"#8d8a81",canceled:"#c2564c",undisclosed:"#a49e8f"}};
 var REGION_VIEW = {{
   NORAM: {{lat:39.8, lng:-98.5, altitude:1.85}},
   LATAM: {{lat:-15.5, lng:-56.0, altitude:2.05}},
