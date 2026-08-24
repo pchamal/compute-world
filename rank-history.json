@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-24",
   "rule": "dated observed rank snapshots only",
   "note": "Append-only. One snapshot per index per calendar date (America/Los_Angeles). Never interpolate. A weekday brief or a silicon.json / data.json publish writes today's row; a second run the same day replaces that date in place rather than duplicating. Inference, Neoclouds, and Hyperscalers are not on this tape until they have a published rank formula.",
   "snapshots": [
@@ -2865,6 +2865,1322 @@
     },
     {
       "date": "2026-08-21",
+      "index": "countries",
+      "source": "data.json",
+      "formula": "CNW sort as published (Unlockable descending; r is the live rank)",
+      "rows": [
+        {
+          "id": "USA",
+          "rank": 1,
+          "r": 1,
+          "t": "Incumbent",
+          "u": 6382,
+          "gdc": 2050.0,
+          "re": 0.83,
+          "rz": 71
+        },
+        {
+          "id": "AUS",
+          "rank": 2,
+          "r": 2,
+          "t": "Primed",
+          "u": 5406,
+          "gdc": 85.0,
+          "re": 0.909,
+          "rz": 17
+        },
+        {
+          "id": "CAN",
+          "rank": 3,
+          "r": 3,
+          "t": "Primed",
+          "u": 4529,
+          "gdc": 70.0,
+          "re": 0.948,
+          "rz": 22
+        },
+        {
+          "id": "BRA",
+          "rank": 4,
+          "r": 4,
+          "t": "Primed",
+          "u": 3794,
+          "gdc": 45.0,
+          "re": 0.745,
+          "rz": 32
+        },
+        {
+          "id": "CHN",
+          "rank": 5,
+          "r": 5,
+          "t": "Primed",
+          "u": 2743,
+          "gdc": 1150.0,
+          "re": 0.652,
+          "rz": 52
+        },
+        {
+          "id": "RUS",
+          "rank": 6,
+          "r": 6,
+          "t": "Sleeping Giant",
+          "u": 2703,
+          "gdc": 30.0,
+          "re": 0.433,
+          "rz": 7
+        },
+        {
+          "id": "ARG",
+          "rank": 7,
+          "r": 7,
+          "t": "Sleeping Giant",
+          "u": 1949,
+          "gdc": 3.5,
+          "re": 0.613,
+          "rz": 11
+        },
+        {
+          "id": "IND",
+          "rank": 8,
+          "r": 8,
+          "t": "Primed",
+          "u": 1743,
+          "gdc": 95.0,
+          "re": 0.659,
+          "rz": 54
+        },
+        {
+          "id": "SAU",
+          "rank": 9,
+          "r": 9,
+          "t": "Primed",
+          "u": 1630,
+          "gdc": 15.0,
+          "re": 0.737,
+          "rz": 28
+        },
+        {
+          "id": "IDN",
+          "rank": 10,
+          "r": 10,
+          "t": "Emerging Upside",
+          "u": 1471,
+          "gdc": 20.0,
+          "re": 0.632,
+          "rz": 31
+        },
+        {
+          "id": "MEX",
+          "rank": 11,
+          "r": 11,
+          "t": "Emerging Upside",
+          "u": 1381,
+          "gdc": 20.0,
+          "re": 0.641,
+          "rz": 22
+        },
+        {
+          "id": "DZA",
+          "rank": 12,
+          "r": 12,
+          "t": "Sleeping Giant",
+          "u": 1114,
+          "gdc": 1.5,
+          "re": 0.503,
+          "rz": 5
+        },
+        {
+          "id": "PER",
+          "rank": 13,
+          "r": 13,
+          "t": "Sleeping Giant",
+          "u": 1093,
+          "gdc": 2.5,
+          "re": 0.536,
+          "rz": 10
+        },
+        {
+          "id": "JPN",
+          "rank": 14,
+          "r": 14,
+          "t": "Incumbent",
+          "u": 1044,
+          "gdc": 100.0,
+          "re": 0.877,
+          "rz": 40
+        },
+        {
+          "id": "KAZ",
+          "rank": 15,
+          "r": 15,
+          "t": "Sleeping Giant",
+          "u": 911,
+          "gdc": 5.0,
+          "re": 0.637,
+          "rz": 23
+        },
+        {
+          "id": "ETH",
+          "rank": 16,
+          "r": 16,
+          "t": "Sleeping Giant",
+          "u": 826,
+          "gdc": 1.0,
+          "re": 0.494,
+          "rz": 28
+        },
+        {
+          "id": "NAM",
+          "rank": 17,
+          "r": 17,
+          "t": "Sleeping Giant",
+          "u": 776,
+          "gdc": 0.5,
+          "re": 0.63,
+          "rz": 5
+        },
+        {
+          "id": "MNG",
+          "rank": 18,
+          "r": 18,
+          "t": "Sleeping Giant",
+          "u": 724,
+          "gdc": 0.5,
+          "re": 0.532,
+          "rz": 5
+        },
+        {
+          "id": "CHL",
+          "rank": 19,
+          "r": 19,
+          "t": "Primed",
+          "u": 711,
+          "gdc": 15.0,
+          "re": 0.77,
+          "rz": 30
+        },
+        {
+          "id": "AGO",
+          "rank": 20,
+          "r": 20,
+          "t": "Sleeping Giant",
+          "u": 704,
+          "gdc": 1.0,
+          "re": 0.464,
+          "rz": 6
+        },
+        {
+          "id": "COD",
+          "rank": 21,
+          "r": 21,
+          "t": "Sleeping Giant",
+          "u": 703,
+          "gdc": 0.2,
+          "re": 0.353,
+          "rz": 5
+        },
+        {
+          "id": "ZAF",
+          "rank": 22,
+          "r": 22,
+          "t": "Sleeping Giant",
+          "u": 695,
+          "gdc": 17.5,
+          "re": 0.637,
+          "rz": 18
+        },
+        {
+          "id": "BOL",
+          "rank": 23,
+          "r": 23,
+          "t": "Sleeping Giant",
+          "u": 636,
+          "gdc": 0.2,
+          "re": 0.472,
+          "rz": 5
+        },
+        {
+          "id": "COL",
+          "rank": 24,
+          "r": 24,
+          "t": "Sleeping Giant",
+          "u": 618,
+          "gdc": 7.5,
+          "re": 0.63,
+          "rz": 14
+        },
+        {
+          "id": "OMN",
+          "rank": 25,
+          "r": 25,
+          "t": "Primed",
+          "u": 608,
+          "gdc": 2.5,
+          "re": 0.731,
+          "rz": 9
+        },
+        {
+          "id": "IRN",
+          "rank": 26,
+          "r": 26,
+          "t": "Sleeping Giant",
+          "u": 588,
+          "gdc": 2.5,
+          "re": 0.327,
+          "rz": 8
+        },
+        {
+          "id": "PAK",
+          "rank": 27,
+          "r": 27,
+          "t": "Sleeping Giant",
+          "u": 587,
+          "gdc": 0.0,
+          "re": 0.417,
+          "rz": 12
+        },
+        {
+          "id": "TUR",
+          "rank": 28,
+          "r": 28,
+          "t": "Emerging Upside",
+          "u": 566,
+          "gdc": 10.0,
+          "re": 0.649,
+          "rz": 21
+        },
+        {
+          "id": "EGY",
+          "rank": 29,
+          "r": 29,
+          "t": "Sleeping Giant",
+          "u": 535,
+          "gdc": 4.0,
+          "re": 0.573,
+          "rz": 11
+        },
+        {
+          "id": "NPL",
+          "rank": 30,
+          "r": 30,
+          "t": "Sleeping Giant",
+          "u": 535,
+          "gdc": 0.5,
+          "re": 0.557,
+          "rz": 20
+        },
+        {
+          "id": "KEN",
+          "rank": 31,
+          "r": 31,
+          "t": "Sleeping Giant",
+          "u": 533,
+          "gdc": 3.0,
+          "re": 0.603,
+          "rz": 11
+        },
+        {
+          "id": "MDG",
+          "rank": 32,
+          "r": 32,
+          "t": "Sleeping Giant",
+          "u": 529,
+          "gdc": 0.2,
+          "re": 0.431,
+          "rz": 5
+        },
+        {
+          "id": "TZA",
+          "rank": 33,
+          "r": 33,
+          "t": "Sleeping Giant",
+          "u": 526,
+          "gdc": 1.0,
+          "re": 0.546,
+          "rz": 11
+        },
+        {
+          "id": "NGA",
+          "rank": 34,
+          "r": 34,
+          "t": "Sleeping Giant",
+          "u": 517,
+          "gdc": 5.0,
+          "re": 0.489,
+          "rz": 11
+        },
+        {
+          "id": "MOZ",
+          "rank": 35,
+          "r": 35,
+          "t": "Sleeping Giant",
+          "u": 507,
+          "gdc": 0.2,
+          "re": 0.433,
+          "rz": 6
+        },
+        {
+          "id": "FRA",
+          "rank": 36,
+          "r": 36,
+          "t": "Incumbent",
+          "u": 414,
+          "gdc": 50.0,
+          "re": 0.832,
+          "rz": 40
+        },
+        {
+          "id": "LBY",
+          "rank": 37,
+          "r": 37,
+          "t": "Sleeping Giant",
+          "u": 413,
+          "gdc": 0.2,
+          "re": 0.237,
+          "rz": 3
+        },
+        {
+          "id": "ARE",
+          "rank": 38,
+          "r": 38,
+          "t": "Incumbent",
+          "u": 406,
+          "gdc": 30.0,
+          "re": 0.833,
+          "rz": 44
+        },
+        {
+          "id": "SDN",
+          "rank": 39,
+          "r": 39,
+          "t": "Sleeping Giant",
+          "u": 369,
+          "gdc": 0.1,
+          "re": 0.229,
+          "rz": 3
+        },
+        {
+          "id": "ESP",
+          "rank": 40,
+          "r": 40,
+          "t": "Incumbent",
+          "u": 363,
+          "gdc": 20.0,
+          "re": 0.804,
+          "rz": 31
+        },
+        {
+          "id": "ECU",
+          "rank": 41,
+          "r": 41,
+          "t": "Sleeping Giant",
+          "u": 363,
+          "gdc": 1.0,
+          "re": 0.45,
+          "rz": 8
+        },
+        {
+          "id": "QAT",
+          "rank": 42,
+          "r": 42,
+          "t": "Primed",
+          "u": 344,
+          "gdc": 4.0,
+          "re": 0.794,
+          "rz": 28
+        },
+        {
+          "id": "SWE",
+          "rank": 43,
+          "r": 43,
+          "t": "Primed",
+          "u": 339,
+          "gdc": 25.0,
+          "re": 0.952,
+          "rz": 35
+        },
+        {
+          "id": "TKM",
+          "rank": 44,
+          "r": 44,
+          "t": "Sleeping Giant",
+          "u": 339,
+          "gdc": 0.1,
+          "re": 0.424,
+          "rz": 5
+        },
+        {
+          "id": "MAR",
+          "rank": 45,
+          "r": 45,
+          "t": "Sleeping Giant",
+          "u": 328,
+          "gdc": 2.0,
+          "re": 0.637,
+          "rz": 11
+        },
+        {
+          "id": "BTN",
+          "rank": 46,
+          "r": 46,
+          "t": "Primed",
+          "u": 326,
+          "gdc": 0.2,
+          "re": 0.657,
+          "rz": 12
+        },
+        {
+          "id": "ISL",
+          "rank": 47,
+          "r": 47,
+          "t": "Primed",
+          "u": 324,
+          "gdc": 5.0,
+          "re": 0.895,
+          "rz": 21
+        },
+        {
+          "id": "NZL",
+          "rank": 48,
+          "r": 48,
+          "t": "Primed",
+          "u": 322,
+          "gdc": 7.5,
+          "re": 0.914,
+          "rz": 24
+        },
+        {
+          "id": "TJK",
+          "rank": 49,
+          "r": 49,
+          "t": "Sleeping Giant",
+          "u": 314,
+          "gdc": 0.2,
+          "re": 0.413,
+          "rz": 7
+        },
+        {
+          "id": "NOR",
+          "rank": 50,
+          "r": 50,
+          "t": "Primed",
+          "u": 297,
+          "gdc": 15.0,
+          "re": 0.946,
+          "rz": 32
+        },
+        {
+          "id": "ZMB",
+          "rank": 51,
+          "r": 51,
+          "t": "Sleeping Giant",
+          "u": 296,
+          "gdc": 0.5,
+          "re": 0.506,
+          "rz": 7
+        },
+        {
+          "id": "MMR",
+          "rank": 52,
+          "r": 52,
+          "t": "Sleeping Giant",
+          "u": 296,
+          "gdc": 0.2,
+          "re": 0.225,
+          "rz": 4
+        },
+        {
+          "id": "KWT",
+          "rank": 53,
+          "r": 53,
+          "t": "Emerging Upside",
+          "u": 285,
+          "gdc": 2.5,
+          "re": 0.649,
+          "rz": 13
+        },
+        {
+          "id": "BWA",
+          "rank": 54,
+          "r": 54,
+          "t": "Primed",
+          "u": 284,
+          "gdc": 0.5,
+          "re": 0.65,
+          "rz": 5
+        },
+        {
+          "id": "PHL",
+          "rank": 55,
+          "r": 55,
+          "t": "Emerging Upside",
+          "u": 281,
+          "gdc": 5.0,
+          "re": 0.565,
+          "rz": 18
+        },
+        {
+          "id": "PNG",
+          "rank": 56,
+          "r": 56,
+          "t": "Sleeping Giant",
+          "u": 281,
+          "gdc": 0.2,
+          "re": 0.37,
+          "rz": 5
+        },
+        {
+          "id": "UZB",
+          "rank": 57,
+          "r": 57,
+          "t": "Sleeping Giant",
+          "u": 261,
+          "gdc": 0.3,
+          "re": 0.559,
+          "rz": 20
+        },
+        {
+          "id": "GUY",
+          "rank": 58,
+          "r": 58,
+          "t": "Sleeping Giant",
+          "u": 261,
+          "gdc": 0.2,
+          "re": 0.446,
+          "rz": 5
+        },
+        {
+          "id": "IRQ",
+          "rank": 59,
+          "r": 59,
+          "t": "Sleeping Giant",
+          "u": 253,
+          "gdc": 1.0,
+          "re": 0.331,
+          "rz": 7
+        },
+        {
+          "id": "VEN",
+          "rank": 60,
+          "r": 60,
+          "t": "Sleeping Giant",
+          "u": 238,
+          "gdc": 1.0,
+          "re": 0.234,
+          "rz": 11
+        },
+        {
+          "id": "AFG",
+          "rank": 61,
+          "r": 61,
+          "t": "Sleeping Giant",
+          "u": 222,
+          "gdc": 0.1,
+          "re": 0.229,
+          "rz": 3
+        },
+        {
+          "id": "URY",
+          "rank": 62,
+          "r": 62,
+          "t": "Primed",
+          "u": 214,
+          "gdc": 2.5,
+          "re": 0.773,
+          "rz": 12
+        },
+        {
+          "id": "KGZ",
+          "rank": 63,
+          "r": 63,
+          "t": "Sleeping Giant",
+          "u": 214,
+          "gdc": 0.2,
+          "re": 0.47,
+          "rz": 12
+        },
+        {
+          "id": "FIN",
+          "rank": 64,
+          "r": 64,
+          "t": "Primed",
+          "u": 206,
+          "gdc": 20.0,
+          "re": 0.956,
+          "rz": 44
+        },
+        {
+          "id": "GBR",
+          "rank": 65,
+          "r": 65,
+          "t": "Incumbent",
+          "u": 200,
+          "gdc": 130.0,
+          "re": 0.934,
+          "rz": 67
+        },
+        {
+          "id": "THA",
+          "rank": 66,
+          "r": 66,
+          "t": "Primed",
+          "u": 199,
+          "gdc": 10.0,
+          "re": 0.687,
+          "rz": 19
+        },
+        {
+          "id": "DEU",
+          "rank": 67,
+          "r": 67,
+          "t": "Incumbent",
+          "u": 197,
+          "gdc": 150.0,
+          "re": 0.899,
+          "rz": 65
+        },
+        {
+          "id": "PRT",
+          "rank": 68,
+          "r": 68,
+          "t": "Primed",
+          "u": 197,
+          "gdc": 5.0,
+          "re": 0.841,
+          "rz": 27
+        },
+        {
+          "id": "ROU",
+          "rank": 69,
+          "r": 69,
+          "t": "Primed",
+          "u": 190,
+          "gdc": 4.0,
+          "re": 0.672,
+          "rz": 17
+        },
+        {
+          "id": "VNM",
+          "rank": 70,
+          "r": 70,
+          "t": "Emerging Upside",
+          "u": 186,
+          "gdc": 7.5,
+          "re": 0.566,
+          "rz": 28
+        },
+        {
+          "id": "GRC",
+          "rank": 71,
+          "r": 71,
+          "t": "Primed",
+          "u": 183,
+          "gdc": 5.0,
+          "re": 0.728,
+          "rz": 16
+        },
+        {
+          "id": "PRY",
+          "rank": 72,
+          "r": 72,
+          "t": "Sleeping Giant",
+          "u": 183,
+          "gdc": 0.5,
+          "re": 0.54,
+          "rz": 20
+        },
+        {
+          "id": "POL",
+          "rank": 73,
+          "r": 73,
+          "t": "Incumbent",
+          "u": 180,
+          "gdc": 10.0,
+          "re": 0.787,
+          "rz": 22
+        },
+        {
+          "id": "LAO",
+          "rank": 74,
+          "r": 74,
+          "t": "Sleeping Giant",
+          "u": 180,
+          "gdc": 0.2,
+          "re": 0.513,
+          "rz": 19
+        },
+        {
+          "id": "ITA",
+          "rank": 75,
+          "r": 75,
+          "t": "Incumbent",
+          "u": 179,
+          "gdc": 20.0,
+          "re": 0.789,
+          "rz": 34
+        },
+        {
+          "id": "IRL",
+          "rank": 76,
+          "r": 76,
+          "t": "Incumbent",
+          "u": 177,
+          "gdc": 65.0,
+          "re": 0.933,
+          "rz": 51
+        },
+        {
+          "id": "CMR",
+          "rank": 77,
+          "r": 77,
+          "t": "Sleeping Giant",
+          "u": 174,
+          "gdc": 0.2,
+          "re": 0.405,
+          "rz": 6
+        },
+        {
+          "id": "DNK",
+          "rank": 78,
+          "r": 78,
+          "t": "Incumbent",
+          "u": 173,
+          "gdc": 20.0,
+          "re": 0.962,
+          "rz": 29
+        },
+        {
+          "id": "KOR",
+          "rank": 79,
+          "r": 79,
+          "t": "Incumbent",
+          "u": 172,
+          "gdc": 40.0,
+          "re": 0.832,
+          "rz": 73
+        },
+        {
+          "id": "NLD",
+          "rank": 80,
+          "r": 80,
+          "t": "Incumbent",
+          "u": 170,
+          "gdc": 55.0,
+          "re": 0.944,
+          "rz": 50
+        },
+        {
+          "id": "TWN",
+          "rank": 81,
+          "r": 81,
+          "t": "Incumbent",
+          "u": 153,
+          "gdc": 22.5,
+          "re": 0.815,
+          "rz": 39
+        },
+        {
+          "id": "CRI",
+          "rank": 82,
+          "r": 82,
+          "t": "Primed",
+          "u": 148,
+          "gdc": 2.5,
+          "re": 0.704,
+          "rz": 15
+        },
+        {
+          "id": "UKR",
+          "rank": 83,
+          "r": 83,
+          "t": "Sleeping Giant",
+          "u": 148,
+          "gdc": 2.5,
+          "re": 0.412,
+          "rz": 10
+        },
+        {
+          "id": "JOR",
+          "rank": 84,
+          "r": 84,
+          "t": "Emerging Upside",
+          "u": 144,
+          "gdc": 1.5,
+          "re": 0.597,
+          "rz": 10
+        },
+        {
+          "id": "ZWE",
+          "rank": 85,
+          "r": 85,
+          "t": "Sleeping Giant",
+          "u": 130,
+          "gdc": 0.5,
+          "re": 0.405,
+          "rz": 6
+        },
+        {
+          "id": "AZE",
+          "rank": 86,
+          "r": 86,
+          "t": "Emerging Upside",
+          "u": 118,
+          "gdc": 0.0,
+          "re": 0.548,
+          "rz": 12
+        },
+        {
+          "id": "LKA",
+          "rank": 87,
+          "r": 87,
+          "t": "Emerging Upside",
+          "u": 108,
+          "gdc": 1.5,
+          "re": 0.505,
+          "rz": 8
+        },
+        {
+          "id": "MYS",
+          "rank": 88,
+          "r": 88,
+          "t": "Primed",
+          "u": 105,
+          "gdc": 75.0,
+          "re": 0.754,
+          "rz": 63
+        },
+        {
+          "id": "KHM",
+          "rank": 89,
+          "r": 89,
+          "t": "Sleeping Giant",
+          "u": 96,
+          "gdc": 1.0,
+          "re": 0.478,
+          "rz": 7
+        },
+        {
+          "id": "GEO",
+          "rank": 90,
+          "r": 90,
+          "t": "Sleeping Giant",
+          "u": 95,
+          "gdc": 1.0,
+          "re": 0.641,
+          "rz": 16
+        },
+        {
+          "id": "GHA",
+          "rank": 91,
+          "r": 91,
+          "t": "Emerging Upside",
+          "u": 81,
+          "gdc": 1.5,
+          "re": 0.6,
+          "rz": 14
+        },
+        {
+          "id": "UGA",
+          "rank": 92,
+          "r": 92,
+          "t": "Emerging Upside",
+          "u": 70,
+          "gdc": 0.5,
+          "re": 0.484,
+          "rz": 10
+        },
+        {
+          "id": "GIN",
+          "rank": 93,
+          "r": 93,
+          "t": "Emerging Upside",
+          "u": 66,
+          "gdc": 0.1,
+          "re": 0.359,
+          "rz": 7
+        },
+        {
+          "id": "GTM",
+          "rank": 94,
+          "r": 94,
+          "t": "Emerging Upside",
+          "u": 60,
+          "gdc": 1.0,
+          "re": 0.525,
+          "rz": 10
+        },
+        {
+          "id": "BGD",
+          "rank": 95,
+          "r": 95,
+          "t": "Long Road",
+          "u": 41,
+          "gdc": 2.0,
+          "re": 0.489,
+          "rz": 8
+        },
+        {
+          "id": "SUR",
+          "rank": 96,
+          "r": 96,
+          "t": "Emerging Upside",
+          "u": 37,
+          "gdc": 0.1,
+          "re": 0.471,
+          "rz": 6
+        },
+        {
+          "id": "BGR",
+          "rank": 97,
+          "r": 97,
+          "t": "Primed",
+          "u": 31,
+          "gdc": 2.5,
+          "re": 0.668,
+          "rz": 27
+        },
+        {
+          "id": "AUT",
+          "rank": 98,
+          "r": 98,
+          "t": "Incumbent",
+          "u": 30,
+          "gdc": 7.5,
+          "re": 0.888,
+          "rz": 33
+        },
+        {
+          "id": "BIH",
+          "rank": 99,
+          "r": 99,
+          "t": "Emerging Upside",
+          "u": 26,
+          "gdc": 0.2,
+          "re": 0.545,
+          "rz": 14
+        },
+        {
+          "id": "CHE",
+          "rank": 100,
+          "r": 100,
+          "t": "Incumbent",
+          "u": 25,
+          "gdc": 15.0,
+          "re": 0.926,
+          "rz": 35
+        },
+        {
+          "id": "SRB",
+          "rank": 101,
+          "r": 101,
+          "t": "Emerging Upside",
+          "u": 25,
+          "gdc": 1.5,
+          "re": 0.595,
+          "rz": 25
+        },
+        {
+          "id": "PAN",
+          "rank": 102,
+          "r": 102,
+          "t": "Emerging Upside",
+          "u": 21,
+          "gdc": 3.0,
+          "re": 0.61,
+          "rz": 24
+        },
+        {
+          "id": "ARM",
+          "rank": 103,
+          "r": 103,
+          "t": "Emerging Upside",
+          "u": 18,
+          "gdc": 1.5,
+          "re": 0.628,
+          "rz": 53
+        },
+        {
+          "id": "ISR",
+          "rank": 104,
+          "r": 104,
+          "t": "Incumbent",
+          "u": 13,
+          "gdc": 15.0,
+          "re": 0.796,
+          "rz": 50
+        },
+        {
+          "id": "ALB",
+          "rank": 105,
+          "r": 105,
+          "t": "Emerging Upside",
+          "u": 13,
+          "gdc": 0.2,
+          "re": 0.559,
+          "rz": 19
+        },
+        {
+          "id": "CZE",
+          "rank": 106,
+          "r": 106,
+          "t": "Incumbent",
+          "u": 10,
+          "gdc": 5.0,
+          "re": 0.843,
+          "rz": 47
+        },
+        {
+          "id": "RWA",
+          "rank": 107,
+          "r": 107,
+          "t": "Emerging Upside",
+          "u": 8,
+          "gdc": 0.5,
+          "re": 0.617,
+          "rz": 15
+        },
+        {
+          "id": "SGP",
+          "rank": 108,
+          "r": 108,
+          "t": "Incumbent",
+          "u": 0,
+          "gdc": 55.0,
+          "re": 0.874,
+          "rz": 15
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "index": "silicon",
+      "source": "silicon.json",
+      "formula": "score = 0.40*liquidity + 0.35*demand + 0.25*frontier",
+      "rows": [
+        {
+          "id": "nvidia-b200-sxm6",
+          "rank": 1,
+          "score": 3.0,
+          "liquidity": 3,
+          "demand": 3,
+          "frontier": 3,
+          "display_usd": 6.69,
+          "venue": "Lambda",
+          "term": "on-demand"
+        },
+        {
+          "id": "nvidia-h100-sxm-80gb",
+          "rank": 2,
+          "score": 2.75,
+          "liquidity": 3,
+          "demand": 3,
+          "frontier": 2,
+          "display_usd": 3.99,
+          "venue": "Lambda",
+          "term": "on-demand"
+        },
+        {
+          "id": "nvidia-h200-sxm-141gb",
+          "rank": 3,
+          "score": 2.75,
+          "liquidity": 3,
+          "demand": 3,
+          "frontier": 2,
+          "display_usd": 6.31,
+          "venue": "CoreWeave",
+          "term": "on-demand"
+        },
+        {
+          "id": "nvidia-gb200-nvl72",
+          "rank": 4,
+          "score": 2.6,
+          "liquidity": 2,
+          "demand": 3,
+          "frontier": 3,
+          "display_usd": 10.5,
+          "venue": "CoreWeave",
+          "term": "on-demand"
+        },
+        {
+          "id": "nvidia-a100-sxm-80gb",
+          "rank": 5,
+          "score": 2.15,
+          "liquidity": 3,
+          "demand": 2,
+          "frontier": 1,
+          "display_usd": 2.79,
+          "venue": "Lambda",
+          "term": "on-demand"
+        },
+        {
+          "id": "nvidia-b300-hgx",
+          "rank": 6,
+          "score": 1.85,
+          "liquidity": 1,
+          "demand": 2,
+          "frontier": 3,
+          "display_usd": 4.48,
+          "venue": "CoreWeave NA",
+          "term": "spot"
+        },
+        {
+          "id": "amd-mi355x",
+          "rank": 7,
+          "score": 1.85,
+          "liquidity": 1,
+          "demand": 2,
+          "frontier": 3,
+          "display_usd": 4.5,
+          "venue": "DigitalOcean",
+          "term": "spot"
+        },
+        {
+          "id": "google-tpu-v7-ironwood",
+          "rank": 8,
+          "score": 1.85,
+          "liquidity": 1,
+          "demand": 2,
+          "frontier": 3,
+          "display_usd": 12.0,
+          "venue": "GCP",
+          "term": "on-demand"
+        },
+        {
+          "id": "amd-mi350x",
+          "rank": 9,
+          "score": 1.6,
+          "liquidity": 1,
+          "demand": 2,
+          "frontier": 2,
+          "display_usd": 4.0,
+          "venue": "DigitalOcean",
+          "term": "spot"
+        },
+        {
+          "id": "huawei-ascend-910c",
+          "rank": 10,
+          "score": 1.6,
+          "liquidity": 1,
+          "demand": 2,
+          "frontier": 2,
+          "display_usd": 1.59,
+          "venue": "SMM Beijing",
+          "term": "1y monthly"
+        },
+        {
+          "id": "cerebras-wse3",
+          "rank": 11,
+          "score": 1.5,
+          "liquidity": 1,
+          "demand": 1,
+          "frontier": 3,
+          "display_usd": null,
+          "venue": "Cerebras",
+          "term": "token / enterprise"
+        },
+        {
+          "id": "nvidia-l40s-48gb",
+          "rank": 12,
+          "score": 1.4,
+          "liquidity": 2,
+          "demand": 1,
+          "frontier": 1,
+          "display_usd": 2.25,
+          "venue": "CoreWeave",
+          "term": "on-demand"
+        },
+        {
+          "id": "amd-mi300x",
+          "rank": 13,
+          "score": 1.4,
+          "liquidity": 2,
+          "demand": 1,
+          "frontier": 1,
+          "display_usd": 2.59,
+          "venue": "DigitalOcean",
+          "term": "on-demand"
+        },
+        {
+          "id": "amd-mi325x",
+          "rank": 14,
+          "score": 1.25,
+          "liquidity": 1,
+          "demand": 1,
+          "frontier": 2,
+          "display_usd": 3.8,
+          "venue": "DigitalOcean",
+          "term": "on-demand"
+        },
+        {
+          "id": "google-tpu-v6e-trillium",
+          "rank": 15,
+          "score": 1.25,
+          "liquidity": 1,
+          "demand": 1,
+          "frontier": 2,
+          "display_usd": 2.7,
+          "venue": "GCP",
+          "term": "on-demand"
+        },
+        {
+          "id": "amazon-trainium2",
+          "rank": 16,
+          "score": 1.25,
+          "liquidity": 1,
+          "demand": 1,
+          "frontier": 2,
+          "display_usd": 2.235,
+          "venue": "AWS",
+          "term": "Capacity Blocks"
+        },
+        {
+          "id": "groq-lpu",
+          "rank": 17,
+          "score": 1.25,
+          "liquidity": 1,
+          "demand": 1,
+          "frontier": 2,
+          "display_usd": null,
+          "venue": "Groq",
+          "term": "token API"
+        },
+        {
+          "id": "nvidia-gh200",
+          "rank": 18,
+          "score": 1.25,
+          "liquidity": 1,
+          "demand": 1,
+          "frontier": 2,
+          "display_usd": 6.5,
+          "venue": "CoreWeave",
+          "term": "on-demand"
+        },
+        {
+          "id": "nvidia-rtx-pro-6000-blackwell",
+          "rank": 19,
+          "score": 1.0,
+          "liquidity": 1,
+          "demand": 1,
+          "frontier": 1,
+          "display_usd": 2.5,
+          "venue": "CoreWeave",
+          "term": "on-demand"
+        },
+        {
+          "id": "google-tpu-v5p",
+          "rank": 20,
+          "score": 1.0,
+          "liquidity": 1,
+          "demand": 1,
+          "frontier": 1,
+          "display_usd": 4.2,
+          "venue": "GCP",
+          "term": "on-demand"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
       "index": "countries",
       "source": "data.json",
       "formula": "CNW sort as published (Unlockable descending; r is the live rank)",
