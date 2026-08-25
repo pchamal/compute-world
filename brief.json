@@ -3,7 +3,7 @@
   "title": "The daily tape · 25 August 2026",
   "description": "Daily tape · 25 Aug 2026. Country signals and sourced silicon prints. Labeled terms only — no invented 7-day moves.",
   "og_kicker": "Country conversion signals and sourced silicon prints.",
-  "lede": "SOAH’s Proposal for Decision in PUCT 59475 Item 6441 (filed 20 Aug 1:52 PM) tells the Commission to deny Oncor/LCRA Import Path 2 — Bell County East–Big Hill and Big Hill–Sand Lake 765-kV. Need not proven; ~1,400 landowners missed the public-meeting process; ERCOT’s Permian Basin Reliability Plan “is not entitled to great weight.” It is a PFD, not a vote. The Silicon Tape did not tick — Lambda H100 $3.99 / B200 $6.69. CoreWeave was confirmed unchanged this morning (L40S spot back on the page at $0.99). NVIDIA FY27 Q2 is tomorrow, 1:20 / 2:00 p.m. PT.",
+  "lede": "SOAH’s Proposal for Decision in PUCT 59475 Item 6441 (filed 20 Aug 1:52 PM) tells the Commission to deny Oncor/LCRA Import Path 2 — Bell County East–Big Hill and Big Hill–Sand Lake 765-kV. Need not proven; ~1,400 landowners missed the public-meeting process; ERCOT’s Permian Basin Reliability Plan “is not entitled to great weight.” It is a PFD, not a vote. The Silicon Tape did not tick — Lambda H100 $3.99 / B200 $6.69. CoreWeave was confirmed unchanged this morning (L40S spot back on the page at $0.99). Friday’s hole is closed — GCP H100 OD $11.06 and B200 1y CUD $11.12 reconfirmed, unchanged. Not a price tick. NVIDIA FY27 Q2 is tomorrow, 1:20 / 2:00 p.m. PT.",
   "countries": [
     {
       "id": "usa-soah-59475",
@@ -300,7 +300,7 @@
     {
       "name": "silicon.json",
       "url": "/silicon.json",
-      "note": "Silicon Tape source of truth. Snapshot 2026-08-25. List prints reconfirmed unchanged. CoreWeave confirmed this morning; L40S spot back on the page at $0.99. No invented 7-day moves."
+      "note": "Silicon Tape source of truth. Snapshot 2026-08-25. List prints reconfirmed unchanged. CoreWeave confirmed this morning; L40S spot back on the page at $0.99. Friday’s hole is closed: GCP H100 OD $11.06 and B200 1y CUD $11.12 reconfirmed, unchanged. Not a price tick. No invented 7-day moves."
     },
     {
       "name": "NVIDIA Groq 3 LPX",
@@ -351,6 +351,11 @@
       "name": "DigitalOcean GPU Droplets",
       "url": "https://www.digitalocean.com/pricing/gpu-droplets",
       "note": "Unchanged vs 21 Aug, including MI300X / MI325X. Fetched 2026-08-25."
+    },
+    {
+      "name": "GCP accelerator-optimized pricing",
+      "url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized",
+      "note": "Fetched 2026-08-25. H100 a3-highgpu-8g OD $88.49/8 = $11.06. B200 a4-highgpu-8g 1y CUD $88.9272/8 = $11.12. A100 a2-ultragpu-1g $5.07. B200 OD still N/A."
     }
   ]
 }

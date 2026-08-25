@@ -4562,6 +4562,18 @@
       "venue": "GCP",
       "config": "list",
       "url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized"
+    },
+    {
+      "id": "nvidia-h200-sxm-141gb|GCP / Azure|on-demand|2026-08-25|10.6",
+      "chip": "nvidia-h200-sxm-141gb",
+      "date": "2026-08-25",
+      "price": 10.6,
+      "currency": "USD",
+      "unit": "gpu-hr",
+      "term": "on-demand",
+      "venue": "GCP / Azure",
+      "config": "list",
+      "url": "https://cloud.google.com/products/compute/pricing/accelerator-optimized"
     }
   ]
 }
