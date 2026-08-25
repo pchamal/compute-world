@@ -1,9 +1,29 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-08-21",
+  "updated": "2026-08-25",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "soah-59475-pfd-import-path-2",
+      "date": "2026-08-20",
+      "title": "SOAH PFD: deny Oncor/LCRA Import Path 2 (Bell County East–Big Hill and Big Hill–Sand Lake 765-kV)",
+      "summary": "On 20 August 2026 at 1:52 PM the State Office of Administrative Hearings filed PUCT Docket 59475 Item 6441, a Proposal for Decision with memorandum, signed by Presiding Administrative Law Judges Linda Brite, Linda J. Burgess, and Dee Marlo Chico (SOAH Docket 473-26-16349). The PFD remands the joint Oncor Electric Delivery / LCRA TSC application for the Bell County East Switch to Big Hill Substation 765-kV line, and the need determination for the companion Big Hill-to-Sand Lake Project (Docket 59182), to the Public Utility Commission of Texas. Proposed ordering paragraph 2 reads: “The Commission does not approve the Applications for the Bell County East-to-Big Hill and Big Hill-to-Sand Lake Projects. The amendment of Applicants’ CCNs is not approved by this Order.” Conclusion of law 13: “ERCOT’s PBRP recommendation is not entitled to great weight in the determination of need for this reliability project.” Conclusion 14: the evidence does not establish the CCN amendments are necessary for the service, accommodation, convenience, or safety of the public under PURA § 37.056, so both Import Path 2 applications should be denied. Conclusion 15: the Application should be denied for failure to comply with the process due to approximately 1,400 landowners under Rule 22.52(a)(4) for public meeting. If a route is later selected, the ALJs recommend Route 894. This is a proposal for decision, not a Commission order. Exceptions, replies, oral argument, and an open-meeting date are still to be set. 20 August Open Meeting minutes remain unposted. Do not treat 59029/59315’s 21 August consolidation-on-need order as a CCN grant or deny.",
+      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6441",
+      "source": "PUCT / SOAH",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall",
+        "Energy"
+      ],
+      "score": 90
+    },
     {
       "id": "puct-59142-item-53",
       "date": "2026-08-20",
