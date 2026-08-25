@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>SOAH PFD: deny Oncor/LCRA Import Path 2 (Bell County East–Big Hill and Big Hill–Sand Lake 765-kV)</title>
+    <link>https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&amp;itemNumber=6441</link>
+    <guid isPermaLink="false">compute.world/wire#soah-59475-pfd-import-path-2</guid>
+    <pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 20 August 2026 at 1:52 PM the State Office of Administrative Hearings filed PUCT Docket 59475 Item 6441, a Proposal for Decision with memorandum, signed by Presiding Administrative Law Judges Linda Brite, Linda J. Burgess, and Dee Marlo Chico (SOAH Docket 473-26-16349). The PFD remands the joint Oncor Electric Delivery / LCRA TSC application for the Bell County East Switch to Big Hill Substation 765-kV line, and the need determination for the companion Big Hill-to-Sand Lake Project (Docket 59182), to the Public Utility Commission of Texas. Proposed ordering paragraph 2 reads: “The Commission does not approve the Applications for the Bell County East-to-Big Hill and Big Hill-to-Sand Lake Projects. The amendment of Applicants’ CCNs is not approved by this Order.” Conclusion of law 13: “ERCOT’s PBRP recommendation is not entitled to great weight in the determination of need for this reliability project.” Conclusion 14: the evidence does not establish the CCN amendments are necessary for the service, accommodation, convenience, or safety of the public under PURA § 37.056, so both Import Path 2 applications should be denied. Conclusion 15: the Application should be denied for failure to comply with the process due to approximately 1,400 landowners under Rule 22.52(a)(4) for public meeting. If a route is later selected, the ALJs recommend Route 894. This is a proposal for decision, not a Commission order. Exceptions, replies, oral argument, and an open-meeting date are still to be set. 20 August Open Meeting minutes remain unposted. Do not treat 59029/59315’s 21 August consolidation-on-need order as a CCN grant or deny. [Signal 90, Confirmed, via PUCT / SOAH] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>PUCT grants ERCOT’s Batch Zero good-cause exceptions; classification paused pending the audit</title>
     <link>https://interchange.puc.texas.gov/Documents/59142_53_1675960.PDF</link>
     <guid isPermaLink="false">compute.world/wire#puct-59142-item-53</guid>
@@ -206,12 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#bytedance-pecem</guid>
     <pubDate>Tue, 20 Jan 2026 12:00:00 GMT</pubDate>
     <description>300 MW first phase toward roughly 1 GW in Ceará, wind-fired and export-oriented. The largest Chinese AI-infrastructure project abroad is rising in Brazil. [Signal 72, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>S&amp;P lifts Paraguay to investment grade, joining Moody&#x27;s</title>
-    <link>https://www.bloomberg.com/news/articles/2025-12-17/s-p-lifts-paraguay-rating-to-investment-grade-joining-moody-s</link>
-    <guid isPermaLink="false">compute.world/wire#paraguay-investment-grade</guid>
-    <pubDate>Wed, 17 Dec 2025 12:00:00 GMT</pubDate>
-    <description>BBB- lands on the country holding the index&#x27;s largest redirectable power surplus relative to size, roughly 40 TWh a year currently exported at commodity prices. Capital access arrives before the compute does. [Signal 84, Confirmed, via Bloomberg] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
