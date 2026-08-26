@@ -76,10 +76,10 @@ edit `params.json`, commit, done.
   ```
 
 - **Subscribe list (email):** the form posts to `/api/subscribe` (`functions/api/subscribe.js`).
-  In Cloudflare Pages → Settings, either set env `SUBSCRIBE_WEBHOOK` to a HubSpot /
-  Buttondown / Zapier URL, or bind a KV namespace as `SUBSCRIBERS`. Until one of those
-  is connected the endpoint still returns 200 with `stored: "pending"` — the public brief
-  and RSS are live; do not promise email. No secrets belong in this repo.
+  Signups persist to a free Cloudflare D1 database (`DB` → `compute-world-subscribers`),
+  with KV (`SUBSCRIBERS`) as fallback. No paid tool. The public brief and RSS remain
+  the delivery — do not promise email. The roster is not on a public URL. No secrets
+  belong in this repo.
 
   The OG image (`make_og.py`) needs Pillow: `pip install pillow`.
 
