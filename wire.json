@@ -1,9 +1,49 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "semianalysis-us-chn-watts-2026-08-25",
+      "date": "2026-08-25",
+      "title": "SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%",
+      "summary": "On 25 August 2026 Dylan Patel of SemiAnalysis, on the Dwarkesh Podcast, restated the country watt split: since 2022 the US share of incremental AI data-center watts rose from about 45–50% to ~70% today, while China fell from about 30–35% to sub-10% of watts being deployed. He puts China's 2028 AI compute stock at 30 GW or less, with 5–10 GW of that year's add from domestic SMIC/CXMT silicon he says is worse than 2028 US chips, and calls +50 GW incremental in 2029 \"completely reasonable.\" World incremental path in the same interview: +30 GW this year, +50 next, ~70 in 2028 (80 as the upper bound). MATCH Act (H.R. 8170) is named as the live export-control lever; as of 26 August it is not law (House Foreign Affairs reported 22 April, no floor vote). These are SemiAnalysis model prints stated on a dated interview, not a campus FID or a government filing.",
+      "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+      "source": "Dwarkesh Podcast / SemiAnalysis",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA",
+        "CHN"
+      ],
+      "flags": "🇺🇸🇨🇳",
+      "tags": [
+        "Build",
+        "Policy"
+      ],
+      "score": 62
+    },
+    {
+      "id": "ny-eo-62-hyperscale-moratorium",
+      "date": "2026-07-14",
+      "title": "Hochul EO 62: New York pauses DEC permits for data centers ≥50 MW until a GEIS lands",
+      "summary": "On 14 July 2026 Governor Kathy Hochul signed Executive Order No. 62, the first statewide data-center permitting pause. The order recites nearly 12 GW of data-center load in the NYISO interconnection queue as of May 2026, more than 8 GW of it added in 2025. Until DPS files a final Generic Environmental Impact Statement and findings under SEQRA, DEC must hold in abeyance discretionary permits for construction or expansion of a \"data center\" that were not already deemed complete — defined as a facility that consumes or can consume 50 MW or more, with manufacturing, research (including Empire AI), education, and medical-care sites carved out. Local-government permits are not paused. DPS must run the GEIS through Case 26-E-0045 (Energize NY / large-load interconnection); ESD has 60 days to post a Community Investment Framework; DEC has twelve months to report on water-withdrawal rules. The press release called this a one-year pause; the order itself lasts until the GEIS lands, with no statutory clock. This is a state conversion gate on NYISO-side load, not a campus FID. Dylan Patel pointed at it on 25 August as the policy drag on US supply; the primary is the EO.",
+      "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+      "source": "State of New York",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall",
+        "Energy"
+      ],
+      "score": 91
+    },
     {
       "id": "soah-59475-pfd-import-path-2",
       "date": "2026-08-20",
