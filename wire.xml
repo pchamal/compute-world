@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%</title>
+    <link>https://www.dwarkesh.com/p/dylan-patel-3</link>
+    <guid isPermaLink="false">compute.world/wire#semianalysis-us-chn-watts-2026-08-25</guid>
+    <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 25 August 2026 Dylan Patel of SemiAnalysis, on the Dwarkesh Podcast, restated the country watt split: since 2022 the US share of incremental AI data-center watts rose from about 45–50% to ~70% today, while China fell from about 30–35% to sub-10% of watts being deployed. He puts China&#x27;s 2028 AI compute stock at 30 GW or less, with 5–10 GW of that year&#x27;s add from domestic SMIC/CXMT silicon he says is worse than 2028 US chips, and calls +50 GW incremental in 2029 &quot;completely reasonable.&quot; World incremental path in the same interview: +30 GW this year, +50 next, ~70 in 2028 (80 as the upper bound). MATCH Act (H.R. 8170) is named as the live export-control lever; as of 26 August it is not law (House Foreign Affairs reported 22 April, no floor vote). These are SemiAnalysis model prints stated on a dated interview, not a campus FID or a government filing. [Signal 62, Single-source, via Dwarkesh Podcast / SemiAnalysis] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>SOAH PFD: deny Oncor/LCRA Import Path 2 (Bell County East–Big Hill and Big Hill–Sand Lake 765-kV)</title>
     <link>https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&amp;itemNumber=6441</link>
     <guid isPermaLink="false">compute.world/wire#soah-59475-pfd-import-path-2</guid>
@@ -145,6 +152,13 @@
     <description>Export earnings rose 68 percent year on year. The same electrons routed through contracted GPU cloud would gross roughly 20 to 40 times more, which is the entire compute-conversion argument in one fiscal year. [Signal 68, Corroborated, via Republica (NEA data)] More: https://compute.world/wire.html</description>
   </item>
   <item>
+    <title>Hochul EO 62: New York pauses DEC permits for data centers ≥50 MW until a GEIS lands</title>
+    <link>https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops</link>
+    <guid isPermaLink="false">compute.world/wire#ny-eo-62-hyperscale-moratorium</guid>
+    <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
+    <description>On 14 July 2026 Governor Kathy Hochul signed Executive Order No. 62, the first statewide data-center permitting pause. The order recites nearly 12 GW of data-center load in the NYISO interconnection queue as of May 2026, more than 8 GW of it added in 2025. Until DPS files a final Generic Environmental Impact Statement and findings under SEQRA, DEC must hold in abeyance discretionary permits for construction or expansion of a &quot;data center&quot; that were not already deemed complete — defined as a facility that consumes or can consume 50 MW or more, with manufacturing, research (including Empire AI), education, and medical-care sites carved out. Local-government permits are not paused. DPS must run the GEIS through Case 26-E-0045 (Energize NY / large-load interconnection); ESD has 60 days to post a Community Investment Framework; DEC has twelve months to report on water-withdrawal rules. The press release called this a one-year pause; the order itself lasts until the GEIS lands, with no statutory clock. This is a state conversion gate on NYISO-side load, not a campus FID. Dylan Patel pointed at it on 25 August as the policy drag on US supply; the primary is the EO. [Signal 91, Confirmed, via State of New York] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>The UAE gets a named lane in US export law, with an April 2027 sting attached</title>
     <link>https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration</link>
     <guid isPermaLink="false">compute.world/wire#uae-rule-a5</guid>
@@ -199,19 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#microsoft-nscale-narvik</guid>
     <pubDate>Wed, 15 Apr 2026 12:00:00 GMT</pubDate>
     <description>Stargate Norway&#x27;s capacity finds a hyperscale offtaker above the Arctic Circle. Cold, cheap, firm power keeps winning the contracts that latency arguments said it could not. [Signal 78, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Brazil approves a 5 GW grid connection for Scala&#x27;s AI City</title>
-    <link>https://datacentremagazine.com/data-centres/scala-data-centers-ai-city-secures-5-gw-approval-in-brazil</link>
-    <guid isPermaLink="false">compute.world/wire#scala-5gw-approval</guid>
-    <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
-    <description>Eldorado do Sul&#x27;s campus gets state sign-off for up to 4.75 GW of planned capacity, roughly $50 billion, with phase one operational. Latin America&#x27;s largest compute project is now also its most grid-real. [Signal 74, Corroborated, via Data Centre Magazine] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>ByteDance begins construction on a ~$39B campus at Pecém with a 20-year wind PPA</title>
-    <link>https://www.datacenterdynamics.com/en/news/casa-dos-ventos-granted-approval-to-construct-tiktok-backed-300mw-data-center-in-brazil-report/</link>
-    <guid isPermaLink="false">compute.world/wire#bytedance-pecem</guid>
-    <pubDate>Tue, 20 Jan 2026 12:00:00 GMT</pubDate>
-    <description>300 MW first phase toward roughly 1 GW in Ceará, wind-fired and export-oriented. The largest Chinese AI-infrastructure project abroad is rising in Brazil. [Signal 72, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>

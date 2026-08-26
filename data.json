@@ -995,9 +995,9 @@
    "pue": "~1.2-1.4",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
-   "rz": 52,
+   "rz": 64,
    "dl": 1,
-   "rw": "Beijing lets limited H200 batches land: ByteDance and Tencent ~10k each; mos…"
+   "rw": "SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%"
   },
   {
    "n": "Japan",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "SOAH PFD: deny Oncor/LCRA Import Path 2 (Bell County East–Big Hill and Big H…"
+   "rw": "SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%"
   },
   {
    "n": "Canada",
