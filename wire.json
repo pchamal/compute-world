@@ -5,6 +5,45 @@
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
     {
+      "id": "ami-hyderabad-rubin-9000",
+      "date": "2026-08-25",
+      "title": "AM Intelligence binds 9,000 NVIDIA Rubin GPUs for a 30 MW Hyderabad AI factory (Q1 2027)",
+      "summary": "On 25 August 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko’s promoters, said it placed a firm and binding order for 9,000 NVIDIA Rubin GPUs to be deployed as Vera Rubin NVL72 rack-scale systems at its first AI factory in Hyderabad, with delivery slated for Q1 2027 and 30 MW of capacity. AMI frames Hyderabad as the first tranche of a planned 1 GW Compute-as-a-Service footprint, with an initial 200 MW to market involving more than $8 billion of capital expenditure, and says it is developing 5 GW of powered AI data centres across India, the United States and Europe. The Hyderabad site is engineered for roughly 450 exaFLOPS of NVFP4 inference. This is India’s second live conversion print this month after L&T × Together Chennai, and the first named Rubin (not Blackwell) factory MW on the tape. Source is the company release as reported by The Hindu / PTI; no AMI IR PDF located at filing time.",
+      "url": "https://www.thehindu.com/business/Industry/ami-orders-9000-nvidia-rubin-gpus-for-hyderabad-facility/article71390110.ece",
+      "source": "AM Intelligence / The Hindu",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 79
+    },
+    {
+      "id": "lancium-nvidia-dsx-15gw-2026-08-24",
+      "date": "2026-08-24",
+      "title": "Lancium × NVIDIA: undisclosed NVIDIA stake on 4 GW leased / >15 GW powered-land pipeline",
+      "summary": "On 24 August 2026 Lancium announced a strategic collaboration with NVIDIA and said NVIDIA made a strategic investment in Lancium (amount not disclosed). Lancium’s release states its AI factory campuses — 4 GW of leased capacity and a development pipeline exceeding 15 GW of powered land — will serve as deployment sites for NVIDIA’s full-stack AI factory platform, using NVIDIA DSX reference designs including DSX MaxLPS (company claim: up to 40% more GPUs in the same power budget) and DSX Flex for grid-responsive power draw. Lancium is a Blackstone portfolio company. NVIDIA has not posted a matching IR note. This is a US Texas powered-land / stack capital signal, not a newly named campus FID. Distinct from the already-wired 17 Aug PORTS-Pike Ohio residual-value package.",
+      "url": "https://lancium.com/2026/08/24/lancium-announces-partnership-with-nvidia-to-advance-gigawatt-scale-ai-factory-development-across-its-15-gw-portfolio/",
+      "source": "Lancium",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Capital",
+        "Energy"
+      ],
+      "score": 64
+    },
+    {
       "id": "semianalysis-us-chn-watts-2026-08-25",
       "date": "2026-08-25",
       "title": "SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%",
