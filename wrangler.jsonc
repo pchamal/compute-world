@@ -1,12 +1,23 @@
 {
-  // Cloudflare Workers static-assets config for compute.world.
+  // Cloudflare Pages config for compute.world.
   // Serves the repo root (index.html + data.json + params.json + og.png ...) as a static site.
-  // Git Pages also deploys /functions (POST /api/subscribe). Optional: Pages env
-  // SUBSCRIBE_WEBHOOK and/or KV binding SUBSCRIBERS — see README. No secrets here.
-  // Deploy command: npx wrangler deploy
+  // Git push to main redeploys Pages + /functions (POST /api/subscribe).
+  // pages_build_output_dir is required for Pages to apply wrangler bindings (V2 build).
+  // No build command. No secrets here.
   "name": "compute-world",
   "compatibility_date": "2026-08-10",
-  "assets": {
-    "directory": "."
-  }
+  "pages_build_output_dir": ".",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "compute-world-subscribers",
+      "database_id": "c6b56cfa-5e4a-4b48-b3b5-d053d1df4ff0"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "SUBSCRIBERS",
+      "id": "0d7d04a6cc324995ad0dc430462b6f91"
+    }
+  ]
 }

@@ -1,8 +1,18 @@
 // Cloudflare Pages Function: POST /api/subscribe
-// No secrets in git. Persist via SUBSCRIBE_WEBHOOK or KV binding SUBSCRIBERS.
-// If neither is configured, return 200 with stored:"pending" — do not promise email.
+// No secrets in git. Persist via D1 (DB), then KV (SUBSCRIBERS), then SUBSCRIBE_WEBHOOK.
+// If none is configured, return 200 with stored:"pending" — do not promise email.
+// No public GET. Roster is not on a public URL.
 
 const ALLOWED = new Set(["countries", "silicon", "inference", "neoclouds", "hyperscalers"]);
+
+const CREATE_SUBSCRIBERS = `CREATE TABLE IF NOT EXISTS subscribers (
+  email TEXT PRIMARY KEY,
+  lists TEXT NOT NULL,
+  ts TEXT NOT NULL
+)`;
+
+const UPSERT_SUBSCRIBER = `INSERT INTO subscribers (email, lists, ts) VALUES (?, ?, ?)
+  ON CONFLICT(email) DO UPDATE SET lists = excluded.lists, ts = excluded.ts`;
 
 function json(body, status) {
   return new Response(JSON.stringify(body), {
@@ -35,6 +45,17 @@ export async function onRequestPost({ request, env }) {
 
   const payload = { email, lists, ts: new Date().toISOString() };
 
+  if (env.DB) {
+    await env.DB.prepare(CREATE_SUBSCRIBERS).run();
+    await env.DB.prepare(UPSERT_SUBSCRIBER).bind(email, JSON.stringify(lists), payload.ts).run();
+    return json({ ok: true, stored: "d1" }, 200);
+  }
+
+  if (env.SUBSCRIBERS) {
+    await env.SUBSCRIBERS.put(email, JSON.stringify({ lists, ts: payload.ts }));
+    return json({ ok: true, stored: "kv" }, 200);
+  }
+
   if (env.SUBSCRIBE_WEBHOOK) {
     const r = await fetch(env.SUBSCRIBE_WEBHOOK, {
       method: "POST",
@@ -43,11 +64,6 @@ export async function onRequestPost({ request, env }) {
     });
     if (!r.ok) return json({ error: "webhook failed" }, 502);
     return json({ ok: true, stored: "webhook" }, 200);
-  }
-
-  if (env.SUBSCRIBERS) {
-    await env.SUBSCRIBERS.put(email, JSON.stringify({ lists, ts: payload.ts }));
-    return json({ ok: true, stored: "kv" }, 200);
   }
 
   console.log("subscribe pending", JSON.stringify(payload));
