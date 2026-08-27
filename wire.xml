@@ -5,11 +5,46 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>NVIDIA Q2: China Hopper DC shipments &lt;1% of Data Center revenue; Q3 outlook assumes zero China DC compute</title>
+    <link>https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027</link>
+    <guid isPermaLink="false">compute.world/wire#nvidia-fy27q2-china-dc-zero</guid>
+    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 26 August 2026 NVIDIA reported Q2 FY27 results for the quarter ended 26 July 2026: revenue $96.2 billion and Data Center $89.0 billion. CFO commentary (SEC EX-99.2) states shipments of Data Center Hopper products to China were less than 1% of Data Center revenue in the quarter. The Newsroom outlook for Q3 FY27 revenue of $108.0 billion plus or minus 2% states NVIDIA is not assuming any Data Center compute revenue from China. This is a realized China mix print plus a repeated zero-China DC compute outlook, distinct from the already-wired 19 Aug limited H200 landings note. [Signal 91, Confirmed, via NVIDIA Newsroom / SEC EX-99.2] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Georgia Power–OpenAI Effingham contract approved at 3,200 MW</title>
+    <link>https://southerncompany.mediaroom.com/2026-08-26-Georgia-Powers-contract-with-OpenAI-approved-Latest-approval-part-of-portfolio-of-large-load-contracts-delivering-approximately-950-million-in-annual-savings-beginning-in-2029</link>
+    <guid isPermaLink="false">compute.world/wire#georgia-power-openai-effingham-3200mw</guid>
+    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 26 August 2026 Georgia Power said its contract to serve OpenAI’s Effingham County project was approved as part of the Georgia Public Service Commission regulatory process. The company says the contract, filed with the PSC in July, includes 3,200 MW of new demand, OpenAI pays the full cost of infrastructure needed to serve it, and OpenAI has committed up to 1,000 MW of flexible demand response. This is a US named-MW utility-path conversion, not a campus FID on NVIDIA silicon. [Signal 90, Confirmed, via Georgia Power / Southern Company] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>George Town Council approves Firmus 288 MW AI data centre at Bell Bay, Tasmania</title>
+    <link>https://www.abc.net.au/news/2026-08-25/firmus-ai-bell-bay-receives-george-town-council-approval/107074336</link>
+    <guid isPermaLink="false">compute.world/wire#firmus-bell-bay-288mw-2026-08-25</guid>
+    <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 25 August 2026 Tasmania’s George Town Council voted 6–1 to approve Firmus Technologies’ 288 MW AI data centre at the former Gunns pulp mill site in Long Reach (Bell Bay Advanced Manufacturing Zone). ABC reports planning conditions (noise and air surveys, a new bushfire and emergency plan) after the diesel-generator count was corrected to 276, and a 14-day appeal window to the Tasmanian Civil and Administrative Tribunal. This is Australia’s named-MW local planning conversion this week. [Signal 80, Confirmed, via ABC News (Australia)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>AM Intelligence binds 9,000 NVIDIA Rubin GPUs for a 30 MW Hyderabad AI factory (Q1 2027)</title>
+    <link>https://www.thehindu.com/business/Industry/ami-orders-9000-nvidia-rubin-gpus-for-hyderabad-facility/article71390110.ece</link>
+    <guid isPermaLink="false">compute.world/wire#ami-hyderabad-rubin-9000</guid>
+    <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 25 August 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko’s promoters, said it placed a firm and binding order for 9,000 NVIDIA Rubin GPUs to be deployed as Vera Rubin NVL72 rack-scale systems at its first AI factory in Hyderabad, with delivery slated for Q1 2027 and 30 MW of capacity. AMI frames Hyderabad as the first tranche of a planned 1 GW Compute-as-a-Service footprint, with an initial 200 MW to market involving more than $8 billion of capital expenditure, and says it is developing 5 GW of powered AI data centres across India, the United States and Europe. The Hyderabad site is engineered for roughly 450 exaFLOPS of NVFP4 inference. This is India’s second live conversion print this month after L&amp;T × Together Chennai, and the first named Rubin (not Blackwell) factory MW on the tape. Source is the company release as reported by The Hindu / PTI; no AMI IR PDF located at filing time. [Signal 79, Confirmed, via AM Intelligence / The Hindu] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%</title>
     <link>https://www.dwarkesh.com/p/dylan-patel-3</link>
     <guid isPermaLink="false">compute.world/wire#semianalysis-us-chn-watts-2026-08-25</guid>
     <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 25 August 2026 Dylan Patel of SemiAnalysis, on the Dwarkesh Podcast, restated the country watt split: since 2022 the US share of incremental AI data-center watts rose from about 45–50% to ~70% today, while China fell from about 30–35% to sub-10% of watts being deployed. He puts China&#x27;s 2028 AI compute stock at 30 GW or less, with 5–10 GW of that year&#x27;s add from domestic SMIC/CXMT silicon he says is worse than 2028 US chips, and calls +50 GW incremental in 2029 &quot;completely reasonable.&quot; World incremental path in the same interview: +30 GW this year, +50 next, ~70 in 2028 (80 as the upper bound). MATCH Act (H.R. 8170) is named as the live export-control lever; as of 26 August it is not law (House Foreign Affairs reported 22 April, no floor vote). These are SemiAnalysis model prints stated on a dated interview, not a campus FID or a government filing. [Signal 62, Single-source, via Dwarkesh Podcast / SemiAnalysis] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Lancium × NVIDIA: undisclosed NVIDIA stake on 4 GW leased / &gt;15 GW powered-land pipeline</title>
+    <link>https://lancium.com/2026/08/24/lancium-announces-partnership-with-nvidia-to-advance-gigawatt-scale-ai-factory-development-across-its-15-gw-portfolio/</link>
+    <guid isPermaLink="false">compute.world/wire#lancium-nvidia-dsx-15gw-2026-08-24</guid>
+    <pubDate>Mon, 24 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 24 August 2026 Lancium announced a strategic collaboration with NVIDIA and said NVIDIA made a strategic investment in Lancium (amount not disclosed). Lancium’s release states its AI factory campuses — 4 GW of leased capacity and a development pipeline exceeding 15 GW of powered land — will serve as deployment sites for NVIDIA’s full-stack AI factory platform, using NVIDIA DSX reference designs including DSX MaxLPS (company claim: up to 40% more GPUs in the same power budget) and DSX Flex for grid-responsive power draw. Lancium is a Blackstone portfolio company. NVIDIA has not posted a matching IR note. This is a US Texas powered-land / stack capital signal, not a newly named campus FID. Distinct from the already-wired 17 Aug PORTS-Pike Ohio residual-value package. [Signal 64, Single-source, via Lancium] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>SOAH PFD: deny Oncor/LCRA Import Path 2 (Bell County East–Big Hill and Big Hill–Sand Lake 765-kV)</title>
@@ -178,40 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#reliance-meta-jamnagar</guid>
     <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
     <description>Part of Reliance&#x27;s stated $110 billion AI plan, with 120+ MW already live in H2 2026. The largest private-sector compute bet in the Global South acquires an anchor tenant. [Signal 80, Corroborated, via TechCrunch] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Huang at GTC Taipei: AI factories at $50-60B per GW now, $80-100B per GW soon</title>
-    <link>https://siliconangle.com/2026/06/01/five-thoughts-nvidia-ceo-jensen-huangs-gtc-taipei-2026-keynote/</link>
-    <guid isPermaLink="false">compute.world/wire#huang-taipei-pricing</guid>
-    <pubDate>Mon, 01 Jun 2026 12:00:00 GMT</pubDate>
-    <description>The clearest 2026 restatement of the price of compute capacity, and the basis for this index&#x27;s ceiling band. Every token is revenue, per Huang; every watt is now priced accordingly. [Signal 76, Corroborated, via SiliconANGLE] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>GAO rules the US chip-export non-enforcement posture procedurally defective</title>
-    <link>https://www.gao.gov/products/b-337935</link>
-    <guid isPermaLink="false">compute.world/wire#gao-export-ruling</guid>
-    <pubDate>Tue, 12 May 2026 12:00:00 GMT</pubDate>
-    <description>Decision B-337935 holds that the May 2025 non-enforcement announcement was itself a rule that was never submitted to Congress. The legal floor under most emerging markets&#x27; GPU access is officially contested. [Signal 93, Confirmed, via US GAO (primary)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Microsoft and G42&#x27;s Kenya campus stalls for lack of power</title>
-    <link>https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/</link>
-    <guid isPermaLink="false">compute.world/wire#kenya-stall</guid>
-    <pubDate>Thu, 07 May 2026 12:00:00 GMT</pubDate>
-    <description>Chips were available; electricity was not. The clearest single data point that energy, not silicon, is the binding constraint on the global buildout. [Signal 75, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Stargate UK pauses over energy costs</title>
-    <link>https://datacentremagazine.com/news/stargate-uk-why-is-openai-halting-ai-data-centre-project</link>
-    <guid isPermaLink="false">compute.world/wire#stargate-uk-pause</guid>
-    <pubDate>Mon, 20 Apr 2026 12:00:00 GMT</pubDate>
-    <description>The flagship western sovereign deal, 31,000 GPUs planned, halts on power prices while the North East AI Growth Zone still advertises 1.1 GW. Readiness without affordable electrons has a ceiling of its own. [Signal 70, Corroborated, via Data Centre Magazine] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Microsoft contracts 30,000 Rubin GPUs at Nscale&#x27;s hydro-powered Narvik site</title>
-    <link>https://www.datacenterdynamics.com/en/news/microsoft-contracts-30000-nvidia-rubin-gpus-from-nscale-at-data-center-in-narvik-norway/</link>
-    <guid isPermaLink="false">compute.world/wire#microsoft-nscale-narvik</guid>
-    <pubDate>Wed, 15 Apr 2026 12:00:00 GMT</pubDate>
-    <description>Stargate Norway&#x27;s capacity finds a hyperscale offtaker above the Arctic Circle. Cold, cheap, firm power keeps winning the contracts that latency arguments said it could not. [Signal 78, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>

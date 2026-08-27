@@ -345,9 +345,9 @@
    "pue": "~1.35-1.6",
    "note": "CEA assessed 145.3 GW (>25MW); Feb 2026 US trade framework incl. GPUs",
    "rf": 0.72,
-   "rz": 54,
+   "rz": 59,
    "dl": 1,
-   "rw": "L&T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k…"
+   "rw": "AM Intelligence binds 9,000 NVIDIA Rubin GPUs for a 30 MW Hyderabad AI facto…"
   },
   {
    "n": "Pakistan",
@@ -995,9 +995,9 @@
    "pue": "~1.2-1.4",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
-   "rz": 64,
+   "rz": 55,
    "dl": 1,
-   "rw": "SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%"
+   "rw": "NVIDIA Q2: China Hopper DC shipments <1% of Data Center revenue; Q3 outlook …"
   },
   {
    "n": "Japan",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%"
+   "rw": "Georgia Power–OpenAI Effingham contract approved at 3,200 MW"
   },
   {
    "n": "Canada",
@@ -5545,9 +5545,9 @@
    "pue": "~1.2-1.4",
    "note": "NextDC S7 612MW w/ Stargate; Snowy 2.0; uranium #4",
    "rf": 1.0,
-   "rz": 17,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 32,
+   "dl": 1,
+   "rw": "George Town Council approves Firmus 288 MW AI data centre at Bell Bay, Tasma…"
   },
   {
    "n": "New Zealand",
