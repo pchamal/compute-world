@@ -287,6 +287,7 @@ h2{font-weight:400;font-size:13.5px;letter-spacing:.22em;text-transform:uppercas
 .dlrow{display:flex;align-items:baseline;font-size:15.5px;padding:5px 0}
 .dlrow .dots{flex:1 1 auto;border-bottom:1px dotted var(--rule);margin:0 8px;transform:translateY(-4px)}
 .dlrow .val{font-variant-numeric:lining-nums tabular-nums}
+#panel-countries > #index{padding-top:8px}
 .controls{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:baseline;margin:20px 0 4px;font-size:14.5px}
 .controls .lab{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
 .tierf,.viewf{color:var(--ink);border-bottom:1px solid transparent;cursor:pointer}
@@ -346,7 +347,8 @@ details.gloss p b{color:var(--ink)}
 .faq h3{font-weight:600;font-size:17px;margin:20px 0 6px}
 .faq p{font-size:15.5px;color:var(--muted);margin:0 0 4px}
 .faq p b{color:var(--ink)}
-#globewrap{display:none;margin-top:14px;border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule);position:relative}
+#globewrap{display:block;margin-top:14px;border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule);position:relative}
+#tablewrap{display:none}
 #globe{height:640px}
 #globemsg{position:absolute;top:12px;left:14px;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
 .gleg{display:flex;gap:18px;flex-wrap:wrap;padding:10px 4px 12px;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
@@ -551,68 +553,14 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
       <button type="button" role="tab" id="tab-neoclouds" aria-controls="panel-neoclouds" aria-selected="false" tabindex="-1">Neoclouds</button>
       <button type="button" role="tab" id="tab-hyperscalers" aria-controls="panel-hyperscalers" aria-selected="false" tabindex="-1">Hyperscalers</button>
     </div>
-    <section class="daily" id="subscribe" aria-label="Subscribe to the daily tape">
-  <div>
-    <div class="kicker">Weekday briefing</div>
-    <h2>The daily tape</h2>
-    <p class="lede-s">Country conversion signals and sourced silicon prints. Labeled terms only — no invented deltas. Read it on the <a href="/brief">public brief</a>, or take the RSS. Companies and researchers write via <a href="/contact.html">The Desk</a>.</p>
-  </div>
-  <div>
-    <form id="subform" action="/api/subscribe" method="post" novalidate>
-      <input type="email" name="email" id="subemail" required autocomplete="email" placeholder="you@domain" aria-label="Email">
-      <button type="submit">Subscribe</button>
-      <div class="lists">
-        <label><input type="checkbox" name="lists" value="countries" checked> Countries</label>
-        <label><input type="checkbox" name="lists" value="silicon" checked> Silicon</label>
-        <label><input type="checkbox" name="lists" value="inference"> Inference</label>
-        <label><input type="checkbox" name="lists" value="neoclouds"> Neoclouds</label>
-        <label><input type="checkbox" name="lists" value="hyperscalers"> Hyperscalers</label>
-      </div>
-    </form>
-    <p class="feeds">RSS: <a href="/brief.xml">/brief.xml</a> · <a href="/silicon.xml">/silicon.xml</a> · <a href="/inference.xml">/inference.xml</a> · <a href="/neoclouds.xml">/neoclouds.xml</a> · <a href="/hyperscalers.xml">/hyperscalers.xml</a> · <a href="/wire.xml">/wire.xml</a></p>
-    <p class="submsg" id="submsg" role="status" aria-live="polite"></p>
-  </div>
-</section>
 
     <div id="panel-countries" role="tabpanel" aria-labelledby="tab-countries" hidden>
 
-  <div class="board rv" id="board">
-    <div class="bt"><h2>The Realized Board</h2><span class="bsub">Who is converting Compute Net Worth into compute · recomputes with every Wire update · CNW Realized = 35% conversion + 25% pipeline + 25% signal velocity + 15% execution</span></div>
-    <div class="bcols">
-      <div><div class="bhead">Moving ahead</div><div class="mrow2"><span class="mr">1</span><span class="mn"><a class="cardlink" data-sl="south-korea">🇰🇷 South Korea</a></span><span class="ms up">73 ▲</span><span class="mwhy">SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031</span></div><div class="mrow2"><span class="mr">2</span><span class="mn"><a class="cardlink" data-sl="united-states">🇺🇸 United States</a></span><span class="ms up">71 ▲</span><span class="mwhy">SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%</span></div><div class="mrow2"><span class="mr">3</span><span class="mn"><a class="cardlink" data-sl="united-kingdom">🇬🇧 United Kingdom</a></span><span class="ms up">67 ▲</span><span class="mwhy">Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estoni…</span></div><div class="mrow2"><span class="mr">4</span><span class="mn"><a class="cardlink" data-sl="germany">🇩🇪 Germany</a></span><span class="ms flat">65 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">5</span><span class="mn"><a class="cardlink" data-sl="china">🇨🇳 China</a></span><span class="ms up">64 ▲</span><span class="mwhy">SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%</span></div><div class="mrow2"><span class="mr">6</span><span class="mn"><a class="cardlink" data-sl="malaysia">🇲🇾 Malaysia</a></span><span class="ms flat">63 ·</span><span class="mwhy">Live buildout underway</span></div><div class="mrow2"><span class="mr">7</span><span class="mn"><a class="cardlink" data-sl="india">🇮🇳 India</a></span><span class="ms up">54 ▲</span><span class="mwhy">L&amp;T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k…</span></div><div class="mrow2"><span class="mr">8</span><span class="mn"><a class="cardlink" data-sl="armenia">🇦🇲 Armenia</a></span><span class="ms up">53 ▲</span><span class="mwhy">Firebird's Armenia AI factory goes live: frontier-market sovereign compute h…</span></div><div class="mrow2"><span class="mr">9</span><span class="mn"><a class="cardlink" data-sl="ireland">🇮🇪 Ireland</a></span><span class="ms flat">51 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">10</span><span class="mn"><a class="cardlink" data-sl="netherlands">🇳🇱 Netherlands</a></span><span class="ms flat">50 ·</span><span class="mwhy">No live signals yet</span></div></div>
-      <div><div class="bhead">Falling behind &amp; asleep</div><div class="mrow2"><span class="mr">1</span><span class="mn"><a class="cardlink" data-sl="argentina">🇦🇷 Argentina</a></span><span class="ms dn">11 ▼</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">2</span><span class="mn"><a class="cardlink" data-sl="kenya">🇰🇪 Kenya</a></span><span class="ms dn">11 ▼</span><span class="mwhy">Microsoft and G42's Kenya campus stalls for lack of power</span></div><div class="mrow2"><span class="mr">3</span><span class="mn"><a class="cardlink" data-sl="russia">🇷🇺 Russia</a></span><span class="ms flat">7 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">4</span><span class="mn"><a class="cardlink" data-sl="dr-congo">🇨🇩 DR Congo</a></span><span class="ms flat">5 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">5</span><span class="mn"><a class="cardlink" data-sl="peru">🇵🇪 Peru</a></span><span class="ms flat">10 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">6</span><span class="mn"><a class="cardlink" data-sl="algeria">🇩🇿 Algeria</a></span><span class="ms flat">5 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">7</span><span class="mn"><a class="cardlink" data-sl="myanmar">🇲🇲 Myanmar</a></span><span class="ms flat">4 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">8</span><span class="mn"><a class="cardlink" data-sl="iran">🇮🇷 Iran</a></span><span class="ms flat">8 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">9</span><span class="mn"><a class="cardlink" data-sl="sudan">🇸🇩 Sudan</a></span><span class="ms flat">3 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">10</span><span class="mn"><a class="cardlink" data-sl="libya">🇱🇾 Libya</a></span><span class="ms flat">3 ·</span><span class="mwhy">No live signals yet</span></div></div>
-    </div>
-  </div>
-
-  <div class="figures rv">
-    <div class="fig"><div class="v" id="fig1">$662<small>T</small></div><div class="l" id="fig1l">Global CNW ceiling at $80B per GW</div></div>
-    <div class="fig"><div class="v" id="fig2">$64<small>T</small></div><div class="l">Unlockable at today's readiness</div></div>
-    <div class="fig"><div class="v" id="fig3">$4.7<small>T</small></div><div class="l">Gross Domestic Compute&#8482; live today: 0.7% of the ceiling tapped</div></div>
-    <div class="fig"><div class="v">44</div><div class="l">Sleeping giants: $302T of ceiling on $9T of GDP</div></div>
-    <div class="fig"><div class="v">836<small>&times;</small></div><div class="l">Bhutan's ceiling as a multiple of its economy</div></div>
-  </div>
-
-  <div class="section rv">
-    <div class="shead"><span class="no">I.</span><h2>Three numbers, read together</h2></div>
-    <div class="prose"><p>The index prices each country three ways. The honesty lives in reading them together.</p></div>
-    <div class="formulae">
-      <div class="frow"><span class="fl">CNW Ceiling</span><span class="fx"><b>Resource Ceiling (GW) &times; <span class="pxlohi">$60-80B</span> per GW.</b> The endowment lens. That figure is a ceiling, and we will be the first to say so.</span></div>
-      <div class="frow"><span class="fl">CNW Unlockable</span><span class="fx"><b>Firm untapped GW &times; <span class="pxc">$50B</span> &times; Readiness.</b> The bankable slice of the ceiling: the AI-factory fleet this country could credibly host on power it has not yet used, valued at build cost, discounted by everything that makes underwriters hesitate.</span></div>
-      <div class="frow"><span class="fl">Gross Domestic Compute</span><span class="fx"><b>Live datacenter GW &times; <span class="pxc">$50B</span>.</b> What actually hums today. GDC&#8482; is to compute what GDP is to output.</span></div>
-      <div class="frow"><span class="fl">Readiness</span><span class="fx">18% governance + 13% stability + 14% GPU access + 11% grid + 11% fiber + 8% momentum + 14% physical + 11% capital access.</span></div>
-    </div>
-    <div class="prose">
-      <p><span class="runin">Readiness is a discount rate on the future. Built and GDC are facts about the present.</span> Readiness measures how underwritable an endowment is today: governance, stability, chip access under the August 2026 US export regime,<sup><a href="#n3">3</a></sup> grid, fiber, momentum, physical conditions, and capital access. Built counts the share of the resource ceiling already standing as generating capacity. GDC counts the compute itself. Nepal scores 56 percent on Readiness, has Built 3.9 percent of its ceiling, and runs roughly 10 megawatts of live datacenter capacity, a GDC of about $0.5 billion against a $7 trillion ceiling. Three different questions. The first prices the option. The other two count what stands.</p>
-      <p><span class="runin">The spread between the numbers is the country's reform agenda, priced.</span> Nepal's ceiling is $5.3 to $7.1 trillion on a $45 billion economy. Its unlockable value today is roughly $535 billion, about $17,800 for every Nepali. The six trillion in between is a to-do list with line items: grid, governance, chip-access agreements, fiber, capital markets, execution. And the world as a whole is further behind than any single country: global GDC is roughly $4.7 trillion against a $662 trillion ceiling. The planet has tapped 0.7 percent of its compute net worth.</p>
-    </div>
-  </div>
-
-  <div class="section" id="index">
-    <div class="shead"><span class="no">II.</span><h2>The index</h2></div>
+  <div id="index">
     <div class="controls">
       <span class="lab">View</span>
-      <span class="viewf on" id="vtab">Table</span>
-      <span class="viewf" id="vglobe">Globe</span>
+      <span class="viewf" id="vtab">Table</span>
+      <span class="viewf on" id="vglobe">Globe</span>
       <span class="lab" style="margin-left:14px">Showing</span>
       <span class="tierf on" data-t="">All 108</span>
       <span class="tierf" data-t="Sleeping Giant">Sleeping Giants</span>
@@ -620,6 +568,10 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
       <span class="tierf" data-t="Incumbent">Incumbents</span>
       <span class="tierf" data-t="Emerging Upside">Emerging Upside</span>
       <input id="q" placeholder="search country or region">
+    </div>
+    <div id="globewrap">
+      <div id="globe"></div><div id="globemsg"></div>
+      <div class="gleg"><span><i style="background:#8a5a2a"></i>Sleeping Giant</span><span><i style="background:#4b5f36"></i>Primed</span><span><i style="background:#3c5568"></i>Incumbent</span><span><i style="background:#77662c"></i>Emerging Upside</span><span style="color:var(--faint)">Dot size = CNW ceiling. Pulsing rings = live Wire signals; claret pulses are stalls. Drag to spin, hover for the numbers, click a dot for the country's card.</span></div>
     </div>
     <div class="tblwrap" id="tablewrap">
     <table class="ix">
@@ -653,11 +605,43 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
       </tr>
     </thead><tbody id="tb"></tbody></table>
     </div>
-    <div id="globewrap">
-      <div id="globe"></div><div id="globemsg"></div>
-      <div class="gleg"><span><i style="background:#8a5a2a"></i>Sleeping Giant</span><span><i style="background:#4b5f36"></i>Primed</span><span><i style="background:#3c5568"></i>Incumbent</span><span><i style="background:#77662c"></i>Emerging Upside</span><span style="color:var(--faint)">Dot size = CNW ceiling. Pulsing rings = live Wire signals; claret pulses are stalls. Drag to spin, hover for the numbers, click a dot for the country's card.</span></div>
-    </div>
     <p class="tabnote">Click any column head to sort; click again to reverse. Open any row for detail, or click the country's name for a shareable card. <b>Readiness &ne; Built</b>: one is a discount, the other a count of what stands. <span class="est">Grey</span> marks estimate fills where no official series exists.<sup><a href="#n7">7</a></sup> Tiers: <span class="tier t-sg">Sleeping Giant</span> ceiling &ge; 10&times; GDP, readiness &lt; 65% &middot; <span class="tier t-pr">Primed</span> &middot; <span class="tier t-in">Incumbent</span> &middot; <span class="tier t-eu">Emerging Upside</span>.</p>
+  </div>
+
+
+  <div class="board rv" id="board">
+    <div class="bt"><h2>The Realized Board</h2><span class="bsub">Who is converting Compute Net Worth into compute · recomputes with every Wire update · CNW Realized = 35% conversion + 25% pipeline + 25% signal velocity + 15% execution</span></div>
+    <div class="bcols">
+      <div><div class="bhead">Moving ahead</div><div class="mrow2"><span class="mr">1</span><span class="mn"><a class="cardlink" data-sl="south-korea">🇰🇷 South Korea</a></span><span class="ms up">73 ▲</span><span class="mwhy">SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031</span></div><div class="mrow2"><span class="mr">2</span><span class="mn"><a class="cardlink" data-sl="united-states">🇺🇸 United States</a></span><span class="ms up">71 ▲</span><span class="mwhy">SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%</span></div><div class="mrow2"><span class="mr">3</span><span class="mn"><a class="cardlink" data-sl="united-kingdom">🇬🇧 United Kingdom</a></span><span class="ms up">67 ▲</span><span class="mwhy">Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estoni…</span></div><div class="mrow2"><span class="mr">4</span><span class="mn"><a class="cardlink" data-sl="germany">🇩🇪 Germany</a></span><span class="ms flat">65 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">5</span><span class="mn"><a class="cardlink" data-sl="china">🇨🇳 China</a></span><span class="ms up">64 ▲</span><span class="mwhy">SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%</span></div><div class="mrow2"><span class="mr">6</span><span class="mn"><a class="cardlink" data-sl="malaysia">🇲🇾 Malaysia</a></span><span class="ms flat">63 ·</span><span class="mwhy">Live buildout underway</span></div><div class="mrow2"><span class="mr">7</span><span class="mn"><a class="cardlink" data-sl="india">🇮🇳 India</a></span><span class="ms up">54 ▲</span><span class="mwhy">L&amp;T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k…</span></div><div class="mrow2"><span class="mr">8</span><span class="mn"><a class="cardlink" data-sl="armenia">🇦🇲 Armenia</a></span><span class="ms up">53 ▲</span><span class="mwhy">Firebird's Armenia AI factory goes live: frontier-market sovereign compute h…</span></div><div class="mrow2"><span class="mr">9</span><span class="mn"><a class="cardlink" data-sl="ireland">🇮🇪 Ireland</a></span><span class="ms flat">51 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">10</span><span class="mn"><a class="cardlink" data-sl="netherlands">🇳🇱 Netherlands</a></span><span class="ms flat">50 ·</span><span class="mwhy">No live signals yet</span></div></div>
+      <div><div class="bhead">Falling behind &amp; asleep</div><div class="mrow2"><span class="mr">1</span><span class="mn"><a class="cardlink" data-sl="argentina">🇦🇷 Argentina</a></span><span class="ms dn">11 ▼</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">2</span><span class="mn"><a class="cardlink" data-sl="kenya">🇰🇪 Kenya</a></span><span class="ms dn">11 ▼</span><span class="mwhy">Microsoft and G42's Kenya campus stalls for lack of power</span></div><div class="mrow2"><span class="mr">3</span><span class="mn"><a class="cardlink" data-sl="russia">🇷🇺 Russia</a></span><span class="ms flat">7 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">4</span><span class="mn"><a class="cardlink" data-sl="dr-congo">🇨🇩 DR Congo</a></span><span class="ms flat">5 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">5</span><span class="mn"><a class="cardlink" data-sl="peru">🇵🇪 Peru</a></span><span class="ms flat">10 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">6</span><span class="mn"><a class="cardlink" data-sl="algeria">🇩🇿 Algeria</a></span><span class="ms flat">5 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">7</span><span class="mn"><a class="cardlink" data-sl="myanmar">🇲🇲 Myanmar</a></span><span class="ms flat">4 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">8</span><span class="mn"><a class="cardlink" data-sl="iran">🇮🇷 Iran</a></span><span class="ms flat">8 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">9</span><span class="mn"><a class="cardlink" data-sl="sudan">🇸🇩 Sudan</a></span><span class="ms flat">3 ·</span><span class="mwhy">No live signals yet</span></div><div class="mrow2"><span class="mr">10</span><span class="mn"><a class="cardlink" data-sl="libya">🇱🇾 Libya</a></span><span class="ms flat">3 ·</span><span class="mwhy">No live signals yet</span></div></div>
+    </div>
+  </div>
+
+  <div class="figures rv">
+    <div class="fig"><div class="v" id="fig1">$662<small>T</small></div><div class="l" id="fig1l">Global CNW ceiling at $80B per GW</div></div>
+    <div class="fig"><div class="v" id="fig2">$64<small>T</small></div><div class="l">Unlockable at today's readiness</div></div>
+    <div class="fig"><div class="v" id="fig3">$4.7<small>T</small></div><div class="l">Gross Domestic Compute&#8482; live today: 0.7% of the ceiling tapped</div></div>
+    <div class="fig"><div class="v">44</div><div class="l">Sleeping giants: $302T of ceiling on $9T of GDP</div></div>
+    <div class="fig"><div class="v">836<small>&times;</small></div><div class="l">Bhutan's ceiling as a multiple of its economy</div></div>
+  </div>
+
+  <div class="section rv">
+    <div class="shead"><span class="no">I.</span><h2>Three numbers, read together</h2></div>
+    <div class="prose"><p>The index prices each country three ways. The honesty lives in reading them together.</p></div>
+    <div class="formulae">
+      <div class="frow"><span class="fl">CNW Ceiling</span><span class="fx"><b>Resource Ceiling (GW) &times; <span class="pxlohi">$60-80B</span> per GW.</b> The endowment lens. That figure is a ceiling, and we will be the first to say so.</span></div>
+      <div class="frow"><span class="fl">CNW Unlockable</span><span class="fx"><b>Firm untapped GW &times; <span class="pxc">$50B</span> &times; Readiness.</b> The bankable slice of the ceiling: the AI-factory fleet this country could credibly host on power it has not yet used, valued at build cost, discounted by everything that makes underwriters hesitate.</span></div>
+      <div class="frow"><span class="fl">Gross Domestic Compute</span><span class="fx"><b>Live datacenter GW &times; <span class="pxc">$50B</span>.</b> What actually hums today. GDC&#8482; is to compute what GDP is to output.</span></div>
+      <div class="frow"><span class="fl">Readiness</span><span class="fx">18% governance + 13% stability + 14% GPU access + 11% grid + 11% fiber + 8% momentum + 14% physical + 11% capital access.</span></div>
+    </div>
+    <div class="prose">
+      <p><span class="runin">Readiness is a discount rate on the future. Built and GDC are facts about the present.</span> Readiness measures how underwritable an endowment is today: governance, stability, chip access under the August 2026 US export regime,<sup><a href="#n3">3</a></sup> grid, fiber, momentum, physical conditions, and capital access. Built counts the share of the resource ceiling already standing as generating capacity. GDC counts the compute itself. Nepal scores 56 percent on Readiness, has Built 3.9 percent of its ceiling, and runs roughly 10 megawatts of live datacenter capacity, a GDC of about $0.5 billion against a $7 trillion ceiling. Three different questions. The first prices the option. The other two count what stands.</p>
+      <p><span class="runin">The spread between the numbers is the country's reform agenda, priced.</span> Nepal's ceiling is $5.3 to $7.1 trillion on a $45 billion economy. Its unlockable value today is roughly $535 billion, about $17,800 for every Nepali. The six trillion in between is a to-do list with line items: grid, governance, chip-access agreements, fiber, capital markets, execution. And the world as a whole is further behind than any single country: global GDC is roughly $4.7 trillion against a $662 trillion ceiling. The planet has tapped 0.7 percent of its compute net worth.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="shead"><span class="no">II.</span><h2>The index</h2></div>
     <details class="gloss">
       <summary>Reading the columns: every definition, name, and source</summary>
       <div class="gd">
@@ -813,6 +797,28 @@ html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(
     </div><!-- /panel-countries -->
 
     <div id="panel-silicon" role="tabpanel" aria-labelledby="tab-silicon">
+    <section class="daily" id="subscribe" aria-label="Subscribe to the daily tape">
+  <div>
+    <div class="kicker">Weekday briefing</div>
+    <h2>The daily tape</h2>
+    <p class="lede-s">Country conversion signals and sourced silicon prints. Labeled terms only — no invented deltas. Read it on the <a href="/brief">public brief</a>, or take the RSS. Companies and researchers write via <a href="/contact.html">The Desk</a>.</p>
+  </div>
+  <div>
+    <form id="subform" action="/api/subscribe" method="post" novalidate>
+      <input type="email" name="email" id="subemail" required autocomplete="email" placeholder="you@domain" aria-label="Email">
+      <button type="submit">Subscribe</button>
+      <div class="lists">
+        <label><input type="checkbox" name="lists" value="countries" checked> Countries</label>
+        <label><input type="checkbox" name="lists" value="silicon" checked> Silicon</label>
+        <label><input type="checkbox" name="lists" value="inference"> Inference</label>
+        <label><input type="checkbox" name="lists" value="neoclouds"> Neoclouds</label>
+        <label><input type="checkbox" name="lists" value="hyperscalers"> Hyperscalers</label>
+      </div>
+    </form>
+    <p class="feeds">RSS: <a href="/brief.xml">/brief.xml</a> · <a href="/silicon.xml">/silicon.xml</a> · <a href="/inference.xml">/inference.xml</a> · <a href="/neoclouds.xml">/neoclouds.xml</a> · <a href="/hyperscalers.xml">/hyperscalers.xml</a> · <a href="/wire.xml">/wire.xml</a></p>
+    <p class="submsg" id="submsg" role="status" aria-live="polite"></p>
+  </div>
+</section>
       <div class="si-head">
         <p class="si-one">The public rental tape. Display prints are <b>labeled terms</b> — not averages, not market caps, not invented candles. The term book (1m / 1q / 1y / 3y) is sourced $/GPU-hr or an em dash. Change windows 1M / 1Q / 1Y / 3Y need two dated same-venue prints. Rank is ordinal hygiene. Methodology lives on the standalone tape.</p>
         <a class="si-full" href="/silicon.html">full tape →</a>
@@ -947,7 +953,7 @@ const fmtPC = v => v>=1000 ? "$"+(v/1000).toFixed(v>=100000?0:1)+"k" : "$"+Math.
 const fmtB = (v,e) => v==null ? "&mdash;" : `<span class="${e?"est":""}">${v>=1000?"$"+(v/1000).toFixed(2)+"T":"$"+(v>=100?Math.round(v):v)+"B"}</span>`;
 const fmtGDC = c => c.gdc<1 ? `<span class="est">&lt;$1B</span>` : `<span class="${c.lgE?"est":""}">${fmtT(c.gdc)}</span>`;
 const fmtPct = (v,e) => v==null ? "&mdash;" : `<span class="${(v<0?"neg ":"")+(e?"est":"")}">${v>0?"+":""}${v.toFixed(1)}%</span>`;
-const state = {q:"", tier:"", sort:"u", dir:-1, view:"table", all:false};
+const state = {q:"", tier:"", sort:"u", dir:-1, view:"globe", all:false};
 const isNarrow = ()=>window.innerWidth < 760;
 function val(c,k){ if(k==="n") return c.n; if(k==="re2") return c.re; return c[k] ?? -1e18; }
 function recompute(){
@@ -1113,7 +1119,7 @@ setTheme(curTheme(), false);
 
 const HOME_TAB_KEY="cnw_home_tab";
 const HOME_TABS=["silicon","countries","inference","neoclouds","hyperscalers"];
-const HOME_SECTIONS=["board","index","shape","objections","precedents","gazetteer","credit","notes","subscribe"];
+const HOME_SECTIONS=["board","index","shape","objections","precedents","gazetteer","credit","notes"];
 let homeTab="silicon";
 function syncFnavTab(tab){
   const nav=document.getElementById("fnav"); if(!nav) return;
@@ -1147,7 +1153,13 @@ function selectHomeTab(name){
   syncFnavTab(tab);
   try{ localStorage.setItem(HOME_TAB_KEY, tab); }catch(e){}
   if(tab==="silicon") loadHomeTape();
-  else if(tab==="countries") revealVisible();
+  else if(tab==="countries"){
+    revealVisible();
+    state.view="globe";
+    document.getElementById("vglobe").classList.add("on");
+    document.getElementById("vtab").classList.remove("on");
+    showGlobe();
+  }
   else loadHomeDir(tab);
 }
 function tabFromUrl(){
@@ -1155,6 +1167,7 @@ function tabFromUrl(){
   if(HOME_TABS.indexOf(q)>=0) return q;
   const sl=location.hash.replace(/^#/,"");
   if(HOME_TABS.indexOf(sl)>=0) return sl;
+  if(sl==="subscribe") return "silicon";
   if(sl==="index") return "countries";
   if(sl && bySlug(sl)) return "countries";
   if(HOME_SECTIONS.indexOf(sl)>=0) return "countries";
@@ -1191,6 +1204,12 @@ function initHomeTabs(){
 function routeHash(){
   const sl=location.hash.replace(/^#/,"");
   if(HOME_TABS.indexOf(sl)>=0){ selectHomeTab(sl); return; }
+  if(sl==="subscribe"){
+    selectHomeTab("silicon");
+    const el=document.getElementById("subscribe");
+    if(el) requestAnimationFrame(()=>el.scrollIntoView({behavior:"smooth",block:"start"}));
+    return;
+  }
   if(sl==="index"){ selectHomeTab("countries"); }
   if(sl && bySlug(sl)){ selectHomeTab("countries"); openCard(sl); return; }
   if(HOME_SECTIONS.indexOf(sl)>=0){
