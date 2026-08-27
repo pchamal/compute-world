@@ -1,9 +1,69 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "nvidia-fy27q2-china-dc-zero",
+      "date": "2026-08-26",
+      "title": "NVIDIA Q2: China Hopper DC shipments <1% of Data Center revenue; Q3 outlook assumes zero China DC compute",
+      "summary": "On 26 August 2026 NVIDIA reported Q2 FY27 results for the quarter ended 26 July 2026: revenue $96.2 billion and Data Center $89.0 billion. CFO commentary (SEC EX-99.2) states shipments of Data Center Hopper products to China were less than 1% of Data Center revenue in the quarter. The Newsroom outlook for Q3 FY27 revenue of $108.0 billion plus or minus 2% states NVIDIA is not assuming any Data Center compute revenue from China. This is a realized China mix print plus a repeated zero-China DC compute outlook, distinct from the already-wired 19 Aug limited H200 landings note.",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "source": "NVIDIA Newsroom / SEC EX-99.2",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CHN"
+      ],
+      "flags": "🇨🇳",
+      "tags": [
+        "Stall",
+        "Pricing",
+        "Policy"
+      ],
+      "score": 91
+    },
+    {
+      "id": "georgia-power-openai-effingham-3200mw",
+      "date": "2026-08-26",
+      "title": "Georgia Power–OpenAI Effingham contract approved at 3,200 MW",
+      "summary": "On 26 August 2026 Georgia Power said its contract to serve OpenAI’s Effingham County project was approved as part of the Georgia Public Service Commission regulatory process. The company says the contract, filed with the PSC in July, includes 3,200 MW of new demand, OpenAI pays the full cost of infrastructure needed to serve it, and OpenAI has committed up to 1,000 MW of flexible demand response. This is a US named-MW utility-path conversion, not a campus FID on NVIDIA silicon.",
+      "url": "https://southerncompany.mediaroom.com/2026-08-26-Georgia-Powers-contract-with-OpenAI-approved-Latest-approval-part-of-portfolio-of-large-load-contracts-delivering-approximately-950-million-in-annual-savings-beginning-in-2029",
+      "source": "Georgia Power / Southern Company",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build",
+        "Policy"
+      ],
+      "score": 90
+    },
+    {
+      "id": "firmus-bell-bay-288mw-2026-08-25",
+      "date": "2026-08-25",
+      "title": "George Town Council approves Firmus 288 MW AI data centre at Bell Bay, Tasmania",
+      "summary": "On 25 August 2026 Tasmania’s George Town Council voted 6–1 to approve Firmus Technologies’ 288 MW AI data centre at the former Gunns pulp mill site in Long Reach (Bell Bay Advanced Manufacturing Zone). ABC reports planning conditions (noise and air surveys, a new bushfire and emergency plan) after the diesel-generator count was corrected to 276, and a 14-day appeal window to the Tasmanian Civil and Administrative Tribunal. This is Australia’s named-MW local planning conversion this week.",
+      "url": "https://www.abc.net.au/news/2026-08-25/firmus-ai-bell-bay-receives-george-town-council-approval/107074336",
+      "source": "ABC News (Australia)",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Build",
+        "Policy",
+        "Energy"
+      ],
+      "score": 80
+    },
     {
       "id": "ami-hyderabad-rubin-9000",
       "date": "2026-08-25",
