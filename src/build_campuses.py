@@ -16,8 +16,8 @@ updated = D["as_of"]
 nice_upd = nice_day(updated)
 nice_short = datetime.strptime(updated, "%Y-%m-%d").strftime("%d %b %Y")
 projects = D["projects"]
-if len(projects) != 23:
-    raise SystemExit(f"expected 23 projects, got {len(projects)}")
+if len(projects) != 70:
+    raise SystemExit(f"expected 70 projects, got {len(projects)}")
 
 GRAIN_LABEL = {
     "it_capacity": "IT capacity",
@@ -31,6 +31,7 @@ STATUS_LABEL = {
     "operational": "operational",
     "paused": "paused",
     "canceled": "canceled",
+    "undisclosed": "undisclosed",
 }
 REGIONS = [
     ("NORAM", "NORAM"),
@@ -352,9 +353,9 @@ letter-spacing:.12em;text-transform:uppercase;color:var(--muted);cursor:pointer}
 var BOOK = {BOOK};
 var PROJECTS = BOOK.projects;
 var GRAIN = {{it_capacity:"IT capacity",facility_power:"facility power",interconnection_request:"interconnection request",not_disclosed:"not disclosed"}};
-var STATUS = {{announced:"announced",in_progress:"in progress",operational:"operational",paused:"paused",canceled:"canceled"}};
-var STCOL = {{announced:"#8a5a2a",in_progress:"#4b5f36",operational:"#3c5568",paused:"#8d8a81",canceled:"#7d2027"}};
-var STCOL_D = {{announced:"#c99a5e",in_progress:"#8fae72",operational:"#7da3bd",paused:"#8d8a81",canceled:"#c2564c"}};
+var STATUS = {{announced:"announced",in_progress:"in progress",operational:"operational",paused:"paused",canceled:"canceled",undisclosed:"undisclosed"}};
+var STCOL = {{announced:"#8a5a2a",in_progress:"#4b5f36",operational:"#3c5568",paused:"#8d8a81",canceled:"#7d2027",undisclosed:"#62605a"}};
+var STCOL_D = {{announced:"#c99a5e",in_progress:"#8fae72",operational:"#7da3bd",paused:"#8d8a81",canceled:"#c2564c",undisclosed:"#a49e8f"}};
 var REGION_VIEW = {{
   NORAM: {{lat:39.8, lng:-98.5, altitude:1.85}},
   LATAM: {{lat:-15.5, lng:-56.0, altitude:2.05}},
@@ -418,7 +419,7 @@ function countCopy(n, total){{
   }}
   if(state.mw!=null){{
     if(n===0) bits.push("no primary in this book clears "+(state.mw>=1000?"1 GW":(">"+state.mw+" MW"))+". Empty is a coverage hole, not a bug");
-    else if(state.mw<=25) bits.push("this book has no small-campus tail; primaries that publish MW are almost all ≥250 MW");
+    if(state.mw>=250) bits.push("the 250 MW floor is a filter, not a delete; sub-250 disclosed pins stay in the book");
   }}
   if(state.status && n===0) bits.push("no "+(STATUS[state.status]||state.status)+" pin in this book");
   if(state.mw!=null) bits.push("MW-null pins cannot pass a numeric floor");
