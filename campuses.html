@@ -496,14 +496,15 @@ function loadGlobeLibs(){
   })();
 }
 function initGlobe(el, w, h, land){
+  var dark = curTheme()==="dark";
   var g = Globe()(el).width(w).height(h)
     .backgroundColor("rgba(0,0,0,0)")
-    .showAtmosphere(true).atmosphereColor("#bdb5a2").atmosphereAltitude(0.10)
+    .showAtmosphere(true).atmosphereColor(dark ? "#55503f" : "#bdb5a2").atmosphereAltitude(0.10)
     .hexPolygonsData(land)
     .hexPolygonResolution(3)
     .hexPolygonMargin(0.68)
     .hexPolygonColor(function(){ return curTheme()==="dark" ? "rgba(222,216,200,0.55)" : "rgba(23,22,20,0.42)"; });
-  g.globeMaterial().color.set("#ddd4c2");
+  g.globeMaterial().color.set(dark ? "#26221a" : "#ddd4c2");
   g.globeMaterial().shininess = 2;
   g.controls().autoRotate = true;
   g.controls().enableZoom = true;
@@ -513,8 +514,10 @@ function initGlobe(el, w, h, land){
 }
 function applyGlobeTheme(){
   if(!window._globe) return;
-  window._globe.hexPolygonColor(function(){ return curTheme()==="dark" ? "rgba(222,216,200,0.55)" : "rgba(23,22,20,0.42)"; });
-  window._globe.atmosphereColor(curTheme()==="dark" ? "#8a8374" : "#bdb5a2");
+  var d = curTheme()==="dark";
+  window._globe.globeMaterial().color.set(d ? "#26221a" : "#ddd4c2");
+  window._globe.hexPolygonColor(function(){ return d ? "rgba(222,216,200,0.55)" : "rgba(23,22,20,0.42)"; });
+  window._globe.atmosphereColor(d ? "#55503f" : "#bdb5a2");
   plotPins();
 }
 function pinRadius(p){
