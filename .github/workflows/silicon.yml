@@ -29,5 +29,10 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add silicon.html silicon.xml rank-history.json || true
           git diff --cached --quiet || git commit -m "silicon: rebuild tape ($(date -u +%Y-%m-%d))"
+          # build_silicon.py re-dumps silicon.json / silicon-history.json
+          # (canonicalize). Prices already shipped in the tape commit; leftover
+          # dumps are unstaged and block `git pull --rebase`. Restore them to
+          # HEAD so HTML/XML/rank-history can still ship.
+          git restore --source=HEAD --worktree --staged -- silicon.json silicon-history.json
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
