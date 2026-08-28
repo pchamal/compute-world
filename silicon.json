@@ -1,7 +1,7 @@
 {
   "name": "The Silicon Tape · compute.world",
-  "updated": "2026-08-27",
-  "snapshot": "2026-08-27",
+  "updated": "2026-08-28",
+  "snapshot": "2026-08-28",
   "snapshot_note": "Last sourced confirm day, not the last price tick.",
   "version": "v0",
   "license": "CC BY 4.0 with attribution to compute.world",
@@ -209,7 +209,7 @@
         "usd_per_gpu_hr": 6.69,
         "term": "on-demand",
         "venue": "Lambda",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "lambda",
         "label": "Lambda OD",
         "config": "8x-sxm",
@@ -232,7 +232,7 @@
           "venue": "Lambda",
           "term": "on-demand",
           "usd_per_gpu_hr": 6.69,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "lambda",
           "config": "8x-sxm"
         },
@@ -240,7 +240,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 8.6,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -248,7 +248,7 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 4.26,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave"
         },
         {
@@ -263,7 +263,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks",
           "usd_per_gpu_hr": 12.355,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "aws-cb",
           "note": "Not on-demand.",
           "config": "cb"
@@ -272,7 +272,7 @@
           "venue": "GCP",
           "term": "1y CUD",
           "usd_per_gpu_hr": 11.12,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-accel",
           "note": "On-demand N/A on the fetched list."
         },
@@ -288,7 +288,7 @@
           "venue": "Lambda",
           "term": "1CC 2w–1y",
           "usd_per_gpu_hr": 9.86,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "lambda",
           "config": "1cc-16",
           "note": "1-Click Clusters, 16 GPU, reservation 2 weeks–1 year. Not instance OD. 1y+ is contact — no public card."
@@ -297,7 +297,7 @@
           "venue": "Lambda",
           "term": "1CC 2w–1y",
           "usd_per_gpu_hr": 9.36,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "lambda",
           "config": "1cc-64",
           "note": "1-Click Clusters, 64 GPU, 2 weeks–1 year. Prefer the 16-GPU row on the tape."
@@ -306,7 +306,7 @@
           "venue": "Lambda",
           "term": "1CC 2w–1y",
           "usd_per_gpu_hr": 8.87,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "lambda",
           "config": "1cc-256",
           "note": "1-Click Clusters, 256+ GPU, 2 weeks–1 year. Prefer the 16-GPU row on the tape."
@@ -482,7 +482,7 @@
         "usd_per_gpu_hr": 3.99,
         "term": "on-demand",
         "venue": "Lambda",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "lambda",
         "label": "Lambda OD",
         "config": "8x-sxm",
@@ -539,7 +539,7 @@
           "venue": "Lambda",
           "term": "on-demand",
           "usd_per_gpu_hr": 3.99,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "lambda",
           "config": "8x-sxm"
         },
@@ -547,7 +547,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 6.16,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -555,21 +555,21 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 2.46,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave"
         },
         {
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 3.9,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "crusoe"
         },
         {
           "venue": "AWS",
           "term": "Capacity Blocks",
           "usd_per_gpu_hr": 5.191,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "aws-cb",
           "note": "Not on-demand.",
           "config": "cb"
@@ -578,7 +578,7 @@
           "venue": "GCP",
           "term": "on-demand",
           "usd_per_gpu_hr": 11.06,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-accel"
         },
         {
@@ -611,7 +611,7 @@
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.41,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet",
           "note": "New DO pricing effective 1 Aug 2026."
@@ -620,7 +620,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 3.26,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not on-demand. Not a guessed discount off OD."
@@ -851,7 +851,7 @@
         "usd_per_gpu_hr": 6.31,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "coreweave",
         "label": "CoreWeave OD",
         "note": "Spot $2.62 on the same list.",
@@ -874,7 +874,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 6.31,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -882,14 +882,14 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 2.62,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave"
         },
         {
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.29,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "crusoe",
           "config": "list"
         },
@@ -897,7 +897,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks p5e",
           "usd_per_gpu_hr": 5.97,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "aws-cb",
           "note": "Not on-demand."
         },
@@ -905,7 +905,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks p5en",
           "usd_per_gpu_hr": 6.865,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "aws-cb",
           "note": "Not on-demand."
         },
@@ -914,7 +914,7 @@
           "term": "on-demand",
           "usd_per_gpu_hr": 10.6,
           "approx": true,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-accel",
           "note": "Sourced as ~$10.60 OD across GCP/Azure. Not a precise single SKU print."
         },
@@ -930,7 +930,7 @@
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.47,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet",
           "note": "New DO pricing effective 1 Aug 2026."
@@ -939,7 +939,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 3.4,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not on-demand."
@@ -1091,7 +1091,7 @@
         "usd_per_gpu_hr": 10.5,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "coreweave",
         "label": "CoreWeave",
         "note": "4-GPU instance ($42 / 4), not a 72-rack. No spot.",
@@ -1114,7 +1114,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 10.5,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "note": "Instance $42 / 4 GPUs. No spot.",
           "config": "4-gpu-instance"
@@ -1124,7 +1124,7 @@
           "term": "Capacity Blocks u-p6e-gb200x72",
           "usd_per_gpu_hr": 10.582,
           "unit": "accelerator-hr",
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "aws-cb",
           "note": "Not on-demand.",
           "config": "cb"
@@ -1260,7 +1260,7 @@
         "usd_per_gpu_hr": 2.79,
         "term": "on-demand",
         "venue": "Lambda",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "lambda",
         "label": "Lambda OD",
         "note": "40GB $1.99 OD on the same list.",
@@ -1282,7 +1282,7 @@
           "venue": "Lambda",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.79,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "lambda",
           "note": "80GB.",
           "config": "8x-sxm"
@@ -1291,7 +1291,7 @@
           "venue": "Lambda",
           "term": "on-demand 40GB",
           "usd_per_gpu_hr": 1.99,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "lambda",
           "note": "40GB SKU. Not the headline 80GB print.",
           "config": "40gb"
@@ -1300,7 +1300,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.7,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -1308,21 +1308,21 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 1.21,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave"
         },
         {
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.3,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "crusoe"
         },
         {
           "venue": "GCP",
           "term": "on-demand",
           "usd_per_gpu_hr": 5.07,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-accel"
         }
       ],
@@ -1473,7 +1473,7 @@
         "usd_per_gpu_hr": 4.48,
         "term": "spot",
         "venue": "CoreWeave NA",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "coreweave",
         "label": "CoreWeave NA spot",
         "note": "Instance $35.84 / 8 GPUs. OD contact sales.",
@@ -1496,7 +1496,7 @@
           "venue": "CoreWeave NA",
           "term": "spot",
           "usd_per_gpu_hr": 4.48,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "note": "Instance $35.84 / 8 GPUs.",
           "config": "8x-na"
@@ -1505,7 +1505,7 @@
           "venue": "CoreWeave EU",
           "term": "spot",
           "usd_per_gpu_hr": 4.5875,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "note": "Instance $36.70 / 8 GPUs.",
           "config": "8x-eu"
@@ -1522,7 +1522,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks",
           "usd_per_gpu_hr": 14.04,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "aws-cb",
           "config": "cb",
           "note": "p6-b300.48xlarge, $14.04 / accelerator-hr. Not on-demand."
@@ -1531,7 +1531,7 @@
           "venue": "DigitalOcean",
           "term": "spot",
           "usd_per_gpu_hr": 11.19,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-spot",
           "note": "Interruptible spot. Not a public on-demand list."
@@ -1540,7 +1540,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 7.94,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. CoreWeave reserved is contact — no public card."
@@ -1686,7 +1686,7 @@
         "usd_per_gpu_hr": 4.5,
         "term": "spot",
         "venue": "DigitalOcean",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "digitalocean",
         "label": "DigitalOcean spot",
         "config": "gpu-droplet-spot",
@@ -1708,7 +1708,7 @@
           "venue": "DigitalOcean",
           "term": "spot",
           "usd_per_gpu_hr": 4.5,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-spot",
           "note": "Interruptible spot. Display print. Not on-demand. Not a reserved tenor."
@@ -1856,7 +1856,7 @@
         "usd_per_gpu_hr": 12.0,
         "term": "on-demand",
         "venue": "GCP",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "gcp-tpu",
         "label": "GCP OD",
         "config": "list"
@@ -1877,7 +1877,7 @@
           "venue": "GCP",
           "term": "on-demand",
           "usd_per_gpu_hr": 12.0,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-tpu",
           "config": "list"
         },
@@ -1885,7 +1885,7 @@
           "venue": "GCP",
           "term": "1y",
           "usd_per_gpu_hr": 8.4,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-tpu",
           "config": "1y"
         },
@@ -1893,7 +1893,7 @@
           "venue": "GCP",
           "term": "3y",
           "usd_per_gpu_hr": 5.4,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-tpu",
           "config": "3y"
         }
@@ -2043,7 +2043,7 @@
         "usd_per_gpu_hr": 4.0,
         "term": "spot",
         "venue": "DigitalOcean",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "digitalocean",
         "label": "DigitalOcean spot",
         "config": "gpu-droplet-spot",
@@ -2066,7 +2066,7 @@
           "venue": "DigitalOcean",
           "term": "spot",
           "usd_per_gpu_hr": 4.0,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-spot",
           "note": "Interruptible spot. Display print. Not on-demand."
@@ -2075,7 +2075,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 4.76,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not a guessed discount off spot."
@@ -2461,7 +2461,7 @@
         "usd_per_gpu_hr": 2.25,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "coreweave",
         "label": "CoreWeave OD",
         "note": "Spot $0.99 on the same list.",
@@ -2482,7 +2482,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.25,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -2490,21 +2490,21 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 0.99,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave"
         },
         {
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 1.5,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "crusoe"
         },
         {
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 1.57,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet"
         }
@@ -2638,7 +2638,7 @@
         "usd_per_gpu_hr": 2.59,
         "term": "on-demand",
         "venue": "DigitalOcean",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "digitalocean",
         "label": "DigitalOcean OD",
         "config": "gpu-droplet",
@@ -2660,7 +2660,7 @@
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.59,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet"
         },
@@ -2668,7 +2668,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 1.91,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not on-demand."
@@ -2677,7 +2677,7 @@
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 3.45,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "crusoe",
           "config": "list"
         },
@@ -2827,7 +2827,7 @@
         "usd_per_gpu_hr": 3.8,
         "term": "on-demand",
         "venue": "DigitalOcean",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "digitalocean",
         "label": "DigitalOcean OD",
         "config": "gpu-droplet",
@@ -2848,7 +2848,7 @@
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 3.8,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet"
         },
@@ -2856,7 +2856,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 2.88,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not on-demand."
@@ -2999,7 +2999,7 @@
         "usd_per_gpu_hr": 2.7,
         "term": "on-demand",
         "venue": "GCP",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "gcp-tpu",
         "label": "GCP OD",
         "config": "list"
@@ -3020,7 +3020,7 @@
           "venue": "GCP",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.7,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-tpu",
           "config": "list"
         },
@@ -3028,7 +3028,7 @@
           "venue": "GCP",
           "term": "1y",
           "usd_per_gpu_hr": 1.89,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-tpu",
           "config": "1y"
         }
@@ -3426,7 +3426,7 @@
         "usd_per_gpu_hr": 6.5,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "coreweave",
         "label": "CoreWeave OD",
         "note": "1 GPU. No spot.",
@@ -3450,7 +3450,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 6.5,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "coreweave",
           "note": "1 GPU. No spot.",
           "config": "list"
@@ -3745,7 +3745,7 @@
         "usd_per_gpu_hr": 4.2,
         "term": "on-demand",
         "venue": "GCP",
-        "as_of": "2026-08-27",
+        "as_of": "2026-08-28",
         "source_id": "gcp-tpu",
         "label": "GCP OD",
         "config": "list"
@@ -3766,7 +3766,7 @@
           "venue": "GCP",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.2,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-tpu",
           "config": "list"
         },
@@ -3774,7 +3774,7 @@
           "venue": "GCP",
           "term": "1y",
           "usd_per_gpu_hr": 2.94,
-          "as_of": "2026-08-27",
+          "as_of": "2026-08-28",
           "source_id": "gcp-tpu",
           "config": "1y"
         }
