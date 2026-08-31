@@ -995,7 +995,7 @@
    "pue": "~1.2-1.4",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
-   "rz": 55,
+   "rz": 48,
    "dl": 1,
    "rw": "NVIDIA Q2: China Hopper DC shipments <1% of Data Center revenue; Q3 outlook …"
   },
@@ -1095,9 +1095,9 @@
    "pue": "~1.2-1.4",
    "note": "260k+ GPU sovereign program Oct 2025",
    "rf": 0.95,
-   "rz": 73,
+   "rz": 74,
    "dl": 1,
-   "rw": "SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031"
+   "rw": "SK hynix breaks ground on first US HBM packaging base in West Lafayette"
   },
   {
    "n": "Taiwan",
@@ -1145,9 +1145,9 @@
    "pue": "~1.2-1.4",
    "note": "World-class offshore wind; thin reserve margin; cable-cut incidents",
    "rf": 0.95,
-   "rz": 39,
-   "dl": 1,
-   "rw": "Huang at GTC Taipei: AI factories at $50-60B per GW now, $80-100B per GW soo…"
+   "rz": 34,
+   "dl": -1,
+   "rw": "Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 serv…"
   },
   {
    "n": "Mongolia",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "Georgia Power–OpenAI Effingham contract approved at 3,200 MW"
+   "rw": "SK hynix breaks ground on first US HBM packaging base in West Lafayette"
   },
   {
    "n": "Canada",

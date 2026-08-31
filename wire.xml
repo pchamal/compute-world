@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>SK hynix breaks ground on first US HBM packaging base in West Lafayette</title>
+    <link>https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/</link>
+    <guid isPermaLink="false">compute.world/wire#sk-hynix-indiana-hbm-packaging-2026-08-27</guid>
+    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 27 August 2026 SK hynix held a groundbreaking ceremony at Purdue University in West Lafayette, Indiana, for its first US next-generation HBM advanced-packaging production base. The company newsroom (dated Seoul 28 August) sizes the Indiana fab at over $4 billion, with the cleanroom scheduled to open by October 2028 and mass production of next-generation HBM in the second half of 2029, plus an Advanced Packaging R&amp;D Testbed and about 1,000 facility jobs. Korea-made wafers will be packaged and tested in Indiana and sold as Made-in-USA product to US customers. A prior US Commerce CHIPS award (December 2024) attached up to $458 million in direct funding and up to $500 million in loans to the West Lafayette project; that award is not restated in today’s newsroom note. This is a US/Korea conversion print: packaging land and a 2029 volume clock, not a 2026 wafer start. [Signal 91, Confirmed, via SK hynix Newsroom] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>NVIDIA Q2: China Hopper DC shipments &lt;1% of Data Center revenue; Q3 outlook assumes zero China DC compute</title>
     <link>https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027</link>
     <guid isPermaLink="false">compute.world/wire#nvidia-fy27q2-china-dc-zero</guid>
@@ -38,6 +45,13 @@
     <guid isPermaLink="false">compute.world/wire#semianalysis-us-chn-watts-2026-08-25</guid>
     <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 25 August 2026 Dylan Patel of SemiAnalysis, on the Dwarkesh Podcast, restated the country watt split: since 2022 the US share of incremental AI data-center watts rose from about 45–50% to ~70% today, while China fell from about 30–35% to sub-10% of watts being deployed. He puts China&#x27;s 2028 AI compute stock at 30 GW or less, with 5–10 GW of that year&#x27;s add from domestic SMIC/CXMT silicon he says is worse than 2028 US chips, and calls +50 GW incremental in 2029 &quot;completely reasonable.&quot; World incremental path in the same interview: +30 GW this year, +50 next, ~70 in 2028 (80 as the upper bound). MATCH Act (H.R. 8170) is named as the live export-control lever; as of 26 August it is not law (House Foreign Affairs reported 22 April, no floor vote). These are SemiAnalysis model prints stated on a dated interview, not a campus FID or a government filing. [Signal 62, Single-source, via Dwarkesh Podcast / SemiAnalysis] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 servers diverted to China</title>
+    <link>https://focustaiwan.tw/society/202608240023</link>
+    <guid isPermaLink="false">compute.world/wire#taiwan-b300-server-china-export-indictment-2026-08-24</guid>
+    <pubDate>Mon, 24 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 24 August 2026 the Keelung District Prosecutors’ Office indicted eight people, including a distribution manager at Nvidia’s Taiwan office and two sales managers at Super Micro’s Taiwan branch, for breach of trust and document forgery tied to Supermicro servers equipped with Nvidia B300 GPUs. CNA (Focus Taiwan) reports prosecutors say Flying Tiger obtained a 130-server order after a staged site inspection, 74 servers reached Chinese buyers via direct shipment or routes through Indonesia, Japan and Hong Kong, and customs seized the remaining 56 in Taiwan. Illicit proceeds on the completed 74-server resale exceeded US$21.2 million. A Flying Tiger principal remains wanted. This is a Taiwan/China conversion-enforcement print on the whitelist-and-inspection gate, not a new export rule. [Signal 82, Confirmed, via CNA / Focus Taiwan (Keelung prosecutors)] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>Lancium × NVIDIA: undisclosed NVIDIA stake on 4 GW leased / &gt;15 GW powered-land pipeline</title>
@@ -199,19 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#uae-rule-a5</guid>
     <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
     <description>Federal Register rule 91 FR 43034 moves the UAE to Country Group A:5 and names approved entities, while G42 and Core42&#x27;s license-free status expires April 6, 2027 unless they become US companies. The template for compute diplomacy, and its price, in one document. [Signal 94, Confirmed, via US Federal Register] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Kazakhstan signs $10B with NVIDIA and Firebird for a gigawatt-scale Data Center Valley at Ekibastuz</title>
-    <link>https://timesca.com/kazakhstan-and-u-s-ai-companies-sign-agreements-worth-10-billion/</link>
-    <guid isPermaLink="false">compute.world/wire#kazakhstan-ekibastuz</guid>
-    <pubDate>Mon, 15 Jun 2026 12:00:00 GMT</pubDate>
-    <description>300 MW rising toward 1 GW and 100,000 GPUs on coal-basin power, with a stated $3 billion per year export ambition. In its officials&#x27; words: transforming Ekibastuz coal into digital export revenue. [Signal 72, Corroborated, via Times of Central Asia] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Meta signs its first India AI datacenter deal: a 168 MW JV inside Reliance&#x27;s Jamnagar campus</title>
-    <link>https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/</link>
-    <guid isPermaLink="false">compute.world/wire#reliance-meta-jamnagar</guid>
-    <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
-    <description>Part of Reliance&#x27;s stated $110 billion AI plan, with 120+ MW already live in H2 2026. The largest private-sector compute bet in the Global South acquires an anchor tenant. [Signal 80, Corroborated, via TechCrunch] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
