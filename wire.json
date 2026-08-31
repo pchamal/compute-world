@@ -1,9 +1,49 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-08-27",
+  "updated": "2026-08-31",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "sk-hynix-indiana-hbm-packaging-2026-08-27",
+      "date": "2026-08-27",
+      "title": "SK hynix breaks ground on first US HBM packaging base in West Lafayette",
+      "summary": "On 27 August 2026 SK hynix held a groundbreaking ceremony at Purdue University in West Lafayette, Indiana, for its first US next-generation HBM advanced-packaging production base. The company newsroom (dated Seoul 28 August) sizes the Indiana fab at over $4 billion, with the cleanroom scheduled to open by October 2028 and mass production of next-generation HBM in the second half of 2029, plus an Advanced Packaging R&D Testbed and about 1,000 facility jobs. Korea-made wafers will be packaged and tested in Indiana and sold as Made-in-USA product to US customers. A prior US Commerce CHIPS award (December 2024) attached up to $458 million in direct funding and up to $500 million in loans to the West Lafayette project; that award is not restated in today’s newsroom note. This is a US/Korea conversion print: packaging land and a 2029 volume clock, not a 2026 wafer start.",
+      "url": "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/",
+      "source": "SK hynix Newsroom",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA",
+        "KOR"
+      ],
+      "flags": "🇺🇸🇰🇷",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 91
+    },
+    {
+      "id": "taiwan-b300-server-china-export-indictment-2026-08-24",
+      "date": "2026-08-24",
+      "title": "Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 servers diverted to China",
+      "summary": "On 24 August 2026 the Keelung District Prosecutors’ Office indicted eight people, including a distribution manager at Nvidia’s Taiwan office and two sales managers at Super Micro’s Taiwan branch, for breach of trust and document forgery tied to Supermicro servers equipped with Nvidia B300 GPUs. CNA (Focus Taiwan) reports prosecutors say Flying Tiger obtained a 130-server order after a staged site inspection, 74 servers reached Chinese buyers via direct shipment or routes through Indonesia, Japan and Hong Kong, and customs seized the remaining 56 in Taiwan. Illicit proceeds on the completed 74-server resale exceeded US$21.2 million. A Flying Tiger principal remains wanted. This is a Taiwan/China conversion-enforcement print on the whitelist-and-inspection gate, not a new export rule.",
+      "url": "https://focustaiwan.tw/society/202608240023",
+      "source": "CNA / Focus Taiwan (Keelung prosecutors)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "TWN",
+        "CHN"
+      ],
+      "flags": "🇹🇼🇨🇳",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 82
+    },
     {
       "id": "nvidia-fy27q2-china-dc-zero",
       "date": "2026-08-26",
