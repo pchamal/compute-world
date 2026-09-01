@@ -1,9 +1,73 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "puct-oncor-765kv-ccn-59315-59029-2026-08-28",
+      "date": "2026-08-28",
+      "title": "PUCT unanimously approves Oncor 765-kV Import Path 1 CCNs (~424 mi, ~$3.95B)",
+      "summary": "On 28 August 2026 the Public Utility Commission of Texas unanimously granted final Certificates of Convenience and Necessity for Oncor’s Dinosaur–Longshore path (Docket 59315, Route 559, ~242.6 miles, ~$2.243B, target 2028) and Longshore–Drill Hole (Docket 59029, Route 476, ~181.6 miles, ~$1.704B, target 2029) — about 424 miles and ~$3.95B of 765-kV into West Texas under the Permian Basin Reliability Plan. Need findings cited oil/gas plus non-oil load including crypto, data centers, and hydrogen. Howard–Solstice (59336) remains tabled past its 31 August statutory clock and is not part of this Wire item.",
+      "url": "https://dallasexpress.com/business-markets/texas-regulators-approve-424-miles-of-power-lines-despite-calls-to-wait/",
+      "source": "Dallas Express / Oncor / Texas Tribune",
+      "tier": 1,
+      "corroboration": "Oncor project pages mark Approved on August 28, 2026; Texas Tribune reported unanimous votes the same day.",
+      "countries": [
+        "USA"
+      ],
+      "flags": [],
+      "tags": [
+        "Energy",
+        "Build",
+        "Policy"
+      ],
+      "score": 88
+    },
+    {
+      "id": "us-commerce-remote-access-ai-compute-draft-2026-08-31",
+      "date": "2026-08-31",
+      "title": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs via third-country DCs",
+      "summary": "Late August 2026 reporting (Forbes 31 Aug; TechTimes 29 Aug citing The Information) says Trump Commerce/BIS is preparing an export-control draft that would treat remote rental of advanced AI GPUs as controlled access, aimed at Chinese firms using third-country data centers such as Thailand and Singapore, with industry draft circulation possible as early as September. The House already passed the Remote Access Security Act (H.R. 2683) in January; the Senate has not. Export-control bar commentary notes BIS’s statutory remote-access authority is weak until RASA clears. This is a Policy/Stall conversion signal on usable FLOPs geography, not a published final rule.",
+      "url": "https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/",
+      "source": "Forbes / TechTimes / Congress.gov H.R.2683",
+      "tier": 2,
+      "corroboration": "Multi-outlet secondary reporting; House bill is primary. The Commerce draft text itself is not published.",
+      "countries": [
+        "USA",
+        "CHN",
+        "THA",
+        "SGP"
+      ],
+      "flags": [
+        "draft"
+      ],
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 72
+    },
+    {
+      "id": "powertech-foplp-capacity-booked-2030-2026-08-27",
+      "date": "2026-08-27",
+      "title": "Powertech books FOPLP AI packaging capacity through 2030; $2.2B ramp + Singapore–Broadcom line",
+      "summary": "On 27 August 2026 Taiwan OSAT Powertech Technology said its fan-out panel-level packaging (FOPLP) capacity for AI is fully booked through 2030 by two major customers (press cites AMD and Broadcom), backed by about NT$70 billion (~$2.2B) to expand from ~1,000 to ~5,000 panels/month by 2028, with AI server CPU shipments expected next year and a Broadcom joint packaging line planned in Singapore around 2028. This is a Taiwan/Singapore packaging-conversion print around CoWoS scarcity.",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/27/2003863180",
+      "source": "Taipei Times / Nikkei Asia",
+      "tier": 2,
+      "corroboration": "Chairman on record in Taipei Times; Nikkei Asia same-day corroboration.",
+      "countries": [
+        "TWN",
+        "SGP"
+      ],
+      "flags": [],
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 80
+    },
     {
       "id": "sk-hynix-indiana-hbm-packaging-2026-08-27",
       "date": "2026-08-27",
