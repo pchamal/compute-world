@@ -5,6 +5,27 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>US Commerce drafts remote-access rule to curb China rental of advanced GPUs via third-country DCs</title>
+    <link>https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/</link>
+    <guid isPermaLink="false">compute.world/wire#us-commerce-remote-access-ai-compute-draft-2026-08-31</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Late August 2026 reporting (Forbes 31 Aug; TechTimes 29 Aug citing The Information) says Trump Commerce/BIS is preparing an export-control draft that would treat remote rental of advanced AI GPUs as controlled access, aimed at Chinese firms using third-country data centers such as Thailand and Singapore, with industry draft circulation possible as early as September. The House already passed the Remote Access Security Act (H.R. 2683) in January; the Senate has not. Export-control bar commentary notes BIS’s statutory remote-access authority is weak until RASA clears. This is a Policy/Stall conversion signal on usable FLOPs geography, not a published final rule. [Signal 72, Multi-outlet secondary reporting; House bill is primary. The Commerce draft text itself is not published., via Forbes / TechTimes / Congress.gov H.R.2683] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>PUCT unanimously approves Oncor 765-kV Import Path 1 CCNs (~424 mi, ~$3.95B)</title>
+    <link>https://dallasexpress.com/business-markets/texas-regulators-approve-424-miles-of-power-lines-despite-calls-to-wait/</link>
+    <guid isPermaLink="false">compute.world/wire#puct-oncor-765kv-ccn-59315-59029-2026-08-28</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 28 August 2026 the Public Utility Commission of Texas unanimously granted final Certificates of Convenience and Necessity for Oncor’s Dinosaur–Longshore path (Docket 59315, Route 559, ~242.6 miles, ~$2.243B, target 2028) and Longshore–Drill Hole (Docket 59029, Route 476, ~181.6 miles, ~$1.704B, target 2029) — about 424 miles and ~$3.95B of 765-kV into West Texas under the Permian Basin Reliability Plan. Need findings cited oil/gas plus non-oil load including crypto, data centers, and hydrogen. Howard–Solstice (59336) remains tabled past its 31 August statutory clock and is not part of this Wire item. [Signal 88, Oncor project pages mark Approved on August 28, 2026; Texas Tribune reported unanimous votes the same day., via Dallas Express / Oncor / Texas Tribune] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Powertech books FOPLP AI packaging capacity through 2030; $2.2B ramp + Singapore–Broadcom line</title>
+    <link>https://www.taipeitimes.com/News/biz/archives/2026/08/27/2003863180</link>
+    <guid isPermaLink="false">compute.world/wire#powertech-foplp-capacity-booked-2030-2026-08-27</guid>
+    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 27 August 2026 Taiwan OSAT Powertech Technology said its fan-out panel-level packaging (FOPLP) capacity for AI is fully booked through 2030 by two major customers (press cites AMD and Broadcom), backed by about NT$70 billion (~$2.2B) to expand from ~1,000 to ~5,000 panels/month by 2028, with AI server CPU shipments expected next year and a Broadcom joint packaging line planned in Singapore around 2028. This is a Taiwan/Singapore packaging-conversion print around CoWoS scarcity. [Signal 80, Chairman on record in Taipei Times; Nikkei Asia same-day corroboration., via Taipei Times / Nikkei Asia] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>SK hynix breaks ground on first US HBM packaging base in West Lafayette</title>
     <link>https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/</link>
     <guid isPermaLink="false">compute.world/wire#sk-hynix-indiana-hbm-packaging-2026-08-27</guid>
@@ -192,26 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#korea-aidc-18gw</guid>
     <pubDate>Wed, 29 Jul 2026 12:00:00 GMT</pubDate>
     <description>Following the 260,000-GPU national program announced at APEC, the alliance formalizes the most aggressive national capacity target published anywhere, with UAE export ambitions attached. [Signal 66, Corroborated, via TechTimes] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Nepal books record power exports: NPR 29.32B for 3.877 TWh at roughly $0.054 per kWh</title>
-    <link>https://www.myrepublica.nagariknetwork.com/news/nepal-earns-record-rs-2932-billion-from-electricity-exports-in-fy-202526-21-57.html</link>
-    <guid isPermaLink="false">compute.world/wire#nepal-export-record</guid>
-    <pubDate>Thu, 23 Jul 2026 12:00:00 GMT</pubDate>
-    <description>Export earnings rose 68 percent year on year. The same electrons routed through contracted GPU cloud would gross roughly 20 to 40 times more, which is the entire compute-conversion argument in one fiscal year. [Signal 68, Corroborated, via Republica (NEA data)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Hochul EO 62: New York pauses DEC permits for data centers ≥50 MW until a GEIS lands</title>
-    <link>https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops</link>
-    <guid isPermaLink="false">compute.world/wire#ny-eo-62-hyperscale-moratorium</guid>
-    <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
-    <description>On 14 July 2026 Governor Kathy Hochul signed Executive Order No. 62, the first statewide data-center permitting pause. The order recites nearly 12 GW of data-center load in the NYISO interconnection queue as of May 2026, more than 8 GW of it added in 2025. Until DPS files a final Generic Environmental Impact Statement and findings under SEQRA, DEC must hold in abeyance discretionary permits for construction or expansion of a &quot;data center&quot; that were not already deemed complete — defined as a facility that consumes or can consume 50 MW or more, with manufacturing, research (including Empire AI), education, and medical-care sites carved out. Local-government permits are not paused. DPS must run the GEIS through Case 26-E-0045 (Energize NY / large-load interconnection); ESD has 60 days to post a Community Investment Framework; DEC has twelve months to report on water-withdrawal rules. The press release called this a one-year pause; the order itself lasts until the GEIS lands, with no statutory clock. This is a state conversion gate on NYISO-side load, not a campus FID. Dylan Patel pointed at it on 25 August as the policy drag on US supply; the primary is the EO. [Signal 91, Confirmed, via State of New York] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>The UAE gets a named lane in US export law, with an April 2027 sting attached</title>
-    <link>https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration</link>
-    <guid isPermaLink="false">compute.world/wire#uae-rule-a5</guid>
-    <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
-    <description>Federal Register rule 91 FR 43034 moves the UAE to Country Group A:5 and names approved entities, while G42 and Core42&#x27;s license-free status expires April 6, 2027 unless they become US companies. The template for compute diplomacy, and its price, in one document. [Signal 94, Confirmed, via US Federal Register] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>

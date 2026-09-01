@@ -995,9 +995,9 @@
    "pue": "~1.2-1.4",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
-   "rz": 48,
-   "dl": 1,
-   "rw": "NVIDIA Q2: China Hopper DC shipments <1% of Data Center revenue; Q3 outlook …"
+   "rz": 41,
+   "dl": 0,
+   "rw": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs …"
   },
   {
    "n": "Japan",
@@ -1145,9 +1145,9 @@
    "pue": "~1.2-1.4",
    "note": "World-class offshore wind; thin reserve margin; cable-cut incidents",
    "rf": 0.95,
-   "rz": 34,
-   "dl": -1,
-   "rw": "Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 serv…"
+   "rz": 47,
+   "dl": 1,
+   "rw": "Powertech books FOPLP AI packaging capacity through 2030; $2.2B ramp + Singa…"
   },
   {
    "n": "Mongolia",
@@ -1446,8 +1446,8 @@
    "note": "Mature market",
    "rf": 0.72,
    "rz": 19,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "dl": -1,
+   "rw": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs …"
   },
   {
    "n": "Malaysia",
@@ -1645,9 +1645,9 @@
    "pue": "~1.35-1.6",
    "note": "Hub; power-constrained, imports compute-relevant power",
    "rf": 1.0,
-   "rz": 15,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 23,
+   "dl": 1,
+   "rw": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs …"
   },
   {
    "n": "Papua New Guinea",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "SK hynix breaks ground on first US HBM packaging base in West Lafayette"
+   "rw": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs …"
   },
   {
    "n": "Canada",
