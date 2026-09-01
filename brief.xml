@@ -2,153 +2,153 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>SK hynix broke ground Thursday on the first US next-generation HBM packaging base in West Lafayette: over $4 billion, cleanroom by October 2028, mass production in H2 2029, Korea wafers packaged in Indiana. In Texas, PUCT granted Oncor 765-kV CCN amendments Friday and tabled Howard–Solstice (59336) past today’s statutory deadline — no Interchange order located this morning, so those votes stay off Wire. The Silicon Tape did not tick — Lambda H100 $3.99 / B200 $6.69, 69 confirms.</description>
+  <description>Texas cleared real steel on Friday: PUCT unanimously approved Oncor’s ~424-mile / ~$3.95B 765-kV Import Path 1 (59315 Route 559 + 59029 Route 476), while Howard–Solstice (59336) is still stuck past the 31 Aug statutory clock. Reuters’ Sep 1 ghost-demand frame puts TX interconnection requests near 474 GW against a peak an order of magnitude smaller — conversion is now gated by which CCNs close and which audits kill paper load. Silicon Tape: confirm day — Lambda H100 $3.99 / B200 $6.69, 62 confirms, 0 ticks; first history prints for GCP TPU v5e OD/1y/3y ($1.20 / $0.84 / $0.54).</description>
   <language>en</language>
   <item>
-    <title>The daily tape · 31 August 2026</title>
+    <title>The daily tape · 1 September 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-08-31</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>SK hynix broke ground Thursday on the first US next-generation HBM packaging base in West Lafayette: over $4 billion, cleanroom by October 2028, mass production in H2 2029, Korea wafers packaged in Indiana. In Texas, PUCT granted Oncor 765-kV CCN amendments Friday and tabled Howard–Solstice (59336) past today’s statutory deadline — no Interchange order located this morning, so those votes stay off Wire. The Silicon Tape did not tick — Lambda H100 $3.99 / B200 $6.69, 69 confirms. Countries: United States: SK hynix, 27 Aug groundbreaking at Purdue / West Lafayette: first US HBM advanced-packaging base, &gt;$4B, cleanroom by Oct 2028, next-gen HBM mass production H2 2029, ~1,000 facility jobs. Korea wafers packaged and tested in Indiana for US customers. Prior Commerce CHIPS award (Dec 2024) up to $458M grants + $500M loans is background, not restated in the 28 Aug newsroom note. Source: SK hynix Newsroom. Taiwan: Keelung District Prosecutors, 24 Aug: eight people indicted (Nvidia Taiwan distribution manager, two Super Micro Taiwan sales managers, plus distributors/traders) for breach of trust and forgery on 130 Supermicro B300 servers. CNA: 74 reached Chinese buyers (direct / Indonesia / Japan–Hong Kong); 56 seized in Taiwan; &gt;$21.2M illicit proceeds. Flying Tiger principal still wanted. Source: CNA / Focus Taiwan. United States: PUCT Open Meeting 28 Aug: Tribune reports unanimous approval of two Oncor 765-kV CCN amendments and a table of Howard–Solstice (Docket 59336). KUT identifies the northern path as ~400 miles Glen Rose to Reeves County, with easements now allowed. Statutory CCN deadline on 59336 was 31 Aug; no Interchange order PDF located this morning, so neither the grant nor the table is Wire. Source: Texas Tribune / KUT. United States: Botetourt County, 28 Aug: Google received a Land Disturbance Permit to begin phased grading on its 312-acre Greenfield campus (three ~300k sq ft buildings). Google has not disclosed campus MW; Rocky Forge wind (79.3 MW) will not cover the load. Named dirt-moving, not a MW FID — not Wire. Source: WSLS / Botetourt County. United States: Georgia Power, 26 Aug: 3,200 MW OpenAI Effingham contract on the PSC staff path; OpenAI pays full infrastructure cost; up to 1,000 MW flexible DR. Public summary still due. Source: Georgia Power / Southern Company. Australia: George Town Council, 25 Aug: 6–1 approval of Firmus 288 MW at Bell Bay. 14-day TASCAT appeal window runs into early September. Source: ABC News. China: NVIDIA Q2 FY27 (26 Aug): Data Center $89.0B. Hopper China &lt;1% of DC revenue. Q3 $108.0B ±2% assumes no China DC compute. Source: NVIDIA Newsroom / SEC EX-99.2.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-09-01</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Texas cleared real steel on Friday: PUCT unanimously approved Oncor’s ~424-mile / ~$3.95B 765-kV Import Path 1 (59315 Route 559 + 59029 Route 476), while Howard–Solstice (59336) is still stuck past the 31 Aug statutory clock. Reuters’ Sep 1 ghost-demand frame puts TX interconnection requests near 474 GW against a peak an order of magnitude smaller — conversion is now gated by which CCNs close and which audits kill paper load. Silicon Tape: confirm day — Lambda H100 $3.99 / B200 $6.69, 62 confirms, 0 ticks; first history prints for GCP TPU v5e OD/1y/3y ($1.20 / $0.84 / $0.54). Countries: United States: PUCT, 28 Aug: unanimous final CCNs for Oncor Import Path 1 — Dinosaur–Longshore (59315 Route 559, ~242.6 mi, ~$2.243B, target 2028) and Longshore–Drill Hole (59029 Route 476, ~181.6 mi, ~$1.704B, target 2029); ~424 miles / ~$3.95B of 765-kV under the Permian Basin Reliability Plan. Need findings cited oil/gas plus non-oil load (crypto, data centers, hydrogen). Wire today. Source: Dallas Express / Oncor / Texas Tribune. United States: Late Aug reporting (Forbes 31 Aug; TechTimes 29 Aug citing The Information): Commerce/BIS drafting a remote-access export-control rule to treat rental of advanced AI GPUs as controlled access, aimed at Chinese firms via third-country DCs (Thailand, Singapore). House already passed H.R. 2683 (RASA); Senate has not. Draft text unpublished — Policy/Stall conversion on usable FLOPs geography. Wire today. Source: Forbes / Congress.gov. Taiwan: Powertech Technology, 27 Aug: FOPLP AI packaging capacity fully booked through 2030 by two majors (press: AMD, Broadcom); ~NT$70B (~$2.2B) ramp from ~1,000 to ~5,000 panels/month by 2028; AI server CPU shipments next year; Broadcom joint line planned in Singapore ~2028. Packaging-conversion print around CoWoS scarcity. Wire today. Source: Taipei Times / Nikkei Asia. United States: Reuters, 1 Sep: Texas interconnection requests near ~474 GW versus a peak load an order of magnitude smaller — the “ghost demand” frame. Conversion now hinges on which CCNs close and which ERCOT/utility audits kill paper load. Brief only; not a new Wire id. Source: Reuters. United States: Howard–Solstice (PUCT Docket 59336) remains tabled past the 31 Aug statutory CCN clock. No Interchange final order located. HOLD Wire. Source: Texas Tribune / PUCT Interchange. United States: Georgia Power, 26 Aug: 3,200 MW OpenAI Effingham contract on the PSC staff path; OpenAI pays full infrastructure cost; up to 1,000 MW flexible DR. Public summary still due ~5 Sep. Source: Georgia Power / Southern Company. Australia: George Town Council, 25 Aug: 6–1 approval of Firmus 288 MW at Bell Bay. 14-day TASCAT appeal window runs into early September. Source: ABC News.</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#nvidia-b200-sxm6</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-b200-sxm6</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 31 Aug 2026. Display: Lambda OD 8× SXM6. Confirm vs 28 Aug. 1Q is 0% (21 May $6.69). Term-book 1y is Lambda 1CC 16-GPU $9.86 (2w–1y).</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-b200-sxm6</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 01 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 31 Aug. 1Q is 0% (21 May $6.69). Term-book 1y is Lambda 1CC 16-GPU $9.86 (2w–1y).</description>
   </item>
   <item>
     <title>H100 SXM 80GB · $3.99 on-demand</title>
     <link>https://compute.world/brief#nvidia-h100-sxm-80gb</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-h100-sxm-80gb</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 31 Aug 2026. Display is Lambda OD $3.99 (buy now, 8×). Confirm vs 28 Aug. Term-book 1y is DigitalOcean 12m reserved $3.26 (vs DO OD $4.41). 1Y is $2.99 (12 Aug 2025) → $3.99. Not a 7-day move.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-h100-sxm-80gb</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 01 Sep 2026. Display is Lambda OD $3.99 (buy now, 8×). Confirm vs 31 Aug. Term-book 1y is DigitalOcean 12m reserved $3.26 (vs DO OD $4.41). 1Y is $2.99 (12 Aug 2025) → $3.99. Not a 7-day move.</description>
   </item>
   <item>
     <title>H200 SXM 141GB · $6.31 on-demand</title>
     <link>https://compute.world/brief#nvidia-h200-sxm-141gb</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-h200-sxm-141gb</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>H200 SXM 141GB: display $6.31 on-demand at CoreWeave as of 31 Aug 2026. Display: CoreWeave OD. Confirm vs 28 Aug. 1Y change is 0% ($6.31 on 21 Aug 2025). Term-book 1y is DigitalOcean 12m $3.40. Also Crusoe $4.29 OD.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-h200-sxm-141gb</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>H200 SXM 141GB: display $6.31 on-demand at CoreWeave as of 01 Sep 2026. Display: CoreWeave OD. Confirm vs 31 Aug. 1Y change is 0% ($6.31 on 21 Aug 2025). Term-book 1y is DigitalOcean 12m $3.40. Also Crusoe $4.29 OD.</description>
   </item>
   <item>
     <title>GB200 NVL72 · $10.50 on-demand</title>
     <link>https://compute.world/brief#nvidia-gb200-nvl72</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-gb200-nvl72</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>GB200 NVL72: display $10.50 on-demand at CoreWeave as of 31 Aug 2026. Display: CoreWeave $10.50 — 4-GPU instance, not a 72-rack. Confirm vs 28 Aug.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-gb200-nvl72</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>GB200 NVL72: display $10.50 on-demand at CoreWeave as of 01 Sep 2026. Display: CoreWeave $10.50 — 4-GPU instance, not a 72-rack. Confirm vs 31 Aug.</description>
   </item>
   <item>
     <title>A100 SXM 80GB · $2.79 on-demand</title>
     <link>https://compute.world/brief#nvidia-a100-sxm-80gb</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-a100-sxm-80gb</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>A100 SXM 80GB: display $2.79 on-demand at Lambda as of 31 Aug 2026. Display: Lambda OD. Confirm vs 28 Aug. Also CoreWeave $2.70 OD.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-a100-sxm-80gb</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>A100 SXM 80GB: display $2.79 on-demand at Lambda as of 01 Sep 2026. Display: Lambda OD. Confirm vs 31 Aug. Also CoreWeave $2.70 OD.</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#amd-mi355x</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/amd-mi355x</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 31 Aug 2026. Display is DigitalOcean interruptible spot $4.50. Confirm vs 28 Aug. No public OD.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/amd-mi355x</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 01 Sep 2026. Display is DigitalOcean interruptible spot $4.50. Confirm vs 31 Aug. No public OD.</description>
   </item>
   <item>
     <title>MI350X · $4.00 spot</title>
     <link>https://compute.world/brief#amd-mi350x</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/amd-mi350x</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $4.00 spot at DigitalOcean as of 31 Aug 2026. DigitalOcean interruptible spot $4.00 (display) and 12m reserved $4.76. Confirm vs 28 Aug. No public OD.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/amd-mi350x</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $4.00 spot at DigitalOcean as of 01 Sep 2026. DigitalOcean interruptible spot $4.00 (display) and 12m reserved $4.76. Confirm vs 31 Aug. No public OD.</description>
   </item>
   <item>
     <title>TPU v7 Ironwood · $12.00 on-demand</title>
     <link>https://compute.world/brief#google-tpu-v7-ironwood</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/google-tpu-v7-ironwood</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>TPU v7 Ironwood: display $12.00 on-demand at GCP as of 31 Aug 2026. Display: GCP OD $12.00 (us-central1). Confirm vs 28 Aug. Term-book 1y $8.40 · 3y $5.40.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/google-tpu-v7-ironwood</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>TPU v7 Ironwood: display $12.00 on-demand at GCP as of 01 Sep 2026. Display: GCP OD $12.00 (us-central1). Confirm vs 31 Aug. Term-book 1y $8.40 · 3y $5.40.</description>
   </item>
   <item>
     <title>L40S 48GB · $2.25 on-demand</title>
     <link>https://compute.world/brief#nvidia-l40s-48gb</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-l40s-48gb</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>L40S 48GB: display $2.25 on-demand at CoreWeave as of 31 Aug 2026. Display: CoreWeave OD. Confirm vs 28 Aug. Also DigitalOcean $1.57 OD.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-l40s-48gb</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>L40S 48GB: display $2.25 on-demand at CoreWeave as of 01 Sep 2026. Display: CoreWeave OD. Confirm vs 31 Aug. Also DigitalOcean $1.57 OD.</description>
   </item>
   <item>
     <title>MI300X · $2.59 on-demand</title>
     <link>https://compute.world/brief#amd-mi300x</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/amd-mi300x</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>MI300X: display $2.59 on-demand at DigitalOcean as of 31 Aug 2026. Display: DigitalOcean OD $2.59. Confirm vs 28 Aug. Term-book 1y is 12m reserved $1.91.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/amd-mi300x</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>MI300X: display $2.59 on-demand at DigitalOcean as of 01 Sep 2026. Display: DigitalOcean OD $2.59. Confirm vs 31 Aug. Term-book 1y is 12m reserved $1.91.</description>
   </item>
   <item>
     <title>MI325X · $3.80 on-demand</title>
     <link>https://compute.world/brief#amd-mi325x</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/amd-mi325x</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>MI325X: display $3.80 on-demand at DigitalOcean as of 31 Aug 2026. Display: DigitalOcean OD $3.80. Confirm vs 28 Aug. Term-book 1y is 12m reserved $2.88.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/amd-mi325x</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>MI325X: display $3.80 on-demand at DigitalOcean as of 01 Sep 2026. Display: DigitalOcean OD $3.80. Confirm vs 31 Aug. Term-book 1y is 12m reserved $2.88.</description>
   </item>
   <item>
     <title>TPU v6e Trillium · $2.70 on-demand</title>
     <link>https://compute.world/brief#google-tpu-v6e-trillium</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/google-tpu-v6e-trillium</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>TPU v6e Trillium: display $2.70 on-demand at GCP as of 31 Aug 2026. Display: GCP OD $2.70. Confirm vs 28 Aug. Term-book 1y $1.89 · 3y $1.22.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/google-tpu-v6e-trillium</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>TPU v6e Trillium: display $2.70 on-demand at GCP as of 01 Sep 2026. Display: GCP OD $2.70. Confirm vs 31 Aug. Term-book 1y $1.89 · 3y $1.22.</description>
   </item>
   <item>
     <title>Trainium2 · $2.235 Capacity Blocks</title>
     <link>https://compute.world/brief#amazon-trainium2</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/amazon-trainium2</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Trainium2: display $2.235 Capacity Blocks at AWS as of 31 Aug 2026. Display: AWS Capacity Blocks trn2.48xlarge $2.235 / chip-hr (16 chips). Confirm vs last CB print. Not on-demand.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/amazon-trainium2</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Trainium2: display $2.235 Capacity Blocks at AWS as of 01 Sep 2026. Display: AWS Capacity Blocks trn2.48xlarge $2.235 / chip-hr (16 chips). Confirm vs 31 Aug. Not on-demand.</description>
   </item>
   <item>
     <title>TPU v5p · $4.20 on-demand</title>
     <link>https://compute.world/brief#google-tpu-v5p</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/google-tpu-v5p</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>TPU v5p: display $4.20 on-demand at GCP as of 31 Aug 2026. Display: GCP OD. Confirm vs 28 Aug. Term-book 1y $2.94 · 3y $1.89.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/google-tpu-v5p</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>TPU v5p: display $4.20 on-demand at GCP as of 01 Sep 2026. Display: GCP OD. Confirm vs 31 Aug. Term-book 1y $2.94 · 3y $1.89.</description>
   </item>
   <item>
     <title>HGX B300 · $4.48 spot</title>
     <link>https://compute.world/brief#nvidia-b300-hgx</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-b300-hgx</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>HGX B300: display $4.48 spot at CoreWeave NA as of 31 Aug 2026. Display: CoreWeave NA spot ($35.84/8 = $4.48). Confirm vs 28 Aug. OD contact sales. Term-book 1y is DigitalOcean 12m $7.94.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-b300-hgx</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>HGX B300: display $4.48 spot at CoreWeave NA as of 01 Sep 2026. Display: CoreWeave NA spot ($35.84/8 = $4.48). Confirm vs 31 Aug. OD contact sales. Term-book 1y is DigitalOcean 12m $7.94.</description>
   </item>
   <item>
     <title>Ascend 910C · $1.59 1y monthly · ¥10.79/hr</title>
     <link>https://compute.world/brief#huawei-ascend-910c</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/huawei-ascend-910c</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/huawei-ascend-910c</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
     <description>Ascend 910C: display $1.59 1y monthly · ¥10.79/hr at SMM Beijing as of 29 Jul 2026. CNY primary: ¥63,000/month per 8-card Atlas 800T A3, 1y min → ¥10.79/hr. USD ~$1.59 at PBOC 6.7899 (29 Jul 2026). No new SMM bulletin this morning.</description>
   </item>
   <item>
     <title>WSE-3 · — token / enterprise</title>
     <link>https://compute.world/brief#cerebras-wse3</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/cerebras-wse3</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/cerebras-wse3</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
     <description>WSE-3: display — token / enterprise at Cerebras as of 25 Aug 2026. No public accelerator-hour. Not re-fetched today.</description>
   </item>
   <item>
     <title>LPU · — token API</title>
     <link>https://compute.world/brief#groq-lpu</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/groq-lpu</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/groq-lpu</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
     <description>LPU: display — token API at Groq as of 25 Aug 2026. Token API. Not re-fetched today.</description>
   </item>
   <item>
     <title>GH200 · $6.50 on-demand</title>
     <link>https://compute.world/brief#nvidia-gh200</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-gh200</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>GH200: display $6.50 on-demand at CoreWeave as of 31 Aug 2026. Display: CoreWeave OD, 1 GPU. Confirm vs 28 Aug. Lambda 1x GH200 was not on today’s instance table — not re-confirmed.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-gh200</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>GH200: display $6.50 on-demand at CoreWeave as of 01 Sep 2026. Display: CoreWeave OD $6.50, 1 GPU. Confirm vs 31 Aug. Lambda 1x GH200 $2.29 was confirmed today alongside CoreWeave.</description>
   </item>
   <item>
     <title>RTX PRO 6000 Blackwell · $2.50 on-demand</title>
     <link>https://compute.world/brief#nvidia-rtx-pro-6000-blackwell</link>
-    <guid isPermaLink="false">compute.world/brief/2026-08-31/nvidia-rtx-pro-6000-blackwell</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>RTX PRO 6000 Blackwell: display $2.50 on-demand at CoreWeave as of 31 Aug 2026. Display: CoreWeave OD ($20/8). Confirm vs last CoreWeave print. Spot $1.39 ($11.09/8).</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-01/nvidia-rtx-pro-6000-blackwell</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>RTX PRO 6000 Blackwell: display $2.50 on-demand at CoreWeave as of 01 Sep 2026. Display: CoreWeave OD ($20/8). Confirm vs 31 Aug. Spot $1.39 ($11.09/8).</description>
   </item>
 </channel></rss>
