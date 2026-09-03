@@ -1,0 +1,19 @@
+DR Congo's Compute Net Worth
+compute.world/dr-congo
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 21 of 108
+at full build-out: $11.8T
+bankable today: $703B
+running today: $0.2B (estimate)
+Ceiling × GDP: 126×
+Bankable per person: $6.1k
+
+DR Congo sits on a resource ceiling of roughly 147 GW, worth $8.8T to $11.8T of AI compute at today's prices, about 126 times its $93B GDP. The bankable slice today is $703B, which is $6.1k for every citizen, discounted mainly for governance and capital. It has built 1.8% of the ceiling and runs about 5 MW on a grid of roughly 2.9 GW, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 126 times the economy.
+
+DR Congo's compute ceiling is 126 times its GDP: Sleeping Giant, No. 21 of 108 on the Compute Net Worth Index. https://compute.world/dr-congo
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

@@ -208,7 +208,8 @@ footer .c2{margin-top:10px;font-size:12px;color:var(--muted);letter-spacing:.05e
 var _e = "Y0Ncoaha".length ? "cGNoYW1hbEBhbHVtbmkuc3RhbmZvcmQuZWR1" : "";
 function onHuman(){
   var addr = atob("cGNoYW1hbEBhbHVtbmkuc3RhbmZvcmQuZWR1");
-  var subject = encodeURIComponent("The Desk · compute.world");
+  var country = (new URLSearchParams(location.search).get("country") || "").replace(/-/g, " ");
+  var subject = encodeURIComponent(country ? ("Briefing · " + country + " · compute.world") : "The Desk · compute.world");
   document.getElementById("mailbtn").href = "mailto:" + addr + "?subject=" + subject;
   document.getElementById("addr").textContent = addr;
   var r = document.getElementById("reveal");

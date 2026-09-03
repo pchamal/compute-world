@@ -1,0 +1,19 @@
+Romania's Compute Net Worth
+compute.world/romania
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 69 of 108
+at full build-out: $2.1T
+bankable today: $190B
+running today: $4.0B (estimate)
+Ceiling × GDP: 5.0×
+Bankable per person: $10.0k
+
+Romania sits on a resource ceiling of roughly 27 GW, worth $1.6T to $2.1T of AI compute at today's prices, about 5 times its $428B GDP. The bankable slice today is $190B, which is $10.0k for every citizen, discounted mainly for governance and capital. It has built 24.7% of the ceiling and runs about 80 MW on a grid of roughly 20 GW, a Gross Domestic Compute of $4.0B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Romania's compute ceiling is 5.0 times its GDP: Primed, No. 69 of 108 on the Compute Net Worth Index. https://compute.world/romania
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

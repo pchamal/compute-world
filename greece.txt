@@ -1,0 +1,19 @@
+Greece's Compute Net Worth
+compute.world/greece
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 71 of 108
+at full build-out: $1.5T
+bankable today: $183B
+running today: $5.0B (estimate)
+Ceiling × GDP: 5.5×
+Bankable per person: $18.5k
+
+Greece sits on a resource ceiling of roughly 19 GW, worth $1.1T to $1.5T of AI compute at today's prices, about 6 times its $280B GDP. The bankable slice today is $183B, which is $18.5k for every citizen, discounted mainly for governance and physical. It has built 17.8% of the ceiling and runs about 100 MW on a grid of roughly 22 GW, a Gross Domestic Compute of $5.0B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Greece's compute ceiling is 5.5 times its GDP: Primed, No. 71 of 108 on the Compute Net Worth Index. https://compute.world/greece
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

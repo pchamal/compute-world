@@ -1,0 +1,19 @@
+Algeria's Compute Net Worth
+compute.world/algeria
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 12 of 108
+at full build-out: $10.4T
+bankable today: $1.1T
+running today: $1.5B (estimate)
+Ceiling × GDP: 36.2×
+Bankable per person: $23.2k
+
+Algeria sits on a resource ceiling of roughly 130 GW, worth $7.8T to $10.4T of AI compute at today's prices, about 36 times its $286B GDP. The bankable slice today is $1.1T, which is $23.2k for every citizen, discounted mainly for capital and momentum. It has built 0.2% of the ceiling and runs about 30 MW on a grid of roughly 25 GW, a Gross Domestic Compute of $1.5B. A sleeping giant: the endowment runs 36 times the economy.
+
+Algeria's compute ceiling is 36.2 times its GDP: Sleeping Giant, No. 12 of 108 on the Compute Net Worth Index. https://compute.world/algeria
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

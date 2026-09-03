@@ -1,0 +1,38 @@
+United States's Compute Net Worth
+compute.world/united-states
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 1 of 108
+at full build-out: $45.7T
+bankable today: $6.4T
+running today: $2.0T (estimate)
+Ceiling × GDP: 1.5×
+Bankable per person: $18.3k
+
+United States sits on a resource ceiling of roughly 571 GW, worth $34.3T to $45.7T of AI compute at today's prices, about 2 times its $30.8T GDP. The bankable slice today is $6.4T, which is $18.3k for every citizen, discounted mainly for physical and governance. It has built 18.7% of the ceiling and runs 41.0 GW on a grid of roughly 1300 GW, a Gross Domestic Compute of $2.0T. An incumbent: already priced in, already building.
+
+United States's compute ceiling is 1.5 times its GDP: Incumbent, No. 1 of 108 on the Compute Net Worth Index. https://compute.world/united-states
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-08-31 US Commerce drafts remote-access rule to curb China rental of advanced GPUs via third-country DCs (Forbes / TechTimes / Congress.gov H.R.2683) https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/
+- 2026-08-28 PUCT unanimously approves Oncor 765-kV Import Path 1 CCNs (~424 mi, ~$3.95B) (Dallas Express / Oncor / Texas Tribune) https://dallasexpress.com/business-markets/texas-regulators-approve-424-miles-of-power-lines-despite-calls-to-wait/
+- 2026-08-27 SK hynix breaks ground on first US HBM packaging base in West Lafayette (SK hynix Newsroom) https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/
+- 2026-08-26 Georgia Power–OpenAI Effingham contract approved at 3,200 MW (Georgia Power / Southern Company) https://southerncompany.mediaroom.com/2026-08-26-Georgia-Powers-contract-with-OpenAI-approved-Latest-approval-part-of-portfolio-of-large-load-contracts-delivering-approximately-950-million-in-annual-savings-beginning-in-2029
+- 2026-08-25 SemiAnalysis: US taking ~70% of new AI watts; China still sub-10% (Dwarkesh Podcast / SemiAnalysis) https://www.dwarkesh.com/p/dylan-patel-3
+- 2026-08-24 Lancium × NVIDIA: undisclosed NVIDIA stake on 4 GW leased / >15 GW powered-land pipeline (Lancium) https://lancium.com/2026/08/24/lancium-announces-partnership-with-nvidia-to-advance-gigawatt-scale-ai-factory-development-across-its-15-gw-portfolio/
+- 2026-08-20 SOAH PFD: deny Oncor/LCRA Import Path 2 (Bell County East–Big Hill and Big Hill–Sand Lake 765-kV) (PUCT / SOAH) https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6441
+- 2026-08-20 PUCT grants ERCOT’s Batch Zero good-cause exceptions; classification paused pending the audit (PUCT) https://interchange.puc.texas.gov/Documents/59142_53_1675960.PDF
+- 2026-08-20 ERCOT files the Batch Zero clock: conditional classify by 31 Aug, 17 loads / 6,608 MW paused, reports 10 Dec (ERCOT / PUCT Interchange) https://interchange.puc.texas.gov/Documents/59142_52_1675838.PDF
+- 2026-08-18 Shapiro EO 2026-05: Pennsylvania gates data centers >25 MW behind a GRID consent order (Commonwealth of Pennsylvania) https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/eo2026_05_protecting%20pennsylvania%20consumers%20from%20data%20center%20impacts_final_executed.pdf
+- 2026-08-18 Amazon lifts northwest Louisiana to $18B and a third STACK campus in Shreveport (Amazon) https://www.aboutamazon.com/news/company-news/amazon-data-center-louisiana-new-jobs
+- 2026-08-17 NVIDIA caps $105B residual-value backstop on PORTS-Pike: 4.25 IT-GW, OpenAI 20-year lease, exclusive DSX (SEC) https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm
+- 2026-08-14 Draft State letter: Pax Silica / AI Opportunity signatories must pick sides vs China (Reuters) https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/
+- 2026-08-10 NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI infrastructure (NVIDIA IR) https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx
+- 2026-08-07 Amazon confirms GW Ranch: up to 7.65 GW off-grid gas for a Pecos AI campus (Cleanview) https://newsletter.cleanview.co/p/scoop-amazon-is-behind-one-of-the
+- 2026-08-03 Abbott freezes Texas interconnects: 474 GW queue, ~90% data centers, PUCT/ERCOT audit first (Office of the Texas Governor) https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit
+- 2026-07-14 Hochul EO 62: New York pauses DEC permits for data centers ≥50 MW until a GEIS lands (State of New York) https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops
+- 2026-07-14 The UAE gets a named lane in US export law, with an April 2027 sting attached (US Federal Register) https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration
+- 2026-05-12 GAO rules the US chip-export non-enforcement posture procedurally defective (US GAO (primary)) https://www.gao.gov/products/b-337935

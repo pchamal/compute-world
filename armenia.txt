@@ -1,0 +1,20 @@
+Armenia's Compute Net Worth
+compute.world/armenia
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 103 of 108
+at full build-out: $323B
+bankable today: $18B
+running today: $1.5B (estimate)
+Ceiling × GDP: 11.1×
+Bankable per person: $6.4k
+
+Armenia sits on a resource ceiling of roughly 4 GW, worth $242B to $323B of AI compute at today's prices, about 11 times its $29B GDP. The bankable slice today is $18B, which is $6.4k for every citizen, discounted mainly for capital and governance. It has built 33.9% of the ceiling and runs about 30 MW on a grid of roughly 3.5 GW, a Gross Domestic Compute of $1.5B. Emerging upside: a narrower gap, and a real one.
+
+Armenia's compute ceiling is 11.1 times its GDP: Emerging Upside, No. 103 of 108 on the Compute Net Worth Index. https://compute.world/armenia
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-08-08 Firebird's Armenia AI factory goes live: frontier-market sovereign compute has a working example (NVIDIA blog) https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/

@@ -1,0 +1,19 @@
+Sri Lanka's Compute Net Worth
+compute.world/sri-lanka
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 87 of 108
+at full build-out: $1.1T
+bankable today: $108B
+running today: $1.5B (estimate)
+Ceiling × GDP: 10.5×
+Bankable per person: $4.7k
+
+Sri Lanka sits on a resource ceiling of roughly 14 GW, worth $858B to $1.1T of AI compute at today's prices, about 10 times its $109B GDP. The bankable slice today is $108B, which is $4.7k for every citizen, discounted mainly for capital and momentum. It has built 9.8% of the ceiling and runs about 30 MW on a grid of roughly 5 GW, a Gross Domestic Compute of $1.5B. Emerging upside: a narrower gap, and a real one.
+
+Sri Lanka's compute ceiling is 10.5 times its GDP: Emerging Upside, No. 87 of 108 on the Compute Net Worth Index. https://compute.world/sri-lanka
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

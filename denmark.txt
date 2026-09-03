@@ -1,0 +1,19 @@
+Denmark's Compute Net Worth
+compute.world/denmark
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 78 of 108
+at full build-out: $826B
+bankable today: $173B
+running today: $20B (estimate)
+Ceiling × GDP: 1.8×
+Bankable per person: $28.8k
+
+Denmark sits on a resource ceiling of roughly 10 GW, worth $619B to $826B of AI compute at today's prices, about 2 times its $462B GDP. The bankable slice today is $173B, which is $28.8k for every citizen, discounted mainly for capital and governance. It has built 0.0% of the ceiling and runs about 400 MW on a grid of roughly 20 GW, a Gross Domestic Compute of $20B. An incumbent: already priced in, already building.
+
+Denmark's compute ceiling is 1.8 times its GDP: Incumbent, No. 78 of 108 on the Compute Net Worth Index. https://compute.world/denmark
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

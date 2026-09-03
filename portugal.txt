@@ -1,0 +1,19 @@
+Portugal's Compute Net Worth
+compute.world/portugal
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 68 of 108
+at full build-out: $1.7T
+bankable today: $197B
+running today: $5.0B (estimate)
+Ceiling × GDP: 4.9×
+Bankable per person: $19.7k
+
+Portugal sits on a resource ceiling of roughly 21 GW, worth $1.3T to $1.7T of AI compute at today's prices, about 5 times its $346B GDP. The bankable slice today is $197B, which is $19.7k for every citizen, discounted mainly for governance and physical. It has built 33.0% of the ceiling and runs about 100 MW on a grid of roughly 22 GW, a Gross Domestic Compute of $5.0B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Portugal's compute ceiling is 4.9 times its GDP: Primed, No. 68 of 108 on the Compute Net Worth Index. https://compute.world/portugal
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

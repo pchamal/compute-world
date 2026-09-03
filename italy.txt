@@ -1,0 +1,19 @@
+Italy's Compute Net Worth
+compute.world/italy
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 75 of 108
+at full build-out: $3.0T
+bankable today: $179B
+running today: $20B (estimate)
+Ceiling × GDP: 1.2×
+Bankable per person: $3.0k
+
+Italy sits on a resource ceiling of roughly 38 GW, worth $2.3T to $3.0T of AI compute at today's prices, about 1 times its $2.5T GDP. The bankable slice today is $179B, which is $3.0k for every citizen, discounted mainly for governance and physical. It has built 61.0% of the ceiling and runs about 400 MW on a grid of roughly 130 GW, a Gross Domestic Compute of $20B. An incumbent: already priced in, already building.
+
+Italy's compute ceiling is 1.2 times its GDP: Incumbent, No. 75 of 108 on the Compute Net Worth Index. https://compute.world/italy
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

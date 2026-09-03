@@ -1,0 +1,19 @@
+Panama's Compute Net Worth
+compute.world/panama
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 102 of 108
+at full build-out: $401B
+bankable today: $21B
+running today: $3.0B (estimate)
+Ceiling × GDP: 4.5×
+Bankable per person: $4.5k
+
+Panama sits on a resource ceiling of roughly 5 GW, worth $301B to $401B of AI compute at today's prices, about 4 times its $90B GDP. The bankable slice today is $21B, which is $4.5k for every citizen, discounted mainly for governance and physical. It has built 35.9% of the ceiling and runs about 60 MW on a grid of roughly 4.5 GW, a Gross Domestic Compute of $3.0B. Emerging upside: a narrower gap, and a real one.
+
+Panama's compute ceiling is 4.5 times its GDP: Emerging Upside, No. 102 of 108 on the Compute Net Worth Index. https://compute.world/panama
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

@@ -1,0 +1,19 @@
+Philippines's Compute Net Worth
+compute.world/philippines
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 55 of 108
+at full build-out: $3.0T
+bankable today: $281B
+running today: $5.0B (estimate)
+Ceiling × GDP: 6.2×
+Bankable per person: $2.4k
+
+Philippines sits on a resource ceiling of roughly 38 GW, worth $2.3T to $3.0T of AI compute at today's prices, about 6 times its $487B GDP. The bankable slice today is $281B, which is $2.4k for every citizen, discounted mainly for governance and physical. It has built 18.9% of the ceiling and runs about 100 MW on a grid of roughly 30 GW, a Gross Domestic Compute of $5.0B. Emerging upside: a narrower gap, and a real one.
+
+Philippines's compute ceiling is 6.2 times its GDP: Emerging Upside, No. 55 of 108 on the Compute Net Worth Index. https://compute.world/philippines
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

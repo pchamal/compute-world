@@ -1,0 +1,19 @@
+Japan's Compute Net Worth
+compute.world/japan
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 14 of 108
+at full build-out: $4.9T
+bankable today: $1.0T
+running today: $100B (estimate)
+Ceiling × GDP: 1.1×
+Bankable per person: $8.6k
+
+Japan sits on a resource ceiling of roughly 62 GW, worth $3.7T to $4.9T of AI compute at today's prices, about 1 times its $4.4T GDP. The bankable slice today is $1.0T, which is $8.6k for every citizen, discounted mainly for physical and governance. It has built 38.2% of the ceiling and runs 2.0 GW on a grid of roughly 340 GW, a Gross Domestic Compute of $100B. An incumbent: already priced in, already building.
+
+Japan's compute ceiling is 1.1 times its GDP: Incumbent, No. 14 of 108 on the Compute Net Worth Index. https://compute.world/japan
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

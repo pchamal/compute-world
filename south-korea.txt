@@ -1,0 +1,22 @@
+South Korea's Compute Net Worth
+compute.world/south-korea
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 79 of 108
+at full build-out: $1.1T
+bankable today: $172B
+running today: $40B (estimate)
+Ceiling × GDP: 0.6×
+Bankable per person: $3.3k
+
+South Korea sits on a resource ceiling of roughly 14 GW, worth $840B to $1.1T of AI compute at today's prices, about 1 times its $1.9T GDP. The bankable slice today is $172B, which is $3.3k for every citizen, discounted mainly for governance and stability. It has built 12.9% of the ceiling and runs about 800 MW on a grid of roughly 145 GW, a Gross Domestic Compute of $40B. An incumbent: already priced in, already building.
+
+South Korea's compute ceiling is 0.6 times its GDP: Incumbent, No. 79 of 108 on the Compute Net Worth Index. https://compute.world/south-korea
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-08-27 SK hynix breaks ground on first US HBM packaging base in West Lafayette (SK hynix Newsroom) https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/
+- 2026-08-07 SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031 (SEC) https://www.sec.gov/Archives/edgar/data/2120882/000119312526339024/d13432d6k.htm
+- 2026-07-29 South Korea's AIDC Alliance sets an 18.4 GW datacenter target by 2035 (TechTimes) https://www.techtimes.com/articles/322134/20260729/south-koreas-aidc-alliance-opens-184gw-target-uae-export-push.htm

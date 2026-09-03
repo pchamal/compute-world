@@ -1,0 +1,19 @@
+Mozambique's Compute Net Worth
+compute.world/mozambique
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 35 of 108
+at full build-out: $5.0T
+bankable today: $507B
+running today: $0.2B (estimate)
+Ceiling × GDP: 226×
+Bankable per person: $13.7k
+
+Mozambique sits on a resource ceiling of roughly 62 GW, worth $3.7T to $5.0T of AI compute at today's prices, about 226 times its $22B GDP. The bankable slice today is $507B, which is $13.7k for every citizen, discounted mainly for capital and governance. It has built 3.6% of the ceiling and runs about 5 MW on a grid of roughly 2.9 GW, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 226 times the economy.
+
+Mozambique's compute ceiling is 226 times its GDP: Sleeping Giant, No. 35 of 108 on the Compute Net Worth Index. https://compute.world/mozambique
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

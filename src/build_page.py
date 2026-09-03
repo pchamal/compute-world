@@ -197,7 +197,7 @@ for s in slim:
     s["dl"] = 1 if vel > 0.15 else (-1 if (vel < -0.05 or (has_stall and vel <= 0)) else 0)
     s["rw"] = (latest["title"][:76] + ("…" if len(latest["title"]) > 76 else "")) if latest else \
               ("Live buildout underway" if bpts >= 0.7 else "Contracted, awaiting steel" if bpts >= 0.5 else
-               "Announced, unproven" if bpts >= 0.25 else "No live signals yet")
+               "Announced, unproven" if bpts >= 0.25 else "No signals scored yet. Send one to the Desk.")
 movers = sorted([s for s in slim if s["dl"] >= 0], key=lambda s: (-s["rz"], -s["u"]))[:10]
 fallers = sorted([s for s in slim if s["dl"] < 0], key=lambda s: -s["hi"])
 asleep = sorted([s for s in slim if s["rz"] < 12 and s["t"] == "Sleeping Giant" and s["dl"] >= 0],
@@ -1800,9 +1800,11 @@ html = (TPL.replace("__DATA__", json.dumps(slim, ensure_ascii=False))
            .replace("__BOARD_UP__", BOARD_UP).replace("__BOARD_DN__", BOARD_DN)
            .replace("__DSG_COUNT__", str(demSG_count)).replace("__DSG_SUM__", f"{demSG_sum:.0f}")
            .replace("__GAZ__", gaz_html).replace("__PREC_ROWS__", prec_rows))
+# Phase 1 homepage is src/build_home.py (python3 src/build_all.py). Keep the
+# pre-redesign essay build as a dated archive so a copy cannot clobber /.
 open("2026-08-10 — Compute World — compute.world Launch Page v1.5.html","w").write(html)
 os.makedirs("deploy", exist_ok=True)
-open("deploy/index.html","w").write(html)
+open("deploy/index.legacy.html","w").write(html)
 json.dump(PARAMS, open("deploy/params.json","w"), indent=1)
 json.dump(DATASET, open("deploy/data.json","w"), ensure_ascii=False, indent=1)
 _robots = robots_txt()

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7f4ee">
+<script>(function(){try{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
+<title>Data feeds · compute.world</title>
+<meta name="description" content="Machine-readable feeds for the Compute Net Worth Index.">
+<link rel="canonical" href="https://compute.world/data">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:site_name" content="compute.world">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Data feeds · compute.world">
+<meta property="og:description" content="Machine-readable feeds for the Compute Net Worth Index.">
+<meta property="og:url" content="https://compute.world/data">
+<meta property="og:image" content="https://compute.world/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Data feeds · compute.world">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Data feeds · compute.world">
+<meta name="twitter:description" content="Machine-readable feeds for the Compute Net Worth Index.">
+<meta name="twitter:image" content="https://compute.world/og.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23f7f4ee'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23171614' text-anchor='middle'>W</text></svg>">
+<link rel="license" href="/license">
+
+<style>
+:root{
+  --paper:#f7f4ee;--ink:#171614;--rule:#d9d4ca;--muted:#6b675f;--est:#8e8a82;
+  --up:#2e6b4f;--stall:#7a1f2b;
+  --sg:#2f4a6d;--pr:#2e6b4f;--in:#5a5752;--eu:#9a6b1c;--lr:#a89a7f;
+  --serif:Charter,Georgia,"Iowan Old Style",serif;
+  --sans:Inter,"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --max:1120px;--radius:4px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:var(--paper)}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);
+  font-size:18px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--stall);text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover{border-bottom-color:var(--ink)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+.tnum,.ix td,.ix th,.cert .num,.money,.rk{font-family:var(--sans);
+  font-variant-numeric:lining-nums tabular-nums}
+.est{color:var(--est)}
+.dash{color:var(--muted)}
+
+/* type scale */
+.display{font-size:56px;line-height:1.15;font-weight:400;letter-spacing:-0.02em}
+h1{font-size:40px;line-height:1.15;font-weight:400}
+h2{font-size:28px;line-height:1.2;font-weight:400}
+h3{font-size:20px;line-height:1.3;font-weight:400}
+.small{font-size:15px}.micro{font-size:13px;color:var(--muted)}
+.prose{max-width:72ch}
+.prose p{margin:0 0 1em}
+
+/* masthead */
+.mast{padding:22px 0 0}
+.mast-top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:10px 24px}
+.wordmark{font-size:15px;letter-spacing:.28em;border:none;color:var(--ink);font-weight:600}
+.wordmark:hover{border:none}
+.mast-meta{font-family:var(--sans);font-size:13px;color:var(--muted)}
+.mast-sub{margin-top:6px;font-size:15px;color:var(--muted)}
+.mast-rule{margin-top:16px;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);height:4px}
+.nav{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:center;margin-top:12px;font-family:var(--sans);font-size:15px}
+.nav a{border:none;color:var(--ink)}
+.nav a:hover{color:var(--stall)}
+.nav a.here{border-bottom:1px solid var(--ink)}
+.nav .drop{position:relative}
+.nav .drop summary{list-style:none;cursor:pointer}
+.nav .drop summary::-webkit-details-marker{display:none}
+.nav .drop-list{position:absolute;top:120%;left:0;background:var(--paper);border:1px solid var(--rule);
+  border-radius:var(--radius);padding:8px 0;min-width:160px;z-index:8}
+.nav .drop-list a{display:block;padding:6px 14px;white-space:nowrap}
+
+/* footer */
+.foot{margin-top:72px;border-top:1px solid var(--ink);padding:28px 0 56px}
+.foot-links{display:flex;flex-wrap:wrap;gap:8px 22px;font-family:var(--sans);font-size:15px}
+.foot-links a{border:none;color:var(--ink)}
+.foot-links a:hover{color:var(--stall)}
+.cite{margin-top:16px;font-size:15px;color:var(--muted)}
+.cite code{font-family:var(--sans);font-size:14px;color:var(--ink)}
+.tm{margin-top:14px;font-size:13px;color:var(--muted);max-width:72ch}
+
+/* buttons / ctas — say what happens; no appended arrows */
+.btn{display:inline-block;font-family:var(--sans);font-size:15px;padding:9px 14px;
+  border:1px solid var(--ink);border-radius:var(--radius);background:var(--paper);color:var(--ink);
+  cursor:pointer}
+.btn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn-ink{background:var(--ink);color:var(--paper)}
+.btn-ink:hover{background:var(--stall);border-color:var(--stall)}
+
+/* certificate */
+.cert{border:1px solid var(--rule);border-radius:var(--radius);padding:22px 24px 20px;
+  background:var(--paper)}
+.cert.settle{animation:settle .6s ease both}
+@keyframes settle{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.cert.settle{animation:none}}
+.cert-flag{font-size:28px;line-height:1}
+.cert-name{font-size:28px;line-height:1.15;margin:6px 0 10px}
+.seal{display:inline-flex;align-items:center;justify-content:center;min-width:28px;height:28px;
+  padding:0 10px;border-radius:999px;color:#f7f4ee;font-family:var(--sans);font-size:12px}
+.seal.sg{background:var(--sg)}.seal.pr{background:var(--pr)}.seal.in{background:var(--in)}
+.seal.eu{background:var(--eu)}.seal.lr{background:var(--lr)}
+.cert-serial{margin:10px 0 14px;font-family:var(--sans);font-size:15px}
+.delta.up{color:var(--up)}.delta.down{color:var(--stall)}.delta.flat{color:var(--muted)}
+.cert-nums{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);padding:14px 0;margin:4px 0 12px}
+.cert-nums .v{font-size:22px;line-height:1.15}
+.cert-nums .l{font-size:13px;color:var(--muted);margin-top:3px}
+.cert-extra{display:flex;flex-wrap:wrap;gap:8px 22px;font-family:var(--sans);font-size:14px;margin-bottom:12px}
+.coupon{display:flex;flex-wrap:wrap;gap:4px;margin:10px 0}
+.coupon i{display:inline-block;font-family:var(--sans);font-style:normal;font-size:11px;
+  border:1px solid var(--rule);border-radius:var(--radius);padding:3px 6px;color:var(--muted)}
+.coupon i.on{border-color:var(--ink);color:var(--ink)}
+.cert-verdict{font-size:15px;margin:8px 0 6px}
+.cert-asof{font-size:13px;color:var(--muted)}
+
+/* subscribe */
+.sub{margin:48px 0 8px;padding:22px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+  display:grid;grid-template-columns:minmax(0,1.2fr) minmax(220px,.9fr);gap:16px 32px;align-items:end}
+.sub form{display:flex;flex-wrap:wrap;gap:8px}
+.sub input[type=email]{flex:1 1 180px;min-width:0;font:inherit;font-size:16px;padding:10px 12px;
+  border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:var(--radius)}
+.sub .lists{display:flex;flex-wrap:wrap;gap:8px 14px;width:100%;font-size:14px;color:var(--muted)}
+.sub .submsg{margin-top:8px;font-size:14px;min-height:1.3em}
+.sub .submsg.err{color:var(--stall)}.sub .submsg.ok{color:var(--up)}
+
+@media(max-width:768px){
+  .wrap{padding:0 18px}
+  .display{font-size:36px}
+  h1{font-size:28px}
+  h2{font-size:22px}
+  body{font-size:17px}
+  .cert-nums{grid-template-columns:1fr}
+  .sub{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+<header class="mast wrap">
+  <div class="mast-top">
+    <a class="wordmark" href="/">COMPUTE.WORLD</a>
+    <div class="mast-meta">2 September 2026</div>
+  </div>
+  <div class="mast-sub">The Compute Net Worth Index</div>
+  <div class="mast-rule"></div>
+  <nav class="nav" aria-label="Primary"><a href="/#index">Index</a><a href="/#movers">Movers</a><details class="drop"><summary>Markets</summary><div class="drop-list"><a href="/silicon.html">Silicon Tape</a><a href="/inference.html">Inference</a><a href="/neoclouds.html">Neoclouds</a><a href="/hyperscalers.html">Hyperscalers</a><a href="/wire.html">Wire</a><a href="/brief">Brief</a></div></details><a href="/thesis">Thesis</a><a href="/data" class="here" aria-current="page">Data</a><a href="/contact.html">Desk</a></nav>
+</header>
+
+
+<section class="wrap prose" style="padding:48px 0 24px">
+  <h1>Data feeds</h1>
+  <p>Machine-readable sources of truth. No invented prices or interpolated ranks.</p>
+  <ul>
+    <li><a href="/data.json">data.json</a> — 108 countries, all metrics, precedents</li>
+    <li><a href="/params.json">params.json</a> — weekly $/GW band</li>
+    <li><a href="/rank-history.json">rank-history.json</a> — dated observed ranks</li>
+    <li><a href="/wire.json">wire.json</a> — scored conversion signals</li>
+    <li><a href="/silicon.json">silicon.json</a> — the Silicon Tape</li>
+    <li><a href="/silicon-history.json">silicon-history.json</a> — dated chip prints</li>
+    <li><a href="/brief.json">brief.json</a> — the weekday brief</li>
+    <li><a href="/inference.json">inference.json</a>, <a href="/neoclouds.json">neoclouds.json</a>, <a href="/hyperscalers.json">hyperscalers.json</a></li>
+    <li><a href="/data-centers.json">data-centers.json</a>, <a href="/campuses.json">campuses.json</a></li>
+  </ul>
+  <p>RSS: <a href="/brief.xml">brief</a>, <a href="/silicon.xml">silicon</a>, <a href="/wire.xml">wire</a>, <a href="/inference.xml">inference</a>, <a href="/neoclouds.xml">neoclouds</a>, <a href="/hyperscalers.xml">hyperscalers.xml</a>.</p>
+  <p>Plain-text country siblings live at <code>/{slug}.txt</code> and are listed in <a href="/llms.txt">llms.txt</a>.</p>
+</section>
+
+<footer class="foot wrap">
+  <div class="foot-links">
+    <a href="#cite">Cite as</a>
+    <a href="/embed.html">Embed</a>
+    <a href="/data">Data feeds</a>
+    <a href="/license">License</a>
+    <a href="/contact.html">Press and contact</a>
+    <a href="/agents.html">For agents</a>
+  </div>
+  <p class="cite" id="cite">Cite as: <code>Hamal, P. (2026). The Compute Net Worth Index. compute.world.</code></p>
+  <p class="tm">“Compute Net Worth”, “The Compute Net Worth Index” and “Gross Domestic Compute” (GDC) are trademarks of Pukar C. Hamal. The mark is asserted here and on the <a href="/license">license</a> page. Scores are proprietary; quoting with attribution is free for research and press.</p>
+</footer>
+
+</body></html>

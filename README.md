@@ -10,7 +10,12 @@ Created by **Pukar C. Hamal**. First published August 10, 2026, San Francisco, C
 ## What is in here
 
 ```
-index.html      the site: Countries tab (board, index, essay) and Silicon tab (the tape)
+index.html      the Compute Net Worth Index (geo certificate, movers, table)
+nepal/          country pages at /{slug} (108); plain text at /nepal.txt
+og/nepal.png    per-country Open Graph image (1200×630)
+thesis.html     the essay (sections I–VII)
+license.html    attribution-free uses, commercial license, trademark notice
+data.html       machine-readable feeds
 silicon.html    The Silicon Tape — standalone shareable rental index (from silicon.json)
 silicon.json    Silicon Tape source of truth (CC BY 4.0)
 silicon-history.json  append-only dated observed prints (no interpolations; each scrape adds a point)
@@ -61,6 +66,14 @@ edit `params.json`, commit, done.
 - **Campuses globe:** edit `campuses.json`, then `python3 src/build_campuses.py`.
   Do not invent cities, MW, ranks, or statuses. Every pin is the JSON. Grain stays
   on the pin. Empty regions and empty small-MW filters are coverage holes, not bugs.
+- **Homepage and country pages (Phase 1):** `python3 src/build_all.py` writes
+  `index.html`, `thesis.html`, `license.html`, `data.html`, `{slug}/index.html`,
+  `{slug}.txt`, `og/{slug}.png`, `llms.txt`, and `sitemap.xml` into the repo
+  root. Needs Pillow and CairoSVG (`pip install pillow cairosvg`). Flag SVGs
+  cache in `src/flags/`.
+  Cloudflare Pages has no build command; a GitHub Action (`.github/workflows/index.yml`)
+  commits the generated files the same way `silicon.yml` rebuilds the tape.
+
 - **Data or copy changes:** edit the inputs in `src/` (country rows in `cnw_model.py`,
   ratings and democracy in `aux_data.py`, macro in `macro_data.py`, live capacity in
   `gdc_data.py`, page template and blurbs in `build_page.py`), then rebuild:
@@ -68,11 +81,12 @@ edit `params.json`, commit, done.
   ```
   cd src
   python3 cnw_model.py      # recompute the model
-  python3 build_page.py     # regenerates the site into src/deploy/
+  python3 build_all.py      # homepage, 108 country pages, OG images, thesis, license
+  python3 build_page.py     # regenerates data.json / agents / embed into src/deploy/
   python3 build_silicon.py  # regenerates silicon.html + silicon.xml from silicon.json
   python3 build_brief.py    # regenerates brief.html + brief.xml from brief.json
   python3 make_og.py        # regenerates og.png, og-silicon.png, og-brief.png
-  cp deploy/index.html deploy/data.json deploy/params.json deploy/llms.txt deploy/sitemap.xml deploy/robots.txt deploy/agents.html ..
+  cp deploy/data.json deploy/params.json deploy/agents.html deploy/embed.html ..
   ```
 
 - **Subscribe list (email):** the form posts to `/api/subscribe` (`functions/api/subscribe.js`).

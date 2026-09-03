@@ -1,0 +1,19 @@
+France's Compute Net Worth
+compute.world/france
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 36 of 108
+at full build-out: $2.8T
+bankable today: $414B
+running today: $50B (estimate)
+Ceiling × GDP: 0.8×
+Bankable per person: $6.2k
+
+France sits on a resource ceiling of roughly 35 GW, worth $2.1T to $2.8T of AI compute at today's prices, about 1 times its $3.4T GDP. The bankable slice today is $414B, which is $6.2k for every citizen, discounted mainly for stability and governance. It has built 56.9% of the ceiling and runs 1.0 GW on a grid of roughly 145 GW, a Gross Domestic Compute of $50B. An incumbent: already priced in, already building.
+
+France's compute ceiling is 0.8 times its GDP: Incumbent, No. 36 of 108 on the Compute Net Worth Index. https://compute.world/france
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

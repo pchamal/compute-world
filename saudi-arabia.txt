@@ -1,0 +1,20 @@
+Saudi Arabia's Compute Net Worth
+compute.world/saudi-arabia
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 9 of 108
+at full build-out: $10.2T
+bankable today: $1.6T
+running today: $15B (estimate)
+Ceiling × GDP: 8.0×
+Bankable per person: $46.6k
+
+Saudi Arabia sits on a resource ceiling of roughly 128 GW, worth $7.6T to $10.2T of AI compute at today's prices, about 8 times its $1.3T GDP. The bankable slice today is $1.6T, which is $46.6k for every citizen, discounted mainly for physical and governance. It has built 0.0% of the ceiling and runs about 300 MW on a grid of roughly 90 GW, a Gross Domestic Compute of $15B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Saudi Arabia's compute ceiling is 8.0 times its GDP: Primed, No. 9 of 108 on the Compute Net Worth Index. https://compute.world/saudi-arabia
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-08-05 DataVolt: Neom Oxagon 1.5 GW AI factory enters last-mile, groundbreaking in 2–3 months (AGBI) https://www.agbi.com/tech/2026/08/neom-to-start-constructing-oxagon-ai-data-centre-in-months/

@@ -1,0 +1,19 @@
+Sudan's Compute Net Worth
+compute.world/sudan
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 39 of 108
+at full build-out: $8.7T
+bankable today: $369B
+running today: $0.1B (estimate)
+Ceiling × GDP: 218×
+Bankable per person: $7.0k
+
+Sudan sits on a resource ceiling of roughly 109 GW, worth $6.5T to $8.7T of AI compute at today's prices, about 218 times its $40B GDP. The bankable slice today is $369B, which is $7.0k for every citizen, discounted mainly for stability and governance. It has built 1.5% of the ceiling and runs about 2 MW on a grid of roughly 3.5 GW, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 218 times the economy.
+
+Sudan's compute ceiling is 218 times its GDP: Sleeping Giant, No. 39 of 108 on the Compute Net Worth Index. https://compute.world/sudan
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

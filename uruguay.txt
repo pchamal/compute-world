@@ -1,0 +1,19 @@
+Uruguay's Compute Net Worth
+compute.world/uruguay
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 62 of 108
+at full build-out: $1.5T
+bankable today: $214B
+running today: $2.5B (estimate)
+Ceiling × GDP: 16.9×
+Bankable per person: $62.9k
+
+Uruguay sits on a resource ceiling of roughly 18 GW, worth $1.1T to $1.5T of AI compute at today's prices, about 17 times its $86B GDP. The bankable slice today is $214B, which is $62.9k for every citizen, discounted mainly for capital and fiber. It has built 8.3% of the ceiling and runs about 50 MW on a grid of roughly 5 GW, a Gross Domestic Compute of $2.5B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Uruguay's compute ceiling is 16.9 times its GDP: Primed, No. 62 of 108 on the Compute Net Worth Index. https://compute.world/uruguay
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

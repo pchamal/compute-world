@@ -1,0 +1,19 @@
+Venezuela's Compute Net Worth
+compute.world/venezuela
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 60 of 108
+at full build-out: $5.8T
+bankable today: $238B
+running today: $1.0B (estimate)
+Ceiling × GDP: 57.5×
+Bankable per person: $8.2k
+
+Venezuela sits on a resource ceiling of roughly 72 GW, worth $4.3T to $5.8T of AI compute at today's prices, about 58 times its $100B GDP. The bankable slice today is $238B, which is $8.2k for every citizen, discounted mainly for governance and stability. It has built 25.0% of the ceiling and runs about 20 MW on a grid of roughly 12 GW, a Gross Domestic Compute of $1.0B. A sleeping giant: the endowment runs 58 times the economy.
+
+Venezuela's compute ceiling is 57.5 times its GDP: Sleeping Giant, No. 60 of 108 on the Compute Net Worth Index. https://compute.world/venezuela
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

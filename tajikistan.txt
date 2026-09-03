@@ -1,0 +1,19 @@
+Tajikistan's Compute Net Worth
+compute.world/tajikistan
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 49 of 108
+at full build-out: $5.2T
+bankable today: $314B
+running today: $0.2B (estimate)
+Ceiling × GDP: 289×
+Bankable per person: $28.5k
+
+Tajikistan sits on a resource ceiling of roughly 65 GW, worth $3.9T to $5.2T of AI compute at today's prices, about 289 times its $18B GDP. The bankable slice today is $314B, which is $28.5k for every citizen, discounted mainly for governance and the grid. It has built 9.1% of the ceiling and runs about 5 MW on a grid of roughly 6.5 GW, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 289 times the economy.
+
+Tajikistan's compute ceiling is 289 times its GDP: Sleeping Giant, No. 49 of 108 on the Compute Net Worth Index. https://compute.world/tajikistan
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

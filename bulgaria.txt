@@ -1,0 +1,19 @@
+Bulgaria's Compute Net Worth
+compute.world/bulgaria
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 97 of 108
+at full build-out: $497B
+bankable today: $31B
+running today: $2.5B (estimate)
+Ceiling × GDP: 3.8×
+Bankable per person: $4.6k
+
+Bulgaria sits on a resource ceiling of roughly 6 GW, worth $373B to $497B of AI compute at today's prices, about 4 times its $131B GDP. The bankable slice today is $31B, which is $4.6k for every citizen, discounted mainly for governance and capital. It has built 54.7% of the ceiling and runs about 50 MW on a grid of roughly 12 GW, a Gross Domestic Compute of $2.5B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Bulgaria's compute ceiling is 3.8 times its GDP: Primed, No. 97 of 108 on the Compute Net Worth Index. https://compute.world/bulgaria
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

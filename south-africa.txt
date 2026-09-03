@@ -1,0 +1,19 @@
+South Africa's Compute Net Worth
+compute.world/south-africa
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 22 of 108
+at full build-out: $6.0T
+bankable today: $695B
+running today: $18B (estimate)
+Ceiling × GDP: 14.0×
+Bankable per person: $10.7k
+
+South Africa sits on a resource ceiling of roughly 75 GW, worth $4.5T to $6.0T of AI compute at today's prices, about 14 times its $427B GDP. The bankable slice today is $695B, which is $10.7k for every citizen, discounted mainly for the grid and governance. It has built 4.7% of the ceiling and runs about 350 MW on a grid of roughly 63 GW, a Gross Domestic Compute of $18B. A sleeping giant: the endowment runs 14 times the economy.
+
+South Africa's compute ceiling is 14.0 times its GDP: Sleeping Giant, No. 22 of 108 on the Compute Net Worth Index. https://compute.world/south-africa
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

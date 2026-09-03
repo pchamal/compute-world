@@ -1,0 +1,19 @@
+Zambia's Compute Net Worth
+compute.world/zambia
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 51 of 108
+at full build-out: $3.5T
+bankable today: $296B
+running today: $0.5B (estimate)
+Ceiling × GDP: 120×
+Bankable per person: $12.9k
+
+Zambia sits on a resource ceiling of roughly 44 GW, worth $2.6T to $3.5T of AI compute at today's prices, about 120 times its $29B GDP. The bankable slice today is $296B, which is $12.9k for every citizen, discounted mainly for capital and the grid. It has built 7.2% of the ceiling and runs about 10 MW on a grid of roughly 3.8 GW, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 120 times the economy.
+
+Zambia's compute ceiling is 120 times its GDP: Sleeping Giant, No. 51 of 108 on the Compute Net Worth Index. https://compute.world/zambia
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

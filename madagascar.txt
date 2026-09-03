@@ -1,0 +1,19 @@
+Madagascar's Compute Net Worth
+compute.world/madagascar
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 32 of 108
+at full build-out: $6.8T
+bankable today: $529B
+running today: $0.2B (estimate)
+Ceiling × GDP: 340×
+Bankable per person: $15.6k
+
+Madagascar sits on a resource ceiling of roughly 85 GW, worth $5.1T to $6.8T of AI compute at today's prices, about 340 times its $20B GDP. The bankable slice today is $529B, which is $15.6k for every citizen, discounted mainly for governance and the grid. It has built 0.2% of the ceiling and runs about 5 MW on a grid of roughly 0.9 GW, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 340 times the economy.
+
+Madagascar's compute ceiling is 340 times its GDP: Sleeping Giant, No. 32 of 108 on the Compute Net Worth Index. https://compute.world/madagascar
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

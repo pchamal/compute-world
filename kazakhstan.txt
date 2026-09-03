@@ -1,0 +1,20 @@
+Kazakhstan's Compute Net Worth
+compute.world/kazakhstan
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 15 of 108
+at full build-out: $6.4T
+bankable today: $911B
+running today: $5.0B (estimate)
+Ceiling × GDP: 21.0×
+Bankable per person: $43.4k
+
+Kazakhstan sits on a resource ceiling of roughly 80 GW, worth $4.8T to $6.4T of AI compute at today's prices, about 21 times its $303B GDP. The bankable slice today is $911B, which is $43.4k for every citizen, discounted mainly for governance and capital. It has built 4.0% of the ceiling and runs about 100 MW on a grid of roughly 24 GW, a Gross Domestic Compute of $5.0B. A sleeping giant: the endowment runs 21 times the economy.
+
+Kazakhstan's compute ceiling is 21.0 times its GDP: Sleeping Giant, No. 15 of 108 on the Compute Net Worth Index. https://compute.world/kazakhstan
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-06-15 Kazakhstan signs $10B with NVIDIA and Firebird for a gigawatt-scale Data Center Valley at Ekibastuz (Times of Central Asia) https://timesca.com/kazakhstan-and-u-s-ai-companies-sign-agreements-worth-10-billion/

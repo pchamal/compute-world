@@ -1,0 +1,19 @@
+Myanmar's Compute Net Worth
+compute.world/myanmar
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 52 of 108
+at full build-out: $9.9T
+bankable today: $296B
+running today: $0.2B (estimate)
+Ceiling × GDP: 121×
+Bankable per person: $5.4k
+
+Myanmar sits on a resource ceiling of roughly 124 GW, worth $7.4T to $9.9T of AI compute at today's prices, about 121 times its $82B GDP. The bankable slice today is $296B, which is $5.4k for every citizen, discounted mainly for stability and governance. It has built 2.7% of the ceiling and runs about 5 MW on a grid of roughly 7 GW, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 121 times the economy.
+
+Myanmar's compute ceiling is 121 times its GDP: Sleeping Giant, No. 52 of 108 on the Compute Net Worth Index. https://compute.world/myanmar
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

@@ -1,0 +1,19 @@
+Nigeria's Compute Net Worth
+compute.world/nigeria
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 34 of 108
+at full build-out: $4.6T
+bankable today: $517B
+running today: $5.0B (estimate)
+Ceiling × GDP: 15.7×
+Bankable per person: $2.1k
+
+Nigeria sits on a resource ceiling of roughly 57 GW, worth $3.4T to $4.6T of AI compute at today's prices, about 16 times its $290B GDP. The bankable slice today is $517B, which is $2.1k for every citizen, discounted mainly for the grid and governance. It has built 4.0% of the ceiling and runs about 100 MW on a grid of roughly 13 GW, a Gross Domestic Compute of $5.0B. A sleeping giant: the endowment runs 16 times the economy.
+
+Nigeria's compute ceiling is 15.7 times its GDP: Sleeping Giant, No. 34 of 108 on the Compute Net Worth Index. https://compute.world/nigeria
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

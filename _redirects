@@ -1,0 +1,4 @@
+# Cloudflare Pages pretty URLs for extracted essay / license / data feeds.
+/thesis /thesis.html 200
+/license /license.html 200
+/data /data.html 200

@@ -1,0 +1,22 @@
+Taiwan's Compute Net Worth
+compute.world/taiwan
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 81 of 108
+at full build-out: $1.3T
+bankable today: $153B
+running today: $22B (estimate)
+Ceiling × GDP: 1.4×
+Bankable per person: $6.7k
+
+Taiwan sits on a resource ceiling of roughly 16 GW, worth $943B to $1.3T of AI compute at today's prices, about 1 times its $920B GDP. The bankable slice today is $153B, which is $6.7k for every citizen, discounted mainly for physical and stability. It has built 29.9% of the ceiling and runs about 450 MW on a grid of roughly 65 GW, a Gross Domestic Compute of $22B. An incumbent: already priced in, already building.
+
+Taiwan's compute ceiling is 1.4 times its GDP: Incumbent, No. 81 of 108 on the Compute Net Worth Index. https://compute.world/taiwan
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-08-27 Powertech books FOPLP AI packaging capacity through 2030; $2.2B ramp + Singapore–Broadcom line (Taipei Times / Nikkei Asia) https://www.taipeitimes.com/News/biz/archives/2026/08/27/2003863180
+- 2026-08-24 Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 servers diverted to China (CNA / Focus Taiwan (Keelung prosecutors)) https://focustaiwan.tw/society/202608240023
+- 2026-06-01 Huang at GTC Taipei: AI factories at $50-60B per GW now, $80-100B per GW soon (SiliconANGLE) https://siliconangle.com/2026/06/01/five-thoughts-nvidia-ceo-jensen-huangs-gtc-taipei-2026-keynote/

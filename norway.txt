@@ -1,0 +1,20 @@
+Norway's Compute Net Worth
+compute.world/norway
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 50 of 108
+at full build-out: $4.2T
+bankable today: $297B
+running today: $15B (estimate)
+Ceiling × GDP: 8.0×
+Bankable per person: $52.1k
+
+Norway sits on a resource ceiling of roughly 53 GW, worth $3.2T to $4.2T of AI compute at today's prices, about 8 times its $531B GDP. The bankable slice today is $297B, which is $52.1k for every citizen, discounted mainly for governance and capital. It has built 64.1% of the ceiling and runs about 300 MW on a grid of roughly 40 GW, a Gross Domestic Compute of $15B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Norway's compute ceiling is 8.0 times its GDP: Primed, No. 50 of 108 on the Compute Net Worth Index. https://compute.world/norway
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-04-15 Microsoft contracts 30,000 Rubin GPUs at Nscale's hydro-powered Narvik site (Data Center Dynamics) https://www.datacenterdynamics.com/en/news/microsoft-contracts-30000-nvidia-rubin-gpus-from-nscale-at-data-center-in-narvik-norway/

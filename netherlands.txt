@@ -1,0 +1,19 @@
+Netherlands's Compute Net Worth
+compute.world/netherlands
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 80 of 108
+at full build-out: $825B
+bankable today: $170B
+running today: $55B (estimate)
+Ceiling × GDP: 0.6×
+Bankable per person: $9.4k
+
+Netherlands sits on a resource ceiling of roughly 10 GW, worth $619B to $825B of AI compute at today's prices, about 1 times its $1.3T GDP. The bankable slice today is $170B, which is $9.4k for every citizen, discounted mainly for governance and capital. It has built 0.0% of the ceiling and runs 1.1 GW on a grid of roughly 45 GW, a Gross Domestic Compute of $55B. An incumbent: already priced in, already building.
+
+Netherlands's compute ceiling is 0.6 times its GDP: Incumbent, No. 80 of 108 on the Compute Net Worth Index. https://compute.world/netherlands
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

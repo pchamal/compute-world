@@ -1,0 +1,19 @@
+Czechia's Compute Net Worth
+compute.world/czechia
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 106 of 108
+at full build-out: $167B
+bankable today: $10B
+running today: $5.0B (estimate)
+Ceiling × GDP: 0.4×
+Bankable per person: $887
+
+Czechia sits on a resource ceiling of roughly 2 GW, worth $125B to $167B of AI compute at today's prices, about 0 times its $389B GDP. The bankable slice today is $10B, which is $887 for every citizen, discounted mainly for governance and capital. It has built 52.6% of the ceiling and runs about 100 MW on a grid of roughly 21 GW, a Gross Domestic Compute of $5.0B. An incumbent: already priced in, already building.
+
+Czechia's compute ceiling is 0.4 times its GDP: Incumbent, No. 106 of 108 on the Compute Net Worth Index. https://compute.world/czechia
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

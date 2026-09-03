@@ -1,0 +1,20 @@
+Finland's Compute Net Worth
+compute.world/finland
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 64 of 108
+at full build-out: $1.3T
+bankable today: $206B
+running today: $20B (estimate)
+Ceiling × GDP: 4.0×
+Bankable per person: $36.7k
+
+Finland sits on a resource ceiling of roughly 16 GW, worth $962B to $1.3T of AI compute at today's prices, about 4 times its $317B GDP. The bankable slice today is $206B, which is $36.7k for every citizen, discounted mainly for capital and governance. It has built 20.0% of the ceiling and runs about 400 MW on a grid of roughly 25 GW, a Gross Domestic Compute of $20B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Finland's compute ceiling is 4.0 times its GDP: Primed, No. 64 of 108 on the Compute Net Worth Index. https://compute.world/finland
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-08-12 Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estonia, Finland (Nebius IR) https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf

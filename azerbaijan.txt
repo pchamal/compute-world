@@ -1,0 +1,19 @@
+Azerbaijan's Compute Net Worth
+compute.world/azerbaijan
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 86 of 108
+at full build-out: $1.2T
+bankable today: $118B
+running today: —
+Ceiling × GDP: 15.5×
+Bankable per person: $11.2k
+
+Azerbaijan sits on a resource ceiling of roughly 15 GW, worth $884B to $1.2T of AI compute at today's prices, about 16 times its $76B GDP. The bankable slice today is $118B, which is $11.2k for every citizen, discounted mainly for governance and capital. It has built 9.0% of the ceiling and runs no sourced live datacenter capacity, a Gross Domestic Compute of under $1B. Emerging upside: a narrower gap, and a real one.
+
+Azerbaijan's compute ceiling is 15.5 times its GDP: Emerging Upside, No. 86 of 108 on the Compute Net Worth Index. https://compute.world/azerbaijan
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

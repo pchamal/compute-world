@@ -53,7 +53,10 @@ def sitemap_xml(urls):
 
 
 DEFAULT_SITEMAP = [
-    {"loc": f"{SITE}/", "lastmod": "2026-08-18", "changefreq": "weekly"},
+    {"loc": f"{SITE}/", "lastmod": "2026-09-03", "changefreq": "weekly"},
+    {"loc": f"{SITE}/thesis", "lastmod": "2026-09-03", "changefreq": "monthly"},
+    {"loc": f"{SITE}/license", "lastmod": "2026-09-03", "changefreq": "yearly"},
+    {"loc": f"{SITE}/data", "lastmod": "2026-09-03", "changefreq": "weekly"},
     {"loc": f"{SITE}/silicon.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/silicon.json", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/silicon-history.json", "lastmod": "2026-08-18", "changefreq": "weekly"},

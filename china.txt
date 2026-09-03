@@ -1,0 +1,24 @@
+China's Compute Net Worth
+compute.world/china
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 5 of 108
+at full build-out: $59.6T
+bankable today: $2.7T
+running today: $1.1T (estimate)
+Ceiling × GDP: 3.0×
+Bankable per person: $1.9k
+
+China sits on a resource ceiling of roughly 744 GW, worth $44.7T to $59.6T of AI compute at today's prices, about 3 times its $19.6T GDP. The bankable slice today is $2.7T, which is $1.9k for every citizen, discounted mainly for chip access and governance. It has built 50.6% of the ceiling and runs 23.0 GW on a grid of roughly 3350 GW, a Gross Domestic Compute of $1.1T. Primed: readiness clears 65 percent, and there is real headroom.
+
+China's compute ceiling is 3.0 times its GDP: Primed, No. 5 of 108 on the Compute Net Worth Index. https://compute.world/china
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2026-08-31 US Commerce drafts remote-access rule to curb China rental of advanced GPUs via third-country DCs (Forbes / TechTimes / Congress.gov H.R.2683) https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/
+- 2026-08-26 NVIDIA Q2: China Hopper DC shipments <1% of Data Center revenue; Q3 outlook assumes zero China DC compute (NVIDIA Newsroom / SEC EX-99.2) https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027
+- 2026-08-25 SemiAnalysis: US taking ~70% of new AI watts; China still sub-10% (Dwarkesh Podcast / SemiAnalysis) https://www.dwarkesh.com/p/dylan-patel-3
+- 2026-08-24 Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 servers diverted to China (CNA / Focus Taiwan (Keelung prosecutors)) https://focustaiwan.tw/society/202608240023
+- 2026-08-19 Beijing lets limited H200 batches land: ByteDance and Tencent ~10k each; most volume steered to Hong Kong (Financial Times / Business Standard) https://www.business-standard.com/world-news/china-allows-limited-nvidia-h200-shipments-why-is-beijing-easing-curbs-126081900438_1.html

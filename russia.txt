@@ -1,0 +1,19 @@
+Russia's Compute Net Worth
+compute.world/russia
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 6 of 108
+at full build-out: $58.5T
+bankable today: $2.7T
+running today: $30B (estimate)
+Ceiling × GDP: 22.6×
+Bankable per person: $18.9k
+
+Russia sits on a resource ceiling of roughly 731 GW, worth $43.8T to $58.5T of AI compute at today's prices, about 23 times its $2.6T GDP. The bankable slice today is $2.7T, which is $18.9k for every citizen, discounted mainly for chip access and governance. It has built 7.4% of the ceiling and runs about 600 MW on a grid of roughly 250 GW, a Gross Domestic Compute of $30B. A sleeping giant: the endowment runs 23 times the economy.
+
+Russia's compute ceiling is 22.6 times its GDP: Sleeping Giant, No. 6 of 108 on the Compute Net Worth Index. https://compute.world/russia
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

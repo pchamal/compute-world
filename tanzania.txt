@@ -1,0 +1,19 @@
+Tanzania's Compute Net Worth
+compute.world/tanzania
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 33 of 108
+at full build-out: $3.9T
+bankable today: $526B
+running today: $1.0B (estimate)
+Ceiling × GDP: 44.6×
+Bankable per person: $7.2k
+
+Tanzania sits on a resource ceiling of roughly 48 GW, worth $2.9T to $3.9T of AI compute at today's prices, about 45 times its $87B GDP. The bankable slice today is $526B, which is $7.2k for every citizen, discounted mainly for capital and governance. It has built 5.6% of the ceiling and runs about 20 MW on a grid of roughly 2.2 GW, a Gross Domestic Compute of $1.0B. A sleeping giant: the endowment runs 45 times the economy.
+
+Tanzania's compute ceiling is 44.6 times its GDP: Sleeping Giant, No. 33 of 108 on the Compute Net Worth Index. https://compute.world/tanzania
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

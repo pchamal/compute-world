@@ -1,0 +1,19 @@
+Canada's Compute Net Worth
+compute.world/canada
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 3 of 108
+at full build-out: $36.6T
+bankable today: $4.5T
+running today: $70B
+Ceiling × GDP: 15.8×
+Bankable per person: $113k
+
+Canada sits on a resource ceiling of roughly 458 GW, worth $27.5T to $36.6T of AI compute at today's prices, about 16 times its $2.3T GDP. The bankable slice today is $4.5T, which is $113k for every citizen, discounted mainly for governance and capital. It has built 18.6% of the ceiling and runs 1.4 GW on a grid of roughly 155 GW, a Gross Domestic Compute of $70B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Canada's compute ceiling is 15.8 times its GDP: Primed, No. 3 of 108 on the Compute Net Worth Index. https://compute.world/canada
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

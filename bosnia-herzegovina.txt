@@ -1,0 +1,19 @@
+Bosnia & Herzegovina's Compute Net Worth
+compute.world/bosnia-herzegovina
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 99 of 108
+at full build-out: $571B
+bankable today: $26B
+running today: $0.2B (estimate)
+Ceiling × GDP: 17.3×
+Bankable per person: $8.3k
+
+Bosnia & Herzegovina sits on a resource ceiling of roughly 7 GW, worth $428B to $571B of AI compute at today's prices, about 17 times its $33B GDP. The bankable slice today is $26B, which is $8.3k for every citizen, discounted mainly for momentum and capital. It has built 31.7% of the ceiling and runs about 5 MW on a grid of roughly 4.5 GW, a Gross Domestic Compute of under $1B. Emerging upside: a narrower gap, and a real one.
+
+Bosnia & Herzegovina's compute ceiling is 17.3 times its GDP: Emerging Upside, No. 99 of 108 on the Compute Net Worth Index. https://compute.world/bosnia-herzegovina
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

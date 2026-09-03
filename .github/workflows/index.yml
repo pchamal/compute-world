@@ -1,0 +1,58 @@
+name: Compute Net Worth Index
+# Rebuild homepage, country pages, and OG images when the sources of truth change.
+# Cloudflare Pages serves the committed static files; this Action writes them into the repo.
+on:
+  push:
+    paths:
+      - "data.json"
+      - "params.json"
+      - "rank-history.json"
+      - "wire.json"
+      - "src/cnw_computed.json"
+      - "src/cnw_lib.py"
+      - "src/chrome.py"
+      - "src/build_home.py"
+      - "src/build_countries.py"
+      - "src/build_all.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install image deps
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libcairo2 libcairo2-dev
+          pip install pillow cairosvg
+      - name: Rebuild index and country pages
+        run: python3 src/build_all.py
+      - name: Commit generated files
+        run: |
+          git config user.name "index-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html thesis.html license.html data.html llms.txt sitemap.xml robots.txt
+          git add og/*.png
+          git add src/flags || true
+          # 108 country directories + plain-text siblings
+          python3 - <<'PY'
+          import json, subprocess
+          d = json.load(open("data.json"))
+          slugs = [c["sl"] for c in d["countries"]]
+          paths = []
+          for sl in slugs:
+              paths.append(f"{sl}/index.html")
+              paths.append(f"{sl}.txt")
+          subprocess.check_call(["git", "add"] + paths)
+          PY
+          git diff --cached --quiet || git commit -m "index: rebuild country pages ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push

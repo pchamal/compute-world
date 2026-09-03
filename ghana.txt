@@ -1,0 +1,19 @@
+Ghana's Compute Net Worth
+compute.world/ghana
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 91 of 108
+at full build-out: $868B
+bankable today: $81B
+running today: $1.5B (estimate)
+Ceiling × GDP: 7.5×
+Bankable per person: $2.2k
+
+Ghana sits on a resource ceiling of roughly 11 GW, worth $651B to $868B of AI compute at today's prices, about 8 times its $115B GDP. The bankable slice today is $81B, which is $2.2k for every citizen, discounted mainly for capital and governance. It has built 13.8% of the ceiling and runs about 30 MW on a grid of roughly 5.5 GW, a Gross Domestic Compute of $1.5B. Emerging upside: a narrower gap, and a real one.
+
+Ghana's compute ceiling is 7.5 times its GDP: Emerging Upside, No. 91 of 108 on the Compute Net Worth Index. https://compute.world/ghana
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

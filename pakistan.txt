@@ -1,0 +1,19 @@
+Pakistan's Compute Net Worth
+compute.world/pakistan
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 27 of 108
+at full build-out: $9.1T
+bankable today: $587B
+running today: —
+Ceiling × GDP: 22.4×
+Bankable per person: $2.3k
+
+Pakistan sits on a resource ceiling of roughly 114 GW, worth $6.8T to $9.1T of AI compute at today's prices, about 22 times its $408B GDP. The bankable slice today is $587B, which is $2.3k for every citizen, discounted mainly for the grid and governance. It has built 9.3% of the ceiling and runs no sourced live datacenter capacity, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 22 times the economy.
+
+Pakistan's compute ceiling is 22.4 times its GDP: Sleeping Giant, No. 27 of 108 on the Compute Net Worth Index. https://compute.world/pakistan
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

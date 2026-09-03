@@ -1,0 +1,19 @@
+Morocco's Compute Net Worth
+compute.world/morocco
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 45 of 108
+at full build-out: $2.8T
+bankable today: $328B
+running today: $2.0B (estimate)
+Ceiling × GDP: 15.2×
+Bankable per person: $8.4k
+
+Morocco sits on a resource ceiling of roughly 35 GW, worth $2.1T to $2.8T of AI compute at today's prices, about 15 times its $183B GDP. The bankable slice today is $328B, which is $8.4k for every citizen, discounted mainly for governance and capital. It has built 5.2% of the ceiling and runs about 40 MW on a grid of roughly 12 GW, a Gross Domestic Compute of $2.0B. A sleeping giant: the endowment runs 15 times the economy.
+
+Morocco's compute ceiling is 15.2 times its GDP: Sleeping Giant, No. 45 of 108 on the Compute Net Worth Index. https://compute.world/morocco
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

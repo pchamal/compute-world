@@ -1,0 +1,19 @@
+Austria's Compute Net Worth
+compute.world/austria
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 98 of 108
+at full build-out: $1.2T
+bankable today: $30B
+running today: $7.5B (estimate)
+Ceiling × GDP: 2.2×
+Bankable per person: $3.3k
+
+Austria sits on a resource ceiling of roughly 16 GW, worth $938B to $1.2T of AI compute at today's prices, about 2 times its $580B GDP. The bankable slice today is $30B, which is $3.3k for every citizen, discounted mainly for governance and physical. It has built 76.1% of the ceiling and runs about 150 MW on a grid of roughly 27 GW, a Gross Domestic Compute of $7.5B. An incumbent: already priced in, already building.
+
+Austria's compute ceiling is 2.2 times its GDP: Incumbent, No. 98 of 108 on the Compute Net Worth Index. https://compute.world/austria
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

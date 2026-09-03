@@ -1,0 +1,19 @@
+Kuwait's Compute Net Worth
+compute.world/kuwait
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 53 of 108
+at full build-out: $871B
+bankable today: $285B
+running today: $2.5B (estimate)
+Ceiling × GDP: 5.5×
+Bankable per person: $55.8k
+
+Kuwait sits on a resource ceiling of roughly 11 GW, worth $653B to $871B of AI compute at today's prices, about 6 times its $158B GDP. The bankable slice today is $285B, which is $55.8k for every citizen, discounted mainly for physical and governance. It has built 0.0% of the ceiling and runs about 50 MW on a grid of roughly 20 GW, a Gross Domestic Compute of $2.5B. Emerging upside: a narrower gap, and a real one.
+
+Kuwait's compute ceiling is 5.5 times its GDP: Emerging Upside, No. 53 of 108 on the Compute Net Worth Index. https://compute.world/kuwait
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

@@ -1,0 +1,19 @@
+Oman's Compute Net Worth
+compute.world/oman
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 25 of 108
+at full build-out: $2.8T
+bankable today: $608B
+running today: $2.5B (estimate)
+Ceiling × GDP: 26.8×
+Bankable per person: $107k
+
+Oman sits on a resource ceiling of roughly 36 GW, worth $2.1T to $2.8T of AI compute at today's prices, about 27 times its $106B GDP. The bankable slice today is $608B, which is $107k for every citizen, discounted mainly for physical and governance. It has built 0.0% of the ceiling and runs about 50 MW on a grid of roughly 10 GW, a Gross Domestic Compute of $2.5B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Oman's compute ceiling is 26.8 times its GDP: Primed, No. 25 of 108 on the Compute Net Worth Index. https://compute.world/oman
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

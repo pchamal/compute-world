@@ -1,0 +1,19 @@
+Ecuador's Compute Net Worth
+compute.world/ecuador
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 41 of 108
+at full build-out: $4.0T
+bankable today: $363B
+running today: $1.0B (estimate)
+Ceiling × GDP: 30.7×
+Bankable per person: $20.2k
+
+Ecuador sits on a resource ceiling of roughly 50 GW, worth $3.0T to $4.0T of AI compute at today's prices, about 31 times its $130B GDP. The bankable slice today is $363B, which is $20.2k for every citizen, discounted mainly for the grid and capital. It has built 10.4% of the ceiling and runs about 20 MW on a grid of roughly 8.8 GW, a Gross Domestic Compute of $1.0B. A sleeping giant: the endowment runs 31 times the economy.
+
+Ecuador's compute ceiling is 30.7 times its GDP: Sleeping Giant, No. 41 of 108 on the Compute Net Worth Index. https://compute.world/ecuador
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

@@ -1,0 +1,19 @@
+Mexico's Compute Net Worth
+compute.world/mexico
+As of 2 September 2026
+
+Tier: Emerging Upside
+Rank: No. 11 of 108
+at full build-out: $10.9T
+bankable today: $1.4T
+running today: $20B (estimate)
+Ceiling × GDP: 5.9×
+Bankable per person: $10.4k
+
+Mexico sits on a resource ceiling of roughly 136 GW, worth $8.1T to $10.9T of AI compute at today's prices, about 6 times its $1.8T GDP. The bankable slice today is $1.4T, which is $10.4k for every citizen, discounted mainly for governance and physical. It has built 10.0% of the ceiling and runs about 400 MW on a grid of roughly 90 GW, a Gross Domestic Compute of $20B. Emerging upside: a narrower gap, and a real one.
+
+Mexico's compute ceiling is 5.9 times its GDP: Emerging Upside, No. 11 of 108 on the Compute Net Worth Index. https://compute.world/mexico
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

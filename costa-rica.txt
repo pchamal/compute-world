@@ -1,0 +1,19 @@
+Costa Rica's Compute Net Worth
+compute.world/costa-rica
+As of 2 September 2026
+
+Tier: Primed
+Rank: No. 82 of 108
+at full build-out: $1.2T
+bankable today: $148B
+running today: $2.5B (estimate)
+Ceiling × GDP: 11.7×
+Bankable per person: $28.5k
+
+Costa Rica sits on a resource ceiling of roughly 15 GW, worth $901B to $1.2T of AI compute at today's prices, about 12 times its $103B GDP. The bankable slice today is $148B, which is $28.5k for every citizen, discounted mainly for capital and governance. It has built 17.7% of the ceiling and runs about 50 MW on a grid of roughly 3.7 GW, a Gross Domestic Compute of $2.5B. Primed: readiness clears 65 percent, and there is real headroom.
+
+Costa Rica's compute ceiling is 11.7 times its GDP: Primed, No. 82 of 108 on the Compute Net Worth Index. https://compute.world/costa-rica
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.

@@ -1,0 +1,20 @@
+Paraguay's Compute Net Worth
+compute.world/paraguay
+As of 2 September 2026
+
+Tier: Sleeping Giant
+Rank: No. 72 of 108
+at full build-out: $2.0T
+bankable today: $183B
+running today: $0.5B (estimate)
+Ceiling × GDP: 40.4×
+Bankable per person: $25.8k
+
+Paraguay sits on a resource ceiling of roughly 25 GW, worth $1.5T to $2.0T of AI compute at today's prices, about 40 times its $49B GDP. The bankable slice today is $183B, which is $25.8k for every citizen, discounted mainly for governance and capital. It has built 35.6% of the ceiling and runs about 10 MW on a grid of roughly 8.8 GW, a Gross Domestic Compute of under $1B. A sleeping giant: the endowment runs 40 times the economy.
+
+Paraguay's compute ceiling is 40.4 times its GDP: Sleeping Giant, No. 72 of 108 on the Compute Net Worth Index. https://compute.world/paraguay
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+Live signals
+- 2025-12-17 S&P lifts Paraguay to investment grade, joining Moody's (Bloomberg) https://www.bloomberg.com/news/articles/2025-12-17/s-p-lifts-paraguay-rating-to-investment-grade-joining-moody-s

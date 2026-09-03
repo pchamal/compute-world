@@ -1,0 +1,19 @@
+Germany's Compute Net Worth
+compute.world/germany
+As of 2 September 2026
+
+Tier: Incumbent
+Rank: No. 67 of 108
+at full build-out: $2.2T
+bankable today: $197B
+running today: $150B
+Ceiling × GDP: 0.4×
+Bankable per person: $2.3k
+
+Germany sits on a resource ceiling of roughly 27 GW, worth $1.6T to $2.2T of AI compute at today's prices, about 0 times its $5.0T GDP. The bankable slice today is $197B, which is $2.3k for every citizen, discounted mainly for physical and governance. It has built 51.5% of the ceiling and runs 3.0 GW on a grid of roughly 270 GW, a Gross Domestic Compute of $150B. An incumbent: already priced in, already building.
+
+Germany's compute ceiling is 0.4 times its GDP: Incumbent, No. 67 of 108 on the Compute Net Worth Index. https://compute.world/germany
+
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
+
+No signals scored yet. Send one to the Desk.
