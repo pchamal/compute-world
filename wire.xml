@@ -5,6 +5,41 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Fervo signs 396 MW, 15-year Google PPA at Cape Station — foundation for a potential Utah data center</title>
+    <link>https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-and-google-sign-396-mw-ppa</link>
+    <guid isPermaLink="false">compute.world/wire#fervo-google-396mw-cape-station-2026-09-01</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 1 September 2026 Fervo Energy (Nasdaq: FRVO) announced a 396 MW power purchase agreement with Google for enhanced-geothermal output from the Cape Station GeoCluster in Beaver County, Utah. Fervo&#x27;s 8-K dates the contract to 26 August 2026 between wholly owned Cape Generating Station 6 LLC and Google Energy LLC: four successive 99 MW sub-tranches with target commercial operation beginning Q3 2028, a 15-year delivery term, and parent guarantees from Fervo and Alphabet. Fervo will offer Google an option to add roughly 600 MW — nearly 1 GW in total — with a guaranteed COD no later than June 2030, and may owe Google reimbursement of certain payments if it fails to make that expansion offer. Google describes the energy as a foundational building block for a potential Utah data center; final data-center plans stay subject to engineering, state and local approvals and commercial conditions, with delivery leaning on Utah SB 132 direct-to-load pathways. Billed as the largest enhanced-geothermal PPA to date. [Signal 90, Company IR release plus the FRVO 8-K carrying counterparties, tranche structure, term and the ~600 MW expansion option; Utah SB 132 large-load framework is public statute., via Fervo Energy IR / FRVO 8-K] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Korea&#x27;s 2027 budget proposal nearly doubles AI and chip spend to ₩21.3T, with ₩3.85T for 10,000 Vera Rubin-class GPUs</title>
+    <link>https://en.yna.co.kr/view/AEN20260901000700320</link>
+    <guid isPermaLink="false">compute.world/wire#korea-2027-budget-ai-213tn-vera-rubin-2026-09-01</guid>
+    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
+    <description>The Korean cabinet approved a record ₩820.9 trillion 2027 budget proposal on 1 September 2026, up 12.8% and the fastest increase on record, funded by semiconductor-boom tax revenue. Spending on AI plus the administration&#x27;s three megaprojects — semiconductors, physical AI and AI data centres — nearly doubles from ₩10.8T this year to ₩21.3T. The Ministry of Science and ICT&#x27;s own budget rises 24.5% to ₩29.65T, with AI up 84.3% to ₩9.4T, including ₩3.85T (from ₩2.08T) to add about 10,000 Nvidia Vera Rubin-class GPUs for sovereign models behind a free &#x27;AI for All&#x27; service, ₩87.8B for an AI-data-centre cluster and a 10 MW AIDC testbed; roughly ₩2T goes to a semiconductor special account and more than ₩2T to power, water and industrial complexes. The proposal goes to the National Assembly on 3 September and must pass by 2 December, so this is budgeted intent, not yet appropriated. [Signal 80, Cabinet-approved figures reported consistently by Yonhap, Hankyoreh and Korea Herald; the GPU and AIDC line items come from the MSIT budget breakdown., via Yonhap / Hankyoreh / Korea Herald / MSIT budget detail via Digital Today] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in Kajaani, Finland</title>
+    <link>https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en</link>
+    <guid isPermaLink="false">compute.world/wire#eurohpc-lumi-ai-kajaani-387m-2026-08-31</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 31 August 2026 the EuroHPC Joint Undertaking signed a procurement contract with Bull to deploy the LUMI-AI supercomputer at CSC – IT Center for Science&#x27;s data centre in Kajaani, Finland. Total budget for acquisition, delivery, installation and maintenance is €387,800,000, funded 50% by EuroHPC from the Digital Europe Programme and 50% by the LUMI AI Factory consortium — Finland, Czechia, Denmark, Estonia, Norway and Poland. The system is built on next-generation AMD Instinct MI430X GPUs with 6th Gen 256-core AMD EPYC processors and is expected to deliver roughly ten times the AI capacity of the current LUMI, installed and available to users in 2027. Bull was selected from a tender launched in May 2025; Finland was picked as host in December 2024. This is EuroHPC&#x27;s sixth AI Factory procurement contract, and a rare flagship European win for AMD accelerators. [Signal 84, EuroHPC JU press release with the contract value and funding split, corroborated by Bull&#x27;s own same-day release naming the MI430X configuration., via EuroHPC JU / Bull] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>HUMAIN&#x27;s MI355X compute goes live in Saudi Arabia; JV plans up to 250 MW of MI400 capacity from 2027</title>
+    <link>https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live</link>
+    <guid isPermaLink="false">compute.world/wire#amd-cisco-humain-mi355x-live-250mw-2026-08-31</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>AMD, Cisco and HUMAIN — a PIF company — announced on 31 August 2026 that AMD Instinct MI355X GPU infrastructure built on Cisco Silicon One networking with 800G optics is live in Saudi Arabia and serving customers in the Kingdom and beyond, offered as GPU-as-a-service from training to inference. It is the first production milestone of the joint venture the three announced on 19 November 2025. The next phase is up to 250 MW powered by AMD Instinct MI400-series GPUs, EPYC CPUs and ROCm with Cisco networking, deployment beginning in 2027 and capacity expected to start coming online in the second half of that year; the JV still says it is on track for up to 1 GW by 2030. No megawatt figure, customer count, utilization or pricing was disclosed for the live system, and the original phase-1 plan named 100 MW of MI450 — so the announced path has shifted. [Signal 72, Carried on both AMD&#x27;s and Cisco&#x27;s newsrooms, but it is one joint release — no independent operator disclosure, no capacity number for the live deployment., via AMD IR / Cisco Newsroom] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Anthropic reported to take ~350 MW at Hut 8&#x27;s Beacon Point via a $35B Lambda contract, with Nvidia on the lease</title>
+    <link>https://www.channelnewsasia.com/business/anthropic-signs-us35-billion-cloud-deal-nvidia-backed-lambda-source-says-6353306</link>
+    <guid isPermaLink="false">compute.world/wire#anthropic-lambda-35b-hut8-beacon-point-2026-08-31</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
+    <description>The Wall Street Journal reported on 31 August 2026, matched by Bloomberg and Reuters citing people familiar, that Anthropic signed a roughly $35B, six-year cloud contract with Nvidia-backed Lambda for about 350 MW at Hut 8&#x27;s Beacon Point campus in Nueces County, Texas — close to one of the site&#x27;s ~352 MW phases. Reporting describes a four-party chain: Hut 8 develops and leases the space, Nvidia holds the master lease and supplies the GPUs, Lambda installs them and sells capacity to Anthropic. Hut 8 disclosed in July two 15-year leases totalling about 704 MW with $19.6B of base-term value to an unnamed investment-grade tenant later reported to be Nvidia; initial energization of the ~1 GW campus is expected in Q1 2027. None of Anthropic, Lambda, Nvidia or Hut 8 has confirmed the contract, and Lambda&#x27;s payment to Nvidia is undisclosed, so treat the $35B as reported rather than filed. [Signal 70, Three independent outlets on anonymous sources, anchored to Hut 8&#x27;s disclosed 704 MW / $19.6B lease; no party confirmation and no filing of the Anthropic–Lambda contract itself., via WSJ (first) / Bloomberg / Reuters via CNA / Hut 8 July disclosure] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>US Commerce drafts remote-access rule to curb China rental of advanced GPUs via third-country DCs</title>
     <link>https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/</link>
     <guid isPermaLink="false">compute.world/wire#us-commerce-remote-access-ai-compute-draft-2026-08-31</guid>
@@ -178,40 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#amazon-gw-ranch-pecos</guid>
     <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 7 August 2026 Amazon confirmed to Cleanview it acquired the GW Ranch site in Pecos County, Texas, and will buy power from an on-site gas plant permitted for 35 turbines at up to 7.65 GW nameplate (permit also states ~5 GW nominal delivered). Amazon’s on-record line: new on-site generation that “won’t raise electricity costs for Texas families,” designed to move to grid service when interconnection allows; Pacifico separately cites 750 MW solar and 1.8 GW BESS. In a 474 GW ERCOT freeze, this is the US workaround — behind-the-meter gigawatts that convert Texas compute without waiting for Batch Zero. [Signal 74, Corroborated, via Cleanview] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Indonesia&#x27;s Indosat launches Zankore, a 1 GW AI-factory platform with Ooredoo, NVIDIA and Nokia</title>
-    <link>https://www.datacenterdynamics.com/en/news/indosat-reinforces-ai-push-with-1gw-data-center-play/</link>
-    <guid isPermaLink="false">compute.world/wire#indosat-zankore-1gw</guid>
-    <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
-    <description>First 200 MW of GB300-class capacity targeted for H1 2027 at Batang, Central Java, with Qatari capital leading. Southeast Asia&#x27;s largest sovereign-flavored compute commitment to date. [Signal 78, Corroborated, via Data Center Dynamics] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>DataVolt: Neom Oxagon 1.5 GW AI factory enters last-mile, groundbreaking in 2–3 months</title>
-    <link>https://www.agbi.com/tech/2026/08/neom-to-start-constructing-oxagon-ai-data-centre-in-months/</link>
-    <guid isPermaLink="false">compute.world/wire#neom-oxagon-datavolt</guid>
-    <pubDate>Wed, 05 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 5 August 2026 DataVolt CEO Rajit Nanda told AGBI the 1.5 GW Oxagon AI-factory campus at Neom has reached “the last mile for the first phase” and should break ground in two to three months, with first-phase ops still aimed at 2028. The land/infrastructure deal with Oxagon dates to February 2025; first-phase funding sits inside DataVolt’s previously stated $5 billion Saudi commitment — customers and first-phase MW were not disclosed. This is the live KSA conversion clock: a named 1.5 GW campus moving from MOU to dirt, not a new GW number. [Signal 62, Single-source, via AGBI] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Abbott freezes Texas interconnects: 474 GW queue, ~90% data centers, PUCT/ERCOT audit first</title>
-    <link>https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit</link>
-    <guid isPermaLink="false">compute.world/wire#texas-ercot-dc-audit</guid>
-    <pubDate>Mon, 03 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 3 August 2026 Governor Greg Abbott ordered PUCT and ERCOT to finish a comprehensive verification audit before any data-center project in the interconnection process can advance, citing ~474 GW of requests — more than five times ERCOT peak — of which about 90% are data centers. At the 14 August PUCT meeting ERCOT put the live Batch Zero slice at 250–300 projects and ~200 GW, said the work will take several months, and confirmed the 7 August Batch Zero classification notice was shelved. This is the live US grid stall: Texas conversion is now gated by audit, not by queued megawatts. [Signal 96, Confirmed, via Office of the Texas Governor] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>EU opens the AI Gigafactories call: up to 7 sites, €10B public money, bids due November</title>
-    <link>https://www.eurohpc-ju.europa.eu/eurohpc-joint-undertaking-launches-ai-gigafactories-call-2026-07-30_en</link>
-    <guid isPermaLink="false">compute.world/wire#eu-gigafactories-call</guid>
-    <pubDate>Thu, 30 Jul 2026 12:00:00 GMT</pubDate>
-    <description>EuroHPC launches the formal tender for gigafactory sites across at least seven member states, targeting over €30 billion total investment with selection in early 2027. Europe&#x27;s answer arrives as a procurement document. [Signal 90, Confirmed, via EuroHPC (primary)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>South Korea&#x27;s AIDC Alliance sets an 18.4 GW datacenter target by 2035</title>
-    <link>https://www.techtimes.com/articles/322134/20260729/south-koreas-aidc-alliance-opens-184gw-target-uae-export-push.htm</link>
-    <guid isPermaLink="false">compute.world/wire#korea-aidc-18gw</guid>
-    <pubDate>Wed, 29 Jul 2026 12:00:00 GMT</pubDate>
-    <description>Following the 260,000-GPU national program announced at APEC, the alliance formalizes the most aggressive national capacity target published anywhere, with UAE export ambitions attached. [Signal 66, Corroborated, via TechTimes] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>

@@ -1097,7 +1097,7 @@
    "rf": 0.95,
    "rz": 74,
    "dl": 1,
-   "rw": "SK hynix breaks ground on first US HBM packaging base in West Lafayette"
+   "rw": "Korea's 2027 budget proposal nearly doubles AI and chip spend to ₩21.3T, wit…"
   },
   {
    "n": "Taiwan",
@@ -1745,9 +1745,9 @@
    "pue": "~1.35-1.6",
    "note": "HUMAIN 6.6 GW by 2034 target; licensed 35k GB300-equiv Nov 2025; behind UAE on framework",
    "rf": 0.85,
-   "rz": 28,
+   "rz": 42,
    "dl": 1,
-   "rw": "DataVolt: Neom Oxagon 1.5 GW AI factory enters last-mile, groundbreaking in …"
+   "rw": "HUMAIN's MI355X compute goes live in Saudi Arabia; JV plans up to 250 MW of …"
   },
   {
    "n": "UAE",
@@ -3395,9 +3395,9 @@
    "pue": "~1.1-1.25",
    "note": "Stargate Norway Narvik 230MW+; reservoir hydro; DC registration law filters loads",
    "rf": 1.0,
-   "rz": 32,
-   "dl": 0,
-   "rw": "Microsoft contracts 30,000 Rubin GPUs at Nscale's hydro-powered Narvik site"
+   "rz": 49,
+   "dl": 1,
+   "rw": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in K…"
   },
   {
    "n": "Iceland",
@@ -3545,9 +3545,9 @@
    "pue": "~1.1-1.25",
    "note": "C-Lion1; nuclear OL3",
    "rf": 0.95,
-   "rz": 44,
+   "rz": 55,
    "dl": 1,
-   "rw": "Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estoni…"
+   "rw": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in K…"
   },
   {
    "n": "Denmark",
@@ -3595,9 +3595,9 @@
    "pue": "~1.1-1.25",
    "note": "",
    "rf": 1.0,
-   "rz": 29,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 45,
+   "dl": 1,
+   "rw": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in K…"
   },
   {
    "n": "United Kingdom",
@@ -4095,9 +4095,9 @@
    "pue": "~1.2-1.4",
    "note": "First NPP planned",
    "rf": 0.85,
-   "rz": 22,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 38,
+   "dl": 1,
+   "rw": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in K…"
   },
   {
    "n": "Czechia",
@@ -4145,9 +4145,9 @@
    "pue": "~1.2-1.4",
    "note": "",
    "rf": 0.95,
-   "rz": 47,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 63,
+   "dl": 1,
+   "rw": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in K…"
   },
   {
    "n": "Romania",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs …"
+   "rw": "Fervo signs 396 MW, 15-year Google PPA at Cape Station — foundation for a po…"
   },
   {
    "n": "Canada",
