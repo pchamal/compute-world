@@ -12,7 +12,7 @@
       "url": "https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-and-google-sign-396-mw-ppa",
       "source": "Fervo Energy IR / FRVO 8-K",
       "tier": 1,
-      "corroboration": "Company IR release plus the FRVO 8-K carrying counterparties, tranche structure, term and the ~600 MW expansion option; Utah SB 132 large-load framework is public statute.",
+      "corroboration": "Confirmed",
       "countries": [
         "USA"
       ],
@@ -32,7 +32,7 @@
       "url": "https://en.yna.co.kr/view/AEN20260901000700320",
       "source": "Yonhap / Hankyoreh / Korea Herald / MSIT budget detail via Digital Today",
       "tier": 2,
-      "corroboration": "Cabinet-approved figures reported consistently by Yonhap, Hankyoreh and Korea Herald; the GPU and AIDC line items come from the MSIT budget breakdown.",
+      "corroboration": "Confirmed",
       "countries": [
         "KOR"
       ],
@@ -52,7 +52,7 @@
       "url": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
       "source": "EuroHPC JU / Bull",
       "tier": 1,
-      "corroboration": "EuroHPC JU press release with the contract value and funding split, corroborated by Bull's own same-day release naming the MI430X configuration.",
+      "corroboration": "Confirmed",
       "countries": [
         "FIN",
         "CZE",
@@ -77,7 +77,7 @@
       "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
       "source": "AMD IR / Cisco Newsroom",
       "tier": 2,
-      "corroboration": "Carried on both AMD's and Cisco's newsrooms, but it is one joint release — no independent operator disclosure, no capacity number for the live deployment.",
+      "corroboration": "Single-source",
       "countries": [
         "SAU",
         "USA"
@@ -97,14 +97,11 @@
       "url": "https://www.channelnewsasia.com/business/anthropic-signs-us35-billion-cloud-deal-nvidia-backed-lambda-source-says-6353306",
       "source": "WSJ (first) / Bloomberg / Reuters via CNA / Hut 8 July disclosure",
       "tier": 2,
-      "corroboration": "Three independent outlets on anonymous sources, anchored to Hut 8's disclosed 704 MW / $19.6B lease; no party confirmation and no filing of the Anthropic–Lambda contract itself.",
+      "corroboration": "Corroborated",
       "countries": [
         "USA"
       ],
-      "flags": [
-        "🇺🇸",
-        "unconfirmed"
-      ],
+      "flags": "🇺🇸",
       "tags": [
         "Capital",
         "Build"
@@ -119,16 +116,14 @@
       "url": "https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/",
       "source": "Forbes / TechTimes / Congress.gov H.R.2683",
       "tier": 2,
-      "corroboration": "Multi-outlet secondary reporting; House bill is primary. The Commerce draft text itself is not published.",
+      "corroboration": "Corroborated",
       "countries": [
         "USA",
         "CHN",
         "THA",
         "SGP"
       ],
-      "flags": [
-        "draft"
-      ],
+      "flags": "🇺🇸🇨🇳",
       "tags": [
         "Policy",
         "Stall"
@@ -143,11 +138,11 @@
       "url": "https://dallasexpress.com/business-markets/texas-regulators-approve-424-miles-of-power-lines-despite-calls-to-wait/",
       "source": "Dallas Express / Oncor / Texas Tribune",
       "tier": 1,
-      "corroboration": "Oncor project pages mark Approved on August 28, 2026; Texas Tribune reported unanimous votes the same day.",
+      "corroboration": "Confirmed",
       "countries": [
         "USA"
       ],
-      "flags": [],
+      "flags": "🇺🇸",
       "tags": [
         "Energy",
         "Build",
@@ -163,12 +158,12 @@
       "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/27/2003863180",
       "source": "Taipei Times / Nikkei Asia",
       "tier": 2,
-      "corroboration": "Chairman on record in Taipei Times; Nikkei Asia same-day corroboration.",
+      "corroboration": "Corroborated",
       "countries": [
         "TWN",
         "SGP"
       ],
-      "flags": [],
+      "flags": "🇹🇼🇸🇬",
       "tags": [
         "Build",
         "Capital"
