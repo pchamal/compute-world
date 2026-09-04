@@ -1,0 +1,452 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "New Zealand (named suburb/city/park only; never New Zealand / Auckland metro alone / cloud region alone)",
+  "iso2": "NZ",
+  "country_iso3": "NZL",
+  "dry_run": true,
+  "partial": false,
+  "live_book": {
+    "url": "https://compute.world/campuses.json",
+    "as_of": "2026-08-22",
+    "pins": 70,
+    "nz_pins": 0,
+    "nzl_pins": 0,
+    "existing_nz_pins": [],
+    "known_hole": "Live book has zero New Zealand / NZL / NZ pins (campuses.json projects=70, country_iso3 NZL=0). Dry-run only; not published this hunt."
+  },
+  "counts": {
+    "passing": 12,
+    "rejected": 11,
+    "empty_searches": 12,
+    "fetch_failures": 6
+  },
+  "method_notes": [
+    "COMPLETE dry-run. Sweep: Datacom, CDC NZ, DCI, Spark/TenPeaks, Chorus, Plan B, Equinix, AirTrunk, Vantage, STACK, NTT, STT GDC, NEXTDC, Microsoft, Google, AWS, Meta, Apple, Datagrid, plus Auckland suburbs / Hamilton / Wellington / Christchurch / Makarewa Southland.",
+    "Allowed SoR only: company IR/press/official DC pages; gov/planning (LINZ OIO, Environment Southland). Forbidden SoR (Baxtel, DataCenterMap, AIDCI, DC Byte, Wikipedia, consultant averages, news-only recaps) used as hints then verified or rejected.",
+    "Grain kept: IT \u2260 facility power \u2260 interconnection \u2260 generation/PPA. Do not copy Microsoft Te Huka 3 51.4 MW generation / Contact PPA as campus MW. Do not copy Spark/TenPeaks national 23 MW / 130 MW+ portfolio onto one pin. Do not copy CDC Auckland region '220 MW + capacity' glance as a campus.",
+    "Sub-250 disclosed pins kept (Datacom 10/10/14, CDC 22/22/54, TenPeaks South 12.3, TenPeaks North 40). Equinix IBX hold; no NZ xScale named place found. Soft corridors HOLD (NEXTDC AK1 Auckland-alone).",
+    "Fetch cache: /workspace/state/campus-hunt/new-zealand-fetch/. Dry-run only. Do NOT publish to compute.world or GitHub."
+  ],
+  "projects": [
+    {
+      "id": "cdc-silverdale-campus-one",
+      "name": "CDC Silverdale Campus One",
+      "operator": "CDC Data Centres",
+      "place": "Silverdale, Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.6245,
+      "lon": 174.6722,
+      "mw": 22,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Our Silverdale Campus One provides 22 MW of operating capacity, expected to grow to 60 MW+ in the period ahead.",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "Our Silverdale Campus One provides 22 MW of operating capacity",
+      "status_as_of": "2026-09-04",
+      "url": "https://www.cdc.com.au/locations/auckland/",
+      "notes": "Matching: operating capacity not labeled IT \u2192 facility_power. Do not pin region glance \u201c220 MW + capacity\u201d. Sub-250 kept. lat/lon Silverdale suburb centroid, not street parcel. Net-new vs live (NZL=0).",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "cdc-hobsonville-campus-one",
+      "name": "CDC Hobsonville Campus One",
+      "operator": "CDC Data Centres",
+      "place": "Hobsonville, Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.7912,
+      "lon": 174.661,
+      "mw": 22,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Our Hobsonville Campus One provides 22 MW of operating capacity.",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "Our Hobsonville Campus One provides 22 MW of operating capacity.",
+      "status_as_of": "2026-09-04",
+      "url": "https://www.cdc.com.au/locations/auckland/",
+      "notes": "Operating capacity not labeled IT. Do not merge with Hobsonville Campus Two. Sub-250 kept. lat/lon Hobsonville centroid. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "cdc-hobsonville-campus-two",
+      "name": "CDC Hobsonville Campus Two",
+      "operator": "CDC Data Centres",
+      "place": "Hobsonville, Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.7935,
+      "lon": 174.655,
+      "mw": 54,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Our second campus in the Hobsonville precinct provides 54 MW of operating capacity.",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "Our second campus in the Hobsonville precinct provides 54 MW of operating capacity.",
+      "status_as_of": "2026-09-04",
+      "url": "https://www.cdc.com.au/locations/auckland/",
+      "notes": "Operating capacity not labeled IT. Shares Hobsonville named place with Campus One; globe offsets. Sub-250 kept. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "datacom-orbit-albany",
+      "name": "Datacom Orbit (Auckland North)",
+      "operator": "Datacom",
+      "place": "Albany, Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.727,
+      "lon": 174.698,
+      "mw": 10,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Sustainable by design, Orbit is our largest facility delivering up to 10MW of power.",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "Orbit is located in Albany, on Auckland\u2019s North Shore",
+      "status_as_of": "2026-09-04",
+      "url": "https://datacom.com/nz/en/products/data-centres",
+      "notes": "Matching Orbit site page (https://datacom.com/nz/en/products/data-centres/locations/orbit-auckland) key features \u201c10 MW capacity.\u201d Power not labeled IT \u2192 facility_power. Sub-250 kept. lat/lon Albany centroid. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "datacom-highbrook",
+      "name": "Datacom Highbrook (Auckland South / ex-T4)",
+      "operator": "Datacom",
+      "place": "Highbrook, Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.937,
+      "lon": 174.87,
+      "mw": 10,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Our new Highbrook data centre delivers up to 10MW of power with highest levels of resilience.",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "Datacom has acquired T4\u2019s Auckland data centre\u2026 The switchover successfully completed at midnight on 31 March",
+      "status_as_of": "2026-04-01",
+      "url": "https://datacom.com/nz/en/products/data-centres",
+      "notes": "MW from Datacom locations primary; status from Datacom T4 acquisition press (https://datacom.com/nz/en/discover/datacom-acquires-t4s-auckland-data-centre \u2014 acquisition press has 5,200sqm / no MW). Power not labeled IT. Sub-250 kept. Do not invent separate T4 MW. lat/lon Highbrook industrial centroid. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "datacom-kapua-hamilton",
+      "name": "Datacom Kapua (Hamilton)",
+      "operator": "Datacom",
+      "place": "Hamilton, Waikato, NZL",
+      "admin1": "Waikato",
+      "lat": -37.73,
+      "lon": 175.28,
+      "mw": 14,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Kapua is our most expandable data centre with capacity to grow to 1500+ racks and 14MW of useable power.",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "Datacom marks Kapua\u2019s decade of data in Hamilton",
+      "status_as_of": "2026-09-04",
+      "url": "https://datacom.com/nz/en/products/data-centres/locations/kapua-hamilton",
+      "notes": "Matching locations list \u201c14MW of power\u201d and Kapua page \u201c14 MW capacity.\u201d Useable/power not labeled IT \u2192 facility_power. Sub-250 kept. lat/lon northern-fringe Hamilton centroid per Datacom copy. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "tenpeaks-south-takanini",
+      "name": "TenPeaks South Data Centre Campus (Takanini)",
+      "operator": "TenPeaks Data Centres (Spark / Pacific Equity Partners)",
+      "place": "Takanini, Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -37.045,
+      "lon": 174.92,
+      "mw": 12.3,
+      "mw_grain": "facility_power",
+      "mw_phrase": "the site currently operates with a capacity of 12.3MW across two pods",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "the site currently operates with a capacity of 12.3MW across two pods",
+      "status_as_of": "2026-09-04",
+      "url": "https://tenpeaks.co.nz/data-centres/south",
+      "notes": "Matching home card \u201cSouth (Takanini).\u201d Additional 15MW Pod 3 consented + 50MW+ Pods 4\u20135 planned; pin MW is current operating 12.3 not full ~75 potential. Capacity not labeled IT. Do not copy Spark NZX \u201c23MW \u2026 11 facilities\u201d portfolio. Sub-250 kept. lat/lon Takanini centroid. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "tenpeaks-north-north-shore",
+      "name": "TenPeaks North Data Centre Campus (North Shore)",
+      "operator": "TenPeaks Data Centres (Spark / Pacific Equity Partners)",
+      "place": "North Shore (North-East zone / surf-park masterplan), Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.66,
+      "lon": 174.75,
+      "mw": 40,
+      "mw_grain": "facility_power",
+      "mw_phrase": "the campus is set for an initial capacity of 40MW, with potential expansion to 80MW+",
+      "mw_as_of": "2026-09-04",
+      "status": "announced",
+      "status_phrase": "Resource consent was fast-tracked and approved in June 2024, ensuring development stays on track",
+      "status_as_of": "2024-06-01",
+      "url": "https://tenpeaks.co.nz/data-centres/north",
+      "notes": "Matching header \u201c~40MW Total potential capacity.\u201d Coming soon / consent approved \u2014 not yet construction RFS on primary \u2192 announced. Matching Spark NZX IR names this North Shore Campus (40 MW development). Capacity not labeled IT. Sub-250 kept. lat/lon North-East / Dairy Flat corridor centroid, not street parcel. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "datagrid-makarewa",
+      "name": "Datagrid AI Factory Campus (Makarewa)",
+      "operator": "Datagrid New Zealand / Datagrid NZ Partnership Limited",
+      "place": "Makarewa, Southland, NZL",
+      "admin1": "Southland",
+      "lat": -46.333,
+      "lon": 168.35,
+      "mw": 280,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Once operational, the facility will consume 280 MW of power",
+      "mw_as_of": "2026-03-11",
+      "status": "announced",
+      "status_phrase": "it has received full resource consent approval\u2026 paving the way for construction to commence",
+      "status_as_of": "2026-03-11",
+      "url": "https://www.datagrid.nz/pr1-rc/resourceconsent",
+      "notes": "Named place Makarewa. Matching About line \u201ca 280MW AI Factory campus in Southland.\u201d CONFLICT left on pin: Environment Southland gov notice prints \u201cThe datacentre will provide up to 240megawatts (MW) of IT capacity\u201d (https://www.es.govt.nz/about-us/news?item=id%3A2xhpahbzw17q9s3f3x4z). This desk keeps company 280 consume as facility_power. Status is consent/announced, not in_progress (no construction start quote on primary). Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "dci-akl01-westgate",
+      "name": "DCI AKL01",
+      "operator": "DCI Data Centers (Brookfield)",
+      "place": "Westgate, Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.815,
+      "lon": 174.608,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "a second site in Albany, AKL02, to present a total of 50+ MW of critical technical infrastructure to the New Zealand market",
+      "mw_as_of": "2023-04-01",
+      "status": "operational",
+      "status_phrase": "DCI Data Centers announces completion of first data centre, AKL01 in Auckland, New Zealand",
+      "status_as_of": "2023-04-01",
+      "url": "https://dcidatacenters.com/news/akl01-completed/",
+      "notes": "Place Westgate from DCI Auckland locations page (https://dcidatacenters.com/auckland/). Per-site MW not disclosed on DCI primary \u2014 only combined AKL01+AKL02 \u201c50+ MW of critical technical infrastructure.\u201d Do not invent 10 MW from DCD/DC Atlas. MW left null. Sub-250 floor N/A. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "dci-akl02-albany",
+      "name": "DCI AKL02",
+      "operator": "DCI Data Centers (Brookfield)",
+      "place": "Albany (North Shore), Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.735,
+      "lon": 174.705,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "a second site in Albany, AKL02, to present a total of 50+ MW of critical technical infrastructure to the New Zealand market",
+      "mw_as_of": "2023-04-01",
+      "status": "in_progress",
+      "status_phrase": "DCI Data Centers commences construction on Auckland\u2019s largest data centre",
+      "status_as_of": "2022-08-01",
+      "url": "https://dcidatacenters.com/auckland/",
+      "notes": "Matching Aug 2022 construction-start press and Auckland page \u201cAKL02 in Auckland\u2019s North Shore is scheduled for delivery by early 2025.\u201d Per-site MW not on primary (combined 50+ only) \u2192 mw null. Shares Albany corridor with Datacom Orbit; globe offsets. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    },
+    {
+      "id": "microsoft-whenuapai-brigham-creek",
+      "name": "Microsoft Whenuapai datacentre (Brigham Creek Road)",
+      "operator": "Microsoft 6399 New Zealand Limited",
+      "place": "Whenuapai (151 Brigham Creek Road), Auckland, NZL",
+      "admin1": "Auckland",
+      "lat": -36.79,
+      "lon": 174.63,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "",
+      "mw_as_of": "",
+      "status": "announced",
+      "status_phrase": "The Applicant intends to construct a data centre on the land",
+      "status_as_of": "2023-02-08",
+      "url": "https://www.linz.govt.nz/our-work/overseas-investment-regulation/decisions/2023-02/202200050",
+      "notes": "LINZ OIO Benefit-to-NZ consent; acquisition described as conditional at publication. Supports two other Microsoft DCs under prior consent 201900507. Do NOT copy Te Huka 3 / Contact \u201c51.4 megawatts \u2026 generation\u201d from Microsoft NZ open press as campus MW (generation/PPA). Do not pin Microsoft \u201cNew Zealand North\u201d cloud region alone. MW null. lat/lon Whenuapai centroid. Net-new vs live.",
+      "source": "primary",
+      "country_iso3": "NZL",
+      "region": "OCEANIA",
+      "include": true
+    }
+  ],
+  "rejected": [
+    {
+      "id": "nextdc-ak1-auckland",
+      "name": "NEXTDC AK1 Auckland",
+      "reason": "Place grain fail \u2014 primary prints \u201cAK1 Auckland\u201d / Auckland alone with \u201c3,000m\u00b2 | 15+MW\u201d and \u201cIn Development\u201d; no named suburb/park on NEXTDC primary. Soft corridor HOLD per clerk (never Auckland metro alone).",
+      "url": "https://www.nextdc.com/data-centres/new-zealand-data-centres/ak1-auckland"
+    },
+    {
+      "id": "microsoft-nz-north-cloud-region",
+      "name": "Microsoft New Zealand North cloud region / Aotearoa datacenter",
+      "reason": "Cloud region / Auckland-alone place grain. Company open press does not name Westgate/Whenuapai suburb. Do not pin cloud region. Do not copy Te Huka 3 51.4 MW generation.",
+      "url": "https://news.microsoft.com/en-nz/2024/12/12/new-zealands-first-hyperscale-cloud-is-open-for-business/"
+    },
+    {
+      "id": "cdc-auckland-region-220mw",
+      "name": "CDC Auckland region 220 MW+ glance",
+      "reason": "Portfolio/region glance (\u201c220 MW + capacity\u201d) across Auckland campuses \u2014 not a named single campus pin. Per-campus pins used instead (Silverdale / Hobsonville One / Two).",
+      "url": "https://www.cdc.com.au/locations/auckland/"
+    },
+    {
+      "id": "datacom-abel-wellington",
+      "name": "Datacom Abel (Wellington)",
+      "reason": "Named place Abel / Wellington on Datacom locations, but no verbatim MW on allowed primary this hunt.",
+      "url": "https://datacom.com/nz/en/products/data-centres"
+    },
+    {
+      "id": "datacom-gloucester-christchurch",
+      "name": "Datacom Gloucester (Christchurch)",
+      "reason": "Named place central Christchurch on Datacom locations, but no verbatim MW on allowed primary this hunt.",
+      "url": "https://datacom.com/nz/en/products/data-centres"
+    },
+    {
+      "id": "tenpeaks-central-aotea",
+      "name": "TenPeaks Central Campus (Aotea / Mayoral Drive)",
+      "reason": "Primary prints \u201c~19MW Total potential capacity\u201d and \u201cadditional 15 MW\u201d proposed expansion; current operating campus MW not cleanly disclosed as a single campus figure (colo/edge halls). Held for MW grain clarity.",
+      "url": "https://tenpeaks.co.nz/data-centres/central"
+    },
+    {
+      "id": "spark-national-23mw-portfolio",
+      "name": "Spark / TenPeaks national 23 MW / 11 facilities",
+      "reason": "NZX portfolio print (\u201coperating over 23MW of capacity at 11 facilities\u201d) \u2014 not a named campus. Per-campus TenPeaks South/North used instead.",
+      "url": "https://investors.sparknz.co.nz/DownloadFile.axd?file=Announcements%2FNZX%2F20260130%2F461366.pdf"
+    },
+    {
+      "id": "dci-auckland-combined-50mw",
+      "name": "DCI AKL01+AKL02 combined 50+ MW",
+      "reason": "Combined two-site print only. Not copied onto either Westgate or Albany pin as per-site MW.",
+      "url": "https://dcidatacenters.com/news/akl01-completed/"
+    },
+    {
+      "id": "aws-westgate-fred-taylor",
+      "name": "Amazon / AWS Westgate (Fred Taylor Drive)",
+      "reason": "LINZ OIO names 77 Fred Taylor Drive Westgate stormwater parcel; abandonment / impairment reported only via news (RNZ/Herald) \u2014 no Amazon company primary cancel quote fetched this hunt. Not pinned.",
+      "url": "https://www.linz.govt.nz/our-work/overseas-investment-regulation/decisions/2024-12/202400716"
+    },
+    {
+      "id": "plan-b-auckland-sites",
+      "name": "Plan B Auckland / Albany colo sites",
+      "reason": "Company colo page has no verbatim per-site MW; tracker MW forbidden. Rejected.",
+      "url": "https://go.planb.co.nz/datacentre-colocation"
+    },
+    {
+      "id": "equinix-nz-ibx",
+      "name": "Equinix New Zealand IBX (if any)",
+      "reason": "Equinix IBX hold per clerk; no NZ xScale named-place primary found this hunt.",
+      "url": ""
+    }
+  ],
+  "empty_searches": [
+    {
+      "operator": "AirTrunk",
+      "query": "AirTrunk New Zealand / Auckland campus primary",
+      "result": "No NZ campus; AU-only footprint on company materials"
+    },
+    {
+      "operator": "Vantage Data Centers",
+      "query": "Vantage New Zealand campus",
+      "result": "empty"
+    },
+    {
+      "operator": "STACK Infrastructure",
+      "query": "STACK New Zealand campus",
+      "result": "empty"
+    },
+    {
+      "operator": "NTT",
+      "query": "NTT data centre New Zealand campus MW named place",
+      "result": "empty"
+    },
+    {
+      "operator": "STT GDC",
+      "query": "STT GDC New Zealand campus",
+      "result": "empty"
+    },
+    {
+      "operator": "Digital Realty",
+      "query": "Digital Realty New Zealand",
+      "result": "empty"
+    },
+    {
+      "operator": "Keppel / CapitaLand / DayOne / ESR / PDG / Colt",
+      "query": "NZ named campus",
+      "result": "empty"
+    },
+    {
+      "operator": "Google",
+      "query": "Google data center New Zealand named suburb campus primary",
+      "result": "empty (no named NZ campus primary)"
+    },
+    {
+      "operator": "Meta",
+      "query": "Meta data center New Zealand named place",
+      "result": "empty"
+    },
+    {
+      "operator": "Apple",
+      "query": "Apple data center New Zealand",
+      "result": "empty"
+    },
+    {
+      "operator": "Chorus",
+      "query": "Chorus data centre MW named place official",
+      "result": "no campus MW primary"
+    },
+    {
+      "operator": "Equinix xScale NZ",
+      "query": "Equinix xScale New Zealand named place",
+      "result": "empty"
+    }
+  ],
+  "fetch_failures": [
+    {
+      "url": "https://tenpeaks.co.nz/",
+      "note": "curl/box fetch returned ~891B shell; WebFetch succeeded for south/north/central/home \u2014 used WebFetch text"
+    },
+    {
+      "url": "https://tenpeaks.co.nz/data-centres/south",
+      "note": "curl blocked; WebFetch OK"
+    },
+    {
+      "url": "https://tenpeaks.co.nz/data-centres/north",
+      "note": "curl blocked; WebFetch OK"
+    },
+    {
+      "url": "https://datacom.com/nz/en/products/data-centres/locations/highbrook",
+      "note": "canonical 404; Highbrook MW taken from Datacom locations list primary"
+    },
+    {
+      "url": "https://www.linz.govt.nz/our-work/overseas-investment-regulation/decisions/.../microsoft-westgate-201900507",
+      "note": "Cached linz-msft-westgate.html is 404; Whenuapai decision used for named Microsoft parcel"
+    },
+    {
+      "url": "https://www.es.govt.nz/about-us/news?item=id%3A2xhpahbzw17q9s3f3x4z",
+      "note": "curl returned empty; WebFetch succeeded \u2014 used WebFetch for 240 MW IT conflict note"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "New Zealand",
+  "country_iso3": "NZL",
+  "kind": "authoritative fold from new-zealand-2026-09-04.json dry-run",
+  "n_projects": 12,
+  "project_ids": [
+    "cdc-silverdale-campus-one",
+    "cdc-hobsonville-campus-one",
+    "cdc-hobsonville-campus-two",
+    "datacom-orbit-albany",
+    "datacom-highbrook",
+    "datacom-kapua-hamilton",
+    "tenpeaks-south-takanini",
+    "tenpeaks-north-north-shore",
+    "datagrid-makarewa",
+    "dci-akl01-westgate",
+    "dci-akl02-albany",
+    "microsoft-whenuapai-brigham-creek"
+  ],
+  "rules": [
+    "First NZL pins on live book (currently 0).",
+    "Datagrid Makarewa: 280 MW facility_power consume grain; do NOT invent IT.",
+    "DCI AKL01/AKL02: MW null each; do NOT split combined 50+ onto either pin.",
+    "tenpeaks-north-north-shore: FOLD with soft place note (North Shore / NE zone); Spark IR corroborates 40 MW North Shore Campus.",
+    "Hold NEXTDC AK1 Auckland-alone; Microsoft NZ North cloud region; CDC Auckland 220 region total; Datacom Abel/Gloucester no MW; Spark 23 MW portfolio; Te Huka generation; Plan B no MW.",
+    "Do not invent MW. Hold merge until Pukar says ship it."
+  ]
+}
