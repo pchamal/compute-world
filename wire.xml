@@ -68,6 +68,13 @@
     <description>On 27 August 2026 SK hynix held a groundbreaking ceremony at Purdue University in West Lafayette, Indiana, for its first US next-generation HBM advanced-packaging production base. The company newsroom (dated Seoul 28 August) sizes the Indiana fab at over $4 billion, with the cleanroom scheduled to open by October 2028 and mass production of next-generation HBM in the second half of 2029, plus an Advanced Packaging R&amp;D Testbed and about 1,000 facility jobs. Korea-made wafers will be packaged and tested in Indiana and sold as Made-in-USA product to US customers. A prior US Commerce CHIPS award (December 2024) attached up to $458 million in direct funding and up to $500 million in loans to the West Lafayette project; that award is not restated in today’s newsroom note. This is a US/Korea conversion print: packaging land and a 2029 volume clock, not a 2026 wafer start. [Signal 91, Confirmed, via SK hynix Newsroom] More: https://compute.world/wire.html</description>
   </item>
   <item>
+    <title>EO 14420 declares BPS emergency — DOE to restrict foreign-produced grid equipment feeding AI campuses</title>
+    <link>https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/</link>
+    <guid isPermaLink="false">compute.world/wire#eo-14420-bulk-power-foreign-equipment-2026-08-26</guid>
+    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 26 August 2026 President Trump signed Executive Order 14420, Declaring a National Emergency to Secure the United States Bulk-Power System. The order authorizes the Secretary of Energy, within 120 days, to publish rules prohibiting or conditioning acquisition, importation, transfer, or installation of foreign-produced bulk-power system electric equipment — including substation transformers, grid-connected inverters, battery energy storage, UPS supporting critical infrastructure, turbines, and industrial control systems — where the transaction involves a Covered Foreign Entity and poses undue sabotage, supply-disruption, or national-security risk. DOE may also impose conditions on already-installed foreign equipment, including phased removal. The White House text explicitly cites rapid growth of data centers and artificial intelligence as magnifying bulk-power dependence. By 2–3 September, CNBC, Data Center Knowledge, and Wood Mackenzie commentary framed the order as tightening an already short transformer/substation market (Wood Mackenzie: ~15% transformer and ~8% substation shortage in 2026), with data-center developers that had turned to Chinese 100 MVA+ units for lead times most exposed. Implementation rules are due by ~24 December 2026; scope for behind-the-meter data-center loads remains open. [Signal 90, Confirmed, via White House EO 14420] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>NVIDIA Q2: China Hopper DC shipments &lt;1% of Data Center revenue; Q3 outlook assumes zero China DC compute</title>
     <link>https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027</link>
     <guid isPermaLink="false">compute.world/wire#nvidia-fy27q2-china-dc-zero</guid>
@@ -206,12 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#sk-hynix-yongin-y2</guid>
     <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 7 August 2026 SK hynix’s board approved ₩35,224,600,000,000 to construct Y2 (phases 1–6 of Fab 2) at the Yongin Semiconductor Cluster, 29.19% of total equity as of 31 December 2025, with a stated investment window of 7 August 2026 to 31 October 2031. The 6-K frames the spend as mid- to long-term memory capacity, not a 2026 wafer print. This is Korea’s conversion ticket for HBM/DRAM land and power already sitting inside the Yongin cluster — volume for 2029+, not this year’s tape. [Signal 88, Confirmed, via SEC] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Amazon confirms GW Ranch: up to 7.65 GW off-grid gas for a Pecos AI campus</title>
-    <link>https://newsletter.cleanview.co/p/scoop-amazon-is-behind-one-of-the</link>
-    <guid isPermaLink="false">compute.world/wire#amazon-gw-ranch-pecos</guid>
-    <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 7 August 2026 Amazon confirmed to Cleanview it acquired the GW Ranch site in Pecos County, Texas, and will buy power from an on-site gas plant permitted for 35 turbines at up to 7.65 GW nameplate (permit also states ~5 GW nominal delivered). Amazon’s on-record line: new on-site generation that “won’t raise electricity costs for Texas families,” designed to move to grid service when interconnection allows; Pacifico separately cites 750 MW solar and 1.8 GW BESS. In a 474 GW ERCOT freeze, this is the US workaround — behind-the-meter gigawatts that convert Texas compute without waiting for Batch Zero. [Signal 74, Corroborated, via Cleanview] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>

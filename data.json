@@ -996,7 +996,7 @@
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
    "rz": 41,
-   "dl": 0,
+   "dl": -1,
    "rw": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs …"
   },
   {
