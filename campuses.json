@@ -4,13 +4,13 @@
   "kicker": "Named projects · sourced grain, not a census",
   "cite": "Hamal, P. (2026). Campuses. compute.world.",
   "description": "A desk-curated globe of named data-center campus projects. Not a global inventory. Megawatt figures keep their grain. compute.world.",
-  "lede": "This is a desk-curated named-project register, not a global inventory. Ninety-two pins, each folded from a primary the desk fetched. Virginia is a named-campus shelf in this book, not Data Center Alley. Ireland is a named-campus shelf, not Dublin metro. Malaysia is a named-campus shelf, not a Johor census. Australia is a named-campus shelf, not Sydney metro / Melbourne metro. Honest holes remain: no named AWS Loudoun or AWS Prince William campus (the AWS pins here are Louisa County only), and no named AWS Ireland campus. Google’s city-only “Dublin, Ireland” line is not a pin. Microsoft Southeast Asia 3, Malaysia West, and AWS ap-southeast-5 are cloud regions, not campus pins. Sub-250 disclosed pins are kept; the 250 MW floor is a filter, not a delete. Energized MW is almost never published. A 4.75 GW interconnection is not IT. SSA and South Asia have no pins in this book — that is a coverage hole, not a load of zero. Homer City Energy Campus is held: it is a generation plant. Equinix JH1 / KL1 and TM IPDC / KVDC are held (hall grain). NEXTDC S1/S2/S5 Macquarie Park are held (hunt SoR URL points at M3 Melbourne). AirTrunk SYD1/SYD2 soft corridors, Equinix IBX halls, Digital Realty 250 MW Western Sydney landbank, CDC 555 MW contract, CDC Melbourne 780 MW headline, and NEXTDC 850 MW S4+S7 JV are held.",
+  "lede": "This is a desk-curated named-project register, not a global inventory. Ninety-five pins, each folded from a primary the desk fetched. Virginia is a named-campus shelf in this book, not Data Center Alley. Ireland is a named-campus shelf, not Dublin metro. Malaysia is a named-campus shelf, not a Johor census. Australia is a named-campus shelf, not Sydney metro / Melbourne metro. Honest holes remain: no named AWS Loudoun or AWS Prince William campus (the AWS pins here are Louisa County only), and no named AWS Ireland campus. Google’s city-only “Dublin, Ireland” line is not a pin. Microsoft Southeast Asia 3, Malaysia West, and AWS ap-southeast-5 are cloud regions, not campus pins. Sub-250 disclosed pins are kept; the 250 MW floor is a filter, not a delete. Energized MW is almost never published. A 4.75 GW interconnection is not IT. SSA and South Asia have no pins in this book — that is a coverage hole, not a load of zero. Homer City Energy Campus is held: it is a generation plant. Equinix JH1 / KL1 and TM IPDC / KVDC are held (hall grain). AirTrunk SYD1/SYD2 soft corridors, Equinix IBX halls, Digital Realty 250 MW Western Sydney landbank, CDC 555 MW contract, CDC Melbourne 780 MW headline, and NEXTDC 850 MW S4+S7 JV are held.",
   "notes": [
     "Not a census. Empty regions and empty small-MW filters are coverage holes, not bugs.",
     "Virginia fold (2026-08-22): nineteen named campuses. This is a named-campus shelf, not Data Center Alley. No named AWS Loudoun or AWS Prince William campus; AWS pins in this book are Louisa County only.",
     "Ireland fold (2026-08-22): twelve named campuses. This is a named-campus shelf, not Dublin metro. No named AWS Ireland campus. Google’s city-only “Dublin, Ireland” line is not a pin. Do not copy Meta 723.8 MW, Microsoft 1 GW / 500 MW, or Echelon 1 GW / 800 MW wind — those are generation or PPAs. Microsoft Jigginstown and Herbata share Naas townlands but are different operators; they are not merged.",
     "Malaysia fold (2026-08-22): sixteen named campuses. This is a named-campus shelf, not a Johor census. AirTrunk MEL1/MEL2/SYD3 are not re-pinned. Yondr Sedenak is not added (sold to Vantage; same campus as vantage-jhb1-sedenak). Equinix JH2 (unnamed JS-SEZ) is not added. Equinix JH1 / KL1 and TM IPDC / KVDC are held (hall grain — IBX / combined 20 MW IT). Microsoft Southeast Asia 3, Malaysia West, and AWS ap-southeast-5 are cloud regions, not pins.",
-    "Australia fold (2026-09-04): twenty-two net-new named campuses. Live AirTrunk MEL1/MEL2/SYD3 kept (not re-pinned). This is a named-campus shelf, not Sydney metro / Melbourne metro. Equinix SY9x/SY10x Rosehill folded as xScale (28 MW facility each); do not invent a 55 MW campus total. NEXTDC S7 Eastern Creek is 612 MW facility from NSW Planning SSD (ASX ~550MW+ left on the pin). CDC Marsden Park is 504 MW IT. Goodman Atlas Eastern Creek is 500 MW facility from SEARS total power consumption. Do not merge CDC Brooklyn + Laverton into the 780 MW Melbourne headline. Do not invent MW. Microsoft Kemps Creek stays MW-null (do not copy DCD 96/190). NEXTDC S1/S2/S5 Macquarie Park held — hunt SoR URL wrongly points at M3 Melbourne; wait for Sydney tech-specs URL. AirTrunk SYD1/SYD2 soft corridor, Equinix IBX, Digital Realty 250 MW landbank, CDC 555 MW contract, CDC Melbourne 780 MW headline, and NEXTDC 850 MW JV are held. Sub-250 disclosed pins stay (CDC Canberra campuses, Equinix xScale, Vantage MEL1 64, DCI SYD02 63, NEXTDC M1 16).",
+    "Australia fold (2026-09-04): twenty-five net-new named campuses (22 + Macquarie S1/S2/S5). Live AirTrunk MEL1/MEL2/SYD3 kept (not re-pinned). This is a named-campus shelf, not Sydney metro / Melbourne metro. NEXTDC S1/S2/S5 Macquarie Park folded from Sydney SoR pages (https://www.nextdc.com/data-centres/sydney-data-centres/s1-sydney, s2-sydney, s5-sydney) — 16 / 30 / 80 MW IT capacity. Grain is it_capacity from those Sydney pages, not the bad M3 Melbourne scrape. Equinix SY9x/SY10x Rosehill folded as xScale (28 MW facility each); do not invent a 55 MW campus total. NEXTDC S7 Eastern Creek is 612 MW facility from NSW Planning SSD (ASX ~550MW+ left on the pin). CDC Marsden Park is 504 MW IT. Goodman Atlas Eastern Creek is 500 MW facility from SEARS total power consumption. Do not merge CDC Brooklyn + Laverton into the 780 MW Melbourne headline. Do not invent MW. Microsoft Kemps Creek stays MW-null (do not copy DCD 96/190). AirTrunk SYD1/SYD2 soft corridor, Equinix IBX, Digital Realty 250 MW landbank, CDC 555 MW contract, CDC Melbourne 780 MW headline, and NEXTDC 850 MW JV are held. Sub-250 disclosed pins stay (CDC Canberra campuses, Equinix xScale, Vantage MEL1 64, DCI SYD02 63, NEXTDC M1 16, NEXTDC S1 16 IT, NEXTDC S2 30 IT, NEXTDC S5 80 IT).",
     "Sub-250 disclosed pins are kept. The 250 MW floor is a filter, not a delete.",
     "MW-null / not_disclosed pins stay on the default view. A MW-threshold filter hides them; they cannot pass a numeric floor.",
     "Never imply a pin is live load unless status is operational and the primary said so.",
@@ -59,18 +59,6 @@
     {
       "name": "TM Klang Valley Data Centre (KVDC)",
       "reason": "hall grain — combined 20 MW IT with IPDC only, not a named-campus print"
-    },
-    {
-      "name": "NEXTDC S1 Macquarie Park",
-      "reason": "hunt SoR URL points at M3 Melbourne; HOLD until Sydney tech specs URL verified"
-    },
-    {
-      "name": "NEXTDC S2 Macquarie Park",
-      "reason": "same Macquarie SoR URL issue — points at M3 Melbourne, not Sydney tech specs"
-    },
-    {
-      "name": "NEXTDC S5 Macquarie Park",
-      "reason": "same Macquarie SoR URL issue — points at M3 Melbourne, not Sydney tech specs"
     },
     {
       "name": "AirTrunk SYD1 (Sydney’s West)",
@@ -2109,6 +2097,72 @@
       "url": "https://local.microsoft.com/blog/kemps-creek-datacentre-overview/",
       "source": "primary",
       "notes": "Named Kemps Creek / Mamre Road precinct on Microsoft Local. Building One (SYD05) operational noise verification; Building Two expected completed 2026. Do NOT copy DCD/news 96MW/190MW without Microsoft or planning SoR MW phrase this hunt. lat/lon is the Photon named-place centroid, not a street parcel."
+    },
+    {
+      "id": "nextdc-s1-macquarie-park",
+      "name": "NEXTDC S1 Sydney",
+      "operator": "NEXTDC",
+      "place": "Macquarie Park, New South Wales, AUS",
+      "admin1": "New South Wales",
+      "country_iso3": "AUS",
+      "region": "APAC",
+      "lat": -33.7814961,
+      "lon": 151.1256747,
+      "geo": "named_place",
+      "mw": 16,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "Located in Macquarie Park, S1 Sydney is a 16MW Tier III certified data centre",
+      "mw_as_of": "",
+      "status": "operational",
+      "status_phrase": "S1 Sydney Data Centre",
+      "status_as_of": "",
+      "url": "https://www.nextdc.com/data-centres/sydney-data-centres/s1-sydney",
+      "source": "primary",
+      "notes": "Sydney SoR page (not M3 Melbourne). Hero IT Capacity 16MW; Power section also 'IT load capacity of 16MW'. Address on Sydney Facility Overview / Sydney colocation: 4 Eden Park Drive, Macquarie Park NSW 2113. Sub-250 kept. Corrects australia-2026-09-04.json which wrongly pointed url at m3-melbourne. ADD: Sydney SoR URL verified; was held for wrong M3 Melbourne URL. Prefer it_capacity grain from Sydney pages."
+    },
+    {
+      "id": "nextdc-s2-macquarie-park",
+      "name": "NEXTDC S2 Sydney",
+      "operator": "NEXTDC",
+      "place": "Macquarie Park, New South Wales, AUS",
+      "admin1": "New South Wales",
+      "country_iso3": "AUS",
+      "region": "APAC",
+      "lat": -33.7814961,
+      "lon": 151.1256747,
+      "geo": "named_place",
+      "mw": 30,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "With 30MW of capacity",
+      "mw_as_of": "",
+      "status": "operational",
+      "status_phrase": "Located in Macquarie Park, S2 Sydney is certified to Uptime Institute Tier IV for both design and construction",
+      "status_as_of": "",
+      "url": "https://www.nextdc.com/data-centres/sydney-data-centres/s2-sydney",
+      "source": "primary",
+      "notes": "Sydney SoR page (not M3 Melbourne). Same intro names Macquarie Park; hero IT Capacity 30MW. Address: 6-8 Giffnock Avenue, Macquarie Park NSW 2113. Nav also 'S2 Macquarie Park | 8,700m² | 30MW'. Sub-250 kept. Corrects wrong m3-melbourne url. ADD: Sydney SoR URL verified; was held for wrong M3 Melbourne URL. Prefer it_capacity grain from Sydney pages."
+    },
+    {
+      "id": "nextdc-s5-macquarie-park",
+      "name": "NEXTDC S5 Sydney",
+      "operator": "NEXTDC",
+      "place": "Macquarie Park, New South Wales, AUS",
+      "admin1": "New South Wales",
+      "country_iso3": "AUS",
+      "region": "APAC",
+      "lat": -33.7814961,
+      "lon": 151.1256747,
+      "geo": "named_place",
+      "mw": 80,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "will provide 80MW+ of IT capacity",
+      "mw_as_of": "",
+      "status": "announced",
+      "status_phrase": "S5 Sydney Data Centre In Planning",
+      "status_as_of": "",
+      "url": "https://www.nextdc.com/data-centres/sydney-data-centres/s5-sydney",
+      "source": "primary",
+      "notes": "Sydney SoR page (not M3 Melbourne). Place: 'Located in the Macquarie Park availability zone'. Hero IT Capacity 80MW+; nav 'S5 Macquarie Park | 16,000m² | 80+MW'. ASX 1H26: S5 application progressing / early works expected 2H26 — still announced/In Planning on company page. Corrects wrong m3-melbourne url. ADD: Sydney SoR URL verified; was held for wrong M3 Melbourne URL. Prefer it_capacity grain from Sydney pages."
     }
   ]
 }
