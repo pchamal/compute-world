@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Indonesia",
+  "country_iso3": "IDN",
+  "kind": "authoritative fold from indonesia-2026-09-04.json dry-run",
+  "n_projects": 15,
+  "project_ids": [
+    "pdg-jc3-giic-bekasi",
+    "pdg-jc4-giic-bekasi",
+    "pdg-jc1-jc2-cibitung",
+    "stt-jakarta-campus-giic-bekasi",
+    "digital-edge-cgk-campus-giic-bekasi",
+    "digital-edge-edge2-kuningan",
+    "digital-realty-cgk11-jatinegara",
+    "digital-realty-cgk10-kalideres",
+    "edgeconnex-jakarta-lippo-cikarang",
+    "dci-h1-jk6-cibitung",
+    "ntt-jkt3-bekasi",
+    "bdx-cgk4-jatiluhur",
+    "dayone-ndp-nongsa-batam",
+    "dayone-kitp-kabil-batam",
+    "neutradc-hdc-cikarang"
+  ],
+  "rules": [
+    "First IDN pins on live book (currently 0).",
+    "GIIC Bekasi cluster: FOUR distinct operator pins \u2014 pdg-jc3, pdg-jc4, stt-jakarta-campus, digital-edge-cgk-campus. Do NOT fold into one park pin.",
+    "PDG JC4: 240 MW facility (powered land / 4\u00d760), not invent higher.",
+    "DayOne KITP Kabil: MW null; 450 MW is PPA/grid, not IT \u2014 do not pin 450 as campus MW.",
+    "BDx CGK4: 500 MW facility scalable phrase; do NOT copy 700 MW Indonesia portfolio.",
+    "NTT JKT3: 45 MW IT from 2019 primary only; no upgrade SoR.",
+    "Hold Equinix JK1 IBX. Hold AirTrunk/Vantage/STACK/CapitaLand/ESR/Colt/Apple/IKN empties.",
+    "Do not invent MW. Hold merge until Pukar says ship it."
+  ]
+}
