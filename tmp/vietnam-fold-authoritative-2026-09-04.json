@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Vietnam",
+  "country_iso3": "VNM",
+  "kind": "authoritative fold from vietnam-2026-09-04.json dry-run",
+  "n_projects": 10,
+  "project_ids": [
+    "viettel-hoa-lac-hitech",
+    "viettel-tan-phu-trung",
+    "evolution-vn02-saigon-hitech",
+    "evolution-vn01-hoa-lac",
+    "stt-vng-hcmc1-tan-thuan",
+    "stt-vng-hcmc2-tan-thuan",
+    "ntt-hcmc1-saigon-hitech",
+    "cmc-hyperscale-shtp",
+    "kbc-aic-sgi-hcm-tan-phu-trung",
+    "starmason-shtp-tang-nhon-phu"
+  ],
+  "rules": [
+    "First VNM pins on live book (currently 0).",
+    "CMC Hyperscale SHTP: pin 30 MW facility (announced), NOT expandable 120.",
+    "kbc-aic-sgi-hcm-tan-phu-trung: FOLD as announced MoU (soft vs groundbreaking); DISTINCT from viettel-tan-phu-trung 140 in same park.",
+    "Hold G42\u2013FPT country framework; Viettel 560 MW portfolio; An Khanh news-only; DLR/BW tertiary; BW park power; VNPT Hoa Lac no MW; FPT Fornix halls.",
+    "Do not invent MW. Hold merge until Pukar says ship it."
+  ]
+}
