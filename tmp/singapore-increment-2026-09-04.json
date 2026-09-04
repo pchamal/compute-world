@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Singapore",
+  "kind": "increment after second pass overwrote singapore-2026-09-04.json",
+  "keep_original_8": [
+    "airtrunk-sgp1-loyang",
+    "airtrunk-sgp2-loyang",
+    "keppel-dc-campus-genting-lane",
+    "nxera-dc-tuas",
+    "global-switch-woodlands",
+    "meta-tanjong-kling",
+    "google-jurong-west",
+    "dayone-sg1-jalan-buroh"
+  ],
+  "new_include": [
+    {
+      "include": true,
+      "id": "jtc-jurong-island-low-carbon-dc-park",
+      "name": "Jurong Island low-carbon Data Centre Park",
+      "operator": "JTC (park)",
+      "place": "Jurong Island, Singapore, SGP",
+      "mw": 700,
+      "mw_grain": "facility_power",
+      "mw_phrase": "up to 700MW of power capacity for data centres",
+      "status": "announced",
+      "url": "https://www.jtc.gov.sg/about-jtc/news-and-stories/press-releases/jurong-island-celebrates-25-years",
+      "notes": "Park power capacity, not IT. Do not sum four 50 MW CFA2 awards into 700."
+    },
+    {
+      "include": true,
+      "id": "keppel-dc-sgp11-jurong-island",
+      "name": "Keppel DC SGP 11",
+      "operator": "Keppel",
+      "place": "Jurong Island Data Centre Park, Jurong Island, Singapore, SGP",
+      "mw": 50,
+      "mw_grain": "not_disclosed",
+      "status": "announced",
+      "url": "https://www.keppel.com/media/keppel-awarded-50-mw-new-data-centre-capacity-under-singapores-second-data-centre-call-for-application/",
+      "notes": "DC-CFA2 50 MW. Distinct from Genting Lane campus. Do not copy 1,900 MW cogen."
+    },
+    {
+      "include": true,
+      "id": "digital-realty-jurong-island-cfa2",
+      "name": "Digital Realty Jurong Island (DC-CFA2)",
+      "operator": "Digital Realty",
+      "place": "JTC low-carbon data center park, Jurong Island, Singapore, SGP",
+      "mw": 50,
+      "mw_grain": "not_disclosed",
+      "status": "announced",
+      "url": "https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-selected-develop-50-megawatts-new-data-center",
+      "notes": "DC-CFA2 50 MW on Jurong Island."
+    },
+    {
+      "include": true,
+      "id": "equinix-jurong-island-cfa2",
+      "name": "Equinix Jurong Island (DC-CFA2)",
+      "operator": "Equinix",
+      "place": "Jurong Island, Singapore, SGP",
+      "mw": 50,
+      "mw_grain": "not_disclosed",
+      "status": "announced",
+      "url": "https://www.edb.gov.sg/en/news-and-insights/four-data-centre-proposals-selected-as-part-of-second-data-centre",
+      "notes": "Place from EDB Fact Sheet. Distinct from SG1-SG6 IBX halls (still held)."
+    },
+    {
+      "include": true,
+      "id": "stt-gdc-jurong-island-cfa2",
+      "name": "STT GDC Jurong Island (DC-CFA2)",
+      "operator": "STT GDC",
+      "place": "Jurong Island, Singapore, SGP",
+      "mw": 50,
+      "mw_grain": "not_disclosed",
+      "status": "announced",
+      "url": "https://www.sttelemediagdc.com/newsroom/stt-gdc-to-develop-50mw-sustainable-ai-ready-data-centre-capacity-singapore",
+      "notes": "Place from EDB Fact Sheet + STT award. Distinct from Defu/Loyang."
+    },
+    {
+      "include": true,
+      "id": "stt-defu-campus",
+      "name": "STT Defu campus",
+      "operator": "STT GDC",
+      "place": "Defu Industrial Estate / Defu Avenue 1, Singapore, SGP",
+      "mw": 40,
+      "mw_grain": "it_capacity",
+      "status": "operational",
+      "url": "https://www.sttelemediagdc.com/newsroom/st-telemedia-global-data-centres-to-expand-its-flagship-Defu-campus",
+      "notes": "40 MW campus IT. Defu 3 15 MW is a hall, not the campus pin."
+    }
+  ],
+  "new_hold_hall_grain": [
+    {
+      "include": false,
+      "id": "stt-loyang",
+      "reason": "single facility 40 MW IT at Loyang Close (hall), not a multi-building campus"
+    },
+    {
+      "include": false,
+      "id": "global-switch-tai-seng",
+      "reason": "named facility on same Global Switch page as Woodlands campus; hall grain (same call as first pass)"
+    }
+  ]
+}
