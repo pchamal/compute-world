@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Thailand",
+  "country_iso3": "THA",
+  "kind": "authoritative fold from thailand-2026-09-04.json dry-run",
+  "n_projects": 15,
+  "held": [
+    {
+      "id": "true-idc-eec-hyperscale",
+      "mw": 250,
+      "reason": "DESK HOLD soft place: primary only says within the EEC, no amphoe/estate; do not use tertiary Chonburi hints. Revisit when True names a place."
+    }
+  ],
+  "project_ids": [
+    "bridge-qhi01-khlong-tamru",
+    "digital-edge-bgrimm-bkk-chonburi",
+    "dayone-ctp1-amata-chonburi",
+    "dayone-ctp2-amata-chonburi",
+    "gsa01-samut-prakan",
+    "gsa02-chonburi-eec",
+    "gsa03-rayong-eec",
+    "stt-bangkok-hua-mak",
+    "stt-bangkok-3-pathumwan",
+    "empyrion-th1-bang-na",
+    "evolution-th01-bang-na-trad",
+    "evolution-th02-phraeksa",
+    "google-chonburi",
+    "ntt-bangkok-1-bang-na",
+    "supernap-wha-chonburi-ie2"
+  ],
+  "rules": [
+    "First THA pins on live book (currently 0), minus True EEC soft-place HOLD.",
+    "HOLD true-idc-eec-hyperscale (250 facility) until amphoe/estate named on primary.",
+    "DayOne CTP1: 300 MW facility; do NOT pin 1GW platform.",
+    "Gulf GSA03 Rayong: 100 MW facility from SET IR (not marketing 150).",
+    "Evolution TH01: 52 MW IT (12+40).",
+    "Hold Equinix Bangna IBX; True portfolio 150; cloud regions; DayOne 1GW + 42.5 MWp PPA; Bridge BBK01 no place.",
+    "Do not invent MW. Hold merge until Pukar says ship it."
+  ]
+}
