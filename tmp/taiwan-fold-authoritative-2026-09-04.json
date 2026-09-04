@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Taiwan",
+  "country_iso3": "TWN",
+  "kind": "authoritative fold from taiwan-2026-09-04.json dry-run",
+  "n_projects": 11,
+  "project_ids": [
+    "vantage-tpe11-taoyuan",
+    "empyrion-tw1-neihu",
+    "epoch-digital-etw1-neihu",
+    "chunghwa-lunping-aidc-taoyuan",
+    "chunghwa-taichung-aidc",
+    "chief-ly2-neihu",
+    "chief-ctsp-huwei",
+    "foxconn-k1-kaohsiung",
+    "google-changhua",
+    "google-tainan-dc-land",
+    "google-yunlin-tech-park"
+  ],
+  "rules": [
+    "First TWN pins on live book (currently 0).",
+    "Neihu trio DISTINCT: empyrion-tw1-neihu (7 IT), epoch-digital-etw1-neihu (23.5 IT \u2014 epochdigital.org NOT epoch.ai), chief-ly2-neihu (20 facility).",
+    "Vantage TPE11: prefer 16 MW it_capacity (critical IT load).",
+    "Empyrion: pin 7 MW IT (not 10MW powered alone).",
+    "Foxconn K-1: MW null on honhai primary; do NOT invent 100 MW from Reuters.",
+    "FOLD google-tainan-dc-land as soft announced land pin (MW null, named Tainan Tech Industrial Park) \u2014 desk keep.",
+    "Hold Keppel/DDSP 80 MW (North Taiwan only, no named campus). Hold AWS/Microsoft cloud regions.",
+    "Sub-250 stay. Do not invent MW. Hold merge until Pukar says ship it."
+  ]
+}

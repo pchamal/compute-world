@@ -1,0 +1,389 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Taiwan (Republic of China / Taiwan; named place only; never Taiwan / Taipei metro / asia-east1 or Asia Pacific (Taipei) Region alone)",
+  "iso2": "TW",
+  "country_iso3": "TWN",
+  "dry_run": true,
+  "partial": false,
+  "live_book": {
+    "url": "https://compute.world/campuses.json",
+    "as_of": "2026-08-22",
+    "pins": 70,
+    "taiwan_pins": 0,
+    "twn_pins": 0,
+    "known_hole": "Live book has zero Taiwan / TWN pins (campuses.json projects=70, country_iso3 TWN=0). Dry-run only; not published this hunt."
+  },
+  "counts": {
+    "passing": 11,
+    "rejected": 15,
+    "empty_searches": 12,
+    "fetch_failures": 6
+  },
+  "method_notes": [
+    "Sweep of Equinix, Digital Realty, AirTrunk, Vantage, STACK, NTT, STT, Keppel/DDSP, CapitaLand, DayOne/GDS, ESR, PDG, Colt, Telehouse/KDDI, Chunghwa Telecom, Far EasTone, Taiwan Mobile, Chief Telecom, Acer e-Enabling, Empyrion Digital, Epoch Digital, Microsoft, Google, AWS, Meta, Apple, Foxconn/Hon Hai named DC campuses, TSMC-adjacent only if named DC campus.",
+    "Places swept: Taipei districts (Neihu), New Taipei hints, Taoyuan/Guishan/Lunping, Hsinchu Science Park (empty primary), Taichung, Tainan tech park, Kaohsiung, Yunlin tech park / Huwei CTSP, Changhua.",
+    "Every include:true row fetched from company IR/press/official DC or gov economic-dev naming the place. Grain verbatim. Equinix IBX N/A (no Taiwan footprint). Keppel 80MW held for “North Taiwan” place grain. Sub-250 disclosed pins stay. Cloud regions (AWS Taipei Region, Microsoft Taiwan North) rejected. Do not publish. Do not message other agents.",
+    "Fetch cache under /workspace/state/campus-hunt/taiwan-fetch/."
+  ],
+  "projects": [
+    {
+      "id": "vantage-tpe11-taoyuan",
+      "name": "Taipei (TPE11) / TPE1 Data Center Campus",
+      "operator": "Vantage Data Centers",
+      "place": "Taoyuan district / Taoyuan City, Taiwan",
+      "admin1": "Taoyuan",
+      "lat": 24.9929995,
+      "lon": 121.3010003,
+      "mw": 16,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "16MW of critical IT load",
+      "mw_as_of": "2024-07-10",
+      "status": "operational",
+      "status_phrase": "today announced the grand opening of its first Taipei data center (TPE11)",
+      "status_as_of": "2024-07-10",
+      "url": "https://vantage-dc.com/news/vantage-data-centers-opens-first-taipei-facility/",
+      "notes": "Matching location page: “16MW of critical IT load” / “16MW of IT capacity”; “Located in the Taoyuan district of Taiwan”; “2 acre (1 hectare) campus”. Sub-250 disclosed pin; kept. Opening primary also prints “the 16MW facility” without IT label — IT grain from location page. lat/lon Nominatim Taoyuan City centroid, not a street parcel.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "empyrion-tw1-neihu",
+      "name": "Taipei Data Centre (TW1)",
+      "operator": "Empyrion Digital",
+      "place": "Neihu / Neihu Technology Hub, Taipei, Taiwan",
+      "admin1": "Taipei",
+      "lat": 25.069664,
+      "lon": 121.5889983,
+      "mw": 7,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "With 7MW of scalable IT load, TW1 is purpose-built to meet the growing demand for high-performance cloud and AI computing",
+      "mw_as_of": "2026-01-13",
+      "status": "in_progress",
+      "status_phrase": "today commenced groundbreaking for its first data centre in Taiwan",
+      "status_as_of": "2026-01-13",
+      "url": "https://empyriondigital.com/empyrion-digital-breaks-ground-on-first-taiwan-data-centre-in-taipeis-neihu-technology-hub/",
+      "notes": "Same page also prints “the 10MW powered Taipei Data Centre (“TW1”)” — facility/power bank; pin MW is the 7MW IT load. Matching Nov 2024 announce: “7MW (IT Load) edge co-location data centre in Neihu, Taipei” / “With 10MW of power already secured”. Expected RFS Q4 2027. Sub-250 kept. lat/lon Nominatim Neihu District.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "epoch-digital-etw1-neihu",
+      "name": "Taiwan, ETW1",
+      "operator": "Epoch Digital (Actis)",
+      "place": "Neihu, Taipei, Taiwan",
+      "admin1": "Taipei",
+      "lat": 25.069664,
+      "lon": 121.5889983,
+      "mw": 23.5,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "23.5 MW IT Capacity",
+      "mw_as_of": "",
+      "status": "in_progress",
+      "status_phrase": "Ready for Service in Q1 2027",
+      "status_as_of": "",
+      "url": "https://www.epochdigital.org/locations/taiwan",
+      "notes": "Official Epoch Digital DC location page (company SoR). Clerk “Epoch” forbid is Epoch AI / epoch.ai research census — not this operator. Shares Neihu centroid with Empyrion TW1 and Chief LY2; globe offsets. Sub-250 kept. lat/lon Nominatim Neihu District.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "chunghwa-lunping-aidc-taoyuan",
+      "name": "Lunping campus AIDC",
+      "operator": "Chunghwa Telecom",
+      "place": "Lunping (觀音區崙坪), Taoyuan City, Taiwan",
+      "admin1": "Taoyuan",
+      "lat": 24.996667,
+      "lon": 121.1625,
+      "mw": 36,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "which is expected to add up to 36 megawatts to our total IDC capacity upon full build-out",
+      "mw_as_of": "2026-08-05",
+      "status": "operational",
+      "status_phrase": "we announced the kick-off of the operation of our newly built AI data center in Lunping, Taoyuan",
+      "status_as_of": "2026-08-05",
+      "url": "https://www.cht.com.tw/home/cht/-/media/web/pdf/investors/shareholder-services/en/ir-calendar-en/20260805/q2-2026-conference-call-presentation-scriptqa.pdf?sc_lang=en",
+      "notes": "Matching IR presentation slide: “Our Lunping campus AIDC commenced operations, with an ultimate capacity of up to 36 MW upon full build-out” (2q26-presentationen0805.pdf). Grain is IDC capacity (treated as IT). Chinese earnings release: 「崙坪 AIDC 園區啟用」. Sub-250 kept. lat/lon Nominatim 崙坪 / Guanyin, Taoyuan.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "chunghwa-taichung-aidc",
+      "name": "AI Data Center in Taichung (TWSE colocation)",
+      "operator": "Chunghwa Telecom",
+      "place": "Taichung City, Taiwan",
+      "admin1": "Taichung",
+      "lat": 24.163162,
+      "lon": 120.6478282,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "",
+      "mw_as_of": "",
+      "status": "in_progress",
+      "status_phrase": "dedicated colocation capacity within our new AI Data Center in Taichung, currently under construction",
+      "status_as_of": "2026-08-05",
+      "url": "https://www.cht.com.tw/home/cht/-/media/web/pdf/investors/shareholder-services/en/ir-calendar-en/20260805/q2-2026-conference-call-presentation-scriptqa.pdf?sc_lang=en",
+      "notes": "Named Taichung place on CHT IR script/presentation. No per-campus MW on primary (do not invent). Matching presentation: “Built a new AIDC in Taichung with dedicated capacity for Taiwan Stock Exchange”. lat/lon Nominatim Taichung City.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "chief-ly2-neihu",
+      "name": "LY2 AI Intelligent Data Center (聯雲)",
+      "operator": "Chief Telecom",
+      "place": "Jiuzong Road, Neihu District, Taipei, Taiwan",
+      "admin1": "Taipei",
+      "lat": 25.069664,
+      "lon": 121.5889983,
+      "mw": 20,
+      "mw_grain": "facility_power",
+      "mw_phrase": "The LY2 data center has a robust power infrastructure with a total capacity of 20MW",
+      "mw_as_of": "",
+      "status": "operational",
+      "status_phrase": "located on Jiuzong Road in Neihu, has officially welcomed the world’s largest cloud service provider",
+      "status_as_of": "",
+      "url": "https://en.chief.com.tw/blog/ly2_introduction/",
+      "notes": "Matching Chinese facility page table: 「總電力 20MW」. Power capacity / 總電力 = facility_power, not labeled IT. Also “It was officially launched last June”. Sub-250 kept. Shares Neihu centroid with Empyrion/Epoch; globe offsets. lat/lon Nominatim Neihu District.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "chief-ctsp-huwei",
+      "name": "CTSP Huwei Park data center (Huwei IDC)",
+      "operator": "Chief Telecom",
+      "place": "Central Taiwan Science Park (CTSP) Huwei Park, Huwei Township, Yunlin County, Taiwan",
+      "admin1": "Yunlin",
+      "lat": 23.708182,
+      "lon": 120.445339,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "",
+      "mw_as_of": "",
+      "status": "in_progress",
+      "status_phrase": "groundbreaking for the brand-new data center in CTSP Huwei Park is scheduled for mid-October 2026, with commercial operations planned for H2 2028",
+      "status_as_of": "2026-07-29",
+      "url": "https://en.chief.com.tw/news/20260729news/",
+      "notes": "Named CTSP Huwei Park place. Same H1 page also lists “Groundbreaking Ceremony for the Precast Concrete Piling Engineering of the Huwei IDC Data Center 2026-07-21”. Do not copy ~20MW from earnings-call recaps not on this primary. lat/lon Nominatim Huwei Township.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "foxconn-k1-kaohsiung",
+      "name": "Kaohsiung K-1 artificial intelligence data center",
+      "operator": "Hon Hai Technology Group (Foxconn)",
+      "place": "Kaohsiung City, Taiwan",
+      "admin1": "Kaohsiung",
+      "lat": 22.6203348,
+      "lon": 120.3120375,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "",
+      "mw_as_of": "",
+      "status": "in_progress",
+      "status_phrase": "The new architecture will first be implemented in the Kaohsiung K-1 artificial intelligence data center project, which serves as a demonstration site",
+      "status_as_of": "2025-10-14",
+      "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1848",
+      "notes": "Matching 2024-06-04 Hon Hai primary: “build an advanced computing center in Kaohsiung… slated for completion by 2026”. Do not copy Reuters/Computex 100 MW — not on Hon Hai IR/press fetched. May 2025 “AI Factory… in Taiwan” island-wide line is not a separate pin. lat/lon Nominatim Kaohsiung City.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "google-changhua",
+      "name": "Changhua data center",
+      "operator": "Google",
+      "place": "Changhua County (彰化), Taiwan",
+      "admin1": "Changhua",
+      "lat": 24.0755667,
+      "lon": 120.5444667,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "",
+      "mw_as_of": "",
+      "status": "operational",
+      "status_phrase": "我們位於台灣彰化的資料中心也已經啟用滿10年了",
+      "status_as_of": "2023-09",
+      "url": "https://blog.google/intl/zh-tw/company-news/inside-google/2023_09_twdc10/",
+      "notes": "Named Changhua place on Google Taiwan blog. No campus MW on primary. Do not copy asia-east1 cloud-region framing as the pin. Do not copy PPA/renewable MW as campus IT. lat/lon Nominatim Changhua County.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "google-tainan-dc-land",
+      "name": "Tainan data center (land purchase)",
+      "operator": "Google",
+      "place": "Tainan Technology Industrial Park / Tainan City, Taiwan",
+      "admin1": "Tainan",
+      "lat": 23.0447468,
+      "lon": 120.1479097,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "",
+      "mw_as_of": "",
+      "status": "announced",
+      "status_phrase": "我們今(11)日正式宣佈已於台南購地，以因應未來在台資料中心的營運需求",
+      "status_as_of": "2019-09-11",
+      "url": "https://blog.google/intl/zh-tw/company-news/inside-google/2019_09_tainan-dc-land/",
+      "notes": "Named Tainan place; blog thanks 台南科技工業園區. Land purchase / future DC operations — no MW; construction/operational status not re-confirmed on a newer Google primary this desk. lat/lon Nominatim Tainan Technology Industrial Park.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "google-yunlin-tech-park",
+      "name": "Yunlin data center (third Taiwan site)",
+      "operator": "Google",
+      "place": "Yunlin Technology-based Industrial Park (雲林科技工業區), Douliu, Yunlin County, Taiwan",
+      "admin1": "Yunlin",
+      "lat": 23.7361086,
+      "lon": 120.5471836,
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "mw_phrase": "",
+      "mw_as_of": "",
+      "status": "announced",
+      "status_phrase": "Google證實第三座資料中心落腳雲林",
+      "status_as_of": "2020-09",
+      "url": "https://www.yunlin.gov.tw/News_Content.aspx?n=1244&s=306799",
+      "notes": "Yunlin County Government release naming 雲林科技工業區 / Douliu-area park. Matching NSTC DIGI news mirror. No MW on gov primary. Status stays announced (land/plan confirm); later build status not re-verified on Google IR this desk. lat/lon Nominatim 雲林科技工業區 / Douliu.",
+      "source": "primary",
+      "country_iso3": "TWN",
+      "region": "APAC",
+      "include": true
+    }
+  ],
+  "rejected": [
+    {
+      "id": "keppel-ddsp-taiwan-dc-campus",
+      "reason": "Place grain fail on company primary: Keppel 2024-10-21 prints only “in North Taiwan” — not city/district/park. Secondary IFR/Reporter name Taoyuan Guishan / Baoshi St but not allowed SoR for place. MW phrase “80 MW Tier III-equivalent greenfield data centre campus” held out until named place on primary.",
+      "url": "https://www.keppel.com/media/keppel-positions-for-ai-and-semiconductor-boom-with-new-80mw-data-centre-campus-project-in-taiwan-/"
+    },
+    {
+      "id": "aws-asia-pacific-taipei-region",
+      "reason": "Cloud region / portfolio infrastructure announcement — not a named campus place. “AWS Asia Pacific (Taipei) Region” / “data centers located in Taiwan” island-wide.",
+      "url": "https://press.aboutamazon.com/2025/6/amazon-launches-infrastructure-region-in-taiwan"
+    },
+    {
+      "id": "microsoft-taiwan-north-azure-region",
+      "reason": "Cloud region only (“Taiwan North cloud region”). No named district/campus on Microsoft Azure Asia primary fetched. Luzhu/Taoyuan street pins are Baxtel/secondary — forbidden.",
+      "url": "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-asia/"
+    },
+    {
+      "id": "foxconn-ai-factory-taiwan-islandwide",
+      "reason": "May 2025 Hon Hai “AI Factory… in Taiwan” lacks named city/district; use Kaohsiung K-1 pin instead. Do not pin island-wide portfolio.",
+      "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1599"
+    },
+    {
+      "id": "foxconn-nvidia-100mw-reuters",
+      "reason": "100 MW from Reuters Computex quote — not copied; not on Hon Hai press/IR fetched. News recap of speech without company page MW phrase.",
+      "url": "https://www.reuters.com/world/china/taiwans-foxconn-says-ai-data-centre-with-nvidia-have-100-mw-power-2025-05-20/"
+    },
+    {
+      "id": "taiwan-mobile-guishan-vantage-aidc",
+      "reason": "News/partner lines place Taiwan Mobile at Guishan with Vantage — same campus family as Vantage TPE11; no independent Taiwan Mobile IR MW+place primary folded. Avoid double-count.",
+      "url": ""
+    },
+    {
+      "id": "equinix-taiwan-ibx-or-xscale",
+      "reason": "No Equinix Taiwan IBX or xScale campus on equinix.com APAC footprint searched; no pin.",
+      "url": "https://www.equinix.com/data-centers/asia-pacific-colocation"
+    },
+    {
+      "id": "digital-realty-taiwan-banqiao",
+      "reason": "Digital Realty APAC locations page lists no Taiwan metro; Banqiao Telehouse partnership is secondary/consultant map only this desk.",
+      "url": "https://www.digitalrealty.com/data-centers/asia-pacific/"
+    },
+    {
+      "id": "acer-edc-longtan",
+      "reason": "Acer eDC official pages describe hall/colocation services without disclosed campus MW and without a clear named-place+MW campus print on the pages fetched.",
+      "url": "https://www.aceredc.com/en/serve-2-en/datacenter-en/serve02-2-en/"
+    },
+    {
+      "id": "far-eastone-tpark",
+      "reason": "T.PARK / FET IDC named in secondary market notes; no FET IR/press with verbatim MW + named campus folded this hunt.",
+      "url": ""
+    },
+    {
+      "id": "chunghwa-banqiao-idc-legacy",
+      "reason": "Banqiao IDC is a known CHT flagship but no MW campus phrase on CHT primary fetched this hunt (MAA consultant / secondary only).",
+      "url": ""
+    },
+    {
+      "id": "vantage-tpe12",
+      "reason": "TPE12 appears on forbidden directories only; Vantage Taipei location page prints “1 data center” / 16MW campus — no TPE12 MW/status on Vantage primary.",
+      "url": "https://vantage-dc.com/data-center-locations/apac/taipei-taiwan/"
+    },
+    {
+      "id": "google-yunlin-dcd-recap",
+      "reason": "DCD/news recaps used as hints only; pin uses Yunlin County gov primary.",
+      "url": ""
+    },
+    {
+      "id": "tsmc-adjacent-unnamed",
+      "reason": "No TSMC-adjacent named DC campus primary folded (fab ≠ DC campus).",
+      "url": ""
+    },
+    {
+      "id": "national-ai-program-portfolio",
+      "reason": "National AI / island-wide program or portfolio totals are not pins.",
+      "url": ""
+    }
+  ],
+  "empty_searches": [
+    "AirTrunk Taiwan named campus (primary) — AirTrunk footprint lists AU/SG/JP/MY/HK/IN; no Taiwan campus press",
+    "STACK Infrastructure Taiwan campus press",
+    "STT GDC Taiwan campus press",
+    "Princeton Digital Group (PDG) Taiwan campus",
+    "DayOne / GDS Taiwan campus",
+    "CapitaLand / Ascendas Taiwan data centre campus",
+    "NTT Global Data Centers owned Taiwan campus",
+    "Colt DCS Taiwan campus",
+    "Telehouse/KDDI owned Taiwan facility page with MW (KDDI Taiwan points to partner model)",
+    "Meta Taiwan named data-center campus primary",
+    "Apple Taiwan named data-center campus primary",
+    "ESR Taiwan data centre campus"
+  ],
+  "fetch_failures": [
+    {
+      "url": "https://www.reuters.com/world/china/taiwans-foxconn-says-ai-data-centre-with-nvidia-have-100-mw-power-2025-05-20/",
+      "error": "HTTP 401 on curl; not used as SoR"
+    },
+    {
+      "url": "https://www.ddsp.tech/",
+      "error": "DNS/connect failure"
+    },
+    {
+      "url": "https://www.digitalrealty.com/data-centers/asia-pacific/taiwan",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.telehouse.com/data-centres/asia/taiwan/",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.cht.com.tw/en/home/cht/services/enterprise-ict/data-center",
+      "error": "HTTP 404 product path"
+    },
+    {
+      "url": "https://en.chief.com.tw/news/ (list)",
+      "error": "WAF Request Rejected on some paths; individual article fetch succeeded with browser UA"
+    }
+  ]
+}
