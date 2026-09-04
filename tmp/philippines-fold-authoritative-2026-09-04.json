@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Philippines",
+  "country_iso3": "PHL",
+  "kind": "authoritative fold from philippines-2026-09-04.json dry-run",
+  "n_projects": 9,
+  "project_ids": [
+    "stt-fairview-quezon-city",
+    "spacedc-mnl1-cainta",
+    "evolution-megawide-silang-cavite",
+    "yco-malvar-one",
+    "yco-bataan-bts",
+    "vitro-sta-rosa-laguna",
+    "aflow-ml1-binan",
+    "digital-edge-narra1-binan",
+    "beeinfotech-hive-pasig"
+  ],
+  "rules": [
+    "First PHL pins on live book (currently 0).",
+    "YCO Malvar One: pin 75 MW facility_power from company Total Available Utility Power (not IFC Malvar 1&2 total 50MW alone); note *30 MW energized if in hunt notes.",
+    "YCO Bataan BTS: 250 MW facility announced from IFC ESRS named Bataan / North Luzon BTS.",
+    "SpaceDC MNL1: 72 MW facility from company archive/wayback (live URL 500); keep sourced phrase.",
+    "Hold Equinix MN1/2/3 IBX; Evolution\u2013Citicore 100 MW PPA; VITRO/STT portfolio totals & 500 MW pledge; General Trias 100 news-only; EdgeConneX Clark / ESR 290 / Narra Park 300 without primary.",
+    "Do not invent MW. Hold merge until Pukar says ship it."
+  ]
+}

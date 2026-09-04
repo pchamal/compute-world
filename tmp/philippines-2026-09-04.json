@@ -1,0 +1,345 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Philippines (named place only; never Philippines / Metro Manila alone / cloud region alone)",
+  "iso2": "PH",
+  "country_iso3": "PHL",
+  "dry_run": true,
+  "partial": false,
+  "live_book": {
+    "url": "https://compute.world/campuses.json",
+    "as_of": "2026-08-22",
+    "pins": 70,
+    "philippines_pins": 0,
+    "phl_pins": 0,
+    "known_hole": "Live book has zero Philippines / PHL pins (campuses.json projects=70, country_iso3 PHL=0). Dry-run only; not published this hunt."
+  },
+  "counts": {
+    "passing": 9,
+    "rejected": 13,
+    "empty_searches": 17,
+    "fetch_failures": 7
+  },
+  "method_notes": [
+    "Sweep of Equinix, Digital Realty, AirTrunk, Vantage, STACK, NTT, STT GDC, Keppel, CapitaLand, DayOne/GDS, ESR, PDG, Colt, ePLDT/VITRO, Globe/Innove, Converge, PLDT, Digital Edge, EdgeConneX, Microsoft, Google, AWS, Meta, Apple, Bitstop, SpaceDC, Beeinfotech, A-FLOW/FLOW/ALLHC, Evolution/Megawide, YCO Cloud.",
+    "Places swept: Makati, Taguig/BGC, Quezon City/Fairview, Pasig/Bridgetowne, Parañaque, Manila, Laguna (Sta. Rosa, Biñan, Laguna Technopark, LISP), Cavite (Silang/Gateway, General Trias hint), Clark/Pampanga, Cebu, Davao, Cainta/Rizal, Malvar/Batangas, Bataan, named PEZA parks.",
+    "Allowed SoR only: company IR/press/SEC/official DC; IFC disclosure; PEZA-adjacent park naming on company pages. Forbidden SoR (Baxtel, DataCenterMap, AIDCI, DC Byte, Wikipedia, consultant averages, news-only recaps) used as hints then verified or rejected.",
+    "Grain kept: IT capacity ≠ facility/utility/critical power ≠ interconnection ≠ generation/PPA. Equinix MN1/MN2/MN3 held (cabinet/IBX grain). Sub-250 disclosed pins stay (NARRA1 10, HIVE 20, A-FLOW 36, VSR 50).",
+    "Dry-run only. Do NOT publish to compute.world or GitHub. Fetch cache: /workspace/state/campus-hunt/philippines-fetch/."
+  ],
+  "projects": [
+    {
+      "id": "stt-fairview-quezon-city",
+      "name": "STT Fairview",
+      "operator": "ST Telemedia Global Data Centres (STT GDC Philippines)",
+      "place": "Quezon City, Metro Manila, PHL",
+      "admin1": "Metro Manila",
+      "lat": 14.6969,
+      "lon": 121.0723,
+      "mw": 124,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "offering a development potential of 124 megawatts of IT load capacity once fully built out",
+      "mw_as_of": "2023-05-18",
+      "status": "in_progress",
+      "status_phrase": "STT Fairview 1 is on track to launch full operations in Q4 2025",
+      "status_as_of": "2025-10-15",
+      "url": "https://www.sttelemediagdc.com/newsroom/st-telemedia-global-data-centres-to-build-philippines-largest-and-most-interconnected-carrier-neutral-data-centre",
+      "notes": "Place: “strategically positioned within Quezon City” (2023-05-18). Matching 2024-12-17 topping-off: “The STT Fairview campus has a total design capacity of 124 MW.” Matching 2024-10-31: “total IT capacity of 124MW.” Status SoR is 2025-10-15 partners page (also “Part of a 124 MW campus”). No later STT primary confirming RFS/operational as of 2026-09-04 desk. Do not copy STT Philippines portfolio 22/128/150 MW onto this pin. Sub-250 kept N/A (124). lat/lon Fairview/Quezon City centroid, not street parcel.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "spacedc-mnl1-cainta",
+      "name": "MNL1",
+      "operator": "SpaceDC",
+      "place": "Cainta, Rizal, PHL",
+      "admin1": "Rizal",
+      "lat": 14.5786,
+      "lon": 121.1161,
+      "mw": 72,
+      "mw_grain": "facility_power",
+      "mw_phrase": "will deliver 72MW of critical power",
+      "mw_as_of": "2022-02-03",
+      "status": "announced",
+      "status_phrase": "building a secure, resilient, network rich, data center called MNL1, which will be situated in Cainta, part of Greater Manila",
+      "status_as_of": "2022-02-03",
+      "url": "https://spacedc.com/spacedc-to-build-the-largest-hyperscale-data-center-in-the-philippines/",
+      "notes": "Fetched via Wayback (live spacedc.com returned SSL/500 from this desk). Bullet also: “72MW facility located in Cainta, Greater Manila.” Slated to open in 2022 on the same primary — no later SpaceDC primary confirming operational as of this desk; status stays announced. Grain is critical power, not IT. lat/lon Cainta centroid.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "evolution-megawide-silang-cavite",
+      "name": "69MW colocation data center (Silang / Gateway, Cavite)",
+      "operator": "Evolution Data Centres / Megawide Construction Corporation",
+      "place": "Silang, Cavite, PHL",
+      "admin1": "Cavite",
+      "lat": 14.2306,
+      "lon": 120.9742,
+      "mw": 69,
+      "mw_grain": "facility_power",
+      "mw_phrase": "construction and operations of a 69MW carrier-neutral data center in Silang, Cavite",
+      "mw_as_of": "2025-05",
+      "status": "announced",
+      "status_phrase": "has not yet started commercial operations as of December 31, 2024",
+      "status_as_of": "2024-12-31",
+      "url": "https://megawide.com.ph/wp-content/uploads/2025/05/Megawide-Construction-Corporation-2024-SEC-Form-17-A-Annual-Report-2025.pdf",
+      "notes": "Megawide 2024 SEC Form 17-A. Matching Feb 2023 Megawide press PDF: “69MW colocation data center in Cavite, with Phase 1 covering a 23MW deployment.” Evolution Citicore page names “flagship project site located in Gateway, Cavite” and a separate 100MWAC PPA — PPA is NOT copied as pin MW. Status remains announced (not commercial ops through YE2024). lat/lon Silang centroid.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "yco-malvar-one",
+      "name": "Malvar One",
+      "operator": "YCO Global Cloud Centers Holdings, Inc. (YCO Cloud)",
+      "place": "Light Industry and Science Park IV (LISP IV), Malvar Cybergreen, Malvar, Batangas, PHL",
+      "admin1": "Batangas",
+      "lat": 14.0447,
+      "lon": 121.1583,
+      "mw": 75,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Total Available Utility Power 75MW",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "*30 MW energized",
+      "status_as_of": "2026-09-04",
+      "url": "https://www.ycocloud.com/data-center",
+      "notes": "Official YCO Data Center page. PEZA industrial zone LISP IV. Same page: “Malvar One is the first data center facility in the Light & Industry Science Park IV (LISP IV).” IFC ESRS 52756 prints Malvar 1 & 2 “total 50MW” and “The Malvar sites have been constructed” / “project is in operation” — conflict with YCO’s 75MW utility print left on the pin; do not overwrite with IFC 50. Do not merge Malvar Two without a separate named YCO primary. Sub-250 kept N/A. lat/lon Malvar/LISP IV centroid.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "yco-bataan-bts",
+      "name": "Bataan BTS data center (YCO Catalyst)",
+      "operator": "YCO Global Cloud Centers Holdings, Inc.",
+      "place": "Bataan, PHL",
+      "admin1": "Bataan",
+      "lat": 14.6417,
+      "lon": 120.4818,
+      "mw": 250,
+      "mw_grain": "facility_power",
+      "mw_phrase": "Malvar One, Two and BTS (with an expected rating of 250 MW)",
+      "mw_as_of": "2026",
+      "status": "announced",
+      "status_phrase": "the Bataan data center is in the planning phase",
+      "status_as_of": "2026",
+      "url": "https://disclosures.ifc.org/project-detail/ESRS/52756/yco-catalyst",
+      "notes": "IFC ESRS disclosure (economic-dev / planning primary). Also: “a third one at Bataan, 120km north of Metro Manila”; BTS = build-to-suit single-tenant North Luzon site visited 2026-03-13. Grain is expected rating / facility, not IT. Named place is Bataan (province) — not Metro Manila. Do not treat associated transmission/water plants as campus MW.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "vitro-sta-rosa-laguna",
+      "name": "VITRO Sta. Rosa (VSR)",
+      "operator": "VITRO Inc. / ePLDT (PLDT Group)",
+      "place": "Sta. Rosa, Laguna, PHL",
+      "admin1": "Laguna",
+      "lat": 14.3122,
+      "lon": 121.1114,
+      "mw": 50,
+      "mw_grain": "facility_power",
+      "mw_phrase": "once fully operational with 4,500 racks and 50 MW power capacity",
+      "mw_as_of": "2024-03-26",
+      "status": "announced",
+      "status_phrase": "ePLDT’s 11th data center, VITRO Sta. Rosa (VSR), will be officially launched in Q2 2024",
+      "status_as_of": "2024-03-26",
+      "url": "https://cms.pldt.com/drupal/sites/default/files/financialstatements/2023%20MDA.pdf",
+      "notes": "PLDT Inc. 2023 SEC Form 17-A / MDA (fetched PDF). Place named Sta. Rosa in prior PLDT MDAs and company article URLs. Official vitrodc.com Sta. Rosa page returned empty/blocked (212–953 B) this desk — do not invent 36 MW IT from unfetched marketing copy. PLDT main.pldt.com unveil/tops articles exist but body is JS-empty on fetch; status NOT upgraded to operational without a verbatim operational phrase. Do not copy ePLDT portfolio ~99.5/100 MW or Pangilinan 500 MW expansion pledge as this pin. Sub-250 kept. lat/lon Sta. Rosa centroid.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "aflow-ml1-binan",
+      "name": "A-FLOW ML1",
+      "operator": "A-FLOW (AyalaLand Logistics Holdings Corp. / FLOW Digital Infrastructure JV)",
+      "place": "Biñan, Laguna, PHL",
+      "admin1": "Laguna",
+      "lat": 14.31,
+      "lon": 121.08,
+      "mw": 36,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "accommodating a total of 36MW IT load capacity",
+      "mw_as_of": "2025-11-28",
+      "status": "operational",
+      "status_phrase": "officially launched its first Data Center “ML1” in the Philippines",
+      "status_as_of": "2025-11-28",
+      "url": "https://www.flowdigital.com/en/resources/newsroom/a-flow-launches-ml1-philippines%E2%80%99-next-generation-data-center-support-digital-growth-sea",
+      "notes": "Also: “three-building greenfield Data Center campus with a total capacity of 36MW, with the first phase featuring a 6MW IT load.” Place: “Strategically located in Laguna”; Biñan City Mayor quoted; Ayala Land topping-off: “Strategically situated in Biñan, Laguna.” Campus IT 36 MW (not phase-1 6 alone). Sub-250 kept. Shares Laguna cluster with NARRA1 / VSR; globe offsets. lat/lon Biñan centroid.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "digital-edge-narra1-binan",
+      "name": "NARRA1",
+      "operator": "Digital Edge (with Threadborne Group)",
+      "place": "Laguna Technopark, Biñan, Laguna, PHL",
+      "admin1": "Laguna",
+      "lat": 14.2734,
+      "lon": 121.066,
+      "mw": 10,
+      "mw_grain": "it_capacity",
+      "mw_phrase": "With 2,200 cabinets and 10MW of IT power",
+      "mw_as_of": "2024-07-04",
+      "status": "operational",
+      "status_phrase": "NARRA1 is the largest carrier neutral data center in operation in the Philippines",
+      "status_as_of": "2024-07-04",
+      "url": "https://www.digitaledgedc.com/resources/newsroom/philippines-data-center-by-digital-edge-becomes-first-in-southeast-asia-to-achieve-globally-recognized-certifications/",
+      "notes": "Matching Dec 2022 launch: “new 10MW data center” / “Located in Binan Laguna”; “ready-for-service (“RFS”) from 1 March 2023.” Specsheet coords 14.2734, 121.0660. Sub-250 disclosed pin; kept. Do not invent Narra Technology Park 300 MW from consultant/recap markets. lat/lon from Digital Edge NARRA1 specsheet / Laguna Technopark.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    },
+    {
+      "id": "beeinfotech-hive-pasig",
+      "name": "The HIVE Hybrid Data Center",
+      "operator": "Bee Information Technology PH, Inc. (Beeinfotech PH)",
+      "place": "88 Bridgetowne East, Pasig City, PHL",
+      "admin1": "Metro Manila",
+      "lat": 14.593,
+      "lon": 121.08,
+      "mw": 20,
+      "mw_grain": "facility_power",
+      "mw_phrase": "20 MW +",
+      "mw_as_of": "2026-09-04",
+      "status": "operational",
+      "status_phrase": "When we launched The HIVE in March 2025",
+      "status_as_of": "2025-08-11",
+      "url": "https://www.beeinfotech.ph/post/beeinfotech-ph-earns-leed-v4-gold-for-the-hive-hybrid-data-center",
+      "notes": "Status/place from LEED v4 Gold post (Pasig City). MW headline “20 MW +” from official homepage https://www.beeinfotech.ph/ (fetched); grain not labeled IT — kept as facility_power. Address on home: 88 Bridgetowne East, Pasig City. Sub-250 kept. lat/lon Bridgetowne/Pasig centroid.",
+      "source": "primary",
+      "country_iso3": "PHL",
+      "region": "APAC",
+      "include": true
+    }
+  ],
+  "rejected": [
+    {
+      "id": "equinix-mn1-mn2-mn3",
+      "reason": "Equinix IBX hall grain — “more than 1,000 cabinets” / MN2 “500 cabinets”; no campus MW; reject/hold same as Equinix JH1/KL1",
+      "url": "https://newsroom.equinix.com/2025-06-02-Equinix-Completes-Acquisition-to-Bolster-Digital-Innovation-in-the-Philippines"
+    },
+    {
+      "id": "evolution-citicore-100mw-ppa",
+      "reason": "PPA / generation — “power purchase agreement (“PPA”) for up to 100MWAC of baseload… renewable power”; not campus IT/facility pin",
+      "url": "https://evolutiondatacentres.com/insights/evolution-data-centres-signs-strategic-mou-with-citicore-renewable-energy-for-100mw-of-renewable-power-for-hyperscale-data-centre/"
+    },
+    {
+      "id": "pldt-vitro-500mw-expansion-pledge",
+      "reason": "Country-wide portfolio / expansion pledge (news-hinted Pangilinan “up to 500 megawatts”); not a named campus pin",
+      "url": ""
+    },
+    {
+      "id": "pldt-vitro-portfolio-100mw",
+      "reason": "Portfolio total across 11 sites (~100 MW / 99.5 MW ultimate); not a named campus",
+      "url": "https://cms.pldt.com/drupal/sites/default/files/financialstatements/2023%20MDA.pdf"
+    },
+    {
+      "id": "stt-philippines-portfolio-22-128-150mw",
+      "reason": "Operator portfolio / country total IT, not a named campus pin",
+      "url": "https://www.sttelemediagdc.com/newsroom/st-telemedia-global-data-centres-to-build-philippines-largest-and-most-interconnected-carrier-neutral-data-centre"
+    },
+    {
+      "id": "vitro-general-trias-cavite-100mw",
+      "reason": "Hint-only in news; no fetched PLDT/ePLDT/VITRO IR or official DC page with verbatim 100 MW + named place this desk",
+      "url": ""
+    },
+    {
+      "id": "edgeconnex-clark-50mw",
+      "reason": "No EdgeConneX official Philippines/Clark primary found; EdgeConneX SEA prints are Malaysia",
+      "url": ""
+    },
+    {
+      "id": "esr-290mw-philippines",
+      "reason": "Consultant/report hint only; no ESR company primary fetched",
+      "url": ""
+    },
+    {
+      "id": "narra-technology-park-300mw",
+      "reason": "Market-recap / consultant figure; not Digital Edge primary campus print",
+      "url": ""
+    },
+    {
+      "id": "converge-ict-named-campus-mw",
+      "reason": "No Converge official campus MW primary with named place fetched",
+      "url": ""
+    },
+    {
+      "id": "stt-makati-ibx-style",
+      "reason": "Interconnection hub referenced from Fairview primary; no standalone campus MW SoR for STT Makati this fold",
+      "url": "https://www.sttelemediagdc.com/newsroom/stt-gdc-philippines-advances-country-digital-readiness-welcomes-globe-radius-source-telecoms-connectivity-partners"
+    },
+    {
+      "id": "metro-manila-alone-pins",
+      "reason": "Place rule — never Metro Manila alone without city/barangay/district/park",
+      "url": ""
+    },
+    {
+      "id": "cloud-region-philippines",
+      "reason": "Cloud region labels are not campus pins",
+      "url": ""
+    }
+  ],
+  "empty_searches": [
+    "AirTrunk Philippines named campus",
+    "Vantage Data Centers Philippines named campus",
+    "STACK Infrastructure Philippines named campus",
+    "NTT Philippines named campus MW primary",
+    "Keppel DC Philippines named campus",
+    "CapitaLand / CapitaLand Ascendas Philippines DC campus MW",
+    "DayOne / GDS Philippines named campus",
+    "Princeton Digital Group Philippines named campus",
+    "Colt DCS Philippines named campus",
+    "Microsoft Philippines named data center campus primary",
+    "Google Philippines named data center campus primary",
+    "AWS Philippines named data center campus primary",
+    "Meta Philippines named data center campus primary",
+    "Apple Philippines named data center campus primary",
+    "Digital Realty Philippines named campus",
+    "Bitstop named DC campus MW primary",
+    "Globe / Innove named DC campus MW (non-STT JV) primary"
+  ],
+  "fetch_failures": [
+    {
+      "url": "https://vitrodc.com/data-centers/vitro-sta-rosa/",
+      "error": "Empty/blocked response (~212–953 B) on repeated curl; no usable MW/status HTML"
+    },
+    {
+      "url": "https://www.epldt.com/epldt-teams-up-with-dell-technologies-and-katonic-ai-to-power-pilipinas-ai/",
+      "error": "Empty/blocked (~212 B)"
+    },
+    {
+      "url": "https://main.pldt.com/article/pbbm-mvp-unveil-philippines-first-ai-ready-hyperscale-data-center",
+      "error": "JS shell only; no article body text returned to WebFetch/curl"
+    },
+    {
+      "url": "https://main.pldt.com/article/vitro-inc-tops-phs-first-hyperscale-data-center-sta-rosa",
+      "error": "JS shell only"
+    },
+    {
+      "url": "https://spacedc.com/spacedc-to-build-the-largest-hyperscale-data-center-in-the-philippines/",
+      "error": "Live SSL/500 from box; content recovered via Wayback 2026-05-15 snapshot"
+    },
+    {
+      "url": "https://spacedc.com/data-centers/mnl-1/",
+      "error": "Live fetch 500; not used as SoR"
+    },
+    {
+      "url": "https://www.sttelemediagdc.com/newsroom/st-telemedia-global-data-centres-to-build-philippines-largest-and-most-interconnected-carrier-neutral-data-centre",
+      "error": "WebFetch timeout once; recovered via curl to philippines-fetch/"
+    }
+  ]
+}
