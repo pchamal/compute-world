@@ -1,0 +1,60 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Australia",
+  "country_iso3": "AUS",
+  "kind": "increment fold: 22 net-new (3 Macquarie HOLD for SoR URL)",
+  "n_projects": 22,
+  "keep_live": [
+    "airtrunk-mel1-melbourne",
+    "airtrunk-mel2-melbourne",
+    "airtrunk-syd3-sydney"
+  ],
+  "held": [
+    {
+      "id": "nextdc-s1-macquarie-park",
+      "reason": "SoR URL points at M3 Melbourne page; HOLD until Sydney tech specs URL verified"
+    },
+    {
+      "id": "nextdc-s2-macquarie-park",
+      "reason": "same Macquarie SoR URL issue"
+    },
+    {
+      "id": "nextdc-s5-macquarie-park",
+      "reason": "same Macquarie SoR URL issue"
+    }
+  ],
+  "project_ids": [
+    "cdc-hume-campus-one",
+    "cdc-hume-campus-two",
+    "cdc-fyshwick",
+    "cdc-beard",
+    "cdc-eastern-creek",
+    "cdc-marsden-park",
+    "cdc-brooklyn",
+    "cdc-laverton",
+    "cdc-maddington",
+    "nextdc-s4-horsley-park",
+    "nextdc-s7-eastern-creek",
+    "nextdc-m3-west-footscray",
+    "nextdc-m4-port-melbourne",
+    "nextdc-m2-tullamarine",
+    "nextdc-m1-port-melbourne",
+    "stack-mel01-truganina",
+    "equinix-sy9x-rosehill",
+    "equinix-sy10x-rosehill",
+    "vantage-mel1-tullamarine",
+    "dci-syd02-eastern-creek",
+    "goodman-atlas-eastern-creek",
+    "microsoft-kemps-creek"
+  ],
+  "rules": [
+    "Live book already has 3 AirTrunk (MEL1/MEL2/SYD3). Do NOT duplicate. ADD only the 22 net-new.",
+    "HOLD NEXTDC S1/S2/S5 Macquarie Park until SoR URL is Sydney tech specs (hunt URL wrongly points at M3 Melbourne).",
+    "FOLD Equinix SY9x/SY10x Rosehill as xScale (28 each).",
+    "NEXTDC S7 Eastern Creek: 612 MW facility from NSW Planning SSD.",
+    "CDC Marsden Park: 504 MW IT capacity.",
+    "Goodman Atlas Eastern Creek: 500 MW facility from SEARS total power consumption wording.",
+    "Hold AirTrunk SYD1/SYD2 soft corridor; Equinix IBX; DLR 250 landbank; CDC 555 contract & Mel 780 headline; NEXTDC 850 JV.",
+    "Do not invent MW. Hold merge until Pukar says ship it."
+  ]
+}
