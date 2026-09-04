@@ -1,9 +1,30 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "eo-14420-bulk-power-foreign-equipment-2026-08-26",
+      "date": "2026-08-26",
+      "title": "EO 14420 declares BPS emergency — DOE to restrict foreign-produced grid equipment feeding AI campuses",
+      "summary": "On 26 August 2026 President Trump signed Executive Order 14420, Declaring a National Emergency to Secure the United States Bulk-Power System. The order authorizes the Secretary of Energy, within 120 days, to publish rules prohibiting or conditioning acquisition, importation, transfer, or installation of foreign-produced bulk-power system electric equipment — including substation transformers, grid-connected inverters, battery energy storage, UPS supporting critical infrastructure, turbines, and industrial control systems — where the transaction involves a Covered Foreign Entity and poses undue sabotage, supply-disruption, or national-security risk. DOE may also impose conditions on already-installed foreign equipment, including phased removal. The White House text explicitly cites rapid growth of data centers and artificial intelligence as magnifying bulk-power dependence. By 2–3 September, CNBC, Data Center Knowledge, and Wood Mackenzie commentary framed the order as tightening an already short transformer/substation market (Wood Mackenzie: ~15% transformer and ~8% substation shortage in 2026), with data-center developers that had turned to Chinese 100 MVA+ units for lead times most exposed. Implementation rules are due by ~24 December 2026; scope for behind-the-meter data-center loads remains open.",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/",
+      "source": "White House EO 14420",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA",
+        "CHN"
+      ],
+      "flags": "🇺🇸🇨🇳",
+      "tags": [
+        "Policy",
+        "Energy",
+        "Stall"
+      ],
+      "score": 90
+    },
     {
       "id": "fervo-google-396mw-cape-station-2026-09-01",
       "date": "2026-09-01",
