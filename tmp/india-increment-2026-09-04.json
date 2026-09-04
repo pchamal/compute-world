@@ -1,0 +1,135 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "India",
+  "kind": "increment after second pass overwrote india-2026-09-04.json",
+  "already_handed_keep": [
+    "All 26 from first handoff stay unless CW Bot already folded them. Do not drop AirTrunk BOM1/BOM2/BOM3/MAA1/HYD1, aws-bharat-future-city-hyderabad, digital-connexion-ambattur, ctrls-chennai-ambattur, yotta-chennai-park, stt-palava, ril-meta-jamnagar."
+  ],
+  "mw_correction": {
+    "yotta-navi-mumbai-panvel": "Prefer inauguration primary 250 MW park power (2020-07-07) over later locations 160 MW. Note conflict. Hall NM1 50/52 MW is not the park pin."
+  },
+  "new_include": [
+    {
+      "include": true,
+      "id": "ntt-noida-2",
+      "name": "Noida 2",
+      "operator": "NTT",
+      "place": "Noida, Uttar Pradesh, IND",
+      "admin1": "Uttar Pradesh",
+      "country_iso3": "IND",
+      "region": "SASIA",
+      "mw": 52.8,
+      "mw_grain": "it_capacity",
+      "status": "operational",
+      "url": "https://services.global.ntt/en-us/newsroom/ntt-expands-india-footprint-with-new-data-center-campus-in-noida",
+      "notes": "52.8 MW critical IT campus; first hall 22.4 MW."
+    },
+    {
+      "include": true,
+      "id": "adaniconnex-noida",
+      "name": "Noida campus (AdaniConneX)",
+      "operator": "AdaniConneX",
+      "place": "Noida, Uttar Pradesh, IND",
+      "admin1": "Uttar Pradesh",
+      "country_iso3": "IND",
+      "region": "SASIA",
+      "mw": 50,
+      "mw_grain": "facility_power",
+      "status": "in_progress",
+      "url": "https://resources.adaniconnex.com/press-release/adaniconnex-raises-usd-213-mn-construction-financing-facility",
+      "notes": "50 MW under construction. Do not use 67 MW Chennai+Noida aggregate."
+    },
+    {
+      "include": true,
+      "id": "sify-rabale-mumbai-03",
+      "name": "Mumbai 03 Rabale Campus",
+      "operator": "Sify",
+      "place": "Rabale, Navi Mumbai, Maharashtra, IND",
+      "admin1": "Maharashtra",
+      "country_iso3": "IND",
+      "region": "SASIA",
+      "mw": 96.94,
+      "mw_grain": "it_capacity",
+      "status": "operational",
+      "url": "https://www.sifytechnologies.com/data-center/rabale-data-center/",
+      "notes": "96.94 MW IT Power campus. Tower 5 43.2 MW is a hall. Do not copy 99 MW solar/wind."
+    },
+    {
+      "include": true,
+      "id": "bam-digital-realty-chennai-100mw",
+      "name": "BAM Digital Realty Chennai (MAA10 campus)",
+      "operator": "BAM / Brookfield / Digital Realty / RIL",
+      "place": "Chennai, Tamil Nadu, IND",
+      "admin1": "Tamil Nadu",
+      "country_iso3": "IND",
+      "region": "SASIA",
+      "mw": 100,
+      "mw_grain": "facility_power",
+      "status": "in_progress",
+      "url": "https://www.ril.com/sites/default/files/2023-08/24072023-Media-Release-RIL-partners-with-Brookfield-Infrastructure-and-Digital-Realty.pdf",
+      "notes": "100 MW campus; MAA10 20 MW first hall. May overlap digital-connexion-ambattur from first handoff (same Ambattur/MAA10 story). Deduplicate with Digital Connexion row if both fold."
+    },
+    {
+      "include": true,
+      "id": "capitaland-dc-chennai-ambattur",
+      "name": "CapitaLand DC Chennai",
+      "operator": "CapitaLand",
+      "place": "Ambattur, Chennai, Tamil Nadu, IND",
+      "mw": 34,
+      "mw_grain": "it_capacity",
+      "status": "in_progress",
+      "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2025/december/CapitaLand-India-Data-Centre-Fund-acquires-stake-in-three-data-centres.html",
+      "notes": "34 MW IT from acquisition primary. CapitaLand page WebFetch timed out on recheck; use second-pass fetch notes."
+    },
+    {
+      "include": true,
+      "id": "capitaland-dc-hyderabad-madhapur",
+      "name": "CapitaLand DC Hyderabad",
+      "operator": "CapitaLand",
+      "place": "Madhapur, Hyderabad, Telangana, IND",
+      "mw": 27,
+      "mw_grain": "it_capacity",
+      "status": "in_progress",
+      "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2025/december/CapitaLand-India-Data-Centre-Fund-acquires-stake-in-three-data-centres.html",
+      "notes": "27 MW IT. Same CapitaLand primary as Chennai/Airoli."
+    },
+    {
+      "include": true,
+      "id": "capitaland-dc-navi-mumbai-airoli",
+      "name": "CapitaLand DC Navi Mumbai",
+      "operator": "CapitaLand",
+      "place": "Airoli, Navi Mumbai, Maharashtra, IND",
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "status": "in_progress",
+      "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2025/december/CapitaLand-India-Data-Centre-Fund-acquires-stake-in-three-data-centres.html",
+      "notes": "T1/T2 IT vs gross table conflict; property page 108 MW. Left null. Do not invent 71 or 105."
+    },
+    {
+      "include": true,
+      "id": "webwerks-iron-mountain-rabale",
+      "name": "Web Werks / Iron Mountain Rabale campus",
+      "operator": "Web Werks / Iron Mountain",
+      "place": "Rabale, Navi Mumbai, Maharashtra, IND",
+      "mw": null,
+      "mw_grain": "not_disclosed",
+      "status": "in_progress",
+      "url": "https://www.webwerks.in/web-werks-iron-mountain-jv-expand-its-mumbai-data-center-campus-building-third-facility-support",
+      "notes": "Campus expansion primary; MUM-3 hall 32 MW IT. Campus MW left null. Hall grain caveat."
+    }
+  ],
+  "do_not_drop_from_first_pass": [
+    "airtrunk-bom1-navi-mumbai",
+    "airtrunk-bom2-mahape",
+    "airtrunk-bom3-chandivali",
+    "airtrunk-maa1-ambattur",
+    "airtrunk-hyd1-chandanvelly",
+    "aws-bharat-future-city-hyderabad",
+    "digital-connexion-ambattur",
+    "ctrls-chennai-ambattur",
+    "yotta-chennai-park",
+    "stt-palava",
+    "ril-meta-jamnagar"
+  ],
+  "second_pass_empty_conflict": "Second pass listed AirTrunk as empty; first pass had fetched AirTrunk location pages. Prefer first-pass AirTrunk rows."
+}
