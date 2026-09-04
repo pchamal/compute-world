@@ -1,0 +1,42 @@
+{
+  "as_of": "2026-09-04",
+  "jurisdiction": "Korea",
+  "country_iso3": "KOR",
+  "kind": "authoritative fold from korea-2026-09-04.json dry-run",
+  "n_projects": 16,
+  "project_ids": [
+    "stack-esr-icn01-incheon",
+    "digital-realty-icn10-sangam",
+    "equinix-sl2x-goyang-hyangdong",
+    "esr-pdg-kr1-se1-bupyeong-incheon",
+    "digital-edge-bupyeong-campus-sel2-sel3",
+    "digital-edge-sel5-ansan-sihwa",
+    "keppel-ansan-60mw",
+    "stt-seoul1-gasan",
+    "naver-gak-sejong",
+    "lg-cns-samsong-goyang",
+    "capitaland-korea-dc1-hyangdong",
+    "capitaland-korea-dc2-hyangdong",
+    "empyrion-kr1-gangnam-yangjae",
+    "lg-uplus-paju-aidc",
+    "digital-edge-sel1-gangnam",
+    "msit-national-ai-computing-center-haenam-solaseado"
+  ],
+  "rules": [
+    "First KOR pins on live book (currently 0).",
+    "FOLD equinix-sl2x-goyang-hyangdong as xScale (22 MW facility). Hold SL1/SL4 IBX; SL3x no facility MW.",
+    "esr-pdg-kr1-se1-bupyeong is ONE pin at 80 MW facility; do NOT also pin PDG SE1 48.",
+    "Keep BOTH digital-edge-sel5-ansan-sihwa and keppel-ansan-60mw unless proven same parcel (desk: same city, different operator/primary).",
+    "CapitaLand DC1/DC2 Hyangdong: 40 MW facility_power each (not 24 hyperscale alone).",
+    "Naver GAK Sejong 270 facility_power \u2014 spot-checked.",
+    "MSIT Haenam Solaseado: MW null; hold park MOU 25\u00d740 as separate campus.",
+    "Do not invent MW. Hold merge until Pukar says ship it."
+  ],
+  "hold": [
+    "Equinix SL1/SL4 IBX",
+    "Equinix SL3x",
+    "Digital Edge PUS1",
+    "Solaseado park MOU",
+    "PDG 500 MW Korea plan"
+  ]
+}
