@@ -1035,7 +1035,10 @@ function renderRz(){
   const under = labels.length ? padT+8-labels[0].y : 0; if(under>0) labels.forEach(l=>l.y+=under);
   labels.forEach(l=>{ if(Math.abs(l.y-l.y0)>1) s += '<line x1="'+(l.x-6).toFixed(1)+'" x2="'+(l.x-2).toFixed(1)+'" y1="'+l.y0.toFixed(1)+'" y2="'+l.y.toFixed(1)+'" stroke="'+l.col+'" opacity=".6"/>'; s += '<text class="lbl" x="'+l.x.toFixed(1)+'" y="'+(l.y+4).toFixed(1)+'" fill="'+l.col+'">'+l.text+'</text>'; });
   s += '</g>';
-  const frame = rangeFrame(sx, sy, [dates[0], dates[dates.length-1]], [0,100], [0,25,50,75,100], obs.concat(asOf===obs[1]?[]:[asOf]), v=>String(v), fmtDateShort, (t,i,n)=> i===0?"start":(i===n-1?"end":"middle"));
+  /* Axis: first print + as-of only. 4 Sep and 7 Sep are 3 days apart; labeling
+     both stacks them at the right edge. The 4 Sep read stays on the line and in the caption. */
+  const xTicks = [obs[0], asOf].filter((t, i, a) => a.indexOf(t) === i);
+  const frame = rangeFrame(sx, sy, [dates[0], dates[dates.length-1]], [0,100], [0,25,50,75,100], xTicks, v=>String(v), fmtDateShort, (t,i,n)=> i===0?"start":(i===n-1?"end":"middle"));
   const cursor = '<line x1="'+sx(asOf).toFixed(1)+'" x2="'+sx(asOf).toFixed(1)+'" y1="'+padT+'" y2="'+(H-padB)+'" style="stroke:var(--ink)" stroke-dasharray="2 3"/>';
   el.innerHTML = '<svg viewBox="0 0 '+W+' '+H+'"'+(narrow?' class="narrow"':'')+' role="img" aria-label="Conversion score by country over observed snapshots">'+frame+cursor+s+'</svg>';
   const movers = COUNTRIES.filter(c=>c.rz!==c.rz0).sort((a,b)=>Math.abs(b.rz-b.rz0)-Math.abs(a.rz-a.rz0));

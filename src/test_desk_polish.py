@@ -27,6 +27,13 @@ def thin_x_ticks(ticks, sx, min_px=56):
 
 
 class TickThinning(unittest.TestCase):
+    def test_conversion_axis_is_first_and_asof(self):
+        """3-day gap (4 Sep vs 7 Sep) must not both be axis labels."""
+        obs, as_of = ["2026-08-19", "2026-09-04"], "2026-09-07"
+        ticks = [obs[0], as_of]
+        self.assertEqual(ticks, ["2026-08-19", "2026-09-07"])
+        self.assertNotIn("2026-09-04", ticks)
+
     def test_last_label_priority_drops_4_sep(self):
         ticks = ["2026-08-19", "2026-09-04", "2026-09-07"]
         x0, x1 = 0, 19
