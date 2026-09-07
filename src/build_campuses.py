@@ -7,6 +7,7 @@ import json, html, os
 from datetime import datetime
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
 from seo import og_block, breadcrumb_ld, person_author, org_publisher, nice_day
+from desk_chrome import MARKET_THEME_CSS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -153,24 +154,27 @@ PAGE = f'''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#f7f4ee">
+<meta name="theme-color" content="#F3F5F2">
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>{html.escape(D["title"])} · compute.world</title>
 <meta name="description" content="{html.escape(D["description"])}">
 <link rel="canonical" href="https://compute.world/campuses.html">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {camp_og}
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23f7f4ee'/><text x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23171614' text-anchor='middle'>C</text></svg>">
+<link rel="icon" href="/mark.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <script type="application/ld+json">{ld}</script>
 <script type="application/ld+json">{crumb}</script>
 <style>
-:root{{--paper:#f7f4ee;--ink:#171614;--muted:#62605a;--faint:#8d8a81;--rule:#cdc7b9;--rule2:#171614;
---accent:#7d2027;--tint:#efe9dd;--pr:#4b5f36;--sg:#8a5a2a;
---glass:rgba(247,244,238,.72);--glassborder:rgba(23,22,20,.35);
---serif:'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif}}
-html[data-theme="dark"]{{--paper:#171511;--ink:#ece7db;--muted:#a49e8f;--faint:#9a9484;--rule:#3a352a;
---rule2:#ded8c8;--accent:#c2564c;--tint:#231f17;--pr:#8fae72;--sg:#c99a5e;
---glass:rgba(23,21,17,.72);--glassborder:rgba(236,231,219,.28)}}
+{MARKET_THEME_CSS}
+:root{{--paper:#F3F5F2;--ink:#1B222A;--muted:#4E5862;--faint:#7C8690;--rule:#D8DED9;--rule2:#1B222A;
+--accent:#1F4FD8;--tint:#F6F8F5;--pr:#1E7B4F;--sg:#8A5A12;
+--glass:rgba(243,245,242,.78);--glassborder:rgba(27,34,42,.22);
+--serif:"Newsreader",Georgia,"Times New Roman",serif}}
+html[data-theme="dark"]{{--paper:#0F1216;--ink:#E9EDF1;--muted:#AAB4BE;--faint:#7E8893;--rule:#2A323B;
+--rule2:#E9EDF1;--accent:#6C8FF0;--tint:#1B2129;--pr:#4FBF86;--sg:#E0B060;
+--glass:rgba(15,18,22,.78);--glassborder:rgba(233,237,241,.22)}}
 .tchip{{position:fixed;top:14px;right:max(14px,env(safe-area-inset-right));z-index:70;width:42px;height:42px;
 border-radius:50%;background:var(--glass);border:1px solid var(--glassborder);
 backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
@@ -188,7 +192,7 @@ body{{transition:background-color .35s ease,color .35s ease}}
 *{{margin:0;padding:0;box-sizing:border-box}}
 html{{background:var(--paper)}}
 body{{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}}
-a{{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(125,32,39,.35)}}
+a{{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(31,79,216,.35)}}
 a:hover{{border-bottom-color:var(--accent)}}
 .wrap{{max-width:1100px;margin:0 auto;padding:0 28px}}
 .masthead{{padding:34px 0 0;text-align:center}}
@@ -226,7 +230,7 @@ padding:8px 10px 8px 0;border-bottom:1px solid var(--rule2)}}
 td{{padding:10px 12px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--muted)}}
 tr.even td{{background:transparent}}
 tr.off{{display:none}}
-.cn{{font-family:inherit;background:none;border:none;border-bottom:1px solid rgba(125,32,39,.35);color:var(--accent);
+.cn{{font-family:inherit;background:none;border:none;border-bottom:1px solid rgba(31,79,216,.35);color:var(--accent);
 cursor:pointer;font-size:15px;text-align:left;padding:0}}
 .cn:hover{{border-bottom-color:var(--accent)}}
 .tick{{display:block;font-size:12px;color:var(--faint);margin-top:2px}}
@@ -354,8 +358,8 @@ var BOOK = {BOOK};
 var PROJECTS = BOOK.projects;
 var GRAIN = {{it_capacity:"IT capacity",facility_power:"facility power",interconnection_request:"interconnection request",not_disclosed:"not disclosed"}};
 var STATUS = {{announced:"announced",in_progress:"in progress",operational:"operational",paused:"paused",canceled:"canceled",undisclosed:"undisclosed"}};
-var STCOL = {{announced:"#8a5a2a",in_progress:"#4b5f36",operational:"#3c5568",paused:"#8d8a81",canceled:"#7d2027",undisclosed:"#62605a"}};
-var STCOL_D = {{announced:"#c99a5e",in_progress:"#8fae72",operational:"#7da3bd",paused:"#8d8a81",canceled:"#c2564c",undisclosed:"#a49e8f"}};
+var STCOL = {{announced:"#8A5A12",in_progress:"#1E7B4F",operational:"#3c5568",paused:"#7C8690",canceled:"#1F4FD8",undisclosed:"#4E5862"}};
+var STCOL_D = {{announced:"#E0B060",in_progress:"#4FBF86",operational:"#7da3bd",paused:"#7C8690",canceled:"#6C8FF0",undisclosed:"#AAB4BE"}};
 var REGION_VIEW = {{
   NORAM: {{lat:39.8, lng:-98.5, altitude:1.85}},
   LATAM: {{lat:-15.5, lng:-56.0, altitude:2.05}},
@@ -369,7 +373,7 @@ var REGION_VIEW = {{
 var state = {{region:"", mw:null, status:""}};
 
 function curTheme(){{ return document.documentElement.getAttribute("data-theme")==="dark" ? "dark" : "light"; }}
-function stColor(s){{ return (curTheme()==="dark" ? STCOL_D : STCOL)[s] || "#8d8a81"; }}
+function stColor(s){{ return (curTheme()==="dark" ? STCOL_D : STCOL)[s] || "#7C8690"; }}
 function niceDay(iso){{
   if(!iso) return "";
   var p = String(iso).slice(0,10).split("-");
@@ -525,12 +529,12 @@ function loadGlobeLibs(){{
 function initGlobe(el, w, h, land){{
   var g = Globe()(el).width(w).height(h)
     .backgroundColor("rgba(0,0,0,0)")
-    .showAtmosphere(true).atmosphereColor("#bdb5a2").atmosphereAltitude(0.10)
+    .showAtmosphere(true).atmosphereColor("#AAB4BE").atmosphereAltitude(0.10)
     .hexPolygonsData(land)
     .hexPolygonResolution(3)
     .hexPolygonMargin(0.68)
     .hexPolygonColor(function(){{ return curTheme()==="dark" ? "rgba(222,216,200,0.55)" : "rgba(23,22,20,0.42)"; }});
-  g.globeMaterial().color.set("#ddd4c2");
+  g.globeMaterial().color.set("#E2E6E2");
   g.globeMaterial().shininess = 2;
   g.controls().autoRotate = true;
   g.controls().enableZoom = true;
@@ -541,7 +545,7 @@ function initGlobe(el, w, h, land){{
 function applyGlobeTheme(){{
   if(!window._globe) return;
   window._globe.hexPolygonColor(function(){{ return curTheme()==="dark" ? "rgba(222,216,200,0.55)" : "rgba(23,22,20,0.42)"; }});
-  window._globe.atmosphereColor(curTheme()==="dark" ? "#8a8374" : "#bdb5a2");
+  window._globe.atmosphereColor(curTheme()==="dark" ? "#7E8893" : "#AAB4BE");
   plotPins();
 }}
 function pinRadius(p){{
@@ -549,7 +553,7 @@ function pinRadius(p){{
   return 0.48 + 0.95*Math.sqrt(p.mw/5000);
 }}
 function pinCard(p){{
-  return '<div style="font-family:Georgia,\\'Times New Roman\\',serif;background:#f7f4ee;color:#171614;border:1px solid #171614;padding:8px 12px;font-size:13px;line-height:1.45;max-width:260px"><b>'+esc(p.name)+'</b><br>'+esc(p.operator)+'<br>'+esc(mwLabel(p))+' · '+esc(GRAIN[p.mw_grain]||p.mw_grain)+'<br>'+esc(STATUS[p.status]||p.status)+'</div>';
+  return '<div style="font-family:Georgia,\\'Times New Roman\\',serif;background:#F3F5F2;color:#1B222A;border:1px solid #1B222A;padding:8px 12px;font-size:13px;line-height:1.45;max-width:260px"><b>'+esc(p.name)+'</b><br>'+esc(p.operator)+'<br>'+esc(mwLabel(p))+' · '+esc(GRAIN[p.mw_grain]||p.mw_grain)+'<br>'+esc(STATUS[p.status]||p.status)+'</div>';
 }}
 function plotPins(){{
   if(!window._globe) return;
@@ -590,7 +594,7 @@ var tm=document.querySelector('meta[name="theme-color"]'), tg=document.getElemen
 function cur(){{return document.documentElement.getAttribute("data-theme")==="dark"?"dark":"light"}}
 function setT(t,sv){{document.documentElement.setAttribute("data-theme",t);
 if(sv){{try{{localStorage.setItem("cnw_theme",t)}}catch(e){{}}}}
-tm.content=t==="dark"?"#171511":"#f7f4ee";tg.setAttribute("aria-label",t==="dark"?"Switch to day mode":"Switch to night mode");
+tm.content=t==="dark"?"#0F1216":"#F3F5F2";tg.setAttribute("aria-label",t==="dark"?"Switch to day mode":"Switch to night mode");
 applyGlobeTheme();}}
 tg.onclick=function(){{setT(cur()==="dark"?"light":"dark",true)}};
 setT(cur(),false);

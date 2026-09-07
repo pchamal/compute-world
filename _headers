@@ -1,0 +1,47 @@
+# Cloudflare Pages headers. Search stays indexable. Bulk JSON is cacheable
+# and asked not to be archived as a dump. No new unauthenticated dump endpoint.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1
+  Permissions-Policy: browsing-topics=()
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/data.json
+  Cache-Control: public, max-age=1800, stale-while-revalidate=86400
+  X-Robots-Tag: noarchive
+
+/silicon.json
+  Cache-Control: public, max-age=1800, stale-while-revalidate=86400
+  X-Robots-Tag: noarchive
+
+/silicon-history.json
+  Cache-Control: public, max-age=1800, stale-while-revalidate=86400
+  X-Robots-Tag: noarchive
+
+/rank-history.json
+  Cache-Control: public, max-age=1800, stale-while-revalidate=86400
+  X-Robots-Tag: noarchive
+
+/wire.json
+  Cache-Control: public, max-age=1800
+  X-Robots-Tag: noarchive
+
+/campuses.json
+  Cache-Control: public, max-age=1800
+  X-Robots-Tag: noarchive
+
+/hyperscalers.json
+  Cache-Control: public, max-age=1800
+  X-Robots-Tag: noarchive
+
+/neoclouds.json
+  Cache-Control: public, max-age=1800
+  X-Robots-Tag: noarchive
+
+/inference.json
+  Cache-Control: public, max-age=1800
+  X-Robots-Tag: noarchive

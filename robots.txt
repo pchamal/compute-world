@@ -1,26 +1,11 @@
+# compute.world robots. Search (Google, Bing, Apple, OAI-SearchBot) is welcome.
+# Training / bulk scrapers: use /llms.txt and cite; do not vacuum JSON dumps.
+# The site is indexed. This file does not noindex anything.
+
 User-agent: *
 Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
+Allow: /llms.txt
+Allow: /agents.html
 
 User-agent: Googlebot
 Allow: /
@@ -28,16 +13,198 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-User-agent: Bytespider
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
 User-agent: Applebot
 Allow: /
 
-User-agent: Applebot-Extended
+User-agent: OAI-SearchBot
 Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: Google-Extended
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: ClaudeBot
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: anthropic-ai
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: Applebot-Extended
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: CCBot
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: Bytespider
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: Amazonbot
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: meta-externalagent
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: FacebookBot
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: cohere-ai
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: Diffbot
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
+
+User-agent: YouBot
+Allow: /llms.txt
+Allow: /agents.html
+Disallow: /data.json
+Disallow: /silicon-history.json
+Disallow: /rank-history.json
+Disallow: /campuses.json
+Disallow: /hyperscalers.json
+Disallow: /neoclouds.json
+Disallow: /inference.json
+Disallow: /wire.json
+Disallow: /silicon.json
+Crawl-delay: 10
 
 Sitemap: https://compute.world/sitemap.xml

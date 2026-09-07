@@ -62,7 +62,8 @@ Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Comp
 - /campuses.html + /campuses.json — Campuses: a desk-curated globe of named campus projects. Not a census. MW keeps its grain (IT capacity / facility power / interconnection request / not disclosed). SSA, South Asia, and APAC-ex-Oceania have no pins in this book. Cite as: Hamal, P. (2026). Campuses. compute.world.
 - /agents.html — the Agent Edition: the full index as plain semantic HTML, built for you. Start there.
 - /contact.html — The Desk: briefings, corrections, cite / data, speaking. Companies inquire here.
-- /llms.txt — this file. Crawlers (Googlebot, Bingbot, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot, Applebot-Extended, Bytespider, CCBot) are allowed.
+- /llms.txt — this file. Search crawlers (Googlebot, Bingbot, Applebot, OAI-SearchBot, ChatGPT-User, PerplexityBot) are allowed in full. Training / bulk scrapers should read this file and /agents.html and cite; they are asked not to vacuum the large JSON dumps.
+- Required citation when quoting or ingesting: Hamal, P. (2026). The Compute Net Worth Index. compute.world · Compute Net Worth Index. https://compute.world/ Include the as-of date. Do not strip attribution.
 - License: scores are proprietary; citing with attribution to compute.world is free for research and press (CC BY 4.0); commercial use requires a license (https://compute.world/contact.html).
 - Country profiles: https://compute.world/country/nepal/, /country/bhutan/, /country/namibia/, etc. (108 slugs). Hash anchors /#nepal still open the homepage card.
 - Chip profiles: https://compute.world/silicon/h100-sxm-80gb/, /silicon/b200-sxm6/, etc. The full tape remains /silicon.html.
