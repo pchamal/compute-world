@@ -21,13 +21,15 @@ jobs:
         with: { python-version: "3.12" }
       - name: Rebuild Silicon Tape from silicon.json
         run: python3 src/build_silicon.py
+      - name: Rebuild desk chip pages from live JSON
+        run: python3 src/build_desk.py
       - name: Snapshot published ranks
         run: python3 src/snapshot_ranks.py --publish
       - name: Commit changes
         run: |
           git config user.name "silicon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add silicon.html silicon.xml rank-history.json || true
+          git add silicon.html silicon.xml rank-history.json index.html country silicon fonts flags map.svg sitemap.xml llms.txt robots.txt || true
           git diff --cached --quiet || git commit -m "silicon: rebuild tape ($(date -u +%Y-%m-%d))"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push

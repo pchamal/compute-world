@@ -48,40 +48,40 @@ box-shadow:0 8px 26px rgba(0,0,0,.12);transition:background-color .35s ease,tran
 .tchip .ic-moon{opacity:1;transform:none}
 html[data-theme="dark"] .tchip .ic-sun{opacity:1;transform:none}
 html[data-theme="dark"] .tchip .ic-moon{opacity:0;transform:rotate(90deg) scale(.6)}
-/* floating nav — shared via src/fnav.py */
-body,#fnav{transition:background-color .35s ease,color .35s ease,border-color .35s ease}
-body.fnav-inner{padding-top:64px}
-#fnav-hit{position:fixed;top:0;left:0;right:0;height:28px;z-index:59}
-#fnav{position:fixed;top:14px;left:50%;transform:translate(-50%,-160%);z-index:60;display:flex;gap:20px;align-items:center;
-padding:10px 22px;--glass:rgba(247,244,238,.90);background:var(--glass);backdrop-filter:blur(14px) saturate(1.1);-webkit-backdrop-filter:blur(14px) saturate(1.1);
-border:1px solid var(--glassborder,rgba(23,22,20,.35));border-radius:99px;box-shadow:0 10px 34px rgba(0,0,0,.12);
-transition:transform .55s cubic-bezier(.22,.8,.26,1),background-color .35s ease;
-font-family:var(--serif,'Charter','Bitstream Charter','Sitka Text',Cambria,Georgia,'Times New Roman',serif);color:var(--ink,#171614)}
-#fnav.show,#fnav:hover,#fnav:focus-within,#fnav-hit:hover+#fnav{transform:translate(-50%,0)}
-#fnav .nb{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600}
-#fnav a{border:none;color:var(--ink,#171614);font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
-#fnav a:hover{color:var(--accent,#7d2027)}
-#fnav a.here{color:var(--accent,#7d2027)}
-#fnav .ndot{width:6px;height:6px;border-radius:50%;background:var(--pr,#4b5f36);flex:0 0 auto}
-#fnav .nlinks{display:flex;gap:20px;align-items:center}
-#nburger{display:none;font-family:inherit;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
-background:none;border:none;color:inherit;cursor:pointer;padding:2px 0}
-#nburger:hover{color:var(--accent,#7d2027)}
-html[data-theme="dark"] #fnav{--glass:rgba(23,21,17,.90);background:var(--glass);border-color:var(--glassborder,rgba(236,231,219,.28));color:var(--ink,#ece7db)}
-html[data-theme="dark"] #fnav a{color:var(--ink,#ece7db)}
-html[data-theme="dark"] #fnav a:hover,html[data-theme="dark"] #fnav a.here,html[data-theme="dark"] #nburger:hover{color:var(--accent,#c2564c)}
-html[data-theme="dark"] #fnav .ndot{background:var(--pr,#8fae72)}
-@media(max-width:1520px){
-  #nburger{display:block}
-  #fnav .nlinks{display:none;position:absolute;top:calc(100% + 10px);right:0;flex-direction:column;
-  align-items:flex-end;gap:13px;background:var(--glass);backdrop-filter:blur(16px) saturate(1.1);
-  -webkit-backdrop-filter:blur(16px) saturate(1.1);border:1px solid var(--glassborder,rgba(23,22,20,.35));border-radius:16px;
-  padding:18px 24px;box-shadow:0 14px 40px rgba(0,0,0,.16);min-width:170px}
-  #fnav .nlinks.open{display:flex;animation:navdrop .35s cubic-bezier(.22,.8,.26,1)}
-  html[data-theme="dark"] #fnav .nlinks{background:var(--glass);border-color:var(--glassborder,rgba(236,231,219,.28))}
-  @keyframes navdrop{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+
+@font-face{font-family:"Schibsted Grotesk";src:url("/fonts/SchibstedGrotesk-wght.woff2") format("woff2");font-weight:400 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url("/fonts/Newsreader-opsz-wght.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+header.deskhead{--paper:#F3F5F2;--panel:#FFFFFF;--panel-2:#F6F8F5;--ink:#1B222A;--ink-2:#4E5862;--ink-3:#7C8690;--line:#D8DED9;--line-2:#E7ECE7;--accent:#1F4FD8;--up:#1E7B4F;--sans:"Schibsted Grotesk",ui-sans-serif,system-ui,sans-serif;--serif:"Newsreader",Georgia,serif;--r-md:8px;--shadow:0 1px 2px rgba(27,34,42,.04),0 8px 24px rgba(27,34,42,.05);
+position:sticky;top:0;z-index:80;background:color-mix(in srgb,#F3F5F2 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid #D8DED9;color:#1B222A;font-family:var(--sans)}
+header.deskhead .wrap{max-width:1240px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:24px;height:60px}
+header.deskhead .brand{display:flex;align-items:baseline;gap:10px;color:#1B222A;white-space:nowrap;text-decoration:none;border:none}
+header.deskhead .brand b{font-weight:700;font-size:18px;letter-spacing:-.02em}
+header.deskhead .brand span{font-family:var(--serif);font-size:15px;color:#4E5862}
+header.deskhead .nav{display:flex;gap:18px;align-items:center}
+header.deskhead .nav a{color:#4E5862;font-size:14.5px;font-weight:500;white-space:nowrap;padding:6px 0;border:none;text-decoration:none}
+header.deskhead .nav a:hover{color:#1B222A}
+header.deskhead .nav a.current{color:#1B222A;box-shadow:inset 0 -2px 0 #1B222A}
+header.deskhead .more{position:relative}
+header.deskhead .more summary{list-style:none;cursor:pointer;color:#4E5862;font-size:14.5px;font-weight:500;padding:6px 0;display:flex;align-items:center;gap:5px}
+header.deskhead .more summary::-webkit-details-marker{display:none}
+header.deskhead .more .menu{position:absolute;top:calc(100% + 8px);right:0;background:#fff;border:1px solid #D8DED9;border-radius:8px;padding:6px;min-width:250px;box-shadow:var(--shadow);z-index:90}
+header.deskhead .more .menu a{display:block;padding:9px 10px;border-radius:5px;color:#1B222A;font-size:14.5px;border:none}
+header.deskhead .more .menu a:hover{background:#F6F8F5}
+header.deskhead .more .menu small{display:block;color:#7C8690;font-size:12.5px}
+header.deskhead .asof{margin-left:auto;font-size:14px;color:#4E5862;white-space:nowrap;display:flex;align-items:center;gap:8px}
+header.deskhead .asof b{color:#1B222A;font-weight:600}
+header.deskhead .live{width:7px;height:7px;border-radius:50%;background:#1E7B4F}
+header.deskhead .menu-btn{display:none;align-items:center;gap:6px;border:1px solid #D8DED9;border-radius:8px;padding:7px 11px;font-size:14px;font-weight:500;background:#fff;color:#1B222A;cursor:pointer}
+nav.desk-mnav{display:none;border-bottom:1px solid #D8DED9;background:#fff;font-family:"Schibsted Grotesk",ui-sans-serif,system-ui,sans-serif}
+nav.desk-mnav.open{display:block}
+nav.desk-mnav .wrap{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:2px 20px;padding:10px 24px 16px}
+nav.desk-mnav a{padding:11px 0;color:#1B222A;font-weight:500;border-bottom:1px solid #E7ECE7;font-size:15px;text-decoration:none;border-top:none;border-left:none;border-right:none}
+nav.desk-mnav .asof-m{grid-column:1/-1;font-size:14px;color:#4E5862;padding:8px 0 6px}
+@media(max-width:1100px){
+  header.deskhead .nav,header.deskhead .asof{display:none}
+  header.deskhead .menu-btn{display:inline-flex;margin-left:auto}
 }
-@media(prefers-reduced-motion:reduce){#fnav{transition:none}#fnav .nlinks.open{animation:none}}
+body.fnav-inner{padding-top:0}
 
 /* daily tape — subscribe strip */
 .daily{margin:28px 0 6px;padding:18px 0 16px;border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule);
@@ -207,15 +207,22 @@ details.meth .mb b{color:var(--ink)}
   <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
   <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.9 1.9M19.1 4.9l-1.8 1.8M6.7 17.3l-1.9 1.9"/></svg>
 </button>
-<div id="fnav-hit" aria-hidden="true"></div>
-<nav id="fnav" class="show" aria-label="Sections" data-show-at="80" data-sticky="1">
-  <a class="nb" href="/" aria-label="compute.world home">CW</a><span class="ndot" title="Live data"></span>
-  <button id="nburger" aria-label="Open menu" aria-expanded="false">Menu</button>
-  <div class="nlinks" id="nlinks">
-    <a href="/#board" data-nav="board">Board</a><a href="/#index" data-nav="index">Index</a><a href="/#shape" data-nav="shape">Charts</a><a href="/#objections" data-nav="objections">Objections</a><a href="/#precedents" data-nav="precedents">Precedents</a><a href="/#gazetteer" data-nav="gazetteer">Gazetteer</a><a href="/wire.html" data-nav="wire">Wire</a><a href="/#silicon" data-nav="silicon">Silicon</a><a href="/inference.html" data-nav="inference">Inference</a><a href="/neoclouds.html" data-nav="neoclouds">Neoclouds</a><a href="/hyperscalers.html" data-nav="hyperscalers" class="here" aria-current="page">Hyperscalers</a><a href="/data-centers.html" data-nav="datacenters">Data centers</a><a href="/campuses.html" data-nav="campuses">Campuses</a><a href="/#credit" data-nav="credit">Cite</a><a href="/contact.html" data-nav="contact">Contact</a><a href="/agents.html" data-nav="agents">Agents</a>
-  </div>
-</nav>
-
+<header class="deskhead"><div class="wrap">
+  <a class="brand" href="/"><b>compute.world</b><span>Countries. Compute. Silicon.</span></a>
+  <nav class="nav" aria-label="Sections"><a href="/#board" data-tab="countries">Countries</a><a href="/#board" data-tab="silicon">Silicon prices</a><a href="/#trends">Trends</a><a href="/#projects">Projects</a><a href="/#method">Method</a><a href="/#profiles">Country profiles</a><a href="/#data">Data</a>
+    <details class="more"><summary>More <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></summary>
+      <div class="menu">
+        <a href="https://compute.world/wire.html">Signals<small>The Wire: credibility-scored feed</small></a><a href="https://compute.world/neoclouds.html">GPU clouds<small>Who rents GPUs, by region</small></a><a href="https://compute.world/hyperscalers.html">Hyperscalers<small>271 cloud locations</small></a><a href="https://compute.world/inference.html">Inference providers<small>Who sells tokens</small></a><a href="https://compute.world/data-centers.html">Data centers<small>Power, water, land, tax, jobs</small></a><a href="https://compute.world/campuses.html">Campuses<small>Named sites on a globe</small></a><a href="https://compute.world/agents.html">For agents<small>Machine-readable edition</small></a><a href="https://compute.world/contact.html">Contact the desk</a>
+      </div></details>
+  </nav>
+  <div class="asof"><span class="live" aria-hidden="true"></span>Updated <b>7 Sep 2026</b></div>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mnav">Menu <svg width="12" height="10" viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1h12M0 5h12M0 9h12" stroke="currentColor" stroke-width="1.5"/></svg></button>
+</div></header>
+<nav class="desk-mnav" id="mnav" aria-label="Sections"><div class="wrap">
+  <div class="asof-m">Updated <b>7 Sep 2026</b></div>
+  <a href="/#board" data-tab='countries'>Countries</a><a href="/#board" data-tab='silicon'>Silicon prices</a><a href="/#trends">Trends</a><a href="/#projects">Projects</a><a href="/#method">Method</a><a href="/#profiles">Country profiles</a><a href="/#data">Data</a>
+  <a href="https://compute.world/wire.html">Signals</a><a href="https://compute.world/neoclouds.html">GPU clouds</a><a href="https://compute.world/data-centers.html">Data centers</a><a href="https://compute.world/contact.html">Contact</a>
+</div></nav>
 <div class="wrap">
   <div class="masthead">
     <div class="name"><a href="/"><b>COMPUTE</b>.WORLD</a></div>
@@ -471,18 +478,17 @@ tm.content=t==="dark"?"#171511":"#f7f4ee";tg.setAttribute("aria-label",t==="dark
 tg.onclick=function(){setT(cur()==="dark"?"light":"dark",true)};
 setT(cur(),false);
 (function(){
-  var nav=document.getElementById("fnav"), nb=document.getElementById("nburger"), nl=document.getElementById("nlinks");
-  if(!nav) return;
-  var threshold=parseInt(nav.getAttribute("data-show-at")||"80",10);
-  var sticky=nav.getAttribute("data-sticky")==="1";
-  function sync(){ if(sticky){ nav.classList.add("show"); return; } nav.classList.toggle("show", window.scrollY>threshold); }
-  sync();
-  window.addEventListener("scroll",sync,{passive:true});
-  if(nb&&nl){
-    nb.onclick=function(e){ e.stopPropagation(); var open=nl.classList.toggle("open"); nb.setAttribute("aria-expanded",open); nav.classList.add("show"); };
-    nl.querySelectorAll("a").forEach(function(a){ a.addEventListener("click",function(){ nl.classList.remove("open"); }); });
-    document.addEventListener("click",function(e){ if(!nl.contains(e.target)&&e.target!==nb) nl.classList.remove("open"); });
-  }
+  var m=document.getElementById("menuBtn");
+  if(m) m.addEventListener("click",function(){
+    var n=document.getElementById("mnav");
+    var o=!n.classList.contains("open");
+    n.classList.toggle("open",o);
+    m.setAttribute("aria-expanded",o);
+  });
+  document.addEventListener("click",function(e){
+    var more=document.querySelector("header.deskhead .more, header.masthead .more");
+    if(more && more.open && !e.target.closest(".more")) more.removeAttribute("open");
+  });
 })();
 
 (function(){
