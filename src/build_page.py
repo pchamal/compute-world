@@ -307,7 +307,7 @@ __HEAD_META__
 :root{--paper:#F3F5F2;--ink:#1B222A;--muted:#4E5862;--faint:#7C8690;--rule:#D8DED9;--rule2:#1B222A;
 --accent:#1F4FD8;--tint:#F6F8F5;--stripe:color-mix(in srgb,var(--ink) 5.5%,var(--paper));
 --row-hover:color-mix(in srgb,var(--ink) 10%,var(--paper));--sg:#8A5A12;--pr:#1E7B4F;--in:#3c5568;--eu:#77662c;--lr:#7C8690;
---barbg:#e2dcce;--glass:rgba(243,245,242,.78);--glassborder:rgba(27,34,42,.22);
+--barbg:#E7ECE7;--glass:rgba(243,245,242,.78);--glassborder:rgba(27,34,42,.22);
 --serif:"Newsreader",Georgia,"Times New Roman",serif}
 html[data-theme="dark"]{--paper:#0F1216;--ink:#E9EDF1;--muted:#AAB4BE;--faint:#7E8893;--rule:#2A323B;
 --rule2:#E9EDF1;--accent:#6C8FF0;--tint:#1B2129;--stripe:color-mix(in srgb,var(--ink) 6%,var(--paper));
@@ -987,7 +987,7 @@ __FNAV_HTML__
   <div class="colophon">
     <div class="c1">COMPUTE.WORLD</div>
     <div class="c2">The Compute Net Worth Index&#8482; &middot; v1.5 &middot; Founded August 10, 2026 &middot; tape as of __TAPE_ASOF__ &middot; country macros refresh from IMF &amp; World Bank &middot; &copy; 2026 Pukar C. Hamal &middot; San Francisco, CA &middot; Scores proprietary, free with attribution for research and press</div>
-    <div class="c3">compute.world is the world's compute &amp; silicon index: The Compute Net Worth Index&#8482; and the Silicon Tape. Resource potentials mix theoretical, technical, and economic bases as published; conversions and estimates are flagged in the companion workbook, where every assumption is an editable cell. This page is an analytical framework and an invitation to argue with its inputs in public. It is not investment advice. Set in Charter and its relatives. Published from San Francisco, CA.</div>
+    <div class="c3">compute.world is the world's compute &amp; silicon index: The Compute Net Worth Index&#8482; and the Silicon Tape. Resource potentials mix theoretical, technical, and economic bases as published; conversions and estimates are flagged in the companion workbook, where every assumption is an editable cell. This page is an analytical framework and an invitation to argue with its inputs in public. It is not investment advice. Set in Newsreader and Schibsted Grotesk. Published from San Francisco, CA.</div>
   </div>
 
     </div><!-- /panel-countries -->
@@ -1827,10 +1827,10 @@ Cite CC BY 4.0 with attribution to compute.world.
 
 Created by Pukar C. Hamal. First published August 10, 2026, San Francisco, CA.
 License: CC BY 4.0 with attribution to compute.world.
-Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world.
-         Hamal, P. (2026). The Silicon Tape. compute.world.
-         Hamal, P. (2026). Data centers FAQ. compute.world.
-         Hamal, P. (2026). Campuses. compute.world.
+Cite as: Hamal, P. (2026). The Compute Net Worth Index. compute.world · Compute Net Worth Index. https://compute.world/ As of {TAPE_ASOF}.
+         Hamal, P. (2026). The Silicon Tape. compute.world · Compute Net Worth Index. https://compute.world/silicon.html
+         Hamal, P. (2026). Data centers FAQ. compute.world · Compute Net Worth Index. https://compute.world/data-centers.html
+         Hamal, P. (2026). Campuses. compute.world · Compute Net Worth Index. https://compute.world/campuses.html
 Trademarks: "Compute Net Worth", "Compute Net Worth Index", "Gross Domestic Compute" (GDC).
 
 ## What this is (and is not)
@@ -1892,8 +1892,11 @@ EMBED = r"""<!DOCTYPE html>
 :root{--paper:#F3F5F2;--ink:#1B222A;--muted:#4E5862;--faint:#7C8690;--rule:#D8DED9;--accent:#1F4FD8;
 --sg:#8A5A12;--pr:#1E7B4F;--in:#3c5568;--eu:#77662c}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--paper);color:var(--ink);font-family:'Charter','Bitstream Charter',Cambria,Georgia,serif;
+@font-face{font-family:"Schibsted Grotesk";src:url("/fonts/SchibstedGrotesk-wght.woff2") format("woff2");font-weight:400 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url("/fonts/Newsreader-opsz-wght.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+body{background:var(--paper);color:var(--ink);font-family:"Newsreader",Georgia,"Times New Roman",serif;
 font-size:14px;line-height:1.5;padding:14px 16px 10px;font-variant-numeric:lining-nums tabular-nums}
+.hd .t,.hd .u,th{font-family:"Schibsted Grotesk",ui-sans-serif,system-ui,sans-serif}
 .hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--ink);padding-bottom:7px;margin-bottom:2px}
 .hd .t{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600}
 .hd .u{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
@@ -1911,6 +1914,7 @@ td:nth-child(2){text-align:left;font-weight:600}
 .attr{display:flex;justify-content:space-between;align-items:baseline;padding-top:9px;font-size:10.5px;color:var(--muted)}
 .attr a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(31,79,216,.35)}
 .attr .tm{letter-spacing:.08em;text-transform:uppercase;font-size:9.5px}
+@media (prefers-color-scheme: dark){:root{--paper:#0F1216;--ink:#E9EDF1;--muted:#AAB4BE;--faint:#7E8893;--rule:#2A323B;--accent:#6C8FF0}}
 </style></head><body>
 <div class="hd"><span class="t">The Compute Net Worth Index&#8482;</span><span class="u" id="upd"></span></div>
 <table><thead><tr><th>#</th><th>Country</th><th>CNW Ceiling</th><th>Unlockable</th><th>&times; GDP</th><th>Realized</th></tr></thead>

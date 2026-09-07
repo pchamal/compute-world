@@ -285,7 +285,7 @@ function rangeFrame(sx, sy, xDom, yDom, yTicks, xTicks, fmtY, fmtX, xLabelAnchor
   g += '<line x1="'+sx(xDom[0]).toFixed(1)+'" x2="'+sx(xDom[1]).toFixed(1)+'" y1="'+sy(yDom[0]).toFixed(1)+'" y2="'+sy(yDom[0]).toFixed(1)+'"/>';
   g += '<line x1="'+sx(xDom[0]).toFixed(1)+'" x2="'+sx(xDom[0]).toFixed(1)+'" y1="'+sy(yDom[0]).toFixed(1)+'" y2="'+sy(yDom[1]).toFixed(1)+'"/></g><g class="tick">';
   yTicks.forEach(v=>{ g += '<line x1="'+(sx(xDom[0])-4).toFixed(1)+'" x2="'+sx(xDom[0]).toFixed(1)+'" y1="'+sy(v).toFixed(1)+'" y2="'+sy(v).toFixed(1)+'" stroke="currentColor" stroke-width="1" style="stroke:var(--ink-3)"/><text x="'+(sx(xDom[0])-8).toFixed(1)+'" y="'+(sy(v)+4).toFixed(1)+'" text-anchor="end">'+fmtY(v)+'</text>'; });
-  const shown = thinXTicks(xTicks, sx, 56);
+  const shown = thinXTicks(xTicks, sx, 72);
   shown.forEach((t,i)=>{ const a = xLabelAnchor ? xLabelAnchor(t,i,shown.length) : "middle"; g += '<line y1="'+sy(yDom[0]).toFixed(1)+'" y2="'+(sy(yDom[0])+4).toFixed(1)+'" x1="'+sx(t).toFixed(1)+'" x2="'+sx(t).toFixed(1)+'" style="stroke:var(--ink-3)"/><text x="'+sx(t).toFixed(1)+'" y="'+(sy(yDom[0])+17).toFixed(1)+'" text-anchor="'+a+'">'+fmtX(t)+'</text>'; });
   return g+'</g>';
 }

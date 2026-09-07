@@ -35,7 +35,7 @@ class TickThinning(unittest.TestCase):
             day = {"2026-08-19": 0, "2026-09-04": 16, "2026-09-07": 19}[iso]
             return 36 + (day - x0) / (x1 - x0) * (360 - 36 - 88)
 
-        shown = thin_x_ticks(ticks, sx, 56)
+        shown = thin_x_ticks(ticks, sx, 72)
         self.assertIn("2026-08-19", shown)
         self.assertIn("2026-09-07", shown)
         self.assertNotIn("2026-09-04", shown)
@@ -47,7 +47,7 @@ class TickThinning(unittest.TestCase):
             day = {"2026-08-19": 0, "2026-09-04": 16, "2026-09-07": 19}[iso]
             return 40 + day / 19 * 800
 
-        shown = thin_x_ticks(ticks, sx, 56)
+        shown = thin_x_ticks(ticks, sx, 72)
         self.assertEqual(shown, ticks)
 
 

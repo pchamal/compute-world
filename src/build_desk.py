@@ -985,6 +985,10 @@ def llms_txt(data, rail):
         f"- {SITE}/silicon.json (prices), {SITE}/silicon-history.json (dated prints)",
         f"- {SITE}/rank-history.json (append-only daily snapshots)",
         f"- {SITE}/params.json (every assumption)",
+        f"- {SITE}/wire.html + {SITE}/wire.json — The Wire",
+        f"- {SITE}/inference.html, {SITE}/neoclouds.html, {SITE}/hyperscalers.html — vendor catalogs",
+        f"- {SITE}/data-centers.html, {SITE}/campuses.html, {SITE}/brief.html, {SITE}/agents.html",
+        f"- {SITE}/contact.html — The Desk. Search crawlers are welcome; training bots should read this file and cite.",
         "",
         "## Country pages (live capacity, ceiling, unlockable, rank)",
     ]

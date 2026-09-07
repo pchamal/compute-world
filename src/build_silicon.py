@@ -376,7 +376,7 @@ PAGE = f'''<!DOCTYPE html>
 {MARKET_THEME_CSS}
 :root{{--paper:#F3F5F2;--ink:#1B222A;--muted:#4E5862;--faint:#7C8690;--rule:#D8DED9;--rule2:#1B222A;
 --accent:#1F4FD8;--tint:#F6F8F5;--stripe:color-mix(in srgb,var(--ink) 5.5%,var(--paper));
---row-hover:color-mix(in srgb,var(--ink) 10%,var(--paper));--pr:#1E7B4F;--sg:#8A5A12;--barbg:#e2dcce;
+--row-hover:color-mix(in srgb,var(--ink) 10%,var(--paper));--pr:#1E7B4F;--sg:#8A5A12;--barbg:#E7ECE7;
 --glass:rgba(243,245,242,.78);--glassborder:rgba(27,34,42,.22);
 --serif:"Newsreader",Georgia,"Times New Roman",serif}}
 html[data-theme="dark"]{{--paper:#0F1216;--ink:#E9EDF1;--muted:#AAB4BE;--faint:#7E8893;--rule:#2A323B;
