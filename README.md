@@ -10,7 +10,9 @@ Created by **Pukar C. Hamal**. First published August 10, 2026, San Francisco, C
 ## What is in here
 
 ```
-index.html      the site: Countries tab (board, index, essay) and Silicon tab (the tape)
+index.html      v1.5 desk: lede, metric rail, Countries|Silicon board, map, trends
+country/        108 country profile pages (/country/{slug}/)
+silicon/        20 accelerator profile pages (/silicon/{slug}/)
 silicon.html    The Silicon Tape — standalone shareable rental index (from silicon.json)
 silicon.json    Silicon Tape source of truth (CC BY 4.0)
 silicon-history.json  append-only dated observed prints (no interpolations; each scrape adds a point)
@@ -63,17 +65,22 @@ edit `params.json`, commit, done.
   on the pin. Empty regions and empty small-MW filters are coverage holes, not bugs.
 - **Data or copy changes:** edit the inputs in `src/` (country rows in `cnw_model.py`,
   ratings and democracy in `aux_data.py`, macro in `macro_data.py`, live capacity in
-  `gdc_data.py`, page template and blurbs in `build_page.py`), then rebuild:
+  `gdc_data.py`, desk chrome in `build_desk.py` / `desk_data.py`), then rebuild:
 
   ```
   cd src
   python3 cnw_model.py      # recompute the model
-  python3 build_page.py     # regenerates the site into src/deploy/
+  python3 build_page.py     # desk homepage + country/silicon profiles + data.json
   python3 build_silicon.py  # regenerates silicon.html + silicon.xml from silicon.json
   python3 build_brief.py    # regenerates brief.html + brief.xml from brief.json
   python3 make_og.py        # regenerates og.png, og-silicon.png, og-brief.png
-  cp deploy/index.html deploy/data.json deploy/params.json deploy/llms.txt deploy/sitemap.xml deploy/robots.txt deploy/agents.html ..
   ```
+
+  `build_page.py` writes the v1.5 desk (`index.html`, `country/`, `silicon/`, fonts,
+  flags, sitemap) into the repo root and `src/deploy/`. Cloudflare Pages still
+  deploys from `/` with no build command. Numbers bind from `cnw_computed.json`,
+  `silicon.json`, `silicon-history.json`, `rank-history.json`, and `wire.json`.
+  To rebuild only the desk: `python3 src/build_desk.py`.
 
 - **Subscribe list (email):** the form posts to `/api/subscribe` (`functions/api/subscribe.js`).
   Signups persist to a free Cloudflare D1 database (`DB` → `compute-world-subscribers`),
