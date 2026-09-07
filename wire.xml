@@ -5,6 +5,27 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Stargate Korea stalls: Samsung SDS and SKT say sites, power, and funding still unset a year after MOU</title>
+    <link>https://www.koreajoongangdaily.com/business/openais-stargate-project-in-korea-stuck-at-starting-gate-as-samsung-sk-report-little-progress/12856484</link>
+    <guid isPermaLink="false">compute.world/wire#stargate-korea-samsung-sk-stall-2026-09-07</guid>
+    <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 7 September 2026 Korea JoongAng Daily reported that nearly a year after OpenAI’s October 2025 Stargate Korea framing with Samsung and SK, neither data-center leg has settled site, power, water, or funding. Samsung SDS said “nothing has been confirmed” and the decision sits with OpenAI; SK Telecom said no progress since the MOU and OpenAI demand is not finalized; an OpenAI spokesperson said the domestic project is “still under discussion.” Industry sources cited power and water as the binding site constraints. The piece places Korea alongside paused Stargate legs in Norway and Britain. Separate from Korea’s AIDC 18.4 GW / budget track already on Wire — this is a conversion Stall on the OpenAI-branded campus path. [Signal 78, Multi-party, via Korea JoongAng Daily] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>TCS HyperVault locks 264 acres in Hyderabad for up to 1 GW AI campus — ₹70,000 crore with Telangana</title>
+    <link>https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana</link>
+    <guid isPermaLink="false">compute.world/wire#tcs-hypervault-hyderabad-1gw-2026-09-05</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 5 September 2026 TCS subsidiary HyperVault announced it has secured 264 acres in Hyderabad (Telangana) to develop a phased AI data-center campus of up to 1 GW, purpose-built for frontier AI and hyperscaler GPU training/inference with liquid cooling and high rack density. HyperVault and partners expect to invest up to ₹70,000 crore (~$7.4B per Reuters) to build and manage the infrastructure; Telangana Chief Minister A. Revanth Reddy publicly framed a June 2, 2028 inauguration target. TPG remains the named strategic capital partner from the earlier HyperVault raise. Conversion signal: India land + GW ceiling + state partnership are live; power offtake (PPA), EPC, and hyperscaler contracts were not disclosed in the press release. [Signal 88, Confirmed, via TCS / HyperVault press release] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>OPSB dockets AEP Baku–Gavin 765 kV (~51 mi, ~$1.1B) for PORTS-Pike — local hearing Oct 27</title>
+    <link>https://opsb.ohio.gov/cases/26-0426-el-btx</link>
+    <guid isPermaLink="false">compute.world/wire#opsb-aep-baku-gavin-765kv-26-0426-2026-09</guid>
+    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
+    <description>AEP Ohio Transmission’s Baku–Gavin 765 kV line — roughly 50–51 miles from a proposed Baku Substation in Pike County to Gavin Substation in Gallia County, estimated ~$1.1B — is now live as Ohio Power Siting Board case 26-0426-EL-BTX. The OPSB case page states the line would serve the planned Piketon data-center campus; the data-center customer has committed to pay transmission costs so Ohio ratepayers are not loaded. OPSB has noticed a local public hearing for 27 October 2026, 6 p.m., Jackson High School Auditorium. This is the grid-permit conversion step after the Aug 17 NVIDIA/OpenAI/SB Energy PORTS-Pike stack (already wired); certificate still pending. Line 2 (Hanging Rock–Baku) remains earlier in outreach. [Signal 90, Confirmed, via Ohio Power Siting Board] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Fervo signs 396 MW, 15-year Google PPA at Cape Station — foundation for a potential Utah data center</title>
     <link>https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-and-google-sign-396-mw-ppa</link>
     <guid isPermaLink="false">compute.world/wire#fervo-google-396mw-cape-station-2026-09-01</guid>
@@ -192,26 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#nebius-5gw-contracted-2026</guid>
     <pubDate>Wed, 12 Aug 2026 12:00:00 GMT</pubDate>
     <description>Nebius’s 12 August 2026 shareholder letter raised year-end 2026 contracted power — defined as secured land and power commitments, not connected megawatts — to 5 GW, from +4 GW last quarter, and said it plans to deploy more than 1 GW per year starting in 2027. Q2 group revenue was $582.3 million (+454% YoY); AI cloud $574.9 million; ARR $3.0 billion; Q2 capex about $5.7 billion. Four landmark deals averaged more than $1 billion TCV and $20–25 million per MW; Q3 short-duration capacity is priced in the $40–50 million per MW range, with the first such deal signed. New 2026 sites listed include the UK, Estonia and Finland plus US states. Contracted 5 GW is a European/US conversion clock, not a named Welsh MW print. [Signal 82, Confirmed, via Nebius IR] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI infrastructure</title>
-    <link>https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx</link>
-    <guid isPermaLink="false">compute.world/wire#nvidia-500b-platforms</guid>
-    <pubDate>Mon, 10 Aug 2026 12:00:00 GMT</pubDate>
-    <description>NVIDIA partners with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent compute-financing platforms targeting over $500 billion of third-party capital, with NVIDIA guaranteeing up to 25 percent of chip residual value on individual deals. The capital constraint on the global buildout just grew a dedicated channel, and GPUs were declared an investable asset class. [Signal 95, Confirmed, via NVIDIA IR] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Firebird&#x27;s Armenia AI factory goes live: frontier-market sovereign compute has a working example</title>
-    <link>https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/</link>
-    <guid isPermaLink="false">compute.world/wire#firebird-armenia-live</guid>
-    <pubDate>Sat, 08 Aug 2026 12:00:00 GMT</pubDate>
-    <description>The Hrazdan facility went from site to operation in about six months on NVIDIA and Dell infrastructure, with a roadmap of 70,000+ GPUs and 300 MW by end-2027 and NVIDIA stating intent to invest. The proof of concept for small-state compute conversion. [Signal 92, Confirmed, via NVIDIA blog] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031</title>
-    <link>https://www.sec.gov/Archives/edgar/data/2120882/000119312526339024/d13432d6k.htm</link>
-    <guid isPermaLink="false">compute.world/wire#sk-hynix-yongin-y2</guid>
-    <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 7 August 2026 SK hynix’s board approved ₩35,224,600,000,000 to construct Y2 (phases 1–6 of Fab 2) at the Yongin Semiconductor Cluster, 29.19% of total equity as of 31 December 2025, with a stated investment window of 7 August 2026 to 31 October 2031. The 6-K frames the spend as mid- to long-term memory capacity, not a 2026 wafer print. This is Korea’s conversion ticket for HBM/DRAM land and power already sitting inside the Yongin cluster — volume for 2029+, not this year’s tape. [Signal 88, Confirmed, via SEC] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
