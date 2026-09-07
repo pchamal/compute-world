@@ -1,9 +1,69 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-09-04",
+  "updated": "2026-09-07",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "stargate-korea-samsung-sk-stall-2026-09-07",
+      "date": "2026-09-07",
+      "title": "Stargate Korea stalls: Samsung SDS and SKT say sites, power, and funding still unset a year after MOU",
+      "summary": "On 7 September 2026 Korea JoongAng Daily reported that nearly a year after OpenAI’s October 2025 Stargate Korea framing with Samsung and SK, neither data-center leg has settled site, power, water, or funding. Samsung SDS said “nothing has been confirmed” and the decision sits with OpenAI; SK Telecom said no progress since the MOU and OpenAI demand is not finalized; an OpenAI spokesperson said the domestic project is “still under discussion.” Industry sources cited power and water as the binding site constraints. The piece places Korea alongside paused Stargate legs in Norway and Britain. Separate from Korea’s AIDC 18.4 GW / budget track already on Wire — this is a conversion Stall on the OpenAI-branded campus path.",
+      "url": "https://www.koreajoongangdaily.com/business/openais-stargate-project-in-korea-stuck-at-starting-gate-as-samsung-sk-report-little-progress/12856484",
+      "source": "Korea JoongAng Daily",
+      "tier": 2,
+      "corroboration": "Multi-party",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Stall",
+        "Energy",
+        "Build"
+      ],
+      "score": 78
+    },
+    {
+      "id": "opsb-aep-baku-gavin-765kv-26-0426-2026-09",
+      "date": "2026-09-03",
+      "title": "OPSB dockets AEP Baku–Gavin 765 kV (~51 mi, ~$1.1B) for PORTS-Pike — local hearing Oct 27",
+      "summary": "AEP Ohio Transmission’s Baku–Gavin 765 kV line — roughly 50–51 miles from a proposed Baku Substation in Pike County to Gavin Substation in Gallia County, estimated ~$1.1B — is now live as Ohio Power Siting Board case 26-0426-EL-BTX. The OPSB case page states the line would serve the planned Piketon data-center campus; the data-center customer has committed to pay transmission costs so Ohio ratepayers are not loaded. OPSB has noticed a local public hearing for 27 October 2026, 6 p.m., Jackson High School Auditorium. This is the grid-permit conversion step after the Aug 17 NVIDIA/OpenAI/SB Energy PORTS-Pike stack (already wired); certificate still pending. Line 2 (Hanging Rock–Baku) remains earlier in outreach.",
+      "url": "https://opsb.ohio.gov/cases/26-0426-el-btx",
+      "source": "Ohio Power Siting Board",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build",
+        "Policy"
+      ],
+      "score": 90
+    },
+    {
+      "id": "tcs-hypervault-hyderabad-1gw-2026-09-05",
+      "date": "2026-09-05",
+      "title": "TCS HyperVault locks 264 acres in Hyderabad for up to 1 GW AI campus — ₹70,000 crore with Telangana",
+      "summary": "On 5 September 2026 TCS subsidiary HyperVault announced it has secured 264 acres in Hyderabad (Telangana) to develop a phased AI data-center campus of up to 1 GW, purpose-built for frontier AI and hyperscaler GPU training/inference with liquid cooling and high rack density. HyperVault and partners expect to invest up to ₹70,000 crore (~$7.4B per Reuters) to build and manage the infrastructure; Telangana Chief Minister A. Revanth Reddy publicly framed a June 2, 2028 inauguration target. TPG remains the named strategic capital partner from the earlier HyperVault raise. Conversion signal: India land + GW ceiling + state partnership are live; power offtake (PPA), EPC, and hyperscaler contracts were not disclosed in the press release.",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana",
+      "source": "TCS / HyperVault press release",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build",
+        "Capital",
+        "Energy"
+      ],
+      "score": 88
+    },
     {
       "id": "eo-14420-bulk-power-foreign-equipment-2026-08-26",
       "date": "2026-08-26",
