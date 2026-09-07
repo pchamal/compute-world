@@ -35,19 +35,20 @@ def land(lat, lon):
 
 
 def digits():
+    """Front-hemisphere only (lon −80…80) so digits do not stack into a solid disk."""
     rows = []
-    # 11 latitude bands, 18–28 glyphs depending on circumference
-    for i, lat in enumerate(range(-50, 55, 10)):
+    for i, lat in enumerate(range(-48, 52, 12)):
         clat = math.radians(lat)
-        n = max(10, int(22 * math.cos(clat) + 0.5))
+        # Width of the visible parallel; keep glyphs from colliding at 28–32px.
+        n = max(7, int(12 * math.cos(clat) + 0.5))
         row = []
         for j in range(n):
-            lon = -180 + (j + 0.5) * (360 / n)
-            bit = "1" if land(lat, lon) else "0"
-            # Mix the sea a little so it still reads as binary, not a blank ocean
-            if bit == "0" and ((i + j) % 5 == 0):
+            lon = -80 + (j + 0.5) * (160 / n)
+            on_land = land(lat, lon)
+            bit = "1" if on_land else "0"
+            if bit == "0" and ((i + j) % 4 == 0):
                 bit = "1"
-            if bit == "1" and not land(lat, lon) and ((i * 3 + j) % 7 == 0):
+            if bit == "1" and not on_land and ((i * 3 + j) % 6 == 0):
                 bit = "0"
             x = 32 + 24.2 * math.cos(clat) * math.sin(math.radians(lon))
             y = 32 - 24.2 * math.sin(clat)
@@ -69,21 +70,22 @@ def svg_mark():
   <style>
     .bg {{ fill: #F3F5F2; }}
     .fg {{ fill: #1B222A; stroke: #1B222A; }}
-    text {{ fill: #1B222A; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 4.6px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }}
+    text {{ fill: #1B222A; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 6.2px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }}
     @media (prefers-color-scheme: dark) {{
       .bg {{ fill: #0F1216; }}
       .fg {{ fill: #E9EDF1; stroke: #E9EDF1; }}
       text {{ fill: #E9EDF1; }}
     }}
   </style>
+  <defs><clipPath id="disc"><circle cx="32" cy="32" r="26.2"/></clipPath></defs>
   <rect class="bg" width="64" height="64" rx="14"/>
-  <circle class="fg" cx="32" cy="32" r="27" fill="none" stroke-width="1.35"/>
-  <ellipse class="fg" cx="32" cy="32" rx="13" ry="27" fill="none" stroke-width="0.55" opacity=".55"/>
-  <ellipse class="fg" cx="32" cy="32" rx="22" ry="27" fill="none" stroke-width="0.45" opacity=".4"/>
-  <line class="fg" x1="5.2" y1="32" x2="58.8" y2="32" stroke-width="0.45" opacity=".4"/>
-  <line class="fg" x1="8.8" y1="20" x2="55.2" y2="20" stroke-width="0.4" opacity=".28"/>
-  <line class="fg" x1="8.8" y1="44" x2="55.2" y2="44" stroke-width="0.4" opacity=".28"/>
+  <circle class="fg" cx="32" cy="32" r="27" fill="none" stroke-width="1.6"/>
+  <ellipse class="fg" cx="32" cy="32" rx="13" ry="27" fill="none" stroke-width="0.55" opacity=".45"/>
+  <ellipse class="fg" cx="32" cy="32" rx="22" ry="27" fill="none" stroke-width="0.45" opacity=".32"/>
+  <line class="fg" x1="5.2" y1="32" x2="58.8" y2="32" stroke-width="0.45" opacity=".32"/>
+  <g clip-path="url(#disc)">
   {body}
+  </g>
 </svg>
 '''
 
@@ -109,7 +111,7 @@ def write_png(path, size=180, dark=False):
         "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
     ):
         if os.path.isfile(cand):
-            font = ImageFont.truetype(cand, max(7, size // 14))
+            font = ImageFont.truetype(cand, max(9, size // 11))
             break
     if font is None:
         font = ImageFont.load_default()

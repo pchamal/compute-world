@@ -121,7 +121,7 @@ def home_href(root, href):
 
 def brand_mark(root):
     return (
-        f'<img class="mark" src="{root}mark.svg" width="28" height="28" alt="" '
+        f'<img class="mark" src="{root}mark.svg" width="32" height="32" alt="" '
         f'decoding="async">'
     )
 
@@ -293,7 +293,7 @@ header.deskhead{--paper:#F3F5F2;--panel:#FFFFFF;--panel-2:#F6F8F5;--ink:#1B222A;
 position:relative;top:auto;z-index:80;background:transparent;border-bottom:1px solid #D8DED9;color:#1B222A;font-family:var(--sans)}
 header.deskhead .wrap{max-width:1240px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:18px;height:60px}
 header.deskhead .brand{display:flex;align-items:center;gap:10px;color:#1B222A;white-space:nowrap;text-decoration:none;border:none}
-header.deskhead .brand .mark{width:28px;height:28px;border-radius:7px;flex:none;display:block}
+header.deskhead .brand .mark{width:32px;height:32px;border-radius:8px;flex:none;display:block}
 header.deskhead .brand b{font-weight:700;font-size:18px;letter-spacing:-.02em}
 header.deskhead .brand span{font-family:var(--serif);font-size:15px;color:#4E5862}
 header.deskhead .nav{display:flex;gap:14px;align-items:center}

@@ -86,7 +86,7 @@ h3{font-size:19px;font-weight:600}
 .masthead .wrap{display:flex;align-items:center;gap:18px;height:60px}
 .brand{display:flex;align-items:center;gap:10px;color:var(--ink);white-space:nowrap}
 .brand:hover{text-decoration:none}
-.brand .mark{width:28px;height:28px;border-radius:7px;flex:none;display:block;background:var(--panel);box-shadow:0 0 0 1px var(--line)}
+.brand .mark{width:32px;height:32px;border-radius:8px;flex:none;display:block;background:var(--panel);box-shadow:0 0 0 1px var(--line)}
 .brand b{font-weight:700;font-size:18px;letter-spacing:-.02em}
 .brand span{font-family:var(--serif);font-size:15px;color:var(--ink-2)}
 .nav{display:flex;gap:14px;align-items:center}
