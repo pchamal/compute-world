@@ -60,11 +60,30 @@
     }
   ],
   "watch": [
-    "PUCT Docket 59336 Howard–Solstice final order (still HOLD after Aug 28 oral args; replies window noted into early Sep).",
-    "OPSB 26-0426-EL-BTX Baku–Gavin 765 kV local hearing 27 Oct (PORTS-Pike).",
-    "FERC action on MISO ER26-3650 before Dec 4; MISO follow-on filings by Nov 16.",
-    "Firmus Malaysia site MW, PPA/grid interconnect, and RFS dates — PR left blank.",
-    "Stargate Korea site/power/funding — still unset per 7 Sep JoongAng."
+    {
+      "name": "PUCT 59336 Howard–Solstice",
+      "note": "Still HOLD for final CCN order after Aug 28 oral args; replies window noted into early Sep."
+    },
+    {
+      "name": "OPSB 26-0426-EL-BTX",
+      "note": "Baku–Gavin local hearing 27 Oct; certificate timing is the PORTS-Pike grid hinge."
+    },
+    {
+      "name": "MISO ER26-3650",
+      "note": "FERC action on large-load IRR before Dec 4 ask; follow-on filings by Nov 16."
+    },
+    {
+      "name": "Firmus Malaysia MW/PPA",
+      "note": "PR left site MW, grid interconnect, and contract $ blank — first filing flips specificity."
+    },
+    {
+      "name": "Stargate Korea site/power",
+      "note": "Any Samsung SDS or SKT site+MW disclosure would flip the 7 Sep Stall."
+    },
+    {
+      "name": "HyperVault Hyderabad power",
+      "note": "Watch for PPA / state open-access filing before treating 1 GW as deliverable."
+    }
   ],
   "sources": [
     {
