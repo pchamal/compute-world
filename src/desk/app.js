@@ -65,7 +65,7 @@ async function copy(text, label){ try{ await navigator.clipboard.writeText(text)
 
 /* links + text */
 const pageFor = (type,obj) => CFG.site+"/"+(type==="country"?"country/":"silicon/")+obj.slug+"/";
-const citeFor = name => "Hamal, P. (2026). The Compute Net Worth Index"+(name?": "+name:"")+". compute.world. Retrieved "+fmtDate(CFG.asOf)+".";
+const citeFor = (name, url) => "Hamal, P. (2026). The Compute Net Worth Index"+(name?": "+name:"")+". compute.world · Compute Net Worth Index. "+(url||CFG.site+"/")+" As of "+fmtDate(CFG.asOf)+".";
 const xFor = (text,url) => "https://x.com/intent/post?text="+encodeURIComponent(text)+"&url="+encodeURIComponent(url);
 function countryText(c){
   const tierLine = { SG:"A sleeping giant: the endowment runs "+c.xgdp+" times the economy, and the readiness gap is the to-do list.", PR:"Primed: readiness clears 65 percent, and there is real headroom left to build.", IN:"An incumbent: already priced in, already building.", EU:"Emerging upside: a narrower gap, and a real one.", LR:"A long road: the ceiling is modest next to the economy, and the option still costs nothing to hold." }[c.tier];
@@ -172,7 +172,7 @@ function actionsHTML(type, obj){
   return '<div class="actions">'
     +'<a class="btn small primary" href="'+ROOT+local+'">Open full profile</a>'
     +'<button class="btn small" data-act="link" data-url="'+esc(url)+'">Copy link</button>'
-    +'<button class="btn small" data-act="cite" data-name="'+esc(obj.name)+'">Copy citation</button>'
+    +'<button class="btn small" data-act="cite" data-name="'+esc(obj.name)+'" data-url="'+esc(url)+'">Copy citation</button>'
     +'<button class="btn small" data-act="text" data-type="'+type+'" data-id="'+esc(obj.id)+'">Copy summary</button>'
     +'<button class="btn small" data-act="card" data-type="'+type+'" data-id="'+esc(obj.id)+'">Share card</button>'
     +'<a class="btn small" href="'+esc(xFor(share,url))+'" target="_blank" rel="noopener">Post on X</a></div>';
@@ -268,17 +268,30 @@ function renderRail(){
 
 /* charts (Tufte: range frames, no grid, direct labels) */
 function chartSize(el, base){ const w = Math.max(320, el.clientWidth || base.W); return {W:w, H:base.H, narrow:w<480}; }
+function thinXTicks(ticks, sx, minPx){
+  /* Keep first + last (as-of / cursor wins). Drop intermediates that collide. */
+  if(!ticks || ticks.length<=2) return ticks.slice();
+  const last = ticks[ticks.length-1];
+  const out = [ticks[0]];
+  for(let i=1;i<ticks.length-1;i++){
+    const x = sx(ticks[i]);
+    if(x - sx(out[out.length-1]) >= minPx && sx(last) - x >= minPx) out.push(ticks[i]);
+  }
+  out.push(last);
+  return out;
+}
 function rangeFrame(sx, sy, xDom, yDom, yTicks, xTicks, fmtY, fmtX, xLabelAnchor){
   let g = '<g class="frame">';
   g += '<line x1="'+sx(xDom[0]).toFixed(1)+'" x2="'+sx(xDom[1]).toFixed(1)+'" y1="'+sy(yDom[0]).toFixed(1)+'" y2="'+sy(yDom[0]).toFixed(1)+'"/>';
   g += '<line x1="'+sx(xDom[0]).toFixed(1)+'" x2="'+sx(xDom[0]).toFixed(1)+'" y1="'+sy(yDom[0]).toFixed(1)+'" y2="'+sy(yDom[1]).toFixed(1)+'"/></g><g class="tick">';
   yTicks.forEach(v=>{ g += '<line x1="'+(sx(xDom[0])-4).toFixed(1)+'" x2="'+sx(xDom[0]).toFixed(1)+'" y1="'+sy(v).toFixed(1)+'" y2="'+sy(v).toFixed(1)+'" stroke="currentColor" stroke-width="1" style="stroke:var(--ink-3)"/><text x="'+(sx(xDom[0])-8).toFixed(1)+'" y="'+(sy(v)+4).toFixed(1)+'" text-anchor="end">'+fmtY(v)+'</text>'; });
-  xTicks.forEach((t,i)=>{ const a = xLabelAnchor ? xLabelAnchor(t,i,xTicks.length) : "middle"; g += '<line y1="'+sy(yDom[0]).toFixed(1)+'" y2="'+(sy(yDom[0])+4).toFixed(1)+'" x1="'+sx(t).toFixed(1)+'" x2="'+sx(t).toFixed(1)+'" style="stroke:var(--ink-3)"/><text x="'+sx(t).toFixed(1)+'" y="'+(sy(yDom[0])+17).toFixed(1)+'" text-anchor="'+a+'">'+fmtX(t)+'</text>'; });
+  const shown = thinXTicks(xTicks, sx, 72);
+  shown.forEach((t,i)=>{ const a = xLabelAnchor ? xLabelAnchor(t,i,shown.length) : "middle"; g += '<line y1="'+sy(yDom[0]).toFixed(1)+'" y2="'+(sy(yDom[0])+4).toFixed(1)+'" x1="'+sx(t).toFixed(1)+'" x2="'+sx(t).toFixed(1)+'" style="stroke:var(--ink-3)"/><text x="'+sx(t).toFixed(1)+'" y="'+(sy(yDom[0])+17).toFixed(1)+'" text-anchor="'+a+'">'+fmtX(t)+'</text>'; });
   return g+'</g>';
 }
 function renderRz(){
-  const el = $("#rzChart"); const {W,H,narrow} = chartSize(el,{W:900,H:260});
-  const padL=narrow?36:40,padR=narrow?66:60,padT=14,padB=28;
+  const el = $("#rzChart"); const {W,H,narrow} = chartSize(el,{W:900,H:280});
+  const padL=narrow?36:40,padR=narrow?88:80,padT=16,padB=30;
   const obs = ["2026-08-19","2026-09-04"];
   const asOf = DATA.snapshotDates[state.rzIdx]; $("#rzDate").textContent = fmtDate(asOf);
   const dates = DATA.snapshotDates; const x0=dateNum(dates[0]), x1=dateNum(dates[dates.length-1]);
@@ -294,12 +307,16 @@ function renderRz(){
     pts.forEach(p=>{ s += '<circle cx="'+sx(p[0]).toFixed(1)+'" cy="'+sy(p[1]).toFixed(1)+'" r="3.2" stroke="'+col+'"/>'; });
     const last = pts[pts.length-1]; labels.push({x:sx(last[0])+8, y:sy(last[1]), y0:sy(last[1]), text:c.iso2+" "+last[1], col});
   });
-  const gap = narrow?14:12; labels.sort((a,b)=>a.y-b.y);
+  const gap = narrow?18:16; labels.sort((a,b)=>a.y-b.y);
   for(let i=1;i<labels.length;i++){ if(labels[i].y-labels[i-1].y<gap) labels[i].y = labels[i-1].y+gap; }
-  const over = labels.length ? labels[labels.length-1].y-(H-padB-2) : 0; if(over>0) labels.forEach(l=>l.y-=over);
+  const over = labels.length ? labels[labels.length-1].y-(H-padB-4) : 0; if(over>0) labels.forEach(l=>l.y-=over);
+  const under = labels.length ? padT+8-labels[0].y : 0; if(under>0) labels.forEach(l=>l.y+=under);
   labels.forEach(l=>{ if(Math.abs(l.y-l.y0)>1) s += '<line x1="'+(l.x-6).toFixed(1)+'" x2="'+(l.x-2).toFixed(1)+'" y1="'+l.y0.toFixed(1)+'" y2="'+l.y.toFixed(1)+'" stroke="'+l.col+'" opacity=".6"/>'; s += '<text class="lbl" x="'+l.x.toFixed(1)+'" y="'+(l.y+4).toFixed(1)+'" fill="'+l.col+'">'+l.text+'</text>'; });
   s += '</g>';
-  const frame = rangeFrame(sx, sy, [dates[0], dates[dates.length-1]], [0,100], [0,25,50,75,100], obs.concat(asOf===obs[1]?[]:[asOf]), v=>String(v), fmtDateShort, (t,i,n)=> i===0?"start":(i===n-1?"end":"middle"));
+  /* Axis: first print + as-of only. 4 Sep and 7 Sep are 3 days apart; labeling
+     both stacks them at the right edge. The 4 Sep read stays on the line and in the caption. */
+  const xTicks = [obs[0], asOf].filter((t, i, a) => a.indexOf(t) === i);
+  const frame = rangeFrame(sx, sy, [dates[0], dates[dates.length-1]], [0,100], [0,25,50,75,100], xTicks, v=>String(v), fmtDateShort, (t,i,n)=> i===0?"start":(i===n-1?"end":"middle"));
   const cursor = '<line x1="'+sx(asOf).toFixed(1)+'" x2="'+sx(asOf).toFixed(1)+'" y1="'+padT+'" y2="'+(H-padB)+'" style="stroke:var(--ink)" stroke-dasharray="2 3"/>';
   el.innerHTML = '<svg viewBox="0 0 '+W+' '+H+'"'+(narrow?' class="narrow"':'')+' role="img" aria-label="Conversion score by country over observed snapshots">'+frame+cursor+s+'</svg>';
   const movers = COUNTRIES.filter(c=>c.rz!==c.rz0).sort((a,b)=>Math.abs(b.rz-b.rz0)-Math.abs(a.rz-a.rz0));
@@ -353,8 +370,10 @@ function renderProjects(){
   const rows = DATA.precedents.filter(p=>state.status==="All"||p[3]===state.status);
   $("#precCount").textContent = rows.length+" of "+DATA.precedents.length;
   $("#plist").innerHTML = rows.map(p=>{
-    const c = byId[p[0]]; const who = c ? flag(c)+'<a class="name" style="font-size:15px" href="'+ROOT+'country/'+c.slug+'/">'+esc(c.name)+'</a>' : '<img class="flag" src="'+ROOT+'flags/eu.svg" alt="" width="24" height="18" data-code="EU" onerror="flagFail(this)"><span class="name" style="font-size:15px">European Union</span>';
-    return '<li><span class="who">'+who+'</span><span class="proj">'+esc(p[1])+'</span><span class="scale">'+esc(p[2])+'</span><span class="status '+p[3]+'">'+p[3]+'</span><span class="date">'+esc(p[4])+'</span></li>';
+    const c = byId[p[0]];
+    const href = p[5] || (c ? ROOT+"country/"+c.slug+"/#projects" : "/campuses.html");
+    const who = c ? flag(c)+'<span class="name" style="font-size:15px">'+esc(c.name)+'</span>' : '<img class="flag" src="'+ROOT+'flags/eu.svg" alt="" width="24" height="18" data-code="EU" onerror="flagFail(this)"><span class="name" style="font-size:15px">European Union</span>';
+    return '<li><a class="proj-row" href="'+esc(href)+'"><span class="who">'+who+'</span><span class="proj">'+esc(p[1])+'</span><span class="scale">'+esc(p[2])+'</span><span class="status '+p[3]+'">'+p[3]+'</span><span class="date">'+esc(p[4])+'</span></a></li>';
   }).join("");
 }
 
@@ -389,7 +408,7 @@ function openSheet(type, id){
     $("#sheetBody").innerHTML = '<p class="lead">'+esc(chipText(s))+'</p><div class="facts">'+fact(priceStr(s), esc(s.disp.venue+", "+s.disp.term))+(s.terms.y1?fact(fmtUSD(s.terms.y1.price),"1-year term book"):"")+fact(String(s.rank),"Tape rank of "+CHIPS.length)+fact(esc(s.scar),"Availability")+'</div><p class="note tiny">As of '+fmtDate(s.disp.asOf)+'. Labeled term from a named venue; never an average.</p>';
   }
   const share = type==="country" ? obj.name+": compute net worth "+fmtRange(obj)+", unlockable "+fmtB(obj.unlock)+"." : obj.name+" rents at "+priceStr(obj)+" per GPU-hour.";
-  $("#sheetFoot").innerHTML = '<a class="btn primary" href="'+ROOT+(type==="country"?"country/":"silicon/")+obj.slug+'/">Open full profile</a><button class="btn" data-act="link" data-url="'+esc(url)+'">Copy link</button><button class="btn" data-act="text" data-type="'+type+'" data-id="'+esc(id)+'">Copy text</button><button class="btn" data-act="cite" data-name="'+esc(obj.name)+'">Copy citation</button><a class="btn" href="'+esc(xFor(share,url))+'" target="_blank" rel="noopener">Post on X</a>';
+  $("#sheetFoot").innerHTML = '<a class="btn primary" href="'+ROOT+(type==="country"?"country/":"silicon/")+obj.slug+'/">Open full profile</a><button class="btn" data-act="link" data-url="'+esc(url)+'">Copy link</button><button class="btn" data-act="text" data-type="'+type+'" data-id="'+esc(id)+'">Copy text</button><button class="btn" data-act="cite" data-name="'+esc(obj.name)+'" data-url="'+esc(url)+'">Copy citation</button><a class="btn" href="'+esc(xFor(share,url))+'" target="_blank" rel="noopener">Post on X</a>';
   if(typeof dlg.showModal==="function"){ if(!dlg.open) dlg.showModal(); } else dlg.setAttribute("open","");
 }
 
@@ -413,7 +432,7 @@ function downloadCSV(){
 function handleAct(el){
   const a = el.dataset.act;
   if(a==="link") copy(el.dataset.url, "Link copied");
-  else if(a==="cite") copy(citeFor(el.dataset.name), "Citation copied");
+  else if(a==="cite") copy(citeFor(el.dataset.name, el.dataset.url), "Citation copied");
   else if(a==="text") copy(el.dataset.type==="country" ? countryText(byId[el.dataset.id]) : chipText(chipById[el.dataset.id]), "Summary copied");
   else if(a==="card") openSheet(el.dataset.type, el.dataset.id);
 }
@@ -443,10 +462,22 @@ function bind(){
     const st = e.target.closest("[data-status]"); if(st){ state.status=st.dataset.status; renderProjects(); return; }
     const rg = e.target.closest("[data-region]"); if(rg){ state.region=rg.dataset.region; renderProfiles(); return; }
     const nav = e.target.closest(".nav a[data-tab], .mnav a[data-tab]"); if(nav){ switchTab(nav.dataset.tab); }
-    if(e.target.closest(".mnav a")){ $("#mnav").classList.remove("open"); $("#menuBtn").setAttribute("aria-expanded","false"); }
+    if(e.target.closest(".mnav a")){ $("#mnav").classList.remove("open"); $("#menuBtn").setAttribute("aria-expanded","false"); document.body.classList.remove("nav-open"); }
+    const sh = e.target.closest("[data-share]");
+    if(sh){
+      const dock = sh.closest(".share-dock") || $(".share-dock");
+      const url = (dock && dock.dataset.shareUrl) || location.href;
+      const title = (dock && dock.dataset.shareTitle) || document.title;
+      const cite = (dock && dock.dataset.shareCite) || citeFor("");
+      const act = sh.getAttribute("data-share");
+      if(act==="native"){ if(navigator.share){ navigator.share({title, url, text:title}).catch(()=>{}); } else copy(url, "Link copied"); }
+      else if(act==="copy") copy(url, "Link copied");
+      else if(act==="cite") copy(cite, "Citation copied");
+      return;
+    }
     const more = $(".more"); if(more && more.open && !e.target.closest(".more")) more.removeAttribute("open");
   });
-  $("#menuBtn").addEventListener("click", ()=>{ const m=$("#mnav"); const open=!m.classList.contains("open"); m.classList.toggle("open",open); $("#menuBtn").setAttribute("aria-expanded",open?"true":"false"); });
+  $("#menuBtn").addEventListener("click", ()=>{ const m=$("#mnav"); const open=!m.classList.contains("open"); m.classList.toggle("open",open); $("#menuBtn").setAttribute("aria-expanded",open?"true":"false"); document.body.classList.toggle("nav-open",open); });
   $("#sheetClose").addEventListener("click", ()=>$("#sheet").close());
   $("#sheet").addEventListener("click", e=>{ if(e.target===$("#sheet")) $("#sheet").close(); });
   $("#rzScrub").addEventListener("input", e=>{ state.rzIdx=+e.target.value; renderRz(); });
@@ -471,7 +502,8 @@ function routeHash(){
 function init(){
   const sc = $("#rzScrub"); sc.max = DATA.snapshotDates.length-1; sc.value = state.rzIdx;
   $("#histDepth").textContent = DATA.snapshotDates.length+" daily snapshots since "+fmtDate(CFG.firstSnapshot)+", append-only";
-  $("#citeBox").textContent = citeFor("");
+  $("#citeBox").textContent = citeFor("", CFG.site+"/");
+  window.thinXTicks = thinXTicks;
   bind(); renderBoard(); syncSeg(); renderRail(); renderRzChips(); renderRz(); renderMultiples(); renderProjects(); renderMethod(); renderProfiles(); routeHash();
   $$(".nav a[data-tab]").forEach(a=>a.classList.toggle("current", a.dataset.tab===state.tab));
 }

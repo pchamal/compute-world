@@ -66,6 +66,13 @@ TRIV = {"S": 1.0, "M": 0.6, "W": 0.25}
 FIBV = {"S": 1.0, "M": 0.6, "W": 0.3}
 STATUS_PTS = {"Live": 1.0, "Building": 0.7, "Contracted": 0.5, "Announced": 0.25, "Stalled": 0.1}
 
+# Named campus pins that match a row on the sovereign-factory register.
+PREC_CAMPUS = {
+    "Johor hub; YTL AI Cloud, Kulai (NVIDIA GB200)": "/campuses.html#ytl-green-data-center-park-kulai",
+    "Scala AI City, Eldorado do Sul": "/campuses.html#scala-ai-city-eldorado",
+    "Stargate UAE, Abu Dhabi (G42, OpenAI, Oracle)": "/campuses.html#stargate-uae-abu-dhabi",
+}
+
 # Sovereign AI factories already on the public register (same catalog as build_page.py).
 PREC = [
     ("ARM", "Firebird AI factory, Hrazdan (NVIDIA, Dell)", "300 MW and 70k GPUs by 2027", "Live", "Aug 2026"),
@@ -219,6 +226,17 @@ def rank_maps(history):
     first = {r["id"]: r.get("rz") for r in (snaps[0].get("rows") or [])} if snaps else {}
     last = {r["id"]: r.get("rz") for r in (snaps[-1].get("rows") or [])} if snaps else {}
     return dates, first, last
+
+
+def precedent_href(iso, name, slug_by_iso):
+    if name in PREC_CAMPUS:
+        return PREC_CAMPUS[name]
+    if iso == "EU":
+        return "/campuses.html"
+    slug = slug_by_iso.get(iso)
+    if slug:
+        return f"/country/{slug}/#projects"
+    return "/#projects"
 
 
 def prec_status():
@@ -549,7 +567,10 @@ def assemble():
         "pricePaths": paths,
         "priceCaptions": captions,
         "snapshotDates": snap_dates,
-        "precedents": [list(p) for p in PREC],
+        "precedents": [
+            list(p) + [precedent_href(p[0], p[1], {c["id"]: c["slug"] for c in countries})]
+            for p in PREC
+        ],
         "readiness": READINESS,
     }
     return payload, model

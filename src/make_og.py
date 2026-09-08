@@ -5,12 +5,12 @@ from PIL import Image, ImageDraw, ImageFont
 import json, os
 
 W, H = 1200, 630
-PAPER = (247, 244, 238)
-INK = (23, 22, 20)
-MUT = (98, 96, 90)
-RULE = (205, 199, 185)
-ACC = (125, 32, 39)
-GOLD = (138, 90, 42)
+PAPER = (243, 245, 242)
+INK = (27, 34, 42)
+MUT = (78, 88, 98)
+RULE = (216, 222, 217)
+ACC = (31, 79, 216)
+GOLD = (138, 90, 18)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -82,7 +82,7 @@ def masthead(d, kicker):
     d.rectangle([70, 44, W - 70, 47], fill=INK)
     d.rectangle([70, 51, W - 70, 52], fill=INK)
     ctext(d, 68, "C O M P U T E . W O R L D", F(26, bold=True), INK, tracking=6)
-    ctext(d, 108, kicker, F(15), MUT, tracking=4)
+    ctext(d, 108, kicker + "  ·  COUNTRIES. COMPUTE.", F(15), MUT, tracking=3)
 
 
 def footer(d, line="compute.world"):

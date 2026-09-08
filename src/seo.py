@@ -3,29 +3,74 @@
 # Builders import these so every public page speaks with one voice.
 from datetime import datetime as _dt
 
-BOTS = (
-    "GPTBot",
-    "ChatGPT-User",
-    "OAI-SearchBot",
-    "ClaudeBot",
-    "anthropic-ai",
-    "PerplexityBot",
-    "Google-Extended",
+# Search engines and citation-oriented fetchers stay open.
+# Training / bulk scrapers are asked not to vacuum the site; HTML + llms.txt
+# remain the citation path. Do not noindex the whole site.
+SEARCH_BOTS = (
     "Googlebot",
     "Bingbot",
-    "Bytespider",
-    "CCBot",
     "Applebot",
+    "OAI-SearchBot",
+    "ChatGPT-User",
+    "PerplexityBot",
+)
+
+# Known training / bulk crawlers. Hypothesis: disallow their vacuum, keep search.
+TRAINING_BOTS = (
+    "GPTBot",
+    "Google-Extended",
+    "ClaudeBot",
+    "anthropic-ai",
     "Applebot-Extended",
+    "CCBot",
+    "Bytespider",
+    "Amazonbot",
+    "meta-externalagent",
+    "FacebookBot",
+    "cohere-ai",
+    "Diffbot",
+    "YouBot",
+)
+
+# Large public JSON already on the site; do not add a new dump. Training bots
+# are pointed at HTML / llms.txt instead of the bulk files.
+BULK_PATHS = (
+    "/data.json",
+    "/silicon-history.json",
+    "/rank-history.json",
+    "/campuses.json",
+    "/hyperscalers.json",
+    "/neoclouds.json",
+    "/inference.json",
+    "/wire.json",
+    "/silicon.json",
 )
 
 SITE = "https://compute.world"
 
 
 def robots_txt():
-    lines = ["User-agent: *", "Allow: /", ""]
-    for bot in BOTS:
+    lines = [
+        "# compute.world robots. Search (Google, Bing, Apple, OAI-SearchBot) is welcome.",
+        "# Training / bulk scrapers: use /llms.txt and cite; do not vacuum JSON dumps.",
+        "# The site is indexed. This file does not noindex anything.",
+        "",
+        "User-agent: *",
+        "Allow: /",
+        "Allow: /llms.txt",
+        "Allow: /agents.html",
+        "",
+    ]
+    for bot in SEARCH_BOTS:
         lines.extend([f"User-agent: {bot}", "Allow: /", ""])
+    for bot in TRAINING_BOTS:
+        lines.append(f"User-agent: {bot}")
+        lines.append("Allow: /llms.txt")
+        lines.append("Allow: /agents.html")
+        for path in BULK_PATHS:
+            lines.append(f"Disallow: {path}")
+        lines.append("Crawl-delay: 10")
+        lines.append("")
     lines.append(f"Sitemap: {SITE}/sitemap.xml")
     lines.append("")
     return "\n".join(lines)
@@ -101,7 +146,16 @@ def og_block(title, description, url, image, og_type="website", image_alt=""):
         f'<meta name="twitter:card" content="summary_large_image">\n'
         f'<meta name="twitter:title" content="{title}">\n'
         f'<meta name="twitter:description" content="{description}">\n'
-        f'<meta name="twitter:image" content="{img}">'
+        f'<meta name="twitter:image" content="{img}">\n'
+        f'<meta name="author" content="Pukar C. Hamal">\n'
+        f'<meta name="citation_title" content="{title}">\n'
+        f'<meta name="citation_author" content="Pukar C. Hamal">\n'
+        f'<meta name="citation_publisher" content="compute.world">\n'
+        f'<meta name="dc.creator" content="Pukar C. Hamal">\n'
+        f'<meta name="dc.publisher" content="compute.world">\n'
+        f'<meta name="dc.identifier" content="{url}">\n'
+        f'<meta name="dc.rights" content="CC BY 4.0">\n'
+        f'<link rel="cite-as" href="{url}">'
     )
 
 
