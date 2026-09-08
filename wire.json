@@ -1,1015 +1,1048 @@
-{
-  "name": "The Wire · compute.world",
-  "updated": "2026-09-07",
-  "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
-  "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
-  "items": [
-    {
-      "id": "stargate-korea-samsung-sk-stall-2026-09-07",
-      "date": "2026-09-07",
-      "title": "Stargate Korea stalls: Samsung SDS and SKT say sites, power, and funding still unset a year after MOU",
-      "summary": "On 7 September 2026 Korea JoongAng Daily reported that nearly a year after OpenAI’s October 2025 Stargate Korea framing with Samsung and SK, neither data-center leg has settled site, power, water, or funding. Samsung SDS said “nothing has been confirmed” and the decision sits with OpenAI; SK Telecom said no progress since the MOU and OpenAI demand is not finalized; an OpenAI spokesperson said the domestic project is “still under discussion.” Industry sources cited power and water as the binding site constraints. The piece places Korea alongside paused Stargate legs in Norway and Britain. Separate from Korea’s AIDC 18.4 GW / budget track already on Wire — this is a conversion Stall on the OpenAI-branded campus path.",
-      "url": "https://www.koreajoongangdaily.com/business/openais-stargate-project-in-korea-stuck-at-starting-gate-as-samsung-sk-report-little-progress/12856484",
-      "source": "Korea JoongAng Daily",
-      "tier": 2,
-      "corroboration": "Multi-party",
-      "countries": [
-        "KOR"
-      ],
-      "flags": "🇰🇷",
-      "tags": [
-        "Stall",
-        "Energy",
-        "Build"
-      ],
-      "score": 78
-    },
-    {
-      "id": "opsb-aep-baku-gavin-765kv-26-0426-2026-09",
-      "date": "2026-09-03",
-      "title": "OPSB dockets AEP Baku–Gavin 765 kV (~51 mi, ~$1.1B) for PORTS-Pike — local hearing Oct 27",
-      "summary": "AEP Ohio Transmission’s Baku–Gavin 765 kV line — roughly 50–51 miles from a proposed Baku Substation in Pike County to Gavin Substation in Gallia County, estimated ~$1.1B — is now live as Ohio Power Siting Board case 26-0426-EL-BTX. The OPSB case page states the line would serve the planned Piketon data-center campus; the data-center customer has committed to pay transmission costs so Ohio ratepayers are not loaded. OPSB has noticed a local public hearing for 27 October 2026, 6 p.m., Jackson High School Auditorium. This is the grid-permit conversion step after the Aug 17 NVIDIA/OpenAI/SB Energy PORTS-Pike stack (already wired); certificate still pending. Line 2 (Hanging Rock–Baku) remains earlier in outreach.",
-      "url": "https://opsb.ohio.gov/cases/26-0426-el-btx",
-      "source": "Ohio Power Siting Board",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Energy",
-        "Build",
-        "Policy"
-      ],
-      "score": 90
-    },
-    {
-      "id": "tcs-hypervault-hyderabad-1gw-2026-09-05",
-      "date": "2026-09-05",
-      "title": "TCS HyperVault locks 264 acres in Hyderabad for up to 1 GW AI campus — ₹70,000 crore with Telangana",
-      "summary": "On 5 September 2026 TCS subsidiary HyperVault announced it has secured 264 acres in Hyderabad (Telangana) to develop a phased AI data-center campus of up to 1 GW, purpose-built for frontier AI and hyperscaler GPU training/inference with liquid cooling and high rack density. HyperVault and partners expect to invest up to ₹70,000 crore (~$7.4B per Reuters) to build and manage the infrastructure; Telangana Chief Minister A. Revanth Reddy publicly framed a June 2, 2028 inauguration target. TPG remains the named strategic capital partner from the earlier HyperVault raise. Conversion signal: India land + GW ceiling + state partnership are live; power offtake (PPA), EPC, and hyperscaler contracts were not disclosed in the press release.",
-      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana",
-      "source": "TCS / HyperVault press release",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "IND"
-      ],
-      "flags": "🇮🇳",
-      "tags": [
-        "Build",
-        "Capital",
-        "Energy"
-      ],
-      "score": 88
-    },
-    {
-      "id": "eo-14420-bulk-power-foreign-equipment-2026-08-26",
-      "date": "2026-08-26",
-      "title": "EO 14420 declares BPS emergency — DOE to restrict foreign-produced grid equipment feeding AI campuses",
-      "summary": "On 26 August 2026 President Trump signed Executive Order 14420, Declaring a National Emergency to Secure the United States Bulk-Power System. The order authorizes the Secretary of Energy, within 120 days, to publish rules prohibiting or conditioning acquisition, importation, transfer, or installation of foreign-produced bulk-power system electric equipment — including substation transformers, grid-connected inverters, battery energy storage, UPS supporting critical infrastructure, turbines, and industrial control systems — where the transaction involves a Covered Foreign Entity and poses undue sabotage, supply-disruption, or national-security risk. DOE may also impose conditions on already-installed foreign equipment, including phased removal. The White House text explicitly cites rapid growth of data centers and artificial intelligence as magnifying bulk-power dependence. By 2–3 September, CNBC, Data Center Knowledge, and Wood Mackenzie commentary framed the order as tightening an already short transformer/substation market (Wood Mackenzie: ~15% transformer and ~8% substation shortage in 2026), with data-center developers that had turned to Chinese 100 MVA+ units for lead times most exposed. Implementation rules are due by ~24 December 2026; scope for behind-the-meter data-center loads remains open.",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/",
-      "source": "White House EO 14420",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA",
-        "CHN"
-      ],
-      "flags": "🇺🇸🇨🇳",
-      "tags": [
-        "Policy",
-        "Energy",
-        "Stall"
-      ],
-      "score": 90
-    },
-    {
-      "id": "fervo-google-396mw-cape-station-2026-09-01",
-      "date": "2026-09-01",
-      "title": "Fervo signs 396 MW, 15-year Google PPA at Cape Station — foundation for a potential Utah data center",
-      "summary": "On 1 September 2026 Fervo Energy (Nasdaq: FRVO) announced a 396 MW power purchase agreement with Google for enhanced-geothermal output from the Cape Station GeoCluster in Beaver County, Utah. Fervo's 8-K dates the contract to 26 August 2026 between wholly owned Cape Generating Station 6 LLC and Google Energy LLC: four successive 99 MW sub-tranches with target commercial operation beginning Q3 2028, a 15-year delivery term, and parent guarantees from Fervo and Alphabet. Fervo will offer Google an option to add roughly 600 MW — nearly 1 GW in total — with a guaranteed COD no later than June 2030, and may owe Google reimbursement of certain payments if it fails to make that expansion offer. Google describes the energy as a foundational building block for a potential Utah data center; final data-center plans stay subject to engineering, state and local approvals and commercial conditions, with delivery leaning on Utah SB 132 direct-to-load pathways. Billed as the largest enhanced-geothermal PPA to date.",
-      "url": "https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-and-google-sign-396-mw-ppa",
-      "source": "Fervo Energy IR / FRVO 8-K",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Energy",
-        "Build",
-        "Capital"
-      ],
-      "score": 90
-    },
-    {
-      "id": "korea-2027-budget-ai-213tn-vera-rubin-2026-09-01",
-      "date": "2026-09-01",
-      "title": "Korea's 2027 budget proposal nearly doubles AI and chip spend to ₩21.3T, with ₩3.85T for 10,000 Vera Rubin-class GPUs",
-      "summary": "The Korean cabinet approved a record ₩820.9 trillion 2027 budget proposal on 1 September 2026, up 12.8% and the fastest increase on record, funded by semiconductor-boom tax revenue. Spending on AI plus the administration's three megaprojects — semiconductors, physical AI and AI data centres — nearly doubles from ₩10.8T this year to ₩21.3T. The Ministry of Science and ICT's own budget rises 24.5% to ₩29.65T, with AI up 84.3% to ₩9.4T, including ₩3.85T (from ₩2.08T) to add about 10,000 Nvidia Vera Rubin-class GPUs for sovereign models behind a free 'AI for All' service, ₩87.8B for an AI-data-centre cluster and a 10 MW AIDC testbed; roughly ₩2T goes to a semiconductor special account and more than ₩2T to power, water and industrial complexes. The proposal goes to the National Assembly on 3 September and must pass by 2 December, so this is budgeted intent, not yet appropriated.",
-      "url": "https://en.yna.co.kr/view/AEN20260901000700320",
-      "source": "Yonhap / Hankyoreh / Korea Herald / MSIT budget detail via Digital Today",
-      "tier": 2,
-      "corroboration": "Confirmed",
-      "countries": [
-        "KOR"
-      ],
-      "flags": "🇰🇷",
-      "tags": [
-        "Policy",
-        "Capital",
-        "Build"
-      ],
-      "score": 80
-    },
-    {
-      "id": "eurohpc-lumi-ai-kajaani-387m-2026-08-31",
-      "date": "2026-08-31",
-      "title": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in Kajaani, Finland",
-      "summary": "On 31 August 2026 the EuroHPC Joint Undertaking signed a procurement contract with Bull to deploy the LUMI-AI supercomputer at CSC – IT Center for Science's data centre in Kajaani, Finland. Total budget for acquisition, delivery, installation and maintenance is €387,800,000, funded 50% by EuroHPC from the Digital Europe Programme and 50% by the LUMI AI Factory consortium — Finland, Czechia, Denmark, Estonia, Norway and Poland. The system is built on next-generation AMD Instinct MI430X GPUs with 6th Gen 256-core AMD EPYC processors and is expected to deliver roughly ten times the AI capacity of the current LUMI, installed and available to users in 2027. Bull was selected from a tender launched in May 2025; Finland was picked as host in December 2024. This is EuroHPC's sixth AI Factory procurement contract, and a rare flagship European win for AMD accelerators.",
-      "url": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
-      "source": "EuroHPC JU / Bull",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "FIN",
-        "CZE",
-        "DNK",
-        "EST",
-        "NOR",
-        "POL"
-      ],
-      "flags": "🇫🇮🇪🇺",
-      "tags": [
-        "Build",
-        "Capital",
-        "Policy"
-      ],
-      "score": 84
-    },
-    {
-      "id": "amd-cisco-humain-mi355x-live-250mw-2026-08-31",
-      "date": "2026-08-31",
-      "title": "HUMAIN's MI355X compute goes live in Saudi Arabia; JV plans up to 250 MW of MI400 capacity from 2027",
-      "summary": "AMD, Cisco and HUMAIN — a PIF company — announced on 31 August 2026 that AMD Instinct MI355X GPU infrastructure built on Cisco Silicon One networking with 800G optics is live in Saudi Arabia and serving customers in the Kingdom and beyond, offered as GPU-as-a-service from training to inference. It is the first production milestone of the joint venture the three announced on 19 November 2025. The next phase is up to 250 MW powered by AMD Instinct MI400-series GPUs, EPYC CPUs and ROCm with Cisco networking, deployment beginning in 2027 and capacity expected to start coming online in the second half of that year; the JV still says it is on track for up to 1 GW by 2030. No megawatt figure, customer count, utilization or pricing was disclosed for the live system, and the original phase-1 plan named 100 MW of MI450 — so the announced path has shifted.",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
-      "source": "AMD IR / Cisco Newsroom",
-      "tier": 2,
-      "corroboration": "Single-source",
-      "countries": [
-        "SAU",
-        "USA"
-      ],
-      "flags": "🇸🇦",
-      "tags": [
-        "Build",
-        "Capital"
-      ],
-      "score": 72
-    },
-    {
-      "id": "anthropic-lambda-35b-hut8-beacon-point-2026-08-31",
-      "date": "2026-08-31",
-      "title": "Anthropic reported to take ~350 MW at Hut 8's Beacon Point via a $35B Lambda contract, with Nvidia on the lease",
-      "summary": "The Wall Street Journal reported on 31 August 2026, matched by Bloomberg and Reuters citing people familiar, that Anthropic signed a roughly $35B, six-year cloud contract with Nvidia-backed Lambda for about 350 MW at Hut 8's Beacon Point campus in Nueces County, Texas — close to one of the site's ~352 MW phases. Reporting describes a four-party chain: Hut 8 develops and leases the space, Nvidia holds the master lease and supplies the GPUs, Lambda installs them and sells capacity to Anthropic. Hut 8 disclosed in July two 15-year leases totalling about 704 MW with $19.6B of base-term value to an unnamed investment-grade tenant later reported to be Nvidia; initial energization of the ~1 GW campus is expected in Q1 2027. None of Anthropic, Lambda, Nvidia or Hut 8 has confirmed the contract, and Lambda's payment to Nvidia is undisclosed, so treat the $35B as reported rather than filed.",
-      "url": "https://www.channelnewsasia.com/business/anthropic-signs-us35-billion-cloud-deal-nvidia-backed-lambda-source-says-6353306",
-      "source": "WSJ (first) / Bloomberg / Reuters via CNA / Hut 8 July disclosure",
-      "tier": 2,
-      "corroboration": "Corroborated",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Capital",
-        "Build"
-      ],
-      "score": 70
-    },
-    {
-      "id": "us-commerce-remote-access-ai-compute-draft-2026-08-31",
-      "date": "2026-08-31",
-      "title": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs via third-country DCs",
-      "summary": "Late August 2026 reporting (Forbes 31 Aug; TechTimes 29 Aug citing The Information) says Trump Commerce/BIS is preparing an export-control draft that would treat remote rental of advanced AI GPUs as controlled access, aimed at Chinese firms using third-country data centers such as Thailand and Singapore, with industry draft circulation possible as early as September. The House already passed the Remote Access Security Act (H.R. 2683) in January; the Senate has not. Export-control bar commentary notes BIS’s statutory remote-access authority is weak until RASA clears. This is a Policy/Stall conversion signal on usable FLOPs geography, not a published final rule.",
-      "url": "https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/",
-      "source": "Forbes / TechTimes / Congress.gov H.R.2683",
-      "tier": 2,
-      "corroboration": "Corroborated",
-      "countries": [
-        "USA",
-        "CHN",
-        "THA",
-        "SGP"
-      ],
-      "flags": "🇺🇸🇨🇳",
-      "tags": [
-        "Policy",
-        "Stall"
-      ],
-      "score": 72
-    },
-    {
-      "id": "puct-oncor-765kv-ccn-59315-59029-2026-08-28",
-      "date": "2026-08-28",
-      "title": "PUCT unanimously approves Oncor 765-kV Import Path 1 CCNs (~424 mi, ~$3.95B)",
-      "summary": "On 28 August 2026 the Public Utility Commission of Texas unanimously granted final Certificates of Convenience and Necessity for Oncor’s Dinosaur–Longshore path (Docket 59315, Route 559, ~242.6 miles, ~$2.243B, target 2028) and Longshore–Drill Hole (Docket 59029, Route 476, ~181.6 miles, ~$1.704B, target 2029) — about 424 miles and ~$3.95B of 765-kV into West Texas under the Permian Basin Reliability Plan. Need findings cited oil/gas plus non-oil load including crypto, data centers, and hydrogen. Howard–Solstice (59336) remains tabled past its 31 August statutory clock and is not part of this Wire item.",
-      "url": "https://dallasexpress.com/business-markets/texas-regulators-approve-424-miles-of-power-lines-despite-calls-to-wait/",
-      "source": "Dallas Express / Oncor / Texas Tribune",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Energy",
-        "Build",
-        "Policy"
-      ],
-      "score": 88
-    },
-    {
-      "id": "powertech-foplp-capacity-booked-2030-2026-08-27",
-      "date": "2026-08-27",
-      "title": "Powertech books FOPLP AI packaging capacity through 2030; $2.2B ramp + Singapore–Broadcom line",
-      "summary": "On 27 August 2026 Taiwan OSAT Powertech Technology said its fan-out panel-level packaging (FOPLP) capacity for AI is fully booked through 2030 by two major customers (press cites AMD and Broadcom), backed by about NT$70 billion (~$2.2B) to expand from ~1,000 to ~5,000 panels/month by 2028, with AI server CPU shipments expected next year and a Broadcom joint packaging line planned in Singapore around 2028. This is a Taiwan/Singapore packaging-conversion print around CoWoS scarcity.",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/27/2003863180",
-      "source": "Taipei Times / Nikkei Asia",
-      "tier": 2,
-      "corroboration": "Corroborated",
-      "countries": [
-        "TWN",
-        "SGP"
-      ],
-      "flags": "🇹🇼🇸🇬",
-      "tags": [
-        "Build",
-        "Capital"
-      ],
-      "score": 80
-    },
-    {
-      "id": "sk-hynix-indiana-hbm-packaging-2026-08-27",
-      "date": "2026-08-27",
-      "title": "SK hynix breaks ground on first US HBM packaging base in West Lafayette",
-      "summary": "On 27 August 2026 SK hynix held a groundbreaking ceremony at Purdue University in West Lafayette, Indiana, for its first US next-generation HBM advanced-packaging production base. The company newsroom (dated Seoul 28 August) sizes the Indiana fab at over $4 billion, with the cleanroom scheduled to open by October 2028 and mass production of next-generation HBM in the second half of 2029, plus an Advanced Packaging R&D Testbed and about 1,000 facility jobs. Korea-made wafers will be packaged and tested in Indiana and sold as Made-in-USA product to US customers. A prior US Commerce CHIPS award (December 2024) attached up to $458 million in direct funding and up to $500 million in loans to the West Lafayette project; that award is not restated in today’s newsroom note. This is a US/Korea conversion print: packaging land and a 2029 volume clock, not a 2026 wafer start.",
-      "url": "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/",
-      "source": "SK hynix Newsroom",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA",
-        "KOR"
-      ],
-      "flags": "🇺🇸🇰🇷",
-      "tags": [
-        "Build",
-        "Capital"
-      ],
-      "score": 91
-    },
-    {
-      "id": "nvidia-fy27q2-china-dc-zero",
-      "date": "2026-08-26",
-      "title": "NVIDIA Q2: China Hopper DC shipments <1% of Data Center revenue; Q3 outlook assumes zero China DC compute",
-      "summary": "On 26 August 2026 NVIDIA reported Q2 FY27 results for the quarter ended 26 July 2026: revenue $96.2 billion and Data Center $89.0 billion. CFO commentary (SEC EX-99.2) states shipments of Data Center Hopper products to China were less than 1% of Data Center revenue in the quarter. The Newsroom outlook for Q3 FY27 revenue of $108.0 billion plus or minus 2% states NVIDIA is not assuming any Data Center compute revenue from China. This is a realized China mix print plus a repeated zero-China DC compute outlook, distinct from the already-wired 19 Aug limited H200 landings note.",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-      "source": "NVIDIA Newsroom / SEC EX-99.2",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "CHN"
-      ],
-      "flags": "🇨🇳",
-      "tags": [
-        "Stall",
-        "Pricing",
-        "Policy"
-      ],
-      "score": 91
-    },
-    {
-      "id": "georgia-power-openai-effingham-3200mw",
-      "date": "2026-08-26",
-      "title": "Georgia Power–OpenAI Effingham contract approved at 3,200 MW",
-      "summary": "On 26 August 2026 Georgia Power said its contract to serve OpenAI’s Effingham County project was approved as part of the Georgia Public Service Commission regulatory process. The company says the contract, filed with the PSC in July, includes 3,200 MW of new demand, OpenAI pays the full cost of infrastructure needed to serve it, and OpenAI has committed up to 1,000 MW of flexible demand response. This is a US named-MW utility-path conversion, not a campus FID on NVIDIA silicon.",
-      "url": "https://southerncompany.mediaroom.com/2026-08-26-Georgia-Powers-contract-with-OpenAI-approved-Latest-approval-part-of-portfolio-of-large-load-contracts-delivering-approximately-950-million-in-annual-savings-beginning-in-2029",
-      "source": "Georgia Power / Southern Company",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Energy",
-        "Build",
-        "Policy"
-      ],
-      "score": 90
-    },
-    {
-      "id": "firmus-bell-bay-288mw-2026-08-25",
-      "date": "2026-08-25",
-      "title": "George Town Council approves Firmus 288 MW AI data centre at Bell Bay, Tasmania",
-      "summary": "On 25 August 2026 Tasmania’s George Town Council voted 6–1 to approve Firmus Technologies’ 288 MW AI data centre at the former Gunns pulp mill site in Long Reach (Bell Bay Advanced Manufacturing Zone). ABC reports planning conditions (noise and air surveys, a new bushfire and emergency plan) after the diesel-generator count was corrected to 276, and a 14-day appeal window to the Tasmanian Civil and Administrative Tribunal. This is Australia’s named-MW local planning conversion this week.",
-      "url": "https://www.abc.net.au/news/2026-08-25/firmus-ai-bell-bay-receives-george-town-council-approval/107074336",
-      "source": "ABC News (Australia)",
-      "tier": 2,
-      "corroboration": "Confirmed",
-      "countries": [
-        "AUS"
-      ],
-      "flags": "🇦🇺",
-      "tags": [
-        "Build",
-        "Policy",
-        "Energy"
-      ],
-      "score": 80
-    },
-    {
-      "id": "ami-hyderabad-rubin-9000",
-      "date": "2026-08-25",
-      "title": "AM Intelligence binds 9,000 NVIDIA Rubin GPUs for a 30 MW Hyderabad AI factory (Q1 2027)",
-      "summary": "On 25 August 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko’s promoters, said it placed a firm and binding order for 9,000 NVIDIA Rubin GPUs to be deployed as Vera Rubin NVL72 rack-scale systems at its first AI factory in Hyderabad, with delivery slated for Q1 2027 and 30 MW of capacity. AMI frames Hyderabad as the first tranche of a planned 1 GW Compute-as-a-Service footprint, with an initial 200 MW to market involving more than $8 billion of capital expenditure, and says it is developing 5 GW of powered AI data centres across India, the United States and Europe. The Hyderabad site is engineered for roughly 450 exaFLOPS of NVFP4 inference. This is India’s second live conversion print this month after L&T × Together Chennai, and the first named Rubin (not Blackwell) factory MW on the tape. Source is the company release as reported by The Hindu / PTI; no AMI IR PDF located at filing time.",
-      "url": "https://www.thehindu.com/business/Industry/ami-orders-9000-nvidia-rubin-gpus-for-hyderabad-facility/article71390110.ece",
-      "source": "AM Intelligence / The Hindu",
-      "tier": 2,
-      "corroboration": "Confirmed",
-      "countries": [
-        "IND"
-      ],
-      "flags": "🇮🇳",
-      "tags": [
-        "Build",
-        "Capital"
-      ],
-      "score": 79
-    },
-    {
-      "id": "semianalysis-us-chn-watts-2026-08-25",
-      "date": "2026-08-25",
-      "title": "SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%",
-      "summary": "On 25 August 2026 Dylan Patel of SemiAnalysis, on the Dwarkesh Podcast, restated the country watt split: since 2022 the US share of incremental AI data-center watts rose from about 45–50% to ~70% today, while China fell from about 30–35% to sub-10% of watts being deployed. He puts China's 2028 AI compute stock at 30 GW or less, with 5–10 GW of that year's add from domestic SMIC/CXMT silicon he says is worse than 2028 US chips, and calls +50 GW incremental in 2029 \"completely reasonable.\" World incremental path in the same interview: +30 GW this year, +50 next, ~70 in 2028 (80 as the upper bound). MATCH Act (H.R. 8170) is named as the live export-control lever; as of 26 August it is not law (House Foreign Affairs reported 22 April, no floor vote). These are SemiAnalysis model prints stated on a dated interview, not a campus FID or a government filing.",
-      "url": "https://www.dwarkesh.com/p/dylan-patel-3",
-      "source": "Dwarkesh Podcast / SemiAnalysis",
-      "tier": 3,
-      "corroboration": "Single-source",
-      "countries": [
-        "USA",
-        "CHN"
-      ],
-      "flags": "🇺🇸🇨🇳",
-      "tags": [
-        "Build",
-        "Policy"
-      ],
-      "score": 62
-    },
-    {
-      "id": "taiwan-b300-server-china-export-indictment-2026-08-24",
-      "date": "2026-08-24",
-      "title": "Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 servers diverted to China",
-      "summary": "On 24 August 2026 the Keelung District Prosecutors’ Office indicted eight people, including a distribution manager at Nvidia’s Taiwan office and two sales managers at Super Micro’s Taiwan branch, for breach of trust and document forgery tied to Supermicro servers equipped with Nvidia B300 GPUs. CNA (Focus Taiwan) reports prosecutors say Flying Tiger obtained a 130-server order after a staged site inspection, 74 servers reached Chinese buyers via direct shipment or routes through Indonesia, Japan and Hong Kong, and customs seized the remaining 56 in Taiwan. Illicit proceeds on the completed 74-server resale exceeded US$21.2 million. A Flying Tiger principal remains wanted. This is a Taiwan/China conversion-enforcement print on the whitelist-and-inspection gate, not a new export rule.",
-      "url": "https://focustaiwan.tw/society/202608240023",
-      "source": "CNA / Focus Taiwan (Keelung prosecutors)",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "TWN",
-        "CHN"
-      ],
-      "flags": "🇹🇼🇨🇳",
-      "tags": [
-        "Policy",
-        "Stall"
-      ],
-      "score": 82
-    },
-    {
-      "id": "lancium-nvidia-dsx-15gw-2026-08-24",
-      "date": "2026-08-24",
-      "title": "Lancium × NVIDIA: undisclosed NVIDIA stake on 4 GW leased / >15 GW powered-land pipeline",
-      "summary": "On 24 August 2026 Lancium announced a strategic collaboration with NVIDIA and said NVIDIA made a strategic investment in Lancium (amount not disclosed). Lancium’s release states its AI factory campuses — 4 GW of leased capacity and a development pipeline exceeding 15 GW of powered land — will serve as deployment sites for NVIDIA’s full-stack AI factory platform, using NVIDIA DSX reference designs including DSX MaxLPS (company claim: up to 40% more GPUs in the same power budget) and DSX Flex for grid-responsive power draw. Lancium is a Blackstone portfolio company. NVIDIA has not posted a matching IR note. This is a US Texas powered-land / stack capital signal, not a newly named campus FID. Distinct from the already-wired 17 Aug PORTS-Pike Ohio residual-value package.",
-      "url": "https://lancium.com/2026/08/24/lancium-announces-partnership-with-nvidia-to-advance-gigawatt-scale-ai-factory-development-across-its-15-gw-portfolio/",
-      "source": "Lancium",
-      "tier": 2,
-      "corroboration": "Single-source",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Build",
-        "Capital",
-        "Energy"
-      ],
-      "score": 64
-    },
-    {
-      "id": "soah-59475-pfd-import-path-2",
-      "date": "2026-08-20",
-      "title": "SOAH PFD: deny Oncor/LCRA Import Path 2 (Bell County East–Big Hill and Big Hill–Sand Lake 765-kV)",
-      "summary": "On 20 August 2026 at 1:52 PM the State Office of Administrative Hearings filed PUCT Docket 59475 Item 6441, a Proposal for Decision with memorandum, signed by Presiding Administrative Law Judges Linda Brite, Linda J. Burgess, and Dee Marlo Chico (SOAH Docket 473-26-16349). The PFD remands the joint Oncor Electric Delivery / LCRA TSC application for the Bell County East Switch to Big Hill Substation 765-kV line, and the need determination for the companion Big Hill-to-Sand Lake Project (Docket 59182), to the Public Utility Commission of Texas. Proposed ordering paragraph 2 reads: “The Commission does not approve the Applications for the Bell County East-to-Big Hill and Big Hill-to-Sand Lake Projects. The amendment of Applicants’ CCNs is not approved by this Order.” Conclusion of law 13: “ERCOT’s PBRP recommendation is not entitled to great weight in the determination of need for this reliability project.” Conclusion 14: the evidence does not establish the CCN amendments are necessary for the service, accommodation, convenience, or safety of the public under PURA § 37.056, so both Import Path 2 applications should be denied. Conclusion 15: the Application should be denied for failure to comply with the process due to approximately 1,400 landowners under Rule 22.52(a)(4) for public meeting. If a route is later selected, the ALJs recommend Route 894. This is a proposal for decision, not a Commission order. Exceptions, replies, oral argument, and an open-meeting date are still to be set. 20 August Open Meeting minutes remain unposted. Do not treat 59029/59315’s 21 August consolidation-on-need order as a CCN grant or deny.",
-      "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6441",
-      "source": "PUCT / SOAH",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Policy",
-        "Stall",
-        "Energy"
-      ],
-      "score": 90
-    },
-    {
-      "id": "puct-59142-item-53",
-      "date": "2026-08-20",
-      "title": "PUCT grants ERCOT’s Batch Zero good-cause exceptions; classification paused pending the audit",
-      "summary": "On 20 August 2026 at 12:29 PM the Public Utility Commission of Texas filed Project 59142 Item 53, Order Granting Good Cause Exceptions, signed by Chairman Thomas J. Gleeson and Commissioners Kathleen Jackson and Courtney K. Hjaltman. Under 16 TAC § 25.3(b) the Commission grants ERCOT relief from 16 TAC § 25.361(b)(16) so it need not classify Large Loads (≥75 MW, including data centers and virtual currency mining) by the 7 August 2026 Planning Guide § 9.3.1(2)(a) deadline, and need not limit the 1 August and 1 November 2026 quarterly stability assessments to loads already classified as base load. Eligible-but-unclassified base-load submissions may still enter those QSAs. ERCOT may finish dynamic-data review after 7 August and give interconnecting large-load entities 24 days to cure deficiencies. The order recites Governor Abbott’s 3 August letter and states good cause exists for ERCOT to complete the verification and audit and report results to the Commission before continuing Batch Zero. Community-impact information is to be requested from data centers and crypto facilities of 25 MW or more that have not yet energized. The order does not rule individual Batch Zero eligibility and does not restate ERCOT’s 31 August / 10 December clocks from Item 52. Open Meeting minutes for 20 August are still unposted.",
-      "url": "https://interchange.puc.texas.gov/Documents/59142_53_1675960.PDF",
-      "source": "PUCT",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Policy",
-        "Stall",
-        "Energy"
-      ],
-      "score": 95
-    },
-    {
-      "id": "ercot-59142-item-52",
-      "date": "2026-08-20",
-      "title": "ERCOT files the Batch Zero clock: conditional classify by 31 Aug, 17 loads / 6,608 MW paused, reports 10 Dec",
-      "summary": "On 20 August 2026 at 09:01 ERCOT filed PUCT Project 59142 Item 52, a 13-slide update for that morning’s Open Meeting. Three good-cause exceptions remain pending: delay final Batch Zero classification past the 7 Aug deadline and conditionally classify large loads by 31 Aug; let conditionally classified base loads into the 1 Aug and 1 Nov Quarterly Stability Assessments; and send late dynamic-data deficiency notices with the same 24-day cure. ERCOT is not asking to move the 9 Apr 2027 study-results deadline. QSA scope is 6 large loads ≈1,959 MW (1 Aug, projected energization Q1 2027) and 17 ≈6,874 MW (1 Nov, Q2 2027); QSA inclusion does not authorize energization. ERCOT has reviewed 290 dynamic models, ~18% acceptable on first pass, and has paused energization of large-load data centers and crypto (≥75 MW) — 17 loads, 6,608 MW total peak over 5 years, have finished every ERCOT process except approval to energize. Verification RFIs run Aug–Nov; Batch Zero Eligibility Verification and Community Impact Review reports file 10 Dec for a 17 Dec Open Meeting. April snapshot: 157 medium DC/crypto loads ≈8,766 MW. No PUCT minutes or order posted as of 8:15 PT.",
-      "url": "https://interchange.puc.texas.gov/Documents/59142_52_1675838.PDF",
-      "source": "ERCOT / PUCT Interchange",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Policy",
-        "Stall",
-        "Energy"
-      ],
-      "score": 93
-    },
-    {
-      "id": "china-h200-limited-landings",
-      "date": "2026-08-19",
-      "title": "Beijing lets limited H200 batches land: ByteDance and Tencent ~10k each; most volume steered to Hong Kong",
-      "summary": "On 19 August 2026 the Financial Times, as reprinted by Business Standard, reported that ByteDance and Tencent have each received about 10,000 NVIDIA H200 processors in recent weeks, with a few other Chinese groups queued for similar-sized shipments. Chinese regulators have told companies they may ship H200s to Hong Kong (outside mainland customs) and use them there; Beijing still wants most volume kept off the mainland to protect domestic chipmakers. The reprint cites two conflicting per-customer US caps — FT’s 100,000 vs Reuters’ 75,000 under Commerce licensing — and says purchases still need NDRC approval. NVIDIA has about 500,000 H200s in stock mainly for Chinese customers; Blackwell remains banned. This is a dual-sovereign policy print: US licence is no longer the only gate.",
-      "url": "https://www.business-standard.com/world-news/china-allows-limited-nvidia-h200-shipments-why-is-beijing-easing-curbs-126081900438_1.html",
-      "source": "Financial Times / Business Standard",
-      "tier": 2,
-      "corroboration": "Single-source",
-      "countries": [
-        "CHN"
-      ],
-      "flags": "🇨🇳",
-      "tags": [
-        "Policy"
-      ],
-      "score": 64
-    },
-    {
-      "id": "pa-eo-2026-05",
-      "date": "2026-08-18",
-      "title": "Shapiro EO 2026-05: Pennsylvania gates data centers >25 MW behind a GRID consent order",
-      "summary": "On 18 August 2026 Governor Josh Shapiro signed Executive Order 2026-05, effective immediately. DEP’s template Consent Order and Agreement is required for any data center with peak demand over 25 MW; signers get rolling permit review only after local comprehensive-plan consistency and all municipal approvals. Non-signers wait until local approvals and water/wastewater authorizations are in hand, with no rolling issuance and exclusion from PAyback and the Permit Decision Guarantee. The Computer Data Center Equipment sales-and-use exemption is tied to GRID. The Office of Transformation and Opportunity must remove existing data-center projects from the PA Permit Fast Track Program and bar new ones. NDAs on data-center projects are impermissible for agencies under the Governor’s jurisdiction. Recitals cite 20 DEP permit applications, 14 active exemption certificates, PJM’s 74 GW summer-peak growth through 2045, and $29.4 billion / 46% of the last four PJM capacity-auction costs attributed to data centers. This is a state conversion gate on PJM-side load, not a campus FID.",
-      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/eo2026_05_protecting%20pennsylvania%20consumers%20from%20data%20center%20impacts_final_executed.pdf",
-      "source": "Commonwealth of Pennsylvania",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Policy"
-      ],
-      "score": 90
-    },
-    {
-      "id": "amazon-stack-louisiana-18b",
-      "date": "2026-08-18",
-      "title": "Amazon lifts northwest Louisiana to $18B and a third STACK campus in Shreveport",
-      "summary": "On 18 August 2026 Amazon updated its February campus note: planned investment in northwest Louisiana rises from $12 billion to $18 billion with a third planned campus in Shreveport, across Caddo and Bossier Parishes. STACK Infrastructure is developer and owner of all three campuses. Amazon says it will pay 100% of new energy infrastructure and grid upgrades with SWEPCO, and up to $400 million in public water infrastructure funded by Amazon, not ratepayers. Fully built, the three campuses are expected to create up to 750 full-time Amazon data-center jobs and support 2,500 additional positions; STACK cites up to 2,250 construction jobs. IT megawatts are not disclosed on the Amazon page. Distinct from the already-wired Pecos GW Ranch site.",
-      "url": "https://www.aboutamazon.com/news/company-news/amazon-data-center-louisiana-new-jobs",
-      "source": "Amazon",
-      "tier": 2,
-      "corroboration": "Single-source",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Build",
-        "Capital",
-        "Energy"
-      ],
-      "score": 68
-    },
-    {
-      "id": "nvidia-ports-pike-ohio",
-      "date": "2026-08-17",
-      "title": "NVIDIA caps $105B residual-value backstop on PORTS-Pike: 4.25 IT-GW, OpenAI 20-year lease, exclusive DSX",
-      "summary": "On 17 August 2026 NVIDIA’s 8-K locked residual-value guaranties with SB Energy for ~4.25 IT-GW at the PORTS Technology Campus in Pike County, Ohio, cumulatively capped at $105 billion, with ready-for-service expected from 2028. The SEC-filed press release adds a $1.5 billion equity check into SB Energy, exclusive NVIDIA compute, a 20-year OpenAI lease, an option on the remaining ~3.75–3.8 IT-GW (press vs 8-K), plus 10 GW of new generation and a $4.2 billion AEP Ohio grid package that SB Energy/SoftBank say yields 8 IT-GW. This restates US conversion as land-power-shell finance: NVIDIA is now underwriting the campus, not just selling the stack.",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
-      "source": "SEC",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Capital",
-        "Build",
-        "Energy"
-      ],
-      "score": 97
-    },
-    {
-      "id": "pax-silica-pick-sides",
-      "date": "2026-08-14",
-      "title": "Draft State letter: Pax Silica / AI Opportunity signatories must pick sides vs China",
-      "summary": "On 14 August 2026 Reuters reported an undated State Department draft, reviewed with a US official, warning the 35 June AI Opportunity Statement signatories they will be dropped from the US-led AI coalition if they also join a competing framework. The draft says Pax Silica “is not merely a membership subscription, but a commitment” and “cannot be held alongside membership in duplicative initiatives”; Reuters names Kazakhstan as the only known dual member. This is a chip-access/export-alignment signal, not a GW print — and it is still a draft. State declined to comment on leaked internals; send date unconfirmed.",
-      "url": "https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/",
-      "source": "Reuters",
-      "tier": 2,
-      "corroboration": "Single-source",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Policy"
-      ],
-      "score": 63
-    },
-    {
-      "id": "lt-together-chennai-factory",
-      "date": "2026-08-13",
-      "title": "L&T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k crore",
-      "summary": "On 13 August 2026 Larsen & Toubro said LTN Compute / Vyoma.AI won a ₹10,000–15,000 crore ($1.05–1.57 billion) order from Together AI for a 10,000-GPU NVIDIA B300 factory at its Chennai campus — L&T’s stated largest single-cluster AI deployment in India. L&T’s own statement, reprinted on the company newswire, sizes the campus as gigawatt-scale with Phase 1 at 250 MW and 150 MVA of power readiness. This is India’s conversion print for the window: a named cluster, a rupee ticket, and a megawatt envelope on Indian soil.",
-      "url": "https://www.thehindubusinessline.com/companies/lt-secures-ai-data-centre-order-worth-up-to-15000-crore/article71339801.ece",
-      "source": "Reuters / The Hindu Business Line",
-      "tier": 2,
-      "corroboration": "Confirmed",
-      "countries": [
-        "IND"
-      ],
-      "flags": "🇮🇳",
-      "tags": [
-        "Build",
-        "Capital"
-      ],
-      "score": 84
-    },
-    {
-      "id": "nebius-5gw-contracted-2026",
-      "date": "2026-08-12",
-      "title": "Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estonia, Finland",
-      "summary": "Nebius’s 12 August 2026 shareholder letter raised year-end 2026 contracted power — defined as secured land and power commitments, not connected megawatts — to 5 GW, from +4 GW last quarter, and said it plans to deploy more than 1 GW per year starting in 2027. Q2 group revenue was $582.3 million (+454% YoY); AI cloud $574.9 million; ARR $3.0 billion; Q2 capex about $5.7 billion. Four landmark deals averaged more than $1 billion TCV and $20–25 million per MW; Q3 short-duration capacity is priced in the $40–50 million per MW range, with the first such deal signed. New 2026 sites listed include the UK, Estonia and Finland plus US states. Contracted 5 GW is a European/US conversion clock, not a named Welsh MW print.",
-      "url": "https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf",
-      "source": "Nebius IR",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "GBR",
-        "EST",
-        "FIN"
-      ],
-      "flags": "🇬🇧🇪🇪🇫🇮",
-      "tags": [
-        "Build",
-        "Pricing"
-      ],
-      "score": 82
-    },
-    {
-      "id": "nvidia-500b-platforms",
-      "date": "2026-08-10",
-      "title": "NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI infrastructure",
-      "summary": "NVIDIA partners with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent compute-financing platforms targeting over $500 billion of third-party capital, with NVIDIA guaranteeing up to 25 percent of chip residual value on individual deals. The capital constraint on the global buildout just grew a dedicated channel, and GPUs were declared an investable asset class.",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx",
-      "source": "NVIDIA IR",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Capital"
-      ],
-      "score": 95
-    },
-    {
-      "id": "firebird-armenia-live",
-      "date": "2026-08-08",
-      "title": "Firebird's Armenia AI factory goes live: frontier-market sovereign compute has a working example",
-      "summary": "The Hrazdan facility went from site to operation in about six months on NVIDIA and Dell infrastructure, with a roadmap of 70,000+ GPUs and 300 MW by end-2027 and NVIDIA stating intent to invest. The proof of concept for small-state compute conversion.",
-      "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
-      "source": "NVIDIA blog",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "ARM"
-      ],
-      "flags": "🇦🇲",
-      "tags": [
-        "Build"
-      ],
-      "score": 92
-    },
-    {
-      "id": "sk-hynix-yongin-y2",
-      "date": "2026-08-07",
-      "title": "SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031",
-      "summary": "On 7 August 2026 SK hynix’s board approved ₩35,224,600,000,000 to construct Y2 (phases 1–6 of Fab 2) at the Yongin Semiconductor Cluster, 29.19% of total equity as of 31 December 2025, with a stated investment window of 7 August 2026 to 31 October 2031. The 6-K frames the spend as mid- to long-term memory capacity, not a 2026 wafer print. This is Korea’s conversion ticket for HBM/DRAM land and power already sitting inside the Yongin cluster — volume for 2029+, not this year’s tape.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526339024/d13432d6k.htm",
-      "source": "SEC",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "KOR"
-      ],
-      "flags": "🇰🇷",
-      "tags": [
-        "Capital",
-        "Build"
-      ],
-      "score": 88
-    },
-    {
-      "id": "amazon-gw-ranch-pecos",
-      "date": "2026-08-07",
-      "title": "Amazon confirms GW Ranch: up to 7.65 GW off-grid gas for a Pecos AI campus",
-      "summary": "On 7 August 2026 Amazon confirmed to Cleanview it acquired the GW Ranch site in Pecos County, Texas, and will buy power from an on-site gas plant permitted for 35 turbines at up to 7.65 GW nameplate (permit also states ~5 GW nominal delivered). Amazon’s on-record line: new on-site generation that “won’t raise electricity costs for Texas families,” designed to move to grid service when interconnection allows; Pacifico separately cites 750 MW solar and 1.8 GW BESS. In a 474 GW ERCOT freeze, this is the US workaround — behind-the-meter gigawatts that convert Texas compute without waiting for Batch Zero.",
-      "url": "https://newsletter.cleanview.co/p/scoop-amazon-is-behind-one-of-the",
-      "source": "Cleanview",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Energy",
-        "Build"
-      ],
-      "score": 74
-    },
-    {
-      "id": "indosat-zankore-1gw",
-      "date": "2026-08-07",
-      "title": "Indonesia's Indosat launches Zankore, a 1 GW AI-factory platform with Ooredoo, NVIDIA and Nokia",
-      "summary": "First 200 MW of GB300-class capacity targeted for H1 2027 at Batang, Central Java, with Qatari capital leading. Southeast Asia's largest sovereign-flavored compute commitment to date.",
-      "url": "https://www.datacenterdynamics.com/en/news/indosat-reinforces-ai-push-with-1gw-data-center-play/",
-      "source": "Data Center Dynamics",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "IDN"
-      ],
-      "flags": "🇮🇩",
-      "tags": [
-        "Build"
-      ],
-      "score": 78
-    },
-    {
-      "id": "neom-oxagon-datavolt",
-      "date": "2026-08-05",
-      "title": "DataVolt: Neom Oxagon 1.5 GW AI factory enters last-mile, groundbreaking in 2–3 months",
-      "summary": "On 5 August 2026 DataVolt CEO Rajit Nanda told AGBI the 1.5 GW Oxagon AI-factory campus at Neom has reached “the last mile for the first phase” and should break ground in two to three months, with first-phase ops still aimed at 2028. The land/infrastructure deal with Oxagon dates to February 2025; first-phase funding sits inside DataVolt’s previously stated $5 billion Saudi commitment — customers and first-phase MW were not disclosed. This is the live KSA conversion clock: a named 1.5 GW campus moving from MOU to dirt, not a new GW number.",
-      "url": "https://www.agbi.com/tech/2026/08/neom-to-start-constructing-oxagon-ai-data-centre-in-months/",
-      "source": "AGBI",
-      "tier": 3,
-      "corroboration": "Single-source",
-      "countries": [
-        "SAU"
-      ],
-      "flags": "🇸🇦",
-      "tags": [
-        "Build",
-        "Energy"
-      ],
-      "score": 62
-    },
-    {
-      "id": "texas-ercot-dc-audit",
-      "date": "2026-08-03",
-      "title": "Abbott freezes Texas interconnects: 474 GW queue, ~90% data centers, PUCT/ERCOT audit first",
-      "summary": "On 3 August 2026 Governor Greg Abbott ordered PUCT and ERCOT to finish a comprehensive verification audit before any data-center project in the interconnection process can advance, citing ~474 GW of requests — more than five times ERCOT peak — of which about 90% are data centers. At the 14 August PUCT meeting ERCOT put the live Batch Zero slice at 250–300 projects and ~200 GW, said the work will take several months, and confirmed the 7 August Batch Zero classification notice was shelved. This is the live US grid stall: Texas conversion is now gated by audit, not by queued megawatts.",
-      "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
-      "source": "Office of the Texas Governor",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Policy",
-        "Stall",
-        "Energy"
-      ],
-      "score": 96
-    },
-    {
-      "id": "eu-gigafactories-call",
-      "date": "2026-07-30",
-      "title": "EU opens the AI Gigafactories call: up to 7 sites, €10B public money, bids due November",
-      "summary": "EuroHPC launches the formal tender for gigafactory sites across at least seven member states, targeting over €30 billion total investment with selection in early 2027. Europe's answer arrives as a procurement document.",
-      "url": "https://www.eurohpc-ju.europa.eu/eurohpc-joint-undertaking-launches-ai-gigafactories-call-2026-07-30_en",
-      "source": "EuroHPC (primary)",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [],
-      "flags": "🇪🇺",
-      "tags": [
-        "Policy",
-        "Capital"
-      ],
-      "score": 90
-    },
-    {
-      "id": "korea-aidc-18gw",
-      "date": "2026-07-29",
-      "title": "South Korea's AIDC Alliance sets an 18.4 GW datacenter target by 2035",
-      "summary": "Following the 260,000-GPU national program announced at APEC, the alliance formalizes the most aggressive national capacity target published anywhere, with UAE export ambitions attached.",
-      "url": "https://www.techtimes.com/articles/322134/20260729/south-koreas-aidc-alliance-opens-184gw-target-uae-export-push.htm",
-      "source": "TechTimes",
-      "tier": 4,
-      "corroboration": "Corroborated",
-      "countries": [
-        "KOR"
-      ],
-      "flags": "🇰🇷",
-      "tags": [
-        "Policy",
-        "Build"
-      ],
-      "score": 66
-    },
-    {
-      "id": "nepal-export-record",
-      "date": "2026-07-23",
-      "title": "Nepal books record power exports: NPR 29.32B for 3.877 TWh at roughly $0.054 per kWh",
-      "summary": "Export earnings rose 68 percent year on year. The same electrons routed through contracted GPU cloud would gross roughly 20 to 40 times more, which is the entire compute-conversion argument in one fiscal year.",
-      "url": "https://www.myrepublica.nagariknetwork.com/news/nepal-earns-record-rs-2932-billion-from-electricity-exports-in-fy-202526-21-57.html",
-      "source": "Republica (NEA data)",
-      "tier": 4,
-      "corroboration": "Corroborated",
-      "countries": [
-        "NPL"
-      ],
-      "flags": "🇳🇵",
-      "tags": [
-        "Energy"
-      ],
-      "score": 68
-    },
-    {
-      "id": "ny-eo-62-hyperscale-moratorium",
-      "date": "2026-07-14",
-      "title": "Hochul EO 62: New York pauses DEC permits for data centers ≥50 MW until a GEIS lands",
-      "summary": "On 14 July 2026 Governor Kathy Hochul signed Executive Order No. 62, the first statewide data-center permitting pause. The order recites nearly 12 GW of data-center load in the NYISO interconnection queue as of May 2026, more than 8 GW of it added in 2025. Until DPS files a final Generic Environmental Impact Statement and findings under SEQRA, DEC must hold in abeyance discretionary permits for construction or expansion of a \"data center\" that were not already deemed complete — defined as a facility that consumes or can consume 50 MW or more, with manufacturing, research (including Empire AI), education, and medical-care sites carved out. Local-government permits are not paused. DPS must run the GEIS through Case 26-E-0045 (Energize NY / large-load interconnection); ESD has 60 days to post a Community Investment Framework; DEC has twelve months to report on water-withdrawal rules. The press release called this a one-year pause; the order itself lasts until the GEIS lands, with no statutory clock. This is a state conversion gate on NYISO-side load, not a campus FID. Dylan Patel pointed at it on 25 August as the policy drag on US supply; the primary is the EO.",
-      "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
-      "source": "State of New York",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Policy",
-        "Stall",
-        "Energy"
-      ],
-      "score": 91
-    },
-    {
-      "id": "uae-rule-a5",
-      "date": "2026-07-14",
-      "title": "The UAE gets a named lane in US export law, with an April 2027 sting attached",
-      "summary": "Federal Register rule 91 FR 43034 moves the UAE to Country Group A:5 and names approved entities, while G42 and Core42's license-free status expires April 6, 2027 unless they become US companies. The template for compute diplomacy, and its price, in one document.",
-      "url": "https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration",
-      "source": "US Federal Register",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "ARE",
-        "USA"
-      ],
-      "flags": "🇦🇪🇺🇸",
-      "tags": [
-        "Policy"
-      ],
-      "score": 94
-    },
-    {
-      "id": "kazakhstan-ekibastuz",
-      "date": "2026-06-15",
-      "title": "Kazakhstan signs $10B with NVIDIA and Firebird for a gigawatt-scale Data Center Valley at Ekibastuz",
-      "summary": "300 MW rising toward 1 GW and 100,000 GPUs on coal-basin power, with a stated $3 billion per year export ambition. In its officials' words: transforming Ekibastuz coal into digital export revenue.",
-      "url": "https://timesca.com/kazakhstan-and-u-s-ai-companies-sign-agreements-worth-10-billion/",
-      "source": "Times of Central Asia",
-      "tier": 4,
-      "corroboration": "Corroborated",
-      "countries": [
-        "KAZ"
-      ],
-      "flags": "🇰🇿",
-      "tags": [
-        "Build",
-        "Capital"
-      ],
-      "score": 72
-    },
-    {
-      "id": "reliance-meta-jamnagar",
-      "date": "2026-06-10",
-      "title": "Meta signs its first India AI datacenter deal: a 168 MW JV inside Reliance's Jamnagar campus",
-      "summary": "Part of Reliance's stated $110 billion AI plan, with 120+ MW already live in H2 2026. The largest private-sector compute bet in the Global South acquires an anchor tenant.",
-      "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
-      "source": "TechCrunch",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "IND"
-      ],
-      "flags": "🇮🇳",
-      "tags": [
-        "Build",
-        "Capital"
-      ],
-      "score": 80
-    },
-    {
-      "id": "huang-taipei-pricing",
-      "date": "2026-06-01",
-      "title": "Huang at GTC Taipei: AI factories at $50-60B per GW now, $80-100B per GW soon",
-      "summary": "The clearest 2026 restatement of the price of compute capacity, and the basis for this index's ceiling band. Every token is revenue, per Huang; every watt is now priced accordingly.",
-      "url": "https://siliconangle.com/2026/06/01/five-thoughts-nvidia-ceo-jensen-huangs-gtc-taipei-2026-keynote/",
-      "source": "SiliconANGLE",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "TWN"
-      ],
-      "flags": "🇹🇼",
-      "tags": [
-        "Pricing"
-      ],
-      "score": 76
-    },
-    {
-      "id": "gao-export-ruling",
-      "date": "2026-05-12",
-      "title": "GAO rules the US chip-export non-enforcement posture procedurally defective",
-      "summary": "Decision B-337935 holds that the May 2025 non-enforcement announcement was itself a rule that was never submitted to Congress. The legal floor under most emerging markets' GPU access is officially contested.",
-      "url": "https://www.gao.gov/products/b-337935",
-      "source": "US GAO (primary)",
-      "tier": 1,
-      "corroboration": "Confirmed",
-      "countries": [
-        "USA"
-      ],
-      "flags": "🇺🇸",
-      "tags": [
-        "Policy"
-      ],
-      "score": 93
-    },
-    {
-      "id": "kenya-stall",
-      "date": "2026-05-07",
-      "title": "Microsoft and G42's Kenya campus stalls for lack of power",
-      "summary": "Chips were available; electricity was not. The clearest single data point that energy, not silicon, is the binding constraint on the global buildout.",
-      "url": "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/",
-      "source": "Data Center Dynamics",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "KEN"
-      ],
-      "flags": "🇰🇪",
-      "tags": [
-        "Build",
-        "Stall"
-      ],
-      "score": 75
-    },
-    {
-      "id": "stargate-uk-pause",
-      "date": "2026-04-20",
-      "title": "Stargate UK pauses over energy costs",
-      "summary": "The flagship western sovereign deal, 31,000 GPUs planned, halts on power prices while the North East AI Growth Zone still advertises 1.1 GW. Readiness without affordable electrons has a ceiling of its own.",
-      "url": "https://datacentremagazine.com/news/stargate-uk-why-is-openai-halting-ai-data-centre-project",
-      "source": "Data Centre Magazine",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "GBR"
-      ],
-      "flags": "🇬🇧",
-      "tags": [
-        "Stall"
-      ],
-      "score": 70
-    },
-    {
-      "id": "microsoft-nscale-narvik",
-      "date": "2026-04-15",
-      "title": "Microsoft contracts 30,000 Rubin GPUs at Nscale's hydro-powered Narvik site",
-      "summary": "Stargate Norway's capacity finds a hyperscale offtaker above the Arctic Circle. Cold, cheap, firm power keeps winning the contracts that latency arguments said it could not.",
-      "url": "https://www.datacenterdynamics.com/en/news/microsoft-contracts-30000-nvidia-rubin-gpus-from-nscale-at-data-center-in-narvik-norway/",
-      "source": "Data Center Dynamics",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "NOR"
-      ],
-      "flags": "🇳🇴",
-      "tags": [
-        "Build"
-      ],
-      "score": 78
-    },
-    {
-      "id": "scala-5gw-approval",
-      "date": "2026-03-15",
-      "title": "Brazil approves a 5 GW grid connection for Scala's AI City",
-      "summary": "Eldorado do Sul's campus gets state sign-off for up to 4.75 GW of planned capacity, roughly $50 billion, with phase one operational. Latin America's largest compute project is now also its most grid-real.",
-      "url": "https://datacentremagazine.com/data-centres/scala-data-centers-ai-city-secures-5-gw-approval-in-brazil",
-      "source": "Data Centre Magazine",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "BRA"
-      ],
-      "flags": "🇧🇷",
-      "tags": [
-        "Build"
-      ],
-      "score": 74
-    },
-    {
-      "id": "bytedance-pecem",
-      "date": "2026-01-20",
-      "title": "ByteDance begins construction on a ~$39B campus at Pecém with a 20-year wind PPA",
-      "summary": "300 MW first phase toward roughly 1 GW in Ceará, wind-fired and export-oriented. The largest Chinese AI-infrastructure project abroad is rising in Brazil.",
-      "url": "https://www.datacenterdynamics.com/en/news/casa-dos-ventos-granted-approval-to-construct-tiktok-backed-300mw-data-center-in-brazil-report/",
-      "source": "Data Center Dynamics",
-      "tier": 3,
-      "corroboration": "Corroborated",
-      "countries": [
-        "BRA"
-      ],
-      "flags": "🇧🇷",
-      "tags": [
-        "Build"
-      ],
-      "score": 72
-    },
-    {
-      "id": "paraguay-investment-grade",
-      "date": "2025-12-17",
-      "title": "S&P lifts Paraguay to investment grade, joining Moody's",
-      "summary": "BBB- lands on the country holding the index's largest redirectable power surplus relative to size, roughly 40 TWh a year currently exported at commodity prices. Capital access arrives before the compute does.",
-      "url": "https://www.bloomberg.com/news/articles/2025-12-17/s-p-lifts-paraguay-rating-to-investment-grade-joining-moody-s",
-      "source": "Bloomberg",
-      "tier": 2,
-      "corroboration": "Confirmed",
-      "countries": [
-        "PRY"
-      ],
-      "flags": "🇵🇾",
-      "tags": [
-        "Capital"
-      ],
-      "score": 84
-    }
-  ]
-}
+[
+  {
+    "id": "firmus-openai-malaysia-ai-factories-2026-09-08",
+    "date": "2026-09-08",
+    "title": "Firmus locks OpenAI as Malaysia AI Factory anchor — portfolio contracted capacity tops 900 MW",
+    "summary": "On 8 September 2026 Firmus announced a multi-year partnership under which OpenAI will contract dedicated AI compute from two Firmus AI Factory sites in Malaysia, making OpenAI an anchor customer. Firmus says total contracted capacity across customers now exceeds 900 MW. Its portfolio spans seven AI factories across Australia, Singapore, Indonesia and Malaysia (two operational today; five under development targeting ready-for-service within ~24 months). The Malaysia sites will use NVIDIA DSX with Vera Rubin NVL72 rack-scale systems integrated into Firmus HyperCube (prefab liquid-cooling/electrification from regional NSW). Firmus did not disclose Malaysia-site MW or contract value; Reuters separately noted Malaysia’s rapid DC buildout and electricity/water scrutiny. Country conversion: OpenAI-branded capacity path into Malaysia.",
+    "url": "https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia",
+    "source": "Firmus",
+    "tier": 1,
+    "corroboration": "Reuters 8 Sep 2026 (Firmus–OpenAI Malaysia deal; contracted capacity >900 MW; Vera Rubin; portfolio AUS/SGP + five under development). Business Times Singapore same-day. NVIDIA quote on Firmus PR (DSX / Vera Rubin NVL72).",
+    "countries": [
+      "MYS"
+    ],
+    "flags": [],
+    "tags": [
+      "Build",
+      "Capital"
+    ],
+    "score": 84
+  },
+  {
+    "id": "miso-large-load-irr-er26-3650-2026-08-28",
+    "date": "2026-08-28",
+    "title": "MISO files FERC large-load interconnection reliability rules — >50 MW sites, ≥25 MW IT “computational loads,” Dec 4 ask",
+    "summary": "On 28 August 2026 Midcontinent Independent System Operator filed tariff revisions at FERC (docket ER26-3650; accession 20260828-5278) proposing interconnection reliability requirements for large loads. Utility Dive (1 Sep) and MISO materials define large loads as >50 MW and create a computational-load subclass (≥25 MW of IT demand) with visibility/forecast, PMU, ramp, and ride-through obligations for transmission customers serving those sites, plus grandfathering for existing/near-complete arrangements. MISO asked for a 4 December 2026 effective date and said further large-load filings (transmission products, cost-shift protections) are due by 16 November — part of its response to FERC’s mid-June Section 206 show-cause orders on large-load interconnection. Country conversion: Midcontinent US grid now has a filed AI/data-center-specific reliability rulebook awaiting FERC action.",
+    "url": "https://www.utilitydive.com/news/large-load-reliability-requirements-miso-ferc/829278/",
+    "source": "Utility Dive / MISO FERC filing ER26-3650",
+    "tier": 1,
+    "corroboration": "FERC eLibrary accession 20260828-5278 (MISO IRR tariff filing). MISO Large Load Interconnection Reliability Requirements dashboard. mgrid.org 2 Sep explainer on 50 MW / 25 MW IT thresholds and Dec 4 ask.",
+    "countries": [
+      "USA"
+    ],
+    "flags": [],
+    "tags": [
+      "Policy",
+      "Energy",
+      "Build"
+    ],
+    "score": 86
+  },
+  {
+    "id": "stargate-korea-samsung-sk-stall-2026-09-07",
+    "date": "2026-09-07",
+    "title": "Stargate Korea stalls: Samsung SDS and SKT say sites, power, and funding still unset a year after MOU",
+    "summary": "On 7 September 2026 Korea JoongAng Daily reported that nearly a year after OpenAI’s October 2025 Stargate Korea framing with Samsung and SK, neither data-center leg has settled site, power, water, or funding. Samsung SDS said “nothing has been confirmed” and the decision sits with OpenAI; SK Telecom said no progress since the MOU and OpenAI demand is not finalized; an OpenAI spokesperson said the domestic project is “still under discussion.” Industry sources cited power and water as the binding site constraints. The piece places Korea alongside paused Stargate legs in Norway and Britain. Separate from Korea’s AIDC 18.4 GW / budget track already on Wire — this is a conversion Stall on the OpenAI-branded campus path.",
+    "url": "https://www.koreajoongangdaily.com/business/openais-stargate-project-in-korea-stuck-at-starting-gate-as-samsung-sk-report-little-progress/12856484",
+    "source": "Korea JoongAng Daily",
+    "tier": 2,
+    "corroboration": "Multi-party",
+    "countries": [
+      "KOR"
+    ],
+    "flags": "🇰🇷",
+    "tags": [
+      "Stall",
+      "Energy",
+      "Build"
+    ],
+    "score": 78
+  },
+  {
+    "id": "opsb-aep-baku-gavin-765kv-26-0426-2026-09",
+    "date": "2026-09-03",
+    "title": "OPSB dockets AEP Baku–Gavin 765 kV (~51 mi, ~$1.1B) for PORTS-Pike — local hearing Oct 27",
+    "summary": "AEP Ohio Transmission’s Baku–Gavin 765 kV line — roughly 50–51 miles from a proposed Baku Substation in Pike County to Gavin Substation in Gallia County, estimated ~$1.1B — is now live as Ohio Power Siting Board case 26-0426-EL-BTX. The OPSB case page states the line would serve the planned Piketon data-center campus; the data-center customer has committed to pay transmission costs so Ohio ratepayers are not loaded. OPSB has noticed a local public hearing for 27 October 2026, 6 p.m., Jackson High School Auditorium. This is the grid-permit conversion step after the Aug 17 NVIDIA/OpenAI/SB Energy PORTS-Pike stack (already wired); certificate still pending. Line 2 (Hanging Rock–Baku) remains earlier in outreach.",
+    "url": "https://opsb.ohio.gov/cases/26-0426-el-btx",
+    "source": "Ohio Power Siting Board",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Energy",
+      "Build",
+      "Policy"
+    ],
+    "score": 90
+  },
+  {
+    "id": "tcs-hypervault-hyderabad-1gw-2026-09-05",
+    "date": "2026-09-05",
+    "title": "TCS HyperVault locks 264 acres in Hyderabad for up to 1 GW AI campus — ₹70,000 crore with Telangana",
+    "summary": "On 5 September 2026 TCS subsidiary HyperVault announced it has secured 264 acres in Hyderabad (Telangana) to develop a phased AI data-center campus of up to 1 GW, purpose-built for frontier AI and hyperscaler GPU training/inference with liquid cooling and high rack density. HyperVault and partners expect to invest up to ₹70,000 crore (~$7.4B per Reuters) to build and manage the infrastructure; Telangana Chief Minister A. Revanth Reddy publicly framed a June 2, 2028 inauguration target. TPG remains the named strategic capital partner from the earlier HyperVault raise. Conversion signal: India land + GW ceiling + state partnership are live; power offtake (PPA), EPC, and hyperscaler contracts were not disclosed in the press release.",
+    "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana",
+    "source": "TCS / HyperVault press release",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "IND"
+    ],
+    "flags": "🇮🇳",
+    "tags": [
+      "Build",
+      "Capital",
+      "Energy"
+    ],
+    "score": 88
+  },
+  {
+    "id": "eo-14420-bulk-power-foreign-equipment-2026-08-26",
+    "date": "2026-08-26",
+    "title": "EO 14420 declares BPS emergency — DOE to restrict foreign-produced grid equipment feeding AI campuses",
+    "summary": "On 26 August 2026 President Trump signed Executive Order 14420, Declaring a National Emergency to Secure the United States Bulk-Power System. The order authorizes the Secretary of Energy, within 120 days, to publish rules prohibiting or conditioning acquisition, importation, transfer, or installation of foreign-produced bulk-power system electric equipment — including substation transformers, grid-connected inverters, battery energy storage, UPS supporting critical infrastructure, turbines, and industrial control systems — where the transaction involves a Covered Foreign Entity and poses undue sabotage, supply-disruption, or national-security risk. DOE may also impose conditions on already-installed foreign equipment, including phased removal. The White House text explicitly cites rapid growth of data centers and artificial intelligence as magnifying bulk-power dependence. By 2–3 September, CNBC, Data Center Knowledge, and Wood Mackenzie commentary framed the order as tightening an already short transformer/substation market (Wood Mackenzie: ~15% transformer and ~8% substation shortage in 2026), with data-center developers that had turned to Chinese 100 MVA+ units for lead times most exposed. Implementation rules are due by ~24 December 2026; scope for behind-the-meter data-center loads remains open.",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/",
+    "source": "White House EO 14420",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA",
+      "CHN"
+    ],
+    "flags": "🇺🇸🇨🇳",
+    "tags": [
+      "Policy",
+      "Energy",
+      "Stall"
+    ],
+    "score": 90
+  },
+  {
+    "id": "fervo-google-396mw-cape-station-2026-09-01",
+    "date": "2026-09-01",
+    "title": "Fervo signs 396 MW, 15-year Google PPA at Cape Station — foundation for a potential Utah data center",
+    "summary": "On 1 September 2026 Fervo Energy (Nasdaq: FRVO) announced a 396 MW power purchase agreement with Google for enhanced-geothermal output from the Cape Station GeoCluster in Beaver County, Utah. Fervo's 8-K dates the contract to 26 August 2026 between wholly owned Cape Generating Station 6 LLC and Google Energy LLC: four successive 99 MW sub-tranches with target commercial operation beginning Q3 2028, a 15-year delivery term, and parent guarantees from Fervo and Alphabet. Fervo will offer Google an option to add roughly 600 MW — nearly 1 GW in total — with a guaranteed COD no later than June 2030, and may owe Google reimbursement of certain payments if it fails to make that expansion offer. Google describes the energy as a foundational building block for a potential Utah data center; final data-center plans stay subject to engineering, state and local approvals and commercial conditions, with delivery leaning on Utah SB 132 direct-to-load pathways. Billed as the largest enhanced-geothermal PPA to date.",
+    "url": "https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-and-google-sign-396-mw-ppa",
+    "source": "Fervo Energy IR / FRVO 8-K",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Energy",
+      "Build",
+      "Capital"
+    ],
+    "score": 90
+  },
+  {
+    "id": "korea-2027-budget-ai-213tn-vera-rubin-2026-09-01",
+    "date": "2026-09-01",
+    "title": "Korea's 2027 budget proposal nearly doubles AI and chip spend to ₩21.3T, with ₩3.85T for 10,000 Vera Rubin-class GPUs",
+    "summary": "The Korean cabinet approved a record ₩820.9 trillion 2027 budget proposal on 1 September 2026, up 12.8% and the fastest increase on record, funded by semiconductor-boom tax revenue. Spending on AI plus the administration's three megaprojects — semiconductors, physical AI and AI data centres — nearly doubles from ₩10.8T this year to ₩21.3T. The Ministry of Science and ICT's own budget rises 24.5% to ₩29.65T, with AI up 84.3% to ₩9.4T, including ₩3.85T (from ₩2.08T) to add about 10,000 Nvidia Vera Rubin-class GPUs for sovereign models behind a free 'AI for All' service, ₩87.8B for an AI-data-centre cluster and a 10 MW AIDC testbed; roughly ₩2T goes to a semiconductor special account and more than ₩2T to power, water and industrial complexes. The proposal goes to the National Assembly on 3 September and must pass by 2 December, so this is budgeted intent, not yet appropriated.",
+    "url": "https://en.yna.co.kr/view/AEN20260901000700320",
+    "source": "Yonhap / Hankyoreh / Korea Herald / MSIT budget detail via Digital Today",
+    "tier": 2,
+    "corroboration": "Confirmed",
+    "countries": [
+      "KOR"
+    ],
+    "flags": "🇰🇷",
+    "tags": [
+      "Policy",
+      "Capital",
+      "Build"
+    ],
+    "score": 80
+  },
+  {
+    "id": "eurohpc-lumi-ai-kajaani-387m-2026-08-31",
+    "date": "2026-08-31",
+    "title": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in Kajaani, Finland",
+    "summary": "On 31 August 2026 the EuroHPC Joint Undertaking signed a procurement contract with Bull to deploy the LUMI-AI supercomputer at CSC – IT Center for Science's data centre in Kajaani, Finland. Total budget for acquisition, delivery, installation and maintenance is €387,800,000, funded 50% by EuroHPC from the Digital Europe Programme and 50% by the LUMI AI Factory consortium — Finland, Czechia, Denmark, Estonia, Norway and Poland. The system is built on next-generation AMD Instinct MI430X GPUs with 6th Gen 256-core AMD EPYC processors and is expected to deliver roughly ten times the AI capacity of the current LUMI, installed and available to users in 2027. Bull was selected from a tender launched in May 2025; Finland was picked as host in December 2024. This is EuroHPC's sixth AI Factory procurement contract, and a rare flagship European win for AMD accelerators.",
+    "url": "https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en",
+    "source": "EuroHPC JU / Bull",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "FIN",
+      "CZE",
+      "DNK",
+      "EST",
+      "NOR",
+      "POL"
+    ],
+    "flags": "🇫🇮🇪🇺",
+    "tags": [
+      "Build",
+      "Capital",
+      "Policy"
+    ],
+    "score": 84
+  },
+  {
+    "id": "amd-cisco-humain-mi355x-live-250mw-2026-08-31",
+    "date": "2026-08-31",
+    "title": "HUMAIN's MI355X compute goes live in Saudi Arabia; JV plans up to 250 MW of MI400 capacity from 2027",
+    "summary": "AMD, Cisco and HUMAIN — a PIF company — announced on 31 August 2026 that AMD Instinct MI355X GPU infrastructure built on Cisco Silicon One networking with 800G optics is live in Saudi Arabia and serving customers in the Kingdom and beyond, offered as GPU-as-a-service from training to inference. It is the first production milestone of the joint venture the three announced on 19 November 2025. The next phase is up to 250 MW powered by AMD Instinct MI400-series GPUs, EPYC CPUs and ROCm with Cisco networking, deployment beginning in 2027 and capacity expected to start coming online in the second half of that year; the JV still says it is on track for up to 1 GW by 2030. No megawatt figure, customer count, utilization or pricing was disclosed for the live system, and the original phase-1 plan named 100 MW of MI450 — so the announced path has shifted.",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
+    "source": "AMD IR / Cisco Newsroom",
+    "tier": 2,
+    "corroboration": "Single-source",
+    "countries": [
+      "SAU",
+      "USA"
+    ],
+    "flags": "🇸🇦",
+    "tags": [
+      "Build",
+      "Capital"
+    ],
+    "score": 72
+  },
+  {
+    "id": "anthropic-lambda-35b-hut8-beacon-point-2026-08-31",
+    "date": "2026-08-31",
+    "title": "Anthropic reported to take ~350 MW at Hut 8's Beacon Point via a $35B Lambda contract, with Nvidia on the lease",
+    "summary": "The Wall Street Journal reported on 31 August 2026, matched by Bloomberg and Reuters citing people familiar, that Anthropic signed a roughly $35B, six-year cloud contract with Nvidia-backed Lambda for about 350 MW at Hut 8's Beacon Point campus in Nueces County, Texas — close to one of the site's ~352 MW phases. Reporting describes a four-party chain: Hut 8 develops and leases the space, Nvidia holds the master lease and supplies the GPUs, Lambda installs them and sells capacity to Anthropic. Hut 8 disclosed in July two 15-year leases totalling about 704 MW with $19.6B of base-term value to an unnamed investment-grade tenant later reported to be Nvidia; initial energization of the ~1 GW campus is expected in Q1 2027. None of Anthropic, Lambda, Nvidia or Hut 8 has confirmed the contract, and Lambda's payment to Nvidia is undisclosed, so treat the $35B as reported rather than filed.",
+    "url": "https://www.channelnewsasia.com/business/anthropic-signs-us35-billion-cloud-deal-nvidia-backed-lambda-source-says-6353306",
+    "source": "WSJ (first) / Bloomberg / Reuters via CNA / Hut 8 July disclosure",
+    "tier": 2,
+    "corroboration": "Corroborated",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Capital",
+      "Build"
+    ],
+    "score": 70
+  },
+  {
+    "id": "us-commerce-remote-access-ai-compute-draft-2026-08-31",
+    "date": "2026-08-31",
+    "title": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs via third-country DCs",
+    "summary": "Late August 2026 reporting (Forbes 31 Aug; TechTimes 29 Aug citing The Information) says Trump Commerce/BIS is preparing an export-control draft that would treat remote rental of advanced AI GPUs as controlled access, aimed at Chinese firms using third-country data centers such as Thailand and Singapore, with industry draft circulation possible as early as September. The House already passed the Remote Access Security Act (H.R. 2683) in January; the Senate has not. Export-control bar commentary notes BIS’s statutory remote-access authority is weak until RASA clears. This is a Policy/Stall conversion signal on usable FLOPs geography, not a published final rule.",
+    "url": "https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/",
+    "source": "Forbes / TechTimes / Congress.gov H.R.2683",
+    "tier": 2,
+    "corroboration": "Corroborated",
+    "countries": [
+      "USA",
+      "CHN",
+      "THA",
+      "SGP"
+    ],
+    "flags": "🇺🇸🇨🇳",
+    "tags": [
+      "Policy",
+      "Stall"
+    ],
+    "score": 72
+  },
+  {
+    "id": "puct-oncor-765kv-ccn-59315-59029-2026-08-28",
+    "date": "2026-08-28",
+    "title": "PUCT unanimously approves Oncor 765-kV Import Path 1 CCNs (~424 mi, ~$3.95B)",
+    "summary": "On 28 August 2026 the Public Utility Commission of Texas unanimously granted final Certificates of Convenience and Necessity for Oncor’s Dinosaur–Longshore path (Docket 59315, Route 559, ~242.6 miles, ~$2.243B, target 2028) and Longshore–Drill Hole (Docket 59029, Route 476, ~181.6 miles, ~$1.704B, target 2029) — about 424 miles and ~$3.95B of 765-kV into West Texas under the Permian Basin Reliability Plan. Need findings cited oil/gas plus non-oil load including crypto, data centers, and hydrogen. Howard–Solstice (59336) remains tabled past its 31 August statutory clock and is not part of this Wire item.",
+    "url": "https://dallasexpress.com/business-markets/texas-regulators-approve-424-miles-of-power-lines-despite-calls-to-wait/",
+    "source": "Dallas Express / Oncor / Texas Tribune",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Energy",
+      "Build",
+      "Policy"
+    ],
+    "score": 88
+  },
+  {
+    "id": "powertech-foplp-capacity-booked-2030-2026-08-27",
+    "date": "2026-08-27",
+    "title": "Powertech books FOPLP AI packaging capacity through 2030; $2.2B ramp + Singapore–Broadcom line",
+    "summary": "On 27 August 2026 Taiwan OSAT Powertech Technology said its fan-out panel-level packaging (FOPLP) capacity for AI is fully booked through 2030 by two major customers (press cites AMD and Broadcom), backed by about NT$70 billion (~$2.2B) to expand from ~1,000 to ~5,000 panels/month by 2028, with AI server CPU shipments expected next year and a Broadcom joint packaging line planned in Singapore around 2028. This is a Taiwan/Singapore packaging-conversion print around CoWoS scarcity.",
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/08/27/2003863180",
+    "source": "Taipei Times / Nikkei Asia",
+    "tier": 2,
+    "corroboration": "Corroborated",
+    "countries": [
+      "TWN",
+      "SGP"
+    ],
+    "flags": "🇹🇼🇸🇬",
+    "tags": [
+      "Build",
+      "Capital"
+    ],
+    "score": 80
+  },
+  {
+    "id": "sk-hynix-indiana-hbm-packaging-2026-08-27",
+    "date": "2026-08-27",
+    "title": "SK hynix breaks ground on first US HBM packaging base in West Lafayette",
+    "summary": "On 27 August 2026 SK hynix held a groundbreaking ceremony at Purdue University in West Lafayette, Indiana, for its first US next-generation HBM advanced-packaging production base. The company newsroom (dated Seoul 28 August) sizes the Indiana fab at over $4 billion, with the cleanroom scheduled to open by October 2028 and mass production of next-generation HBM in the second half of 2029, plus an Advanced Packaging R&D Testbed and about 1,000 facility jobs. Korea-made wafers will be packaged and tested in Indiana and sold as Made-in-USA product to US customers. A prior US Commerce CHIPS award (December 2024) attached up to $458 million in direct funding and up to $500 million in loans to the West Lafayette project; that award is not restated in today’s newsroom note. This is a US/Korea conversion print: packaging land and a 2029 volume clock, not a 2026 wafer start.",
+    "url": "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/",
+    "source": "SK hynix Newsroom",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA",
+      "KOR"
+    ],
+    "flags": "🇺🇸🇰🇷",
+    "tags": [
+      "Build",
+      "Capital"
+    ],
+    "score": 91
+  },
+  {
+    "id": "nvidia-fy27q2-china-dc-zero",
+    "date": "2026-08-26",
+    "title": "NVIDIA Q2: China Hopper DC shipments <1% of Data Center revenue; Q3 outlook assumes zero China DC compute",
+    "summary": "On 26 August 2026 NVIDIA reported Q2 FY27 results for the quarter ended 26 July 2026: revenue $96.2 billion and Data Center $89.0 billion. CFO commentary (SEC EX-99.2) states shipments of Data Center Hopper products to China were less than 1% of Data Center revenue in the quarter. The Newsroom outlook for Q3 FY27 revenue of $108.0 billion plus or minus 2% states NVIDIA is not assuming any Data Center compute revenue from China. This is a realized China mix print plus a repeated zero-China DC compute outlook, distinct from the already-wired 19 Aug limited H200 landings note.",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+    "source": "NVIDIA Newsroom / SEC EX-99.2",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "CHN"
+    ],
+    "flags": "🇨🇳",
+    "tags": [
+      "Stall",
+      "Pricing",
+      "Policy"
+    ],
+    "score": 91
+  },
+  {
+    "id": "georgia-power-openai-effingham-3200mw",
+    "date": "2026-08-26",
+    "title": "Georgia Power–OpenAI Effingham contract approved at 3,200 MW",
+    "summary": "On 26 August 2026 Georgia Power said its contract to serve OpenAI’s Effingham County project was approved as part of the Georgia Public Service Commission regulatory process. The company says the contract, filed with the PSC in July, includes 3,200 MW of new demand, OpenAI pays the full cost of infrastructure needed to serve it, and OpenAI has committed up to 1,000 MW of flexible demand response. This is a US named-MW utility-path conversion, not a campus FID on NVIDIA silicon.",
+    "url": "https://southerncompany.mediaroom.com/2026-08-26-Georgia-Powers-contract-with-OpenAI-approved-Latest-approval-part-of-portfolio-of-large-load-contracts-delivering-approximately-950-million-in-annual-savings-beginning-in-2029",
+    "source": "Georgia Power / Southern Company",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Energy",
+      "Build",
+      "Policy"
+    ],
+    "score": 90
+  },
+  {
+    "id": "firmus-bell-bay-288mw-2026-08-25",
+    "date": "2026-08-25",
+    "title": "George Town Council approves Firmus 288 MW AI data centre at Bell Bay, Tasmania",
+    "summary": "On 25 August 2026 Tasmania’s George Town Council voted 6–1 to approve Firmus Technologies’ 288 MW AI data centre at the former Gunns pulp mill site in Long Reach (Bell Bay Advanced Manufacturing Zone). ABC reports planning conditions (noise and air surveys, a new bushfire and emergency plan) after the diesel-generator count was corrected to 276, and a 14-day appeal window to the Tasmanian Civil and Administrative Tribunal. This is Australia’s named-MW local planning conversion this week.",
+    "url": "https://www.abc.net.au/news/2026-08-25/firmus-ai-bell-bay-receives-george-town-council-approval/107074336",
+    "source": "ABC News (Australia)",
+    "tier": 2,
+    "corroboration": "Confirmed",
+    "countries": [
+      "AUS"
+    ],
+    "flags": "🇦🇺",
+    "tags": [
+      "Build",
+      "Policy",
+      "Energy"
+    ],
+    "score": 80
+  },
+  {
+    "id": "ami-hyderabad-rubin-9000",
+    "date": "2026-08-25",
+    "title": "AM Intelligence binds 9,000 NVIDIA Rubin GPUs for a 30 MW Hyderabad AI factory (Q1 2027)",
+    "summary": "On 25 August 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko’s promoters, said it placed a firm and binding order for 9,000 NVIDIA Rubin GPUs to be deployed as Vera Rubin NVL72 rack-scale systems at its first AI factory in Hyderabad, with delivery slated for Q1 2027 and 30 MW of capacity. AMI frames Hyderabad as the first tranche of a planned 1 GW Compute-as-a-Service footprint, with an initial 200 MW to market involving more than $8 billion of capital expenditure, and says it is developing 5 GW of powered AI data centres across India, the United States and Europe. The Hyderabad site is engineered for roughly 450 exaFLOPS of NVFP4 inference. This is India’s second live conversion print this month after L&T × Together Chennai, and the first named Rubin (not Blackwell) factory MW on the tape. Source is the company release as reported by The Hindu / PTI; no AMI IR PDF located at filing time.",
+    "url": "https://www.thehindu.com/business/Industry/ami-orders-9000-nvidia-rubin-gpus-for-hyderabad-facility/article71390110.ece",
+    "source": "AM Intelligence / The Hindu",
+    "tier": 2,
+    "corroboration": "Confirmed",
+    "countries": [
+      "IND"
+    ],
+    "flags": "🇮🇳",
+    "tags": [
+      "Build",
+      "Capital"
+    ],
+    "score": 79
+  },
+  {
+    "id": "semianalysis-us-chn-watts-2026-08-25",
+    "date": "2026-08-25",
+    "title": "SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%",
+    "summary": "On 25 August 2026 Dylan Patel of SemiAnalysis, on the Dwarkesh Podcast, restated the country watt split: since 2022 the US share of incremental AI data-center watts rose from about 45–50% to ~70% today, while China fell from about 30–35% to sub-10% of watts being deployed. He puts China's 2028 AI compute stock at 30 GW or less, with 5–10 GW of that year's add from domestic SMIC/CXMT silicon he says is worse than 2028 US chips, and calls +50 GW incremental in 2029 \"completely reasonable.\" World incremental path in the same interview: +30 GW this year, +50 next, ~70 in 2028 (80 as the upper bound). MATCH Act (H.R. 8170) is named as the live export-control lever; as of 26 August it is not law (House Foreign Affairs reported 22 April, no floor vote). These are SemiAnalysis model prints stated on a dated interview, not a campus FID or a government filing.",
+    "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+    "source": "Dwarkesh Podcast / SemiAnalysis",
+    "tier": 3,
+    "corroboration": "Single-source",
+    "countries": [
+      "USA",
+      "CHN"
+    ],
+    "flags": "🇺🇸🇨🇳",
+    "tags": [
+      "Build",
+      "Policy"
+    ],
+    "score": 62
+  },
+  {
+    "id": "taiwan-b300-server-china-export-indictment-2026-08-24",
+    "date": "2026-08-24",
+    "title": "Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 servers diverted to China",
+    "summary": "On 24 August 2026 the Keelung District Prosecutors’ Office indicted eight people, including a distribution manager at Nvidia’s Taiwan office and two sales managers at Super Micro’s Taiwan branch, for breach of trust and document forgery tied to Supermicro servers equipped with Nvidia B300 GPUs. CNA (Focus Taiwan) reports prosecutors say Flying Tiger obtained a 130-server order after a staged site inspection, 74 servers reached Chinese buyers via direct shipment or routes through Indonesia, Japan and Hong Kong, and customs seized the remaining 56 in Taiwan. Illicit proceeds on the completed 74-server resale exceeded US$21.2 million. A Flying Tiger principal remains wanted. This is a Taiwan/China conversion-enforcement print on the whitelist-and-inspection gate, not a new export rule.",
+    "url": "https://focustaiwan.tw/society/202608240023",
+    "source": "CNA / Focus Taiwan (Keelung prosecutors)",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "TWN",
+      "CHN"
+    ],
+    "flags": "🇹🇼🇨🇳",
+    "tags": [
+      "Policy",
+      "Stall"
+    ],
+    "score": 82
+  },
+  {
+    "id": "lancium-nvidia-dsx-15gw-2026-08-24",
+    "date": "2026-08-24",
+    "title": "Lancium × NVIDIA: undisclosed NVIDIA stake on 4 GW leased / >15 GW powered-land pipeline",
+    "summary": "On 24 August 2026 Lancium announced a strategic collaboration with NVIDIA and said NVIDIA made a strategic investment in Lancium (amount not disclosed). Lancium’s release states its AI factory campuses — 4 GW of leased capacity and a development pipeline exceeding 15 GW of powered land — will serve as deployment sites for NVIDIA’s full-stack AI factory platform, using NVIDIA DSX reference designs including DSX MaxLPS (company claim: up to 40% more GPUs in the same power budget) and DSX Flex for grid-responsive power draw. Lancium is a Blackstone portfolio company. NVIDIA has not posted a matching IR note. This is a US Texas powered-land / stack capital signal, not a newly named campus FID. Distinct from the already-wired 17 Aug PORTS-Pike Ohio residual-value package.",
+    "url": "https://lancium.com/2026/08/24/lancium-announces-partnership-with-nvidia-to-advance-gigawatt-scale-ai-factory-development-across-its-15-gw-portfolio/",
+    "source": "Lancium",
+    "tier": 2,
+    "corroboration": "Single-source",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Build",
+      "Capital",
+      "Energy"
+    ],
+    "score": 64
+  },
+  {
+    "id": "soah-59475-pfd-import-path-2",
+    "date": "2026-08-20",
+    "title": "SOAH PFD: deny Oncor/LCRA Import Path 2 (Bell County East–Big Hill and Big Hill–Sand Lake 765-kV)",
+    "summary": "On 20 August 2026 at 1:52 PM the State Office of Administrative Hearings filed PUCT Docket 59475 Item 6441, a Proposal for Decision with memorandum, signed by Presiding Administrative Law Judges Linda Brite, Linda J. Burgess, and Dee Marlo Chico (SOAH Docket 473-26-16349). The PFD remands the joint Oncor Electric Delivery / LCRA TSC application for the Bell County East Switch to Big Hill Substation 765-kV line, and the need determination for the companion Big Hill-to-Sand Lake Project (Docket 59182), to the Public Utility Commission of Texas. Proposed ordering paragraph 2 reads: “The Commission does not approve the Applications for the Bell County East-to-Big Hill and Big Hill-to-Sand Lake Projects. The amendment of Applicants’ CCNs is not approved by this Order.” Conclusion of law 13: “ERCOT’s PBRP recommendation is not entitled to great weight in the determination of need for this reliability project.” Conclusion 14: the evidence does not establish the CCN amendments are necessary for the service, accommodation, convenience, or safety of the public under PURA § 37.056, so both Import Path 2 applications should be denied. Conclusion 15: the Application should be denied for failure to comply with the process due to approximately 1,400 landowners under Rule 22.52(a)(4) for public meeting. If a route is later selected, the ALJs recommend Route 894. This is a proposal for decision, not a Commission order. Exceptions, replies, oral argument, and an open-meeting date are still to be set. 20 August Open Meeting minutes remain unposted. Do not treat 59029/59315’s 21 August consolidation-on-need order as a CCN grant or deny.",
+    "url": "https://interchange.puc.texas.gov/search/documents/?controlNumber=59475&itemNumber=6441",
+    "source": "PUCT / SOAH",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Policy",
+      "Stall",
+      "Energy"
+    ],
+    "score": 90
+  },
+  {
+    "id": "puct-59142-item-53",
+    "date": "2026-08-20",
+    "title": "PUCT grants ERCOT’s Batch Zero good-cause exceptions; classification paused pending the audit",
+    "summary": "On 20 August 2026 at 12:29 PM the Public Utility Commission of Texas filed Project 59142 Item 53, Order Granting Good Cause Exceptions, signed by Chairman Thomas J. Gleeson and Commissioners Kathleen Jackson and Courtney K. Hjaltman. Under 16 TAC § 25.3(b) the Commission grants ERCOT relief from 16 TAC § 25.361(b)(16) so it need not classify Large Loads (≥75 MW, including data centers and virtual currency mining) by the 7 August 2026 Planning Guide § 9.3.1(2)(a) deadline, and need not limit the 1 August and 1 November 2026 quarterly stability assessments to loads already classified as base load. Eligible-but-unclassified base-load submissions may still enter those QSAs. ERCOT may finish dynamic-data review after 7 August and give interconnecting large-load entities 24 days to cure deficiencies. The order recites Governor Abbott’s 3 August letter and states good cause exists for ERCOT to complete the verification and audit and report results to the Commission before continuing Batch Zero. Community-impact information is to be requested from data centers and crypto facilities of 25 MW or more that have not yet energized. The order does not rule individual Batch Zero eligibility and does not restate ERCOT’s 31 August / 10 December clocks from Item 52. Open Meeting minutes for 20 August are still unposted.",
+    "url": "https://interchange.puc.texas.gov/Documents/59142_53_1675960.PDF",
+    "source": "PUCT",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Policy",
+      "Stall",
+      "Energy"
+    ],
+    "score": 95
+  },
+  {
+    "id": "ercot-59142-item-52",
+    "date": "2026-08-20",
+    "title": "ERCOT files the Batch Zero clock: conditional classify by 31 Aug, 17 loads / 6,608 MW paused, reports 10 Dec",
+    "summary": "On 20 August 2026 at 09:01 ERCOT filed PUCT Project 59142 Item 52, a 13-slide update for that morning’s Open Meeting. Three good-cause exceptions remain pending: delay final Batch Zero classification past the 7 Aug deadline and conditionally classify large loads by 31 Aug; let conditionally classified base loads into the 1 Aug and 1 Nov Quarterly Stability Assessments; and send late dynamic-data deficiency notices with the same 24-day cure. ERCOT is not asking to move the 9 Apr 2027 study-results deadline. QSA scope is 6 large loads ≈1,959 MW (1 Aug, projected energization Q1 2027) and 17 ≈6,874 MW (1 Nov, Q2 2027); QSA inclusion does not authorize energization. ERCOT has reviewed 290 dynamic models, ~18% acceptable on first pass, and has paused energization of large-load data centers and crypto (≥75 MW) — 17 loads, 6,608 MW total peak over 5 years, have finished every ERCOT process except approval to energize. Verification RFIs run Aug–Nov; Batch Zero Eligibility Verification and Community Impact Review reports file 10 Dec for a 17 Dec Open Meeting. April snapshot: 157 medium DC/crypto loads ≈8,766 MW. No PUCT minutes or order posted as of 8:15 PT.",
+    "url": "https://interchange.puc.texas.gov/Documents/59142_52_1675838.PDF",
+    "source": "ERCOT / PUCT Interchange",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Policy",
+      "Stall",
+      "Energy"
+    ],
+    "score": 93
+  },
+  {
+    "id": "china-h200-limited-landings",
+    "date": "2026-08-19",
+    "title": "Beijing lets limited H200 batches land: ByteDance and Tencent ~10k each; most volume steered to Hong Kong",
+    "summary": "On 19 August 2026 the Financial Times, as reprinted by Business Standard, reported that ByteDance and Tencent have each received about 10,000 NVIDIA H200 processors in recent weeks, with a few other Chinese groups queued for similar-sized shipments. Chinese regulators have told companies they may ship H200s to Hong Kong (outside mainland customs) and use them there; Beijing still wants most volume kept off the mainland to protect domestic chipmakers. The reprint cites two conflicting per-customer US caps — FT’s 100,000 vs Reuters’ 75,000 under Commerce licensing — and says purchases still need NDRC approval. NVIDIA has about 500,000 H200s in stock mainly for Chinese customers; Blackwell remains banned. This is a dual-sovereign policy print: US licence is no longer the only gate.",
+    "url": "https://www.business-standard.com/world-news/china-allows-limited-nvidia-h200-shipments-why-is-beijing-easing-curbs-126081900438_1.html",
+    "source": "Financial Times / Business Standard",
+    "tier": 2,
+    "corroboration": "Single-source",
+    "countries": [
+      "CHN"
+    ],
+    "flags": "🇨🇳",
+    "tags": [
+      "Policy"
+    ],
+    "score": 64
+  },
+  {
+    "id": "pa-eo-2026-05",
+    "date": "2026-08-18",
+    "title": "Shapiro EO 2026-05: Pennsylvania gates data centers >25 MW behind a GRID consent order",
+    "summary": "On 18 August 2026 Governor Josh Shapiro signed Executive Order 2026-05, effective immediately. DEP’s template Consent Order and Agreement is required for any data center with peak demand over 25 MW; signers get rolling permit review only after local comprehensive-plan consistency and all municipal approvals. Non-signers wait until local approvals and water/wastewater authorizations are in hand, with no rolling issuance and exclusion from PAyback and the Permit Decision Guarantee. The Computer Data Center Equipment sales-and-use exemption is tied to GRID. The Office of Transformation and Opportunity must remove existing data-center projects from the PA Permit Fast Track Program and bar new ones. NDAs on data-center projects are impermissible for agencies under the Governor’s jurisdiction. Recitals cite 20 DEP permit applications, 14 active exemption certificates, PJM’s 74 GW summer-peak growth through 2045, and $29.4 billion / 46% of the last four PJM capacity-auction costs attributed to data centers. This is a state conversion gate on PJM-side load, not a campus FID.",
+    "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/eo2026_05_protecting%20pennsylvania%20consumers%20from%20data%20center%20impacts_final_executed.pdf",
+    "source": "Commonwealth of Pennsylvania",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Policy"
+    ],
+    "score": 90
+  },
+  {
+    "id": "amazon-stack-louisiana-18b",
+    "date": "2026-08-18",
+    "title": "Amazon lifts northwest Louisiana to $18B and a third STACK campus in Shreveport",
+    "summary": "On 18 August 2026 Amazon updated its February campus note: planned investment in northwest Louisiana rises from $12 billion to $18 billion with a third planned campus in Shreveport, across Caddo and Bossier Parishes. STACK Infrastructure is developer and owner of all three campuses. Amazon says it will pay 100% of new energy infrastructure and grid upgrades with SWEPCO, and up to $400 million in public water infrastructure funded by Amazon, not ratepayers. Fully built, the three campuses are expected to create up to 750 full-time Amazon data-center jobs and support 2,500 additional positions; STACK cites up to 2,250 construction jobs. IT megawatts are not disclosed on the Amazon page. Distinct from the already-wired Pecos GW Ranch site.",
+    "url": "https://www.aboutamazon.com/news/company-news/amazon-data-center-louisiana-new-jobs",
+    "source": "Amazon",
+    "tier": 2,
+    "corroboration": "Single-source",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Build",
+      "Capital",
+      "Energy"
+    ],
+    "score": 68
+  },
+  {
+    "id": "nvidia-ports-pike-ohio",
+    "date": "2026-08-17",
+    "title": "NVIDIA caps $105B residual-value backstop on PORTS-Pike: 4.25 IT-GW, OpenAI 20-year lease, exclusive DSX",
+    "summary": "On 17 August 2026 NVIDIA’s 8-K locked residual-value guaranties with SB Energy for ~4.25 IT-GW at the PORTS Technology Campus in Pike County, Ohio, cumulatively capped at $105 billion, with ready-for-service expected from 2028. The SEC-filed press release adds a $1.5 billion equity check into SB Energy, exclusive NVIDIA compute, a 20-year OpenAI lease, an option on the remaining ~3.75–3.8 IT-GW (press vs 8-K), plus 10 GW of new generation and a $4.2 billion AEP Ohio grid package that SB Energy/SoftBank say yields 8 IT-GW. This restates US conversion as land-power-shell finance: NVIDIA is now underwriting the campus, not just selling the stack.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+    "source": "SEC",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Capital",
+      "Build",
+      "Energy"
+    ],
+    "score": 97
+  },
+  {
+    "id": "pax-silica-pick-sides",
+    "date": "2026-08-14",
+    "title": "Draft State letter: Pax Silica / AI Opportunity signatories must pick sides vs China",
+    "summary": "On 14 August 2026 Reuters reported an undated State Department draft, reviewed with a US official, warning the 35 June AI Opportunity Statement signatories they will be dropped from the US-led AI coalition if they also join a competing framework. The draft says Pax Silica “is not merely a membership subscription, but a commitment” and “cannot be held alongside membership in duplicative initiatives”; Reuters names Kazakhstan as the only known dual member. This is a chip-access/export-alignment signal, not a GW print — and it is still a draft. State declined to comment on leaked internals; send date unconfirmed.",
+    "url": "https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/",
+    "source": "Reuters",
+    "tier": 2,
+    "corroboration": "Single-source",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Policy"
+    ],
+    "score": 63
+  },
+  {
+    "id": "lt-together-chennai-factory",
+    "date": "2026-08-13",
+    "title": "L&T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k crore",
+    "summary": "On 13 August 2026 Larsen & Toubro said LTN Compute / Vyoma.AI won a ₹10,000–15,000 crore ($1.05–1.57 billion) order from Together AI for a 10,000-GPU NVIDIA B300 factory at its Chennai campus — L&T’s stated largest single-cluster AI deployment in India. L&T’s own statement, reprinted on the company newswire, sizes the campus as gigawatt-scale with Phase 1 at 250 MW and 150 MVA of power readiness. This is India’s conversion print for the window: a named cluster, a rupee ticket, and a megawatt envelope on Indian soil.",
+    "url": "https://www.thehindubusinessline.com/companies/lt-secures-ai-data-centre-order-worth-up-to-15000-crore/article71339801.ece",
+    "source": "Reuters / The Hindu Business Line",
+    "tier": 2,
+    "corroboration": "Confirmed",
+    "countries": [
+      "IND"
+    ],
+    "flags": "🇮🇳",
+    "tags": [
+      "Build",
+      "Capital"
+    ],
+    "score": 84
+  },
+  {
+    "id": "nebius-5gw-contracted-2026",
+    "date": "2026-08-12",
+    "title": "Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estonia, Finland",
+    "summary": "Nebius’s 12 August 2026 shareholder letter raised year-end 2026 contracted power — defined as secured land and power commitments, not connected megawatts — to 5 GW, from +4 GW last quarter, and said it plans to deploy more than 1 GW per year starting in 2027. Q2 group revenue was $582.3 million (+454% YoY); AI cloud $574.9 million; ARR $3.0 billion; Q2 capex about $5.7 billion. Four landmark deals averaged more than $1 billion TCV and $20–25 million per MW; Q3 short-duration capacity is priced in the $40–50 million per MW range, with the first such deal signed. New 2026 sites listed include the UK, Estonia and Finland plus US states. Contracted 5 GW is a European/US conversion clock, not a named Welsh MW print.",
+    "url": "https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf",
+    "source": "Nebius IR",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "GBR",
+      "EST",
+      "FIN"
+    ],
+    "flags": "🇬🇧🇪🇪🇫🇮",
+    "tags": [
+      "Build",
+      "Pricing"
+    ],
+    "score": 82
+  },
+  {
+    "id": "nvidia-500b-platforms",
+    "date": "2026-08-10",
+    "title": "NVIDIA and six Wall Street giants form platforms to mobilize $500B+ for AI infrastructure",
+    "summary": "NVIDIA partners with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent compute-financing platforms targeting over $500 billion of third-party capital, with NVIDIA guaranteeing up to 25 percent of chip residual value on individual deals. The capital constraint on the global buildout just grew a dedicated channel, and GPUs were declared an investable asset class.",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx",
+    "source": "NVIDIA IR",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Capital"
+    ],
+    "score": 95
+  },
+  {
+    "id": "firebird-armenia-live",
+    "date": "2026-08-08",
+    "title": "Firebird's Armenia AI factory goes live: frontier-market sovereign compute has a working example",
+    "summary": "The Hrazdan facility went from site to operation in about six months on NVIDIA and Dell infrastructure, with a roadmap of 70,000+ GPUs and 300 MW by end-2027 and NVIDIA stating intent to invest. The proof of concept for small-state compute conversion.",
+    "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+    "source": "NVIDIA blog",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "ARM"
+    ],
+    "flags": "🇦🇲",
+    "tags": [
+      "Build"
+    ],
+    "score": 92
+  },
+  {
+    "id": "sk-hynix-yongin-y2",
+    "date": "2026-08-07",
+    "title": "SK hynix FIDs ₩35.2246T Yongin Y2: phases 1–6 of Fab 2 through October 2031",
+    "summary": "On 7 August 2026 SK hynix’s board approved ₩35,224,600,000,000 to construct Y2 (phases 1–6 of Fab 2) at the Yongin Semiconductor Cluster, 29.19% of total equity as of 31 December 2025, with a stated investment window of 7 August 2026 to 31 October 2031. The 6-K frames the spend as mid- to long-term memory capacity, not a 2026 wafer print. This is Korea’s conversion ticket for HBM/DRAM land and power already sitting inside the Yongin cluster — volume for 2029+, not this year’s tape.",
+    "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526339024/d13432d6k.htm",
+    "source": "SEC",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "KOR"
+    ],
+    "flags": "🇰🇷",
+    "tags": [
+      "Capital",
+      "Build"
+    ],
+    "score": 88
+  },
+  {
+    "id": "amazon-gw-ranch-pecos",
+    "date": "2026-08-07",
+    "title": "Amazon confirms GW Ranch: up to 7.65 GW off-grid gas for a Pecos AI campus",
+    "summary": "On 7 August 2026 Amazon confirmed to Cleanview it acquired the GW Ranch site in Pecos County, Texas, and will buy power from an on-site gas plant permitted for 35 turbines at up to 7.65 GW nameplate (permit also states ~5 GW nominal delivered). Amazon’s on-record line: new on-site generation that “won’t raise electricity costs for Texas families,” designed to move to grid service when interconnection allows; Pacifico separately cites 750 MW solar and 1.8 GW BESS. In a 474 GW ERCOT freeze, this is the US workaround — behind-the-meter gigawatts that convert Texas compute without waiting for Batch Zero.",
+    "url": "https://newsletter.cleanview.co/p/scoop-amazon-is-behind-one-of-the",
+    "source": "Cleanview",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Energy",
+      "Build"
+    ],
+    "score": 74
+  },
+  {
+    "id": "indosat-zankore-1gw",
+    "date": "2026-08-07",
+    "title": "Indonesia's Indosat launches Zankore, a 1 GW AI-factory platform with Ooredoo, NVIDIA and Nokia",
+    "summary": "First 200 MW of GB300-class capacity targeted for H1 2027 at Batang, Central Java, with Qatari capital leading. Southeast Asia's largest sovereign-flavored compute commitment to date.",
+    "url": "https://www.datacenterdynamics.com/en/news/indosat-reinforces-ai-push-with-1gw-data-center-play/",
+    "source": "Data Center Dynamics",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "IDN"
+    ],
+    "flags": "🇮🇩",
+    "tags": [
+      "Build"
+    ],
+    "score": 78
+  },
+  {
+    "id": "neom-oxagon-datavolt",
+    "date": "2026-08-05",
+    "title": "DataVolt: Neom Oxagon 1.5 GW AI factory enters last-mile, groundbreaking in 2–3 months",
+    "summary": "On 5 August 2026 DataVolt CEO Rajit Nanda told AGBI the 1.5 GW Oxagon AI-factory campus at Neom has reached “the last mile for the first phase” and should break ground in two to three months, with first-phase ops still aimed at 2028. The land/infrastructure deal with Oxagon dates to February 2025; first-phase funding sits inside DataVolt’s previously stated $5 billion Saudi commitment — customers and first-phase MW were not disclosed. This is the live KSA conversion clock: a named 1.5 GW campus moving from MOU to dirt, not a new GW number.",
+    "url": "https://www.agbi.com/tech/2026/08/neom-to-start-constructing-oxagon-ai-data-centre-in-months/",
+    "source": "AGBI",
+    "tier": 3,
+    "corroboration": "Single-source",
+    "countries": [
+      "SAU"
+    ],
+    "flags": "🇸🇦",
+    "tags": [
+      "Build",
+      "Energy"
+    ],
+    "score": 62
+  },
+  {
+    "id": "texas-ercot-dc-audit",
+    "date": "2026-08-03",
+    "title": "Abbott freezes Texas interconnects: 474 GW queue, ~90% data centers, PUCT/ERCOT audit first",
+    "summary": "On 3 August 2026 Governor Greg Abbott ordered PUCT and ERCOT to finish a comprehensive verification audit before any data-center project in the interconnection process can advance, citing ~474 GW of requests — more than five times ERCOT peak — of which about 90% are data centers. At the 14 August PUCT meeting ERCOT put the live Batch Zero slice at 250–300 projects and ~200 GW, said the work will take several months, and confirmed the 7 August Batch Zero classification notice was shelved. This is the live US grid stall: Texas conversion is now gated by audit, not by queued megawatts.",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+    "source": "Office of the Texas Governor",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Policy",
+      "Stall",
+      "Energy"
+    ],
+    "score": 96
+  },
+  {
+    "id": "eu-gigafactories-call",
+    "date": "2026-07-30",
+    "title": "EU opens the AI Gigafactories call: up to 7 sites, €10B public money, bids due November",
+    "summary": "EuroHPC launches the formal tender for gigafactory sites across at least seven member states, targeting over €30 billion total investment with selection in early 2027. Europe's answer arrives as a procurement document.",
+    "url": "https://www.eurohpc-ju.europa.eu/eurohpc-joint-undertaking-launches-ai-gigafactories-call-2026-07-30_en",
+    "source": "EuroHPC (primary)",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [],
+    "flags": "🇪🇺",
+    "tags": [
+      "Policy",
+      "Capital"
+    ],
+    "score": 90
+  },
+  {
+    "id": "korea-aidc-18gw",
+    "date": "2026-07-29",
+    "title": "South Korea's AIDC Alliance sets an 18.4 GW datacenter target by 2035",
+    "summary": "Following the 260,000-GPU national program announced at APEC, the alliance formalizes the most aggressive national capacity target published anywhere, with UAE export ambitions attached.",
+    "url": "https://www.techtimes.com/articles/322134/20260729/south-koreas-aidc-alliance-opens-184gw-target-uae-export-push.htm",
+    "source": "TechTimes",
+    "tier": 4,
+    "corroboration": "Corroborated",
+    "countries": [
+      "KOR"
+    ],
+    "flags": "🇰🇷",
+    "tags": [
+      "Policy",
+      "Build"
+    ],
+    "score": 66
+  },
+  {
+    "id": "nepal-export-record",
+    "date": "2026-07-23",
+    "title": "Nepal books record power exports: NPR 29.32B for 3.877 TWh at roughly $0.054 per kWh",
+    "summary": "Export earnings rose 68 percent year on year. The same electrons routed through contracted GPU cloud would gross roughly 20 to 40 times more, which is the entire compute-conversion argument in one fiscal year.",
+    "url": "https://www.myrepublica.nagariknetwork.com/news/nepal-earns-record-rs-2932-billion-from-electricity-exports-in-fy-202526-21-57.html",
+    "source": "Republica (NEA data)",
+    "tier": 4,
+    "corroboration": "Corroborated",
+    "countries": [
+      "NPL"
+    ],
+    "flags": "🇳🇵",
+    "tags": [
+      "Energy"
+    ],
+    "score": 68
+  },
+  {
+    "id": "ny-eo-62-hyperscale-moratorium",
+    "date": "2026-07-14",
+    "title": "Hochul EO 62: New York pauses DEC permits for data centers ≥50 MW until a GEIS lands",
+    "summary": "On 14 July 2026 Governor Kathy Hochul signed Executive Order No. 62, the first statewide data-center permitting pause. The order recites nearly 12 GW of data-center load in the NYISO interconnection queue as of May 2026, more than 8 GW of it added in 2025. Until DPS files a final Generic Environmental Impact Statement and findings under SEQRA, DEC must hold in abeyance discretionary permits for construction or expansion of a \"data center\" that were not already deemed complete — defined as a facility that consumes or can consume 50 MW or more, with manufacturing, research (including Empire AI), education, and medical-care sites carved out. Local-government permits are not paused. DPS must run the GEIS through Case 26-E-0045 (Energize NY / large-load interconnection); ESD has 60 days to post a Community Investment Framework; DEC has twelve months to report on water-withdrawal rules. The press release called this a one-year pause; the order itself lasts until the GEIS lands, with no statutory clock. This is a state conversion gate on NYISO-side load, not a campus FID. Dylan Patel pointed at it on 25 August as the policy drag on US supply; the primary is the EO.",
+    "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+    "source": "State of New York",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Policy",
+      "Stall",
+      "Energy"
+    ],
+    "score": 91
+  },
+  {
+    "id": "uae-rule-a5",
+    "date": "2026-07-14",
+    "title": "The UAE gets a named lane in US export law, with an April 2027 sting attached",
+    "summary": "Federal Register rule 91 FR 43034 moves the UAE to Country Group A:5 and names approved entities, while G42 and Core42's license-free status expires April 6, 2027 unless they become US companies. The template for compute diplomacy, and its price, in one document.",
+    "url": "https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration",
+    "source": "US Federal Register",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "ARE",
+      "USA"
+    ],
+    "flags": "🇦🇪🇺🇸",
+    "tags": [
+      "Policy"
+    ],
+    "score": 94
+  },
+  {
+    "id": "kazakhstan-ekibastuz",
+    "date": "2026-06-15",
+    "title": "Kazakhstan signs $10B with NVIDIA and Firebird for a gigawatt-scale Data Center Valley at Ekibastuz",
+    "summary": "300 MW rising toward 1 GW and 100,000 GPUs on coal-basin power, with a stated $3 billion per year export ambition. In its officials' words: transforming Ekibastuz coal into digital export revenue.",
+    "url": "https://timesca.com/kazakhstan-and-u-s-ai-companies-sign-agreements-worth-10-billion/",
+    "source": "Times of Central Asia",
+    "tier": 4,
+    "corroboration": "Corroborated",
+    "countries": [
+      "KAZ"
+    ],
+    "flags": "🇰🇿",
+    "tags": [
+      "Build",
+      "Capital"
+    ],
+    "score": 72
+  },
+  {
+    "id": "reliance-meta-jamnagar",
+    "date": "2026-06-10",
+    "title": "Meta signs its first India AI datacenter deal: a 168 MW JV inside Reliance's Jamnagar campus",
+    "summary": "Part of Reliance's stated $110 billion AI plan, with 120+ MW already live in H2 2026. The largest private-sector compute bet in the Global South acquires an anchor tenant.",
+    "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+    "source": "TechCrunch",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "IND"
+    ],
+    "flags": "🇮🇳",
+    "tags": [
+      "Build",
+      "Capital"
+    ],
+    "score": 80
+  },
+  {
+    "id": "huang-taipei-pricing",
+    "date": "2026-06-01",
+    "title": "Huang at GTC Taipei: AI factories at $50-60B per GW now, $80-100B per GW soon",
+    "summary": "The clearest 2026 restatement of the price of compute capacity, and the basis for this index's ceiling band. Every token is revenue, per Huang; every watt is now priced accordingly.",
+    "url": "https://siliconangle.com/2026/06/01/five-thoughts-nvidia-ceo-jensen-huangs-gtc-taipei-2026-keynote/",
+    "source": "SiliconANGLE",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "TWN"
+    ],
+    "flags": "🇹🇼",
+    "tags": [
+      "Pricing"
+    ],
+    "score": 76
+  },
+  {
+    "id": "gao-export-ruling",
+    "date": "2026-05-12",
+    "title": "GAO rules the US chip-export non-enforcement posture procedurally defective",
+    "summary": "Decision B-337935 holds that the May 2025 non-enforcement announcement was itself a rule that was never submitted to Congress. The legal floor under most emerging markets' GPU access is officially contested.",
+    "url": "https://www.gao.gov/products/b-337935",
+    "source": "US GAO (primary)",
+    "tier": 1,
+    "corroboration": "Confirmed",
+    "countries": [
+      "USA"
+    ],
+    "flags": "🇺🇸",
+    "tags": [
+      "Policy"
+    ],
+    "score": 93
+  },
+  {
+    "id": "kenya-stall",
+    "date": "2026-05-07",
+    "title": "Microsoft and G42's Kenya campus stalls for lack of power",
+    "summary": "Chips were available; electricity was not. The clearest single data point that energy, not silicon, is the binding constraint on the global buildout.",
+    "url": "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/",
+    "source": "Data Center Dynamics",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "KEN"
+    ],
+    "flags": "🇰🇪",
+    "tags": [
+      "Build",
+      "Stall"
+    ],
+    "score": 75
+  },
+  {
+    "id": "stargate-uk-pause",
+    "date": "2026-04-20",
+    "title": "Stargate UK pauses over energy costs",
+    "summary": "The flagship western sovereign deal, 31,000 GPUs planned, halts on power prices while the North East AI Growth Zone still advertises 1.1 GW. Readiness without affordable electrons has a ceiling of its own.",
+    "url": "https://datacentremagazine.com/news/stargate-uk-why-is-openai-halting-ai-data-centre-project",
+    "source": "Data Centre Magazine",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "GBR"
+    ],
+    "flags": "🇬🇧",
+    "tags": [
+      "Stall"
+    ],
+    "score": 70
+  },
+  {
+    "id": "microsoft-nscale-narvik",
+    "date": "2026-04-15",
+    "title": "Microsoft contracts 30,000 Rubin GPUs at Nscale's hydro-powered Narvik site",
+    "summary": "Stargate Norway's capacity finds a hyperscale offtaker above the Arctic Circle. Cold, cheap, firm power keeps winning the contracts that latency arguments said it could not.",
+    "url": "https://www.datacenterdynamics.com/en/news/microsoft-contracts-30000-nvidia-rubin-gpus-from-nscale-at-data-center-in-narvik-norway/",
+    "source": "Data Center Dynamics",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "NOR"
+    ],
+    "flags": "🇳🇴",
+    "tags": [
+      "Build"
+    ],
+    "score": 78
+  },
+  {
+    "id": "scala-5gw-approval",
+    "date": "2026-03-15",
+    "title": "Brazil approves a 5 GW grid connection for Scala's AI City",
+    "summary": "Eldorado do Sul's campus gets state sign-off for up to 4.75 GW of planned capacity, roughly $50 billion, with phase one operational. Latin America's largest compute project is now also its most grid-real.",
+    "url": "https://datacentremagazine.com/data-centres/scala-data-centers-ai-city-secures-5-gw-approval-in-brazil",
+    "source": "Data Centre Magazine",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "BRA"
+    ],
+    "flags": "🇧🇷",
+    "tags": [
+      "Build"
+    ],
+    "score": 74
+  },
+  {
+    "id": "bytedance-pecem",
+    "date": "2026-01-20",
+    "title": "ByteDance begins construction on a ~$39B campus at Pecém with a 20-year wind PPA",
+    "summary": "300 MW first phase toward roughly 1 GW in Ceará, wind-fired and export-oriented. The largest Chinese AI-infrastructure project abroad is rising in Brazil.",
+    "url": "https://www.datacenterdynamics.com/en/news/casa-dos-ventos-granted-approval-to-construct-tiktok-backed-300mw-data-center-in-brazil-report/",
+    "source": "Data Center Dynamics",
+    "tier": 3,
+    "corroboration": "Corroborated",
+    "countries": [
+      "BRA"
+    ],
+    "flags": "🇧🇷",
+    "tags": [
+      "Build"
+    ],
+    "score": 72
+  },
+  {
+    "id": "paraguay-investment-grade",
+    "date": "2025-12-17",
+    "title": "S&P lifts Paraguay to investment grade, joining Moody's",
+    "summary": "BBB- lands on the country holding the index's largest redirectable power surplus relative to size, roughly 40 TWh a year currently exported at commodity prices. Capital access arrives before the compute does.",
+    "url": "https://www.bloomberg.com/news/articles/2025-12-17/s-p-lifts-paraguay-rating-to-investment-grade-joining-moody-s",
+    "source": "Bloomberg",
+    "tier": 2,
+    "corroboration": "Confirmed",
+    "countries": [
+      "PRY"
+    ],
+    "flags": "🇵🇾",
+    "tags": [
+      "Capital"
+    ],
+    "score": 84
+  }
+]
