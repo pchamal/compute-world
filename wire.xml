@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Firmus locks OpenAI as Malaysia AI Factory anchor — portfolio contracted capacity tops 900 MW</title>
+    <link>https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia</link>
+    <guid isPermaLink="false">compute.world/wire#firmus-openai-malaysia-ai-factories-2026-09-08</guid>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 8 September 2026 Firmus announced a multi-year partnership under which OpenAI will contract dedicated AI compute from two Firmus AI Factory sites in Malaysia, making OpenAI an anchor customer. Firmus says total contracted capacity across customers now exceeds 900 MW. Its portfolio spans seven AI factories across Australia, Singapore, Indonesia and Malaysia (two operational today; five under development targeting ready-for-service within ~24 months). The Malaysia sites will use NVIDIA DSX with Vera Rubin NVL72 rack-scale systems integrated into Firmus HyperCube (prefab liquid-cooling/electrification from regional NSW). Firmus did not disclose Malaysia-site MW or contract value; Reuters separately noted Malaysia’s rapid DC buildout and electricity/water scrutiny. Country conversion: OpenAI-branded capacity path into Malaysia. [Signal 84, Reuters 8 Sep 2026 (Firmus–OpenAI Malaysia deal; contracted capacity &gt;900 MW; Vera Rubin; portfolio AUS/SGP + five under development). Business Times Singapore same-day. NVIDIA quote on Firmus PR (DSX / Vera Rubin NVL72)., via Firmus] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Stargate Korea stalls: Samsung SDS and SKT say sites, power, and funding still unset a year after MOU</title>
     <link>https://www.koreajoongangdaily.com/business/openais-stargate-project-in-korea-stuck-at-starting-gate-as-samsung-sk-report-little-progress/12856484</link>
     <guid isPermaLink="false">compute.world/wire#stargate-korea-samsung-sk-stall-2026-09-07</guid>
@@ -66,6 +73,13 @@
     <guid isPermaLink="false">compute.world/wire#us-commerce-remote-access-ai-compute-draft-2026-08-31</guid>
     <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
     <description>Late August 2026 reporting (Forbes 31 Aug; TechTimes 29 Aug citing The Information) says Trump Commerce/BIS is preparing an export-control draft that would treat remote rental of advanced AI GPUs as controlled access, aimed at Chinese firms using third-country data centers such as Thailand and Singapore, with industry draft circulation possible as early as September. The House already passed the Remote Access Security Act (H.R. 2683) in January; the Senate has not. Export-control bar commentary notes BIS’s statutory remote-access authority is weak until RASA clears. This is a Policy/Stall conversion signal on usable FLOPs geography, not a published final rule. [Signal 72, Corroborated, via Forbes / TechTimes / Congress.gov H.R.2683] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>MISO files FERC large-load interconnection reliability rules — &gt;50 MW sites, ≥25 MW IT “computational loads,” Dec 4 ask</title>
+    <link>https://www.utilitydive.com/news/large-load-reliability-requirements-miso-ferc/829278/</link>
+    <guid isPermaLink="false">compute.world/wire#miso-large-load-irr-er26-3650-2026-08-28</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
+    <description>On 28 August 2026 Midcontinent Independent System Operator filed tariff revisions at FERC (docket ER26-3650; accession 20260828-5278) proposing interconnection reliability requirements for large loads. Utility Dive (1 Sep) and MISO materials define large loads as &gt;50 MW and create a computational-load subclass (≥25 MW of IT demand) with visibility/forecast, PMU, ramp, and ride-through obligations for transmission customers serving those sites, plus grandfathering for existing/near-complete arrangements. MISO asked for a 4 December 2026 effective date and said further large-load filings (transmission products, cost-shift protections) are due by 16 November — part of its response to FERC’s mid-June Section 206 show-cause orders on large-load interconnection. Country conversion: Midcontinent US grid now has a filed AI/data-center-specific reliability rulebook awaiting FERC action. [Signal 86, FERC eLibrary accession 20260828-5278 (MISO IRR tariff filing). MISO Large Load Interconnection Reliability Requirements dashboard. mgrid.org 2 Sep explainer on 50 MW / 25 MW IT thresholds and Dec 4 ask., via Utility Dive / MISO FERC filing ER26-3650] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>PUCT unanimously approves Oncor 765-kV Import Path 1 CCNs (~424 mi, ~$3.95B)</title>
@@ -199,19 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#pax-silica-pick-sides</guid>
     <pubDate>Fri, 14 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 14 August 2026 Reuters reported an undated State Department draft, reviewed with a US official, warning the 35 June AI Opportunity Statement signatories they will be dropped from the US-led AI coalition if they also join a competing framework. The draft says Pax Silica “is not merely a membership subscription, but a commitment” and “cannot be held alongside membership in duplicative initiatives”; Reuters names Kazakhstan as the only known dual member. This is a chip-access/export-alignment signal, not a GW print — and it is still a draft. State declined to comment on leaked internals; send date unconfirmed. [Signal 63, Single-source, via Reuters] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>L&amp;T × Together AI: 10,000 B300s at Chennai, India’s largest cluster, ₹10–15k crore</title>
-    <link>https://www.thehindubusinessline.com/companies/lt-secures-ai-data-centre-order-worth-up-to-15000-crore/article71339801.ece</link>
-    <guid isPermaLink="false">compute.world/wire#lt-together-chennai-factory</guid>
-    <pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 13 August 2026 Larsen &amp; Toubro said LTN Compute / Vyoma.AI won a ₹10,000–15,000 crore ($1.05–1.57 billion) order from Together AI for a 10,000-GPU NVIDIA B300 factory at its Chennai campus — L&amp;T’s stated largest single-cluster AI deployment in India. L&amp;T’s own statement, reprinted on the company newswire, sizes the campus as gigawatt-scale with Phase 1 at 250 MW and 150 MVA of power readiness. This is India’s conversion print for the window: a named cluster, a rupee ticket, and a megawatt envelope on Indian soil. [Signal 84, Confirmed, via Reuters / The Hindu Business Line] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estonia, Finland</title>
-    <link>https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf</link>
-    <guid isPermaLink="false">compute.world/wire#nebius-5gw-contracted-2026</guid>
-    <pubDate>Wed, 12 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Nebius’s 12 August 2026 shareholder letter raised year-end 2026 contracted power — defined as secured land and power commitments, not connected megawatts — to 5 GW, from +4 GW last quarter, and said it plans to deploy more than 1 GW per year starting in 2027. Q2 group revenue was $582.3 million (+454% YoY); AI cloud $574.9 million; ARR $3.0 billion; Q2 capex about $5.7 billion. Four landmark deals averaged more than $1 billion TCV and $20–25 million per MW; Q3 short-duration capacity is priced in the $40–50 million per MW range, with the first such deal signed. New 2026 sites listed include the UK, Estonia and Finland plus US states. Contracted 5 GW is a European/US conversion clock, not a named Welsh MW print. [Signal 82, Confirmed, via Nebius IR] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
