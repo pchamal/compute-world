@@ -324,6 +324,25 @@ details.why li{margin:4px 0}
 .chart svg.narrow .tick text{font-size:13px}
 .chart svg.narrow .lbl{font-size:13px}
 .multiples{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 20px;margin-top:4px}
+/* Top Democratic Sleeping Giants */
+.dsg{margin-top:0}
+.dsg-list{list-style:none;margin:4px 0 0;padding:0}
+.dsg-list li{border-bottom:1px solid var(--line-2)}
+.dsg-list li:last-child{border-bottom:0}
+.dsg-row{display:grid;grid-template-columns:36px 28px minmax(0,1.2fr) auto minmax(88px,0.6fr) minmax(72px,0.45fr);gap:12px;align-items:center;padding:12px 4px;color:inherit;text-decoration:none}
+.dsg-row:hover{background:var(--panel-2);text-decoration:none}
+.dsg-row .ord{font-weight:600;color:var(--ink-3);text-align:right}
+.dsg-row .name{font-weight:600;min-width:0}
+.dsg-row .unlock,.dsg-row .ready{display:flex;flex-direction:column;align-items:flex-end;line-height:1.2;font-variant-numeric:tabular-nums;font-weight:600}
+.dsg-row .unlock small,.dsg-row .ready small{font-size:11px;font-weight:500;color:var(--ink-3);margin-top:2px}
+.dsg .chart-head .side{font-size:14px;color:var(--ink-3);white-space:nowrap}
+@media (max-width:720px){
+  .dsg-row{grid-template-columns:28px 24px minmax(0,1fr) auto;gap:8px 10px;padding:12px 2px}
+  .dsg-row .unlock{grid-column:3;justify-self:start;align-items:flex-start}
+  .dsg-row .ready{grid-column:4;grid-row:2;align-items:flex-end}
+  .dsg-row .tier{grid-column:4;grid-row:1;justify-self:end}
+}
+
 .multiple h4{margin:0 0 4px;font-size:14px;font-weight:600;display:flex;align-items:center;gap:8px}
 .multiple h4 small{font-weight:400;color:var(--ink-3)}
 .scrub{display:flex;align-items:center;gap:12px;margin-top:12px;font-size:13.5px;color:var(--ink-2)}
@@ -643,7 +662,8 @@ dialog.sheet::backdrop{background:rgba(15,18,22,.5)}
       <div class="scrub"><span>As of</span><input type="range" id="rzScrub" min="0" max="1" value="1" step="1" aria-label="Snapshot date"><b id="rzDate"></b></div>
       <p class="caption" id="rzCaption"></p>
     </div>
-    <div class="chart wide">
+    <div class="chart wide dsg" id="democratic-sleeping-giants"><div class="chart-head"><div><h3>Top Democratic Sleeping Giants</h3><p>Sleeping Giant tier and Democracy class, ranked by unlockable value. Democracy is shown on the Method stack but unweighted in readiness, on purpose.</p></div><div class="side">8 countries</div></div><ol class="dsg-list"><li><a class="dsg-row" href="country/argentina/"><span class="ord">1</span><img class="flag" src="flags/ar.svg" alt="" width="24" height="18" loading="lazy"><span class="name">Argentina</span><span class="tier tier-SG">Sleeping Giant</span><span class="unlock">$1.9T<small>Unlockable</small></span><span class="ready">61%<small>Readiness</small></span></a></li><li><a class="dsg-row" href="country/namibia/"><span class="ord">2</span><img class="flag" src="flags/na.svg" alt="" width="24" height="18" loading="lazy"><span class="name">Namibia</span><span class="tier tier-SG">Sleeping Giant</span><span class="unlock">$776B<small>Unlockable</small></span><span class="ready">63%<small>Readiness</small></span></a></li><li><a class="dsg-row" href="country/mongolia/"><span class="ord">3</span><img class="flag" src="flags/mn.svg" alt="" width="24" height="18" loading="lazy"><span class="name">Mongolia</span><span class="tier tier-SG">Sleeping Giant</span><span class="unlock">$724B<small>Unlockable</small></span><span class="ready">53%<small>Readiness</small></span></a></li><li><a class="dsg-row" href="country/south-africa/"><span class="ord">4</span><img class="flag" src="flags/za.svg" alt="" width="24" height="18" loading="lazy"><span class="name">South Africa</span><span class="tier tier-SG">Sleeping Giant</span><span class="unlock">$695B<small>Unlockable</small></span><span class="ready">64%<small>Readiness</small></span></a></li><li><a class="dsg-row" href="country/colombia/"><span class="ord">5</span><img class="flag" src="flags/co.svg" alt="" width="24" height="18" loading="lazy"><span class="name">Colombia</span><span class="tier tier-SG">Sleeping Giant</span><span class="unlock">$618B<small>Unlockable</small></span><span class="ready">63%<small>Readiness</small></span></a></li><li><a class="dsg-row" href="country/nepal/"><span class="ord">6</span><img class="flag" src="flags/np.svg" alt="" width="24" height="18" loading="lazy"><span class="name">Nepal</span><span class="tier tier-SG">Sleeping Giant</span><span class="unlock">$535B<small>Unlockable</small></span><span class="ready">56%<small>Readiness</small></span></a></li><li><a class="dsg-row" href="country/guyana/"><span class="ord">7</span><img class="flag" src="flags/gy.svg" alt="" width="24" height="18" loading="lazy"><span class="name">Guyana</span><span class="tier tier-SG">Sleeping Giant</span><span class="unlock">$261B<small>Unlockable</small></span><span class="ready">45%<small>Readiness</small></span></a></li><li><a class="dsg-row" href="country/paraguay/"><span class="ord">8</span><img class="flag" src="flags/py.svg" alt="" width="24" height="18" loading="lazy"><span class="name">Paraguay</span><span class="tier tier-SG">Sleeping Giant</span><span class="unlock">$183B<small>Unlockable</small></span><span class="ready">54%<small>Readiness</small></span></a></li></ol></div>
+<div class="chart wide">
       <div class="chart-head"><div><h3>What an hour of silicon costs</h3><p>Same scale across the three, so the eye can compare. Dated prints, same venue, same term. Steps, not candles.</p></div></div>
       <div class="multiples" id="multiples"></div>
     </div>

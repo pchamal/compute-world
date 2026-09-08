@@ -325,6 +325,7 @@ def countries_payload(model, wire, history):
             "slug": slugify(c["name"]),
             "wiki": wiki_url(c["name"]),
             "flag": (c.get("iso2") or "").lower(),
+            "democracy": c.get("dem3") or c.get("eiu_class") or "",
         })
     rows.sort(key=lambda r: (-r["unlock"], r["name"]))
     for i, r in enumerate(rows, 1):

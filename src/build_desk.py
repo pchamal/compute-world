@@ -118,11 +118,46 @@ def map_svg():
         return f.read().strip()
 
 
+
+def democratic_sleeping_giants(countries, root=""):
+    """Sleeping Giant tier × Democracy class, ranked by unlockable."""
+    rows = [
+        c for c in countries
+        if c.get("tier") == "SG" and c.get("democracy") == "Democracy"
+    ]
+    rows.sort(key=lambda c: (-c["unlock"], c["name"]))
+    if not rows:
+        return ""
+    items = []
+    for i, c in enumerate(rows, 1):
+        items.append(
+            f'<li><a class="dsg-row" href="{root}country/{esc(c["slug"])}/">'
+            f'<span class="ord">{i}</span>'
+            f'{flag_img(c, root)}'
+            f'<span class="name">{esc(c["name"])}</span>'
+            f'<span class="tier tier-SG">Sleeping Giant</span>'
+            f'<span class="unlock">{fmt_b(c["unlock"])}<small>Unlockable</small></span>'
+            f'<span class="ready">{round(c["readiness"] * 100)}%<small>Readiness</small></span>'
+            f'</a></li>'
+        )
+    return (
+        '<div class="chart wide dsg" id="democratic-sleeping-giants">'
+        '<div class="chart-head"><div>'
+        '<h3>Top Democratic Sleeping Giants</h3>'
+        '<p>Sleeping Giant tier and Democracy class, ranked by unlockable value. '
+        'Democracy is shown on the Method stack but unweighted in readiness, on purpose.</p>'
+        '</div>'
+        f'<div class="side">{len(rows)} countries</div></div>'
+        f'<ol class="dsg-list">{"".join(items)}</ol>'
+        '</div>'
+    )
+
 def homepage(data, css, app_js, rail, svg):
     asof = data["config"]["asOf"]
     countries = data["countries"]
     chips = data["chips"]
     top10 = sorted(countries, key=lambda c: c["rank"])[:10]
+    dsg_block = democratic_sleeping_giants(countries, "")
     jsonld = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
@@ -258,6 +293,7 @@ def homepage(data, css, app_js, rail, svg):
       <div class="scrub"><span>As of</span><input type="range" id="rzScrub" min="0" max="1" value="1" step="1" aria-label="Snapshot date"><b id="rzDate"></b></div>
       <p class="caption" id="rzCaption"></p>
     </div>
+    {dsg_block}
     <div class="chart wide">
       <div class="chart-head"><div><h3>What an hour of silicon costs</h3><p>Same scale across the three, so the eye can compare. Dated prints, same venue, same term. Steps, not candles.</p></div></div>
       <div class="multiples" id="multiples"></div>
