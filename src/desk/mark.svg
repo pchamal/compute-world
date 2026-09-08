@@ -1,115 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="compute.world binary earth">
-  <title>compute.world</title>
-  <style>
-    .bg { fill: #F3F5F2; }
-    .fg { fill: #1B222A; stroke: #1B222A; }
-    text { fill: #1B222A; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 6.2px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }
-    @media (prefers-color-scheme: dark) {
-      .bg { fill: #0F1216; }
-      .fg { fill: #E9EDF1; stroke: #E9EDF1; }
-      text { fill: #E9EDF1; }
-    }
-  </style>
-  <defs><clipPath id="disc"><circle cx="32" cy="32" r="26.2"/></clipPath></defs>
-  <rect class="bg" width="64" height="64" rx="14"/>
-  <circle class="fg" cx="32" cy="32" r="27" fill="none" stroke-width="1.6"/>
-  <ellipse class="fg" cx="32" cy="32" rx="13" ry="27" fill="none" stroke-width="0.55" opacity=".45"/>
-  <ellipse class="fg" cx="32" cy="32" rx="22" ry="27" fill="none" stroke-width="0.45" opacity=".32"/>
-  <line class="fg" x1="5.2" y1="32" x2="58.8" y2="32" stroke-width="0.45" opacity=".32"/>
-  <g clip-path="url(#disc)">
-  <text x="16.8" y="50.0">1</text>
-    <text x="19.6" y="50.0">0</text>
-    <text x="23.9" y="50.0">0</text>
-    <text x="29.2" y="50.0">0</text>
-    <text x="34.8" y="50.0">1</text>
-    <text x="40.1" y="50.0">0</text>
-    <text x="44.4" y="50.0">0</text>
-    <text x="47.2" y="50.0">0</text>
-    <text x="13.4" y="46.2">1</text>
-    <text x="15.8" y="46.2">1</text>
-    <text x="19.4" y="46.2">0</text>
-    <text x="24.0" y="46.2">0</text>
-    <text x="29.3" y="46.2">0</text>
-    <text x="34.7" y="46.2">0</text>
-    <text x="40.0" y="46.2">0</text>
-    <text x="44.6" y="46.2">1</text>
-    <text x="48.2" y="46.2">0</text>
-    <text x="50.6" y="46.2">0</text>
-    <text x="10.9" y="41.8">1</text>
-    <text x="13.2" y="41.8">1</text>
-    <text x="16.7" y="41.8">1</text>
-    <text x="21.3" y="41.8">0</text>
-    <text x="26.4" y="41.8">0</text>
-    <text x="32.0" y="41.8">0</text>
-    <text x="37.6" y="41.8">1</text>
-    <text x="42.7" y="41.8">1</text>
-    <text x="47.3" y="41.8">1</text>
-    <text x="50.8" y="41.8">1</text>
-    <text x="53.1" y="41.8">1</text>
-    <text x="9.3" y="37.0">1</text>
-    <text x="11.5" y="37.0">1</text>
-    <text x="14.8" y="37.0">0</text>
-    <text x="19.0" y="37.0">0</text>
-    <text x="23.9" y="37.0">0</text>
-    <text x="29.3" y="37.0">1</text>
-    <text x="34.7" y="37.0">0</text>
-    <text x="40.1" y="37.0">1</text>
-    <text x="45.0" y="37.0">1</text>
-    <text x="49.2" y="37.0">1</text>
-    <text x="52.5" y="37.0">1</text>
-    <text x="54.7" y="37.0">1</text>
-    <text x="8.8" y="32.0">1</text>
-    <text x="11.0" y="32.0">1</text>
-    <text x="14.4" y="32.0">0</text>
-    <text x="18.7" y="32.0">0</text>
-    <text x="23.7" y="32.0">1</text>
-    <text x="29.2" y="32.0">1</text>
-    <text x="34.8" y="32.0">1</text>
-    <text x="40.3" y="32.0">1</text>
-    <text x="45.3" y="32.0">1</text>
-    <text x="49.6" y="32.0">1</text>
-    <text x="53.0" y="32.0">1</text>
-    <text x="55.2" y="32.0">1</text>
-    <text x="9.3" y="27.0">1</text>
-    <text x="11.5" y="27.0">1</text>
-    <text x="14.8" y="27.0">0</text>
-    <text x="19.0" y="27.0">0</text>
-    <text x="23.9" y="27.0">0</text>
-    <text x="29.3" y="27.0">1</text>
-    <text x="34.7" y="27.0">1</text>
-    <text x="40.1" y="27.0">1</text>
-    <text x="45.0" y="27.0">1</text>
-    <text x="49.2" y="27.0">1</text>
-    <text x="52.5" y="27.0">1</text>
-    <text x="54.7" y="27.0">1</text>
-    <text x="10.9" y="22.2">1</text>
-    <text x="13.2" y="22.2">1</text>
-    <text x="16.7" y="22.2">1</text>
-    <text x="21.3" y="22.2">0</text>
-    <text x="26.4" y="22.2">1</text>
-    <text x="32.0" y="22.2">1</text>
-    <text x="37.6" y="22.2">1</text>
-    <text x="42.7" y="22.2">1</text>
-    <text x="47.3" y="22.2">1</text>
-    <text x="50.8" y="22.2">1</text>
-    <text x="53.1" y="22.2">1</text>
-    <text x="13.4" y="17.8">1</text>
-    <text x="15.8" y="17.8">1</text>
-    <text x="19.4" y="17.8">0</text>
-    <text x="24.0" y="17.8">0</text>
-    <text x="29.3" y="17.8">1</text>
-    <text x="34.7" y="17.8">1</text>
-    <text x="40.0" y="17.8">1</text>
-    <text x="44.6" y="17.8">1</text>
-    <text x="48.2" y="17.8">1</text>
-    <text x="50.6" y="17.8">1</text>
-    <text x="16.8" y="14.0">1</text>
-    <text x="19.6" y="14.0">0</text>
-    <text x="23.9" y="14.0">0</text>
-    <text x="29.2" y="14.0">1</text>
-    <text x="34.8" y="14.0">1</text>
-    <text x="40.1" y="14.0">1</text>
-    <text x="44.4" y="14.0">1</text>
-    <text x="47.2" y="14.0">1</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Compute.World">
+  <title>Compute.World</title>
+  <defs>
+    <radialGradient id="orbCore" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#B8F0E0"/>
+      <stop offset="28%" stop-color="#3D9BE8"/>
+      <stop offset="62%" stop-color="#1F6FBF"/>
+      <stop offset="100%" stop-color="#0B3D6E"/>
+    </radialGradient>
+    <radialGradient id="landHaze" cx="55%" cy="58%" r="55%">
+      <stop offset="0%" stop-color="#6FD6A0" stop-opacity=".85"/>
+      <stop offset="45%" stop-color="#2FAE7A" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#1A7A5A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="atmGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" stop-color="#7EC8FF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#A8E0FF" stop-opacity=".55"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.1"/>
+    </filter>
+    <filter id="haze" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.4"/>
+    </filter>
+    <clipPath id="disc"><circle cx="32" cy="32" r="24"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#F3F5F2"/>
+  <circle cx="32" cy="32" r="27" fill="#A8D4F0" opacity=".35" filter="url(#haze)"/>
+  <circle cx="32" cy="32" r="24" fill="url(#orbCore)"/>
+  <g clip-path="url(#disc)" filter="url(#soft)">
+    <ellipse cx="22" cy="26" rx="10" ry="7" fill="url(#landHaze)"/>
+    <ellipse cx="40" cy="38" rx="12" ry="9" fill="url(#landHaze)" opacity=".9"/>
+    <ellipse cx="30" cy="44" rx="14" ry="6" fill="#4CBF8A" opacity=".35"/>
+    <ellipse cx="44" cy="22" rx="7" ry="5" fill="#8EE0B8" opacity=".4"/>
   </g>
+  <circle cx="32" cy="32" r="24" fill="url(#atmGlow)"/>
+  <ellipse cx="24" cy="22" rx="9" ry="5" fill="#FFFFFF" opacity=".28" filter="url(#soft)"/>
+  <circle cx="32" cy="32" r="24.6" fill="none" stroke="#5BA8E0" stroke-width="1.2" opacity=".45"/>
 </svg>

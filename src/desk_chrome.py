@@ -8,7 +8,8 @@ reaches every existing surface.
 from html import escape as esc
 
 SITE = "https://compute.world"
-TAGLINE = "Countries. Compute."
+TAGLINE = "Countries. Compute."  # footer / share only; sticky header shows Compute.World alone
+BRAND_NAME = "Compute.World"
 CITE_HOUSE = "compute.world · Compute Net Worth Index"
 
 NAV = [
@@ -164,7 +165,7 @@ def masthead(root, as_of, current=None, home="index.html"):
     )
     return f'''<div class="chrome">
 <header class="masthead"><div class="wrap">
-  <a class="brand" href="{brand_href}">{mark}<b>compute.world</b><span>{TAGLINE}</span></a>
+  <a class="brand" href="{brand_href}">{mark}<b>{BRAND_NAME}</b></a>
   <nav class="nav" aria-label="Sections">{"".join(links)}
     <details class="more"><summary>More <svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></summary>
       <div class="menu">
