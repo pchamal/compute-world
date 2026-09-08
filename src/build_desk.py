@@ -157,6 +157,7 @@ def homepage(data, css, app_js, rail, svg):
     countries = data["countries"]
     chips = data["chips"]
     top10 = sorted(countries, key=lambda c: c["rank"])[:10]
+    dsg_block = democratic_sleeping_giants(countries, "")
     jsonld = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
