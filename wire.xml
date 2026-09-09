@@ -26,6 +26,13 @@
     <description>On 5 September 2026 TCS subsidiary HyperVault announced it has secured 264 acres in Hyderabad (Telangana) to develop a phased AI data-center campus of up to 1 GW, purpose-built for frontier AI and hyperscaler GPU training/inference with liquid cooling and high rack density. HyperVault and partners expect to invest up to ₹70,000 crore (~$7.4B per Reuters) to build and manage the infrastructure; Telangana Chief Minister A. Revanth Reddy publicly framed a June 2, 2028 inauguration target. TPG remains the named strategic capital partner from the earlier HyperVault raise. Conversion signal: India land + GW ceiling + state partnership are live; power offtake (PPA), EPC, and hyperscaler contracts were not disclosed in the press release. [Signal 88, Confirmed, via TCS / HyperVault press release] More: https://compute.world/wire.html</description>
   </item>
   <item>
+    <title>ERCOT issues Batch Zero conditional classifications to TSPs/DSPs — late vs Aug 31 clock</title>
+    <link>https://www.ercot.com/services/comm/mkt_notices/M-A080326-04</link>
+    <guid isPermaLink="false">compute.world/wire#ercot-batch-zero-conditional-classifications-2026-09-03</guid>
+    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 3 September 2026 at 15:55 CT, ERCOT Market Notice M-A080326-04 notified interconnecting TSPs/DSPs of provisional Batch Zero classifications for submitted Large Loads. Classifications may be conditional on ILLE verification, curing dynamic-model deficiencies, or a PUCT good-cause exception; failure to satisfy a condition may disqualify the load. ERCOT will not seek a GCE for every requested load. Reclassification disputes (base→studied) run under Planning Guide §9.3.1(2)(a) with a two-business-day TSP/DSP notify clock. No public MW list or names were published. Follows M-A080326-03 (31 Aug) delay past the PUCT-authorized 31 Aug conditional-classify target. Country conversion: Texas large-load study path unfreezes into a conditional, dispute-gated Batch Zero. [Signal 88, Primary ERCOT notice. Context: M-A080326-03 delay (31 Aug); PUCT Project 59142 GCE order (20 Aug); Texas Dispatch 4 Sep on Sep 11 Project 58481 permanent large-load rule vote., via ERCOT Market Notice M-A080326-04] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>OPSB dockets AEP Baku–Gavin 765 kV (~51 mi, ~$1.1B) for PORTS-Pike — local hearing Oct 27</title>
     <link>https://opsb.ohio.gov/cases/26-0426-el-btx</link>
     <guid isPermaLink="false">compute.world/wire#opsb-aep-baku-gavin-765kv-26-0426-2026-09</guid>
@@ -206,12 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#nvidia-ports-pike-ohio</guid>
     <pubDate>Mon, 17 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 17 August 2026 NVIDIA’s 8-K locked residual-value guaranties with SB Energy for ~4.25 IT-GW at the PORTS Technology Campus in Pike County, Ohio, cumulatively capped at $105 billion, with ready-for-service expected from 2028. The SEC-filed press release adds a $1.5 billion equity check into SB Energy, exclusive NVIDIA compute, a 20-year OpenAI lease, an option on the remaining ~3.75–3.8 IT-GW (press vs 8-K), plus 10 GW of new generation and a $4.2 billion AEP Ohio grid package that SB Energy/SoftBank say yields 8 IT-GW. This restates US conversion as land-power-shell finance: NVIDIA is now underwriting the campus, not just selling the stack. [Signal 97, Confirmed, via SEC] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Draft State letter: Pax Silica / AI Opportunity signatories must pick sides vs China</title>
-    <link>https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/</link>
-    <guid isPermaLink="false">compute.world/wire#pax-silica-pick-sides</guid>
-    <pubDate>Fri, 14 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 14 August 2026 Reuters reported an undated State Department draft, reviewed with a US official, warning the 35 June AI Opportunity Statement signatories they will be dropped from the US-led AI coalition if they also join a competing framework. The draft says Pax Silica “is not merely a membership subscription, but a commitment” and “cannot be held alongside membership in duplicative initiatives”; Reuters names Kazakhstan as the only known dual member. This is a chip-access/export-alignment signal, not a GW print — and it is still a draft. State declined to comment on leaked internals; send date unconfirmed. [Signal 63, Single-source, via Reuters] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
