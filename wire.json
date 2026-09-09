@@ -1,9 +1,29 @@
 {
   "name": "The Wire · compute.world",
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "license": "CC BY 4.0 with attribution to compute.world; summaries are original, headlines link to sources.",
   "methodology": "Signal Score 0-100 = 40% source tier + 30% corroboration + 20% specificity + 10% delivery context. See wire.html for the full method.",
   "items": [
+    {
+      "id": "ercot-batch-zero-conditional-classifications-2026-09-03",
+      "date": "2026-09-03",
+      "title": "ERCOT issues Batch Zero conditional classifications to TSPs/DSPs — late vs Aug 31 clock",
+      "summary": "On 3 September 2026 at 15:55 CT, ERCOT Market Notice M-A080326-04 notified interconnecting TSPs/DSPs of provisional Batch Zero classifications for submitted Large Loads. Classifications may be conditional on ILLE verification, curing dynamic-model deficiencies, or a PUCT good-cause exception; failure to satisfy a condition may disqualify the load. ERCOT will not seek a GCE for every requested load. Reclassification disputes (base→studied) run under Planning Guide §9.3.1(2)(a) with a two-business-day TSP/DSP notify clock. No public MW list or names were published. Follows M-A080326-03 (31 Aug) delay past the PUCT-authorized 31 Aug conditional-classify target. Country conversion: Texas large-load study path unfreezes into a conditional, dispute-gated Batch Zero.",
+      "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-04",
+      "source": "ERCOT Market Notice M-A080326-04",
+      "tier": 1,
+      "corroboration": "Primary ERCOT notice. Context: M-A080326-03 delay (31 Aug); PUCT Project 59142 GCE order (20 Aug); Texas Dispatch 4 Sep on Sep 11 Project 58481 permanent large-load rule vote.",
+      "countries": [
+        "USA"
+      ],
+      "flags": [],
+      "tags": [
+        "Policy",
+        "Energy",
+        "Build"
+      ],
+      "score": 88
+    },
     {
       "id": "firmus-openai-malaysia-ai-factories-2026-09-08",
       "date": "2026-09-08",

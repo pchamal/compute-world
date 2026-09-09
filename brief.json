@@ -1,27 +1,27 @@
 {
-  "updated": "2026-09-08",
-  "title": "Compute brief — 8 September 2026",
-  "description": "OpenAI anchors Firmus Malaysia AI Factories as Firmus contracted capacity clears 900 MW; MISO’s large-load reliability tariff lands at FERC. Silicon Tape mostly flat — Lambda H100 $3.99 / B200 $6.69; one CoreWeave L40S spot tick.",
-  "og_kicker": "Malaysia conversion, Midcontinent rules",
-  "lede": "Today’s conversion lead is Southeast Asia, not the rental book. Firmus announced a multi-year deal for OpenAI to take dedicated capacity at two Malaysia AI Factory sites — pushing Firmus’ contracted portfolio above 900 MW across seven factories in Australia, Singapore, Indonesia and Malaysia, with Vera Rubin NVL72 via NVIDIA DSX + HyperCube. Separately, MISO’s Aug 28 FERC filing (ER26-3650) puts Midcontinent large loads (>50 MW; computational loads ≥25 MW IT) under proposed visibility, PMU, ramp and ride-through rules with a Dec 4 effective ask. The Silicon Tape is another confirm morning: Lambda H100 $3.99 and B200 $6.69 unchanged; the only list tick is CoreWeave L40S spot $0.99→$0.98.",
+  "updated": "2026-09-09",
+  "title": "Compute brief — 9 September 2026",
+  "description": "ERCOT drops Batch Zero conditional classifications (M-A080326-04); PUCT permanent large-load rule (Project 58481) votes Thursday. Silicon Tape confirm day — Lambda H100 $3.99 / B200 $6.69; three NEW list prints, zero ticks.",
+  "og_kicker": "Texas Batch Zero classifies; tape flat",
+  "lede": "The conversion clock today is Texas process, not the rental book. ERCOT’s 3 Sep Market Notice M-A080326-04 finally issued Batch Zero conditional classifications to TSPs/DSPs — three days after the PUCT-authorized 31 Aug target — with verification, dynamic-model cures, and selective good-cause exceptions as the gates, and still no public MW list. Thursday’s PUCT open meeting (11 Sep) is set to take up the permanent ≥75 MW interconnection rule under Project 58481 (staff’s 3 Sep recommended final order cuts post-reservation deposit forfeiture from 80% to 20%) alongside 765 kV transmission items. The Silicon Tape is a clean confirm morning: Lambda H100 $3.99 and B200 $6.69 unchanged; three NEW list prints (Crusoe A100 PCIe $2.00; DigitalOcean RTX 6000 Ada $1.57 and RTX 4000 Ada $0.76); zero ticks.",
   "countries": [
+    {
+      "id": "usa-ercot-batch-zero",
+      "name": "United States / Texas",
+      "slug": "united-states",
+      "note": "ERCOT M-A080326-04 (3 Sep): Batch Zero conditional classifications issued to TSPs/DSPs. PUCT Project 58481 permanent large-load rule on 11 Sep agenda; 59336 Howard–Solstice still HOLD."
+    },
     {
       "id": "mys-firmus-openai",
       "name": "Malaysia",
       "slug": "malaysia",
-      "note": "Firmus–OpenAI (8 Sep): two Malaysia AI Factory sites; OpenAI anchor; Firmus contracted capacity >900 MW portfolio-wide. Site MW and contract $ undisclosed; power/water scrutiny remains the local constraint."
+      "note": "Firmus–OpenAI (8 Sep) still the live SEA print: two Malaysia AI Factory sites; OpenAI anchor; Firmus contracted capacity >900 MW portfolio-wide. Site MW and contract $ still undisclosed."
     },
     {
       "id": "usa-miso-irr",
       "name": "United States / MISO",
       "slug": "united-states",
-      "note": "MISO IRR tariff at FERC ER26-3650 (filed 28 Aug): >50 MW large loads; ≥25 MW IT computational loads; Dec 4 effective ask; more filings by Nov 16. Howard–Solstice 59336 still HOLD."
-    },
-    {
-      "id": "ind-hypervault",
-      "name": "India / Telangana",
-      "slug": "india",
-      "note": "TCS HyperVault (5 Sep) still the live India campus print: 264 acres Hyderabad, up to 1 GW, ≤₹70,000 crore with partners; June 2028 inauguration ask. PPA/EPC/offtake unpublished."
+      "note": "MISO IRR tariff at FERC ER26-3650 (filed 28 Aug): >50 MW large loads; ≥25 MW IT computational loads; Dec 4 effective ask; more filings by Nov 16. FERC stakeholder replies on RTO show-cause answers due 16 Sep."
     }
   ],
   "silicon": [
@@ -31,10 +31,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-08",
+      "as_of": "2026-09-09",
       "prev_usd": 6.69,
       "delta": "0% 1Q",
-      "note": "Display: Lambda OD 8× SXM6. Confirm vs 7 Sep. 1Q is 0% (21 May/9 Jun $6.69)."
+      "note": "Display: Lambda OD 8× SXM6. Confirm vs 8 Sep. 1Q is 0% (21 May/9 Jun $6.69)."
     },
     {
       "id": "nvidia-h100-sxm-80gb",
@@ -42,27 +42,35 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-08",
+      "as_of": "2026-09-09",
       "prev_usd": 3.99,
       "delta": "0% 1Q",
       "note": "Lambda OD $3.99 confirm. CoreWeave OD $6.16 / spot ~$2.46; DO OD $4.41 / 12m $3.26."
     },
     {
-      "id": "nvidia-l40s-48gb",
-      "name": "L40S 48GB",
-      "display_usd": 2.25,
-      "venue": "CoreWeave",
+      "id": "google-tpu-v5e",
+      "name": "TPU v5e",
+      "display_usd": 1.2,
+      "venue": "GCP",
       "term": "on-demand",
-      "as_of": "2026-09-08",
-      "prev_usd": 2.25,
-      "delta": "spot tick",
-      "note": "Only tape tick today: CoreWeave L40S spot $0.99→$0.98 (instance $7.88/8). OD $2.25 unchanged."
+      "as_of": "2026-09-09",
+      "prev_usd": 1.2,
+      "delta": "0%",
+      "note": "GCP list us-central1 OD $1.20 / 1y $0.84 / 3y $0.54 confirm. NEW elsewhere: Crusoe A100 PCIe $2.00; DO RTX 6000 Ada $1.57."
     }
   ],
   "watch": [
     {
+      "name": "PUCT Project 58481",
+      "note": "Permanent ≥75 MW large-load interconnection rule — Item on 11 Sep open meeting; staff 3 Sep order cuts forfeiture 80%→20%."
+    },
+    {
       "name": "PUCT 59336 Howard–Solstice",
-      "note": "Still HOLD for final CCN order after Aug 28 oral args; replies window noted into early Sep."
+      "note": "Still HOLD for final CCN order after Aug 28 oral args."
+    },
+    {
+      "name": "ERCOT Batch Zero disputes",
+      "note": "Two-business-day TSP/DSP notify; §9.3.1 dispute forms; watch first public MW/name leak or energization restart."
     },
     {
       "name": "OPSB 26-0426-EL-BTX",
@@ -73,30 +81,26 @@
       "note": "FERC action on large-load IRR before Dec 4 ask; follow-on filings by Nov 16."
     },
     {
-      "name": "Firmus Malaysia MW/PPA",
-      "note": "PR left site MW, grid interconnect, and contract $ blank — first filing flips specificity."
-    },
-    {
-      "name": "Stargate Korea site/power",
-      "note": "Any Samsung SDS or SKT site+MW disclosure would flip the 7 Sep Stall."
-    },
-    {
-      "name": "HyperVault Hyderabad power",
-      "note": "Watch for PPA / state open-access filing before treating 1 GW as deliverable."
+      "name": "FERC show-cause replies",
+      "note": "Stakeholder comments on RTO large-load show-cause answers due 16 Sep (EL26-67..72)."
     }
   ],
   "sources": [
     {
+      "name": "ERCOT M-A080326-04",
+      "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-04"
+    },
+    {
+      "name": "Texas Dispatch / PUCT 58481",
+      "url": "https://thetexasdispatch.com/puct-large-load-interconnection-rule-25194-deposit-forfeit-september-11/"
+    },
+    {
+      "name": "PUCT open meetings",
+      "url": "https://www.puc.texas.gov/agency/calendar/agendas/Default.aspx"
+    },
+    {
       "name": "Firmus",
       "url": "https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia"
-    },
-    {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/"
-    },
-    {
-      "name": "Utility Dive / MISO",
-      "url": "https://www.utilitydive.com/news/large-load-reliability-requirements-miso-ferc/829278/"
     },
     {
       "name": "Lambda pricing",
@@ -105,6 +109,22 @@
     {
       "name": "CoreWeave pricing",
       "url": "https://www.coreweave.com/pricing"
+    },
+    {
+      "name": "Crusoe pricing",
+      "url": "https://www.crusoe.ai/cloud/pricing"
+    },
+    {
+      "name": "DigitalOcean GPU Droplets",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
+    },
+    {
+      "name": "GCP TPU pricing",
+      "url": "https://cloud.google.com/tpu/pricing"
+    },
+    {
+      "name": "AWS Capacity Blocks",
+      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/"
     }
   ]
 }
