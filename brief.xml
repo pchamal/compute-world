@@ -2,34 +2,34 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>The conversion clock today is Texas process, not the rental book. ERCOT’s 3 Sep Market Notice M-A080326-04 finally issued Batch Zero conditional classifications to TSPs/DSPs — three days after the PUCT-authorized 31 Aug target — with verification, dynamic-model cures, and selective good-cause exceptions as the gates, and still no public MW list. Thursday’s PUCT open meeting (11 Sep) is set to take up the permanent ≥75 MW interconnection rule under Project 58481 (staff’s 3 Sep recommended final order cuts post-reservation deposit forfeiture from 80% to 20%) alongside 765 kV transmission items. The Silicon Tape is a clean confirm morning: Lambda H100 $3.99 and B200 $6.69 unchanged; three NEW list prints (Crusoe A100 PCIe $2.00; DigitalOcean RTX 6000 Ada $1.57 and RTX 4000 Ada $0.76); zero ticks.</description>
+  <description>The conversion clock is still Texas process, now with a named campus print. Tomorrow’s PUCT open meeting (11 Sep) takes up Project 58481 — the permanent ≥75 MW large-load interconnection rule — with staff’s 3 Sep recommended final order cutting post-reservation deposit forfeiture from 80% to 20% while keeping the $50k/MW security, and three 765 kV transmission items on the same agenda. Separately, IREN’s 8 Sep GlobeNewswire release put the 2 GW Sweetwater Hub (1,400 MW + 600 MW) into ERCOT Batch Zero as conditional Base Load — the first major named campus disclosure after ERCOT’s 3 Sep classifications notice. The Silicon Tape is another clean confirm morning: Lambda H100 $3.99 and B200 $6.69 unchanged across 56 re-read list prints; CoreWeave spot rows not visible in today’s static HTML.</description>
   <language>en</language>
   <item>
-    <title>Compute brief — 9 September 2026</title>
+    <title>Compute brief — 10 September 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-09-09</guid>
-    <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
-    <description>The conversion clock today is Texas process, not the rental book. ERCOT’s 3 Sep Market Notice M-A080326-04 finally issued Batch Zero conditional classifications to TSPs/DSPs — three days after the PUCT-authorized 31 Aug target — with verification, dynamic-model cures, and selective good-cause exceptions as the gates, and still no public MW list. Thursday’s PUCT open meeting (11 Sep) is set to take up the permanent ≥75 MW interconnection rule under Project 58481 (staff’s 3 Sep recommended final order cuts post-reservation deposit forfeiture from 80% to 20%) alongside 765 kV transmission items. The Silicon Tape is a clean confirm morning: Lambda H100 $3.99 and B200 $6.69 unchanged; three NEW list prints (Crusoe A100 PCIe $2.00; DigitalOcean RTX 6000 Ada $1.57 and RTX 4000 Ada $0.76); zero ticks. Countries: United States / Texas: ERCOT M-A080326-04 (3 Sep): Batch Zero conditional classifications issued to TSPs/DSPs. PUCT Project 58481 permanent large-load rule on 11 Sep agenda; 59336 Howard–Solstice still HOLD. Malaysia: Firmus–OpenAI (8 Sep) still the live SEA print: two Malaysia AI Factory sites; OpenAI anchor; Firmus contracted capacity &gt;900 MW portfolio-wide. Site MW and contract $ still undisclosed. United States / MISO: MISO IRR tariff at FERC ER26-3650 (filed 28 Aug): &gt;50 MW large loads; ≥25 MW IT computational loads; Dec 4 effective ask; more filings by Nov 16. FERC stakeholder replies on RTO show-cause answers due 16 Sep.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-09-10</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>The conversion clock is still Texas process, now with a named campus print. Tomorrow’s PUCT open meeting (11 Sep) takes up Project 58481 — the permanent ≥75 MW large-load interconnection rule — with staff’s 3 Sep recommended final order cutting post-reservation deposit forfeiture from 80% to 20% while keeping the $50k/MW security, and three 765 kV transmission items on the same agenda. Separately, IREN’s 8 Sep GlobeNewswire release put the 2 GW Sweetwater Hub (1,400 MW + 600 MW) into ERCOT Batch Zero as conditional Base Load — the first major named campus disclosure after ERCOT’s 3 Sep classifications notice. The Silicon Tape is another clean confirm morning: Lambda H100 $3.99 and B200 $6.69 unchanged across 56 re-read list prints; CoreWeave spot rows not visible in today’s static HTML. Countries: United States / Texas: PUCT Project 58481 permanent large-load rule on 11 Sep agenda (Item 24). Staff order: $50k/MW deposit; forfeiture 80%→20% after reservation; full refund pre-study; interconnection fee removed. United States / Texas: IREN Sweetwater 2 GW (1.4 GW + 0.6 GW) conditionally Base Load in ERCOT Batch Zero (8 Sep PR). 300 MW gross under construction at SW1; Q4 2027 target. Still conditional. United States / Texas: ERCOT M-A080326-04 (3 Sep) still the process print: conditional classifications to TSPs/DSPs; no public MW list. Verification/audit path continues. Malaysia: Firmus–OpenAI (8 Sep) still the live SEA print: two Malaysia AI Factory sites; &gt;900 MW contracted portfolio-wide.</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#nvidia-b200-sxm6</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-09/nvidia-b200-sxm6</guid>
-    <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 09 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 8 Sep. 1Q is 0% (21 May/9 Jun $6.69).</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-10/nvidia-b200-sxm6</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 10 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 9 Sep. 1Q is 0% (same $6.69 print).</description>
   </item>
   <item>
     <title>H100 SXM 80GB · $3.99 on-demand</title>
     <link>https://compute.world/brief#nvidia-h100-sxm-80gb</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-09/nvidia-h100-sxm-80gb</guid>
-    <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 09 Sep 2026. Lambda OD $3.99 confirm. CoreWeave OD $6.16 / spot ~$2.46; DO OD $4.41 / 12m $3.26.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-10/nvidia-h100-sxm-80gb</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 10 Sep 2026. Lambda OD $3.99 confirm. CoreWeave OD $6.16; DO OD $4.41 / 12m $3.26. Spots not re-fetched today.</description>
   </item>
   <item>
     <title>TPU v5e · $1.20 on-demand</title>
     <link>https://compute.world/brief#google-tpu-v5e</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-09/google-tpu-v5e</guid>
-    <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
-    <description>TPU v5e: display $1.20 on-demand at GCP as of 09 Sep 2026. GCP list us-central1 OD $1.20 / 1y $0.84 / 3y $0.54 confirm. NEW elsewhere: Crusoe A100 PCIe $2.00; DO RTX 6000 Ada $1.57.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-10/google-tpu-v5e</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>TPU v5e: display $1.20 on-demand at GCP as of 10 Sep 2026. GCP list us-central1 OD $1.20 / 1y $0.84 / 3y $0.54 confirm. Ironwood OD $12.00 / Trillium OD $2.70 also confirm.</description>
   </item>
 </channel></rss>
