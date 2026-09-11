@@ -12,7 +12,9 @@ from desk_chrome import MARKET_THEME_CSS
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 W = json.load(open(os.path.join(ROOT, "wire.json")))
-items = sorted(W["items"], key=lambda x: x["date"], reverse=True)
+WIRE_ITEMS = W if isinstance(W, list) else (W.get("items") or [])
+items = sorted(WIRE_ITEMS, key=lambda x: x["date"], reverse=True)
+UPDATED = (W.get("updated") if isinstance(W, dict) else None) or (items[0]["date"] if items else "")
 
 TIER_LABEL = {1: "Primary", 2: "Wire / major", 3: "Trade press", 4: "Regional", 5: "Aggregator"}
 def score_label(s): return "Strong" if s >= 80 else "Solid" if s >= 60 else "Developing" if s >= 40 else "Weak"
@@ -52,7 +54,7 @@ PAGE = f'''<!DOCTYPE html>
 <meta name="theme-color" content="#F3F5F2">
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>The Wire · Sovereign AI &amp; Compute Infrastructure News, Rated · compute.world</title>
-<meta name="description" content="Rated signals on sovereign AI and compute infrastructure: country announcements, AI factory buildouts, chip policy, and compute capital, each scored for credibility. Updated {W["updated"]}.">
+<meta name="description" content="Rated signals on sovereign AI and compute infrastructure: country announcements, AI factory buildouts, chip policy, and compute capital, each scored for credibility. Updated {UPDATED}.">
 <link rel="canonical" href="https://compute.world/wire.html">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {og_block("The Wire · compute news, rated",
@@ -154,7 +156,7 @@ details.meth .mb b{{color:var(--ink)}}
 <div class="wrap">
   <div class="masthead">
     <div class="name"><a href="/"><b>COMPUTE</b>.WORLD</a></div>
-    <div class="sub">The Wire · Sovereign AI &amp; compute signals, rated · Updated {W["updated"]}</div>
+    <div class="sub">The Wire · Sovereign AI &amp; compute signals, rated · Updated {UPDATED}</div>
     <div class="mastrule"></div>
   </div>
 
@@ -231,4 +233,4 @@ RSS = f'''<?xml version="1.0" encoding="UTF-8"?>
   <language>en</language>{rss_items}
 </channel></rss>'''
 open(os.path.join(ROOT, "wire.xml"), "w").write(RSS)
-print(f"wire.html + wire.xml generated: {len(items)} items, updated {W['updated']}")
+print(f"wire.html + wire.xml generated: {len(items)} items, updated {UPDATED}")

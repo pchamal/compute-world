@@ -5,6 +5,20 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Chinese AI chipmakers raise Ascend/Cambricon indicated prices as HBM shortage bites</title>
+    <link>https://www.reuters.com/world/asia-pacific/chinas-ai-chipmakers-raise-prices-high-bandwidth-memory-shortage-bites-2026-09-10/</link>
+    <guid isPermaLink="false">compute.world/wire#china-ai-chipmakers-hbm-price-hikes-2026-09-10</guid>
+    <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 10 September 2026, Reuters reported (exclusive, three people familiar) that Huawei lifted the indicated price of its Ascend 950DT accelerator card to above 250,000 yuan (~$37,255) — 20–50% above quotes from two months earlier — with Q4 2026 availability previously stated by Huawei. Cambricon’s planned 690 chip was indicated 20–30% higher; MetaX and Iluvatar CoreX made similar moves, sources said. Ascend 950PR rose to &gt;80,000 yuan from ~60,000 earlier in 2026; Ascend 910C to &gt;110,000 from ~90,000. Drivers cited: advanced-HBM export curbs since Dec 2024 and grey-market HBM costs feeding into finished cards. Companies did not comment. Country conversion: domestic China AI accelerator economics reprice under HBM scarcity — a Pricing/Stall print on national compute substitution. [Signal 74, Reuters exclusive 10 Sep (anonymous sources). No company confirmation. Context: US advanced-HBM export controls since Dec 2024., via Reuters] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>NVIDIA names eight Australian partners for up to 2 GW DSX AI-factory buildout by 2027</title>
+    <link>https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem</link>
+    <guid isPermaLink="false">compute.world/wire#nvidia-australia-2gw-dsx-partners-2026-09-09</guid>
+    <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 9 September 2026, NVIDIA announced collaboration with Australian NVIDIA Cloud Partners and infrastructure operators Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC and AirTrunk to expand land, power and powered-shell capacity for NVIDIA DSX AI factories — targeting up to a 2-gigawatt buildout by 2027. Partners operate the factories; NVIDIA supplies DSX platform, accelerated computing, networking and software. Named campus color includes IREN’s 800 MW Bundey (South Australia) and CDC’s &gt;550 MW operating ANZ footprint with a further 800 MW under construction. No programme-wide capex figure or per-site energization schedule in the release. Country conversion: Australia gets an explicit national-scale AI-factory MW target tied to named operators, still gated by power delivery. [Signal 88, Primary NVIDIA Newsroom (9 Sep). Reuters Sydney 10 Sep; GlobeNewswire syndicate; techAU / TNW secondary., via NVIDIA Newsroom] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>IREN Sweetwater 2 GW hub conditionally classified Base Load in ERCOT Batch Zero</title>
     <link>https://www.globenewswire.com/news-release/2026/09/08/3357498/0/en/iren-s-2gw-sweetwater-hub-included-as-base-load-in-ercot-batch-zero.html</link>
     <guid isPermaLink="false">compute.world/wire#iren-sweetwater-2gw-base-load-batch-zero-2026-09-08</guid>
@@ -199,19 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#china-h200-limited-landings</guid>
     <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 19 August 2026 the Financial Times, as reprinted by Business Standard, reported that ByteDance and Tencent have each received about 10,000 NVIDIA H200 processors in recent weeks, with a few other Chinese groups queued for similar-sized shipments. Chinese regulators have told companies they may ship H200s to Hong Kong (outside mainland customs) and use them there; Beijing still wants most volume kept off the mainland to protect domestic chipmakers. The reprint cites two conflicting per-customer US caps — FT’s 100,000 vs Reuters’ 75,000 under Commerce licensing — and says purchases still need NDRC approval. NVIDIA has about 500,000 H200s in stock mainly for Chinese customers; Blackwell remains banned. This is a dual-sovereign policy print: US licence is no longer the only gate. [Signal 64, Single-source, via Financial Times / Business Standard] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Shapiro EO 2026-05: Pennsylvania gates data centers &gt;25 MW behind a GRID consent order</title>
-    <link>https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/eo2026_05_protecting%20pennsylvania%20consumers%20from%20data%20center%20impacts_final_executed.pdf</link>
-    <guid isPermaLink="false">compute.world/wire#pa-eo-2026-05</guid>
-    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 18 August 2026 Governor Josh Shapiro signed Executive Order 2026-05, effective immediately. DEP’s template Consent Order and Agreement is required for any data center with peak demand over 25 MW; signers get rolling permit review only after local comprehensive-plan consistency and all municipal approvals. Non-signers wait until local approvals and water/wastewater authorizations are in hand, with no rolling issuance and exclusion from PAyback and the Permit Decision Guarantee. The Computer Data Center Equipment sales-and-use exemption is tied to GRID. The Office of Transformation and Opportunity must remove existing data-center projects from the PA Permit Fast Track Program and bar new ones. NDAs on data-center projects are impermissible for agencies under the Governor’s jurisdiction. Recitals cite 20 DEP permit applications, 14 active exemption certificates, PJM’s 74 GW summer-peak growth through 2045, and $29.4 billion / 46% of the last four PJM capacity-auction costs attributed to data centers. This is a state conversion gate on PJM-side load, not a campus FID. [Signal 90, Confirmed, via Commonwealth of Pennsylvania] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Amazon lifts northwest Louisiana to $18B and a third STACK campus in Shreveport</title>
-    <link>https://www.aboutamazon.com/news/company-news/amazon-data-center-louisiana-new-jobs</link>
-    <guid isPermaLink="false">compute.world/wire#amazon-stack-louisiana-18b</guid>
-    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 18 August 2026 Amazon updated its February campus note: planned investment in northwest Louisiana rises from $12 billion to $18 billion with a third planned campus in Shreveport, across Caddo and Bossier Parishes. STACK Infrastructure is developer and owner of all three campuses. Amazon says it will pay 100% of new energy infrastructure and grid upgrades with SWEPCO, and up to $400 million in public water infrastructure funded by Amazon, not ratepayers. Fully built, the three campuses are expected to create up to 750 full-time Amazon data-center jobs and support 2,500 additional positions; STACK cites up to 2,250 construction jobs. IT megawatts are not disclosed on the Amazon page. Distinct from the already-wired Pecos GW Ranch site. [Signal 68, Single-source, via Amazon] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
