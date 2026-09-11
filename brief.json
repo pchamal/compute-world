@@ -1,33 +1,33 @@
 {
-  "updated": "2026-09-10",
-  "title": "Compute brief \u2014 10 September 2026",
-  "description": "PUCT Project 58481 permanent \u226575 MW rule votes tomorrow; IREN Sweetwater 2 GW lands Base Load in Batch Zero. Silicon Tape confirm day \u2014 Lambda H100 $3.99 / B200 $6.69; 56 confirms, 0 ticks.",
-  "og_kicker": "58481 tomorrow; Sweetwater Base Load",
-  "lede": "The conversion clock is still Texas process, now with a named campus print. Tomorrow\u2019s PUCT open meeting (11 Sep) takes up Project 58481 \u2014 the permanent \u226575 MW large-load interconnection rule \u2014 with staff\u2019s 3 Sep recommended final order cutting post-reservation deposit forfeiture from 80% to 20% while keeping the $50k/MW security, and three 765 kV transmission items on the same agenda. Separately, IREN\u2019s 8 Sep GlobeNewswire release put the 2 GW Sweetwater Hub (1,400 MW + 600 MW) into ERCOT Batch Zero as conditional Base Load \u2014 the first major named campus disclosure after ERCOT\u2019s 3 Sep classifications notice. The Silicon Tape is another clean confirm morning: Lambda H100 $3.99 and B200 $6.69 unchanged across 56 re-read list prints; CoreWeave spot rows not visible in today\u2019s static HTML.",
+  "updated": "2026-09-11",
+  "title": "Compute brief \u2014 11 September 2026",
+  "description": "NVIDIA Australia up-to-2 GW DSX partner slate; China AI chip indicated prices jump on HBM squeeze. PUCT 58481 still on today\u2019s open-meeting clock. Silicon Tape confirm day \u2014 Lambda H100 $3.99 / B200 $6.69; 56 confirms, 0 ticks.",
+  "og_kicker": "AUS 2 GW slate; CHN HBM squeeze",
+  "lede": "Conversion prints landed outside Texas overnight while Austin\u2019s permanent \u226575 MW rule is still on the morning clock. NVIDIA\u2019s 9 Sep Newsroom release named eight Australian partners (Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC, AirTrunk) for up to 2 GW of DSX AI-factory capacity by 2027 \u2014 a national MW target tied to named operators, still power-gated. Separately, Reuters (10 Sep) reported Chinese AI chipmakers including Huawei and Cambricon lifting indicated accelerator prices 20\u201350% as grey-market HBM costs bite after Dec 2024 advanced-HBM export curbs. In Texas, PUCT Project 58481 (staff\u2019s 3 Sep recommended adoption of new 16 TAC \u00a725.194: $50k/MW security, forfeiture cut 80%\u219220%, interconnection fee removed) remains Item 24 on the 11 Sep open meeting; Interchange showed no 11 Sep adoption filing as of this morning\u2019s scrape. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 56 re-read list prints.",
   "countries": [
+    {
+      "id": "aus-nvidia-2gw",
+      "name": "Australia",
+      "slug": "australia",
+      "note": "NVIDIA 9 Sep: up to 2 GW DSX AI factories by 2027 with eight named AU partners. IREN Bundey 800 MW cited; CDC >550 MW live + 800 MW under construction. No programme capex."
+    },
+    {
+      "id": "chn-hbm-price",
+      "name": "China",
+      "slug": "china",
+      "note": "Reuters 10 Sep exclusive: Huawei Ascend 950DT indicated >\u00a5250k (20\u201350% up vs two months); Cambricon 690 +20\u201330%. HBM scarcity / grey market after Dec 2024 US controls. Unconfirmed by companies."
+    },
     {
       "id": "usa-puct-58481",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "PUCT Project 58481 permanent large-load rule on 11 Sep agenda (Item 24). Staff order: $50k/MW deposit; forfeiture 80%\u219220% after reservation; full refund pre-study; interconnection fee removed."
+      "note": "PUCT 58481 on 11 Sep agenda (Item 24). Staff order still the live text; no Interchange adoption stamp yet as of morning scrape (~8:50am PT)."
     },
     {
       "id": "usa-iren-sweetwater",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "IREN Sweetwater 2 GW (1.4 GW + 0.6 GW) conditionally Base Load in ERCOT Batch Zero (8 Sep PR). 300 MW gross under construction at SW1; Q4 2027 target. Still conditional."
-    },
-    {
-      "id": "usa-ercot-batch-zero",
-      "name": "United States / Texas",
-      "slug": "united-states",
-      "note": "ERCOT M-A080326-04 (3 Sep) still the process print: conditional classifications to TSPs/DSPs; no public MW list. Verification/audit path continues."
-    },
-    {
-      "id": "mys-firmus-openai",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Firmus\u2013OpenAI (8 Sep) still the live SEA print: two Malaysia AI Factory sites; >900 MW contracted portfolio-wide."
+      "note": "IREN Sweetwater 2 GW still conditional Base Load in ERCOT Batch Zero (8 Sep PR). Verification/audit path continues."
     }
   ],
   "silicon": [
@@ -37,10 +37,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "prev_usd": 6.69,
       "delta": "0% 1Q",
-      "note": "Display: Lambda OD 8\u00d7 SXM6. Confirm vs 9 Sep. 1Q is 0% (same $6.69 print)."
+      "note": "Display: Lambda OD 8\u00d7 SXM6. Confirm vs 10 Sep. 1Q is 0% (same $6.69 print)."
     },
     {
       "id": "nvidia-h100-sxm-80gb",
@@ -48,10 +48,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "prev_usd": 3.99,
       "delta": "0% 1Q",
-      "note": "Lambda OD $3.99 confirm. CoreWeave OD $6.16; DO OD $4.41 / 12m $3.26. Spots not re-fetched today."
+      "note": "Lambda OD $3.99 confirm. CoreWeave OD instance\u00f78 still $6.155; DO OD $4.41 / 12m $3.26. Spots not in static HTML today."
     },
     {
       "id": "google-tpu-v5e",
@@ -59,7 +59,7 @@
       "display_usd": 1.2,
       "venue": "GCP",
       "term": "on-demand",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "prev_usd": 1.2,
       "delta": "0%",
       "note": "GCP list us-central1 OD $1.20 / 1y $0.84 / 3y $0.54 confirm. Ironwood OD $12.00 / Trillium OD $2.70 also confirm."
@@ -68,68 +68,72 @@
   "watch": [
     {
       "name": "PUCT Project 58481",
-      "note": "Permanent \u226575 MW rule \u2014 vote 11 Sep open meeting; watch adoption text vs staff 20% forfeiture cut."
+      "note": "Watch Interchange for 11 Sep adoption order vs staff 20% forfeiture cut; Texas Register effective date."
     },
     {
       "name": "PUCT 59336 Howard\u2013Solstice",
-      "note": "Still HOLD for final CCN order after Aug 28 oral args."
+      "note": "Still on Sep 11 agenda clock after Aug 28 delay; watch final CCN order."
+    },
+    {
+      "name": "Australia 2 GW power path",
+      "note": "NVIDIA slate is partners + MW target \u2014 watch firm gen/interconnect and first campus energization schedules."
+    },
+    {
+      "name": "China HBM grey market",
+      "note": "Reuters price print is indicated/source-based \u2014 watch any Huawei/Cambricon list confirmation or further export-control moves."
     },
     {
       "name": "IREN Sweetwater verification",
-      "note": "Conditional Base Load \u2014 watch dynamic-model cures, Abbott audit RFI, and any public MW allocation leak."
+      "note": "Conditional Base Load \u2014 dynamic-model cures, Abbott audit RFI, public MW allocation."
     },
     {
-      "name": "ERCOT Batch Zero disputes",
-      "note": "\u00a79.3.1 dispute forms; first public name/MW list beyond company self-reports."
-    },
-    {
-      "name": "OPSB 26-0426-EL-BTX",
-      "note": "Baku\u2013Gavin local hearing 27 Oct; PORTS-Pike grid hinge."
-    },
-    {
-      "name": "FERC show-cause replies",
-      "note": "Stakeholder comments on RTO large-load show-cause answers due 16 Sep (EL26-67..72)."
+      "name": "Microsoft 38 GW plan",
+      "note": "Bloomberg/Reuters 10\u201311 Sep: ~12\u219238 GW by 2032 (unconfirmed by MSFT). CapEx path, not a Wire conversion print."
     }
   ],
   "sources": [
     {
-      "name": "IREN / GlobeNewswire Sweetwater Base Load",
-      "url": "https://www.globenewswire.com/news-release/2026/09/08/3357498/0/en/iren-s-2gw-sweetwater-hub-included-as-base-load-in-ercot-batch-zero.html"
+      "label": "NVIDIA Newsroom \u2014 Australia DSX partners",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem"
     },
     {
-      "name": "Texas Dispatch / PUCT 58481",
+      "label": "Reuters \u2014 China AI chip price hikes / HBM",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-ai-chipmakers-raise-prices-high-bandwidth-memory-shortage-bites-2026-09-10/"
+    },
+    {
+      "label": "Reuters \u2014 Microsoft 38 GW by 2032 (Bloomberg)",
+      "url": "https://www.reuters.com/business/microsoft-plans-38-gigawatts-data-center-capacity-by-2032-bloomberg-news-reports-2026-09-10/"
+    },
+    {
+      "label": "PUCT Interchange \u2014 Project 58481",
+      "url": "https://interchange.puc.texas.gov/Search/Filings?ControlNumber=58481"
+    },
+    {
+      "label": "Texas Dispatch \u2014 58481 vote preview",
       "url": "https://thetexasdispatch.com/puct-large-load-interconnection-rule-25194-deposit-forfeit-september-11/"
     },
     {
-      "name": "PUCT Interchange 58481",
-      "url": "https://interchange.puc.texas.gov/search/filings/?UtilityType=A&ControlNumber=58481&ItemMatch=Equal&DocumentType=ALL"
-    },
-    {
-      "name": "ERCOT M-A080326-04",
-      "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-04"
-    },
-    {
-      "name": "Lambda pricing",
+      "label": "Lambda pricing",
       "url": "https://lambda.ai/pricing"
     },
     {
-      "name": "CoreWeave pricing",
+      "label": "CoreWeave pricing",
       "url": "https://www.coreweave.com/pricing"
     },
     {
-      "name": "Crusoe pricing",
+      "label": "Crusoe cloud pricing",
       "url": "https://www.crusoe.ai/cloud/pricing"
     },
     {
-      "name": "DigitalOcean GPU Droplets",
+      "label": "DigitalOcean GPU droplets",
       "url": "https://www.digitalocean.com/pricing/gpu-droplets"
     },
     {
-      "name": "GCP TPU pricing",
+      "label": "GCP TPU pricing",
       "url": "https://cloud.google.com/tpu/pricing"
     },
     {
-      "name": "AWS Capacity Blocks",
+      "label": "AWS Capacity Blocks pricing",
       "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/"
     }
   ]
