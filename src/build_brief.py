@@ -73,8 +73,8 @@ si_rows = "".join(silicon_row(r) for r in B["silicon"])
 co_lis = "".join(country_li(r) for r in B["countries"])
 wa_lis = "".join(watch_li(r) for r in B["watch"])
 src_lis = "".join(
-    f'<li><a href="{html.escape(s["url"])}" rel="noopener">{html.escape(s["name"])}</a>'
-    f' — {html.escape(s.get("note") or "")}</li>'
+    f'<li><a href="{html.escape(s["url"])}" rel="noopener">{html.escape(s.get("label") or s.get("name") or s["url"])}</a>'
+    f'{(" — " + html.escape(s["note"])) if s.get("note") else ""}</li>'
     for s in B["sources"]
 )
 

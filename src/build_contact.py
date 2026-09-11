@@ -7,7 +7,17 @@ from seo import og_block
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-ASOF = "2026-09-07"
+def _brief_asof():
+    for path in (os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "brief.json"),
+                 os.path.join(os.path.dirname(os.path.abspath(__file__)), "brief.json")):
+        if os.path.isfile(path):
+            import json
+            with open(path, encoding="utf-8") as f:
+                return json.load(f).get("updated") or "2026-09-07"
+    return "2026-09-07"
+
+
+ASOF = _brief_asof()
 CITE = cite_line("The Desk", f"{SITE}/contact.html", ASOF)
 
 PAGE = f'''<!DOCTYPE html>

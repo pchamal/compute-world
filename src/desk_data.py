@@ -544,7 +544,11 @@ def assemble():
     hist = load_json("silicon-history.json", {"points": []})
     ranks = load_json("rank-history.json", {"snapshots": []})
     brief = load_json("brief.json", {})
-    wire = load_json("wire.json", {"items": []}).get("items") or []
+    _wire = load_json("wire.json", {"items": []})
+    if isinstance(_wire, list):
+        wire = _wire
+    else:
+        wire = (_wire.get("items") if isinstance(_wire, dict) else None) or []
     countries, snap_dates = countries_payload(model, wire, ranks)
     if not snap_dates:
         snap_dates = [FIRST_SNAPSHOT]
