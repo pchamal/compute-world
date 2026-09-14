@@ -25,6 +25,7 @@ og.png          homepage unfurl card (the world's compute & silicon index)
 og-silicon.png  Silicon Tape unfurl card
 og-brief.png    daily-tape unfurl card
 llms.txt        plain-language guide for AI agents
+physical-stack.html  credited eight-layer outline (MTS Intelligence)
 robots.txt, sitemap.xml
 functions/      Cloudflare Pages Functions (POST /api/subscribe)
 src/            the model and build scripts (Python)
@@ -63,6 +64,10 @@ edit `params.json`, commit, done.
 - **Campuses globe:** edit `campuses.json`, then `python3 src/build_campuses.py`.
   Do not invent cities, MW, ranks, or statuses. Every pin is the JSON. Grain stays
   on the pin. Empty regions and empty small-MW filters are coverage holes, not bugs.
+- **Physical stack (credited):** `python3 src/build_physical_stack.py` writes
+  `/physical-stack.html`. Framing is MTS Intelligence's; wording is this desk's.
+  Do not paste their prose or invent MW/$ figures. Attributed headlines must
+  match their page or `/api/compute`.
 - **Data or copy changes:** edit the inputs in `src/` (country rows in `cnw_model.py`,
   ratings and democracy in `aux_data.py`, macro in `macro_data.py`, live capacity in
   `gdc_data.py`, desk chrome in `build_desk.py` / `desk_data.py`), then rebuild:

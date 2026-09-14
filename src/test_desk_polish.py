@@ -8,7 +8,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 
-from desk_chrome import TAGLINE, NAV, cite_line, masthead
+from desk_chrome import TAGLINE, NAV, MORE, cite_line, masthead
 from seo import robots_txt, SEARCH_BOTS, TRAINING_BOTS, BULK_PATHS
 from desk_data import PREC, PREC_CAMPUS, precedent_href
 
@@ -74,6 +74,15 @@ class Chrome(unittest.TestCase):
         hrefs = [n[1] for n in NAV]
         self.assertIn("/contact.html", hrefs)
 
+    def test_physical_stack_in_more(self):
+        hrefs = [row[0] for row in MORE]
+        labels = [row[1] for row in MORE]
+        self.assertIn("https://compute.world/physical-stack.html", hrefs)
+        self.assertIn("Physical stack", labels)
+        html = masthead("", "2026-09-14")
+        self.assertIn("physical-stack.html", html)
+        self.assertIn("Physical stack", html)
+
     def test_citation_has_url_and_asof(self):
         line = cite_line("The Compute Net Worth Index", "https://compute.world/", "2026-09-07")
         self.assertIn("https://compute.world/", line)
@@ -104,6 +113,25 @@ class Projects(unittest.TestCase):
             href = precedent_href(iso, name, slugs if iso in slugs else {iso: iso.lower()})
             self.assertTrue(href.startswith("/"), href)
         self.assertTrue(PREC_CAMPUS)
+
+
+class PhysicalStack(unittest.TestCase):
+    def test_page_credits_mts(self):
+        path = os.path.join(ROOT, "physical-stack.html")
+        self.assertTrue(os.path.isfile(path), "run src/build_physical_stack.py")
+        with open(path, encoding="utf-8") as fh:
+            html = fh.read()
+        self.assertIn("MTS Intelligence (2026). The Physical Stack Behind AI", html)
+        self.assertIn("https://intelligence.mts.now/compute", html)
+        self.assertIn("https://intelligence.mts.now/api/compute", html)
+        self.assertIn("snapshot 2026-08-25", html)
+        self.assertIn("Epoch AI", html)
+        self.assertIn("MLCommons", html)
+        self.assertIn("Grid + power", html)
+        self.assertIn("Economics", html)
+        self.assertIn("land", html)
+        self.assertIn("cooling", html)
+        self.assertNotIn("Colossus 2", html)
 
 
 if __name__ == "__main__":

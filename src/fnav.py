@@ -20,6 +20,7 @@ LINKS = (
     ("hyperscalers", "Hyperscalers", "/hyperscalers.html"),
     ("datacenters", "Data centers", "/data-centers.html"),
     ("campuses", "Campuses", "/campuses.html"),
+    ("stack", "Physical stack", "/physical-stack.html"),
     ("contact", "Contact", "/contact.html"),
     ("agents", "Agents", "/agents.html"),
 )
@@ -38,6 +39,7 @@ INNER = {
     "hyperscalers": "hyperscalers",
     "datacenters": "datacenters",
     "campuses": "campuses",
+    "stack": "stack",
     "contact": "contact",
     "agents": "agents",
     "brief": "brief",

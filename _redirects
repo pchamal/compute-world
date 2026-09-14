@@ -1,0 +1,3 @@
+# Pretty aliases. Canonical URL stays /physical-stack.html.
+/stack /physical-stack.html 301
+/physical-stack /physical-stack.html 301

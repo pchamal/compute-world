@@ -118,6 +118,7 @@ DEFAULT_SITEMAP = [
     {"loc": f"{SITE}/data-centers.xml", "lastmod": "2026-08-22", "changefreq": "monthly"},
     {"loc": f"{SITE}/campuses.html", "lastmod": "2026-08-22", "changefreq": "weekly"},
     {"loc": f"{SITE}/campuses.json", "lastmod": "2026-08-22", "changefreq": "weekly"},
+    {"loc": f"{SITE}/physical-stack.html", "lastmod": "2026-09-14", "changefreq": "monthly"},
     {"loc": f"{SITE}/brief", "lastmod": "2026-08-18", "changefreq": "daily"},
     {"loc": f"{SITE}/brief.json", "lastmod": "2026-08-18", "changefreq": "daily"},
     {"loc": f"{SITE}/brief.xml", "lastmod": "2026-08-18", "changefreq": "daily"},
