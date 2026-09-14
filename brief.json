@@ -93,24 +93,24 @@
   ],
   "sources": [
     {
-      "label": "ERCOT Batch Zero Update PDF",
-      "url": "https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf"
+      "url": "https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf",
+      "name": "ERCOT Batch Zero Update PDF"
     },
     {
-      "label": "SA Current / Texas Tribune on 59336",
-      "url": "https://www.sacurrent.com/news/texas-news/after-public-pressure-texas-oks-more-765-lines-directing-companies-to-work-with-landowners/"
+      "url": "https://www.sacurrent.com/news/texas-news/after-public-pressure-texas-oks-more-765-lines-directing-companies-to-work-with-landowners/",
+      "name": "SA Current / Texas Tribune on 59336"
     },
     {
-      "label": "PUCT Interchange 58481",
-      "url": "https://interchange.puc.texas.gov/Search/Filings?ControlNumber=58481"
+      "url": "https://interchange.puc.texas.gov/Search/Filings?ControlNumber=58481",
+      "name": "PUCT Interchange 58481"
     },
     {
-      "label": "Lambda pricing",
-      "url": "https://lambda.ai/pricing"
+      "url": "https://lambda.ai/pricing",
+      "name": "Lambda pricing"
     },
     {
-      "label": "CoreWeave pricing",
-      "url": "https://www.coreweave.com/pricing"
+      "url": "https://www.coreweave.com/pricing",
+      "name": "CoreWeave pricing"
     }
   ]
 }
