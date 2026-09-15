@@ -4695,9 +4695,9 @@
    "pue": "~1.1-1.25",
    "note": "163 GW technically feasible remaining (WaterPower Canada); Sovereign AI Compute Strategy; Alberta >10 GW queue",
    "rf": 1.0,
-   "rz": 22,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 40,
+   "dl": 1,
+   "rw": "Bell × Saskatchewan MOU: up to +900 MW AI Fabric (path to 1.2 GW hub)"
   },
   {
    "n": "Mexico",
