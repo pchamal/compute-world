@@ -1,3 +1,4 @@
-# Pretty aliases. Canonical URL stays /physical-stack.html.
-/stack /physical-stack.html 301
-/physical-stack /physical-stack.html 301
+# Pretty aliases. Cloudflare already maps *.html ↔ extensionless (308).
+# Do NOT redirect /physical-stack → /physical-stack.html (that loops with CF).
+/stack /physical-stack 301
+/physical-stack.html /physical-stack 301
