@@ -350,7 +350,7 @@ def homepage(data, css, app_js, rail, svg):
     <a href="{SITE}/inference.html"><b>Inference providers</b><small>Who sells tokens, on what</small></a>
     <a href="{SITE}/campuses.html"><b>Campuses</b><small>Named sites on a globe, a register not a census</small></a>
     <a href="{SITE}/data-centers.html"><b>Data centers</b><small>Campus power, water, land, tax, jobs</small></a>
-    <a href="{SITE}/physical-stack.html"><b>Physical stack</b><small>Eight layers behind AI, credited to MTS Intelligence</small></a>
+    <a href="{SITE}/physical-stack"><b>Physical stack</b><small>Eight layers behind AI, credited to MTS Intelligence</small></a>
   </div>
 </section>
 
@@ -1024,7 +1024,7 @@ def llms_txt(data, rail):
         f"- {SITE}/params.json (every assumption)",
         f"- {SITE}/wire.html + {SITE}/wire.json — The Wire",
         f"- {SITE}/inference.html, {SITE}/neoclouds.html, {SITE}/hyperscalers.html — vendor catalogs",
-        f"- {SITE}/data-centers.html, {SITE}/campuses.html, {SITE}/physical-stack.html, {SITE}/brief.html, {SITE}/agents.html",
+        f"- {SITE}/data-centers.html, {SITE}/campuses.html, {SITE}/physical-stack, {SITE}/brief.html, {SITE}/agents.html",
         f"- {SITE}/contact.html — The Desk. Search crawlers are welcome; training bots should read this file and cite.",
         "",
         "## Country pages (live capacity, ceiling, unlockable, rank)",
