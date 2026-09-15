@@ -25,7 +25,7 @@ MTS_CITE = (
 )
 CW_CITE = cite_line(
     "The physical stack behind AI",
-    f"{SITE}/physical-stack.html",
+    f"{SITE}/physical-stack",
     PAGE_ASOF,
 )
 
@@ -175,7 +175,7 @@ ld = json.dumps(
             "to cooling to compute, then eight layers from grid to economics. Framing "
             "credited to MTS Intelligence; figures attributed."
         ),
-        "url": f"{SITE}/physical-stack.html",
+        "url": f"{SITE}/physical-stack",
         "author": person_author(),
         "publisher": org_publisher(),
         "isAccessibleForFree": True,
@@ -188,7 +188,7 @@ crumb = json.dumps(
     breadcrumb_ld(
         [
             ("compute.world", f"{SITE}/"),
-            ("Physical stack", f"{SITE}/physical-stack.html"),
+            ("Physical stack", f"{SITE}/physical-stack"),
         ]
     ),
     ensure_ascii=False,
@@ -203,12 +203,12 @@ PAGE = f'''<!DOCTYPE html>
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>The physical stack behind AI · compute.world</title>
 <meta name="description" content="The physical stack behind AI, in the desk's clerk voice: land → shell → power → cooling → compute, then eight layers from grid to economics. Framing credited to MTS Intelligence.">
-<link rel="canonical" href="{SITE}/physical-stack.html">
+<link rel="canonical" href="{SITE}/physical-stack">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {og_block(
     "The physical stack behind AI · compute.world",
     "Eight layers from grid to economics. Framing credited to MTS Intelligence. Clerk voice, attributed counts only.",
-    f"{SITE}/physical-stack.html",
+    f"{SITE}/physical-stack",
     "og.png",
     og_type="article",
     image_alt="The physical stack behind AI — compute.world, credited to MTS Intelligence",
