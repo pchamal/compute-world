@@ -2,34 +2,34 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Texas is still the binding US conversion clock this Monday. ERCOT’s Board Item 14 (slides dated 11 Sep for the 14–15 Board) published the first public Batch Zero conditional megawatt split — 204 projects / 66.4 GW base load and 158 / ~125–128 GW studied, against ~302 GW excluded — and opened a 461-site community-impact survey under the Abbott audit, with energization still paused and December 10 verification reports due. Separately, press reports the PUCT on Friday approved AEP/CPS Howard–Solstice (~370 mi 765 kV, Docket 59336) contingent on landowner route mods; Route 4 Mod 1 hit Interchange the same day, though the written Order was not yet stamped as of this morning. Project 58481 (§25.194) still shows no Order Adopting on Interchange through item 217. The Silicon Tape is a clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints (CoreWeave NA/EU spots visible again in static HTML).</description>
+  <description>Canada posts the clearest overnight conversion print while Texas stays on the audit clock. Bell Canada and Saskatchewan announced a non-binding MOU on 14 Sep to expand Bell AI Fabric by up to 900 MW of phased BYOP capacity on top of the 300 MW Sherwood path already drawing from the provincial grid — a named route to a 1.2 GW Canadian AI hub, still gated by customers, permits and commercial close. On the US grid side, PUCT Project 58481 (§25.194) still shows no stamped Order Adopting through Interchange item 217 (14 Sep public comment only), and Howard–Solstice (59336) remains press-approved without a written Order visible. Batch Zero verification RFIs keep running toward the ~Sep 23 response clock and Dec 10 reports. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.</description>
   <language>en</language>
   <item>
-    <title>Compute brief — 14 September 2026</title>
+    <title>Compute brief — 15 September 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-09-14</guid>
-    <pubDate>Mon, 14 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Texas is still the binding US conversion clock this Monday. ERCOT’s Board Item 14 (slides dated 11 Sep for the 14–15 Board) published the first public Batch Zero conditional megawatt split — 204 projects / 66.4 GW base load and 158 / ~125–128 GW studied, against ~302 GW excluded — and opened a 461-site community-impact survey under the Abbott audit, with energization still paused and December 10 verification reports due. Separately, press reports the PUCT on Friday approved AEP/CPS Howard–Solstice (~370 mi 765 kV, Docket 59336) contingent on landowner route mods; Route 4 Mod 1 hit Interchange the same day, though the written Order was not yet stamped as of this morning. Project 58481 (§25.194) still shows no Order Adopting on Interchange through item 217. The Silicon Tape is a clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints (CoreWeave NA/EU spots visible again in static HTML). Countries: United States / Texas: ERCOT 11 Sep Board slides: 66.4 GW base (204) / ~128 GW studied (158) / ~302 GW excluded (373). 461-site community survey; Dec 10 reports; energization pause continues. United States / Texas: PUCT 59336 Howard–Solstice 765 kV: press-approved 11 Sep with landowner route mods; Route 4 Mod 1 filed; written Order pending on Interchange. United States / Texas: Project 58481 / §25.194: staff adoption order was OM Item 24 on 11 Sep; no Order Adopting stamped through 14 Sep item 217. Do not treat as adopted. Australia: NVIDIA 9 Sep up-to-2 GW DSX AU partner slate still the live AUS print; power path still the gate.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-09-15</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Canada posts the clearest overnight conversion print while Texas stays on the audit clock. Bell Canada and Saskatchewan announced a non-binding MOU on 14 Sep to expand Bell AI Fabric by up to 900 MW of phased BYOP capacity on top of the 300 MW Sherwood path already drawing from the provincial grid — a named route to a 1.2 GW Canadian AI hub, still gated by customers, permits and commercial close. On the US grid side, PUCT Project 58481 (§25.194) still shows no stamped Order Adopting through Interchange item 217 (14 Sep public comment only), and Howard–Solstice (59336) remains press-approved without a written Order visible. Batch Zero verification RFIs keep running toward the ~Sep 23 response clock and Dec 10 reports. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints. Countries: Canada / Saskatchewan: Bell × SK MOU 14 Sep: path to 1.2 GW (300 MW grid + ≤900 MW BYOP gas). Non-binding; customer/permit gated. Capex framing &gt;$50B at full buildout. United States / Texas: Project 58481 / §25.194: still no Order Adopting on Interchange through item 217 (14 Sep). Do not treat as adopted. United States / Texas: PUCT 59336 Howard–Solstice: press-approved 11 Sep with landowner route mods; written Order still pending on Interchange as of 15 Sep morning PT. United States / Texas: Batch Zero MW book (66.4 GW base / ~128 GW studied) still live; verification RFI ~Sep 23; community survey mid-Oct; Dec 10 reports.</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#nvidia-b200-sxm6</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-14/nvidia-b200-sxm6</guid>
-    <pubDate>Mon, 14 Sep 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 14 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 11 Sep. 1Q is 0% (same $6.69 print).</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-15/nvidia-b200-sxm6</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 15 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 14 Sep. 1Q is 0% (same $6.69 print).</description>
   </item>
   <item>
     <title>H100 SXM 80GB · $3.99 on-demand</title>
     <link>https://compute.world/brief#nvidia-h100-sxm-80gb</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-14/nvidia-h100-sxm-80gb</guid>
-    <pubDate>Mon, 14 Sep 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 14 Sep 2026. Lambda OD $3.99 confirm. CoreWeave OD instance÷8 still $6.16; spots re-visible in static HTML (H100 spot $2.46).</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-15/nvidia-h100-sxm-80gb</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 15 Sep 2026. Lambda OD $3.99 confirm. CoreWeave OD instance÷8 still $6.16; NA/EU spots re-confirmed in static HTML.</description>
   </item>
   <item>
     <title>TPU v5e · $1.20 on-demand</title>
     <link>https://compute.world/brief#google-tpu-v5e</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-14/google-tpu-v5e</guid>
-    <pubDate>Mon, 14 Sep 2026 12:00:00 GMT</pubDate>
-    <description>TPU v5e: display $1.20 on-demand at GCP as of 14 Sep 2026. GCP TPU v5e OD $1.20 / 1y $0.84 / 3y $0.54 confirm.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-15/google-tpu-v5e</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
+    <description>TPU v5e: display $1.20 on-demand at GCP as of 15 Sep 2026. GCP TPU v5e OD $1.20 / 1y $0.84 / 3y $0.54 confirm.</description>
   </item>
 </channel></rss>
