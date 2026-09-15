@@ -1,4 +1,3 @@
-# Pretty aliases. Cloudflare already maps *.html ↔ extensionless (308).
-# Do NOT redirect /physical-stack → /physical-stack.html (that loops with CF).
+# Cloudflare Pages already 308s *.html → extensionless and serves the .html file.
+# Never add the reverse (extensionless → *.html) or you get a redirect loop.
 /stack /physical-stack 301
-/physical-stack.html /physical-stack 301
