@@ -1,6 +1,29 @@
 {
   "items": [
     {
+      "id": "bell-ai-fabric-saskatchewan-900mw-mou-2026-09-14",
+      "date": "2026-09-14",
+      "title": "Bell × Saskatchewan MOU: up to +900 MW AI Fabric (path to 1.2 GW hub)",
+      "summary": "On 14 September 2026 Bell Canada and the Government of Saskatchewan announced a non-binding memorandum of understanding to expand Bell AI Fabric with phased development of up to 900 MW of additional capacity — creating a path to a 1.2 GW Canadian AI infrastructure hub in the province (Saskatchewan release: retain original 300 MW from the provincial grid plus up to 900 MW under Bring Your Own Power / partner natural-gas generation). Bell PR: closed-loop cooling (no municipal water); HQ of Bell AI Fabric national ecosystem in Saskatchewan; full-buildout capital including DC, tenant compute and related generation could exceed $50 billion; subject to customer commitments, commercial agreements, permits and environmental assessments. Country conversion: Canada gets a named provincial GW-path print with BYOP power — still MOU-gated, not a FID.",
+      "url": "https://www.newswire.ca/news-releases/bell-ai-fabric-to-expand-nation-building-project-in-saskatchewan-with-up-to-900-mw-of-additional-power-869048098.html",
+      "source": "Bell Canada / CNW; Government of Saskatchewan",
+      "tier": 1,
+      "corroboration": "Primary Bell CNW 14 Sep 16:30 ET + Saskatchewan government release same day (1.2 GW path = 300 MW grid + ≤900 MW BYOP). Data Center News Canada; ConstructConnect/Canadian Press 15 Sep on Carney/Moe summit framing.",
+      "countries": [
+        "CAN"
+      ],
+      "flags": [
+        "non-binding-mou"
+      ],
+      "tags": [
+        "Build",
+        "Capital",
+        "Energy",
+        "Policy"
+      ],
+      "score": 86
+    },
+    {
       "id": "puct-59336-howard-solstice-ccn-2026-09-11",
       "date": "2026-09-11",
       "title": "PUCT green-lights Howard–Solstice ~370 mi 765 kV (59336) pending landowner route mods — Permian Import Path advance",
@@ -1172,6 +1195,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "note": "Country-level conversion signals only. Append-only by id."
 }

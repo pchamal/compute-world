@@ -1,33 +1,33 @@
 {
-  "updated": "2026-09-14",
-  "title": "Compute brief — 14 September 2026",
-  "description": "ERCOT posts first public Batch Zero MW split (66.4 GW base / ~128 GW studied); PUCT press-approves Howard–Solstice 765 kV with route mods. Silicon Tape confirm day — Lambda H100 $3.99 / B200 $6.69; 69 confirms, 0 ticks.",
-  "og_kicker": "Batch Zero MW book; Howard–Solstice CCN",
-  "lede": "Texas is still the binding US conversion clock this Monday. ERCOT’s Board Item 14 (slides dated 11 Sep for the 14–15 Board) published the first public Batch Zero conditional megawatt split — 204 projects / 66.4 GW base load and 158 / ~125–128 GW studied, against ~302 GW excluded — and opened a 461-site community-impact survey under the Abbott audit, with energization still paused and December 10 verification reports due. Separately, press reports the PUCT on Friday approved AEP/CPS Howard–Solstice (~370 mi 765 kV, Docket 59336) contingent on landowner route mods; Route 4 Mod 1 hit Interchange the same day, though the written Order was not yet stamped as of this morning. Project 58481 (§25.194) still shows no Order Adopting on Interchange through item 217. The Silicon Tape is a clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints (CoreWeave NA/EU spots visible again in static HTML).",
+  "updated": "2026-09-15",
+  "title": "Compute brief — 15 September 2026",
+  "description": "Bell × Saskatchewan MOU paths to 1.2 GW AI Fabric (+900 MW BYOP). Texas holds: 58481 still no Order Adopting (item 217); 59336 written Order still pending. Silicon Tape confirm day — Lambda H100 $3.99 / B200 $6.69; 69 confirms, 0 ticks.",
+  "og_kicker": "Canada 1.2 GW path; Texas still gated",
+  "lede": "Canada posts the clearest overnight conversion print while Texas stays on the audit clock. Bell Canada and Saskatchewan announced a non-binding MOU on 14 Sep to expand Bell AI Fabric by up to 900 MW of phased BYOP capacity on top of the 300 MW Sherwood path already drawing from the provincial grid — a named route to a 1.2 GW Canadian AI hub, still gated by customers, permits and commercial close. On the US grid side, PUCT Project 58481 (§25.194) still shows no stamped Order Adopting through Interchange item 217 (14 Sep public comment only), and Howard–Solstice (59336) remains press-approved without a written Order visible. Batch Zero verification RFIs keep running toward the ~Sep 23 response clock and Dec 10 reports. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.",
   "countries": [
     {
-      "id": "usa-ercot-batch-zero-mw",
-      "name": "United States / Texas",
-      "slug": "united-states",
-      "note": "ERCOT 11 Sep Board slides: 66.4 GW base (204) / ~128 GW studied (158) / ~302 GW excluded (373). 461-site community survey; Dec 10 reports; energization pause continues."
-    },
-    {
-      "id": "usa-howard-solstice",
-      "name": "United States / Texas",
-      "slug": "united-states",
-      "note": "PUCT 59336 Howard–Solstice 765 kV: press-approved 11 Sep with landowner route mods; Route 4 Mod 1 filed; written Order pending on Interchange."
+      "id": "can-bell-sk-12gw",
+      "name": "Canada / Saskatchewan",
+      "slug": "canada",
+      "note": "Bell × SK MOU 14 Sep: path to 1.2 GW (300 MW grid + ≤900 MW BYOP gas). Non-binding; customer/permit gated. Capex framing >$50B at full buildout."
     },
     {
       "id": "usa-puct-58481",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "Project 58481 / §25.194: staff adoption order was OM Item 24 on 11 Sep; no Order Adopting stamped through 14 Sep item 217. Do not treat as adopted."
+      "note": "Project 58481 / §25.194: still no Order Adopting on Interchange through item 217 (14 Sep). Do not treat as adopted."
     },
     {
-      "id": "aus-nvidia-2gw",
-      "name": "Australia",
-      "slug": "australia",
-      "note": "NVIDIA 9 Sep up-to-2 GW DSX AU partner slate still the live AUS print; power path still the gate."
+      "id": "usa-howard-solstice",
+      "name": "United States / Texas",
+      "slug": "united-states",
+      "note": "PUCT 59336 Howard–Solstice: press-approved 11 Sep with landowner route mods; written Order still pending on Interchange as of 15 Sep morning PT."
+    },
+    {
+      "id": "usa-ercot-batch-zero",
+      "name": "United States / Texas",
+      "slug": "united-states",
+      "note": "Batch Zero MW book (66.4 GW base / ~128 GW studied) still live; verification RFI ~Sep 23; community survey mid-Oct; Dec 10 reports."
     }
   ],
   "silicon": [
@@ -37,10 +37,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-14",
+      "as_of": "2026-09-15",
       "prev_usd": 6.69,
       "delta": "0% 1Q",
-      "note": "Display: Lambda OD 8× SXM6. Confirm vs 11 Sep. 1Q is 0% (same $6.69 print)."
+      "note": "Display: Lambda OD 8× SXM6. Confirm vs 14 Sep. 1Q is 0% (same $6.69 print)."
     },
     {
       "id": "nvidia-h100-sxm-80gb",
@@ -48,10 +48,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-14",
+      "as_of": "2026-09-15",
       "prev_usd": 3.99,
       "delta": "0% 1Q",
-      "note": "Lambda OD $3.99 confirm. CoreWeave OD instance÷8 still $6.16; spots re-visible in static HTML (H100 spot $2.46)."
+      "note": "Lambda OD $3.99 confirm. CoreWeave OD instance÷8 still $6.16; NA/EU spots re-confirmed in static HTML."
     },
     {
       "id": "google-tpu-v5e",
@@ -59,7 +59,7 @@
       "display_usd": 1.2,
       "venue": "GCP",
       "term": "on-demand",
-      "as_of": "2026-09-14",
+      "as_of": "2026-09-15",
       "prev_usd": 1.2,
       "delta": "0%",
       "note": "GCP TPU v5e OD $1.20 / 1y $0.84 / 3y $0.54 confirm."
@@ -68,37 +68,37 @@
   "watch": [
     {
       "name": "PUCT Project 58481",
-      "note": "Still no Order Adopting on Interchange after 11 Sep agenda. Re-check daily; Wire immediately on stamp ($50k/MW, forfeiture %)."
+      "note": "Still no Order Adopting on Interchange after 11 Sep agenda (through item 217). Wire immediately on stamp ($50k/MW, forfeiture %)."
     },
     {
       "name": "PUCT 59336 written Order",
       "note": "Clear pending-order once CCN ordering paragraphs + Route 4/Mod 1 land on Interchange."
     },
     {
-      "name": "Import Path 2 (59475)",
-      "note": "Bell–Big Hill / Big Hill–Sand Lake sent back to SOAH Friday; Bell County clock cited ~Sep 22."
+      "name": "Bell SK commercial close",
+      "note": "MOU → named customers / PPAs / site permits that harden the +900 MW BYOP tranche."
     },
     {
       "name": "ERCOT Batch Zero",
       "note": "Verification RFI ~Sep 23; community survey mid-Oct; Dec 10 Eligibility + Community Impact reports to PUCT."
     },
     {
-      "name": "EO 14421 / DOE RFI",
-      "note": "FR RFI Sep 9 (wired EO as 14420). Webinar Sep 16; comments ~Oct 9; implementing rules ~Dec 24."
+      "name": "EO 14420 / DOE RFI",
+      "note": "Webinar Sep 16; comments ~Oct 9; implementing rules ~Dec 24."
     },
     {
-      "name": "Yotta India GPU intent",
-      "note": "CEO interview: 40k Vera Rubin @ Noida D4 (120 MW) + 40k GB300 @ Mumbai NM2 (80 MW). Signal-only until primary + consistent counts."
+      "name": "Yotta India GPU order",
+      "note": "CEO interviews diverge (80k vs 90k Vera Rubin/GB300; $12B). Hold Wire until primary PO / consistent counts."
     }
   ],
   "sources": [
     {
-      "url": "https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf",
-      "name": "ERCOT Batch Zero Update PDF"
+      "url": "https://www.newswire.ca/news-releases/bell-ai-fabric-to-expand-nation-building-project-in-saskatchewan-with-up-to-900-mw-of-additional-power-869048098.html",
+      "name": "Bell Canada CNW — SK AI Fabric MOU"
     },
     {
-      "url": "https://www.sacurrent.com/news/texas-news/after-public-pressure-texas-oks-more-765-lines-directing-companies-to-work-with-landowners/",
-      "name": "SA Current / Texas Tribune on 59336"
+      "url": "https://www.saskatchewan.ca/government/news-and-media/2026/september/14/single-largest-private-sector-capital-investment-in-history-of-canada-through-bell-ais-saskatchewan",
+      "name": "Saskatchewan government release"
     },
     {
       "url": "https://interchange.puc.texas.gov/Search/Filings?ControlNumber=58481",
@@ -111,6 +111,10 @@
     {
       "url": "https://www.coreweave.com/pricing",
       "name": "CoreWeave pricing"
+    },
+    {
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-opens-second-tulsa-factory-ai-infrastructure",
+      "name": "Crusoe Tulsa factory (signal)"
     }
   ]
 }
