@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15 17:01 UTC",
+ "generated": "2026-09-16 16:57 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -27,10 +27,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Ooredoo-backed Zankore secures $3.1 billion financing for Nvidia AI cloud platform - ET Telecom",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMzJKSFJWOWxhYV9LQ0xoalh3Tzh6RkMzdVdmeGxwTXBMaHUyNm1taVk4YUhPR29YTnkwRUFtb2ZJaGRUb2hrT0pzOFZLQzdaSEFuNThMMXJySWhYbEEwQkxtZmI1UHh4cThfNWNjWFpBSmFST3FLcnhGVU43aFp3dVpCWXdwSkg0UkNVZzJaYVdtZmRuNExfLU1ONGI5bzBTVFpEQ0dUd290bmZiZk5xNzVNVTl1OG5jd3k4dUlTT0dLMXB5X2xwSUFVNW5HRDF3eDVzWlVLWXF0aGxicUZfd1F4aUrSAeoBQVVfeXFMTUVrQkNOdVVHbkpfUU9Ecl9YVF9rN0d0TlZKT2prUjNLMzMxV19ubnd4OFNUSWdQTVU4Wk5SbmxzMkw1SFl6dUs4YWRhZ3dCa0MzTGpKU0FQU2lJOFJocG1qaWxWSUtfOU1wVUZKSndjZ3dpSmhrU2xlLVYwS1ZvVm9wVlpFZWItSmlsU3BTZGp2dW9nTzh2RG1jcFFyVEtsbzNLOHVhOWQycmthUjJtNDF5aERNV0Etd2FhRmc3azZOQzJWNVZIc1hQUUdYaDZNd1A2V1owVEdIYTRodFNZeE50N0h0c2RBZVpn?oc=5",
-   "source": "ET Telecom",
-   "date": "2026-09-09",
+   "title": "Bell Just Made a $52.5 Billion Bet on AI. So Is BCE Stock Finally a Buy? - The Globe and Mail",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWmRFYmRoSWVTa0NBN0xQUUx3MlBvSXkzbHh4bE5vMXZHOHkzLV9hclIwSHVHOV9DUHNBeDU1ZXpfUW5YVEk1c3RwRDhmOWgzb1h1ODRkMW9ic0hLcXhxOE5hSURHSlVEVFZfZEx1blM2N01PNFBBTGlNa2JCUVo0cTJjQll5QlYzZFowVjd0YXh1SVhqQXNwSERnZWtkWVU3RGM4LTMtYVVlNmN2c19ZTzJoU2ZTekMyU0I5M0RsX05nZS1fTVZyQVp6V3M2ZGh5dmx4dnpXVU9oa1U2VUVMa0ZR?oc=5",
+   "source": "The Globe and Mail",
+   "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -43,18 +43,6 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zbFJyOWFQYTRuU2NZZ0ZwUkxvR043aHY4TW95NUh3Q19tWFd4Ylc4TjU3emg3WXE4dkdweEQ5MGVNakhfWHg3RUtQbW9WN05tbHcxMkRMclZTN2tPWWtPTS1tQXJVSG8zdU03X0lzcjM1anJQTGc?oc=5",
    "source": "finance.biggo.com",
    "date": "2026-09-15",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 73,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Hyperscale Data Establishes $750 Million Minimum Sale Threshold for Michigan AI Data Center; Management Believes Value Could Reach or Exceed $1.25 Billion - PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOZzBkTHBVQ2NnTGpLWWJDaVlRTEpKUnB3U1lKWnNJZksycVo0cDN1a2g2dHpmUzFCcmVXems2TTB2VU02N1J6eURIa2FCYTdQZVE4VllLSi14WWxBd244RFR2b2Y4d3JGc1RnMElkMUN2b24ycFFta19tdnJQc0gxT2s3bklseGVqWGM2Q3cyOENpNE16WXJFdWFTbjFNaTltRm9IQkdHY3JkSEIyV0VtVWtCdHRGQ19XckZBNXFJUmlJSmVIUXJXR2pURlYtcXNfWEhYRElZb291eU1PbTNLSWVxNjVxM0kxN3llRWVuVDVUSHRMWGJ0VnV6d1pyVmNCM1FjTFNMTV9janNQeFRiOW5rOElxRExIQVBITGNPV0JPbEJHXzE0VDh1YTlhY3k3?oc=5",
-   "source": "PR Newswire",
-   "date": "2026-09-14",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -123,6 +111,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "NVIDIA’s DSX MaxLPS Drives 40% More Token Throughput Per Megawatt, As Lambda’s Cluster Jumps To 5 Million Tokens Per Second - Wccftech",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNEFEZzRXWXFKendRU1N0Rkp6NHZpY2JhZW1UeVY4YkdObTBWWFBOMW4tbHhoTjg4dURQZ2dLaEIzbFo1aVlkVGFycDd0Z05LR05NS2RFbTNCNUdONjhmUDZ6WmtzTUZKa3JOVXNpbHZjTEFXUlRLSnpyUGx0UmxhUUNjVGtVUHVK0gGOAUFVX3lxTFBhWGNzYUdWV0xjQTJaMkFRb0ttZ1BGbHBHekhYQ00wdVlCSTlUTk5JcURnUHNyY0FwV1UycThHYjE5bXN5RDJ6WG9OOTRwQlF2RVIyaExralc2WVQ0S05OMUZlWjJrbEtrTlJMdmNfRzBNS0puLUlTNEprQzJNME9ja0RNNTNRc1ktM0ZfRUE?oc=5",
+   "source": "Wccftech",
+   "date": "2026-09-16",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "SolarEdge Targets $2.4B by 2029, Bets on AI Data Center Power Growth - MarketBeat",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb1BsRFRweW10Q1pWM2tmX0dkSlJ6VkE0TTB1NVJYV1JjVGIzMHFraDBkRERNU2VqWlpFQnZJNVZoNmNvOWRwb3hBckJTUS1DSDBXR2VsT0Y2TXVpSnNiV3RYWHUzUjVkYTh6WVRtSjJDeGNDSHpCbVJ1X3J5SDRVaW1QWEFJOEZJa2NSMmhWT3k4VmkyZWpmZVdEWGluN21ISFFjZnNNNFZVM0w3bnphYmQ5dmpfdk5mbFB4U3hSV2h0VVk?oc=5",
    "source": "MarketBeat",
@@ -135,10 +135,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Vodafone signs pair of data centre deals in $1bn AI bet on Egypt - telcotitans.com",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY09RaWk1QjYtMFhBWUxjb3JpQVQ0Q0RyZ0JZY09qRjFzQVk5MnZ4UXQxdU05YjV4blJHd3Y0MVp0UkRzRWVtMzVhREJBMVB1SS1qZVFKZEV2dHd1djVzRGpuYTlUQ1dCSmtQSmlYbENrcHBkY011bVJIM3g3dk1VMGQxZFZUQjZhM3dLNGFaOVp0SXBiTnptby1qOEc0eW5DV0lueTVJUlhndUdkZkpOVUprRnVKVmxFTDBj?oc=5",
-   "source": "telcotitans.com",
-   "date": "2026-09-08",
+   "title": "Zimbabwean billionaire Strive Masiyiwa’s Cassava joins Vodafone in $1 billion Egypt data-centre and sovereign AI push - Business Insider Africa",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMDRSckJZODZiQ0lhTjZyeWJueTVNMjB2SGhvN3dySFJsY244YW5sVkRVRWhwMGJ6aXNqSjRzREdIaHlpSmgzTlRsVWtUT2ZyUC1ZSTZPdkp2QWRONFh5eFJ2bkpCTi1SS1hPUjl2YTcybVRVR256YV9jellBMnpQc3hOSlFVV0JySGNUdXd2WDRtdTFsZTZVZHVadWZRLV90N3AzbThvRHRGQzVPMFY2RXVIZkpRTlNPMXNic3dxbUZfZllJQlVMcHEwRGFzYzlidndzTQ?oc=5",
+   "source": "Business Insider Africa",
+   "date": "2026-09-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -147,10 +147,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Zimbabwean billionaire Strive Masiyiwa’s Cassava joins Vodafone in $1 billion Egypt data-centre and sovereign AI push - Business Insider Africa",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMDRSckJZODZiQ0lhTjZyeWJueTVNMjB2SGhvN3dySFJsY244YW5sVkRVRWhwMGJ6aXNqSjRzREdIaHlpSmgzTlRsVWtUT2ZyUC1ZSTZPdkp2QWRONFh5eFJ2bkpCTi1SS1hPUjl2YTcybVRVR256YV9jellBMnpQc3hOSlFVV0JySGNUdXd2WDRtdTFsZTZVZHVadWZRLV90N3AzbThvRHRGQzVPMFY2RXVIZkpRTlNPMXNic3dxbUZfZllJQlVMcHEwRGFzYzlidndzTQ?oc=5",
-   "source": "Business Insider Africa",
-   "date": "2026-09-09",
+   "title": "Oracle Q1 FY2027: Cloud Infrastructure Revenue Doubles, $90B Guidance Set - 24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMFBvRkRQWXZfb0ROZ1ZoengtU3BYZzN5Z2VERDYzRERfVEE2cXNhMy1ORGs2ek1mZmFFSE1OMnoweW56Z3V2MXRFc1N1NlEzRG0wVzNLeGpKRHJiMXJlVG93X2ZoTW9xSEFiQnU4N1lSSmtIZFlWdmtTYjB1MmJfUEx6TTMwV0Iwcm1v?oc=5",
+   "source": "24/7 Wall St.",
+   "date": "2026-09-11",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -195,21 +195,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Mistral AI Raises €3B, Reaches $24B Valuation - channelinsider.com",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQk9NWkhpUUhCRzctc0NTOExlaGF5Y2FYVTJlX295ZzQyRmktdG1HR20tRm42WUFPbkk2OEhZYVFPZDZjd3B2di02YV9JWjM4X0FYb3JsUFY1bVgtWUc3NV9CaHZFc1hUdWR2TzcyOTBlbWlBaVVvY01aaUQ1NXVpcGQ0THlLdkl1Y2VsZTlfT2pEWFJELW1feQ?oc=5",
-   "source": "channelinsider.com",
-   "date": "2026-09-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "As AI Data Center Investment Heads Toward $31.6 Trillion, Mindstream Energy Builds Where the Power Already Exists - PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMW9uTm9NV25pYXN0RXBNNlpDRTBWOVptektiVTR6NGlPV1hWNktrY1NSb1gzdkxwMl9SdXNfNGFHMkU4ZmxTTWk4cHdubmxiSnlZaDdXei05RGVJRVU3UFlWaFp3eGhScnpKT25sS1M5b1MyQTJpTlRYVWVNTU1Yc1pjZnZSdUdidUdKaTZ3TUYtN1RpbWpDYi02ZnFTcGNMa2JKbkd6Y0lJdFhOQndkM0gySHNKQXpuUndhamFhSGVYQlFIVnpVVHhJWndlXzYzMWlkSmswTlYyN0JqRFJEMzhtcE9VcFBydHY3c1Y5TnRLbmRxWVF1d1JGWQ?oc=5",
-   "source": "PR Newswire",
+   "title": "As AI Data Center Investment Heads Toward $31.6 Trillion, Mindstream Energy Builds Where the Power Already Exists - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSUtoci03eXJVSzRSTXIzaXp3b0IzQWp4dmlIRThCRXFZamlvSVNubmdQWUpCQUZ1alR0dFNaQVZoYTd1SklrNDI0XzFrOGtOX3B1eG9WTGF0elVFM1JfSHhYWEZUSWVHdHZSMXdZRW9tRXJCemw3dXUxNzdIVm9za3RyeWthVnBFdUVTVjdxckQtRzg3Um1vbjBYZw?oc=5",
+   "source": "Yahoo Finance",
    "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
@@ -231,9 +219,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Vertical Data Secures $192 Million AI Infrastructure Commitment for Global AI Developer - TradingView",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN2lheGlsRFdJQXBHbzFMLTVEWk43ZkFKazRFa1pqR25ndEhQVmp2TUJCMEc3UGktQVpyMjNXRGU1NTFPbUVKb09SdEd3OUtxV2xiclRTVlRETDJ4NEp1LUd1QW9ZU1ZEc1VmQ19zWHo1YlZGU1U4ZktWT0txV1hoVDZlMnZFR0tWZzljZmpmRDNyVF96dnh1R3pnMHFMNVpjWUQ4eXhkRzhra2dpZkpXT1NsaHEtbzNkV3NianBqUVRXNzZ2X2FBZ1RZQjhSOW01TG9VY0U4NjV0c2pSQnNj?oc=5",
-   "source": "TradingView",
+   "title": "A planned $192 million deal would deploy 1,024 NVIDIA AI chips - Stock Titan",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVHUzbjBmX1BSR0QzNVZveElJOU1VOU1BQ0RjZE9kT3J6OUx5ODFVaUpRaGVrdzUxbmc3RTBxeXcyVFlmRFJrSmtsZlhscGZRWUhBZlU3eXlMWTd4M1hyYXZGV0Y5cDMxbjRMNkV2VHFCVllsdUc3YXFBNUFJN3BUWGJtM1ItdjdyUG0wc1JjQmRQUGszZzlyQVpqMlpaY2ExcTRDNXNoVGJmR1Z4dkQtbUY0Z1NTTDdpWHd2amp3?oc=5",
+   "source": "Stock Titan",
    "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
@@ -255,21 +243,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Tech Bytes: Mistral’s record €3 billion raise turns sovereign AI into a global investment race - Proactive financial news",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNel9qRWp4eDRKS2RIcjRQUmNQdWVjVEhrRVhQWUM2WlpGWFdJM3lFYjlQTExtWDA4eFFnQ0NZVldyNlV0eDFBd0xacWx5bjlpWDF5aHF5WkhINVB6a3ZLM3o4NWlnckk5bzcwWk5SWmVSRjYzX295U2REcVJNV2RIRHB1NkJxOWZvb09kUzhnR1NaX1oycldGZFRPV1hRRFJlbTNCcW1qNlJuOURnZkRRVlA5c1o3UjY5ZWw3Yi0tb2ZkWlhhV0N3bGNSZUxHc3liWjAtSklVbVE0M2lrWEJ4blFDUnhlZG5vMEE3cTliWlIyMnp1Tnc?oc=5",
-   "source": "Proactive financial news",
-   "date": "2026-09-09",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Nvidia Announces 2GW AI Data Center in Australia: Is NVDA's Next Growth Wave Going Global? - TradingKey",
+   "title": "Nvidia Announces 2GW AI Data Center in Australia: Is NVDA's Next Growth Wave Going Global? - tradingkey.com",
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOa3lIZ05SSmZSeFpQYWJ3bXRIUE10Wkp5LTV6eF9HRlJfZFpfS0h1VWY5cldnQnY4dS1UbHpiYzBXR1RQQ3BUdndLeUFZZWt1ZTBoSFVSTmlXMTZTVEtJNXRvcE40M2RfNlBOck9xaE44ekZfVU9taHRzRndVNkZ5b0ZwdjZDRVRBbjJYUHlNUGF3a2hMOUxnYXdIOUdSc3dhOWo0MVVzNFItRkYxLVRSYmVVTUxDZUFpNUlkaE1MMGdzaERjU2hpd25tVy1xMTFlS2hVRVpSVmQwNGNOZG1xRkxxZmFvU0FG?oc=5",
-   "source": "TradingKey",
+   "source": "tradingkey.com",
    "date": "2026-09-10",
    "via": "gnews",
    "country_hint": "",
@@ -291,6 +267,54 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "UAE pledges $46 billion to Germany in AI data center push",
+   "url": "https://finance.yahoo.com/technology/ai/articles/uae-pledges-46-billion-germany-170800289.html",
+   "source": "finance.yahoo.com",
+   "date": "2026-09-11",
+   "via": "gdelt",
+   "country_hint": "United States",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Philippines AI Buildout Timeline : $34 . 4B Plan Targets Massive Data Center Expansion",
+   "url": "https://www.techrepublic.com/article/news-apac-philippines-ai-infrastructure-timeline-data-centers/",
+   "source": "techrepublic.com",
+   "date": "2026-09-09",
+   "via": "gdelt",
+   "country_hint": "United States",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "US market sours on $6b Treasury buyback",
+   "url": "http://usa.chinadaily.com.cn/a/202609/11/WS6aa35fc2e4b06d4aa055d82c.html",
+   "source": "usa.chinadaily.com.cn",
+   "date": "2026-09-11",
+   "via": "gdelt",
+   "country_hint": "China",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Treasury announces $6B buyback of 10 - year notes and 20 - year bonds",
+   "url": "https://www.foxbusiness.com/economy/treasury-buy-back-up-6b-longer-term-debt-bond-yields-hit-highest-level-since-2023",
+   "source": "foxbusiness.com",
+   "date": "2026-09-09",
+   "via": "gdelt",
+   "country_hint": "United States",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "The UAE is committing $46 billion to Germany in a push centered on AI data centers - qz.com",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03UHpqZ3dZRW1WWk1FeTFUX0RkRVBoNF9MODVNTThRaXk2RzBkRUxuVUl5LWdZdllfQjBoV1BNamdaLVZ4Z21kcHEtU2Y2NjRSRlFFZUZxS3NxMXpCa0d5NjkzYWQ4ZDhBejNrMw?oc=5",
    "source": "qz.com",
@@ -303,21 +327,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Fluidstack Breaks Ground on $4 Billion AI Data Center Campus in Cameron County Under Strict Protections - Rio Grande Guardian",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUUQtYkF1UEFkMFJtS3FKRUFJb1ZzOFdnUG15c2VNcGdhckxQcXlZOVdIZk9CU2t1TF92VVVwUjdXNUlXMTdqMzNhbVpxbGUyNVBkSmtzd2FsUm0wOWNiTVNIYjNwWkkteDFIVm5YcDJWSzFfenRGcHBIeElPODZJSFFvc0RtWjdsdUdhWmU1bXE4Q1N3MGF3MkYtVXpFakQ5ZFpNRWx3OS1zQjdveU1hREdndUxPSUdNYlp1aFl3U1pUYjh1YlJRMDltWW5oeVE?oc=5",
-   "source": "Rio Grande Guardian",
-   "date": "2026-09-11",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Fluidstack Begins $4 Billion AI Data Center Project in Cameron County - texasborderbusiness.com",
+   "title": "Fluidstack Begins $4 Billion AI Data Center Project in Cameron County - Texas Border Business",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWlZCTjItSWtHcXJ0LUFJODB5YzV4Z3p3VGlTWmdBWmV0OWpuMEVDR0Z1YTN2aXI1c3daUUd0d19FdloyalBSbW9XdENuXy1pa3VSNXRYR2hVdmVWUmNhTDZmUE0xNW1LS0pYaFJKc1g0OUVpNW92OF9DakVIMng0bXM1c1gtSXJPRV9nX0NmLXFaekxINVB3bUdQUGJPVE5Dc09v?oc=5",
-   "source": "texasborderbusiness.com",
+   "source": "Texas Border Business",
    "date": "2026-09-10",
    "via": "gnews",
    "country_hint": "",
@@ -339,10 +351,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "KT Cloud to Build 1GW AI Data Center by 2031 - 조선일보",
+   "title": "KT Cloud to Build 1GW AI Data Center by 2031 - chosun.com",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaW9qd0lfRnoxQnhWeEpiS0U0dkQtczJiakpvSHI3elBwUGphWjlVaDBibk1iNnJlRmgzVVpocFJzMUlDelBTRTN5MVJzWGpvM0VnNFpIcjJZLU5GRU5wZEJpd01PdkNYQWhweFlPWEM5OHZNa2ZyMk9URzUteVF0Q1J4UDhOYVB6?oc=5",
-   "source": "조선일보",
+   "source": "chosun.com",
    "date": "2026-09-15",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "SK chairman says Ulsan AI data center expansion nearing 900 megawatts - The Korea Times",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYkZjN2piY1ZCY1VmZzRBOG40VmZacFZfNElDMFNOa3BQMU1hY2E1XzBZM2RTcEN3MjFNdXZhWEU1cUpsb2xJRHNjRVJmM0FaYWJwd0dRUFNuUGRMZGQzbUhJVzdZT29tU2Q5c0VWbF9EbU9tc3M4STlTVG4zYld4eGZ0RzVqaGRSNHNrTTJZT2F4emhlNFNfMFo3UEtmTDNqZlhyVUpkOUcwWUVhblZVUWxYUXdwaVZJOXRSeDhnc3FjbEYyZjNpUdIBzgFBVV95cUxQVnBleWpqY2prb003Z1BNdFRJd01COVNueXNUakd0RUhYSzJ5NnM3S0lhMUlMNWgyaHRtdTlnMXAtM3VSLUFxS2xjQzEyZE5hS3drSmY5YVFhem1GZWFhYzN3THJxMnFxWW9nSDdseE9JQXpJMERlb0toaTRTS0VreFl6THNrbTRoLWdIc3VyUXFHeTI0bzBjVHVNZFd3eFRXZnk0VnhsNHZsaEl1SUlxcXVTRWNBQ3NQOG5LWGRkUHE1alBsMThjRmdfQkhudw?oc=5",
+   "source": "The Korea Times",
+   "date": "2026-09-13",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -375,45 +399,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "SK chairman says Ulsan AI data center expansion nearing 900 megawatts - The Korea Times",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYkZjN2piY1ZCY1VmZzRBOG40VmZacFZfNElDMFNOa3BQMU1hY2E1XzBZM2RTcEN3MjFNdXZhWEU1cUpsb2xJRHNjRVJmM0FaYWJwd0dRUFNuUGRMZGQzbUhJVzdZT29tU2Q5c0VWbF9EbU9tc3M4STlTVG4zYld4eGZ0RzVqaGRSNHNrTTJZT2F4emhlNFNfMFo3UEtmTDNqZlhyVUpkOUcwWUVhblZVUWxYUXdwaVZJOXRSeDhnc3FjbEYyZjNpUdIBzgFBVV95cUxQVnBleWpqY2prb003Z1BNdFRJd01COVNueXNUakd0RUhYSzJ5NnM3S0lhMUlMNWgyaHRtdTlnMXAtM3VSLUFxS2xjQzEyZE5hS3drSmY5YVFhem1GZWFhYzN3THJxMnFxWW9nSDdseE9JQXpJMERlb0toaTRTS0VreFl6THNrbTRoLWdIc3VyUXFHeTI0bzBjVHVNZFd3eFRXZnk0VnhsNHZsaEl1SUlxcXVTRWNBQ3NQOG5LWGRkUHE1alBsMThjRmdfQkhudw?oc=5",
-   "source": "The Korea Times",
-   "date": "2026-09-13",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "NFD Korea Breaks Ground on 300MW AI Data Center Campus in Danjin - Mingtiandi",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeTJKb1RMQ1BVSTRncGd2Ulo0a3llNGR1QnViRVFudHJmSTBQTXNSeEJESVpJZGdhM2lReXp6LUxVVzZPTnVKNnlZd2ExZXNLNkxGVDdMMTBmYVkyODNHczNYR01kc09Obzl3RXdsQjgzOTRVMkhUVUtzOGZZQ3g4X181aEs4Uk9DVWtOMWdWQ19BREF2aGZqdzBERENYaUlZOHpSZA?oc=5",
    "source": "Mingtiandi",
-   "date": "2026-09-14",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "US Firm Cybastion Plans $75 Million AI Data Center and Power Plant in Douala - Business in Cameroon",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQLTAxcmQzVmRKVUFfejJHNTkydHdTMDZNcDFMTHdNbElKQjlXTnNIUmQwYkFmdzV4MUxpa2ZUQVdxMHdLenlXSnBhTDh3aDRJdTEyZmFrMlZFMV9kU1c2NnlWMHFmam1ocXpJOEZ2NVBDakJVT2xFSlBPSjZzT0h1VGpfV25SSjF3T05pMGNxUm5wbFlDX1pjclpsR0FjclFhdkFjTGY1aFJoQk9od3UwN0kxMC1VQVJ4UEF5TTBtNEVTSHVKeXFGZ01teU9BX01DWjJYVmZ3?oc=5",
-   "source": "Business in Cameroon",
-   "date": "2026-09-07",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Philippines unveils USD 34 billion Masterplan to expand AI infrastructure by 2033 - Telecompaper",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPakF0c1QxUVRJQlZ3WUJGeHhEaHlmNnVCNmdab0xvZDc4dXhfbGlqMG8yUXFqRDc0aVZmUkk3alZwNlYxU2dRTGFaejhTZXZwcy12dkVXNEVvYS10Y0Njb2RaU1VGUmJqcUlQSzJkTXpNZVZXVmVGNDJKTGdobmlZVFZreElRZjUtZllBUk9uaXZrWk9iLVVQenNTQmVyV2NrLV9Ca29fZkxVS1Jlc1l6YlJwdWZRODJIN19aMkxtOG9wQQ?oc=5",
-   "source": "Telecompaper",
    "date": "2026-09-14",
    "via": "gnews",
    "country_hint": "",
@@ -459,22 +447,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "PH unveils $34-B roadmap to become ASEAN AI hub - Philippine News Agency",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UN3NndmhVeWpIM3ZlaWVpVW8yT2JOak9JN1p0cGs1VzRsdjdJanBSLUxwYzcwX3hJMWZQaC1xQnpkcmhVczNxdVBwSXI0bnc5?oc=5",
-   "source": "Philippine News Agency",
-   "date": "2026-09-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Clark, Bataan selected as main anchors for Philippines’ $10-billion AI expansion - Manila Bulletin",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUnRYTzRGblNhMUhBQmVyNHkzYWs5MHc1TUZuMkdzTEtyUmNaWjBBYkVGOWZma1JocGRqYUMzVE5lLTdaNmdqdjVfUERZY21hYlo5TndUcXZrbkJuZkE1MEpLSGplaTEwbTVPRWxnQUsxZ3Q4dU5yZ1VtNnNWdWJ2STlBbWRkUEVzSk4xcE9FTmxCOWxWa2ZGZmNZdUhzMk05R3RnbENfRkpWUQ?oc=5",
-   "source": "Manila Bulletin",
-   "date": "2026-09-08",
+   "title": "AI Data Center Projects Face $160 Billion Hurdle Amid Local Resistance - Whalesbook",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMnZxZlY3dTZIUFhPVXpZVWRzZkRkVUZEYXRuNmhQQ1RtN05aU0N3eVQxcU5OdDg5STJTMVJYWjlYZzZYdGN2Zzc0VVFLbTRLNmljUXZFcW1fOTF6amlsVGRyWEgyMHpKTlVjTHV1UGFGcndoTFNWQ1g0dzNabjdpYjBPUm9GdjBJQlZxWG9Nb0NpNzhGbEk1aWQza2tpMW54RjdJd0pvVU4yT3podWhYUWM2TEVNdUlTZUJrSUs0b1hidzRKZzZGVkxFQmtpcTV3STVSTFdJRGo3QW5YVlpiSmx3?oc=5",
+   "source": "Whalesbook",
+   "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -495,10 +471,46 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Vertical Data Secures $192 Million AI Infrastructure Commitment for Global AI Developer - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN2lheGlsRFdJQXBHbzFMLTVEWk43ZkFKazRFa1pqR25ndEhQVmp2TUJCMEc3UGktQVpyMjNXRGU1NTFPbUVKb09SdEd3OUtxV2xiclRTVlRETDJ4NEp1LUd1QW9ZU1ZEc1VmQ19zWHo1YlZGU1U4ZktWT0txV1hoVDZlMnZFR0tWZzljZmpmRDNyVF96dnh1R3pnMHFMNVpjWUQ4eXhkRzhra2dpZkpXT1NsaHEtbzNkV3NianBqUVRXNzZ2X2FBZ1RZQjhSOW01TG9VY0U4NjV0c2pSQnNj?oc=5",
+   "source": "TradingView",
+   "date": "2026-09-15",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Zankore Builds 100 MW NVIDIA AI Infrastructure to Strengthen Indonesia’s AI Cloud - The Fast Mode",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeFN6eC1SVmtSZ0IxUGstc3BnTXdNUFJodFZtaElRZHoyLU1kQnBFVVh2RWQzalZyYUZZbVdGMkZ3WGdMMlA5VmVQaGo0d3dMTmFMNkdSUml1aUFvbXNELTl0UDhVZXUydl9WaS1fT1M5VFNyTEU1ZndDNVQ2RDEwYnFmUTQ0Z3p1S0pJdGlOVTBnNTd5VkhBeHM4VThKSmh4cEdaZW1KQ29QeXN2LVBUNnl4UHU5b25KZ3RDQlVVZ0Y3aWwta0N3cC1pendlWjNuMEE?oc=5",
    "source": "The Fast Mode",
    "date": "2026-09-14",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Vertical Data Signs $192 Million LOI for NVIDIA Blackwell Ultra AI Infrastructure - citybiz.co",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjdjZzVRNDRhWnZWb3REaE5uSXVrT3RRRE1pUzFwVDhTSHBWZG85cWc5cGswYzJmSThTWVdpRHhnRUg0c2tGbzVBT1VRMWR4Z2xYY2pIMV9KS19VYTkwd1RXR3VNLWtmMFZFYXVtU2stOVZIU092dE9McUpNeGdGbU0xSkdSWlNmV0xsdk9qSlU1c1MtWDQtQVRIM0F5dXBMVnFxLXV6Y0FUX3pPN0pvZWttMVpYYlcyUVJJ?oc=5",
+   "source": "citybiz.co",
+   "date": "2026-09-15",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Nvidia’s 2GW AI Deal Doubles Australia’s Cloud [2026] - tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1dkpKNi0yQ2lKVl81elBSSzJsWllwUGYtckg4RW9ELU81SlFIbEpsYUQ4OGhaeHY3bEdCLTkzMnMzeXp0Y2ZTbGhsdElfSEpaTG1xNEhHRVpXaVhsWER2N1d0b3VMV3BmdkNVQWZiS0lkYm5YS19CQmZPamVWaFE?oc=5",
+   "source": "tech-insider.org",
+   "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -531,34 +543,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Palantir Stock Tests $161 Support as Nvidia Partnership Strengthens Sovereign AI Story - TradingKey",
+   "title": "Palantir Stock Tests $161 Support as Nvidia Partnership Strengthens Sovereign AI Story - tradingkey.com",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaXdZeFFZSU15TlYxUzdNc0IybUg4NnJtb3E4TG13QXBfQ1diY0dJOTk0WkFZMmJQWVl4Nk5JY3ZtcEFZdlI3V0Vqd3BET2liYno0SENESWtUSC1ZN0xaYVdZM2Y5YXpUQ2tFY3h4M2cwWFQ2N2JjOWFTZnlRQVBvajNtNTBxdjVidTNJZGJxM1RZbnpRcGVodDZXdV9FOXFEdUZJN0RoRTh5bkR2bmJIUndmTDZlSjVPUjRmaHk5aFQydlE?oc=5",
-   "source": "TradingKey",
+   "source": "tradingkey.com",
    "date": "2026-09-11",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Nvidia Deploys AI Infrastructure in Australia, Up to 2 GW by 2027 - Idéal Investisseur",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGdzbmFTaUxWRGU4VDVLb0FFUkF4ZkphZzhXLXpnS0JvdzJHTTRULU1CcmVSYnNIMU0tTXl3VmJlZjZhZGp1Ukk3UjF0UHdUYmF0cmN3TGQwQm84RzBfYUkyXzJlMzdNZG5ERXN4U0lEX2dKMzBwcGFtblBWNEhGQUVHb1dBVnItYmx1VHBPQkVIbzQ3NENfNUNkeXBiNXJpZmFMQm1EcC1RZGhGRjFsUkFjbmZ5R1BJcmFfTlpTUFc?oc=5",
-   "source": "Idéal Investisseur",
-   "date": "2026-09-10",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Egypt Plans $1 Billion AI Data Centre With NVIDIA Technology - CXO Digitalpulse",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUVBhZGxMa2dFWkI5aWFsRHdJaDRCM3F0dzg5ZU1RZVE0YjYzWkctYlZEYWZEMkF1VG03YWtZRnZ3NDdfb3duRTZmWFdtanFfMWNsSE1ZT3hEbU90WldFTURmS2xCZHUyNkhwZFZRLXhMQ0x6TG05MThsSUNTZlJWaV9hRGg3NmZzbjZINEZhZzllZE1WdlVB?oc=5",
-   "source": "CXO Digitalpulse",
-   "date": "2026-09-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -571,6 +559,18 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWUY4d2FfRDY3QklQbG9TYUFJaGVrTC1lREJza3pqWjZFOXhMZnFrS09odUNsRU1ULWlkek8zMVcteTZrMHJ2TWJGQ1oxUmZjS3N5eEtPSEFSai13alVXX2F2US1oNThPUTUtd0JyOW1icnhjTDZjWFlZM2Y3ZklrWjlXMk0?oc=5",
    "source": "Crypto Briefing",
    "date": "2026-09-10",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "NVIDIA Australia AI Infrastructure Plan Targets Up to 2 GW by 2027 - Microgrid Media",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1pMDdSTmNheGl2VjlKczNxZDN3cUJxYVJudmpEOUZaVUZ1WUVLTkhKYnhZcGR0UElzeXE2YVo5OC1oMm5ZOFY4WDNwaVB4QmRQZ1JTZGU2NDBJd05fR3gzZldvYkY0SVVIMGh5cENwUHJIODc1SlhNZTBWOA?oc=5",
+   "source": "Microgrid Media",
+   "date": "2026-09-11",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -639,10 +639,34 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Philippines bets AI will lift GDP by 12 percent in seven years – without hurting outsourcing",
+   "url": "https://www.theregister.com/public-sector/2026/09/09/philippines-bets-ai-will-lift-gdp-by-12-percent-in-seven-years-without-hurting-outsourcing/5295178",
+   "source": "theregister.com",
+   "date": "2026-09-09",
+   "via": "gdelt",
+   "country_hint": "",
+   "tier": 3,
+   "prescore": 50,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem - NVIDIA Newsroom",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd2dkbUp0Zi13THRQMU1kMXNIZVktQVN5NVR2cEszemg1RWM1cURfcDBCRGhLMGJfc3NTaW12anhJeGVDb1FfTC1SaHUzcnVUTzBnVmJseHBuUngteFBFLUZQT2FkMzBaTEEzclA0WFJGT0FmZ1htaFFSX1YwNnVTNk1yT0dnNVhzUm9Vbms0U0N0ck5UNVpyUlNZZ2JaQ3NDZ0hHUEw1VE5BMjZ0dGFIX2plWTRqRHRDeG5yQTFnY3pHZlFhcG9Ndw?oc=5",
    "source": "NVIDIA Newsroom",
    "date": "2026-09-10",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "SovAI Launches as The AI Factory Architect to Deliver Sovereign AI Compute at the Speed the Market Demands - Business Wire",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNaURLa0xvTGtIenlZUWE2TDdKdzQ0dXlDUjdVampGRTlEdl9LemoyVWhDMi0zbGp1NE50dGwzNEp5SnREb1Rvak5ZeGlMb1pKRWVJZ0N5NVhBcGhUako2SHFnSmZHOUdnNERYNWJaM1d5MnptaWdHQ2Fhc3JGX0xTV3FZbUtjZGhFTzdqak11cmpLVGVFSThadHhnOUdtbUZPZzZvU1lqRlk2M3RicmdmbHg4Y29Ub3N4R0tveXppT1I4cmQ2NGdMdlhlczNvSElFcDhfbG8xelVkVmRUVHZVRm94Q1JKalVDYngxSDByTl9hNUpCS0E?oc=5",
+   "source": "Business Wire",
+   "date": "2026-09-16",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -663,10 +687,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "NVIDIA's Vera Rubin Delivers 30x More AI Work Per Megawatt - Quantum Zeitgeist",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VQmxrM0lqUWZ2ZFU5QmVwb211TVY5akt4NEluTk1qOXZqQnZOVHphYXNKZTltVC1QcVNSRldOTk9ET05UQzh0dXd0eTA4cGVzNV92bDA3VHppMmVjQV9qVHl5S0c0UjBD?oc=5",
+   "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production - NVIDIA Blog",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnp0VjMxX29PWDY4OVo0LWRfSmRMemlJcWlUNFIzcG9tYjhoQW9Rb2RJYUZSN21ydGtSTGVKRGcxX0ZlOVFoMUo2SldacHdHTE5JU2pUem9seGtrOHRfbExyRzFUUzMzelBZQXhmSTNpSjRJenBGSENpd0Nxa3FuXy1WZ0xtRGczVXppZ1BsZ1ItZW9vQ1RBZmFDTDl0bDg?oc=5",
+   "source": "NVIDIA Blog",
+   "date": "2026-09-15",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "NVIDIA DSX Cuts AI Factory Power Use On Demand For Silicon Valley Power - Quantum Zeitgeist",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5ZHNraHp0ckc0dF9XeHZuTjdJWGJZTU04YnNYamd6bHRkRUJudXNGc3BUSzk5X09xTUVPY0R6UXVQMWJZMkxBTmpmSXZkUlBqU0xRZnpQTWM4MGVZdjVkOG9UaGhFZw?oc=5",
    "source": "Quantum Zeitgeist",
-   "date": "2026-09-08",
+   "date": "2026-09-16",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -679,42 +715,6 @@
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JemJXSEVIbEI1Tk0ybmNkZTRsOFZMMm9paUJURkcxcm5JeWs3aFZXNGxiT1FEV2dxS0hkemxQR0NuX1JKMUhVckIybFhMS1V3OXVqb3h5LXlCdlFlc3F5THZxSTEtNkU5djNrTHgteFMtNWUzaTAzTHd4NA?oc=5",
    "source": "qz.com",
    "date": "2026-09-09",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "NVIDIA and Digital Realty’s Flexible AI Factory Faces a Test That More Funding Alone Can’t Solve - Yahoo! Finance Canada",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ3B3OTBCVndzVFI4cjNiT0JJLVVwY3BmWHY3Y3BfS2NvejhTOXQ3ak42NW9nT0NzY1lld0s3SWEydVVVOXk5Zk1jTmV3OWhObEZ6aTFkNnBkaENScC1TVmM2ZmtsM2s3NDdSa3dIUHhEa2JmdjNub3pmR21vSUR4ZWNHNnBGNkFVV3c?oc=5",
-   "source": "Yahoo! Finance Canada",
-   "date": "2026-09-12",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Deploying AI You Control Doesn’t Need to be So Hard - Cisco Blogs",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRXg3UlBaUk5Ebl9CaU1FUzRnSmduVXpsMDBkUTNDX1FhQWg1THg4SVJJUDQ2RnZ0XzlmNnBDb09VZWI3OFFlS1pzSVBkYk02aGE2anFYd2ZhTXZrUnhuM3B5THliLVAtNk9VeF9KYS1ndFQ4WjUwTEZlT1ZxdkoweU1jQklkdw?oc=5",
-   "source": "Cisco Blogs",
-   "date": "2026-09-10",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Nvidia-Digital Realty AI Factory Buildout Runs Into Grid-Level Financing Test - finance.biggo.com",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82N3BleUhfRWlNV2tCZm9wS2lyT2dzRS1BX0VMeWxTZHZfM2t2b29DYzZzVy1kWUlSWWRDUzRIS1JYVnRMX1F1a1NDWXJrRkhSZy1nUUdkdnF1QVdmVTBtMHNKVC1Ha3E1cTBQcTF5Q1hveVptTVE?oc=5",
-   "source": "finance.biggo.com",
-   "date": "2026-09-12",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
