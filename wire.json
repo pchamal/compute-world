@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "id": "rwe-oracle-433mw-vppa-panther-creek-2026-09-17",
+      "date": "2026-09-17",
+      "title": "RWE signs 433 MW West Texas VPPA with Oracle for AI data-center power",
+      "summary": "On 17 September 2026 RWE Americas announced a virtual power purchase agreement with Oracle for 433 MW from existing Panther Creek I, II and III wind farms in Sterling, Howard and Glasscock counties (West Texas). RWE says the VPPA is part of Oracle’s broader Texas power portfolio totaling more than 1.7 GW supporting the ERCOT grid for Oracle data-center operations. Country conversion: a named hyperscaler locks another hundreds-of-MW renewable hedge onto Texas generation that already exists — firming Oracle’s Texas AI load path without waiting on new interconnect alone.",
+      "url": "https://www.rwe.com/en/press/rwe-americas/2026-09-17-rwe-signs-433-mw-virtual-power-purchase-agreement-with-oracle/",
+      "source": "RWE Americas press release",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build",
+        "Capital"
+      ],
+      "score": 88
+    },
+    {
+      "id": "cleanspark-meta-anviran-175mw-sandersville-2026-09-17",
+      "date": "2026-09-17",
+      "title": "CleanSpark names Meta (Anviran) as 175 MW Sandersville AI tenant; proposes $2.227B notes",
+      "summary": "On 17 September 2026 CleanSpark disclosed in investor materials accompanying an SEC filing that Anviran LLC — tenant on its 175 MW Sandersville, Georgia campus under a previously announced 20-year triple-net lease (~$6.6B expected revenue over the initial term) — is a wholly owned Meta Platforms subsidiary, with Meta guaranteeing rent and opex. Same day CleanSpark PR Newswire: subsidiary CSDC Finance I proposes $2.227B senior secured notes due 2031 to finish Sandersville (offering not closed; market conditions). Rent commencement targeted Q4 2027. Country conversion: Georgia AI campus moves from unnamed IG tenant to named Meta + a public $2.2B construction finance pitch.",
+      "url": "https://www.prnewswire.com/news-releases/cleanspark-inc-announces-proposed-offering-of-2-227-billion-of-senior-secured-notes-302881360.html",
+      "source": "CleanSpark PR Newswire + SEC investor materials (via reporting)",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Build",
+        "Energy"
+      ],
+      "score": 84
+    },
+    {
       "id": "anthropic-zerra-western-downs-2p16gw-lease-2026-09-16",
       "date": "2026-09-16",
       "title": "Anthropic signs first Australia lease at Zerra Western Downs (path to 2.16 GW peak)",
@@ -1243,6 +1283,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "note": "2026-09-17: +2 Wire (anthropic-zerra-western-downs-2p16gw-lease-2026-09-16 · ercot-state-community-impact-rfi-oct12-2026-09-14). Tape confirm day 69/0/0. PUCT 58481 still no Order Adopting (Interchange through item 217)."
 }
