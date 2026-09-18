@@ -124,7 +124,7 @@ DEFAULT_SITEMAP = [
     {"loc": f"{SITE}/brief.xml", "lastmod": "2026-08-18", "changefreq": "daily"},
     {"loc": f"{SITE}/wire.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/agents.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/contact.html", "lastmod": "2026-08-22", "changefreq": "monthly"},
+    {"loc": f"{SITE}/contact.html", "lastmod": "2026-09-18", "changefreq": "monthly"},
     {"loc": f"{SITE}/data.json", "changefreq": "weekly"},
     {"loc": f"{SITE}/llms.txt", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/wire.json", "changefreq": "weekly"},
