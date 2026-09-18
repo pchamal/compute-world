@@ -2,34 +2,41 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Canada posts the clearest overnight conversion print while Texas stays on the audit clock. Bell Canada and Saskatchewan announced a non-binding MOU on 14 Sep to expand Bell AI Fabric by up to 900 MW of phased BYOP capacity on top of the 300 MW Sherwood path already drawing from the provincial grid — a named route to a 1.2 GW Canadian AI hub, still gated by customers, permits and commercial close. On the US grid side, PUCT Project 58481 (§25.194) still shows no stamped Order Adopting through Interchange item 217 (14 Sep public comment only), and Howard–Solstice (59336) remains press-approved without a written Order visible. Batch Zero verification RFIs keep running toward the ~Sep 23 response clock and Dec 10 reports. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.</description>
+  <description>Texas power paper and a named Georgia tenant share the overnight print, while the Silicon Tape stays flat. RWE Americas said on 17 Sep it signed a 433 MW virtual PPA with Oracle from existing Panther Creek I–III wind in Sterling, Howard and Glasscock counties — framed as part of Oracle’s broader Texas portfolio of more than 1.7 GW supporting data-center load on ERCOT. Same day CleanSpark’s investor materials named Meta subsidiary Anviran LLC as the tenant on the previously announced 175 MW Sandersville, Georgia AI lease (~$6.6B initial-term revenue), with a PR Newswire pitch for $2.227B senior notes due 2031 to finish the campus (offering not closed). PUCT Project 58481 remains HOLD: Interchange still shows 217 filings and no stamped Order Adopting after the 18 Sep open meeting agenda. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.</description>
   <language>en</language>
   <item>
-    <title>Compute brief — 15 September 2026</title>
+    <title>Compute brief — 18 September 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-09-15</guid>
-    <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Canada posts the clearest overnight conversion print while Texas stays on the audit clock. Bell Canada and Saskatchewan announced a non-binding MOU on 14 Sep to expand Bell AI Fabric by up to 900 MW of phased BYOP capacity on top of the 300 MW Sherwood path already drawing from the provincial grid — a named route to a 1.2 GW Canadian AI hub, still gated by customers, permits and commercial close. On the US grid side, PUCT Project 58481 (§25.194) still shows no stamped Order Adopting through Interchange item 217 (14 Sep public comment only), and Howard–Solstice (59336) remains press-approved without a written Order visible. Batch Zero verification RFIs keep running toward the ~Sep 23 response clock and Dec 10 reports. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints. Countries: Canada / Saskatchewan: Bell × SK MOU 14 Sep: path to 1.2 GW (300 MW grid + ≤900 MW BYOP gas). Non-binding; customer/permit gated. Capex framing &gt;$50B at full buildout. United States / Texas: Project 58481 / §25.194: still no Order Adopting on Interchange through item 217 (14 Sep). Do not treat as adopted. United States / Texas: PUCT 59336 Howard–Solstice: press-approved 11 Sep with landowner route mods; written Order still pending on Interchange as of 15 Sep morning PT. United States / Texas: Batch Zero MW book (66.4 GW base / ~128 GW studied) still live; verification RFI ~Sep 23; community survey mid-Oct; Dec 10 reports.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-09-18</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Texas power paper and a named Georgia tenant share the overnight print, while the Silicon Tape stays flat. RWE Americas said on 17 Sep it signed a 433 MW virtual PPA with Oracle from existing Panther Creek I–III wind in Sterling, Howard and Glasscock counties — framed as part of Oracle’s broader Texas portfolio of more than 1.7 GW supporting data-center load on ERCOT. Same day CleanSpark’s investor materials named Meta subsidiary Anviran LLC as the tenant on the previously announced 175 MW Sandersville, Georgia AI lease (~$6.6B initial-term revenue), with a PR Newswire pitch for $2.227B senior notes due 2031 to finish the campus (offering not closed). PUCT Project 58481 remains HOLD: Interchange still shows 217 filings and no stamped Order Adopting after the 18 Sep open meeting agenda. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints. Countries: United States / Texas: RWE×Oracle 433 MW VPPA (Panther Creek I–III) announced 17 Sep; part of Oracle’s &gt;1.7 GW Texas power book for AI DC ops. United States / Georgia: CleanSpark names Meta (Anviran) on 175 MW Sandersville AI lease; proposes $2.227B notes to finish build. Rent target Q4 2027. United States / Texas: PUCT 58481 still no Order Adopting on Interchange (through item 217) despite 18 Sep open-meeting agenda. Wire on stamp. Australia / Queensland: Anthropic×Zerra Western Downs lease (16 Sep) still FIRB + council gated; path ~2.16 GW peak.</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#nvidia-b200-sxm6</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-15/nvidia-b200-sxm6</guid>
-    <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 15 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 14 Sep. 1Q is 0% (same $6.69 print).</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-18/nvidia-b200-sxm6</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 18 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 17 Sep. Same $6.69 print.</description>
   </item>
   <item>
     <title>H100 SXM 80GB · $3.99 on-demand</title>
     <link>https://compute.world/brief#nvidia-h100-sxm-80gb</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-15/nvidia-h100-sxm-80gb</guid>
-    <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 15 Sep 2026. Lambda OD $3.99 confirm. CoreWeave OD instance÷8 still $6.16; NA/EU spots re-confirmed in static HTML.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-18/nvidia-h100-sxm-80gb</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 18 Sep 2026. Lambda OD $3.99 confirm. CoreWeave Inference Single still $6.16; Crusoe HGX $3.90; DO OD $4.41 / 12m $3.26.</description>
   </item>
   <item>
     <title>TPU v5e · $1.20 on-demand</title>
     <link>https://compute.world/brief#google-tpu-v5e</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-15/google-tpu-v5e</guid>
-    <pubDate>Tue, 15 Sep 2026 12:00:00 GMT</pubDate>
-    <description>TPU v5e: display $1.20 on-demand at GCP as of 15 Sep 2026. GCP TPU v5e OD $1.20 / 1y $0.84 / 3y $0.54 confirm.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-18/google-tpu-v5e</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+    <description>TPU v5e: display $1.20 on-demand at GCP as of 18 Sep 2026. GCP us-central1 OD $1.20 / 1y $0.84 / 3y $0.54 confirm. Ironwood OD $12.00 and Trillium OD $2.70 re-confirmed.</description>
+  </item>
+  <item>
+    <title>GH200 · $2.29 on-demand</title>
+    <link>https://compute.world/brief#nvidia-gh200</link>
+    <guid isPermaLink="false">compute.world/brief/2026-09-18/nvidia-gh200</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+    <description>GH200: display $2.29 on-demand at Lambda as of 18 Sep 2026. Lambda 1× $2.29 confirm; CoreWeave GH200 OD $6.50 confirm.</description>
   </item>
 </channel></rss>
