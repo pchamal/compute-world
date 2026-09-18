@@ -221,7 +221,7 @@ def fmt_mw(value, unit="MW"):
 def live_sort_value(company):
     field = company.get("live_mw") or {}
     if field.get("value") is None:
-        return float("-inf")
+        return None
     return float(field["value"])
 
 
@@ -246,7 +246,7 @@ def build(book=None, campuses=None, dest_html=None, dest_xml=None):
     campuses = campuses if campuses is not None else load_campuses()
     validate_book(book)
     companies = list(book["companies"])
-    companies.sort(key=live_sort_value, reverse=True)
+    companies.sort(key=lambda c: live_sort_value(c) if live_sort_value(c) is not None else float("-inf"), reverse=True)
     totals = portfolio_totals(companies)
     rollup = campus_rollup(campuses)
     updated = book["updated"]
@@ -381,6 +381,7 @@ def build(book=None, campuses=None, dest_html=None, dest_xml=None):
             },
         },
         ensure_ascii=False,
+        allow_nan=False,
     )
 
     ld = json.dumps(

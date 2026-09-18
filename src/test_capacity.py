@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Schema + builder guards for the capacity book. No invented numbers."""
+import json
 import os
 import sys
 import tempfile
@@ -121,6 +122,16 @@ class Builder(unittest.TestCase):
         self.assertNotRegex(html, r"<th[^>]*>\s*EV/MW")
         self.assertIn("capacity.xml", html)
         self.assertIn("CoreWeave", xml)
+        # Drawer payload must be real JSON (null, not -Infinity).
+        start = html.index('id="cap-data">') + len('id="cap-data">')
+        end = html.index("</script>", start)
+        blob = html[start:end]
+        self.assertNotIn("Infinity", blob)
+        payload = json.loads(blob)
+        self.assertTrue(payload["companies"])
+        for c in payload["companies"]:
+            if c["id"] in ("equinix", "lambda", "crusoe", "fluidstack"):
+                self.assertIsNone(c.get("live_sort"))
         # Campus rollup must not invent a MW where the pin has none.
         rollup = campus_rollup(campuses)
         self.assertEqual(rollup["n_pins"], len(campuses["projects"]))
