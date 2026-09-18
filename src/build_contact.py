@@ -7,7 +7,7 @@ from seo import og_block
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-ASOF = "2026-09-07"
+ASOF = "2026-09-18"
 CITE = cite_line("The Desk", f"{SITE}/contact.html", ASOF)
 
 PAGE = f'''<!DOCTYPE html>
