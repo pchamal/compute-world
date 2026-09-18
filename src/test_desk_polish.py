@@ -8,7 +8,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 
-from desk_chrome import TAGLINE, NAV, MORE, cite_line, masthead
+from desk_chrome import TAGLINE, NAV, MORE, cite_line, footer, masthead
 from seo import robots_txt, SEARCH_BOTS, TRAINING_BOTS, BULK_PATHS
 from desk_data import PREC, PREC_CAMPUS, precedent_href
 
@@ -62,11 +62,13 @@ class Chrome(unittest.TestCase):
     def test_tagline_short(self):
         self.assertEqual(TAGLINE, "Countries. Compute.")
         html = masthead("", "2026-09-07")
-        self.assertIn("Countries. Compute.", html)
-        self.assertNotIn("Countries. Compute. Silicon.", html)
         self.assertIn("Contact Us", html)
         self.assertIn("class=\"chrome\"", html)
         self.assertIn("mark.svg", html)
+        self.assertNotIn("Countries. Compute. Silicon.", html)
+        foot = footer()
+        self.assertIn("Countries. Compute.", foot)
+        self.assertNotIn("Countries. Compute. Silicon.", foot)
 
     def test_contact_is_primary(self):
         labels = [n[0] for n in NAV]
@@ -77,11 +79,20 @@ class Chrome(unittest.TestCase):
     def test_physical_stack_in_more(self):
         hrefs = [row[0] for row in MORE]
         labels = [row[1] for row in MORE]
-        self.assertIn("https://compute.world/physical-stack.html", hrefs)
+        self.assertIn("https://compute.world/physical-stack", hrefs)
         self.assertIn("Physical stack", labels)
         html = masthead("", "2026-09-14")
-        self.assertIn("physical-stack.html", html)
+        self.assertIn("physical-stack", html)
         self.assertIn("Physical stack", html)
+
+    def test_capacity_in_more(self):
+        hrefs = [row[0] for row in MORE]
+        labels = [row[1] for row in MORE]
+        self.assertIn("https://compute.world/capacity.html", hrefs)
+        self.assertIn("Capacity", labels)
+        html = masthead("", "2026-09-18")
+        self.assertIn("capacity.html", html)
+        self.assertIn("Capacity", html)
 
     def test_citation_has_url_and_asof(self):
         line = cite_line("The Compute Net Worth Index", "https://compute.world/", "2026-09-07")

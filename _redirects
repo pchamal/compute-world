@@ -1,3 +1,4 @@
 # Cloudflare Pages already 308s *.html → extensionless and serves the .html file.
 # Never add the reverse (extensionless → *.html) or you get a redirect loop.
 /stack /physical-stack 301
+/markets/capacity /capacity 301

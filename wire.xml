@@ -5,6 +5,20 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>RWE signs 433 MW West Texas VPPA with Oracle for AI data-center power</title>
+    <link>https://www.rwe.com/en/press/rwe-americas/2026-09-17-rwe-signs-433-mw-virtual-power-purchase-agreement-with-oracle/</link>
+    <guid isPermaLink="false">compute.world/wire#rwe-oracle-433mw-vppa-panther-creek-2026-09-17</guid>
+    <pubDate>Thu, 17 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 17 September 2026 RWE Americas announced a virtual power purchase agreement with Oracle for 433 MW from existing Panther Creek I, II and III wind farms in Sterling, Howard and Glasscock counties (West Texas). RWE says the VPPA is part of Oracle’s broader Texas power portfolio totaling more than 1.7 GW supporting the ERCOT grid for Oracle data-center operations. Country conversion: a named hyperscaler locks another hundreds-of-MW renewable hedge onto Texas generation that already exists — firming Oracle’s Texas AI load path without waiting on new interconnect alone. [Signal 88, Confirmed, via RWE Americas press release] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>CleanSpark names Meta (Anviran) as 175 MW Sandersville AI tenant; proposes $2.227B notes</title>
+    <link>https://www.prnewswire.com/news-releases/cleanspark-inc-announces-proposed-offering-of-2-227-billion-of-senior-secured-notes-302881360.html</link>
+    <guid isPermaLink="false">compute.world/wire#cleanspark-meta-anviran-175mw-sandersville-2026-09-17</guid>
+    <pubDate>Thu, 17 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 17 September 2026 CleanSpark disclosed in investor materials accompanying an SEC filing that Anviran LLC — tenant on its 175 MW Sandersville, Georgia campus under a previously announced 20-year triple-net lease (~$6.6B expected revenue over the initial term) — is a wholly owned Meta Platforms subsidiary, with Meta guaranteeing rent and opex. Same day CleanSpark PR Newswire: subsidiary CSDC Finance I proposes $2.227B senior secured notes due 2031 to finish Sandersville (offering not closed; market conditions). Rent commencement targeted Q4 2027. Country conversion: Georgia AI campus moves from unnamed IG tenant to named Meta + a public $2.2B construction finance pitch. [Signal 84, Corroborated, via CleanSpark PR Newswire + SEC investor materials (via reporting)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Anthropic signs first Australia lease at Zerra Western Downs (path to 2.16 GW peak)</title>
     <link>https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/</link>
     <guid isPermaLink="false">compute.world/wire#anthropic-zerra-western-downs-2p16gw-lease-2026-09-16</guid>
@@ -199,19 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#ami-hyderabad-rubin-9000</guid>
     <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 25 August 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko’s promoters, said it placed a firm and binding order for 9,000 NVIDIA Rubin GPUs to be deployed as Vera Rubin NVL72 rack-scale systems at its first AI factory in Hyderabad, with delivery slated for Q1 2027 and 30 MW of capacity. AMI frames Hyderabad as the first tranche of a planned 1 GW Compute-as-a-Service footprint, with an initial 200 MW to market involving more than $8 billion of capital expenditure, and says it is developing 5 GW of powered AI data centres across India, the United States and Europe. The Hyderabad site is engineered for roughly 450 exaFLOPS of NVFP4 inference. This is India’s second live conversion print this month after L&amp;T × Together Chennai, and the first named Rubin (not Blackwell) factory MW on the tape. Source is the company release as reported by The Hindu / PTI; no AMI IR PDF located at filing time. [Signal 79, Confirmed, via AM Intelligence / The Hindu] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>SemiAnalysis: US taking ~70% of new AI watts; China still sub-10%</title>
-    <link>https://www.dwarkesh.com/p/dylan-patel-3</link>
-    <guid isPermaLink="false">compute.world/wire#semianalysis-us-chn-watts-2026-08-25</guid>
-    <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 25 August 2026 Dylan Patel of SemiAnalysis, on the Dwarkesh Podcast, restated the country watt split: since 2022 the US share of incremental AI data-center watts rose from about 45–50% to ~70% today, while China fell from about 30–35% to sub-10% of watts being deployed. He puts China&#x27;s 2028 AI compute stock at 30 GW or less, with 5–10 GW of that year&#x27;s add from domestic SMIC/CXMT silicon he says is worse than 2028 US chips, and calls +50 GW incremental in 2029 &quot;completely reasonable.&quot; World incremental path in the same interview: +30 GW this year, +50 next, ~70 in 2028 (80 as the upper bound). MATCH Act (H.R. 8170) is named as the live export-control lever; as of 26 August it is not law (House Foreign Affairs reported 22 April, no floor vote). These are SemiAnalysis model prints stated on a dated interview, not a campus FID or a government filing. [Signal 62, Single-source, via Dwarkesh Podcast / SemiAnalysis] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Keelung prosecutors indict Nvidia and Supermicro Taiwan staff over B300 servers diverted to China</title>
-    <link>https://focustaiwan.tw/society/202608240023</link>
-    <guid isPermaLink="false">compute.world/wire#taiwan-b300-server-china-export-indictment-2026-08-24</guid>
-    <pubDate>Mon, 24 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 24 August 2026 the Keelung District Prosecutors’ Office indicted eight people, including a distribution manager at Nvidia’s Taiwan office and two sales managers at Super Micro’s Taiwan branch, for breach of trust and document forgery tied to Supermicro servers equipped with Nvidia B300 GPUs. CNA (Focus Taiwan) reports prosecutors say Flying Tiger obtained a 130-server order after a staged site inspection, 74 servers reached Chinese buyers via direct shipment or routes through Indonesia, Japan and Hong Kong, and customs seized the remaining 56 in Taiwan. Illicit proceeds on the completed 74-server resale exceeded US$21.2 million. A Flying Tiger principal remains wanted. This is a Taiwan/China conversion-enforcement print on the whitelist-and-inspection gate, not a new export rule. [Signal 82, Confirmed, via CNA / Focus Taiwan (Keelung prosecutors)] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>

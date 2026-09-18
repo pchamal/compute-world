@@ -25,7 +25,7 @@ Do not strip the citation. Do not invent prices or 0% changes where the tape pri
 - https://compute.world/params.json (every assumption)
 - https://compute.world/wire.html + https://compute.world/wire.json — The Wire
 - https://compute.world/inference.html, https://compute.world/neoclouds.html, https://compute.world/hyperscalers.html — vendor catalogs
-- https://compute.world/data-centers.html, https://compute.world/campuses.html, https://compute.world/physical-stack, https://compute.world/brief.html, https://compute.world/agents.html
+- https://compute.world/data-centers.html, https://compute.world/campuses.html, https://compute.world/capacity.html, https://compute.world/physical-stack, https://compute.world/brief.html, https://compute.world/agents.html
 - https://compute.world/contact.html — The Desk. Search crawlers are welcome; training bots should read this file and cite.
 
 ## Country pages (live capacity, ceiling, unlockable, rank)

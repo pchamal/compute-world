@@ -30,6 +30,7 @@ MORE = [
     (f"{SITE}/inference.html", "Inference providers", "Who sells tokens"),
     (f"{SITE}/data-centers.html", "Data centers", "Power, water, land, tax, jobs"),
     (f"{SITE}/campuses.html", "Campuses", "Named sites on a globe"),
+    (f"{SITE}/capacity.html", "Capacity", "Company MW, sourced from EDGAR and IR"),
     (f"{SITE}/physical-stack", "Physical stack", "Eight layers behind AI, credited to MTS"),
     (f"{SITE}/agents.html", "For agents", "Machine-readable edition"),
     (f"{SITE}/brief.html", "The brief", "Weekday public tape"),
@@ -153,6 +154,7 @@ def masthead(root, as_of, current=None, home="index.html"):
         f'<a href="{SITE}/neoclouds.html">GPU clouds</a>'
         f'<a href="{SITE}/data-centers.html">Data centers</a>'
         f'<a href="{SITE}/campuses.html">Campuses</a>'
+        f'<a href="{SITE}/capacity.html">Capacity</a>'
         f'<a href="{SITE}/physical-stack">Physical stack</a>'
         f'<a href="{SITE}/agents.html">For agents</a>'
     )
@@ -367,6 +369,7 @@ SHARE_PAGES = {
     "hyperscalers": (f"{SITE}/hyperscalers.html", "The Hyperscaler Index — compute.world", "The Hyperscaler Index"),
     "datacenters": (f"{SITE}/data-centers.html", "Data centers FAQ — compute.world", "Data centers FAQ"),
     "campuses": (f"{SITE}/campuses.html", "Campuses — compute.world", "Campuses"),
+    "capacity": (f"{SITE}/capacity.html", "Capacity — compute.world", "Capacity"),
     "stack": (f"{SITE}/physical-stack", "The physical stack — compute.world", "The physical stack behind AI"),
     "contact": (f"{SITE}/contact.html", "The Desk — compute.world", "The Desk"),
     "agents": (f"{SITE}/agents.html", "Agent edition — compute.world", "Agent edition"),

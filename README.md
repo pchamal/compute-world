@@ -26,6 +26,7 @@ og-silicon.png  Silicon Tape unfurl card
 og-brief.png    daily-tape unfurl card
 llms.txt        plain-language guide for AI agents
 physical-stack.html  credited eight-layer outline (MTS Intelligence)
+capacity.html   company MW book (from capacity.json + campus rollup)
 robots.txt, sitemap.xml
 functions/      Cloudflare Pages Functions (POST /api/subscribe)
 src/            the model and build scripts (Python)
@@ -68,6 +69,11 @@ edit `params.json`, commit, done.
   `/physical-stack.html`. Framing is MTS Intelligence's; wording is this desk's.
   Do not paste their prose or invent MW/$ figures. Attributed headlines must
   match their page or `/api/compute`.
+- **Capacity book:** edit `capacity.json`, then `python3 src/build_capacity.py`.
+  Every non-null MW cell needs a filing or IR `source_url`, `quote`, and `as_of`.
+  Do not invent GPU density. Do not scrape a third-party capacity table.
+  Portfolio totals count only reported and calculated cells. The campus rollup
+  is a pin aggregate from `campuses.json`, not issuer Live MW.
 - **Data or copy changes:** edit the inputs in `src/` (country rows in `cnw_model.py`,
   ratings and democracy in `aux_data.py`, macro in `macro_data.py`, live capacity in
   `gdc_data.py`, desk chrome in `build_desk.py` / `desk_data.py`), then rebuild:
