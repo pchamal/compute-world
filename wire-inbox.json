@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21 15:54 UTC",
+ "generated": "2026-09-21 18:13 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -27,9 +27,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Bell Just Made a $52.5 Billion Bet on AI. So Is BCE Stock Finally a Buy? - The Globe and Mail",
+   "title": "Bell Just Made a $52.5 Billion Bet on AI. So Is BCE Stock Finally a Buy? - theglobeandmail.com",
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOFlubVpIbW9OZW1ja0RNMmlfZ1BOR2ljZ3dPTFViNzZoNUVmdWlleEhKVzBDSVlYX2NWWDhmVzJRcGNJNkRTTHJVMm9nZXZ0a1hDdndmajQ5d05rOEhWSDZqWXd1dWJLQ2NFVDZmdmFlOHVYZTlHUkZyQnFRWGM0X1hjdWNNekRDQWFqS1lfS2tYSW9HNlFhenl0UkNhWHFNN1ByYkRocmZNOGxaaUZJY0JxZnZVTzgxQ2xheTNmNG5wUmktZmJBc2lyck11YUtiTkg0X0thbmVJMEFGVlA2ZzBycE1aOHphc1E?oc=5",
-   "source": "The Globe and Mail",
+   "source": "theglobeandmail.com",
    "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
@@ -43,30 +43,6 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zbFJyOWFQYTRuU2NZZ0ZwUkxvR043aHY4TW95NUh3Q19tWFd4Ylc4TjU3emg3WXE4dkdweEQ5MGVNakhfWHg3RUtQbW9WN05tbHcxMkRMclZTN2tPWWtPTS1tQXJVSG8zdU03X0lzcjM1anJQTGc?oc=5",
    "source": "finance.biggo.com",
    "date": "2026-09-15",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 73,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Bell Canada plans Saskatchewan AI infrastructure expansion with up to C$52.5 billion investment - Traders Union",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdG5FVWxiSlNscThCeDROLTlLcTR2YjFNUy1SUnpNOFFQeVZpTkEzMlJ2ZWFKdUhaTXhmR2dILVlCcUZkdzI0OEhWZ0piX1VrLVI0cTdXN0FqVWp0a2h0RHJzZW01Wmt0MW5NZU9RVFJPUWdiU2U2bTRPTUlTM0drcmNZZDVBc1RoSEZHYjdISGRqSG1jSEZHbnNiUzg?oc=5",
-   "source": "Traders Union",
-   "date": "2026-09-14",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 73,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "This Under-the-Radar AI Data Center Stock Just Assigned Its Michigan Campus a Value of Up to $1.25 Billion - Barchart.com",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeFRXYVJPS1NlN0lqTzZURTMzMGhhV0g3QjN5N3plclZhbENUNDBSQmJoWWFqOHhpbFRYUW9RRjJqeGZmejhkVTU3SU1GRHFwR2JzczZET2tmcHdCVG01bXRqbHhWNGY3a1EtRDNwYjFPRWNwa3h0MWZ6Vzl1Y0N5Ym8zejU1NnBFZ21yYkNidGRiSmp6RlRXMEhLX1RoUUF1Z0E5ZG00VVJ4RjdCam8xenZfcVp1TERhNmx1ejJPRDNibkM4aGhZV2ZNTTZVVURKTHlia25STnVuZU1rcTRvNDhmMA?oc=5",
-   "source": "Barchart.com",
-   "date": "2026-09-16",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -111,9 +87,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "NVIDIA’s DSX MaxLPS Drives 40% More Token Throughput Per Megawatt, As Lambda’s Cluster Jumps To 5 Million Tokens Per Second - Wccftech",
+   "title": "NVIDIA’s DSX MaxLPS Drives 40% More Token Throughput Per Megawatt, As Lambda’s Cluster Jumps To 5 Million Tokens Per Second - wccftech.com",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNEFEZzRXWXFKendRU1N0Rkp6NHZpY2JhZW1UeVY4YkdObTBWWFBOMW4tbHhoTjg4dURQZ2dLaEIzbFo1aVlkVGFycDd0Z05LR05NS2RFbTNCNUdONjhmUDZ6WmtzTUZKa3JOVXNpbHZjTEFXUlRLSnpyUGx0UmxhUUNjVGtVUHVK0gGOAUFVX3lxTFBhWGNzYUdWV0xjQTJaMkFRb0ttZ1BGbHBHekhYQ00wdVlCSTlUTk5JcURnUHNyY0FwV1UycThHYjE5bXN5RDJ6WG9OOTRwQlF2RVIyaExralc2WVQ0S05OMUZlWjJrbEtrTlJMdmNfRzBNS0puLUlTNEprQzJNME9ja0RNNTNRc1ktM0ZfRUE?oc=5",
-   "source": "Wccftech",
+   "source": "wccftech.com",
    "date": "2026-09-16",
    "via": "gnews",
    "country_hint": "",
@@ -147,9 +123,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Madhya Pradesh Secures Rs 530 Billion in Investment Proposals - Construction World",
+   "title": "Madhya Pradesh Secures Rs 530 Billion in Investment Proposals - constructionworld.in",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSVpXb05kZ1l6N0RZRXdBNTZPV0hnd1VOSkxLLVAybWxYTVJwdFRWTXpaT2FmT2xucFRHQzFlV2poYWw0SklramZTakVhajNwMk1hbGE0WkNfX2cyLXNUYk1McnNmSE1BSFpMMEkzU0VseEI4WU53WXpuQjkxWlZmX3paVU1WdVh5azJxcGgzNkJCNkxwdk11T1JxeGwtdTlGWG9WaGZfeDBkc1lFTllieGZLSldJQjVUVFV1di1ma21kUVlKS2NJU0szX3N6UQ?oc=5",
-   "source": "Construction World",
+   "source": "constructionworld.in",
    "date": "2026-09-16",
    "via": "gnews",
    "country_hint": "",
@@ -231,6 +207,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Super Micro Says AI Opportunity Could Reach $4 Trillion: ‘The Sky’s the Limit’ - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQnpZX1M4clRPMi1oR2xSblp5NnRsQ2IyN0E2Zm9WcjVaNTc1bTV3SjE0V1E5M3UtM3RnS3JvWUlYSTFHRms4ZmlZOU9YY3dXT3Jhd0pKNDI1QWxmQ1NsaXN4WktTWFNRUDhDcVBkMmxPWUJFT0FXVU9zNmJWV3hwSUI5U2VjQllxM0JqZUdtUWRDT3Q3Q0NEYlRzdVJyR2t6YzB0X0h0YS0zbHhDQWZIeFRIeUdXOEYtbDNLQmdHWmlqN25TOFFra09CMi01Zw?oc=5",
+   "source": "TradingView",
+   "date": "2026-09-21",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "AMD Stock Tests $478 as Saudi AI Deployment and Data Center Growth Support Breakout - TradingKey",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLWh6SXNtUmtVR0QxRlVMeVNyX3ZCZ21Ec0NjT1ZqLUxmSVFGQXE0NnFJb21SLWVXQXpzTV8wcUxrVXhmVjZmYmVsb0pYUV9DcWxxcWxlcXB6bzhfOG1ORG45V194MW8wNE11MEUtSW1OcVh2M2owWFR6a3VfUkZRVjVrenBiQkprNGZaRURJdmp2OUlyOXUxUG9USWluVktmZUFrTWNiZE1KdkdCajZvR2U2R2Vqdw?oc=5",
    "source": "TradingKey",
@@ -255,9 +243,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "A Michigan data center could generate more than $3B if a customer expands it for 20 years - stocktitan.net",
+   "title": "A Michigan data center could generate more than $3B if a customer expands it for 20 years - Stock Titan",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbmxxNFhqbGtEakZ4NVJmZ3B3czZibk9uYURhS2EwT2d3bTRrdUpZX2ctdDMwbE9EelViZlhZMHViNzNHNmhNUXpWUG9vRHVOQUMtSE9oR3U0dFA5cTA4WU1FNE9WZk1YeHpyU3FMQl9uVzdkX2wtbHhnNHhYNEtkOGROTzFUcEtWV2Npa1VXcndXTnhlNzlqc0dqZkRXSTZUSkI5NHNpTmt4THJ0Q3V0TXpKWElkUTNUb0FtMVJn?oc=5",
-   "source": "stocktitan.net",
+   "source": "Stock Titan",
    "date": "2026-09-14",
    "via": "gnews",
    "country_hint": "",
@@ -291,9 +279,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "NFD Korea Breaks Ground on 300MW AI Data Center Campus in Danjin - mingtiandi.com",
+   "title": "NFD Korea Breaks Ground on 300MW AI Data Center Campus in Danjin - Mingtiandi",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeTJKb1RMQ1BVSTRncGd2Ulo0a3llNGR1QnViRVFudHJmSTBQTXNSeEJESVpJZGdhM2lReXp6LUxVVzZPTnVKNnlZd2ExZXNLNkxGVDdMMTBmYVkyODNHczNYR01kc09Obzl3RXdsQjgzOTRVMkhUVUtzOGZZQ3g4X181aEs4Uk9DVWtOMWdWQ19BREF2aGZqdzBERENYaUlZOHpSZA?oc=5",
-   "source": "mingtiandi.com",
+   "source": "Mingtiandi",
    "date": "2026-09-14",
    "via": "gnews",
    "country_hint": "",
@@ -303,9 +291,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "More than $3 billion could come from a Michigan AI center over 20 years if fully expanded. Operations are expected in November. - stocktitan.net",
+   "title": "More than $3 billion could come from a Michigan AI center over 20 years if fully expanded. Operations are expected in November. - Stock Titan",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFEtQWduVmU1YU9Lai1IQTRVTi1DLVlEeGQ5RWJLMDlDN1dwVHR0WkxrMGVLcEstSkhhZDJvX1pJN1JkanRjaGd2S0FQMk5sSmlMYUhZT2Z4TUtkcDI3UG1HYnhHclpPTHBybmJxUEltZ0JVWWFXTk9uTWlSRXFMNDg5OWE2dWptdElIbFNoZmc3UkRqXzQ0Wk9BN0E4T01ZUE1QbUxvY0w5TFBzWDNjR3NkcExHTldES0E?oc=5",
-   "source": "stocktitan.net",
+   "source": "Stock Titan",
    "date": "2026-09-17",
    "via": "gnews",
    "country_hint": "",
@@ -327,9 +315,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "AI Data Center Market to Reach USD 983.48 Billion by 2034, Growing at a CAGR of 23.65% - openpr.com",
+   "title": "AI Data Center Market to Reach USD 983.48 Billion by 2034, Growing at a CAGR of 23.65% - openPR.com",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaXRZWEkyTmJhMGp1eld2Qlg2NE02N3NRVDZ6OXBOMjQxMkZpM0dtbmtJUUo1d0RnNjhLeHA1RHdEZVQ3UFYza1NqcUFkOFZiYWZQSnc4X2VPNEIwa1FUZVVJQ2pOZjh5NGRrd0V5LVpSc0tGWl9JaUk5ZnIxMzhSWjE3U1MyVEU3V1NTSGlEaEl4Ny1Zd0NsNm1lZk1jNEFGSFJR?oc=5",
-   "source": "openpr.com",
+   "source": "openPR.com",
    "date": "2026-09-17",
    "via": "gnews",
    "country_hint": "",
@@ -363,9 +351,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "A planned $192 million deal would deploy 1,024 NVIDIA AI chips - stocktitan.net",
+   "title": "A planned $192 million deal would deploy 1,024 NVIDIA AI chips - Stock Titan",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVHUzbjBmX1BSR0QzNVZveElJOU1VOU1BQ0RjZE9kT3J6OUx5ODFVaUpRaGVrdzUxbmc3RTBxeXcyVFlmRFJrSmtsZlhscGZRWUhBZlU3eXlMWTd4M1hyYXZGV0Y5cDMxbjRMNkV2VHFCVllsdUc3YXFBNUFJN3BUWGJtM1ItdjdyUG0wc1JjQmRQUGszZzlyQVpqMlpaY2ExcTRDNXNoVGJmR1Z4dkQtbUY0Z1NTTDdpWHd2amp3?oc=5",
-   "source": "stocktitan.net",
+   "source": "Stock Titan",
    "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
@@ -435,9 +423,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Stargate secures 21 million Euros from EU Innovation Fund to further scale up its operations - baltictimes.com",
+   "title": "Stargate secures 21 million Euros from EU Innovation Fund to further scale up its operations - The Baltic Times",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3lMUWQ3SlJaMnhWUXRSclk4MHh0b1daMWc0Yk5vX19IT0lOTVZVNU96bm5wT1dQMmZISGI1YW9mUnFlcnJjTlR3NDVScHZ2TjcyTC1qWlk3RVdVWHlXMllmZXEyckMzamdQWVhzR0JFZ1ZRaVJvaUd3eGcteC15R0FHajFwbnVLVnZOa1lCT2ZvcWRCbWR4MVNlRy1GblpkY2VYV0ZCd09pSEFXcE9uQUtac1ZMTTNoUVc3N3Fn?oc=5",
-   "source": "baltictimes.com",
+   "source": "The Baltic Times",
    "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
@@ -603,9 +591,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "EUCLYD and FMC announce strategic collaboration to develop secure, sovereign AI infrastructure - The National Law Review",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcExTZERjcFNvejlMT2VSV1ZFbmJTZEVxQ0F0RjNVZUc4dlAtazlGZlFLQ2xPVjJoYkIyN2RVNnRUT1pHTXdrdEx5dlpnMXU4RG9WSnc5dkRBM2wyU2lKM3h0VUVTUkdOdllwbnlpaUFZam5Dc3Jhb2lzbDVUaFFtbml3TVVWSU5TMzM4QzRyNWVMdzBHTlJTcUJCdGlEM18yN1RCcnVPdm1DYTVNQWdNNFlnbFZJZw?oc=5",
-   "source": "The National Law Review",
+   "title": "EUCLYD and FMC announce strategic collaboration to develop secure, sovereign AI infrastructure - EIN News",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWjQ1SU1Cai1IV25OUXJIS3NycHZ0R01zRzZWalJuX2NYREwzNFdCN0c5WFBpekQteDVTLVUyMXdQeHktU3JnUGtLX0drVWgwcEZseFBXUUctX0diaGpBRFV2dUkxQXpaUHpOQjdZV19JUVB0ZVpLNkJwd1EwdDcyWDQ3bVJ6Y09UbzRWNWNXd1lETWMtbmNKSmJTUkMydWx3WFM0UnM0ZE1LS1F1Vlp5eVdEazdoMHRLM1ZNSElISWdEOGF3c0w1Y2RBbHlIcFBu?oc=5",
+   "source": "EIN News",
    "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
@@ -615,9 +603,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Thales Unveils HexaForce: AI-Powered, Sovereign Command and Control for NATO and Allied Nations - Yahoo Finance Singapore",
+   "title": "Thales Unveils HexaForce: AI-Powered, Sovereign Command and Control for NATO and Allied Nations - sg.finance.yahoo.com",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaksyX1RHcWxyQnRvVFZVT2d1MFNfSklYRnVwdzJyWFBBWjAtdm9lSVY1dGN1c0pqUkFpNkZwaTIxNVJnUlNoXzdsTlZ2eUZycFMxMjlzU0Rxbk9YNFRXbVEzZTc0ZWU4NXhheEJFNlhaR29ZZm1GRFZyYzMzVDRRYkljV1pjMFltUEhBcg?oc=5",
-   "source": "Yahoo Finance Singapore",
+   "source": "sg.finance.yahoo.com",
    "date": "2026-09-17",
    "via": "gnews",
    "country_hint": "",
@@ -639,10 +627,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock - 24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVWFWa0UxRFR3d2NMNUJsVTNWZ0hVQWFMa0hoU3Y4Z00xQTBWVERZVm1TQ0NPZUoyU3RUMURCYjBYRURpSzQ3RFdZNGRQb0I4NUtnbVU5Y0FfWXU5djF6M0NMUnYwVVVKN2EwamVPamlfQ3RRX0hrSGx0RDkzV0RHb3RnRWNOOHRFWUJoSDExTFhQd3gzdUhIRTlR?oc=5",
-   "source": "24/7 Wall St.",
-   "date": "2026-09-14",
+   "title": "Nvidia's AI Factory Math and Huang's Charisma Fuel Bullish Calls at Dreamforce - finance.biggo.com",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lUE4zMHdVSkxBUGNPeVNCdzF4VGJXTzhkRjl5dnc3WkgzTEpEMGlLRkZkYVlja0VWWDJsVXpZWDZSZlhTMmFQa3NEOVAtYWItQi05OWRYWHd1RHAyYXdGd0lYTndMQjlzTnZhTEM1TXhPWFhOZGc?oc=5",
+   "source": "finance.biggo.com",
+   "date": "2026-09-17",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -651,10 +639,34 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Nvidia's AI Factory Math and Huang's Charisma Fuel Bullish Calls at Dreamforce - finance.biggo.com",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lUE4zMHdVSkxBUGNPeVNCdzF4VGJXTzhkRjl5dnc3WkgzTEpEMGlLRkZkYVlja0VWWDJsVXpZWDZSZlhTMmFQa3NEOVAtYWItQi05OWRYWHd1RHAyYXdGd0lYTndMQjlzTnZhTEM1TXhPWFhOZGc?oc=5",
-   "source": "finance.biggo.com",
-   "date": "2026-09-17",
+   "title": "NVIDIA CEO Says AI Spending Flywheel Is ‘Really, Really Flying’ - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTExwQWNhV2tKNGItT0ltYktabk8zdXdLNzZBaXRwVDNmR0ZLdGdHQ2s1ZERQRDBKajlTeUphbWpwWGsteXRSVG9abXFDT0U1cldKS3RZN0RfRzZyM1IzTXY5Ty1pMElUWEROZ0p0OU5lUFF1S21zM0hpVXJCQTZCZHlkYXFUR0sxLTBUVUowOWwyejFUMFpGdmRUUV84SldJSWQ3ZmZHSWhSSnhUZURFQkpWTmNqMGlSV2lN?oc=5",
+   "source": "TradingView",
+   "date": "2026-09-16",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "DELL Rides on Growing AI Clientele: Can the Stock Outpace SMCI & CSCO? - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXdTYnFFSXJvQlQ3X1M1LXNVT3pBNlFySV93NmFqbTRxQUNWbFRBUEhuSmhBdmw5WTFTcEFFNmllR3k4c1BjMV91aFcteEVvRExYQUlYRlZMQWRDTTNIYUxZZHE4MkRoMFVkU3l6R0x2dFdWLVp6VjVVY3p2WWlEM3piamViQ1lyb1dxY3VXdS1tMHdoSUhyMTZUQ1p4dnd0Y21fc055WFdjSm9COXRObFdxdGhKM2xWampuMnlibw?oc=5",
+   "source": "TradingView",
+   "date": "2026-09-21",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock - 24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVWFWa0UxRFR3d2NMNUJsVTNWZ0hVQWFMa0hoU3Y4Z00xQTBWVERZVm1TQ0NPZUoyU3RUMURCYjBYRURpSzQ3RFdZNGRQb0I4NUtnbVU5Y0FfWXU5djF6M0NMUnYwVVVKN2EwamVPamlfQ3RRX0hrSGx0RDkzV0RHb3RnRWNOOHRFWUJoSDExTFhQd3gzdUhIRTlR?oc=5",
+   "source": "24/7 Wall St.",
+   "date": "2026-09-14",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -687,22 +699,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Kazakhstan Seeks Digital Leverage in AI Race - The Astana Times",
+   "title": "Kazakhstan Seeks Digital Leverage in AI Race - astanatimes.com",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ3dXRlhyeU45aWFYR1RSWGxBcHJnZUhTYkdhRFNkSmNWWm9rNjlKVDdHc2hfbjVFYUxDakhHY2JrMEdPM1VaZ01xZ3IzVVd4S2o3b2QyRGwwQVJDRmpxZTZsaWhZMWtIS3RVRXh5X2NzbmFRU0xWdHFmY250bW9VbndOQQ?oc=5",
-   "source": "The Astana Times",
+   "source": "astanatimes.com",
    "date": "2026-09-15",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "NVIDIA CEO Says AI Spending Flywheel Is ‘Really, Really Flying’ - Benzinga",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV2l4Y3Q4VS1veXk3Sk1QTTU5WFI2anlpdE1Wc0hOLVdSYUp6elptYzVMTnRXS3lOY3VoZDc0LXpvZmxTMU9HS3RnTzlMWVVJQVpiYjhQQ3NnOVg3dVY4eElYSnJyU2RfNXdwdktseFd1UERBRDI3anVMTnpDbjZpcnowYTlhRFZoY1hmcWtQOFE4RGJoWFJBNHhqRGpVNGdGUjQtOGd0NnZaSkd6eW95UUxjTQ?oc=5",
-   "source": "Benzinga",
-   "date": "2026-09-16",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
