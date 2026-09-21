@@ -2,41 +2,41 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Texas power paper and a named Georgia tenant share the overnight print, while the Silicon Tape stays flat. RWE Americas said on 17 Sep it signed a 433 MW virtual PPA with Oracle from existing Panther Creek I–III wind in Sterling, Howard and Glasscock counties — framed as part of Oracle’s broader Texas portfolio of more than 1.7 GW supporting data-center load on ERCOT. Same day CleanSpark’s investor materials named Meta subsidiary Anviran LLC as the tenant on the previously announced 175 MW Sandersville, Georgia AI lease (~$6.6B initial-term revenue), with a PR Newswire pitch for $2.227B senior notes due 2031 to finish the campus (offering not closed). PUCT Project 58481 remains HOLD: Interchange still shows 217 filings and no stamped Order Adopting after the 18 Sep open meeting agenda. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.</description>
+  <description>Texas’s permanent large-load rule is no longer a draft. On Friday 18 Sep PUCT filed Order Adopting new 16 TAC §25.194 (Interchange 58481 item 218): before an ERCOT interconnection study, ≥75 MW customers must disclose and post $50,000/MW financial security, then execute an SLLIA with further security and CIAC. Same-day item 219 acknowledges Texas Register receipt (TRD 202604027) for the 10/02/2026 issue; Interchange lists effectiveness 10.08.2026. Also Friday, Docket 59336 item 2741 dropped the written Order approving Howard–Solstice along Route 4 mod 1 (~$2.15B estimated line cost), stamping the 11 Sep vote. CleanSpark’s 8-K Exhibit 99.1 priced $2.276B of 7.875% senior notes due 2031 at 98.500% (upsized from the 17 Sep $2.227B proposal) to finish the Meta/Anviran 175 MW Sandersville campus — close targeted 25 Sep. The Silicon Tape is another clean Monday confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.</description>
   <language>en</language>
   <item>
-    <title>Compute brief — 18 September 2026</title>
+    <title>Compute brief — 21 September 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-09-18</guid>
-    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
-    <description>Texas power paper and a named Georgia tenant share the overnight print, while the Silicon Tape stays flat. RWE Americas said on 17 Sep it signed a 433 MW virtual PPA with Oracle from existing Panther Creek I–III wind in Sterling, Howard and Glasscock counties — framed as part of Oracle’s broader Texas portfolio of more than 1.7 GW supporting data-center load on ERCOT. Same day CleanSpark’s investor materials named Meta subsidiary Anviran LLC as the tenant on the previously announced 175 MW Sandersville, Georgia AI lease (~$6.6B initial-term revenue), with a PR Newswire pitch for $2.227B senior notes due 2031 to finish the campus (offering not closed). PUCT Project 58481 remains HOLD: Interchange still shows 217 filings and no stamped Order Adopting after the 18 Sep open meeting agenda. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints. Countries: United States / Texas: RWE×Oracle 433 MW VPPA (Panther Creek I–III) announced 17 Sep; part of Oracle’s &gt;1.7 GW Texas power book for AI DC ops. United States / Georgia: CleanSpark names Meta (Anviran) on 175 MW Sandersville AI lease; proposes $2.227B notes to finish build. Rent target Q4 2027. United States / Texas: PUCT 58481 still no Order Adopting on Interchange (through item 217) despite 18 Sep open-meeting agenda. Wire on stamp. Australia / Queensland: Anthropic×Zerra Western Downs lease (16 Sep) still FIRB + council gated; path ~2.16 GW peak.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-09-21</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Texas’s permanent large-load rule is no longer a draft. On Friday 18 Sep PUCT filed Order Adopting new 16 TAC §25.194 (Interchange 58481 item 218): before an ERCOT interconnection study, ≥75 MW customers must disclose and post $50,000/MW financial security, then execute an SLLIA with further security and CIAC. Same-day item 219 acknowledges Texas Register receipt (TRD 202604027) for the 10/02/2026 issue; Interchange lists effectiveness 10.08.2026. Also Friday, Docket 59336 item 2741 dropped the written Order approving Howard–Solstice along Route 4 mod 1 (~$2.15B estimated line cost), stamping the 11 Sep vote. CleanSpark’s 8-K Exhibit 99.1 priced $2.276B of 7.875% senior notes due 2031 at 98.500% (upsized from the 17 Sep $2.227B proposal) to finish the Meta/Anviran 175 MW Sandersville campus — close targeted 25 Sep. The Silicon Tape is another clean Monday confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints. Countries: United States / Texas: PUCT Order Adopting 16 TAC §25.194 (58481 item 218, 18 Sep): $50k/MW security at intermediate agreement; ≥75 MW. TR ack item 219; effective per Interchange 10.08.2026. United States / Texas: PUCT written Order 59336 (item 2741, 18 Sep) amends AEP/CPS CCNs for Howard–Solstice 765 kV on Route 4 mod 1; est. line cost $2.15B. United States / Georgia: CleanSpark prices $2.276B 7.875% notes due 2031 at 98.5% (8-K Ex.99.1, 18 Sep) to finish Meta/Anviran 175 MW Sandersville; close targeted 25 Sep. Australia / Queensland: Anthropic×Zerra Western Downs lease (16 Sep) still FIRB + council gated; path ~2.16 GW peak. No overnight FIRB/DA print.</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#nvidia-b200-sxm6</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-18/nvidia-b200-sxm6</guid>
-    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 18 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 17 Sep. Same $6.69 print.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-21/nvidia-b200-sxm6</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 21 Sep 2026. Display: Lambda OD 8× SXM6. Confirm vs 18 Sep. Same $6.69 print.</description>
   </item>
   <item>
     <title>H100 SXM 80GB · $3.99 on-demand</title>
     <link>https://compute.world/brief#nvidia-h100-sxm-80gb</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-18/nvidia-h100-sxm-80gb</guid>
-    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 18 Sep 2026. Lambda OD $3.99 confirm. CoreWeave Inference Single still $6.16; Crusoe HGX $3.90; DO OD $4.41 / 12m $3.26.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-21/nvidia-h100-sxm-80gb</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM 80GB: display $3.99 on-demand at Lambda as of 21 Sep 2026. Lambda OD $3.99 confirm. CoreWeave Inference Single still $6.16; Crusoe HGX $3.90; DO OD $4.41 / 12m $3.26.</description>
   </item>
   <item>
     <title>TPU v5e · $1.20 on-demand</title>
     <link>https://compute.world/brief#google-tpu-v5e</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-18/google-tpu-v5e</guid>
-    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
-    <description>TPU v5e: display $1.20 on-demand at GCP as of 18 Sep 2026. GCP us-central1 OD $1.20 / 1y $0.84 / 3y $0.54 confirm. Ironwood OD $12.00 and Trillium OD $2.70 re-confirmed.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-21/google-tpu-v5e</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>TPU v5e: display $1.20 on-demand at GCP as of 21 Sep 2026. GCP us-central1 OD $1.20 / 1y $0.84 / 3y $0.54 confirm. Ironwood OD $12.00 and Trillium OD $2.70 re-confirmed.</description>
   </item>
   <item>
     <title>GH200 · $2.29 on-demand</title>
     <link>https://compute.world/brief#nvidia-gh200</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-18/nvidia-gh200</guid>
-    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
-    <description>GH200: display $2.29 on-demand at Lambda as of 18 Sep 2026. Lambda 1× $2.29 confirm; CoreWeave GH200 OD $6.50 confirm.</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-21/nvidia-gh200</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>GH200: display $2.29 on-demand at Lambda as of 21 Sep 2026. Lambda 1× $2.29 confirm; CoreWeave GH200 OD $6.50 confirm.</description>
   </item>
 </channel></rss>
