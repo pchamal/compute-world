@@ -1281,8 +1281,68 @@
         "Capital"
       ],
       "score": 84
+    },
+    {
+      "id": "puct-58481-order-adopting-25-194-2026-09-18",
+      "date": "2026-09-18",
+      "title": "PUCT adopts 16 TAC §25.194 large-load interconnection rule ($50k/MW security; ≥75 MW)",
+      "summary": "On 18 September 2026 the Public Utility Commission of Texas filed Order Adopting new 16 TAC §25.194 (Interchange Project 58481 item 218), implementing PURA §37.0561 / SB 6 Large Load Interconnection Standards for ERCOT. Before inclusion in an ERCOT interconnection study, a large-load customer must execute an intermediate agreement, disclose, and post financial security of $50,000 per MW of requested peak demand; a Standard Large Load Interconnection Agreement (SLLIA), further security, and CIAC follow after study. The rule covers customers at or above the 75 MW large-load threshold. Same-day item 219 is the Texas Register Acknowledgement of Receipt (TRD 202604027) for the 10/02/2026 issue; Interchange describes effectiveness as of 10.08.2026. Country conversion: Texas’s permanent ≥75 MW interconnect rule is now stamped — Batch Zero and subsequent large-load queues run under a live security and disclosure regime rather than staff draft.",
+      "url": "https://interchange.puc.texas.gov/Documents/58481_218_1684654.PDF",
+      "source": "PUCT Interchange 58481 item 218 Order Adopting; item 219 Texas Register ack",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Energy",
+        "Build"
+      ],
+      "score": 92
+    },
+    {
+      "id": "puct-59336-howard-solstice-written-order-2026-09-18",
+      "date": "2026-09-18",
+      "title": "PUCT files written Order on Howard–Solstice 765 kV (59336) — Route 4 mod 1 CCN",
+      "summary": "On 18 September 2026 PUCT OPDM filed the written Order in Docket 59336 (Interchange item 2741), amending AEP Texas CCN 30028 and CPS Energy CCN 30031 to build and operate the Howard-to-Solstice ~370-mile 765 kV single-circuit line along Route 4 mod 1 (not SOAH’s recommended Route 4). The Order cites lower estimated cost/length vs Route 4, ~60.3 miles (16.53%) paralleling existing ROW, and an estimated line cost of $2.15 billion for Route 4 mod 1; authority runs seven years unless energized sooner. This stamps the 11 Sep open-meeting approval that prior Wire tracked as pending written order. Country conversion: Permian Basin Reliability Plan southern import path moves from press-confirmed vote to operable CCN order.",
+      "url": "https://interchange.puc.texas.gov/Documents/59336_2741_1684622.PDF",
+      "source": "PUCT Interchange 59336 item 2741 Order (filed 18 Sep 2026)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build",
+        "Policy"
+      ],
+      "score": 90
+    },
+    {
+      "id": "cleanspark-2276m-notes-priced-sandersville-2026-09-18",
+      "date": "2026-09-18",
+      "title": "CleanSpark prices $2.276B 7.875% senior notes (upsized) to finish Meta-anchored Sandersville AI campus",
+      "summary": "On 18 September 2026 CleanSpark filed an 8-K with Exhibit 99.1 stating subsidiary CSDC Finance I, LLC priced a $2.276 billion offering of 7.875% senior secured notes due 2031 at 98.500% of principal (upsized from the 17 Sep proposed $2.227B). Expected close 25 September 2026 subject to customary conditions. Net proceeds fund remaining Sandersville data-center build-out, reimburse prior equity contributions, and fund debt-service reserves; CSRE Properties Sandersville guarantees; CleanSpark provides a completion guarantee. Follows the 17 Sep disclosure naming Meta subsidiary Anviran as tenant on the 175 MW Georgia lease. Country conversion: construction finance for a named Meta AI campus moves from proposed offering to priced notes — Capital/Build for Georgia CNW Realized still conditional on close.",
+      "url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526395727/clsk-ex99_1.htm",
+      "source": "CleanSpark Form 8-K Exhibit 99.1 (filed 18 Sep 2026)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Build",
+        "Energy"
+      ],
+      "score": 88
     }
   ],
-  "updated": "2026-09-18",
-  "note": "2026-09-17: +2 Wire (anthropic-zerra-western-downs-2p16gw-lease-2026-09-16 · ercot-state-community-impact-rfi-oct12-2026-09-14). Tape confirm day 69/0/0. PUCT 58481 still no Order Adopting (Interchange through item 217)."
+  "updated": "2026-09-21",
+  "note": "Weekday promote 2026-09-21: PUCT 58481 Order Adopting §25.194; PUCT 59336 written Order (Route 4 mod 1); CleanSpark $2.276B notes priced for Sandersville. Tape confirm day 69/0/0."
 }

@@ -1,33 +1,33 @@
 {
-  "updated": "2026-09-18",
-  "title": "Compute brief — 18 September 2026",
-  "description": "Oracle locks 433 MW West Texas VPPA with RWE (part of >1.7 GW Texas power book). CleanSpark names Meta as 175 MW Sandersville AI tenant and pitches $2.227B notes. Silicon Tape confirm day — Lambda H100 $3.99 / B200 $6.69; 69 confirms, 0 ticks. PUCT 58481 still HOLD through Interchange item 217.",
-  "og_kicker": "Oracle 433 MW VPPA; Meta named on 175 MW",
-  "lede": "Texas power paper and a named Georgia tenant share the overnight print, while the Silicon Tape stays flat. RWE Americas said on 17 Sep it signed a 433 MW virtual PPA with Oracle from existing Panther Creek I–III wind in Sterling, Howard and Glasscock counties — framed as part of Oracle’s broader Texas portfolio of more than 1.7 GW supporting data-center load on ERCOT. Same day CleanSpark’s investor materials named Meta subsidiary Anviran LLC as the tenant on the previously announced 175 MW Sandersville, Georgia AI lease (~$6.6B initial-term revenue), with a PR Newswire pitch for $2.227B senior notes due 2031 to finish the campus (offering not closed). PUCT Project 58481 remains HOLD: Interchange still shows 217 filings and no stamped Order Adopting after the 18 Sep open meeting agenda. The Silicon Tape is another clean confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.",
+  "updated": "2026-09-21",
+  "title": "Compute brief — 21 September 2026",
+  "description": "PUCT stamps Order Adopting 16 TAC §25.194 ($50k/MW, ≥75 MW) and files the Howard–Solstice 765 kV written Order; CleanSpark prices $2.276B notes for Meta’s Sandersville campus. Silicon Tape confirm day — Lambda H100 $3.99 / B200 $6.69; 69 confirms, 0 ticks.",
+  "og_kicker": "PUCT §25.194 adopted; 59336 Order filed; CLSK notes priced",
+  "lede": "Texas’s permanent large-load rule is no longer a draft. On Friday 18 Sep PUCT filed Order Adopting new 16 TAC §25.194 (Interchange 58481 item 218): before an ERCOT interconnection study, ≥75 MW customers must disclose and post $50,000/MW financial security, then execute an SLLIA with further security and CIAC. Same-day item 219 acknowledges Texas Register receipt (TRD 202604027) for the 10/02/2026 issue; Interchange lists effectiveness 10.08.2026. Also Friday, Docket 59336 item 2741 dropped the written Order approving Howard–Solstice along Route 4 mod 1 (~$2.15B estimated line cost), stamping the 11 Sep vote. CleanSpark’s 8-K Exhibit 99.1 priced $2.276B of 7.875% senior notes due 2031 at 98.500% (upsized from the 17 Sep $2.227B proposal) to finish the Meta/Anviran 175 MW Sandersville campus — close targeted 25 Sep. The Silicon Tape is another clean Monday confirm: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.",
   "countries": [
     {
-      "id": "usa-rwe-oracle-433mw-vppa",
+      "id": "usa-puct-58481-adopted",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "RWE×Oracle 433 MW VPPA (Panther Creek I–III) announced 17 Sep; part of Oracle’s >1.7 GW Texas power book for AI DC ops."
+      "note": "PUCT Order Adopting 16 TAC §25.194 (58481 item 218, 18 Sep): $50k/MW security at intermediate agreement; ≥75 MW. TR ack item 219; effective per Interchange 10.08.2026."
     },
     {
-      "id": "usa-cleanspark-meta-175mw",
+      "id": "usa-puct-59336-order",
+      "name": "United States / Texas",
+      "slug": "united-states",
+      "note": "PUCT written Order 59336 (item 2741, 18 Sep) amends AEP/CPS CCNs for Howard–Solstice 765 kV on Route 4 mod 1; est. line cost $2.15B."
+    },
+    {
+      "id": "usa-cleanspark-notes-priced",
       "name": "United States / Georgia",
       "slug": "united-states",
-      "note": "CleanSpark names Meta (Anviran) on 175 MW Sandersville AI lease; proposes $2.227B notes to finish build. Rent target Q4 2027."
-    },
-    {
-      "id": "usa-puct-58481-hold",
-      "name": "United States / Texas",
-      "slug": "united-states",
-      "note": "PUCT 58481 still no Order Adopting on Interchange (through item 217) despite 18 Sep open-meeting agenda. Wire on stamp."
+      "note": "CleanSpark prices $2.276B 7.875% notes due 2031 at 98.5% (8-K Ex.99.1, 18 Sep) to finish Meta/Anviran 175 MW Sandersville; close targeted 25 Sep."
     },
     {
       "id": "aus-anthropic-zerra-hold",
       "name": "Australia / Queensland",
       "slug": "australia",
-      "note": "Anthropic×Zerra Western Downs lease (16 Sep) still FIRB + council gated; path ~2.16 GW peak."
+      "note": "Anthropic×Zerra Western Downs lease (16 Sep) still FIRB + council gated; path ~2.16 GW peak. No overnight FIRB/DA print."
     }
   ],
   "silicon": [
@@ -37,10 +37,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-21",
       "prev_usd": 6.69,
       "delta": "0% 1Q",
-      "note": "Display: Lambda OD 8× SXM6. Confirm vs 17 Sep. Same $6.69 print."
+      "note": "Display: Lambda OD 8× SXM6. Confirm vs 18 Sep. Same $6.69 print."
     },
     {
       "id": "nvidia-h100-sxm-80gb",
@@ -48,7 +48,7 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-21",
       "prev_usd": 3.99,
       "delta": "0% 1Q",
       "note": "Lambda OD $3.99 confirm. CoreWeave Inference Single still $6.16; Crusoe HGX $3.90; DO OD $4.41 / 12m $3.26."
@@ -59,7 +59,7 @@
       "display_usd": 1.2,
       "venue": "GCP",
       "term": "on-demand",
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-21",
       "prev_usd": 1.2,
       "delta": "0% 1Q",
       "note": "GCP us-central1 OD $1.20 / 1y $0.84 / 3y $0.54 confirm. Ironwood OD $12.00 and Trillium OD $2.70 re-confirmed."
@@ -70,7 +70,7 @@
       "display_usd": 2.29,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-21",
       "prev_usd": 2.29,
       "delta": "0% 1Q",
       "note": "Lambda 1× $2.29 confirm; CoreWeave GH200 OD $6.50 confirm."
@@ -78,42 +78,46 @@
   ],
   "watch": [
     {
-      "name": "PUCT Project 58481",
-      "note": "18 Sep open meeting was on the agenda; Interchange still through item 217 with no stamped Order Adopting. Wire immediately on $50k/MW + forfeiture text."
-    },
-    {
-      "name": "PUCT 59336 written Order",
-      "note": "Press-approved 11 Sep with Route 4/Mod 1; clear pending once ordering paragraphs land on Interchange."
+      "name": "CleanSpark notes close",
+      "note": "Priced $2.276B 7.875% due 2031 at 98.5%; expected close 25 Sep subject to customary conditions."
     },
     {
       "name": "ERCOT community RFI Oct 12",
       "note": "Notarized State & Community Impact answers due 5pm CPT 12 Oct; TWDB water Section C in same packet."
     },
     {
-      "name": "CleanSpark $2.227B notes close",
-      "note": "Proposed senior secured notes due 2031 — offering not closed; watch pricing/close vs Sandersville completion guarantee."
+      "name": "Anthropic Western Downs FIRB / council DA",
+      "note": "Lease announced 16 Sep; FIRB + Western Downs Regional Council DA still pending."
     },
     {
-      "name": "Anthropic Western Downs FIRB / council",
-      "note": "FIRB clearance + Western Downs DA; Powerlink / generation plan that matches staged halls."
+      "name": "ERCOT Batch Zero Dec 10 eligibility",
+      "note": "Conditional classifications + community reports still the process hinge under the new §25.194 regime."
     },
     {
-      "name": "ERCOT Batch Zero Dec 10",
-      "note": "Eligibility Verification + Community Impact reports to PUC."
+      "name": "58481 Texas Register publication",
+      "note": "TR ack for 10/02/2026 issue; Interchange lists effective 10.08.2026 — confirm text in the Register when published."
+    },
+    {
+      "name": "Oracle >1.7 GW Texas power book mapping",
+      "note": "RWE 433 MW VPPA is public; named campus mapping (Abilene / others) still thin in filings."
     }
   ],
   "sources": [
     {
-      "name": "RWE Americas",
-      "url": "https://www.rwe.com/en/press/rwe-americas/2026-09-17-rwe-signs-433-mw-virtual-power-purchase-agreement-with-oracle/"
+      "name": "PUCT Interchange 58481 Order Adopting",
+      "url": "https://interchange.puc.texas.gov/Documents/58481_218_1684654.PDF"
     },
     {
-      "name": "CleanSpark PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/cleanspark-inc-announces-proposed-offering-of-2-227-billion-of-senior-secured-notes-302881360.html"
-    },
-    {
-      "name": "PUCT Interchange 58481",
+      "name": "PUCT Interchange 58481 TR ack",
       "url": "https://interchange.puc.texas.gov/Search/Filings?ControlNumber=58481"
+    },
+    {
+      "name": "PUCT Interchange 59336 Order",
+      "url": "https://interchange.puc.texas.gov/Documents/59336_2741_1684622.PDF"
+    },
+    {
+      "name": "CleanSpark 8-K Ex.99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526395727/clsk-ex99_1.htm"
     },
     {
       "name": "Lambda pricing",
@@ -125,7 +129,7 @@
     },
     {
       "name": "Crusoe pricing",
-      "url": "https://www.crusoe.ai/cloud/pricing"
+      "url": "https://crusoe.ai/cloud/pricing"
     },
     {
       "name": "DigitalOcean GPU Droplets",
