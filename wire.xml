@@ -5,6 +5,27 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>PUCT adopts 16 TAC §25.194 large-load interconnection rule ($50k/MW security; ≥75 MW)</title>
+    <link>https://interchange.puc.texas.gov/Documents/58481_218_1684654.PDF</link>
+    <guid isPermaLink="false">compute.world/wire#puct-58481-order-adopting-25-194-2026-09-18</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 18 September 2026 the Public Utility Commission of Texas filed Order Adopting new 16 TAC §25.194 (Interchange Project 58481 item 218), implementing PURA §37.0561 / SB 6 Large Load Interconnection Standards for ERCOT. Before inclusion in an ERCOT interconnection study, a large-load customer must execute an intermediate agreement, disclose, and post financial security of $50,000 per MW of requested peak demand; a Standard Large Load Interconnection Agreement (SLLIA), further security, and CIAC follow after study. The rule covers customers at or above the 75 MW large-load threshold. Same-day item 219 is the Texas Register Acknowledgement of Receipt (TRD 202604027) for the 10/02/2026 issue; Interchange describes effectiveness as of 10.08.2026. Country conversion: Texas’s permanent ≥75 MW interconnect rule is now stamped — Batch Zero and subsequent large-load queues run under a live security and disclosure regime rather than staff draft. [Signal 92, Confirmed, via PUCT Interchange 58481 item 218 Order Adopting; item 219 Texas Register ack] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>PUCT files written Order on Howard–Solstice 765 kV (59336) — Route 4 mod 1 CCN</title>
+    <link>https://interchange.puc.texas.gov/Documents/59336_2741_1684622.PDF</link>
+    <guid isPermaLink="false">compute.world/wire#puct-59336-howard-solstice-written-order-2026-09-18</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 18 September 2026 PUCT OPDM filed the written Order in Docket 59336 (Interchange item 2741), amending AEP Texas CCN 30028 and CPS Energy CCN 30031 to build and operate the Howard-to-Solstice ~370-mile 765 kV single-circuit line along Route 4 mod 1 (not SOAH’s recommended Route 4). The Order cites lower estimated cost/length vs Route 4, ~60.3 miles (16.53%) paralleling existing ROW, and an estimated line cost of $2.15 billion for Route 4 mod 1; authority runs seven years unless energized sooner. This stamps the 11 Sep open-meeting approval that prior Wire tracked as pending written order. Country conversion: Permian Basin Reliability Plan southern import path moves from press-confirmed vote to operable CCN order. [Signal 90, Confirmed, via PUCT Interchange 59336 item 2741 Order (filed 18 Sep 2026)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>CleanSpark prices $2.276B 7.875% senior notes (upsized) to finish Meta-anchored Sandersville AI campus</title>
+    <link>https://www.sec.gov/Archives/edgar/data/827876/000119312526395727/clsk-ex99_1.htm</link>
+    <guid isPermaLink="false">compute.world/wire#cleanspark-2276m-notes-priced-sandersville-2026-09-18</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 18 September 2026 CleanSpark filed an 8-K with Exhibit 99.1 stating subsidiary CSDC Finance I, LLC priced a $2.276 billion offering of 7.875% senior secured notes due 2031 at 98.500% of principal (upsized from the 17 Sep proposed $2.227B). Expected close 25 September 2026 subject to customary conditions. Net proceeds fund remaining Sandersville data-center build-out, reimburse prior equity contributions, and fund debt-service reserves; CSRE Properties Sandersville guarantees; CleanSpark provides a completion guarantee. Follows the 17 Sep disclosure naming Meta subsidiary Anviran as tenant on the 175 MW Georgia lease. Country conversion: construction finance for a named Meta AI campus moves from proposed offering to priced notes — Capital/Build for Georgia CNW Realized still conditional on close. [Signal 88, Confirmed, via CleanSpark Form 8-K Exhibit 99.1 (filed 18 Sep 2026)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>RWE signs 433 MW West Texas VPPA with Oracle for AI data-center power</title>
     <link>https://www.rwe.com/en/press/rwe-americas/2026-09-17-rwe-signs-433-mw-virtual-power-purchase-agreement-with-oracle/</link>
     <guid isPermaLink="false">compute.world/wire#rwe-oracle-433mw-vppa-panther-creek-2026-09-17</guid>
@@ -192,26 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#nvidia-fy27q2-china-dc-zero</guid>
     <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 26 August 2026 NVIDIA reported Q2 FY27 results for the quarter ended 26 July 2026: revenue $96.2 billion and Data Center $89.0 billion. CFO commentary (SEC EX-99.2) states shipments of Data Center Hopper products to China were less than 1% of Data Center revenue in the quarter. The Newsroom outlook for Q3 FY27 revenue of $108.0 billion plus or minus 2% states NVIDIA is not assuming any Data Center compute revenue from China. This is a realized China mix print plus a repeated zero-China DC compute outlook, distinct from the already-wired 19 Aug limited H200 landings note. [Signal 91, Confirmed, via NVIDIA Newsroom / SEC EX-99.2] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Georgia Power–OpenAI Effingham contract approved at 3,200 MW</title>
-    <link>https://southerncompany.mediaroom.com/2026-08-26-Georgia-Powers-contract-with-OpenAI-approved-Latest-approval-part-of-portfolio-of-large-load-contracts-delivering-approximately-950-million-in-annual-savings-beginning-in-2029</link>
-    <guid isPermaLink="false">compute.world/wire#georgia-power-openai-effingham-3200mw</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 26 August 2026 Georgia Power said its contract to serve OpenAI’s Effingham County project was approved as part of the Georgia Public Service Commission regulatory process. The company says the contract, filed with the PSC in July, includes 3,200 MW of new demand, OpenAI pays the full cost of infrastructure needed to serve it, and OpenAI has committed up to 1,000 MW of flexible demand response. This is a US named-MW utility-path conversion, not a campus FID on NVIDIA silicon. [Signal 90, Confirmed, via Georgia Power / Southern Company] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>George Town Council approves Firmus 288 MW AI data centre at Bell Bay, Tasmania</title>
-    <link>https://www.abc.net.au/news/2026-08-25/firmus-ai-bell-bay-receives-george-town-council-approval/107074336</link>
-    <guid isPermaLink="false">compute.world/wire#firmus-bell-bay-288mw-2026-08-25</guid>
-    <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 25 August 2026 Tasmania’s George Town Council voted 6–1 to approve Firmus Technologies’ 288 MW AI data centre at the former Gunns pulp mill site in Long Reach (Bell Bay Advanced Manufacturing Zone). ABC reports planning conditions (noise and air surveys, a new bushfire and emergency plan) after the diesel-generator count was corrected to 276, and a 14-day appeal window to the Tasmanian Civil and Administrative Tribunal. This is Australia’s named-MW local planning conversion this week. [Signal 80, Confirmed, via ABC News (Australia)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>AM Intelligence binds 9,000 NVIDIA Rubin GPUs for a 30 MW Hyderabad AI factory (Q1 2027)</title>
-    <link>https://www.thehindu.com/business/Industry/ami-orders-9000-nvidia-rubin-gpus-for-hyderabad-facility/article71390110.ece</link>
-    <guid isPermaLink="false">compute.world/wire#ami-hyderabad-rubin-9000</guid>
-    <pubDate>Tue, 25 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 25 August 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko’s promoters, said it placed a firm and binding order for 9,000 NVIDIA Rubin GPUs to be deployed as Vera Rubin NVL72 rack-scale systems at its first AI factory in Hyderabad, with delivery slated for Q1 2027 and 30 MW of capacity. AMI frames Hyderabad as the first tranche of a planned 1 GW Compute-as-a-Service footprint, with an initial 200 MW to market involving more than $8 billion of capital expenditure, and says it is developing 5 GW of powered AI data centres across India, the United States and Europe. The Hyderabad site is engineered for roughly 450 exaFLOPS of NVFP4 inference. This is India’s second live conversion print this month after L&amp;T × Together Chennai, and the first named Rubin (not Blackwell) factory MW on the tape. Source is the company release as reported by The Hindu / PTI; no AMI IR PDF located at filing time. [Signal 79, Confirmed, via AM Intelligence / The Hindu] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
