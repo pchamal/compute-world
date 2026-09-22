@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22 15:39 UTC",
+ "generated": "2026-09-22 16:58 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -75,9 +75,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Fluidstack Starts $4 Billion Texas AI Campus Phase Planned for 1.5 GW - theenergymag.com",
+   "title": "Fluidstack Starts $4 Billion Texas AI Campus Phase Planned for 1.5 GW - TheEnergyMag",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeUx0QnZZSW9veDUyN2J4X1hrb1RyR3ZWY1FGYU0yZll0S0FTaFM1MGt1enJyYWdCdzZaT0ZST1A4UENKdktfcjV5WFRrSjlTUHpwMWgzN2NQVDg3YlFJMU5uSXd6SnF4cFVDd1VQYVRIOXM4T1BOUTU1U2hnM05RMnpkaDlYby01a0UzOTJkcjR0QQ?oc=5",
-   "source": "theenergymag.com",
+   "source": "TheEnergyMag",
    "date": "2026-09-22",
    "via": "gnews",
    "country_hint": "",
@@ -87,26 +87,14 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "FingerMotion Announces Binding LOI to Acquire Hanna, Alberta Site for Second 9.9 MW AI and HPC Campus Under 99 MW Program - Quiver Quantitative",
+   "title": "FingerMotion Announces Binding LOI to Acquire Hanna, Alberta Site for Second 9.9 MW AI and HPC Campus Under 99 MW Program - quiverquant.com",
    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWENpU2NfbVZ2b3Zsb3lNMkVPWWM3SDhBSzNVMFZSRWZJaC1uVW5ySnRTd0R3OVItdERPeXpELTA2VV9hSW9zRW9CR3BvWm4tVWk4Qkk2dWhJRVFVeU5LV0tvMFMxLWZ6YnFINTFNRkxYWkIxVWJrZDUybXlHd1d0ZC15NGpwQ0ZuSXAtWFgwelFwbGJJTzJ0bXVpWjFDb0kwZW11VmhyQzZCNnlGS2dmM3FqbHpLOXVaTDFybzFlYUluOGZ6enpUbEZHQ0R5ZlhOQVlCTkZpbkFqZlF3WS1ocjVfdkR0Nks3cFRnTg?oc=5",
-   "source": "Quiver Quantitative",
+   "source": "quiverquant.com",
    "date": "2026-09-21",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
    "prescore": 73,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Alibaba shares jump as new AI chip , data center buildout plans unveiled",
-   "url": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
-   "source": "cnbc.com",
-   "date": "2026-09-22",
-   "via": "gdelt",
-   "country_hint": "United States",
-   "tier": 2,
-   "prescore": 58,
    "corroboration": "Single-source",
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
@@ -315,9 +303,21 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "CleanSpark $2.23B Junk Bond for Meta Data Center - Briefs Finance",
+   "title": "AI Data Center Boom Faces $68 Billion Roadblock as Bitcoin Mining Sites Gain New Value - Tekedia",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLXBlU1lhUnhIcW9qa2U1TklNMGNkQkNtbFhYNW5wV1lyeTdHZ1p6Um0tWmpta2R1VHV2aUd6QkNhTF8xSXZEVmx5T0dDWnlNdTBSZHZJRmxZb2NPZVlvUmQwV19pUURpMGt4a2RlcnZ1UHNlNXJkV2QzY05SRTU2UVppcXl6bFNVQTFwNFRzeTZ1NlBUVktwQmY4WjFjaVpxV1g1TC13dkZCR2FDRjhZ?oc=5",
+   "source": "Tekedia",
+   "date": "2026-09-22",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "CleanSpark $2.23B Junk Bond for Meta Data Center - briefs.co",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbXloNlFjcGRxc0F2VkY4MHhjeFJTLXVmZ0QwR29EZENoakwxTENNeEZrVlBTdVA3bVpQam8wUHhkVkwwWDY5SnR1OU9TR3ZmMGpsenZPWXRSMFI0akJDcDA2VDJiWG5zTEEzdUp3T2ZTX1g0QWw5Z0NBNkhGbWoxUVNUcUl6Q0JIYkRYa2xCQ08?oc=5",
-   "source": "Briefs Finance",
+   "source": "briefs.co",
    "date": "2026-09-17",
    "via": "gnews",
    "country_hint": "",
@@ -351,30 +351,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "1 . 58 - million - staff Amazon will soon have more Nvidia GPUs than employees AWS to buy more than 3 million additional chips before 2029 in addition to thousands of existing H100 , H200",
-   "url": "https://www.techradar.com/pro/1-58-million-staff-amazon-will-soon-have-more-nvidia-gpus-than-employees-aws-to-buy-more-than-3-million-additional-chips-before-2029-in-addition-to-thousands-of-existing-h100-h200",
-   "source": "techradar.com",
-   "date": "2026-09-21",
-   "via": "gdelt",
-   "country_hint": "United Kingdom",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "$68 Billion in Data Center Projects Blocked or Delayed in 3 Month Period",
-   "url": "https://www.breitbart.com/tech/2026/09/21/68-billion-in-data-center-projects-blocked-or-delayed-in-3-month-period/",
-   "source": "breitbart.com",
-   "date": "2026-09-21",
-   "via": "gdelt",
-   "country_hint": "United States",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Nvidia, Palantir and the $500 Billion Sovereign AI Opportunity - Beth Kindig – Medium",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQXVNSlZmbjVISnM0dFBtNzUwZU5KVXVnak83djVfX09CNzR5VVV5Q3pNeDNsTnlfZERxX0RwSThNb21qaktCWDNtQl9CLXFPME5taHJHYjMzWGEyX2hhTTg3dnVQcTNhZWhWQTJ6VGhGQ1BFYk1DLTZ5WGRQQjZsRzh5d3lpV01jd0NSMmNkZGgtWTBpQkhTWVdOZ25CbU1CS1pr?oc=5",
    "source": "Beth Kindig – Medium",
@@ -399,21 +375,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Vertical Data Signs $192 Million LOI for NVIDIA Blackwell Ultra AI Infrastructure - citybiz.co",
+   "title": "Vertical Data Signs $192 Million LOI for NVIDIA Blackwell Ultra AI Infrastructure - citybiz",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjdjZzVRNDRhWnZWb3REaE5uSXVrT3RRRE1pUzFwVDhTSHBWZG85cWc5cGswYzJmSThTWVdpRHhnRUg0c2tGbzVBT1VRMWR4Z2xYY2pIMV9KS19VYTkwd1RXR3VNLWtmMFZFYXVtU2stOVZIU092dE9McUpNeGdGbU0xSkdSWlNmV0xsdk9qSlU1c1MtWDQtQVRIM0F5dXBMVnFxLXV6Y0FUX3pPN0pvZWttMVpYYlcyUVJJ?oc=5",
-   "source": "citybiz.co",
-   "date": "2026-09-15",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Nvidia’s 2GW AI Deal Doubles Australia’s Cloud [2026] - tech-insider.org",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1dkpKNi0yQ2lKVl81elBSSzJsWllwUGYtckg4RW9ELU81SlFIbEpsYUQ4OGhaeHY3bEdCLTkzMnMzeXp0Y2ZTbGhsdElfSEpaTG1xNEhHRVpXaVhsWER2N1d0b3VMV3BmdkNVQWZiS0lkYm5YS19CQmZPamVWaFE?oc=5",
-   "source": "tech-insider.org",
+   "source": "citybiz",
    "date": "2026-09-15",
    "via": "gnews",
    "country_hint": "",
@@ -435,10 +399,34 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Nvidia’s 2GW AI Deal Doubles Australia’s Cloud [2026] - tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1dkpKNi0yQ2lKVl81elBSSzJsWllwUGYtckg4RW9ELU81SlFIbEpsYUQ4OGhaeHY3bEdCLTkzMnMzeXp0Y2ZTbGhsdElfSEpaTG1xNEhHRVpXaVhsWER2N1d0b3VMV3BmdkNVQWZiS0lkYm5YS19CQmZPamVWaFE?oc=5",
+   "source": "tech-insider.org",
+   "date": "2026-09-15",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "India’s Yotta Bets $12B on 80,000 Nvidia Rubin GPUs [2026] - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oR0diTWJRTHhrc1oyYXNTWkhuU0ZrdFp4UVVqc1lxLUdyOEJjaUhUeVQ1Vm4tWkJPdDFPZUpHRG9xbzZ4b29GcjRRWEZUNjM0SFBSLVBlSHVSVEk5dEppR09rRjEtXzhwRHhLeDliQWFGcHMyOWtvZzZneVM?oc=5",
    "source": "shattered.io",
    "date": "2026-09-17",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Banks arrange $22B chip loan connected to Blackstone and Alphabet in record AI infrastructure deal - Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wMEJnRGlYRFhMdTBiT2dJNG9iWFVfQ0t1Q3p0LXNWUjNXZkxRNmloSW5feE1qNjBZV2lMRWFZRjlwQnhYM2JjSnF0MnNEWHVJSW96Xy0yOWs4VjRPTnNPZlB2SGZxZHF2RWU4Z1hzcjk3YUdNYUE?oc=5",
+   "source": "Crypto Briefing",
+   "date": "2026-09-16",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -495,9 +483,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "New Era Energy Signs 207 MW Vistra Power Deal for Texas Data Center - theenergymag.com",
+   "title": "New Era Energy Signs 207 MW Vistra Power Deal for Texas Data Center - TheEnergyMag",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORDR6SkVpc004bWV1X2poenhoNHZfM2FrQlhST2JPVl85YU9tZDZHemYwcEVNOEJIQmNXQ0NDZ2xrMmVlNVY0S01WNXhQMkFsdUN2WXZyRDZfSkpNcVJLWE4wWVVudEZaN2RsMjFtOXdhMzlsdUNoSS1vUTFfOWM3YTdOT1NzWWxacmFpbFY1WQ?oc=5",
-   "source": "theenergymag.com",
+   "source": "TheEnergyMag",
    "date": "2026-09-22",
    "via": "gnews",
    "country_hint": "",
@@ -715,6 +703,18 @@
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTk1TMjYzVm9Kb21LOUJIcWN6aHRXaHRkOS00d1ZaeDV2X2JRRkEyOUY5aEFNUmIxb3lEUmNMazh6SmFJSlAyd3pMbWRBemxZWUNENXFqYmo1ZklacnlNeWNyTVk1enBncWRna2NyMnBwRW5rRDdsckx4Z1J5dzhZdS1ybmh2WGp4UTBrbk0tN0FKVk40SUYwZy02T0hxaTUwdkQ1TkJnWmlaZWR6bFdtMjNlZGpuQzBRRkx4VDFRS0R6czNDU2NxN2JmZWlLeGhGZ2ZaLUZDMTJxcDZGYkl5YnNJVklQeFNV?oc=5",
    "source": "The Globe and Mail",
    "date": "2026-09-21",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "LG Electronics Wins NVIDIA DSX Approval - businesskorea.co.kr",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MdlJXUkg0LWNoWDlrbl9nQVJSZkx6NVNpSnk1ZFN3WUlnbG5KSl9JbmpGdm4tOXVmSGlaUVdYWTk3cklNX3pXUHNlWmtnTzY2R2NYVzJMbU1ZWXRHWGJsbE5Fc09qcG1Wb05rdzI0M01KcFBq?oc=5",
+   "source": "businesskorea.co.kr",
+   "date": "2026-09-22",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
