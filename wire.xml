@@ -5,6 +5,20 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>New Era (NUAI) TCDC PowerCo signs 20-year 200–207 MW PPA with Vistra/Luminant for Odessa Phase 1</title>
+    <link>https://www.sec.gov/Archives/edgar/data/2028336/000121390026101642/ea0305716-8k_newera.htm</link>
+    <guid isPermaLink="false">compute.world/wire#nuai-tcdc-luminant-207mw-ppa-odessa-2026-09-21</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 18 September 2026 (8-K filed 21 Sep) TCDC PowerCo LLC, a New Era Energy &amp; Digital subsidiary, entered a Power Purchase Agreement with Luminant ET Services (Vistra affiliate) for a minimum 200 MW and up to 207 MW of energy for Phase 1 of the Texas Critical Data Center near Odessa. Supply is primarily from Vistra&#x27;s adjacent 1,180 MW Odessa gas plant (or other sources/ERCOT). Initial term 20 years from first Delivery Date; press says contracted power expected available Q3 2027. Credit support: $116M letter of credit within 15 business days of PPA date plus additional security not to exceed $82.8M by Delivery Date (~$198.8M ceiling). Concurrent DFA grants Vistra ROFR on future onsite generation and 5% non-voting Project Company equity once power flows. Campus: 493-acre Permian site with pathway cited to ~1.4 GW; construction permits claimed in Ex.99.1; no named tenant in the September announcement. Country conversion: Permian Phase 1 power is now under a filed 20-year PPA with posted security schedule — Energy/Build for USA, still pre-tenant and pre-delivery. [Signal 91, Confirmed, via New Era Energy &amp; Digital Form 8-K (filed 21 Sep 2026; event 18 Sep) + Ex.99.1] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Kodiak Gas Services contracts 76 MW behind-the-meter baseload to West Texas data center (6-year)</title>
+    <link>https://ir.kodiakgas.com/news-events/press-releases/detail/86/kodiak-gas-services-announces-power-supply-agreement-with</link>
+    <guid isPermaLink="false">compute.world/wire#kodiak-76mw-btm-west-texas-datacenter-2026-09-21</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 21 September 2026 Kodiak Gas Services (NYSE: KGS) announced a six-year agreement to provide 76 MW of behind-the-meter baseload power capacity, including balance of plant, to a West Texas data center. Deployment: ~40 reciprocating natural-gas generation units beginning Q4 2026 and scaling into Q1 2027, with revenue recognition expected to start Q1 2027. Counterparty described only as a data-center operator contracted with an investment-grade-rated hyperscaler, with a GPU designer as guarantor of the data-center lease — names not disclosed. Kodiak calls this its second long-term primary-power data-center contract; about half of its current power portfolio is now under long-term power contracts. Country conversion: 76 MW BTM gas generation contracted for a hyperscaler-backed West Texas campus with a near-term deploy window — Energy/Build for USA without a named tenant or campus MW beyond the power block. [Signal 86, Confirmed, via Kodiak Gas Services IR press release (21 Sep 2026)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>PUCT adopts 16 TAC §25.194 large-load interconnection rule ($50k/MW security; ≥75 MW)</title>
     <link>https://interchange.puc.texas.gov/Documents/58481_218_1684654.PDF</link>
     <guid isPermaLink="false">compute.world/wire#puct-58481-order-adopting-25-194-2026-09-18</guid>
@@ -199,19 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#sk-hynix-indiana-hbm-packaging-2026-08-27</guid>
     <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 27 August 2026 SK hynix held a groundbreaking ceremony at Purdue University in West Lafayette, Indiana, for its first US next-generation HBM advanced-packaging production base. The company newsroom (dated Seoul 28 August) sizes the Indiana fab at over $4 billion, with the cleanroom scheduled to open by October 2028 and mass production of next-generation HBM in the second half of 2029, plus an Advanced Packaging R&amp;D Testbed and about 1,000 facility jobs. Korea-made wafers will be packaged and tested in Indiana and sold as Made-in-USA product to US customers. A prior US Commerce CHIPS award (December 2024) attached up to $458 million in direct funding and up to $500 million in loans to the West Lafayette project; that award is not restated in today’s newsroom note. This is a US/Korea conversion print: packaging land and a 2029 volume clock, not a 2026 wafer start. [Signal 91, Confirmed, via SK hynix Newsroom] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>EO 14420 declares BPS emergency — DOE to restrict foreign-produced grid equipment feeding AI campuses</title>
-    <link>https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/</link>
-    <guid isPermaLink="false">compute.world/wire#eo-14420-bulk-power-foreign-equipment-2026-08-26</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 26 August 2026 President Trump signed Executive Order 14420, Declaring a National Emergency to Secure the United States Bulk-Power System. The order authorizes the Secretary of Energy, within 120 days, to publish rules prohibiting or conditioning acquisition, importation, transfer, or installation of foreign-produced bulk-power system electric equipment — including substation transformers, grid-connected inverters, battery energy storage, UPS supporting critical infrastructure, turbines, and industrial control systems — where the transaction involves a Covered Foreign Entity and poses undue sabotage, supply-disruption, or national-security risk. DOE may also impose conditions on already-installed foreign equipment, including phased removal. The White House text explicitly cites rapid growth of data centers and artificial intelligence as magnifying bulk-power dependence. By 2–3 September, CNBC, Data Center Knowledge, and Wood Mackenzie commentary framed the order as tightening an already short transformer/substation market (Wood Mackenzie: ~15% transformer and ~8% substation shortage in 2026), with data-center developers that had turned to Chinese 100 MVA+ units for lead times most exposed. Implementation rules are due by ~24 December 2026; scope for behind-the-meter data-center loads remains open. [Signal 90, Confirmed, via White House EO 14420] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>NVIDIA Q2: China Hopper DC shipments &lt;1% of Data Center revenue; Q3 outlook assumes zero China DC compute</title>
-    <link>https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027</link>
-    <guid isPermaLink="false">compute.world/wire#nvidia-fy27q2-china-dc-zero</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 26 August 2026 NVIDIA reported Q2 FY27 results for the quarter ended 26 July 2026: revenue $96.2 billion and Data Center $89.0 billion. CFO commentary (SEC EX-99.2) states shipments of Data Center Hopper products to China were less than 1% of Data Center revenue in the quarter. The Newsroom outlook for Q3 FY27 revenue of $108.0 billion plus or minus 2% states NVIDIA is not assuming any Data Center compute revenue from China. This is a realized China mix print plus a repeated zero-China DC compute outlook, distinct from the already-wired 19 Aug limited H200 landings note. [Signal 91, Confirmed, via NVIDIA Newsroom / SEC EX-99.2] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
