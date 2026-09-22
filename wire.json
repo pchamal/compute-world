@@ -1341,8 +1341,47 @@
         "Energy"
       ],
       "score": 88
+    },
+    {
+      "id": "nuai-tcdc-luminant-207mw-ppa-odessa-2026-09-21",
+      "date": "2026-09-21",
+      "title": "New Era (NUAI) TCDC PowerCo signs 20-year 200–207 MW PPA with Vistra/Luminant for Odessa Phase 1",
+      "summary": "On 18 September 2026 (8-K filed 21 Sep) TCDC PowerCo LLC, a New Era Energy & Digital subsidiary, entered a Power Purchase Agreement with Luminant ET Services (Vistra affiliate) for a minimum 200 MW and up to 207 MW of energy for Phase 1 of the Texas Critical Data Center near Odessa. Supply is primarily from Vistra's adjacent 1,180 MW Odessa gas plant (or other sources/ERCOT). Initial term 20 years from first Delivery Date; press says contracted power expected available Q3 2027. Credit support: $116M letter of credit within 15 business days of PPA date plus additional security not to exceed $82.8M by Delivery Date (~$198.8M ceiling). Concurrent DFA grants Vistra ROFR on future onsite generation and 5% non-voting Project Company equity once power flows. Campus: 493-acre Permian site with pathway cited to ~1.4 GW; construction permits claimed in Ex.99.1; no named tenant in the September announcement. Country conversion: Permian Phase 1 power is now under a filed 20-year PPA with posted security schedule — Energy/Build for USA, still pre-tenant and pre-delivery.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2028336/000121390026101642/ea0305716-8k_newera.htm",
+      "source": "New Era Energy & Digital Form 8-K (filed 21 Sep 2026; event 18 Sep) + Ex.99.1",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build",
+        "Capital"
+      ],
+      "score": 91
+    },
+    {
+      "id": "kodiak-76mw-btm-west-texas-datacenter-2026-09-21",
+      "date": "2026-09-21",
+      "title": "Kodiak Gas Services contracts 76 MW behind-the-meter baseload to West Texas data center (6-year)",
+      "summary": "On 21 September 2026 Kodiak Gas Services (NYSE: KGS) announced a six-year agreement to provide 76 MW of behind-the-meter baseload power capacity, including balance of plant, to a West Texas data center. Deployment: ~40 reciprocating natural-gas generation units beginning Q4 2026 and scaling into Q1 2027, with revenue recognition expected to start Q1 2027. Counterparty described only as a data-center operator contracted with an investment-grade-rated hyperscaler, with a GPU designer as guarantor of the data-center lease — names not disclosed. Kodiak calls this its second long-term primary-power data-center contract; about half of its current power portfolio is now under long-term power contracts. Country conversion: 76 MW BTM gas generation contracted for a hyperscaler-backed West Texas campus with a near-term deploy window — Energy/Build for USA without a named tenant or campus MW beyond the power block.",
+      "url": "https://ir.kodiakgas.com/news-events/press-releases/detail/86/kodiak-gas-services-announces-power-supply-agreement-with",
+      "source": "Kodiak Gas Services IR press release (21 Sep 2026)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build"
+      ],
+      "score": 86
     }
   ],
-  "updated": "2026-09-21",
-  "note": "Weekday promote 2026-09-21: PUCT 58481 Order Adopting §25.194; PUCT 59336 written Order (Route 4 mod 1); CleanSpark $2.276B notes priced for Sandersville. Tape confirm day 69/0/0."
+  "updated": "2026-09-22",
+  "note": "2026-09-22: Wired NUAI/TCDC×Luminant 200–207 MW 20y PPA (Odessa Phase 1) + Kodiak 76 MW BTM West Texas. CleanSpark notes still priced/not closed (watch 25 Sep). PUCT 58481 still at items 218/219. Tape confirm 69/0/0."
 }
