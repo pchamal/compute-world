@@ -1,147 +1,143 @@
 {
-  "updated": "2026-09-22",
-  "title": "Compute brief — 22 September 2026",
-  "description": "New Era (NUAI) locks a 20-year 200–207 MW Luminant/Vistra PPA for Odessa TCDC Phase 1; Kodiak contracts 76 MW BTM gas to a hyperscaler-backed West Texas campus. Silicon Tape confirm day — Lambda H100 $3.99 / B200 $6.69; 69 confirms, 0 ticks.",
-  "og_kicker": "NUAI 207 MW Vistra PPA; Kodiak 76 MW BTM; tape flat",
-  "lede": "Permian power conversion moved on Monday. New Era Energy & Digital's TCDC PowerCo signed a 20-year PPA (event 18 Sep; 8-K 21 Sep) with Vistra affiliate Luminant for a minimum 200 MW and up to 207 MW for Phase 1 of the Texas Critical Data Center beside Vistra's 1,180 MW Odessa gas plant — contracted power expected Q3 2027, with $116M LC due within 15 business days of signing plus up to $82.8M more by Delivery Date. Same day, Kodiak Gas Services announced a six-year, 76 MW behind-the-meter baseload deal (~40 recip units + BOP) to a West Texas data center whose operator is contracted with an IG-rated hyperscaler and has a GPU designer as lease guarantor; deploy Q4 2026 into Q1 2027. CleanSpark's $2.276B notes remain priced with close still targeted 25 Sep. PUCT 58481 is unchanged at Interchange items 218/219 (Order Adopting §25.194; TR ack; effective 10.08.2026). The Silicon Tape is another clean confirm morning: Lambda H100 $3.99 and B200 $6.69 unchanged across 69 re-read list prints.",
+  "updated": "2026-09-23",
+  "title": "Compute brief — 23 September 2026",
+  "description": "DigitalOcean spot ticks: B300 $11.19→$8.00 and MI350X $4.00→$3.00. Fermi×TensorWave push Project Matador 222 MW close to 31 Oct. Host Digital lists as HOST; Site II still definitive-docs gated. CleanSpark $2.276B notes still open to 25 Sep. Lambda H100 $3.99 / B200 $6.69 confirm.",
+  "og_kicker": "DO spot ticks B300/MI350X; Fermi close → 31 Oct",
+  "lede": "The Silicon Tape finally moved: DigitalOcean's public spot list reprinted NVIDIA HGX B300 at $8.00/GPU-hr (was $11.19 on 22 Sep) and AMD Instinct MI350X at $3.00 (was $4.00), while Lambda H100 on-demand held $3.99 and B200 $6.69 across a 67-confirm / 2-tick / 0-NEW re-read. Overnight conversion stamps were scarce. Fermi Campus 1 and TensorWave signed a First Amendment pushing the Project Matador 222 MW lease close from 30 Sep to 31 Oct 2026 (~$6.5B expected 15-year revenue unchanged; IG guaranty and project financing still open). Host Digital (NYSE American: HOST) is trading after its Sep 17 merger and highlighted northeast Oklahoma Site I (55 MW gross / 43 MW critical IT, ~$1.25B base-term take-or-pay) plus a Preferential Rights path to Site II (20/16 MW, ~$391M base-term) that remains subject to definitive agreements. CleanSpark's $2.276B Sandersville notes are still priced with close targeted 25 Sep — EFTS shows no closing 8-K through 23 Sep. PUCT 58481 Interchange is unchanged at items 218/219. No new country-level Wire ids today.",
   "countries": [
     {
-      "id": "usa-nuai-tcdc-luminant-ppa",
+      "id": "usa-fermi-tensorwave-close-extend",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "NUAI/TCDC PowerCo × Luminant (Vistra) 20y PPA: 200–207 MW Phase 1 Odessa TCDC; Q3 2027 availability; $116M LC + ≤$82.8M more; 493-acre path ~1.4 GW; no named tenant (8-K 21 Sep)."
+      "note": "Fermi×TensorWave First Amendment (22 Sep PR): Project Matador 222 MW lease close extended Sep 30→Oct 31; ~$6.5B / 15y terms unchanged; IG guaranty + financing still conditions."
     },
     {
-      "id": "usa-kodiak-76mw-btm",
-      "name": "United States / Texas",
+      "id": "usa-host-digital-oklahoma",
+      "name": "United States / Oklahoma",
       "slug": "united-states",
-      "note": "Kodiak Gas Services: 76 MW BTM baseload (~40 recip + BOP), 6-year, West Texas DC; IG hyperscaler + GPU-designer lease guarantor unnamed; deploy Q4'26→Q1'27 (IR 21 Sep)."
+      "note": "Host Digital (HOST) trading post Sep 17 merger; Site I 55/43 MW ~$1.25B base-term owned; Site II Preferential Rights 20/16 MW ~$391M still needs definitive agreements (22 Sep PR)."
     },
     {
-      "id": "usa-cleanspark-notes-watch",
+      "id": "usa-cleanspark-notes-open",
       "name": "United States / Georgia",
       "slug": "united-states",
-      "note": "CleanSpark $2.276B 7.875% notes still priced (18 Sep); expected close 25 Sep — not closed overnight. Prior Wire stands."
+      "note": "CleanSpark $2.276B 7.875% notes due 2031 still priced (18 Sep 8-K); expected close 25 Sep; no closing 8-K in EFTS through 23 Sep."
     },
     {
       "id": "usa-puct-58481-hold",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "PUCT 58481 still at items 218/219 (Order Adopting §25.194 + TR ack); Interchange effective 10.08.2026. No new overnight Interchange items."
+      "note": "PUCT 58481 Interchange still items 218 (Order Adopting §25.194) + 219 (Texas Register ack); effective per Interchange 10.08.2026 — no new overnight items."
     }
   ],
   "silicon": [
     {
-      "id": "nvidia-b200-sxm6",
+      "id": "lambda-h100-od",
+      "name": "H100 SXM",
+      "display_usd": 3.99,
+      "venue": "Lambda",
+      "term": "on-demand",
+      "as_of": "2026-09-23",
+      "prev_usd": 3.99,
+      "delta": 0.0,
+      "note": "Confirm vs 22 Sep print"
+    },
+    {
+      "id": "lambda-b200-od",
       "name": "B200 SXM6",
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-22",
+      "as_of": "2026-09-23",
       "prev_usd": 6.69,
-      "delta": "0% 1Q",
-      "note": "Display: Lambda OD 8× SXM6. Confirm vs 21 Sep. Same $6.69 print."
+      "delta": 0.0,
+      "note": "Confirm vs 22 Sep print"
     },
     {
-      "id": "nvidia-h100-sxm-80gb",
-      "name": "H100 SXM 80GB",
-      "display_usd": 3.99,
-      "venue": "Lambda",
-      "term": "on-demand",
-      "as_of": "2026-09-22",
-      "prev_usd": 3.99,
-      "delta": "0% 1Q",
-      "note": "Lambda OD $3.99 confirm. CoreWeave Inference Single still $6.16; Crusoe HGX $3.9."
+      "id": "do-b300-spot",
+      "name": "B300 HGX",
+      "display_usd": 8.0,
+      "venue": "DigitalOcean",
+      "term": "spot",
+      "as_of": "2026-09-23",
+      "prev_usd": 11.19,
+      "delta": -3.19,
+      "note": "Tick from $11.19 (2026-09-22)"
     },
     {
-      "id": "google-tpu-v5e",
-      "name": "TPU v5e",
-      "display_usd": 1.2,
-      "venue": "GCP",
-      "term": "on-demand",
-      "as_of": "2026-09-22",
-      "prev_usd": 1.2,
-      "delta": "0% 1Q",
-      "note": "GCP us-central1 OD $1.2 confirm. Ironwood/Trillium re-confirmed on tape."
-    },
-    {
-      "id": "nvidia-gh200",
-      "name": "GH200",
-      "display_usd": 2.29,
-      "venue": "Lambda",
-      "term": "on-demand",
-      "as_of": "2026-09-22",
-      "prev_usd": 2.29,
-      "delta": "0% 1Q",
-      "note": "Lambda 1× $2.29 confirm; CoreWeave GH200 OD re-confirmed."
+      "id": "do-mi350x-spot",
+      "name": "MI350X",
+      "display_usd": 3.0,
+      "venue": "DigitalOcean",
+      "term": "spot",
+      "as_of": "2026-09-23",
+      "prev_usd": 4.0,
+      "delta": -1.0,
+      "note": "Tick from $4.0 (2026-09-22)"
     }
   ],
   "watch": [
     {
+      "id": "cleanspark-close",
       "name": "CleanSpark notes close",
-      "note": "Priced $2.276B 7.875% due 2031 at 98.5%; expected close 25 Sep subject to customary conditions."
+      "note": "Targeted 25 Sep; watch Item 2.03 / closing 8-K."
     },
     {
+      "id": "fermi-tensorwave-close",
+      "name": "Fermi×TensorWave Matador close",
+      "note": "New deadline 31 Oct; IG guaranty + project financing."
+    },
+    {
+      "id": "host-site-ii",
+      "name": "Host Digital Site II",
+      "note": "Preferential Rights only until definitive contribution docs."
+    },
+    {
+      "id": "nuai-lc",
       "name": "NUAI $116M LC post",
-      "note": "LC due within 15 business days of 18 Sep PPA signing; watch for draw/default language or amended 8-K."
+      "note": "Within 15 business days of 18 Sep PPA signing."
     },
     {
-      "name": "ERCOT community RFI Oct 12",
-      "note": "Notarized State & Community Impact answers due 5pm CPT 12 Oct; TWDB water Section C in same packet."
+      "id": "texas-register-25194",
+      "name": "Texas Register §25.194",
+      "note": "Ack for 10/02/2026 issue; Interchange effective 10.08.2026."
     },
     {
-      "name": "58481 Texas Register publication",
-      "note": "TR ack for 10/02/2026 issue; Interchange lists effective 10.08.2026 — confirm text in the Register when published."
-    },
-    {
-      "name": "Anthropic Western Downs FIRB / council DA",
-      "note": "Lease announced 16 Sep; FIRB + Western Downs Regional Council DA still pending."
-    },
-    {
-      "name": "NUAI / Kodiak tenant naming",
-      "note": "Neither Monday print names the hyperscaler or GPU counterparty; watch Georgia PSC / Texas dockets / follow-on 8-Ks."
+      "id": "ercot-rfi",
+      "name": "ERCOT large-load RFI",
+      "note": "State & Community Impact responses due 5pm CPT 12 Oct."
     }
   ],
   "sources": [
     {
-      "name": "NUAI Form 8-K",
-      "url": "https://www.sec.gov/Archives/edgar/data/2028336/000121390026101642/ea0305716-8k_newera.htm"
+      "name": "DigitalOcean GPU Droplets pricing",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "note": "B300 spot $8.00; MI350X spot $3.00 (23 Sep re-read)."
     },
     {
-      "name": "NUAI Ex.99.1 press",
-      "url": "https://www.sec.gov/Archives/edgar/data/2028336/000121390026101642/ea030571601ex99-1.htm"
+      "name": "Lambda Cloud pricing",
+      "url": "https://lambda.ai/pricing",
+      "note": "H100 $3.99 / B200 $6.69 / GH200 $2.29 confirm."
     },
     {
-      "name": "Kodiak Gas Services IR",
-      "url": "https://ir.kodiakgas.com/news-events/press-releases/detail/86/kodiak-gas-services-announces-power-supply-agreement-with"
+      "name": "Fermi×TensorWave close extension (Digital Journal / ACCESS)",
+      "url": "https://www.digitaljournal.com/pr/news/access-newswire/fermi-tensorwave-agree-extend-closing-1169577351.html",
+      "note": "22 Sep PR; Matador 222 MW close → 31 Oct."
+    },
+    {
+      "name": "Host Digital NYSE debut / Site II preferential (News Direct)",
+      "url": "https://www.newsdirect.com/newsroom/host-digital-debuts-on-nyse-american-as-host-and-exercises-its-right-to-acquire-a-second-site-from-its-sponsor-for-its-ai-data-center-platform/",
+      "note": "22 Sep; Site I owned; Site II gated."
+    },
+    {
+      "name": "CleanSpark pricing 8-K (EFTS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526395727/clsk-20260918.htm",
+      "note": "Only CLSK 8-K in window through 23 Sep."
     },
     {
       "name": "PUCT Interchange 58481",
-      "url": "https://interchange.puc.texas.gov/Search/Filings?ControlNumber=58481"
-    },
-    {
-      "name": "Lambda pricing",
-      "url": "https://lambda.ai/pricing"
-    },
-    {
-      "name": "CoreWeave pricing",
-      "url": "https://www.coreweave.com/pricing"
-    },
-    {
-      "name": "Crusoe pricing",
-      "url": "https://crusoe.ai/cloud/pricing"
-    },
-    {
-      "name": "DigitalOcean GPU Droplets",
-      "url": "https://www.digitalocean.com/pricing/gpu-droplets"
-    },
-    {
-      "name": "GCP TPU pricing",
-      "url": "https://cloud.google.com/tpu/pricing"
-    },
-    {
-      "name": "AWS Capacity Blocks",
-      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing"
+      "url": "https://interchange.puc.texas.gov/Search/Filings?ControlNumber=58481",
+      "note": "Items 218/219 unchanged."
     }
   ]
 }
