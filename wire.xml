@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>BDx breaks ground on 640 MW CGK4 AI campus in West Java with 845 MVA PLN power</title>
+    <link>https://www.prnewswire.com/apac/news-releases/bdx-breaks-ground-on-640mw-ai-data-center-in-west-java-backed-by-845mva-of-secured-grid-power-302885578.html</link>
+    <guid isPermaLink="false">compute.world/wire#bdx-cgk4-west-java-640mw-groundbreak-2026-09-22</guid>
+    <pubDate>Tue, 22 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 22 September 2026 BDx Data Centers announced groundbreaking on AI Campus 2 (CGK4) in Jatiluhur, West Java, Indonesia: a planned 640 MW AI data-center campus backed by 845 MVA of grid capacity from PLN (part of BDx&#x27;s stated 1.2 GVA+ secured Indonesia AI-campus power position). Construction has begun on Building 1 of six planned buildings; Building 1 is designed for 120 MW IT capacity in phases, with the first contracted phase expected to enter service in early 2027, using direct-to-chip liquid cooling rated up to 500 kW per rack. West Java Governor Dedi Mulyadi and Purwakarta Regent Saepul Bahri Binzein attended. Country conversion: Indonesia adds a named, power-backed AI campus groundbreak with a near-term first-building service window — no named hyperscaler tenant disclosed in the company release. [Signal 90, Confirmed, via BDx Data Centers via PR Newswire] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>New Era (NUAI) TCDC PowerCo signs 20-year 200–207 MW PPA with Vistra/Luminant for Odessa Phase 1</title>
     <link>https://www.sec.gov/Archives/edgar/data/2028336/000121390026101642/ea0305716-8k_newera.htm</link>
     <guid isPermaLink="false">compute.world/wire#nuai-tcdc-luminant-207mw-ppa-odessa-2026-09-21</guid>
@@ -17,6 +24,20 @@
     <guid isPermaLink="false">compute.world/wire#kodiak-76mw-btm-west-texas-datacenter-2026-09-21</guid>
     <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
     <description>On 21 September 2026 Kodiak Gas Services (NYSE: KGS) announced a six-year agreement to provide 76 MW of behind-the-meter baseload power capacity, including balance of plant, to a West Texas data center. Deployment: ~40 reciprocating natural-gas generation units beginning Q4 2026 and scaling into Q1 2027, with revenue recognition expected to start Q1 2027. Counterparty described only as a data-center operator contracted with an investment-grade-rated hyperscaler, with a GPU designer as guarantor of the data-center lease — names not disclosed. Kodiak calls this its second long-term primary-power data-center contract; about half of its current power portfolio is now under long-term power contracts. Country conversion: 76 MW BTM gas generation contracted for a hyperscaler-backed West Texas campus with a near-term deploy window — Energy/Build for USA without a named tenant or campus MW beyond the power block. [Signal 86, Confirmed, via Kodiak Gas Services IR press release (21 Sep 2026)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Abbott directs TCEQ to halt all Texas data-center permits pending ERCOT/TWDB audits</title>
+    <link>https://gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf</link>
+    <guid isPermaLink="false">compute.world/wire#abbott-tceq-halt-dc-permits-2026-09-21</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 21 September 2026 Governor Greg Abbott directed Texas Commission on Environmental Quality Executive Director Kelly Keel to pause issuance of all permits related to data-center projects until ERCOT completes its Large Load review (with TWDB water-use work in parallel). The letter states no other state agency should move forward with data-center regulatory approvals until PUC/ERCOT/TWDB audit information is acquired, and requires TCEQ to update the Governor&#x27;s office on compliance by Monday 19 October 2026. Country conversion: Texas extends the August interconnect freeze into statewide environmental permitting, widening the stall on AI campus build timelines beyond ERCOT queue gating alone. [Signal 93, Confirmed, via Office of the Governor of Texas (letter PDF)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Fluidstack says construction begun on $4B / up to 1.5 GW Cameron County first phase</title>
+    <link>https://fluidstack.io/community/building-compute-in-cameron-county</link>
+    <guid isPermaLink="false">compute.world/wire#fluidstack-cameron-county-1p5gw-construction-2026-09-21</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 21 September 2026 Fluidstack published that it has begun construction on the $4 billion first phase of an AI data-center campus in Cameron County, Texas, planned to support up to 1.5 GW of capacity, with more than 2,500 expected construction jobs. Cameron County earlier (10 Sep) issued a worksite permit for site preparation near Valley International Airport; the county notice says future permits are still required before building construction. Fluidstack says it requested no local tax abatement, will pay for energy/infrastructure/water, and will participate in PUCT/ERCOT audits under Abbott directives. Country conversion: a named Texas AI campus moves from permit talk into company-stated construction start on a multi-GW phase, still under the broader Abbott/TCEQ permitting freeze and county building-permit gates. [Signal 84, Corroborated, via Fluidstack company post (+ Cameron County worksite permit)] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>PUCT adopts 16 TAC §25.194 large-load interconnection rule ($50k/MW security; ≥75 MW)</title>
@@ -192,26 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#miso-large-load-irr-er26-3650-2026-08-28</guid>
     <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 28 August 2026 Midcontinent Independent System Operator filed tariff revisions at FERC (docket ER26-3650; accession 20260828-5278) proposing interconnection reliability requirements for large loads. Utility Dive (1 Sep) and MISO materials define large loads as &gt;50 MW and create a computational-load subclass (≥25 MW of IT demand) with visibility/forecast, PMU, ramp, and ride-through obligations for transmission customers serving those sites, plus grandfathering for existing/near-complete arrangements. MISO asked for a 4 December 2026 effective date and said further large-load filings (transmission products, cost-shift protections) are due by 16 November — part of its response to FERC’s mid-June Section 206 show-cause orders on large-load interconnection. Country conversion: Midcontinent US grid now has a filed AI/data-center-specific reliability rulebook awaiting FERC action. [Signal 86, FERC eLibrary accession 20260828-5278 (MISO IRR tariff filing). MISO Large Load Interconnection Reliability Requirements dashboard. mgrid.org 2 Sep explainer on 50 MW / 25 MW IT thresholds and Dec 4 ask., via Utility Dive / MISO FERC filing ER26-3650] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>PUCT unanimously approves Oncor 765-kV Import Path 1 CCNs (~424 mi, ~$3.95B)</title>
-    <link>https://dallasexpress.com/business-markets/texas-regulators-approve-424-miles-of-power-lines-despite-calls-to-wait/</link>
-    <guid isPermaLink="false">compute.world/wire#puct-oncor-765kv-ccn-59315-59029-2026-08-28</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 28 August 2026 the Public Utility Commission of Texas unanimously granted final Certificates of Convenience and Necessity for Oncor’s Dinosaur–Longshore path (Docket 59315, Route 559, ~242.6 miles, ~$2.243B, target 2028) and Longshore–Drill Hole (Docket 59029, Route 476, ~181.6 miles, ~$1.704B, target 2029) — about 424 miles and ~$3.95B of 765-kV into West Texas under the Permian Basin Reliability Plan. Need findings cited oil/gas plus non-oil load including crypto, data centers, and hydrogen. Howard–Solstice (59336) remains tabled past its 31 August statutory clock and is not part of this Wire item. [Signal 88, Confirmed, via Dallas Express / Oncor / Texas Tribune] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Powertech books FOPLP AI packaging capacity through 2030; $2.2B ramp + Singapore–Broadcom line</title>
-    <link>https://www.taipeitimes.com/News/biz/archives/2026/08/27/2003863180</link>
-    <guid isPermaLink="false">compute.world/wire#powertech-foplp-capacity-booked-2030-2026-08-27</guid>
-    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 27 August 2026 Taiwan OSAT Powertech Technology said its fan-out panel-level packaging (FOPLP) capacity for AI is fully booked through 2030 by two major customers (press cites AMD and Broadcom), backed by about NT$70 billion (~$2.2B) to expand from ~1,000 to ~5,000 panels/month by 2028, with AI server CPU shipments expected next year and a Broadcom joint packaging line planned in Singapore around 2028. This is a Taiwan/Singapore packaging-conversion print around CoWoS scarcity. [Signal 80, Corroborated, via Taipei Times / Nikkei Asia] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>SK hynix breaks ground on first US HBM packaging base in West Lafayette</title>
-    <link>https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/</link>
-    <guid isPermaLink="false">compute.world/wire#sk-hynix-indiana-hbm-packaging-2026-08-27</guid>
-    <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 27 August 2026 SK hynix held a groundbreaking ceremony at Purdue University in West Lafayette, Indiana, for its first US next-generation HBM advanced-packaging production base. The company newsroom (dated Seoul 28 August) sizes the Indiana fab at over $4 billion, with the cleanroom scheduled to open by October 2028 and mass production of next-generation HBM in the second half of 2029, plus an Advanced Packaging R&amp;D Testbed and about 1,000 facility jobs. Korea-made wafers will be packaged and tested in Indiana and sold as Made-in-USA product to US customers. A prior US Commerce CHIPS award (December 2024) attached up to $458 million in direct funding and up to $500 million in loans to the West Lafayette project; that award is not restated in today’s newsroom note. This is a US/Korea conversion print: packaging land and a 2029 volume clock, not a 2026 wafer start. [Signal 91, Confirmed, via SK hynix Newsroom] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
