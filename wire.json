@@ -1380,8 +1380,69 @@
         "Build"
       ],
       "score": 86
+    },
+    {
+      "id": "abbott-tceq-halt-dc-permits-2026-09-21",
+      "date": "2026-09-21",
+      "title": "Abbott directs TCEQ to halt all Texas data-center permits pending ERCOT/TWDB audits",
+      "summary": "On 21 September 2026 Governor Greg Abbott directed Texas Commission on Environmental Quality Executive Director Kelly Keel to pause issuance of all permits related to data-center projects until ERCOT completes its Large Load review (with TWDB water-use work in parallel). The letter states no other state agency should move forward with data-center regulatory approvals until PUC/ERCOT/TWDB audit information is acquired, and requires TCEQ to update the Governor's office on compliance by Monday 19 October 2026. Country conversion: Texas extends the August interconnect freeze into statewide environmental permitting, widening the stall on AI campus build timelines beyond ERCOT queue gating alone.",
+      "url": "https://gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf",
+      "source": "Office of the Governor of Texas (letter PDF)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall",
+        "Energy",
+        "Water"
+      ],
+      "score": 93
+    },
+    {
+      "id": "bdx-cgk4-west-java-640mw-groundbreak-2026-09-22",
+      "date": "2026-09-22",
+      "title": "BDx breaks ground on 640 MW CGK4 AI campus in West Java with 845 MVA PLN power",
+      "summary": "On 22 September 2026 BDx Data Centers announced groundbreaking on AI Campus 2 (CGK4) in Jatiluhur, West Java, Indonesia: a planned 640 MW AI data-center campus backed by 845 MVA of grid capacity from PLN (part of BDx's stated 1.2 GVA+ secured Indonesia AI-campus power position). Construction has begun on Building 1 of six planned buildings; Building 1 is designed for 120 MW IT capacity in phases, with the first contracted phase expected to enter service in early 2027, using direct-to-chip liquid cooling rated up to 500 kW per rack. West Java Governor Dedi Mulyadi and Purwakarta Regent Saepul Bahri Binzein attended. Country conversion: Indonesia adds a named, power-backed AI campus groundbreak with a near-term first-building service window — no named hyperscaler tenant disclosed in the company release.",
+      "url": "https://www.prnewswire.com/apac/news-releases/bdx-breaks-ground-on-640mw-ai-data-center-in-west-java-backed-by-845mva-of-secured-grid-power-302885578.html",
+      "source": "BDx Data Centers via PR Newswire",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IDN"
+      ],
+      "flags": "🇮🇩",
+      "tags": [
+        "Build",
+        "Energy",
+        "Capital"
+      ],
+      "score": 90
+    },
+    {
+      "id": "fluidstack-cameron-county-1p5gw-construction-2026-09-21",
+      "date": "2026-09-21",
+      "title": "Fluidstack says construction begun on $4B / up to 1.5 GW Cameron County first phase",
+      "summary": "On 21 September 2026 Fluidstack published that it has begun construction on the $4 billion first phase of an AI data-center campus in Cameron County, Texas, planned to support up to 1.5 GW of capacity, with more than 2,500 expected construction jobs. Cameron County earlier (10 Sep) issued a worksite permit for site preparation near Valley International Airport; the county notice says future permits are still required before building construction. Fluidstack says it requested no local tax abatement, will pay for energy/infrastructure/water, and will participate in PUCT/ERCOT audits under Abbott directives. Country conversion: a named Texas AI campus moves from permit talk into company-stated construction start on a multi-GW phase, still under the broader Abbott/TCEQ permitting freeze and county building-permit gates.",
+      "url": "https://fluidstack.io/community/building-compute-in-cameron-county",
+      "source": "Fluidstack company post (+ Cameron County worksite permit)",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Capital",
+        "Policy"
+      ],
+      "score": 84
     }
   ],
-  "updated": "2026-09-23",
-  "note": "No new Wire ids on 2026-09-23; tape ticks only (DO B300/MI350X spot). Prior ids through nuai-tcdc-luminant-207mw-ppa-odessa-2026-09-21."
+  "updated": "2026-09-24",
+  "note": "2026-09-24: added Abbott TCEQ permit halt (21 Sep), BDx CGK4 West Java groundbreak (22 Sep), Fluidstack Cameron County construction start (21 Sep). Tape confirm day (69 confirms, 0 ticks)."
 }

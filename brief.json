@@ -1,33 +1,39 @@
 {
-  "updated": "2026-09-23",
-  "title": "Compute brief — 23 September 2026",
-  "description": "DigitalOcean spot ticks: B300 $11.19→$8.00 and MI350X $4.00→$3.00. Fermi×TensorWave push Project Matador 222 MW close to 31 Oct. Host Digital lists as HOST; Site II still definitive-docs gated. CleanSpark $2.276B notes still open to 25 Sep. Lambda H100 $3.99 / B200 $6.69 confirm.",
-  "og_kicker": "DO spot ticks B300/MI350X; Fermi close → 31 Oct",
-  "lede": "The Silicon Tape finally moved: DigitalOcean's public spot list reprinted NVIDIA HGX B300 at $8.00/GPU-hr (was $11.19 on 22 Sep) and AMD Instinct MI350X at $3.00 (was $4.00), while Lambda H100 on-demand held $3.99 and B200 $6.69 across a 67-confirm / 2-tick / 0-NEW re-read. Overnight conversion stamps were scarce. Fermi Campus 1 and TensorWave signed a First Amendment pushing the Project Matador 222 MW lease close from 30 Sep to 31 Oct 2026 (~$6.5B expected 15-year revenue unchanged; IG guaranty and project financing still open). Host Digital (NYSE American: HOST) is trading after its Sep 17 merger and highlighted northeast Oklahoma Site I (55 MW gross / 43 MW critical IT, ~$1.25B base-term take-or-pay) plus a Preferential Rights path to Site II (20/16 MW, ~$391M base-term) that remains subject to definitive agreements. CleanSpark's $2.276B Sandersville notes are still priced with close targeted 25 Sep — EFTS shows no closing 8-K through 23 Sep. PUCT 58481 Interchange is unchanged at items 218/219. No new country-level Wire ids today.",
+  "updated": "2026-09-24",
+  "title": "Compute brief — 24 September 2026",
+  "description": "Abbott orders TCEQ to halt Texas data-center permits (update due 19 Oct). BDx breaks ground on 640 MW CGK4 in West Java (845 MVA PLN). Fluidstack starts Cameron County $4B / up to 1.5 GW phase. Chicago introduces 12-month DC moratorium (not yet law). Tape confirm day: Lambda H100 $3.99 / B200 $6.69; DO B300 spot $8.00 / MI350X $3.00 hold.",
+  "og_kicker": "Abbott TCEQ halt; BDx CGK4 640 MW; flat tape",
+  "lede": "Texas widened its data-center stall and Indonesia printed a campus groundbreak while the public rental tape stayed flat. On 21 Sep Governor Abbott directed TCEQ to halt all data-center permits until ERCOT finishes its Large Load audit (TCEQ compliance update due 19 Oct). On 22 Sep BDx broke ground on CGK4 in Jatiluhur, West Java: 640 MW planned, 845 MVA from PLN, Building 1 targeting 120 MW IT with first contracted phase early 2027. Fluidstack said construction has begun on a $4B first phase in Cameron County planned for up to 1.5 GW (county worksite permit is site-work; building permits still ahead). Chicago Mayor Brandon Johnson introduced a proposed 12-month data-center moratorium on 23 Sep (introduction only, not enacted). Silicon Tape re-read 24 Sep: 69 confirms, 0 ticks, 0 NEW; Lambda H100 $3.99 / B200 $6.69 / GH200 $2.29 and DigitalOcean B300 spot $8.00 / MI350X spot $3.00 all confirm vs 23 Sep. CleanSpark $2.276B notes still open to 25 Sep (EFTS shows only the 18 Sep pricing 8-K). Three new Wire ids.",
   "countries": [
     {
-      "id": "usa-fermi-tensorwave-close-extend",
+      "id": "usa-abbott-tceq-halt",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "Fermi×TensorWave First Amendment (22 Sep PR): Project Matador 222 MW lease close extended Sep 30→Oct 31; ~$6.5B / 15y terms unchanged; IG guaranty + financing still conditions."
+      "note": "Abbott→TCEQ letter 21 Sep: halt all DC permits pending ERCOT/TWDB audits; TCEQ update due 19 Oct. Companion to Aug interconnect freeze."
     },
     {
-      "id": "usa-host-digital-oklahoma",
-      "name": "United States / Oklahoma",
+      "id": "idn-bdx-cgk4",
+      "name": "Indonesia / West Java",
+      "slug": "indonesia",
+      "note": "BDx CGK4 groundbreak 22 Sep: 640 MW campus; 845 MVA PLN; Building 1 120 MW IT, first phase early 2027. No named tenant in PR."
+    },
+    {
+      "id": "usa-fluidstack-cameron",
+      "name": "United States / Texas",
       "slug": "united-states",
-      "note": "Host Digital (HOST) trading post Sep 17 merger; Site I 55/43 MW ~$1.25B base-term owned; Site II Preferential Rights 20/16 MW ~$391M still needs definitive agreements (22 Sep PR)."
+      "note": "Fluidstack 21 Sep: construction begun on $4B / up to 1.5 GW Cameron County first phase; county worksite permit site-prep only."
+    },
+    {
+      "id": "usa-chicago-moratorium-intro",
+      "name": "United States / Illinois",
+      "slug": "united-states",
+      "note": "Chicago Mayor + alderpersons introduced 12-month DC moratorium ordinance 23 Sep. Proposed only; not passed."
     },
     {
       "id": "usa-cleanspark-notes-open",
       "name": "United States / Georgia",
       "slug": "united-states",
-      "note": "CleanSpark $2.276B 7.875% notes due 2031 still priced (18 Sep 8-K); expected close 25 Sep; no closing 8-K in EFTS through 23 Sep."
-    },
-    {
-      "id": "usa-puct-58481-hold",
-      "name": "United States / Texas",
-      "slug": "united-states",
-      "note": "PUCT 58481 Interchange still items 218 (Order Adopting §25.194) + 219 (Texas Register ack); effective per Interchange 10.08.2026 — no new overnight items."
+      "note": "CleanSpark $2.276B notes still priced (18 Sep 8-K); expected close 25 Sep; EFTS through 24 Sep shows no closing 8-K."
     }
   ],
   "silicon": [
@@ -37,10 +43,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-24",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 22 Sep print"
+      "note": "Confirm vs 23 Sep print"
     },
     {
       "id": "lambda-b200-od",
@@ -48,10 +54,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-24",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 22 Sep print"
+      "note": "Confirm vs 23 Sep print"
     },
     {
       "id": "do-b300-spot",
@@ -59,10 +65,10 @@
       "display_usd": 8.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-09-23",
-      "prev_usd": 11.19,
-      "delta": -3.19,
-      "note": "Tick from $11.19 (2026-09-22)"
+      "as_of": "2026-09-24",
+      "prev_usd": 8.0,
+      "delta": 0.0,
+      "note": "Confirm vs 23 Sep tick print ($8.00)"
     },
     {
       "id": "do-mi350x-spot",
@@ -70,10 +76,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-09-23",
-      "prev_usd": 4.0,
-      "delta": -1.0,
-      "note": "Tick from $4.0 (2026-09-22)"
+      "as_of": "2026-09-24",
+      "prev_usd": 3.0,
+      "delta": 0.0,
+      "note": "Confirm vs 23 Sep tick print ($3.00)"
     }
   ],
   "watch": [
@@ -85,7 +91,7 @@
     {
       "id": "fermi-tensorwave-close",
       "name": "Fermi×TensorWave Matador close",
-      "note": "New deadline 31 Oct; IG guaranty + project financing."
+      "note": "Deadline 31 Oct; IG guaranty + project financing."
     },
     {
       "id": "host-site-ii",
@@ -93,9 +99,14 @@
       "note": "Preferential Rights only until definitive contribution docs."
     },
     {
-      "id": "nuai-lc",
-      "name": "NUAI $116M LC post",
-      "note": "Within 15 business days of 18 Sep PPA signing."
+      "id": "tceq-compliance-update",
+      "name": "TCEQ Abbott directive update",
+      "note": "Compliance update to Governor due 19 Oct."
+    },
+    {
+      "id": "ercot-rfi",
+      "name": "ERCOT large-load RFI",
+      "note": "State & Community Impact responses due 5pm CPT 12 Oct."
     },
     {
       "id": "texas-register-25194",
@@ -103,16 +114,36 @@
       "note": "Ack for 10/02/2026 issue; Interchange effective 10.08.2026."
     },
     {
-      "id": "ercot-rfi",
-      "name": "ERCOT large-load RFI",
-      "note": "State & Community Impact responses due 5pm CPT 12 Oct."
+      "id": "chicago-moratorium",
+      "name": "Chicago DC moratorium ordinance",
+      "note": "Introduced 23 Sep; watch Rules Committee / passage."
+    },
+    {
+      "id": "nuai-lc",
+      "name": "NUAI $116M LC post",
+      "note": "Within 15 business days of 18 Sep PPA signing."
     }
   ],
   "sources": [
     {
-      "name": "DigitalOcean GPU Droplets pricing",
-      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "B300 spot $8.00; MI350X spot $3.00 (23 Sep re-read)."
+      "name": "Abbott→TCEQ letter PDF",
+      "url": "https://gov.texas.gov/uploads/files/press/TCEQ_Data_Center.pdf",
+      "note": "21 Sep; halt all DC permits; update due 19 Oct."
+    },
+    {
+      "name": "BDx CGK4 groundbreak (PR Newswire)",
+      "url": "https://www.prnewswire.com/apac/news-releases/bdx-breaks-ground-on-640mw-ai-data-center-in-west-java-backed-by-845mva-of-secured-grid-power-302885578.html",
+      "note": "22 Sep; 640 MW; 845 MVA PLN."
+    },
+    {
+      "name": "Fluidstack Cameron County",
+      "url": "https://fluidstack.io/community/building-compute-in-cameron-county",
+      "note": "21 Sep company post; construction begun."
+    },
+    {
+      "name": "Chicago Mayor moratorium intro",
+      "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/september/data-center-moratorium.html",
+      "note": "23 Sep; proposed 12-month pause."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -120,24 +151,14 @@
       "note": "H100 $3.99 / B200 $6.69 / GH200 $2.29 confirm."
     },
     {
-      "name": "Fermi×TensorWave close extension (Digital Journal / ACCESS)",
-      "url": "https://www.digitaljournal.com/pr/news/access-newswire/fermi-tensorwave-agree-extend-closing-1169577351.html",
-      "note": "22 Sep PR; Matador 222 MW close → 31 Oct."
-    },
-    {
-      "name": "Host Digital NYSE debut / Site II preferential (News Direct)",
-      "url": "https://www.newsdirect.com/newsroom/host-digital-debuts-on-nyse-american-as-host-and-exercises-its-right-to-acquire-a-second-site-from-its-sponsor-for-its-ai-data-center-platform/",
-      "note": "22 Sep; Site I owned; Site II gated."
+      "name": "DigitalOcean GPU Droplets pricing",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "note": "B300 spot $8.00; MI350X spot $3.00 confirm."
     },
     {
       "name": "CleanSpark pricing 8-K (EFTS)",
       "url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526395727/clsk-20260918.htm",
-      "note": "Only CLSK 8-K in window through 23 Sep."
-    },
-    {
-      "name": "PUCT Interchange 58481",
-      "url": "https://interchange.puc.texas.gov/Search/Filings?ControlNumber=58481",
-      "note": "Items 218/219 unchanged."
+      "note": "Still only CLSK 8-K in window through 24 Sep."
     }
   ]
 }
