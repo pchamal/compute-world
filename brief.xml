@@ -2,41 +2,41 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>The Silicon Tape finally moved: DigitalOcean&#x27;s public spot list reprinted NVIDIA HGX B300 at $8.00/GPU-hr (was $11.19 on 22 Sep) and AMD Instinct MI350X at $3.00 (was $4.00), while Lambda H100 on-demand held $3.99 and B200 $6.69 across a 67-confirm / 2-tick / 0-NEW re-read. Overnight conversion stamps were scarce. Fermi Campus 1 and TensorWave signed a First Amendment pushing the Project Matador 222 MW lease close from 30 Sep to 31 Oct 2026 (~$6.5B expected 15-year revenue unchanged; IG guaranty and project financing still open). Host Digital (NYSE American: HOST) is trading after its Sep 17 merger and highlighted northeast Oklahoma Site I (55 MW gross / 43 MW critical IT, ~$1.25B base-term take-or-pay) plus a Preferential Rights path to Site II (20/16 MW, ~$391M base-term) that remains subject to definitive agreements. CleanSpark&#x27;s $2.276B Sandersville notes are still priced with close targeted 25 Sep — EFTS shows no closing 8-K through 23 Sep. PUCT 58481 Interchange is unchanged at items 218/219. No new country-level Wire ids today.</description>
+  <description>Texas widened its data-center stall and Indonesia printed a campus groundbreak while the public rental tape stayed flat. On 21 Sep Governor Abbott directed TCEQ to halt all data-center permits until ERCOT finishes its Large Load audit (TCEQ compliance update due 19 Oct). On 22 Sep BDx broke ground on CGK4 in Jatiluhur, West Java: 640 MW planned, 845 MVA from PLN, Building 1 targeting 120 MW IT with first contracted phase early 2027. Fluidstack said construction has begun on a $4B first phase in Cameron County planned for up to 1.5 GW (county worksite permit is site-work; building permits still ahead). Chicago Mayor Brandon Johnson introduced a proposed 12-month data-center moratorium on 23 Sep (introduction only, not enacted). Silicon Tape re-read 24 Sep: 69 confirms, 0 ticks, 0 NEW; Lambda H100 $3.99 / B200 $6.69 / GH200 $2.29 and DigitalOcean B300 spot $8.00 / MI350X spot $3.00 all confirm vs 23 Sep. CleanSpark $2.276B notes still open to 25 Sep (EFTS shows only the 18 Sep pricing 8-K). Three new Wire ids.</description>
   <language>en</language>
   <item>
-    <title>Compute brief — 23 September 2026</title>
+    <title>Compute brief — 24 September 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-09-23</guid>
-    <pubDate>Wed, 23 Sep 2026 12:00:00 GMT</pubDate>
-    <description>The Silicon Tape finally moved: DigitalOcean&#x27;s public spot list reprinted NVIDIA HGX B300 at $8.00/GPU-hr (was $11.19 on 22 Sep) and AMD Instinct MI350X at $3.00 (was $4.00), while Lambda H100 on-demand held $3.99 and B200 $6.69 across a 67-confirm / 2-tick / 0-NEW re-read. Overnight conversion stamps were scarce. Fermi Campus 1 and TensorWave signed a First Amendment pushing the Project Matador 222 MW lease close from 30 Sep to 31 Oct 2026 (~$6.5B expected 15-year revenue unchanged; IG guaranty and project financing still open). Host Digital (NYSE American: HOST) is trading after its Sep 17 merger and highlighted northeast Oklahoma Site I (55 MW gross / 43 MW critical IT, ~$1.25B base-term take-or-pay) plus a Preferential Rights path to Site II (20/16 MW, ~$391M base-term) that remains subject to definitive agreements. CleanSpark&#x27;s $2.276B Sandersville notes are still priced with close targeted 25 Sep — EFTS shows no closing 8-K through 23 Sep. PUCT 58481 Interchange is unchanged at items 218/219. No new country-level Wire ids today. Countries: United States / Texas: Fermi×TensorWave First Amendment (22 Sep PR): Project Matador 222 MW lease close extended Sep 30→Oct 31; ~$6.5B / 15y terms unchanged; IG guaranty + financing still conditions. United States / Oklahoma: Host Digital (HOST) trading post Sep 17 merger; Site I 55/43 MW ~$1.25B base-term owned; Site II Preferential Rights 20/16 MW ~$391M still needs definitive agreements (22 Sep PR). United States / Georgia: CleanSpark $2.276B 7.875% notes due 2031 still priced (18 Sep 8-K); expected close 25 Sep; no closing 8-K in EFTS through 23 Sep. United States / Texas: PUCT 58481 Interchange still items 218 (Order Adopting §25.194) + 219 (Texas Register ack); effective per Interchange 10.08.2026 — no new overnight items.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-09-24</guid>
+    <pubDate>Thu, 24 Sep 2026 12:00:00 GMT</pubDate>
+    <description>Texas widened its data-center stall and Indonesia printed a campus groundbreak while the public rental tape stayed flat. On 21 Sep Governor Abbott directed TCEQ to halt all data-center permits until ERCOT finishes its Large Load audit (TCEQ compliance update due 19 Oct). On 22 Sep BDx broke ground on CGK4 in Jatiluhur, West Java: 640 MW planned, 845 MVA from PLN, Building 1 targeting 120 MW IT with first contracted phase early 2027. Fluidstack said construction has begun on a $4B first phase in Cameron County planned for up to 1.5 GW (county worksite permit is site-work; building permits still ahead). Chicago Mayor Brandon Johnson introduced a proposed 12-month data-center moratorium on 23 Sep (introduction only, not enacted). Silicon Tape re-read 24 Sep: 69 confirms, 0 ticks, 0 NEW; Lambda H100 $3.99 / B200 $6.69 / GH200 $2.29 and DigitalOcean B300 spot $8.00 / MI350X spot $3.00 all confirm vs 23 Sep. CleanSpark $2.276B notes still open to 25 Sep (EFTS shows only the 18 Sep pricing 8-K). Three new Wire ids. Countries: United States / Texas: Abbott→TCEQ letter 21 Sep: halt all DC permits pending ERCOT/TWDB audits; TCEQ update due 19 Oct. Companion to Aug interconnect freeze. Indonesia / West Java: BDx CGK4 groundbreak 22 Sep: 640 MW campus; 845 MVA PLN; Building 1 120 MW IT, first phase early 2027. No named tenant in PR. United States / Texas: Fluidstack 21 Sep: construction begun on $4B / up to 1.5 GW Cameron County first phase; county worksite permit site-prep only. United States / Illinois: Chicago Mayor + alderpersons introduced 12-month DC moratorium ordinance 23 Sep. Proposed only; not passed. United States / Georgia: CleanSpark $2.276B notes still priced (18 Sep 8-K); expected close 25 Sep; EFTS through 24 Sep shows no closing 8-K.</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-23/lambda-h100-od</guid>
-    <pubDate>Wed, 23 Sep 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 23 Sep 2026. Confirm vs 22 Sep print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-24/lambda-h100-od</guid>
+    <pubDate>Thu, 24 Sep 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 24 Sep 2026. Confirm vs 23 Sep print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-23/lambda-b200-od</guid>
-    <pubDate>Wed, 23 Sep 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 23 Sep 2026. Confirm vs 22 Sep print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-24/lambda-b200-od</guid>
+    <pubDate>Thu, 24 Sep 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 24 Sep 2026. Confirm vs 23 Sep print</description>
   </item>
   <item>
     <title>B300 HGX · $8.00 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-23/do-b300-spot</guid>
-    <pubDate>Wed, 23 Sep 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.00 spot at DigitalOcean as of 23 Sep 2026. Tick from $11.19 (2026-09-22)</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-24/do-b300-spot</guid>
+    <pubDate>Thu, 24 Sep 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.00 spot at DigitalOcean as of 24 Sep 2026. Confirm vs 23 Sep tick print ($8.00)</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-09-23/do-mi350x-spot</guid>
-    <pubDate>Wed, 23 Sep 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 23 Sep 2026. Tick from $4.0 (2026-09-22)</description>
+    <guid isPermaLink="false">compute.world/brief/2026-09-24/do-mi350x-spot</guid>
+    <pubDate>Thu, 24 Sep 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 24 Sep 2026. Confirm vs 23 Sep tick print ($3.00)</description>
   </item>
 </channel></rss>
