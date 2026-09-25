@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Applied Digital names Brookwood, Alabama as Delta Forge 2 site for 210 MW leased AI campus</title>
+    <link>https://www.wbrc.com/2026/09/24/applied-digital-confirms-32-billion-data-center-campus-brookwood/</link>
+    <guid isPermaLink="false">compute.world/wire#applied-digital-delta-forge-2-brookwood-al-2026-09-24</guid>
+    <pubDate>Thu, 24 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 24 September 2026 Applied Digital confirmed that Delta Forge 2 — previously disclosed only as a &#x27;new southern state&#x27; campus in its 8 June 2026 IR lease release — will be built in Brookwood, Tuscaloosa County, Alabama (~1.26 million sq ft on about 160 acres of a nearly 1,300-acre site). The campus carries the existing 210 MW critical-IT 15-year take-or-pay lease with an unnamed U.S. investment-grade hyperscaler (~$5.2B base-term contracted revenue per the June IR). Combined company-plus-tenant investment is stated above $3.2 billion (TCEDA/TCIDA fact sheet ~$3.2865B). The Tuscaloosa County Economic Development Authority unanimously approved an incentive package of roughly $314.5 million in tax abatements plus $270 million in community-benefit payments over 20 years. Construction is scheduled to begin about 1 October 2026 with completion targeted by end-2028; tenant identity and final County Commission / Brookwood City Council incentive votes remain open. Country conversion: USA Alabama geography unlock plus local incentive package for a named 210 MW AI Factory campus that had no public state/site before 24 Sep. [Signal 84, Corroborated, via WBRC / ABC 33/40 / Tuscaloosa Thread (quoting Applied Digital + TCEDA); lease MW from Applied Digital IR 8 Jun 2026] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>BDx breaks ground on 640 MW CGK4 AI campus in West Java with 845 MVA PLN power</title>
     <link>https://www.prnewswire.com/apac/news-releases/bdx-breaks-ground-on-640mw-ai-data-center-in-west-java-backed-by-845mva-of-secured-grid-power-302885578.html</link>
     <guid isPermaLink="false">compute.world/wire#bdx-cgk4-west-java-640mw-groundbreak-2026-09-22</guid>
@@ -206,12 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#us-commerce-remote-access-ai-compute-draft-2026-08-31</guid>
     <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
     <description>Late August 2026 reporting (Forbes 31 Aug; TechTimes 29 Aug citing The Information) says Trump Commerce/BIS is preparing an export-control draft that would treat remote rental of advanced AI GPUs as controlled access, aimed at Chinese firms using third-country data centers such as Thailand and Singapore, with industry draft circulation possible as early as September. The House already passed the Remote Access Security Act (H.R. 2683) in January; the Senate has not. Export-control bar commentary notes BIS’s statutory remote-access authority is weak until RASA clears. This is a Policy/Stall conversion signal on usable FLOPs geography, not a published final rule. [Signal 72, Corroborated, via Forbes / TechTimes / Congress.gov H.R.2683] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>MISO files FERC large-load interconnection reliability rules — &gt;50 MW sites, ≥25 MW IT “computational loads,” Dec 4 ask</title>
-    <link>https://www.utilitydive.com/news/large-load-reliability-requirements-miso-ferc/829278/</link>
-    <guid isPermaLink="false">compute.world/wire#miso-large-load-irr-er26-3650-2026-08-28</guid>
-    <pubDate>Fri, 28 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 28 August 2026 Midcontinent Independent System Operator filed tariff revisions at FERC (docket ER26-3650; accession 20260828-5278) proposing interconnection reliability requirements for large loads. Utility Dive (1 Sep) and MISO materials define large loads as &gt;50 MW and create a computational-load subclass (≥25 MW of IT demand) with visibility/forecast, PMU, ramp, and ride-through obligations for transmission customers serving those sites, plus grandfathering for existing/near-complete arrangements. MISO asked for a 4 December 2026 effective date and said further large-load filings (transmission products, cost-shift protections) are due by 16 November — part of its response to FERC’s mid-June Section 206 show-cause orders on large-load interconnection. Country conversion: Midcontinent US grid now has a filed AI/data-center-specific reliability rulebook awaiting FERC action. [Signal 86, FERC eLibrary accession 20260828-5278 (MISO IRR tariff filing). MISO Large Load Interconnection Reliability Requirements dashboard. mgrid.org 2 Sep explainer on 50 MW / 25 MW IT thresholds and Dec 4 ask., via Utility Dive / MISO FERC filing ER26-3650] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
