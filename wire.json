@@ -1441,8 +1441,28 @@
         "Policy"
       ],
       "score": 84
+    },
+    {
+      "id": "applied-digital-delta-forge-2-brookwood-al-2026-09-24",
+      "date": "2026-09-24",
+      "title": "Applied Digital names Brookwood, Alabama as Delta Forge 2 site for 210 MW leased AI campus",
+      "summary": "On 24 September 2026 Applied Digital confirmed that Delta Forge 2 — previously disclosed only as a 'new southern state' campus in its 8 June 2026 IR lease release — will be built in Brookwood, Tuscaloosa County, Alabama (~1.26 million sq ft on about 160 acres of a nearly 1,300-acre site). The campus carries the existing 210 MW critical-IT 15-year take-or-pay lease with an unnamed U.S. investment-grade hyperscaler (~$5.2B base-term contracted revenue per the June IR). Combined company-plus-tenant investment is stated above $3.2 billion (TCEDA/TCIDA fact sheet ~$3.2865B). The Tuscaloosa County Economic Development Authority unanimously approved an incentive package of roughly $314.5 million in tax abatements plus $270 million in community-benefit payments over 20 years. Construction is scheduled to begin about 1 October 2026 with completion targeted by end-2028; tenant identity and final County Commission / Brookwood City Council incentive votes remain open. Country conversion: USA Alabama geography unlock plus local incentive package for a named 210 MW AI Factory campus that had no public state/site before 24 Sep.",
+      "url": "https://www.wbrc.com/2026/09/24/applied-digital-confirms-32-billion-data-center-campus-brookwood/",
+      "source": "WBRC / ABC 33/40 / Tuscaloosa Thread (quoting Applied Digital + TCEDA); lease MW from Applied Digital IR 8 Jun 2026",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Capital",
+        "Policy"
+      ],
+      "score": 84
     }
   ],
-  "updated": "2026-09-24",
-  "note": "2026-09-24: added Abbott TCEQ permit halt (21 Sep), BDx CGK4 West Java groundbreak (22 Sep), Fluidstack Cameron County construction start (21 Sep). Tape confirm day (69 confirms, 0 ticks)."
+  "updated": "2026-09-25",
+  "note": "2026-09-25: added Applied Digital Delta Forge 2 Brookwood AL geography unlock (210 MW leased campus; TCEDA incentives; construction ~1 Oct). Tape tick day: DO MI350X spot $3.00→$2.46 / MI355X spot $4.50→$2.97; B300 spot $8.00 hold."
 }
