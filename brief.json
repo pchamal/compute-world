@@ -1,39 +1,39 @@
 {
-  "updated": "2026-09-25",
-  "title": "Compute brief — 25 September 2026",
-  "description": "DigitalOcean MI350X spot ticks $3.00→$2.46 and MI355X spot $4.50→$2.97; B300 spot holds $8.00. Applied Digital names Brookwood, AL for Delta Forge 2 (210 MW leased). CleanSpark $2.276B notes still priced-not-closed on stated close morning. Lambda H100 $3.99 / B200 $6.69 / GH200 $2.29 hold.",
-  "og_kicker": "DO MI350X tick; Applied Digital Brookwood; CleanSpark open",
-  "lede": "The public rental tape moved again on DigitalOcean while the conversion desk unlocked Alabama geography for an already-leased AI Factory campus. Same-venue re-read 25 Sep: DigitalOcean MI350X spot printed $2.46 (was $3.00 on 23–24 Sep) and MI355X spot $2.97 (was $4.50); B300 spot held $8.00. Lambda on-demand anchors stayed sticky at H100 $3.99 / B200 $6.69 / GH200 $2.29 (67 confirms, 2 ticks, 0 NEW across six venues). On 24 Sep Applied Digital confirmed Delta Forge 2 will sit in Brookwood, Tuscaloosa County, Alabama — the previously disclosed 210 MW critical-IT 15-year take-or-pay lease with an unnamed U.S. investment-grade hyperscaler (~$5.2B base-term revenue per the 8 Jun IR), with TCEDA approving roughly $314.5M in tax abatements plus $270M community-benefit payments; construction is scheduled about 1 Oct 2026. CleanSpark’s $2.276B notes remain priced-not-closed on the morning of the stated 25 Sep close (EFTS still only the 18 Sep pricing 8-K). TCEQ verbally confirmed an air/water authorization pause tied to Abbott’s 21 Sep letter; scope outside the ERCOT RFI set is still undefined. One new Wire id.",
+  "updated": "2026-09-28",
+  "title": "Compute brief — 28 September 2026",
+  "description": "CleanSpark closes $2.276B Sandersville notes (25 Sep 8-K 0001193125-26-402944). Silicon Tape all confirms: Lambda H100 $3.99 / B200 $6.69 / GH200 $2.29; DO B300 spot $8.00 / MI350X $2.46 / MI355X $2.97. Applied Digital Brookwood still ~1 Oct start. No new Wire ids.",
+  "og_kicker": "CleanSpark notes closed; tape all confirms",
+  "lede": "Friday’s open watchlist item closed after the close bell, and Monday’s rental tape is flat. CleanSpark’s wholly owned subsidiary CSDC Finance I, LLC closed its previously priced $2.276 billion of 7.875% senior secured notes due 2031 on 25 Sep (Form 8-K Items 1.01/2.03, accession 0001193125-26-402944; IR close release same day). Issue price 98.500%; net proceeds are earmarked to finish the Sandersville, Georgia data center, reimburse prior equity contributions, and fund debt-service reserves — with a CleanSpark completion guarantee. That converts Friday’s priced-not-closed watch into a closed project-finance print for the already-wired Meta/Anviran 175 MW Sandersville campus (Signal update, not a new Wire id). Same-venue Silicon Tape re-read this morning: 69 confirms, 0 ticks, 0 NEW across Lambda / CoreWeave / Crusoe / DigitalOcean / GCP TPU / AWS Capacity Blocks. Lambda on-demand anchors hold at H100 $3.99 / B200 $6.69 / GH200 $2.29; DigitalOcean B300 spot $8.00 / MI350X spot $2.46 / MI355X spot $2.97 all confirm vs Friday. Applied Digital’s Brookwood / Delta Forge 2 campus remains on a ~1 Oct construction start with tenant still unnamed; PUCT 58481 still Interchange 218/219 (effective 10.08.2026); TCEQ Abbott update still due 19 Oct; Fermi×TensorWave Matador still due 31 Oct.",
   "countries": [
+    {
+      "id": "usa-cleanspark-notes-closed",
+      "name": "United States / Georgia",
+      "slug": "united-states",
+      "note": "CleanSpark $2.276B 7.875% notes CLOSED 25 Sep (8-K 0001193125-26-402944); proceeds to Sandersville Facility + completion guarantee. Signal on already-wired campus finance."
+    },
     {
       "id": "usa-applied-digital-brookwood",
       "name": "United States / Alabama",
       "slug": "united-states",
-      "note": "Applied Digital 24 Sep: Delta Forge 2 site = Brookwood / Tuscaloosa County; 210 MW leased; TCEDA incentives; construction ~1 Oct; tenant unnamed."
-    },
-    {
-      "id": "usa-cleanspark-notes-open",
-      "name": "United States / Georgia",
-      "slug": "united-states",
-      "note": "CleanSpark $2.276B notes still priced (18 Sep 8-K); stated close 25 Sep; morning EFTS shows no closing 8-K yet."
+      "note": "Applied Digital Delta Forge 2 still Brookwood / Tuscaloosa County; 210 MW leased; construction still ~1 Oct; tenant unnamed; local votes/start watch."
     },
     {
       "id": "usa-tceq-scope",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "TCEQ confirms air/water authorization pause (TechTarget 24 Sep quoting Ryan Vise); update due 19 Oct; non-ERCOT / BTM scope TBD."
+      "note": "TCEQ air/water authorization pause still in force; Abbott update due 19 Oct; ERCOT RFI due 12 Oct CPT; PUCT 58481 still 218/219."
+    },
+    {
+      "id": "usa-fermi-matador",
+      "name": "United States / Texas",
+      "slug": "united-states",
+      "note": "Fermi×TensorWave Matador 222 MW close still OPEN to 31 Oct; IG guaranty + financing unresolved."
     },
     {
       "id": "usa-chicago-moratorium-intro",
       "name": "United States / Illinois",
       "slug": "united-states",
-      "note": "Chicago 12-month DC moratorium still introduction-only (23 Sep); not enacted."
-    },
-    {
-      "id": "usa-akamai-anthropic-capex",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "Akamai×Anthropic $11.6B / 7y cloud offtake (24 Sep); ~$5.5B related CapEx / +$1.7B 2026 CapEx lift — economics only, no named campus MW."
+      "note": "Chicago 12-month DC moratorium still introduction-only (23 Sep O2026-0028856); Rules Committee; not enacted."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-28",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 24 Sep print"
+      "note": "Confirm vs 25 Sep print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +54,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-28",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 24 Sep print"
+      "note": "Confirm vs 25 Sep print"
     },
     {
       "id": "do-b300-spot",
@@ -65,10 +65,10 @@
       "display_usd": 8.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-09-25",
+      "as_of": "2026-09-28",
       "prev_usd": 8.0,
       "delta": 0.0,
-      "note": "Confirm vs 23–24 Sep print ($8.00)"
+      "note": "Confirm vs 25 Sep print ($8.00)"
     },
     {
       "id": "do-mi350x-spot",
@@ -76,22 +76,17 @@
       "display_usd": 2.46,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-09-25",
-      "prev_usd": 3.0,
-      "delta": -0.54,
-      "note": "Tick vs 24 Sep print ($3.00→$2.46)"
+      "as_of": "2026-09-28",
+      "prev_usd": 2.46,
+      "delta": 0.0,
+      "note": "Confirm vs 25 Sep print ($2.46)"
     }
   ],
   "watch": [
     {
-      "id": "cleanspark-close",
-      "name": "CleanSpark notes close",
-      "note": "Stated 25 Sep; still priced-not-closed as of morning PT; watch Item 2.03 / closing 8-K."
-    },
-    {
       "id": "applied-digital-brookwood-votes",
-      "name": "Applied Digital Brookwood local votes",
-      "note": "Tuscaloosa County Commission + Brookwood City Council still ahead of ~1 Oct construction start."
+      "name": "Applied Digital Brookwood start",
+      "note": "Construction still aimed ~1 Oct; County Commission + City Council / tenant naming still open."
     },
     {
       "id": "fermi-tensorwave-close",
@@ -116,19 +111,34 @@
     {
       "id": "chicago-moratorium",
       "name": "Chicago DC moratorium ordinance",
-      "note": "Introduced 23 Sep; watch Rules Committee / passage."
+      "note": "Introduced 23 Sep; still Rules Committee; not enacted."
+    },
+    {
+      "id": "nuai-lc",
+      "name": "NUAI $116M LC post",
+      "note": "Still not due (~early Oct from 18 Sep PPA clock)."
     },
     {
       "id": "host-site-ii",
       "name": "Host Digital Site II",
       "note": "Preferential Rights only until definitive contribution docs."
+    },
+    {
+      "id": "georgia-power-google-nu1",
+      "name": "Georgia Power × Google NU1",
+      "note": "Still PSC-pending (dockets 44280/56002); ZEC ≠ campus MW lease."
     }
   ],
   "sources": [
     {
-      "name": "DigitalOcean GPU Droplets pricing",
-      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "MI350X spot $2.46 tick; MI355X spot $2.97 tick; B300 spot $8.00 confirm."
+      "name": "CleanSpark close IR (25 Sep)",
+      "url": "https://investors.cleanspark.com/news/news-details/2026/CleanSpark-Inc--Announces-Closing-of-2-276-Billion-of-Senior-Secured-Notes/default.aspx",
+      "note": "CSDC Finance closed $2.276B 7.875% notes due 2031."
+    },
+    {
+      "name": "CleanSpark close 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526402944/clsk-20260925.htm",
+      "note": "Accession 0001193125-26-402944; Items 1.01/2.03; Sandersville proceeds + completion guarantee."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -136,29 +146,24 @@
       "note": "H100 $3.99 / B200 $6.69 / GH200 $2.29 confirm."
     },
     {
+      "name": "DigitalOcean GPU Droplets pricing",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "note": "B300 spot $8.00 / MI350X $2.46 / MI355X $2.97 confirm."
+    },
+    {
       "name": "Applied Digital Brookwood (WBRC)",
       "url": "https://www.wbrc.com/2026/09/24/applied-digital-confirms-32-billion-data-center-campus-brookwood/",
-      "note": "24 Sep; Delta Forge 2 geography unlock."
+      "note": "24 Sep geography unlock; construction still ~1 Oct."
     },
     {
-      "name": "Applied Digital Delta Forge 2 lease IR",
-      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/154/applied-digital-signs-210-mw-lease-at-delta-forge-2",
-      "note": "8 Jun 2026; 210 MW / ~$5.2B base-term."
+      "name": "PUCT 58481 Interchange",
+      "url": "https://interchange.puc.texas.gov/search/filings/?ControlNumber=58481&DocumentType=ALL&SortBy=ItemNumber&SortOrder=Descending&UtilityType=E",
+      "note": "Still top items 218/219; effective 10.08.2026."
     },
     {
-      "name": "TCEQ pause scope (TechTarget)",
-      "url": "https://www.techtarget.com/it-infrastructure/news/366651196/TCEQs-data-center-permit-freeze-may-reach-beyond-ERCOT-review",
-      "note": "24 Sep; quotes TCEQ Ryan Vise."
-    },
-    {
-      "name": "CleanSpark pricing 8-K (EFTS)",
-      "url": "https://www.sec.gov/Archives/edgar/data/827876/000119312526395727/clsk-20260918.htm",
-      "note": "Still only CLSK pricing 8-K through morning 25 Sep."
-    },
-    {
-      "name": "Akamai×Anthropic (CNA)",
-      "url": "https://www.channelnewsasia.com/business/akamai-anthropic-sign-116-billion-cloud-services-deal-6409301",
-      "note": "24 Sep; $11.6B / 7y; CapEx lift, no campus MW."
+      "name": "Chicago DC moratorium intro",
+      "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/september/data-center-moratorium.html",
+      "note": "23 Sep introduction; not enacted."
     }
   ]
 }
