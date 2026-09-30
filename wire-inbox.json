@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29 18:06 UTC",
+ "generated": "2026-09-30 18:01 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -15,9 +15,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Fluidstack Starts $4 Billion Texas AI Campus Phase Planned for 1.5 GW - theenergymag.com",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaWY5V19CbDZoeVNZWmhGOEE5M2RJVEhsMlBHcnExNU1SY09WYUdZVG54eGFKNWpSNkp2YU05YXM5V0FXcnRFb1cwSG5QaEpiZXJsRTM5QVRtUV9ONzlEUWRzbzdHZy16b0NSeEVnSVVUT2NhVVk0SmltLWtKNmt0S3kyRExCeEwxcEpxWlRLb082b211dzVnVA?oc=5",
-   "source": "theenergymag.com",
+   "title": "Nscale IPO Filing Reveals $103.4 Billion In Active And Contracted AI Infrastructure Agreements - Pulse 2.0",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnRVRzlPQzFNTXJvdWtwNXAzNlZQNDJEcHl0eXR0OFRsaHpBMVFTbTExYlRpcndtN3NtcTJDZUJNSWxjbTJ2NVMwR3FUSTNTSVBGUkVHZlBGOU1CNnNNZzNWRlZyX1Q0SGtQaEl4aHpnR0NNd1dyYmd5NDViUHVqbDg2SDRORy1HekltRFJ4TmVTNV8xTTNYQkdPTWhBQm81eHBvQ3V5b0dXMlpwOFJkSVZWZ9IBuAFBVV95cUxPYUI1ZXVYdWlwZWI5Ni1kX3NmUXdzc3gzWUtNS1ZCeHNUcFk3dF9aWVJhX0hpQWFLa2JsYTRvbjdHdW9nSmkzazM4M3RBMk14YlBRYlZ3Z201ZG9lbERvMUpVaTBjNE14WWozd1B2WmVvaHZNbnoySkdmUEtHckx4VUpvTVVQLTBZMzh3Q1I1NVVOUGdzZDVfZFJKeWk5QXlHZnhBSWwtMzJwQXppVmJxUTJReGkzZE84?oc=5",
+   "source": "Pulse 2.0",
    "date": "2026-09-22",
    "via": "gnews",
    "country_hint": "",
@@ -63,9 +63,21 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Denmark's Sovera raises $610,000 to build sovereign AI cybersecurity - Dealroom.co",
+   "title": "UK tech execs call for £20 billion investment in sovereign AI - IT Pro",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVXJKTGg1SndVdnItQTMzdnM0MzBaV3ktMk9aXzJkYkVzNGxFTWtJaTRnaWV6VTlmallqUThsdnNiM1kwM3RObUdSSjJVd2JLVnhrTnJubllVZUJCQ1ZyaXpsRDU5aFpuV3NvanhVVXZkNWdLbmdhN2pEa2xfeUlEaWtWcF8tMXRESXlvc1Y0Z3ctT1VPMU5xNmdwTGNHamVMd1BOTXZIcEQ4T3NMWFZPeC0wVWNsMEN6QWlrMw?oc=5",
+   "source": "IT Pro",
+   "date": "2026-09-30",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Denmark's Sovera raises $610,000 to build sovereign AI cybersecurity - Dealroom",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSXhFSG13OWhCd2xvTDFDWk01LTA1OURCbC11UzBkRWZEY1dqQ1ZlM2kySDV0eW4tWHcxYnRBUzNOZ050YUpoOG5ySlcwWThBeE93dUxldmZ1OU4za3k1OFRab1Utc21oa0pLa2lwazd3eXNUXzZaOVA5YlZ5eW1KUk4zM0JWUGlsay1MYW1nR0d2cVd5Wm9OdmJMSm0wOFVoYmhj?oc=5",
-   "source": "Dealroom.co",
+   "source": "Dealroom",
    "date": "2026-09-29",
    "via": "gnews",
    "country_hint": "",
@@ -99,18 +111,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "AI data center boom hits growing resistance as $68 billion in US projects are blocked or delayed - TechSpot",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNS13UjNncWxlY2JxdS1sYmlzbzlZSVVNVWJtYS05UTRmNEFZMzNKM2tVWFE2OGV1Rzd0U2NfUS1iOWpnWmhvRDZjT3g4YjBZYVJZTUJtSzRKNHZldTdYNVNyS2RIUnhXZXZYYXNaMl9iWmFrSEtIc3h2ZEp1ZnVtTl91MW1ORkdoX1VhSUlyTE9iUQ?oc=5",
-   "source": "TechSpot",
-   "date": "2026-09-22",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "New Jersey hits Microsoft-linked AI data center with record fine for 62 unpermitted power generators, issues 45-day shutdown deadline — site tied to $33 billion deal also built illegal 1.5M-gallon fuel tank - Tom's Hardware",
    "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQM2RYNXhvTVNWWTVmLXBrT214OVA1bkg2alpWODRYd0tCbFI4by12d1NlU2JxekJyZ1FQeUswSWhvamE5eW4zS3dPRVNmbXU5MzMzbUtUdElqMENTVGtOTW5vNFdqWTRzTThpNEQteVI1dTRXUWs5N0VGU2hEcHFleFpCVUJ6QkFmcUJRaW9MWWtxdWN1bzhTQXVFZDRzci1NTTg0V2c0NTFydGlPYWNUWHF3R1NQUkNlVE5XRExGVVdQdFUxaG9YWmgtWldOQWs5MGk1UXh6VXBHRjNRRFhKVjJFOHFBbjFmWjNSOTRRN0pIU04yTzc2NlBvbWZPaGZ4ODd3cVZfeTJXZnhUa2dMdm1laWMzNThvNUY0d29NQ1dHU0tEUXRPdjZnTEVpUGYyekFF?oc=5",
    "source": "Tom's Hardware",
@@ -123,9 +123,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Hyundai Engineering Secures 870 Billion Won AI Data Center Contract - 조선일보",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNG95el9lWEt4ZGlQRFA2MUkxQ0pycXFTQlVFcUtlbEt4aU4wckdoT3BaVUlsdVZ4T0QxNndWTzVLTFJfbkoyeVNramtqSHFManRmajJRX3MxUXFWclFYX2dMTWlYLUJaWERtaWs3UUUzS1QyLXZHend1aVI2V2EzQ2hTMUpCV3VL?oc=5",
-   "source": "조선일보",
+   "title": "Company Invites Brookwood Residents To Meeting On $3.2B AI Data Center - patch.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbjFZcWRTNi12SjdjV2ZwRjRqSnNQQVZTbW9QSW1ZQTJuRUZ1ZnIxR1JHeGo4ZE5OTkVpX01KQ0xRWk95X05rVE5QNWtub2x0QkFqTXl4ZXN0OTN6ZV9QR3dCSG84c0hLbEtOc05IMlByLVlpUkZyZlk5ODlGS1dxYlA1a2xRMURQNlJFRld5OGVkcUFUSUNDYmpCX18zWmpUeVHSAbsBQVVfeXFMUFVmRXJoWk9UWmF6ZEowbnJMTHZWbHh5c3U5MU94ZjhzUXVwQjdqNmVOakNYclE4VU5OcnFRRzJyZXFBa3dYYVJvTXVIU2xmTWRaT2R3S21lT3cxOEpBQ3RDUjc3TXp2ZmREdUtKbFQ2WW5IVUFCWkVXRnA4OHZwbmljU2FSdUlSVDNBYVZ6dGhVbFRqRHZmcTdKbjUxWi1XTkg3bklBek5rQUpwV19kcXcxMUlQMmZsaEdRcw?oc=5",
+   "source": "patch.com",
    "date": "2026-09-29",
    "via": "gnews",
    "country_hint": "",
@@ -135,10 +135,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Crusoe Ends $1.25B Turbine Deal With Boom Supersonic for AI Data Centers - AI Insider",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTjF0bERUUlloSXp1T1hEd01OalRWODlCREpmVlhHWHRldU9udTlOc2tPU1YtajVVQXJibFNxLS1WUThYYVhRV2xHdWhZNGRoaGFqak43MjRISU4wNUZmQnlkU2Fwc0dBLXNiaTM4SUZtMkVocVRqRWFrRXhFS2NZU1BFWHBoZlZiMGRLMjZtZzh3bzlnQVVGMTF3aVRsMnZHWWJTSjVOdkhYSG12ZFE?oc=5",
-   "source": "AI Insider",
-   "date": "2026-09-29",
+   "title": "South Korea: 100MW AI Data Center Could Generate Up to ₩3.5 Trillion in Production Impact - finance.biggo.com",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OZ0Y0dV96aEUxVlVpT0RYSk1uanZ4R0Q2X3Z1MzFBekNsbmdJNUg4UmlSNGpDWGdxR2lOZXZrME05SVlhLVJ3ZVNFcUlWVmZUeXdNODN6Um5KeDA2cFpXaE96RUZjSTI5NmVxR0ZWWmRMcjAtVnc?oc=5",
+   "source": "finance.biggo.com",
+   "date": "2026-09-30",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -159,10 +159,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "AI Data Center Boom Faces $68 Billion Roadblock as Bitcoin Mining Sites Gain New Value - Tekedia",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLXBlU1lhUnhIcW9qa2U1TklNMGNkQkNtbFhYNW5wV1lyeTdHZ1p6Um0tWmpta2R1VHV2aUd6QkNhTF8xSXZEVmx5T0dDWnlNdTBSZHZJRmxZb2NPZVlvUmQwV19pUURpMGt4a2RlcnZ1UHNlNXJkV2QzY05SRTU2UVppcXl6bFNVQTFwNFRzeTZ1NlBUVktwQmY4WjFjaVpxV1g1TC13dkZCR2FDRjhZ?oc=5",
-   "source": "Tekedia",
-   "date": "2026-09-22",
+   "title": "Microsoft pledges $10bn investment for Gulf cloud, AI infrastructure - thecradle.co",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaElxd3M1MHF0MWE4eGVtWU42cFRVRzlkTENRdXVfT3E0d19vdkJnMHc1Zjlkdm5URzVYcEpFR3lSN2ttaTF5SzdKUXQ1WHV2V2xfNS1tX1VSY3dkZHF4YjNaVTNGeUhvNDZDbU4yVUx0VlpPZ0tEZXIzekFXM0NxS3J5SlFENHh3alZTd2pMYXdfRVBjT0FxbXZBWmU?oc=5",
+   "source": "thecradle.co",
+   "date": "2026-09-24",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -255,9 +255,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Oracle files force majeure on 2.45GW New Mexico Stargate data center - Dealroom.co",
+   "title": "Oracle files force majeure on 2.45GW New Mexico Stargate data center - Dealroom",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSllmdG5La1ZqMXZraW5Td2hXQ1NGOVNnWkh4NFBHNUU3bldoNklsZ2x4WFVXX29VTXV3UHo0bl9adGs1YlRtWC0ycWRqOFJOOExkSVFLT0dzLVhIVkJPMVJQTHlPTm9Vd1dCYkJ4WHZLLXQ2RHNnNk9TVFd4SmZvdE54YmdJcVQ3bXhHdkVicXBYMHRVVnFKM3M1X25lTnJnV25Peg?oc=5",
-   "source": "Dealroom.co",
+   "source": "Dealroom",
    "date": "2026-09-25",
    "via": "gnews",
    "country_hint": "",
@@ -283,18 +283,6 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN25MbTd3aXQ5YVJGeDdLY3lOa1lxR0ZLR3c3M0xvLWdqY2hSOW5RVk4zNGR4WE1YUTlrcmxtQjV4WDhROFJUemJleExUVkFTdUdOVHpLZ2JIZFdYSVV1eE54UVdUbmRaZ0JJYVl0NVJjWFBrTkczUElkM2U2NVNJVDY0Wi05Z19NUERlSXNXaVpSTm1LU1RJZjAtdjdqeW9m?oc=5",
    "source": "energynews.pro",
    "date": "2026-09-23",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "New Era Energy Signs 207 MW Vistra Power Deal for Texas Data Center - theenergymag.com",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeEhuQy1yYm9IQ0NLQXRTNDhtWFhfQ1FKblFTb3otSlZfZ1RzSkxXM3BTR0M5LWE0MTBHeURXN1RKM09sXzZNM1p4Q2Q5enhSODlCcU1CRTBNWkVTMUZsR044Mmt1NGNmUV8zeXZ4d0R0RFpfdHdVOXpoT2VwaXBaTmpzcE01QzR1ZWhMZFNrS2E?oc=5",
-   "source": "theenergymag.com",
-   "date": "2026-09-22",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -339,10 +327,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "SPONSORED: - The Next Platform",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aaFlNMFpqWHU2dEVQOW1kcWFJTFFYdnhaSkhDOEdaS2JrdEx3RzRZLVlGdjRwY0hRNW1NeEI2T05veUR4bWIydEY5ZUVWYW1XOEpyR0RJV2RUZUhxUmpjZmZhcDMzbGh6X2NOWA?oc=5",
-   "source": "The Next Platform",
-   "date": "2026-09-22",
+   "title": "MeetKai Announces Six-Country Sovereign AI Rollout Built on NVIDIA - Unite.AI",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWgyY241bVZ2SHRBaWtaSDNVRGpkQWo0YUE3bXFJa2FZdm5MM1VYSldOcWpCcFFRcUxpVmFkcS1LeDhwZ1pDVGU2SHhWS29qYjdHelp5TmxaMjdNTWZkUFdfckFCNmNabzBPMkJoVHBpRkh4ajE5b2ZtdHJPMklteHh0elQ1b25MVjhTN2d3LXNLdw?oc=5",
+   "source": "Unite.AI",
+   "date": "2026-09-25",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -351,10 +339,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "MeetKai Announces Six-Country Sovereign AI Rollout Built on NVIDIA - Unite.AI",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWgyY241bVZ2SHRBaWtaSDNVRGpkQWo0YUE3bXFJa2FZdm5MM1VYSldOcWpCcFFRcUxpVmFkcS1LeDhwZ1pDVGU2SHhWS29qYjdHelp5TmxaMjdNTWZkUFdfckFCNmNabzBPMkJoVHBpRkh4ajE5b2ZtdHJPMklteHh0elQ1b25MVjhTN2d3LXNLdw?oc=5",
-   "source": "Unite.AI",
-   "date": "2026-09-25",
+   "title": "Bell rings up Cisco for Canadian AI sovereignty - SDxCentral",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENqeU5TT1VqT0hqV3pVYmRWMDE3OUw5ajRmRDlBeUV6eHdpQjRlRVJlUy1fd0hiY2ZrM09rOF94MjZ1Rl9hRE9FRS1MNXVRYVhrN1ZXcThpRUYtMXZmVlFGelM3d2hUWHYwMnBRdmhIaExBUjVZajFONnNQZFBnZnZnLWFEMnc?oc=5",
+   "source": "SDxCentral",
+   "date": "2026-09-30",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -375,10 +363,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Sharon AI Collaborates with VAST Data on the Launch of DataEnclave, Bringing Leading AI Models to Customer Controlled Infrastructure - TradingView",
-   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNb0VMN2ZlUUxQbWI0UkxlU3dURFctczBjMFhwMzZZczBINlNENl9NS2FfYnJEQm1ZQjlvYnFRQzBhT0ljM1YtV2RrOURyemRTVHFDQTROdmljajJvQlJkaFloc2x5emhmWEdZM3E0bjJicHo2cU8tMzNjYnNyTXVUemU0R095MVdUbkpmUjFBcFZnc00zdWdUcnYta3hrTkNxOGluOVVmWl8yWWdwR0pmVUNHMEtfbDl5N3VWdUFNX0JaSTVlOFVqRHNCNmZPc0xPd1JWV3ZwTVZGTU1ncnJCZHdpMEpXLWRKSm8ySk5nLW1EMWNHZExwVVZJR19yT1hycUduZXNZM0N5aHJacjJVQ0c4VXR6TVBxWVJZaA?oc=5",
-   "source": "TradingView",
-   "date": "2026-09-23",
+   "title": "Union.ai Launches Self-Service Access on AWS Marketplace to Enable Sovereign AI - GlobeNewswire",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQenFOZ0N4ODVRaDg2bUdLdVkzNUFIOVZzWmlGaHlmV3c3OTRweUJKd0NBTkZYWkZYbHF0am9XZ3F3VFNVQmtVTEJUU2c3ZXFsMHdKTmhfNmZMODRrbjV2ajNCdU1rTnhhWUNJckpsc3JWRk53cDdVZklxTm10dkozazJfSEJ4OVRDWXZnNHJuY0FITzBCRTFDRXdDT1dxQ3BYb3BCdW9iQUxSd2pIbnVkc3RGSVk4Vm1Sd1piV2lhZ0h0ZkVReVpuXzhzM2xCdkVreHo3Wl9vT3k0TTRUUW9FZ19rcFRfZw?oc=5",
+   "source": "GlobeNewswire",
+   "date": "2026-09-30",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -387,10 +375,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Trane Technologies Expands Data Center Thermal Management System Portfolio with Two New 250-Megawatt High-Density Ai Factory Reference Designs Based on Nvidia DSX Ai Factory Platform - marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMmVvZlJCbFN0ZFlrSFdrZGZJLTVHR3RDUW5vRmptN2Ywc1VmcS1WZUluZUJ2MFBFZElESWdxYVIyV2toY29oU1l4RFJMTzJXN3NweEtUbnlPZW5idHhxd200Ml90cFZ3T2tIT1V0aUYyQWlEWHNTa1Etb3FEOVUySHN6TnN3QzhwM2lpRGk3akpRSVBaVDBpbmhGcjl1ZkFYTkJyYjI5a0VPekY4dDFzQ2ZVcDB0UHVqTzNPYmxjbTNKZTlfYklaM0JldTNINmRtc1gwX0swR3AyTVdVVDVQbXFnbHVLNmdo?oc=5",
-   "source": "marketscreener.com",
-   "date": "2026-09-28",
+   "title": "Sharon AI Collaborates with VAST Data on the Launch of DataEnclave, Bringing Leading AI Models to Customer Controlled Infrastructure - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNb0VMN2ZlUUxQbWI0UkxlU3dURFctczBjMFhwMzZZczBINlNENl9NS2FfYnJEQm1ZQjlvYnFRQzBhT0ljM1YtV2RrOURyemRTVHFDQTROdmljajJvQlJkaFloc2x5emhmWEdZM3E0bjJicHo2cU8tMzNjYnNyTXVUemU0R095MVdUbkpmUjFBcFZnc00zdWdUcnYta3hrTkNxOGluOVVmWl8yWWdwR0pmVUNHMEtfbDl5N3VWdUFNX0JaSTVlOFVqRHNCNmZPc0xPd1JWV3ZwTVZGTU1ncnJCZHdpMEpXLWRKSm8ySk5nLW1EMWNHZExwVVZJR19yT1hycUduZXNZM0N5aHJacjJVQ0c4VXR6TVBxWVJZaA?oc=5",
+   "source": "TradingView",
+   "date": "2026-09-23",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -423,10 +411,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "The sovereignty imperative: Why AI leaders are taking control of their intelligence - cio.com",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVHRsOEtfakxEcTNYNkFJbGZ6Y19tZXVMdkw2MkhLM2NMWjBRYWZwLVJZX0xKdldteWwwaFFtZmF4NkVfOFIyM0l5d3U3UnUxVnZ0ZnplQkI0RHNYUWZ0bXlBeXpqTEZoTmNaaGRlMlU5YjI2UGxrUXBObk1BaW5sdjBFWFgxOG1iZnA5UXNkbGRvck9HdHJETGtuNUhXR2RPcTE5eC1SM1pRa28xVjBXYUhCcG9fa0lVeEIxTm1mYlg?oc=5",
-   "source": "cio.com",
-   "date": "2026-09-24",
+   "title": "Trane Technologies Expands Data Center Thermal Management System Portfolio with Two New 250-Megawatt High-Density Ai Factory Reference Designs Based on Nvidia DSX Ai Factory Platform - marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMmVvZlJCbFN0ZFlrSFdrZGZJLTVHR3RDUW5vRmptN2Ywc1VmcS1WZUluZUJ2MFBFZElESWdxYVIyV2toY29oU1l4RFJMTzJXN3NweEtUbnlPZW5idHhxd200Ml90cFZ3T2tIT1V0aUYyQWlEWHNTa1Etb3FEOVUySHN6TnN3QzhwM2lpRGk3akpRSVBaVDBpbmhGcjl1ZkFYTkJyYjI5a0VPekY4dDFzQ2ZVcDB0UHVqTzNPYmxjbTNKZTlfYklaM0JldTNINmRtc1gwX0swR3AyTVdVVDVQbXFnbHVLNmdo?oc=5",
+   "source": "marketscreener.com",
+   "date": "2026-09-28",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -459,69 +447,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "MeetKai launches sovereign AI platforms across six countries using NVIDIA tech, starting with Brazil and Ukraine. - Pluang",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZVI0VXJqMEQySzhycmVZWkpLa2FNbUNJUUFXU2NWd3c0RUlBYUcwalNmSUNoLU9PcEIxRVFpZk5WalRXSXZkNWszdUhFODN4aXFUSDhsM2NPVW1JUEFhcTNPM3NjNi1yY2Z0ZmxNazJEdzhyY3djMDJCYy1rR0M5Vi05MUwwWTNnWVE?oc=5",
-   "source": "Pluang",
-   "date": "2026-09-25",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Sharon AI and NEXTDC: Scaling Australia’s Sovereign AI Cloud - NEXTDC",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYUxqVEtCSjRFVWVzeTBDLVM4YU0tdHdvSDJGSmdyWml5MDdtSGVtZmVjazc0cFlNUnJMX1p5N3dSQV9mQVZxUU9YWWpQY3hsSEp3LVVtSXhNbmJJal9YMDZUTTlXaXA5enJ4S3k2NFBGMGpoNzlqVlVGU01vbDhleHhBN2ZZZ2lhXzc4?oc=5",
-   "source": "NEXTDC",
-   "date": "2026-09-22",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "LG Electronics’ 2.5-megawatt cooling unit qualifies as Nvidia DSX Ready - Crypto Briefing",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBneWlmdVNQMEZnTkpEb0t4dmdKbFZkY0FMQUhZLXp4V2lrTUppdTBQVXJINGg4MXFjNEdCUlptMHNzSDA2ay1NQk4zMTNFcmxKY1JqNkdqbnNsdXpCZEVCeWFxd1M5UUQwbkRFc2ZKV1k3bVZMVmc?oc=5",
-   "source": "Crypto Briefing",
-   "date": "2026-09-22",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "MeetKai Launches NVIDIA-Powered Sovereign AI in Six Countries - Analytics Insight",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZTRmemJDNmRIVXBPSklzaTRpM2VjY3JFTTZ1T2t1Z0JEbjNhY3BYcDFUc3B1VjVQRWQxLXpqcktEa3ZVZ0wyMWNkeXhBMW1nY3NUNm5mbllJWTh5YUNsd1VKVGZ0b0V1Z3I0ek91SHMyUEphT25tQ0dCbDdldGVKMzNTNFRtd3MyNEVtLTg5RlpDY2ZQSTJSaW5qaUJoWmZiQllJTzYzZUwyby1XSWfSAa4BQVVfeXFMUGU0ZnpiQzZkSFVwT0pJc2k0aTNlY2NyRU02dU9rdWdCRG4zYWNwWHAxVHNwdVY1UEVkMS16anJLRGt2VWdMMjFjZHl4QTFtZ2NzVDZuZm5ZSVk4eWFDbHdVSlRmdG9FdWdyNHpPdUhzMlBKYU9ubUNHQmw3ZXRlSjMzUzRUbXdzMjRFbS04OUZaQ2NmUEkyUmluamlCaFpmYkJZSU82M2VMMm8tV0ln?oc=5",
-   "source": "Analytics Insight",
-   "date": "2026-09-25",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Bell and Cisco to collaborate on sovereign AI infrastructure for Canada - PR Newswire",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSjhzbkdQTEhVLTdhT2dsTmFrRzRhTlc4XzkxemgwcU92SU54djBJNkMzTkNOakNUNlNOSnhvd3c3SGZwbVFNdXRlYUlvQTVtOFFGVEVhektnNUYwWU5KcFFiYmp1ZUtLUy1VU1V5SHFEejNodzZZOWZsNDZzaVZkb1JzMFprOGtscmtQaEpUUlhJZUVPX3pOUGN3ejlSQUcwNDFVWUY0bU9IR0JfanhGdERWc093UjZ5YUVMTDRoRnlaYUhQQ3c?oc=5",
    "source": "PR Newswire",
-   "date": "2026-09-29",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Bell Canada and Cisco Sign MOU to Develop Sovereign AI Infrastructure Offering - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYWRJVXFsU2FqRllyR2RnSS12cUVFRThpbGRNdEhnRng2OEVSdHBVLXNIQ2MyQVE5V2t4OFNlRXdVYkY5c0FlUE51eHQ2aWEwaFRWVDlfczVSWkFESUduWDY5cWJHV19nVEFzNF9GSHNpVzFyTElXOG8zOHNuYzhYYTVKU05tYjR0YWJMd29VQ1Q1dVVp?oc=5",
-   "source": "Yahoo Finance",
    "date": "2026-09-29",
    "via": "gnews",
    "country_hint": "",
@@ -543,9 +471,21 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Bell and Cisco take aim at sovereign AI demand - fiercewireless.com",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc1BJaENvbUFwSUlQYW5JQmNGM2FBckUyZ21xQjFpMkdiZlJKSFpCNVM3enRVcWhTbF8xaEpMQlNrSnI5Rm0yWHBuNzhuRHRFcllPamdjY25hRmtEakN4ckJfcF9pUGJNWUlKWXZuRDU5Unk2TmRXc1lJanZjUlhmMkxLSkVMY1Q0aHBj?oc=5",
-   "source": "fiercewireless.com",
+   "title": "Bell Canada and Cisco Sign MOU to Develop Sovereign AI Infrastructure Offering - finance.yahoo.com",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYWRJVXFsU2FqRllyR2RnSS12cUVFRThpbGRNdEhnRng2OEVSdHBVLXNIQ2MyQVE5V2t4OFNlRXdVYkY5c0FlUE51eHQ2aWEwaFRWVDlfczVSWkFESUduWDY5cWJHV19nVEFzNF9GSHNpVzFyTElXOG8zOHNuYzhYYTVKU05tYjR0YWJMd29VQ1Q1dVVp?oc=5",
+   "source": "finance.yahoo.com",
+   "date": "2026-09-29",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Bell and Cisco take aim at sovereign AI demand - Fierce Network",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTFJkQ0lHaVV4eTFlNHRzalNLaXVLSnk4aFdnbC1ETUx6Y2p5STJBZWx1Rk50bm1kZTJlWW8tcDFsLTB1eFpPMkh1Q1NTZXBHWG5hMFlpeFQ5dkhoUDY5cmdjSllkS21mQVlKLURtcnUzSEJidjFLbzBUaUZkZFRWN3BaeXVwY1A5TGFj?oc=5",
+   "source": "Fierce Network",
    "date": "2026-09-29",
    "via": "gnews",
    "country_hint": "",
@@ -567,33 +507,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Armada CEO Dan Wright highlights sovereign AI and distributed data centers in North Dakota partnership - am1100theflag.com",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQjZQMkF6QmdVdndLSE90SnlDeWNxUXVqTHFUTFFvMGZ6QldMYXlmVXptNmc1MGllOTJGWEZuOUpTbUFCT0xHeER5blFPcDVlenk2ZG5WLUNJT3djZ1c3QjJ5d09hYko2eWR2ZnZ3ckVqdVMxY2FNbUlENFJCTHV1SXJFVWJ2T0UtcGJBWnhyWFFhY2w0UHdBbFAzY1V3T0JwX0ZtVHZiemxtUTFXWGFMYU5TU2dKcDF2QURvRWFUcjBZazZIZEF6enRydm14LUM3c2RibQ?oc=5",
-   "source": "am1100theflag.com",
-   "date": "2026-09-22",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "ThisWay Global Introduces its Sovereign Blueprint, a Framework Establishing Sovereign AI and Digital Infrastructure Innovation - VMblog",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYjN4SjVlUzJQQ2g0RHFzTFJobXpuQlc0aEF0QmhOaUJoYXpBV0VNcVpSYXdFZWJmc21VMmFBOGZ1MDY5VXl6WUlQLVJ2RU5qN2oydjlNcVhCbDZJQTB3Ym9pU3NSOVVtQ21aUjJSR3J2YWdvX1drWHpGRkoyTk5nVmJFbmVVT0I4TktjbGRXa3U0TktLd0RmQnE4YmNVTGV3UnN1cURueUJ1YmVzYWhDUmZIZ1BBSUE1WlRiT0VlSVpBVFltRGNhQUxEODNKMjE0ZTNIR0VaTnB1alJxbkxQYUNfQ0s?oc=5",
-   "source": "VMblog",
-   "date": "2026-09-22",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "NANO Nuclear, IP3 and Cybernetic Intelligence Sign Letter of Intent to Pursue Nuclear-Powered AI Infrastructure Projects - NANO Nuclear Energy",
+   "title": "NANO Nuclear, IP3 and Cybernetic Intelligence Sign Letter of Intent to Pursue Nuclear-Powered AI Infrastructure Projects - nanonuclearenergy.com",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWko4b3pBMi0yclYyR0xBNi04TVRpTXNidjZnRGtRMVFBaC12R2lrZlBRZ0g0TWFxSTA1Yk9hbTJCMWQ4bGc2VVhqbEZGREN6SDdoMG1rNWhfNDlDdlo0b01QajROTVpSa3dGZEdCc3phRDhlaDNVVUIzczlvTjNtSF9lbnluZndkWnQtTXdhWnpobnJIaHlIWWd6U0VicjRsUU1MaGxuT1QtNHF3eDN3Rk1CU2NWYlBIVEZQbXQwNFN1b3I3c2xzV0RGcVlQdXJva0FIMVJKY0RGUTlxci1HbjJITDI?oc=5",
-   "source": "NANO Nuclear Energy",
+   "source": "nanonuclearenergy.com",
    "date": "2026-09-25",
    "via": "gnews",
    "country_hint": "",
@@ -627,6 +543,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Bell Canada, Cisco Sign MoU to Collaborate on Sovereign AI Infrastructure Offering in Canada - finance.yahoo.com",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTk56RWRtVFVBQW5BbzB2QXlicEJkXzl6TUlYdkM1OURIeDVGam1rQXBwVEEyYzlKc0RLTmpVV2hvbjZDQ2k2dS1xeUJsUFFiWC1tNjJWZWROUGxvLUczVXY5STgzSXJ2SUEycEh6ZklsQ3JlWUo0NGp2MjIwWWtUaVhJTGxMelZscGZtaFlCakZPYTR6?oc=5",
+   "source": "finance.yahoo.com",
+   "date": "2026-09-29",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Mavenir and Neysa target telcos, enterprise with new Sovereign AI stack - Fierce Network",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ084bkZHWlhLbVpVTFNDOWNnZG9qcDVwVURNSnJTdjZUZ0p4TFM1by1FWEgyaUt0V1d0QzB3d0VrSGg1cDhpOXFSQjk4ZW9NZ2xqTGREdDBPM2dyYlhTVEwtcktwaV80X3ZDR0hhNUVpUVJrcEJqOEJyV2NUSF9IbU1hQVZxTzYxYjNPQ0NwVUhpOEJ0ZkIwRQ?oc=5",
    "source": "Fierce Network",
@@ -639,34 +567,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Bell Cyber and Cohere deploy sovereign AI for Canadian cybersecurity operations - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOUlUc25EMkQtSEUtV2V5Q2UtRmstT3g2ZFhoODF1X3dsOHFUQnRGMUJkcEJBUFM0M2k0TVVpSzZoR2taVWtkUS1OR0oyaUh1WXlnNVNMaDJWM1c5NzQwd1BGYnJvYnlzdWJtWk1KSVhwOVBZZ1M2SWl3R09IdzY0X3RvdVhFdXJhNTRoWm9ETHppRU1NT2FwelhBMzRVUDg?oc=5",
-   "source": "Yahoo Finance",
-   "date": "2026-09-23",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Could Palantir (PLTR)’s Partnership with Nebius Group (NBIS) Accelerate its AI Growth? - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQkZzajV2bzJacjQyZTJxdk9BdHVkOEZwQVBtcktEN3FiT21hTTM2cWptdEMtN3BRWDR6RWxJLVhyV1ZLVlQxTEtZY0ZTM3RwQVdTRkpxZlJNOEVBUWI5bW13Z2dIQ3NjekF4NkQ3dnc1eVRNbjBNV0Z2a0VWZFNMMktHeS1EOGd5djZhcnZyWmtsZVdDZk4zNVY0Y0h1SUhuUmNJbw?oc=5",
-   "source": "Yahoo Finance",
-   "date": "2026-09-24",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "OpenNebula Achieves NVIDIA AI Cloud Ready Validation for Production-Scale AI Factories - Democrat and Chronicle",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVWhVYjNab0RzamFYbmRITXgxT1RMR1NyRWcyT2p2U2lSTnoxVk1kdUNZMDIyQmVCdmR0RG5Rc1BhZlliSjRjUGY3SWlzWnhucVlVSm1ybk90NDN3RVgwSjNkVktZbjJPSHBHZXVhTFZBS3VWek9yb0lSbmlmOEtPNXVWLTg5VTVGMDh3X0lEU0I4SXVadndWSFhrWmZsZ20tbmRSMDJ2RzhwV1BMM2dndUJ3VEI3REZWb1NKNHpXWktlMXdWcHVLd2FwZVZHWlJycW9IUG1kd0xXTmFVVEMxRXptWlhjdw?oc=5",
-   "source": "Democrat and Chronicle",
+   "title": "Bell signs agreement with Cisco to collaborate on sovereign AI infrastructure - BNN Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX3NIX3hCdnJVSkRsT3l2Rk5hMm1OQ1lWcnVmdWJQekhhZTFBNDdiWE16VTVpTVpvVkd6UHdEVTlBcXViR2V4aFhkNGlmOUY1aWV1OTJ1dmlVZndPX0FkRHFGVnhpZTNfZi0yUGRnYjFHbVR5dldoMWp0ZW5HWjluMGljS29ZYkFxcFkzaW9VN2s0ZFdRY3JkOHBNRlo2Mm9DTUlfUUZQRnN3c3lzSk1BSEd1aUR1WGlDZV9TR2UyYk80a3pqUElEZDZ0U3dlaUJQX1NmYmlR?oc=5",
+   "source": "BNN Bloomberg",
    "date": "2026-09-29",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Could Palantir (PLTR)’s Partnership with Nebius Group (NBIS) Accelerate its AI Growth? - finance.yahoo.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQkZzajV2bzJacjQyZTJxdk9BdHVkOEZwQVBtcktEN3FiT21hTTM2cWptdEMtN3BRWDR6RWxJLVhyV1ZLVlQxTEtZY0ZTM3RwQVdTRkpxZlJNOEVBUWI5bW13Z2dIQ3NjekF4NkQ3dnc1eVRNbjBNV0Z2a0VWZFNMMktHeS1EOGd5djZhcnZyWmtsZVdDZk4zNVY0Y0h1SUhuUmNJbw?oc=5",
+   "source": "finance.yahoo.com",
+   "date": "2026-09-24",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -711,10 +627,94 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "What’s up with… Bell Canada, Ericsson, Orange Business - telecomtv.com",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM05JZEw5b0wwMWU4ZUNCeXZyUDFSYzZPNFdKV0FNRVBnaW1pWV8wQ3U3VDB5S0RtU3ltRC1jMFRXR05TandaQ1dkNzJWLVdPcEFWYUY0eV9IUEJtemlkczlPQjh3dldUQURIOE1nV2xiLTlkdnhUeDRqMUpNemFpY0JYZURRekJDajdxOXlldUM4Q2Rwb19mdmVScFNxcWw50gGgAUFVX3lxTFAzTklkTDlvTDAxZThlQ0J5dnJQMVJjNk80V0pXQU1FUGdpbWlZXzBDdTdUMHlLRG1TeW1ELWMwVFdHTlNqd1pDV2Q3MlYtV09wQVZhRjR5X0hQQm16aWRzOU9COHd2V1RBREg4TWdXbGItOWR2eFR4NGoxSk16YWljQlhlRFF6QkNqN3E5eWV1QzhDZHBvX2Z2ZVJwU3FxbDk?oc=5",
-   "source": "telecomtv.com",
+   "title": "Bell brings in Cisco to bolster its sovereign AI offering - Telecoms",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlVKRnJmRjQ2NWhJZDkyWHFhQkwzc0ptdzNtc255TWVGdHFZbk81UHE0SGhkaTdtTEVxMGIyS2w5X1NJZk9fdGNEd0FuUThpQkJFWDIzZldJVDdiQ2oyN3VCWThFby1RUEFqRmtmTkRsd0pjUzdSQ0RJYjlGRGVPZGpYRU9KbjZ2UmgxZEF3?oc=5",
+   "source": "Telecoms",
+   "date": "2026-09-30",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "BCE Signs MOU With Cisco to Collaborate on Sovereign AI Infrastructure for Canada - marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeHgtdmlXWUpWZFI2UEhKVHdBdnoxRGVWdkdUOTJmM1JOaS1BZ3BjQVNVdnBLX3BWZXE0aDIzOGlmSzg5bjh0MTNxbmFCaDZmUERQN2IyTnV4c0UySW9iVldiYW1CczdjdUxGb3A4a3Y4bXU0TE1nOUJEb3hxSnlHdmpZNXJlUm1jVzlrYUNqYWRiSTYyZGFYTDhwTUpBTE5CWV9laWNIRmdBUlE1MmtZOXFodVlfbWg0TzFXT2k4WFpBMFlZczhtOHd1WGxLdzg?oc=5",
+   "source": "marketscreener.com",
    "date": "2026-09-29",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "IBM partners Yotta to build sovereign AI stack for Indian enterprises - crnasia.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcHZ2NWNFaG9PUzFjYTFjaXctLVE1RXRuVU8zNXNhQV9RYWpDT1RyV0Y5R2ZDeDJsNHp1M2ZzYXl5UTdqZjlUVDBpRVM3aGdhb0hkWS1SbFlmcmhlSXlRQl9YWThaVmVmTFFqd0ZoaDFFUENBTGNnTlFkdEhySmlOUTFJZXpuQVptbTdqTm85Vl9LU2RoNGlhbkxObExPMjlPUUlZOGNLUDZvRWpDcEE?oc=5",
+   "source": "crnasia.com",
+   "date": "2026-09-29",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Sovereign AI: Bell and Cisco sign deal to host AI capacity in Canada - hcamag.com",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZVFRNjVhY1cyS2VqYnhyblpLQWdLYy1vaGM4ZXlDTGZWeWRBQ2oyaTZVQktLT0ZTbEdjMkRpbzdUdUJaalFOY0x5blBRbUtGS3FzYlM5YWE0ZlduREJkXzBFclhfZjRTR09Sa3g2TS11M2pYWks2RW91TXJ0OVdKZm5DQ3JMZ0ZUVFNZOVlScEpkY1JTTHl6a1lWdUthTEdvOTN6X0E2MzQ5TmVkX28yNnZPMElIdVhIZzZxRnNZZFFxQ2FRVlZsYzdR?oc=5",
+   "source": "hcamag.com",
+   "date": "2026-09-30",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "OpenNebula Achieves NVIDIA AI Cloud Ready Validation for Production-Scale AI Factories - AiThority",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRm1xUUhBQjlNZ3poTjM2aG5OTDE3UUxpRXFFNUxCRVpCMVZ3dHRhekFkZWxrUENiNjAteEhocGJ4YVBfc0VWRS1WdG41UE1kZWNjLUYwTXdjV084TlFORzZjd0NGX1VFTGJqWmhoUDNhQldPWUNKSHoxVXFSSTg2Z3lhWHRTSlktaEd1SHRwSlF0TlRGOWt2czE1QnIxOGljV1FtU29Uc1h4cm1JeV8zUGFMdkFqdFQzWmpySXdyV05sdThVV3VsRQ?oc=5",
+   "source": "AiThority",
+   "date": "2026-09-29",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Saudi Arabia’s next AI challenge is turning infrastructure into capability - Computer Weekly",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVZuWkVnRUh2dU4xRUY0bHRwQnRmbDhhQXpLY0pEQ05uelBjZWdwOW9ydl90ZlRVTmVxVE9neUdOV1FYdjJiSUJGUFhOSXkxNXhvSlN2a1dhV05GWVpIdXUzbFo4c2J6bjNwdDVoRldXanA4aFRFR01Icm16ZHV0ZWpBT0FzRTJKaXRFakFvOUdMMlRtMTNGcEJlRG5GSC1PRG13UmJPRDA5Q3ZoaDZXOFV2RVFQU2tlQUY0?oc=5",
+   "source": "Computer Weekly",
+   "date": "2026-09-30",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "NetApp’s AI Opportunity Can Support Higher Growth, Says BofA — Raises Target After INSIGHT Event - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNXpaRkFjTlF0QnowdzFYSmlfZzJuTTJmdF9vdVJiV0lOaDh3YXlyZ3lZMUpRb0pzemtoTnFZNUhnRm10Wm4xNGxYVlVxc3ZYREo2UW9TUlk0Xy1DNjNZU3BRZ005ZmNFQ0FDcVotQ2hGREpWdmg0WHViYmo5amZRTEhzZkI3b0dKNkdTZUgxOFNKbU9pb1g0a1FRUmduVk16LVF6LWN5dWxwcjFLU3ZTQWw5dTlZQTdaaDhNcTJlTTJTRHZ4cklodFZmNGJYZEhPVUs3TGs1NDJ0emRuZTRQRkw5OTJQWXAwNGc?oc=5",
+   "source": "TradingView",
+   "date": "2026-09-30",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Technology - Sovereign AI is more than a pin on a map - Business Reporter",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeHRZdDVlSzZMZ1U5MUtEMGRqZHBlTmFsZm4xVDZCZzI4Wk5tamYxX3BsckhJa3VGb2lIUnBFeEdoQmx0LXdPdDRrV2c0WlBtY2tfMmQwNUV1LXNKVkhaX3o2UWJjajM3U2Q1WmVQTk9QYmtYY053dEtnTVdEcV9JbkN0aW5UdkhrVEo4WGF2SmM?oc=5",
+   "source": "Business Reporter",
+   "date": "2026-09-28",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
