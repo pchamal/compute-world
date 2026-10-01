@@ -1,21 +1,27 @@
 {
-  "updated": "2026-09-30",
-  "title": "Compute brief — 30 September 2026",
-  "description": "Silicon Tape confirm day (48/0/0; CoreWeave /pricing HTTP 404 skipped): Lambda H100 $3.99 / B200 $6.69 / GH200 $2.29; DO B300 spot $8.00 / MI350X $2.46 / MI355X $2.97. AWS CB Oct 7 card still bannered, live table confirms. Brookwood eve-of-start (~1 Oct) + community meeting; 0 Wire ids.",
-  "og_kicker": "Tape confirms; CoreWeave page 404; Brookwood eve",
-  "lede": "Wednesday's public rental tape stays sticky into October eve, with one venue hole. Live re-read of Lambda / Crusoe / DigitalOcean / GCP TPU / AWS Capacity Blocks: 48 confirms, 0 ticks, 0 NEW. CoreWeave's public /pricing page returned HTTP 404 (curl, Chrome headless, wf subdomain), so that venue was skipped rather than recycled. Lambda on-demand anchors hold at H100 $3.99 / B200 $6.69 / GH200 $2.29; DigitalOcean B300 spot $8.00 / MI350X $2.46 / MI355X $2.97 all confirm versus Tuesday. AWS Capacity Blocks still banners the rate card effective 7 Oct 2026 while the live table prints current rates (P5 Virginia $5.191 CONFIRM). Applied Digital's Brookwood / Delta Forge 2 campus is on the eve of its stated ~1 Oct construction window, with a company community meeting scheduled 1 Oct evening; no primary groundbreak filing found yet and the hyperscaler tenant remains unnamed. PUCT 58481 still Interchange 218/219 (effective 10.08.2026); TCEQ Abbott update still due 19 Oct; ERCOT RFI still due 12 Oct CPT; Fermi×TensorWave Matador still due 31 Oct; Chicago O2026-0028856 still introduction-only.",
+  "updated": "2026-10-01",
+  "title": "Compute brief - 1 October 2026",
+  "description": "Silicon Tape confirm day (69/0/0; CoreWeave /pricing recovered HTTP 200): Lambda H100 $3.99 / B200 $6.69 / GH200 $2.29; DO B300 spot $8.00 / MI350X $2.46 / MI355X $2.97. AWS CB Oct 7 card still bannered. Brookwood stated ~1 Oct window + community meeting tonight; no primary groundbreak. 0 Wire ids.",
+  "og_kicker": "Tape confirms; CoreWeave back; Brookwood day-of",
+  "lede": "Thursday's public rental tape is a full six-venue confirm session, with CoreWeave's /pricing page back after yesterday's 404. Live re-read of Lambda / CoreWeave NA+EU / Crusoe / DigitalOcean / GCP TPU / AWS Capacity Blocks: 69 confirms, 0 ticks, 0 NEW. Lambda on-demand anchors hold at H100 $3.99 / B200 $6.69 / GH200 $2.29; DigitalOcean B300 spot $8.00 / MI350X $2.46 / MI355X $2.97 all confirm versus Wednesday. CoreWeave NA OD Inference prints (H100 $6.16 / B200 $8.60) and spots match the last pre-404 series, so the restore is a confirm, not a tick. AWS Capacity Blocks still banners the rate card effective 7 Oct 2026 while the live table prints current rates (P5 Virginia $5.191 CONFIRM). Applied Digital's Brookwood / Delta Forge 2 campus is on its stated ~1 Oct construction window day, with a company community meeting tonight (6-8pm, G.G. Hardin Center); no primary groundbreak filing found, Brookwood City Council vote still pending per late-Sep local TV, and the hyperscaler tenant remains unnamed. PUCT 58481 still Interchange 218/219 (effective 10.08.2026); TCEQ Abbott update still due 19 Oct; ERCOT RFI still due 12 Oct CPT; Fermi x TensorWave Matador still due 31 Oct; Chicago O2026-0028856 still introduction-only.",
   "countries": [
     {
-      "id": "usa-aws-cb-oct7-card",
+      "id": "usa-coreweave-pricing-restored",
       "name": "United States",
       "slug": "united-states",
-      "note": "AWS Capacity Blocks still banners Oct 7 2026 rate card; live table still at current prints (P5 Virginia $5.191) — Signal, no tape tick."
+      "note": "CoreWeave public /pricing recovered HTTP 200 on 1 Oct PT after 30 Sep 404; all live prints CONFIRM vs last pre-404 series (no ticks)."
     },
     {
       "id": "usa-applied-digital-brookwood",
       "name": "United States / Alabama",
       "slug": "united-states",
-      "note": "Applied Digital Delta Forge 2 eve of ~1 Oct start; community meeting 1 Oct; tenant unnamed; no primary groundbreak found 29–30 Sep."
+      "note": "Applied Digital Delta Forge 2 on stated ~1 Oct start day; community meeting tonight; no primary groundbreak; City Council vote still pending; tenant unnamed."
+    },
+    {
+      "id": "usa-aws-cb-oct7-card",
+      "name": "United States",
+      "slug": "united-states",
+      "note": "AWS Capacity Blocks still banners Oct 7 2026 rate card; live table still at current prints (P5 Virginia $5.191) - Signal, no tape tick."
     },
     {
       "id": "usa-tceq-scope",
@@ -27,19 +33,13 @@
       "id": "usa-fermi-matador",
       "name": "United States / Texas",
       "slug": "united-states",
-      "note": "Fermi×TensorWave Matador 222 MW close still OPEN to 31 Oct; IG guaranty + financing unresolved."
+      "note": "Fermi x TensorWave Matador 222 MW close still OPEN to 31 Oct; IG guaranty + financing unresolved."
     },
     {
       "id": "usa-chicago-moratorium-intro",
       "name": "United States / Illinois",
       "slug": "united-states",
       "note": "Chicago 12-month DC moratorium still introduction-only (O2026-0028856); Rules Committee; not enacted."
-    },
-    {
-      "id": "usa-coreweave-pricing-404",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "CoreWeave public /pricing returned HTTP 404 on 30 Sep PT; venue skipped on today's tape (not recycled)."
     }
   ],
   "silicon": [
@@ -49,10 +49,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-01",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 29 Sep print"
+      "note": "Confirm vs 30 Sep print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +60,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-01",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 29 Sep print"
+      "note": "Confirm vs 30 Sep print"
     },
     {
       "id": "do-b300-spot",
@@ -71,10 +71,10 @@
       "display_usd": 8.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-01",
       "prev_usd": 8.0,
       "delta": 0.0,
-      "note": "Confirm vs 29 Sep print ($8.00)"
+      "note": "Confirm vs 30 Sep print ($8.00)"
     },
     {
       "id": "do-mi350x-spot",
@@ -82,21 +82,32 @@
       "display_usd": 2.46,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-09-30",
+      "as_of": "2026-10-01",
       "prev_usd": 2.46,
       "delta": 0.0,
-      "note": "Confirm vs 29 Sep print ($2.46)"
+      "note": "Confirm vs 30 Sep print ($2.46)"
+    },
+    {
+      "id": "coreweave-h100-od",
+      "name": "H100 HGX",
+      "display_usd": 6.16,
+      "venue": "CoreWeave",
+      "term": "on-demand",
+      "as_of": "2026-10-01",
+      "prev_usd": 6.16,
+      "delta": 0.0,
+      "note": "Confirm vs last pre-404 print (page restored)"
     }
   ],
   "watch": [
     {
       "id": "applied-digital-brookwood-votes",
       "name": "Applied Digital Brookwood start",
-      "note": "Eve of ~1 Oct stated start; community meeting 1 Oct; tenant naming + groundbreak still open."
+      "note": "Stated ~1 Oct window day; community meeting tonight; City Council vote + tenant naming + groundbreak primary still open."
     },
     {
       "id": "fermi-tensorwave-close",
-      "name": "Fermi×TensorWave Matador close",
+      "name": "Fermi x TensorWave Matador close",
       "note": "Deadline 31 Oct; IG guaranty + project financing."
     },
     {
@@ -111,7 +122,7 @@
     },
     {
       "id": "texas-register-25194",
-      "name": "Texas Register §25.194",
+      "name": "Texas Register 25.194",
       "note": "PUCT 58481 still Interchange 218/219; effective 10.08.2026."
     },
     {
@@ -122,7 +133,7 @@
     {
       "id": "nuai-lc",
       "name": "NUAI $116M LC post",
-      "note": "Still not confirmed posted (~early Oct from 18 Sep PPA clock)."
+      "note": "Still not confirmed posted (~15 business days from 18 Sep PPA ~ early Oct)."
     },
     {
       "id": "host-site-ii",
@@ -131,8 +142,8 @@
     },
     {
       "id": "georgia-power-google-nu1",
-      "name": "Georgia Power × Google NU1",
-      "note": "Still PSC-pending (dockets 44280/56002); ZEC ≠ campus MW lease."
+      "name": "Georgia Power x Google NU1",
+      "note": "Still PSC-pending (dockets 44280/56002); ZEC != campus MW lease."
     },
     {
       "id": "aws-cb-oct7",
@@ -142,10 +153,15 @@
     {
       "id": "coreweave-pricing-page",
       "name": "CoreWeave public pricing page",
-      "note": "HTTP 404 on 30 Sep PT; re-fetch when /pricing returns; do not invent prints."
+      "note": "RECOVERED HTTP 200 on 1 Oct PT; all live prints CONFIRM vs last pre-404 series."
     }
   ],
   "sources": [
+    {
+      "name": "CoreWeave Cloud pricing",
+      "url": "https://www.coreweave.com/pricing",
+      "note": "Recovered HTTP 200 on 1 Oct PT; NA+EU confirms vs pre-404 series."
+    },
     {
       "name": "AWS Capacity Blocks pricing",
       "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
@@ -162,14 +178,14 @@
       "note": "B300 spot $8.00 / MI350X $2.46 / MI355X $2.97 confirm."
     },
     {
-      "name": "CoreWeave pricing (404 today)",
-      "url": "https://www.coreweave.com/pricing",
-      "note": "Live HTTP 404 on 30 Sep PT; venue skipped on tape."
-    },
-    {
       "name": "Applied Digital Brookwood community meeting (Patch)",
       "url": "https://patch.com/alabama/tuscaloosa/company-invites-brookwood-residents-meeting-3-2b-ai-data-center",
-      "note": "Community meeting 1 Oct 6–8pm; construction still expected October."
+      "note": "Community meeting 1 Oct 6-8pm; construction still expected October."
+    },
+    {
+      "name": "WVTM Brookwood construction / council vote",
+      "url": "https://www.wvtm13.com/article/brookwood-data-center-alabama-construction/73895304",
+      "note": "Land cleared; City Council vote still pending (late Sep report)."
     },
     {
       "name": "PUCT 58481 Interchange",
