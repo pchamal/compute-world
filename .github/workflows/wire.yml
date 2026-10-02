@@ -32,6 +32,8 @@ jobs:
           cp deploy/index.html deploy/data.json deploy/sitemap.xml deploy/llms.txt deploy/robots.txt deploy/embed.html deploy/agents.html ..
           rm -rf ../country ../silicon
           cp -R deploy/country deploy/silicon deploy/fonts deploy/flags deploy/map.svg ..
+      - name: Refresh sitemap lastmod from artifact dates
+        run: python3 src/build_sitemap.py
       - name: Commit changes
         run: |
           git config user.name "wire-bot"

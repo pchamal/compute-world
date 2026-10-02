@@ -106,6 +106,56 @@ class Robots(unittest.TestCase):
             self.assertIn(f"User-agent: {bot}", txt)
 
 
+class SitemapLastmod(unittest.TestCase):
+    def test_desk_lastmod_follows_artifacts(self):
+        import json
+        from build_sitemap import content_dates, html_updated_day, stamp_lastmod
+        from seo import DEFAULT_SITEMAP, SITE
+
+        days = content_dates(ROOT)
+
+        def load(name):
+            with open(os.path.join(ROOT, name), encoding="utf-8") as fh:
+                return json.load(fh)
+
+        silicon = load("silicon.json")
+        brief = load("brief.json")
+        wire = load("wire.json")
+        ranks = load("rank-history.json")
+        hist = load("silicon-history.json")
+        self.assertEqual(days["/silicon.html"], silicon["updated"][:10])
+        self.assertEqual(days["/silicon.json"], silicon["updated"][:10])
+        self.assertEqual(days["/silicon.xml"], silicon["snapshot"][:10])
+        self.assertEqual(days["/silicon-history.json"], hist["as_of"][:10])
+        self.assertEqual(days["/rank-history.json"], ranks["as_of"][:10])
+        self.assertEqual(days["/brief"], brief["updated"][:10])
+        self.assertEqual(days["/brief.json"], brief["updated"][:10])
+        self.assertEqual(days["/brief.xml"], brief["updated"][:10])
+        self.assertEqual(days["/wire.html"], wire["updated"][:10])
+        self.assertEqual(days["/wire.json"], wire["updated"][:10])
+        with open(os.path.join(ROOT, "llms.txt"), encoding="utf-8") as fh:
+            llms = fh.read()
+        self.assertIn(f"Snapshot {days['/llms.txt']}", llms)
+        with open(os.path.join(ROOT, "contact.html"), encoding="utf-8") as fh:
+            contact = fh.read()
+        self.assertEqual(days["/contact.html"], html_updated_day(contact))
+        self.assertRegex(days["/contact.html"], r"^\d{4}-\d{2}-\d{2}$")
+        self.assertNotEqual(days["/silicon.html"], "2026-08-18")
+
+        stamped = {u["loc"]: u.get("lastmod") for u in stamp_lastmod(DEFAULT_SITEMAP, ROOT)}
+        self.assertEqual(stamped[f"{SITE}/silicon.html"], days["/silicon.html"])
+        self.assertEqual(stamped[f"{SITE}/brief"], days["/brief"])
+        self.assertEqual(stamped[f"{SITE}/llms.txt"], days["/llms.txt"])
+        self.assertEqual(stamped[f"{SITE}/contact.html"], days["/contact.html"])
+        data = next(u for u in stamp_lastmod(DEFAULT_SITEMAP, ROOT) if u["loc"].endswith("/data.json"))
+        self.assertNotIn("lastmod", data)
+        kept = stamp_lastmod(
+            [{"loc": f"{SITE}/country/nepal/", "lastmod": "2026-10-02", "changefreq": "weekly"}],
+            ROOT,
+        )
+        self.assertEqual(kept[0]["lastmod"], "2026-10-02")
+
+
 class Projects(unittest.TestCase):
     def test_every_project_has_a_href(self):
         slugs = {"IND": "india", "EU": None, "MYS": "malaysia", "ARE": "united-arab-emirates"}
