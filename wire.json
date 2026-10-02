@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "id": "bitdeer-a201-malaysia-offtake-70pct-2026-09-29",
+      "date": "2026-09-29",
+      "title": "Bitdeer AI contracts >70% offtake on 21.7 MW Johor A201 ahead of Q1 2027 energization",
+      "summary": "On 29 September 2026 Bitdeer AI (Bitdeer Technologies Group, Nasdaq: BTDR) announced off-take commitments covering more than 70% of approximately 21.7 MW at its A201 liquid-cooled AI Cloud facility in Johor Bahru, Malaysia, ahead of planned energization in Q1 2027. Expected five-year site revenue exceeds $1.7 billion; company AI Cloud revenue backlog is stated at about $2.9 billion. A201 is purpose-built for NVIDIA GB300 NVL72 with a portion of racks designed for Vera Rubin; Bitdeer says it procured more than 100 GB300 NVL72 racks from an unaffiliated supplier. Together with A202, the Johor campus path is 86.8 MW toward a company target of up to 350 MW AI Cloud capacity by Q1 2028. Customer names are not disclosed. Country conversion: Malaysia gains a named MW AI Cloud campus with majority contracted offtake before energization (distinct from the prior Firmus/OpenAI Malaysia factory Wire).",
+      "url": "https://www.globenewswire.com/news-release/2026/09/29/3371380/0/en/bitdeer-ai-further-expands-ai-cloud-services-with-off-take-commitments-of-more-than-70-of-its-21-7mw-a201-malaysia-data-center.html",
+      "source": "Bitdeer Technologies Group via GlobeNewswire",
+      "tier": 1,
+      "corroboration": "Single-source",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Build",
+        "Capital",
+        "Cloud"
+      ],
+      "score": 82
+    },
+    {
       "id": "rwe-oracle-433mw-vppa-panther-creek-2026-09-17",
       "date": "2026-09-17",
       "title": "RWE signs 433 MW West Texas VPPA with Oracle for AI data-center power",
@@ -1463,6 +1483,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-09-25",
-  "note": "2026-09-25: added Applied Digital Delta Forge 2 Brookwood AL geography unlock (210 MW leased campus; TCEDA incentives; construction ~1 Oct). Tape tick day: DO MI350X spot $3.00→$2.46 / MI355X spot $4.50→$2.97; B300 spot $8.00 hold."
+  "updated": "2026-10-02",
+  "note": "Wire refresh 2026-10-02: added bitdeer-a201-malaysia-offtake-70pct-2026-09-29. Brookwood day-after town hall remains Signal only."
 }
