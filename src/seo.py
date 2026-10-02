@@ -97,6 +97,8 @@ def sitemap_xml(urls):
     return "\n".join(parts)
 
 
+# lastmod below is a fallback for a missing artifact. src/build_sitemap.py
+# overwrites it from JSON updated/snapshot/as_of and HTML "Updated" lines.
 DEFAULT_SITEMAP = [
     {"loc": f"{SITE}/", "lastmod": "2026-08-18", "changefreq": "weekly"},
     {"loc": f"{SITE}/silicon.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
