@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Bitdeer AI contracts &gt;70% offtake on 21.7 MW Johor A201 ahead of Q1 2027 energization</title>
+    <link>https://www.globenewswire.com/news-release/2026/09/29/3371380/0/en/bitdeer-ai-further-expands-ai-cloud-services-with-off-take-commitments-of-more-than-70-of-its-21-7mw-a201-malaysia-data-center.html</link>
+    <guid isPermaLink="false">compute.world/wire#bitdeer-a201-malaysia-offtake-70pct-2026-09-29</guid>
+    <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 29 September 2026 Bitdeer AI (Bitdeer Technologies Group, Nasdaq: BTDR) announced off-take commitments covering more than 70% of approximately 21.7 MW at its A201 liquid-cooled AI Cloud facility in Johor Bahru, Malaysia, ahead of planned energization in Q1 2027. Expected five-year site revenue exceeds $1.7 billion; company AI Cloud revenue backlog is stated at about $2.9 billion. A201 is purpose-built for NVIDIA GB300 NVL72 with a portion of racks designed for Vera Rubin; Bitdeer says it procured more than 100 GB300 NVL72 racks from an unaffiliated supplier. Together with A202, the Johor campus path is 86.8 MW toward a company target of up to 350 MW AI Cloud capacity by Q1 2028. Customer names are not disclosed. Country conversion: Malaysia gains a named MW AI Cloud campus with majority contracted offtake before energization (distinct from the prior Firmus/OpenAI Malaysia factory Wire). [Signal 82, Single-source, via Bitdeer Technologies Group via GlobeNewswire] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Applied Digital names Brookwood, Alabama as Delta Forge 2 site for 210 MW leased AI campus</title>
     <link>https://www.wbrc.com/2026/09/24/applied-digital-confirms-32-billion-data-center-campus-brookwood/</link>
     <guid isPermaLink="false">compute.world/wire#applied-digital-delta-forge-2-brookwood-al-2026-09-24</guid>
@@ -206,12 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#anthropic-lambda-35b-hut8-beacon-point-2026-08-31</guid>
     <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
     <description>The Wall Street Journal reported on 31 August 2026, matched by Bloomberg and Reuters citing people familiar, that Anthropic signed a roughly $35B, six-year cloud contract with Nvidia-backed Lambda for about 350 MW at Hut 8&#x27;s Beacon Point campus in Nueces County, Texas — close to one of the site&#x27;s ~352 MW phases. Reporting describes a four-party chain: Hut 8 develops and leases the space, Nvidia holds the master lease and supplies the GPUs, Lambda installs them and sells capacity to Anthropic. Hut 8 disclosed in July two 15-year leases totalling about 704 MW with $19.6B of base-term value to an unnamed investment-grade tenant later reported to be Nvidia; initial energization of the ~1 GW campus is expected in Q1 2027. None of Anthropic, Lambda, Nvidia or Hut 8 has confirmed the contract, and Lambda&#x27;s payment to Nvidia is undisclosed, so treat the $35B as reported rather than filed. [Signal 70, Corroborated, via WSJ (first) / Bloomberg / Reuters via CNA / Hut 8 July disclosure] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>US Commerce drafts remote-access rule to curb China rental of advanced GPUs via third-country DCs</title>
-    <link>https://www.forbes.com/sites/viviantoh/2026/08/31/the-ai-chip-wars-new-front-control-the-cloud-not-the-silicon/</link>
-    <guid isPermaLink="false">compute.world/wire#us-commerce-remote-access-ai-compute-draft-2026-08-31</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>Late August 2026 reporting (Forbes 31 Aug; TechTimes 29 Aug citing The Information) says Trump Commerce/BIS is preparing an export-control draft that would treat remote rental of advanced AI GPUs as controlled access, aimed at Chinese firms using third-country data centers such as Thailand and Singapore, with industry draft circulation possible as early as September. The House already passed the Remote Access Security Act (H.R. 2683) in January; the Senate has not. Export-control bar commentary notes BIS’s statutory remote-access authority is weak until RASA clears. This is a Policy/Stall conversion signal on usable FLOPs geography, not a published final rule. [Signal 72, Corroborated, via Forbes / TechTimes / Congress.gov H.R.2683] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
