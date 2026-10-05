@@ -5,6 +5,20 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>AM Intelligence places firm orders for 20,000 more NVIDIA Rubin GPUs for India and Malaysia (~70 MW, Q2 2027)</title>
+    <link>https://tele.net.in/press-release/am-intelligence-expands-nvidia-vera-rubin-ai-factory-buildout-across-india-and-malaysia-12625706</link>
+    <guid isPermaLink="false">compute.world/wire#ami-rubin-20000-gpus-india-malaysia-70mw-2026-10-05</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>On 5 October 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko&#x27;s promoters, announced two further firm and binding orders for 20,000 NVIDIA Rubin GPUs, to be deployed as Vera Rubin NVL72 rack-scale systems across Malaysia and India, totalling about 70 MW with delivery scheduled for Q2 2027. With the 25 August order for 9,000 Rubin GPUs at its first Hyderabad AI factory, AMI&#x27;s committed total is about 29,000 Rubin GPUs and close to 100 MW. AMI says it plans to bring a further 300 MW to market over the next 15 months with capex of more than $20 billion, on top of $6 billion already committed for the initial ~100 MW; NVIDIA&#x27;s Asia South managing director is quoted in the statement. The split of the 70 MW between India and Malaysia and the site locations are not disclosed. Company statement carried by tele.net, BusinessLine and Times of India; no separate NVIDIA release found. [Signal 80, Single-source, via AM Intelligence statement via tele.net; The Hindu BusinessLine] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Nebius signs binding 12-year deal for 50 MW critical IT at AIB Data Centers&#x27; southeastern US site</title>
+    <link>https://www.globenewswire.com/news-release/2026/09/30/3371855/0/en/aib-data-centers-signs-contract-with-nebius-for-ai-data-center-capacity.html</link>
+    <guid isPermaLink="false">compute.world/wire#aib-nebius-50mw-southeast-us-12yr-2026-09-30</guid>
+    <pubDate>Wed, 30 Sep 2026 12:00:00 GMT</pubDate>
+    <description>On 30 September 2026 AIB Data Centers (NYSE American: AIB) announced that a wholly owned subsidiary entered a binding Master Colocation Services Agreement with Nebius (Nasdaq: NBIS) for 50 MW of critical IT capacity at AIB&#x27;s facility in the southeastern United States, with an initial 12-year term and optional renewals; the release was furnished on Form 8-K. AIB expects Nebius prepayments under the initial term, plus project-level debt and preferred equity, to fund a substantial portion of initial development cost. Capacity is backed by AIB&#x27;s previously announced 15-year Electric Service Agreement for 65 MW of utility load requiring no significant additional electrical upgrades, and will be delivered in two data halls. The state and contract value are not disclosed in the release; trade press (Baxtel, 2 Oct) reports the first hall within about 10 months and the second within about 14 months, not stated in the primary. Country conversion: a named neocloud tenant converts powered US capacity into long-term contracted MW with customer prepayment financing. [Signal 84, Confirmed, via AIB Data Centers via GlobeNewswire; Form 8-K] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Bitdeer AI contracts &gt;70% offtake on 21.7 MW Johor A201 ahead of Q1 2027 energization</title>
     <link>https://www.globenewswire.com/news-release/2026/09/29/3371380/0/en/bitdeer-ai-further-expands-ai-cloud-services-with-off-take-commitments-of-more-than-70-of-its-21-7mw-a201-malaysia-data-center.html</link>
     <guid isPermaLink="false">compute.world/wire#bitdeer-a201-malaysia-offtake-70pct-2026-09-29</guid>
@@ -199,19 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#eurohpc-lumi-ai-kajaani-387m-2026-08-31</guid>
     <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
     <description>On 31 August 2026 the EuroHPC Joint Undertaking signed a procurement contract with Bull to deploy the LUMI-AI supercomputer at CSC – IT Center for Science&#x27;s data centre in Kajaani, Finland. Total budget for acquisition, delivery, installation and maintenance is €387,800,000, funded 50% by EuroHPC from the Digital Europe Programme and 50% by the LUMI AI Factory consortium — Finland, Czechia, Denmark, Estonia, Norway and Poland. The system is built on next-generation AMD Instinct MI430X GPUs with 6th Gen 256-core AMD EPYC processors and is expected to deliver roughly ten times the AI capacity of the current LUMI, installed and available to users in 2027. Bull was selected from a tender launched in May 2025; Finland was picked as host in December 2024. This is EuroHPC&#x27;s sixth AI Factory procurement contract, and a rare flagship European win for AMD accelerators. [Signal 84, Confirmed, via EuroHPC JU / Bull] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>HUMAIN&#x27;s MI355X compute goes live in Saudi Arabia; JV plans up to 250 MW of MI400 capacity from 2027</title>
-    <link>https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live</link>
-    <guid isPermaLink="false">compute.world/wire#amd-cisco-humain-mi355x-live-250mw-2026-08-31</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>AMD, Cisco and HUMAIN — a PIF company — announced on 31 August 2026 that AMD Instinct MI355X GPU infrastructure built on Cisco Silicon One networking with 800G optics is live in Saudi Arabia and serving customers in the Kingdom and beyond, offered as GPU-as-a-service from training to inference. It is the first production milestone of the joint venture the three announced on 19 November 2025. The next phase is up to 250 MW powered by AMD Instinct MI400-series GPUs, EPYC CPUs and ROCm with Cisco networking, deployment beginning in 2027 and capacity expected to start coming online in the second half of that year; the JV still says it is on track for up to 1 GW by 2030. No megawatt figure, customer count, utilization or pricing was disclosed for the live system, and the original phase-1 plan named 100 MW of MI450 — so the announced path has shifted. [Signal 72, Single-source, via AMD IR / Cisco Newsroom] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Anthropic reported to take ~350 MW at Hut 8&#x27;s Beacon Point via a $35B Lambda contract, with Nvidia on the lease</title>
-    <link>https://www.channelnewsasia.com/business/anthropic-signs-us35-billion-cloud-deal-nvidia-backed-lambda-source-says-6353306</link>
-    <guid isPermaLink="false">compute.world/wire#anthropic-lambda-35b-hut8-beacon-point-2026-08-31</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>The Wall Street Journal reported on 31 August 2026, matched by Bloomberg and Reuters citing people familiar, that Anthropic signed a roughly $35B, six-year cloud contract with Nvidia-backed Lambda for about 350 MW at Hut 8&#x27;s Beacon Point campus in Nueces County, Texas — close to one of the site&#x27;s ~352 MW phases. Reporting describes a four-party chain: Hut 8 develops and leases the space, Nvidia holds the master lease and supplies the GPUs, Lambda installs them and sells capacity to Anthropic. Hut 8 disclosed in July two 15-year leases totalling about 704 MW with $19.6B of base-term value to an unnamed investment-grade tenant later reported to be Nvidia; initial energization of the ~1 GW campus is expected in Q1 2027. None of Anthropic, Lambda, Nvidia or Hut 8 has confirmed the contract, and Lambda&#x27;s payment to Nvidia is undisclosed, so treat the $35B as reported rather than filed. [Signal 70, Corroborated, via WSJ (first) / Bloomberg / Reuters via CNA / Hut 8 July disclosure] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
