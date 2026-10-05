@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "id": "ami-rubin-20000-gpus-india-malaysia-70mw-2026-10-05",
+      "date": "2026-10-05",
+      "title": "AM Intelligence places firm orders for 20,000 more NVIDIA Rubin GPUs for India and Malaysia (~70 MW, Q2 2027)",
+      "summary": "On 5 October 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko's promoters, announced two further firm and binding orders for 20,000 NVIDIA Rubin GPUs, to be deployed as Vera Rubin NVL72 rack-scale systems across Malaysia and India, totalling about 70 MW with delivery scheduled for Q2 2027. With the 25 August order for 9,000 Rubin GPUs at its first Hyderabad AI factory, AMI's committed total is about 29,000 Rubin GPUs and close to 100 MW. AMI says it plans to bring a further 300 MW to market over the next 15 months with capex of more than $20 billion, on top of $6 billion already committed for the initial ~100 MW; NVIDIA's Asia South managing director is quoted in the statement. The split of the 70 MW between India and Malaysia and the site locations are not disclosed. Company statement carried by tele.net, BusinessLine and Times of India; no separate NVIDIA release found.",
+      "url": "https://tele.net.in/press-release/am-intelligence-expands-nvidia-vera-rubin-ai-factory-buildout-across-india-and-malaysia-12625706",
+      "source": "AM Intelligence statement via tele.net; The Hindu BusinessLine",
+      "tier": 1,
+      "corroboration": "Single-source",
+      "countries": [
+        "IND",
+        "MYS"
+      ],
+      "flags": "🇮🇳🇲🇾",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 80
+    },
+    {
+      "id": "aib-nebius-50mw-southeast-us-12yr-2026-09-30",
+      "date": "2026-09-30",
+      "title": "Nebius signs binding 12-year deal for 50 MW critical IT at AIB Data Centers' southeastern US site",
+      "summary": "On 30 September 2026 AIB Data Centers (NYSE American: AIB) announced that a wholly owned subsidiary entered a binding Master Colocation Services Agreement with Nebius (Nasdaq: NBIS) for 50 MW of critical IT capacity at AIB's facility in the southeastern United States, with an initial 12-year term and optional renewals; the release was furnished on Form 8-K. AIB expects Nebius prepayments under the initial term, plus project-level debt and preferred equity, to fund a substantial portion of initial development cost. Capacity is backed by AIB's previously announced 15-year Electric Service Agreement for 65 MW of utility load requiring no significant additional electrical upgrades, and will be delivered in two data halls. The state and contract value are not disclosed in the release; trade press (Baxtel, 2 Oct) reports the first hall within about 10 months and the second within about 14 months, not stated in the primary. Country conversion: a named neocloud tenant converts powered US capacity into long-term contracted MW with customer prepayment financing.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/30/3371855/0/en/aib-data-centers-signs-contract-with-nebius-for-ai-data-center-capacity.html",
+      "source": "AIB Data Centers via GlobeNewswire; Form 8-K",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Capital",
+        "Cloud"
+      ],
+      "score": 84
+    },
+    {
       "id": "bitdeer-a201-malaysia-offtake-70pct-2026-09-29",
       "date": "2026-09-29",
       "title": "Bitdeer AI contracts >70% offtake on 21.7 MW Johor A201 ahead of Q1 2027 energization",
@@ -1483,6 +1523,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-02",
-  "note": "Wire refresh 2026-10-02: added bitdeer-a201-malaysia-offtake-70pct-2026-09-29. Brookwood day-after town hall remains Signal only."
+  "updated": "2026-10-05",
+  "note": "Wire refresh 2026-10-05: added aib-nebius-50mw-southeast-us-12yr-2026-09-30, ami-rubin-20000-gpus-india-malaysia-70mw-2026-10-05. Brookwood (sound baseline monitoring; council vote still pending), Oracle Port Washington PSC restart and Micron FQ4 are Signal only."
 }
