@@ -2,48 +2,55 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Friday&#x27;s public rental tape is another full six-venue confirm session. Live re-read of Lambda / CoreWeave NA+EU / Crusoe / DigitalOcean / GCP TPU / AWS Capacity Blocks: 69 confirms, 0 ticks, 0 NEW. Lambda on-demand anchors hold at H100 $3.99 / B200 $6.69 / GH200 $2.29; DigitalOcean B300 spot $8.00 / MI350X $2.46 / MI355X $2.97 all confirm versus Thursday. CoreWeave /pricing remains HTTP 200 with NA OD Inference prints (H100 $6.16 / B200 $8.60) confirming. AWS Capacity Blocks still banners the rate card effective 7 Oct 2026 while the live table prints current rates (P5 Virginia $5.191 CONFIRM). Applied Digital&#x27;s Brookwood / Delta Forge 2 campus is the day after its stated ~1 Oct window: Thursday night town hall; Mayor Joe Barger calls the project essentially a done deal, with City Council still needing to vote a TCEDA-backing resolution (expected in the coming days); no primary groundbreak filing found and the hyperscaler tenant remains unnamed. One Wire id: Bitdeer AI&#x27;s 29 Sep Malaysia A201 offtake (&gt;70% of 21.7 MW). PUCT 58481 still Interchange 218/219 (effective 10.08.2026); TCEQ Abbott update still due 19 Oct; ERCOT RFI still due 12 Oct CPT; Fermi x TensorWave Matador still due 31 Oct; Chicago O2026-0028856 still introduction-only.</description>
+  <description>Monday&#x27;s conversions come from the neocloud and sovereign-compute edge rather than the hyperscalers. AIB Data Centers says Nebius signed a binding 12-year agreement for 50 MW of critical IT capacity at its southeastern US site, with Nebius prepayments helping fund the build (30 Sep, filed on Form 8-K). AM Intelligence, the Greenko promoters&#x27; AI platform, placed firm orders for 20,000 more NVIDIA Rubin GPUs for India and Malaysia, about 70 MW for Q2 2027 delivery, taking its committed total to roughly 29,000 Rubin GPUs and close to 100 MW. The public rental tape is a full six-venue confirm session after the weekend: 69 confirms, 0 ticks, 0 NEW. Lambda holds H100 $3.99 / B200 $6.69 / GH200 $2.29; DigitalOcean spot holds B300 $8.00 / MI350X $2.46 / MI355X $2.97; CoreWeave H100 OD $6.16 confirms. AWS Capacity Blocks still banners its 7 Oct rate card while the live table prints current rates (P5 Virginia $5.191). In memory, Micron&#x27;s fiscal Q4 revenue of $54.23B and a $61.5B guide underline where AI value is pooling. Brookwood&#x27;s City Council vote on the TCEDA-backing resolution is still pending; Applied Digital has begun baseline sound monitoring at Brookwood Middle School, with no groundbreak primary and the tenant still unnamed. Oracle&#x27;s Port Washington campus faces a restarted Wisconsin PSC review of its ATC grid connection. PUCT 58481 still effective 10.08.2026; ERCOT RFI due 12 Oct; TCEQ update due 19 Oct; Fermi x TensorWave Matador due 31 Oct.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 2 October 2026</title>
+    <title>Compute brief - 5 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-02</guid>
-    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Friday&#x27;s public rental tape is another full six-venue confirm session. Live re-read of Lambda / CoreWeave NA+EU / Crusoe / DigitalOcean / GCP TPU / AWS Capacity Blocks: 69 confirms, 0 ticks, 0 NEW. Lambda on-demand anchors hold at H100 $3.99 / B200 $6.69 / GH200 $2.29; DigitalOcean B300 spot $8.00 / MI350X $2.46 / MI355X $2.97 all confirm versus Thursday. CoreWeave /pricing remains HTTP 200 with NA OD Inference prints (H100 $6.16 / B200 $8.60) confirming. AWS Capacity Blocks still banners the rate card effective 7 Oct 2026 while the live table prints current rates (P5 Virginia $5.191 CONFIRM). Applied Digital&#x27;s Brookwood / Delta Forge 2 campus is the day after its stated ~1 Oct window: Thursday night town hall; Mayor Joe Barger calls the project essentially a done deal, with City Council still needing to vote a TCEDA-backing resolution (expected in the coming days); no primary groundbreak filing found and the hyperscaler tenant remains unnamed. One Wire id: Bitdeer AI&#x27;s 29 Sep Malaysia A201 offtake (&gt;70% of 21.7 MW). PUCT 58481 still Interchange 218/219 (effective 10.08.2026); TCEQ Abbott update still due 19 Oct; ERCOT RFI still due 12 Oct CPT; Fermi x TensorWave Matador still due 31 Oct; Chicago O2026-0028856 still introduction-only. Countries: Malaysia: Bitdeer AI A201 Johor: &gt;70% offtake of 21.7 MW ahead of Q1 2027 energization; &gt;$1.7B expected five-year revenue (Wire 29 Sep). United States / Alabama: Applied Digital Delta Forge 2 day-after town hall; mayor essentially done deal; council vote pending; no primary groundbreak; tenant unnamed. United States: AWS Capacity Blocks still banners Oct 7 2026 rate card; live table still at current prints (P5 Virginia $5.191) - Signal, no tape tick. United States / Texas: TCEQ air/water authorization pause still in force; Abbott update due 19 Oct; ERCOT RFI due 12 Oct CPT; PUCT 58481 still 218/219. United States / Texas: Fermi x TensorWave Matador 222 MW close still OPEN to 31 Oct; IG guaranty + financing unresolved. United States / Illinois: Chicago 12-month DC moratorium still introduction-only (O2026-0028856); Rules Committee; not enacted.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-05</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Monday&#x27;s conversions come from the neocloud and sovereign-compute edge rather than the hyperscalers. AIB Data Centers says Nebius signed a binding 12-year agreement for 50 MW of critical IT capacity at its southeastern US site, with Nebius prepayments helping fund the build (30 Sep, filed on Form 8-K). AM Intelligence, the Greenko promoters&#x27; AI platform, placed firm orders for 20,000 more NVIDIA Rubin GPUs for India and Malaysia, about 70 MW for Q2 2027 delivery, taking its committed total to roughly 29,000 Rubin GPUs and close to 100 MW. The public rental tape is a full six-venue confirm session after the weekend: 69 confirms, 0 ticks, 0 NEW. Lambda holds H100 $3.99 / B200 $6.69 / GH200 $2.29; DigitalOcean spot holds B300 $8.00 / MI350X $2.46 / MI355X $2.97; CoreWeave H100 OD $6.16 confirms. AWS Capacity Blocks still banners its 7 Oct rate card while the live table prints current rates (P5 Virginia $5.191). In memory, Micron&#x27;s fiscal Q4 revenue of $54.23B and a $61.5B guide underline where AI value is pooling. Brookwood&#x27;s City Council vote on the TCEDA-backing resolution is still pending; Applied Digital has begun baseline sound monitoring at Brookwood Middle School, with no groundbreak primary and the tenant still unnamed. Oracle&#x27;s Port Washington campus faces a restarted Wisconsin PSC review of its ATC grid connection. PUCT 58481 still effective 10.08.2026; ERCOT RFI due 12 Oct; TCEQ update due 19 Oct; Fermi x TensorWave Matador due 31 Oct. Countries: United States: Nebius binding 12-year deal for 50 MW critical IT at AIB&#x27;s southeastern US facility; backed by a 15-year 65 MW electric service agreement (Wire, 30 Sep). India: AM Intelligence firm orders for 20,000 more Rubin GPUs across India and Malaysia (~70 MW, Q2 2027); ~29,000 Rubin and ~100 MW committed in total (Wire, 5 Oct). Malaysia: Malaysia shares AMI&#x27;s ~70 MW follow-on Rubin tranche with India; site split not disclosed (Wire, 5 Oct). United States / Alabama: Applied Digital Delta Forge 2: baseline sound monitoring at Brookwood Middle School; council TCEDA-backing vote still pending; no groundbreak; tenant unnamed. United States / Wisconsin: ATC grid application for Oracle/Vantage Port Washington refiled after PSC withdrew completeness; Aterio base case partial power Dec 2027 (Signal). United States / Texas: TCEQ data center permit pause still in force; ERCOT RFI due 12 Oct; Abbott update due 19 Oct; PUCT 58481 still 218/219.</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-02/lambda-h100-od</guid>
-    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 02 Oct 2026. Confirm vs 1 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-05/lambda-h100-od</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 05 Oct 2026. Confirm vs 2 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-02/lambda-b200-od</guid>
-    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 02 Oct 2026. Confirm vs 1 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-05/lambda-b200-od</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 05 Oct 2026. Confirm vs 2 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $8.00 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-02/do-b300-spot</guid>
-    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.00 spot at DigitalOcean as of 02 Oct 2026. Confirm vs 1 Oct print ($8.00)</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-05/do-b300-spot</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.00 spot at DigitalOcean as of 05 Oct 2026. Confirm vs 2 Oct print ($8.00)</description>
   </item>
   <item>
     <title>MI350X · $2.46 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-02/do-mi350x-spot</guid>
-    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $2.46 spot at DigitalOcean as of 02 Oct 2026. Confirm vs 1 Oct print ($2.46)</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-05/do-mi350x-spot</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $2.46 spot at DigitalOcean as of 05 Oct 2026. Confirm vs 2 Oct print ($2.46)</description>
+  </item>
+  <item>
+    <title>MI355X · $2.97 spot</title>
+    <link>https://compute.world/brief#do-mi355x-spot</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-05/do-mi355x-spot</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $2.97 spot at DigitalOcean as of 05 Oct 2026. Confirm vs 2 Oct print ($2.97)</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-02/coreweave-h100-od</guid>
-    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 02 Oct 2026. Confirm vs 1 Oct print (page HTTP 200)</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-05/coreweave-h100-od</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 05 Oct 2026. Confirm vs 2 Oct print</description>
   </item>
 </channel></rss>
