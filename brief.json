@@ -1,45 +1,45 @@
 {
-  "updated": "2026-10-05",
-  "title": "Compute brief - 5 October 2026",
-  "description": "Two Wire ids: Nebius signs a binding 12-year, 50 MW deal at AIB Data Centers (US), and AM Intelligence orders 20,000 more NVIDIA Rubin GPUs for India and Malaysia (~70 MW). Silicon Tape confirm day (69/0/0): Lambda H100 $3.99 / B200 $6.69 / GH200 $2.29; DO B300 spot $8.00 / MI350X $2.46 / MI355X $2.97; CoreWeave H100 OD $6.16. AWS CB Oct 7 card two days out. Brookwood council vote still pending.",
-  "og_kicker": "Nebius 50 MW lease; 20k Rubin for India and Malaysia",
-  "lede": "Monday's conversions come from the neocloud and sovereign-compute edge rather than the hyperscalers. AIB Data Centers says Nebius signed a binding 12-year agreement for 50 MW of critical IT capacity at its southeastern US site, with Nebius prepayments helping fund the build (30 Sep, filed on Form 8-K). AM Intelligence, the Greenko promoters' AI platform, placed firm orders for 20,000 more NVIDIA Rubin GPUs for India and Malaysia, about 70 MW for Q2 2027 delivery, taking its committed total to roughly 29,000 Rubin GPUs and close to 100 MW. The public rental tape is a full six-venue confirm session after the weekend: 69 confirms, 0 ticks, 0 NEW. Lambda holds H100 $3.99 / B200 $6.69 / GH200 $2.29; DigitalOcean spot holds B300 $8.00 / MI350X $2.46 / MI355X $2.97; CoreWeave H100 OD $6.16 confirms. AWS Capacity Blocks still banners its 7 Oct rate card while the live table prints current rates (P5 Virginia $5.191). In memory, Micron's fiscal Q4 revenue of $54.23B and a $61.5B guide underline where AI value is pooling. Brookwood's City Council vote on the TCEDA-backing resolution is still pending; Applied Digital has begun baseline sound monitoring at Brookwood Middle School, with no groundbreak primary and the tenant still unnamed. Oracle's Port Washington campus faces a restarted Wisconsin PSC review of its ATC grid connection. PUCT 58481 still effective 10.08.2026; ERCOT RFI due 12 Oct; TCEQ update due 19 Oct; Fermi x TensorWave Matador due 31 Oct.",
+  "updated": "2026-10-06",
+  "title": "Compute brief - 6 October 2026",
+  "description": "Three Wire ids: Google funds 890 MW of new nuclear uprates and signs 2,700 MW more supply with Constellation in PJM; Applied Digital energizes 75 MW more at Polaris Forge 1 (250 MW live); JERA, Dell and RHAELM sign an MoU for a 400 MW behind-the-meter AI campus at Chiba, Japan. Silicon Tape confirm day (69/0/0). AWS Capacity Blocks card takes effect 7 Oct.",
+  "og_kicker": "Google buys new nuclear in PJM; Japan's Chiba 400 MW",
+  "lede": "The theme on Tuesday is power turning into compute. Google and Constellation signed a 20-year PPA that pays for uprates at 11 nuclear units, adding 890 MW of new capacity to PJM, plus a 15-year supply deal for 2,700 MW more (about 3,590 MW in total). Applied Digital reached Ready for Service on 75 MW more at Polaris Forge 1 in North Dakota, so 250 MW of the 400 MW campus is now live. In Japan, JERA, Dell and RHAELM signed an MoU for a 400 MW behind-the-meter AI campus at the Chiba Thermal Power Station, with more than US$15 billion of planned capital and Apollo as intended financing partner. The public rental tape is a full confirm session: 69 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks. AWS's new Capacity Blocks card takes effect Wednesday 7 Oct (P5 $5.970, P6-B300 $16.146); today's live table still prints P5 Virginia $5.191 and P6-B300 Virginia $14.04. Applied Digital also announced access to up to 1 GW of potential power in Finland, with no counterparty or tenant named. Brookwood's council vote is still pending. PUCT 58481 takes effect 8 Oct; ERCOT RFI due 12 Oct; TCEQ update due 19 Oct; Fermi x TensorWave Matador due 31 Oct.",
   "countries": [
     {
-      "id": "usa-aib-nebius-50mw",
+      "id": "usa-google-constellation-pjm",
       "name": "United States",
       "slug": "united-states",
-      "note": "Nebius binding 12-year deal for 50 MW critical IT at AIB's southeastern US facility; backed by a 15-year 65 MW electric service agreement (Wire, 30 Sep)."
+      "note": "Google 20-year PPA funds 890 MW of nuclear uprates at 11 Constellation units (IL/PA/NJ), first by 2028, plus a 15-year 2,700 MW supply deal in PJM (Wire, 6 Oct)."
     },
     {
-      "id": "ind-ami-rubin-20000",
-      "name": "India",
-      "slug": "india",
-      "note": "AM Intelligence firm orders for 20,000 more Rubin GPUs across India and Malaysia (~70 MW, Q2 2027); ~29,000 Rubin and ~100 MW committed in total (Wire, 5 Oct)."
+      "id": "usa-applied-digital-polaris-forge-1",
+      "name": "United States / North Dakota",
+      "slug": "united-states",
+      "note": "Applied Digital Polaris Forge 1: 75 MW more Ready for Service; 250 MW of 400 MW contracted now operational (Wire, 2 Oct)."
     },
     {
-      "id": "mys-ami-rubin-20000",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Malaysia shares AMI's ~70 MW follow-on Rubin tranche with India; site split not disclosed (Wire, 5 Oct)."
+      "id": "jpn-jera-chiba-400mw",
+      "name": "Japan",
+      "slug": "japan",
+      "note": "JERA, Dell and RHAELM MoU: 400 MW behind-the-meter AI campus at Chiba Thermal Power Station, >US$15B planned, ops ~2028; MoU, no named offtaker (Wire, 1 Oct)."
+    },
+    {
+      "id": "fin-applied-digital-1gw",
+      "name": "Finland",
+      "slug": "finland",
+      "note": "Applied Digital agreement for access to up to 1 GW of potential power; initial power ~2028; marketing to hyperscalers; site and counterparty not disclosed (Signal)."
+    },
+    {
+      "id": "kor-frontier-ai-program",
+      "name": "South Korea",
+      "slug": "south-korea",
+      "note": "Science ministry plans a 4.7 trillion won frontier-AI program from 2027 with 10,000 Vera Rubin GPUs, one lead developer by tender after the 2027 budget passes (Signal)."
     },
     {
       "id": "usa-applied-digital-brookwood",
       "name": "United States / Alabama",
       "slug": "united-states",
-      "note": "Applied Digital Delta Forge 2: baseline sound monitoring at Brookwood Middle School; council TCEDA-backing vote still pending; no groundbreak; tenant unnamed."
-    },
-    {
-      "id": "usa-oracle-port-washington-psc",
-      "name": "United States / Wisconsin",
-      "slug": "united-states",
-      "note": "ATC grid application for Oracle/Vantage Port Washington refiled after PSC withdrew completeness; Aterio base case partial power Dec 2027 (Signal)."
-    },
-    {
-      "id": "usa-tceq-scope",
-      "name": "United States / Texas",
-      "slug": "united-states",
-      "note": "TCEQ data center permit pause still in force; ERCOT RFI due 12 Oct; Abbott update due 19 Oct; PUCT 58481 still 218/219."
+      "note": "Applied Digital Delta Forge 2: council TCEDA-backing vote still pending; baseline sound monitoring under way; no groundbreak; tenant unnamed."
     }
   ],
   "silicon": [
@@ -49,10 +49,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 2 Oct print"
+      "note": "Confirm vs 5 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +60,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 2 Oct print"
+      "note": "Confirm vs 5 Oct print"
     },
     {
       "id": "do-b300-spot",
@@ -71,10 +71,10 @@
       "display_usd": 8.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "prev_usd": 8.0,
       "delta": 0.0,
-      "note": "Confirm vs 2 Oct print ($8.00)"
+      "note": "Confirm vs 5 Oct print"
     },
     {
       "id": "do-mi350x-spot",
@@ -82,10 +82,10 @@
       "display_usd": 2.46,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "prev_usd": 2.46,
       "delta": 0.0,
-      "note": "Confirm vs 2 Oct print ($2.46)"
+      "note": "Confirm vs 5 Oct print"
     },
     {
       "id": "do-mi355x-spot",
@@ -93,10 +93,10 @@
       "display_usd": 2.97,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "prev_usd": 2.97,
       "delta": 0.0,
-      "note": "Confirm vs 2 Oct print ($2.97)"
+      "note": "Confirm vs 5 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -104,22 +104,59 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-05",
+      "as_of": "2026-10-06",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 2 Oct print"
+      "note": "Confirm vs 5 Oct print"
+    },
+    {
+      "id": "aws-cb-p5-va",
+      "name": "H100 (P5) Capacity Blocks",
+      "display_usd": 5.191,
+      "venue": "AWS",
+      "term": "Capacity Blocks",
+      "as_of": "2026-10-06",
+      "prev_usd": 5.191,
+      "delta": 0.0,
+      "note": "Confirm vs 5 Oct print; card effective 7 Oct lists P5 at $5.970"
+    },
+    {
+      "id": "aws-cb-p6b300-va",
+      "name": "B300 (P6-B300) Capacity Blocks",
+      "display_usd": 14.04,
+      "venue": "AWS",
+      "term": "Capacity Blocks",
+      "as_of": "2026-10-06",
+      "prev_usd": 14.04,
+      "delta": 0.0,
+      "note": "Confirm vs 5 Oct print; card effective 7 Oct lists P6-B300 at $16.146"
     }
   ],
   "watch": [
     {
-      "id": "applied-digital-brookwood-votes",
-      "name": "Applied Digital Brookwood start",
-      "note": "Council TCEDA-backing vote still pending; baseline sound monitoring started; groundbreak primary and tenant still open."
-    },
-    {
       "id": "aws-cb-oct7",
       "name": "AWS Capacity Blocks Oct 7 card",
-      "note": "Rates effective 7 Oct (P5 $5.970, P6-B300 $16.146); live table still at current prints. Tick check Wednesday."
+      "note": "Rates effective Wed 7 Oct (P5 $5.970, P6-B200 $14.208, P6-B300 $16.146); live table still at current prints today."
+    },
+    {
+      "id": "applied-digital-fq1-call",
+      "name": "Applied Digital FQ1 2027 call",
+      "note": "Wed 7 Oct, 5pm ET: Brookwood timing, Finland counterparty, Polaris Forge 1 ramp."
+    },
+    {
+      "id": "applied-digital-brookwood-votes",
+      "name": "Applied Digital Brookwood start",
+      "note": "Council TCEDA-backing vote still pending; groundbreak primary and tenant still open."
+    },
+    {
+      "id": "texas-register-25194",
+      "name": "PUCT 58481 large-load rule",
+      "note": "Effective 8 Oct: $100,000 study fee and $50,000/MW security for 75 MW+ loads."
+    },
+    {
+      "id": "nuai-lc",
+      "name": "NUAI $116M LC post",
+      "note": "Still not confirmed posted; 15-business-day clock from 18 Sep PPA runs to about 9 Oct."
     },
     {
       "id": "ercot-rfi",
@@ -127,56 +164,61 @@
       "note": "State & Community Impact responses due 5pm CPT 12 Oct."
     },
     {
-      "id": "texas-register-25194",
-      "name": "Texas Register 25.194",
-      "note": "PUCT 58481 still Interchange 218/219; effective 10.08.2026."
-    },
-    {
       "id": "tceq-compliance-update",
       "name": "TCEQ Abbott directive update",
-      "note": "Compliance update to Governor due 19 Oct; pause has no stated end date."
-    },
-    {
-      "id": "oracle-port-washington-psc",
-      "name": "Oracle Port Washington grid approval",
-      "note": "ATC refiled with Wisconsin PSC in September after the original case closed; review restarted."
+      "note": "Compliance update due 19 Oct; pause has no stated end date."
     },
     {
       "id": "fermi-tensorwave-close",
       "name": "Fermi x TensorWave Matador close",
-      "note": "Deadline 31 Oct; IG guaranty + project financing; shareholder vote 30 Oct."
+      "note": "Deadline 31 Oct; investment-grade guaranty still not named."
+    },
+    {
+      "id": "korea-frontier-tender",
+      "name": "Korea frontier-AI tender",
+      "note": "Application criteria due later in October; tender after the 2027 budget passes in December."
+    },
+    {
+      "id": "oracle-port-washington-psc",
+      "name": "Oracle Port Washington grid approval",
+      "note": "ATC refiled; Wisconsin PSC review restarted."
     },
     {
       "id": "chicago-moratorium",
       "name": "Chicago DC moratorium ordinance",
       "note": "Introduced 23 Sep; still Referred; not enacted."
-    },
-    {
-      "id": "nuai-lc",
-      "name": "NUAI $116M LC post",
-      "note": "Still not confirmed posted (~15 business days from 18 Sep PPA, about 9 Oct)."
-    },
-    {
-      "id": "host-site-ii",
-      "name": "Host Digital Site II",
-      "note": "Preferential Rights exercised; definitive acquisition docs still open."
-    },
-    {
-      "id": "georgia-power-google-nu1",
-      "name": "Georgia Power x Google NU1",
-      "note": "Still PSC-pending; ZEC != campus MW lease."
     }
   ],
   "sources": [
     {
-      "name": "AIB x Nebius 50 MW (GlobeNewswire)",
-      "url": "https://www.globenewswire.com/news-release/2026/09/30/3371855/0/en/aib-data-centers-signs-contract-with-nebius-for-ai-data-center-capacity.html",
-      "note": "Wire: binding 12-year, 50 MW critical IT; 8-K furnished."
+      "name": "Google x Constellation (Constellation release)",
+      "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+      "note": "Wire: 890 MW uprates, 20-year PPA; 2,700 MW 15-year supply."
     },
     {
-      "name": "AM Intelligence Rubin orders (tele.net)",
-      "url": "https://tele.net.in/press-release/am-intelligence-expands-nvidia-vera-rubin-ai-factory-buildout-across-india-and-malaysia-12625706",
-      "note": "Wire: 20,000 Rubin GPUs, ~70 MW, India and Malaysia, Q2 2027."
+      "name": "Applied Digital Polaris Forge 1 75 MW",
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai",
+      "note": "Wire: Ready for Service; 250 MW operational."
+    },
+    {
+      "name": "JERA, Dell, RHAELM MoU (JERA)",
+      "url": "https://www.jera.co.jp/en/news/information/20261001_2535",
+      "note": "Wire: Chiba 400 MW behind-the-meter; >US$15B; ops ~2028."
+    },
+    {
+      "name": "Applied Digital Finland (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/10/06/3375266/0/en/applied-digital-secures-up-to-1-gw-of-potential-power-capacity-in-finland-marking-first-international-development-in-the-nordics.html",
+      "note": "Signal: up to 1 GW potential power; initial power ~2028."
+    },
+    {
+      "name": "AMD Lisa Su in Taipei (Focus Taiwan / CNA)",
+      "url": "https://focustaiwan.tw/business/202610060011",
+      "note": "Signal: supply up substantially in 2027; 3 to 5 year planning horizon; memory still tight."
+    },
+    {
+      "name": "Korea frontier-AI program (Reuters)",
+      "url": "https://www.reuters.com/world/asia-pacific/south-korea-plans-develop-35-billion-frontier-ai-model-starting-next-year-2026-10-06/",
+      "note": "Signal: 4.7 trillion won; 10,000 Vera Rubin GPUs; tender after budget."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -186,7 +228,7 @@
     {
       "name": "CoreWeave Cloud pricing",
       "url": "https://www.coreweave.com/pricing",
-      "note": "HTTP 200 on 5 Oct PT; NA+EU confirms."
+      "note": "HTTP 200 on 6 Oct; NA+EU confirms."
     },
     {
       "name": "DigitalOcean GPU Droplets pricing",
@@ -196,32 +238,12 @@
     {
       "name": "AWS Capacity Blocks pricing",
       "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-      "note": "Oct 7 2026 rate card banner; current table still confirms."
-    },
-    {
-      "name": "Micron FQ4 2026 results",
-      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
-      "note": "Revenue $54.23B; FQ1-27 guide $61.5B."
-    },
-    {
-      "name": "WBRC Brookwood sound monitoring",
-      "url": "https://www.wbrc.com/2026/10/05/sound-measuring-equipment-installed-brookwood-middle-school-tied-data-center-project/",
-      "note": "Baseline monitoring before construction; council vote still pending."
-    },
-    {
-      "name": "The Register on Oracle Wisconsin",
-      "url": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
-      "note": "ATC refiled; Aterio base case partial power Dec 2027."
+      "note": "Oct 7 card banner; current table still confirms."
     },
     {
       "name": "PUCT 58481 Interchange",
       "url": "https://interchange.puc.texas.gov/search/filings/?ControlNumber=58481&DocumentType=ALL&SortBy=ItemNumber&SortOrder=Descending&UtilityType=E",
-      "note": "Still top items 218/219; effective 10.08.2026."
-    },
-    {
-      "name": "Chicago O2026-0028856 (Councilmatic)",
-      "url": "https://chicago.councilmatic.org/legislation/o2026-0028856/",
-      "note": "Still Referred; not enacted."
+      "note": "Effective 8 Oct."
     }
   ]
 }

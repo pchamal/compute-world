@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "id": "google-constellation-890mw-uprates-3p59gw-pjm-2026-10-06",
+      "date": "2026-10-06",
+      "title": "Google signs 20-year PPA for 890 MW of new nuclear uprate capacity plus a 15-year, 2,700 MW supply deal with Constellation in PJM",
+      "summary": "On 6 October 2026 Google and Constellation Energy announced a 20-year power purchase agreement that funds uprates at 11 Constellation nuclear units in Illinois, Pennsylvania and New Jersey, adding 890 MW of new capacity to the PJM grid, with the first uprate expected by 2028 and more than $4.3 billion of Constellation investment. The companies also signed a 15-year energy supply agreement for a further 2,700 MW from Constellation's PJM fleet, about 3,590 MW in total per CNBC. The release frames the deal as a response to PJM's Bring Your Own Power proposal and includes demand-response and load-shaping terms. Power stays on the PJM grid; the release does not name which Google data centers it serves. Country conversion: a hyperscaler pre-funds new firm generation for its PJM load rather than waiting on new interconnection.",
+      "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+      "source": "Constellation Energy and Google joint release; CNBC",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Capital"
+      ],
+      "score": 86
+    },
+    {
+      "id": "applied-digital-polaris-forge-1-75mw-rfs-250mw-2026-10-02",
+      "date": "2026-10-02",
+      "title": "Applied Digital brings another 75 MW online at Polaris Forge 1 in North Dakota, taking the campus to 250 MW operational",
+      "summary": "On 2 October 2026 Applied Digital (Nasdaq: APLD) said it reached Ready for Service on the second phase of Building 2 at its Polaris Forge 1 campus in Ellendale, North Dakota, delivering 75 MW of critical IT load across three 25 MW data halls. That completes Building 2 at 150 MW and brings fully operational critical IT at the campus to 250 MW, against 400 MW contracted at full buildout. The release says the campus is fully leased but does not name the tenant in this announcement; trade press (The Latent) describes it as CoreWeave-leased. Country conversion: contracted US AI capacity becomes energized, usable capacity.",
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai",
+      "source": "Applied Digital release via GlobeNewswire",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build"
+      ],
+      "score": 78
+    },
+    {
+      "id": "jera-dell-rhaelm-chiba-400mw-mou-2026-10-01",
+      "date": "2026-10-01",
+      "title": "JERA, Dell and RHAELM sign MoU for national-scale AI infrastructure in Japan, starting with a 400 MW behind-the-meter campus at Chiba",
+      "summary": "On 1 October 2026 JERA, Japan's largest power generator, Dell Technologies and London-based RHAELM signed a memorandum of understanding to build a standardized model for AI infrastructure in Japan. The first project is at JERA's Chiba Thermal Power Station, supported by up to 400 MW of behind-the-meter power, with total capital deployment expected to exceed US$15 billion (2.3 trillion yen) across land, power, construction and AI compute, and operations targeted around 2028. Apollo intends to serve as RHAELM's strategic investment and financing partner, and Dell supplies the rack-scale compute standard. JERA and RHAELM plan to explore more JERA sites toward multi-gigawatt capacity in the 2030s. This is an MoU, not a final investment decision, and no offtake customer is named. Country conversion: Japan's dominant generator commits an operating plant site and power to a named AI campus.",
+      "url": "https://www.jera.co.jp/en/news/information/20261001_2535",
+      "source": "JERA press release; RHAELM release; Data Center Dynamics",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "JPN"
+      ],
+      "flags": "🇯🇵",
+      "tags": [
+        "Build",
+        "Energy",
+        "Capital"
+      ],
+      "score": 72
+    },
+    {
       "id": "ami-rubin-20000-gpus-india-malaysia-70mw-2026-10-05",
       "date": "2026-10-05",
       "title": "AM Intelligence places firm orders for 20,000 more NVIDIA Rubin GPUs for India and Malaysia (~70 MW, Q2 2027)",
@@ -1523,6 +1580,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-05",
-  "note": "Wire refresh 2026-10-05: added aib-nebius-50mw-southeast-us-12yr-2026-09-30, ami-rubin-20000-gpus-india-malaysia-70mw-2026-10-05. Brookwood (sound baseline monitoring; council vote still pending), Oracle Port Washington PSC restart and Micron FQ4 are Signal only."
+  "updated": "2026-10-06",
+  "note": "Wire refresh 2026-10-06: added jera-dell-rhaelm-chiba-400mw-mou-2026-10-01, applied-digital-polaris-forge-1-75mw-rfs-250mw-2026-10-02, google-constellation-890mw-uprates-3p59gw-pjm-2026-10-06. Applied Digital Finland (up to 1 GW potential power, no counterparty or tenant named), Korea frontier-AI program restructure, AMD supply comments and Brookwood are Signal only."
 }
