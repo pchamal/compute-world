@@ -29,6 +29,7 @@ from desk_chrome import (
     tiny_js,
 )
 from desk_data import TIER, TIER_DEF, TIER_PLAIN, assemble, headline_rail
+from build_sitemap import stamp_lastmod
 from seo import DEFAULT_SITEMAP, robots_txt, sitemap_xml
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -1067,9 +1068,7 @@ def write_site(dests=None):
         {"loc": f"{SITE}/silicon/{s['slug']}/", "lastmod": asof, "changefreq": "weekly", "priority": "0.8"}
         for s in data["chips"]
     ]
-    sm = sitemap_xml(
-        [{**u, "lastmod": asof} if u["loc"] == f"{SITE}/" else u for u in DEFAULT_SITEMAP] + extra
-    )
+    sm = sitemap_xml(stamp_lastmod(DEFAULT_SITEMAP, ROOT) + extra)
     llms = llms_txt(data, rail)
     for dest in dests:
         os.makedirs(dest, exist_ok=True)

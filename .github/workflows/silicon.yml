@@ -25,6 +25,8 @@ jobs:
         run: python3 src/build_desk.py
       - name: Snapshot published ranks
         run: python3 src/snapshot_ranks.py --publish
+      - name: Refresh sitemap lastmod from artifact dates
+        run: python3 src/build_sitemap.py
       - name: Commit changes
         run: |
           git config user.name "silicon-bot"
