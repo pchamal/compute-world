@@ -5,11 +5,32 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Google signs 20-year PPA for 890 MW of new nuclear uprate capacity plus a 15-year, 2,700 MW supply deal with Constellation in PJM</title>
+    <link>https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html</link>
+    <guid isPermaLink="false">compute.world/wire#google-constellation-890mw-uprates-3p59gw-pjm-2026-10-06</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 GMT</pubDate>
+    <description>On 6 October 2026 Google and Constellation Energy announced a 20-year power purchase agreement that funds uprates at 11 Constellation nuclear units in Illinois, Pennsylvania and New Jersey, adding 890 MW of new capacity to the PJM grid, with the first uprate expected by 2028 and more than $4.3 billion of Constellation investment. The companies also signed a 15-year energy supply agreement for a further 2,700 MW from Constellation&#x27;s PJM fleet, about 3,590 MW in total per CNBC. The release frames the deal as a response to PJM&#x27;s Bring Your Own Power proposal and includes demand-response and load-shaping terms. Power stays on the PJM grid; the release does not name which Google data centers it serves. Country conversion: a hyperscaler pre-funds new firm generation for its PJM load rather than waiting on new interconnection. [Signal 86, Confirmed, via Constellation Energy and Google joint release; CNBC] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>AM Intelligence places firm orders for 20,000 more NVIDIA Rubin GPUs for India and Malaysia (~70 MW, Q2 2027)</title>
     <link>https://tele.net.in/press-release/am-intelligence-expands-nvidia-vera-rubin-ai-factory-buildout-across-india-and-malaysia-12625706</link>
     <guid isPermaLink="false">compute.world/wire#ami-rubin-20000-gpus-india-malaysia-70mw-2026-10-05</guid>
     <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
     <description>On 5 October 2026 AM Intelligence (AMI), the AI infrastructure platform set up by Greenko&#x27;s promoters, announced two further firm and binding orders for 20,000 NVIDIA Rubin GPUs, to be deployed as Vera Rubin NVL72 rack-scale systems across Malaysia and India, totalling about 70 MW with delivery scheduled for Q2 2027. With the 25 August order for 9,000 Rubin GPUs at its first Hyderabad AI factory, AMI&#x27;s committed total is about 29,000 Rubin GPUs and close to 100 MW. AMI says it plans to bring a further 300 MW to market over the next 15 months with capex of more than $20 billion, on top of $6 billion already committed for the initial ~100 MW; NVIDIA&#x27;s Asia South managing director is quoted in the statement. The split of the 70 MW between India and Malaysia and the site locations are not disclosed. Company statement carried by tele.net, BusinessLine and Times of India; no separate NVIDIA release found. [Signal 80, Single-source, via AM Intelligence statement via tele.net; The Hindu BusinessLine] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Applied Digital brings another 75 MW online at Polaris Forge 1 in North Dakota, taking the campus to 250 MW operational</title>
+    <link>https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai</link>
+    <guid isPermaLink="false">compute.world/wire#applied-digital-polaris-forge-1-75mw-rfs-250mw-2026-10-02</guid>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+    <description>On 2 October 2026 Applied Digital (Nasdaq: APLD) said it reached Ready for Service on the second phase of Building 2 at its Polaris Forge 1 campus in Ellendale, North Dakota, delivering 75 MW of critical IT load across three 25 MW data halls. That completes Building 2 at 150 MW and brings fully operational critical IT at the campus to 250 MW, against 400 MW contracted at full buildout. The release says the campus is fully leased but does not name the tenant in this announcement; trade press (The Latent) describes it as CoreWeave-leased. Country conversion: contracted US AI capacity becomes energized, usable capacity. [Signal 78, Confirmed, via Applied Digital release via GlobeNewswire] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>JERA, Dell and RHAELM sign MoU for national-scale AI infrastructure in Japan, starting with a 400 MW behind-the-meter campus at Chiba</title>
+    <link>https://www.jera.co.jp/en/news/information/20261001_2535</link>
+    <guid isPermaLink="false">compute.world/wire#jera-dell-rhaelm-chiba-400mw-mou-2026-10-01</guid>
+    <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
+    <description>On 1 October 2026 JERA, Japan&#x27;s largest power generator, Dell Technologies and London-based RHAELM signed a memorandum of understanding to build a standardized model for AI infrastructure in Japan. The first project is at JERA&#x27;s Chiba Thermal Power Station, supported by up to 400 MW of behind-the-meter power, with total capital deployment expected to exceed US$15 billion (2.3 trillion yen) across land, power, construction and AI compute, and operations targeted around 2028. Apollo intends to serve as RHAELM&#x27;s strategic investment and financing partner, and Dell supplies the rack-scale compute standard. JERA and RHAELM plan to explore more JERA sites toward multi-gigawatt capacity in the 2030s. This is an MoU, not a final investment decision, and no offtake customer is named. Country conversion: Japan&#x27;s dominant generator commits an operating plant site and power to a named AI campus. [Signal 72, Confirmed, via JERA press release; RHAELM release; Data Center Dynamics] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>Nebius signs binding 12-year deal for 50 MW critical IT at AIB Data Centers&#x27; southeastern US site</title>
@@ -192,26 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#opsb-aep-baku-gavin-765kv-26-0426-2026-09</guid>
     <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
     <description>AEP Ohio Transmission’s Baku–Gavin 765 kV line — roughly 50–51 miles from a proposed Baku Substation in Pike County to Gavin Substation in Gallia County, estimated ~$1.1B — is now live as Ohio Power Siting Board case 26-0426-EL-BTX. The OPSB case page states the line would serve the planned Piketon data-center campus; the data-center customer has committed to pay transmission costs so Ohio ratepayers are not loaded. OPSB has noticed a local public hearing for 27 October 2026, 6 p.m., Jackson High School Auditorium. This is the grid-permit conversion step after the Aug 17 NVIDIA/OpenAI/SB Energy PORTS-Pike stack (already wired); certificate still pending. Line 2 (Hanging Rock–Baku) remains earlier in outreach. [Signal 90, Confirmed, via Ohio Power Siting Board] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Fervo signs 396 MW, 15-year Google PPA at Cape Station — foundation for a potential Utah data center</title>
-    <link>https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-and-google-sign-396-mw-ppa</link>
-    <guid isPermaLink="false">compute.world/wire#fervo-google-396mw-cape-station-2026-09-01</guid>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
-    <description>On 1 September 2026 Fervo Energy (Nasdaq: FRVO) announced a 396 MW power purchase agreement with Google for enhanced-geothermal output from the Cape Station GeoCluster in Beaver County, Utah. Fervo&#x27;s 8-K dates the contract to 26 August 2026 between wholly owned Cape Generating Station 6 LLC and Google Energy LLC: four successive 99 MW sub-tranches with target commercial operation beginning Q3 2028, a 15-year delivery term, and parent guarantees from Fervo and Alphabet. Fervo will offer Google an option to add roughly 600 MW — nearly 1 GW in total — with a guaranteed COD no later than June 2030, and may owe Google reimbursement of certain payments if it fails to make that expansion offer. Google describes the energy as a foundational building block for a potential Utah data center; final data-center plans stay subject to engineering, state and local approvals and commercial conditions, with delivery leaning on Utah SB 132 direct-to-load pathways. Billed as the largest enhanced-geothermal PPA to date. [Signal 90, Confirmed, via Fervo Energy IR / FRVO 8-K] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Korea&#x27;s 2027 budget proposal nearly doubles AI and chip spend to ₩21.3T, with ₩3.85T for 10,000 Vera Rubin-class GPUs</title>
-    <link>https://en.yna.co.kr/view/AEN20260901000700320</link>
-    <guid isPermaLink="false">compute.world/wire#korea-2027-budget-ai-213tn-vera-rubin-2026-09-01</guid>
-    <pubDate>Tue, 01 Sep 2026 12:00:00 GMT</pubDate>
-    <description>The Korean cabinet approved a record ₩820.9 trillion 2027 budget proposal on 1 September 2026, up 12.8% and the fastest increase on record, funded by semiconductor-boom tax revenue. Spending on AI plus the administration&#x27;s three megaprojects — semiconductors, physical AI and AI data centres — nearly doubles from ₩10.8T this year to ₩21.3T. The Ministry of Science and ICT&#x27;s own budget rises 24.5% to ₩29.65T, with AI up 84.3% to ₩9.4T, including ₩3.85T (from ₩2.08T) to add about 10,000 Nvidia Vera Rubin-class GPUs for sovereign models behind a free &#x27;AI for All&#x27; service, ₩87.8B for an AI-data-centre cluster and a 10 MW AIDC testbed; roughly ₩2T goes to a semiconductor special account and more than ₩2T to power, water and industrial complexes. The proposal goes to the National Assembly on 3 September and must pass by 2 December, so this is budgeted intent, not yet appropriated. [Signal 80, Confirmed, via Yonhap / Hankyoreh / Korea Herald / MSIT budget detail via Digital Today] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in Kajaani, Finland</title>
-    <link>https://www.eurohpc-ju.europa.eu/eurohpc-ju-signs-contract-deploy-lumi-ai-supercomputer-2026-08-31_en</link>
-    <guid isPermaLink="false">compute.world/wire#eurohpc-lumi-ai-kajaani-387m-2026-08-31</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 GMT</pubDate>
-    <description>On 31 August 2026 the EuroHPC Joint Undertaking signed a procurement contract with Bull to deploy the LUMI-AI supercomputer at CSC – IT Center for Science&#x27;s data centre in Kajaani, Finland. Total budget for acquisition, delivery, installation and maintenance is €387,800,000, funded 50% by EuroHPC from the Digital Europe Programme and 50% by the LUMI AI Factory consortium — Finland, Czechia, Denmark, Estonia, Norway and Poland. The system is built on next-generation AMD Instinct MI430X GPUs with 6th Gen 256-core AMD EPYC processors and is expected to deliver roughly ten times the AI capacity of the current LUMI, installed and available to users in 2027. Bull was selected from a tender launched in May 2025; Finland was picked as host in December 2024. This is EuroHPC&#x27;s sixth AI Factory procurement contract, and a rare flagship European win for AMD accelerators. [Signal 84, Confirmed, via EuroHPC JU / Bull] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>

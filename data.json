@@ -1045,9 +1045,9 @@
    "pue": "~1.2-1.4",
    "note": "23 GW geothermal resource (3rd largest), 0.61 installed; consenting-constrained",
    "rf": 0.85,
-   "rz": 40,
-   "dl": 0,
-   "rw": "Live buildout underway"
+   "rz": 57,
+   "dl": 1,
+   "rw": "JERA, Dell and RHAELM sign MoU for national-scale AI infrastructure in Japan…"
   },
   {
    "n": "South Korea",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "Nebius signs binding 12-year deal for 50 MW critical IT at AIB Data Centers'…"
+   "rw": "Google signs 20-year PPA for 890 MW of new nuclear uprate capacity plus a 15…"
   },
   {
    "n": "Canada",
