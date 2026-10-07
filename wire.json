@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "id": "coreweave-adaniconnex-navi-mumbai-240mw-2026-10-07",
+      "date": "2026-10-07",
+      "title": "CoreWeave enters India as sole tenant of a 240 MW AdaniConneX campus in Navi Mumbai, with Vera Rubin planned",
+      "summary": "On 7 October 2026 CoreWeave (Nasdaq: CRWV) announced its entry into India through a collaboration with AdaniConneX, the 50:50 Adani Enterprises and EdgeConneX joint venture. CoreWeave plans to take 240 MW of data center capacity across three 80 MW buildings at AdaniConneX's Taloja campus in Navi Mumbai as sole tenant, with an option to expand by up to another 240 MW at the campus. It plans to deploy the NVIDIA Vera Rubin platform, with direct liquid cooling and a non-evaporative chilled water system. The first phase is expected to be available in mid-2028, with more capacity in phases. CoreWeave also plans an India office and local hiring. The release uses plan language, gives no investment figure and names no end customer. Country conversion: a top US neocloud commits to its first Indian campus at hyperscale size.",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Enters-India-Expanding-AI-Cloud-Platform-With-AdaniConneX/default.aspx",
+      "source": "CoreWeave release via Business Wire; NDTV Profit; The Next Web",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 84
+    },
+    {
+      "id": "black-hills-google-cheyenne-2p7gw-definitive-2026-10-06",
+      "date": "2026-10-06",
+      "title": "Black Hills signs definitive agreements through 2048 to serve Google's planned Cheyenne, Wyoming data center with a 2.7 GW resource mix",
+      "summary": "On 6 October 2026 Black Hills Corp. (NYSE: BKH) said it signed definitive agreements, effective 30 September 2026 with terms through 2048, to serve a planned Google data center in Cheyenne, Wyoming. The project is to be served by a total resource mix of 2.7 GW including reserve margins: up to 590 MW of grid-connected service, mostly from 564 MW of new company-owned natural gas generation at the Cheyenne Prairie Generating Station ($1.8 billion, built 2027 to 2029), plus about 2.1 GW of Wyoming-based third-party contracted resources managed through a private microgrid. Energy service is planned to start in late 2027 and ramp to peak load in 2030. Google has advanced $399 million, refundable, for long-lead equipment and bears all costs of serving the site under the agreements. Transmission filings are still pending at the Wyoming PSC, and the Google campus itself is described as planned. Country conversion: a hyperscaler locks in dedicated multi-GW power for a new US campus.",
+      "url": "https://www.globenewswire.com/news-release/2026/10/06/3376007/0/en/black-hills-corp-executes-definitive-agreements-to-serve-google-s-planned-data-center-in-cheyenne-wyoming.html",
+      "source": "Black Hills Corp. release via GlobeNewswire; Form 8-K",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Capital"
+      ],
+      "score": 86
+    },
+    {
+      "id": "terawulf-muskie-kentucky-1gw-esa-2026-10-05",
+      "date": "2026-10-05",
+      "title": "TeraWulf doubles contracted power at its Muskie campus in eastern Kentucky to 1 GW and pulls the second 500 MW into 2029",
+      "summary": "On 5 October 2026 TeraWulf (Nasdaq: WULF) said it executed an amended and restated electric service agreement with Kentucky Power, an AEP company, raising contracted capacity at its Muskie Data Campus in eastern Kentucky from 500 MW to 1 GW. The second 500 MW phase moves from 2030 to 2029, subject to Kentucky Public Service Commission approval and Kentucky Power's construction schedule; the first 500 MW phase still targets a 2028 ramp. Kentucky Power is building a 765 kV / 345 kV substation for the site and says the agreement carries about $100 million in customer benefits. TeraWulf says it may take the campus toward 2 GW over time. No tenant is named for Muskie. Country conversion: a US AI campus doubles its contracted utility power ahead of a signed tenant.",
+      "url": "https://investors.terawulf.com/news-events/press-releases/detail/146/terawulf-expands-contracted-power-capacity-at-its-muskie-data-campus-to-1-gw",
+      "source": "TeraWulf release via GlobeNewswire; Form 8-K; Kentucky Power release; ENR",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build"
+      ],
+      "score": 78
+    },
+    {
       "id": "google-constellation-890mw-uprates-3p59gw-pjm-2026-10-06",
       "date": "2026-10-06",
       "title": "Google signs 20-year PPA for 890 MW of new nuclear uprate capacity plus a 15-year, 2,700 MW supply deal with Constellation in PJM",
@@ -1580,6 +1637,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-06",
-  "note": "Wire refresh 2026-10-06: added jera-dell-rhaelm-chiba-400mw-mou-2026-10-01, applied-digital-polaris-forge-1-75mw-rfs-250mw-2026-10-02, google-constellation-890mw-uprates-3p59gw-pjm-2026-10-06. Applied Digital Finland (up to 1 GW potential power, no counterparty or tenant named), Korea frontier-AI program restructure, AMD supply comments and Brookwood are Signal only."
+  "updated": "2026-10-07",
+  "note": "Wire refresh 2026-10-07: added terawulf-muskie-kentucky-1gw-esa-2026-10-05, black-hills-google-cheyenne-2p7gw-definitive-2026-10-06, coreweave-adaniconnex-navi-mumbai-240mw-2026-10-07. Brookwood council resolution (follow-on to the 24 Sep Delta Forge 2 item), Alpha Compute Sweden B300 offtake (single-source, customer unnamed), AMD supply comments and the AWS Capacity Blocks card are Signal only."
 }
