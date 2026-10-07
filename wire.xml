@@ -5,11 +5,32 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>CoreWeave enters India as sole tenant of a 240 MW AdaniConneX campus in Navi Mumbai, with Vera Rubin planned</title>
+    <link>https://investors.coreweave.com/news/news-details/2026/CoreWeave-Enters-India-Expanding-AI-Cloud-Platform-With-AdaniConneX/default.aspx</link>
+    <guid isPermaLink="false">compute.world/wire#coreweave-adaniconnex-navi-mumbai-240mw-2026-10-07</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
+    <description>On 7 October 2026 CoreWeave (Nasdaq: CRWV) announced its entry into India through a collaboration with AdaniConneX, the 50:50 Adani Enterprises and EdgeConneX joint venture. CoreWeave plans to take 240 MW of data center capacity across three 80 MW buildings at AdaniConneX&#x27;s Taloja campus in Navi Mumbai as sole tenant, with an option to expand by up to another 240 MW at the campus. It plans to deploy the NVIDIA Vera Rubin platform, with direct liquid cooling and a non-evaporative chilled water system. The first phase is expected to be available in mid-2028, with more capacity in phases. CoreWeave also plans an India office and local hiring. The release uses plan language, gives no investment figure and names no end customer. Country conversion: a top US neocloud commits to its first Indian campus at hyperscale size. [Signal 84, Confirmed, via CoreWeave release via Business Wire; NDTV Profit; The Next Web] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Black Hills signs definitive agreements through 2048 to serve Google&#x27;s planned Cheyenne, Wyoming data center with a 2.7 GW resource mix</title>
+    <link>https://www.globenewswire.com/news-release/2026/10/06/3376007/0/en/black-hills-corp-executes-definitive-agreements-to-serve-google-s-planned-data-center-in-cheyenne-wyoming.html</link>
+    <guid isPermaLink="false">compute.world/wire#black-hills-google-cheyenne-2p7gw-definitive-2026-10-06</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 GMT</pubDate>
+    <description>On 6 October 2026 Black Hills Corp. (NYSE: BKH) said it signed definitive agreements, effective 30 September 2026 with terms through 2048, to serve a planned Google data center in Cheyenne, Wyoming. The project is to be served by a total resource mix of 2.7 GW including reserve margins: up to 590 MW of grid-connected service, mostly from 564 MW of new company-owned natural gas generation at the Cheyenne Prairie Generating Station ($1.8 billion, built 2027 to 2029), plus about 2.1 GW of Wyoming-based third-party contracted resources managed through a private microgrid. Energy service is planned to start in late 2027 and ramp to peak load in 2030. Google has advanced $399 million, refundable, for long-lead equipment and bears all costs of serving the site under the agreements. Transmission filings are still pending at the Wyoming PSC, and the Google campus itself is described as planned. Country conversion: a hyperscaler locks in dedicated multi-GW power for a new US campus. [Signal 86, Confirmed, via Black Hills Corp. release via GlobeNewswire; Form 8-K] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Google signs 20-year PPA for 890 MW of new nuclear uprate capacity plus a 15-year, 2,700 MW supply deal with Constellation in PJM</title>
     <link>https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html</link>
     <guid isPermaLink="false">compute.world/wire#google-constellation-890mw-uprates-3p59gw-pjm-2026-10-06</guid>
     <pubDate>Tue, 06 Oct 2026 12:00:00 GMT</pubDate>
     <description>On 6 October 2026 Google and Constellation Energy announced a 20-year power purchase agreement that funds uprates at 11 Constellation nuclear units in Illinois, Pennsylvania and New Jersey, adding 890 MW of new capacity to the PJM grid, with the first uprate expected by 2028 and more than $4.3 billion of Constellation investment. The companies also signed a 15-year energy supply agreement for a further 2,700 MW from Constellation&#x27;s PJM fleet, about 3,590 MW in total per CNBC. The release frames the deal as a response to PJM&#x27;s Bring Your Own Power proposal and includes demand-response and load-shaping terms. Power stays on the PJM grid; the release does not name which Google data centers it serves. Country conversion: a hyperscaler pre-funds new firm generation for its PJM load rather than waiting on new interconnection. [Signal 86, Confirmed, via Constellation Energy and Google joint release; CNBC] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>TeraWulf doubles contracted power at its Muskie campus in eastern Kentucky to 1 GW and pulls the second 500 MW into 2029</title>
+    <link>https://investors.terawulf.com/news-events/press-releases/detail/146/terawulf-expands-contracted-power-capacity-at-its-muskie-data-campus-to-1-gw</link>
+    <guid isPermaLink="false">compute.world/wire#terawulf-muskie-kentucky-1gw-esa-2026-10-05</guid>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 GMT</pubDate>
+    <description>On 5 October 2026 TeraWulf (Nasdaq: WULF) said it executed an amended and restated electric service agreement with Kentucky Power, an AEP company, raising contracted capacity at its Muskie Data Campus in eastern Kentucky from 500 MW to 1 GW. The second 500 MW phase moves from 2030 to 2029, subject to Kentucky Public Service Commission approval and Kentucky Power&#x27;s construction schedule; the first 500 MW phase still targets a 2028 ramp. Kentucky Power is building a 765 kV / 345 kV substation for the site and says the agreement carries about $100 million in customer benefits. TeraWulf says it may take the campus toward 2 GW over time. No tenant is named for Muskie. Country conversion: a US AI campus doubles its contracted utility power ahead of a signed tenant. [Signal 78, Confirmed, via TeraWulf release via GlobeNewswire; Form 8-K; Kentucky Power release; ENR] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>AM Intelligence places firm orders for 20,000 more NVIDIA Rubin GPUs for India and Malaysia (~70 MW, Q2 2027)</title>
@@ -192,26 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#stargate-korea-samsung-sk-stall-2026-09-07</guid>
     <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
     <description>On 7 September 2026 Korea JoongAng Daily reported that nearly a year after OpenAI’s October 2025 Stargate Korea framing with Samsung and SK, neither data-center leg has settled site, power, water, or funding. Samsung SDS said “nothing has been confirmed” and the decision sits with OpenAI; SK Telecom said no progress since the MOU and OpenAI demand is not finalized; an OpenAI spokesperson said the domestic project is “still under discussion.” Industry sources cited power and water as the binding site constraints. The piece places Korea alongside paused Stargate legs in Norway and Britain. Separate from Korea’s AIDC 18.4 GW / budget track already on Wire — this is a conversion Stall on the OpenAI-branded campus path. [Signal 78, Multi-party, via Korea JoongAng Daily] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>TCS HyperVault locks 264 acres in Hyderabad for up to 1 GW AI campus — ₹70,000 crore with Telangana</title>
-    <link>https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana</link>
-    <guid isPermaLink="false">compute.world/wire#tcs-hypervault-hyderabad-1gw-2026-09-05</guid>
-    <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
-    <description>On 5 September 2026 TCS subsidiary HyperVault announced it has secured 264 acres in Hyderabad (Telangana) to develop a phased AI data-center campus of up to 1 GW, purpose-built for frontier AI and hyperscaler GPU training/inference with liquid cooling and high rack density. HyperVault and partners expect to invest up to ₹70,000 crore (~$7.4B per Reuters) to build and manage the infrastructure; Telangana Chief Minister A. Revanth Reddy publicly framed a June 2, 2028 inauguration target. TPG remains the named strategic capital partner from the earlier HyperVault raise. Conversion signal: India land + GW ceiling + state partnership are live; power offtake (PPA), EPC, and hyperscaler contracts were not disclosed in the press release. [Signal 88, Confirmed, via TCS / HyperVault press release] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>ERCOT issues Batch Zero conditional classifications to TSPs/DSPs — late vs Aug 31 clock</title>
-    <link>https://www.ercot.com/services/comm/mkt_notices/M-A080326-04</link>
-    <guid isPermaLink="false">compute.world/wire#ercot-batch-zero-conditional-classifications-2026-09-03</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>On 3 September 2026 at 15:55 CT, ERCOT Market Notice M-A080326-04 notified interconnecting TSPs/DSPs of provisional Batch Zero classifications for submitted Large Loads. Classifications may be conditional on ILLE verification, curing dynamic-model deficiencies, or a PUCT good-cause exception; failure to satisfy a condition may disqualify the load. ERCOT will not seek a GCE for every requested load. Reclassification disputes (base→studied) run under Planning Guide §9.3.1(2)(a) with a two-business-day TSP/DSP notify clock. No public MW list or names were published. Follows M-A080326-03 (31 Aug) delay past the PUCT-authorized 31 Aug conditional-classify target. Country conversion: Texas large-load study path unfreezes into a conditional, dispute-gated Batch Zero. [Signal 88, Primary ERCOT notice. Context: M-A080326-03 delay (31 Aug); PUCT Project 59142 GCE order (20 Aug); Texas Dispatch 4 Sep on Sep 11 Project 58481 permanent large-load rule vote., via ERCOT Market Notice M-A080326-04] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>OPSB dockets AEP Baku–Gavin 765 kV (~51 mi, ~$1.1B) for PORTS-Pike — local hearing Oct 27</title>
-    <link>https://opsb.ohio.gov/cases/26-0426-el-btx</link>
-    <guid isPermaLink="false">compute.world/wire#opsb-aep-baku-gavin-765kv-26-0426-2026-09</guid>
-    <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
-    <description>AEP Ohio Transmission’s Baku–Gavin 765 kV line — roughly 50–51 miles from a proposed Baku Substation in Pike County to Gavin Substation in Gallia County, estimated ~$1.1B — is now live as Ohio Power Siting Board case 26-0426-EL-BTX. The OPSB case page states the line would serve the planned Piketon data-center campus; the data-center customer has committed to pay transmission costs so Ohio ratepayers are not loaded. OPSB has noticed a local public hearing for 27 October 2026, 6 p.m., Jackson High School Auditorium. This is the grid-permit conversion step after the Aug 17 NVIDIA/OpenAI/SB Energy PORTS-Pike stack (already wired); certificate still pending. Line 2 (Hanging Rock–Baku) remains earlier in outreach. [Signal 90, Confirmed, via Ohio Power Siting Board] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
