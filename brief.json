@@ -1,39 +1,39 @@
 {
-  "updated": "2026-10-07",
-  "title": "Compute brief - 7 October 2026",
-  "description": "Three Wire ids: CoreWeave enters India as sole tenant of a 240 MW AdaniConneX campus in Navi Mumbai; Black Hills signs definitive agreements to serve Google's planned Cheyenne, Wyoming campus with a 2.7 GW resource mix; TeraWulf doubles contracted power at Muskie, Kentucky to 1 GW. Silicon Tape confirm day (69/0/0); AWS's 7 Oct Capacity Blocks card is still a banner, not in the live table.",
-  "og_kicker": "CoreWeave lands in India; Google's 2.7 GW in Wyoming",
-  "lede": "Wednesday's three conversions are about who controls the power. CoreWeave entered India as sole tenant of a 240 MW AdaniConneX campus at Taloja, Navi Mumbai, with Vera Rubin planned and first capacity in mid-2028. Black Hills signed definitive agreements, effective 30 Sep and running through 2048, to serve Google's planned Cheyenne, Wyoming data center with a 2.7 GW resource mix, including $1.8 billion of new gas generation and a 2.1 GW private microgrid, ramping from late 2027 to peak in 2030. TeraWulf doubled contracted power at its Muskie campus in Kentucky to 1 GW and pulled the second 500 MW into 2029, subject to the Kentucky PSC. The public rental tape is a full confirm session: 69 confirms, 0 ticks, 0 NEW. AWS's Capacity Blocks banner says new rates take effect 7 Oct (P5 $5.970, P6-B300 $16.146), but the live table at publish still prints P5 $5.191 and P6-B300 $14.04, so no tick is recorded. Brookwood's council backed the TCEDA agreement on 6 Oct; the Alabama PSC power vote is next. Applied Digital reports FQ1 after the close today.",
+  "updated": "2026-10-09",
+  "title": "Compute brief - 9 October 2026",
+  "description": "AWS Capacity Blocks live table finally prints the 7 Oct banner rates (five AWS ticks). DigitalOcean AMD spot MI355X and MI350X also jump. Two Wire ids: Applied Digital secures access to up to 1 GW of potential power in Finland; DarkHorse signs up to 50 MW with Hopkinsville Electric System in Kentucky. Tape: 62 confirms, 7 ticks, 0 NEW.",
+  "og_kicker": "AWS CB table ticks; APLD Finland; DarkHorse KY",
+  "lede": "Friday's tape finally moves. The AWS Capacity Blocks live table now prints the rates that sat in the banner since 7 Oct: P5 $5.970 (was $5.191), P5e $6.866, P5en $7.895, P6-B200 $14.208, and P6-B300 $16.146. DigitalOcean AMD spot also jumped, with MI355X at $5.50 (was $2.97) and MI350X at $3.50 (was $2.46). On conversion, Applied Digital locked access to up to 1 GW of potential power in Finland for a first non-US AI Factory campus (initial power from 2028, counterparty unnamed), and DarkHorse signed up to 50 MW with Hopkinsville Electric System for a new Kentucky superintelligence factory, doubling its TVA-region contracted power to about 100 MW. The rest of the public rental tape is a confirm session: 62 confirms, 7 ticks, 0 NEW across Lambda, CoreWeave NA and EU, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks.",
   "countries": [
+    {
+      "id": "fin-applied-digital-1gw",
+      "name": "Finland",
+      "slug": "finland",
+      "note": "Applied Digital access to up to 1 GW potential power for first non-US AI Factory campus; initial power from 2028; marketing to hyperscalers; counterparty unnamed (Wire, 6 Oct)."
+    },
+    {
+      "id": "usa-darkhorse-hopkinsville-50mw",
+      "name": "United States / Kentucky",
+      "slug": "united-states",
+      "note": "DarkHorse up to 50 MW with Hopkinsville Electric System; funds 65 MW HES substation on TVA 161 kV; TVA-region contracted power to ~100 MW; permits pending (Wire, 6 Oct)."
+    },
+    {
+      "id": "usa-azio-atlas-one-10mw",
+      "name": "United States / Texas",
+      "slug": "united-states",
+      "note": "AZIO AI first Atlas One hosting agreement with Power Champion: 10 MW contracted, expansion rights to 50 MW; no capacity energized; export-control and infrastructure conditions (Signal, 9 Oct)."
+    },
     {
       "id": "ind-coreweave-adaniconnex-240mw",
       "name": "India",
       "slug": "india",
-      "note": "CoreWeave sole tenant of 3 x 80 MW at AdaniConneX Taloja, Navi Mumbai; option for 240 MW more; Vera Rubin; first phase mid-2028 (Wire, 7 Oct)."
+      "note": "CoreWeave sole tenant of 3 x 80 MW at AdaniConneX Taloja, Navi Mumbai still the Asia neocloud headline from 7 Oct (Wire)."
     },
     {
       "id": "usa-black-hills-google-cheyenne",
       "name": "United States / Wyoming",
       "slug": "united-states",
-      "note": "Black Hills definitive agreements through 2048 for Google's planned Cheyenne campus: 2.7 GW resource mix, 564 MW new gas, 2.1 GW microgrid, service late 2027, peak 2030 (Wire, 6 Oct)."
-    },
-    {
-      "id": "usa-terawulf-muskie-1gw",
-      "name": "United States / Kentucky",
-      "slug": "united-states",
-      "note": "TeraWulf Muskie contracted power 500 MW to 1 GW; second phase 2029, subject to Kentucky PSC; no tenant named (Wire, 5 Oct)."
-    },
-    {
-      "id": "usa-applied-digital-brookwood",
-      "name": "United States / Alabama",
-      "slug": "united-states",
-      "note": "Brookwood council backed the TCEDA agreement for Delta Forge 2 on 6 Oct; Alabama PSC vote on the Alabama Power agreement expected within weeks (Signal)."
-    },
-    {
-      "id": "swe-alpha-compute-b300",
-      "name": "Sweden",
-      "slug": "sweden",
-      "note": "Alpha Compute says it signed a binding $71.9M contract for its ALPHA-02 B300 cluster in a hydropowered Swedish data center; customer unnamed; single-source (Signal)."
+      "note": "Black Hills definitive agreements through 2048 for Google's planned Cheyenne campus (Wire, 6 Oct); Wyoming PSC transmission CPCNs still pending."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-09",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 6 Oct print"
+      "note": "Confirm vs 7 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +54,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-09",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 6 Oct print"
+      "note": "Confirm vs 7 Oct print"
     },
     {
       "id": "do-b300-spot",
@@ -65,32 +65,32 @@
       "display_usd": 8.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-09",
       "prev_usd": 8.0,
       "delta": 0.0,
-      "note": "Confirm vs 6 Oct print"
+      "note": "Confirm vs 7 Oct print"
     },
     {
       "id": "do-mi350x-spot",
       "name": "MI350X",
-      "display_usd": 2.46,
+      "display_usd": 3.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-09",
       "prev_usd": 2.46,
-      "delta": 0.0,
-      "note": "Confirm vs 6 Oct print"
+      "delta": 1.04,
+      "note": "Tick vs 7 Oct $2.46"
     },
     {
       "id": "do-mi355x-spot",
       "name": "MI355X",
-      "display_usd": 2.97,
+      "display_usd": 5.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-09",
       "prev_usd": 2.97,
-      "delta": 0.0,
-      "note": "Confirm vs 6 Oct print"
+      "delta": 2.53,
+      "note": "Tick vs 7 Oct $2.97"
     },
     {
       "id": "coreweave-h100-od",
@@ -98,44 +98,49 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-09",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 6 Oct print"
+      "note": "Confirm vs 7 Oct print"
     },
     {
       "id": "aws-cb-p5-va",
       "name": "H100 (P5) Capacity Blocks",
-      "display_usd": 5.191,
+      "display_usd": 5.97,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-09",
       "prev_usd": 5.191,
-      "delta": 0.0,
-      "note": "Confirm vs 6 Oct print; banner says $5.970 effective 7 Oct, live table still $5.191 at publish"
+      "delta": 0.779,
+      "note": "Tick vs 7 Oct $5.191"
     },
     {
       "id": "aws-cb-p6b300-va",
       "name": "B300 (P6-B300) Capacity Blocks",
-      "display_usd": 14.04,
+      "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-09",
       "prev_usd": 14.04,
-      "delta": 0.0,
-      "note": "Confirm vs 6 Oct print; banner says $16.146 effective 7 Oct, live table still $14.04 at publish"
+      "delta": 2.106,
+      "note": "Tick vs 7 Oct $14.04"
     }
   ],
   "watch": [
     {
-      "id": "aws-cb-oct7",
-      "name": "AWS Capacity Blocks Oct 7 card",
-      "note": "Banner rates effective 7 Oct (P5 $5.970, P5e $6.866, P5en $7.895, P6-B200 $14.208, P6-B300 $16.146) not yet in the live table; re-read 8 Oct."
+      "id": "aws-cb-follow",
+      "name": "AWS Capacity Blocks follow-through",
+      "note": "Live table now matches 7 Oct banner. Watch whether any neocloud on the public tape reprices within the week."
     },
     {
-      "id": "applied-digital-fq1-call",
-      "name": "Applied Digital FQ1 2027 call",
-      "note": "Wed 7 Oct, 5pm ET: Brookwood start, Finland counterparty, Polaris Forge 1 ramp."
+      "id": "do-amd-spot",
+      "name": "DigitalOcean AMD spot",
+      "note": "MI355X $5.50 and MI350X $3.50 after multi-day confirms at $2.97/$2.46; spot can reverse; re-read Mon."
+    },
+    {
+      "id": "applied-digital-finland",
+      "name": "Applied Digital Finland counterparty",
+      "note": "Access agreement named; site, utility, tenant, and FID still open. Watch next IR / 8-K."
     },
     {
       "id": "alabama-psc-applied-digital",
@@ -143,19 +148,14 @@
       "note": "Council backed TCEDA on 6 Oct; PSC vote on the Alabama Power agreement expected within weeks."
     },
     {
-      "id": "texas-register-25194",
-      "name": "PUCT 58481 large-load rule",
-      "note": "16 TAC 25.194 effective 8 Oct: $50,000/MW financial security before an ERCOT study for 75 MW+ loads."
-    },
-    {
       "id": "nuai-lc",
       "name": "NUAI $116M LC post",
-      "note": "Still not confirmed posted; 15-business-day clock from 18 Sep PPA runs to about 9 Oct."
+      "note": "15-business-day clock from 18 Sep PPA ran to about 9 Oct; still watch for confirmation."
     },
     {
       "id": "ercot-rfi",
       "name": "ERCOT large-load RFI",
-      "note": "State & Community Impact responses due 5pm CPT 12 Oct."
+      "note": "State and Community Impact responses due 5pm CPT Mon 12 Oct."
     },
     {
       "id": "tceq-compliance-update",
@@ -173,36 +173,36 @@
       "note": "South Cheyenne Transmission Expansion CPCN pending; statewide transmission CPCN to be filed Q4 2026."
     },
     {
-      "id": "korea-frontier-tender",
-      "name": "Korea frontier-AI tender",
-      "note": "Application criteria due later in October; tender after the 2027 budget passes in December."
+      "id": "azio-atlas-one",
+      "name": "AZIO Atlas One energization",
+      "note": "10 MW hosting signed; commencement needs site qualification, BIS export approvals for Power Champion, and generation."
     }
   ],
   "sources": [
     {
-      "name": "CoreWeave enters India (CoreWeave IR)",
-      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Enters-India-Expanding-AI-Cloud-Platform-With-AdaniConneX/default.aspx",
-      "note": "Wire: 240 MW Taloja, Navi Mumbai; sole tenant; mid-2028."
+      "name": "Applied Digital Finland 1 GW (APLD IR)",
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/162/applied-digital-secures-up-to-1-gw-of-potential-power",
+      "note": "Wire: up to 1 GW potential power; first non-US campus; initial power 2028."
     },
     {
-      "name": "Black Hills x Google Cheyenne (GlobeNewswire)",
-      "url": "https://www.globenewswire.com/news-release/2026/10/06/3376007/0/en/black-hills-corp-executes-definitive-agreements-to-serve-google-s-planned-data-center-in-cheyenne-wyoming.html",
-      "note": "Wire: 2.7 GW resource mix; $1.8B gas; terms through 2048."
+      "name": "DarkHorse Hopkinsville 50 MW (Newsfile)",
+      "url": "https://www2.newsfilecorp.com/release/317541/DarkHorse-Signs-New-50-MW-Power-Contract-Doubling-Contracted-Capacity-to-Approximately-100-MW-in-the-TVA-Region",
+      "note": "Wire: up to 50 MW HES; 65 MW substation; TVA region ~100 MW."
     },
     {
-      "name": "TeraWulf Muskie 1 GW (TeraWulf IR)",
-      "url": "https://investors.terawulf.com/news-events/press-releases/detail/146/terawulf-expands-contracted-power-capacity-at-its-muskie-data-campus-to-1-gw",
-      "note": "Wire: 500 MW to 1 GW; second phase 2029."
+      "name": "AZIO Atlas One hosting (GlobeNewswire syndication)",
+      "url": "https://financialpost.com/globe-newswire/azio-ai-signs-first-hosting-agreement-at-atlas-one-with-power-champion-10-mw-contracted-with-expansion-rights-to-50-mw-representing-up-to-approximately-450-million-in-capacity-reservation-charges",
+      "note": "Signal: 10 MW hosting; expansion to 50 MW; not energized."
     },
     {
-      "name": "Brookwood council vote (WBRC)",
-      "url": "https://www.wbrc.com/2026/10/07/brookwood-city-council-backs-32-billion-applied-digital-data-center-project/",
-      "note": "Signal: council backs TCEDA agreement; Alabama PSC next."
+      "name": "AWS Capacity Blocks pricing",
+      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
+      "note": "Live table now P5 $5.970 / P6-B200 $14.208 / P6-B300 $16.146."
     },
     {
-      "name": "AMD supply plans (Seoul Economic Daily)",
-      "url": "https://en.sedaily.com/international/2026/10/07/amds-lisa-su-locks-in-supply-through-2031-as-ai-chip-demand",
-      "note": "Signal: demand exceeds supply; capacity planned 3 to 5 years out; FOPLP explored."
+      "name": "DigitalOcean GPU Droplets pricing",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "note": "B300 spot $8.00; MI355X spot $5.50; MI350X spot $3.50."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -212,22 +212,12 @@
     {
       "name": "CoreWeave Cloud pricing",
       "url": "https://www.coreweave.com/pricing",
-      "note": "HTTP 200 on 7 Oct; NA+EU confirms."
-    },
-    {
-      "name": "DigitalOcean GPU Droplets pricing",
-      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "B300 spot $8.00 / MI350X $2.46 / MI355X $2.97 confirm."
-    },
-    {
-      "name": "AWS Capacity Blocks pricing",
-      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-      "note": "7 Oct card in banner; live table still confirms."
+      "note": "HTTP 200; NA+EU confirms."
     },
     {
       "name": "PUCT 58481 Interchange",
       "url": "https://interchange.puc.texas.gov/search/filings/?ControlNumber=58481&DocumentType=ALL&SortBy=ItemNumber&SortOrder=Descending&UtilityType=E",
-      "note": "Effective 8 Oct."
+      "note": "16 TAC 25.194 effective 8 Oct."
     }
   ]
 }

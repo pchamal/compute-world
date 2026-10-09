@@ -1,6 +1,44 @@
 {
   "items": [
     {
+      "id": "applied-digital-finland-1gw-potential-2026-10-06",
+      "date": "2026-10-06",
+      "title": "Applied Digital secures access to up to 1 GW of potential power in Finland for its first non-US AI Factory campus",
+      "summary": "On 6 October 2026 Applied Digital (Nasdaq: APLD) said it entered an agreement giving it access to up to 1 GW of potential power capacity in Finland, its first development opportunity outside the United States. The company plans a large-scale AI Factory campus that could scale to as much as 1 GW, with initial power availability anticipated beginning in 2028. It has begun marketing the site and says it is in discussions with leading global hyperscale customers. The release does not name the counterparty, exact site, utility, financing, construction schedule, or a committed tenant. Near-term execution remains centered on the US portfolio. Country conversion: a US AI-campus developer locks Nordic power access for a first international build.",
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/162/applied-digital-secures-up-to-1-gw-of-potential-power",
+      "source": "Applied Digital IR via GlobeNewswire; Yahoo Finance; Grid and Silicon",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "FIN"
+      ],
+      "flags": "🇫🇮",
+      "tags": [
+        "Energy",
+        "Build"
+      ],
+      "score": 74
+    },
+    {
+      "id": "darkhorse-hopkinsville-50mw-hes-2026-10-06",
+      "date": "2026-10-06",
+      "title": "DarkHorse signs up to 50 MW with Hopkinsville Electric System for a new Kentucky superintelligence factory",
+      "summary": "On 6 October 2026 DarkHorse Technologies (Nasdaq: DRK) said its subsidiary Pennyrile Holdings signed a power contract with the Electric Plant Board of Hopkinsville, Kentucky (Hopkinsville Electric System) for up to 50 MW for a new superintelligence factory, doubling DarkHorse contracted power in the TVA region to about 100 MW. DarkHorse will fund in full a new 65 MW HES-owned substation on TVA 161 kV, taking 50 MW; about 15 MW is for existing HES customers. The power contract has a ten-year initial term from commencement with automatic five-year renewals. Service remains subject to an eighteen-month permit contingency, utility construction, and other conditions; TVA has approved capacity to serve the project. No end customer is named. Country conversion: contracted municipal utility power for a new US AI campus in Kentucky.",
+      "url": "https://www2.newsfilecorp.com/release/317541/DarkHorse-Signs-New-50-MW-Power-Contract-Doubling-Contracted-Capacity-to-Approximately-100-MW-in-the-TVA-Region",
+      "source": "DarkHorse release via Newsfile; Nasdaq syndication; Christian County Now",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build"
+      ],
+      "score": 70
+    },
+    {
       "id": "coreweave-adaniconnex-navi-mumbai-240mw-2026-10-07",
       "date": "2026-10-07",
       "title": "CoreWeave enters India as sole tenant of a 240 MW AdaniConneX campus in Navi Mumbai, with Vera Rubin planned",
@@ -1637,6 +1675,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-07",
-  "note": "Wire refresh 2026-10-07: added terawulf-muskie-kentucky-1gw-esa-2026-10-05, black-hills-google-cheyenne-2p7gw-definitive-2026-10-06, coreweave-adaniconnex-navi-mumbai-240mw-2026-10-07. Brookwood council resolution (follow-on to the 24 Sep Delta Forge 2 item), Alpha Compute Sweden B300 offtake (single-source, customer unnamed), AMD supply comments and the AWS Capacity Blocks card are Signal only."
+  "updated": "2026-10-09",
+  "note": "Wire refresh 2026-10-09: added darkhorse-hopkinsville-50mw-hes-2026-10-06, applied-digital-finland-1gw-potential-2026-10-06. AWS Capacity Blocks live table now prints the 7 Oct banner rates (5 AWS ticks); DigitalOcean AMD spot MI355X and MI350X also ticked. AZIO Atlas One 10 MW hosting and Bitdeer A901 Malaysia chatter stay Signal only."
 }
