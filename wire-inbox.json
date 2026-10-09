@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09 15:46 UTC",
+ "generated": "2026-10-09 18:22 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -111,18 +111,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "GMI Cloud Raises Over $660M to Accelerate Global AI Infrastructure Expansion - AI Insider",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUlkyN2k4UEJ2N2lDS0swVFh4bk5VZlBmeU9maDZJTkk3a21UU1BpaUJLNENTMS1VbVpGZ3ZNZVRlV3BlYmNjeWNqUnRsMlJfZmVDNUxEcUthNkVYYmd0QkotQml6bDVZZ0xIcWJlNDEyUEVGVlN0UzgzTFh4QU1acDJIZ1pjVDk5ZlIzYmVRRngyVHN5NGlobE9yVkNMQWRQdG43VTRaa3NpOEFQcmIzRDlFNA?oc=5",
-   "source": "AI Insider",
-   "date": "2026-10-01",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Applied Digital brings 75 megawatts of AI infrastructure online at Ellendale - Jamestown Sun",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFJxdURhZVpDbzI1aFBqeTB1MjRvcHBxU2xyV1B1ZHJrTGtJdXhRbzk0dHR1NktZVGF1Z0t0d2d2eUxRd0FPWDN1dkZiZ1dQam5LZ08xWUs3Z3RVV3drMWNLVlZHVDNINmpIVk5vV1l1bFFoVHhtSy1fMWZ1c1hLOEhxOHNnWklFRklkdVRBQ3lRbjZPMmhsVkY5SjBvQWRTT1pXdVhWa2lObmluUlMyZzlTWlk?oc=5",
    "source": "Jamestown Sun",
@@ -177,6 +165,18 @@
    "date": "2026-10-07",
    "via": "gnews",
    "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Anticloud Reports $0 . 013 Electricity Cost in PAX v52 AI Research Benchmark",
+   "url": "https://www.thesudburystar.com/press-releases/newsfile/anticloud-reports-0-013-electricity-cost-in-pax-v52-ai-research-benchmark/",
+   "source": "thesudburystar.com",
+   "date": "2026-10-06",
+   "via": "gdelt",
+   "country_hint": "Canada",
    "tier": 4,
    "prescore": 55,
    "corroboration": "Single-source",
@@ -351,18 +351,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "NVIDIA Commits $1B to US Super Intelligence Research - The Tech Buzz",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUjdTNENDeWRsQkNrSWJHNEpPYUpKdklIZnJJVEVoWGxKc0ZKZWFLWDVnQUhKeFAwaWUtektJcVNXZm40RjNYRzhsUFJzeUc2c2x2OE4xZnhaQ0NpV2t1TDNpbmRNZ1ZnNldGQTBpZnpVamNQaENzMTJSdTBta0VtWHJsdi1Qa0tJT01lWA?oc=5",
-   "source": "The Tech Buzz",
-   "date": "2026-10-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Nvidia to Invest $1 Billion Over 5 Years to Strengthen U.S. AI and Quantum Computing Leadership - BigGo Finance",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XUDNfWlowd1lHWU9rQ0FsQ0JkSVRNcjZGcUdJVnRCOE1jSVo3YzlINW5Ydl9GN216bmlYLWNTTVd3SEVDTm5WVU5ENkUyVHY2UUxKYjdhOFNpV3VQaWpic0lqYkpKUmFadFdIQ3RpenY1RWNyVlE?oc=5",
    "source": "BigGo Finance",
@@ -483,6 +471,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Zankore’s AI Factory: Can Central Java afford the water cost? - The Conversation",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFFPY0F0LV9uZmdid2FHcThIREZLakNJT1VHbGJWdTZOSm1tUUFTS1hhMGZlcXdBZl9jUC1sUXVaY19zZEljZDJ3N1JGdWJmZkhWVUIza09Qa2FPSy1mOTJZMXBXby1neFhVc0JtM2hIUGt0anprVXpMby1DcXJ3M1pCcVE1N0pXVUF3MWRtRGNKTGFOUFlwWA?oc=5",
+   "source": "The Conversation",
+   "date": "2026-10-09",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "News Archive - NVIDIA Newsroom",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnRUSVVnUjFuZU5fR2tCQ1pTa1QxaEdsaGNIUHJ2X19PN2xaaTk3YnZvSjFMRVlQWWNoSzZtZHJwWWpId3pHTmNwdXdoRlp5VjFJYnV0WVgwdDEyamJyOXVsbFp3S0QxUUdFWFJXX1hQcU05RGNZUzk0bm1Vc29BaEhCRzlTUnVwWUQzaGNvYzRfWmZnbEl3emVXXzNQTXVjUW9Zek5IRUlPUG1Ha2FyVmkxZnhPaWhMMlJ2LVZ3?oc=5",
    "source": "NVIDIA Newsroom",
@@ -499,30 +499,6 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80bWxMaFRsWUJ0WUQ5d3IwUnFROWh1UjZaZ0U4d3pMYkhSTkszRlc5bWttc2V0UjN5S1N2T1VhZkg5RmpfSk9aYnhsNlhZeU9tZEdIejhzRlc2bnNXVGVBVWszMlRvMXQ3YUY3MGcwQS11MTJ2bDRrbGdn?oc=5",
    "source": "AI: Reset to Zero",
    "date": "2026-10-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Zankore’s AI Factory: Can Central Java afford the water cost? - The Conversation",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFFPY0F0LV9uZmdid2FHcThIREZLakNJT1VHbGJWdTZOSm1tUUFTS1hhMGZlcXdBZl9jUC1sUXVaY19zZEljZDJ3N1JGdWJmZkhWVUIza09Qa2FPSy1mOTJZMXBXby1neFhVc0JtM2hIUGt0anprVXpMby1DcXJ3M1pCcVE1N0pXVUF3MWRtRGNKTGFOUFlwWA?oc=5",
-   "source": "The Conversation",
-   "date": "2026-10-09",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Palantir and Armada Partner to Accelerate Sovereign AI Infrastructure - HPCwire",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYktRdTFhUFAtcWVJM21GOHkxVmsxcFFnYVBrTzlkX1dfajBWLWFkeEg1elc4Nzk3LVk5cmlWOWlpNUQtUUkyX0Z3NUVxS0RCNHA2YkhKYmk2d1FQQ0s3blhNcjRCaWxrSzFRNkxQQ1VxWHFuYXZWb0YtVjV4ZDVJMlU1S0VzWENfbXRoeTRhckJpRm02QVJjcEFQRmNLRFR3akJKd0JTUkVLZEctZVJTcHdqRkNVWjNqaGRN?oc=5",
-   "source": "HPCwire",
-   "date": "2026-10-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -639,18 +615,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "AI: Nvidia, the AI Banker & its Next Generation. AI-RTZ #1234 (Part 2) - AI: Reset to Zero",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vajA2bG9sNUt5TXhFZE9DN1BlSGVCbF9zYVJ6NUpVckRzdmQwLWJLNUhMSGVPWjRXSmNHS195NjRhcGVESVYwdDJvWFRjN093SU1FM3BGZXJTaTlOdXBtRjU4UnloazdXOWNoUFJ0UXFGSWFjRjlSSkkzWjk2Zw?oc=5",
-   "source": "AI: Reset to Zero",
-   "date": "2026-10-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Reflection launches Beam, a 501B open-weight model to rival Chinese labs - Dealroom",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNl9zUGg5UVg3aEoyQzVabjFuS2VlekZTazV1aFd2enE5bXV4WkhkSmVZdWdHZ0kyZXJHTk5LdDBaZzhkVm1fSGJQeWpHSDE1dFFrVklFZXZRLVVEZnhVRDdrMFJ4aXFqU2kxZkM0c0J6S0NXTHRRX1hkVzMzWlAzb05wempBT2pnckoyR2hHMFFPb2Y4SjZkWXRja3JxdmpSd19rZGRsOGU?oc=5",
    "source": "Dealroom",
@@ -667,6 +631,18 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZUxpTzdzYk1xMTNzZTZxYXBNdk5KbEtyWDZOV096V29iUEZPTGYtZjdtSC1YLThxcnJxdHdiemNmbmlmSVVZaGRWa0lDTFpuZXJ5aDJVUmZTclp0bUNUSG9GMjk4V0F4ajZBODRfU3dqa01ER3gxUDVuYlo0dHJmV1RXS0U2VGg1TkRiTzhhWDk5TlN6ZkdUa0ZiOWM?oc=5",
    "source": "Yahoo Finance",
    "date": "2026-10-03",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "AI: Nvidia, the AI Banker & its Next Generation. AI-RTZ #1234 (Part 2) - AI: Reset to Zero",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vajA2bG9sNUt5TXhFZE9DN1BlSGVCbF9zYVJ6NUpVckRzdmQwLWJLNUhMSGVPWjRXSmNHS195NjRhcGVESVYwdDJvWFRjN093SU1FM3BGZXJTaTlOdXBtRjU4UnloazdXOWNoUFJ0UXFGSWFjRjlSSkkzWjk2Zw?oc=5",
+   "source": "AI: Reset to Zero",
+   "date": "2026-10-08",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -711,10 +687,34 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "NTT Data opens Munich AI factory for production-scale workload testing - Telecompaper",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZGxwWFJmZ0MtMXdBQjdpR21nX3otWmZFZVFKT2E2bXFYZkVvLXVsVFU1RFlQS1hhal9JeDRBdmIzRjljZlNlRE8xTHloOHFTcjhmeHFQZHdnTmx3YUZoSDhYaUxNb1YzZkh6eFRIN3ljSGVTZHpjaXV5TmhVZVp4eTl4MmVoa0dySVJxa0FQVlNSM2dZa3ZnMm1yVGgxRlpOOUd1VGNna0ExczQ3T3I3T1NDNA?oc=5",
+   "source": "Telecompaper",
+   "date": "2026-10-08",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "US Startup Reflection AI Unveils First Open-Weight Model \"Beam\" to Challenge Chinese Rivals - BigGo Finance",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12YWhoekdpZG1CNnh2ZGpBRm05X2Y1S21tdDg5UEl1N3ZlLTlvWExFNWx6cGpDOVBzeEFBM0g3Q0ZLZ0pDUFRKYkpLQkx0aG1CWmRMRzAxNks5SlNpYi03QW5saWZ3bXVCMllMb08yREJKTFRubUE?oc=5",
    "source": "BigGo Finance",
    "date": "2026-10-06",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "AM Intelligence expands NVIDIA Vera Rubin AI buildout - KARV Tech Insider",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOVBkVVlrMUxEeDlJUmJhbmU2ZmxFLUtBSmROWE5SNEEyanVTZUZDVVZjcEtYYmY4WFFxaEhGbldzN2ZEZHNReDFmV2NYcUp1ZUZhV0NzN2Z1QmFnUkdSUGlVRm5YOUt2Zk5YYlFWSlpEX2t3UHhoN3NxbFNnUFkxdFM2NG9yT2x1a015ak5LbzFLM1NfVms4Y3FhVVdUd3ZUSVlIYVo4VTFmdUN4RlZfWElmSlRNSlFsZVJ4WVhB?oc=5",
+   "source": "KARV Tech Insider",
+   "date": "2026-10-05",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
