@@ -8,6 +8,7 @@ same-config-family prints. Carry-forward is for sparkline *drawing* only.
 """
 from __future__ import annotations
 
+import re
 from datetime import date, datetime, timedelta
 
 AS_OF = date(2026, 8, 18)
@@ -764,68 +765,275 @@ def _confirm_key(chip_id, slot, fallback="list"):
     return (chip_id, norm_venue(slot.get("venue")), slot.get("term"), _slot_config(slot, fallback))
 
 
-def apply_history_confirms(silicon, history):
-    """Stamp slot as_of from history's last confirm day. Never change a price.
+def _series_key(chip_id, venue, term):
+    return (chip_id, norm_venue(venue), term)
 
-    Snapshot is that confirm day even when every dollar is unchanged. A weekday
-    list-print confirm that only appended silicon-history.json must still bump
-    silicon.json so the tape page is not two weekdays stale.
+
+def _num(value):
+    if value is None:
+        return None
+    try:
+        return round(float(value), 6)
+    except (TypeError, ValueError):
+        return None
+
+
+def _slot_price(slot):
+    if not isinstance(slot, dict):
+        return None
+    for key in ("usd_per_gpu_hr", "cny_per_gpu_hr", "price"):
+        got = _num(slot.get(key))
+        if got is not None:
+            return got
+    return None
+
+
+def _same_price(a, b):
+    aa, bb = _num(a), _num(b)
+    return aa is not None and aa == bb
+
+
+def _price_tokens(value):
+    """Dollar spellings already used in also-text and quote notes."""
+    raw = f"{float(value):.3f}"
+    stripped = raw.rstrip("0").rstrip(".")
+    toks = {stripped, raw}
+    two = f"{float(value):.2f}"
+    if _num(two) == _num(value):
+        toks.add(two)
+    return toks
+
+
+def _replace_price_token(text, old, new):
+    if not text or old is None or new is None:
+        return text
+    new_s = f"{float(new):.3f}".rstrip("0").rstrip(".")
+    out = text
+    for tok in sorted(_price_tokens(old), key=len, reverse=True):
+        out = out.replace(f"${tok}", f"${new_s}")
+    return out
+
+
+def _write_usd(slot, new_price):
+    """Write a history price onto the USD fields the slot already has."""
+    wrote = False
+    for key in ("usd_per_gpu_hr", "price"):
+        if slot.get(key) is not None and _num(slot.get(key)) is not None:
+            slot[key] = new_price
+            wrote = True
+    if not wrote:
+        slot["usd_per_gpu_hr"] = new_price
+    return True
+
+
+# Source notes that say "List page fetched …" and that the history note names
+# on a full re-read. Other fetched dates (SA, TensorWave, token APIs) stay.
+_REREAD_SOURCES = (
+    ("lambda", "lambda"),
+    ("coreweave", "coreweave"),
+    ("crusoe", "crusoe"),
+    ("digitalocean", "digitalocean"),
+    ("gcp-tpu", "gcp tpu"),
+    ("aws-cb", "aws cb"),
+)
+_FETCHED_RE = re.compile(r"List page fetched (\d{4}-\d{2}-\d{2})")
+
+
+def _day_series(points, day):
+    """chip + venue + term → confirm-day history points. Config is not part of the key."""
+    out = {}
+    for p in points or []:
+        if (p.get("date") or p.get("as_of")) != day:
+            continue
+        if _num(p.get("price")) is None:
+            continue
+        key = _series_key(p.get("chip"), p.get("venue"), p.get("term"))
+        out.setdefault(key, []).append(p)
+    return out
+
+
+def _prior_series_price(points, day):
+    """Latest pre-day price of chip+venue+term, if that day has one price."""
+    by_date = {}
+    for p in points or []:
+        dt = p.get("date") or p.get("as_of")
+        if not dt or dt >= day:
+            continue
+        price = _num(p.get("price"))
+        if price is None:
+            continue
+        key = _series_key(p.get("chip"), p.get("venue"), p.get("term"))
+        by_date.setdefault(key, {}).setdefault(dt, set()).add(price)
+    out = {}
+    for key, dates in by_date.items():
+        last = max(dates)
+        prices = dates[last]
+        if len(prices) == 1:
+            out[key] = next(iter(prices))
+    return out
+
+
+def _stamp_as_of(slot, day, stamped_box):
+    if slot.get("as_of") != day:
+        slot["as_of"] = day
+        stamped_box[0] += 1
+    return True
+
+
+def _refresh_snapshot_note(silicon, history):
+    hist_note = (history.get("note") or "").strip()
+    if hist_note:
+        silicon["snapshot_note"] = f"{SNAPSHOT_NOTE} {hist_note}"
+    elif not silicon.get("snapshot_note"):
+        silicon["snapshot_note"] = SNAPSHOT_NOTE
+
+
+def _refresh_fetched_notes(silicon, history, day):
+    """Move list-page fetched dates up to the confirm day when history records the re-read.
+
+    Does not touch sources the re-read clause does not name, and does not move
+    a fetched date forward of the confirm day.
+    """
+    note = (history.get("note") or "").lower()
+    if "full re-read" not in note:
+        return
+    clause = note.split("full re-read", 1)[1]
+    for src in silicon.get("sources") or []:
+        label = next((lab for sid, lab in _REREAD_SOURCES if sid == src.get("id")), None)
+        if not label or label not in clause:
+            continue
+        old = src.get("note") or ""
+        match = _FETCHED_RE.search(old)
+        if not match or match.group(1) >= day:
+            continue
+        src["note"] = _FETCHED_RE.sub(f"List page fetched {day}", old, count=1)
+
+
+def _priced_row(slot):
+    return (
+        isinstance(slot, dict)
+        and slot.get("venue")
+        and slot.get("term")
+        and _slot_price(slot) is not None
+    )
+
+
+def apply_history_confirms(silicon, history):
+    """Stamp slot as_of from history's last confirm day.
+
+    A same-price confirm advances as_of even when the scrape config label
+    disagrees with the slot (`list` / `cb` / `8x` vs `HGX 8x /8`, `trn2`,
+    `us-east1`). Price is unchanged on a confirm.
+
+    A price change is applied only when history already has exactly one
+    confirm-day dollar for that chip + venue + term, every priced display/quote
+    on that series still shares the previous dollar, and that previous dollar
+    is the latest pre-day print. The new dollar is copied from history. It is
+    not invented. Sibling SKUs that share a term but not a price (Lambda 1CC
+    16 / 64 / 256) are left alone.
     """
     day = (history.get("as_of") or "").strip()
     if not day or not parse_date(day):
         return 0
-    confirms = _confirm_index(history.get("points") or [], day)
-    stamped = 0
+    points = history.get("points") or []
+    day_points = _day_series(points, day)
+    prior = _prior_series_price(points, day)
+    stamped_box = [0]
 
-    def stamp(slot, *keys):
-        nonlocal stamped
-        if not slot or not isinstance(slot, dict):
-            return False
-        for key in keys:
-            if key is None or key not in confirms:
-                continue
-            if slot.get("as_of") != day:
-                slot["as_of"] = day
-                stamped += 1
-            return True
-        return False
-
-    def keys_for(chip_id, slot, fallback="list"):
-        if not slot:
-            return ()
-        exact = _confirm_key(chip_id, slot, fallback)
-        keys = [exact]
-        # Term-book rows often omit config; a same-day confirm of chip+venue+term is enough.
-        if not slot.get("config"):
-            ven, term = exact[1], exact[2]
-            for k in confirms:
-                if k[0] == chip_id and k[1] == ven and k[2] == term and k not in keys:
-                    keys.append(k)
-        return tuple(keys)
+    def series_points(chip_id, slot):
+        return day_points.get(_series_key(chip_id, slot.get("venue"), slot.get("term"))) or []
 
     for c in silicon.get("chips") or []:
         cid = c["id"]
         disp = c.get("display") or {}
-        dcfg = _slot_config(disp)
-        display_ok = stamp(disp, *keys_for(cid, disp))
+        rows = []
+        if _priced_row(disp):
+            rows.append(disp)
         for q in c.get("quotes") or []:
-            q_fallback = dcfg if q.get("venue") == disp.get("venue") else "list"
-            stamp(q, *keys_for(cid, q, q_fallback))
+            if _priced_row(q):
+                rows.append(q)
+        groups = {}
+        for slot in rows:
+            groups.setdefault(_series_key(cid, slot.get("venue"), slot.get("term")), []).append(slot)
+
+        display_ok = False
+        for key, group in groups.items():
+            prints = day_points.get(key) or []
+            if not prints:
+                continue
+            day_prices = {_num(p.get("price")) for p in prints}
+            for slot in group:
+                if any(_same_price(_slot_price(slot), p.get("price")) for p in prints):
+                    _stamp_as_of(slot, day, stamped_box)
+                    if slot is disp:
+                        display_ok = True
+            if any(
+                slot.get("cny_per_gpu_hr") is not None and slot.get("usd_per_gpu_hr") is None
+                for slot in group
+            ):
+                continue
+            slot_prices = {_slot_price(slot) for slot in group}
+            if len(day_prices) != 1 or len(slot_prices) != 1:
+                continue
+            new_price = next(iter(day_prices))
+            old_price = next(iter(slot_prices))
+            if old_price == new_price:
+                continue
+            if prior.get(key) != old_price:
+                continue
+            # Copy the history point's own number so JSON keeps its decimals.
+            raw_new = next(p.get("price") for p in prints if _same_price(p.get("price"), new_price))
+            for slot in group:
+                if slot.get("note"):
+                    slot["note"] = _replace_price_token(slot.get("note"), old_price, raw_new)
+                _write_usd(slot, raw_new)
+                _stamp_as_of(slot, day, stamped_box)
+                if slot is disp:
+                    display_ok = True
+            also = c.get("also")
+            if also and also.get("text"):
+                also["text"] = _replace_price_token(also.get("text"), old_price, raw_new)
+
         for rec in (c.get("terms") or {}).values():
-            stamp(rec, *keys_for(cid, rec))
+            if not _priced_row(rec):
+                continue
+            if any(_same_price(_slot_price(rec), p.get("price")) for p in series_points(cid, rec)):
+                _stamp_as_of(rec, day, stamped_box)
+
         also = c.get("also")
         # `also` has no venue/term/config; it is the companion date on the display row.
-        if also and display_ok and also.get("as_of") and also.get("as_of") != day:
+        if display_ok and also and also.get("as_of") and also.get("as_of") != day:
             also["as_of"] = day
-            stamped += 1
+            stamped_box[0] += 1
+
+        if display_ok and c.get("as_of") and c.get("as_of") != day:
+            c["as_of"] = day
+            stamped_box[0] += 1
+        note = c.get("note")
+        if display_ok and isinstance(note, str):
+            if "Spots not re-fetched today" in note and any(
+                p.get("chip") == cid
+                and "spot" in (p.get("term") or "").lower()
+                and (p.get("date") or p.get("as_of")) == day
+                for p in points
+            ):
+                note = note.replace(" Spots not re-fetched today.", "").replace("Spots not re-fetched today.", "")
+            if "Confirm vs 9 Sep" in note:
+                dt = parse_date(day)
+                if dt is not None:
+                    note = note.replace("Confirm vs 9 Sep", f"Confirm vs {dt.day} {dt.strftime('%b')}")
+                    # 1Q aged out of the ±10d window once the snapshot passed mid-September.
+                    # The live pair on this tape is the 1M confirm.
+                    note = note.replace("1Q is 0%", "1M is 0%")
+            c["note"] = note.strip()
 
     prev = (silicon.get("updated") or silicon.get("snapshot") or "").strip()
     if not prev or day >= prev:
         silicon["updated"] = day
         silicon["snapshot"] = day
-    if not silicon.get("snapshot_note"):
-        silicon["snapshot_note"] = SNAPSHOT_NOTE
-    return stamped
+    _refresh_snapshot_note(silicon, history)
+    _refresh_fetched_notes(silicon, history, day)
+    return stamped_box[0]
 
 
 def enrich_silicon(silicon, history):
@@ -852,15 +1060,18 @@ def expected_grid_pcts(silicon, history):
         chg = changes_for(points, chip_id, venue, term, cfg, now)
         return chg[key].get("pct")
 
-    checks.append(("h100-90d", pct("nvidia-h100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d90"), 0.0))
-    checks.append(("h100-1y", pct("nvidia-h100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d1y"), 33.4))
-    checks.append(("h100-30d", pct("nvidia-h100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d30"), None))
-    checks.append(("b200-90d", pct("nvidia-b200-sxm6", "Lambda", "on-demand", "8x-sxm", "d90"), 0.0))
+    # Windows are anchored on the snapshot day. By 2026-10-09 the Aug 2025 H100
+    # print is outside 365d ±21d, and the June prints are outside 90d ±10d.
+    # 1M still pairs with the 9 Sep print.
+    checks.append(("h100-90d", pct("nvidia-h100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d90"), None))
+    checks.append(("h100-1y", pct("nvidia-h100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d1y"), None))
+    checks.append(("h100-30d", pct("nvidia-h100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d30"), 0.0))
+    checks.append(("b200-90d", pct("nvidia-b200-sxm6", "Lambda", "on-demand", "8x-sxm", "d90"), None))
     checks.append(("b200-1y-lambda", pct("nvidia-b200-sxm6", "Lambda", "on-demand", "8x-sxm", "d1y"), None))
-    checks.append(("b200-1y-cw", pct("nvidia-b200-sxm6", "CoreWeave", "on-demand", "list", "d1y"), 0.0))
-    checks.append(("a100-90d", pct("nvidia-a100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d90"), 0.0))
-    checks.append(("cw-h100-1y", pct("nvidia-h100-sxm-80gb", "CoreWeave", "on-demand", "list", "d1y"), 0.0))
-    checks.append(("cw-h200-1y", pct("nvidia-h200-sxm-141gb", "CoreWeave", "on-demand", "list", "d1y"), 0.0))
+    checks.append(("b200-1y-cw", pct("nvidia-b200-sxm6", "CoreWeave", "on-demand", "list", "d1y"), None))
+    checks.append(("a100-90d", pct("nvidia-a100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d90"), None))
+    checks.append(("cw-h100-1y", pct("nvidia-h100-sxm-80gb", "CoreWeave", "on-demand", "list", "d1y"), None))
+    checks.append(("cw-h200-1y", pct("nvidia-h200-sxm-141gb", "CoreWeave", "on-demand", "list", "d1y"), None))
     checks.append(("h100-3y", pct("nvidia-h100-sxm-80gb", "Lambda", "on-demand", "8x-sxm", "d3y"), None))
     return checks
 
@@ -893,10 +1104,126 @@ def expected_terms(silicon):
     ]
 
 
+def _confirm_self_check():
+    """Config-label confirms stamp as_of. A unique history tick copies that dollar. Sibling SKUs do not."""
+    silicon = {
+        "updated": "2026-09-15",
+        "snapshot": "2026-09-15",
+        "snapshot_note": "Confirm day 2026-09-15",
+        "sources": [
+            {"id": "coreweave", "note": "List page fetched 2026-09-07."},
+            {"id": "cerebras", "note": "Token / enterprise. Fetched 2026-08-18. No public accelerator-hour."},
+        ],
+        "chips": [
+            {
+                "id": "chip-a",
+                "display": {
+                    "venue": "CoreWeave",
+                    "term": "on-demand",
+                    "config": "list",
+                    "usd_per_gpu_hr": 6.31,
+                    "as_of": "2026-09-15",
+                },
+                "also": {"text": "AWS CB $12.355", "as_of": "2026-09-15"},
+                "quotes": [
+                    {
+                        "venue": "CoreWeave",
+                        "term": "on-demand",
+                        "config": "list",
+                        "usd_per_gpu_hr": 6.31,
+                        "as_of": "2026-09-15",
+                    },
+                    {
+                        "venue": "AWS",
+                        "term": "Capacity Blocks",
+                        "config": "cb",
+                        "usd_per_gpu_hr": 12.355,
+                        "as_of": "2026-09-15",
+                        "note": "p6, $12.355 / accelerator-hr.",
+                    },
+                    {
+                        "venue": "Lambda",
+                        "term": "1CC 2w–1y",
+                        "config": "1cc-16",
+                        "usd_per_gpu_hr": 9.86,
+                        "as_of": "2026-09-15",
+                    },
+                    {
+                        "venue": "Lambda",
+                        "term": "1CC 2w–1y",
+                        "config": "1cc-256",
+                        "usd_per_gpu_hr": 8.87,
+                        "as_of": "2026-09-15",
+                    },
+                ],
+            }
+        ],
+    }
+    history = {
+        "as_of": "2026-10-09",
+        "note": (
+            "Tape day 2026-10-09: 1 confirms, 1 ticks, 0 NEW. "
+            "Full re-read Lambda/CoreWeave NA+EU/Crusoe/DigitalOcean/GCP TPU/AWS CB."
+        ),
+        "points": [
+            {
+                "chip": "chip-a",
+                "venue": "CoreWeave",
+                "term": "on-demand",
+                "config": "HGX 8x /8",
+                "price": 6.31,
+                "date": "2026-10-09",
+            },
+            {
+                "chip": "chip-a",
+                "venue": "AWS",
+                "term": "Capacity Blocks",
+                "config": "p6-b200 US",
+                "price": 12.355,
+                "date": "2026-10-07",
+            },
+            {
+                "chip": "chip-a",
+                "venue": "AWS",
+                "term": "Capacity Blocks",
+                "config": "p6-b200 US",
+                "price": 14.208,
+                "date": "2026-10-09",
+            },
+            {
+                "chip": "chip-a",
+                "venue": "Lambda",
+                "term": "1CC 2w–1y",
+                "config": "256+-sxm",
+                "price": 8.87,
+                "date": "2026-10-09",
+            },
+        ],
+    }
+    apply_history_confirms(silicon, history)
+    chip = silicon["chips"][0]
+    quotes = chip["quotes"]
+    assert chip["display"]["as_of"] == "2026-10-09", chip["display"]
+    assert chip["display"]["usd_per_gpu_hr"] == 6.31
+    assert quotes[0]["as_of"] == "2026-10-09" and quotes[0]["usd_per_gpu_hr"] == 6.31
+    assert quotes[1]["usd_per_gpu_hr"] == 14.208 and quotes[1]["as_of"] == "2026-10-09", quotes[1]
+    assert quotes[1]["note"] == "p6, $14.208 / accelerator-hr.", quotes[1]["note"]
+    assert chip["also"]["text"] == "AWS CB $14.208", chip["also"]
+    assert chip["also"]["as_of"] == "2026-10-09"
+    assert quotes[2]["usd_per_gpu_hr"] == 9.86 and quotes[2]["as_of"] == "2026-09-15", quotes[2]
+    assert quotes[3]["usd_per_gpu_hr"] == 8.87 and quotes[3]["as_of"] == "2026-10-09", quotes[3]
+    assert silicon["sources"][0]["note"] == "List page fetched 2026-10-09."
+    assert "2026-08-18" in silicon["sources"][1]["note"]
+    assert "2026-09-15" not in silicon["snapshot_note"]
+    assert "2026-10-09" in silicon["snapshot_note"]
+
+
 if __name__ == "__main__":
     import json
     import os
     import sys
+
+    _confirm_self_check()
 
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     silicon = json.load(open(os.path.join(root, "silicon.json")))
@@ -911,10 +1238,10 @@ if __name__ == "__main__":
         print("\n".join(bad))
         sys.exit(1)
     wx = {f"{w['id']}:{w['window']}": w["pct"] for w in silicon.get("weather") or []}
-    if wx.get("nvidia-h100-sxm-80gb:1Y") != 33.4:
-        sys.exit(f"weather H100 1Y: {wx}")
-    if wx.get("nvidia-b200-sxm6:1Q") != 0.0:
-        sys.exit(f"weather B200 1Q: {wx}")
+    if wx.get("nvidia-h100-sxm-80gb:1M") != 0.0:
+        sys.exit(f"weather H100 1M: {wx}")
+    if wx.get("nvidia-b200-sxm6:1M") != 0.0:
+        sys.exit(f"weather B200 1M: {wx}")
     for name, got, exp in expected_terms(silicon):
         if got != exp:
             bad.append(f"{name}: got {got} expected {exp}")
@@ -926,6 +1253,9 @@ if __name__ == "__main__":
     day = history.get("as_of")
     if silicon.get("updated") != day or silicon.get("snapshot") != day:
         sys.exit(f"snapshot {silicon.get('updated')}/{silicon.get('snapshot')} != history {day}")
+    h200_w = next((w for w in silicon.get("weather") or [] if w.get("id") == "nvidia-h200-sxm-141gb"), {})
+    if day not in (h200_w.get("title") or ""):
+        sys.exit(f"H200 weather still off the confirm day: {h200_w}")
     h100 = (by.get("nvidia-h100-sxm-80gb") or {}).get("display") or {}
     b200 = (by.get("nvidia-b200-sxm6") or {}).get("display") or {}
     if h100.get("usd_per_gpu_hr") != 3.99 or h100.get("as_of") != day:
@@ -938,6 +1268,55 @@ if __name__ == "__main__":
     smm = (by.get("huawei-ascend-910c") or {}).get("display") or {}
     if smm.get("as_of") != "2026-07-29":
         sys.exit(f"SMM 910C as_of {smm.get('as_of')}")
+    frozen = [
+        "nvidia-h200-sxm-141gb",
+        "nvidia-gb200-nvl72",
+        "google-tpu-v7-ironwood",
+        "nvidia-l40s-48gb",
+        "google-tpu-v6e-trillium",
+        "amazon-trainium2",
+        "nvidia-gh200",
+        "nvidia-rtx-pro-6000-blackwell",
+        "google-tpu-v5p",
+    ]
+    for cid in frozen:
+        disp = (by.get(cid) or {}).get("display") or {}
+        if disp.get("as_of") != day:
+            sys.exit(f"{cid} display still {disp.get('as_of')}: {disp}")
+    aws_expect = {
+        ("nvidia-b200-sxm6", "Capacity Blocks"): 14.208,
+        ("nvidia-b300-hgx", "Capacity Blocks"): 16.146,
+        ("nvidia-h100-sxm-80gb", "Capacity Blocks"): 5.97,
+        ("nvidia-h200-sxm-141gb", "Capacity Blocks p5e"): 6.866,
+        ("nvidia-h200-sxm-141gb", "Capacity Blocks p5en"): 7.895,
+        ("nvidia-gb200-nvl72", "Capacity Blocks u-p6e-gb200x72"): 10.582,
+        ("amazon-trainium2", "Capacity Blocks"): 2.235,
+    }
+    for (cid, term), px in aws_expect.items():
+        slot = next(
+            (
+                q
+                for q in (by[cid].get("quotes") or [])
+                if q.get("venue") == "AWS" and q.get("term") == term
+            ),
+            by[cid].get("display") if (by[cid].get("display") or {}).get("term") == term else None,
+        )
+        if slot is None or slot.get("usd_per_gpu_hr") != px or slot.get("as_of") != day:
+            sys.exit(f"AWS {cid} {term}: {slot}")
+    b200_also = (by["nvidia-b200-sxm6"].get("also") or {}).get("text") or ""
+    b300_also = (by["nvidia-b300-hgx"].get("also") or {}).get("text") or ""
+    if "$12.355" in b200_also or "$14.208" not in b200_also:
+        sys.exit(f"B200 also: {b200_also}")
+    if "$14.04" in b300_also or "$16.146" not in b300_also:
+        sys.exit(f"B300 also: {b300_also}")
+    if "2026-09-15" in (silicon.get("snapshot_note") or "") or day not in (silicon.get("snapshot_note") or ""):
+        sys.exit(f"snapshot_note: {silicon.get('snapshot_note')}")
+    fetched = {s["id"]: s.get("note") or "" for s in silicon.get("sources") or []}
+    for sid in ("lambda", "coreweave", "crusoe", "aws-cb", "gcp-tpu", "digitalocean"):
+        if f"List page fetched {day}" not in fetched.get(sid, ""):
+            sys.exit(f"{sid} fetched note: {fetched.get(sid)}")
+    if "2026-08-18" not in fetched.get("cerebras", ""):
+        sys.exit(f"cerebras note moved: {fetched.get('cerebras')}")
     print(f"ok · {len(history['points'])} dated points · harvested+{n}")
     for name, got, exp in expected_grid_pcts(silicon, history):
         print(f"  {name}: {got}")
