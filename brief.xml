@@ -2,69 +2,69 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Wednesday&#x27;s three conversions are about who controls the power. CoreWeave entered India as sole tenant of a 240 MW AdaniConneX campus at Taloja, Navi Mumbai, with Vera Rubin planned and first capacity in mid-2028. Black Hills signed definitive agreements, effective 30 Sep and running through 2048, to serve Google&#x27;s planned Cheyenne, Wyoming data center with a 2.7 GW resource mix, including $1.8 billion of new gas generation and a 2.1 GW private microgrid, ramping from late 2027 to peak in 2030. TeraWulf doubled contracted power at its Muskie campus in Kentucky to 1 GW and pulled the second 500 MW into 2029, subject to the Kentucky PSC. The public rental tape is a full confirm session: 69 confirms, 0 ticks, 0 NEW. AWS&#x27;s Capacity Blocks banner says new rates take effect 7 Oct (P5 $5.970, P6-B300 $16.146), but the live table at publish still prints P5 $5.191 and P6-B300 $14.04, so no tick is recorded. Brookwood&#x27;s council backed the TCEDA agreement on 6 Oct; the Alabama PSC power vote is next. Applied Digital reports FQ1 after the close today.</description>
+  <description>Friday&#x27;s tape finally moves. The AWS Capacity Blocks live table now prints the rates that sat in the banner since 7 Oct: P5 $5.970 (was $5.191), P5e $6.866, P5en $7.895, P6-B200 $14.208, and P6-B300 $16.146. DigitalOcean AMD spot also jumped, with MI355X at $5.50 (was $2.97) and MI350X at $3.50 (was $2.46). On conversion, Applied Digital locked access to up to 1 GW of potential power in Finland for a first non-US AI Factory campus (initial power from 2028, counterparty unnamed), and DarkHorse signed up to 50 MW with Hopkinsville Electric System for a new Kentucky superintelligence factory, doubling its TVA-region contracted power to about 100 MW. The rest of the public rental tape is a confirm session: 62 confirms, 7 ticks, 0 NEW across Lambda, CoreWeave NA and EU, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 7 October 2026</title>
+    <title>Compute brief - 9 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-07</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Wednesday&#x27;s three conversions are about who controls the power. CoreWeave entered India as sole tenant of a 240 MW AdaniConneX campus at Taloja, Navi Mumbai, with Vera Rubin planned and first capacity in mid-2028. Black Hills signed definitive agreements, effective 30 Sep and running through 2048, to serve Google&#x27;s planned Cheyenne, Wyoming data center with a 2.7 GW resource mix, including $1.8 billion of new gas generation and a 2.1 GW private microgrid, ramping from late 2027 to peak in 2030. TeraWulf doubled contracted power at its Muskie campus in Kentucky to 1 GW and pulled the second 500 MW into 2029, subject to the Kentucky PSC. The public rental tape is a full confirm session: 69 confirms, 0 ticks, 0 NEW. AWS&#x27;s Capacity Blocks banner says new rates take effect 7 Oct (P5 $5.970, P6-B300 $16.146), but the live table at publish still prints P5 $5.191 and P6-B300 $14.04, so no tick is recorded. Brookwood&#x27;s council backed the TCEDA agreement on 6 Oct; the Alabama PSC power vote is next. Applied Digital reports FQ1 after the close today. Countries: India: CoreWeave sole tenant of 3 x 80 MW at AdaniConneX Taloja, Navi Mumbai; option for 240 MW more; Vera Rubin; first phase mid-2028 (Wire, 7 Oct). United States / Wyoming: Black Hills definitive agreements through 2048 for Google&#x27;s planned Cheyenne campus: 2.7 GW resource mix, 564 MW new gas, 2.1 GW microgrid, service late 2027, peak 2030 (Wire, 6 Oct). United States / Kentucky: TeraWulf Muskie contracted power 500 MW to 1 GW; second phase 2029, subject to Kentucky PSC; no tenant named (Wire, 5 Oct). United States / Alabama: Brookwood council backed the TCEDA agreement for Delta Forge 2 on 6 Oct; Alabama PSC vote on the Alabama Power agreement expected within weeks (Signal). Sweden: Alpha Compute says it signed a binding $71.9M contract for its ALPHA-02 B300 cluster in a hydropowered Swedish data center; customer unnamed; single-source (Signal).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-09</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Friday&#x27;s tape finally moves. The AWS Capacity Blocks live table now prints the rates that sat in the banner since 7 Oct: P5 $5.970 (was $5.191), P5e $6.866, P5en $7.895, P6-B200 $14.208, and P6-B300 $16.146. DigitalOcean AMD spot also jumped, with MI355X at $5.50 (was $2.97) and MI350X at $3.50 (was $2.46). On conversion, Applied Digital locked access to up to 1 GW of potential power in Finland for a first non-US AI Factory campus (initial power from 2028, counterparty unnamed), and DarkHorse signed up to 50 MW with Hopkinsville Electric System for a new Kentucky superintelligence factory, doubling its TVA-region contracted power to about 100 MW. The rest of the public rental tape is a confirm session: 62 confirms, 7 ticks, 0 NEW across Lambda, CoreWeave NA and EU, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks. Countries: Finland: Applied Digital access to up to 1 GW potential power for first non-US AI Factory campus; initial power from 2028; marketing to hyperscalers; counterparty unnamed (Wire, 6 Oct). United States / Kentucky: DarkHorse up to 50 MW with Hopkinsville Electric System; funds 65 MW HES substation on TVA 161 kV; TVA-region contracted power to ~100 MW; permits pending (Wire, 6 Oct). United States / Texas: AZIO AI first Atlas One hosting agreement with Power Champion: 10 MW contracted, expansion rights to 50 MW; no capacity energized; export-control and infrastructure conditions (Signal, 9 Oct). India: CoreWeave sole tenant of 3 x 80 MW at AdaniConneX Taloja, Navi Mumbai still the Asia neocloud headline from 7 Oct (Wire). United States / Wyoming: Black Hills definitive agreements through 2048 for Google&#x27;s planned Cheyenne campus (Wire, 6 Oct); Wyoming PSC transmission CPCNs still pending.</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-07/lambda-h100-od</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 07 Oct 2026. Confirm vs 6 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-09/lambda-h100-od</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 09 Oct 2026. Confirm vs 7 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-07/lambda-b200-od</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 07 Oct 2026. Confirm vs 6 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-09/lambda-b200-od</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 09 Oct 2026. Confirm vs 7 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $8.00 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-07/do-b300-spot</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.00 spot at DigitalOcean as of 07 Oct 2026. Confirm vs 6 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-09/do-b300-spot</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.00 spot at DigitalOcean as of 09 Oct 2026. Confirm vs 7 Oct print</description>
   </item>
   <item>
-    <title>MI350X · $2.46 spot</title>
+    <title>MI350X · $3.50 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-07/do-mi350x-spot</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $2.46 spot at DigitalOcean as of 07 Oct 2026. Confirm vs 6 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-09/do-mi350x-spot</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.50 spot at DigitalOcean as of 09 Oct 2026. Tick vs 7 Oct $2.46</description>
   </item>
   <item>
-    <title>MI355X · $2.97 spot</title>
+    <title>MI355X · $5.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-07/do-mi355x-spot</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $2.97 spot at DigitalOcean as of 07 Oct 2026. Confirm vs 6 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-09/do-mi355x-spot</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $5.50 spot at DigitalOcean as of 09 Oct 2026. Tick vs 7 Oct $2.97</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-07/coreweave-h100-od</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 07 Oct 2026. Confirm vs 6 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-09/coreweave-h100-od</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 09 Oct 2026. Confirm vs 7 Oct print</description>
   </item>
   <item>
-    <title>H100 (P5) Capacity Blocks · $5.191 Capacity Blocks</title>
+    <title>H100 (P5) Capacity Blocks · $5.97 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-p5-va</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-07/aws-cb-p5-va</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 (P5) Capacity Blocks: display $5.191 Capacity Blocks at AWS as of 07 Oct 2026. Confirm vs 6 Oct print; banner says $5.970 effective 7 Oct, live table still $5.191 at publish</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-09/aws-cb-p5-va</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 (P5) Capacity Blocks: display $5.97 Capacity Blocks at AWS as of 09 Oct 2026. Tick vs 7 Oct $5.191</description>
   </item>
   <item>
-    <title>B300 (P6-B300) Capacity Blocks · $14.04 Capacity Blocks</title>
+    <title>B300 (P6-B300) Capacity Blocks · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-p6b300-va</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-07/aws-cb-p6b300-va</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 (P6-B300) Capacity Blocks: display $14.04 Capacity Blocks at AWS as of 07 Oct 2026. Confirm vs 6 Oct print; banner says $16.146 effective 7 Oct, live table still $14.04 at publish</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-09/aws-cb-p6b300-va</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 (P6-B300) Capacity Blocks: display $16.146 Capacity Blocks at AWS as of 09 Oct 2026. Tick vs 7 Oct $14.04</description>
   </item>
 </channel></rss>
