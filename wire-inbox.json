@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11 17:42 UTC",
+ "generated": "2026-10-12 21:17 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -63,18 +63,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "🧭 Akamai's $11.6B Anthropic Deal, Crusoe's 1GW+ Campus, Google's Brazil Push - Global Data Center Hub",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE02WE9WaHBOZ0VVNUZOU29jRnh0eWNOeXY5SXlrYjNRTFZzR3Mtc2Nkd1JZVWxoVGFJalhwQlMybldMUERpaDJNVGlhVFdoT1BUYzlzMHdPX3RTdEtVUlJsVThfeVpOaGJTbm9xM0hhb3l3YjMwUTUxejJheldVdw?oc=5",
-   "source": "Global Data Center Hub",
-   "date": "2026-10-04",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 73,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Bitdeer secures 67MW Malaysia AI campus, lifting secured capacity to 273.5MW - Blockspace Media",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55dEZvaGp4TFRMMkRDMmlfTHhqWDB4VEFyQ1pMMl82UU9YSjlEZXdqRTgzMVFPMnY4eWFrY2RTVFZpLUJZUmFnNkxFZGN6VDV2NWNsZ1JJS2NlYV95VmxUdWVuRkxWd3JlNEs2WHRYX09LbXNPR2I4cEdZQ3ZYQQ?oc=5",
    "source": "Blockspace Media",
@@ -111,18 +99,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Applied Digital brings 75 megawatts of AI infrastructure online at Ellendale - Jamestown Sun",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFJxdURhZVpDbzI1aFBqeTB1MjRvcHBxU2xyV1B1ZHJrTGtJdXhRbzk0dHR1NktZVGF1Z0t0d2d2eUxRd0FPWDN1dkZiZ1dQam5LZ08xWUs3Z3RVV3drMWNLVlZHVDNINmpIVk5vV1l1bFFoVHhtSy1fMWZ1c1hLOEhxOHNnWklFRklkdVRBQ3lRbjZPMmhsVkY5SjBvQWRTT1pXdVhWa2lObmluUlMyZzlTWlk?oc=5",
-   "source": "Jamestown Sun",
-   "date": "2026-10-04",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Applied Digital Secures Up To 1 GW Of Potential Power Capacity In Finland, Says Talks With Hyperscale Customers Underway - TradingView",
    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRGlybzY1T05lYVJLdjVqSnFTOXQ0b05CZGltSk5xNmZ3aXY5cVhyWi10aUg2NnhKRzl2MnkwWkxuTGJnWnE1eXdJR0c3dGJNdTJyVUdOUS1VOFZwWU5pZm5ka093a2k3SzgzSzdSSnd4Tm9UUlZwLVlUamFiQUxITkI0MUoyMFpWVDBrbDJzVlNnQURRSnM4S0JVOFRPUTJSSTdIc0RBeVVacG54T1RXdXR5NHlhOENveElIRlhDd2lyVC1UQ21GTWUxcUxJZkJjMC1kR2JYRVpGeS1HbFlKaE96aVJFS0thNmJhWHZ4bG9VVk1qQVRhUjdzVC0tUGNfMXl1cGhmMndla0lO?oc=5",
    "source": "TradingView",
@@ -147,10 +123,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Firmus calls off $44 billion float, turns to private markets - Pulse Tasmania",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaGtWeGptTVd2RTBiTzRoMkhlV2s5ODhZTkM5QzBRY1ZHd2dPd1UwOWZpaWpLUjNUb0lLRV9aUEEzVUZUYU1wbnFXOGZ3N2hWNHJHa0R4akZVZkw2TGJBYzh4ZjZIR0Y0VHJpZ3lxa256UDlYalk0WjB5SEQxS1EtMk1pTGdWZVc2RkNKRlFFTnRTV0FzNEFzZw?oc=5",
-   "source": "Pulse Tasmania",
-   "date": "2026-10-09",
+   "title": "Zankore seeks US$6 billion loan for AI data center expansion - ET Datacenters",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZzFYanhyaUt0SmtwNGpielZBLWJndjRFZ0JYbE9Pc3NRNUlSUnF2bWZlQ1R6dndTcWp5eFJpaExhd0lqNFFtUlRoOWN5MHhoNFFFT2xxMWhLTktkWmJLdE5vdnVRMlo3TlVGMWV3a0ZaS2hSaXBFQXdkeFo5Wld4YlpuWXVBeTJGX2lManJmdmw3U3hucGcxRTNuVENCZHBPZ0tBQkxEaWw5VTJuT21lc1QwWWJOMTF2b2lxZ05TQVh0bnZmcWYtNGM3eVNwNEZMLTRXbDNRZkxPcXk4b2h2ZkNiM290cmhB0gHoAUFVX3lxTE1nMVhqeHJpS3RKa3A0amJ6VkEtYmd2NEVnQlhsT09zc1E1SVJScXZtZmVDVHp2d1Nxanl4UmloTGF3SWo0UW1SVGg5Y3kweGg0UUVPbHExaEtOS2RaYkt0Tm92dVEyWjdOVUYxZXdrRlpLaFJpcEVBd2R4WjlaV3hiWm5ZdUF5MkZfaUxqcmZ2bDdTeG5wZzFFM25UQ0JkcE9nS0FCTERpbDlVMm5PbWVzVDBZYk4xMXZvaXFnTlNBWHRudmZxZi00Yzd5U3A0RkwtNFdsM1FmTE9xeThvaHZmQ2Izb3RyaEE?oc=5",
+   "source": "ET Datacenters",
+   "date": "2026-10-07",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -159,10 +135,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Batam Investment Surges Past $2.5B as AI and Port Upgrades Anchor Regional Growth - InvestorTrust",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2F4RDEwNWFIVU5raUp2ZlBQR1N2bm8tVWJQcFBpMFhoMlQyc0M3cmVPMTdvQzhvQ0ZheHJxVkw0dmR2ZFppWVNBUF9WSTFiOWJXTFNsYWYtb1RXYVhid0xTYy1Db016TzNUbW9heERIRlZIak9wNEE1MUlCMHlvRWN2cGZ2Uy1DZHZ5ZGxGWWlBUDRMWjFCNGtMdi1BMkVOcTNZczM2emhRRGJiMWo1MWlGcGo4bnBFRjZtWg?oc=5",
-   "source": "InvestorTrust",
-   "date": "2026-10-04",
+   "title": "Firmus calls off $44 billion float, turns to private markets - Pulse Tasmania",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaGtWeGptTVd2RTBiTzRoMkhlV2s5ODhZTkM5QzBRY1ZHd2dPd1UwOWZpaWpLUjNUb0lLRV9aUEEzVUZUYU1wbnFXOGZ3N2hWNHJHa0R4akZVZkw2TGJBYzh4ZjZIR0Y0VHJpZ3lxa256UDlYalk0WjB5SEQxS1EtMk1pTGdWZVc2RkNKRlFFTnRTV0FzNEFzZw?oc=5",
+   "source": "Pulse Tasmania",
+   "date": "2026-10-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -183,10 +159,34 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Anticloud Reports $0 . 013 Electricity Cost in PAX v52 AI Research Benchmark",
+   "url": "https://www.thesudburystar.com/press-releases/newsfile/anticloud-reports-0-013-electricity-cost-in-pax-v52-ai-research-benchmark/",
+   "source": "thesudburystar.com",
+   "date": "2026-10-06",
+   "via": "gdelt",
+   "country_hint": "Canada",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "TensorX Reaches $5 Million and Appoints Tim Grant as CEO as Demand for Sovereign AI Accelerates - Business Wire",
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRXlheTFSYWxJbTJ3LUMyMlhvcWxnSnpTSlFXNnVzU3lHUVNVYWdXNE1vVmJETHczQ0l4OFpQTkVaVjlweFpSRm1uWDRQelhhSDVsSlNNLVhOZW5RTGw4QUJ6VGdpS3lJa3ItcmF2anN6OEt3cWJzU3Myb1VXMmFLeU93cHN4UEV5NXU2bkpaTENOazVEeHNhMFhOQ0pRSHN6cWdSTklUUGxUbGtjeDFVQ2J4SkhFekp4bjFEVlRTMlJmUW1yeGxBbWhTbWJkWFFmbUpSRzY4TnFFdDk1dDRtTy1qcEIzX3piRFE?oc=5",
    "source": "Business Wire",
    "date": "2026-10-08",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "ThisWay Global to Convert Bankrupt RELLIS Site into 73 MW AI Hub - Data Center Knowledge",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVEdUY0N3WE9YTFQzejdCa2hIeUstM0dSWjhrdDJadW52ZVVtWUhWTnRUQkRWWDRvYzl0UDltLTN3WDM4aDBuaDBoZWxiUVlHREE1aXdRd3ROOENYcDhIcmM0MmZ5QjRtV3JyYTVsbjlGWWFlWjE5SWNRM0poOUNPTk5BaDZZLUFmbkpSTVN0RF9ka2NWNHg0Y09qeEQtQmszcHBBOFNyRVJuSXZTV2J2T0RLYlBJVUE?oc=5",
+   "source": "Data Center Knowledge",
+   "date": "2026-10-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -211,30 +211,6 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VbV9Nc2ZBSnRfX0s5azFmclEzOEMtX1hRYk4zTXhVTU9TQ0tGUUwyc0JMRXlLVFRWM0J4NXA0NjRmUUxjOUNHV3BpYmZ3ZURvdXc0RGZacERWTnN6TURCM0JFck9iSm92TkJ2b0Z6Xy0?oc=5",
    "source": "FinanceBuzz",
    "date": "2026-10-06",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Sleep Number building data center could be $130M project - The Business Journals",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ3JscTdNTlFvWC0tTE1UbWZLYVFEdDdKVk9pWkRnTlRFQ2FrelFFY3V4cjVqbDYzMHhWbjd1dTFuc2hnVl9nYkRTenNPYnNrcUpKS0F6N3pDczNHbk1aeDhtRkFVM2pPNzcyVjVrZkp1bmZRd2U5V1dwdC1QOC1VUldva05ZSUYteGg5Qmkxa3BhOW9OTTI1WGZSMjBzbTlOZWR1NXhn?oc=5",
-   "source": "The Business Journals",
-   "date": "2026-10-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Goldman Sachs Research Analysis: Sovereign AI Unlocks a $500 Billion Market, Palantir Upgraded to Buy - 深潮TechFlow",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYTjctUDJwbVU1X1czT18xb25vUHhGZ2NCbVRoVlYwNWNuakFFSW5zdmI0LVV5alBNNWlYRHZla215bWtQMXRNd2c2QzJRRDVpX2tiY1NzLU1zUGJ0?oc=5",
-   "source": "深潮TechFlow",
-   "date": "2026-10-10",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -303,6 +279,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Maas Group Loses $340 Million After Firmus AI Data Center IPO Collapse - Startup Fortune",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0VYYUgtdmQ5eWZFZFZNVFlQWUx6RmNRYjV5Qmw4RGhYX04wM2ZvQjVha1Yyc3BUVklXV0pHX0JoUVZmZndobkw3bGR2TlpNUWtXUGVlNjJwWXM2OHlhSkROQS1LMjRIelJKdEtKSkFwYkg0a1pudmF3NzR1RlJHdDV5RUNZbDFUZGF2VzNYM0RwUnZsLUFvU1V2dFduQQ?oc=5",
+   "source": "Startup Fortune",
+   "date": "2026-10-12",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Locals Protest Google's $15 Billion AI Data Center in Andhra Pradesh - Ratopati",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM2xoUzg2QTV4bXF0QWZadGpmUFhmZmJmcDExM3dvZmZkQzF6NjEtYS1NeTVOUlZtbHBmcEstX3hIWW5GcVU2dWg4UWVoLU1LLWt1bjJGMEpid3pydDZDS0pxZ2hBM3dFM19zdVpZMFBKdER4X3ZGTGtSSllzRjFhN1BNQnBoZFItRTduSGctVllCYnR5VHFr?oc=5",
    "source": "Ratopati",
@@ -315,10 +303,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "FiveNines Group to develop 20 MW AI data center in Morocco - ET Datacenters",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxORmYxeVdnZzFrNkhITUZ5cnk4VzFFNk1KZnZ3YTF0YWhXT1BKZ1k3eHhGUGxjS1NfU29Kd0JYQXpiX25FcFk1aUh0d19rdGZQNWxFVFlDRnFzQlVwd1FXOEJKTDlScGkzT2JvNWVFQnJsX2FTdFdfUnEwZFVxMEFzR3hmLW5JWEMzM3ZlRFZQMi1kdlFVSThFaWE5YXluREhkaDlhaktLYXhxcUVsT2Q4cHBiZ2NIdkQzaTNhM1Z0UER0N3owRTR0dk0yaHA4VEVLbkFzM0YzMjV0WG9jT2g2VHE0OUJ4LWNjeGNTMDJIR1hVdWhlSjRWMWhUZG82aU1vVkcxTjhycDBSRkM4X3F5ZF90REtZTG9pTjlMMmhB0gHmAUFVX3lxTE45X21BOUI0dUFHblZHTmVlVkN6dVVoVXJ5RjJMTUNjZVgta0M4QUZrZDUzVndnX2NpR2pFMklEaGZYM2VoNE9FcE9qNVBVZjh5U01LSEtYc3otRGJnUDU5UmxXWThlWjBOS1hwbkJlZ1Y0M3VGYVd4MXUyUEhZallJZnJhMkd4UnlMUm5wR2MtUVI0emRuU1NLV1Z2TjY1dUJRMnJ3OG12dm5tRTVZSFRPX1pjcFR3eVJZLVdLbGFoWlZmemp1dmpIeGp6bjllU3hTQ0pVUmp1d21DMDNHMjd5allzcWd3?oc=5",
+   "title": "Google faces backlash over $15 billion India data center in Vizag - ET Datacenters",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOa2h0dXIzOV81OHNuTjhqUXlDOE9WRHREUkhCTE1CSk5RZVpfSjdienhqaUlMd1UwSGcyYnp6Ry1YNVZlS2p6YkM3MTdXOTdwTm1fT1BEYzVvUkdTUHFpdzYwdWFXRWlwbE9ENU9zc1MyV0ktZ201cHFfNjF6cng4TWRVZ0JyMThfNVlvdzJfRjZfbk1GOHEwdVl2YVpVWlBMcXFxWHBNcERISENFRm5pWmJWYndTeVgtQTRmR2hOdlBHVHdITkpGbkJPZXRGV1REWVlkd1Z0Z3FzaC1jOGRR0gHjAUFVX3lxTE9lYVZHbjdOUkRUdW1NMlotS2pER2t4Q1NVT3h1UWxCT2U3b01BUjVXSWRaOEpHWjMwTDRacVg4UnRyUHRRNm1Na2oweFFtejA3X202N21JamlwM2I2emRZbUwtMVIzSl93MDh6UkdCSzZQQS1neTJqd2lUX0ZYWEdkaVNZejdtYWdYMnQtYjhWX1JrY0dOYU9PR1l2SllxR2FXSEx1N1VWTmVla0ZmanQyWjBobjQ5MTFuTFA5emhVOFdXeVlVMHNiSTkydDFfTHNoMjNxNFZEZk1hbS1fOU1tNExZ?oc=5",
    "source": "ET Datacenters",
-   "date": "2026-10-09",
+   "date": "2026-10-12",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -331,6 +319,18 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0pYNlBpUmg5NFpIM1ViX0JNQ1U2NklwTTFvR1FjVGtNc19faVlJdlMzczBNWFA2bjVtQW1DaU1kSXJ5ZHpMbjhETE5uNks0Zm10NVBIYTBUbVNFSERBeXVidjNWMDRjeFMya2FtZmM4ZEhhX1U4anFOSFpSdHN4Uw?oc=5",
    "source": "Yahoo",
    "date": "2026-10-08",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "AI Data Center Water & Cooling Compliance Market Size Worth USD 35.22 Billion by 2034 | CAGR of 20.8% - openPR.com",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb3RNZGVNUjIweWI2TVE0ZVU4ZFFUck1NclpZaEpfVW11bzRfM092Zm9rNzZnN1FWUnQweDFSN2x3eUE1Y21yU01aVFVJZzVrSEU5SlpFMUM4UFVZY2FOdEJqenQ5UVBDY2xZY0U3dDV3ZWw3XzJHX29tVFQ2Smt6Z2o2a2dHT2JqdUdrZHQtRkdhckF0QVVvQ3FFSGNYQQ?oc=5",
+   "source": "openPR.com",
+   "date": "2026-10-12",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -387,8 +387,8 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Greenko-promoted AM Intelligence orders 20,000 NVIDIA Rubin GPUs for India, Malaysia; targets 400 MW AI... - Moneycontrol.com",
-   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOZF9PTGJlb0wtdFZsM05JVHkxZGhxN3p2MThMYmhTbHVoWmZoQ09MRWZiNkxkXzZFcVJzUmJrclcwcDVhQmExODFiRlBpZHgxMXJJYk43ajgtSGN5NWZpQmhBRUdjdjJNa0VMZnZOTjZrY3hkSHF1TTJZY3ZzVWJtU19oazFGaEY0RDlnV1ZXenhrX182S2FJc1d4ZjNrRzdvSW93S0VKX2VEX29MWS1WRC1KbElQdXI4aEhwTjV4X1ZxdjI5eVQzZ1dmbFlrQVRVbC13czQ4MnJPeVNTM1R4TG9jeUhxVFdjWUlHTUZKblU4dTZIOFlLdDFkUVV5ZGV5OF9ZU19VLXAwQUhzRWU4Tm9PQkcyQ3gyZEV2UmJTTGlsSTNO0gGqAkFVX3lxTFBZeFFzcXJwaUthOGRfWThua1FIc1JsNTlZS0N6WHp5bHdBcGdmbmFwWmR5Z2dPZjB2MHJWbWZScU9VcWt3VFZUVDZDeVdvUmRFcldCaUUzbTRKS1liY0NVbGROX0VjazY3eWNhNEZLQVl4dVdjNGlFczhMUTF6YUpjQVpISk9xREx6SHpQRHJ2TjhQVDhndUpGUWNVOXJQWTVtOVU0M012VzJwQUdaSl80N1FQQVhYeGt6eWlyb3JqMUNhNjNxc1U3QzF4VGgyY1N3RkdoTHhhMERKQUNQZURtblAxMmZoN2tuRzhxTmxzLUFDWmw5YWM1MERacnUzSnZYTUdsNjVnSXNWV3FVSmQwQkxMdzRHUXZSZ0JrODY2QUdzMnNHTzJXX1E?oc=5",
+   "title": "Greenko-promoted AM Intelligence orders 20,000 NVIDIA Rubin GPUs for India, Malaysia; targets 400 MW AI compute pipeline - Moneycontrol.com",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOZF9PTGJlb0wtdFZsM05JVHkxZGhxN3p2MThMYmhTbHVoWmZoQ09MRWZiNkxkXzZFcVJzUmJrclcwcDVhQmExODFiRlBpZHgxMXJJYk43ajgtSGN5NWZpQmhBRUdjdjJNa0VMZnZOTjZrY3hkSHF1TTJZY3ZzVWJtU19oazFGaEY0RDlnV1ZXenhrX182S2FJc1d4ZjNrRzdvSW93S0VKX2VEX29MWS1WRC1KbElQdXI4aEhwTjV4X1ZxdjI5eVQzZ1dmbFlrQVRVbC13czQ4MnJPeVNTM1R4TG9jeUhxVFdjWUlHTUZKblU4dTZIOFlLdDFkUVV5ZGV5OF9ZU19VLXAwQUhzRWU4Tm9PQkcyQ3gyZEV2UmJTTGlsSTNO?oc=5",
    "source": "Moneycontrol.com",
    "date": "2026-10-05",
    "via": "gnews",
@@ -411,10 +411,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Samsung Makes $1b AI Infrastructure Bet on Helix Digital Infrastructure - www.techbarrista.com",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wMVVyVDZmMG9fT1ZHb2dTYjJLTXhHc0RFZWpRMmFDQ1lheEZWUmRfcG1VR0cyTnA2NjBseUhCS0Q4VHpCWTFtbWQwT25NblNOZlg5SXRKd0ZUNkU4SlAyQUdidmlER25GM0lxU1JzU3p3TkRQYU9ydlJBTW4?oc=5",
-   "source": "www.techbarrista.com",
-   "date": "2026-10-04",
+   "title": "AI cloud firm CoreWeave enters India, plans 240 MW data centre in Navi Mumbai with AdaniConneX - Indian Startup News",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaVozSzRRQjMwNmd5Mk5pMkNFa1puRGV3VFpuUzhVNXRDSEZiRlhnSFNyMzhyV0VKekVuS2dLRk5CVzZfcXpmNHFQQUFxeEJtWDhPMmtQYm01WmdtYzRwUmJKZk9DcnItUGNsSkFybXhWcXcwZndwSmZlZjFDN0o5TFpDeVUyV2ZBUmtFRFNuU0I3WTE4RmlEUTg5cmFEal9Ed3RSWndDRlFMN1FrQlZpcWFleFZqNnE3NHpWX3drUkh3SUhnczVac3JfZ1ZJM25aZHkw0gHTAUFVX3lxTE5pWjNLNFFCMzA2Z3kyTmkyQ0VrWm5EZXdUWm5TOFU1dENIRmJGWGdIU3IzOHJXRUp6RW5LZ0tGTkJXNl9xemY0cVBBQXF4Qm1YOE8ya1BibTVaZ21jNHBSYkpmT0Nyci1QY2xKQXJteFZxdzBmd3BKZmVmMUM3SjlMWkN5VTJXZkFSa0VEU25TQjdZMThGaURRODlyYURqX0R3dFJad0NGUUw3UWtCVmlxYWV4Vmo2cTc0elZfd2tSSHdJSGdzNVpzcl9nVkkzblpkeTA?oc=5",
+   "source": "Indian Startup News",
+   "date": "2026-10-10",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "TeraWulf Expands Kentucky Data Center Power Commitment to 1 GW - ConstructConnect News",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObGduNnhMWUtIeGl0c0FNR3ZKdFVWR0Y1T1pGRHR4OXNaYk5FdmpzcTd1cEs3TmZUOE5xRE0tZG1OTFFWcTdjcFFSdm9nSEQ0WkQ0QmZQbWdHSmVVT1BGLXFnaWtibzZsSmNxOTllWHpXRHhKQjhJeUVJYjRJWEFNOHhSdDRpekhLM0lyLXNoaXI4UUNYZ0RPZmEwVlpMbFlxbWxKQk9pQXpnZVps0gGsAUFVX3lxTE5sZ242eExZS0h4aXRzQU1Hdkp0VVZHRjVPWkZEdHg5c1piTkV2anNxN3VwSzdOZlQ4TnFETS1kbU5MUVZxN2NwUVJ2b2dIRDRaRDRCZlBtZ0dKZVVPUEYtcWdpa2JvNmxKY3E5OWVYeldEeEpCOEl5RUliNElYQU04eFJ0NGl6SEszSXItc2hpcjhRQ1hnRE9mYTBWWkxsWXFtbEpCT2lBemdlWmw?oc=5",
+   "source": "ConstructConnect News",
+   "date": "2026-10-12",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -427,18 +439,6 @@
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTkpzYVIyam5wRXFHS0lyci1DeXc4NGVPYld1NUxzYUl6V08xOVJCQ2lNNVQ2OGc0ZDFBOU9oVnpkTE4tNWs5a00zZFhPSFg5bHF0WjhSd294dnhlQlp5bTdXWnFuZ0FhMHVuN1BDcHlrbmtYSXB5V2lQZ2tLLUZIOXM2aUJUdFlMR2ExWi1fSGw5ZlM2Q2FLV1RBbEJoWENnb29vdFBjQl92X0FDWmI3ZThkVVN6WlhSY2c0ZThDR3hiT3oxTW1qWtIBzAFBVV95cUxQd1VKcjlXTXVwdTNuR1BJWi0xVnFDU0VvemVobUZSNERrMEdkZmVzR1c1OUlMMzExaXpVQmNzWkY3RXhIMFhPQ1p3Um52a2F2R3BTazhkZGNOeXlYYVRVYlJLSEhEZDVmTm5pbFFGNkFrcWZVTXdFNUt5TGZLQ2NGUXBKbUlZcGExbl8tV2h5cGNqLWtadDJlYjVKY2NGbGcxSVVSRmRaWlpIV0JySm8zcHZiR0hjUVY5MmpLLUtoWndSTUNMekZ3VXp6bDg?oc=5",
    "source": "ET Datacenters",
    "date": "2026-10-07",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Sesterce to invest up to EUR 10 bln in AI campus at old industrial site in Finland with up to 600 MW capacity - Telecompaper",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZzFqdHdxeW9iU1lxOFNJODZfV3NGc3pIY05HZXY5eWZ6eUJDV3BaTzVFT2ZZbjRQcnhwSl9aRDdJWF9jZm02VmFrM2JvYjRVR3ZaYVFfQWx0RzJXM21kcHhUTjJ3U09vQVVLTFlTQnA2Qk1LeEc4V1UyazF0WG93alNVLUEwNnBXdTlBRHFicWZiNGh1UUh2cTZnLTlHYjlyVEJBSWJtUVdvd0RkSW1rUklXSG05LURNbV9sNVNvdkhWRkFvZzVYN0xyUmREMW9HNF9YWjVmU3lHY1dQRmhVcWxoYVRsMk0?oc=5",
-   "source": "Telecompaper",
-   "date": "2026-10-08",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -467,18 +467,6 @@
    "country_hint": "",
    "tier": 4,
    "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Blue Cloud Softech Signs Three - Year MoU With Senegal Ministry , GCIB For Africa",
-   "url": "https://www.freepressjournal.in/business/blue-cloud-softech-signs-three-year-mou-with-senegal-ministry-gcib-for-africa",
-   "source": "freepressjournal.in",
-   "date": "2026-10-08",
-   "via": "gdelt",
-   "country_hint": "India",
-   "tier": 4,
-   "prescore": 39,
    "corroboration": "Single-source",
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
@@ -543,10 +531,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Applied Digital Pushes Into Europe With 1-Gigawatt Finland Power Deal - BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xazk4NnFXai14S2NsZk5STWZVRTJtX1ppTUxZZ1FYV1lsY0xhLVZ1blFRdjgzZTdndzdNRHVLSGl5RWJSVV9uVWJTM2Iya0pabTVZMHJUMjZtUzVnbDlLRER6QlF5UlZYaS16V2ZxbWIzT21zVUE?oc=5",
+   "title": "AMD-Backed MangoBoost Takes Aim at Nvidia's Inference Market with 'AI Factory' - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5RlE5b2gtbDlCWDRWNGZGNkZuU0JHUmw2cXVJcFNDTDFGX3locnN2ZmQxTFMzSnpVSHZlZW1jUS1qQlhwb2xlSGQtaVhPa2U0aWJ4eHZhVVBIdE51TWx5TGx4TThZanVvNHNycFBFYUpLNHZWN3c?oc=5",
    "source": "BigGo Finance",
-   "date": "2026-10-07",
+   "date": "2026-10-12",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -583,6 +571,18 @@
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcjctRWMwdmQ5dXh2ckZzVmUtTU1SdlJsUVRSRUtlSzBOcG1qMFN2OGZXbWY3Ynl5VmNHbDJFOXVQX3c4Q0lxNWN5MU5BNGFxU05zNUp4ZGJlTjlnbms2Um12QnN1aUVWRnQ4QzRDRHB0bnY1NkhMTW9oMjZnY2FpUlp5UkFDa3lxcV9xMF95SDhrNHQzM1B6RXFCQVpEVlNWYzgyWG1wRGdaeTAzSXpuMFc1NlpuenN4NExBaVAyUlBxY3VWYnpOSUJPWkpFNVYxOE40?oc=5",
    "source": "Lelezard",
    "date": "2026-10-07",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Applied Digital Plugs Into Hyperscaler Buyout Bids - MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVHI2eVNDVGRpQURKVnFwdDJFZjNRVXgwdVIyRUZvdV9CeE1xUEg3UUdDV0xoUnBJY2NUTlE0TVdCV1I1a1hqZmRkaVVHbXg2RThIYU9HRDlBOUQxNE9IZUlDYVhWcmpId0hNQlQ1bnVXWVV1a0dHbW4wY3g2NzBBU3JadHViOWRzVHNRTjRaSjQ?oc=5",
+   "source": "MarketBeat",
+   "date": "2026-10-12",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -651,22 +651,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Nvidia-backed Reflection AI prepares first open-weight model launch - Dealroom",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeDdUMl9IVDhvZDZCR0RHX3NTX0dqQ1J5a3UwdEd6MjZneTB3bWZzYlJMOFZuNmJGWkFQOHJWUHlyTjNPOGN1VVlCTVYxOWNZb3hzczdmM0pLMkxUMzdfM2NwN0dZcUd6T296TTA5V1JPQ0RvaFZIQXpqM1NGUkZXcFJtUXF1eUVQM1Q3dzBJbHh3LUlFaW91U013eFlEel9OZmo0?oc=5",
-   "source": "Dealroom",
-   "date": "2026-10-04",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "NTT Data opens Munich AI factory for production-scale workload testing - Telecompaper",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZGxwWFJmZ0MtMXdBQjdpR21nX3otWmZFZVFKT2E2bXFYZkVvLXVsVFU1RFlQS1hhal9JeDRBdmIzRjljZlNlRE8xTHloOHFTcjhmeHFQZHdnTmx3YUZoSDhYaUxNb1YzZkh6eFRIN3ljSGVTZHpjaXV5TmhVZVp4eTl4MmVoa0dySVJxa0FQVlNSM2dZa3ZnMm1yVGgxRlpOOUd1VGNna0ExczQ3T3I3T1NDNA?oc=5",
-   "source": "Telecompaper",
-   "date": "2026-10-08",
+   "title": "Applied Digital Pushes Into Europe With 1-Gigawatt Finland Power Deal - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xazk4NnFXai14S2NsZk5STWZVRTJtX1ppTUxZZ1FYV1lsY0xhLVZ1blFRdjgzZTdndzdNRHVLSGl5RWJSVV9uVWJTM2Iya0pabTVZMHJUMjZtUzVnbDlLRER6QlF5UlZYaS16V2ZxbWIzT21zVUE?oc=5",
+   "source": "BigGo Finance",
+   "date": "2026-10-07",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -711,10 +699,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "SiPearl and Quobly explore CPU-QPU integration for sovereign quantum computing - Scientific Computing World",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdXBLNG1rTHpESUhtV3JReUQxeEo2TUdhZ2lYUVhtcndKUG9YdklnNzM4YVY2LU9Vc2h0YzJmRmNaU0g4RTQwZjAycTJMaGhOUm5PaDdIS2dtcWRMTWtaU0NLSG1ySmpVVVFWSFVuRnRMWmFFa3paNVdqVTYxamJMSFNJQmxEUXg5Nk94cUt4WTV1STBUQmFtS1NaV0w5WlFwbDhRd01qZ2haN1ZNS1VxemR6NlZVQQ?oc=5",
-   "source": "Scientific Computing World",
-   "date": "2026-10-09",
+   "title": "GBM launches the UAE’s first AI lab powered by Cisco Secure AI Factory with NVIDIA - Zawya",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMmFGX2FGR1E2X0cySWxnWG9RQTQxSDlQQ1FGRHUtczFIM3RnZXV6SDFUdkd2eWpUVklvR3VHaUtRbmtBa1kyNG85bV9XLVc0UHZ0VEREVHgzaDdpMkQwZDcxWDc2NXNBeTVYaTBsNEowWlRnRkpTUUw3Z2VoeGQtOUhhQkw3Snd0b2J0M015aFdfdy0yWXpJaGxtX3pzVkRfY3c4WnVvdFpXVDBEWE10clhxUjZlcHh3b2ZMbVdQUWVoeFNYOHRma05GN0k3VlBnRU05VE85TkJBa1U?oc=5",
+   "source": "Zawya",
+   "date": "2026-10-07",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "BW Stock Edges Higher Overnight: Babcock & Wilcox Signs Agreement With Siemens Energy On 20 Steam Turbines - Stocktwits",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNQ0otYkNmMTdRYmFCc1BJR2lwbGpzVlFZSTBTWTAtcXFZY2RacTA5V2wwYlRvSXVObVlrS0FfSkNDeVktdXpnaEp0VTBHN3NtdHpZc2EwQ1pzWUI1S3hFYThOTzExNVFlNzVOVGlnSFBSMXByUjZNMnprTHl2UUtYdmtDVm1XWXlJQWc0Nk1IY1VVT0ppZXRUYlRMNGl5T0JfYmx3d1FOTjV0SXNUZndpYWRXcEUwVXRjcGdlZUJxek1pNXItUW9YOVh3OGRncTBtQTBxQmp3UzZSZFR1U2ZLejBmZk54ZXRfeWpsaDg0QXQyOHhyLVJvXzNpVFBLQk8y?oc=5",
+   "source": "Stocktwits",
+   "date": "2026-10-11",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
