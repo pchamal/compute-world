@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "id": "ferc-pjm-large-load-registry-iras-rejected-er26-3515-2026-10-09",
+      "date": "2026-10-09",
+      "title": "FERC accepts PJM's 50 MW Large Load definition and registry, rejects the interim curtailment service for new large loads",
+      "summary": "On 9 October 2026 FERC issued its order in Docket ER26-3515 (197 FERC 61,019) accepting PJM Interconnection's definition of a Large Load, end-use load with a cumulative peak of 50 MW or more at a single electrical site (affiliated facilities within a one-mile radius count as one site), and a Large Load Registry under which load-serving entities report each large load's location, peak, ramp schedule and backup generation, effective 12 October 2026. FERC rejected the rest of PJM's 13 August filing as one package: the Interim Resource Adequacy Service that could have curtailed new large loads lacking new capacity in emergencies, the Bring Your Own New Capacity rules, and the plan to drop uncovered new large load from the capacity demand curve from the 2029/2030 delivery year. FERC said parts of the tariff appeared to intrude on retail rate regulation. PJM must make a compliance filing within 30 days; Commissioner Rosner concurred separately. No megawatt is added: PJM says its 2028/2029 auction cleared about 6.8 GW short of the reliability requirement. Country conversion: the largest US grid now tracks every 50 MW data center site, but new AI load will not face mandatory early curtailment for now.",
+      "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_Number=20261009-3055",
+      "source": "FERC eLibrary accession 20261009-3055 (Order, ER26-3515-000); Headwaters Wire 9 Oct; The Duck Curve 10 Oct",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "score": 86
+    },
+    {
+      "id": "sesterce-kaipola-jamsa-200mw-600mw-anchor-2026-10-08",
+      "date": "2026-10-08",
+      "title": "Sesterce plans a EUR 10bn-plus AI campus at the former Kaipola paper mill in Jamsa, Finland: 200 MW first phase, 600 MW second, anchor customer signed",
+      "summary": "On 8 October 2026 French AI infrastructure company Sesterce announced a planned investment of over EUR 10 billion in a Sesterce Campus at the former Kaipola paper mill in Jamsa, Central Finland. The first phase, with works planned to start in 2026, is 200 MW, rising to 600 MW in a second phase; Sesterce aims for more than 1 GW of AI capacity in Finland over time. Sesterce says it already has an anchor customer; its CEO told Yle the investment decision is made and a contract is signed with one of the two leading AI labs, without naming it or the financial backers. Grid operator Elenia says the site's high-voltage connection is a solid foundation for the first phase. Sesterce does not yet own the site (seller Kaipola Green Port says talks are advanced), and Jamsa notes permits are still outstanding. Country conversion: a second large AI campus with a signed frontier-lab anchor lands in Finland in the same week as Applied Digital's Finnish power access.",
+      "url": "https://www.sesterce.com/newsroom/sesterce-plans-ai-campus-kaipola-jamsa-finland",
+      "source": "Sesterce newsroom 8 Oct; Yle News 8 Oct (CEO confirmation of signed client); City of Jamsa release",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "FIN"
+      ],
+      "flags": "🇫🇮",
+      "tags": [
+        "Build",
+        "Capital",
+        "Energy"
+      ],
+      "score": 76
+    },
+    {
+      "id": "iurc-aes-indiana-google-monrovia-390mw-2026-10-07",
+      "date": "2026-10-07",
+      "title": "Indiana regulators approve AES Indiana's large-load plan to serve Google's 390 MW Monrovia data center",
+      "summary": "On 7 October 2026 the Indiana Utility Regulatory Commission unanimously approved AES Indiana's large-load growth plan supporting Google's data center in Morgan County (Monrovia), the first data center filed under Indiana's 2025 large-load law (HEA 1007). The project includes solar, two battery storage systems and lines to serve a 390 MW Google facility; WFYI reports total project cost of $737.3 million and AES's estimated infrastructure investment of $1.3 billion. AES says Google's rates cover 100% of energy, infrastructure, transmission and generation costs, with an 80% minimum demand obligation and a contract of at least 15 years; the order still lets $73.8 million of network upgrades go into transmission rate base, which the Citizens Action Coalition opposed. AES estimates about $770 million in customer savings. Country conversion: a state commission converts a 390 MW hyperscale load into an approved, ratepayer-ring-fenced utility build in MISO.",
+      "url": "https://www.pressreleasepoint.com/iurc-approves-customer-protected-growth-plan-serve-large-load-investment-delivering-estimated-770",
+      "source": "AES Indiana release 7 Oct; WFYI 12 Oct; Indianapolis Business Journal",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Policy",
+        "Build"
+      ],
+      "score": 80
+    },
+    {
       "id": "applied-digital-finland-1gw-potential-2026-10-06",
       "date": "2026-10-06",
       "title": "Applied Digital secures access to up to 1 GW of potential power in Finland for its first non-US AI Factory campus",
@@ -1675,6 +1734,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-09",
-  "note": "Wire refresh 2026-10-09: added darkhorse-hopkinsville-50mw-hes-2026-10-06, applied-digital-finland-1gw-potential-2026-10-06. AWS Capacity Blocks live table now prints the 7 Oct banner rates (5 AWS ticks); DigitalOcean AMD spot MI355X and MI350X also ticked. AZIO Atlas One 10 MW hosting and Bitdeer A901 Malaysia chatter stay Signal only."
+  "updated": "2026-10-12",
+  "note": "Wire refresh 2026-10-12: added ferc-pjm-large-load-registry-iras-rejected-er26-3515-2026-10-09, sesterce-kaipola-jamsa-200mw-600mw-anchor-2026-10-08, iurc-aes-indiana-google-monrovia-390mw-2026-10-07. Tape: DigitalOcean B300 spot $8.00 to $6.17 (only tick; 68 confirms). NVIDIA OCP Vera Rubin / Open Data Center / Grid Resilience specs, PJM first Capacity Advisory, VivoPower Mo i Rana 40 MW mobilization and Malaysia Budget 2027 Sovereign AI Cloud stay Signal only."
 }

@@ -1,39 +1,39 @@
 {
-  "updated": "2026-10-09",
-  "title": "Compute brief - 9 October 2026",
-  "description": "AWS Capacity Blocks live table finally prints the 7 Oct banner rates (five AWS ticks). DigitalOcean AMD spot MI355X and MI350X also jump. Two Wire ids: Applied Digital secures access to up to 1 GW of potential power in Finland; DarkHorse signs up to 50 MW with Hopkinsville Electric System in Kentucky. Tape: 62 confirms, 7 ticks, 0 NEW.",
-  "og_kicker": "AWS CB table ticks; APLD Finland; DarkHorse KY",
-  "lede": "Friday's tape finally moves. The AWS Capacity Blocks live table now prints the rates that sat in the banner since 7 Oct: P5 $5.970 (was $5.191), P5e $6.866, P5en $7.895, P6-B200 $14.208, and P6-B300 $16.146. DigitalOcean AMD spot also jumped, with MI355X at $5.50 (was $2.97) and MI350X at $3.50 (was $2.46). On conversion, Applied Digital locked access to up to 1 GW of potential power in Finland for a first non-US AI Factory campus (initial power from 2028, counterparty unnamed), and DarkHorse signed up to 50 MW with Hopkinsville Electric System for a new Kentucky superintelligence factory, doubling its TVA-region contracted power to about 100 MW. The rest of the public rental tape is a confirm session: 62 confirms, 7 ticks, 0 NEW across Lambda, CoreWeave NA and EU, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks.",
+  "updated": "2026-10-12",
+  "title": "Compute brief - 12 October 2026",
+  "description": "FERC keeps PJM's 50 MW large-load registry but rejects mandatory early curtailment of new data centers. Sesterce plans a EUR 10bn-plus, 200 to 600 MW AI campus in Jamsa, Finland with a signed anchor. Indiana approves AES's plan to serve Google's 390 MW Monrovia site. DigitalOcean B300 spot drops to $6.17. Tape: 68 confirms, 1 tick, 0 NEW.",
+  "og_kicker": "FERC/PJM registry; Sesterce Finland; IURC Google 390 MW",
+  "lede": "The grid rules moved more than prices over the long weekend. On 9 Oct FERC accepted PJM's 50 MW Large Load definition and registry, effective today, but rejected the interim service that would have let PJM curtail new data centers early in emergencies, so new AI load in the largest US market avoids forced early curtailment for now while PJM still runs about 6.8 GW short. In Finland, Sesterce plans a EUR 10bn-plus AI campus at the former Kaipola paper mill in Jamsa (200 MW first phase, 600 MW second) and says a contract with one of the two leading AI labs is signed. Indiana regulators approved AES Indiana's plan to serve Google's 390 MW Monrovia data center, the first under the state's large-load law. On the tape, DigitalOcean B300 spot fell to $6.17 from $8.00, now below its $7.94 12-month reserved rate; everything else confirmed: 68 confirms, 1 tick, 0 NEW.",
   "countries": [
     {
-      "id": "fin-applied-digital-1gw",
+      "id": "usa-ferc-pjm-registry",
+      "name": "United States / PJM",
+      "slug": "united-states",
+      "note": "FERC ER26-3515 (9 Oct): 50 MW Large Load definition and registry effective 12 Oct; IRAS curtailment, BYONC and demand-curve exclusion rejected; PJM compliance filing due in 30 days (Wire)."
+    },
+    {
+      "id": "fin-sesterce-kaipola",
       "name": "Finland",
       "slug": "finland",
-      "note": "Applied Digital access to up to 1 GW potential power for first non-US AI Factory campus; initial power from 2028; marketing to hyperscalers; counterparty unnamed (Wire, 6 Oct)."
+      "note": "Sesterce Kaipola, Jamsa: EUR 10bn-plus plan, 200 MW phase 1 (works from 2026), 600 MW phase 2; anchor client signed (unnamed top AI lab); site purchase and permits pending (Wire, 8 Oct)."
     },
     {
-      "id": "usa-darkhorse-hopkinsville-50mw",
-      "name": "United States / Kentucky",
+      "id": "usa-iurc-aes-google-monrovia",
+      "name": "United States / Indiana",
       "slug": "united-states",
-      "note": "DarkHorse up to 50 MW with Hopkinsville Electric System; funds 65 MW HES substation on TVA 161 kV; TVA-region contracted power to ~100 MW; permits pending (Wire, 6 Oct)."
+      "note": "IURC approves AES Indiana large-load plan for Google's 390 MW Monrovia site; 80% minimum demand; 15-year-plus contract; first under HEA 1007 (Wire, 7 Oct)."
     },
     {
-      "id": "usa-azio-atlas-one-10mw",
-      "name": "United States / Texas",
-      "slug": "united-states",
-      "note": "AZIO AI first Atlas One hosting agreement with Power Champion: 10 MW contracted, expansion rights to 50 MW; no capacity energized; export-control and infrastructure conditions (Signal, 9 Oct)."
+      "id": "nor-vivopower-mo-i-rana",
+      "name": "Norway",
+      "slug": "norway",
+      "note": "VivoPower mobilizes construction of a 40 MW first-phase AI conversion at Mo i Rana; preferred tenant selected, lease not signed (Signal, 12 Oct)."
     },
     {
-      "id": "ind-coreweave-adaniconnex-240mw",
-      "name": "India",
-      "slug": "india",
-      "note": "CoreWeave sole tenant of 3 x 80 MW at AdaniConneX Taloja, Navi Mumbai still the Asia neocloud headline from 7 Oct (Wire)."
-    },
-    {
-      "id": "usa-black-hills-google-cheyenne",
-      "name": "United States / Wyoming",
-      "slug": "united-states",
-      "note": "Black Hills definitive agreements through 2048 for Google's planned Cheyenne campus (Wire, 6 Oct); Wyoming PSC transmission CPCNs still pending."
+      "id": "mys-sovereign-ai-cloud",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "Budget 2027 (9 Oct): Sovereign AI Cloud 'now being planned', no size, site, cost or builder (Signal)."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 7 Oct print"
+      "note": "Confirm vs 9 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,21 +54,21 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 7 Oct print"
+      "note": "Confirm vs 9 Oct print"
     },
     {
       "id": "do-b300-spot",
       "name": "B300 HGX",
-      "display_usd": 8.0,
+      "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "prev_usd": 8.0,
-      "delta": 0.0,
-      "note": "Confirm vs 7 Oct print"
+      "delta": -1.83,
+      "note": "Tick vs 9 Oct $8.00"
     },
     {
       "id": "do-mi350x-spot",
@@ -76,10 +76,10 @@
       "display_usd": 3.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-09",
-      "prev_usd": 2.46,
-      "delta": 1.04,
-      "note": "Tick vs 7 Oct $2.46"
+      "as_of": "2026-10-12",
+      "prev_usd": 3.5,
+      "delta": 0.0,
+      "note": "Confirm vs 9 Oct print"
     },
     {
       "id": "do-mi355x-spot",
@@ -87,10 +87,10 @@
       "display_usd": 5.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-09",
-      "prev_usd": 2.97,
-      "delta": 2.53,
-      "note": "Tick vs 7 Oct $2.97"
+      "as_of": "2026-10-12",
+      "prev_usd": 5.5,
+      "delta": 0.0,
+      "note": "Confirm vs 9 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -98,10 +98,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 7 Oct print"
+      "note": "Confirm vs 9 Oct print"
     },
     {
       "id": "aws-cb-p5-va",
@@ -109,10 +109,10 @@
       "display_usd": 5.97,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-09",
-      "prev_usd": 5.191,
-      "delta": 0.779,
-      "note": "Tick vs 7 Oct $5.191"
+      "as_of": "2026-10-12",
+      "prev_usd": 5.97,
+      "delta": 0.0,
+      "note": "Confirm vs 9 Oct print"
     },
     {
       "id": "aws-cb-p6b300-va",
@@ -120,47 +120,47 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-09",
-      "prev_usd": 14.04,
-      "delta": 2.106,
-      "note": "Tick vs 7 Oct $14.04"
+      "as_of": "2026-10-12",
+      "prev_usd": 16.146,
+      "delta": 0.0,
+      "note": "Confirm vs 9 Oct print"
     }
   ],
   "watch": [
     {
-      "id": "aws-cb-follow",
-      "name": "AWS Capacity Blocks follow-through",
-      "note": "Live table now matches 7 Oct banner. Watch whether any neocloud on the public tape reprices within the week."
+      "id": "pjm-compliance",
+      "name": "PJM compliance filing (ER26-3515)",
+      "note": "Due within 30 days of 9 Oct; PJM also signalled section 205 filings on flexible large-load transmission service by early to mid November."
     },
     {
-      "id": "do-amd-spot",
-      "name": "DigitalOcean AMD spot",
-      "note": "MI355X $5.50 and MI350X $3.50 after multi-day confirms at $2.97/$2.46; spot can reverse; re-read Mon."
+      "id": "pjm-capacity-advisory",
+      "name": "PJM Capacity Advisory 12-13 Oct",
+      "note": "First use of the new procedure; forecast peaks about 102 GW and 104 GW against about 70 GW of scheduled outages (reported)."
     },
     {
-      "id": "applied-digital-finland",
-      "name": "Applied Digital Finland counterparty",
-      "note": "Access agreement named; site, utility, tenant, and FID still open. Watch next IR / 8-K."
+      "id": "ocp-summit",
+      "name": "OCP Global Summit (12-15 Oct)",
+      "note": "NVIDIA Vera Rubin MGX contributions, Open Data Center Spec v0.7 and Grid Resilience Spec; watch hyperscaler adoption statements."
     },
     {
-      "id": "alabama-psc-applied-digital",
-      "name": "Alabama PSC power vote (Brookwood)",
-      "note": "Council backed TCEDA on 6 Oct; PSC vote on the Alabama Power agreement expected within weeks."
+      "id": "do-b300-spot",
+      "name": "DigitalOcean B300 spot",
+      "note": "$6.17 now below $7.94 12-month reserved; spot can reverse. Re-read next session."
     },
     {
-      "id": "nuai-lc",
-      "name": "NUAI $116M LC post",
-      "note": "15-business-day clock from 18 Sep PPA ran to about 9 Oct; still watch for confirmation."
+      "id": "sesterce-kaipola",
+      "name": "Sesterce Kaipola close",
+      "note": "Site purchase from Kaipola Green Port, financing partners, permits, and naming of the AI-lab anchor."
     },
     {
       "id": "ercot-rfi",
       "name": "ERCOT large-load RFI",
-      "note": "State and Community Impact responses due 5pm CPT Mon 12 Oct."
+      "note": "State and Community Impact responses due 5pm CPT today, 12 Oct."
     },
     {
       "id": "tceq-compliance-update",
       "name": "TCEQ Abbott directive update",
-      "note": "Compliance update due 19 Oct; pause has no stated end date."
+      "note": "Compliance update due 19 Oct; permit pause has no stated end date."
     },
     {
       "id": "fermi-tensorwave-close",
@@ -168,41 +168,51 @@
       "note": "Deadline 31 Oct; investment-grade guaranty still not named."
     },
     {
-      "id": "wyoming-psc-black-hills",
-      "name": "Wyoming PSC transmission CPCNs",
-      "note": "South Cheyenne Transmission Expansion CPCN pending; statewide transmission CPCN to be filed Q4 2026."
+      "id": "alabama-psc-applied-digital",
+      "name": "Alabama PSC power vote (Brookwood)",
+      "note": "PSC vote on the Alabama Power agreement expected within weeks."
     },
     {
-      "id": "azio-atlas-one",
-      "name": "AZIO Atlas One energization",
-      "note": "10 MW hosting signed; commencement needs site qualification, BIS export approvals for Power Champion, and generation."
+      "id": "wisconsin-psc-oracle",
+      "name": "Wisconsin PSC: Oracle Point Beach subscription",
+      "note": "We Energies to file full details in coming months; primary discloses no MW."
     }
   ],
   "sources": [
     {
-      "name": "Applied Digital Finland 1 GW (APLD IR)",
-      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/162/applied-digital-secures-up-to-1-gw-of-potential-power",
-      "note": "Wire: up to 1 GW potential power; first non-US campus; initial power 2028."
+      "name": "FERC order ER26-3515 (eLibrary 20261009-3055)",
+      "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_Number=20261009-3055",
+      "note": "Wire: registry accepted, IRAS rejected."
     },
     {
-      "name": "DarkHorse Hopkinsville 50 MW (Newsfile)",
-      "url": "https://www2.newsfilecorp.com/release/317541/DarkHorse-Signs-New-50-MW-Power-Contract-Doubling-Contracted-Capacity-to-Approximately-100-MW-in-the-TVA-Region",
-      "note": "Wire: up to 50 MW HES; 65 MW substation; TVA region ~100 MW."
+      "name": "Sesterce Kaipola campus (newsroom)",
+      "url": "https://www.sesterce.com/newsroom/sesterce-plans-ai-campus-kaipola-jamsa-finland",
+      "note": "Wire: 200 MW to 600 MW; anchor customer."
     },
     {
-      "name": "AZIO Atlas One hosting (GlobeNewswire syndication)",
-      "url": "https://financialpost.com/globe-newswire/azio-ai-signs-first-hosting-agreement-at-atlas-one-with-power-champion-10-mw-contracted-with-expansion-rights-to-50-mw-representing-up-to-approximately-450-million-in-capacity-reservation-charges",
-      "note": "Signal: 10 MW hosting; expansion to 50 MW; not energized."
+      "name": "Yle News on Sesterce",
+      "url": "https://yle.fi/a/74-20250471",
+      "note": "CEO: investment decision made, contract signed with a top AI lab."
     },
     {
-      "name": "AWS Capacity Blocks pricing",
-      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-      "note": "Live table now P5 $5.970 / P6-B200 $14.208 / P6-B300 $16.146."
+      "name": "AES Indiana IURC approval",
+      "url": "https://www.pressreleasepoint.com/iurc-approves-customer-protected-growth-plan-serve-large-load-investment-delivering-estimated-770",
+      "note": "Wire: Google Morgan County plan approved 7 Oct."
+    },
+    {
+      "name": "WFYI on Monrovia approval",
+      "url": "https://www.wfyi.org/statewide/2026-10-12/indiana-approves-aes-plan-to-power-google-data-center-in-monrovia",
+      "note": "390 MW; $737.3M project cost; $73.8M network upgrades in rate base."
+    },
+    {
+      "name": "NVIDIA OCP Global Summit blog",
+      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+      "note": "Signal: MGX 1.2 up to 250 kW; Open Data Center Spec v0.7; Grid Resilience Spec."
     },
     {
       "name": "DigitalOcean GPU Droplets pricing",
       "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "B300 spot $8.00; MI355X spot $5.50; MI350X spot $3.50."
+      "note": "B300 spot $6.17 (was $8.00); MI355X $5.50; MI350X $3.50."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -210,14 +220,14 @@
       "note": "H100 $3.99 / B200 $6.69 / GH200 $2.29 confirm."
     },
     {
+      "name": "AWS Capacity Blocks pricing",
+      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
+      "note": "P5 $5.970 / P6-B200 $14.208 / P6-B300 $16.146 confirm."
+    },
+    {
       "name": "CoreWeave Cloud pricing",
       "url": "https://www.coreweave.com/pricing",
       "note": "HTTP 200; NA+EU confirms."
-    },
-    {
-      "name": "PUCT 58481 Interchange",
-      "url": "https://interchange.puc.texas.gov/search/filings/?ControlNumber=58481&DocumentType=ALL&SortBy=ItemNumber&SortOrder=Descending&UtilityType=E",
-      "note": "16 TAC 25.194 effective 8 Oct."
     }
   ]
 }
