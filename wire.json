@@ -1,6 +1,25 @@
 {
   "items": [
     {
+      "id": "bitdeer-a103-cyberjaya-60mw-dca-2026-10-12",
+      "date": "2026-10-12",
+      "title": "Bitdeer AI locks an 8-year, 60 MW A103 AI Cloud facility at its Cyberjaya, Malaysia campus",
+      "summary": "On 12 October 2026 Bitdeer AI (Bitdeer Technologies Group, NASDAQ: BTDR) announced an 8-year data center services agreement for A103, a 60 MW (critical IT load) AI Cloud facility on the same Cyberjaya, Malaysia campus as A101 and A102. A103 is designed for liquid-cooled, rack-scale NVIDIA systems including the next-generation Vera Rubin platform, with energization expected in Q1 2028. With A103, the Cyberjaya campus is expected to reach about 71.5 MW, and Bitdeer AI's secured AI Cloud capacity (owned or under an executed DCA) rises to about 333.5 MW across Malaysia, Norway and the United States, or about 95% of its up-to-350 MW target for delivery by Q1 2028. An earlier 8 Oct GlobeNewswire version of the same headline was withdrawn the same day (notice to disregard). The company discloses no offtake commitments for A103 capacity as of the release. Country conversion: Malaysia gains another executed 60 MW AI Cloud shell on an existing campus that already has power, liquid cooling and network in place.",
+      "url": "https://markets.businessinsider.com/news/stocks/bitdeer-ai-expands-malaysia-campus-with-new-60mw-a103-facility-closing-in-on-up-to-350mw-global-capacity-target-1036618412",
+      "source": "Bitdeer / GlobeNewswire 12 Oct (Markets Insider syndication); Seeking Alpha 12 Oct; Oct 8 disregard notice on GlobeNewswire",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 72
+    },
+    {
       "id": "ferc-pjm-large-load-registry-iras-rejected-er26-3515-2026-10-09",
       "date": "2026-10-09",
       "title": "FERC accepts PJM's 50 MW Large Load definition and registry, rejects the interim curtailment service for new large loads",
@@ -1734,6 +1753,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-12",
-  "note": "Wire refresh 2026-10-12: added ferc-pjm-large-load-registry-iras-rejected-er26-3515-2026-10-09, sesterce-kaipola-jamsa-200mw-600mw-anchor-2026-10-08, iurc-aes-indiana-google-monrovia-390mw-2026-10-07. Tape: DigitalOcean B300 spot $8.00 to $6.17 (only tick; 68 confirms). NVIDIA OCP Vera Rubin / Open Data Center / Grid Resilience specs, PJM first Capacity Advisory, VivoPower Mo i Rana 40 MW mobilization and Malaysia Budget 2027 Sovereign AI Cloud stay Signal only."
+  "updated": "2026-10-13",
+  "note": "Wire refresh 2026-10-13: added bitdeer-a103-cyberjaya-60mw-dca-2026-10-12. Tape: confirm day, 69 confirms, 0 ticks, 0 NEW (history 2595 to 2666). Enerflex 1 GW-plus BTM gas award (unnamed North American data center), Fermi x AMD Matador credit support (222 MW phase one), and Nebius LOI at Volt Rotterdam stay Signal only."
 }

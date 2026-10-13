@@ -1,39 +1,39 @@
 {
-  "updated": "2026-10-12",
-  "title": "Compute brief - 12 October 2026",
-  "description": "FERC keeps PJM's 50 MW large-load registry but rejects mandatory early curtailment of new data centers. Sesterce plans a EUR 10bn-plus, 200 to 600 MW AI campus in Jamsa, Finland with a signed anchor. Indiana approves AES's plan to serve Google's 390 MW Monrovia site. DigitalOcean B300 spot drops to $6.17. Tape: 68 confirms, 1 tick, 0 NEW.",
-  "og_kicker": "FERC/PJM registry; Sesterce Finland; IURC Google 390 MW",
-  "lede": "The grid rules moved more than prices over the long weekend. On 9 Oct FERC accepted PJM's 50 MW Large Load definition and registry, effective today, but rejected the interim service that would have let PJM curtail new data centers early in emergencies, so new AI load in the largest US market avoids forced early curtailment for now while PJM still runs about 6.8 GW short. In Finland, Sesterce plans a EUR 10bn-plus AI campus at the former Kaipola paper mill in Jamsa (200 MW first phase, 600 MW second) and says a contract with one of the two leading AI labs is signed. Indiana regulators approved AES Indiana's plan to serve Google's 390 MW Monrovia data center, the first under the state's large-load law. On the tape, DigitalOcean B300 spot fell to $6.17 from $8.00, now below its $7.94 12-month reserved rate; everything else confirmed: 68 confirms, 1 tick, 0 NEW.",
+  "updated": "2026-10-13",
+  "title": "Compute brief - 13 October 2026",
+  "description": "Bitdeer AI locks an 8-year, 60 MW A103 AI Cloud facility at Cyberjaya, Malaysia, lifting secured capacity to about 333.5 MW. Silicon tape is a quiet confirm day: 69 confirms, 0 ticks, 0 NEW. Enerflex books 1 GW-plus behind-the-meter gas for an unnamed North American data center; Fermi signs AMD credit support on Matador phase one.",
+  "og_kicker": "Bitdeer A103 60 MW Malaysia; quiet tape",
+  "lede": "Bitdeer AI converted another Malaysia shell into an executed deal: an 8-year data center services agreement for A103, a 60 MW (critical IT load) AI Cloud facility on its existing Cyberjaya campus alongside A101 and A102, designed for liquid-cooled NVIDIA Vera Rubin racks with energization aimed at Q1 2028. Campus AI Cloud capacity is expected to reach about 71.5 MW; Bitdeer's secured capacity rises to about 333.5 MW (about 95% of its up-to-350 MW target). No A103 offtake is disclosed yet. On the public silicon tape every venue returned HTTP 200 and every print confirmed yesterday's levels: 69 confirms, 0 ticks, 0 NEW. Separately, Enerflex said it won over 1 GW of behind-the-meter natural-gas generation for a large North American data center (backlog now over 1.75 GW through 2028), and Fermi signed AMD credit support tied to its 222 MW Project Matador phase-one lease in Texas.",
   "countries": [
+    {
+      "id": "mys-bitdeer-a103",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "Bitdeer AI 8-year DCA for A103, 60 MW critical IT at Cyberjaya; campus to about 71.5 MW; secured capacity about 333.5 MW; energization Q1 2028; no offtake disclosed (Wire, 12 Oct)."
+    },
     {
       "id": "usa-ferc-pjm-registry",
       "name": "United States / PJM",
       "slug": "united-states",
-      "note": "FERC ER26-3515 (9 Oct): 50 MW Large Load definition and registry effective 12 Oct; IRAS curtailment, BYONC and demand-curve exclusion rejected; PJM compliance filing due in 30 days (Wire)."
+      "note": "FERC ER26-3515 registry effective 12 Oct still the binding US large-load rule of the week; PJM compliance filing due within 30 days of 9 Oct (Wire)."
     },
     {
       "id": "fin-sesterce-kaipola",
       "name": "Finland",
       "slug": "finland",
-      "note": "Sesterce Kaipola, Jamsa: EUR 10bn-plus plan, 200 MW phase 1 (works from 2026), 600 MW phase 2; anchor client signed (unnamed top AI lab); site purchase and permits pending (Wire, 8 Oct)."
+      "note": "Sesterce Kaipola, Jamsa: EUR 10bn-plus plan, 200 MW then 600 MW, signed unnamed AI-lab anchor; site purchase and permits pending (Wire, 8 Oct)."
     },
     {
-      "id": "usa-iurc-aes-google-monrovia",
-      "name": "United States / Indiana",
+      "id": "nld-nebius-volt-rotterdam",
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "note": "Nebius LOI for capacity at Volt's planned Rotterdam AI campus (developer ambition up to 600 MW; phase one two 100 MW buildings). Letter of intent only (Signal)."
+    },
+    {
+      "id": "usa-enerflex-btm",
+      "name": "United States / North America",
       "slug": "united-states",
-      "note": "IURC approves AES Indiana large-load plan for Google's 390 MW Monrovia site; 80% minimum demand; 15-year-plus contract; first under HEA 1007 (Wire, 7 Oct)."
-    },
-    {
-      "id": "nor-vivopower-mo-i-rana",
-      "name": "Norway",
-      "slug": "norway",
-      "note": "VivoPower mobilizes construction of a 40 MW first-phase AI conversion at Mo i Rana; preferred tenant selected, lease not signed (Signal, 12 Oct)."
-    },
-    {
-      "id": "mys-sovereign-ai-cloud",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Budget 2027 (9 Oct): Sovereign AI Cloud 'now being planned', no size, site, cost or builder (Signal)."
+      "note": "Enerflex awards over 1 GW behind-the-meter natural-gas generation for an unnamed large-scale North American data center; BTM backlog over 1.75 GW through 2028 (Signal, 13 Oct)."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 9 Oct print"
+      "note": "Confirm vs 12 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +54,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 9 Oct print"
+      "note": "Confirm vs 12 Oct print"
     },
     {
       "id": "do-b300-spot",
@@ -65,10 +65,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-12",
-      "prev_usd": 8.0,
-      "delta": -1.83,
-      "note": "Tick vs 9 Oct $8.00"
+      "as_of": "2026-10-13",
+      "prev_usd": 6.17,
+      "delta": 0.0,
+      "note": "Confirm vs 12 Oct print"
     },
     {
       "id": "do-mi350x-spot",
@@ -76,10 +76,10 @@
       "display_usd": 3.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "prev_usd": 3.5,
       "delta": 0.0,
-      "note": "Confirm vs 9 Oct print"
+      "note": "Confirm vs 12 Oct print"
     },
     {
       "id": "do-mi355x-spot",
@@ -87,10 +87,10 @@
       "display_usd": 5.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "prev_usd": 5.5,
       "delta": 0.0,
-      "note": "Confirm vs 9 Oct print"
+      "note": "Confirm vs 12 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -98,10 +98,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 9 Oct print"
+      "note": "Confirm vs 12 Oct print"
     },
     {
       "id": "aws-cb-p5-va",
@@ -109,10 +109,10 @@
       "display_usd": 5.97,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "prev_usd": 5.97,
       "delta": 0.0,
-      "note": "Confirm vs 9 Oct print"
+      "note": "Confirm vs 12 Oct print"
     },
     {
       "id": "aws-cb-p6b300-va",
@@ -120,42 +120,42 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 9 Oct print"
+      "note": "Confirm vs 12 Oct print"
     }
   ],
   "watch": [
     {
       "id": "pjm-compliance",
       "name": "PJM compliance filing (ER26-3515)",
-      "note": "Due within 30 days of 9 Oct; PJM also signalled section 205 filings on flexible large-load transmission service by early to mid November."
-    },
-    {
-      "id": "pjm-capacity-advisory",
-      "name": "PJM Capacity Advisory 12-13 Oct",
-      "note": "First use of the new procedure; forecast peaks about 102 GW and 104 GW against about 70 GW of scheduled outages (reported)."
+      "note": "Due within 30 days of 9 Oct (about 8 Nov); watch any voluntary refile of flexible large-load service."
     },
     {
       "id": "ocp-summit",
-      "name": "OCP Global Summit (12-15 Oct)",
-      "note": "NVIDIA Vera Rubin MGX contributions, Open Data Center Spec v0.7 and Grid Resilience Spec; watch hyperscaler adoption statements."
+      "name": "OCP Global Summit (through 15 Oct)",
+      "note": "Day 1 coverage live; watch hyperscaler adoption of Open Data Center Spec v0.7 and Grid Resilience Spec."
     },
     {
       "id": "do-b300-spot",
       "name": "DigitalOcean B300 spot",
-      "note": "$6.17 now below $7.94 12-month reserved; spot can reverse. Re-read next session."
+      "note": "Held $6.17 on re-read (was $8.00 on 9 Oct). Still below $7.94 12-month reserved."
+    },
+    {
+      "id": "bitdeer-a103-offtake",
+      "name": "Bitdeer A103 offtake",
+      "note": "No customer contracts disclosed yet; energization aimed at Q1 2028."
     },
     {
       "id": "sesterce-kaipola",
       "name": "Sesterce Kaipola close",
-      "note": "Site purchase from Kaipola Green Port, financing partners, permits, and naming of the AI-lab anchor."
+      "note": "Site purchase, financing partners, permits, and naming of the AI-lab anchor."
     },
     {
-      "id": "ercot-rfi",
-      "name": "ERCOT large-load RFI",
-      "note": "State and Community Impact responses due 5pm CPT today, 12 Oct."
+      "id": "nebius-volt-rotterdam",
+      "name": "Nebius x Volt Rotterdam",
+      "note": "LOI only; watch definitive offtake, grid and financing."
     },
     {
       "id": "tceq-compliance-update",
@@ -164,8 +164,8 @@
     },
     {
       "id": "fermi-tensorwave-close",
-      "name": "Fermi x TensorWave Matador close",
-      "note": "Deadline 31 Oct; investment-grade guaranty still not named."
+      "name": "Fermi Matador financing / TensorWave",
+      "note": "AMD credit support announced 13 Oct for 222 MW phase one; TensorWave close deadline still 31 Oct."
     },
     {
       "id": "alabama-psc-applied-digital",
@@ -180,39 +180,34 @@
   ],
   "sources": [
     {
+      "name": "Bitdeer A103 Cyberjaya (GlobeNewswire via Markets Insider)",
+      "url": "https://markets.businessinsider.com/news/stocks/bitdeer-ai-expands-malaysia-campus-with-new-60mw-a103-facility-closing-in-on-up-to-350mw-global-capacity-target-1036618412",
+      "note": "Wire: 60 MW A103, 8-year DCA, Cyberjaya."
+    },
+    {
+      "name": "Bitdeer Oct 8 disregard notice",
+      "url": "https://www.globenewswire.com/de/news-release/2026/10/08/3377745/0/en/notice-to-disregard-bitdeer-technologies-group.html",
+      "note": "Earlier same-headline release withdrawn 8 Oct."
+    },
+    {
+      "name": "Enerflex BTM power award",
+      "url": "https://markets.businessinsider.com/news/stocks/enerflex-announces-major-project-award-and-increases-behind-the-meter-power-generation-backlog-to-over-1-75-gigawatts-1036620075",
+      "note": "Signal: over 1 GW BTM gas for unnamed NA data center; backlog over 1.75 GW."
+    },
+    {
+      "name": "Fermi x AMD credit support",
+      "url": "https://www.accessnewswire.com/newsroom/en/oil-gas-and-energy/fermi-signs-credit-support-agreement-with-amd-and-announces-partnership-1236099",
+      "note": "Signal: supports 222 MW Matador phase-one lease; framework up to 650 MW."
+    },
+    {
       "name": "FERC order ER26-3515 (eLibrary 20261009-3055)",
       "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_Number=20261009-3055",
-      "note": "Wire: registry accepted, IRAS rejected."
-    },
-    {
-      "name": "Sesterce Kaipola campus (newsroom)",
-      "url": "https://www.sesterce.com/newsroom/sesterce-plans-ai-campus-kaipola-jamsa-finland",
-      "note": "Wire: 200 MW to 600 MW; anchor customer."
-    },
-    {
-      "name": "Yle News on Sesterce",
-      "url": "https://yle.fi/a/74-20250471",
-      "note": "CEO: investment decision made, contract signed with a top AI lab."
-    },
-    {
-      "name": "AES Indiana IURC approval",
-      "url": "https://www.pressreleasepoint.com/iurc-approves-customer-protected-growth-plan-serve-large-load-investment-delivering-estimated-770",
-      "note": "Wire: Google Morgan County plan approved 7 Oct."
-    },
-    {
-      "name": "WFYI on Monrovia approval",
-      "url": "https://www.wfyi.org/statewide/2026-10-12/indiana-approves-aes-plan-to-power-google-data-center-in-monrovia",
-      "note": "390 MW; $737.3M project cost; $73.8M network upgrades in rate base."
-    },
-    {
-      "name": "NVIDIA OCP Global Summit blog",
-      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-      "note": "Signal: MGX 1.2 up to 250 kW; Open Data Center Spec v0.7; Grid Resilience Spec."
+      "note": "Prior Wire: registry accepted, IRAS rejected."
     },
     {
       "name": "DigitalOcean GPU Droplets pricing",
       "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "B300 spot $6.17 (was $8.00); MI355X $5.50; MI350X $3.50."
+      "note": "B300 spot $6.17 confirm; MI355X $5.50; MI350X $3.50."
     },
     {
       "name": "Lambda Cloud pricing",
