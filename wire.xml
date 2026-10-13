@@ -5,6 +5,13 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Bitdeer AI locks an 8-year, 60 MW A103 AI Cloud facility at its Cyberjaya, Malaysia campus</title>
+    <link>https://markets.businessinsider.com/news/stocks/bitdeer-ai-expands-malaysia-campus-with-new-60mw-a103-facility-closing-in-on-up-to-350mw-global-capacity-target-1036618412</link>
+    <guid isPermaLink="false">compute.world/wire#bitdeer-a103-cyberjaya-60mw-dca-2026-10-12</guid>
+    <pubDate>Mon, 12 Oct 2026 12:00:00 GMT</pubDate>
+    <description>On 12 October 2026 Bitdeer AI (Bitdeer Technologies Group, NASDAQ: BTDR) announced an 8-year data center services agreement for A103, a 60 MW (critical IT load) AI Cloud facility on the same Cyberjaya, Malaysia campus as A101 and A102. A103 is designed for liquid-cooled, rack-scale NVIDIA systems including the next-generation Vera Rubin platform, with energization expected in Q1 2028. With A103, the Cyberjaya campus is expected to reach about 71.5 MW, and Bitdeer AI&#x27;s secured AI Cloud capacity (owned or under an executed DCA) rises to about 333.5 MW across Malaysia, Norway and the United States, or about 95% of its up-to-350 MW target for delivery by Q1 2028. An earlier 8 Oct GlobeNewswire version of the same headline was withdrawn the same day (notice to disregard). The company discloses no offtake commitments for A103 capacity as of the release. Country conversion: Malaysia gains another executed 60 MW AI Cloud shell on an existing campus that already has power, liquid cooling and network in place. [Signal 72, Confirmed, via Bitdeer / GlobeNewswire 12 Oct (Markets Insider syndication); Seeking Alpha 12 Oct; Oct 8 disregard notice on GlobeNewswire] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>FERC accepts PJM&#x27;s 50 MW Large Load definition and registry, rejects the interim curtailment service for new large loads</title>
     <link>https://elibrary.ferc.gov/eLibrary/docinfo?accession_Number=20261009-3055</link>
     <guid isPermaLink="false">compute.world/wire#ferc-pjm-large-load-registry-iras-rejected-er26-3515-2026-10-09</guid>
@@ -206,12 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#puct-59336-howard-solstice-ccn-2026-09-11</guid>
     <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
     <description>On 11 September 2026 the Public Utility Commission of Texas voted to approve the AEP Texas / CPS Energy Howard-to-Solstice 765 kV single-circuit line (~370 miles across 14 South/West Texas counties), contingent on the applicants working with landowners on further route modifications to reduce grassland and property impacts (Texas Tribune via San Antonio Current, 12 Sep). Same-day Interchange filing: applicants’ Information Filing Regarding Route 4 Mod 1. Completes the next Permian Basin Reliability Plan 765 kV CCN after Oncor Import Path 1 (59315/59029, 28 Aug). As of 14 Sep morning PT, a final written Order was not yet visible on Interchange. Country conversion: another named Permian import corridor moves from contested proceeding to conditional CCN — grid capacity for West Texas load including non-oil large loads. [Signal 84, TT/SA Current 12 Sep on Friday vote + landowner-mod condition. Interchange shows 11 Sep AEP/CPS Route 4 Mod 1 filing. Written Order PDF not confirmed on Interchange as of 14 Sep morning — press-confirmed vote pending order stamp., via Texas Tribune / San Antonio Current; PUCT Interchange 59336] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>ERCOT discloses Batch Zero conditional split: 66.4 GW base / ~128 GW studied; 461-site community survey under Abbott audit</title>
-    <link>https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf</link>
-    <guid isPermaLink="false">compute.world/wire#ercot-batch-zero-mw-split-community-survey-2026-09-11</guid>
-    <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
-    <description>On 11 September 2026 ERCOT presented Batch Zero conditional classifications with public megawatt totals for the first time: 204 Large Load projects (66.4 GW) conditionally included as base load and 158 projects (~125.4–127.9 GW in board slides) as studied load, while 373 projects (~302.2 GW) were excluded. Interconnecting TSPs received provisional classifications on 3 Sep; final inclusion/exclusion follows eligibility verification and a community-impact review, both due to PUCT by 10 December 2026. ERCOT will survey 461 data centers (247 ≥75 MW large + 214 medium 25–75 MW) on water, cooling, ownership, financial assistance and community impact; verification RFIs continue with a late-September response clock. Energization of new ≥75 MW data centers and crypto remains paused. Country conversion: Texas AI/load path now has a quantified Base vs Studied vs Excluded book under audit — still conditional, still gated. [Signal 92, Primary ERCOT PDF for Board 14–15 Sep. Houston Public Media 11 Sep (Seely at PUCT: included MW totals and 461-site survey). Distinct from M-A080326-04 (3 Sep) which published classifications without public MW., via ERCOT Board Item 14 Batch Zero Update] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
