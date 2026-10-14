@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "id": "aep-google-cheyenne-702mw-bloom-fuel-cells-2026-10-14",
+      "date": "2026-10-14",
+      "title": "AEP plans about $4 billion for a 702 MW Bloom fuel cell plant near Cheyenne, Wyoming under a 20-year Google PPA",
+      "summary": "On 14 October 2026 American Electric Power (Nasdaq: AEP) said it plans to invest about $4 billion in a new 702 MW fuel cell generation project near Cheyenne, Wyoming, selling the output to Google under a 20-year power purchase agreement. The project company, Cheyenne Fuel Cell, LLC, is about 92% owned and controlled by AEP and nearly 8% by funds advised by Basalt Infrastructure Partners. The plant uses Bloom Energy fuel cells, generates power without combustion of natural gas, and includes plans to integrate carbon capture. Construction is planned to start in 2026, with full operation expected by the end of 2028. AEP says the plant supports Google's growing energy needs in the greater Cheyenne area and follows the Google and Black Hills Corp. agreements effective 30 September (already on the Wire). Country conversion: a named hyperscaler now has a second, utility-financed firm generation source for its Wyoming load, built outside AEP's traditional service territory.",
+      "url": "https://www.prnewswire.com/news-releases/aep-advances-innovative-energy-solution-for-google-with-702mw-of-bloom-fuel-cells-302907658.html",
+      "source": "AEP / PR Newswire 14 Oct 2026 (primary)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Capital"
+      ],
+      "score": 84
+    },
+    {
+      "id": "fermi-tensorwave-matador-222mw-binding-lease-6p5b-2026-10-14",
+      "date": "2026-10-14",
+      "title": "Fermi discloses a binding 15-year, $6.5 billion TensorWave lease for 222 MW at Project Matador, Texas, backed by AMD credit support",
+      "summary": "On 14 October 2026 Fermi Inc. (Nasdaq/LSE: FRMI) furnished an 8-K fact sheet describing a binding 15-year phase one lease with TensorWave at Project Matador in Carson County, Texas: 222 MW of total power capacity including 156 MW of critical IT capacity, $6.5 billion of contracted revenue over the initial term, two 5-year renewal options and 2.5% annual escalators. Fermi develops, builds and delivers turnkey; TensorWave takes occupancy in phases from Q4 2027, completing in early 2028. Fermi cites power capex of $3M to $4M per MW of total power capacity and turnkey data center capex of $10M to $12M per MW of critical IT, and an estimated phase one project-level NOI margin of about 75% to 80% (non-GAAP). AMD signed credit support on 13 October; per the filing it begins only after construction is complete and rent starts on the final delivery phase, and it ends early if TensorWave or its guarantor holds an investment-grade rating for 12 consecutive months. Project financing is not yet closed. Country conversion: the first named, priced tenant lease on a behind-the-meter Texas Panhandle AI campus, with a chipmaker balance sheet behind it.",
+      "url": "https://www.stocktitan.net/sec-filings/FRMI/8-k-fermi-inc-reports-material-event-ef05d09e0780.html",
+      "source": "Fermi 8-K (Item 7.01, Exhibit 99.1 TensorWave fact sheet) 14 Oct 2026; Fermi x AMD credit support release (Access Newswire) 13 Oct",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 78
+    },
+    {
+      "id": "meta-mason-county-kentucky-hyperscale-cba-2026-10-13",
+      "date": "2026-10-13",
+      "title": "Mason County, Kentucky approves a community benefits agreement with Meta for a hyperscale data center on more than 2,000 zoned acres",
+      "summary": "On 13 October 2026 the Mason County Fiscal Court (Maysville, Kentucky) voted unanimously to approve a resolution and community benefits agreement for a hyperscale data center, and Judge-Executive Owen McNeill named Meta as the developer. More than 2,000 acres have been zoned for the project. Reported figures differ: county attorney Jim Parsons put the initial investment at about $15 billion (WKYT), while the agreement as reported by the Ledger Independent and Mason County Post commits $10 billion of capital investment, with about $800 billion of Industrial Revenue Bonds associated with a 40-year, multi-phase plan (about $10 billion per phase). Other terms include more than 2,000 construction jobs, at least 400 full-time jobs, about $115 million of road, water and sewer improvements, and a $15 million public safety fee. Construction of the first phase is expected within three years. Meta's statement calls it a potential project and says it will pay the full cost of the power it uses. No MW, utility or energization date is disclosed. Country conversion: a named hyperscaler secures local approval for a multi-phase Kentucky campus.",
+      "url": "https://www.wkyt.com/2026/10/14/mason-county-approves-hyperscale-data-center-deal-with-meta/",
+      "source": "WKYT 13 Oct 2026; Mason County Post 13 Oct (citing Ledger Independent) with Meta statement",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Policy"
+      ],
+      "score": 72
+    },
+    {
       "id": "bitdeer-a103-cyberjaya-60mw-dca-2026-10-12",
       "date": "2026-10-12",
       "title": "Bitdeer AI locks an 8-year, 60 MW A103 AI Cloud facility at its Cyberjaya, Malaysia campus",
@@ -1753,6 +1810,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-13",
-  "note": "Wire refresh 2026-10-13: added bitdeer-a103-cyberjaya-60mw-dca-2026-10-12. Tape: confirm day, 69 confirms, 0 ticks, 0 NEW (history 2595 to 2666). Enerflex 1 GW-plus BTM gas award (unnamed North American data center), Fermi x AMD Matador credit support (222 MW phase one), and Nebius LOI at Volt Rotterdam stay Signal only."
+  "updated": "2026-10-14",
+  "note": "Wire refresh 2026-10-14: added aep-google-cheyenne-702mw-bloom-fuel-cells-2026-10-14, fermi-tensorwave-matador-222mw-binding-lease-6p5b-2026-10-14, meta-mason-county-kentucky-hyperscale-cba-2026-10-13. Tape: confirm day, 69 confirms, 0 ticks, 0 NEW (history 2666 to 2737). ASML Q3 (2027 and 2028 supply short of demand), CtrlS 150 MW Bodh Gaya LOI (India), Adani x Jabil rack JV MoU, IndiaAI 10,000 compute unit RFE, and NTT Data x Anthropic Osaka talks (Nikkei) stay Signal only."
 }

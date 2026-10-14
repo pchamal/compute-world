@@ -1,39 +1,39 @@
 {
-  "updated": "2026-10-13",
-  "title": "Compute brief - 13 October 2026",
-  "description": "Bitdeer AI locks an 8-year, 60 MW A103 AI Cloud facility at Cyberjaya, Malaysia, lifting secured capacity to about 333.5 MW. Silicon tape is a quiet confirm day: 69 confirms, 0 ticks, 0 NEW. Enerflex books 1 GW-plus behind-the-meter gas for an unnamed North American data center; Fermi signs AMD credit support on Matador phase one.",
-  "og_kicker": "Bitdeer A103 60 MW Malaysia; quiet tape",
-  "lede": "Bitdeer AI converted another Malaysia shell into an executed deal: an 8-year data center services agreement for A103, a 60 MW (critical IT load) AI Cloud facility on its existing Cyberjaya campus alongside A101 and A102, designed for liquid-cooled NVIDIA Vera Rubin racks with energization aimed at Q1 2028. Campus AI Cloud capacity is expected to reach about 71.5 MW; Bitdeer's secured capacity rises to about 333.5 MW (about 95% of its up-to-350 MW target). No A103 offtake is disclosed yet. On the public silicon tape every venue returned HTTP 200 and every print confirmed yesterday's levels: 69 confirms, 0 ticks, 0 NEW. Separately, Enerflex said it won over 1 GW of behind-the-meter natural-gas generation for a large North American data center (backlog now over 1.75 GW through 2028), and Fermi signed AMD credit support tied to its 222 MW Project Matador phase-one lease in Texas.",
+  "updated": "2026-10-14",
+  "title": "Compute brief - 14 October 2026",
+  "description": "AEP plans about $4 billion for a 702 MW Bloom fuel cell plant near Cheyenne, Wyoming under a 20-year Google PPA. Fermi discloses a binding 15-year, $6.5 billion TensorWave lease for 222 MW at Project Matador, Texas. Mason County, Kentucky approves a Meta hyperscale campus. ASML says 2027 and 2028 supply will not fully meet demand. Tape: 69 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "AEP 702 MW for Google; Fermi x TensorWave $6.5B; quiet tape",
+  "lede": "Power and leases converted on Wednesday while prices sat still. AEP plans about $4 billion for a 702 MW Bloom Energy fuel cell plant near Cheyenne, Wyoming, selling to Google under a 20-year PPA, with construction starting in 2026 and full operation by the end of 2028. Fermi filed a fact sheet calling its TensorWave phase one lease at Project Matador, Texas binding: 15 years, $6.5 billion of contracted revenue, 222 MW total and 156 MW critical IT, delivery from Q4 2027, with AMD credit support signed a day earlier. Mason County, Kentucky approved a community benefits agreement naming Meta as developer of a hyperscale campus on more than 2,000 zoned acres. Upstream, ASML reported record Q3 sales of EUR 11.7 billion and said its planned supply for 2027 and 2028 will not fully meet customer demand. On the public silicon tape every venue returned HTTP 200 and every print held: 69 confirms, 0 ticks, 0 NEW.",
   "countries": [
     {
-      "id": "mys-bitdeer-a103",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Bitdeer AI 8-year DCA for A103, 60 MW critical IT at Cyberjaya; campus to about 71.5 MW; secured capacity about 333.5 MW; energization Q1 2028; no offtake disclosed (Wire, 12 Oct)."
-    },
-    {
-      "id": "usa-ferc-pjm-registry",
-      "name": "United States / PJM",
+      "id": "usa-aep-google-cheyenne",
+      "name": "United States / Wyoming",
       "slug": "united-states",
-      "note": "FERC ER26-3515 registry effective 12 Oct still the binding US large-load rule of the week; PJM compliance filing due within 30 days of 9 Oct (Wire)."
+      "note": "AEP about $4 billion, 702 MW Bloom fuel cells near Cheyenne under a 20-year Google PPA; construction 2026, full operation by end 2028 (Wire, 14 Oct)."
     },
     {
-      "id": "fin-sesterce-kaipola",
-      "name": "Finland",
-      "slug": "finland",
-      "note": "Sesterce Kaipola, Jamsa: EUR 10bn-plus plan, 200 MW then 600 MW, signed unnamed AI-lab anchor; site purchase and permits pending (Wire, 8 Oct)."
-    },
-    {
-      "id": "nld-nebius-volt-rotterdam",
-      "name": "Netherlands",
-      "slug": "netherlands",
-      "note": "Nebius LOI for capacity at Volt's planned Rotterdam AI campus (developer ambition up to 600 MW; phase one two 100 MW buildings). Letter of intent only (Signal)."
-    },
-    {
-      "id": "usa-enerflex-btm",
-      "name": "United States / North America",
+      "id": "usa-fermi-tensorwave",
+      "name": "United States / Texas",
       "slug": "united-states",
-      "note": "Enerflex awards over 1 GW behind-the-meter natural-gas generation for an unnamed large-scale North American data center; BTM backlog over 1.75 GW through 2028 (Signal, 13 Oct)."
+      "note": "Fermi x TensorWave binding 15-year lease at Matador: $6.5 billion, 222 MW total / 156 MW critical IT, delivery Q4 2027 to early 2028; AMD credit support; financing not yet closed (Wire, 14 Oct)."
+    },
+    {
+      "id": "usa-meta-mason-county",
+      "name": "United States / Kentucky",
+      "slug": "united-states",
+      "note": "Mason County Fiscal Court approves Meta hyperscale CBA; 2,000-plus acres zoned; $10 billion (CBA) to $15 billion (county attorney) initial investment reported; no MW disclosed (Wire, 13 Oct)."
+    },
+    {
+      "id": "ind-ctrls-bodh-gaya",
+      "name": "India",
+      "slug": "india",
+      "note": "CtrlS LOI with Bihar for a Rs 10,000 crore (about $1.05 billion) 150 MW AI factory in Bodh Gaya; Patna 12 MW opened. IndiaAI RFE for up to 10,000 compute units. Adani x Jabil rack JV MoU (non-binding). Signal only."
+    },
+    {
+      "id": "jpn-ntt-anthropic-osaka",
+      "name": "Japan",
+      "slug": "japan",
+      "note": "Nikkei via Reuters: NTT Data in final talks to build Anthropic's first Japan data center in Osaka, up to 500 MW and up to JPY 1 trillion, partial operation as early as 2028. Talks only (Signal)."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 12 Oct print"
+      "note": "Confirm vs 13 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +54,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 12 Oct print"
+      "note": "Confirm vs 13 Oct print"
     },
     {
       "id": "do-b300-spot",
@@ -65,10 +65,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 12 Oct print"
+      "note": "Confirm vs 13 Oct print"
     },
     {
       "id": "do-mi350x-spot",
@@ -76,10 +76,10 @@
       "display_usd": 3.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "prev_usd": 3.5,
       "delta": 0.0,
-      "note": "Confirm vs 12 Oct print"
+      "note": "Confirm vs 13 Oct print"
     },
     {
       "id": "do-mi355x-spot",
@@ -87,10 +87,10 @@
       "display_usd": 5.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "prev_usd": 5.5,
       "delta": 0.0,
-      "note": "Confirm vs 12 Oct print"
+      "note": "Confirm vs 13 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -98,10 +98,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 12 Oct print"
+      "note": "Confirm vs 13 Oct print"
     },
     {
       "id": "aws-cb-p5-va",
@@ -109,10 +109,10 @@
       "display_usd": 5.97,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "prev_usd": 5.97,
       "delta": 0.0,
-      "note": "Confirm vs 12 Oct print"
+      "note": "Confirm vs 13 Oct print"
     },
     {
       "id": "aws-cb-p6b300-va",
@@ -120,22 +120,47 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 12 Oct print"
+      "note": "Confirm vs 13 Oct print"
     }
   ],
   "watch": [
     {
-      "id": "pjm-compliance",
-      "name": "PJM compliance filing (ER26-3515)",
-      "note": "Due within 30 days of 9 Oct (about 8 Nov); watch any voluntary refile of flexible large-load service."
+      "id": "tsmc-q3-call",
+      "name": "TSMC Q3 2026 earnings call (15 Oct)",
+      "note": "Capex, CoWoS and advanced packaging capacity, 2027 plans; September revenue already a record."
     },
     {
       "id": "ocp-summit",
       "name": "OCP Global Summit (through 15 Oct)",
-      "note": "Day 1 coverage live; watch hyperscaler adoption of Open Data Center Spec v0.7 and Grid Resilience Spec."
+      "note": "Mt. Diablo disaggregated power rack spec (Meta, Microsoft, Google) and AMD Helion; watch adoption commitments."
+    },
+    {
+      "id": "tceq-compliance-update",
+      "name": "TCEQ Abbott directive update",
+      "note": "Compliance update due 19 Oct; permit pause has no stated end date."
+    },
+    {
+      "id": "fermi-financing",
+      "name": "Fermi Matador financing / TensorWave close",
+      "note": "Lease now described as binding with AMD credit support; watch project financing and the 31 Oct closing date."
+    },
+    {
+      "id": "pjm-compliance",
+      "name": "PJM compliance filing (ER26-3515)",
+      "note": "Due within 30 days of 9 Oct (about 8 Nov)."
+    },
+    {
+      "id": "aep-cheyenne-construction",
+      "name": "AEP Cheyenne fuel cells",
+      "note": "Construction start in 2026; any Wyoming PSC or Cheyenne permitting steps; full operation targeted end 2028."
+    },
+    {
+      "id": "meta-mason-county",
+      "name": "Meta Mason County, Kentucky",
+      "note": "Watch utility, MW and Kentucky PSC filings; first phase construction expected within three years."
     },
     {
       "id": "do-b300-spot",
@@ -148,61 +173,41 @@
       "note": "No customer contracts disclosed yet; energization aimed at Q1 2028."
     },
     {
-      "id": "sesterce-kaipola",
-      "name": "Sesterce Kaipola close",
-      "note": "Site purchase, financing partners, permits, and naming of the AI-lab anchor."
-    },
-    {
       "id": "nebius-volt-rotterdam",
       "name": "Nebius x Volt Rotterdam",
       "note": "LOI only; watch definitive offtake, grid and financing."
-    },
-    {
-      "id": "tceq-compliance-update",
-      "name": "TCEQ Abbott directive update",
-      "note": "Compliance update due 19 Oct; permit pause has no stated end date."
-    },
-    {
-      "id": "fermi-tensorwave-close",
-      "name": "Fermi Matador financing / TensorWave",
-      "note": "AMD credit support announced 13 Oct for 222 MW phase one; TensorWave close deadline still 31 Oct."
-    },
-    {
-      "id": "alabama-psc-applied-digital",
-      "name": "Alabama PSC power vote (Brookwood)",
-      "note": "PSC vote on the Alabama Power agreement expected within weeks."
-    },
-    {
-      "id": "wisconsin-psc-oracle",
-      "name": "Wisconsin PSC: Oracle Point Beach subscription",
-      "note": "We Energies to file full details in coming months; primary discloses no MW."
     }
   ],
   "sources": [
     {
-      "name": "Bitdeer A103 Cyberjaya (GlobeNewswire via Markets Insider)",
-      "url": "https://markets.businessinsider.com/news/stocks/bitdeer-ai-expands-malaysia-campus-with-new-60mw-a103-facility-closing-in-on-up-to-350mw-global-capacity-target-1036618412",
-      "note": "Wire: 60 MW A103, 8-year DCA, Cyberjaya."
+      "name": "AEP 702 MW Bloom fuel cells for Google (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/aep-advances-innovative-energy-solution-for-google-with-702mw-of-bloom-fuel-cells-302907658.html",
+      "note": "Wire: about $4 billion, 702 MW, 20-year Google PPA, Cheyenne."
     },
     {
-      "name": "Bitdeer Oct 8 disregard notice",
-      "url": "https://www.globenewswire.com/de/news-release/2026/10/08/3377745/0/en/notice-to-disregard-bitdeer-technologies-group.html",
-      "note": "Earlier same-headline release withdrawn 8 Oct."
+      "name": "Fermi 8-K TensorWave fact sheet (14 Oct)",
+      "url": "https://www.stocktitan.net/sec-filings/FRMI/8-k-fermi-inc-reports-material-event-ef05d09e0780.html",
+      "note": "Wire: binding 15-year lease, $6.5 billion, 222 MW / 156 MW IT."
     },
     {
-      "name": "Enerflex BTM power award",
-      "url": "https://markets.businessinsider.com/news/stocks/enerflex-announces-major-project-award-and-increases-behind-the-meter-power-generation-backlog-to-over-1-75-gigawatts-1036620075",
-      "note": "Signal: over 1 GW BTM gas for unnamed NA data center; backlog over 1.75 GW."
+      "name": "Mason County approves Meta hyperscale deal (WKYT)",
+      "url": "https://www.wkyt.com/2026/10/14/mason-county-approves-hyperscale-data-center-deal-with-meta/",
+      "note": "Wire: unanimous fiscal court vote; Meta named."
     },
     {
-      "name": "Fermi x AMD credit support",
-      "url": "https://www.accessnewswire.com/newsroom/en/oil-gas-and-energy/fermi-signs-credit-support-agreement-with-amd-and-announces-partnership-1236099",
-      "note": "Signal: supports 222 MW Matador phase-one lease; framework up to 650 MW."
+      "name": "Mason County Post (Meta statement, CBA terms)",
+      "url": "https://www.masoncountypost.com/p/report-meta-announced-as-developer",
+      "note": "CBA $10 billion capital investment; Meta statement."
     },
     {
-      "name": "FERC order ER26-3515 (eLibrary 20261009-3055)",
-      "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_Number=20261009-3055",
-      "note": "Prior Wire: registry accepted, IRAS rejected."
+      "name": "ASML Q3 2026 results (GlobeNewswire via FT)",
+      "url": "https://markets.ft.com/data/announce/detail?dockey=1330-1001277879en-0OGRJFJOG2A2CUO2COMBR8DFK5",
+      "note": "Signal: EUR 11.7 billion sales; 2027 and 2028 supply short of demand."
+    },
+    {
+      "name": "CtrlS Bodh Gaya 150 MW (Reuters via WDSM)",
+      "url": "https://wdsm710.com/2026/10/13/indias-ctrls-to-invest-1-05-billion-to-build-hyperscale-ai-factory-in-eastern-india/",
+      "note": "Signal: LOI with Bihar government."
     },
     {
       "name": "DigitalOcean GPU Droplets pricing",
