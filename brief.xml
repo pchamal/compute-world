@@ -2,69 +2,69 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Bitdeer AI converted another Malaysia shell into an executed deal: an 8-year data center services agreement for A103, a 60 MW (critical IT load) AI Cloud facility on its existing Cyberjaya campus alongside A101 and A102, designed for liquid-cooled NVIDIA Vera Rubin racks with energization aimed at Q1 2028. Campus AI Cloud capacity is expected to reach about 71.5 MW; Bitdeer&#x27;s secured capacity rises to about 333.5 MW (about 95% of its up-to-350 MW target). No A103 offtake is disclosed yet. On the public silicon tape every venue returned HTTP 200 and every print confirmed yesterday&#x27;s levels: 69 confirms, 0 ticks, 0 NEW. Separately, Enerflex said it won over 1 GW of behind-the-meter natural-gas generation for a large North American data center (backlog now over 1.75 GW through 2028), and Fermi signed AMD credit support tied to its 222 MW Project Matador phase-one lease in Texas.</description>
+  <description>Power and leases converted on Wednesday while prices sat still. AEP plans about $4 billion for a 702 MW Bloom Energy fuel cell plant near Cheyenne, Wyoming, selling to Google under a 20-year PPA, with construction starting in 2026 and full operation by the end of 2028. Fermi filed a fact sheet calling its TensorWave phase one lease at Project Matador, Texas binding: 15 years, $6.5 billion of contracted revenue, 222 MW total and 156 MW critical IT, delivery from Q4 2027, with AMD credit support signed a day earlier. Mason County, Kentucky approved a community benefits agreement naming Meta as developer of a hyperscale campus on more than 2,000 zoned acres. Upstream, ASML reported record Q3 sales of EUR 11.7 billion and said its planned supply for 2027 and 2028 will not fully meet customer demand. On the public silicon tape every venue returned HTTP 200 and every print held: 69 confirms, 0 ticks, 0 NEW.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 13 October 2026</title>
+    <title>Compute brief - 14 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-13</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Bitdeer AI converted another Malaysia shell into an executed deal: an 8-year data center services agreement for A103, a 60 MW (critical IT load) AI Cloud facility on its existing Cyberjaya campus alongside A101 and A102, designed for liquid-cooled NVIDIA Vera Rubin racks with energization aimed at Q1 2028. Campus AI Cloud capacity is expected to reach about 71.5 MW; Bitdeer&#x27;s secured capacity rises to about 333.5 MW (about 95% of its up-to-350 MW target). No A103 offtake is disclosed yet. On the public silicon tape every venue returned HTTP 200 and every print confirmed yesterday&#x27;s levels: 69 confirms, 0 ticks, 0 NEW. Separately, Enerflex said it won over 1 GW of behind-the-meter natural-gas generation for a large North American data center (backlog now over 1.75 GW through 2028), and Fermi signed AMD credit support tied to its 222 MW Project Matador phase-one lease in Texas. Countries: Malaysia: Bitdeer AI 8-year DCA for A103, 60 MW critical IT at Cyberjaya; campus to about 71.5 MW; secured capacity about 333.5 MW; energization Q1 2028; no offtake disclosed (Wire, 12 Oct). United States / PJM: FERC ER26-3515 registry effective 12 Oct still the binding US large-load rule of the week; PJM compliance filing due within 30 days of 9 Oct (Wire). Finland: Sesterce Kaipola, Jamsa: EUR 10bn-plus plan, 200 MW then 600 MW, signed unnamed AI-lab anchor; site purchase and permits pending (Wire, 8 Oct). Netherlands: Nebius LOI for capacity at Volt&#x27;s planned Rotterdam AI campus (developer ambition up to 600 MW; phase one two 100 MW buildings). Letter of intent only (Signal). United States / North America: Enerflex awards over 1 GW behind-the-meter natural-gas generation for an unnamed large-scale North American data center; BTM backlog over 1.75 GW through 2028 (Signal, 13 Oct).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-14</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Power and leases converted on Wednesday while prices sat still. AEP plans about $4 billion for a 702 MW Bloom Energy fuel cell plant near Cheyenne, Wyoming, selling to Google under a 20-year PPA, with construction starting in 2026 and full operation by the end of 2028. Fermi filed a fact sheet calling its TensorWave phase one lease at Project Matador, Texas binding: 15 years, $6.5 billion of contracted revenue, 222 MW total and 156 MW critical IT, delivery from Q4 2027, with AMD credit support signed a day earlier. Mason County, Kentucky approved a community benefits agreement naming Meta as developer of a hyperscale campus on more than 2,000 zoned acres. Upstream, ASML reported record Q3 sales of EUR 11.7 billion and said its planned supply for 2027 and 2028 will not fully meet customer demand. On the public silicon tape every venue returned HTTP 200 and every print held: 69 confirms, 0 ticks, 0 NEW. Countries: United States / Wyoming: AEP about $4 billion, 702 MW Bloom fuel cells near Cheyenne under a 20-year Google PPA; construction 2026, full operation by end 2028 (Wire, 14 Oct). United States / Texas: Fermi x TensorWave binding 15-year lease at Matador: $6.5 billion, 222 MW total / 156 MW critical IT, delivery Q4 2027 to early 2028; AMD credit support; financing not yet closed (Wire, 14 Oct). United States / Kentucky: Mason County Fiscal Court approves Meta hyperscale CBA; 2,000-plus acres zoned; $10 billion (CBA) to $15 billion (county attorney) initial investment reported; no MW disclosed (Wire, 13 Oct). India: CtrlS LOI with Bihar for a Rs 10,000 crore (about $1.05 billion) 150 MW AI factory in Bodh Gaya; Patna 12 MW opened. IndiaAI RFE for up to 10,000 compute units. Adani x Jabil rack JV MoU (non-binding). Signal only. Japan: Nikkei via Reuters: NTT Data in final talks to build Anthropic&#x27;s first Japan data center in Osaka, up to 500 MW and up to JPY 1 trillion, partial operation as early as 2028. Talks only (Signal).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-13/lambda-h100-od</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 13 Oct 2026. Confirm vs 12 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-14/lambda-h100-od</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 14 Oct 2026. Confirm vs 13 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-13/lambda-b200-od</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 13 Oct 2026. Confirm vs 12 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-14/lambda-b200-od</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 14 Oct 2026. Confirm vs 13 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-13/do-b300-spot</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 13 Oct 2026. Confirm vs 12 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-14/do-b300-spot</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 14 Oct 2026. Confirm vs 13 Oct print</description>
   </item>
   <item>
     <title>MI350X · $3.50 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-13/do-mi350x-spot</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.50 spot at DigitalOcean as of 13 Oct 2026. Confirm vs 12 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-14/do-mi350x-spot</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.50 spot at DigitalOcean as of 14 Oct 2026. Confirm vs 13 Oct print</description>
   </item>
   <item>
     <title>MI355X · $5.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-13/do-mi355x-spot</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $5.50 spot at DigitalOcean as of 13 Oct 2026. Confirm vs 12 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-14/do-mi355x-spot</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $5.50 spot at DigitalOcean as of 14 Oct 2026. Confirm vs 13 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-13/coreweave-h100-od</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 13 Oct 2026. Confirm vs 12 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-14/coreweave-h100-od</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 14 Oct 2026. Confirm vs 13 Oct print</description>
   </item>
   <item>
     <title>H100 (P5) Capacity Blocks · $5.97 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-p5-va</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-13/aws-cb-p5-va</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 (P5) Capacity Blocks: display $5.97 Capacity Blocks at AWS as of 13 Oct 2026. Confirm vs 12 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-14/aws-cb-p5-va</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 (P5) Capacity Blocks: display $5.97 Capacity Blocks at AWS as of 14 Oct 2026. Confirm vs 13 Oct print</description>
   </item>
   <item>
     <title>B300 (P6-B300) Capacity Blocks · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-p6b300-va</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-13/aws-cb-p6b300-va</guid>
-    <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 (P6-B300) Capacity Blocks: display $16.146 Capacity Blocks at AWS as of 13 Oct 2026. Confirm vs 12 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-14/aws-cb-p6b300-va</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 (P6-B300) Capacity Blocks: display $16.146 Capacity Blocks at AWS as of 14 Oct 2026. Confirm vs 13 Oct print</description>
   </item>
 </channel></rss>
