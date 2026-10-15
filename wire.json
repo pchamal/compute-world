@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "id": "pjm-sb-energy-flagship-ohio-saa-study-er27-126-2026-10-13",
+      "date": "2026-10-13",
+      "title": "PJM files an executed study agreement at FERC to evaluate SB Energy's 10.37 GW Flagship AI campus in Pike County, Ohio under Ohio's State Agreement Approach",
+      "summary": "On 13 October 2026 PJM Interconnection filed an executed Study Agreement (FERC Docket ER27-126-000, Rate Schedule No. 54, signed 25 September) with SB Energy affiliates SE DC DevCo, PORTS 2 Interconnect and Portsmouth Gas DevCo and AEP Ohio Transmission. PJM will study the Flagship Project at the former DOE Portsmouth Gaseous Diffusion Plant in Pike County, Ohio as one integrated load, generation and transmission package: an initial 800 MW (Mercury, new Monza 345 kV substation, served under the Ohio Power data center tariff) plus about 9,570 MW of additional load (Artemis, new Baku 765 kV substation), for 10,370 MW of firm NITS requested, and about 10,170 MW of gross new GE Vernova gas generation (7HA.2 combined cycle, 6F and aeroderivative units), phased through 2032, with three proposed 765 kV lines. SB Energy's development affiliate pays all study costs ($500,000 deposit, actual cost reimbursed); load flow and short circuit studies are expected within 60 days and stability within 120 days of data review. The filing names OpenAI as the data center tenant, alongside $40 million of SB Energy community benefits and $40 million from OpenAI. Acceptance would not approve any line, cost allocation or interconnection right; PUCO must sign an SAA agreement or issue a binding cost order within 120 days of PJM's final System Upgrade Report or the agreement terminates. Country conversion: a roughly 10 GW US AI campus now has a formal, developer-funded grid study path inside PJM, outside the normal interconnection queue.",
+      "url": "https://www.pjm.com/pjmfiles/directory/etariff/FercDockets/9925/20261013-er27-126-000.pdf",
+      "source": "PJM FERC filing ER27-126-000 (13 Oct 2026, primary); Utility Dive 14 Oct",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Policy",
+        "Build"
+      ],
+      "score": 82
+    },
+    {
+      "id": "neoai-cloud-pohang-40mw-krw600bn-pf-close-2026-10-12",
+      "date": "2026-10-12",
+      "title": "NeoAI Cloud closes KRW 600 billion of financing for a 40 MW AI data center in Pohang, South Korea, with NHN Cloud pre-leasing half the IT load",
+      "summary": "On 12 October 2026 NeoAI Cloud said it completed KRW 600 billion of financing for phase 1 of its Pohang AI data center in the Gwangmyeong industrial complex, North Gyeongsang Province: a KRW 450 billion project finance loan closed on 7 October and KRW 150 billion of equity. NeoAI Cloud and Singapore-based SC Capital Partners are the core equity investors, joined by North Gyeongsang Province, the government Regional Revitalization Investment Fund (its ninth project) and domestic lenders. Phase 1 is 40 MW of utility supply and 32 MW of IT load with liquid cooling for dense GPU clusters; power and the building permit are secured, Hyundai Engineering and Construction has been building since June 2026, and service launch is targeted for Q4 2027. NHN Cloud has committed to pre-lease 16 MW, half the IT capacity. A 260 MW phase 2 is in development. Country conversion: a financed, half-leased AI shell outside the Seoul metro, backed by public regional funds.",
+      "url": "https://www.asiae.co.kr/en/article/2026101211032136359",
+      "source": "Asia Business Daily 12 Oct 2026; ETNews 12 Oct 2026 (company release)",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Capital",
+        "Build"
+      ],
+      "score": 68
+    },
+    {
+      "id": "capitaland-chennai-01-34mw-it-launch-2026-10-15",
+      "date": "2026-10-15",
+      "title": "CapitaLand India Trust launches CapitaLand Data Centre Chennai 01: 34 MW IT, 53 MW gross, about US$203 million, completion by end 2026",
+      "summary": "On 15 October 2026 CapitaLand India Trust (CLINT) launched CapitaLand Data Centre Chennai 01 in Ambattur, Chennai, its first data center in Tamil Nadu, with Singapore Deputy Prime Minister Gan Kim Yong and Tamil Nadu Chief Minister C. Joseph Vijay. The facility represents about INR 19.4 billion (US$203.2 million) of investment, will have 53 MW of gross power capacity and 34 MW of IT capacity across 13 data halls when completed by the end of 2026, and is designed for high-density computing including liquid cooling. It is jointly held by CLINT and CapitaLand India Data Centre Fund. CLINT's Navi Mumbai data center is fully leased to a global hyperscaler; no tenant is named for Chennai. Country conversion: another sponsor-built, near-complete shell in India's second data center corridor, launched at head-of-state level.",
+      "url": "https://www.businesstimes.com.sg/international/capitaland-india-trust-unveils-us203-2-million-chennai-data-centre",
+      "source": "The Business Times 15 Oct 2026; The Hindu BusinessLine 15 Oct",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build"
+      ],
+      "score": 60
+    },
+    {
       "id": "aep-google-cheyenne-702mw-bloom-fuel-cells-2026-10-14",
       "date": "2026-10-14",
       "title": "AEP plans about $4 billion for a 702 MW Bloom fuel cell plant near Cheyenne, Wyoming under a 20-year Google PPA",
@@ -1810,6 +1867,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-14",
-  "note": "Wire refresh 2026-10-14: added aep-google-cheyenne-702mw-bloom-fuel-cells-2026-10-14, fermi-tensorwave-matador-222mw-binding-lease-6p5b-2026-10-14, meta-mason-county-kentucky-hyperscale-cba-2026-10-13. Tape: confirm day, 69 confirms, 0 ticks, 0 NEW (history 2666 to 2737). ASML Q3 (2027 and 2028 supply short of demand), CtrlS 150 MW Bodh Gaya LOI (India), Adani x Jabil rack JV MoU, IndiaAI 10,000 compute unit RFE, and NTT Data x Anthropic Osaka talks (Nikkei) stay Signal only."
+  "updated": "2026-10-15",
+  "note": "Wire refresh 2026-10-15: added pjm-sb-energy-flagship-ohio-saa-study-er27-126-2026-10-13, neoai-cloud-pohang-40mw-krw600bn-pf-close-2026-10-12, capitaland-chennai-01-34mw-it-launch-2026-10-15. Tape: confirm day, 69 confirms, 0 ticks, 0 NEW (history 2737 to 2808). TSMC Q3 (US$46.72B, 2026 capex US$60-64B reiterated), Gartner neocloud consolidation call, KOSPI chip selloff, Venture Global 10 GW power island frame agreements and Digital Realty De Soto community fund stay Signal only."
 }
