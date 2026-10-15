@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15 15:26 UTC",
+ "generated": "2026-10-15 17:02 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -147,18 +147,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Zankore seeks US$6 billion loan for AI data center expansion - ET Datacenters",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZzFYanhyaUt0SmtwNGpielZBLWJndjRFZ0JYbE9Pc3NRNUlSUnF2bWZlQ1R6dndTcWp5eFJpaExhd0lqNFFtUlRoOWN5MHhoNFFFT2xxMWhLTktkWmJLdE5vdnVRMlo3TlVGMWV3a0ZaS2hSaXBFQXdkeFo5Wld4YlpuWXVBeTJGX2lManJmdmw3U3hucGcxRTNuVENCZHBPZ0tBQkxEaWw5VTJuT21lc1QwWWJOMTF2b2lxZ05TQVh0bnZmcWYtNGM3eVNwNEZMLTRXbDNRZkxPcXk4b2h2ZkNiM290cmhB0gHoAUFVX3lxTE1nMVhqeHJpS3RKa3A0amJ6VkEtYmd2NEVnQlhsT09zc1E1SVJScXZtZmVDVHp2d1Nxanl4UmloTGF3SWo0UW1SVGg5Y3kweGg0UUVPbHExaEtOS2RaYkt0Tm92dVEyWjdOVUYxZXdrRlpLaFJpcEVBd2R4WjlaV3hiWm5ZdUF5MkZfaUxqcmZ2bDdTeG5wZzFFM25UQ0JkcE9nS0FCTERpbDlVMm5PbWVzVDBZYk4xMXZvaXFnTlNBWHRudmZxZi00Yzd5U3A0RkwtNFdsM1FmTE9xeThvaHZmQ2Izb3RyaEE?oc=5",
-   "source": "ET Datacenters",
-   "date": "2026-10-07",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Firmus calls off $44 billion float, turns to private markets - Pulse Tasmania",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaGtWeGptTVd2RTBiTzRoMkhlV2s5ODhZTkM5QzBRY1ZHd2dPd1UwOWZpaWpLUjNUb0lLRV9aUEEzVUZUYU1wbnFXOGZ3N2hWNHJHa0R4akZVZkw2TGJBYzh4ZjZIR0Y0VHJpZ3lxa256UDlYalk0WjB5SEQxS1EtMk1pTGdWZVc2RkNKRlFFTnRTV0FzNEFzZw?oc=5",
    "source": "Pulse Tasmania",
@@ -235,18 +223,6 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWlJKaXpQNnNiTlpCT2RwakJiY3BPSzlXV2poeDUtQUtGS2oxVDR1UE5EdXlJZUxoQ2hrTTN4UGZwSmRUcm9FdDZKUmFCYzh3UGdkVTI2SkxsNUpiczRnN3dHaGhvQVZpZ2t0SjRKRDZPY25vbUlFX1lvVWMyZmlnOFM1ZlVDV3B5cEpRZ3ZyUQ?oc=5",
    "source": "FinTech Global",
    "date": "2026-10-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Behavox Secures $8M UK Sovereign Cloud Capacity with Civo for AI Compliance - FF News",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPX3JtN2x2bTBkT0ZaYjdLMENiMmp6RXBOanlJcmw5VTQwVEg0NVE0RDhhbFk5eG1Ca2I1ZHMyc3ZLbmk5cVp2aE5EVEIza1pHeWtVZmtTbHg5V0lOMER0X0NLYnRCTW1YdERZQWlaSmJqNlM0ek5PdTNLRm1EcFVyUlVjc09CZEZZUlNJWFcxd2Z2NUNaU1NlT1Z5TGpqX0lJbXQxWEJBRmVKZDRjb0hsZ2Vn?oc=5",
-   "source": "FF News",
-   "date": "2026-10-07",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -715,6 +691,30 @@
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV2FNY3hHVFNQNnRiSm1yRjlhS2djb0hjVTdiV2RIbEJ0YnR5cmg2eUZFTjA3bHJuQ2Uyald5ZndWUkRUSEUybjBFb2JwQ29hc2IxUE1zUzVOd192a3RLd2FUMTJpZ2ttXzJOeXBWeU1zcnBGX3VfbGRWSVpScDhhN2YwZ3M4cXl2dThaSnRwZEFzbG1HMVRoNmowX0ZBamNIUFBIcVlwejBJUWdjVG14dWdyVEVnQk5fOFlkWlpNblJycDA2TjI4QTFySTkyd0ZiXzRqdXl4M2pXZw?oc=5",
    "source": "Stocktwits",
    "date": "2026-10-14",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Management - AI factories – the EU’s blueprint for cloud sovereignty - Business Reporter",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX1ZXMEYtX2lHUmpyYktYYjdEc2J2UkRoVERLMmZxaFhTLUxTVTZuYU9zV1lBeDA0aFdyUnFFcjNDMnZXeXBxZHB2YlVYYVJiRjNXQ3REQnhKMFJ6VG1RUklsQ2VCN045UTdYZlZTQTJBUmNSWjBwcW95Sk5lZjZUWG5uMzBTaTBvc2w3RVo3QXNQamlvZi13dWUzbFhXd2It?oc=5",
+   "source": "Business Reporter",
+   "date": "2026-10-13",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "SiPearl and Quobly explore CPU-QPU integration for sovereign quantum computing - Scientific Computing World",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdXBLNG1rTHpESUhtV3JReUQxeEo2TUdhZ2lYUVhtcndKUG9YdklnNzM4YVY2LU9Vc2h0YzJmRmNaU0g4RTQwZjAycTJMaGhOUm5PaDdIS2dtcWRMTWtaU0NLSG1ySmpVVVFWSFVuRnRMWmFFa3paNVdqVTYxamJMSFNJQmxEUXg5Nk94cUt4WTV1STBUQmFtS1NaV0w5WlFwbDhRd01qZ2haN1ZNS1VxemR6NlZVQQ?oc=5",
+   "source": "Scientific Computing World",
+   "date": "2026-10-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
