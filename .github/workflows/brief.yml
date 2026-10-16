@@ -1,6 +1,8 @@
 name: The daily tape
 # On any push touching brief.json: regenerate brief.html + brief.xml.
-# Editing the JSON on github.com is the publishing workflow; do not invent prices.
+# build_brief.py also rebuilds contact.html so The Desk Updated chip
+# tracks the same snapshot. Editing the JSON on github.com is the publishing
+# workflow; do not invent prices.
 on:
   push:
     paths: ["brief.json"]
@@ -14,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Rebuild brief from brief.json
@@ -22,6 +26,10 @@ jobs:
         run: |
           git config user.name "brief-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add brief.html brief.xml || true
+          git add brief.html brief.xml contact.html || true
           git diff --cached --quiet || git commit -m "brief: rebuild daily tape ($(date -u +%Y-%m-%d))"
+          # Stash leftovers so rebase can run when another publish pushes first.
+          git stash push -u -m "brief-bot leftover" || true
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
+          git stash pop || true

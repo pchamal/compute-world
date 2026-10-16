@@ -3,7 +3,7 @@
 # Run from repo root or src/:  python3 src/build_brief.py
 # Do not invent prices, chips, or 1d/7d candles. prev_usd / delta stay null unless
 # a second dated sourced print already sits in silicon-history.json.
-import json, html, os
+import json, html, os, subprocess, sys
 from datetime import datetime
 from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
 from seo import og_block, breadcrumb_ld, person_author, org_publisher
@@ -329,3 +329,5 @@ RSS = f'''<?xml version="1.0" encoding="UTF-8"?>
 </channel></rss>'''
 open(os.path.join(ROOT, "brief.xml"), "w").write(RSS)
 print(f"brief.html + brief.xml generated: {len(B['silicon'])} silicon rows, {updated}")
+# The Desk Updated chip reads the same snapshot. Rebuild it with the brief.
+subprocess.check_call([sys.executable, os.path.join(HERE, "build_contact.py")])
