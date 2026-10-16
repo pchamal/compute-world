@@ -121,12 +121,36 @@
     }
   ],
   "watch": [
-    "NTT Data / Anthropic Osaka coastal DC talks (~¥1T cited) — need binding contract and MW before Wire",
-    "NiSource Q3 call — campus IT MW, ramp schedule, regulatory path for GenCo/Microsoft",
-    "CoreWeave Q3 / November earnings — backlog vs FCF before CDS stress compounds",
-    "Uruguay–Solaria binding PPAs/FTZ concessions (press aim ~May 2027)",
-    "EdgeConneX–Stockland: which of the three 450 MW sites energize first",
-    "Crusoe B200 $8.50 / B300 $9.60 public OD rows still outside tape parser (contact-sales legacy path)"
+    {
+      "id": "nisource-q3",
+      "name": "NiSource Q3 call (Microsoft GenCo)",
+      "note": "Campus IT MW, ramp schedule, and regulatory path for the GenCo/Microsoft agreement were not in the 16 Oct PR."
+    },
+    {
+      "id": "coreweave-earnings",
+      "name": "CoreWeave Q3 / November earnings",
+      "note": "CDS last ~1,038 bps and 2031 notes YTM ~15.8% (CNBC 15 Oct). Watch whether backlog converts to FCF before credit stress compounds."
+    },
+    {
+      "id": "ntt-anthropic-osaka",
+      "name": "NTT Data / Anthropic Osaka talks",
+      "note": "~¥1T coastal DC cited in Mainichi/Kyodo 14 Oct. Need binding contract and MW before Wire."
+    },
+    {
+      "id": "solaria-uruguay-binding",
+      "name": "Uruguay–Solaria binding deals",
+      "note": "Strategic FTZ agreement signed 14 Oct; press aims ~May 2027 for binding PPAs/FTZ concessions."
+    },
+    {
+      "id": "edgeconnex-stockland-energize",
+      "name": "EdgeConneX–Stockland first energize",
+      "note": "450 MW secured across Sydney/Melbourne sites; which site and any named hyperscaler."
+    },
+    {
+      "id": "crusoe-b200-b300-parser",
+      "name": "Crusoe B200/B300 public OD on tape",
+      "note": "Live list shows B200 $8.50 and B300 $9.60 OD; current parser still treats B200 as contact-sales / skips B300."
+    }
   ],
   "sources": [
     {

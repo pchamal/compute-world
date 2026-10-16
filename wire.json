@@ -1,23 +1,24 @@
 {
   "items": [
     {
-      "id": "edgeconnex-stockland-australia-450mw-jv-2026-10-14",
-      "date": "2026-10-14",
-      "title": "EdgeConneX and Stockland launch a 50:50 Australia JV with 450 MW secured for Sydney and Melbourne hyperscale campuses",
-      "summary": "On 14 October 2026 EdgeConneX announced a 50:50 joint venture with Stockland (ASX: SGP) to develop, own, and operate hyperscale data center campuses in Australia, starting with Sydney and Melbourne. The partners say they have secured 450 MW of power across the initial portfolio and are progressing additional power applications and planning. EdgeConneX appointed Chris Maher as Managing Director for Australia and joined Data Centres Australia as a principal member. Stockland’s earlier 3Q26 ASX operational update had already flagged contractual negotiations for the partnership and three existing sites with secured power totaling 450 MW. Country conversion: a new Australian sponsor platform enters with megawatts already secured rather than land-only optionality.",
-      "url": "https://www.edgeconnex.com/news/press-releases/edgeconnex-enters-australia-in-partnership-with-stockland-with-hyperscale-data-center-campuses-planned-in-sydney-and-melbourne/",
-      "source": "EdgeConneX primary PR 14 Oct 2026",
+      "id": "nisource-microsoft-indiana-1100mw-genco-bess-2026-10-16",
+      "date": "2026-10-16",
+      "title": "NiSource GenCo signs a 20-year Microsoft energy agreement for northwest Indiana: ~1,100 MW new generation from 2028 plus 600 MW BESS, fully funded by the hyperscaler",
+      "summary": "On 16 October 2026 NiSource Inc. announced a long-term energy agreement with Microsoft for its previously announced northwest Indiana data center campus. Under NiSource Generation Company LLC (GenCo), Microsoft is expected to begin taking electric service on a 20-year term starting in 2028. The GenCo-owned pool portfolio will increase by approximately 1,100 MW of new generation resources, and NIPSCO and GenCo will provide transmission and generation infrastructure; Microsoft fully funds all generation and transmission required to serve its load. In connection with the agreement, GenCo contracted 600 MW of battery storage under a long-term tolling agreement with an AGP Group affiliate, added to GenCo’s multi-customer pool. NiSource says expected NIPSCO electric customer savings over the life of data center contracts rise to about $1.75 billion (from $1.4 billion previously disclosed), as much as about $140 per customer annually. Additional operational and financial detail is slated for NiSource’s third-quarter earnings call. Country conversion: a named hyperscaler load in Indiana now sits behind customer-funded GenCo generation and storage rather than a standard residential-rate pass-through.",
+      "url": "https://www.nisource.com/news/article/nisource-announces-long-term-agreement-with-microsoft-expected-to-increase-customer-savings-and-support-indiana-s-economic-growth",
+      "source": "NiSource primary PR 16 Oct 2026",
       "tier": 1,
       "corroboration": "Confirmed",
       "countries": [
-        "AUS"
+        "USA"
       ],
-      "flags": "🇦🇺",
+      "flags": "🇺🇸",
       "tags": [
-        "Build",
-        "Capital"
+        "Energy",
+        "Capital",
+        "Build"
       ],
-      "score": 66
+      "score": 80
     },
     {
       "id": "solaria-uruguay-500mw-ftz-campus-2026-10-14",
@@ -40,24 +41,23 @@
       "score": 72
     },
     {
-      "id": "nisource-microsoft-indiana-1100mw-genco-bess-2026-10-16",
-      "date": "2026-10-16",
-      "title": "NiSource GenCo signs a 20-year Microsoft energy agreement for northwest Indiana: ~1,100 MW new generation from 2028 plus 600 MW BESS, fully funded by the hyperscaler",
-      "summary": "On 16 October 2026 NiSource Inc. announced a long-term energy agreement with Microsoft for its previously announced northwest Indiana data center campus. Under NiSource Generation Company LLC (GenCo), Microsoft is expected to begin taking electric service on a 20-year term starting in 2028. The GenCo-owned pool portfolio will increase by approximately 1,100 MW of new generation resources, and NIPSCO and GenCo will provide transmission and generation infrastructure; Microsoft fully funds all generation and transmission required to serve its load. In connection with the agreement, GenCo contracted 600 MW of battery storage under a long-term tolling agreement with an AGP Group affiliate, added to GenCo’s multi-customer pool. NiSource says expected NIPSCO electric customer savings over the life of data center contracts rise to about $1.75 billion (from $1.4 billion previously disclosed), as much as about $140 per customer annually. Additional operational and financial detail is slated for NiSource’s third-quarter earnings call. Country conversion: a named hyperscaler load in Indiana now sits behind customer-funded GenCo generation and storage rather than a standard residential-rate pass-through.",
-      "url": "https://www.nisource.com/news/article/nisource-announces-long-term-agreement-with-microsoft-expected-to-increase-customer-savings-and-support-indiana-s-economic-growth",
-      "source": "NiSource primary PR 16 Oct 2026",
+      "id": "edgeconnex-stockland-australia-450mw-jv-2026-10-14",
+      "date": "2026-10-14",
+      "title": "EdgeConneX and Stockland launch a 50:50 Australia JV with 450 MW secured for Sydney and Melbourne hyperscale campuses",
+      "summary": "On 14 October 2026 EdgeConneX announced a 50:50 joint venture with Stockland (ASX: SGP) to develop, own, and operate hyperscale data center campuses in Australia, starting with Sydney and Melbourne. The partners say they have secured 450 MW of power across the initial portfolio and are progressing additional power applications and planning. EdgeConneX appointed Chris Maher as Managing Director for Australia and joined Data Centres Australia as a principal member. Stockland’s earlier 3Q26 ASX operational update had already flagged contractual negotiations for the partnership and three existing sites with secured power totaling 450 MW. Country conversion: a new Australian sponsor platform enters with megawatts already secured rather than land-only optionality.",
+      "url": "https://www.edgeconnex.com/news/press-releases/edgeconnex-enters-australia-in-partnership-with-stockland-with-hyperscale-data-center-campuses-planned-in-sydney-and-melbourne/",
+      "source": "EdgeConneX primary PR 14 Oct 2026",
       "tier": 1,
       "corroboration": "Confirmed",
       "countries": [
-        "USA"
+        "AUS"
       ],
-      "flags": "🇺🇸",
+      "flags": "🇦🇺",
       "tags": [
-        "Energy",
-        "Capital",
-        "Build"
+        "Build",
+        "Capital"
       ],
-      "score": 80
+      "score": 66
     },
     {
       "id": "pjm-sb-energy-flagship-ohio-saa-study-er27-126-2026-10-13",
