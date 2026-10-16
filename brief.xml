@@ -2,69 +2,69 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>The supply chain kept printing records while the market argued about returns. TSMC reported Q3 revenue of US$46.72 billion, above its US$44.6 to 45.8 billion guide, with a 66.4% gross margin, 3 nm at 33% and 2 nm at 8% of wafer revenue, guided Q4 to US$52.3 to 54.3 billion and reiterated 2026 capex of US$60 to 64 billion. On the grid, PJM filed a FERC study agreement (ER27-126) to evaluate SB Energy&#x27;s Flagship campus in Pike County, Ohio as one package: 10,370 MW of firm load, about 10,170 MW of new GE Vernova gas generation and three 765 kV lines, with OpenAI named as the tenant and the developer paying for the study. In Korea, NeoAI Cloud closed KRW 600 billion of financing for a 40 MW Pohang AI data center, with NHN Cloud pre-leasing 16 MW, and in India CapitaLand launched a 34 MW IT data center in Chennai. Against that, Gartner said over US$3.5 trillion of AI infrastructure spending could face impairment by 2030 and that over 80% of neoclouds will cease independent operations, and Korea&#x27;s KOSPI fell 7.57% on 15 October with SK Hynix down 11%. On the public silicon tape every venue returned HTTP 200 and every print held: 69 confirms, 0 ticks, 0 NEW.</description>
+  <description>Friday’s conversion news is utilities and sponsors locking large loads behind customer-funded generation and free-trade-zone campuses. NiSource announced a 20-year GenCo energy agreement with Microsoft for the northwest Indiana campus: about 1,100 MW of new generation from 2028, Microsoft funding generation and transmission for its load, and GenCo adding 600 MW of battery storage under an AGP tolling deal, with expected NIPSCO customer savings raised to about $1.75 billion. Uruguay and Solaria signed a strategic FTZ agreement for up to 500 MW of data-center campus capacity plus up to 350 MW solar (MIEM cites US$5.7 billion; binding still ahead), and EdgeConneX launched a 50:50 Australia JV with Stockland with 450 MW secured for Sydney and Melbourne. On the economics tape, CoreWeave’s 2031 notes were yielding about 15.8% and 5-year CDS last near 1,038 bps after the Gartner scare, while Larry Fink warned a US data-center moratorium would mean recession. Public silicon tape: 67 confirms, 2 ticks, 0 NEW — Crusoe H200 on-demand $4.29 to $5.40 and H100 $3.90 to $4.50; Lambda H100 $3.99 / B200 $6.69 and AWS CB B200 $14.208 / B300 $16.146 held.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 15 October 2026</title>
+    <title>Compute brief - 16 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-15</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>The supply chain kept printing records while the market argued about returns. TSMC reported Q3 revenue of US$46.72 billion, above its US$44.6 to 45.8 billion guide, with a 66.4% gross margin, 3 nm at 33% and 2 nm at 8% of wafer revenue, guided Q4 to US$52.3 to 54.3 billion and reiterated 2026 capex of US$60 to 64 billion. On the grid, PJM filed a FERC study agreement (ER27-126) to evaluate SB Energy&#x27;s Flagship campus in Pike County, Ohio as one package: 10,370 MW of firm load, about 10,170 MW of new GE Vernova gas generation and three 765 kV lines, with OpenAI named as the tenant and the developer paying for the study. In Korea, NeoAI Cloud closed KRW 600 billion of financing for a 40 MW Pohang AI data center, with NHN Cloud pre-leasing 16 MW, and in India CapitaLand launched a 34 MW IT data center in Chennai. Against that, Gartner said over US$3.5 trillion of AI infrastructure spending could face impairment by 2030 and that over 80% of neoclouds will cease independent operations, and Korea&#x27;s KOSPI fell 7.57% on 15 October with SK Hynix down 11%. On the public silicon tape every venue returned HTTP 200 and every print held: 69 confirms, 0 ticks, 0 NEW. Countries: United States / Ohio: PJM files executed study agreement at FERC (ER27-126) for SB Energy&#x27;s Flagship campus at the former Portsmouth plant: 800 MW initial plus about 9,570 MW, 10,370 MW firm NITS, about 10,170 MW gas, three 765 kV lines, phased through 2032; OpenAI named as tenant. Study only, no approvals (Wire, 13 Oct). South Korea: NeoAI Cloud closes KRW 600 billion (KRW 450 billion PF closed 7 Oct plus KRW 150 billion equity, SC Capital Partners) for a 40 MW / 32 MW IT Pohang AI data center; NHN Cloud pre-leases 16 MW; service Q4 2027 (Wire, 12 Oct). KOSPI fell 7.57% on 15 Oct (Signal). India: CapitaLand India Trust launches Chennai 01 in Ambattur: 34 MW IT, 53 MW gross, about US$203 million, completion by end 2026; no tenant named (Wire, 15 Oct). Taiwan: TSMC Q3 2026 revenue US$46.72 billion (guide US$44.6 to 45.8 billion), gross margin 66.4%; Q4 guide US$52.3 to 54.3 billion; 2026 capex US$60 to 64 billion reiterated, 2026 to 2028 capex significantly higher than the prior three years (Signal).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-16</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Friday’s conversion news is utilities and sponsors locking large loads behind customer-funded generation and free-trade-zone campuses. NiSource announced a 20-year GenCo energy agreement with Microsoft for the northwest Indiana campus: about 1,100 MW of new generation from 2028, Microsoft funding generation and transmission for its load, and GenCo adding 600 MW of battery storage under an AGP tolling deal, with expected NIPSCO customer savings raised to about $1.75 billion. Uruguay and Solaria signed a strategic FTZ agreement for up to 500 MW of data-center campus capacity plus up to 350 MW solar (MIEM cites US$5.7 billion; binding still ahead), and EdgeConneX launched a 50:50 Australia JV with Stockland with 450 MW secured for Sydney and Melbourne. On the economics tape, CoreWeave’s 2031 notes were yielding about 15.8% and 5-year CDS last near 1,038 bps after the Gartner scare, while Larry Fink warned a US data-center moratorium would mean recession. Public silicon tape: 67 confirms, 2 ticks, 0 NEW — Crusoe H200 on-demand $4.29 to $5.40 and H100 $3.90 to $4.50; Lambda H100 $3.99 / B200 $6.69 and AWS CB B200 $14.208 / B300 $16.146 held. Countries: United States / Indiana: NiSource GenCo signs 20-year Microsoft energy agreement for NW Indiana campus: ~1,100 MW new generation from 2028, Microsoft funds gen+tx, GenCo adds 600 MW BESS (AGP tolling); expected NIPSCO savings ~$1.75B (Wire, 16 Oct). Uruguay: Orsi–Solaria strategic FTZ agreement: up to 500 MW DC campus (200 then +300 MW) plus up to 350 MW solar; MIEM cites US$5.7B; binding contracts still ahead (Wire, 14 Oct). Australia: EdgeConneX–Stockland 50:50 JV for Sydney/Melbourne hyperscale campuses with 450 MW power secured (Wire, 14 Oct). United States / neocloud credit: CoreWeave 9.75% 2031 notes YTM ~15.78%; 5y CDS last ~1,038 bps after peaking &gt;1,140 (CNBC 15 Oct). Signal, not Wire.</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-15/lambda-h100-od</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 15 Oct 2026. Confirm vs 14 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-16/lambda-h100-od</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 16 Oct 2026. Confirm vs 15 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-15/lambda-b200-od</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 15 Oct 2026. Confirm vs 14 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-16/lambda-b200-od</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 16 Oct 2026. Confirm vs 15 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-15/do-b300-spot</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 15 Oct 2026. Confirm vs 14 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-16/do-b300-spot</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 16 Oct 2026. Confirm vs 15 Oct print</description>
   </item>
   <item>
-    <title>MI350X · $3.50 spot</title>
-    <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-15/do-mi350x-spot</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.50 spot at DigitalOcean as of 15 Oct 2026. Confirm vs 14 Oct print</description>
+    <title>B300 HGX · $7.94 12m reserved</title>
+    <link>https://compute.world/brief#do-b300-12m</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-16/do-b300-12m</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $7.94 12m reserved at DigitalOcean as of 16 Oct 2026. Confirm vs 15 Oct print</description>
   </item>
   <item>
-    <title>MI355X · $5.50 spot</title>
-    <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-15/do-mi355x-spot</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $5.50 spot at DigitalOcean as of 15 Oct 2026. Confirm vs 14 Oct print</description>
+    <title>B200 SXM6 · $14.208 Capacity Blocks</title>
+    <link>https://compute.world/brief#aws-cb-b200</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-16/aws-cb-b200</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $14.208 Capacity Blocks at AWS as of 16 Oct 2026. Confirm vs 15 Oct print</description>
   </item>
   <item>
-    <title>H100 HGX · $6.16 on-demand</title>
-    <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-15/coreweave-h100-od</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 15 Oct 2026. Confirm vs 14 Oct print</description>
+    <title>B300 HGX · $16.146 Capacity Blocks</title>
+    <link>https://compute.world/brief#aws-cb-b300</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-16/aws-cb-b300</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 16 Oct 2026. Confirm vs 15 Oct print</description>
   </item>
   <item>
-    <title>H100 (P5) Capacity Blocks · $5.97 Capacity Blocks</title>
-    <link>https://compute.world/brief#aws-cb-p5-va</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-15/aws-cb-p5-va</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 (P5) Capacity Blocks: display $5.97 Capacity Blocks at AWS as of 15 Oct 2026. Confirm vs 14 Oct print</description>
+    <title>H200 SXM · $5.40 on-demand</title>
+    <link>https://compute.world/brief#crusoe-h200-od</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-16/crusoe-h200-od</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H200 SXM: display $5.40 on-demand at Crusoe as of 16 Oct 2026. Tick vs 15 Oct $4.29</description>
   </item>
   <item>
-    <title>B300 (P6-B300) Capacity Blocks · $16.146 Capacity Blocks</title>
-    <link>https://compute.world/brief#aws-cb-p6b300-va</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-15/aws-cb-p6b300-va</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 (P6-B300) Capacity Blocks: display $16.146 Capacity Blocks at AWS as of 15 Oct 2026. Confirm vs 14 Oct print</description>
+    <title>H100 SXM · $4.50 on-demand</title>
+    <link>https://compute.world/brief#crusoe-h100-od</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-16/crusoe-h100-od</guid>
+    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.50 on-demand at Crusoe as of 16 Oct 2026. Tick vs 15 Oct $3.90</description>
   </item>
 </channel></rss>
