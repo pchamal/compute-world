@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "id": "edgeconnex-stockland-australia-450mw-jv-2026-10-14",
+      "date": "2026-10-14",
+      "title": "EdgeConneX and Stockland launch a 50:50 Australia JV with 450 MW secured for Sydney and Melbourne hyperscale campuses",
+      "summary": "On 14 October 2026 EdgeConneX announced a 50:50 joint venture with Stockland (ASX: SGP) to develop, own, and operate hyperscale data center campuses in Australia, starting with Sydney and Melbourne. The partners say they have secured 450 MW of power across the initial portfolio and are progressing additional power applications and planning. EdgeConneX appointed Chris Maher as Managing Director for Australia and joined Data Centres Australia as a principal member. Stockland’s earlier 3Q26 ASX operational update had already flagged contractual negotiations for the partnership and three existing sites with secured power totaling 450 MW. Country conversion: a new Australian sponsor platform enters with megawatts already secured rather than land-only optionality.",
+      "url": "https://www.edgeconnex.com/news/press-releases/edgeconnex-enters-australia-in-partnership-with-stockland-with-hyperscale-data-center-campuses-planned-in-sydney-and-melbourne/",
+      "source": "EdgeConneX primary PR 14 Oct 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 66
+    },
+    {
+      "id": "solaria-uruguay-500mw-ftz-campus-2026-10-14",
+      "date": "2026-10-14",
+      "title": "Uruguay and Solaria sign a strategic FTZ agreement for up to 500 MW of data-center campus capacity plus up to 350 MW solar (US$5.7B cited)",
+      "summary": "On 14 October 2026 Uruguay’s President Yamandú Orsi signed a strategic agreement with Spain’s Solaria Energía y Medio Ambiente to develop a data-center technology campus of up to 500 MW under the free-trade-zone regime, together with up to 350 MW of solar PV on UTE land with a PPA envisaged for up to 40 years. Solaria will develop and operate the FTZ (land, infrastructure, services) and the electrical connection to Uruguay’s 500 kV grid. Development is phased: an initial 200 MW of data-center capacity (Canelones) then an additional 300 MW (San José), with solar concentrated in Florida. Uruguay’s Ministry of Industry, Energy and Mining cites a historic US$5.7 billion investment (about US$5.5 billion data centers and US$200 million solar), roughly 3,100 construction jobs in phase one (~2029) and about 1,500 permanent jobs at full operation. Binding contracts remain ahead (press coverage points to a May 2027 target). Country conversion: a sovereign-sponsored LatAm package of FTZ land, renewables, and transmission for operator tenants, not yet a named hyperscaler offtake.",
+      "url": "https://www.gub.uy/ministerio-industria-energia-mineria/comunicacion/noticias/uruguay-recibira-inversion-historica-5700-millones-dolares-para-instalar",
+      "source": "MIEM Uruguay 14 Oct 2026; Solaria corporate release",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "URY"
+      ],
+      "flags": "🇺🇾",
+      "tags": [
+        "Build",
+        "Energy",
+        "Capital"
+      ],
+      "score": 72
+    },
+    {
+      "id": "nisource-microsoft-indiana-1100mw-genco-bess-2026-10-16",
+      "date": "2026-10-16",
+      "title": "NiSource GenCo signs a 20-year Microsoft energy agreement for northwest Indiana: ~1,100 MW new generation from 2028 plus 600 MW BESS, fully funded by the hyperscaler",
+      "summary": "On 16 October 2026 NiSource Inc. announced a long-term energy agreement with Microsoft for its previously announced northwest Indiana data center campus. Under NiSource Generation Company LLC (GenCo), Microsoft is expected to begin taking electric service on a 20-year term starting in 2028. The GenCo-owned pool portfolio will increase by approximately 1,100 MW of new generation resources, and NIPSCO and GenCo will provide transmission and generation infrastructure; Microsoft fully funds all generation and transmission required to serve its load. In connection with the agreement, GenCo contracted 600 MW of battery storage under a long-term tolling agreement with an AGP Group affiliate, added to GenCo’s multi-customer pool. NiSource says expected NIPSCO electric customer savings over the life of data center contracts rise to about $1.75 billion (from $1.4 billion previously disclosed), as much as about $140 per customer annually. Additional operational and financial detail is slated for NiSource’s third-quarter earnings call. Country conversion: a named hyperscaler load in Indiana now sits behind customer-funded GenCo generation and storage rather than a standard residential-rate pass-through.",
+      "url": "https://www.nisource.com/news/article/nisource-announces-long-term-agreement-with-microsoft-expected-to-increase-customer-savings-and-support-indiana-s-economic-growth",
+      "source": "NiSource primary PR 16 Oct 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Capital",
+        "Build"
+      ],
+      "score": 80
+    },
+    {
       "id": "pjm-sb-energy-flagship-ohio-saa-study-er27-126-2026-10-13",
       "date": "2026-10-13",
       "title": "PJM files an executed study agreement at FERC to evaluate SB Energy's 10.37 GW Flagship AI campus in Pike County, Ohio under Ohio's State Agreement Approach",
@@ -1867,6 +1926,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "note": "Wire refresh 2026-10-15: added pjm-sb-energy-flagship-ohio-saa-study-er27-126-2026-10-13, neoai-cloud-pohang-40mw-krw600bn-pf-close-2026-10-12, capitaland-chennai-01-34mw-it-launch-2026-10-15. Tape: confirm day, 69 confirms, 0 ticks, 0 NEW (history 2737 to 2808). TSMC Q3 (US$46.72B, 2026 capex US$60-64B reiterated), Gartner neocloud consolidation call, KOSPI chip selloff, Venture Global 10 GW power island frame agreements and Digital Realty De Soto community fund stay Signal only."
 }

@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-15",
-  "title": "Compute brief - 15 October 2026",
-  "description": "TSMC Q3 revenue US$46.72 billion, Q4 guided to US$52.3 to 54.3 billion, 2026 capex US$60 to 64 billion reiterated. PJM files a FERC study agreement for SB Energy's 10.37 GW Flagship campus in Ohio. NeoAI Cloud closes KRW 600 billion for Pohang. Gartner says 80% of neoclouds will cease independent operations by 2030. Tape: 69 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "TSMC beats; PJM studies 10 GW Ohio; Gartner on neoclouds",
-  "lede": "The supply chain kept printing records while the market argued about returns. TSMC reported Q3 revenue of US$46.72 billion, above its US$44.6 to 45.8 billion guide, with a 66.4% gross margin, 3 nm at 33% and 2 nm at 8% of wafer revenue, guided Q4 to US$52.3 to 54.3 billion and reiterated 2026 capex of US$60 to 64 billion. On the grid, PJM filed a FERC study agreement (ER27-126) to evaluate SB Energy's Flagship campus in Pike County, Ohio as one package: 10,370 MW of firm load, about 10,170 MW of new GE Vernova gas generation and three 765 kV lines, with OpenAI named as the tenant and the developer paying for the study. In Korea, NeoAI Cloud closed KRW 600 billion of financing for a 40 MW Pohang AI data center, with NHN Cloud pre-leasing 16 MW, and in India CapitaLand launched a 34 MW IT data center in Chennai. Against that, Gartner said over US$3.5 trillion of AI infrastructure spending could face impairment by 2030 and that over 80% of neoclouds will cease independent operations, and Korea's KOSPI fell 7.57% on 15 October with SK Hynix down 11%. On the public silicon tape every venue returned HTTP 200 and every print held: 69 confirms, 0 ticks, 0 NEW.",
+  "updated": "2026-10-16",
+  "title": "Compute brief - 16 October 2026",
+  "description": "NiSource–Microsoft GenCo lock ~1,100 MW plus 600 MW BESS in Indiana from 2028; Solaria–Uruguay up to 500 MW FTZ; EdgeConneX–Stockland 450 MW Australia JV. CoreWeave CDS near distress. Tape: 67 confirms, 2 ticks (Crusoe H200 $4.29→$5.40, H100 $3.90→$4.50), 0 NEW.",
+  "og_kicker": "Microsoft Indiana GenCo; Crusoe H200/H100 ticks; Uruguay 500 MW",
+  "lede": "Friday’s conversion news is utilities and sponsors locking large loads behind customer-funded generation and free-trade-zone campuses. NiSource announced a 20-year GenCo energy agreement with Microsoft for the northwest Indiana campus: about 1,100 MW of new generation from 2028, Microsoft funding generation and transmission for its load, and GenCo adding 600 MW of battery storage under an AGP tolling deal, with expected NIPSCO customer savings raised to about $1.75 billion. Uruguay and Solaria signed a strategic FTZ agreement for up to 500 MW of data-center campus capacity plus up to 350 MW solar (MIEM cites US$5.7 billion; binding still ahead), and EdgeConneX launched a 50:50 Australia JV with Stockland with 450 MW secured for Sydney and Melbourne. On the economics tape, CoreWeave’s 2031 notes were yielding about 15.8% and 5-year CDS last near 1,038 bps after the Gartner scare, while Larry Fink warned a US data-center moratorium would mean recession. Public silicon tape: 67 confirms, 2 ticks, 0 NEW — Crusoe H200 on-demand $4.29 to $5.40 and H100 $3.90 to $4.50; Lambda H100 $3.99 / B200 $6.69 and AWS CB B200 $14.208 / B300 $16.146 held.",
   "countries": [
     {
-      "id": "usa-pjm-flagship-saa",
-      "name": "United States / Ohio",
+      "id": "usa-nisource-microsoft-indiana",
+      "name": "United States / Indiana",
       "slug": "united-states",
-      "note": "PJM files executed study agreement at FERC (ER27-126) for SB Energy's Flagship campus at the former Portsmouth plant: 800 MW initial plus about 9,570 MW, 10,370 MW firm NITS, about 10,170 MW gas, three 765 kV lines, phased through 2032; OpenAI named as tenant. Study only, no approvals (Wire, 13 Oct)."
+      "note": "NiSource GenCo signs 20-year Microsoft energy agreement for NW Indiana campus: ~1,100 MW new generation from 2028, Microsoft funds gen+tx, GenCo adds 600 MW BESS (AGP tolling); expected NIPSCO savings ~$1.75B (Wire, 16 Oct)."
     },
     {
-      "id": "kor-neoai-pohang",
-      "name": "South Korea",
-      "slug": "south-korea",
-      "note": "NeoAI Cloud closes KRW 600 billion (KRW 450 billion PF closed 7 Oct plus KRW 150 billion equity, SC Capital Partners) for a 40 MW / 32 MW IT Pohang AI data center; NHN Cloud pre-leases 16 MW; service Q4 2027 (Wire, 12 Oct). KOSPI fell 7.57% on 15 Oct (Signal)."
+      "id": "ury-solaria-ftz",
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "note": "Orsi–Solaria strategic FTZ agreement: up to 500 MW DC campus (200 then +300 MW) plus up to 350 MW solar; MIEM cites US$5.7B; binding contracts still ahead (Wire, 14 Oct)."
     },
     {
-      "id": "ind-capitaland-chennai",
-      "name": "India",
-      "slug": "india",
-      "note": "CapitaLand India Trust launches Chennai 01 in Ambattur: 34 MW IT, 53 MW gross, about US$203 million, completion by end 2026; no tenant named (Wire, 15 Oct)."
+      "id": "aus-edgeconnex-stockland",
+      "name": "Australia",
+      "slug": "australia",
+      "note": "EdgeConneX–Stockland 50:50 JV for Sydney/Melbourne hyperscale campuses with 450 MW power secured (Wire, 14 Oct)."
     },
     {
-      "id": "twn-tsmc-q3",
-      "name": "Taiwan",
-      "slug": "taiwan",
-      "note": "TSMC Q3 2026 revenue US$46.72 billion (guide US$44.6 to 45.8 billion), gross margin 66.4%; Q4 guide US$52.3 to 54.3 billion; 2026 capex US$60 to 64 billion reiterated, 2026 to 2028 capex significantly higher than the prior three years (Signal)."
+      "id": "usa-coreweave-credit",
+      "name": "United States / neocloud credit",
+      "slug": "united-states",
+      "note": "CoreWeave 9.75% 2031 notes YTM ~15.78%; 5y CDS last ~1,038 bps after peaking >1,140 (CNBC 15 Oct). Signal, not Wire."
     }
   ],
   "silicon": [
@@ -37,10 +37,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 14 Oct print"
+      "note": "Confirm vs 15 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -48,10 +48,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 14 Oct print"
+      "note": "Confirm vs 15 Oct print"
     },
     {
       "id": "do-b300-spot",
@@ -59,169 +59,115 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 14 Oct print"
+      "note": "Confirm vs 15 Oct print"
     },
     {
-      "id": "do-mi350x-spot",
-      "name": "MI350X",
-      "display_usd": 3.5,
+      "id": "do-b300-12m",
+      "name": "B300 HGX",
+      "display_usd": 7.94,
       "venue": "DigitalOcean",
-      "term": "spot",
-      "as_of": "2026-10-15",
-      "prev_usd": 3.5,
+      "term": "12m reserved",
+      "as_of": "2026-10-16",
+      "prev_usd": 7.94,
       "delta": 0.0,
-      "note": "Confirm vs 14 Oct print"
+      "note": "Confirm vs 15 Oct print"
     },
     {
-      "id": "do-mi355x-spot",
-      "name": "MI355X",
-      "display_usd": 5.5,
-      "venue": "DigitalOcean",
-      "term": "spot",
-      "as_of": "2026-10-15",
-      "prev_usd": 5.5,
-      "delta": 0.0,
-      "note": "Confirm vs 14 Oct print"
-    },
-    {
-      "id": "coreweave-h100-od",
-      "name": "H100 HGX",
-      "display_usd": 6.16,
-      "venue": "CoreWeave",
-      "term": "on-demand",
-      "as_of": "2026-10-15",
-      "prev_usd": 6.16,
-      "delta": 0.0,
-      "note": "Confirm vs 14 Oct print"
-    },
-    {
-      "id": "aws-cb-p5-va",
-      "name": "H100 (P5) Capacity Blocks",
-      "display_usd": 5.97,
+      "id": "aws-cb-b200",
+      "name": "B200 SXM6",
+      "display_usd": 14.208,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-15",
-      "prev_usd": 5.97,
+      "as_of": "2026-10-16",
+      "prev_usd": 14.208,
       "delta": 0.0,
-      "note": "Confirm vs 14 Oct print"
+      "note": "Confirm vs 15 Oct print"
     },
     {
-      "id": "aws-cb-p6b300-va",
-      "name": "B300 (P6-B300) Capacity Blocks",
+      "id": "aws-cb-b300",
+      "name": "B300 HGX",
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 14 Oct print"
+      "note": "Confirm vs 15 Oct print"
+    },
+    {
+      "id": "crusoe-h200-od",
+      "name": "H200 SXM",
+      "display_usd": 5.4,
+      "venue": "Crusoe",
+      "term": "on-demand",
+      "as_of": "2026-10-16",
+      "prev_usd": 4.29,
+      "delta": 1.11,
+      "note": "Tick vs 15 Oct $4.29"
+    },
+    {
+      "id": "crusoe-h100-od",
+      "name": "H100 SXM",
+      "display_usd": 4.5,
+      "venue": "Crusoe",
+      "term": "on-demand",
+      "as_of": "2026-10-16",
+      "prev_usd": 3.9,
+      "delta": 0.6,
+      "note": "Tick vs 15 Oct $3.90"
     }
   ],
   "watch": [
-    {
-      "id": "pjm-flagship-ferc",
-      "name": "FERC action on PJM ER27-126",
-      "note": "PJM asks for acceptance effective 25 Sep; studies run 60 to 120 days after data review; PUCO has 120 days after the System Upgrade Report to act."
-    },
-    {
-      "id": "neocloud-equities",
-      "name": "Neocloud equities after Gartner",
-      "note": "Gartner: over 80% of neoclouds cease independent operations by 2030; AI-optimized IaaS spend US$66 billion (2027) to US$174 billion (2030). Watch financing spreads and any M&A."
-    },
-    {
-      "id": "korea-memory-selloff",
-      "name": "KOSPI and memory names",
-      "note": "KOSPI -7.57% on 15 Oct with circuit breaker; Samsung -9.48%, SK Hynix -11.06%. Watch HBM pricing commentary and Samsung Q3 detail."
-    },
-    {
-      "id": "crusoe-endpoint-mi355x",
-      "name": "Crusoe managed inference MI355X",
-      "note": "Self-serve dedicated endpoint list moved $7.40 to $8.20 per GPU-hour between 14 and 15 Oct reads. Off-tape (managed endpoint, not raw rental); watch whether raw MI355X gets a public price."
-    },
-    {
-      "id": "venture-global-power-islands",
-      "name": "Venture Global power islands",
-      "note": "Frame agreements with GE Vernova and Baker Hughes for up to 16 x 720 MW units and a stated path to up to 10 GW of compute; first purchase order expected by end 2026. No tenant."
-    },
-    {
-      "id": "tceq-compliance-update",
-      "name": "TCEQ Abbott directive update",
-      "note": "Compliance update due 19 Oct; permit pause has no stated end date."
-    },
-    {
-      "id": "fermi-financing",
-      "name": "Fermi Matador financing / TensorWave close",
-      "note": "Lease binding with AMD credit support; watch project financing and the 31 Oct closing date."
-    },
-    {
-      "id": "pjm-compliance",
-      "name": "PJM compliance filing (ER26-3515)",
-      "note": "Due within 30 days of 9 Oct (about 8 Nov)."
-    },
-    {
-      "id": "do-b300-spot",
-      "name": "DigitalOcean B300 spot",
-      "note": "Held $6.17 on re-read (was $8.00 on 9 Oct). Still below $7.94 12-month reserved."
-    }
+    "NTT Data / Anthropic Osaka coastal DC talks (~¥1T cited) — need binding contract and MW before Wire",
+    "NiSource Q3 call — campus IT MW, ramp schedule, regulatory path for GenCo/Microsoft",
+    "CoreWeave Q3 / November earnings — backlog vs FCF before CDS stress compounds",
+    "Uruguay–Solaria binding PPAs/FTZ concessions (press aim ~May 2027)",
+    "EdgeConneX–Stockland: which of the three 450 MW sites energize first",
+    "Crusoe B200 $8.50 / B300 $9.60 public OD rows still outside tape parser (contact-sales legacy path)"
   ],
   "sources": [
     {
-      "name": "PJM FERC filing ER27-126-000 (Flagship SAA study agreement)",
-      "url": "https://www.pjm.com/pjmfiles/directory/etariff/FercDockets/9925/20261013-er27-126-000.pdf",
-      "note": "Wire: 10,370 MW load, about 10,170 MW gas, 765 kV, OpenAI tenant."
+      "name": "NiSource Microsoft GenCo PR",
+      "url": "https://www.nisource.com/news/article/nisource-announces-long-term-agreement-with-microsoft-expected-to-increase-customer-savings-and-support-indiana-s-economic-growth",
+      "note": "Primary 16 Oct: 1,100 MW GenCo, 600 MW BESS, 20-year from 2028."
     },
     {
-      "name": "Utility Dive on PJM Flagship study",
-      "url": "https://www.utilitydive.com/news/pjm-softbank-ohio-ai-flagship-state-agreement-approach/832962/",
-      "note": "Corroboration of the filing."
+      "name": "MIEM Uruguay Solaria",
+      "url": "https://www.gub.uy/ministerio-industria-energia-mineria/comunicacion/noticias/uruguay-recibira-inversion-historica-5700-millones-dolares-para-instalar",
+      "note": "Primary 14 Oct: up to 500 MW FTZ + 350 MW solar, US$5.7B cited."
     },
     {
-      "name": "NeoAI Cloud Pohang financing (Asia Business Daily)",
-      "url": "https://www.asiae.co.kr/en/article/2026101211032136359",
-      "note": "Wire: KRW 600 billion, 40 MW, NHN Cloud 16 MW pre-lease."
+      "name": "EdgeConneX Stockland PR",
+      "url": "https://www.edgeconnex.com/news/press-releases/edgeconnex-enters-australia-in-partnership-with-stockland-with-hyperscale-data-center-campuses-planned-in-sydney-and-melbourne/",
+      "note": "Primary 14 Oct: 50:50 JV, 450 MW secured."
     },
     {
-      "name": "CapitaLand Chennai 01 (The Business Times)",
-      "url": "https://www.businesstimes.com.sg/international/capitaland-india-trust-unveils-us203-2-million-chennai-data-centre",
-      "note": "Wire: 34 MW IT, 53 MW gross, US$203.2 million."
+      "name": "CNBC CoreWeave CDS",
+      "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+      "note": "15 Oct: CDS ~1,038 bps, 2031 notes YTM ~15.78%."
     },
     {
-      "name": "TSMC Q3 2026 earnings release",
-      "url": "https://pr.tsmc.com/english/news/3346",
-      "note": "Signal: US$46.72 billion revenue, Q4 guide US$52.3 to 54.3 billion."
-    },
-    {
-      "name": "Gartner AI infrastructure impairment forecast",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030",
-      "note": "Signal: US$3.5 trillion exposed; 80% of neoclouds."
-    },
-    {
-      "name": "Venture Global power island agreements",
-      "url": "https://ventureglobal.com/2026/10/15/venture-global-secures-new-agreements-to-support-expansion-of-existing-grid-independent-power-network/",
-      "note": "Signal: up to 16 x 720 MW; path to 10 GW compute."
-    },
-    {
-      "name": "DigitalOcean GPU Droplets pricing",
-      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "B300 spot $6.17 confirm; MI355X $5.50; MI350X $3.50."
-    },
-    {
-      "name": "Lambda Cloud pricing",
-      "url": "https://lambda.ai/pricing",
-      "note": "H100 $3.99 / B200 $6.69 / GH200 $2.29 confirm."
-    },
-    {
-      "name": "AWS Capacity Blocks pricing",
-      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-      "note": "P5 $5.970 / P6-B200 $14.208 / P6-B300 $16.146 confirm."
+      "name": "CNBC Fink DC moratorium",
+      "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
+      "note": "14 Oct: Fink recession warning on DC pause."
     },
     {
       "name": "Crusoe Cloud pricing",
       "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "Raw GPU list confirms; managed endpoint MI355X $7.40 to $8.20 (off-tape)."
+      "note": "H200 OD $5.40, H100 OD $4.50 (ticks); B200 $8.50 / B300 $9.60 listed but not yet on tape series."
+    },
+    {
+      "name": "Lambda pricing",
+      "url": "https://lambda.ai/pricing",
+      "note": "H100 $3.99 / B200 $6.69 confirms."
+    },
+    {
+      "name": "AWS Capacity Blocks pricing",
+      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
+      "note": "B200 $14.208 / B300 $16.146 confirms."
     }
   ]
 }
