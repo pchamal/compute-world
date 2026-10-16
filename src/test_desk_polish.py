@@ -106,6 +106,45 @@ class Robots(unittest.TestCase):
             self.assertIn(f"User-agent: {bot}", txt)
 
 
+class ContactDeskDate(unittest.TestCase):
+    def test_contact_tracks_desk_publish_date(self):
+        import subprocess
+        subprocess.check_call([sys.executable, os.path.join(HERE, "build_contact.py")])
+        from fnav import desk_asof
+        from desk_chrome import fmt_date
+        from desk_data import load_json
+
+        dated = fmt_date(desk_asof())
+        brief_dated = fmt_date(str(load_json("brief.json")["updated"])[:10])
+        with open(os.path.join(ROOT, "contact.html"), encoding="utf-8") as fh:
+            html = fh.read()
+        self.assertEqual(html.count(f"Updated <b>{dated}</b>"), 2)
+        self.assertIn(f"As of {dated}.", html)
+        self.assertEqual(html.count(f"As of {dated}."), 2)
+        line = f'<p>Latest desk read: <a href="/brief">Compute brief, {brief_dated}</a>.</p>'
+        self.assertIn(line, html)
+        start = html.index("Latest desk read:")
+        sentence = html[start:html.index("</p>", start)]
+        self.assertNotIn("\u2014", sentence)
+        self.assertNotIn("\u2122", sentence)
+        self.assertNotIn("7 Sep 2026", html)
+        self.assertIn("CC BY 4.0", html)
+        self.assertIn('data-sitekey="1x00000000000000000000AA"', html)
+        self.assertIn("cGNoYW1hbEBhbHVtbmkuc3RhbmZvcmQuZWR1", html)
+
+    def test_weekday_publish_rebuilds_contact(self):
+        for name in ("brief.yml", "silicon.yml", "wire.yml"):
+            with open(os.path.join(ROOT, ".github", "workflows", name), encoding="utf-8") as fh:
+                text = fh.read()
+            self.assertIn("contact.html", text)
+            self.assertIn('git pull --rebase origin "${GITHUB_REF_NAME}"', text)
+            self.assertIn("git stash pop", text)
+        with open(os.path.join(HERE, "build_brief.py"), encoding="utf-8") as fh:
+            self.assertIn("build_contact.py", fh.read())
+        with open(os.path.join(HERE, "build_desk.py"), encoding="utf-8") as fh:
+            self.assertIn("build_contact.py", fh.read())
+
+
 class Projects(unittest.TestCase):
     def test_every_project_has_a_href(self):
         slugs = {"IND": "india", "EU": None, "MYS": "malaysia", "ARE": "united-arab-emirates"}

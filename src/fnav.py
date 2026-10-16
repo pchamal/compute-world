@@ -46,7 +46,12 @@ INNER = {
 }
 
 
-def _asof():
+def desk_asof():
+    """ISO day for the site-wide Updated chip.
+
+    Silicon tape snapshot first (silicon.json updated, else snapshot), then
+    brief.json. Brief, silicon, and wire chrome all print this date.
+    """
     for name in ("silicon.json", "brief.json"):
         try:
             meta = load_json(name)
@@ -63,7 +68,7 @@ def css():
 
 
 def markup(page):
-    return deskhead_markup(page, _asof())
+    return deskhead_markup(page, desk_asof())
 
 
 def script(page):

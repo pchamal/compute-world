@@ -14,6 +14,8 @@ import json
 import os
 import re
 import shutil
+import subprocess
+import sys
 from html import escape as esc
 
 from desk_chrome import (
@@ -1085,6 +1087,8 @@ def write_site(dests=None):
         write(os.path.join(dest, "llms.txt"), llms)
     n = len(data["countries"]) + len(data["chips"]) + 1
     print(f"desk v1.5: {n} pages · {rail['ceiling']} ceiling · {rail['unlockable']} unlockable · {rail['live']} live · as of {asof}")
+    # Contact chrome uses the same snapshot. Silicon and wire both call write_site.
+    subprocess.check_call([sys.executable, os.path.join(HERE, "build_contact.py")])
     return data, rail
 
 

@@ -1,14 +1,40 @@
 #!/usr/bin/env python3
-"""The Desk (contact.html). Theme and chrome stay in lockstep with the v1.5 desk."""
+"""The Desk (contact.html). Theme and chrome stay in lockstep with the v1.5 desk.
+
+The Updated chips and the cite line use desk_asof(), the same silicon-then-brief
+snapshot brief, silicon, and wire already print. Weekday brief, silicon, and wire
+publishes rebuild this file so that date cannot freeze.
+"""
 import os
-from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script
-from desk_chrome import MARKET_THEME_CSS, cite_line, SITE
+from html import escape as esc
+from fnav import css as fnav_css, markup as fnav_markup, script as fnav_script, desk_asof
+from desk_chrome import MARKET_THEME_CSS, cite_line, SITE, fmt_date
+from desk_data import load_json
 from seo import og_block
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-ASOF = "2026-09-07"
+# Same live desk date as the nav chips. Not the day this prose was last edited.
+ASOF = desk_asof()
 CITE = cite_line("The Desk", f"{SITE}/contact.html", ASOF)
+
+
+def latest_brief_html():
+    """One sentence from brief.json. Omitted when the brief has no publish day."""
+    try:
+        brief = load_json("brief.json")
+    except FileNotFoundError:
+        return ""
+    day = str(brief.get("updated") or "")[:10]
+    if len(day) != 10:
+        return ""
+    dated = esc(fmt_date(day))
+    return (
+        f'<p>Latest desk read: <a href="/brief">Compute brief, {dated}</a>.</p>\n      '
+    )
+
+
+LATEST = latest_brief_html()
 
 PAGE = f'''<!DOCTYPE html>
 <html lang="en">
@@ -101,7 +127,7 @@ footer .c2{{margin-top:10px;font-size:12px;color:var(--muted)}}
     <div class="eyebrow">The Desk · Contact Us</div>
     <h1>Briefings, corrections, and <em>better data</em>.</h1>
     <div class="prose">
-      <p>This is <b>Pukar C. Hamal</b>'s public compute desk, written from San Francisco. Companies write when they want a briefing, a sourced print checked, a country conversion question, or to cite or license the tapes. Researchers write when a number is wrong. Campus power, water, land, tax, and jobs have a sourced clerk's book at the <a href="/data-centers.html">Data centers FAQ</a>. Named campuses sit on a desk-curated globe at <a href="/campuses.html">Campuses</a> — a register, not a census.</p>
+      {LATEST}<p>This is <b>Pukar C. Hamal</b>'s public compute desk, written from San Francisco. Companies write when they want a briefing, a sourced print checked, a country conversion question, or to cite or license the tapes. Researchers write when a number is wrong. Campus power, water, land, tax, and jobs have a sourced clerk's book at the <a href="/data-centers.html">Data centers FAQ</a>. Named campuses sit on a desk-curated globe at <a href="/campuses.html">Campuses</a> — a register, not a census.</p>
       <p>A light pointer: <a href="https://pukarhamal.com/">pukarhamal.com</a>. The address is kept behind a quick human check, so it reaches a person and not a scraper. Confirm below and it appears.</p>
     </div>
     <div class="lanes">
@@ -170,4 +196,4 @@ setTimeout(function(){{
 '''
 
 open(os.path.join(ROOT, "contact.html"), "w").write(PAGE)
-print("contact.html generated")
+print(f"contact.html generated ({ASOF})")
