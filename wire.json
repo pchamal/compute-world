@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "id": "nextdc-m3-melbourne-power-delay-trading-halt-2026-10-19",
+      "date": "2026-10-19",
+      "title": "NextDC halts ASX trading over a delay to power supply at its M3 Melbourne data center and flags possible impact on FY27 guidance",
+      "summary": "On 19 October 2026 NextDC (ASX: NXT) asked the ASX for an immediate trading halt so it could assess the impact of a delay to the supply of power at its M3 Melbourne data center in West Footscray, including on the FY27 guidance it has given the market. The request says the board had not yet met to consider the delay; the halt runs until NextDC makes an announcement or until normal trading on Wednesday 21 October. Bloomberg reports M3 is partially operating, with about 42 MW brought online during FY2026 and a further 165 MW under development. NextDC did not state the cause. Citi analysts Siraj Ahmed and Howard Suen wrote that the delay likely relates to distributor Jemena pausing work in September on 66 kV lines through residential streets after resident and council concerns, and estimated FY27 EBITDA could fall by up to A$25 million; that is an analyst attribution, not a company statement. AusNet says power demand from advanced data center proposals in Victoria exceeds the state's existing capacity. Country conversion: an operating Australian AI campus is gated by distribution lines, not tenant demand.",
+      "url": "https://www.energyconnects.com/news/utilities/2026/october/australian-data-center-power-delay-exposes-ai-bottleneck/",
+      "source": "NextDC ASX trading halt request 19 Oct 2026 (primary, via ASX Market Announcement); Bloomberg via Energy Connects 19 Oct; AFR and Capital Brief 19 Oct",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Stall",
+        "Energy"
+      ],
+      "score": 70
+    },
+    {
+      "id": "microsoft-nscale-loughton-essex-exit-grid-delay-2026-10-18",
+      "date": "2026-10-18",
+      "title": "Microsoft exits its anchor deal at Nscale's Loughton, Essex AI data center after UK Power Networks pushes grid power into the 2030s",
+      "summary": "Microsoft has ended its agreement to take capacity at Nscale's planned AI data center in Loughton, Essex, first reported by The Telegraph on 18 October 2026 and followed by the BBC, the Guardian, the FT and City AM. UK Power Networks had told Nscale the site would not get sufficient grid power until the early to mid 2030s, against a planned 2026 power date and 2027 opening, citing work needed on the wider transmission network. The project was announced in 2025 as the UK's largest AI supercomputer: Nscale pledged about GBP 2 billion, around 23,000 Nvidia GPUs were planned to serve Microsoft Azure, and Nscale has said the site could grow from 50 to 90 MW. Microsoft had said only last month that part of its US$30 billion UK investment would fund the Loughton supercomputer. A Microsoft spokesperson told City AM the decision 'relates to a single site' and that it remains committed to the partnership; Nscale said it remains committed to Loughton, is exploring alternative power sources and other UK sites, and that the grid issue has no impact on its other contracts. The two still work together in Norway, Portugal and the US. Country conversion: the UK's flagship AI compute site has lost its anchor tenant because of grid timing, not demand.",
+      "url": "https://www.bbc.com/news/articles/c9m26kl5y7epo",
+      "source": "The Telegraph 18 Oct 2026 (first report); BBC 18-19 Oct; Guardian 18 Oct; City AM 19 Oct (Microsoft and Nscale statements); FT",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "GBR"
+      ],
+      "flags": "🇬🇧",
+      "tags": [
+        "Stall",
+        "Energy"
+      ],
+      "score": 76
+    },
+    {
+      "id": "everwind-anthropic-point-tupper-95mw-20yr-lease-2026-10-16",
+      "date": "2026-10-16",
+      "title": "Anthropic signs a 20-year lease for the first 95 MW of EverWind's planned 420 MW Point Tupper campus in Nova Scotia, its first data center deal in Canada",
+      "summary": "On 16 October 2026 EverWind announced more than $10 billion of planned private investment at Point Tupper, Nova Scotia: more than $8 billion to develop, build, own and finance a data center campus and $2 billion for four onshore wind projects (Bear Lake, Windy Ridge, Kmtnuk, Upper Afton). The campus starts with a 95 MW phase in late 2027 and a 325 MW expansion targeted for 2028, subject to commercial, technical and regulatory conditions, for 420 MW at full build. EverWind's release names only a 'leading frontier AI developer' on a long-term lease; Anthropic confirmed in its own release the same day that it will lease the first phase for at least 20 years to power Claude models, and Reuters reported it as Anthropic's first Canadian data center agreement. EverWind says it will fund all connection, network upgrade and other system costs attributable to the project, add several hundred MWh of batteries, design the campus to cut grid draw when needed, and not connect the expansion until system studies and approvals are complete; existing grid supply serves phase 1 at first. Closed-loop cooling is estimated at about 100,000 litres of water a day for phase 1 and 500,000 at 420 MW. About 2,000 construction and 215 permanent jobs are projected; a Membertou-led First Nations consortium is negotiating an equity stake (CBC: 9%). Land clearing is underway. Country conversion: a frontier lab has signed a binding, multi-decade lease for Canadian capacity behind a developer-funded grid connection.",
+      "url": "https://www.globenewswire.com/news-release/2026/10/16/3382650/0/en/everwind-announces-10-billion-investment-in-point-tupper-data-centre-campus-and-renewable-energy-portfolio-across-nova-scotia.html",
+      "source": "EverWind release via GlobeNewswire 16 Oct 2026 (primary); Anthropic release 16 Oct as reported by CBC News; Reuters and Canadian Press 16-17 Oct",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CAN"
+      ],
+      "flags": "🇨🇦",
+      "tags": [
+        "Build",
+        "Capital",
+        "Energy"
+      ],
+      "score": 78
+    },
+    {
       "id": "nisource-microsoft-indiana-1100mw-genco-bess-2026-10-16",
       "date": "2026-10-16",
       "title": "NiSource GenCo signs a 20-year Microsoft energy agreement for northwest Indiana: ~1,100 MW new generation from 2028 plus 600 MW BESS, fully funded by the hyperscaler",
@@ -1926,6 +1984,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-16",
-  "note": "Wire refresh 2026-10-15: added pjm-sb-energy-flagship-ohio-saa-study-er27-126-2026-10-13, neoai-cloud-pohang-40mw-krw600bn-pf-close-2026-10-12, capitaland-chennai-01-34mw-it-launch-2026-10-15. Tape: confirm day, 69 confirms, 0 ticks, 0 NEW (history 2737 to 2808). TSMC Q3 (US$46.72B, 2026 capex US$60-64B reiterated), Gartner neocloud consolidation call, KOSPI chip selloff, Venture Global 10 GW power island frame agreements and Digital Realty De Soto community fund stay Signal only."
+  "updated": "2026-10-19",
+  "note": "Wire refresh 2026-10-19: added nextdc-m3-melbourne-power-delay-trading-halt-2026-10-19, microsoft-nscale-loughton-essex-exit-grid-delay-2026-10-18, everwind-anthropic-point-tupper-95mw-20yr-lease-2026-10-16. Tape: 69 confirms, 0 ticks, 2 NEW (Crusoe B200 on-demand $8.50 and HGX B300 on-demand $9.90 now parsed from the live list). Samsung to make Nvidia NVHBM base dies on TSMC 3nm (Seoul Economic Daily report, unconfirmed), CXMT preliminary Q3 revenue up 589% to 619%, the SOX eight-session losing streak and E2E Networks Q2 FY27 stay Signal only."
 }

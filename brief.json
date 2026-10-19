@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-16",
-  "title": "Compute brief - 16 October 2026",
-  "description": "NiSource–Microsoft GenCo lock ~1,100 MW plus 600 MW BESS in Indiana from 2028; Solaria–Uruguay up to 500 MW FTZ; EdgeConneX–Stockland 450 MW Australia JV. CoreWeave CDS near distress. Tape: 67 confirms, 2 ticks (Crusoe H200 $4.29→$5.40, H100 $3.90→$4.50), 0 NEW.",
-  "og_kicker": "Microsoft Indiana GenCo; Crusoe H200/H100 ticks; Uruguay 500 MW",
-  "lede": "Friday’s conversion news is utilities and sponsors locking large loads behind customer-funded generation and free-trade-zone campuses. NiSource announced a 20-year GenCo energy agreement with Microsoft for the northwest Indiana campus: about 1,100 MW of new generation from 2028, Microsoft funding generation and transmission for its load, and GenCo adding 600 MW of battery storage under an AGP tolling deal, with expected NIPSCO customer savings raised to about $1.75 billion. Uruguay and Solaria signed a strategic FTZ agreement for up to 500 MW of data-center campus capacity plus up to 350 MW solar (MIEM cites US$5.7 billion; binding still ahead), and EdgeConneX launched a 50:50 Australia JV with Stockland with 450 MW secured for Sydney and Melbourne. On the economics tape, CoreWeave’s 2031 notes were yielding about 15.8% and 5-year CDS last near 1,038 bps after the Gartner scare, while Larry Fink warned a US data-center moratorium would mean recession. Public silicon tape: 67 confirms, 2 ticks, 0 NEW — Crusoe H200 on-demand $4.29 to $5.40 and H100 $3.90 to $4.50; Lambda H100 $3.99 / B200 $6.69 and AWS CB B200 $14.208 / B300 $16.146 held.",
+  "updated": "2026-10-19",
+  "title": "Compute brief - 19 October 2026",
+  "description": "Power, not demand, set the weekend's terms. Microsoft exits Nscale's Loughton site after UK Power Networks pushes grid power into the 2030s; NextDC halts ASX trading over a power delay at M3 Melbourne; Anthropic signs a 20-year lease for 95 MW of EverWind's 420 MW Nova Scotia campus. Tape: 69 confirms, 0 ticks, 2 NEW (Crusoe B200 $8.50, B300 $9.90 on-demand).",
+  "og_kicker": "Grid timing costs the UK its anchor tenant; Anthropic leases in Nova Scotia",
+  "lede": "The weekend's conversion news was decided by the wire into the building. Microsoft ended its anchor deal at Nscale's Loughton, Essex site, the UK's flagship AI supercomputer project, after UK Power Networks said sufficient power would not arrive until the early to mid 2030s; Microsoft says the decision relates to a single site and Nscale says it is looking for alternative power. In Melbourne, NextDC asked for an ASX trading halt to assess a delay to power supply at its partly built M3 campus, including on FY27 guidance. Where the developer pays for the grid, deals closed: Anthropic signed a lease of at least 20 years for the first 95 MW of EverWind's planned 420 MW Point Tupper campus in Nova Scotia, with EverWind funding all attributable connection and network costs. In silicon, Seoul Economic Daily reported that Nvidia asked Samsung, SK hynix and Micron to build its custom NVHBM base dies on TSMC 3nm and that Samsung agreed (no company has confirmed), and CXMT guided preliminary Q3 revenue up 589% to 619%. The SOX closed 16 October at 11,137.29 after eight straight losing sessions, its longest streak since 2008, while Cantor said chip-equipment makers are effectively sold out. On the public silicon tape every venue returned HTTP 200: 69 confirms, 0 ticks and 2 NEW rows, as Crusoe's GPU list now shows public on-demand prices for B200 ($8.50) and HGX B300 ($9.90).",
   "countries": [
     {
-      "id": "usa-nisource-microsoft-indiana",
-      "name": "United States / Indiana",
-      "slug": "united-states",
-      "note": "NiSource GenCo signs 20-year Microsoft energy agreement for NW Indiana campus: ~1,100 MW new generation from 2028, Microsoft funds gen+tx, GenCo adds 600 MW BESS (AGP tolling); expected NIPSCO savings ~$1.75B (Wire, 16 Oct)."
+      "id": "gbr-nscale-loughton",
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "note": "Microsoft ends its anchor deal at Nscale's Loughton, Essex AI site (about GBP 2 billion, about 23,000 Nvidia GPUs planned) after UK Power Networks put sufficient power in the early to mid 2030s; Nscale exploring alternative power (Wire, 18 Oct)."
     },
     {
-      "id": "ury-solaria-ftz",
-      "name": "Uruguay",
-      "slug": "uruguay",
-      "note": "Orsi–Solaria strategic FTZ agreement: up to 500 MW DC campus (200 then +300 MW) plus up to 350 MW solar; MIEM cites US$5.7B; binding contracts still ahead (Wire, 14 Oct)."
-    },
-    {
-      "id": "aus-edgeconnex-stockland",
+      "id": "aus-nextdc-m3",
       "name": "Australia",
       "slug": "australia",
-      "note": "EdgeConneX–Stockland 50:50 JV for Sydney/Melbourne hyperscale campuses with 450 MW power secured (Wire, 14 Oct)."
+      "note": "NextDC trading halt over a power supply delay at M3 Melbourne, possible FY27 guidance impact; about 42 MW online in FY2026 and 165 MW under development per Bloomberg; announcement due by 21 Oct (Wire, 19 Oct)."
     },
     {
-      "id": "usa-coreweave-credit",
-      "name": "United States / neocloud credit",
-      "slug": "united-states",
-      "note": "CoreWeave 9.75% 2031 notes YTM ~15.78%; 5y CDS last ~1,038 bps after peaking >1,140 (CNBC 15 Oct). Signal, not Wire."
+      "id": "can-everwind-anthropic",
+      "name": "Canada",
+      "slug": "canada",
+      "note": "Anthropic leases the first 95 MW of EverWind's Point Tupper, Nova Scotia campus for at least 20 years (late 2027), with a 325 MW expansion targeted for 2028; EverWind funds attributable grid costs; more than $10 billion planned including wind (Wire, 16 Oct)."
+    },
+    {
+      "id": "ind-e2e-networks",
+      "name": "India",
+      "slug": "india",
+      "note": "E2E Networks Q2 FY27 revenue INR 2,238 million (up 411% YoY) at a 76.6% EBITDA margin on Blackwell GPUs; binding term sheet of about INR 1,000 crore with an Indian sovereign AI company through June 2029 (Signal)."
     }
   ],
   "silicon": [
@@ -37,10 +37,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-19",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 15 Oct print"
+      "note": "Confirm vs 16 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -48,54 +48,32 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-19",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 15 Oct print"
+      "note": "Confirm vs 16 Oct print"
     },
     {
-      "id": "do-b300-spot",
+      "id": "crusoe-b200-od",
+      "name": "B200 HGX",
+      "display_usd": 8.5,
+      "venue": "Crusoe",
+      "term": "on-demand",
+      "as_of": "2026-10-19",
+      "prev_usd": null,
+      "delta": null,
+      "note": "NEW: first dated print; spot still Contact sales"
+    },
+    {
+      "id": "crusoe-b300-od",
       "name": "B300 HGX",
-      "display_usd": 6.17,
-      "venue": "DigitalOcean",
-      "term": "spot",
-      "as_of": "2026-10-16",
-      "prev_usd": 6.17,
-      "delta": 0.0,
-      "note": "Confirm vs 15 Oct print"
-    },
-    {
-      "id": "do-b300-12m",
-      "name": "B300 HGX",
-      "display_usd": 7.94,
-      "venue": "DigitalOcean",
-      "term": "12m reserved",
-      "as_of": "2026-10-16",
-      "prev_usd": 7.94,
-      "delta": 0.0,
-      "note": "Confirm vs 15 Oct print"
-    },
-    {
-      "id": "aws-cb-b200",
-      "name": "B200 SXM6",
-      "display_usd": 14.208,
-      "venue": "AWS",
-      "term": "Capacity Blocks",
-      "as_of": "2026-10-16",
-      "prev_usd": 14.208,
-      "delta": 0.0,
-      "note": "Confirm vs 15 Oct print"
-    },
-    {
-      "id": "aws-cb-b300",
-      "name": "B300 HGX",
-      "display_usd": 16.146,
-      "venue": "AWS",
-      "term": "Capacity Blocks",
-      "as_of": "2026-10-16",
-      "prev_usd": 16.146,
-      "delta": 0.0,
-      "note": "Confirm vs 15 Oct print"
+      "display_usd": 9.9,
+      "venue": "Crusoe",
+      "term": "on-demand",
+      "as_of": "2026-10-19",
+      "prev_usd": null,
+      "delta": null,
+      "note": "NEW: first dated print (16 Oct read saw $9.60 off-tape; no change computed)"
     },
     {
       "id": "crusoe-h200-od",
@@ -103,10 +81,10 @@
       "display_usd": 5.4,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-16",
-      "prev_usd": 4.29,
-      "delta": 1.11,
-      "note": "Tick vs 15 Oct $4.29"
+      "as_of": "2026-10-19",
+      "prev_usd": 5.4,
+      "delta": 0.0,
+      "note": "Confirm vs 16 Oct print"
     },
     {
       "id": "crusoe-h100-od",
@@ -114,84 +92,131 @@
       "display_usd": 4.5,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-16",
-      "prev_usd": 3.9,
-      "delta": 0.6,
-      "note": "Tick vs 15 Oct $3.90"
+      "as_of": "2026-10-19",
+      "prev_usd": 4.5,
+      "delta": 0.0,
+      "note": "Confirm vs 16 Oct print"
+    },
+    {
+      "id": "do-b300-spot",
+      "name": "B300 HGX",
+      "display_usd": 6.17,
+      "venue": "DigitalOcean",
+      "term": "spot",
+      "as_of": "2026-10-19",
+      "prev_usd": 6.17,
+      "delta": 0.0,
+      "note": "Confirm vs 16 Oct print"
+    },
+    {
+      "id": "aws-cb-b300",
+      "name": "B300 HGX",
+      "display_usd": 16.146,
+      "venue": "AWS",
+      "term": "Capacity Blocks",
+      "as_of": "2026-10-19",
+      "prev_usd": 16.146,
+      "delta": 0.0,
+      "note": "Confirm vs 16 Oct print"
     }
   ],
   "watch": [
     {
-      "id": "nisource-q3",
-      "name": "NiSource Q3 call (Microsoft GenCo)",
-      "note": "Campus IT MW, ramp schedule, and regulatory path for the GenCo/Microsoft agreement were not in the 16 Oct PR."
+      "id": "nextdc-m3-announcement",
+      "name": "NextDC M3 announcement",
+      "note": "Halt ends with an announcement or at the 21 Oct open. Watch the stated cause, MW affected, delay length and any FY27 guidance change (Citi estimate: up to A$25 million EBITDA)."
     },
     {
-      "id": "coreweave-earnings",
-      "name": "CoreWeave Q3 / November earnings",
-      "note": "CDS last ~1,038 bps and 2031 notes YTM ~15.8% (CNBC 15 Oct). Watch whether backlog converts to FCF before credit stress compounds."
+      "id": "nscale-loughton-power",
+      "name": "Nscale Loughton re-tenanting",
+      "note": "Nscale says it is exploring alternative power and other UK sites. Watch for on-site generation plans, a replacement tenant, or a UKPN acceleration."
+    },
+    {
+      "id": "everwind-financing",
+      "name": "EverWind financing and Phase 2 studies",
+      "note": "EverWind is raising about $8 billion; the 325 MW expansion waits on Nova Scotia system studies and approvals. Watch lender names and the Membertou equity close."
+    },
+    {
+      "id": "nvhbm-confirmation",
+      "name": "NVHBM base die on TSMC 3nm",
+      "note": "Seoul Economic Daily report (18 Oct); no company confirmation. Watch SK hynix and Samsung Q3 calls for HBM4E and base-die sourcing."
+    },
+    {
+      "id": "coreweave-credit",
+      "name": "CoreWeave credit",
+      "note": "2031 notes above 15% yield after last week's selloff (Investing.com, 17 Oct). Watch CDS and Q3 results for backlog versus cash flow."
     },
     {
       "id": "ntt-anthropic-osaka",
       "name": "NTT Data / Anthropic Osaka talks",
-      "note": "~¥1T coastal DC cited in Mainichi/Kyodo 14 Oct. Need binding contract and MW before Wire."
-    },
-    {
-      "id": "solaria-uruguay-binding",
-      "name": "Uruguay–Solaria binding deals",
-      "note": "Strategic FTZ agreement signed 14 Oct; press aims ~May 2027 for binding PPAs/FTZ concessions."
-    },
-    {
-      "id": "edgeconnex-stockland-energize",
-      "name": "EdgeConneX–Stockland first energize",
-      "note": "450 MW secured across Sydney/Melbourne sites; which site and any named hyperscaler."
-    },
-    {
-      "id": "crusoe-b200-b300-parser",
-      "name": "Crusoe B200/B300 public OD on tape",
-      "note": "Live list shows B200 $8.50 and B300 $9.60 OD; current parser still treats B200 as contact-sales / skips B300."
+      "note": "About JPY 1 trillion coastal data center cited by Kyodo on 14 Oct. Still talks; need a binding contract and MW before Wire."
     }
   ],
   "sources": [
     {
-      "name": "NiSource Microsoft GenCo PR",
-      "url": "https://www.nisource.com/news/article/nisource-announces-long-term-agreement-with-microsoft-expected-to-increase-customer-savings-and-support-indiana-s-economic-growth",
-      "note": "Primary 16 Oct: 1,100 MW GenCo, 600 MW BESS, 20-year from 2028."
+      "name": "NextDC trading halt (Bloomberg via Energy Connects)",
+      "url": "https://www.energyconnects.com/news/utilities/2026/october/australian-data-center-power-delay-exposes-ai-bottleneck/",
+      "note": "Wire: M3 power delay, FY27 guidance, 42 MW online, 165 MW in development."
     },
     {
-      "name": "MIEM Uruguay Solaria",
-      "url": "https://www.gub.uy/ministerio-industria-energia-mineria/comunicacion/noticias/uruguay-recibira-inversion-historica-5700-millones-dolares-para-instalar",
-      "note": "Primary 14 Oct: up to 500 MW FTZ + 350 MW solar, US$5.7B cited."
+      "name": "Microsoft exits Nscale Loughton (BBC)",
+      "url": "https://www.bbc.com/news/articles/c9m26kl5y7epo",
+      "note": "Wire: grid power in the 2030s; Nscale statement."
     },
     {
-      "name": "EdgeConneX Stockland PR",
-      "url": "https://www.edgeconnex.com/news/press-releases/edgeconnex-enters-australia-in-partnership-with-stockland-with-hyperscale-data-center-campuses-planned-in-sydney-and-melbourne/",
-      "note": "Primary 14 Oct: 50:50 JV, 450 MW secured."
+      "name": "Microsoft and Nscale statements (City AM)",
+      "url": "https://www.cityam.com/microsoft-pulls-out-of-nscale-deal-for-uks-largest-ai-data-centre/",
+      "note": "Microsoft: decision relates to a single site."
     },
     {
-      "name": "CNBC CoreWeave CDS",
-      "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
-      "note": "15 Oct: CDS ~1,038 bps, 2031 notes YTM ~15.78%."
+      "name": "EverWind Point Tupper release (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/10/16/3382650/0/en/everwind-announces-10-billion-investment-in-point-tupper-data-centre-campus-and-renewable-energy-portfolio-across-nova-scotia.html",
+      "note": "Wire: 95 MW late 2027, 325 MW 2028, 420 MW total, developer-funded grid costs."
     },
     {
-      "name": "CNBC Fink DC moratorium",
-      "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
-      "note": "14 Oct: Fink recession warning on DC pause."
+      "name": "Anthropic named as EverWind tenant (CBC News)",
+      "url": "https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-to-host-massive-data-centre-to-power-anthropic-s-ai-assistant-claude-9.7383129",
+      "note": "Anthropic release: at least 20-year lease; Membertou 9% stake talks."
+    },
+    {
+      "name": "Samsung to use TSMC for NVHBM base die (Seoul Economic Daily)",
+      "url": "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm",
+      "note": "Signal: TSMC 3nm base die, 1c DRAM core die; unconfirmed."
+    },
+    {
+      "name": "CXMT preliminary Q3 (Seoul Economic Daily)",
+      "url": "https://en.sedaily.com/finance/2026/10/17/chinas-cxmt-sees-third-quarter-revenue-surge-over-600",
+      "note": "Signal: RMB 114.7 to 119.7 billion Q3 revenue, up 589% to 619%."
+    },
+    {
+      "name": "SOX losing streak and Cantor equipment note (Benzinga)",
+      "url": "https://www.benzinga.com/markets/tech/26/10/62436201/chip-stocks-bounce-longest-losing-streak-since-2008",
+      "note": "Signal: 11,137.29 close, 15.7% over eight sessions; WFE US$215 billion 2027."
+    },
+    {
+      "name": "E2E Networks Q2 FY27 press release",
+      "url": "https://e2e-mainsite-ui.objectstore.e2enetworks.net/Company-Information/press-release/2026/Press_Release_16-10-2026.pdf",
+      "note": "Signal: revenue INR 2,238 million, EBITDA margin 76.6%, INR 1,000 crore term sheet."
     },
     {
       "name": "Crusoe Cloud pricing",
       "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "H200 OD $5.40, H100 OD $4.50 (ticks); B200 $8.50 / B300 $9.60 listed but not yet on tape series."
+      "note": "NEW: B200 $8.50, HGX B300 $9.90 on-demand; H200 $5.40, H100 $4.50 confirm."
     },
     {
-      "name": "Lambda pricing",
+      "name": "Lambda Cloud pricing",
       "url": "https://lambda.ai/pricing",
-      "note": "H100 $3.99 / B200 $6.69 confirms."
+      "note": "H100 $3.99 / B200 $6.69 confirm."
+    },
+    {
+      "name": "DigitalOcean GPU Droplets pricing",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "note": "B300 spot $6.17, 12m $7.94 confirm."
     },
     {
       "name": "AWS Capacity Blocks pricing",
       "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-      "note": "B200 $14.208 / B300 $16.146 confirms."
+      "note": "P5 $5.97 / P6-B200 $14.208 / P6-B300 $16.146 confirm."
     }
   ]
 }
