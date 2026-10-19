@@ -3645,9 +3645,9 @@
    "pue": "~1.1-1.25",
    "note": "Stargate UK; £150B US package; NE AI Growth Zone to 1.1 GW",
    "rf": 0.95,
-   "rz": 67,
+   "rz": 57,
    "dl": 1,
-   "rw": "Nebius raises YE contracted power to 5 GW; new 2026 sites include UK, Estoni…"
+   "rw": "Microsoft exits its anchor deal at Nscale's Loughton, Essex AI data center a…"
   },
   {
    "n": "Ireland",
@@ -4695,9 +4695,9 @@
    "pue": "~1.1-1.25",
    "note": "163 GW technically feasible remaining (WaterPower Canada); Sovereign AI Compute Strategy; Alberta >10 GW queue",
    "rf": 1.0,
-   "rz": 40,
+   "rz": 47,
    "dl": 1,
-   "rw": "Bell × Saskatchewan MOU: up to +900 MW AI Fabric (path to 1.2 GW hub)"
+   "rw": "Anthropic signs a 20-year lease for the first 95 MW of EverWind's planned 42…"
   },
   {
    "n": "Mexico",
@@ -5547,7 +5547,7 @@
    "rf": 1.0,
    "rz": 42,
    "dl": 1,
-   "rw": "EdgeConneX and Stockland launch a 50:50 Australia JV with 450 MW secured for…"
+   "rw": "NextDC halts ASX trading over a delay to power supply at its M3 Melbourne da…"
   },
   {
    "n": "New Zealand",
