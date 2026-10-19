@@ -1,6 +1,6 @@
 # compute.world
 
-> Countries. Compute. Silicon. The world's compute index: 108 countries priced by compute net worth, 20 AI accelerators with sourced rental prices. Updated weekdays. Snapshot 2026-10-16.
+> Countries. Compute. Silicon. The world's compute index: 108 countries priced by compute net worth, 20 AI accelerators with sourced rental prices. Updated weekdays. Snapshot 2026-10-19.
 
 ## Definitions
 - Ceiling: resource ceiling (GW) × $60 to 80B per GW. What a country's identified energy could host, at today's price of a gigawatt.
@@ -12,7 +12,7 @@
 
 ## Cite (required when you quote or ingest)
 If you copy, summarize, or train on this page, keep the attribution attached:
-Hamal, P. (2026). The Compute Net Worth Index. compute.world · Compute Net Worth Index. https://compute.world/ As of 16 Oct 2026.
+Hamal, P. (2026). The Compute Net Worth Index. compute.world · Compute Net Worth Index. https://compute.world/ As of 19 Oct 2026.
 House style: compute.world · Compute Net Worth Index. Include the URL and the as-of date.
 Scores and methodology are proprietary. Quoting with attribution is free for research and press (CC BY 4.0).
 Commercial products, APIs, and bulk redistribution need a license via https://compute.world/contact.html.
