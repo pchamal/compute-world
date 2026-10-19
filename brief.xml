@@ -2,69 +2,69 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Friday’s conversion news is utilities and sponsors locking large loads behind customer-funded generation and free-trade-zone campuses. NiSource announced a 20-year GenCo energy agreement with Microsoft for the northwest Indiana campus: about 1,100 MW of new generation from 2028, Microsoft funding generation and transmission for its load, and GenCo adding 600 MW of battery storage under an AGP tolling deal, with expected NIPSCO customer savings raised to about $1.75 billion. Uruguay and Solaria signed a strategic FTZ agreement for up to 500 MW of data-center campus capacity plus up to 350 MW solar (MIEM cites US$5.7 billion; binding still ahead), and EdgeConneX launched a 50:50 Australia JV with Stockland with 450 MW secured for Sydney and Melbourne. On the economics tape, CoreWeave’s 2031 notes were yielding about 15.8% and 5-year CDS last near 1,038 bps after the Gartner scare, while Larry Fink warned a US data-center moratorium would mean recession. Public silicon tape: 67 confirms, 2 ticks, 0 NEW — Crusoe H200 on-demand $4.29 to $5.40 and H100 $3.90 to $4.50; Lambda H100 $3.99 / B200 $6.69 and AWS CB B200 $14.208 / B300 $16.146 held.</description>
+  <description>The weekend&#x27;s conversion news was decided by the wire into the building. Microsoft ended its anchor deal at Nscale&#x27;s Loughton, Essex site, the UK&#x27;s flagship AI supercomputer project, after UK Power Networks said sufficient power would not arrive until the early to mid 2030s; Microsoft says the decision relates to a single site and Nscale says it is looking for alternative power. In Melbourne, NextDC asked for an ASX trading halt to assess a delay to power supply at its partly built M3 campus, including on FY27 guidance. Where the developer pays for the grid, deals closed: Anthropic signed a lease of at least 20 years for the first 95 MW of EverWind&#x27;s planned 420 MW Point Tupper campus in Nova Scotia, with EverWind funding all attributable connection and network costs. In silicon, Seoul Economic Daily reported that Nvidia asked Samsung, SK hynix and Micron to build its custom NVHBM base dies on TSMC 3nm and that Samsung agreed (no company has confirmed), and CXMT guided preliminary Q3 revenue up 589% to 619%. The SOX closed 16 October at 11,137.29 after eight straight losing sessions, its longest streak since 2008, while Cantor said chip-equipment makers are effectively sold out. On the public silicon tape every venue returned HTTP 200: 69 confirms, 0 ticks and 2 NEW rows, as Crusoe&#x27;s GPU list now shows public on-demand prices for B200 ($8.50) and HGX B300 ($9.90).</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 16 October 2026</title>
+    <title>Compute brief - 19 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-16</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Friday’s conversion news is utilities and sponsors locking large loads behind customer-funded generation and free-trade-zone campuses. NiSource announced a 20-year GenCo energy agreement with Microsoft for the northwest Indiana campus: about 1,100 MW of new generation from 2028, Microsoft funding generation and transmission for its load, and GenCo adding 600 MW of battery storage under an AGP tolling deal, with expected NIPSCO customer savings raised to about $1.75 billion. Uruguay and Solaria signed a strategic FTZ agreement for up to 500 MW of data-center campus capacity plus up to 350 MW solar (MIEM cites US$5.7 billion; binding still ahead), and EdgeConneX launched a 50:50 Australia JV with Stockland with 450 MW secured for Sydney and Melbourne. On the economics tape, CoreWeave’s 2031 notes were yielding about 15.8% and 5-year CDS last near 1,038 bps after the Gartner scare, while Larry Fink warned a US data-center moratorium would mean recession. Public silicon tape: 67 confirms, 2 ticks, 0 NEW — Crusoe H200 on-demand $4.29 to $5.40 and H100 $3.90 to $4.50; Lambda H100 $3.99 / B200 $6.69 and AWS CB B200 $14.208 / B300 $16.146 held. Countries: United States / Indiana: NiSource GenCo signs 20-year Microsoft energy agreement for NW Indiana campus: ~1,100 MW new generation from 2028, Microsoft funds gen+tx, GenCo adds 600 MW BESS (AGP tolling); expected NIPSCO savings ~$1.75B (Wire, 16 Oct). Uruguay: Orsi–Solaria strategic FTZ agreement: up to 500 MW DC campus (200 then +300 MW) plus up to 350 MW solar; MIEM cites US$5.7B; binding contracts still ahead (Wire, 14 Oct). Australia: EdgeConneX–Stockland 50:50 JV for Sydney/Melbourne hyperscale campuses with 450 MW power secured (Wire, 14 Oct). United States / neocloud credit: CoreWeave 9.75% 2031 notes YTM ~15.78%; 5y CDS last ~1,038 bps after peaking &gt;1,140 (CNBC 15 Oct). Signal, not Wire.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-19</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>The weekend&#x27;s conversion news was decided by the wire into the building. Microsoft ended its anchor deal at Nscale&#x27;s Loughton, Essex site, the UK&#x27;s flagship AI supercomputer project, after UK Power Networks said sufficient power would not arrive until the early to mid 2030s; Microsoft says the decision relates to a single site and Nscale says it is looking for alternative power. In Melbourne, NextDC asked for an ASX trading halt to assess a delay to power supply at its partly built M3 campus, including on FY27 guidance. Where the developer pays for the grid, deals closed: Anthropic signed a lease of at least 20 years for the first 95 MW of EverWind&#x27;s planned 420 MW Point Tupper campus in Nova Scotia, with EverWind funding all attributable connection and network costs. In silicon, Seoul Economic Daily reported that Nvidia asked Samsung, SK hynix and Micron to build its custom NVHBM base dies on TSMC 3nm and that Samsung agreed (no company has confirmed), and CXMT guided preliminary Q3 revenue up 589% to 619%. The SOX closed 16 October at 11,137.29 after eight straight losing sessions, its longest streak since 2008, while Cantor said chip-equipment makers are effectively sold out. On the public silicon tape every venue returned HTTP 200: 69 confirms, 0 ticks and 2 NEW rows, as Crusoe&#x27;s GPU list now shows public on-demand prices for B200 ($8.50) and HGX B300 ($9.90). Countries: United Kingdom: Microsoft ends its anchor deal at Nscale&#x27;s Loughton, Essex AI site (about GBP 2 billion, about 23,000 Nvidia GPUs planned) after UK Power Networks put sufficient power in the early to mid 2030s; Nscale exploring alternative power (Wire, 18 Oct). Australia: NextDC trading halt over a power supply delay at M3 Melbourne, possible FY27 guidance impact; about 42 MW online in FY2026 and 165 MW under development per Bloomberg; announcement due by 21 Oct (Wire, 19 Oct). Canada: Anthropic leases the first 95 MW of EverWind&#x27;s Point Tupper, Nova Scotia campus for at least 20 years (late 2027), with a 325 MW expansion targeted for 2028; EverWind funds attributable grid costs; more than $10 billion planned including wind (Wire, 16 Oct). India: E2E Networks Q2 FY27 revenue INR 2,238 million (up 411% YoY) at a 76.6% EBITDA margin on Blackwell GPUs; binding term sheet of about INR 1,000 crore with an Indian sovereign AI company through June 2029 (Signal).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-16/lambda-h100-od</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 16 Oct 2026. Confirm vs 15 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-19/lambda-h100-od</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 19 Oct 2026. Confirm vs 16 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-16/lambda-b200-od</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 16 Oct 2026. Confirm vs 15 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-19/lambda-b200-od</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 19 Oct 2026. Confirm vs 16 Oct print</description>
   </item>
   <item>
-    <title>B300 HGX · $6.17 spot</title>
-    <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-16/do-b300-spot</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 16 Oct 2026. Confirm vs 15 Oct print</description>
+    <title>B200 HGX · $8.50 on-demand</title>
+    <link>https://compute.world/brief#crusoe-b200-od</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-19/crusoe-b200-od</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 HGX: display $8.50 on-demand at Crusoe as of 19 Oct 2026. NEW: first dated print; spot still Contact sales</description>
   </item>
   <item>
-    <title>B300 HGX · $7.94 12m reserved</title>
-    <link>https://compute.world/brief#do-b300-12m</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-16/do-b300-12m</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $7.94 12m reserved at DigitalOcean as of 16 Oct 2026. Confirm vs 15 Oct print</description>
-  </item>
-  <item>
-    <title>B200 SXM6 · $14.208 Capacity Blocks</title>
-    <link>https://compute.world/brief#aws-cb-b200</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-16/aws-cb-b200</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $14.208 Capacity Blocks at AWS as of 16 Oct 2026. Confirm vs 15 Oct print</description>
-  </item>
-  <item>
-    <title>B300 HGX · $16.146 Capacity Blocks</title>
-    <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-16/aws-cb-b300</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 16 Oct 2026. Confirm vs 15 Oct print</description>
+    <title>B300 HGX · $9.90 on-demand</title>
+    <link>https://compute.world/brief#crusoe-b300-od</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-19/crusoe-b300-od</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $9.90 on-demand at Crusoe as of 19 Oct 2026. NEW: first dated print (16 Oct read saw $9.60 off-tape; no change computed)</description>
   </item>
   <item>
     <title>H200 SXM · $5.40 on-demand</title>
     <link>https://compute.world/brief#crusoe-h200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-16/crusoe-h200-od</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H200 SXM: display $5.40 on-demand at Crusoe as of 16 Oct 2026. Tick vs 15 Oct $4.29</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-19/crusoe-h200-od</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H200 SXM: display $5.40 on-demand at Crusoe as of 19 Oct 2026. Confirm vs 16 Oct print</description>
   </item>
   <item>
     <title>H100 SXM · $4.50 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-16/crusoe-h100-od</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.50 on-demand at Crusoe as of 16 Oct 2026. Tick vs 15 Oct $3.90</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-19/crusoe-h100-od</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.50 on-demand at Crusoe as of 19 Oct 2026. Confirm vs 16 Oct print</description>
+  </item>
+  <item>
+    <title>B300 HGX · $6.17 spot</title>
+    <link>https://compute.world/brief#do-b300-spot</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-19/do-b300-spot</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 19 Oct 2026. Confirm vs 16 Oct print</description>
+  </item>
+  <item>
+    <title>B300 HGX · $16.146 Capacity Blocks</title>
+    <link>https://compute.world/brief#aws-cb-b300</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-19/aws-cb-b300</guid>
+    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 19 Oct 2026. Confirm vs 16 Oct print</description>
   </item>
 </channel></rss>
