@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20 15:22 UTC",
+ "generated": "2026-10-20 17:11 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -183,7 +183,7 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Sovereign AI Cloud Market Gains Momentum as Adani Commits US$100 Billion to India's Sovereign AI Infrastructure - openPR.com",
+   "title": "Sovereign AI Cloud Market Gains Momentum as Adani Commits US$100 - openPR.com",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONUxDYUlmeG1FTzZIb0hTUWpTSTZ6S2hLSGVONFQxQkE2MGJLZWZRZHAtNUR2NjU5blUzem0wSFdGSG9FTEZuX005SWRfTG9RNklyOEF5NV9PUnpScXBYYkFxU0pBamhOdFZEajdqbWxBTnZmOXRKT2k0R2ZyY0Vabm5XWGltLWhpUUJZSWtmcWkzVHhnUTVlT2JWU2F5VWxydlE?oc=5",
    "source": "openPR.com",
    "date": "2026-10-15",
@@ -279,10 +279,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "A single AI data center now costs about $30 billion to build - news.lavx.hu",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTWNBZ2V3TzlleDNRYW9JWUtrV3AwMGNiMmE5VnN4cE84ZlVNU3JVZEliY29WWjJ3X0k3Z0t1X0NfaDNVOTBtUkhIUTR5djRMTDVXX0JRaEhiNDg0NXVsUEZpV2o1ZnJhWUczWkF1V0VQTXB2N2tLSDVJbnVpWEFTSkpLODNDMzJGTEtfNzB4aHZIdw?oc=5",
-   "source": "news.lavx.hu",
-   "date": "2026-10-12",
+   "title": "South Korea's AI Strategy Vice Chair Ha Jung-woo Inspects Gangwon AI Sites; Power and Water for 2.4GW Donghae Data Center Seen as Key - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFMGJTOFNSQ3JVUXBwSHRSZk5hbVpJdmt4X1RjOGM2T2Fpd2hNTk1CamRyZFZ1WDRONVRMLXFEZEpUUzNfR2N6WU1HN0x1MXlIdXNHWGpFdEZEVDN3dHNIZHZWdmtRQ0xVTTVsUnVNR2JUTmgwRGc?oc=5",
+   "source": "BigGo Finance",
+   "date": "2026-10-20",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -295,18 +295,6 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNk5lOThqb3RlaVpTOHhqOXRiNU4zaS15TERDNmxfb0dYNFluWHp4X0ZmUW9WT2s3WDVVMU5FcGYzajlZLXoxMWJOV2FrS1pwX0ZnMTQ5VWxiclVIZEY5SDJOYWZrTnZtU2EwM0F0VGNIdHpwQnZvVnlrTnBOeURSWmpMaVk?oc=5",
    "source": "조선일보",
    "date": "2026-10-15",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "South Korea's AI Strategy Vice Chair Ha Jung-woo Inspects Gangwon AI Sites; Power and Water for 2.4GW Donghae Data Center Seen as Key - BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFMGJTOFNSQ3JVUXBwSHRSZk5hbVpJdmt4X1RjOGM2T2Fpd2hNTk1CamRyZFZ1WDRONVRMLXFEZEpUUzNfR2N6WU1HN0x1MXlIdXNHWGpFdEZEVDN3dHNIZHZWdmtRQ0xVTTVsUnVNR2JUTmgwRGc?oc=5",
-   "source": "BigGo Finance",
-   "date": "2026-10-20",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -351,18 +339,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Nvidia to Invest $1 Billion in U.S. Superintelligence Infrastructure - THE ELEC, Korea Electronics Industry Media",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HVEVEc2IyZVlVRlVfRXFFemdFSmJwUVE1Q002aVdUODJJOTlGc0tmT18xWlR2aGtSZVoyOHJIZWN0RzE1djh3bkZzZUpGWjhBa2ZQUV8taTVXSUUyWjFKTTk2UVZMWnc?oc=5",
-   "source": "THE ELEC, Korea Electronics Industry Media",
-   "date": "2026-10-13",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Tenstorrent raises $1.5B to challenge Nvidia in AI servers and chip IP - TechTarget",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTy1IdGRBV2tReGVYM2t5dndOV2F6TmlzUGNRV09BRnp4UFpsSWRkS09QeWstMk1taWJPLXdaeVlmSXpXekQxV3d4U203WFpnOXVDOGtvRWd2d3F2bG1tem0tQ1dubkdYb2pQSzBZVlE3b3NMd1NtTWhaT01vbkhmazRCVzA4aVpaSnZiYVM1UVpJbVV3bE9aQ3JpNzdDWHBxZVBCSzJ3cW82aURmT1F1N1RqYzI1WGVESzQySU1jakI5VUxYRGlF?oc=5",
    "source": "TechTarget",
@@ -399,33 +375,21 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "NVIDIA Commits $250 Million to UK AI Safety Research Over Five Years - TOKENPOST",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YSzR0NGxMZm1KNXhXTk03Xzdja1VMNUxEaGdmWXJ3X0NDZmJtVWU0VXRnLUtPenI2U0JVNTFWZDJMa2thWWZnUTdMVUZTaW1FTWJuX0F4RUs0SHM?oc=5",
+   "source": "TOKENPOST",
+   "date": "2026-10-14",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Rableup eyes global market ahead of IPO, targets 57.9 billion won revenue in 2029 - 디지털투데이",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObVRtWk9DcVpCMkFqaGkzWlpYNExDNUpBenJfNWc4VUJJSHdKMnFKdUVYR2R3OG5Wd1ptREdSNHBWN0ctYzNndTVMenpreVBPVkdpeE9jdjdtU1lvczgza3BmLUk5V2x1Q3FqVzVzakhKV1Q2Mm80cW1EZ1MxQmJUTmk3dEVsVG9lemFWQ2N6ZXRYS1FFaWZqNVhXT1g4REhhenE5MV9TR3Z3Qzlqam45OWppa2ZmVjh2?oc=5",
    "source": "디지털투데이",
-   "date": "2026-10-19",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Microsoft reportedly cancels Nscale deal for 50 MW UK AI campus - Mugglehead Investment Magazine",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLUHFRcjVneFVEVGhwc3hiVUZKR1lCZ0RhcnRHN0RXNjZVODZvSVh1U3Nqc2Q5UkFJSjFIY215LTFOMER2aC04RTlldzhqS3ZuUGhBcm5QUW0wODk4NVNkdjNkeGoySk5MSzhuUElGSUY3bXViSjQ4Zw?oc=5",
-   "source": "Mugglehead Investment Magazine",
-   "date": "2026-10-18",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "600 MW AI Campus Plan Faces Contract and Financing Tests - Why Nebius shares are falling amid AI funding fears - The Economic Times",
-   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOWjJWeVRuZDVsX2M0WnRKbFVLbVIxYkNaN2xEQXRLa0xUYjRNUjdRNzZhSGdncllKdE8zamh3bVZ3WVBwRDZyaU9HZEs2bllTcVdvUmR1Umh1d0ZPSS1uMUhLS2V0T0g1dXU2UHBTLUJGal9aWVUwZjJxejFoczJDSHlPOWtYcFBFSmNZSVhaTEU3S0lVWC1MbkprVU5DOWkya2l3R3lyYzZtOWtGMDB6STlTcmlLUEVqV2dRc0JEdmRnNW5FMjhWOEdRZzVfWnJ0NXhMbXpfUm1wdTlZTk8zdGlfUmxmS0V3ZzB2cTQ1b0tUZmdWbjVfUjRzMmlZN3ZQbll5d2ZhWWVzMmdzYXNVQQ?oc=5",
-   "source": "The Economic Times",
    "date": "2026-10-19",
    "via": "gnews",
    "country_hint": "",
@@ -447,10 +411,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Nebius Stock: A 12% Drop, a 600 MW Rotterdam Letter, and the Funding Gap Between Them - ad-hoc-news.de",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRHlaTWZRUzFWQWFHMDhDeEtjUExwNEV1TEhsRkRnc1RiOVdFdml4MUh0blZNTkZlUG5BNmZxTjRpOFdHSXFiTTY0R1hrMllyOWJKTkNfYXhvYU9la2piTVFybk5SUU5tdTh5Yms2MkZhLXBCVHpzTkZndnpHVTlrc0RQazNoZjJ2b01xWGxzVnNoLWFYTS01OHZFdDJudEJ3NzNyUnByVC0yem84ZGxtbDdIa29XRy1uMXVGM1RTeGxWQUE3QWZuS1Axb0tqWlI1c1M3OTk5TXI4ZXJxcFRTOC1tdFdRT1pwTW9RRHVfTXBHYVk?oc=5",
-   "source": "ad-hoc-news.de",
-   "date": "2026-10-18",
+   "title": "600 MW AI Campus Plan Faces Contract and Financing Tests - Why Nebius shares are falling amid AI funding fears - The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOWjJWeVRuZDVsX2M0WnRKbFVLbVIxYkNaN2xEQXRLa0xUYjRNUjdRNzZhSGdncllKdE8zamh3bVZ3WVBwRDZyaU9HZEs2bllTcVdvUmR1Umh1d0ZPSS1uMUhLS2V0T0g1dXU2UHBTLUJGal9aWVUwZjJxejFoczJDSHlPOWtYcFBFSmNZSVhaTEU3S0lVWC1MbkprVU5DOWkya2l3R3lyYzZtOWtGMDB6STlTcmlLUEVqV2dRc0JEdmRnNW5FMjhWOEdRZzVfWnJ0NXhMbXpfUm1wdTlZTk8zdGlfUmxmS0V3ZzB2cTQ1b0tUZmdWbjVfUjRzMmlZN3ZQbll5d2ZhWWVzMmdzYXNVQQ?oc=5",
+   "source": "The Economic Times",
+   "date": "2026-10-19",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -463,6 +427,18 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sY2taYk9VUkk4OGlOb1NNeGFrLW9BQVhEb0VkblAzRm1rUW4tdW9NQ0FKTWZtNnQxVGZpejRqd010V2FKZmZUbFN5Y3htWmY1NHVMclZnVXd6Z0ZhMDIwVGNIUjJRLTJkY1AyMVJlR2lYM0V6eWc?oc=5",
    "source": "Mugglehead Investment Magazine",
    "date": "2026-10-13",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Nebius Stock: A 12% Drop, a 600 MW Rotterdam Letter, and the Funding Gap Between Them - ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRHlaTWZRUzFWQWFHMDhDeEtjUExwNEV1TEhsRkRnc1RiOVdFdml4MUh0blZNTkZlUG5BNmZxTjRpOFdHSXFiTTY0R1hrMllyOWJKTkNfYXhvYU9la2piTVFybk5SUU5tdTh5Yms2MkZhLXBCVHpzTkZndnpHVTlrc0RQazNoZjJ2b01xWGxzVnNoLWFYTS01OHZFdDJudEJ3NzNyUnByVC0yem84ZGxtbDdIa29XRy1uMXVGM1RTeGxWQUE3QWZuS1Axb0tqWlI1c1M3OTk5TXI4ZXJxcFRTOC1tdFdRT1pwTW9RRHVfTXBHYVk?oc=5",
+   "source": "ad-hoc-news.de",
+   "date": "2026-10-18",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -555,6 +531,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Hans van Linschoten: Africa doesn’t have to buy the bubble - Africa Business Communities",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1Fxb191azdOaTl0R0pQdy1RV2d0dGFjREVLQU5kRVFoN25jblNOT2NCX20yUlJuclc4SVRUcmhDN0RvbE9YM1NvdnViQjFXSDVrcW40bzQ5LVdCSkFBR1ZXNVBvREhvV2FCY3lUYU05U2tYVWJ2bnNmdi1sZnd0S1d6aUkxNVpDYnZFVVNiZm9TLXU0WHVaeW1jQXZ3bzBmSHBvZ2F3?oc=5",
+   "source": "Africa Business Communities",
+   "date": "2026-10-20",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Aviz Networks and hosted·ai Partner to Simplify Neocloud Deployment and Operations - FinancialContent",
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOVpYV2FtYzdJVHR5aE05T2ZDY0E3TjVha2VldVJwakMyaTZFTndPY1pmUHI4YmlYRy1HMmNZa0JCTncxNExrb3pEaE91cFVsVGNOQkd5RHhYc3VPSHF2T0ZQaVUwUTFWYVJSYlpSWnhDdnRfT0s0X1d0eUFlWC1iS1VMREFyTng5dGVJVkFUU0VFMXNIeE44a1NrYWlQZGFpWjk0RzlKQnNmc0V6a3VpejZ2Wnd6bF91WkFHUURKTmJlbGpUY1UtdE1PTFNYOWQ1dzBuNlF5VlM?oc=5",
    "source": "FinancialContent",
@@ -607,18 +595,6 @@
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAxQW0xZmFQRF81eWhkVWtHbmRQLS1ncFpTcWRPVjExak5fWWVZeVNXTkU4dkllTWpQek5IV1Yydnp0YXNDWFBCalhaNA?oc=5",
    "source": "매일경제",
    "date": "2026-10-19",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Hans van Linschoten: Africa doesn’t have to buy the bubble - Africa Business Communities",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT1Fxb191azdOaTl0R0pQdy1RV2d0dGFjREVLQU5kRVFoN25jblNOT2NCX20yUlJuclc4SVRUcmhDN0RvbE9YM1NvdnViQjFXSDVrcW40bzQ5LVdCSkFBR1ZXNVBvREhvV2FCY3lUYU05U2tYVWJ2bnNmdi1sZnd0S1d6aUkxNVpDYnZFVVNiZm9TLXU0WHVaeW1jQXZ3bzBmSHBvZ2F3?oc=5",
-   "source": "Africa Business Communities",
-   "date": "2026-10-20",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -700,7 +676,7 @@
   },
   {
    "title": "LG Group puts AI at center of annual business reviews - 매일경제",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PZThKMXJCQ05RRVpxSUpEZEZzc1hVcG9kTmRXRHJyZjJqWDdUd0NBTnhwMTVJQkFPa3IzRUFDRXNlcV9CcE9oSHU0djNMRk9EdlE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3bFRtOUJlUFJlbWlEMUhERzBfQnlVSzNkZlZZeFRXUTJsdHBKMmhHUHJNajh0MVBIX09oRVZ0YjVUb1RvWUVYOGdFb1hqcXpLRzZRX3pIcw?oc=5",
    "source": "매일경제",
    "date": "2026-10-20",
    "via": "gnews",
@@ -715,6 +691,30 @@
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZ3VfREdzbnBTbEpaSU9jY00wb0paMkhXN3hSdVF5X2JKdm03RHM3bGN6djYyMVBvZ3JBSVFYVlpxWVNYanJOby1scEcxRGNNWS1zUUxYdnhhX2tDVlJCVVQzNUNjV0pQN0pDWTN4NWFQLXJHeEIxSlRMbmlSME9QVGdOem9fUUJaRzB2NDExZDh1dnE3RWU4VEN5RjlpR2docms4QlZtMVU5NjlpNnd4M3VtT2RMajF6TEFRN2I2dVRVdUM5RzFTN2NEellHdUdVY1k0ZlB3?oc=5",
    "source": "24/7 Wall St.",
    "date": "2026-10-12",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "E2E Networks Appoints Crane Venture Partners’ Anandamoy Roychowdhary as Strategic Advisor - CIOL",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX05CTW9vR3VZb1I4S1MzSW0yNTZscE5XS28taENDVGN6cHhTUlRzeWVyUjVMeTV2QWZsT1BRcG9VT29rZmN6UmcyR0Y5R0Z5Z0FTMkxhR0d6Y1Z3bTFQNC1ZWE1rUy1aTl9oT0FLblNCTXRWTTBSZHdUWXk5WEhUcEFjUmNSZ0pGSVZSeEhTWDFkUlRva3hkR2l1a0pCUdIBngFBVV95cUxPX05CTW9vR3VZb1I4S1MzSW0yNTZscE5XS28taENDVGN6cHhTUlRzeWVyUjVMeTV2QWZsT1BRcG9VT29rZmN6UmcyR0Y5R0Z5Z0FTMkxhR0d6Y1Z3bTFQNC1ZWE1rUy1aTl9oT0FLblNCTXRWTTBSZHdUWXk5WEhUcEFjUmNSZ0pGSVZSeEhTWDFkUlRva3hkR2l1a0pCUQ?oc=5",
+   "source": "CIOL",
+   "date": "2026-10-16",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "LITEON Showcases NVIDIA 800 VDC Architecture and Thermal Management Portfolio at OCP Global Summit 2026 - The Malaysian Reserve",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZk03c1hKZGxKd2w4UUFEYlFWUDFxeldfbVZIWTNKWUhwMlFONDBucm9oNE53ZnRVbnV0dU9pY1VZSGxPcnhHXy1xYjB5cmdQcHVHU1FGOGZBZnpBM19YZXlPYTdOX29lZVZhOWhwVW40VEU3Tm5lZ1BxeUotQkdDd1Q1VEFvNUNNWXhKTVBwZnYwYkpXbm4yVVMwamFDTFc2bUZCQWtUTXlRSTlXWVZRN2Rab1UzU0xJN1JOSzZFZzZuSjNmdTNKY0RpRHhrSnJaU2FFcWxwVkd0bWZfTE9MTg?oc=5",
+   "source": "The Malaysian Reserve",
+   "date": "2026-10-14",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
