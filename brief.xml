@@ -2,69 +2,69 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>The weekend&#x27;s conversion news was decided by the wire into the building. Microsoft ended its anchor deal at Nscale&#x27;s Loughton, Essex site, the UK&#x27;s flagship AI supercomputer project, after UK Power Networks said sufficient power would not arrive until the early to mid 2030s; Microsoft says the decision relates to a single site and Nscale says it is looking for alternative power. In Melbourne, NextDC asked for an ASX trading halt to assess a delay to power supply at its partly built M3 campus, including on FY27 guidance. Where the developer pays for the grid, deals closed: Anthropic signed a lease of at least 20 years for the first 95 MW of EverWind&#x27;s planned 420 MW Point Tupper campus in Nova Scotia, with EverWind funding all attributable connection and network costs. In silicon, Seoul Economic Daily reported that Nvidia asked Samsung, SK hynix and Micron to build its custom NVHBM base dies on TSMC 3nm and that Samsung agreed (no company has confirmed), and CXMT guided preliminary Q3 revenue up 589% to 619%. The SOX closed 16 October at 11,137.29 after eight straight losing sessions, its longest streak since 2008, while Cantor said chip-equipment makers are effectively sold out. On the public silicon tape every venue returned HTTP 200: 69 confirms, 0 ticks and 2 NEW rows, as Crusoe&#x27;s GPU list now shows public on-demand prices for B200 ($8.50) and HGX B300 ($9.90).</description>
+  <description>Two answers to the same grid constraint landed between Sunday and Monday. In Arkansas the tenant pays: Entergy Arkansas announced a second phase of service for Google&#x27;s West Memphis campus, with Google covering about $600 million of battery, substation and transmission investment plus a 440 MW solar PPA, pending Arkansas PSC approval and an expected 2028 in-service date. Where no tenant pays, governments ration: Denmark&#x27;s executive order 892 took effect on 19 October and places data centres in the lowest of four priority categories when grid capacity is short, and Israel&#x27;s Electricity Authority backed a 200 MW cap per new data center, about 1,000 MW of new large connections and NIS 2 million per MW guarantees after 27,000 MW of requests. Goldman Sachs counts 86 data center projects canceled or significantly delayed since January, 76 of them tied to local opposition, and calls power &#x27;probably the forever bottleneck&#x27;. Capital is still chasing sites with power: Bloomberg and CNBC report Anthropic is in talks for a second 460 MW building at Nscale&#x27;s Monarch campus in West Virginia worth about $45 billion, even as investors push back on Nscale&#x27;s roughly $30 billion IPO target and Korea&#x27;s Elice fell about 30% on its KOSDAQ debut. On the public silicon tape all six venues returned HTTP 200: 71 confirms, 0 ticks, 0 NEW. CoreWeave&#x27;s list held at $6.16 for H100 even as Goldman&#x27;s upgrade note cites CoreWeave price increases of 25% in July and 10% in October, which sit in contracts, not the public page.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 19 October 2026</title>
+    <title>Compute brief - 20 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-19</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>The weekend&#x27;s conversion news was decided by the wire into the building. Microsoft ended its anchor deal at Nscale&#x27;s Loughton, Essex site, the UK&#x27;s flagship AI supercomputer project, after UK Power Networks said sufficient power would not arrive until the early to mid 2030s; Microsoft says the decision relates to a single site and Nscale says it is looking for alternative power. In Melbourne, NextDC asked for an ASX trading halt to assess a delay to power supply at its partly built M3 campus, including on FY27 guidance. Where the developer pays for the grid, deals closed: Anthropic signed a lease of at least 20 years for the first 95 MW of EverWind&#x27;s planned 420 MW Point Tupper campus in Nova Scotia, with EverWind funding all attributable connection and network costs. In silicon, Seoul Economic Daily reported that Nvidia asked Samsung, SK hynix and Micron to build its custom NVHBM base dies on TSMC 3nm and that Samsung agreed (no company has confirmed), and CXMT guided preliminary Q3 revenue up 589% to 619%. The SOX closed 16 October at 11,137.29 after eight straight losing sessions, its longest streak since 2008, while Cantor said chip-equipment makers are effectively sold out. On the public silicon tape every venue returned HTTP 200: 69 confirms, 0 ticks and 2 NEW rows, as Crusoe&#x27;s GPU list now shows public on-demand prices for B200 ($8.50) and HGX B300 ($9.90). Countries: United Kingdom: Microsoft ends its anchor deal at Nscale&#x27;s Loughton, Essex AI site (about GBP 2 billion, about 23,000 Nvidia GPUs planned) after UK Power Networks put sufficient power in the early to mid 2030s; Nscale exploring alternative power (Wire, 18 Oct). Australia: NextDC trading halt over a power supply delay at M3 Melbourne, possible FY27 guidance impact; about 42 MW online in FY2026 and 165 MW under development per Bloomberg; announcement due by 21 Oct (Wire, 19 Oct). Canada: Anthropic leases the first 95 MW of EverWind&#x27;s Point Tupper, Nova Scotia campus for at least 20 years (late 2027), with a 325 MW expansion targeted for 2028; EverWind funds attributable grid costs; more than $10 billion planned including wind (Wire, 16 Oct). India: E2E Networks Q2 FY27 revenue INR 2,238 million (up 411% YoY) at a 76.6% EBITDA margin on Blackwell GPUs; binding term sheet of about INR 1,000 crore with an Indian sovereign AI company through June 2029 (Signal).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-20</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Two answers to the same grid constraint landed between Sunday and Monday. In Arkansas the tenant pays: Entergy Arkansas announced a second phase of service for Google&#x27;s West Memphis campus, with Google covering about $600 million of battery, substation and transmission investment plus a 440 MW solar PPA, pending Arkansas PSC approval and an expected 2028 in-service date. Where no tenant pays, governments ration: Denmark&#x27;s executive order 892 took effect on 19 October and places data centres in the lowest of four priority categories when grid capacity is short, and Israel&#x27;s Electricity Authority backed a 200 MW cap per new data center, about 1,000 MW of new large connections and NIS 2 million per MW guarantees after 27,000 MW of requests. Goldman Sachs counts 86 data center projects canceled or significantly delayed since January, 76 of them tied to local opposition, and calls power &#x27;probably the forever bottleneck&#x27;. Capital is still chasing sites with power: Bloomberg and CNBC report Anthropic is in talks for a second 460 MW building at Nscale&#x27;s Monarch campus in West Virginia worth about $45 billion, even as investors push back on Nscale&#x27;s roughly $30 billion IPO target and Korea&#x27;s Elice fell about 30% on its KOSDAQ debut. On the public silicon tape all six venues returned HTTP 200: 71 confirms, 0 ticks, 0 NEW. CoreWeave&#x27;s list held at $6.16 for H100 even as Goldman&#x27;s upgrade note cites CoreWeave price increases of 25% in July and 10% in October, which sit in contracts, not the public page. Countries: United States: Entergy Arkansas phase 2 for Google West Memphis: Google covers about $600 million of batteries (1,400 MWh), substation and two 230 kV lines plus a 440 MW solar PPA; APSC approval pending, 2028 in service (Wire, 19 Oct). Anthropic in talks for a second 460 MW Nscale Monarch building in West Virginia, about $45 billion (Signal). Denmark: Executive order 892 in force 19 Oct: data centres are category 4 of 4 for constrained grid capacity; operators can refuse requests that displace higher priorities; 3 MW+ requests handled in regional rounds at least twice a year (Wire). Israel: Electricity Authority backs a 200 MW cap per new data center, about 1,000 MW of new large-DC connections on top of about 2,000 MW approved, NIS 2 million per MW guarantees; 27,000 MW was requested; three-week consultation next (Wire, 18 Oct). Malaysia: Aolani signs non-binding LOIs for up to 500 MW of AI data centre capacity from 2H 2027; projects up to 580 MW committed in Malaysia by 2027 versus about 80 MW in 2026 (Wire, 19 Oct).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-19/lambda-h100-od</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 19 Oct 2026. Confirm vs 16 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-20/lambda-h100-od</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 20 Oct 2026. Confirm vs 19 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-19/lambda-b200-od</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 19 Oct 2026. Confirm vs 16 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-20/lambda-b200-od</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 20 Oct 2026. Confirm vs 19 Oct print</description>
+  </item>
+  <item>
+    <title>H100 HGX · $6.16 on-demand</title>
+    <link>https://compute.world/brief#coreweave-h100-od</link>
+    <guid isPermaLink="false">compute.world/brief/2026-10-20/coreweave-h100-od</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 20 Oct 2026. Confirm vs 19 Oct print; list unchanged despite reported contract price increases</description>
   </item>
   <item>
     <title>B200 HGX · $8.50 on-demand</title>
     <link>https://compute.world/brief#crusoe-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-19/crusoe-b200-od</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 HGX: display $8.50 on-demand at Crusoe as of 19 Oct 2026. NEW: first dated print; spot still Contact sales</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-20/crusoe-b200-od</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 HGX: display $8.50 on-demand at Crusoe as of 20 Oct 2026. Confirm vs 19 Oct first print</description>
   </item>
   <item>
     <title>B300 HGX · $9.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-19/crusoe-b300-od</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $9.90 on-demand at Crusoe as of 19 Oct 2026. NEW: first dated print (16 Oct read saw $9.60 off-tape; no change computed)</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-20/crusoe-b300-od</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $9.90 on-demand at Crusoe as of 20 Oct 2026. Confirm vs 19 Oct first print</description>
   </item>
   <item>
     <title>H200 SXM · $5.40 on-demand</title>
     <link>https://compute.world/brief#crusoe-h200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-19/crusoe-h200-od</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H200 SXM: display $5.40 on-demand at Crusoe as of 19 Oct 2026. Confirm vs 16 Oct print</description>
-  </item>
-  <item>
-    <title>H100 SXM · $4.50 on-demand</title>
-    <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-19/crusoe-h100-od</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.50 on-demand at Crusoe as of 19 Oct 2026. Confirm vs 16 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-20/crusoe-h200-od</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H200 SXM: display $5.40 on-demand at Crusoe as of 20 Oct 2026. Confirm vs 19 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-19/do-b300-spot</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 19 Oct 2026. Confirm vs 16 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-20/do-b300-spot</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 20 Oct 2026. Confirm vs 19 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-19/aws-cb-b300</guid>
-    <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 19 Oct 2026. Confirm vs 16 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-20/aws-cb-b300</guid>
+    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 20 Oct 2026. Confirm vs 19 Oct print</description>
   </item>
 </channel></rss>
