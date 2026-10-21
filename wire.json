@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "id": "nextdc-m3-fy27-guidance-cut-jemena-works-suspended-2026-10-21",
+      "date": "2026-10-21",
+      "title": "NextDC cuts FY27 guidance and pauses all uncontracted development after Jemena suspends grid works for M3 Melbourne; shares fall about 42%",
+      "summary": "On 21 October 2026 NextDC ended its trading halt with an ASX release saying Jemena Electricity Networks suspended parts of the 66 kV line works needed for the next increase in grid supply to its M3 Melbourne (West Footscray) data centre, citing safety concerns, community and stakeholder opposition and the lack of local council consent. Jemena does not expect to restart before February 2027, and NextDC now expects that supply increase in FY28. Later increases also depend on new transformers at the Brooklyn Terminal Station, which are now expected later than planned. The Victorian planning decision on M3 Stages 6 and 7 is not expected until 2027 because of the 28 November state election. NextDC removed the affected M3 contracts, about A$140 million each of net revenue and underlying EBITDA, from FY27 guidance: net revenue A$475 to 500 million (was A$615 to 640 million), underlying EBITDA A$245 to 265 million (was A$385 to 410 million), capex A$4.5 to 5.0 billion (was A$5.25 to 5.75 billion). All new development projects and land acquisitions are on hold, site sales will be evaluated, and the contracts allow service level credits and in some cases termination; NextDC is assessing force majeure relief. Liquidity was A$8.675 billion at 30 September and covenants are met. Reuters reports the shares closed down 41.7%, about A$3 billion of market value, the worst day since listing in 2010. Country conversion: contracted Australian hyperscale capacity stalls on distribution-network works blocked by local opposition.",
+      "url": "https://www.marketindex.com.au/data-api/api/v1/announcements/XASX:NXT:2A1705181/pdf/inline/m3-melbourne-power-delay-revised-fy27-guidance",
+      "source": "NextDC ASX release 21 Oct 2026 (primary); Reuters 21 Oct 2026; ABC News 21 Oct 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Stall",
+        "Energy",
+        "Capital"
+      ],
+      "score": 84
+    },
+    {
+      "id": "humain-datavolt-nebius-oxagon-neom-50mw-framework-2026-10-21",
+      "date": "2026-10-21",
+      "title": "Humain and DataVolt sign a preliminary framework with Nebius for up to 50 MW at the Oxagon AI campus in NEOM, Saudi Arabia",
+      "summary": "On 21 October 2026 Humain (PIF) and DataVolt announced a preliminary framework agreement with Nebius for capacity at their planned AI giga campus in Oxagon, NEOM. Nebius would be the anchor customer, with a contemplated offtake of up to 50 MW, half of the first 100 MW now under construction within a planned 360 MW first phase. The capacity is expected to come online in phases from Q4 2027, and Nebius expects to deploy NVIDIA-based infrastructure. The release says construction began about six weeks earlier; the agreement was signed on the sidelines of NVIDIA GTC Berlin. The framework is preliminary and the release gives no contract value or term. Country conversion: the first named international offtaker for a Saudi build-to-export AI campus.",
+      "url": "https://www.neom.com/en-us/newsroom/International-Agreement-Strengthens-Data-Center-Capabilities",
+      "source": "NEOM / Humain / DataVolt joint release 21 Oct 2026 (primary)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "SAU"
+      ],
+      "flags": "🇸🇦",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 66
+    },
+    {
+      "id": "wisconsin-dnr-statewide-data-center-strategic-analysis-vantage-settlement-2026-10-19",
+      "date": "2026-10-19",
+      "title": "Wisconsin DNR settles the Vantage Port Washington permit case by agreeing to a statewide data center strategic analysis due January 2028",
+      "summary": "On 19 October 2026 the Wisconsin Department of Natural Resources, Sierra Club and Midwest Environmental Advocates announced a settlement (signed 16 October) of the challenge to DNR permits for Vantage's Port Washington data center campus. The permits stay valid and the case is dismissed. In return DNR will complete a statewide Data Center Strategic Analysis by 31 January 2028 covering AI data center buildout, related energy infrastructure, alternatives and cumulative environmental effects, with public scoping and hearings; Vantage pays the preparation costs and DNR keeps control of the analysis. Wisconsin Examiner reports DNR will also prepare full environmental impact statements for individual data center proposals going forward. A state PSC report this summer found Port Washington plus Microsoft's Mount Pleasant and Meta's Beaver Dam campuses set to drive a 40% rise in statewide energy demand over six years. Country conversion: a US state adds a statewide review layer for future campuses without stopping the one under construction.",
+      "url": "https://midwestadvocates.org/legal-settlement-leads-to-statewide-environmental-review-of-data-center-development-in-wisconsin/",
+      "source": "Midwest Environmental Advocates release and settlement filing 16 to 19 Oct 2026 (primary); Wisconsin Examiner 19 Oct 2026; WPR",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "score": 60
+    },
+    {
       "id": "entergy-arkansas-google-west-memphis-phase2-440mw-ppa-1400mwh-2026-10-19",
       "date": "2026-10-19",
       "title": "Entergy Arkansas adds a second phase of service for Google's West Memphis campus, with Google paying for about $600 million of grid investment, a 440 MW solar PPA and 1,400 MWh of batteries",
@@ -2061,6 +2119,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-20",
-  "note": "Wire refresh 2026-10-20: added entergy-arkansas-google-west-memphis-phase2-440mw-ppa-1400mwh-2026-10-19, denmark-grid-priority-order-892-data-centres-category-4-2026-10-19, israel-electricity-authority-200mw-data-center-cap-2026-10-18, aolani-malaysia-500mw-loi-2026-10-19. Tape: 71 confirms, 0 ticks, 0 NEW. Anthropic and Nscale talks on a second 460 MW Monarch, West Virginia building (about $45 billion, Bloomberg and CNBC sources), Nscale IPO valuation pushback, the Goldman AI bottlenecks report, the Goldman CoreWeave upgrade, the Elice KOSDAQ debut and Humain's 100 MW Riyadh EPC tender stay Signal or Watch only."
+  "updated": "2026-10-21",
+  "note": "Wire refresh 2026-10-21: added nextdc-m3-fy27-guidance-cut-jemena-works-suspended-2026-10-21, humain-datavolt-nebius-oxagon-neom-50mw-framework-2026-10-21, wisconsin-dnr-statewide-data-center-strategic-analysis-vantage-settlement-2026-10-19. Tape: 68 confirms, 2 ticks (Crusoe H100 and H200 on-demand back to $3.90 and $4.29), 0 NEW; Crusoe B200 on-demand moved to Contact sales. NVIDIA GTC Berlin supply-chain and DSX POD announcements, Anthropic and Nscale Monarch building 2 talks (not signed), the Nscale IPO range, TrendForce DRAM outlook and Meta Q3 (after close) stay Signal or Watch only."
 }

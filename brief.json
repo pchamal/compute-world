@@ -1,33 +1,27 @@
 {
-  "updated": "2026-10-20",
-  "title": "Compute brief - 20 October 2026",
-  "description": "Grid access is turning from a queue into a price. Google funds about $600 million of Entergy Arkansas grid and storage plus a 440 MW solar PPA for West Memphis; Denmark puts data centres last for constrained grid capacity; Israel proposes a 200 MW cap per new data center with NIS 2 million per MW guarantees. Tape: 71 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "Tenants pay for the grid; Denmark and Israel ration it",
-  "lede": "Two answers to the same grid constraint landed between Sunday and Monday. In Arkansas the tenant pays: Entergy Arkansas announced a second phase of service for Google's West Memphis campus, with Google covering about $600 million of battery, substation and transmission investment plus a 440 MW solar PPA, pending Arkansas PSC approval and an expected 2028 in-service date. Where no tenant pays, governments ration: Denmark's executive order 892 took effect on 19 October and places data centres in the lowest of four priority categories when grid capacity is short, and Israel's Electricity Authority backed a 200 MW cap per new data center, about 1,000 MW of new large connections and NIS 2 million per MW guarantees after 27,000 MW of requests. Goldman Sachs counts 86 data center projects canceled or significantly delayed since January, 76 of them tied to local opposition, and calls power 'probably the forever bottleneck'. Capital is still chasing sites with power: Bloomberg and CNBC report Anthropic is in talks for a second 460 MW building at Nscale's Monarch campus in West Virginia worth about $45 billion, even as investors push back on Nscale's roughly $30 billion IPO target and Korea's Elice fell about 30% on its KOSDAQ debut. On the public silicon tape all six venues returned HTTP 200: 71 confirms, 0 ticks, 0 NEW. CoreWeave's list held at $6.16 for H100 even as Goldman's upgrade note cites CoreWeave price increases of 25% in July and 10% in October, which sit in contracts, not the public page.",
+  "updated": "2026-10-21",
+  "title": "Compute brief - 21 October 2026",
+  "description": "A blocked power line cost NextDC about 42% of its market value: Jemena suspended works for M3 Melbourne, FY27 guidance was cut and all uncontracted development paused. NVIDIA used GTC Berlin to fund substrate, packaging and test capacity and to pitch 14-day factory-built AI factories. Tape: 68 confirms, 2 ticks (Crusoe H100 and H200 back down), 0 NEW; Crusoe B200 on-demand now Contact sales.",
+  "og_kicker": "A suspended 66 kV line wipes A$3 billion off NextDC",
+  "lede": "The grid risk that the market has been pricing in the abstract arrived on a single balance sheet. NextDC came out of its trading halt on 21 October saying Jemena has suspended parts of the 66 kV works needed for the next power step-up at M3 Melbourne because of community opposition and missing council consent, and will not restart before February 2027. NextDC pulled about A$140 million of M3 revenue and EBITDA out of FY27 guidance, cut capex by A$750 million, put every new development and land purchase on hold and warned that its customer has service credit and, in some cases, termination rights. Reuters says the shares closed down 41.7%, the worst day since the 2010 listing. On the supply side, NVIDIA used GTC Berlin to announce funded capacity in substrates (2.5x over three years), Amkor interposers (more than 300% by end 2028), testing (a $1.1 billion advance to KYEC for US sites) and co-packaged optics, plus DSX POD containers that it says cut on-site deployment from six months to as little as 14 days. Capital is still finding powered sites: Humain and DataVolt named Nebius as the first anchor for up to 50 MW at Oxagon in NEOM, while Anthropic's second Monarch building with Nscale remains unsigned. On the public tape, Crusoe reversed its 16 October increases (H100 $4.50 to $3.90, H200 $5.40 to $4.29) and moved B200 on-demand from $8.50 to Contact sales; 68 other prints confirmed across all six venues.",
   "countries": [
     {
-      "id": "usa-entergy-google-west-memphis",
+      "id": "aus-nextdc-m3-guidance-cut",
+      "name": "Australia",
+      "slug": "australia",
+      "note": "NextDC: Jemena suspended 66 kV works for M3 Melbourne (restart not before Feb 2027); next supply step now FY28; FY27 net revenue guidance A$475 to 500 million from A$615 to 640 million; capex cut to A$4.5 to 5.0 billion; all new development and land purchases on hold; shares down 41.7% (Wire, 21 Oct)."
+    },
+    {
+      "id": "sau-oxagon-nebius-framework",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "note": "Humain and DataVolt preliminary framework with Nebius for up to 50 MW of the first 100 MW under construction at Oxagon, NEOM (planned 360 MW phase one), phased from Q4 2027 (Wire, 21 Oct)."
+    },
+    {
+      "id": "usa-wisconsin-dnr-strategic-analysis",
       "name": "United States",
       "slug": "united-states",
-      "note": "Entergy Arkansas phase 2 for Google West Memphis: Google covers about $600 million of batteries (1,400 MWh), substation and two 230 kV lines plus a 440 MW solar PPA; APSC approval pending, 2028 in service (Wire, 19 Oct). Anthropic in talks for a second 460 MW Nscale Monarch building in West Virginia, about $45 billion (Signal)."
-    },
-    {
-      "id": "dnk-grid-priority-892",
-      "name": "Denmark",
-      "slug": "denmark",
-      "note": "Executive order 892 in force 19 Oct: data centres are category 4 of 4 for constrained grid capacity; operators can refuse requests that displace higher priorities; 3 MW+ requests handled in regional rounds at least twice a year (Wire)."
-    },
-    {
-      "id": "isr-electricity-authority-cap",
-      "name": "Israel",
-      "slug": "israel",
-      "note": "Electricity Authority backs a 200 MW cap per new data center, about 1,000 MW of new large-DC connections on top of about 2,000 MW approved, NIS 2 million per MW guarantees; 27,000 MW was requested; three-week consultation next (Wire, 18 Oct)."
-    },
-    {
-      "id": "mys-aolani-loi",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Aolani signs non-binding LOIs for up to 500 MW of AI data centre capacity from 2H 2027; projects up to 580 MW committed in Malaysia by 2027 versus about 80 MW in 2026 (Wire, 19 Oct)."
+      "note": "Wisconsin DNR settlement keeps Vantage Port Washington permits valid but commits to a statewide Data Center Strategic Analysis by 31 Jan 2028, paid for by Vantage (Wire, 19 Oct). NVIDIA advances $1.1 billion to KYEC for US chip test facilities, high-volume production targeted April 2027 (Signal)."
     }
   ],
   "silicon": [
@@ -37,10 +31,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 19 Oct print"
+      "note": "Confirm vs 20 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -48,10 +42,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 19 Oct print"
+      "note": "Confirm vs 20 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -59,21 +53,32 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 19 Oct print; list unchanged despite reported contract price increases"
+      "note": "Confirm vs 20 Oct print"
     },
     {
-      "id": "crusoe-b200-od",
-      "name": "B200 HGX",
-      "display_usd": 8.5,
+      "id": "crusoe-h100-od",
+      "name": "H100 HGX",
+      "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-20",
-      "prev_usd": 8.5,
-      "delta": 0.0,
-      "note": "Confirm vs 19 Oct first print"
+      "as_of": "2026-10-21",
+      "prev_usd": 4.5,
+      "delta": -0.6,
+      "note": "Tick vs 20 Oct $4.50; back to the $3.90 list printed through 15 Oct"
+    },
+    {
+      "id": "crusoe-h200-od",
+      "name": "H200 SXM",
+      "display_usd": 4.29,
+      "venue": "Crusoe",
+      "term": "on-demand",
+      "as_of": "2026-10-21",
+      "prev_usd": 5.4,
+      "delta": -1.11,
+      "note": "Tick vs 20 Oct $5.40; back to the $4.29 list printed through 15 Oct"
     },
     {
       "id": "crusoe-b300-od",
@@ -81,21 +86,10 @@
       "display_usd": 9.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "prev_usd": 9.9,
       "delta": 0.0,
-      "note": "Confirm vs 19 Oct first print"
-    },
-    {
-      "id": "crusoe-h200-od",
-      "name": "H200 SXM",
-      "display_usd": 5.4,
-      "venue": "Crusoe",
-      "term": "on-demand",
-      "as_of": "2026-10-20",
-      "prev_usd": 5.4,
-      "delta": 0.0,
-      "note": "Confirm vs 19 Oct print"
+      "note": "Confirm vs 20 Oct print. Crusoe B200 on-demand ($8.50 on 19 and 20 Oct) moved to Contact sales today"
     },
     {
       "id": "do-b300-spot",
@@ -103,10 +97,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 19 Oct print"
+      "note": "Confirm vs 20 Oct print"
     },
     {
       "id": "aws-cb-b300",
@@ -114,94 +108,84 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 19 Oct print"
+      "note": "Confirm vs 20 Oct print"
     }
   ],
   "watch": [
     {
-      "id": "nextdc-m3-announcement",
-      "name": "NextDC M3 announcement",
-      "note": "No update yet at our cutoff; the halt ends with an announcement or at the 21 Oct open (about 4 pm PT on 20 Oct). Watch the stated cause, MW affected, delay length and any FY27 guidance change."
+      "id": "nextdc-agm-capex-review",
+      "name": "NextDC capex review and M3 customer",
+      "note": "Capex review outcome due by the 20 Nov AGM; watch whether the M3 customer claims service credits or termination, whether force majeure relief applies, and any site sales. Victorian caretaker period starts 3 Nov."
     },
     {
       "id": "anthropic-nscale-monarch-2",
       "name": "Anthropic / Nscale Monarch building 2",
-      "note": "Bloomberg says a deal for a second 460 MW Vera Rubin building, about $45 billion, could be signed within days; Anthropic would hold a right of first refusal on a third building. Talks only; both declined to comment."
+      "note": "Still talks at our cutoff (Bloomberg, CNBC, FT). FT says due diligence continues and water and gas-plant air permits for the campus are still pending."
     },
     {
       "id": "nscale-ipo",
       "name": "Nscale IPO",
-      "note": "Some investors argue for $16 to 19 billion versus a roughly $30 billion target (Bloomberg via Quartz); marketing on hold while SEC comments are addressed; Norway site reported six months late."
+      "note": "No price range yet; the amended S-1 range is the number to watch against the reported $30 billion ask and the $16 to 19 billion investors urged."
     },
     {
       "id": "israel-consultation",
       "name": "Israel data center rules",
-      "note": "Full decision due for a three-week public consultation; watch whether the 200 MW cap, the 1,000 MW allocation and the NIS 2 million per MW guarantee survive."
+      "note": "Full decision and three-week consultation not yet published at our cutoff."
     },
     {
       "id": "meta-q3-capex",
       "name": "Meta Q3 results (21 Oct, after close)",
-      "note": "First hyperscaler print of the season; watch 2026 and 2027 capex guidance and any lease or financing commentary. Microsoft, Alphabet and Amazon follow."
+      "note": "Not out at our cutoff. 2026 capex guidance stands at $130 to 145 billion; watch the 2027 signal and financing. Alphabet and Microsoft report 28 Oct."
     },
     {
       "id": "humain-riyadh-epc",
       "name": "Humain Riyadh 100 MW EPC",
-      "note": "MEED reports an EPC tender worth about $1 billion for a 100 MW Al-Saad facility (expandable to 200 MW), bids due 8 Nov; tender only."
+      "note": "Tender still open; bids due 8 Nov (MEED). Separate from today's Oxagon framework."
     }
   ],
   "sources": [
     {
-      "name": "Entergy Arkansas: Google West Memphis phase 2",
-      "url": "https://www.entergy.com/news/entergy-arkansas-announces-enhanced-partnership-at-google-west-memphis-campus-delivering-at-least-500m-in-new-savings-for-all-customers",
-      "note": "Wire: about $600 million Google-funded investment, 440 MW solar PPA, 1,400 MWh batteries, APSC approval pending."
+      "name": "NextDC ASX release: M3 power delay and revised FY27 guidance",
+      "url": "https://www.marketindex.com.au/data-api/api/v1/announcements/XASX:NXT:2A1705181/pdf/inline/m3-melbourne-power-delay-revised-fy27-guidance",
+      "note": "Wire: Jemena works suspended, FY27 guidance cut, development on hold."
     },
     {
-      "name": "DCD: Google expands Entergy Arkansas partnership",
-      "url": "https://www.datacenterdynamics.com/en/news/google-expands-partnership-with-entergy-arkansas-will-fund-renewable-energy-and-grid-upgrades-for-west-memphis-data-center/",
-      "note": "600 MW campus; APSC denied the original Big Island PPA in September."
+      "name": "Reuters: NextDC shares shed 42%",
+      "url": "https://www.investing.com/news/stock-market-news/australian-ai-data-centre-operator-nextdc-shares-shed-44-on-revenue-delay-4961468",
+      "note": "Close down 41.7%, about A$3 billion of value."
     },
     {
-      "name": "Denmark executive order 892 (Retsinformation)",
-      "url": "https://www.retsinformation.dk/eli/lta/2026/892/pdf",
-      "note": "Wire: data centres category 4; in force 19 Oct 2026."
+      "name": "NEOM: Humain and DataVolt framework with Nebius",
+      "url": "https://www.neom.com/en-us/newsroom/International-Agreement-Strengthens-Data-Center-Capabilities",
+      "note": "Wire: up to 50 MW of the first 100 MW at Oxagon."
     },
     {
-      "name": "Israel caps new data centers at 200 MW (Ctech)",
-      "url": "https://www.calcalistech.com/ctechnews/article/ryfbkw72gx",
-      "note": "Wire: 200 MW cap, about 1,000 MW new allocation, 27,000 MW requested, NIS 2 million per MW."
+      "name": "Midwest Environmental Advocates: Wisconsin statewide review settlement",
+      "url": "https://midwestadvocates.org/legal-settlement-leads-to-statewide-environmental-review-of-data-center-development-in-wisconsin/",
+      "note": "Wire: strategic analysis due 31 Jan 2028."
     },
     {
-      "name": "Aolani Malaysia LOIs (Media OutReach)",
-      "url": "https://www.media-outreach.com/news/singapore/2026/10/19/494776/aolani-signs-letters-of-intent-for-up-to-500mw-of-ai-data-centre-capacity-in-malaysia/",
-      "note": "Wire: up to 500 MW non-binding LOIs."
+      "name": "NVIDIA: supply chain partners expand capacity",
+      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385344/0/en/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout.html",
+      "note": "Signal: substrates 2.5x, Amkor interposers +300%, $1.1 billion KYEC advance, SPIL optics 15x."
     },
     {
-      "name": "Anthropic / Nscale second deal talks (CNBC)",
-      "url": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html",
-      "note": "Signal: second 460 MW West Virginia building, about $45 billion; Bloomberg first."
+      "name": "NVIDIA: DSX POD AI factories",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+      "note": "Signal: factory-built Vera Rubin containers, early 2027."
     },
     {
-      "name": "Nscale IPO valuation pushback (Quartz, citing Bloomberg)",
-      "url": "https://qz.com/nscale-ipo-valuation-investor-pushback-101926",
-      "note": "Signal: $16 to 19 billion versus about $30 billion; $103.4 billion contracted TCV."
+      "name": "TrendForce: DRAM prices seen rising 20% QoQ in 4Q26",
+      "url": "https://www.trendforce.com/news/2026/10/20/news-dram-prices-seen-rising-20-qoq-in-4q26-despite-slower-gains-ai-demand-tight-supply-support-outlook/",
+      "note": "Signal: slowing from about 80% in Q2 and 40% in Q3."
     },
     {
-      "name": "Goldman AI bottlenecks report (Axios)",
-      "url": "https://www.axios.com/2026/10/20/goldman-ai-energy-infrastructure-bottleneck",
-      "note": "Signal: 86 projects canceled or delayed, 76 on local opposition; $420 billion hyperscaler debt issuance in 2027."
-    },
-    {
-      "name": "Goldman upgrades CoreWeave (Benzinga)",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62439201/coreweave-stock-gets-a-goldman-upgrade-even-as-the-target-falls-to-106-from-139-heres-the-case",
-      "note": "Signal: Buy, target $106 from $139; short-term contracts about $40 million per MW."
-    },
-    {
-      "name": "Elice KOSDAQ debut (CNBC)",
-      "url": "https://www.cnbc.com/2026/10/20/south-korea-elice-plunges-in-market-debut.html",
-      "note": "Signal: about 30% below the 90,500 won IPO price."
+      "name": "Crusoe Cloud pricing",
+      "url": "https://www.crusoe.ai/cloud/pricing",
+      "note": "H100 $3.90, H200 $4.29 (ticks); B200 OD Contact sales; B300 $9.90 confirm."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -212,11 +196,6 @@
       "name": "CoreWeave pricing",
       "url": "https://www.coreweave.com/pricing",
       "note": "H100 $6.16 / H200 $6.31 / B200 $8.60 on-demand confirm."
-    },
-    {
-      "name": "Crusoe Cloud pricing",
-      "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "B200 $8.50, B300 $9.90, H200 $5.40, H100 $4.50 on-demand confirm."
     },
     {
       "name": "AWS Capacity Blocks pricing",
