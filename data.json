@@ -1097,7 +1097,7 @@
    "rf": 0.95,
    "rz": 74,
    "dl": 1,
-   "rw": "NeoAI Cloud closes KRW 600 billion of financing for a 40 MW AI data center i…"
+   "rw": "South Korea's chip exports hit a record US$27.5 billion for 1 to 20 October,…"
   },
   {
    "n": "Taiwan",
@@ -1747,7 +1747,7 @@
    "rf": 0.85,
    "rz": 43,
    "dl": 1,
-   "rw": "Humain and DataVolt sign a preliminary framework with Nebius for up to 50 MW…"
+   "rw": "Humain and NVIDIA plan up to 84 MW and about 27,000 GPUs in Saudi Arabia, in…"
   },
   {
    "n": "UAE",
@@ -3645,9 +3645,9 @@
    "pue": "~1.1-1.25",
    "note": "Stargate UK; £150B US package; NE AI Growth Zone to 1.1 GW",
    "rf": 0.95,
-   "rz": 57,
-   "dl": 1,
-   "rw": "Microsoft exits its anchor deal at Nscale's Loughton, Essex AI data center a…"
+   "rz": 54,
+   "dl": -1,
+   "rw": "UK industry taskforce with NVIDIA, Microsoft and Cisco tells ministers they …"
   },
   {
    "n": "Ireland",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "Wisconsin DNR settles the Vantage Port Washington permit case by agreeing to…"
+   "rw": "Google and Voltus expand to a 1 GW Google-funded virtual power plant across …"
   },
   {
    "n": "Canada",
