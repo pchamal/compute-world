@@ -1,6 +1,82 @@
 {
   "items": [
     {
+      "id": "humain-nvidia-84mw-b300-vera-rubin-27000-gpus-2026-10-22",
+      "date": "2026-10-22",
+      "title": "Humain and NVIDIA plan up to 84 MW and about 27,000 GPUs in Saudi Arabia, including 50 MW of Vera Rubin for an unnamed US client",
+      "summary": "At NVIDIA GTC Berlin on 22 October 2026, Humain (PIF-owned) and NVIDIA announced an expanded collaboration covering a multi-phase rollout of up to 84 MW of AI compute in Saudi Arabia, about 27,000 GPUs. Phase one is 14 MW of NVIDIA Blackwell HGX B300 systems, about 6,000 GPUs on Quantum-X800 InfiniBand, with deployment starting in Q4 2026 for Humain Cloud customers. Humain then expects 70 MW of Vera Rubin infrastructure, about 21,000 GPUs, from June 2027: 50 MW for frontier-scale workloads of an unnamed US-based client and 20 MW for Humain Cloud from July or August 2027, all on the NVIDIA DSX platform. The National reports the Vera Rubin phases remain subject to final agreements. Humain targets nearly 3 GW of data center capacity by 2030 and more than 6 GW by 2034. Caveat: no primary release URL was found at our cutoff; figures are from The National and Data Centre Magazine, which quote both companies. Country conversion: a second named offtake for Saudi export compute in two days, after Nebius at Oxagon.",
+      "url": "https://www.thenationalnews.com/future/technology/2026/10/22/saudi-arabias-humain-expands-nvidia-deal-with-84mw-ai-computing-plan/",
+      "source": "The National 22 Oct 2026; Data Centre Magazine 22 Oct 2026 (company quotes)",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "SAU"
+      ],
+      "flags": "🇸🇦",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 64
+    },
+    {
+      "id": "google-voltus-pjm-1gw-virtual-power-plant-2026-10-22",
+      "date": "2026-10-22",
+      "title": "Google and Voltus expand to a 1 GW Google-funded virtual power plant across PJM",
+      "summary": "On 22 October 2026 Google and Voltus announced an expanded agreement to build a 1 GW virtual power plant across the PJM region (13 states plus Washington, D.C., about 67 million people). Voltus aggregates flexible demand from businesses and homes, such as smart thermostats, batteries and industrial assets, that cut use during peaks; Google funds it and participants receive bill savings and cash payments. It is a tenfold expansion of a 100 MW agreement from earlier in 2026, and Google calls it one of the largest distributed capacity portfolios deployed by a hyperscaler. The release gives no cost, timeline or link to specific Google campuses. Country conversion: in the tightest US capacity market, a hyperscaler is buying demand response at gigawatt scale to make room for its own load.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virtual-power-plant-1-gigawatt/",
+      "source": "Google blog 22 Oct 2026 (primary)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Capital"
+      ],
+      "score": 62
+    },
+    {
+      "id": "uk-sail-taskforce-datacentre-consent-compact-12-months-2026-10-22",
+      "date": "2026-10-22",
+      "title": "UK industry taskforce with NVIDIA, Microsoft and Cisco tells ministers they have about 12 months to win local consent for data centres",
+      "summary": "The Guardian reported on 22 October 2026 (exclusive) that the Sovereign AI Leadership (SAIL) taskforce, whose members include NVIDIA, Microsoft and Cisco, told the UK government it has a window of roughly 12 months to build a compact that earns public consent before US-style organised opposition takes hold. The submission asks for a national framework of recommended local-benefit terms for councils and mayors, including an indicative contribution scaled to site size, and for host councils to keep more business rates. It cites dry summers and rising energy bills as drivers of scrutiny. Action to Protect Rural Scotland says 15 community campaigns are already active in Scotland. A government spokesperson pointed to existing measures letting councils in England's AI growth zones keep all additional business rates. Caveat: single outlet; the submission itself was not published. Country conversion: the industry is asking Britain to pay for social licence before the build-out, after Microsoft's Loughton exit and NextDC's consent-driven delay.",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
+      "source": "The Guardian 22 Oct 2026 (exclusive)",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "GBR"
+      ],
+      "flags": "🇬🇧",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 58
+    },
+    {
+      "id": "korea-chip-exports-oct-1-20-27-5bn-up-222pct-2026-10-21",
+      "date": "2026-10-21",
+      "title": "South Korea's chip exports hit a record US$27.5 billion for 1 to 20 October, up 222.5%, 44.7% of all exports",
+      "summary": "Preliminary Korea Customs Service data released on 21 October 2026 show South Korea's total exports for 1 to 20 October at US$61.6 billion, up 105.4% year on year and a record for the period. Semiconductor exports rose 222.5% to US$27.5 billion and made up 44.7% of total exports, up 16.2 percentage points from a year earlier; computer peripherals rose 424.0%. Imports rose 42.8% to US$47.1 billion. The data are preliminary. Working-day-adjusted daily exports rose 65.9%, so part of the headline jump reflects more working days than in the same period of 2025. Country conversion: memory and AI server pricing is now the main driver of Korea's trade account, days before SK hynix (28 Oct) and Samsung (29 Oct) report.",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785926",
+      "source": "Korea Customs Service via Korea.kr briefing 21 Oct 2026 (primary); Yonhap 21 Oct 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Build",
+        "Pricing"
+      ],
+      "score": 56
+    },
+    {
       "id": "nextdc-m3-fy27-guidance-cut-jemena-works-suspended-2026-10-21",
       "date": "2026-10-21",
       "title": "NextDC cuts FY27 guidance and pauses all uncontracted development after Jemena suspends grid works for M3 Melbourne; shares fall about 42%",
@@ -2119,6 +2195,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-21",
-  "note": "Wire refresh 2026-10-21: added nextdc-m3-fy27-guidance-cut-jemena-works-suspended-2026-10-21, humain-datavolt-nebius-oxagon-neom-50mw-framework-2026-10-21, wisconsin-dnr-statewide-data-center-strategic-analysis-vantage-settlement-2026-10-19. Tape: 68 confirms, 2 ticks (Crusoe H100 and H200 on-demand back to $3.90 and $4.29), 0 NEW; Crusoe B200 on-demand moved to Contact sales. NVIDIA GTC Berlin supply-chain and DSX POD announcements, Anthropic and Nscale Monarch building 2 talks (not signed), the Nscale IPO range, TrendForce DRAM outlook and Meta Q3 (after close) stay Signal or Watch only."
+  "updated": "2026-10-22",
+  "note": "Wire refresh 2026-10-22: added humain-nvidia-84mw-b300-vera-rubin-27000-gpus-2026-10-22, google-voltus-pjm-1gw-virtual-power-plant-2026-10-22, uk-sail-taskforce-datacentre-consent-compact-12-months-2026-10-22, korea-chip-exports-oct-1-20-27-5bn-up-222pct-2026-10-21. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
