@@ -1,6 +1,82 @@
 {
   "items": [
     {
+      "id": "kazakhstan-firebird-45000-grace-blackwell-export-license-500mw-2026-10-23",
+      "date": "2026-10-23",
+      "title": "Kazakhstan signs Firebird investment agreement as Firebird secures a US export license for 45,000 NVIDIA Grace Blackwell GPUs",
+      "summary": "During Jensen Huang's first visit to Astana on 23 October 2026, Firebird signed an investment agreement with the government of Kazakhstan at the Akorda presidential palace. NVIDIA says Firebird has secured a US export license for 45,000 NVIDIA Grace Blackwell GPUs; the first phase is under construction with Kazakhtelecom at Data Center Valley in Ekibastuz, targeting commercial launch in Q3 2027, and a planned second phase would take Firebird's potential capacity in Kazakhstan to about 500 MW. Kazakhtelecom has already deployed 400 H200 and 480 B300 GPUs in Astana and Almaty and plans more than 1,000 GPUs at Data Center Valley plus more than 1,000 Vera Rubin GPUs in the Ekibastuz region in 2027. NVIDIA also announced an investment in Kazakhstan-founded Higgsfield AI. Huang called the country a future 'AI factory hub for all of Europe' (CNBC). Caveat: no contract value, power source or financing was disclosed, and the second phase is planned, not committed. Country conversion: a named US export license turns Kazakhstan's Ekibastuz plan into licensed GPU supply.",
+      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "source": "NVIDIA blog 22 Oct 2026 (primary); Astana Times 23 Oct 2026; CNBC 23 Oct 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KAZ"
+      ],
+      "flags": "🇰🇿",
+      "tags": [
+        "Build",
+        "Policy"
+      ],
+      "score": 62
+    },
+    {
+      "id": "loudoun-amazon-gw-campus-no-data-centers-project-potomac-promise-2026-10-20",
+      "date": "2026-10-20",
+      "title": "Amazon drops data centers on its $427 million GW campus in Loudoun County after resident opposition",
+      "summary": "Loudoun County's Board of Supervisors voted unanimously on 20 October 2026 for a preliminary agreement ('Project Potomac Promise') that is intended to eliminate data center uses on the George Washington University Virginia Science and Technology Campus in Ashburn, which AWS bought earlier in 2026 (reported at $427 million for 122 acres). Amazon will convey about 25 acres worth about $65 million to the county, donate $5 million to the housing trust fund, withdraw its data center application and forgo legal action; the county will fast-track rezoning of the remaining 97 acres for housing and mixed use. The county says Amazon acknowledged significant opposition to data centers at the site. Final agreements are still to be negotiated, and one supervisor voted against fast-tracking the rezoning. Separately, the board deferred to 17 November a resolution to pause data center and substation legislative applications for up to 12 months. Country conversion: in the world's largest data center market, a hyperscaler has given up an owned site rather than fight local opposition.",
+      "url": "https://www.loudoun.gov/m/newsflash?cat=10",
+      "source": "Loudoun County news release 22 Oct 2026 (primary); WTOP 21 Oct 2026; Washington Post 22 Oct 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Stall",
+        "Policy"
+      ],
+      "score": 60
+    },
+    {
+      "id": "china-bytedance-alibaba-tencent-rtx-pro-5500-3m-cards-35bn-2026-10-20",
+      "date": "2026-10-20",
+      "title": "ByteDance, Alibaba and Tencent reportedly order more than 3 million export-compliant NVIDIA RTX PRO 5500 cards worth over $35 billion",
+      "summary": "Reuters reported on 20 October 2026, citing two people familiar with the matter, that ByteDance, Alibaba and Tencent have ordered more than 3 million NVIDIA RTX PRO 5500 cards at about $11,400 each, a combined sticker value of more than $35 billion, mainly for inference. The sources say total orders from Chinese customers exceed 6 million, that NVIDIA told customers it cannot guarantee delivery, that partners may receive only 5% to 10% of requested quantities, and that NVIDIA indicated it could make no more than 3 million cards globally in 2027 as TSMC capacity shifts to Rubin. Samples are expected in December with commercial deliveries from Q1 2027. B300 cannot be sold to Chinese buyers and H200 exports are licensed case by case. An NVIDIA spokesperson blamed outdated US export controls and China's own import limits; the three buyers did not comment. Caveat: single outlet, anonymous sources, orders are not deliveries. Country conversion: China's demand for compliant NVIDIA inference silicon is about twice the stated global supply.",
+      "url": "https://money.usnews.com/investing/news/articles/2026-10-20/exclusive-bytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders",
+      "source": "Reuters exclusive 20 Oct 2026 (via US News)",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "CHN"
+      ],
+      "flags": "🇨🇳",
+      "tags": [
+        "Build",
+        "Policy"
+      ],
+      "score": 58
+    },
+    {
+      "id": "iren-badajoz-spain-300mw-civil-works-license-2028-2026-10-21",
+      "date": "2026-10-21",
+      "title": "IREN secures grid power and a civil works license for a planned 300 MW AI campus in Badajoz, Spain, targeting 2028",
+      "summary": "At NVIDIA GTC Berlin on 21 October 2026, IREN announced it has secured grid-connected power and the civil works license for a planned AI data center of about 300 MW in Badajoz, Extremadura, with initial operations targeted for 2028. The campus uses closed-loop liquid cooling, is designed for NVIDIA DSX compatibility, and will offer managed AI cloud services for customers with data residency requirements. IREN also set up IREN Europe, chaired by former Banco Santander CEO Angel Corcostegui, with Roberto Purcaro as Executive Director for Europe. IREN entered Spain in June 2026 by buying developer Nostrum Group. Europa Press reports construction should start between late 2026 and early 2027. No customer, capex or GPU count was disclosed. Country conversion: Spain gets a permitted, grid-connected 300 MW neocloud site while UK projects stall on grid queues.",
+      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385423/0/en/iren-to-advance-europe-s-sovereign-ai-ambitions-with-300mw-spanish-campus.html",
+      "source": "IREN release 21 Oct 2026 (primary); Europa Press 21 Oct 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "ESP"
+      ],
+      "flags": "🇪🇸",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 54
+    },
+    {
       "id": "humain-nvidia-84mw-b300-vera-rubin-27000-gpus-2026-10-22",
       "date": "2026-10-22",
       "title": "Humain and NVIDIA plan up to 84 MW and about 27,000 GPUs in Saudi Arabia, including 50 MW of Vera Rubin for an unnamed US client",
@@ -2195,6 +2271,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-22",
-  "note": "Wire refresh 2026-10-22: added humain-nvidia-84mw-b300-vera-rubin-27000-gpus-2026-10-22, google-voltus-pjm-1gw-virtual-power-plant-2026-10-22, uk-sail-taskforce-datacentre-consent-compact-12-months-2026-10-22, korea-chip-exports-oct-1-20-27-5bn-up-222pct-2026-10-21. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-10-23",
+  "note": "Wire refresh 2026-10-23: added kazakhstan-firebird-45000-grace-blackwell-export-license-500mw-2026-10-23, loudoun-amazon-gw-campus-no-data-centers-project-potomac-promise-2026-10-20, china-bytedance-alibaba-tencent-rtx-pro-5500-3m-cards-35bn-2026-10-20, iren-badajoz-spain-300mw-civil-works-license-2028-2026-10-21. Tape: 69 confirms, 1 tick (Crusoe B300 on-demand $9.90 to $8.96), 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }

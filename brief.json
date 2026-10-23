@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-22",
-  "title": "Compute brief - 22 October 2026",
-  "description": "Meta spent $34.9 billion on capex in Q3, raised the floor of its 2026 range to $135 to 145 billion and went free cash flow negative; it also created a non-voting share class it says can fund infrastructure. Sellers say compute pricing is still rising, Humain lines up 84 MW with NVIDIA, and UK industry warns it has 12 months to win local consent. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "Meta goes cash-flow negative and builds a share class to keep spending",
-  "lede": "The first hyperscaler print of the season says the spending is not slowing, and the cash to pay for it is getting tighter. Meta reported Q3 capex of $34.91 billion including finance lease principal, raised the bottom of its 2026 range to $135 to 145 billion (was $130 to 145 billion) and posted free cash flow of minus $2.12 billion, against plus $10.63 billion a year earlier. It gave no 2027 number but said it expects to keep investing aggressively, and CFO Susan Li said compute remains constrained and Meta has underestimated its needs before. The same release creates a non-voting Class C stock, effective January 2027, which Meta says gives it room to raise capital for infrastructure. Shares fell in early trading on 22 October in a wider AI selloff that took the KOSPI down 3.5%. Sellers of compute say price is holding: SpaceX said its AI unit earned $7.56 billion of revenue in Q3 with new deployments paying back in under a year, Nebius said its Tuesday capacity auction cleared higher and opened public live spot prices, and Humain and NVIDIA laid out up to 84 MW in Saudi Arabia including 50 MW of Vera Rubin for a US client. On the public tape all 70 prints confirmed, including Crusoe's H100 at $3.90 a day after its CEO said H100 prices are above 2023 levels.",
+  "updated": "2026-10-23",
+  "title": "Compute brief - 23 October 2026",
+  "description": "Capital, not demand, is now the stated bottleneck: Jensen Huang says demand for capital exceeds supply, CoreWeave fell 10% on a Bernstein cut, and Sundar Pichai says everyone is short of compute into 2027. Kazakhstan licenses 45,000 Grace Blackwell GPUs, Amazon drops data centers on its Loudoun site, and China orders 3 million compliant NVIDIA cards. Tape: 69 confirms, 1 tick (Crusoe B300 $9.90 to $8.96), 0 NEW.",
+  "og_kicker": "Everyone is short of compute, and the money to build it is getting scarcer",
+  "lede": "The buyers and the builders agree there is not enough compute. The disagreement is over who pays for it. Alphabet CEO Sundar Pichai said this week that everyone is short and that a customer asking Google for capacity in 2027 is incredibly difficult to serve. Jensen Huang told CNBC in Berlin that the demand for capital is much greater than the availability of capital, and put a 1 GW data center at about $50 billion. Markets are pricing that gap into the neoclouds: CoreWeave fell 10% on 22 October after Bernstein cut its target to $51 from $74, with Nebius down 7%, IREN 8% and Applied Digital 9%, and CoreWeave's unsecured bonds yield about 15%. Tesla went the other way and cut its 2026 capex outlook to about $20 billion from more than $25 billion. On the public tape, Crusoe cut its HGX B300 on-demand list to $8.96 from $9.90, down 9.5%, two days after its CEO said rental prices are rising. Everything else confirmed.",
   "countries": [
     {
-      "id": "sau-humain-nvidia-84mw",
-      "name": "Saudi Arabia",
-      "slug": "saudi-arabia",
-      "note": "Humain and NVIDIA plan up to 84 MW, about 27,000 GPUs: 14 MW of HGX B300 from Q4 2026, then 70 MW of Vera Rubin from June 2027 including 50 MW for an unnamed US client; Vera Rubin phases subject to final agreements (Wire, 22 Oct)."
+      "id": "kaz-firebird-45000-gb-license",
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "note": "Firebird signs an investment agreement with the government and holds a US export license for 45,000 Grace Blackwell GPUs; phase one with Kazakhtelecom at Data Center Valley targets Q3 2027, about 500 MW potential with phase two (Wire, 23 Oct)."
     },
     {
-      "id": "usa-google-voltus-pjm-vpp",
+      "id": "usa-loudoun-amazon-gw-campus",
       "name": "United States",
       "slug": "united-states",
-      "note": "Google and Voltus expand to a 1 GW Google-funded virtual power plant across PJM, ten times the earlier 100 MW deal (Wire, 22 Oct). Meta 2026 capex range raised at the floor to $135 to 145 billion (Signal)."
+      "note": "Loudoun supervisors approve a preliminary deal under which Amazon drops data centers on its GW campus site, gives the county 25 acres worth about $65 million and $5 million for housing (Wire, 20 Oct). Pause on new data center applications deferred to 17 Nov."
     },
     {
-      "id": "gbr-sail-consent-compact",
-      "name": "United Kingdom",
-      "slug": "united-kingdom",
-      "note": "SAIL taskforce (NVIDIA, Microsoft, Cisco) tells ministers they have about 12 months to agree a local-benefit compact before US-style opposition threatens construction (Wire, 22 Oct; Guardian exclusive)."
+      "id": "chn-rtx-pro-5500-orders",
+      "name": "China",
+      "slug": "china",
+      "note": "Reuters: ByteDance, Alibaba and Tencent order more than 3 million RTX PRO 5500 cards worth over $35 billion; NVIDIA may fill only 5% to 10% (Wire, 20 Oct; single source)."
     },
     {
-      "id": "kor-chip-exports-oct-1-20",
-      "name": "South Korea",
-      "slug": "south-korea",
-      "note": "Chip exports a record US$27.5 billion for 1 to 20 October, up 222.5% and 44.7% of all exports (Wire, 21 Oct, preliminary customs data). KOSPI fell 3.5% on 22 Oct on AI spending worries."
+      "id": "esp-iren-badajoz-300mw",
+      "name": "Spain",
+      "slug": "spain",
+      "note": "IREN secures grid power and the civil works license for a planned 300 MW AI campus in Badajoz, operations targeted for 2028 (Wire, 21 Oct)."
     }
   ],
   "silicon": [
@@ -37,10 +37,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 21 Oct print"
+      "note": "Confirm vs 22 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -48,10 +48,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 21 Oct print"
+      "note": "Confirm vs 22 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -59,10 +59,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 21 Oct print"
+      "note": "Confirm vs 22 Oct print"
     },
     {
       "id": "crusoe-h100-od",
@@ -70,10 +70,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 21 Oct print; holds at the level it returned to on 21 Oct"
+      "note": "Confirm vs 22 Oct print"
     },
     {
       "id": "crusoe-h200-od",
@@ -81,21 +81,21 @@
       "display_usd": 4.29,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "prev_usd": 4.29,
       "delta": 0.0,
-      "note": "Confirm vs 21 Oct print"
+      "note": "Confirm vs 22 Oct print"
     },
     {
       "id": "crusoe-b300-od",
       "name": "B300 HGX",
-      "display_usd": 9.9,
+      "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "prev_usd": 9.9,
-      "delta": 0.0,
-      "note": "Confirm vs 21 Oct print; Crusoe relabeled the row NVIDIA B300 288GB HGX. B200 on-demand still Contact sales"
+      "delta": -0.94,
+      "note": "Tick: $9.90 on 22 Oct to $8.96 on 23 Oct (-9.5%). Crusoe re-laid its GPU table; B200 on-demand still Contact sales"
     },
     {
       "id": "do-b300-spot",
@@ -103,10 +103,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 21 Oct print"
+      "note": "Confirm vs 22 Oct print"
     },
     {
       "id": "aws-cb-b300",
@@ -114,94 +114,84 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-22",
+      "as_of": "2026-10-23",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 21 Oct print"
+      "note": "Confirm vs 22 Oct print"
     }
   ],
   "watch": [
     {
       "id": "hyperscaler-earnings-28-29-oct",
       "name": "Alphabet, Microsoft (28 Oct) and Amazon (29 Oct)",
-      "note": "Meta set the tone: capex range raised at the floor, no 2027 number, negative free cash flow. Watch 2027 capex signals, lease commitments and third-party cloud spend."
+      "note": "Pichai says Google is capacity constrained daily and 2027 capacity is hard to promise. Watch 2027 capex signals, lease commitments and third-party cloud spend after Meta raised its floor and Tesla cut."
     },
     {
-      "id": "memory-earnings",
+      "id": "memory-intel-earnings",
       "name": "SK hynix (28 Oct), Samsung and Intel (29 Oct)",
-      "note": "After record October chip exports and a 3.5% KOSPI drop, watch HBM4 pricing and long-term agreement commentary."
+      "note": "HBM4 pricing and long-term agreements after record October chip exports; Intel's D-series inference GPU is sampling."
     },
     {
-      "id": "anthropic-nscale-monarch-2",
-      "name": "Anthropic / Nscale Monarch building 2",
-      "note": "Still talks at our cutoff; reported second 460 MW building worth about $45 billion. Nscale IPO still has no price range on file."
+      "id": "neocloud-credit",
+      "name": "Neocloud credit and CoreWeave Q3",
+      "note": "CoreWeave down 29% in October through 21 Oct, unsecured bonds near 15%; credit desks told CNBC high-yield issuance is on hold until after the 3 Nov midterms. CoreWeave reports in November."
     },
     {
-      "id": "nextdc-agm-capex-review",
-      "name": "NextDC capex review and M3 customer",
-      "note": "Shares rebounded about 7% on 22 Oct after the 42% fall; AFR reports calls for legal action over disclosure timing. Capex review due by the 20 Nov AGM."
+      "id": "loudoun-pause-17-nov",
+      "name": "Loudoun data center pause vote",
+      "note": "Resolution to pause data center and substation legislative applications for up to 12 months deferred to the 17 Nov board meeting; Amazon GW campus terms still to be finalised."
     },
     {
-      "id": "israel-consultation",
-      "name": "Israel data center rules",
-      "note": "Proposed framework (200 MW cap per site, 1,000 MW allocation, NIS 2 million per MW guarantee) in a three-week public comment period; final rules pending."
+      "id": "china-rtx-pro-5500",
+      "name": "China RTX PRO 5500 allocations",
+      "note": "Samples due December, deliveries from Q1 2027. Watch whether NVIDIA confirms allocations or US licensing changes."
     },
     {
       "id": "humain-riyadh-epc",
       "name": "Humain Riyadh 100 MW EPC",
-      "note": "Bids due 8 Nov (MEED). Separate from the Oxagon framework and the 84 MW NVIDIA plan."
+      "note": "Bids due 8 Nov (MEED)."
     }
   ],
   "sources": [
     {
-      "name": "Meta Q3 2026 results",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "note": "Signal: capex $34.91 billion, 2026 range $135 to 145 billion, FCF minus $2.12 billion, Class C stock."
+      "name": "CNBC: Jensen-mania, robot ducks and neocloud distress",
+      "url": "https://www.cnbc.com/2026/10/23/jensen-huang-gtc-robot-ducks-neocloud-distress.html",
+      "note": "Signal: Huang on capital scarcity, $50 billion per GW, containerized Vera Rubin racks."
     },
     {
-      "name": "Meta Q3 follow-up call transcript",
-      "url": "https://www.medianama.com/wp-content/uploads/2026/10/META-Q3-2026-Follow-Up-Call-Transcript.pdf",
-      "note": "Susan Li: compute landscape remains constrained."
+      "name": "CNBC TV18 / Reuters: Pichai warns of shortages into 2027",
+      "url": "https://www.cnbctv18.com/technology/googles-pichai-warns-ai-computing-shortages-could-persist-into-2027-20018128.htm",
+      "note": "Signal: everyone is short; 2027 capacity incredibly difficult."
     },
     {
-      "name": "The National: Humain expands NVIDIA deal to 84 MW",
-      "url": "https://www.thenationalnews.com/future/technology/2026/10/22/saudi-arabias-humain-expands-nvidia-deal-with-84mw-ai-computing-plan/",
-      "note": "Wire: 14 MW B300 Q4 2026; 70 MW Vera Rubin from mid 2027."
+      "name": "Yahoo Finance: CoreWeave sinks 10% on Bernstein cut",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-sinks-10-bernstein-slashes-202839431.html",
+      "note": "Signal: target $51 from $74; peers down 7% to 9%."
     },
     {
-      "name": "Google: 1 GW virtual power plant with Voltus",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virtual-power-plant-1-gigawatt/",
-      "note": "Wire: PJM, tenfold expansion."
+      "name": "Investing.com: Tesla capex cut",
+      "url": "https://www.investing.com/news/stock-market-news/premarket-movers-tesla-ibm-slide-meta-earnings-fail-to-lift-sentiment-4965382",
+      "note": "Signal: 2026 capex about $20 billion from more than $25 billion."
     },
     {
-      "name": "Guardian: UK has a year to head off datacentre protests",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
-      "note": "Wire: SAIL taskforce submission."
+      "name": "NVIDIA: Kazakhstan expands compute",
+      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "note": "Wire: Firebird 45,000 Grace Blackwell export license."
     },
     {
-      "name": "Korea Customs Service: 1 to 20 October trade",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785926",
-      "note": "Wire: chips US$27.5 billion, up 222.5%."
+      "name": "Loudoun County: preliminary agreement with Amazon",
+      "url": "https://www.loudoun.gov/m/newsflash?cat=10",
+      "note": "Wire: no data centers on GW campus."
     },
     {
-      "name": "CNBC: Nebius says AI computing prices are rising",
-      "url": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html",
-      "note": "Signal: Nebius auction, Crusoe CEO on A100 and H100 pricing, SpaceX per-watt pricing."
+      "name": "Reuters: ByteDance, Alibaba, Tencent NVIDIA orders",
+      "url": "https://money.usnews.com/investing/news/articles/2026-10-20/exclusive-bytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders",
+      "note": "Wire: 3 million RTX PRO 5500, over $35 billion."
     },
     {
-      "name": "Nebius: public live spot pricing",
-      "url": "https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud",
-      "note": "Signal: live spot prices, reserve auctions, capacity-rebate pilot."
-    },
-    {
-      "name": "Constellation Research: SpaceX Q3",
-      "url": "https://www.constellationr.com/insights/news/spacexs-q3-musk-says-it-could-rent-out-its-ai-compute-several-times-over",
-      "note": "Signal: AI revenue $7.56 billion, AI capex $16.44 billion, 1.7 GW of compute."
-    },
-    {
-      "name": "Supermicro preliminary Q1 FY27 update",
-      "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
-      "note": "Signal: revenue guide $18.5 to 19.5 billion from $14.5 to 15.5 billion."
+      "name": "IREN: 300 MW Spanish campus",
+      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385423/0/en/iren-to-advance-europe-s-sovereign-ai-ambitions-with-300mw-spanish-campus.html",
+      "note": "Wire: Badajoz, 2028."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -216,7 +206,7 @@
     {
       "name": "Crusoe Cloud pricing",
       "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "H100 $3.90, H200 $4.29, B300 $9.90 on-demand confirm; B200 Contact sales."
+      "note": "B300 on-demand $8.96 (was $9.90); H100 $3.90, H200 $4.29 confirm; B200 Contact sales."
     },
     {
       "name": "AWS Capacity Blocks pricing",
