@@ -595,9 +595,9 @@
    "pue": "~1.2-1.4",
    "note": "$10B NVIDIA/Firebird Ekibastuz deal Jun 2026; 300MW->1GW; uranium #1",
    "rf": 0.72,
-   "rz": 23,
+   "rz": 40,
    "dl": 1,
-   "rw": "Kazakhstan signs $10B with NVIDIA and Firebird for a gigawatt-scale Data Cen…"
+   "rw": "Kazakhstan signs Firebird investment agreement as Firebird secures a US expo…"
   },
   {
    "n": "Uzbekistan",
@@ -997,7 +997,7 @@
    "rf": 0.85,
    "rz": 41,
    "dl": -1,
-   "rw": "Chinese AI chipmakers raise Ascend/Cambricon indicated prices as HBM shortag…"
+   "rw": "ByteDance, Alibaba and Tencent reportedly order more than 3 million export-c…"
   },
   {
    "n": "Japan",
@@ -3845,9 +3845,9 @@
    "pue": "~1.2-1.4",
    "note": "Iberian solar + cables",
    "rf": 0.85,
-   "rz": 31,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 45,
+   "dl": 1,
+   "rw": "IREN secures grid power and a civil works license for a planned 300 MW AI ca…"
   },
   {
    "n": "Portugal",
