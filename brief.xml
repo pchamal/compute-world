@@ -2,69 +2,69 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>The first hyperscaler print of the season says the spending is not slowing, and the cash to pay for it is getting tighter. Meta reported Q3 capex of $34.91 billion including finance lease principal, raised the bottom of its 2026 range to $135 to 145 billion (was $130 to 145 billion) and posted free cash flow of minus $2.12 billion, against plus $10.63 billion a year earlier. It gave no 2027 number but said it expects to keep investing aggressively, and CFO Susan Li said compute remains constrained and Meta has underestimated its needs before. The same release creates a non-voting Class C stock, effective January 2027, which Meta says gives it room to raise capital for infrastructure. Shares fell in early trading on 22 October in a wider AI selloff that took the KOSPI down 3.5%. Sellers of compute say price is holding: SpaceX said its AI unit earned $7.56 billion of revenue in Q3 with new deployments paying back in under a year, Nebius said its Tuesday capacity auction cleared higher and opened public live spot prices, and Humain and NVIDIA laid out up to 84 MW in Saudi Arabia including 50 MW of Vera Rubin for a US client. On the public tape all 70 prints confirmed, including Crusoe&#x27;s H100 at $3.90 a day after its CEO said H100 prices are above 2023 levels.</description>
+  <description>The buyers and the builders agree there is not enough compute. The disagreement is over who pays for it. Alphabet CEO Sundar Pichai said this week that everyone is short and that a customer asking Google for capacity in 2027 is incredibly difficult to serve. Jensen Huang told CNBC in Berlin that the demand for capital is much greater than the availability of capital, and put a 1 GW data center at about $50 billion. Markets are pricing that gap into the neoclouds: CoreWeave fell 10% on 22 October after Bernstein cut its target to $51 from $74, with Nebius down 7%, IREN 8% and Applied Digital 9%, and CoreWeave&#x27;s unsecured bonds yield about 15%. Tesla went the other way and cut its 2026 capex outlook to about $20 billion from more than $25 billion. On the public tape, Crusoe cut its HGX B300 on-demand list to $8.96 from $9.90, down 9.5%, two days after its CEO said rental prices are rising. Everything else confirmed.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 22 October 2026</title>
+    <title>Compute brief - 23 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-22</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>The first hyperscaler print of the season says the spending is not slowing, and the cash to pay for it is getting tighter. Meta reported Q3 capex of $34.91 billion including finance lease principal, raised the bottom of its 2026 range to $135 to 145 billion (was $130 to 145 billion) and posted free cash flow of minus $2.12 billion, against plus $10.63 billion a year earlier. It gave no 2027 number but said it expects to keep investing aggressively, and CFO Susan Li said compute remains constrained and Meta has underestimated its needs before. The same release creates a non-voting Class C stock, effective January 2027, which Meta says gives it room to raise capital for infrastructure. Shares fell in early trading on 22 October in a wider AI selloff that took the KOSPI down 3.5%. Sellers of compute say price is holding: SpaceX said its AI unit earned $7.56 billion of revenue in Q3 with new deployments paying back in under a year, Nebius said its Tuesday capacity auction cleared higher and opened public live spot prices, and Humain and NVIDIA laid out up to 84 MW in Saudi Arabia including 50 MW of Vera Rubin for a US client. On the public tape all 70 prints confirmed, including Crusoe&#x27;s H100 at $3.90 a day after its CEO said H100 prices are above 2023 levels. Countries: Saudi Arabia: Humain and NVIDIA plan up to 84 MW, about 27,000 GPUs: 14 MW of HGX B300 from Q4 2026, then 70 MW of Vera Rubin from June 2027 including 50 MW for an unnamed US client; Vera Rubin phases subject to final agreements (Wire, 22 Oct). United States: Google and Voltus expand to a 1 GW Google-funded virtual power plant across PJM, ten times the earlier 100 MW deal (Wire, 22 Oct). Meta 2026 capex range raised at the floor to $135 to 145 billion (Signal). United Kingdom: SAIL taskforce (NVIDIA, Microsoft, Cisco) tells ministers they have about 12 months to agree a local-benefit compact before US-style opposition threatens construction (Wire, 22 Oct; Guardian exclusive). South Korea: Chip exports a record US$27.5 billion for 1 to 20 October, up 222.5% and 44.7% of all exports (Wire, 21 Oct, preliminary customs data). KOSPI fell 3.5% on 22 Oct on AI spending worries.</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-23</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>The buyers and the builders agree there is not enough compute. The disagreement is over who pays for it. Alphabet CEO Sundar Pichai said this week that everyone is short and that a customer asking Google for capacity in 2027 is incredibly difficult to serve. Jensen Huang told CNBC in Berlin that the demand for capital is much greater than the availability of capital, and put a 1 GW data center at about $50 billion. Markets are pricing that gap into the neoclouds: CoreWeave fell 10% on 22 October after Bernstein cut its target to $51 from $74, with Nebius down 7%, IREN 8% and Applied Digital 9%, and CoreWeave&#x27;s unsecured bonds yield about 15%. Tesla went the other way and cut its 2026 capex outlook to about $20 billion from more than $25 billion. On the public tape, Crusoe cut its HGX B300 on-demand list to $8.96 from $9.90, down 9.5%, two days after its CEO said rental prices are rising. Everything else confirmed. Countries: Kazakhstan: Firebird signs an investment agreement with the government and holds a US export license for 45,000 Grace Blackwell GPUs; phase one with Kazakhtelecom at Data Center Valley targets Q3 2027, about 500 MW potential with phase two (Wire, 23 Oct). United States: Loudoun supervisors approve a preliminary deal under which Amazon drops data centers on its GW campus site, gives the county 25 acres worth about $65 million and $5 million for housing (Wire, 20 Oct). Pause on new data center applications deferred to 17 Nov. China: Reuters: ByteDance, Alibaba and Tencent order more than 3 million RTX PRO 5500 cards worth over $35 billion; NVIDIA may fill only 5% to 10% (Wire, 20 Oct; single source). Spain: IREN secures grid power and the civil works license for a planned 300 MW AI campus in Badajoz, operations targeted for 2028 (Wire, 21 Oct).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-22/lambda-h100-od</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 22 Oct 2026. Confirm vs 21 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-23/lambda-h100-od</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 23 Oct 2026. Confirm vs 22 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-22/lambda-b200-od</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 22 Oct 2026. Confirm vs 21 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-23/lambda-b200-od</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 23 Oct 2026. Confirm vs 22 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-22/coreweave-h100-od</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 22 Oct 2026. Confirm vs 21 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-23/coreweave-h100-od</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 23 Oct 2026. Confirm vs 22 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-22/crusoe-h100-od</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 22 Oct 2026. Confirm vs 21 Oct print; holds at the level it returned to on 21 Oct</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-23/crusoe-h100-od</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 23 Oct 2026. Confirm vs 22 Oct print</description>
   </item>
   <item>
     <title>H200 SXM · $4.29 on-demand</title>
     <link>https://compute.world/brief#crusoe-h200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-22/crusoe-h200-od</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H200 SXM: display $4.29 on-demand at Crusoe as of 22 Oct 2026. Confirm vs 21 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-23/crusoe-h200-od</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H200 SXM: display $4.29 on-demand at Crusoe as of 23 Oct 2026. Confirm vs 22 Oct print</description>
   </item>
   <item>
-    <title>B300 HGX · $9.90 on-demand</title>
+    <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-22/crusoe-b300-od</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $9.90 on-demand at Crusoe as of 22 Oct 2026. Confirm vs 21 Oct print; Crusoe relabeled the row NVIDIA B300 288GB HGX. B200 on-demand still Contact sales</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-23/crusoe-b300-od</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 23 Oct 2026. Tick: $9.90 on 22 Oct to $8.96 on 23 Oct (-9.5%). Crusoe re-laid its GPU table; B200 on-demand still Contact sales</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-22/do-b300-spot</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 22 Oct 2026. Confirm vs 21 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-23/do-b300-spot</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 23 Oct 2026. Confirm vs 22 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-22/aws-cb-b300</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 22 Oct 2026. Confirm vs 21 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-23/aws-cb-b300</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 23 Oct 2026. Confirm vs 22 Oct print</description>
   </item>
 </channel></rss>
