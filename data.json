@@ -595,9 +595,9 @@
    "pue": "~1.2-1.4",
    "note": "$10B NVIDIA/Firebird Ekibastuz deal Jun 2026; 300MW->1GW; uranium #1",
    "rf": 0.72,
-   "rz": 40,
+   "rz": 42,
    "dl": 1,
-   "rw": "Kazakhstan signs Firebird investment agreement as Firebird secures a US expo…"
+   "rw": "Freedom Holding advances Kazakhstan's $2 billion Sovereign AI Hub: 100 MW si…"
   },
   {
    "n": "Uzbekistan",
@@ -1097,7 +1097,7 @@
    "rf": 0.95,
    "rz": 74,
    "dl": 1,
-   "rw": "SK Hyper seeks about $350 billion for the first 5 GW of a 15 GW South Korean…"
+   "rw": "Naver signs up to $9 billion Brookfield compute deal, clearing Nvidia's $1 b…"
   },
   {
    "n": "Taiwan",
@@ -1497,7 +1497,7 @@
    "rf": 0.85,
    "rz": 88,
    "dl": 1,
-   "rw": "Singapore neocloud Aolani signs non-binding letters of intent for up to 500 …"
+   "rw": "Anwar says SoftBank's Son plans $50 billion of AI and data centre investment…"
   },
   {
    "n": "Indonesia",
@@ -3595,9 +3595,9 @@
    "pue": "~1.1-1.25",
    "note": "",
    "rf": 1.0,
-   "rz": 35,
+   "rz": 50,
    "dl": 1,
-   "rw": "Denmark puts data centres last in line for constrained grid capacity as exec…"
+   "rw": "CoreWeave brings most of 22.5 MW online at atNorth DEN01 in Copenhagen and e…"
   },
   {
    "n": "United Kingdom",
@@ -5245,9 +5245,9 @@
    "pue": "~1.35-1.6",
    "note": "Itaipu+Yacyreta binational; ~40 TWh exported share = redirectable; ANDE courting AI DCs",
    "rf": 0.72,
-   "rz": 20,
-   "dl": 0,
-   "rw": "S&P lifts Paraguay to investment grade, joining Moody's"
+   "rz": 38,
+   "dl": 1,
+   "rw": "Crusoe and Araico plan an AI cloud site at Paraguay's Itaipú substation: ini…"
   },
   {
    "n": "Uruguay",
