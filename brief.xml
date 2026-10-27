@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Monday turned the capital question into filings. Anthropic&#x27;s public S-1 shows it builds almost nothing itself and rents nearly everything: up to $120.5 billion with SpaceXAI into 2029, about $3.1 billion a month once capacity lands in December, a $125.2 billion five-year Broadcom accelerator lease that cannot be cancelled, $44.6 billion with Nscale and $41.3 billion with Lambda. Meta launched a $95 billion equity plan, $35 billion now and $60 billion at-the-market from 2027, with NVIDIA, AMD and Broadcom offering to buy up to $5 billion of it. SpaceX filed a binding commitment for a $40 billion Apollo-managed GPU finance lease, and Elon Musk said debt markets have shut for neoclouds without other revenue; CoreWeave and Nebius fell about 4%. The neocloud rent in Anthropic&#x27;s book carries conditions: Nscale must find financing and $34.9 billion of the Lambda deal falls away if Lambda cannot secure the facility lease. On the public tape, DigitalOcean cut AMD spot: MI355X to $2.97 from $5.50 and MI350X to $2.46 from $3.50. Everything else confirmed.</description>
+  <description>The chip vendors are now financing the compute they sell. On Tuesday Nvidia said it will invest $3 billion in Meta&#x27;s equity offering and AMD $1 billion, and Meta priced the deal upsized: $25 billion of common stock at $625 a share plus $12.5 billion of 6.50% mandatory convertible preferred, $37.5 billion in all. Meta will add Vera Rubin, Vera CPUs and Spectrum-X networking, and has AMD Helios racks installed and in testing with a custom MI450 to come. The same morning Naver signed a contract for up to $9 billion of GPUs and data centres through a Brookfield-funded vehicle, which meets the condition for Nvidia&#x27;s $1 billion equity investment in Naver. Buyers with balance sheets or revenue outside AI get equity and structured leases. Standalone neoclouds pay for credit: CoreWeave&#x27;s default insurance costs more than twice what it did in June. On the public tape, all 70 list prints confirmed with no changes.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 26 October 2026</title>
+    <title>Compute brief - 27 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-26</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Monday turned the capital question into filings. Anthropic&#x27;s public S-1 shows it builds almost nothing itself and rents nearly everything: up to $120.5 billion with SpaceXAI into 2029, about $3.1 billion a month once capacity lands in December, a $125.2 billion five-year Broadcom accelerator lease that cannot be cancelled, $44.6 billion with Nscale and $41.3 billion with Lambda. Meta launched a $95 billion equity plan, $35 billion now and $60 billion at-the-market from 2027, with NVIDIA, AMD and Broadcom offering to buy up to $5 billion of it. SpaceX filed a binding commitment for a $40 billion Apollo-managed GPU finance lease, and Elon Musk said debt markets have shut for neoclouds without other revenue; CoreWeave and Nebius fell about 4%. The neocloud rent in Anthropic&#x27;s book carries conditions: Nscale must find financing and $34.9 billion of the Lambda deal falls away if Lambda cannot secure the facility lease. On the public tape, DigitalOcean cut AMD spot: MI355X to $2.97 from $5.50 and MI350X to $2.46 from $3.50. Everything else confirmed. Countries: United States: Anthropic S-1: up to $120.5 billion SpaceXAI GPU compute into 2029, $125.2 billion Broadcom five-year accelerator lease, $44.6 billion Nscale, $41.3 billion Lambda (Wire, 26 Oct). United States: Meta $95 billion equity plan for AI infrastructure; four superclusters above 1 GW; data centers in 23 states; 2026 capex $135 to $145 billion (Wire, 26 Oct). United States: SpaceX binding commitment for an Apollo-managed GPU master finance lease, about $40 billion of principal, schedules from 1H 2027 (Wire, 24 Oct). South Korea: SK Hyper seeks about $350 billion for the first 5 GW of a 15 GW plan by 2035, starting with 900 MW in Ulsan; operations from 2029 (Wire, 23 Oct; financing not yet raised). United States: Texas TCEQ suspends at least 17 data center construction authorizations and shuts its online permit portal under the governor&#x27;s pause (Wire, 22 Oct). United Kingdom: Treasury previews £60 million more for the Sovereign AI Fund and £18 million for a chip design academy in the Budget (Wire, 24 Oct).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-27</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>The chip vendors are now financing the compute they sell. On Tuesday Nvidia said it will invest $3 billion in Meta&#x27;s equity offering and AMD $1 billion, and Meta priced the deal upsized: $25 billion of common stock at $625 a share plus $12.5 billion of 6.50% mandatory convertible preferred, $37.5 billion in all. Meta will add Vera Rubin, Vera CPUs and Spectrum-X networking, and has AMD Helios racks installed and in testing with a custom MI450 to come. The same morning Naver signed a contract for up to $9 billion of GPUs and data centres through a Brookfield-funded vehicle, which meets the condition for Nvidia&#x27;s $1 billion equity investment in Naver. Buyers with balance sheets or revenue outside AI get equity and structured leases. Standalone neoclouds pay for credit: CoreWeave&#x27;s default insurance costs more than twice what it did in June. On the public tape, all 70 list prints confirmed with no changes. Countries: South Korea: Naver signs up to $9 billion Brookfield compute vehicle; Nvidia $1 billion equity investment proceeds; 55 MW in 1H 2027, 200 MW by 2028 (Wire, 27 Oct). Malaysia: Anwar says SoftBank plans $50 billion of AI and data centre investment in Kuching, Sarawak and the peninsula; SoftBank has not commented (Wire, 24 Oct). Paraguay: Crusoe and Araico plan AI cloud capacity at the Itaipú substation from mid-2027, path to 106 MW and options to about 280 MW (Wire, 22 Oct). Denmark: CoreWeave brings most of 22.5 MW online at atNorth DEN01 in Copenhagen on Blackwell (Wire, 27 Oct). Kazakhstan: Freedom Holding advances a $2 billion, 100 MW Sovereign AI Hub; first public GPU cloud in 2027 (Wire, 26 Oct).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/lambda-h100-od</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 26 Oct 2026. Confirm vs 23 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/lambda-h100-od</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 27 Oct 2026. Confirm vs 26 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/lambda-b200-od</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 26 Oct 2026. Confirm vs 23 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/lambda-b200-od</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 27 Oct 2026. Confirm vs 26 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/coreweave-h100-od</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 26 Oct 2026. Confirm vs 23 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/coreweave-h100-od</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 27 Oct 2026. Confirm vs 26 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/crusoe-h100-od</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 26 Oct 2026. Confirm vs 23 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/crusoe-h100-od</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 27 Oct 2026. Confirm vs 26 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/crusoe-b300-od</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 26 Oct 2026. Confirm vs 23 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/crusoe-b300-od</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 27 Oct 2026. Confirm vs 26 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/do-b300-spot</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 26 Oct 2026. Confirm vs 23 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/do-b300-spot</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 27 Oct 2026. Confirm vs 26 Oct print</description>
   </item>
   <item>
     <title>MI355X · $2.97 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/do-mi355x-spot</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $2.97 spot at DigitalOcean as of 26 Oct 2026. Tick: $5.50 on 23 Oct to $2.97 on 26 Oct (-46.0%). Interruptible spot; same level as the 25 Sep to 7 Oct prints</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/do-mi355x-spot</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $2.97 spot at DigitalOcean as of 27 Oct 2026. Confirm vs 26 Oct print; held the $2.97 level after the cut from $5.50</description>
   </item>
   <item>
     <title>MI350X · $2.46 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/do-mi350x-spot</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $2.46 spot at DigitalOcean as of 26 Oct 2026. Tick: $3.50 on 23 Oct to $2.46 on 26 Oct (-29.7%). Interruptible spot</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/do-mi350x-spot</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $2.46 spot at DigitalOcean as of 27 Oct 2026. Confirm vs 26 Oct print; held the $2.46 level after the cut from $3.50</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-26/aws-cb-b300</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 26 Oct 2026. Confirm vs 23 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-27/aws-cb-b300</guid>
+    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 27 Oct 2026. Confirm vs 26 Oct print</description>
   </item>
 </channel></rss>
