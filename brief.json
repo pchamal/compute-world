@@ -1,45 +1,39 @@
 {
-  "updated": "2026-10-26",
-  "title": "Compute brief - 26 October 2026",
-  "description": "The compute build went to the capital markets on one Monday: Anthropic's public S-1 shows up to $120.5 billion of SpaceXAI GPU rent and a $125.2 billion Broadcom TPU lease, Meta launched a $95 billion equity plan, and SpaceX committed to a $40 billion Apollo GPU lease while Elon Musk said 200 plus neoclouds face consolidation. SK Hyper wants $350 billion for 5 GW in Korea. Tape: 68 confirms, 2 ticks (DigitalOcean MI355X spot $5.50 to $2.97, MI350X spot $3.50 to $2.46), 0 NEW.",
-  "og_kicker": "The compute build now runs on equity, leases and rent, and the market is picking who gets funded",
-  "lede": "Monday turned the capital question into filings. Anthropic's public S-1 shows it builds almost nothing itself and rents nearly everything: up to $120.5 billion with SpaceXAI into 2029, about $3.1 billion a month once capacity lands in December, a $125.2 billion five-year Broadcom accelerator lease that cannot be cancelled, $44.6 billion with Nscale and $41.3 billion with Lambda. Meta launched a $95 billion equity plan, $35 billion now and $60 billion at-the-market from 2027, with NVIDIA, AMD and Broadcom offering to buy up to $5 billion of it. SpaceX filed a binding commitment for a $40 billion Apollo-managed GPU finance lease, and Elon Musk said debt markets have shut for neoclouds without other revenue; CoreWeave and Nebius fell about 4%. The neocloud rent in Anthropic's book carries conditions: Nscale must find financing and $34.9 billion of the Lambda deal falls away if Lambda cannot secure the facility lease. On the public tape, DigitalOcean cut AMD spot: MI355X to $2.97 from $5.50 and MI350X to $2.46 from $3.50. Everything else confirmed.",
+  "updated": "2026-10-27",
+  "title": "Compute brief - 27 October 2026",
+  "description": "The chip vendors are now funding their customers: Nvidia puts $3 billion and AMD $1 billion into Meta's upsized $37.5 billion equity sale, and Naver's $9 billion Brookfield compute vehicle unlocks a $1 billion Nvidia investment in Naver. SoftBank plans $50 billion in Malaysia, Crusoe goes to Paraguay's Itaipú dam and CoreWeave lights Copenhagen. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "Nvidia and AMD are buying into the customers that buy their chips",
+  "lede": "The chip vendors are now financing the compute they sell. On Tuesday Nvidia said it will invest $3 billion in Meta's equity offering and AMD $1 billion, and Meta priced the deal upsized: $25 billion of common stock at $625 a share plus $12.5 billion of 6.50% mandatory convertible preferred, $37.5 billion in all. Meta will add Vera Rubin, Vera CPUs and Spectrum-X networking, and has AMD Helios racks installed and in testing with a custom MI450 to come. The same morning Naver signed a contract for up to $9 billion of GPUs and data centres through a Brookfield-funded vehicle, which meets the condition for Nvidia's $1 billion equity investment in Naver. Buyers with balance sheets or revenue outside AI get equity and structured leases. Standalone neoclouds pay for credit: CoreWeave's default insurance costs more than twice what it did in June. On the public tape, all 70 list prints confirmed with no changes.",
   "countries": [
     {
-      "id": "usa-anthropic-s1-compute",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "Anthropic S-1: up to $120.5 billion SpaceXAI GPU compute into 2029, $125.2 billion Broadcom five-year accelerator lease, $44.6 billion Nscale, $41.3 billion Lambda (Wire, 26 Oct)."
-    },
-    {
-      "id": "usa-meta-95bn-equity",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "Meta $95 billion equity plan for AI infrastructure; four superclusters above 1 GW; data centers in 23 states; 2026 capex $135 to $145 billion (Wire, 26 Oct)."
-    },
-    {
-      "id": "usa-spacex-apollo-40bn",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "SpaceX binding commitment for an Apollo-managed GPU master finance lease, about $40 billion of principal, schedules from 1H 2027 (Wire, 24 Oct)."
-    },
-    {
-      "id": "kor-sk-hyper-15gw",
+      "id": "kor-naver-brookfield-9bn",
       "name": "South Korea",
       "slug": "south-korea",
-      "note": "SK Hyper seeks about $350 billion for the first 5 GW of a 15 GW plan by 2035, starting with 900 MW in Ulsan; operations from 2029 (Wire, 23 Oct; financing not yet raised)."
+      "note": "Naver signs up to $9 billion Brookfield compute vehicle; Nvidia $1 billion equity investment proceeds; 55 MW in 1H 2027, 200 MW by 2028 (Wire, 27 Oct)."
     },
     {
-      "id": "usa-texas-tceq-17-suspended",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "Texas TCEQ suspends at least 17 data center construction authorizations and shuts its online permit portal under the governor's pause (Wire, 22 Oct)."
+      "id": "mys-softbank-50bn",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "Anwar says SoftBank plans $50 billion of AI and data centre investment in Kuching, Sarawak and the peninsula; SoftBank has not commented (Wire, 24 Oct)."
     },
     {
-      "id": "gbr-budget-sovereign-ai",
-      "name": "United Kingdom",
-      "slug": "united-kingdom",
-      "note": "Treasury previews £60 million more for the Sovereign AI Fund and £18 million for a chip design academy in the Budget (Wire, 24 Oct)."
+      "id": "pry-crusoe-araico-itaipu",
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "note": "Crusoe and Araico plan AI cloud capacity at the Itaipú substation from mid-2027, path to 106 MW and options to about 280 MW (Wire, 22 Oct)."
+    },
+    {
+      "id": "dnk-coreweave-den01",
+      "name": "Denmark",
+      "slug": "denmark",
+      "note": "CoreWeave brings most of 22.5 MW online at atNorth DEN01 in Copenhagen on Blackwell (Wire, 27 Oct)."
+    },
+    {
+      "id": "kaz-freedom-sovereign-hub",
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "note": "Freedom Holding advances a $2 billion, 100 MW Sovereign AI Hub; first public GPU cloud in 2027 (Wire, 26 Oct)."
     }
   ],
   "silicon": [
@@ -49,10 +43,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 23 Oct print"
+      "note": "Confirm vs 26 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +54,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 23 Oct print"
+      "note": "Confirm vs 26 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +65,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 23 Oct print"
+      "note": "Confirm vs 26 Oct print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +76,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 23 Oct print"
+      "note": "Confirm vs 26 Oct print"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +87,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 23 Oct print"
+      "note": "Confirm vs 26 Oct print"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +98,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 23 Oct print"
+      "note": "Confirm vs 26 Oct print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +109,10 @@
       "display_usd": 2.97,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-26",
-      "prev_usd": 5.5,
-      "delta": -2.53,
-      "note": "Tick: $5.50 on 23 Oct to $2.97 on 26 Oct (-46.0%). Interruptible spot; same level as the 25 Sep to 7 Oct prints"
+      "as_of": "2026-10-27",
+      "prev_usd": 2.97,
+      "delta": 0.0,
+      "note": "Confirm vs 26 Oct print; held the $2.97 level after the cut from $5.50"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +120,10 @@
       "display_usd": 2.46,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-26",
-      "prev_usd": 3.5,
-      "delta": -1.04,
-      "note": "Tick: $3.50 on 23 Oct to $2.46 on 26 Oct (-29.7%). Interruptible spot"
+      "as_of": "2026-10-27",
+      "prev_usd": 2.46,
+      "delta": 0.0,
+      "note": "Confirm vs 26 Oct print; held the $2.46 level after the cut from $3.50"
     },
     {
       "id": "aws-cb-b300",
@@ -137,89 +131,94 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 23 Oct print"
+      "note": "Confirm vs 26 Oct print"
     }
   ],
   "watch": [
     {
       "id": "hyperscaler-earnings-28-29-oct",
       "name": "Alphabet, Microsoft (28 Oct) and Amazon (29 Oct)",
-      "note": "All after the close. Microsoft guided September-quarter capex above $50 billion; Alphabet 2026 capex $195 to $205 billion; Amazon about $220 billion. Watch whether Google Cloud's $514 billion and AWS's $496 billion backlogs jump with Anthropic's disclosed commitments."
-    },
-    {
-      "id": "anthropic-ipo-pricing",
-      "name": "Anthropic IPO",
-      "note": "Public S-1 filed 26 Oct; total commitment figure and share count still blank. Watch the roadshow and whether the SpaceXAI deal survives the 90-day cancellation window after early 2027."
-    },
-    {
-      "id": "meta-offering-pricing",
-      "name": "Meta offering pricing",
-      "note": "Preferred dividend rate and conversion terms set at pricing; Class C trading and the $60 billion ATM not before Q1 2027."
-    },
-    {
-      "id": "neocloud-credit",
-      "name": "Neocloud financing",
-      "note": "Musk says 200 plus neoclouds face consolidation; Nscale and Lambda Anthropic deals hinge on financing and a facility lease. CoreWeave reports in November; high-yield issuance reportedly waits for the 3 Nov midterms."
-    },
-    {
-      "id": "india-cdac-10000-aicu",
-      "name": "India C-DAC 10,000 AI compute unit tender",
-      "note": "Bids close 29 Oct; minimum cluster 512 units in one Indian data center, five-year service."
+      "note": "All after the close. Microsoft guided September-quarter capex above $50 billion; Alphabet 2026 capex $195 to $205 billion; Amazon about $220 billion. Watch cloud backlogs after Anthropic's S-1 and whether anyone follows Meta into equity."
     },
     {
       "id": "memory-intel-earnings",
       "name": "SK hynix (28 Oct), Samsung and Intel (29 Oct)",
-      "note": "HBM4 pricing after NVIDIA lowered Vera Rubin HBM4 bandwidth to 19.2 TB/s per GPU on its spec page; SK hynix shelved the Solidigm IPO."
+      "note": "HBM4 pricing and NVHBM: Nvidia wants all three memory makers to build its custom HBM base die on TSMC 3nm."
+    },
+    {
+      "id": "india-cdac-10000-aicu",
+      "name": "India C-DAC 10,000 AI compute unit tender",
+      "note": "Bids close 29 Oct."
+    },
+    {
+      "id": "naver-nvidia-capital-increase",
+      "name": "Naver capital increase for Nvidia",
+      "note": "Terms of the third-party paid-in capital increase still to be announced."
+    },
+    {
+      "id": "indonesia-batang-240mw",
+      "name": "Indonesia Batang AI data centre",
+      "note": "Central Java says the plan is 240 MW, still in study; Coordinating Ministry for Economic Affairs to brief in November."
+    },
+    {
+      "id": "neocloud-credit",
+      "name": "Neocloud financing",
+      "note": "CoreWeave and Nebius rose about 4% premarket on 27 Oct after a month down about 35%; CoreWeave reports in November."
     }
   ],
   "sources": [
     {
-      "name": "Anthropic S-1 (SEC EDGAR)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "note": "Signal and Wire: SpaceXAI, Broadcom, Nscale, Lambda commitments."
+      "name": "NVIDIA: NVIDIA and Meta to expand collaboration on Muse",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+      "note": "Signal: $3 billion investment in Meta's offering; Vera Rubin, Vera CPU, Spectrum-X."
     },
     {
-      "name": "Yahoo Finance: Anthropic's IPO filing reveals $430 billion in locked-in computing",
-      "url": "https://finance.yahoo.com/markets/article/anthropics-ipo-filing-reveals-430-billion-in-locked-in-ai-computing-chart-of-the-day-134457635.html",
-      "note": "Signal: $8.9 billion H1 compute rent vs $482 million own PP&E (Yahoo calculation)."
+      "name": "AMD: AMD and Meta advance strategic partnership",
+      "url": "https://newsroom.amd.com/news/amd-meta-advance-strategic-partnership-power-metas-ai-infrastructure/",
+      "note": "Signal: Helios installed at Meta, custom MI450, $1 billion in Meta's offering."
     },
     {
-      "name": "Meta: offering launch and financing plan",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
-      "note": "Wire: $35 billion underwritten plus $60 billion ATM."
+      "name": "Meta: pricing of offerings",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+      "note": "Signal: $25 billion common at $625, 6.50% preferred."
     },
     {
-      "name": "SpaceX 8-K (SEC EDGAR)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
-      "note": "Wire: Apollo GPU master finance lease, about $40 billion."
+      "name": "Digital Today: Naver signs $9 billion Brookfield deal",
+      "url": "https://www.digitaltoday.co.kr/en/view/120186/naver-brookfield-9-billion-ai-infrastructure-deal-nvidia-investment-condition-met",
+      "note": "Wire: Asset Co., 55 MW 2027, 200 MW 2028."
     },
     {
-      "name": "CNBC: Neocloud stocks fall as Musk says 200 plus will collapse",
-      "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
-      "note": "Signal: Nebius and CoreWeave about -4%, IREN -3.2%."
+      "name": "CNBC: SoftBank reportedly plans $50 billion in Malaysia",
+      "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+      "note": "Wire: Sarawak and peninsula sites."
     },
     {
-      "name": "Seoul Economic Daily: SK Hyper seeks $350 billion",
-      "url": "https://en.sedaily.com/technology/2026/10/23/sk-hyper-seeks-350-billion-to-build-15gw-of-ai-data-centers",
-      "note": "Wire: 15 GW by 2035."
+      "name": "Crusoe: partnership with Araico in Paraguay",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-araico-hydroelectric-ai-infrastructure-partnership",
+      "note": "Wire: Itaipú, 106 MW, about 280 MW."
     },
     {
-      "name": "Houston Public Media: TCEQ closes permitting system",
-      "url": "https://www.houstonpublicmedia.org/articles/news/energy-environment/2026/10/22/565038/tceq-closes-online-permitting-system-after-watchdogs-accuse-agency-of-violating-data-center-pause/",
-      "note": "Wire: 17 suspended authorizations."
+      "name": "CoreWeave: new capacity in Denmark",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Expands-Global-AI-Cloud-Platform-With-New-Capacity-in-Denmark-and-First-Global-AI-Network-Backbone/default.aspx",
+      "note": "Wire: 22.5 MW DEN01."
     },
     {
-      "name": "GOV.UK: Chancellor unveils Britain's plan for AI",
-      "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
-      "note": "Wire: Sovereign AI Fund, chip design academy."
+      "name": "Freedom Holding: Kazakhstan AI infrastructure",
+      "url": "https://ir.freedomholdingcorp.com/press-releases/detail/122/freedom-holding-corp-advances-ai-infrastructure",
+      "note": "Wire: $2 billion Sovereign AI Hub."
     },
     {
-      "name": "NVIDIA Vera Rubin NVL72 specifications",
-      "url": "https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/",
-      "note": "Signal: 1,400 TB/s rack HBM4, 19.2 TB/s per GPU, 216 TB/s NVLink."
+      "name": "Blocks & Files: Nvidia sidesteps JEDEC HBM standard",
+      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
+      "note": "Signal: NVHBM, TSMC 3nm base die."
+    },
+    {
+      "name": "Yahoo Finance: price of insuring CoreWeave's debt doubles",
+      "url": "https://finance.yahoo.com/markets/article/coreweave-ai-landlord-stocks-sink-to-lowest-levels-in-more-than-a-year-as-the-price-of-insuring-coreweaves-debt-doubles-140909005.html",
+      "note": "Lead: neocloud credit."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -229,7 +228,7 @@
     {
       "name": "DigitalOcean GPU Droplets pricing",
       "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "MI355X spot $2.97 (was $5.50), MI350X spot $2.46 (was $3.50); B300 spot $6.17 confirm."
+      "note": "MI355X spot $2.97, MI350X spot $2.46, B300 spot $6.17 confirm."
     },
     {
       "name": "Crusoe Cloud pricing",
@@ -239,7 +238,7 @@
     {
       "name": "AWS Capacity Blocks pricing",
       "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-      "note": "P5 $5.97 / P6-B200 $14.208 / P6-B300 $16.146 confirm."
+      "note": "P6-B300 $16.146 confirm."
     }
   ]
 }

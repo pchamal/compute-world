@@ -1,6 +1,101 @@
 {
   "items": [
     {
+      "id": "korea-naver-brookfield-9bn-asset-co-55mw-2027-200mw-2028-nvidia-1bn-2026-10-27",
+      "date": "2026-10-27",
+      "title": "Naver signs up to $9 billion Brookfield compute deal, clearing Nvidia's $1 billion equity investment; 55 MW in 1H 2027, 200 MW by 2028",
+      "summary": "Naver said on 27 October 2026 it signed a contract with Brookfield to secure up to $9 billion of AI computing infrastructure. Brookfield will fund a special purpose vehicle, Asset Co., 100% to buy GPUs and data centre capacity; it will be consolidated as a Naver subsidiary under K-IFRS. Naver Cloud operates the capacity and pays usage fees linked to business revenue instead of buying the hardware, and Naver guarantees those payments for up to 8 years. The deal satisfies the condition Naver set for Nvidia's planned $1 billion strategic equity investment (about 1.5 trillion won), which now moves to a third-party paid-in capital increase. The AI Factory hub is the Gak Sejong data centre, with 55 MW in the first half of 2027, 200 MW by 2028 and a long-term 1 GW global goal. Caveat: capital increase terms not yet announced. Country conversion: Korea's largest platform company gets financed sovereign-scale GPU capacity without putting it on its own capex line.",
+      "url": "https://www.digitaltoday.co.kr/en/view/120186/naver-brookfield-9-billion-ai-infrastructure-deal-nvidia-investment-condition-met",
+      "source": "Digital Today 27 Oct 2026, quoting Naver statement",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Capital",
+        "Build"
+      ],
+      "score": 72
+    },
+    {
+      "id": "malaysia-softbank-50bn-sarawak-peninsular-ai-data-centres-anwar-2026-10-24",
+      "date": "2026-10-24",
+      "title": "Anwar says SoftBank's Son plans $50 billion of AI and data centre investment in Malaysia, with sites in Kuching, Sarawak and the peninsula",
+      "summary": "Prime Minister Anwar Ibrahim said on 24 October 2026 that SoftBank Group chairman Masayoshi Son had identified locations in Kuching, Sarawak and peninsular Malaysia for planned investments of $50 billion in AI, new technologies and data centres, after a video call earlier that week (Bloomberg via CNBC). Sarawak Premier Abang Johari confirmed on 26 October that the plan includes an AI data centre at Tanjung Embang. Earlier in October SoftBank signed a framework with Grab and Petroleum Sarawak Berhad to explore AI and digital infrastructure in Sarawak. Malaysia recorded RM385.7 billion ($94 billion) of data centre related investment from 2021 to 1H 2026 (MIDA). Caveat: SoftBank had not commented; no MW, timeline or binding agreement disclosed. Country conversion: Malaysia's pipeline moves beyond Johor toward Sarawak hydropower.",
+      "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+      "source": "CNBC citing Bloomberg, 26 Oct 2026; Malay Mail and The Star, 26 Oct 2026 (Sarawak Premier)",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Capital",
+        "Build"
+      ],
+      "score": 62
+    },
+    {
+      "id": "paraguay-crusoe-araico-itaipu-106mw-path-280mw-mid-2027-2026-10-22",
+      "date": "2026-10-22",
+      "title": "Crusoe and Araico plan an AI cloud site at Paraguay's Itaipú substation: initial capacity mid-2027, path to 106 MW, options to about 280 MW",
+      "summary": "Crusoe announced on 22 October 2026 a partnership with Paraguayan developer Araico to build AI compute next to the Itaipú substation, powered by the Itaipú hydroelectric dam. An initial deployment is planned for mid-2027 with a path to 106 MW of IT capacity and long-term options to about 280 MW. Araico leads site development; Crusoe operates the compute for Crusoe Cloud, serving US and Latin American customers. It is Crusoe's first AI cloud deployment in Latin America. President Santiago Peña backed it, and US Deputy Secretary of State Christopher Landau, present at signing, said it could be the largest private foreign investment in Paraguay's history. Caveat: no capex figure or GPU count disclosed. Country conversion: Paraguay's surplus Itaipú hydro gets its first named neocloud tenant.",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-araico-hydroelectric-ai-infrastructure-partnership",
+      "source": "Crusoe newsroom and GlobeNewswire, 22 Oct 2026 (primary)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "PRY"
+      ],
+      "flags": "🇵🇾",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 70
+    },
+    {
+      "id": "denmark-coreweave-den01-copenhagen-22-5mw-global-backbone-apac-me-2026-10-27",
+      "date": "2026-10-27",
+      "title": "CoreWeave brings most of 22.5 MW online at atNorth DEN01 in Copenhagen and extends its network backbone to seven Middle East and Asia Pacific markets",
+      "summary": "CoreWeave said on 27 October 2026 it has brought the majority of a planned 22.5 MW of IT capacity online at atNorth's DEN01 in Copenhagen, its first Denmark deployment, running NVIDIA Blackwell systems on Quantum-X800 InfiniBand, with surplus heat going to district heating. Its European footprint is now nine data centres in five geographies including the UK, Spain, Sweden and Norway. It is also adding network points of presence in the UAE, India, Indonesia, Singapore, Australia, Korea and Japan from late Q4 2026, closing a four-continent loop by mid-2027. Caveat: points of presence are network, not GPU capacity. Country conversion: Denmark gets live neocloud GPU capacity days after its grid priority order on data centres.",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Expands-Global-AI-Cloud-Platform-With-New-Capacity-in-Denmark-and-First-Global-AI-Network-Backbone/default.aspx",
+      "source": "CoreWeave IR release, 27 Oct 2026 (primary)",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "DNK"
+      ],
+      "flags": "🇩🇰",
+      "tags": [
+        "Build",
+        "Cloud"
+      ],
+      "score": 55
+    },
+    {
+      "id": "kazakhstan-freedom-2bn-sovereign-ai-hub-100mw-public-gpu-cloud-2027-2026-10-26",
+      "date": "2026-10-26",
+      "title": "Freedom Holding advances Kazakhstan's $2 billion Sovereign AI Hub: 100 MW site, first public GPU cloud in 2027",
+      "summary": "Freedom Holding said on 26 October 2026 it is advancing a $2 billion Sovereign AI Hub under a November 2025 agreement with Kazakhstan's Ministry of Artificial Intelligence and Digital Development, on a site with 100 MW of available power, with Freedom as principal financing partner and operator. Its first GPU cluster will open as a public cloud in 2027, and the first phase of a Freedom AI Super Cluster is planned for Q1 2027; a Freedom Cloud data centre is under construction near Almaty. CEO Timur Turlov says demand is twice first-stage capacity and prospective clients will lease for five years. Caveat: GPU count, vendor and exact site not disclosed. Country conversion: Kazakhstan adds a domestic, financed sovereign GPU cloud alongside the Firebird export-licensed build.",
+      "url": "https://ir.freedomholdingcorp.com/press-releases/detail/122/freedom-holding-corp-advances-ai-infrastructure",
+      "source": "Freedom Holding Corp. press release, 26 Oct 2026 (primary)",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KAZ"
+      ],
+      "flags": "🇰🇿",
+      "tags": [
+        "Build",
+        "Policy"
+      ],
+      "score": 50
+    },
+    {
       "id": "anthropic-s1-compute-commitments-spacexai-120bn-broadcom-125bn-2026-10-26",
       "date": "2026-10-26",
       "title": "Anthropic's public S-1 puts numbers on its US compute rent: up to $120.5 billion with SpaceXAI, $125.2 billion Broadcom TPU lease, $44.6 billion Nscale, $41.3 billion Lambda",
@@ -2385,6 +2480,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-26",
-  "note": "Wire refresh 2026-10-26: added anthropic-s1-compute-commitments-spacexai-120bn-broadcom-125bn-2026-10-26, meta-95bn-equity-plan-35bn-underwritten-60bn-atm-four-1gw-superclusters-2026-10-26, spacex-apollo-40bn-gpu-master-finance-lease-8k-2026-10-24, korea-sk-hyper-15gw-2035-350bn-first-5gw-ulsan-2026-10-23, texas-tceq-suspends-17-data-center-construction-authorizations-steers-portal-2026-10-22, uk-budget-ai-package-60m-sovereign-ai-fund-18m-chip-design-academy-2026-10-24. Tape: 68 confirms, 2 ticks (DigitalOcean MI355X spot $5.50 to $2.97, MI350X spot $3.50 to $2.46), 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-10-27",
+  "note": "Wire refresh 2026-10-27: added korea-naver-brookfield-9bn-asset-co-55mw-2027-200mw-2028-nvidia-1bn-2026-10-27, malaysia-softbank-50bn-sarawak-peninsular-ai-data-centres-anwar-2026-10-24, paraguay-crusoe-araico-itaipu-106mw-path-280mw-mid-2027-2026-10-22, denmark-coreweave-den01-copenhagen-22-5mw-global-backbone-apac-me-2026-10-27, kazakhstan-freedom-2bn-sovereign-ai-hub-100mw-public-gpu-cloud-2027-2026-10-26. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
