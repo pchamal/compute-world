@@ -347,7 +347,7 @@
    "rf": 0.72,
    "rz": 59,
    "dl": 1,
-   "rw": "CapitaLand India Trust launches CapitaLand Data Centre Chennai 01: 34 MW IT,…"
+   "rw": "OneQode signs 14 MW of AI capacity with AdaniConneX in Chennai, in talks for…"
   },
   {
    "n": "Pakistan",
@@ -1795,9 +1795,9 @@
    "pue": "~1.35-1.6",
    "note": "A:5 status Jul 2026 rule; Stargate UAE 1 GW/~$30B; 5 GW campus; the template",
    "rf": 0.95,
-   "rz": 44,
+   "rz": 54,
    "dl": 1,
-   "rw": "The UAE gets a named lane in US export law, with an April 2027 sting attache…"
+   "rw": "G42's Khazna and Core42 sign MoUs with Copelouzos to explore an AI factory i…"
   },
   {
    "n": "Qatar",
@@ -1945,9 +1945,9 @@
    "pue": "~1.35-1.6",
    "note": "Muscat/Salalah cable hub",
    "rf": 0.72,
-   "rz": 9,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 21,
+   "dl": 1,
+   "rw": "Oman signs Yamna to build a large AI data centre in Salalah; first phase ove…"
   },
   {
    "n": "Israel",
@@ -3395,9 +3395,9 @@
    "pue": "~1.1-1.25",
    "note": "Stargate Norway Narvik 230MW+; reservoir hydro; DC registration law filters loads",
    "rf": 1.0,
-   "rz": 49,
+   "rz": 57,
    "dl": 1,
-   "rw": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in K…"
+   "rw": "Crusoe takes Polar's 40 MW DRA02 building at Tørdal, Norway, for Vera Rubin …"
   },
   {
    "n": "Iceland",
@@ -3745,9 +3745,9 @@
    "pue": "~1.2-1.4",
    "note": "Nuclear surplus exporter; Mistral buildout; Brookfield €10B",
    "rf": 0.85,
-   "rz": 40,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 52,
+   "dl": 1,
+   "rw": "Bull and CRA sign MoU for the Czech AI Gigafactory bid, first deal under the…"
   },
   {
    "n": "Germany",
@@ -3995,9 +3995,9 @@
    "pue": "~1.2-1.4",
    "note": "Emerging cable hub",
    "rf": 0.72,
-   "rz": 16,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 26,
+   "dl": 1,
+   "rw": "G42's Khazna and Core42 sign MoUs with Copelouzos to explore an AI factory i…"
   },
   {
    "n": "Netherlands",
@@ -4145,9 +4145,9 @@
    "pue": "~1.2-1.4",
    "note": "",
    "rf": 0.95,
-   "rz": 63,
+   "rz": 72,
    "dl": 1,
-   "rw": "EuroHPC signs €387.8M LUMI-AI contract with Bull — an MI430X AI factory in K…"
+   "rw": "Bull and CRA sign MoU for the Czech AI Gigafactory bid, first deal under the…"
   },
   {
    "n": "Romania",
@@ -4545,9 +4545,9 @@
    "pue": "~1.2-1.4",
    "note": "",
    "rf": 1.0,
-   "rz": 35,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 50,
+   "dl": 1,
+   "rw": "Switzerland tenders the Swiss Government Cloud: up to CHF 7 billion over 14 …"
   },
   {
    "n": "Austria",
