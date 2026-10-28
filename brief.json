@@ -1,39 +1,51 @@
 {
-  "updated": "2026-10-27",
-  "title": "Compute brief - 27 October 2026",
-  "description": "The chip vendors are now funding their customers: Nvidia puts $3 billion and AMD $1 billion into Meta's upsized $37.5 billion equity sale, and Naver's $9 billion Brookfield compute vehicle unlocks a $1 billion Nvidia investment in Naver. SoftBank plans $50 billion in Malaysia, Crusoe goes to Paraguay's Itaipú dam and CoreWeave lights Copenhagen. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "Nvidia and AMD are buying into the customers that buy their chips",
-  "lede": "The chip vendors are now financing the compute they sell. On Tuesday Nvidia said it will invest $3 billion in Meta's equity offering and AMD $1 billion, and Meta priced the deal upsized: $25 billion of common stock at $625 a share plus $12.5 billion of 6.50% mandatory convertible preferred, $37.5 billion in all. Meta will add Vera Rubin, Vera CPUs and Spectrum-X networking, and has AMD Helios racks installed and in testing with a custom MI450 to come. The same morning Naver signed a contract for up to $9 billion of GPUs and data centres through a Brookfield-funded vehicle, which meets the condition for Nvidia's $1 billion equity investment in Naver. Buyers with balance sheets or revenue outside AI get equity and structured leases. Standalone neoclouds pay for credit: CoreWeave's default insurance costs more than twice what it did in June. On the public tape, all 70 list prints confirmed with no changes.",
+  "updated": "2026-10-28",
+  "title": "Compute brief - 28 October 2026",
+  "description": "Oracle will rent out Google TPUs from 2027, the first cloud outside Google to do so, and adds Cerebras alongside a multi-gigawatt Vera Rubin build. SK hynix posts 104.6 trillion won of quarterly revenue at an 80% operating margin and has more than half of 2027 and 2028 output under long-term contracts. Korea moves to cut unconfirmed AI data centre demand from its power plan. Tape: 68 confirms, 2 ticks (DigitalOcean AMD spot up), 0 NEW.",
+  "og_kicker": "Oracle buys every kind of chip while the memory maker sells two years ahead",
+  "lede": "The buyers are spreading their bets and the suppliers are locking in theirs. At Oracle AI World on Tuesday, Oracle said Google TPUs will be available on OCI in calendar 2027, the first time Google has put TPUs in another hyperscaler's cloud, and Cerebras inference is planned for OCI in 2027 as well. In the same hour Oracle and Nvidia said OCI will take Vera Rubin NVL72 to multi-gigawatt scale, on Oracle's own Acceleron networking with Spectrum-X; no deal value was given. On Wednesday SK hynix reported third-quarter revenue of 104.6 trillion won and operating profit of 83.3 trillion won, an 80% margin, said 2027 HBM volumes and prices are settled with major customers, and said long-term agreements with 14 customers cover more than half of its 2027 and 2028 capacity. Supply is being sold years forward at rising prices while demand is being split across more chip families. On the public tape, DigitalOcean lifted AMD spot back up: MI355X $2.97 to $4.50 and MI350X $2.46 to $3.00 per GPU-hour. The other 68 prints confirmed.",
   "countries": [
     {
-      "id": "kor-naver-brookfield-9bn",
+      "id": "kor-aidc-power-trim",
       "name": "South Korea",
       "slug": "south-korea",
-      "note": "Naver signs up to $9 billion Brookfield compute vehicle; Nvidia $1 billion equity investment proceeds; 55 MW in 1H 2027, 200 MW by 2028 (Wire, 27 Oct)."
+      "note": "Climate minister says only confirmed AI data centre demand goes into the 12th power plan, after the forecast was raised to 11.9 GW in August (Wire, 26 Oct)."
     },
     {
-      "id": "mys-softbank-50bn",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Anwar says SoftBank plans $50 billion of AI and data centre investment in Kuching, Sarawak and the peninsula; SoftBank has not commented (Wire, 24 Oct)."
+      "id": "ind-oneqode-chennai-14mw",
+      "name": "India",
+      "slug": "india",
+      "note": "OneQode signs 14 MW with AdaniConneX in Chennai on AMD Instinct, in talks for up to 114 MW (Wire, 28 Oct)."
     },
     {
-      "id": "pry-crusoe-araico-itaipu",
-      "name": "Paraguay",
-      "slug": "paraguay",
-      "note": "Crusoe and Araico plan AI cloud capacity at the Itaipú substation from mid-2027, path to 106 MW and options to about 280 MW (Wire, 22 Oct)."
+      "id": "che-government-cloud-tender",
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "note": "Swiss Government Cloud tender: up to CHF 7 billion over 14 years in three lots, one lot per bidder (Wire, 20 Oct)."
     },
     {
-      "id": "dnk-coreweave-den01",
-      "name": "Denmark",
-      "slug": "denmark",
-      "note": "CoreWeave brings most of 22.5 MW online at atNorth DEN01 in Copenhagen on Blackwell (Wire, 27 Oct)."
+      "id": "nor-crusoe-dra02",
+      "name": "Norway",
+      "slug": "norway",
+      "note": "Crusoe takes Polar's 40 MW DRA02 at Tørdal for Vera Rubin NVL72, live late 2027; DRA01 live at 12 MW (Wire, 21 Oct)."
     },
     {
-      "id": "kaz-freedom-sovereign-hub",
-      "name": "Kazakhstan",
-      "slug": "kazakhstan",
-      "note": "Freedom Holding advances a $2 billion, 100 MW Sovereign AI Hub; first public GPU cloud in 2027 (Wire, 26 Oct)."
+      "id": "cze-bull-cra-gigafactory",
+      "name": "Czechia",
+      "slug": "czechia",
+      "note": "Bull and CRA sign a non-binding MoU for the Czech AI Gigafactory bid (Wire, 21 Oct)."
+    },
+    {
+      "id": "omn-yamna-salalah",
+      "name": "Oman",
+      "slug": "oman",
+      "note": "Yamna to build an AI data centre in Salalah, first phase over £1 billion, MoU stage (Wire, 21 Oct)."
+    },
+    {
+      "id": "grc-g42-copelouzos",
+      "name": "Greece",
+      "slug": "greece",
+      "note": "G42's Khazna and Core42 sign exploratory MoUs with Copelouzos for an AI factory (Wire, 22 Oct)."
     }
   ],
   "silicon": [
@@ -43,10 +55,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 26 Oct print"
+      "note": "Confirm vs 27 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +66,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 26 Oct print"
+      "note": "Confirm vs 27 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -65,10 +77,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 26 Oct print"
+      "note": "Confirm vs 27 Oct print"
     },
     {
       "id": "crusoe-h100-od",
@@ -76,10 +88,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 26 Oct print"
+      "note": "Confirm vs 27 Oct print"
     },
     {
       "id": "crusoe-b300-od",
@@ -87,10 +99,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 26 Oct print"
+      "note": "Confirm vs 27 Oct print"
     },
     {
       "id": "do-b300-spot",
@@ -98,32 +110,32 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 26 Oct print"
+      "note": "Confirm vs 27 Oct print"
     },
     {
       "id": "do-mi355x-spot",
       "name": "MI355X",
-      "display_usd": 2.97,
+      "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 2.97,
-      "delta": 0.0,
-      "note": "Confirm vs 26 Oct print; held the $2.97 level after the cut from $5.50"
+      "delta": 1.53,
+      "note": "Tick vs 27 Oct print of $2.97; spot was $5.50 through 23 Oct"
     },
     {
       "id": "do-mi350x-spot",
       "name": "MI350X",
-      "display_usd": 2.46,
+      "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 2.46,
-      "delta": 0.0,
-      "note": "Confirm vs 26 Oct print; held the $2.46 level after the cut from $3.50"
+      "delta": 0.54,
+      "note": "Tick vs 27 Oct print of $2.46; spot was $3.50 through 23 Oct"
     },
     {
       "id": "aws-cb-b300",
@@ -131,22 +143,32 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 26 Oct print"
+      "note": "Confirm vs 27 Oct print"
     }
   ],
   "watch": [
     {
       "id": "hyperscaler-earnings-28-29-oct",
-      "name": "Alphabet, Microsoft (28 Oct) and Amazon (29 Oct)",
-      "note": "All after the close. Microsoft guided September-quarter capex above $50 billion; Alphabet 2026 capex $195 to $205 billion; Amazon about $220 billion. Watch cloud backlogs after Anthropic's S-1 and whether anyone follows Meta into equity."
+      "name": "Alphabet and Microsoft (28 Oct), Amazon (29 Oct)",
+      "note": "All after the close. Watch capex guides, cloud backlog, and what Google says about selling TPUs through Oracle."
     },
     {
-      "id": "memory-intel-earnings",
-      "name": "SK hynix (28 Oct), Samsung and Intel (29 Oct)",
-      "note": "HBM4 pricing and NVHBM: Nvidia wants all three memory makers to build its custom HBM base die on TSMC 3nm."
+      "id": "oracle-investor-day",
+      "name": "Oracle investor day (28 Oct)",
+      "note": "How OCI pays for multi-gigawatt Vera Rubin, TPUs and Cerebras; fiscal 2027 capex has been guided at about $90 to $95 billion."
+    },
+    {
+      "id": "samsung-intel-earnings",
+      "name": "Samsung and Intel (29 Oct)",
+      "note": "HBM4 share against SK hynix's settled 2027 terms; Intel packaging and 14A customers."
+    },
+    {
+      "id": "tsmc-cowos-pricing",
+      "name": "TSMC CoWoS pricing",
+      "note": "Commercial Times reports TSMC is weighing CoWoS increases of up to 20% and 3% to 6% wafer increases from January 2027. Not confirmed by TSMC."
     },
     {
       "id": "india-cdac-10000-aicu",
@@ -154,81 +176,91 @@
       "note": "Bids close 29 Oct."
     },
     {
-      "id": "naver-nvidia-capital-increase",
-      "name": "Naver capital increase for Nvidia",
-      "note": "Terms of the third-party paid-in capital increase still to be announced."
-    },
-    {
-      "id": "indonesia-batang-240mw",
-      "name": "Indonesia Batang AI data centre",
-      "note": "Central Java says the plan is 240 MW, still in study; Coordinating Ministry for Economic Affairs to brief in November."
-    },
-    {
-      "id": "neocloud-credit",
-      "name": "Neocloud financing",
-      "note": "CoreWeave and Nebius rose about 4% premarket on 27 Oct after a month down about 35%; CoreWeave reports in November."
+      "id": "korea-12th-power-plan",
+      "name": "Korea 12th power plan",
+      "note": "Report to the National Assembly in late December or early January; size of the AI data centre cut not yet set."
     }
   ],
   "sources": [
     {
-      "name": "NVIDIA: NVIDIA and Meta to expand collaboration on Muse",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
-      "note": "Signal: $3 billion investment in Meta's offering; Vera Rubin, Vera CPU, Spectrum-X."
+      "name": "Oracle: Oracle brings Google TPUs to OCI",
+      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/",
+      "note": "Lead: TPUs on OCI in calendar 2027."
     },
     {
-      "name": "AMD: AMD and Meta advance strategic partnership",
-      "url": "https://newsroom.amd.com/news/amd-meta-advance-strategic-partnership-power-metas-ai-infrastructure/",
-      "note": "Signal: Helios installed at Meta, custom MI450, $1 billion in Meta's offering."
+      "name": "NVIDIA: NVIDIA and Oracle expand Vera Rubin to multi-gigawatt scale",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+      "note": "Lead: Vera Rubin NVL72 GA on OCI, HGX Rubin NVL8 planned."
     },
     {
-      "name": "Meta: pricing of offerings",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
-      "note": "Signal: $25 billion common at $625, 6.50% preferred."
+      "name": "Oracle: Cerebras and Oracle bring Cerebras inference to OCI",
+      "url": "https://www.oracle.com/news/announcement/ai-world-cerebras-and-oracle-team-up-to-bring-cerebras-ai-inference-to-oracle-cloud-infrastructure-2026-10-27/",
+      "note": "Signal: Cerebras on OCI in 2027."
     },
     {
-      "name": "Digital Today: Naver signs $9 billion Brookfield deal",
-      "url": "https://www.digitaltoday.co.kr/en/view/120186/naver-brookfield-9-billion-ai-infrastructure-deal-nvidia-investment-condition-met",
-      "note": "Wire: Asset Co., 55 MW 2027, 200 MW 2028."
+      "name": "Reuters via Investing.com: Oracle expands Nvidia deal, adds Google and Cerebras",
+      "url": "https://www.investing.com/news/stock-market-news/oracle-expands-chip-supply-deal-with-nvidia-adds-google-and-cerebras-offerings-4976437",
+      "note": "Signal: no deal value; SambaNova also added."
     },
     {
-      "name": "CNBC: SoftBank reportedly plans $50 billion in Malaysia",
-      "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
-      "note": "Wire: Sarawak and peninsula sites."
+      "name": "SK hynix: 3Q26 financial results",
+      "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "note": "Lead: 104.6 trillion won revenue, 80% margin, LTAs over half of 2027 and 2028."
     },
     {
-      "name": "Crusoe: partnership with Araico in Paraguay",
-      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-araico-hydroelectric-ai-infrastructure-partnership",
-      "note": "Wire: Itaipú, 106 MW, about 280 MW."
+      "name": "CNBC: SK Hynix shares soar as profit beats",
+      "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+      "note": "Signal: 14 customers, DRAM ASP up high-20s percent."
     },
     {
-      "name": "CoreWeave: new capacity in Denmark",
-      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Expands-Global-AI-Cloud-Platform-With-New-Capacity-in-Denmark-and-First-Global-AI-Network-Backbone/default.aspx",
-      "note": "Wire: 22.5 MW DEN01."
+      "name": "TrendForce: TSMC reportedly eyes 20% CoWoS price hike",
+      "url": "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge/",
+      "note": "Watch: single-source report."
     },
     {
-      "name": "Freedom Holding: Kazakhstan AI infrastructure",
-      "url": "https://ir.freedomholdingcorp.com/press-releases/detail/122/freedom-holding-corp-advances-ai-infrastructure",
-      "note": "Wire: $2 billion Sovereign AI Hub."
+      "name": "Seoul Economic Daily: Korea to trim AI data center power forecast",
+      "url": "https://en.sedaily.com/finance/2026/10/27/korea-to-trim-ai-data-center-power-forecast-minister-says",
+      "note": "Wire: 12th power plan."
     },
     {
-      "name": "Blocks & Files: Nvidia sidesteps JEDEC HBM standard",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/10/26/nvidia-sidesteps-jedec-hbm-standard/5305323",
-      "note": "Signal: NVHBM, TSMC 3nm base die."
+      "name": "OneQode via PR Newswire: 14 MW with AdaniConneX",
+      "url": "https://www.prnewswire.com/news-releases/oneqode-signs-14-mw-ai-capacity-agreement-with-adaniconnex-with-a-path-to-114-mw-302920277.html",
+      "note": "Wire: Chennai."
     },
     {
-      "name": "Yahoo Finance: price of insuring CoreWeave's debt doubles",
-      "url": "https://finance.yahoo.com/markets/article/coreweave-ai-landlord-stocks-sink-to-lowest-levels-in-more-than-a-year-as-the-price-of-insuring-coreweaves-debt-doubles-140909005.html",
-      "note": "Lead: neocloud credit."
+      "name": "Swiss FDF: Swiss Government Cloud tender launched",
+      "url": "https://www.efd.admin.ch/en/newnsb/vL4DxR3WIhey",
+      "note": "Wire: CHF 7 billion, three lots."
+    },
+    {
+      "name": "Crusoe: Polar and Crusoe expand Norway partnership to 40 MW",
+      "url": "https://www.crusoe.ai/resources/newsroom/polar-crusoe-partnership-expansion",
+      "note": "Wire: DRA02."
+    },
+    {
+      "name": "Bull: Bull and CRA join forces on the Czech AI Gigafactory",
+      "url": "https://www.bull.com/en/press-releases/bull-and-cra-join-forces-to-build-the-czech-ai-gigafactory-for-central-and-eastern-europe",
+      "note": "Wire: AIGF CZ."
+    },
+    {
+      "name": "GOV.UK: Sultan of Oman state visit investment",
+      "url": "https://www.gov.uk/government/news/major-investment-to-drive-growth-and-jobs-across-britain-as-sultan-of-oman-visits-uk",
+      "note": "Wire: Yamna Salalah."
+    },
+    {
+      "name": "Zawya: Copelouzos Group and G42 AI factory in Greece",
+      "url": "https://www.zawya.com/en/press-release/companies-news/copelouzos-group-and-g42-lay-the-groundwork-for-an-ai-factory-in-greece-1849789",
+      "note": "Wire: Greece MoUs."
+    },
+    {
+      "name": "DigitalOcean GPU Droplets pricing",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "note": "MI355X spot $4.50 (was $2.97), MI350X spot $3.00 (was $2.46), B300 spot $6.17 confirm."
     },
     {
       "name": "Lambda Cloud pricing",
       "url": "https://lambda.ai/pricing",
       "note": "H100 $3.99 / B200 $6.69 confirm."
-    },
-    {
-      "name": "DigitalOcean GPU Droplets pricing",
-      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "MI355X spot $2.97, MI350X spot $2.46, B300 spot $6.17 confirm."
     },
     {
       "name": "Crusoe Cloud pricing",

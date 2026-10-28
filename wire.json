@@ -1,6 +1,142 @@
 {
   "items": [
     {
+      "id": "korea-aidc-power-forecast-trim-12th-power-plan-confirmed-demand-only-2026-10-26",
+      "date": "2026-10-26",
+      "title": "Korea will trim AI data centre power demand in its 12th power plan to confirmed projects only, two months after lifting the forecast to 11.9 GW",
+      "summary": "Climate, Energy and Environment Minister Kim Sung-hwan told a National Assembly audit on 26 October 2026 that only confirmed AI data centre demand will go into the 12th Basic Plan for Long-term Electricity Supply and Demand, saying that once the three mega-projects began, 'not much demand has actually been firmed up in concrete terms'. In August the ministry had raised projected 2040 AIDC peak demand to 11.9 GW from 4 GW against an 18.4 GW by 2035 build plan (SK, GS and Naver 8.4 GW by 2029). GS has started a 1.2 GW first phase in Donghae for 2028; SK has not detailed its 4 GW of regional sites beyond the 100 MW Ulsan build with AWS. AI-DC Korea counts 522 projects (3.4 GW) in grid impact review as of Q1, of which 10 (1 GW) have secured power. The science ministry said on 27 October the mega-projects remain on track. Caveat: no reduction figure set; plan goes to the Assembly in late December or early January. Country conversion: Korea's grid planner is discounting announced gigawatts to what has firm demand.",
+      "url": "https://en.sedaily.com/finance/2026/10/27/korea-to-trim-ai-data-center-power-forecast-minister-says",
+      "source": "Seoul Economic Daily 27 Oct 2026 (minister at parliamentary audit); MSIT explanatory note 27 Oct 2026",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Energy",
+        "Policy",
+        "Stall"
+      ],
+      "score": 64
+    },
+    {
+      "id": "india-oneqode-adaniconnex-chennai-14mw-path-114mw-amd-2026-10-28",
+      "date": "2026-10-28",
+      "title": "OneQode signs 14 MW of AI capacity with AdaniConneX in Chennai, in talks for up to 114 MW in India",
+      "summary": "Singapore-based OneQode said on 27 October 2026 (US Eastern; 28 October in India) it signed an agreement with AdaniConneX for 14 MW of data centre capacity at Siruseri SIPCOT, Chennai, its first major AI deployment in India, for training, inference, enterprise and sovereign workloads. The companies are discussing additional capacity of up to 114 MW, which OneQode says could generate over $6 billion of GPU-as-a-service total contract value. The build uses AMD Instinct GPUs under a May 2026 collaboration, with AMD Helios racks planned. It follows CoreWeave's 240 MW plan at AdaniConneX Navi Mumbai earlier this month. Caveat: only the 14 MW is signed; the 114 MW and $6 billion figures are company targets. Country conversion: a second foreign GPU cloud takes Indian colocation for regional inference.",
+      "url": "https://www.prnewswire.com/news-releases/oneqode-signs-14-mw-ai-capacity-agreement-with-adaniconnex-with-a-path-to-114-mw-302920277.html",
+      "source": "OneQode press release via PR Newswire, 27 Oct 2026 (primary)",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build",
+        "Cloud"
+      ],
+      "score": 52
+    },
+    {
+      "id": "switzerland-swiss-government-cloud-tender-chf7bn-three-lots-14yr-2026-10-20",
+      "date": "2026-10-20",
+      "title": "Switzerland tenders the Swiss Government Cloud: up to CHF 7 billion over 14 years in three lots, one lot per bidder",
+      "summary": "The Federal Office of Information Technology, Systems and Telecommunication published the Swiss Government Cloud tender (WTO 25002 609) on SIMAP on 20 October 2026. Lot 1 is global public cloud (two awards, up to CHF 2 billion), lot 2 is public cloud with data stored and processed only in Switzerland on open source (two awards, up to CHF 2 billion), and lot 3 is private cloud in federal data centres (one award, up to CHF 3 billion). No bidder can win more than one lot; awards run seven years and re-open, for 14 years in total, and spending is pay as you use. Prequalification runs 60 days; awards are expected late summer 2027 and first call-offs late autumn 2027. Caveat: CHF 7 billion is a ceiling, not a commitment. Country conversion: Switzerland caps any one provider's share of federal cloud by design.",
+      "url": "https://www.efd.admin.ch/en/newnsb/vL4DxR3WIhey",
+      "source": "Federal Department of Finance / FOITT press release, 20 Oct 2026 (primary)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CHE"
+      ],
+      "flags": "🇨🇭",
+      "tags": [
+        "Policy",
+        "Cloud"
+      ],
+      "score": 56
+    },
+    {
+      "id": "czech-bull-cra-aigf-cz-ai-gigafactory-mou-cee-2026-10-21",
+      "date": "2026-10-21",
+      "title": "Bull and CRA sign MoU for the Czech AI Gigafactory bid, first deal under the France-Czech AI pact",
+      "summary": "Bull and Ceske Radiokomunikace (CRA) said on 21 October 2026 they signed a strategic memorandum to combine CRA's infrastructure with Bull's systems, software and services in the CRA-led consortium bidding for the Czech AI Gigafactory (AIGF CZ) under the EU AI Gigafactories programme. It is the first industrial agreement under the bilateral AI and digital cooperation agreement signed by French minister Anne Le Henanff and Czech minister Karel Havlicek. Bull says its Czech and French manufacturing with Foxconn could build the servers, and it plans to reserve capacity for its own clients. CRA runs eight data centres and already sells GPU capacity. Caveat: non-binding; capacity, site, chips and cost not disclosed, and the EU selection is pending. Country conversion: Czechia positions a telco-led bid as the Central and Eastern European gigafactory candidate.",
+      "url": "https://www.bull.com/en/press-releases/bull-and-cra-join-forces-to-build-the-czech-ai-gigafactory-for-central-and-eastern-europe",
+      "source": "Bull press release, 21 Oct 2026 (primary); CRA press release",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CZE",
+        "FRA"
+      ],
+      "flags": "🇨🇿",
+      "tags": [
+        "Build",
+        "Policy"
+      ],
+      "score": 46
+    },
+    {
+      "id": "norway-polar-crusoe-dra02-tordal-40mw-vera-rubin-late-2027-2026-10-21",
+      "date": "2026-10-21",
+      "title": "Crusoe takes Polar's 40 MW DRA02 building at Tørdal, Norway, for Vera Rubin NVL72; DRA01 live at 12 MW",
+      "summary": "Polar Data Centers said on 21 October 2026 that DRA01 at its hydro-powered Tørdal campus in Norway is live with 12 MW of IT capacity running Crusoe Cloud, and that Crusoe will take DRA02, a second liquid-cooled building of 40 MW critical IT expected live in late 2027, where Crusoe plans to deploy Nvidia Vera Rubin NVL72. Caveat: GPU count and contract value not disclosed. Country conversion: Norway's hydro campuses keep converting into US neocloud capacity, now on the Rubin generation.",
+      "url": "https://www.crusoe.ai/resources/newsroom/polar-crusoe-partnership-expansion",
+      "source": "Crusoe / Polar press release, 21 Oct 2026 (primary)",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "NOR"
+      ],
+      "flags": "🇳🇴",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 50
+    },
+    {
+      "id": "oman-yamna-salalah-ai-data-centre-1bn-gbp-first-phase-mou-2026-10-21",
+      "date": "2026-10-21",
+      "title": "Oman signs Yamna to build a large AI data centre in Salalah; first phase over £1 billion",
+      "summary": "The UK government said on 21 October 2026, during Sultan Haitham bin Tarik's state visit, that UK-founded Yamna would sign an agreement with Oman to build a large-scale AI data centre in Salalah, with a first phase expected to exceed £1 billion. Yamna said it signed a strategic cooperation agreement with Oman's Ministry of Transport, Communications and Information Technology for the project, branded Salalah Al Khadra Digital. UK Export Finance raised its capacity for UK exports to Oman to up to £7 billion. Caveat: MoU stage; MW, power source, tenant and chips not disclosed. Country conversion: Oman enters the Gulf AI campus race with a southern site away from the Gulf states' existing hubs.",
+      "url": "https://www.gov.uk/government/news/major-investment-to-drive-growth-and-jobs-across-britain-as-sultan-of-oman-visits-uk",
+      "source": "GOV.UK (FCDO) 21 Oct 2026 (primary); Yamna statement",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "OMN",
+        "GBR"
+      ],
+      "flags": "🇴🇲",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 44
+    },
+    {
+      "id": "greece-g42-khazna-core42-copelouzos-ai-factory-mou-2026-10-22",
+      "date": "2026-10-22",
+      "title": "G42's Khazna and Core42 sign MoUs with Copelouzos to explore an AI factory in Greece",
+      "summary": "Copelouzos Group said it signed memoranda of understanding in Athens on 22 October 2026 with G42 portfolio companies Khazna Data Centers, which would lead the physical build, and Core42, which would provide cloud and AI compute for banking, telecoms, shipping and public administration, during a UAE Ministry of Foreign Trade business mission. Copelouzos is also developing GREGY, a 3,000 MW Egypt-Greece power interconnector. Caveat: exploratory; scope, site, capacity, financing and timelines are to be defined, subject to definitive agreements and approvals. Country conversion: Greece gets its first Gulf-operator AI factory proposal, tied to an energy group.",
+      "url": "https://www.zawya.com/en/press-release/companies-news/copelouzos-group-and-g42-lay-the-groundwork-for-an-ai-factory-in-greece-1849789",
+      "source": "Copelouzos Group press release via Zawya, 22 Oct 2026 (primary)",
+      "tier": 3,
+      "corroboration": "Confirmed",
+      "countries": [
+        "GRC",
+        "ARE"
+      ],
+      "flags": "🇬🇷",
+      "tags": [
+        "Build"
+      ],
+      "score": 38
+    },
+    {
       "id": "korea-naver-brookfield-9bn-asset-co-55mw-2027-200mw-2028-nvidia-1bn-2026-10-27",
       "date": "2026-10-27",
       "title": "Naver signs up to $9 billion Brookfield compute deal, clearing Nvidia's $1 billion equity investment; 55 MW in 1H 2027, 200 MW by 2028",
@@ -2480,6 +2616,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-27",
-  "note": "Wire refresh 2026-10-27: added korea-naver-brookfield-9bn-asset-co-55mw-2027-200mw-2028-nvidia-1bn-2026-10-27, malaysia-softbank-50bn-sarawak-peninsular-ai-data-centres-anwar-2026-10-24, paraguay-crusoe-araico-itaipu-106mw-path-280mw-mid-2027-2026-10-22, denmark-coreweave-den01-copenhagen-22-5mw-global-backbone-apac-me-2026-10-27, kazakhstan-freedom-2bn-sovereign-ai-hub-100mw-public-gpu-cloud-2027-2026-10-26. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-10-28",
+  "note": "Wire refresh 2026-10-28: added korea-aidc-power-forecast-trim-12th-power-plan-confirmed-demand-only-2026-10-26, india-oneqode-adaniconnex-chennai-14mw-path-114mw-amd-2026-10-28, switzerland-swiss-government-cloud-tender-chf7bn-three-lots-14yr-2026-10-20, czech-bull-cra-aigf-cz-ai-gigafactory-mou-cee-2026-10-21, norway-polar-crusoe-dra02-tordal-40mw-vera-rubin-late-2027-2026-10-21, oman-yamna-salalah-ai-data-centre-1bn-gbp-first-phase-mou-2026-10-21, greece-g42-khazna-core42-copelouzos-ai-factory-mou-2026-10-22. Tape: 68 confirms, 2 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
