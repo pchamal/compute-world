@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>The chip vendors are now financing the compute they sell. On Tuesday Nvidia said it will invest $3 billion in Meta&#x27;s equity offering and AMD $1 billion, and Meta priced the deal upsized: $25 billion of common stock at $625 a share plus $12.5 billion of 6.50% mandatory convertible preferred, $37.5 billion in all. Meta will add Vera Rubin, Vera CPUs and Spectrum-X networking, and has AMD Helios racks installed and in testing with a custom MI450 to come. The same morning Naver signed a contract for up to $9 billion of GPUs and data centres through a Brookfield-funded vehicle, which meets the condition for Nvidia&#x27;s $1 billion equity investment in Naver. Buyers with balance sheets or revenue outside AI get equity and structured leases. Standalone neoclouds pay for credit: CoreWeave&#x27;s default insurance costs more than twice what it did in June. On the public tape, all 70 list prints confirmed with no changes.</description>
+  <description>The buyers are spreading their bets and the suppliers are locking in theirs. At Oracle AI World on Tuesday, Oracle said Google TPUs will be available on OCI in calendar 2027, the first time Google has put TPUs in another hyperscaler&#x27;s cloud, and Cerebras inference is planned for OCI in 2027 as well. In the same hour Oracle and Nvidia said OCI will take Vera Rubin NVL72 to multi-gigawatt scale, on Oracle&#x27;s own Acceleron networking with Spectrum-X; no deal value was given. On Wednesday SK hynix reported third-quarter revenue of 104.6 trillion won and operating profit of 83.3 trillion won, an 80% margin, said 2027 HBM volumes and prices are settled with major customers, and said long-term agreements with 14 customers cover more than half of its 2027 and 2028 capacity. Supply is being sold years forward at rising prices while demand is being split across more chip families. On the public tape, DigitalOcean lifted AMD spot back up: MI355X $2.97 to $4.50 and MI350X $2.46 to $3.00 per GPU-hour. The other 68 prints confirmed.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 27 October 2026</title>
+    <title>Compute brief - 28 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-27</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>The chip vendors are now financing the compute they sell. On Tuesday Nvidia said it will invest $3 billion in Meta&#x27;s equity offering and AMD $1 billion, and Meta priced the deal upsized: $25 billion of common stock at $625 a share plus $12.5 billion of 6.50% mandatory convertible preferred, $37.5 billion in all. Meta will add Vera Rubin, Vera CPUs and Spectrum-X networking, and has AMD Helios racks installed and in testing with a custom MI450 to come. The same morning Naver signed a contract for up to $9 billion of GPUs and data centres through a Brookfield-funded vehicle, which meets the condition for Nvidia&#x27;s $1 billion equity investment in Naver. Buyers with balance sheets or revenue outside AI get equity and structured leases. Standalone neoclouds pay for credit: CoreWeave&#x27;s default insurance costs more than twice what it did in June. On the public tape, all 70 list prints confirmed with no changes. Countries: South Korea: Naver signs up to $9 billion Brookfield compute vehicle; Nvidia $1 billion equity investment proceeds; 55 MW in 1H 2027, 200 MW by 2028 (Wire, 27 Oct). Malaysia: Anwar says SoftBank plans $50 billion of AI and data centre investment in Kuching, Sarawak and the peninsula; SoftBank has not commented (Wire, 24 Oct). Paraguay: Crusoe and Araico plan AI cloud capacity at the Itaipú substation from mid-2027, path to 106 MW and options to about 280 MW (Wire, 22 Oct). Denmark: CoreWeave brings most of 22.5 MW online at atNorth DEN01 in Copenhagen on Blackwell (Wire, 27 Oct). Kazakhstan: Freedom Holding advances a $2 billion, 100 MW Sovereign AI Hub; first public GPU cloud in 2027 (Wire, 26 Oct).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-28</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>The buyers are spreading their bets and the suppliers are locking in theirs. At Oracle AI World on Tuesday, Oracle said Google TPUs will be available on OCI in calendar 2027, the first time Google has put TPUs in another hyperscaler&#x27;s cloud, and Cerebras inference is planned for OCI in 2027 as well. In the same hour Oracle and Nvidia said OCI will take Vera Rubin NVL72 to multi-gigawatt scale, on Oracle&#x27;s own Acceleron networking with Spectrum-X; no deal value was given. On Wednesday SK hynix reported third-quarter revenue of 104.6 trillion won and operating profit of 83.3 trillion won, an 80% margin, said 2027 HBM volumes and prices are settled with major customers, and said long-term agreements with 14 customers cover more than half of its 2027 and 2028 capacity. Supply is being sold years forward at rising prices while demand is being split across more chip families. On the public tape, DigitalOcean lifted AMD spot back up: MI355X $2.97 to $4.50 and MI350X $2.46 to $3.00 per GPU-hour. The other 68 prints confirmed. Countries: South Korea: Climate minister says only confirmed AI data centre demand goes into the 12th power plan, after the forecast was raised to 11.9 GW in August (Wire, 26 Oct). India: OneQode signs 14 MW with AdaniConneX in Chennai on AMD Instinct, in talks for up to 114 MW (Wire, 28 Oct). Switzerland: Swiss Government Cloud tender: up to CHF 7 billion over 14 years in three lots, one lot per bidder (Wire, 20 Oct). Norway: Crusoe takes Polar&#x27;s 40 MW DRA02 at Tørdal for Vera Rubin NVL72, live late 2027; DRA01 live at 12 MW (Wire, 21 Oct). Czechia: Bull and CRA sign a non-binding MoU for the Czech AI Gigafactory bid (Wire, 21 Oct). Oman: Yamna to build an AI data centre in Salalah, first phase over £1 billion, MoU stage (Wire, 21 Oct). Greece: G42&#x27;s Khazna and Core42 sign exploratory MoUs with Copelouzos for an AI factory (Wire, 22 Oct).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/lambda-h100-od</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 27 Oct 2026. Confirm vs 26 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/lambda-h100-od</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 28 Oct 2026. Confirm vs 27 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/lambda-b200-od</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 27 Oct 2026. Confirm vs 26 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/lambda-b200-od</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 28 Oct 2026. Confirm vs 27 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/coreweave-h100-od</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 27 Oct 2026. Confirm vs 26 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/coreweave-h100-od</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 28 Oct 2026. Confirm vs 27 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/crusoe-h100-od</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 27 Oct 2026. Confirm vs 26 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/crusoe-h100-od</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 28 Oct 2026. Confirm vs 27 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/crusoe-b300-od</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 27 Oct 2026. Confirm vs 26 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/crusoe-b300-od</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 28 Oct 2026. Confirm vs 27 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/do-b300-spot</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 27 Oct 2026. Confirm vs 26 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/do-b300-spot</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 28 Oct 2026. Confirm vs 27 Oct print</description>
   </item>
   <item>
-    <title>MI355X · $2.97 spot</title>
+    <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/do-mi355x-spot</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $2.97 spot at DigitalOcean as of 27 Oct 2026. Confirm vs 26 Oct print; held the $2.97 level after the cut from $5.50</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/do-mi355x-spot</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 28 Oct 2026. Tick vs 27 Oct print of $2.97; spot was $5.50 through 23 Oct</description>
   </item>
   <item>
-    <title>MI350X · $2.46 spot</title>
+    <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/do-mi350x-spot</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $2.46 spot at DigitalOcean as of 27 Oct 2026. Confirm vs 26 Oct print; held the $2.46 level after the cut from $3.50</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/do-mi350x-spot</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 28 Oct 2026. Tick vs 27 Oct print of $2.46; spot was $3.50 through 23 Oct</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-27/aws-cb-b300</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 27 Oct 2026. Confirm vs 26 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-28/aws-cb-b300</guid>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 28 Oct 2026. Confirm vs 27 Oct print</description>
   </item>
 </channel></rss>
