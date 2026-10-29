@@ -1276,15 +1276,11 @@
       "url": "https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/",
       "source": "Reuters; Queensland Premier (Parliament); ABC News",
       "tier": 2,
-      "corroboration": "Reuters Sydney 16 Sep (anonymous sources; Anthropic/Zerra no comment). Premier Crisafulli Parliament remarks same day (ABC / Brisbane Times / Guardian). techAU 17 Sep on Zerra DA (lodged 17 Aug) and 1.44 GW IT / 2.16 GW peak figures from planning docs.",
+      "corroboration": "Corroborated",
       "countries": [
         "AUS"
       ],
-      "flags": [
-        "firb-gated",
-        "council-da-pending",
-        "lease-not-energization"
-      ],
+      "flags": "🇦🇺",
       "tags": [
         "Build",
         "Capital",
@@ -1301,13 +1297,11 @@
       "url": "https://www.newswire.ca/news-releases/bell-ai-fabric-to-expand-nation-building-project-in-saskatchewan-with-up-to-900-mw-of-additional-power-869048098.html",
       "source": "Bell Canada / CNW; Government of Saskatchewan",
       "tier": 1,
-      "corroboration": "Primary Bell CNW 14 Sep 16:30 ET + Saskatchewan government release same day (1.2 GW path = 300 MW grid + ≤900 MW BYOP). Data Center News Canada; ConstructConnect/Canadian Press 15 Sep on Carney/Moe summit framing.",
+      "corroboration": "Confirmed",
       "countries": [
         "CAN"
       ],
-      "flags": [
-        "non-binding-mou"
-      ],
+      "flags": "🇨🇦",
       "tags": [
         "Build",
         "Capital",
@@ -1324,14 +1318,11 @@
       "url": "https://www.ercot.com/services/comm/mkt_notices/M-B091426-01",
       "source": "ERCOT Market Notice M-B091426-01",
       "tier": 1,
-      "corroboration": "Primary ERCOT market notice 14 Sep 2026 5:07pm. Context: M-A080326-01 pause; Sep 9 eligibility RFI (M-A090926-01); Dec 10 filing target in ERCOT Batch Zero Update PDF (11 Sep).",
+      "corroboration": "Confirmed",
       "countries": [
         "USA"
       ],
-      "flags": [
-        "rfi-deadline-oct-12",
-        "twdb-water-section"
-      ],
+      "flags": "🇺🇸",
       "tags": [
         "Policy",
         "Energy",
@@ -1347,13 +1338,11 @@
       "url": "https://www.sacurrent.com/news/texas-news/after-public-pressure-texas-oks-more-765-lines-directing-companies-to-work-with-landowners/",
       "source": "Texas Tribune / San Antonio Current; PUCT Interchange 59336",
       "tier": 1,
-      "corroboration": "TT/SA Current 12 Sep on Friday vote + landowner-mod condition. Interchange shows 11 Sep AEP/CPS Route 4 Mod 1 filing. Written Order PDF not confirmed on Interchange as of 14 Sep morning — press-confirmed vote pending order stamp.",
+      "corroboration": "Corroborated",
       "countries": [
         "USA"
       ],
-      "flags": [
-        "pending-order"
-      ],
+      "flags": "🇺🇸",
       "tags": [
         "Energy",
         "Build",
@@ -1369,11 +1358,11 @@
       "url": "https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf",
       "source": "ERCOT Board Item 14 Batch Zero Update",
       "tier": 1,
-      "corroboration": "Primary ERCOT PDF for Board 14–15 Sep. Houston Public Media 11 Sep (Seely at PUCT: included MW totals and 461-site survey). Distinct from M-A080326-04 (3 Sep) which published classifications without public MW.",
+      "corroboration": "Confirmed",
       "countries": [
         "USA"
       ],
-      "flags": [],
+      "flags": "🇺🇸",
       "tags": [
         "Policy",
         "Energy",
@@ -1390,13 +1379,11 @@
       "url": "https://www.reuters.com/world/asia-pacific/chinas-ai-chipmakers-raise-prices-high-bandwidth-memory-shortage-bites-2026-09-10/",
       "source": "Reuters",
       "tier": 2,
-      "corroboration": "Reuters exclusive 10 Sep (anonymous sources). No company confirmation. Context: US advanced-HBM export controls since Dec 2024.",
+      "corroboration": "Single-source",
       "countries": [
         "CHN"
       ],
-      "flags": [
-        "draft"
-      ],
+      "flags": "🇨🇳",
       "tags": [
         "Pricing",
         "Stall",
@@ -1412,11 +1399,11 @@
       "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
       "source": "NVIDIA Newsroom",
       "tier": 1,
-      "corroboration": "Primary NVIDIA Newsroom (9 Sep). Reuters Sydney 10 Sep; GlobeNewswire syndicate; techAU / TNW secondary.",
+      "corroboration": "Confirmed",
       "countries": [
         "AUS"
       ],
-      "flags": [],
+      "flags": "🇦🇺",
       "tags": [
         "Build",
         "Capital",
@@ -1432,11 +1419,11 @@
       "url": "https://www.globenewswire.com/news-release/2026/09/08/3357498/0/en/iren-s-2gw-sweetwater-hub-included-as-base-load-in-ercot-batch-zero.html",
       "source": "IREN Limited / GlobeNewswire",
       "tier": 1,
-      "corroboration": "Primary company PR (GlobeNewswire 8 Sep). Context: ERCOT M-A080326-04 Batch Zero conditional classifications (3 Sep); Construction Review Online 9 Sep; Markets Insider reprint of same PR.",
+      "corroboration": "Confirmed",
       "countries": [
         "USA"
       ],
-      "flags": [],
+      "flags": "🇺🇸",
       "tags": [
         "Build",
         "Energy",
@@ -1452,11 +1439,11 @@
       "url": "https://firmus.co/newsroom/firmus-surpasses-900-mw-contracted-capacity-adds-openai-as-anchor-customer-and-expands-into-malaysia",
       "source": "Firmus",
       "tier": 1,
-      "corroboration": "Reuters 8 Sep 2026 (Firmus–OpenAI Malaysia deal; contracted capacity >900 MW; Vera Rubin; portfolio AUS/SGP + five under development). Business Times Singapore same-day. NVIDIA quote on Firmus PR (DSX / Vera Rubin NVL72).",
+      "corroboration": "Confirmed",
       "countries": [
         "MYS"
       ],
-      "flags": [],
+      "flags": "🇲🇾",
       "tags": [
         "Build",
         "Capital"
@@ -1471,7 +1458,7 @@
       "url": "https://www.koreajoongangdaily.com/business/openais-stargate-project-in-korea-stuck-at-starting-gate-as-samsung-sk-report-little-progress/12856484",
       "source": "Korea JoongAng Daily",
       "tier": 2,
-      "corroboration": "Multi-party",
+      "corroboration": "Corroborated",
       "countries": [
         "KOR"
       ],
@@ -1511,11 +1498,11 @@
       "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-04",
       "source": "ERCOT Market Notice M-A080326-04",
       "tier": 1,
-      "corroboration": "Primary ERCOT notice. Context: M-A080326-03 delay (31 Aug); PUCT Project 59142 GCE order (20 Aug); Texas Dispatch 4 Sep on Sep 11 Project 58481 permanent large-load rule vote.",
+      "corroboration": "Confirmed",
       "countries": [
         "USA"
       ],
-      "flags": [],
+      "flags": "🇺🇸",
       "tags": [
         "Policy",
         "Energy",
@@ -1677,11 +1664,11 @@
       "url": "https://www.utilitydive.com/news/large-load-reliability-requirements-miso-ferc/829278/",
       "source": "Utility Dive / MISO FERC filing ER26-3650",
       "tier": 1,
-      "corroboration": "FERC eLibrary accession 20260828-5278 (MISO IRR tariff filing). MISO Large Load Interconnection Reliability Requirements dashboard. mgrid.org 2 Sep explainer on 50 MW / 25 MW IT thresholds and Dec 4 ask.",
+      "corroboration": "Confirmed",
       "countries": [
         "USA"
       ],
-      "flags": [],
+      "flags": "🇺🇸",
       "tags": [
         "Policy",
         "Energy",
