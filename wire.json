@@ -1,6 +1,81 @@
 {
   "items": [
     {
+      "id": "uk-data-centre-covenant-6gw-2030-grid-reservation-2026-10-28",
+      "date": "2026-10-28",
+      "title": "UK Budget sets a Data Centre Covenant: 6 GW of AI data centre capacity needed by 2030, with grid capacity reserved for strategic sites that sign up",
+      "summary": "HM Treasury published the Data Centre Covenant with the Autumn Budget on 28 October 2026. The government estimates the UK needs 6 GW of AI data centre capacity by 2030 so it is not reliant almost entirely on overseas compute. Strategic data centres that want enhanced support must meet tests: credible commitments for the grid capacity they request, a Local Benefit Plan scaled to project size, a Power Usage Effectiveness of 1.3 or better with annual energy and water reporting, local jobs and apprenticeships with a contribution to British AI hardware, and secure access to compute for the NHS and public services. In return, ministers will use Planning and Infrastructure Act powers to reserve and reallocate grid capacity, allow transfer of pre-2030 connection contracts and, in narrow cases, temporary on-site generation. The Budget also adds £140 million for the Sovereign AI Unit. Caveat: which sites count as strategic and the full criteria are still to be published, and a draft National Policy Statement goes to consultation. Country conversion: the UK trades grid priority for local and security commitments.",
+      "url": "https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant",
+      "source": "HM Treasury, The Data Centre Covenant, 28 Oct 2026 (primary); New Civil Engineer 29 Oct 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "GBR"
+      ],
+      "flags": "🇬🇧",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "score": 70
+    },
+    {
+      "id": "india-lt-vyoma-chennai-52mw-groundbreaking-ai-factory-campus-2026-10-28",
+      "date": "2026-10-28",
+      "title": "L&T's Vyoma.AI breaks ground on a 52 MW liquid-cooled AI data centre at its Chennai AI Factory campus",
+      "summary": "Larsen & Toubro said on 28 October 2026 that Vyoma.AI, its AI cloud and hyperscale data centre business, held the groundbreaking for a 52 MW AI-ready data centre in Chennai with direct-to-chip liquid cooling, aimed at hyperscalers, neoclouds and AI developers. It sits on L&T's planned gigawatt-scale AI Factory campus in Chennai, which already runs AI compute clusters in an operational 30 MW facility and has 150 MVA of power infrastructure ready. Vyoma targets over 250 MW across India. Caveat: no completion date, tenant or cost disclosed. Country conversion: Chennai adds another domestic-owned AI build days after OneQode's 14 MW at AdaniConneX.",
+      "url": "https://www.larsentoubro.com/pressreleases/2026/2026-10-28-vyomaai-breaks-ground-on-52-mw-ai-ready-data-center-in-chennai",
+      "source": "Larsen & Toubro press release, 28 Oct 2026 (primary); The Hindu",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build"
+      ],
+      "score": 48
+    },
+    {
+      "id": "brazil-gaispi-sovereign-ai-data-centre-r375m-48-gpus-telebras-2026-10-27",
+      "date": "2026-10-27",
+      "title": "Brazil's 5G auction fund approves a R$375 million sovereign AI data centre for the federal government, run by Telebras",
+      "summary": "Gaispi, the group that directs projects funded by Brazil's 5G spectrum auction through the entity EAF, approved on 27 October 2026 a sovereign data centre for federal government AI projects at an estimated R$375 million, according to IA News citing Teletime and Convergência Digital. The AI module would have 20 racks, six GPU servers with 48 GPUs in total, nine CPU servers and liquid cooling, plus a separate colocation module of up to ten racks. The facility would be federally owned and operated by Telebras, with deployment estimated at 12 months depending on power, licensing and equipment delivery. Caveat: still needs approval from Anatel's board; GPU model not disclosed. Country conversion: Brazil funds a small first sovereign AI cluster from money already collected.",
+      "url": "https://ianewsbr.com/materia/gaispi-aprova-data-center-soberano-ia-r-375-milhoes-leilao-5g",
+      "source": "IA News 29 Oct 2026, citing Teletime and Convergência Digital",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "BRA"
+      ],
+      "flags": "🇧🇷",
+      "tags": [
+        "Policy",
+        "Build"
+      ],
+      "score": 34
+    },
+    {
+      "id": "seychelles-cabinet-sovereign-government-cloud-two-datacentres-ai-strategy-2026-10-28",
+      "date": "2026-10-28",
+      "title": "Seychelles Cabinet approves a sovereign government cloud on two in-country datacentres and a 2026 to 2031 Digital and AI Strategy",
+      "summary": "State House said Cabinet, chaired by Vice-President Sebastien Pillay on 28 October 2026, approved the Seychelles Digital and AI Strategy 2026 to 2031 and the Government Cloud and Datacenter Project: a sovereign, in-country government cloud on two geographically separated datacentres, meant to reduce reliance on commercial and overseas infrastructure and provide local cloud and AI computing. Phase 1 builds the cloud and primary datacentre; Phase 2 adds the secondary site and expands cloud and AI capability. Caveat: no budget, capacity, vendor or timeline disclosed. Country conversion: a small island state moves government workloads onshore.",
+      "url": "https://statehouse.gov.sc/cabinet-decisions/7318/cabinet-business-wednesday-28-october-2026",
+      "source": "State House Seychelles, Cabinet Business 28 Oct 2026 (primary); Seychelles News Agency",
+      "tier": 3,
+      "corroboration": "Confirmed",
+      "countries": [
+        "SYC"
+      ],
+      "flags": "🇸🇨",
+      "tags": [
+        "Policy",
+        "Cloud"
+      ],
+      "score": 30
+    },
+    {
       "id": "korea-aidc-power-forecast-trim-12th-power-plan-confirmed-demand-only-2026-10-26",
       "date": "2026-10-26",
       "title": "Korea will trim AI data centre power demand in its 12th power plan to confirmed projects only, two months after lifting the forecast to 11.9 GW",
@@ -2616,6 +2691,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-28",
-  "note": "Wire refresh 2026-10-28: added korea-aidc-power-forecast-trim-12th-power-plan-confirmed-demand-only-2026-10-26, india-oneqode-adaniconnex-chennai-14mw-path-114mw-amd-2026-10-28, switzerland-swiss-government-cloud-tender-chf7bn-three-lots-14yr-2026-10-20, czech-bull-cra-aigf-cz-ai-gigafactory-mou-cee-2026-10-21, norway-polar-crusoe-dra02-tordal-40mw-vera-rubin-late-2027-2026-10-21, oman-yamna-salalah-ai-data-centre-1bn-gbp-first-phase-mou-2026-10-21, greece-g42-khazna-core42-copelouzos-ai-factory-mou-2026-10-22. Tape: 68 confirms, 2 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-10-29",
+  "note": "Wire refresh 2026-10-29: added uk-data-centre-covenant-6gw-2030-grid-reservation-2026-10-28, india-lt-vyoma-chennai-52mw-groundbreaking-ai-factory-campus-2026-10-28, brazil-gaispi-sovereign-ai-data-centre-r375m-48-gpus-telebras-2026-10-27, seychelles-cabinet-sovereign-government-cloud-two-datacentres-ai-strategy-2026-10-28. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
