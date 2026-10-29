@@ -347,7 +347,7 @@
    "rf": 0.72,
    "rz": 59,
    "dl": 1,
-   "rw": "OneQode signs 14 MW of AI capacity with AdaniConneX in Chennai, in talks for…"
+   "rw": "L&T's Vyoma.AI breaks ground on a 52 MW liquid-cooled AI data centre at its …"
   },
   {
    "n": "Pakistan",
@@ -3647,7 +3647,7 @@
    "rf": 0.95,
    "rz": 79,
    "dl": 1,
-   "rw": "Anthropic's public S-1 puts numbers on its US compute rent: up to $120.5 bil…"
+   "rw": "UK Budget sets a Data Centre Covenant: 6 GW of AI data centre capacity neede…"
   },
   {
    "n": "Ireland",
@@ -5195,9 +5195,9 @@
    "pue": "~1.2-1.4",
    "note": "176 GW inventoried, 62% used; remainder Amazonian; Fortaleza cable hub",
    "rf": 0.55,
-   "rz": 32,
-   "dl": 0,
-   "rw": "Brazil approves a 5 GW grid connection for Scala's AI City"
+   "rz": 42,
+   "dl": 1,
+   "rw": "Brazil's 5G auction fund approves a R$375 million sovereign AI data centre f…"
   },
   {
    "n": "Paraguay",
