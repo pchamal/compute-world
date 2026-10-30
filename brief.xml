@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>The constraint in last night&#x27;s earnings was delivery, not demand. Alphabet said Google Cloud revenue rose 103% to $30.7 billion with TPU system sales a meaningful contributor, and its backlog reached $561 billion, just over 55% of which it expects to book within 24 months. Because supply is tight, Google began using third-party compute at the end of the third quarter and will ramp it in the fourth, at a margin cost. Microsoft grew Azure 48% and commercial remaining performance obligation 73% to $677 billion, but spent $45.2 billion on capex and finance leases against a $50 billion plan because some third-party capacity deliveries slipped, and it said some GPU-as-a-service contracts moved to the second half. This morning Samsung said its 2027 HBM volume is sold out at target prices, a day after SK hynix said the same of more than half its 2027 and 2028 capacity. In London the Budget put a number on sovereign demand: 6 GW of AI data centre capacity by 2030, with grid capacity reserved for sites that meet the new covenant. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour.</description>
+  <description>Amazon closed out hyperscaler earnings week with the same message as Google and Microsoft: demand is ahead of supply. AWS revenue rose 39.3% to $46.0 billion, its fastest growth in nearly five years, its backlog reached $578 billion, more than double a year earlier, and Andy Jassy said AWS is installing an AI accelerator about every 14 seconds with customers taking it almost as fast. Cash capex was $75.9 billion in the quarter; Amazon kept 2026 at about $220 billion and said 2027 will be meaningfully more. Upstream, the squeeze is in packaging: Intel said substrate supply limits how fast it can scale EMIB, and Taiwan press reports TSMC is weighing CoWoS price rises of 10% to 20%. Ottawa turned sovereign AI into a compute obligation, with up to C$1.6 billion of equity in Cohere tied to at least C$1.7 billion of new Canadian computing infrastructure by 2030. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 29 October 2026</title>
+    <title>Compute brief - 30 October 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-29</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>The constraint in last night&#x27;s earnings was delivery, not demand. Alphabet said Google Cloud revenue rose 103% to $30.7 billion with TPU system sales a meaningful contributor, and its backlog reached $561 billion, just over 55% of which it expects to book within 24 months. Because supply is tight, Google began using third-party compute at the end of the third quarter and will ramp it in the fourth, at a margin cost. Microsoft grew Azure 48% and commercial remaining performance obligation 73% to $677 billion, but spent $45.2 billion on capex and finance leases against a $50 billion plan because some third-party capacity deliveries slipped, and it said some GPU-as-a-service contracts moved to the second half. This morning Samsung said its 2027 HBM volume is sold out at target prices, a day after SK hynix said the same of more than half its 2027 and 2028 capacity. In London the Budget put a number on sovereign demand: 6 GW of AI data centre capacity by 2030, with grid capacity reserved for sites that meet the new covenant. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour. Countries: United Kingdom: Data Centre Covenant: 6 GW of AI data centre capacity needed by 2030; grid capacity reserved for strategic sites that meet local, efficiency and security tests (Wire, 28 Oct). India: L&amp;T&#x27;s Vyoma.AI breaks ground on 52 MW in Chennai, next to a live 30 MW facility (Wire, 28 Oct). Brazil: 5G auction fund approves a R$375 million sovereign AI data centre with 48 GPUs, run by Telebras; Anatel board still to approve (Wire, 27 Oct). Seychelles: Cabinet approves a sovereign government cloud on two in-country datacentres (Wire, 28 Oct). South Korea: Only confirmed AI data centre demand goes into the 12th power plan (Wire, 26 Oct).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-10-30</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Amazon closed out hyperscaler earnings week with the same message as Google and Microsoft: demand is ahead of supply. AWS revenue rose 39.3% to $46.0 billion, its fastest growth in nearly five years, its backlog reached $578 billion, more than double a year earlier, and Andy Jassy said AWS is installing an AI accelerator about every 14 seconds with customers taking it almost as fast. Cash capex was $75.9 billion in the quarter; Amazon kept 2026 at about $220 billion and said 2027 will be meaningfully more. Upstream, the squeeze is in packaging: Intel said substrate supply limits how fast it can scale EMIB, and Taiwan press reports TSMC is weighing CoWoS price rises of 10% to 20%. Ottawa turned sovereign AI into a compute obligation, with up to C$1.6 billion of equity in Cohere tied to at least C$1.7 billion of new Canadian computing infrastructure by 2030. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour. Countries: Canada: Up to C$1.6 billion of federal equity in Cohere; Cohere commits at least C$1.7 billion to computing infrastructure in Canada by 2030 (Wire, 29 Oct). China: Envision targets end-2028 for its Ulanqab Galaxy campus, eventually up to 3 GW, with offtake through 2029 or 2030 (Wire, 30 Oct, single source). India: AM Intelligence reportedly seeks up to $3 billion of debt to buy Nvidia Rubin GPUs for India and Malaysia (Wire, 30 Oct, single source). United Kingdom: Data Centre Covenant: 6 GW of AI data centre capacity needed by 2030; grid capacity reserved for strategic sites (Wire, 28 Oct).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/lambda-h100-od</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 29 Oct 2026. Confirm vs 28 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/lambda-h100-od</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 30 Oct 2026. Confirm vs 29 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/lambda-b200-od</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 29 Oct 2026. Confirm vs 28 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/lambda-b200-od</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 30 Oct 2026. Confirm vs 29 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/coreweave-h100-od</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 29 Oct 2026. Confirm vs 28 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/coreweave-h100-od</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 30 Oct 2026. Confirm vs 29 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/crusoe-h100-od</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 29 Oct 2026. Confirm vs 28 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/crusoe-h100-od</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 30 Oct 2026. Confirm vs 29 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/crusoe-b300-od</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 29 Oct 2026. Confirm vs 28 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/crusoe-b300-od</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 30 Oct 2026. Confirm vs 29 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/do-b300-spot</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 29 Oct 2026. Confirm vs 28 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/do-b300-spot</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 30 Oct 2026. Confirm vs 29 Oct print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/do-mi355x-spot</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 29 Oct 2026. Confirm vs 28 Oct print; was $2.97 on 27 Oct</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/do-mi355x-spot</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 30 Oct 2026. Confirm vs 29 Oct print; was $2.97 on 27 Oct</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/do-mi350x-spot</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 29 Oct 2026. Confirm vs 28 Oct print; was $2.46 on 27 Oct</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/do-mi350x-spot</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 30 Oct 2026. Confirm vs 29 Oct print; was $2.46 on 27 Oct</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-29/aws-cb-b300</guid>
-    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 29 Oct 2026. Confirm vs 28 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-10-30/aws-cb-b300</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 30 Oct 2026. Confirm vs 29 Oct print</description>
   </item>
 </channel></rss>
