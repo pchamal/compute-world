@@ -5,6 +5,27 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Envision targets end-2028 completion of its Galaxy AI data centre campus in Ulanqab, Inner Mongolia, with eventual capacity of up to 3 GW</title>
+    <link>https://www.energyconnects.com/news/utilities/2026/october/envision-to-complete-massive-inner-mongolia-data-center-by-2028/</link>
+    <guid isPermaLink="false">compute.world/wire#china-envision-galaxy-ulanqab-3gw-by-end-2028-offtake-2029-2030-2026-10-30</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Ricky Zheng, general manager of Envision Group&#x27;s AI data centre business, told Bloomberg TV on 30 October 2026 that the wind and battery maker plans to finish its Galaxy Campus at Ulanqab, about 350 km northwest of Beijing, by the end of 2028, with capacity eventually reaching 3 GW. Envision began operating the site in August. It provides power and supporting systems while tenants install their own chip clusters, and Zheng said offtake agreements are already lined up through 2029 or 2030. He said Envision aims for as much as 10 GW globally over the longer term. Caveat: single interview; tenants, chip mix and phasing beyond the first phase were not disclosed. Country conversion: China pairs inland renewable power with leased AI halls. [Signal 52, Single-source, via Bloomberg News (via Energy Connects), 30 Oct 2026, interview with Envision&#x27;s Ricky Zheng] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>AM Intelligence reportedly seeks up to $3 billion of bonds and loans to buy Nvidia Rubin GPUs for its India and Malaysia build</title>
+    <link>https://www.cnbc.com/2026/10/30/nvidia-india-ai-chips-computing.html</link>
+    <guid isPermaLink="false">compute.world/wire#india-am-intelligence-3bn-debt-raise-rubin-gpus-2026-10-30</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Bloomberg reported on 30 October 2026, as relayed by CNBC, that Hyderabad-based AM Intelligence, owned by the founders of Greenko, plans to raise up to $3 billion through bond issues and bank loans to purchase Nvidia Rubin GPUs, and expects about $300 million in advance payments from potential offtakers. The split between bonds and loans is not final. The company said on 5 October it would invest $6 billion for 100 MW split across India and Malaysia with 29,000 Rubin chips. Caveat: report based on unnamed sources; the company did not respond to CNBC. Country conversion: India&#x27;s largest Rubin order outside North America moves to debt financing. [Signal 44, Single-source, via CNBC 30 Oct 2026, citing Bloomberg] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Canada commits up to C$1.6 billion of equity in Cohere; Cohere commits at least C$1.7 billion to computing infrastructure in Canada by 2030</title>
+    <link>https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai</link>
+    <guid isPermaLink="false">compute.world/wire#canada-cohere-equity-c1-6bn-c1-7bn-canadian-compute-2030-2026-10-29</guid>
+    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Prime Minister Mark Carney announced on 29 October 2026 that the Government of Canada will make an equity investment of up to about C$1.6 billion in Cohere, alongside private investors including NVIDIA, Bell and Schwarz Group. In return Cohere commits to at least C$1.7 billion of additional computing infrastructure in Canada by 2030, at least 1,000 new Canadian technical jobs by 2030, and to keep its Canadian incorporation and headquarters. The investment is staged, with regular reporting against those commitments. Caveat: no site, capacity in MW, chip count or provider for the compute was disclosed, and the total round size was not given. Country conversion: Canada ties sovereign model money to compute that must be built at home. [Signal 66, Confirmed, via Prime Minister of Canada news release, 29 Oct 2026 (primary)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>UK Budget sets a Data Centre Covenant: 6 GW of AI data centre capacity needed by 2030, with grid capacity reserved for strategic sites that sign up</title>
     <link>https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant</link>
     <guid isPermaLink="false">compute.world/wire#uk-data-centre-covenant-6gw-2030-grid-reservation-2026-10-28</guid>
@@ -192,26 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#korea-chip-exports-oct-1-20-27-5bn-up-222pct-2026-10-21</guid>
     <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
     <description>Preliminary Korea Customs Service data released on 21 October 2026 show South Korea&#x27;s total exports for 1 to 20 October at US$61.6 billion, up 105.4% year on year and a record for the period. Semiconductor exports rose 222.5% to US$27.5 billion and made up 44.7% of total exports, up 16.2 percentage points from a year earlier; computer peripherals rose 424.0%. Imports rose 42.8% to US$47.1 billion. The data are preliminary. Working-day-adjusted daily exports rose 65.9%, so part of the headline jump reflects more working days than in the same period of 2025. Country conversion: memory and AI server pricing is now the main driver of Korea&#x27;s trade account, days before SK hynix (28 Oct) and Samsung (29 Oct) report. [Signal 56, Confirmed, via Korea Customs Service via Korea.kr briefing 21 Oct 2026 (primary); Yonhap 21 Oct 2026] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>NextDC cuts FY27 guidance and pauses all uncontracted development after Jemena suspends grid works for M3 Melbourne; shares fall about 42%</title>
-    <link>https://www.marketindex.com.au/data-api/api/v1/announcements/XASX:NXT:2A1705181/pdf/inline/m3-melbourne-power-delay-revised-fy27-guidance</link>
-    <guid isPermaLink="false">compute.world/wire#nextdc-m3-fy27-guidance-cut-jemena-works-suspended-2026-10-21</guid>
-    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
-    <description>On 21 October 2026 NextDC ended its trading halt with an ASX release saying Jemena Electricity Networks suspended parts of the 66 kV line works needed for the next increase in grid supply to its M3 Melbourne (West Footscray) data centre, citing safety concerns, community and stakeholder opposition and the lack of local council consent. Jemena does not expect to restart before February 2027, and NextDC now expects that supply increase in FY28. Later increases also depend on new transformers at the Brooklyn Terminal Station, which are now expected later than planned. The Victorian planning decision on M3 Stages 6 and 7 is not expected until 2027 because of the 28 November state election. NextDC removed the affected M3 contracts, about A$140 million each of net revenue and underlying EBITDA, from FY27 guidance: net revenue A$475 to 500 million (was A$615 to 640 million), underlying EBITDA A$245 to 265 million (was A$385 to 410 million), capex A$4.5 to 5.0 billion (was A$5.25 to 5.75 billion). All new development projects and land acquisitions are on hold, site sales will be evaluated, and the contracts allow service level credits and in some cases termination; NextDC is assessing force majeure relief. Liquidity was A$8.675 billion at 30 September and covenants are met. Reuters reports the shares closed down 41.7%, about A$3 billion of market value, the worst day since listing in 2010. Country conversion: contracted Australian hyperscale capacity stalls on distribution-network works blocked by local opposition. [Signal 84, Confirmed, via NextDC ASX release 21 Oct 2026 (primary); Reuters 21 Oct 2026; ABC News 21 Oct 2026] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Humain and DataVolt sign a preliminary framework with Nebius for up to 50 MW at the Oxagon AI campus in NEOM, Saudi Arabia</title>
-    <link>https://www.neom.com/en-us/newsroom/International-Agreement-Strengthens-Data-Center-Capabilities</link>
-    <guid isPermaLink="false">compute.world/wire#humain-datavolt-nebius-oxagon-neom-50mw-framework-2026-10-21</guid>
-    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
-    <description>On 21 October 2026 Humain (PIF) and DataVolt announced a preliminary framework agreement with Nebius for capacity at their planned AI giga campus in Oxagon, NEOM. Nebius would be the anchor customer, with a contemplated offtake of up to 50 MW, half of the first 100 MW now under construction within a planned 360 MW first phase. The capacity is expected to come online in phases from Q4 2027, and Nebius expects to deploy NVIDIA-based infrastructure. The release says construction began about six weeks earlier; the agreement was signed on the sidelines of NVIDIA GTC Berlin. The framework is preliminary and the release gives no contract value or term. Country conversion: the first named international offtaker for a Saudi build-to-export AI campus. [Signal 66, Confirmed, via NEOM / Humain / DataVolt joint release 21 Oct 2026 (primary)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Switzerland tenders the Swiss Government Cloud: up to CHF 7 billion over 14 years in three lots, one lot per bidder</title>
-    <link>https://www.efd.admin.ch/en/newnsb/vL4DxR3WIhey</link>
-    <guid isPermaLink="false">compute.world/wire#switzerland-swiss-government-cloud-tender-chf7bn-three-lots-14yr-2026-10-20</guid>
-    <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
-    <description>The Federal Office of Information Technology, Systems and Telecommunication published the Swiss Government Cloud tender (WTO 25002 609) on SIMAP on 20 October 2026. Lot 1 is global public cloud (two awards, up to CHF 2 billion), lot 2 is public cloud with data stored and processed only in Switzerland on open source (two awards, up to CHF 2 billion), and lot 3 is private cloud in federal data centres (one award, up to CHF 3 billion). No bidder can win more than one lot; awards run seven years and re-open, for 14 years in total, and spending is pay as you use. Prequalification runs 60 days; awards are expected late summer 2027 and first call-offs late autumn 2027. Caveat: CHF 7 billion is a ceiling, not a commitment. Country conversion: Switzerland caps any one provider&#x27;s share of federal cloud by design. [Signal 56, Confirmed, via Federal Department of Finance / FOITT press release, 20 Oct 2026 (primary)] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
