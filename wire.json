@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "id": "canada-cohere-equity-c1-6bn-c1-7bn-canadian-compute-2030-2026-10-29",
+      "date": "2026-10-29",
+      "title": "Canada commits up to C$1.6 billion of equity in Cohere; Cohere commits at least C$1.7 billion to computing infrastructure in Canada by 2030",
+      "summary": "Prime Minister Mark Carney announced on 29 October 2026 that the Government of Canada will make an equity investment of up to about C$1.6 billion in Cohere, alongside private investors including NVIDIA, Bell and Schwarz Group. In return Cohere commits to at least C$1.7 billion of additional computing infrastructure in Canada by 2030, at least 1,000 new Canadian technical jobs by 2030, and to keep its Canadian incorporation and headquarters. The investment is staged, with regular reporting against those commitments. Caveat: no site, capacity in MW, chip count or provider for the compute was disclosed, and the total round size was not given. Country conversion: Canada ties sovereign model money to compute that must be built at home.",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+      "source": "Prime Minister of Canada news release, 29 Oct 2026 (primary)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CAN"
+      ],
+      "flags": "🇨🇦",
+      "tags": [
+        "Policy",
+        "Capital"
+      ],
+      "score": 66
+    },
+    {
+      "id": "china-envision-galaxy-ulanqab-3gw-by-end-2028-offtake-2029-2030-2026-10-30",
+      "date": "2026-10-30",
+      "title": "Envision targets end-2028 completion of its Galaxy AI data centre campus in Ulanqab, Inner Mongolia, with eventual capacity of up to 3 GW",
+      "summary": "Ricky Zheng, general manager of Envision Group's AI data centre business, told Bloomberg TV on 30 October 2026 that the wind and battery maker plans to finish its Galaxy Campus at Ulanqab, about 350 km northwest of Beijing, by the end of 2028, with capacity eventually reaching 3 GW. Envision began operating the site in August. It provides power and supporting systems while tenants install their own chip clusters, and Zheng said offtake agreements are already lined up through 2029 or 2030. He said Envision aims for as much as 10 GW globally over the longer term. Caveat: single interview; tenants, chip mix and phasing beyond the first phase were not disclosed. Country conversion: China pairs inland renewable power with leased AI halls.",
+      "url": "https://www.energyconnects.com/news/utilities/2026/october/envision-to-complete-massive-inner-mongolia-data-center-by-2028/",
+      "source": "Bloomberg News (via Energy Connects), 30 Oct 2026, interview with Envision's Ricky Zheng",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "CHN"
+      ],
+      "flags": "🇨🇳",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 52
+    },
+    {
+      "id": "india-am-intelligence-3bn-debt-raise-rubin-gpus-2026-10-30",
+      "date": "2026-10-30",
+      "title": "AM Intelligence reportedly seeks up to $3 billion of bonds and loans to buy Nvidia Rubin GPUs for its India and Malaysia build",
+      "summary": "Bloomberg reported on 30 October 2026, as relayed by CNBC, that Hyderabad-based AM Intelligence, owned by the founders of Greenko, plans to raise up to $3 billion through bond issues and bank loans to purchase Nvidia Rubin GPUs, and expects about $300 million in advance payments from potential offtakers. The split between bonds and loans is not final. The company said on 5 October it would invest $6 billion for 100 MW split across India and Malaysia with 29,000 Rubin chips. Caveat: report based on unnamed sources; the company did not respond to CNBC. Country conversion: India's largest Rubin order outside North America moves to debt financing.",
+      "url": "https://www.cnbc.com/2026/10/30/nvidia-india-ai-chips-computing.html",
+      "source": "CNBC 30 Oct 2026, citing Bloomberg",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "IND",
+        "MYS"
+      ],
+      "flags": "🇮🇳🇲🇾",
+      "tags": [
+        "Capital"
+      ],
+      "score": 44
+    },
+    {
       "id": "uk-data-centre-covenant-6gw-2030-grid-reservation-2026-10-28",
       "date": "2026-10-28",
       "title": "UK Budget sets a Data Centre Covenant: 6 GW of AI data centre capacity needed by 2030, with grid capacity reserved for strategic sites that sign up",
@@ -2678,6 +2735,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-29",
-  "note": "Wire refresh 2026-10-29: added uk-data-centre-covenant-6gw-2030-grid-reservation-2026-10-28, india-lt-vyoma-chennai-52mw-groundbreaking-ai-factory-campus-2026-10-28, brazil-gaispi-sovereign-ai-data-centre-r375m-48-gpus-telebras-2026-10-27, seychelles-cabinet-sovereign-government-cloud-two-datacentres-ai-strategy-2026-10-28. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-10-30",
+  "note": "Wire refresh 2026-10-30: added canada-cohere-equity-c1-6bn-c1-7bn-canadian-compute-2030-2026-10-29, china-envision-galaxy-ulanqab-3gw-by-end-2028-offtake-2029-2030-2026-10-30, india-am-intelligence-3bn-debt-raise-rubin-gpus-2026-10-30. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
