@@ -5,6 +5,48 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Vultr launches a 20 MW AMD MI355X supercluster in Chennai with about 10,000 GPUs and targets 600 MW in India by 2028</title>
+    <link>https://www.thehindu.com/business/Industry/vultr-launches-20-mw-ai-supercluster-in-chennai-aims-1-gw-capacity-by-2029/article71656654.ece</link>
+    <guid isPermaLink="false">compute.world/wire#india-vultr-chennai-20mw-mi355x-supercluster-launch-2026-11-02</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Vultr launched its Chennai AI supercluster on 2 November 2026: 20 MW of capacity running AMD Instinct MI355X GPUs, about 10,000 GPUs in the initial configuration, with a large portion of capacity pre-reserved by global enterprises, the company said. It plans to expand in 2027 with AMD MI455X and Helios rack-scale systems, and is targeting 600 MW of AI capacity in India by 2028 and gigawatt scale by 2029. The region was first announced with AMD on 20 October. Caveat: the 600 MW and 1 GW targets are not firm commitments, per The Hindu. Country conversion: India gets one of the largest non-Nvidia GPU clusters outside the US. [Signal 46, Confirmed, via Vultr launch press conference, 2 Nov 2026, via The Hindu; Vultr and AMD release 20 Oct 2026] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Samsung SDS breaks ground on a 60 MW AI data centre in Gumi, expandable to 120 MW by end-2028</title>
+    <link>https://www.koreaherald.com/article/10922887</link>
+    <guid isPermaLink="false">compute.world/wire#korea-samsung-sds-gumi-60mw-to-120mw-ai-data-centre-groundbreaking-2026-11-02</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Samsung SDS held a groundbreaking ceremony on 2 November 2026 for its AI data centre in Gumi, North Gyeongsang Province, which will open with 60 MW of power capacity and is designed to reach 120 MW through phased expansion, with completion scheduled by the end of 2028. The company approved a 427.3 billion won (about $319 million) investment in January. The site will mix liquid and air cooling, support Samsung affiliates&#x27; robotics training, and sell GPU compute and colocation to outside customers. Caveat: chip supplier and GPU count were not disclosed. Country conversion: Korea adds regional AI capacity outside the Seoul metro grid. [Signal 40, Confirmed, via The Korea Herald, 2 Nov 2026, Samsung SDS ceremony] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>KB Kookmin Bank to lead about 10.7 trillion won of loans for Brookfield&#x27;s Naver Cloud GPU project, Korea&#x27;s first GPU financing</title>
+    <link>https://www.koreatimes.co.kr/business/banking-finance/20261101/kb-kookmin-bank-to-lead-945-bil-ai-infrastructure-financing</link>
+    <guid isPermaLink="false">compute.world/wire#korea-kb-kookmin-10-7tn-won-gpu-financing-brookfield-naver-2026-11-01</guid>
+    <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+    <description>KB Kookmin Bank said on 1 November 2026 it had won the lead arranger mandate for a Brookfield AI computing infrastructure project worth about 12.6 trillion won (about $9.45 billion per The Korea Times), of which about 10.7 trillion won will be raised through a syndicated loan. A Brookfield special purpose company will buy GPUs and related infrastructure and supply the capacity to Naver Cloud under a long-term contract, and lenders are underwriting against that contracted revenue rather than real estate or power assets. The bank called it Korea&#x27;s first GPU financing and its largest-ever syndicated loan arrangement. Hana, Shinhan, Woori and NH Investment &amp; Securities are reported participants. Caveat: final lender commitments, pricing and tenor were not disclosed. Country conversion: the 27 October Naver and Brookfield $9 billion deal now has a domestic bank syndicate behind the chips. [Signal 58, Confirmed, via KB Kookmin Bank statement, 1 Nov 2026, via The Korea Times and Yonhap] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>National Grid agrees to buy 29.5 hectares at Teesworks for what would be Britain&#x27;s biggest substation, next to a planned AI data centre</title>
+    <link>https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre</link>
+    <guid isPermaLink="false">compute.world/wire#uk-national-grid-teesworks-dorman-point-substation-up-to-3-2gw-2026-11-01</guid>
+    <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+    <description>National Grid agreed last week to buy 29.5 hectares (73 acres) at Dorman Point on the Teesworks site for a substation that would be the UK&#x27;s largest, the Guardian reported on 1 November 2026, following Sky News. Tees Valley mayor Ben Houchen said the site would have up to 3.2 GW of capacity. Planning applications have been submitted for a neighbouring data centre of nearly 500,000 square metres, and Balfour Beatty was reported to be in line to build the substation. National Grid&#x27;s head of land said the company would progress the development as quickly as possible. Caveat: no energisation date, data centre tenant or connection agreement was disclosed; the 3.2 GW figure is the mayor&#x27;s. Country conversion: UK grid capacity is being placed ahead of AI load at a named site. [Signal 50, Corroborated, via The Guardian, 1 Nov 2026, following Sky News; National Grid statement] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Energy North scraps the June 2028 first-power date for its 1 GW Project Ares outback data centre after the NT regulator pauses review</title>
+    <link>https://www.channelnewsasia.com/business/exclusive-australian-outback-data-centre-pulls-timeline-after-regulator-stalls-6511551</link>
+    <guid isPermaLink="false">compute.world/wire#australia-energy-north-project-ares-1gw-first-power-date-scrapped-2026-11-01</guid>
+    <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Reuters reported on 1 November 2026 that Energy North, which plans a gas and solar-powered data centre campus of about 1 GW on a cattle station in the Northern Territory, has dropped its 28 June 2028 first-power target after the NT Environment Protection Authority suspended its seven-week deadline on 7 October to set the project&#x27;s assessment terms. The developer told Reuters it would set a new schedule once the terms for an environmental impact statement are issued. Caveat: Reuters exclusive; no new date given. Country conversion: Australia&#x27;s fast-track pitch meets an environmental approvals stall. [Signal 38, Single-source, via Reuters exclusive, 1 Nov 2026 (via CNA)] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Anthropic reportedly in talks to lease Beacon Data Centers&#x27; Sturgeon County campus near Edmonton, powered by an approved 920 MW gas plant</title>
+    <link>https://www.theglobeandmail.com/business/economy/article-anthropic-ai-talks-to-lease-beacon-data-centre-near-edmonton-alberta/</link>
+    <guid isPermaLink="false">compute.world/wire#canada-anthropic-beacon-sturgeon-county-lease-talks-920mw-gas-2026-10-30</guid>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+    <description>The Globe and Mail reported on 30 October 2026, citing two sources, that Anthropic is negotiating to be the tenant of a proposed four-hall AI and high-performance computing campus being developed by Calgary-based Beacon Data Centers in Sturgeon County, Alberta. The Alberta Utilities Commission approved the site&#x27;s 920 MW natural gas-fired power plant on 23 October, with construction expected to start in Q4 2026 and an in-service date in Q4 2027. The campus would have about double the power of the 420 MW EverWind site in Nova Scotia that Anthropic leased on 16 October. Caveat: Anthropic and Beacon declined to comment; no lease, term or price has been announced, and the AUC approval covers generation only. Country conversion: Canada could host a second Anthropic campus, this one on behind-the-meter gas. [Signal 48, Single-source, via The Globe and Mail, 30 Oct 2026 (two unnamed sources); AUC decision 23 Oct 2026] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
     <title>Envision targets end-2028 completion of its Galaxy AI data centre campus in Ulanqab, Inner Mongolia, with eventual capacity of up to 3 GW</title>
     <link>https://www.energyconnects.com/news/utilities/2026/october/envision-to-complete-massive-inner-mongolia-data-center-by-2028/</link>
     <guid isPermaLink="false">compute.world/wire#china-envision-galaxy-ulanqab-3gw-by-end-2028-offtake-2029-2030-2026-10-30</guid>
@@ -17,6 +59,13 @@
     <guid isPermaLink="false">compute.world/wire#india-am-intelligence-3bn-debt-raise-rubin-gpus-2026-10-30</guid>
     <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
     <description>Bloomberg reported on 30 October 2026, as relayed by CNBC, that Hyderabad-based AM Intelligence, owned by the founders of Greenko, plans to raise up to $3 billion through bond issues and bank loans to purchase Nvidia Rubin GPUs, and expects about $300 million in advance payments from potential offtakers. The split between bonds and loans is not final. The company said on 5 October it would invest $6 billion for 100 MW split across India and Malaysia with 29,000 Rubin chips. Caveat: report based on unnamed sources; the company did not respond to CNBC. Country conversion: India&#x27;s largest Rubin order outside North America moves to debt financing. [Signal 44, Single-source, via CNBC 30 Oct 2026, citing Bloomberg] More: https://compute.world/wire.html</description>
+  </item>
+  <item>
+    <title>Nvidia in talks to guarantee billions of debt for Nscale&#x27;s West Virginia campus built for Anthropic</title>
+    <link>https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/</link>
+    <guid isPermaLink="false">compute.world/wire#usa-nvidia-nscale-monarch-west-virginia-debt-guarantee-talks-2026-10-29</guid>
+    <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+    <description>The Information reported on 29 October 2026, and Bloomberg corroborated, that Nvidia is negotiating a residual value guarantee to back debt for the power and construction of the first 460 MW building at Nscale&#x27;s Monarch Compute Campus in West Virginia, which Anthropic has contracted for about $44.6 billion and which is expected to use Vera Rubin systems. If Nscale defaulted on construction payments, Nvidia would take over the facility and help find a buyer and tenant. DCD put the backstop at more than $5 billion. Nscale&#x27;s IPO filing says the first building&#x27;s financing is not yet secured and Anthropic can terminate if it is not in place by a longstop date. The Wall Street Journal later reported that the backers have since sought stricter terms. Caveat: not signed; terms could change; Nvidia and Nscale did not comment. Country conversion: US gigawatt-scale AI build now leans on the chip vendor&#x27;s balance sheet. [Signal 62, Corroborated, via The Information 29 Oct 2026, corroborated by Bloomberg; via TechCrunch and DCD] More: https://compute.world/wire.html</description>
   </item>
   <item>
     <title>Canada commits up to C$1.6 billion of equity in Cohere; Cohere commits at least C$1.7 billion to computing infrastructure in Canada by 2030</title>
@@ -164,54 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#humain-nvidia-84mw-b300-vera-rubin-27000-gpus-2026-10-22</guid>
     <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
     <description>At NVIDIA GTC Berlin on 22 October 2026, Humain (PIF-owned) and NVIDIA announced an expanded collaboration covering a multi-phase rollout of up to 84 MW of AI compute in Saudi Arabia, about 27,000 GPUs. Phase one is 14 MW of NVIDIA Blackwell HGX B300 systems, about 6,000 GPUs on Quantum-X800 InfiniBand, with deployment starting in Q4 2026 for Humain Cloud customers. Humain then expects 70 MW of Vera Rubin infrastructure, about 21,000 GPUs, from June 2027: 50 MW for frontier-scale workloads of an unnamed US-based client and 20 MW for Humain Cloud from July or August 2027, all on the NVIDIA DSX platform. The National reports the Vera Rubin phases remain subject to final agreements. Humain targets nearly 3 GW of data center capacity by 2030 and more than 6 GW by 2034. Caveat: no primary release URL was found at our cutoff; figures are from The National and Data Centre Magazine, which quote both companies. Country conversion: a second named offtake for Saudi export compute in two days, after Nebius at Oxagon. [Signal 64, Corroborated, via The National 22 Oct 2026; Data Centre Magazine 22 Oct 2026 (company quotes)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Google and Voltus expand to a 1 GW Google-funded virtual power plant across PJM</title>
-    <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virtual-power-plant-1-gigawatt/</link>
-    <guid isPermaLink="false">compute.world/wire#google-voltus-pjm-1gw-virtual-power-plant-2026-10-22</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>On 22 October 2026 Google and Voltus announced an expanded agreement to build a 1 GW virtual power plant across the PJM region (13 states plus Washington, D.C., about 67 million people). Voltus aggregates flexible demand from businesses and homes, such as smart thermostats, batteries and industrial assets, that cut use during peaks; Google funds it and participants receive bill savings and cash payments. It is a tenfold expansion of a 100 MW agreement from earlier in 2026, and Google calls it one of the largest distributed capacity portfolios deployed by a hyperscaler. The release gives no cost, timeline or link to specific Google campuses. Country conversion: in the tightest US capacity market, a hyperscaler is buying demand response at gigawatt scale to make room for its own load. [Signal 62, Confirmed, via Google blog 22 Oct 2026 (primary)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>UK industry taskforce with NVIDIA, Microsoft and Cisco tells ministers they have about 12 months to win local consent for data centres</title>
-    <link>https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened</link>
-    <guid isPermaLink="false">compute.world/wire#uk-sail-taskforce-datacentre-consent-compact-12-months-2026-10-22</guid>
-    <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
-    <description>The Guardian reported on 22 October 2026 (exclusive) that the Sovereign AI Leadership (SAIL) taskforce, whose members include NVIDIA, Microsoft and Cisco, told the UK government it has a window of roughly 12 months to build a compact that earns public consent before US-style organised opposition takes hold. The submission asks for a national framework of recommended local-benefit terms for councils and mayors, including an indicative contribution scaled to site size, and for host councils to keep more business rates. It cites dry summers and rising energy bills as drivers of scrutiny. Action to Protect Rural Scotland says 15 community campaigns are already active in Scotland. A government spokesperson pointed to existing measures letting councils in England&#x27;s AI growth zones keep all additional business rates. Caveat: single outlet; the submission itself was not published. Country conversion: the industry is asking Britain to pay for social licence before the build-out, after Microsoft&#x27;s Loughton exit and NextDC&#x27;s consent-driven delay. [Signal 58, Single-source, via The Guardian 22 Oct 2026 (exclusive)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Bull and CRA sign MoU for the Czech AI Gigafactory bid, first deal under the France-Czech AI pact</title>
-    <link>https://www.bull.com/en/press-releases/bull-and-cra-join-forces-to-build-the-czech-ai-gigafactory-for-central-and-eastern-europe</link>
-    <guid isPermaLink="false">compute.world/wire#czech-bull-cra-aigf-cz-ai-gigafactory-mou-cee-2026-10-21</guid>
-    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Bull and Ceske Radiokomunikace (CRA) said on 21 October 2026 they signed a strategic memorandum to combine CRA&#x27;s infrastructure with Bull&#x27;s systems, software and services in the CRA-led consortium bidding for the Czech AI Gigafactory (AIGF CZ) under the EU AI Gigafactories programme. It is the first industrial agreement under the bilateral AI and digital cooperation agreement signed by French minister Anne Le Henanff and Czech minister Karel Havlicek. Bull says its Czech and French manufacturing with Foxconn could build the servers, and it plans to reserve capacity for its own clients. CRA runs eight data centres and already sells GPU capacity. Caveat: non-binding; capacity, site, chips and cost not disclosed, and the EU selection is pending. Country conversion: Czechia positions a telco-led bid as the Central and Eastern European gigafactory candidate. [Signal 46, Confirmed, via Bull press release, 21 Oct 2026 (primary); CRA press release] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Crusoe takes Polar&#x27;s 40 MW DRA02 building at Tørdal, Norway, for Vera Rubin NVL72; DRA01 live at 12 MW</title>
-    <link>https://www.crusoe.ai/resources/newsroom/polar-crusoe-partnership-expansion</link>
-    <guid isPermaLink="false">compute.world/wire#norway-polar-crusoe-dra02-tordal-40mw-vera-rubin-late-2027-2026-10-21</guid>
-    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Polar Data Centers said on 21 October 2026 that DRA01 at its hydro-powered Tørdal campus in Norway is live with 12 MW of IT capacity running Crusoe Cloud, and that Crusoe will take DRA02, a second liquid-cooled building of 40 MW critical IT expected live in late 2027, where Crusoe plans to deploy Nvidia Vera Rubin NVL72. Caveat: GPU count and contract value not disclosed. Country conversion: Norway&#x27;s hydro campuses keep converting into US neocloud capacity, now on the Rubin generation. [Signal 50, Confirmed, via Crusoe / Polar press release, 21 Oct 2026 (primary)] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>Oman signs Yamna to build a large AI data centre in Salalah; first phase over £1 billion</title>
-    <link>https://www.gov.uk/government/news/major-investment-to-drive-growth-and-jobs-across-britain-as-sultan-of-oman-visits-uk</link>
-    <guid isPermaLink="false">compute.world/wire#oman-yamna-salalah-ai-data-centre-1bn-gbp-first-phase-mou-2026-10-21</guid>
-    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
-    <description>The UK government said on 21 October 2026, during Sultan Haitham bin Tarik&#x27;s state visit, that UK-founded Yamna would sign an agreement with Oman to build a large-scale AI data centre in Salalah, with a first phase expected to exceed £1 billion. Yamna said it signed a strategic cooperation agreement with Oman&#x27;s Ministry of Transport, Communications and Information Technology for the project, branded Salalah Al Khadra Digital. UK Export Finance raised its capacity for UK exports to Oman to up to £7 billion. Caveat: MoU stage; MW, power source, tenant and chips not disclosed. Country conversion: Oman enters the Gulf AI campus race with a southern site away from the Gulf states&#x27; existing hubs. [Signal 44, Corroborated, via GOV.UK (FCDO) 21 Oct 2026 (primary); Yamna statement] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>IREN secures grid power and a civil works license for a planned 300 MW AI campus in Badajoz, Spain, targeting 2028</title>
-    <link>https://www.globenewswire.com/news-release/2026/10/21/3385423/0/en/iren-to-advance-europe-s-sovereign-ai-ambitions-with-300mw-spanish-campus.html</link>
-    <guid isPermaLink="false">compute.world/wire#iren-badajoz-spain-300mw-civil-works-license-2028-2026-10-21</guid>
-    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
-    <description>At NVIDIA GTC Berlin on 21 October 2026, IREN announced it has secured grid-connected power and the civil works license for a planned AI data center of about 300 MW in Badajoz, Extremadura, with initial operations targeted for 2028. The campus uses closed-loop liquid cooling, is designed for NVIDIA DSX compatibility, and will offer managed AI cloud services for customers with data residency requirements. IREN also set up IREN Europe, chaired by former Banco Santander CEO Angel Corcostegui, with Roberto Purcaro as Executive Director for Europe. IREN entered Spain in June 2026 by buying developer Nostrum Group. Europa Press reports construction should start between late 2026 and early 2027. No customer, capex or GPU count was disclosed. Country conversion: Spain gets a permitted, grid-connected 300 MW neocloud site while UK projects stall on grid queues. [Signal 54, Confirmed, via IREN release 21 Oct 2026 (primary); Europa Press 21 Oct 2026] More: https://compute.world/wire.html</description>
-  </item>
-  <item>
-    <title>South Korea&#x27;s chip exports hit a record US$27.5 billion for 1 to 20 October, up 222.5%, 44.7% of all exports</title>
-    <link>https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785926</link>
-    <guid isPermaLink="false">compute.world/wire#korea-chip-exports-oct-1-20-27-5bn-up-222pct-2026-10-21</guid>
-    <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Preliminary Korea Customs Service data released on 21 October 2026 show South Korea&#x27;s total exports for 1 to 20 October at US$61.6 billion, up 105.4% year on year and a record for the period. Semiconductor exports rose 222.5% to US$27.5 billion and made up 44.7% of total exports, up 16.2 percentage points from a year earlier; computer peripherals rose 424.0%. Imports rose 42.8% to US$47.1 billion. The data are preliminary. Working-day-adjusted daily exports rose 65.9%, so part of the headline jump reflects more working days than in the same period of 2025. Country conversion: memory and AI server pricing is now the main driver of Korea&#x27;s trade account, days before SK hynix (28 Oct) and Samsung (29 Oct) report. [Signal 56, Confirmed, via Korea Customs Service via Korea.kr briefing 21 Oct 2026 (primary); Yonhap 21 Oct 2026] More: https://compute.world/wire.html</description>
   </item>
 </channel></rss>
