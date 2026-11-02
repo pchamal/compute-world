@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Amazon closed out hyperscaler earnings week with the same message as Google and Microsoft: demand is ahead of supply. AWS revenue rose 39.3% to $46.0 billion, its fastest growth in nearly five years, its backlog reached $578 billion, more than double a year earlier, and Andy Jassy said AWS is installing an AI accelerator about every 14 seconds with customers taking it almost as fast. Cash capex was $75.9 billion in the quarter; Amazon kept 2026 at about $220 billion and said 2027 will be meaningfully more. Upstream, the squeeze is in packaging: Intel said substrate supply limits how fast it can scale EMIB, and Taiwan press reports TSMC is weighing CoWoS price rises of 10% to 20%. Ottawa turned sovereign AI into a compute obligation, with up to C$1.6 billion of equity in Cohere tied to at least C$1.7 billion of new Canadian computing infrastructure by 2030. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour.</description>
+  <description>After a week of record hyperscaler backlogs, the weekend story was who pays for the buildings. The Wall Street Journal reported that CoreWeave, Nebius and Nscale have effectively been shut out of the high-yield bond market, with CoreWeave&#x27;s 9.75% notes now trading above a 15% yield, Lambda cutting its target valuation from $14.5 billion to $13 billion, and Nscale&#x27;s IPO leaning toward December. Where bonds will not go, vendors and banks are stepping in: Nvidia is in talks to guarantee billions of debt for the first 460 MW building of Nscale&#x27;s West Virginia campus, which Anthropic has contracted for about $44.6 billion, and KB Kookmin Bank will arrange about 10.7 trillion won of loans secured on Naver Cloud&#x27;s long-term GPU contract, Korea&#x27;s first GPU financing. In hardware, Marvell agreed to buy Lumentum in an all-stock deal valued at $115 billion to combine electrical and optical interconnect. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 30 October 2026</title>
+    <title>Compute brief - 2 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-10-30</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Amazon closed out hyperscaler earnings week with the same message as Google and Microsoft: demand is ahead of supply. AWS revenue rose 39.3% to $46.0 billion, its fastest growth in nearly five years, its backlog reached $578 billion, more than double a year earlier, and Andy Jassy said AWS is installing an AI accelerator about every 14 seconds with customers taking it almost as fast. Cash capex was $75.9 billion in the quarter; Amazon kept 2026 at about $220 billion and said 2027 will be meaningfully more. Upstream, the squeeze is in packaging: Intel said substrate supply limits how fast it can scale EMIB, and Taiwan press reports TSMC is weighing CoWoS price rises of 10% to 20%. Ottawa turned sovereign AI into a compute obligation, with up to C$1.6 billion of equity in Cohere tied to at least C$1.7 billion of new Canadian computing infrastructure by 2030. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour. Countries: Canada: Up to C$1.6 billion of federal equity in Cohere; Cohere commits at least C$1.7 billion to computing infrastructure in Canada by 2030 (Wire, 29 Oct). China: Envision targets end-2028 for its Ulanqab Galaxy campus, eventually up to 3 GW, with offtake through 2029 or 2030 (Wire, 30 Oct, single source). India: AM Intelligence reportedly seeks up to $3 billion of debt to buy Nvidia Rubin GPUs for India and Malaysia (Wire, 30 Oct, single source). United Kingdom: Data Centre Covenant: 6 GW of AI data centre capacity needed by 2030; grid capacity reserved for strategic sites (Wire, 28 Oct).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-02</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>After a week of record hyperscaler backlogs, the weekend story was who pays for the buildings. The Wall Street Journal reported that CoreWeave, Nebius and Nscale have effectively been shut out of the high-yield bond market, with CoreWeave&#x27;s 9.75% notes now trading above a 15% yield, Lambda cutting its target valuation from $14.5 billion to $13 billion, and Nscale&#x27;s IPO leaning toward December. Where bonds will not go, vendors and banks are stepping in: Nvidia is in talks to guarantee billions of debt for the first 460 MW building of Nscale&#x27;s West Virginia campus, which Anthropic has contracted for about $44.6 billion, and KB Kookmin Bank will arrange about 10.7 trillion won of loans secured on Naver Cloud&#x27;s long-term GPU contract, Korea&#x27;s first GPU financing. In hardware, Marvell agreed to buy Lumentum in an all-stock deal valued at $115 billion to combine electrical and optical interconnect. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour. Countries: South Korea: KB Kookmin leads about 10.7 trillion won of loans for Brookfield&#x27;s GPU SPC supplying Naver Cloud; Samsung SDS breaks ground on 60 MW Gumi site (Wire, 1 and 2 Nov). United States: Nvidia in talks to guarantee debt for Nscale&#x27;s 460 MW Anthropic building in West Virginia (Wire, 29 Oct, corroborated). United Kingdom: National Grid buys land at Teesworks for the UK&#x27;s biggest substation, up to 3.2 GW per the mayor, next to a planned AI data centre (Wire, 1 Nov). Canada: Anthropic reportedly in lease talks for Beacon&#x27;s Sturgeon County campus with an approved 920 MW gas plant (Wire, 30 Oct, single source). India: Vultr launches 20 MW, about 10,000 AMD MI355X GPUs in Chennai; targets 600 MW in India by 2028 (Wire, 2 Nov). Australia: Energy North drops the June 2028 first-power date for its 1 GW Project Ares after the NT regulator pauses review (Wire, 1 Nov, single source).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/lambda-h100-od</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 30 Oct 2026. Confirm vs 29 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/lambda-h100-od</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 02 Nov 2026. Confirm vs 30 Oct print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/lambda-b200-od</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 30 Oct 2026. Confirm vs 29 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/lambda-b200-od</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 02 Nov 2026. Confirm vs 30 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/coreweave-h100-od</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 30 Oct 2026. Confirm vs 29 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/coreweave-h100-od</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 02 Nov 2026. Confirm vs 30 Oct print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/crusoe-h100-od</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 30 Oct 2026. Confirm vs 29 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/crusoe-h100-od</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 02 Nov 2026. Confirm vs 30 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/crusoe-b300-od</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 30 Oct 2026. Confirm vs 29 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/crusoe-b300-od</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 02 Nov 2026. Confirm vs 30 Oct print</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/do-b300-spot</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 30 Oct 2026. Confirm vs 29 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/do-b300-spot</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 02 Nov 2026. Confirm vs 30 Oct print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/do-mi355x-spot</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 30 Oct 2026. Confirm vs 29 Oct print; was $2.97 on 27 Oct</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/do-mi355x-spot</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 02 Nov 2026. Confirm vs 30 Oct print; was $2.97 on 27 Oct</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/do-mi350x-spot</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 30 Oct 2026. Confirm vs 29 Oct print; was $2.46 on 27 Oct</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/do-mi350x-spot</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 02 Nov 2026. Confirm vs 30 Oct print; was $2.46 on 27 Oct</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-10-30/aws-cb-b300</guid>
-    <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 30 Oct 2026. Confirm vs 29 Oct print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-02/aws-cb-b300</guid>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 02 Nov 2026. Confirm vs 30 Oct print</description>
   </item>
 </channel></rss>
