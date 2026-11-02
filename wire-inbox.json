@@ -1,19 +1,7 @@
 {
- "generated": "2026-11-02 16:21 UTC",
+ "generated": "2026-11-02 21:43 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
-  {
-   "title": "Cohere targets CAD$7 billion funding round at CAD$35.7 billion valuation as sovereign AI demand surges - Intelligent CIO",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSlRSNW5sdDZmODFlaDl6UFg5VlRPN3ZwTTJoZWFNdHVwMHkweHotdEl5RzJSTlB0V3lQNXVObkVlWjRMMUYwNVRRLVpTR0lDVGtuNFBONHNwNWdoYVR2M1VMQk5LYzREeDY2Snl2VW8xbThMT2xiUmtSNVN1ZVg3eGZyWnhyLUFfZHl6S2lTTzBHaVhDM09Id2trbHRuamw1V3dWSkJlYmtJNFZKR0RxRnJ3aHVLSFhydGRxSml4dnEwMW9sMkRHYllraFpzUWFTTWJjYXNRMHljRzhaNTBnbGFzakpvVHhwV2hkZXpn?oc=5",
-   "source": "Intelligent CIO",
-   "date": "2026-10-30",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 73,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
   {
    "title": "South Korea allocates $15.8 billion for AI data centers, chips - ET Datacenters",
    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWWQ2ODR5SW0xak43dllUaWFuaFVXelVPUlQ2VzM2RENLVjU4TS1nVkQyOUVvR3RyWWNHd0ItNzFmS0w2VEVSM1MxbC1xS2lsZHRZemgyQ3VwRjZBTi1Ob0VpaG5KQmdRVU5ZdG4zS1JGbnVQRWstTTV6blJ2bTJuUkxETFBlN1YxNVRlblJLRnVXRGliS2VLcTJTRlc0aEZSVkhrcW41TGpLMzBKQkREUl9STlZuSVVENnZPODVXWjJSMFlJc3hMektZU2ZIWl92aDFJbnExTDU3WjliRldGZEM0el9JWGwtN182Zl9RRmhITEJXZ0tWaV9qczBYTHNTUWgybU81eTVabW5tMDJyVUI4YzRJNmUzM0HSAegBQVVfeXFMT3hzV05ZcDFZa0xCcFBWWWxzUnpjaUd5TlFhTFFxdVBoS1pZZlpWalZnTnQtTTBqRkFTSHJsYnF1NEFjSmZ6RzF3dG1renBSSVBxeE9POUlWc2g2eDhnOHNhczB4UFhKemUyaXE5VUNQTW5qZldISkNaRzRVMkZEb0xWRXpBbE4yM1RjU2VIMWJQemJmUXUxRUlpd01YOGphdWR2S25Rd0xvODN5d3daekdTQ2xveVNkeVlWNmxPR25VOTNwTndmRXRJbVNBU01mbWE1ZkpqeVNCX2hmRWVObWpKUzV2WmhrSg?oc=5",
@@ -39,10 +27,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "South Korea's Samsung SDS Targets $746.8 Million in Annual Revenue by 2031 via AI Data Center DBO; Q3 Cloud and Logistics Grow Together - BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZdVdSM1NNMmJPUG51UmFmZEkzNzg0YnJaZGhUYWJGOWxFRVZTXzFjd2tpYjJqZjhOR24xN2JRMzRFNjljN3ktdmluUjBDTEVOMHZpMWZLTDdVS1dqY2ROMS14WWROTWQyU3BfRHI2T0xjRS1OelE?oc=5",
+   "title": "South Korea's KB Kookmin Bank to Lead approximately $9.4 Billion GPU Financing, Country's First and Largest Syndicated Loan - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xSWo5VU9qamhhYkR5aTQxOEYzNTl3LTItalFFUW5wMFV1c01nRFZWNkhURmNucWlSc2M3aHJySU95c1laMW5iYXd5ZjdtbWUyTkdCS2RQT0VOTldLcDBwazBXMWkzbHpyNDJaTVNXWW81RElSb0E?oc=5",
    "source": "BigGo Finance",
-   "date": "2026-10-29",
+   "date": "2026-11-01",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -171,18 +159,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "South Korea Bets $15.8B on Sovereign AI in Record 2027 Budget - The Tech Buzz",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMDJtamZ3clVLRWVDdjhVSVNIVEJWZ29fcDdTVHpGMV9COEFxQ0tBU3NraEFqUlYzVk5LUXBfTFZ6WlZtaVl6dVA5WlliUmZZbXFYRkxWZDE0bVY3MUZ5ZzhUMFJPWmY1SHd4M1JrU2xNUEUwdVZDQ0VQNFhld0FSdlZHa0hDZlBEdW15ZlhBbENBbC02ZjJrRw?oc=5",
-   "source": "The Tech Buzz",
-   "date": "2026-11-02",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "PIF & Aramco: HUMAIN and the $2.6bn Sovereign AI Initiative - AI Magazine",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOalg1X3VITlkzQVJZVXZNVm5GYkhGdmc2TW8ycDRKMm1mcDN0Z2ZPUmV6cTMzdWFjV3lFdmhPcWtIYUxsX1E3VHVQYlI1cWxLWUItcTQySWRZd3FpX25fLVd0RnlaTFNPandlZjUyazVmOFNyZVhWOW1mSHZOQ1FuT3hNOG5JOHdiRjJr?oc=5",
    "source": "AI Magazine",
@@ -195,10 +171,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Canada announces C$1.6bn equity investment in Cohere to scale sovereign AI - INSIGHT EU MONITORING",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbnRieW5ZWFlEejloZ0NidlRfWUs2RUtaWGhsclh0QUYwYUExQTd0dGh2YzVyb3dGSE1FYmk1NW12NXM5NVF0RFdjWHRaRjgyOExQSk83ZWRFV3EtSzF6QmJMRjhpMWJIWFE5QVF3ODlpUXA5SWJZSmpIWXhTRERzdjIwa2d3Z215YXBmb0RfNFBrV2VfUFVnZlBfUy1YeXhsNkNudWNraExqSUZvbU9pbVprN1ppTkktT1RfQ0h1Zy1jQmtIekhLR2l3Ml82ZWdzdnhVa3I5bDg?oc=5",
-   "source": "INSIGHT EU MONITORING",
-   "date": "2026-10-30",
+   "title": "South Korea Bets $15.8B on Sovereign AI in Record 2027 Budget - The Tech Buzz",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMDJtamZ3clVLRWVDdjhVSVNIVEJWZ29fcDdTVHpGMV9COEFxQ0tBU3NraEFqUlYzVk5LUXBfTFZ6WlZtaVl6dVA5WlliUmZZbXFYRkxWZDE0bVY3MUZ5ZzhUMFJPWmY1SHd4M1JrU2xNUEUwdVZDQ0VQNFhld0FSdlZHa0hDZlBEdW15ZlhBbENBbC02ZjJrRw?oc=5",
+   "source": "The Tech Buzz",
+   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -219,10 +195,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Cohere Announces Series E Fundraise Targeting CAD $7 Billion to Meet Surging Global Demand for Secure, Sovereign AI - PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVXg4V0l2aGJiWDNHNEdPTG8xOTRnaUdON0pJbTFRNFhJVHB6N3NiQjB2dUdadHZlbmcyN1VSaHlKMl82aXM2WHpmQngxS18tTWVOSEthRk5QSXNiY3JNeEwwRWxMVHRnU0hiUjZBWTlwa2o0ZmVoeXk3TFZRX0NWRjM3Vlc0MmJ5UDdSb2ljcjJURXEyeG56N2NwWVFQUGNhVWRCNmZQbG0tc3VKcVRJQWkxSnRyMjdnREt3aHMyS0hYVEJGNXRqX2tTNW9FeWVQbWxDdHNJTXd3a3NKSXpRcTUwOFZLV0Y3eTlvWVRVaTgxZDRBTGlkNE1JMHh1dw?oc=5",
-   "source": "PR Newswire",
-   "date": "2026-10-29",
+   "title": "HIVE Secures $129 Million Loan to Expand Sovereign AI Infrastructure in Canada - TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTG80S04xVURRbkdjSlgzY3NEeDRUWk9iUFRCZU1EdUZFQTRvaGNYM2hjSl80bHRFV3lfQndPdE5qQVhxY0RVb2htTm9zU1BEUjBFQTFNRWF1OWpGS2JieGtpTm0wdzBObTV6OF8yZ0lKaEt5Um10Z2pFM1BjbENMdFgtcFlDV2JuU1JMTzhvb2hxazgwTnBURk05VDV3d09nWDFqNlhKUUgwSGJULV82Rk5LZUxjMUFvNVM0QVJCRm9CdXdKWnJRaw?oc=5",
+   "source": "TipRanks",
+   "date": "2026-10-28",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -243,18 +219,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Google share price slumps as AI data center build-out drives $9bn negative cashflow - Data Center Dynamics",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQelB5eTNVME5sYnZydGFCN2hmUUlQN0xNcG01c29Sd19HaVE4ME1yTVY0SF9LNTRuTm1EcWNQajZZT1ZTQ0hsWnpkeVlSZ1M1VGVUZTZHTGw4NHZFUjJ1c3JJMzZYN1JodlJQWjBOYmZ3czh6dWxqZlNWMG8xOENhUEE2ODZ0MmthTjdnZzh5S0hZYUhXTkp3UnlURUtzeFVKa0NXWTdCYnM3QlA3QWJPSE1ZcTVUQlZ1bkU0S3RsNDhEdm9o?oc=5",
-   "source": "Data Center Dynamics",
-   "date": "2026-10-29",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet By Reuters - Investing.com",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT0tsMGMzamlxOTZmdGFjV1BCUGZGaXo3LXhkallKNDd4ckxSRkhIWWY1QnU0X1JrY21KSjBOdWl6ZEZJTWlXMDl2eDZIZFQ2OTY4UUxnQy1yV01wUzlZendmektTakRoS2VGTTFOMlF5eGs5MFBJMlVTSDV5OUxTT0FHeTFMenl0bi1vYTdNSDY5bGM4YWxKS1JtOEptU2VSN01FTkp2Y1VBTjdJc0ZuMU00Z3RrZ0RLLUZCbmNn?oc=5",
    "source": "Investing.com",
@@ -267,10 +231,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "AIB plans 50MW AI data center at former Spartanburg cryptomine to serve Nebius - BeBeez International",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVVVsZUZMZWRKRGFDUGVLY1U0LThXM25RR0lTdlZCbXJpWFVZcExZSEZNOUxlS0xpWm9GUTA0N1hRX05ZYXlFQ1hXc25ZRENoSVJaMTJGdzRYUDdPbkhadkNrY2dBVmN0ZVk5bnJhVTl5U3BqbzBjamZnUXJPckhPU1lTd0hPMDQ1V2Qzd2FCOTBXUzA0M0ptSGxUOVh6bG13S2o2ZVdQYzBnWlZK?oc=5",
-   "source": "BeBeez International",
-   "date": "2026-10-29",
+   "title": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet - Euronext Markets: Real-time Stock Market Data | live",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcm44MUVyRlRoRWdRX29BU3J4YzgwT1pSQmU3WlotYldJWmV1WGVjTmJHNjZGakN2bWxqSTcxOUt1clg3VDFBV1p1OUZDaWloWjBIbVNqMERDMFJLeGtFNGhwejA3cW53U0lVZU4zTmhxbkJHMHBHalYxUVg0SGdWQnB3aHVQa01ua3FLMDhaa0s5OXNaWUdMb3pMVHNNdzVhQ0E?oc=5",
+   "source": "Euronext Markets: Real-time Stock Market Data | live",
+   "date": "2026-11-02",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Marvell doubles down on AI boom with costly $115 billion Lumentum deal - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5",
+   "source": "Reuters",
+   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -291,46 +267,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5",
-   "source": "Reuters",
-   "date": "2026-11-02",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Verizon lifts annual forecasts, signs more than $2 billion AI infrastructure deal with AWS - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUXJNWmV4Ny1ON2FmYXdrclBkWWdrZXdfX2JHLUdoZ3ZLamJNdHl1NHc3RDk4TWUxZVRZMUN2QTVvMk01Ujk4Wmk2ejZOT3h3UmlWUmp6S0lLVHBSZmVvQ0c0Sm1xYVVMNXN4M2JkNWtKVUpoWEd4YloyWVJBME8tb0htQnhzNzA5V1ZWWlE5cE10a25nNWtxQmc5dDlGdF9MZzRYMllaMHI5eXlINXpCeVJKZmVFRmttRmFQZUtFOTNDNEx2OUlGemNBV1FuLUNDdWdFZQ?oc=5",
-   "source": "Reuters",
+   "title": "SoftBank is planning a $50 billion AI and data center push in Malaysia - Quartz",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQ0ZpRWJiOVRfZjVNTHZjZDJmU3dIa0V6QmdPekRJaURSalQ4S0VzU1NDem1samNYMk1yMkg3bTNvR0xRTWtidDdBdzJ0QWV6Y2VkMDZQc0FMWkJmTEUzWUFPUjZhdWJwSHBxaUdrRHZ0ZTZ4VXBvVFdMZ0xHVHJDNXJB?oc=5",
+   "source": "Quartz",
    "date": "2026-10-26",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Nebius leases 50 MW AI data center capacity from AIB for 12 years - ET Datacenters",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOb042MkViZGw0OXdfeXplamdTcFFUNWUyRHR2RGhmWWtldWljYXdyeEN2c1NXSFktRW52UFZxajY1NVI5WWU3bDNNbVJfaTF0X2NYNmFIUEQ0bXZXX1c3S09GWkdPcmdyU1ZLNW8yRWs4VHpJMmFHdUxrOGd1eE1MZFU4emhPRTBfNlkwV29ZS2xWUlpuWkl1TWNLclBRVk0xSG1nWG9WVng0aEhqbDFBeWRfZG51WGFqZ3otckxWb3pmVWI0Tmd5c0daMUNGYURZNmFtdmZ3b0o1OWFPQVctT280N0pjaTMyRXBj0gHvAUFVX3lxTE5lNjI2d2k2WDF4NDNfYXRTRXI2eTZIR1NLMVBzcXpqZDlmS2pUaTR0NkM1WTlELUpiTEt1U0lBRGRfTHFPSzlqNWZHTzdOTWRGYzRtR2RHZHFGQkJJOEJscW1wel9tSlFTZmYyUW5BNlJDU3RzR0hhcHF3cm9FOXNqa0YycDFHV2ZCX2ZkT3Y3Q2U0azkxMENIOG4tM1dLdTVOdzl4dmM2a1BlOEhqY2hKY0JhMDNjallYbVp4alRyUjlael9zelB6aWo4bzk1RjEzbFp4dmNBQ2lKemNoeTdtQmpGWkF3S1l3T1czcGZJ?oc=5",
-   "source": "ET Datacenters",
-   "date": "2026-11-01",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet - Euronext Markets: Real-time Stock Market Data | live",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcm44MUVyRlRoRWdRX29BU3J4YzgwT1pSQmU3WlotYldJWmV1WGVjTmJHNjZGakN2bWxqSTcxOUt1clg3VDFBV1p1OUZDaWloWjBIbVNqMERDMFJLeGtFNGhwejA3cW53U0lVZU4zTmhxbkJHMHBHalYxUVg0SGdWQnB3aHVQa01ua3FLMDhaa0s5OXNaWUdMb3pMVHNNdzVhQ0E?oc=5",
-   "source": "Euronext Markets: Real-time Stock Market Data | live",
-   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -363,10 +303,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "HD Construction Equipment opens $87 mil. plant to tap AI data center demand - The Korea Times",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYlRJelpPTE1EQ3AtVUhWTFVDOTlMc2hSRUdibWVYclRfYlZYZlBlUjN6WFVidzVxSzNWZGk2N1NaY1RMbTVjVURWUXhRYjk5ZDM2cnJxa1dHMDhfQUE2YTZBdURDT3Fwb2ozQVd6b2xZeE52QndKWlFELW81YW8zaWhrY0VHYUMtY3V3OFhmel9xb013MnlWR2RuRXBPOFVpcVRQaHVSN0M4XzBScWJkSUkxUUlBSVlVdjhPNjFmcWQyXzU1WVZQX1R30gHPAUFVX3lxTFBkajZYak1XcnF4VmtBeHkxLWhaa25IMklkM1pBeGlWeEM1c205amtyNVNBbUdzSXlFWGo2UVNQSUJwdnlfeGR1T1I1bFhORWVOSnB3cmNSYUlqWG8xWlNjNGVVU0o1aWE4YjdSYVl1MnFRVXZSeDlCenpDUGp5NGFobzZDMktTWjVhbDhEOXQtdjZ3MEt4NTZEUUQ2YVp4VDJNWmVWbEhRR2lrN2ExMkRCODdvaHV4Zk5HZlNCZUxyVlQxekdqSlRFNEtqRE5Dbw?oc=5",
-   "source": "The Korea Times",
-   "date": "2026-10-28",
+   "title": "Verizon lifts annual forecasts, signs more than $2 billion AI infrastructure deal with AWS - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUXJNWmV4Ny1ON2FmYXdrclBkWWdrZXdfX2JHLUdoZ3ZLamJNdHl1NHc3RDk4TWUxZVRZMUN2QTVvMk01Ujk4Wmk2ejZOT3h3UmlWUmp6S0lLVHBSZmVvQ0c0Sm1xYVVMNXN4M2JkNWtKVUpoWEd4YloyWVJBME8tb0htQnhzNzA5V1ZWWlE5cE10a25nNWtxQmc5dDlGdF9MZzRYMllaMHI5eXlINXpCeVJKZmVFRmttRmFQZUtFOTNDNEx2OUlGemNBV1FuLUNDdWdFZQ?oc=5",
+   "source": "Reuters",
+   "date": "2026-10-26",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet - Investify",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRUE3M3dKRVNPREl6d3JPLUFjdUdsNlNIOW4zWnA0WHFVNjF0bWtTcGx2NU82Vmp5ZW5CbjRRZW1LVXk5VFBrLTk1TzlwY0hMU1djaC1uTUZUcWlvN0FEVzJ4RXFmaDB5dXNQRXRHcGp4Ym1JZk9hZGlhOFhwZHVPZUgwRUxyb09OTFJKNGpkN0xOcjJ4blpiMHJxRGpHcXpuN3hCMUZfbzVSOEdW?oc=5",
+   "source": "Investify",
+   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -387,10 +339,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Hyundai Motor advances $6.3 bil. AI hub in Saemangeum - The Korea Times",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObnoxVFJ0MFRlT3p1c2tVNDNNeEw2MFR0MDJrSFJaTWVXU1l1STQzbUFIdHhNcVlpS1dsb1VNWU9hOWxRWElRMG9sZTBkdVhTTHpOWDNoc1R2MFJUQXZpa1BKVF9NVVhjcGJnUVlmdkNncVdWRmZ2djVtSDRFQ2s3TFN0dC14STY5bU9NZk1meTFnWDY4RG14aGNnWVlTVlpTeEE4U0VrclVqUW_SAbABQVVfeXFMTUoxRWNjc2JaSmJmd0xRbmIzMWVfVmtRR3p6UjFSU1VTY0hTN05PSEo0NmliMHNUSW9ybXFwUUIwRDNZa0FaUXpER0RIeThUQTBhaktUYlhHMXpyRkl0QzlsSmhScmVYVzdNMlRNYVByWUxlbG9XOVVaVlRISHI2Q2JOQjNzLW8xSlltcnpob3dGbzlPX2k1My1lZ0FxcnpBbUhPclVmaTdmMmJYbzlhLWU?oc=5",
-   "source": "The Korea Times",
-   "date": "2026-10-30",
+   "title": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet - Business Recorder",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE85MzFqWFh5aWk2azFRNWxTVTdOazhxWjN2WG00QjdJeUZ5Uy05T3ZQM0xQS0U4bVdlUHhIOE1tUm9TZmRUc2l0ZF9yWFd0eUJT0gFWQVVfeXFMTmJYTkxrNmJfVm1VVVFGYkw2QUsxLUVPeFRxN1FlWUM4M3pZVjQwN0ZVYVdHVXB5eG9xSnVBNjRqQXk2RV9KZ09HazVHSTVWaHZ2ZGFnbFE?oc=5",
+   "source": "Business Recorder",
+   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -403,30 +355,6 @@
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4ySmZhSVFPSFhabGFlbmdMS0FCbFA5d012ZU1MTXd5NkV6RkRUT3BfUWM3c2R5UWRqZ01iUllNTU9WUExQNmdycVZVYTJKVzlhMGI2ZVd6c2t1eUxaNVhsQTBOSkQ?oc=5",
    "source": "아시아경제",
    "date": "2026-10-27",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Isu Petasys Invests 500 Billion Won in Daegu - 조선일보",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWxsRmpPa0s2dllPUjd5SDhzY2FWN1A5cXQ2eXlqRm10Tk51VDk1ZUI1dlk3LUgzb1cwOWh6TEh0aUdFNzFpLVdUWk1XeV8wVUJSOVNmbV91Y3I3cjlBbWZHLXRaNzQzNlZmd0xVZzZoN0c0UDAydFdkcWhYd1R3Nkw0LVlDQ1lV?oc=5",
-   "source": "조선일보",
-   "date": "2026-11-02",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet - Business Recorder",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmFfX3JEbi1FeUJEQzJyQmMtSmZxdTZjdkRGT0tRM29nTU52UkN5S3ZDQ0hhREpoOV9zbzAtcTNiNi1EMncycGtQYkNneWJ1eU1zcy1wVEZ4aUZiVlhSZHRWMHNGemhEMmhBLURSZTJOSXRZbjZrUjgwOWtLMFJFTVJ2T3o1bGFUNGl1SXJVSlBrSlV2RU9lOVVBUEx5MDEza29TQ21wQVnSAVZBVV95cUxOYlhOTGs2Yl9WbVVVUUZiTDZBSzEtRU94VHE3UWVZQzgzellWNDA3RlVhV0dVcHl4b3FKdUE2NGpBeTZFX0pnT0drNUdJNVZodnZkYWdsUQ?oc=5",
-   "source": "Business Recorder",
-   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -459,18 +387,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Envision Targets 2028 Completion for Massive 3GW Inner Mongolia AI Data Center - https://streamlinefeed.co.ke/",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeGNpSmlLTElqalJGU1FiT0o3S3lBZGNVa1p2UjZBNWlQSjNZNGJuLUM5MFBYMmZUTXlmNmViRlFFM2NydmctaEItV1VQYjBOeGJBU3I1VlVnRGZ6Y3BaMFlRSmR2SjFVREZfVmlqQ1drMFNJdnlobFc2Q0hGcVMtMkl4LXZMc0QtMFc5T2RPaG5FTTN1MzVOQVo3VUtfa2thMDktbEhySHVzWGdRNHRzdkd3?oc=5",
-   "source": "https://streamlinefeed.co.ke/",
-   "date": "2026-10-30",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Beyond Hyperscalers: The Next $1 Trillion AI Infrastructure Opportunity - I/O Fund",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPemhlbWlfeHFIZUtnTWpWZXJDSC1JM0Q1OXhDM1BSd0Z6SlJVQ1p6OWxoam44QjI1SXNMMzZlcXVDQ0dHU2drb2xCamFqYnRDUGh6QWJJUzE5YVRwQWduY0JXeDZXRTZldlY1blV3Y3MwUVR1dXpYUWQ5RHU5QWNPRFlpVGpTeW1yNXRQZHhkMWk5UGkw?oc=5",
    "source": "I/O Fund",
@@ -495,10 +411,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Nvidia to Become Naver's Third-Largest Shareholder With $1 Billion Investment - Businesskorea",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CMk9XSGhsYzFEcDlDbjYxcUsybkFyM3dibkhnUGtpSVhLaFdMT3NIaFJ2ZzhGLWhYeWxKN3RlbEVENGJvQTN6YUpscTFBSDM0MnJFaTMyZXozUWtCWHVmeTFDWVY1am85TXZtbzV1dmxiYUgw?oc=5",
-   "source": "Businesskorea",
-   "date": "2026-10-30",
+   "title": "Cohere Hits US$25bn as Canada & NVIDIA Fund Sovereign AI - AI Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0hFa0gwWUN0Yl9mZVhfY3pSRWZ0Zzd1dFJjc2xVWmk0TUhvcmFLWDJ2TG9WUDRvTXVWZHNvX3BfcHpSR29VR2JJaE1KN0lHUzh2Y1I1ZDBJRU01WjRocTVwaVprNVVTSWZDR3JVelVjWVB4M1p3QjVtU001OEc3amE3V2M3ajVaaXc?oc=5",
+   "source": "AI Magazine",
+   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -507,10 +423,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "HIVE Digital Technologies secures $129 million loan for Cohere AI cluster - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa1BTaGdsMUZzVFU5MXo5aEJ3eHJaWEZBWjk0aGVKU2JNb3NMUjdQbHkyVE05TG5zNFdkTFdLWGhQdWdyYTc0Q3RJeXQzbHN0SWZ0TnQ3SnF4cTJtdkhvaDhvZTh1SU9TY2ZqYng1aE9ZM2xfUGtPbXVrNlZPV0pnNmhId2dOY1RoRVFiZHRlenFVd09NZC0wcHhLLWZOaGVjU0lV?oc=5",
-   "source": "Yahoo Finance",
-   "date": "2026-10-28",
+   "title": "Nvidia to Become Naver's Third-Largest Shareholder With $1 Billion Investment - Businesskorea",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CMk9XSGhsYzFEcDlDbjYxcUsybkFyM3dibkhnUGtpSVhLaFdMT3NIaFJ2ZzhGLWhYeWxKN3RlbEVENGJvQTN6YUpscTFBSDM0MnJFaTMyZXozUWtCWHVmeTFDWVY1am85TXZtbzV1dmxiYUgw?oc=5",
+   "source": "Businesskorea",
+   "date": "2026-10-30",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -715,6 +631,90 @@
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRFhmM1ZuNEI1YXZNbmdEdTk4T2lJbzFxLWx2UXpGMUdpdjEzMmNwenpYU1VxSHF5Z21feHpxX3RwRHZUc2JaWmhodnNTT2ZXMFR5aGZ2eWU4TUxyRkcyenNZVzhZekxGY0tQb1lSVm9GQ2tVV3ltZHlGTkFuSVhtRk9Na1IxTkMwQllyQlU5REt5UjdrRGxxVDI4UWl2aG56QWFUQlJXN284amZu?oc=5",
    "source": "Computer Weekly",
    "date": "2026-10-26",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Building a Sovereign AI Strategy With NVIDIA & SUSE - Technology Magazine",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOczZQYXh5cl90V2pwSkx3azI5S3ZEYzBfM3Z3aVpNSi1EM0stS0NhSjVhc05xQnRtSTlBVHNsLU1OUGpDNk42bUVMMXlZTFhQYjRBZ2h1V0s3Qy1mU1pfNlBudEFRMklTZ1NYN0xpcXJ6MjR6b1ZseXI5aWRLaklMMi1NSUZ5YW50R0NBLVlR?oc=5",
+   "source": "Technology Magazine",
+   "date": "2026-11-02",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "SUSE Brings Sovereign Control to Enterprise Agentic AI with NVIDIA - iTWire",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY0pUMldEMHZYcnM5dk5RQlNVaTNsY0dLM0xXQVFVdmU4eklsVEdDUjVNdk84UjVDSXNuQ0ZuNVliVk1fUjc3V2haWjFIVzRjQ3ZlWURKOVd1Tmc0Y2xWVTE0SjZVTTg4OUhobzg5ZXJDSnlQVmdUYktYVm5GU1NEYnQ1MjJOQ0xpcjhwYzZDR0RVOXh0RXY3TXpOVy1nUFZCd21qLTdfY2tOaTg?oc=5",
+   "source": "iTWire",
+   "date": "2026-10-26",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Opinion: Telcos have a role to play in AI - Fierce Network",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OdngzaUo3UFVORE05WUJra1JqY1RlYVc1aWIxTEpiRGozSkY2WV90V3Q5aFdwLVZycnRmMDZWaXpIaWdjMENxTGptYU1tR3Z4dmI0cmFTZmZjcVFZc29rempGZ1BJVTdGOVVQbDRZY05jbEhxTHdoVDlyNXA?oc=5",
+   "source": "Fierce Network",
+   "date": "2026-10-27",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "SUSE strengthens NVIDIA AI Factory ecosystem - ARNnet",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYXVNYW1hZTJFbnJnb1FZNTRvSmJKOWE0UEpWcmowU3hMMUZBRWNkU1pmbkw4U3BLZ0FOZFFwVGNzanJITXJGbVdIejlhNTl4aVJBM2lkMUp2cl9RY1RaeVZoeUtPRTRlUGxkMDlrc1k5cUE2a3gzdjJjelFpaUV5Z1dRSHFmM2w1X29iYUdhYkRvT3RCSmc?oc=5",
+   "source": "ARNnet",
+   "date": "2026-10-25",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "SUSE teams with NVIDIA to enable sovereign AI - Technology Decisions",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMUlYUFg3Z3NCTHh6anJLeTRRanZGMHlhY3htMHktdnB6TXF3UWdQOHotd2U3V1JCdDlKbDc3SEJGNFVfS09mMGZXZ0M2NS1YT2JmeVRLMnRIVUd0NkZfVUhvMWM1Q3FldTcwaUhhalR1aWF0T01CNVlnVEg5M1hEY29YX1hFQnpDR1RYYml0Y2w1NnNRT0hGWG00OGUwb0ZoYm5ZTGhTcHFZeGpXcDRuSC12MVB4a182WkV5a2I2Z1BJaURPb3pROWJ6MjJMQQ?oc=5",
+   "source": "Technology Decisions",
+   "date": "2026-10-27",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "OpenNebula Systems and Axelera AI Collaborate to Advance European Sovereign AI Infrastructure - Cincinnati Enquirer",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVnd2R1Ixd3prWFhnOGtYOHR0UVNQeHdUUGFGTlF4UWRQQUlPUnJHLUcxMWh1dC1yalBrRDdXMTNZX1JGMnlPbXVPVi1hXzMtcTFULTdGbWQxc0xGT2daZlllbDRoOG5KUjlfd01FVUpRSGI2d041bWkzaG8wR2R1TmdONzM0Y2I0V0lMN2N4WGozaFFGc2trNEJOUjRsTUZfMmNzNUFrNHdadzRjWngtSlU2VndnTHZmcjFsSUhxdnZTeGlSRFB1Zk9NQnc0bW04clBlUk42a0NsRktWT19pNkxB?oc=5",
+   "source": "Cincinnati Enquirer",
+   "date": "2026-10-28",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Check Point Secures AI-Scale Traffic for Neoclouds, Sovereign AI and the Enterprise with New Maestro Hyperscale Orchestrator - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPWksyYXQ3RzJGaWsxblA5X1o5dlVpdkVQZ1IzYU9oTXRpLUpyY1U2V05pdy1NSUVtRXJJOWVkTFp6WDllZmJyTWZjSF80OEc1QnJRRW1QRFQ1RnIwTzNmZ2tfNFhRVWlUU0tLNVBqSzE4NkR1UnNQckozWHZaZ0pCS0tNOE5kQnNDbjRuQWlMdXRkeEZ6NTVmUkhQUkFIUUxCUHc2ai1iN0I1dnhWeGxmeWJ0ZlVya0RYWURTM3RGalFZYXM4NUtHbDdDS1dOSzBEcWRvYnVOM2ExZDBmY3AxX0ZyeG9jeWJxZmhsMjlzZmxRd3ptUVBhUHlVTFQtd1RUYTdxVzZYRllUclRDMEJwcjZn?oc=5",
+   "source": "TradingView",
+   "date": "2026-10-29",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
