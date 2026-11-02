@@ -1,33 +1,45 @@
 {
-  "updated": "2026-10-30",
-  "title": "Compute brief - 30 October 2026",
-  "description": "AWS grows 39% to $46.0 billion with a $578 billion backlog and says it will spend meaningfully more than $220 billion next year. Intel Foundry revenue rises 58% to $6.7 billion, but substrate supply caps its packaging ramp, and TSMC is reported to be weighing CoWoS price rises of up to 20%. Canada puts up to C$1.6 billion into Cohere in exchange for C$1.7 billion of compute built at home. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "AWS is selling capacity as fast as it installs it",
-  "lede": "Amazon closed out hyperscaler earnings week with the same message as Google and Microsoft: demand is ahead of supply. AWS revenue rose 39.3% to $46.0 billion, its fastest growth in nearly five years, its backlog reached $578 billion, more than double a year earlier, and Andy Jassy said AWS is installing an AI accelerator about every 14 seconds with customers taking it almost as fast. Cash capex was $75.9 billion in the quarter; Amazon kept 2026 at about $220 billion and said 2027 will be meaningfully more. Upstream, the squeeze is in packaging: Intel said substrate supply limits how fast it can scale EMIB, and Taiwan press reports TSMC is weighing CoWoS price rises of 10% to 20%. Ottawa turned sovereign AI into a compute obligation, with up to C$1.6 billion of equity in Cohere tied to at least C$1.7 billion of new Canadian computing infrastructure by 2030. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour.",
+  "updated": "2026-11-02",
+  "title": "Compute brief - 2 November 2026",
+  "description": "Credit, not chips, is the new constraint: CoreWeave, Nebius and Nscale are effectively shut out of the bond market, and Nvidia is negotiating to guarantee debt for Nscale's Anthropic campus in West Virginia. Korea arranges its first GPU loan, about 10.7 trillion won for Brookfield and Naver. Marvell buys Lumentum at a $115 billion enterprise value to own the optical link. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The AI build-out now runs on credit",
+  "lede": "After a week of record hyperscaler backlogs, the weekend story was who pays for the buildings. The Wall Street Journal reported that CoreWeave, Nebius and Nscale have effectively been shut out of the high-yield bond market, with CoreWeave's 9.75% notes now trading above a 15% yield, Lambda cutting its target valuation from $14.5 billion to $13 billion, and Nscale's IPO leaning toward December. Where bonds will not go, vendors and banks are stepping in: Nvidia is in talks to guarantee billions of debt for the first 460 MW building of Nscale's West Virginia campus, which Anthropic has contracted for about $44.6 billion, and KB Kookmin Bank will arrange about 10.7 trillion won of loans secured on Naver Cloud's long-term GPU contract, Korea's first GPU financing. In hardware, Marvell agreed to buy Lumentum in an all-stock deal valued at $115 billion to combine electrical and optical interconnect. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour.",
   "countries": [
     {
-      "id": "can-cohere-equity",
-      "name": "Canada",
-      "slug": "canada",
-      "note": "Up to C$1.6 billion of federal equity in Cohere; Cohere commits at least C$1.7 billion to computing infrastructure in Canada by 2030 (Wire, 29 Oct)."
+      "id": "kor-kb-gpu-financing",
+      "name": "South Korea",
+      "slug": "south-korea",
+      "note": "KB Kookmin leads about 10.7 trillion won of loans for Brookfield's GPU SPC supplying Naver Cloud; Samsung SDS breaks ground on 60 MW Gumi site (Wire, 1 and 2 Nov)."
     },
     {
-      "id": "chn-envision-galaxy-3gw",
-      "name": "China",
-      "slug": "china",
-      "note": "Envision targets end-2028 for its Ulanqab Galaxy campus, eventually up to 3 GW, with offtake through 2029 or 2030 (Wire, 30 Oct, single source)."
+      "id": "usa-nvidia-nscale-guarantee",
+      "name": "United States",
+      "slug": "united-states",
+      "note": "Nvidia in talks to guarantee debt for Nscale's 460 MW Anthropic building in West Virginia (Wire, 29 Oct, corroborated)."
     },
     {
-      "id": "ind-ami-3bn-debt",
-      "name": "India",
-      "slug": "india",
-      "note": "AM Intelligence reportedly seeks up to $3 billion of debt to buy Nvidia Rubin GPUs for India and Malaysia (Wire, 30 Oct, single source)."
-    },
-    {
-      "id": "gbr-data-centre-covenant",
+      "id": "gbr-teesside-substation",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "note": "Data Centre Covenant: 6 GW of AI data centre capacity needed by 2030; grid capacity reserved for strategic sites (Wire, 28 Oct)."
+      "note": "National Grid buys land at Teesworks for the UK's biggest substation, up to 3.2 GW per the mayor, next to a planned AI data centre (Wire, 1 Nov)."
+    },
+    {
+      "id": "can-anthropic-beacon",
+      "name": "Canada",
+      "slug": "canada",
+      "note": "Anthropic reportedly in lease talks for Beacon's Sturgeon County campus with an approved 920 MW gas plant (Wire, 30 Oct, single source)."
+    },
+    {
+      "id": "ind-vultr-chennai",
+      "name": "India",
+      "slug": "india",
+      "note": "Vultr launches 20 MW, about 10,000 AMD MI355X GPUs in Chennai; targets 600 MW in India by 2028 (Wire, 2 Nov)."
+    },
+    {
+      "id": "aus-project-ares-stall",
+      "name": "Australia",
+      "slug": "australia",
+      "note": "Energy North drops the June 2028 first-power date for its 1 GW Project Ares after the NT regulator pauses review (Wire, 1 Nov, single source)."
     }
   ],
   "silicon": [
@@ -37,10 +49,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print"
+      "note": "Confirm vs 30 Oct print"
     },
     {
       "id": "lambda-b200-od",
@@ -48,10 +60,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print"
+      "note": "Confirm vs 30 Oct print"
     },
     {
       "id": "coreweave-h100-od",
@@ -59,10 +71,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print"
+      "note": "Confirm vs 30 Oct print"
     },
     {
       "id": "crusoe-h100-od",
@@ -70,10 +82,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print"
+      "note": "Confirm vs 30 Oct print"
     },
     {
       "id": "crusoe-b300-od",
@@ -81,10 +93,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print"
+      "note": "Confirm vs 30 Oct print"
     },
     {
       "id": "do-b300-spot",
@@ -92,10 +104,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print"
+      "note": "Confirm vs 30 Oct print"
     },
     {
       "id": "do-mi355x-spot",
@@ -103,10 +115,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print; was $2.97 on 27 Oct"
+      "note": "Confirm vs 30 Oct print; was $2.97 on 27 Oct"
     },
     {
       "id": "do-mi350x-spot",
@@ -114,10 +126,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print; was $2.46 on 27 Oct"
+      "note": "Confirm vs 30 Oct print; was $2.46 on 27 Oct"
     },
     {
       "id": "aws-cb-b300",
@@ -125,89 +137,94 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 29 Oct print"
+      "note": "Confirm vs 30 Oct print"
     }
   ],
   "watch": [
     {
-      "id": "intel-14a-customers",
-      "name": "Intel 14A and EMIB customers",
-      "note": "Lip-Bu Tan said a couple of packaging customers could be announced in the next two quarters; 14A 1.0 PDK due Q1 2027."
+      "id": "nscale-guarantee-terms",
+      "name": "Nvidia backstop for Nscale",
+      "note": "Whether the residual value guarantee is signed before Anthropic's longstop date, and on what terms; Nscale IPO now leaning to December."
     },
     {
-      "id": "tsmc-cowos-pricing",
-      "name": "TSMC CoWoS and wafer pricing",
-      "note": "Reported CoWoS rises of 10% to 20% and 3% to 6% wafer price rises from January 2027; not confirmed by TSMC."
+      "id": "neocloud-bond-market",
+      "name": "Neocloud credit",
+      "note": "CoreWeave 9.75% notes above 15% yield; watch for asset-backed or customer-prepaid deals replacing high-yield issuance."
     },
     {
-      "id": "aws-2027-capex",
-      "name": "Amazon 2027 capex",
-      "note": "Guided only to meaningfully more than about $220 billion; a number likely comes with Q4 results."
+      "id": "anthropic-ipo",
+      "name": "Anthropic IPO",
+      "note": "Expected the week of 16 November; prospectus lists power-provider financing as a risk."
     },
     {
-      "id": "neocloud-credit",
-      "name": "Neocloud funding costs",
-      "note": "CoreWeave and Nebius fell after Microsoft said third-party capacity arrived late; watch debt pricing for GPU-backed loans."
+      "id": "amd-q3",
+      "name": "AMD Q3 results",
+      "note": "Due this week; MI355X and MI455X ramp and Helios timing."
+    },
+    {
+      "id": "marvell-lumentum",
+      "name": "Marvell and Lumentum",
+      "note": "All-stock deal expected to close in the first half of 2028 subject to regulatory approvals."
     },
     {
       "id": "eu-gigafactory-bids",
       "name": "EU AI gigafactory tender",
       "note": "Bids due 12 November."
-    },
-    {
-      "id": "uk-strategic-sites",
-      "name": "UK strategic data centre list",
-      "note": "Which sites qualify for reserved grid capacity under the Data Centre Covenant."
     }
   ],
   "sources": [
     {
-      "name": "Amazon: Q3 2026 results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
-      "note": "Lead: AWS up 39.3% to $46.0 billion; $220 billion 2026 capex."
+      "name": "WSJ via Dow Jones (Tiger Brokers): The new bottleneck in America's AI build-out",
+      "url": "https://www.itiger.com/news/2679229421",
+      "note": "Lead: neoclouds shut out of bond market; CoreWeave notes above 15%; Lambda valuation cut; Nscale IPO timing."
     },
     {
-      "name": "Amazon Q3 2026 earnings call transcript (Stock Analysis)",
-      "url": "https://stockanalysis.com/stocks/amzn/transcripts/720308-q3-2026/",
-      "note": "Lead: $578 billion backlog, accelerator every 14 seconds, cash capex $75.9 billion."
+      "name": "TechCrunch: Nvidia weighs playing the cosigner for Nscale",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "note": "Lead and Wire: residual value guarantee talks, citing The Information and Bloomberg."
     },
     {
-      "name": "Intel: Q3 2026 results",
-      "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
-      "note": "Signal: Foundry $6.7 billion, DCAI $7.3 billion, 14A 0.9 PDK."
+      "name": "DCD: Nvidia in talks to backstop Nscale's Monarch Compute Campus",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-in-talks-to-backstop-nscales-monarch-compute-campus-project-for-anthropic-report/",
+      "note": "Backstop estimated above $5 billion."
     },
     {
-      "name": "Intel Q3 2026 earnings call transcript (Motley Fool)",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/30/intel-intc-q3-2026-earnings-call-transcript/",
-      "note": "Signal: EMIB substrate constraint, external foundry $411 million."
+      "name": "The Korea Times: KB Kookmin Bank to lead $9.45 billion AI infrastructure financing",
+      "url": "https://www.koreatimes.co.kr/business/banking-finance/20261101/kb-kookmin-bank-to-lead-945-bil-ai-infrastructure-financing",
+      "note": "Lead and Wire: Korea."
     },
     {
-      "name": "TrendForce: TSMC reportedly eyes 20% CoWoS price hike",
-      "url": "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge/",
-      "note": "Signal: packaging prices, citing Commercial Times."
+      "name": "Marvell: Marvell and Lumentum to combine",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+      "note": "Signal: 4.500 shares per Lumentum share, $115 billion implied EV, close 1H 2028."
     },
     {
-      "name": "CNBC: neocloud stocks drop after Microsoft capex",
-      "url": "https://www.cnbc.com/2026/10/28/neocloud-stocks-drop-after-microsoft-revises-capex-down.html",
-      "note": "Signal: CoreWeave and Nebius down about 5%."
+      "name": "The Guardian: National Grid to site biggest UK substation on Teesside",
+      "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+      "note": "Wire: United Kingdom."
     },
     {
-      "name": "Prime Minister of Canada: investment in Cohere",
-      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+      "name": "The Globe and Mail: Anthropic in talks to lease campus outside Edmonton",
+      "url": "https://www.theglobeandmail.com/business/economy/article-anthropic-ai-talks-to-lease-beacon-data-centre-near-edmonton-alberta/",
       "note": "Wire: Canada."
     },
     {
-      "name": "Bloomberg via Energy Connects: Envision Inner Mongolia by 2028",
-      "url": "https://www.energyconnects.com/news/utilities/2026/october/envision-to-complete-massive-inner-mongolia-data-center-by-2028/",
-      "note": "Wire: China."
+      "name": "The Hindu: Vultr launches 20 MW AI supercluster in Chennai",
+      "url": "https://www.thehindu.com/business/Industry/vultr-launches-20-mw-ai-supercluster-in-chennai-aims-1-gw-capacity-by-2029/article71656654.ece",
+      "note": "Wire: India."
     },
     {
-      "name": "CNBC: AM Intelligence seeks $3 billion for Nvidia chips",
-      "url": "https://www.cnbc.com/2026/10/30/nvidia-india-ai-chips-computing.html",
-      "note": "Wire: India."
+      "name": "The Korea Herald: Samsung SDS targets 120 MW at Gumi",
+      "url": "https://www.koreaherald.com/article/10922887",
+      "note": "Wire: South Korea."
+    },
+    {
+      "name": "Reuters via CNA: Australian outback data centre pulls timeline",
+      "url": "https://www.channelnewsasia.com/business/exclusive-australian-outback-data-centre-pulls-timeline-after-regulator-stalls-6511551",
+      "note": "Wire: Australia."
     },
     {
       "name": "Lambda Cloud pricing",

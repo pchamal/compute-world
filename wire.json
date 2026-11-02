@@ -1,6 +1,137 @@
 {
   "items": [
     {
+      "id": "korea-kb-kookmin-10-7tn-won-gpu-financing-brookfield-naver-2026-11-01",
+      "date": "2026-11-01",
+      "title": "KB Kookmin Bank to lead about 10.7 trillion won of loans for Brookfield's Naver Cloud GPU project, Korea's first GPU financing",
+      "summary": "KB Kookmin Bank said on 1 November 2026 it had won the lead arranger mandate for a Brookfield AI computing infrastructure project worth about 12.6 trillion won (about $9.45 billion per The Korea Times), of which about 10.7 trillion won will be raised through a syndicated loan. A Brookfield special purpose company will buy GPUs and related infrastructure and supply the capacity to Naver Cloud under a long-term contract, and lenders are underwriting against that contracted revenue rather than real estate or power assets. The bank called it Korea's first GPU financing and its largest-ever syndicated loan arrangement. Hana, Shinhan, Woori and NH Investment & Securities are reported participants. Caveat: final lender commitments, pricing and tenor were not disclosed. Country conversion: the 27 October Naver and Brookfield $9 billion deal now has a domestic bank syndicate behind the chips.",
+      "url": "https://www.koreatimes.co.kr/business/banking-finance/20261101/kb-kookmin-bank-to-lead-945-bil-ai-infrastructure-financing",
+      "source": "KB Kookmin Bank statement, 1 Nov 2026, via The Korea Times and Yonhap",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Capital"
+      ],
+      "score": 58
+    },
+    {
+      "id": "usa-nvidia-nscale-monarch-west-virginia-debt-guarantee-talks-2026-10-29",
+      "date": "2026-10-29",
+      "title": "Nvidia in talks to guarantee billions of debt for Nscale's West Virginia campus built for Anthropic",
+      "summary": "The Information reported on 29 October 2026, and Bloomberg corroborated, that Nvidia is negotiating a residual value guarantee to back debt for the power and construction of the first 460 MW building at Nscale's Monarch Compute Campus in West Virginia, which Anthropic has contracted for about $44.6 billion and which is expected to use Vera Rubin systems. If Nscale defaulted on construction payments, Nvidia would take over the facility and help find a buyer and tenant. DCD put the backstop at more than $5 billion. Nscale's IPO filing says the first building's financing is not yet secured and Anthropic can terminate if it is not in place by a longstop date. The Wall Street Journal later reported that the backers have since sought stricter terms. Caveat: not signed; terms could change; Nvidia and Nscale did not comment. Country conversion: US gigawatt-scale AI build now leans on the chip vendor's balance sheet.",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source": "The Information 29 Oct 2026, corroborated by Bloomberg; via TechCrunch and DCD",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Build"
+      ],
+      "score": 62
+    },
+    {
+      "id": "uk-national-grid-teesworks-dorman-point-substation-up-to-3-2gw-2026-11-01",
+      "date": "2026-11-01",
+      "title": "National Grid agrees to buy 29.5 hectares at Teesworks for what would be Britain's biggest substation, next to a planned AI data centre",
+      "summary": "National Grid agreed last week to buy 29.5 hectares (73 acres) at Dorman Point on the Teesworks site for a substation that would be the UK's largest, the Guardian reported on 1 November 2026, following Sky News. Tees Valley mayor Ben Houchen said the site would have up to 3.2 GW of capacity. Planning applications have been submitted for a neighbouring data centre of nearly 500,000 square metres, and Balfour Beatty was reported to be in line to build the substation. National Grid's head of land said the company would progress the development as quickly as possible. Caveat: no energisation date, data centre tenant or connection agreement was disclosed; the 3.2 GW figure is the mayor's. Country conversion: UK grid capacity is being placed ahead of AI load at a named site.",
+      "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+      "source": "The Guardian, 1 Nov 2026, following Sky News; National Grid statement",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "GBR"
+      ],
+      "flags": "🇬🇧",
+      "tags": [
+        "Energy",
+        "Build"
+      ],
+      "score": 50
+    },
+    {
+      "id": "canada-anthropic-beacon-sturgeon-county-lease-talks-920mw-gas-2026-10-30",
+      "date": "2026-10-30",
+      "title": "Anthropic reportedly in talks to lease Beacon Data Centers' Sturgeon County campus near Edmonton, powered by an approved 920 MW gas plant",
+      "summary": "The Globe and Mail reported on 30 October 2026, citing two sources, that Anthropic is negotiating to be the tenant of a proposed four-hall AI and high-performance computing campus being developed by Calgary-based Beacon Data Centers in Sturgeon County, Alberta. The Alberta Utilities Commission approved the site's 920 MW natural gas-fired power plant on 23 October, with construction expected to start in Q4 2026 and an in-service date in Q4 2027. The campus would have about double the power of the 420 MW EverWind site in Nova Scotia that Anthropic leased on 16 October. Caveat: Anthropic and Beacon declined to comment; no lease, term or price has been announced, and the AUC approval covers generation only. Country conversion: Canada could host a second Anthropic campus, this one on behind-the-meter gas.",
+      "url": "https://www.theglobeandmail.com/business/economy/article-anthropic-ai-talks-to-lease-beacon-data-centre-near-edmonton-alberta/",
+      "source": "The Globe and Mail, 30 Oct 2026 (two unnamed sources); AUC decision 23 Oct 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "CAN"
+      ],
+      "flags": "🇨🇦",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 48
+    },
+    {
+      "id": "india-vultr-chennai-20mw-mi355x-supercluster-launch-2026-11-02",
+      "date": "2026-11-02",
+      "title": "Vultr launches a 20 MW AMD MI355X supercluster in Chennai with about 10,000 GPUs and targets 600 MW in India by 2028",
+      "summary": "Vultr launched its Chennai AI supercluster on 2 November 2026: 20 MW of capacity running AMD Instinct MI355X GPUs, about 10,000 GPUs in the initial configuration, with a large portion of capacity pre-reserved by global enterprises, the company said. It plans to expand in 2027 with AMD MI455X and Helios rack-scale systems, and is targeting 600 MW of AI capacity in India by 2028 and gigawatt scale by 2029. The region was first announced with AMD on 20 October. Caveat: the 600 MW and 1 GW targets are not firm commitments, per The Hindu. Country conversion: India gets one of the largest non-Nvidia GPU clusters outside the US.",
+      "url": "https://www.thehindu.com/business/Industry/vultr-launches-20-mw-ai-supercluster-in-chennai-aims-1-gw-capacity-by-2029/article71656654.ece",
+      "source": "Vultr launch press conference, 2 Nov 2026, via The Hindu; Vultr and AMD release 20 Oct 2026",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build",
+        "Cloud"
+      ],
+      "score": 46
+    },
+    {
+      "id": "korea-samsung-sds-gumi-60mw-to-120mw-ai-data-centre-groundbreaking-2026-11-02",
+      "date": "2026-11-02",
+      "title": "Samsung SDS breaks ground on a 60 MW AI data centre in Gumi, expandable to 120 MW by end-2028",
+      "summary": "Samsung SDS held a groundbreaking ceremony on 2 November 2026 for its AI data centre in Gumi, North Gyeongsang Province, which will open with 60 MW of power capacity and is designed to reach 120 MW through phased expansion, with completion scheduled by the end of 2028. The company approved a 427.3 billion won (about $319 million) investment in January. The site will mix liquid and air cooling, support Samsung affiliates' robotics training, and sell GPU compute and colocation to outside customers. Caveat: chip supplier and GPU count were not disclosed. Country conversion: Korea adds regional AI capacity outside the Seoul metro grid.",
+      "url": "https://www.koreaherald.com/article/10922887",
+      "source": "The Korea Herald, 2 Nov 2026, Samsung SDS ceremony",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Build"
+      ],
+      "score": 40
+    },
+    {
+      "id": "australia-energy-north-project-ares-1gw-first-power-date-scrapped-2026-11-01",
+      "date": "2026-11-01",
+      "title": "Energy North scraps the June 2028 first-power date for its 1 GW Project Ares outback data centre after the NT regulator pauses review",
+      "summary": "Reuters reported on 1 November 2026 that Energy North, which plans a gas and solar-powered data centre campus of about 1 GW on a cattle station in the Northern Territory, has dropped its 28 June 2028 first-power target after the NT Environment Protection Authority suspended its seven-week deadline on 7 October to set the project's assessment terms. The developer told Reuters it would set a new schedule once the terms for an environmental impact statement are issued. Caveat: Reuters exclusive; no new date given. Country conversion: Australia's fast-track pitch meets an environmental approvals stall.",
+      "url": "https://www.channelnewsasia.com/business/exclusive-australian-outback-data-centre-pulls-timeline-after-regulator-stalls-6511551",
+      "source": "Reuters exclusive, 1 Nov 2026 (via CNA)",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Stall",
+        "Energy"
+      ],
+      "score": 38
+    },
+    {
       "id": "canada-cohere-equity-c1-6bn-c1-7bn-canadian-compute-2030-2026-10-29",
       "date": "2026-10-29",
       "title": "Canada commits up to C$1.6 billion of equity in Cohere; Cohere commits at least C$1.7 billion to computing infrastructure in Canada by 2030",
@@ -2735,6 +2866,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-10-30",
-  "note": "Wire refresh 2026-10-30: added canada-cohere-equity-c1-6bn-c1-7bn-canadian-compute-2030-2026-10-29, china-envision-galaxy-ulanqab-3gw-by-end-2028-offtake-2029-2030-2026-10-30, india-am-intelligence-3bn-debt-raise-rubin-gpus-2026-10-30. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-02",
+  "note": "Wire refresh 2026-11-02: added korea-kb-kookmin-10-7tn-won-gpu-financing-brookfield-naver-2026-11-01, usa-nvidia-nscale-monarch-west-virginia-debt-guarantee-talks-2026-10-29, uk-national-grid-teesworks-dorman-point-substation-up-to-3-2gw-2026-11-01, canada-anthropic-beacon-sturgeon-county-lease-talks-920mw-gas-2026-10-30, india-vultr-chennai-20mw-mi355x-supercluster-launch-2026-11-02, korea-samsung-sds-gumi-60mw-to-120mw-ai-data-centre-groundbreaking-2026-11-02, australia-energy-north-project-ares-1gw-first-power-date-scrapped-2026-11-01. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
