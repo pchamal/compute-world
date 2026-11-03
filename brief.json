@@ -1,45 +1,45 @@
 {
-  "updated": "2026-11-02",
-  "title": "Compute brief - 2 November 2026",
-  "description": "Credit, not chips, is the new constraint: CoreWeave, Nebius and Nscale are effectively shut out of the bond market, and Nvidia is negotiating to guarantee debt for Nscale's Anthropic campus in West Virginia. Korea arranges its first GPU loan, about 10.7 trillion won for Brookfield and Naver. Marvell buys Lumentum at a $115 billion enterprise value to own the optical link. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The AI build-out now runs on credit",
-  "lede": "After a week of record hyperscaler backlogs, the weekend story was who pays for the buildings. The Wall Street Journal reported that CoreWeave, Nebius and Nscale have effectively been shut out of the high-yield bond market, with CoreWeave's 9.75% notes now trading above a 15% yield, Lambda cutting its target valuation from $14.5 billion to $13 billion, and Nscale's IPO leaning toward December. Where bonds will not go, vendors and banks are stepping in: Nvidia is in talks to guarantee billions of debt for the first 460 MW building of Nscale's West Virginia campus, which Anthropic has contracted for about $44.6 billion, and KB Kookmin Bank will arrange about 10.7 trillion won of loans secured on Naver Cloud's long-term GPU contract, Korea's first GPU financing. In hardware, Marvell agreed to buy Lumentum in an all-stock deal valued at $115 billion to combine electrical and optical interconnect. On the public tape all 70 list prints confirmed; Lambda H100 holds at $3.99 and B200 at $6.69 per GPU-hour.",
+  "updated": "2026-11-03",
+  "title": "Compute brief - 3 November 2026",
+  "description": "Anthropic's amended S-1 puts its committed compute and infrastructure spend at about $895.4 billion, more than double the $417 billion it listed before. On the supply side, Crusoe has posted on-demand price rises from 1 December: H100 $3.90 to $4.50, H200 $4.29 to $5.40, B300 $8.96 to $9.90. Wire: Drax plans a GW-scale UK campus, Aramco closes 49% of HUMAIN, Russia orders a 10% state reserve in private data centres. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "Demand is contracted. Supply is repricing.",
+  "lede": "Anthropic amended its S-1 on 3 November with third-quarter revenue of $17 billion and a net loss of $23.29 billion, and its purchase commitments and leases now total about $895.4 billion, substantially all for compute and infrastructure, up from $417 billion previously listed. The filing names $121.3 billion with Google, $120.5 billion with SpaceX, $110 billion with Amazon, $44.9 billion with Microsoft, $44.6 billion with Nscale, $41.3 billion with Lambda and $50 billion with Fluidstack, per DCD. Against last week's neocloud credit squeeze, the supply side is starting to reprice: Crusoe's public price page now shows new on-demand rates from 1 December 2026, with H100 up 15.4% to $4.50, H200 up 25.9% to $5.40 and B300 up 10.5% to $9.90 per GPU-hour. Today's live prints are unchanged, so the tape shows 70 confirms, 0 ticks and 0 NEW; Lambda H100 holds at $3.99 and B200 at $6.69.",
   "countries": [
+    {
+      "id": "gbr-drax-campus",
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "note": "Drax, Brookfield and Radiant plan GW-scale data centre capacity at Drax Power Station; up to 100 MW from Q1 2028, investment could exceed £20 billion (Wire, 3 Nov)."
+    },
+    {
+      "id": "sau-aramco-humain",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "note": "Aramco closes a 49% stake in HUMAIN with about $2.6 billion in cash plus assets; 3 GW by 2030 target restated (Wire, 1 Nov)."
+    },
+    {
+      "id": "rus-state-reserve",
+      "name": "Russia",
+      "slug": "russia",
+      "note": "Putin decree orders private data centres to reserve 10% of space and capacity for state needs, 10 days to comply (Wire, 2 Nov)."
+    },
+    {
+      "id": "mys-google-negeri-sembilan",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "Google funds $160 million of shared water infrastructure for its planned Port Dickson campus (Wire, 2 Nov)."
+    },
     {
       "id": "kor-kb-gpu-financing",
       "name": "South Korea",
       "slug": "south-korea",
-      "note": "KB Kookmin leads about 10.7 trillion won of loans for Brookfield's GPU SPC supplying Naver Cloud; Samsung SDS breaks ground on 60 MW Gumi site (Wire, 1 and 2 Nov)."
+      "note": "KB Kookmin leads about 10.7 trillion won of loans for Brookfield's GPU SPC supplying Naver Cloud (Wire, 1 Nov)."
     },
     {
       "id": "usa-nvidia-nscale-guarantee",
       "name": "United States",
       "slug": "united-states",
       "note": "Nvidia in talks to guarantee debt for Nscale's 460 MW Anthropic building in West Virginia (Wire, 29 Oct, corroborated)."
-    },
-    {
-      "id": "gbr-teesside-substation",
-      "name": "United Kingdom",
-      "slug": "united-kingdom",
-      "note": "National Grid buys land at Teesworks for the UK's biggest substation, up to 3.2 GW per the mayor, next to a planned AI data centre (Wire, 1 Nov)."
-    },
-    {
-      "id": "can-anthropic-beacon",
-      "name": "Canada",
-      "slug": "canada",
-      "note": "Anthropic reportedly in lease talks for Beacon's Sturgeon County campus with an approved 920 MW gas plant (Wire, 30 Oct, single source)."
-    },
-    {
-      "id": "ind-vultr-chennai",
-      "name": "India",
-      "slug": "india",
-      "note": "Vultr launches 20 MW, about 10,000 AMD MI355X GPUs in Chennai; targets 600 MW in India by 2028 (Wire, 2 Nov)."
-    },
-    {
-      "id": "aus-project-ares-stall",
-      "name": "Australia",
-      "slug": "australia",
-      "note": "Energy North drops the June 2028 first-power date for its 1 GW Project Ares after the NT regulator pauses review (Wire, 1 Nov, single source)."
     }
   ],
   "silicon": [
@@ -49,10 +49,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print"
+      "note": "Confirm vs 2 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +60,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print"
+      "note": "Confirm vs 2 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +71,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print"
+      "note": "Confirm vs 2 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +82,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print"
+      "note": "Confirm vs 2 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +93,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print"
+      "note": "Confirm vs 2 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +104,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print"
+      "note": "Confirm vs 2 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +115,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print; was $2.97 on 27 Oct"
+      "note": "Confirm vs 2 Nov print; was $2.97 on 27 Oct"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +126,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print; was $2.46 on 27 Oct"
+      "note": "Confirm vs 2 Nov print; was $2.46 on 27 Oct"
     },
     {
       "id": "aws-cb-b300",
@@ -137,37 +137,37 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 30 Oct print"
+      "note": "Confirm vs 2 Nov print"
     }
   ],
   "watch": [
     {
-      "id": "nscale-guarantee-terms",
-      "name": "Nvidia backstop for Nscale",
-      "note": "Whether the residual value guarantee is signed before Anthropic's longstop date, and on what terms; Nscale IPO now leaning to December."
-    },
-    {
-      "id": "neocloud-bond-market",
-      "name": "Neocloud credit",
-      "note": "CoreWeave 9.75% notes above 15% yield; watch for asset-backed or customer-prepaid deals replacing high-yield issuance."
-    },
-    {
-      "id": "anthropic-ipo",
-      "name": "Anthropic IPO",
-      "note": "Expected the week of 16 November; prospectus lists power-provider financing as a risk."
+      "id": "crusoe-dec1-pricing",
+      "name": "Crusoe 1 December rates",
+      "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes. Watch whether Lambda, CoreWeave or others follow."
     },
     {
       "id": "amd-q3",
       "name": "AMD Q3 results",
-      "note": "Due this week; MI355X and MI455X ramp and Helios timing."
+      "note": "After the close on 3 November; MI355X and MI455X ramp, Helios timing, Anthropic and OpenAI deployments."
     },
     {
-      "id": "marvell-lumentum",
-      "name": "Marvell and Lumentum",
-      "note": "All-stock deal expected to close in the first half of 2028 subject to regulatory approvals."
+      "id": "anthropic-ipo",
+      "name": "Anthropic IPO",
+      "note": "Amended S-1 filed; listing expected the week of 16 November."
+    },
+    {
+      "id": "neocloud-q3",
+      "name": "CoreWeave and Nebius Q3",
+      "note": "Both report 12 November; CoreWeave stock at an all-time low, bonds near 15% yield."
+    },
+    {
+      "id": "nscale-guarantee-terms",
+      "name": "Nvidia backstop for Nscale",
+      "note": "Whether the residual value guarantee is signed before Anthropic's longstop date."
     },
     {
       "id": "eu-gigafactory-bids",
@@ -177,54 +177,39 @@
   ],
   "sources": [
     {
-      "name": "WSJ via Dow Jones (Tiger Brokers): The new bottleneck in America's AI build-out",
-      "url": "https://www.itiger.com/news/2679229421",
-      "note": "Lead: neoclouds shut out of bond market; CoreWeave notes above 15%; Lambda valuation cut; Nscale IPO timing."
+      "name": "DCD: Anthropic S-1 update reveals $895.4bn in cloud and data center commitments",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-s-1-update-reveals-8954bn-in-cloud-and-data-center-commitments/",
+      "note": "Lead: Q3 revenue $17 billion, net loss $23.29 billion, $895.4 billion committed spend."
     },
     {
-      "name": "TechCrunch: Nvidia weighs playing the cosigner for Nscale",
-      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "note": "Lead and Wire: residual value guarantee talks, citing The Information and Bloomberg."
+      "name": "Crusoe Cloud pricing (1 December rates)",
+      "url": "https://www.crusoe.ai/cloud/pricing",
+      "note": "Lead: current and new on-demand columns; H100 $4.50, H200 $5.40, B300 $9.90 from 1 Dec 2026."
     },
     {
-      "name": "DCD: Nvidia in talks to backstop Nscale's Monarch Compute Campus",
-      "url": "https://www.datacenterdynamics.com/en/news/nvidia-in-talks-to-backstop-nscales-monarch-compute-campus-project-for-anthropic-report/",
-      "note": "Backstop estimated above $5 billion."
-    },
-    {
-      "name": "The Korea Times: KB Kookmin Bank to lead $9.45 billion AI infrastructure financing",
-      "url": "https://www.koreatimes.co.kr/business/banking-finance/20261101/kb-kookmin-bank-to-lead-945-bil-ai-infrastructure-financing",
-      "note": "Lead and Wire: Korea."
-    },
-    {
-      "name": "Marvell: Marvell and Lumentum to combine",
-      "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
-      "note": "Signal: 4.500 shares per Lumentum share, $115 billion implied EV, close 1H 2028."
-    },
-    {
-      "name": "The Guardian: National Grid to site biggest UK substation on Teesside",
-      "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+      "name": "Drax: £20bn partnership at Drax Power Station",
+      "url": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
       "note": "Wire: United Kingdom."
     },
     {
-      "name": "The Globe and Mail: Anthropic in talks to lease campus outside Edmonton",
-      "url": "https://www.theglobeandmail.com/business/economy/article-anthropic-ai-talks-to-lease-beacon-data-centre-near-edmonton-alberta/",
-      "note": "Wire: Canada."
+      "name": "Aramco: PIF and Aramco close HUMAIN transaction",
+      "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth",
+      "note": "Wire: Saudi Arabia."
     },
     {
-      "name": "The Hindu: Vultr launches 20 MW AI supercluster in Chennai",
-      "url": "https://www.thehindu.com/business/Industry/vultr-launches-20-mw-ai-supercluster-in-chennai-aims-1-gw-capacity-by-2029/article71656654.ece",
-      "note": "Wire: India."
+      "name": "Meduza: Putin orders private data centers to reserve 10% of capacity",
+      "url": "https://meduza.io/en/news/2026/11/02/putin-orders-private-data-center-owners-to-reserve-10-of-capacity-for-the-state",
+      "note": "Wire: Russia."
     },
     {
-      "name": "The Korea Herald: Samsung SDS targets 120 MW at Gumi",
-      "url": "https://www.koreaherald.com/article/10922887",
-      "note": "Wire: South Korea."
+      "name": "Google: $160 million shared water infrastructure in Negeri Sembilan",
+      "url": "https://www.googlecloudpresscorner.com/2026-11-1-Google-Funds-US-160-Million-in-Shared-Water-Infrastructure-Alongside-Digital-Infrastructure-Development-in-Negeri-Sembilan",
+      "note": "Wire: Malaysia."
     },
     {
-      "name": "Reuters via CNA: Australian outback data centre pulls timeline",
-      "url": "https://www.channelnewsasia.com/business/exclusive-australian-outback-data-centre-pulls-timeline-after-regulator-stalls-6511551",
-      "note": "Wire: Australia."
+      "name": "OpenAI: Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "note": "Signal: Effingham campus as pilot, up to 1,000 MW flexible demand."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -239,7 +224,7 @@
     {
       "name": "Crusoe Cloud pricing",
       "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "B300 $8.96, H100 $3.90 on-demand confirm; B200 Contact sales."
+      "note": "B300 $8.96, H100 $3.90, H200 $4.29 on-demand confirm today; B200 Contact sales."
     },
     {
       "name": "DigitalOcean GPU Droplets pricing",

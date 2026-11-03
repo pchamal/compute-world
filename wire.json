@@ -1,6 +1,81 @@
 {
   "items": [
     {
+      "id": "uk-drax-brookfield-radiant-gw-data-centre-20bn-north-yorkshire-2026-11-03",
+      "date": "2026-11-03",
+      "title": "Drax, Brookfield and Radiant plan GW-scale AI data centre at Drax Power Station; investment could exceed £20 billion",
+      "summary": "Drax, Brookfield and Radiant (Brookfield's UK AI infrastructure platform) announced on 3 November 2026 a partnership to develop, deliver and operate GW-scale data centre capacity at Drax Power Station in North Yorkshire, backed by the Brookfield-Qai AI infrastructure joint venture. Brookfield estimates total investment could exceed £20 billion, including about £2.5 billion for phase one. Phasing: up to 100 MW operational from Q1 2028, an ambition of 500 MW between 2028 and 2031, and more after 2031. The 1,000-acre estate has 4 GW of grid access and 2.6 GW of active dispatchable generation; the Guardian reports Drax hopes to power the site directly by the early 2030s. The partners say the plan aligns with the government's new Data Centre Covenant. Caveat: phase one is subject to planning, regulatory and network approvals and to securing a tenant; no tenant is named. Country conversion: an existing UK power station's grid connection is being repurposed for AI load.",
+      "url": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
+      "source": "Drax Group press release, 3 Nov 2026; The Guardian, 3 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "GBR"
+      ],
+      "flags": "🇬🇧",
+      "tags": [
+        "Build",
+        "Energy",
+        "Capital"
+      ],
+      "score": 60
+    },
+    {
+      "id": "saudi-aramco-closes-49pct-humain-stake-2-6bn-cash-3gw-2030-2026-11-01",
+      "date": "2026-11-01",
+      "title": "Aramco closes purchase of a 49% stake in HUMAIN, adding about $2.6 billion in cash plus AI and compute assets; PIF keeps 51%",
+      "summary": "PIF and Aramco announced on 1 November 2026 the closing of a transaction in which an Aramco subsidiary acquires 49% of HUMAIN, Saudi Arabia's national AI company, with PIF retaining 51%. Aramco contributes about SAR 9.9 billion ($2.6 billion) in cash in 2026 plus AI, compute and digital assets. The companies restated HUMAIN's plan to deploy 3 GW of AI data centre capacity by 2030 and said Aramco will use HUMAIN's infrastructure for industrial AI. Caveat: the release gives no new site, GPU or timeline detail beyond the 3 GW by 2030 target. Country conversion: Saudi Arabia's oil balance sheet is now a direct shareholder in its national compute build.",
+      "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth",
+      "source": "Aramco and PIF announcement, 1 Nov 2026; Arab News",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "SAU"
+      ],
+      "flags": "🇸🇦",
+      "tags": [
+        "Capital"
+      ],
+      "score": 55
+    },
+    {
+      "id": "russia-putin-decree-private-data-centres-reserve-10pct-capacity-state-2026-11-02",
+      "date": "2026-11-02",
+      "title": "Putin decree orders Russia's private data centres to reserve 10% of space and capacity for state needs",
+      "summary": "Vladimir Putin signed a decree on 2 November 2026 requiring owners of private data centres in Russia to reserve 10% of their available space and computing capacity for state information resources, to be called on when a government subcommission decides it is needed. The decree took effect immediately and gives owners 10 days to comply; RIA Novosti reports operators must provide access within 24 hours of a release order, at a maximum rate set by the subcommission. With FSB consent, the commission may also authorise use of data centres abroad. The decree cites unfriendly actions by foreign states; Ukrainian drones struck Yandex, Sber and VK data centres in October. Caveat: the payment rate and how often the reserve will be drawn are not public. Country conversion: Russia is converting private compute into a state-callable reserve.",
+      "url": "https://meduza.io/en/news/2026/11/02/putin-orders-private-data-center-owners-to-reserve-10-of-capacity-for-the-state",
+      "source": "Kremlin decree, 2 Nov 2026 (kremlin.ru/acts/news/81157); Meduza; RIA Novosti; Reuters",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "RUS"
+      ],
+      "flags": "🇷🇺",
+      "tags": [
+        "Policy"
+      ],
+      "score": 52
+    },
+    {
+      "id": "malaysia-google-negeri-sembilan-160m-water-port-dickson-campus-2026-11-02",
+      "date": "2026-11-02",
+      "title": "Google funds $160 million of shared water infrastructure for its planned Port Dickson data centre campus in Negeri Sembilan",
+      "summary": "Google said on 2 November 2026 it is providing $160 million to build an off-river storage reservoir and water treatment plant on the Linggi River, delivered by Gamuda and owned by the Negeri Sembilan state body MBINS on completion. The plant will supply 65 million litres of potable water a day to Google's upcoming data centre campus at Springhill Industrial Park, Port Dickson, and to public users. Google also said it will pay for 100% of the campus's power and the direct cost of its grid connection, and cited solar PPAs including Solarvest's 29.99 MWac farm in Kedah. Gamuda said Google's Elmina Business Park campus in Selangor is soon to be operational. Caveat: no campus capacity, capex or opening date was disclosed. Country conversion: Malaysia's second Google campus is now tied to state water and grid commitments.",
+      "url": "https://www.googlecloudpresscorner.com/2026-11-1-Google-Funds-US-160-Million-in-Shared-Water-Infrastructure-Alongside-Digital-Infrastructure-Development-in-Negeri-Sembilan",
+      "source": "Google press release, 2 Nov 2026 (Negeri Sembilan)",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Build",
+        "Water"
+      ],
+      "score": 42
+    },
+    {
       "id": "korea-kb-kookmin-10-7tn-won-gpu-financing-brookfield-naver-2026-11-01",
       "date": "2026-11-01",
       "title": "KB Kookmin Bank to lead about 10.7 trillion won of loans for Brookfield's Naver Cloud GPU project, Korea's first GPU financing",
@@ -2866,6 +2941,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-11-02",
-  "note": "Wire refresh 2026-11-02: added korea-kb-kookmin-10-7tn-won-gpu-financing-brookfield-naver-2026-11-01, usa-nvidia-nscale-monarch-west-virginia-debt-guarantee-talks-2026-10-29, uk-national-grid-teesworks-dorman-point-substation-up-to-3-2gw-2026-11-01, canada-anthropic-beacon-sturgeon-county-lease-talks-920mw-gas-2026-10-30, india-vultr-chennai-20mw-mi355x-supercluster-launch-2026-11-02, korea-samsung-sds-gumi-60mw-to-120mw-ai-data-centre-groundbreaking-2026-11-02, australia-energy-north-project-ares-1gw-first-power-date-scrapped-2026-11-01. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-03",
+  "note": "Wire refresh 2026-11-03: added uk-drax-brookfield-radiant-gw-data-centre-20bn-north-yorkshire-2026-11-03, saudi-aramco-closes-49pct-humain-stake-2-6bn-cash-3gw-2030-2026-11-01, russia-putin-decree-private-data-centres-reserve-10pct-capacity-state-2026-11-02, malaysia-google-negeri-sembilan-160m-water-port-dickson-campus-2026-11-02. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
