@@ -1,45 +1,45 @@
 {
-  "updated": "2026-11-03",
-  "title": "Compute brief - 3 November 2026",
-  "description": "Anthropic's amended S-1 puts its committed compute and infrastructure spend at about $895.4 billion, more than double the $417 billion it listed before. On the supply side, Crusoe has posted on-demand price rises from 1 December: H100 $3.90 to $4.50, H200 $4.29 to $5.40, B300 $8.96 to $9.90. Wire: Drax plans a GW-scale UK campus, Aramco closes 49% of HUMAIN, Russia orders a 10% state reserve in private data centres. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "Demand is contracted. Supply is repricing.",
-  "lede": "Anthropic amended its S-1 on 3 November with third-quarter revenue of $17 billion and a net loss of $23.29 billion, and its purchase commitments and leases now total about $895.4 billion, substantially all for compute and infrastructure, up from $417 billion previously listed. The filing names $121.3 billion with Google, $120.5 billion with SpaceX, $110 billion with Amazon, $44.9 billion with Microsoft, $44.6 billion with Nscale, $41.3 billion with Lambda and $50 billion with Fluidstack, per DCD. Against last week's neocloud credit squeeze, the supply side is starting to reprice: Crusoe's public price page now shows new on-demand rates from 1 December 2026, with H100 up 15.4% to $4.50, H200 up 25.9% to $5.40 and B300 up 10.5% to $9.90 per GPU-hour. Today's live prints are unchanged, so the tape shows 70 confirms, 0 ticks and 0 NEW; Lambda H100 holds at $3.99 and B200 at $6.69.",
+  "updated": "2026-11-04",
+  "title": "Compute brief - 4 November 2026",
+  "description": "AMD posted record third-quarter revenue of $13.4 billion with data center up 97% to $8.5 billion, began volume MI455X shipments, and guided fourth-quarter revenue to about $17 billion. Demand side, the politics turned: governors who pledged data center pauses won Texas, Ohio and Georgia. Wire: Google adds $15 billion for Malaysia, Oracle reportedly drops a $7 billion Tencent GPU lease, Portugal readies renewable-only rules. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "Supply is ramping. The permit is the new bottleneck.",
+  "lede": "AMD reported third-quarter revenue of $13.4 billion, up 45%, with data center revenue up 97% to a record $8.5 billion, or 64% of the total; it started volume shipments of MI455X and said Anthropic, Meta, Microsoft, OpenAI and Oracle brought their first Helios racks online. It guided fourth-quarter revenue to about $17 billion, plus or minus 3%, a 27% sequential rise at the midpoint. The same night, US voters moved the other constraint: Gina Hinojosa unseated Texas governor Greg Abbott on a pledge of an immediate data center moratorium, and pause advocates Amy Acton and Keisha Lance Bottoms won Ohio and Georgia. Today's live prints are unchanged, so the tape shows 70 confirms, 0 ticks and 0 NEW; Lambda H100 holds at $3.99 and B200 at $6.69, and Crusoe's 1 December rates are still scheduled, not live.",
   "countries": [
     {
-      "id": "gbr-drax-campus",
-      "name": "United Kingdom",
-      "slug": "united-kingdom",
-      "note": "Drax, Brookfield and Radiant plan GW-scale data centre capacity at Drax Power Station; up to 100 MW from Q1 2028, investment could exceed £20 billion (Wire, 3 Nov)."
-    },
-    {
-      "id": "sau-aramco-humain",
-      "name": "Saudi Arabia",
-      "slug": "saudi-arabia",
-      "note": "Aramco closes a 49% stake in HUMAIN with about $2.6 billion in cash plus assets; 3 GW by 2030 target restated (Wire, 1 Nov)."
-    },
-    {
-      "id": "rus-state-reserve",
-      "name": "Russia",
-      "slug": "russia",
-      "note": "Putin decree orders private data centres to reserve 10% of space and capacity for state needs, 10 days to comply (Wire, 2 Nov)."
-    },
-    {
-      "id": "mys-google-negeri-sembilan",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Google funds $160 million of shared water infrastructure for its planned Port Dickson campus (Wire, 2 Nov)."
-    },
-    {
-      "id": "kor-kb-gpu-financing",
-      "name": "South Korea",
-      "slug": "south-korea",
-      "note": "KB Kookmin leads about 10.7 trillion won of loans for Brookfield's GPU SPC supplying Naver Cloud (Wire, 1 Nov)."
-    },
-    {
-      "id": "usa-nvidia-nscale-guarantee",
+      "id": "usa-governor-moratoria",
       "name": "United States",
       "slug": "united-states",
-      "note": "Nvidia in talks to guarantee debt for Nscale's 460 MW Anthropic building in West Virginia (Wire, 29 Oct, corroborated)."
+      "note": "Governors who pledged data center pauses won Texas, Ohio and Georgia; Texas has about 6.5 GW under development (Wire, 3 Nov, corroborated)."
+    },
+    {
+      "id": "mys-google-15bn",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "Google commits an additional $15 billion for 2027 and 2028 across Selangor and Negeri Sembilan, plus more than 1 GW of clean energy with TNB (Wire, 4 Nov)."
+    },
+    {
+      "id": "chn-oracle-tencent",
+      "name": "China",
+      "slug": "china",
+      "note": "Oracle reportedly scraps a $7 billion, 100,000-chip Southeast Asia lease to Tencent after US pressure (Wire, 4 Nov, single-source FT)."
+    },
+    {
+      "id": "prt-renewable-rules",
+      "name": "Portugal",
+      "slug": "portugal",
+      "note": "Government finalising rules requiring renewable power and no competition for fresh water; more than 2.6 GW under development (Wire, 4 Nov)."
+    },
+    {
+      "id": "kor-npu-reference",
+      "name": "South Korea",
+      "slug": "south-korea",
+      "note": "Science ministry plans a 2027 large-scale reference pairing AMD CPUs and GPUs with Korean NPUs (Wire, 4 Nov)."
+    },
+    {
+      "id": "aus-nextdc-stake",
+      "name": "Australia",
+      "slug": "australia",
+      "note": "Goodman and Digital Realty offer A$715 million for 9.9% of NextDC after its M3 Melbourne grid delay (Wire, 4 Nov)."
     }
   ],
   "silicon": [
@@ -49,10 +49,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print"
+      "note": "Confirm vs 3 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +60,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print"
+      "note": "Confirm vs 3 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +71,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print"
+      "note": "Confirm vs 3 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +82,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 3 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +93,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 3 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +104,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print"
+      "note": "Confirm vs 3 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +115,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print; was $2.97 on 27 Oct"
+      "note": "Confirm vs 3 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +126,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print; was $2.46 on 27 Oct"
+      "note": "Confirm vs 3 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -137,37 +137,37 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 2 Nov print"
+      "note": "Confirm vs 3 Nov print"
     }
   ],
   "watch": [
     {
       "id": "crusoe-dec1-pricing",
       "name": "Crusoe 1 December rates",
-      "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes. Watch whether Lambda, CoreWeave or others follow."
+      "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 and B200 $8.50 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
     },
     {
-      "id": "amd-q3",
-      "name": "AMD Q3 results",
-      "note": "After the close on 3 November; MI355X and MI455X ramp, Helios timing, Anthropic and OpenAI deployments."
+      "id": "texas-moratorium",
+      "name": "Texas after Abbott",
+      "note": "Whether Abbott lifts his ERCOT-audit pause before handing over in January, and what Hinojosa's moratorium covers."
+    },
+    {
+      "id": "helios-q4",
+      "name": "AMD Helios ramp",
+      "note": "OEM shipments from HPE, Dell, Lenovo and Supermicro in Q4; about $17 billion revenue guide."
     },
     {
       "id": "anthropic-ipo",
       "name": "Anthropic IPO",
-      "note": "Amended S-1 filed; listing expected the week of 16 November."
+      "note": "Listing expected the week of 16 November."
     },
     {
       "id": "neocloud-q3",
       "name": "CoreWeave and Nebius Q3",
-      "note": "Both report 12 November; CoreWeave stock at an all-time low, bonds near 15% yield."
-    },
-    {
-      "id": "nscale-guarantee-terms",
-      "name": "Nvidia backstop for Nscale",
-      "note": "Whether the residual value guarantee is signed before Anthropic's longstop date."
+      "note": "Both report 12 November."
     },
     {
       "id": "eu-gigafactory-bids",
@@ -177,39 +177,39 @@
   ],
   "sources": [
     {
-      "name": "DCD: Anthropic S-1 update reveals $895.4bn in cloud and data center commitments",
-      "url": "https://www.datacenterdynamics.com/en/news/anthropic-s-1-update-reveals-8954bn-in-cloud-and-data-center-commitments/",
-      "note": "Lead: Q3 revenue $17 billion, net loss $23.29 billion, $895.4 billion committed spend."
+      "name": "AMD Reports Third Quarter 2026 Financial Results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "note": "Lead: $13.4 billion revenue, data center $8.5 billion, Q4 guide about $17 billion."
     },
     {
-      "name": "Crusoe Cloud pricing (1 December rates)",
-      "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "Lead: current and new on-demand columns; H100 $4.50, H200 $5.40, B300 $9.90 from 1 Dec 2026."
+      "name": "AP: Hinojosa defeats Abbott in Texas governor race",
+      "url": "https://apnews.com/article/texas-governor-election-hinojosa-abbott-c9a0ffa1ec3cd599f9bc304ae26268a2",
+      "note": "Lead and Wire: United States."
     },
     {
-      "name": "Drax: £20bn partnership at Drax Power Station",
-      "url": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
-      "note": "Wire: United Kingdom."
+      "name": "DCD: Anti-data center candidates claim victory across the US",
+      "url": "https://www.datacenterdynamics.com/en/news/us-midterm-elections-2026-data-centers-donald-trump/",
+      "note": "Wire: United States."
     },
     {
-      "name": "Aramco: PIF and Aramco close HUMAIN transaction",
-      "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth",
-      "note": "Wire: Saudi Arabia."
-    },
-    {
-      "name": "Meduza: Putin orders private data centers to reserve 10% of capacity",
-      "url": "https://meduza.io/en/news/2026/11/02/putin-orders-private-data-center-owners-to-reserve-10-of-capacity-for-the-state",
-      "note": "Wire: Russia."
-    },
-    {
-      "name": "Google: $160 million shared water infrastructure in Negeri Sembilan",
-      "url": "https://www.googlecloudpresscorner.com/2026-11-1-Google-Funds-US-160-Million-in-Shared-Water-Infrastructure-Alongside-Digital-Infrastructure-Development-in-Negeri-Sembilan",
+      "name": "Malay Mail: Google commits additional US$15b to Malaysia",
+      "url": "https://www.malaymail.com/news/malaysia/2026/11/04/google-commits-additional-us15b-to-malaysia-data-centre-expansion-over-two-years-projects-37000-jobs-as-anwar-hails-investment/241985",
       "note": "Wire: Malaysia."
     },
     {
-      "name": "OpenAI: Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "note": "Signal: Effingham campus as pilot, up to 1,000 MW flexible demand."
+      "name": "DCD: Oracle drops Tencent as cloud client (FT report)",
+      "url": "https://www.datacenterdynamics.com/en/news/oracle-drops-tencent-as-cloud-client-losing-multi-billion-dollar-contract-report/",
+      "note": "Wire: China."
+    },
+    {
+      "name": "Reuters via Euronext: Portugal readies strict water, energy rules",
+      "url": "https://live.euronext.com/en/financial-news/portugal-readies-strict-water-energy-rules-data-centre-boom",
+      "note": "Wire: Portugal."
+    },
+    {
+      "name": "DCD: Goodman and Digital Realty bid for NextDC stake",
+      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-and-goodman-group-line-up-au715m-bid-for-stake-in-australias-nextdc/",
+      "note": "Wire: Australia."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -224,7 +224,7 @@
     {
       "name": "Crusoe Cloud pricing",
       "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "B300 $8.96, H100 $3.90, H200 $4.29 on-demand confirm today; B200 Contact sales."
+      "note": "B300 $8.96, H100 $3.90, H200 $4.29 on-demand confirm; 1 Dec column scheduled, not logged."
     },
     {
       "name": "DigitalOcean GPU Droplets pricing",

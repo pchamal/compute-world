@@ -1,6 +1,141 @@
 {
   "items": [
     {
+      "id": "usa-midterms-governors-texas-ohio-georgia-data-centre-moratorium-pledges-2026-11-03",
+      "date": "2026-11-03",
+      "title": "Candidates pledging data centre pauses win governor races in Texas, Ohio and Georgia",
+      "summary": "In the 3 November 2026 US midterms, Democrat Gina Hinojosa ousted Texas governor Greg Abbott (AP), after campaigning for an immediate moratorium on new data centres until the legislature passes protections. In Ohio, Amy Acton, who backs a conditional moratorium requiring data centres to cover 100% of their utility costs, defeated Vivek Ramaswamy; in Georgia, Keisha Lance Bottoms, who called for a statewide pause on data centre development, won (AP). DCD reports 26 gubernatorial candidates in 21 of 36 states ran on anti-data centre platforms, and that Democrats took both chambers of Congress, with some results still being counted. Texas has about 6.5 GW under development per DCD. Caveat: the new governors take office in January 2027 and any moratorium needs legislation or executive action; Abbott's own temporary pause for the ERCOT large-load audit was already in place. Country conversion: the US build-out now faces executive-level opposition in three of its largest growth states.",
+      "url": "https://apnews.com/article/texas-governor-election-hinojosa-abbott-c9a0ffa1ec3cd599f9bc304ae26268a2",
+      "source": "AP, 4 Nov 2026 (Texas, Georgia); DCD, 4 Nov 2026; Euronews",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 66
+    },
+    {
+      "id": "malaysia-google-15bn-data-centres-2027-2028-selangor-negeri-sembilan-1gw-clean-energy-2026-11-04",
+      "date": "2026-11-04",
+      "title": "Google commits an additional $15 billion to Malaysian data centres in 2027 and 2028",
+      "summary": "Alphabet president and chief investment officer Ruth Porat announced on 4 November 2026, with Prime Minister Anwar Ibrahim, that Google will invest an additional $15 billion (RM61 billion) in Malaysia over 2027 and 2028. The money covers expansion of its Elmina Business Park campus in Selangor and new planned campuses in Selangor and Negeri Sembilan. Google says it will work with Tenaga Nasional Berhad to add more than 1 GW of clean energy to the grid without public subsidies, and pay for its own power and grid connections; construction is projected to support 37,000 jobs a year. This builds on the $2 billion announced in May 2024 and the $160 million water plant announced 2 November. Caveat: no campus MW figures were disclosed by Google; DCD cites reports of 500 MW to 1 GW for Port Dickson. Country conversion: Malaysia lands a hyperscaler commitment more than seven times its 2024 pledge.",
+      "url": "https://www.malaymail.com/news/malaysia/2026/11/04/google-commits-additional-us15b-to-malaysia-data-centre-expansion-over-two-years-projects-37000-jobs-as-anwar-hails-investment/241985",
+      "source": "Malay Mail (Bernama), 4 Nov 2026; The Star; Straits Times; DCD",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Build",
+        "Capital",
+        "Energy"
+      ],
+      "score": 60
+    },
+    {
+      "id": "china-oracle-scraps-7bn-tencent-100k-gpu-lease-southeast-asia-ft-2026-11-04",
+      "date": "2026-11-04",
+      "title": "Oracle reportedly scraps a $7 billion deal to lease up to 100,000 AI chips to Tencent in Southeast Asia",
+      "summary": "The Financial Times reported on 4 November 2026 that Oracle has cancelled a five-year contract worth about $7 billion under which Tencent would have leased access to as many as 100,000 advanced AI chips hosted in Oracle data centres in Southeast Asia, weeks after signing. Per the FT, US officials raised concerns with Oracle, while Guangdong officials asked Tencent to support domestic Chinese chips. The FT separately reported that Nvidia has verbally told data centre partners that at least 51% of their services must go to customers outside China. Caveat: single-source report based on anonymous sources; Oracle, Tencent and the White House had not commented. Country conversion: the offshore rental route for Chinese access to US accelerators is narrowing.",
+      "url": "https://www.datacenterdynamics.com/en/news/oracle-drops-tencent-as-cloud-client-losing-multi-billion-dollar-contract-report/",
+      "source": "Financial Times, 4 Nov 2026, via DCD and The Business Times",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "CHN"
+      ],
+      "flags": "🇨🇳",
+      "tags": [
+        "Policy",
+        "Cloud",
+        "Stall"
+      ],
+      "score": 50
+    },
+    {
+      "id": "portugal-decree-data-centres-renewable-power-waterless-cooling-2026-11-04",
+      "date": "2026-11-04",
+      "title": "Portugal readies a decree requiring data centres to run on renewable power and avoid competing for fresh water",
+      "summary": "Environment and Energy Minister Maria da Graca Carvalho told a parliamentary hearing that the government is finalising rules, expected by year-end, under which data centres must secure renewable electricity and use either cooling that does not need fresh water or a water solution that does not conflict with public and economic supply, plus a very rigorous environmental review. Operators would not have to generate their own power but must guarantee renewable access and cover grid connection costs (SAPO). DCD counts more than 2.6 GW under development in Portugal, including the 1.2 GW Start Campus at Sines. Caveat: draft rules, final text not published. Country conversion: Portugal joins Spain in conditioning data centre growth on renewable supply.",
+      "url": "https://live.euronext.com/en/financial-news/portugal-readies-strict-water-energy-rules-data-centre-boom",
+      "source": "Reuters via Euronext, 4 Nov 2026; DCD; SAPO",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "PRT"
+      ],
+      "flags": "🇵🇹",
+      "tags": [
+        "Policy",
+        "Energy",
+        "Water"
+      ],
+      "score": 40
+    },
+    {
+      "id": "korea-msit-amd-domestic-npu-full-stack-reference-program-2027-2026-11-04",
+      "date": "2026-11-04",
+      "title": "South Korea plans a 2027 large-scale reference system pairing AMD CPUs and GPUs with Korean NPUs",
+      "summary": "At AMD's Advancing AI event in Seoul on 4 November 2026, Second Vice Minister of Science and ICT Ryu Je-myung said the government will launch a 'K-AI Semiconductor Full-Stack Reference' support programme next year, linking domestic chips, models, software and services. Policy chief Lee Dogyu said the ministry will build a large-scale demonstration reference combining AMD CPUs and GPUs with homegrown NPUs for public institutions, companies and global customers. The ministry and AMD held an MOU steering committee the same day, covering an AMD AI research centre and talent programmes (Yonhap). Caveat: no budget, capacity or site was disclosed. Country conversion: Korea is building a non-Nvidia sovereign stack reference.",
+      "url": "https://www.yna.co.kr/view/AKR20261104029800017",
+      "source": "Yonhap, 4 Nov 2026; Digital Daily; Asia Business Daily",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Policy",
+        "Build"
+      ],
+      "score": 36
+    },
+    {
+      "id": "australia-goodman-digital-realty-a715m-bid-9-9pct-nextdc-2026-11-04",
+      "date": "2026-11-04",
+      "title": "Goodman and Digital Realty offer A$715 million for 9.9% of NextDC after its Melbourne power delay",
+      "summary": "Goodman Group and Digital Realty offered A$715 million (about US$500 million) for a 9.9% stake in NextDC at A$9.50 a share, a 45.5% premium, via a term sheet lodged with the ASX after trading on 4 November 2026 (Reuters, DCD). NextDC shares had fallen as much as 45% in recent weeks after it deferred A$140 million of revenue because Jemena's network upgrade for its M3 Melbourne site, planned to take capacity from 60 MW to 225 MW, slipped to FY2027/28, and it paused new developments. The bidders say they will not seek control for now. Caveat: NextDC had not responded. Country conversion: Australia's largest listed operator is being recapitalised by rivals after a grid delay.",
+      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-and-goodman-group-line-up-au715m-bid-for-stake-in-australias-nextdc/",
+      "source": "DCD, 4 Nov 2026; Reuters",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Capital",
+        "Stall"
+      ],
+      "score": 34
+    },
+    {
+      "id": "canada-joins-eurohpc-ju-39th-participating-state-2026-11-03",
+      "date": "2026-11-03",
+      "title": "Canada joins the EuroHPC Joint Undertaking as its 39th participating state",
+      "summary": "Canada joined the EuroHPC Joint Undertaking on 3 November 2026, giving Canadian researchers access to European HPC, AI and quantum computing resources provided by the JU, per DCD. AI Minister Evan Solomon said membership will open access to world-class supercomputing, AI and quantum resources. Other non-EU participants include the UK, Norway, Switzerland, Israel and Turkey. Caveat: no Canadian funding contribution or allocation size was disclosed. Country conversion: Canada adds shared European public compute access alongside its domestic sovereign compute programme.",
+      "url": "https://www.datacenterdynamics.com/en/news/canada-joins-eurohpc-ju-initiative/",
+      "source": "DCD, 3 Nov 2026; EuroHPC JU",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CAN"
+      ],
+      "flags": "🇨🇦",
+      "tags": [
+        "Policy"
+      ],
+      "score": 28
+    },
+    {
       "id": "uk-drax-brookfield-radiant-gw-data-centre-20bn-north-yorkshire-2026-11-03",
       "date": "2026-11-03",
       "title": "Drax, Brookfield and Radiant plan GW-scale AI data centre at Drax Power Station; investment could exceed £20 billion",
@@ -2941,6 +3076,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-11-03",
-  "note": "Wire refresh 2026-11-03: added uk-drax-brookfield-radiant-gw-data-centre-20bn-north-yorkshire-2026-11-03, saudi-aramco-closes-49pct-humain-stake-2-6bn-cash-3gw-2030-2026-11-01, russia-putin-decree-private-data-centres-reserve-10pct-capacity-state-2026-11-02, malaysia-google-negeri-sembilan-160m-water-port-dickson-campus-2026-11-02. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-04",
+  "note": "Wire refresh 2026-11-04: added usa-midterms-governors-texas-ohio-georgia-data-centre-moratorium-pledges-2026-11-03, malaysia-google-15bn-data-centres-2027-2028-selangor-negeri-sembilan-1gw-clean-energy-2026-11-04, china-oracle-scraps-7bn-tencent-100k-gpu-lease-southeast-asia-ft-2026-11-04, portugal-decree-data-centres-renewable-power-waterless-cooling-2026-11-04, korea-msit-amd-domestic-npu-full-stack-reference-program-2027-2026-11-04, australia-goodman-digital-realty-a715m-bid-9-9pct-nextdc-2026-11-04, canada-joins-eurohpc-ju-39th-participating-state-2026-11-03. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
