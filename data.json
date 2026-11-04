@@ -995,9 +995,9 @@
    "pue": "~1.2-1.4",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
-   "rz": 54,
+   "rz": 47,
    "dl": 1,
-   "rw": "Envision targets end-2028 completion of its Galaxy AI data centre campus in …"
+   "rw": "Oracle reportedly scraps a $7 billion deal to lease up to 100,000 AI chips t…"
   },
   {
    "n": "Japan",
@@ -1097,7 +1097,7 @@
    "rf": 0.95,
    "rz": 74,
    "dl": 1,
-   "rw": "Samsung SDS breaks ground on a 60 MW AI data centre in Gumi, expandable to 1…"
+   "rw": "South Korea plans a 2027 large-scale reference system pairing AMD CPUs and G…"
   },
   {
    "n": "Taiwan",
@@ -1497,7 +1497,7 @@
    "rf": 0.85,
    "rz": 88,
    "dl": 1,
-   "rw": "Google funds $160 million of shared water infrastructure for its planned Por…"
+   "rw": "Google commits an additional $15 billion to Malaysian data centres in 2027 a…"
   },
   {
    "n": "Indonesia",
@@ -3895,9 +3895,9 @@
    "pue": "~1.2-1.4",
    "note": "Sines hub",
    "rf": 0.85,
-   "rz": 27,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 38,
+   "dl": 1,
+   "rw": "Portugal readies a decree requiring data centres to run on renewable power a…"
   },
   {
    "n": "Italy",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "Nvidia in talks to guarantee billions of debt for Nscale's West Virginia cam…"
+   "rw": "Candidates pledging data centre pauses win governor races in Texas, Ohio and…"
   },
   {
    "n": "Canada",
@@ -4697,7 +4697,7 @@
    "rf": 1.0,
    "rz": 47,
    "dl": 1,
-   "rw": "Anthropic reportedly in talks to lease Beacon Data Centers' Sturgeon County …"
+   "rw": "Canada joins the EuroHPC Joint Undertaking as its 39th participating state"
   },
   {
    "n": "Mexico",
@@ -5547,7 +5547,7 @@
    "rf": 1.0,
    "rz": 42,
    "dl": 1,
-   "rw": "Energy North scraps the June 2028 first-power date for its 1 GW Project Ares…"
+   "rw": "Goodman and Digital Realty offer A$715 million for 9.9% of NextDC after its …"
   },
   {
    "n": "New Zealand",
