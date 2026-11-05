@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>AMD reported third-quarter revenue of $13.4 billion, up 45%, with data center revenue up 97% to a record $8.5 billion, or 64% of the total; it started volume shipments of MI455X and said Anthropic, Meta, Microsoft, OpenAI and Oracle brought their first Helios racks online. It guided fourth-quarter revenue to about $17 billion, plus or minus 3%, a 27% sequential rise at the midpoint. The same night, US voters moved the other constraint: Gina Hinojosa unseated Texas governor Greg Abbott on a pledge of an immediate data center moratorium, and pause advocates Amy Acton and Keisha Lance Bottoms won Ohio and Georgia. Today&#x27;s live prints are unchanged, so the tape shows 70 confirms, 0 ticks and 0 NEW; Lambda H100 holds at $3.99 and B200 at $6.69, and Crusoe&#x27;s 1 December rates are still scheduled, not live.</description>
+  <description>Two days after US voters backed data center restrictions in 40 of 41 local ballot measures, the market repriced the build: Reuters reported the Philadelphia semiconductor index fell 8% on Thursday, with CoreWeave down 11% and Nebius 15%. Texas governor-elect Gina Hinojosa said she will keep the state&#x27;s pause in place until the legislature passes local votes, no-NDA rules and ratepayer protections; BMI says 53% of hyperscaler pipeline growth sits in newly flipped governor states, and Cleanview counts 159 GW, or 41% of planned US capacity, where new governors back a pause. Builders are answering with terms: OpenAI pledged to drop NDAs and pay its full power cost, and Lambda named itself anchor of a $33.1 billion, 1 GW campus in Alabama while promising the same. Live list prices did not move: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $3.99 and Crusoe&#x27;s 1 December rates still scheduled, not live.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 4 November 2026</title>
+    <title>Compute brief - 5 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-11-04</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>AMD reported third-quarter revenue of $13.4 billion, up 45%, with data center revenue up 97% to a record $8.5 billion, or 64% of the total; it started volume shipments of MI455X and said Anthropic, Meta, Microsoft, OpenAI and Oracle brought their first Helios racks online. It guided fourth-quarter revenue to about $17 billion, plus or minus 3%, a 27% sequential rise at the midpoint. The same night, US voters moved the other constraint: Gina Hinojosa unseated Texas governor Greg Abbott on a pledge of an immediate data center moratorium, and pause advocates Amy Acton and Keisha Lance Bottoms won Ohio and Georgia. Today&#x27;s live prints are unchanged, so the tape shows 70 confirms, 0 ticks and 0 NEW; Lambda H100 holds at $3.99 and B200 at $6.69, and Crusoe&#x27;s 1 December rates are still scheduled, not live. Countries: United States: Governors who pledged data center pauses won Texas, Ohio and Georgia; Texas has about 6.5 GW under development (Wire, 3 Nov, corroborated). Malaysia: Google commits an additional $15 billion for 2027 and 2028 across Selangor and Negeri Sembilan, plus more than 1 GW of clean energy with TNB (Wire, 4 Nov). China: Oracle reportedly scraps a $7 billion, 100,000-chip Southeast Asia lease to Tencent after US pressure (Wire, 4 Nov, single-source FT). Portugal: Government finalising rules requiring renewable power and no competition for fresh water; more than 2.6 GW under development (Wire, 4 Nov). South Korea: Science ministry plans a 2027 large-scale reference pairing AMD CPUs and GPUs with Korean NPUs (Wire, 4 Nov). Australia: Goodman and Digital Realty offer A$715 million for 9.9% of NextDC after its M3 Melbourne grid delay (Wire, 4 Nov).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-05</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Two days after US voters backed data center restrictions in 40 of 41 local ballot measures, the market repriced the build: Reuters reported the Philadelphia semiconductor index fell 8% on Thursday, with CoreWeave down 11% and Nebius 15%. Texas governor-elect Gina Hinojosa said she will keep the state&#x27;s pause in place until the legislature passes local votes, no-NDA rules and ratepayer protections; BMI says 53% of hyperscaler pipeline growth sits in newly flipped governor states, and Cleanview counts 159 GW, or 41% of planned US capacity, where new governors back a pause. Builders are answering with terms: OpenAI pledged to drop NDAs and pay its full power cost, and Lambda named itself anchor of a $33.1 billion, 1 GW campus in Alabama while promising the same. Live list prices did not move: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $3.99 and Crusoe&#x27;s 1 December rates still scheduled, not live. Countries: United States: Texas governor-elect will keep the data center pause until new laws pass; BMI puts 53% of hyperscale pipeline growth in newly flipped governor states (Wire, 5 Nov, corroborated). United States: Restrictions won 40 of 41 local ballot measures; OpenAI publishes a Compute Campus Policy and community compact (Wire, 5 Nov). United States: Lambda anchors a $33.1 billion, 1 GW Lowndes County, Alabama campus; construction from Q1 2027, first operations Q4 2028 (Wire, 4 Nov). United States: Microsoft declines an option of roughly 500 MW to expand its Nscale Texas contract; Nscale says its $103 billion backlog is unchanged (Wire, 5 Nov, FT-led). Malaysia: Princeton Digital Group raises about $1.3 billion of green financing for its 200 MW JH1 campus in Johor (Wire, 5 Nov). India: IndiaAI&#x27;s 10,000-GPU empanelment round halves the entry bar to 512 units; bids close 13 November (Wire, 5 Nov, single-source).</description>
   </item>
   <item>
     <title>H100 SXM · $3.99 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/lambda-h100-od</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $3.99 on-demand at Lambda as of 04 Nov 2026. Confirm vs 3 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/lambda-h100-od</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $3.99 on-demand at Lambda as of 05 Nov 2026. Confirm vs 4 Nov print</description>
   </item>
   <item>
     <title>B200 SXM6 · $6.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/lambda-b200-od</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 04 Nov 2026. Confirm vs 3 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/lambda-b200-od</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $6.69 on-demand at Lambda as of 05 Nov 2026. Confirm vs 4 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/coreweave-h100-od</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 04 Nov 2026. Confirm vs 3 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/coreweave-h100-od</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 05 Nov 2026. Confirm vs 4 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/crusoe-h100-od</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 04 Nov 2026. Confirm vs 3 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/crusoe-h100-od</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 05 Nov 2026. Confirm vs 4 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/crusoe-b300-od</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 04 Nov 2026. Confirm vs 3 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/crusoe-b300-od</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 05 Nov 2026. Confirm vs 4 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/do-b300-spot</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 04 Nov 2026. Confirm vs 3 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/do-b300-spot</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 05 Nov 2026. Confirm vs 4 Nov print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/do-mi355x-spot</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 04 Nov 2026. Confirm vs 3 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/do-mi355x-spot</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 05 Nov 2026. Confirm vs 4 Nov print</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/do-mi350x-spot</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 04 Nov 2026. Confirm vs 3 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/do-mi350x-spot</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 05 Nov 2026. Confirm vs 4 Nov print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-04/aws-cb-b300</guid>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 04 Nov 2026. Confirm vs 3 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-05/aws-cb-b300</guid>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 05 Nov 2026. Confirm vs 4 Nov print</description>
   </item>
 </channel></rss>
