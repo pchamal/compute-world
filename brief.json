@@ -1,45 +1,45 @@
 {
-  "updated": "2026-11-04",
-  "title": "Compute brief - 4 November 2026",
-  "description": "AMD posted record third-quarter revenue of $13.4 billion with data center up 97% to $8.5 billion, began volume MI455X shipments, and guided fourth-quarter revenue to about $17 billion. Demand side, the politics turned: governors who pledged data center pauses won Texas, Ohio and Georgia. Wire: Google adds $15 billion for Malaysia, Oracle reportedly drops a $7 billion Tencent GPU lease, Portugal readies renewable-only rules. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "Supply is ramping. The permit is the new bottleneck.",
-  "lede": "AMD reported third-quarter revenue of $13.4 billion, up 45%, with data center revenue up 97% to a record $8.5 billion, or 64% of the total; it started volume shipments of MI455X and said Anthropic, Meta, Microsoft, OpenAI and Oracle brought their first Helios racks online. It guided fourth-quarter revenue to about $17 billion, plus or minus 3%, a 27% sequential rise at the midpoint. The same night, US voters moved the other constraint: Gina Hinojosa unseated Texas governor Greg Abbott on a pledge of an immediate data center moratorium, and pause advocates Amy Acton and Keisha Lance Bottoms won Ohio and Georgia. Today's live prints are unchanged, so the tape shows 70 confirms, 0 ticks and 0 NEW; Lambda H100 holds at $3.99 and B200 at $6.69, and Crusoe's 1 December rates are still scheduled, not live.",
+  "updated": "2026-11-05",
+  "title": "Compute brief - 5 November 2026",
+  "description": "The market priced the election: the Philadelphia chip index fell 8% and CoreWeave and Nebius lost 11% and 15% as analysts put roughly half the US hyperscale pipeline at regulatory risk. Texas's governor-elect says the pause stays until new laws pass, and OpenAI published a Compute Campus Policy. Wire: Lambda's $33.1 billion Alabama campus, Microsoft passes on more Nscale Texas capacity, PDG finances Johor, IndiaAI opens a 10,000-GPU round. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The chips are sold. The sites are now on the ballot.",
+  "lede": "Two days after US voters backed data center restrictions in 40 of 41 local ballot measures, the market repriced the build: Reuters reported the Philadelphia semiconductor index fell 8% on Thursday, with CoreWeave down 11% and Nebius 15%. Texas governor-elect Gina Hinojosa said she will keep the state's pause in place until the legislature passes local votes, no-NDA rules and ratepayer protections; BMI says 53% of hyperscaler pipeline growth sits in newly flipped governor states, and Cleanview counts 159 GW, or 41% of planned US capacity, where new governors back a pause. Builders are answering with terms: OpenAI pledged to drop NDAs and pay its full power cost, and Lambda named itself anchor of a $33.1 billion, 1 GW campus in Alabama while promising the same. Live list prices did not move: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $3.99 and Crusoe's 1 December rates still scheduled, not live.",
   "countries": [
     {
-      "id": "usa-governor-moratoria",
+      "id": "usa-texas-moratorium",
       "name": "United States",
       "slug": "united-states",
-      "note": "Governors who pledged data center pauses won Texas, Ohio and Georgia; Texas has about 6.5 GW under development (Wire, 3 Nov, corroborated)."
+      "note": "Texas governor-elect will keep the data center pause until new laws pass; BMI puts 53% of hyperscale pipeline growth in newly flipped governor states (Wire, 5 Nov, corroborated)."
     },
     {
-      "id": "mys-google-15bn",
+      "id": "usa-ballot-openai",
+      "name": "United States",
+      "slug": "united-states",
+      "note": "Restrictions won 40 of 41 local ballot measures; OpenAI publishes a Compute Campus Policy and community compact (Wire, 5 Nov)."
+    },
+    {
+      "id": "usa-lambda-alabama",
+      "name": "United States",
+      "slug": "united-states",
+      "note": "Lambda anchors a $33.1 billion, 1 GW Lowndes County, Alabama campus; construction from Q1 2027, first operations Q4 2028 (Wire, 4 Nov)."
+    },
+    {
+      "id": "usa-msft-nscale",
+      "name": "United States",
+      "slug": "united-states",
+      "note": "Microsoft declines an option of roughly 500 MW to expand its Nscale Texas contract; Nscale says its $103 billion backlog is unchanged (Wire, 5 Nov, FT-led)."
+    },
+    {
+      "id": "mys-pdg-jh1",
       "name": "Malaysia",
       "slug": "malaysia",
-      "note": "Google commits an additional $15 billion for 2027 and 2028 across Selangor and Negeri Sembilan, plus more than 1 GW of clean energy with TNB (Wire, 4 Nov)."
+      "note": "Princeton Digital Group raises about $1.3 billion of green financing for its 200 MW JH1 campus in Johor (Wire, 5 Nov)."
     },
     {
-      "id": "chn-oracle-tencent",
-      "name": "China",
-      "slug": "china",
-      "note": "Oracle reportedly scraps a $7 billion, 100,000-chip Southeast Asia lease to Tencent after US pressure (Wire, 4 Nov, single-source FT)."
-    },
-    {
-      "id": "prt-renewable-rules",
-      "name": "Portugal",
-      "slug": "portugal",
-      "note": "Government finalising rules requiring renewable power and no competition for fresh water; more than 2.6 GW under development (Wire, 4 Nov)."
-    },
-    {
-      "id": "kor-npu-reference",
-      "name": "South Korea",
-      "slug": "south-korea",
-      "note": "Science ministry plans a 2027 large-scale reference pairing AMD CPUs and GPUs with Korean NPUs (Wire, 4 Nov)."
-    },
-    {
-      "id": "aus-nextdc-stake",
-      "name": "Australia",
-      "slug": "australia",
-      "note": "Goodman and Digital Realty offer A$715 million for 9.9% of NextDC after its M3 Melbourne grid delay (Wire, 4 Nov)."
+      "id": "ind-indiaai-round",
+      "name": "India",
+      "slug": "india",
+      "note": "IndiaAI's 10,000-GPU empanelment round halves the entry bar to 512 units; bids close 13 November (Wire, 5 Nov, single-source)."
     }
   ],
   "silicon": [
@@ -49,10 +49,10 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 3.99,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print"
+      "note": "Confirm vs 4 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +60,10 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 6.69,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print"
+      "note": "Confirm vs 4 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +71,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print"
+      "note": "Confirm vs 4 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +82,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 4 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +93,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 4 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +104,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print"
+      "note": "Confirm vs 4 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +115,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print"
+      "note": "Confirm vs 4 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +126,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print"
+      "note": "Confirm vs 4 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -137,79 +137,89 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 3 Nov print"
+      "note": "Confirm vs 4 Nov print"
     }
   ],
   "watch": [
     {
       "id": "crusoe-dec1-pricing",
       "name": "Crusoe 1 December rates",
-      "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 and B200 $8.50 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
+      "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
     },
     {
       "id": "texas-moratorium",
-      "name": "Texas after Abbott",
-      "note": "Whether Abbott lifts his ERCOT-audit pause before handing over in January, and what Hinojosa's moratorium covers."
+      "name": "Texas pause",
+      "note": "Whether Abbott lifts his pause when the ERCOT review ends in December, or holds it for Hinojosa's January start."
     },
     {
-      "id": "helios-q4",
-      "name": "AMD Helios ramp",
-      "note": "OEM shipments from HPE, Dell, Lenovo and Supermicro in Q4; about $17 billion revenue guide."
-    },
-    {
-      "id": "anthropic-ipo",
-      "name": "Anthropic IPO",
-      "note": "Listing expected the week of 16 November."
+      "id": "indiaai-bids",
+      "name": "IndiaAI 10,000-GPU round",
+      "note": "Bids close 13 November; technical bids open 14 November."
     },
     {
       "id": "neocloud-q3",
-      "name": "CoreWeave and Nebius Q3",
-      "note": "Both report 12 November."
+      "name": "CoreWeave Q3",
+      "note": "Reports 10 November; first neocloud print after the election selloff."
     },
     {
       "id": "eu-gigafactory-bids",
       "name": "EU AI gigafactory tender",
       "note": "Bids due 12 November."
+    },
+    {
+      "id": "nvidia-q3",
+      "name": "Nvidia fiscal Q3",
+      "note": "Reports 17 November."
+    },
+    {
+      "id": "anthropic-ipo",
+      "name": "Anthropic IPO",
+      "note": "Listing expected the week of 16 November."
     }
   ],
   "sources": [
     {
-      "name": "AMD Reports Third Quarter 2026 Financial Results",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
-      "note": "Lead: $13.4 billion revenue, data center $8.5 billion, Q4 guide about $17 billion."
+      "name": "Reuters via Investing.com: AI, data-center stocks slump as Democratic sweep clouds expansion plans",
+      "url": "https://www.investing.com/news/stock-market-news/ai-datacenter-stocks-slip-as-democratic-sweep-clouds-expansion-plans-5003196",
+      "note": "Lead: SOX down 8%, CoreWeave down 11%, Nebius down 15%."
     },
     {
-      "name": "AP: Hinojosa defeats Abbott in Texas governor race",
-      "url": "https://apnews.com/article/texas-governor-election-hinojosa-abbott-c9a0ffa1ec3cd599f9bc304ae26268a2",
+      "name": "DCD: Texas governor-elect Gina Hinojosa promises continued data center moratorium",
+      "url": "https://www.datacenterdynamics.com/en/news/texas-governor-elect-gina-hinojosa-promises-continued-data-center-moratorium-further-legislation/",
       "note": "Lead and Wire: United States."
     },
     {
-      "name": "DCD: Anti-data center candidates claim victory across the US",
-      "url": "https://www.datacenterdynamics.com/en/news/us-midterm-elections-2026-data-centers-donald-trump/",
+      "name": "DCD: More than half of US hyperscale projects face regulatory friction (BMI, Cleanview)",
+      "url": "https://www.datacenterdynamics.com/en/news/more-than-half-of-us-hyperscale-data-center-projects-face-regulatory-friction-after-2026-midterm-elections-report/",
+      "note": "Lead: 53% and 159 GW estimates."
+    },
+    {
+      "name": "CNBC: OpenAI pledges to halt NDAs in new data center policy proposal",
+      "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
+      "note": "Lead and Wire: 40 of 41 ballot measures; Compute Campus Policy."
+    },
+    {
+      "name": "Lambda: to invest more than $33 billion in Alabama",
+      "url": "https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
       "note": "Wire: United States."
     },
     {
-      "name": "Malay Mail: Google commits additional US$15b to Malaysia",
-      "url": "https://www.malaymail.com/news/malaysia/2026/11/04/google-commits-additional-us15b-to-malaysia-data-centre-expansion-over-two-years-projects-37000-jobs-as-anwar-hails-investment/241985",
+      "name": "DCD: Microsoft declined option for expanded compute contract in Texas with Nscale",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-declined-option-for-expanded-compute-contract-in-texas-with-nscale/",
+      "note": "Wire: United States."
+    },
+    {
+      "name": "DCD: PDG secures $1.3 billion for Malaysia build-out",
+      "url": "https://www.datacenterdynamics.com/en/news/apac-operator-pdg-secures-13-billion-for-malaysia-build-out/",
       "note": "Wire: Malaysia."
     },
     {
-      "name": "DCD: Oracle drops Tencent as cloud client (FT report)",
-      "url": "https://www.datacenterdynamics.com/en/news/oracle-drops-tencent-as-cloud-client-losing-multi-billion-dollar-contract-report/",
-      "note": "Wire: China."
-    },
-    {
-      "name": "Reuters via Euronext: Portugal readies strict water, energy rules",
-      "url": "https://live.euronext.com/en/financial-news/portugal-readies-strict-water-energy-rules-data-centre-boom",
-      "note": "Wire: Portugal."
-    },
-    {
-      "name": "DCD: Goodman and Digital Realty bid for NextDC stake",
-      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-and-goodman-group-line-up-au715m-bid-for-stake-in-australias-nextdc/",
-      "note": "Wire: Australia."
+      "name": "Communications Today: IndiaAI halves entry bar to 512 units for 10,000-GPU round",
+      "url": "https://www.communicationstoday.co.in/indiaai-halves-entry-bar-to-512-units-for-10000-gpu-compute-round/",
+      "note": "Wire: India."
     },
     {
       "name": "Lambda Cloud pricing",

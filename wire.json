@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "id": "usa-texas-hinojosa-extended-moratorium-bmi-53pct-pipeline-exposed-2026-11-05",
+      "date": "2026-11-05",
+      "title": "Texas governor-elect commits to keep the data centre moratorium until new laws pass; analysts put about half the US hyperscale pipeline at risk",
+      "summary": "Texas governor-elect Gina Hinojosa said she will extend outgoing governor Greg Abbott's pause on new data centres, which she called a scam, until the legislature enacts her Texans First Data Center Priorities: local votes on projects, no NDAs, proof households will not pay more for power or water, no subsidies, union labour, and water contracts voidable if they threaten community supply (DCD, 5 Nov). BMI estimates 53% of hyperscaler pipeline growth sits in newly flipped governor states (Texas, Georgia, Ohio, plus Pennsylvania, where Josh Shapiro was re-elected) and says the Texas pause could plausibly run into late 2027; Cleanview counts 159 GW, or 41% of planned US data centres, in states whose new governors back a pause. Caveat: Hinojosa takes office in January 2027, ERCOT expects its large-load review to end in December, and BMI calls a national moratorium low-probability; the pipeline figures are analyst estimates, not cancellations. Country conversion: Texas, the largest US growth market, is now set to stay paused past the audit.",
+      "url": "https://www.datacenterdynamics.com/en/news/texas-governor-elect-gina-hinojosa-promises-continued-data-center-moratorium-further-legislation/",
+      "source": "DCD, 5 Nov 2026 (Hinojosa; BMI and Cleanview report); Hinojosa campaign release",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 64
+    },
+    {
+      "id": "usa-ballot-measures-40-of-41-restrictions-openai-compute-campus-policy-2026-11-05",
+      "date": "2026-11-05",
+      "title": "US voters back data centre restrictions in 40 of 41 local ballot measures; OpenAI answers with a Compute Campus Policy",
+      "summary": "Of 41 local ballot measures across 10 states on 3 November, voters backed restrictions or rejected pro-development measures in all but one, per Ballotpedia and CNBC (Axios counts 43-1 with about 75% average support). On 5 November OpenAI published a Compute Campus Policy and National Community Compact: for data centres it owns and operates it will seek community input, publish construction plans, stop using NDAs with public officials and pay the full cost of its power, and it urged lawmakers to write similar rules into law. Reuters reported the Philadelphia semiconductor index fell 8% on 5 November and CoreWeave and Nebius dropped 11% and 15%; UBS estimated about 30% of expected 2028 US capacity additions could be at risk. Caveat: OpenAI's commitments cover only sites it owns and operates, not leased capacity; ballot counts differ slightly by tally. Country conversion: US siting now carries explicit community and ratepayer conditions.",
+      "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
+      "source": "CNBC, 5 Nov 2026; Axios, 5 Nov 2026; DCD; Reuters via Investing.com",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 58
+    },
+    {
+      "id": "usa-lambda-red-clay-lowndes-county-alabama-33-1bn-1gw-campus-2026-11-04",
+      "date": "2026-11-04",
+      "title": "Lambda names itself anchor of Alabama's Project Red Clay, a $33.1 billion, 1 GW campus in Lowndes County",
+      "summary": "Neocloud Lambda announced on 4 November 2026 that it will build the Red Clay Technology Center campus in Lowndes County, Alabama, near Montgomery, estimating $33.1 billion of investment in the state, more than 1,000 construction jobs and over 225 permanent roles. DCD reports the campus is planned at 1 GW, expandable to 1.5 GW, with power from Alabama Power pending regulatory approval, construction starting in Q1 2027 over up to five years, and first operations in Q4 2028; Cloverleaf documents commit to at least $16 billion of capital within seven years of service. Lambda says it will pay the full cost of power and grid infrastructure, use closed-loop cooling and fund a $10 million community benefits agreement. Caveat: power supply needs Alabama PSC approval and the $33.1 billion is Lambda's estimate. Country conversion: a gigawatt-class US neocloud campus lands in a state outside the newly flipped governor map.",
+      "url": "https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
+      "source": "Lambda, 4 Nov 2026; DCD, 5 Nov 2026; WSFA; al.com",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 56
+    },
+    {
+      "id": "usa-microsoft-declines-nscale-ward-county-texas-expansion-option-2026-11-05",
+      "date": "2026-11-05",
+      "title": "Microsoft declines an option to more than double its Texas compute contract with Nscale",
+      "summary": "The Financial Times reported on 5 November 2026, and Reuters confirmed via a person familiar, that Microsoft will not exercise an option to more than double its existing agreement with Nscale in Texas, a potential extension worth tens of billions of dollars. Per DCD, Microsoft already operates about 230 MW at Nscale's leased Ionic Digital site in Barstow; the declined option, which Nscale says was closer to 500 MW, was for behind-the-meter capacity at Nscale's own adjacent Ward County site. The source says the decision was made months ago, before Nscale's September IPO filing, and does not change its disclosed $103 billion backlog, about 40% of it Microsoft; Nscale has since signed Figure for 100,000 Vera Rubin GPUs at the site and is talking to other customers including hyperscalers. Caveat: FT is the primary source; Microsoft and Nscale did not comment. Country conversion: a hyperscaler passes on gigawatt-scale Texas neocloud capacity weeks after exiting Nscale's Essex site.",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-declined-option-for-expanded-compute-contract-in-texas-with-nscale/",
+      "source": "FT via Reuters (Investing.com), 5 Nov 2026; DCD, 5 Nov 2026; AFR",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Stall"
+      ],
+      "score": 48
+    },
+    {
+      "id": "malaysia-pdg-1-3bn-green-financing-jh1-johor-200mw-2026-11-05",
+      "date": "2026-11-05",
+      "title": "Princeton Digital Group secures about $1.3 billion of green financing for its 200 MW JH1 campus in Johor",
+      "summary": "Princeton Digital Group announced this week about $1.3 billion (about RM5.1 billion) of green financing, underwritten by Affin Bank, HSBC, Maybank, OCBC, Standard Chartered and UOB, to continue building its JH1 campus at Sedenak Tech Park, Johor. JH1 is designed for 200 MW of high-density AI and cloud load; its first 52 MW phase was completed in July 2025 and a third building topped out in late 2025. Caveat: no tenant or new MW timing was disclosed. Country conversion: Johor capacity keeps converting into bank-financed build, a day after Google added $15 billion for Malaysia.",
+      "url": "https://www.datacenterdynamics.com/en/news/apac-operator-pdg-secures-13-billion-for-malaysia-build-out/",
+      "source": "DCD, 5 Nov 2026 (PDG announcement)",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Capital",
+        "Build"
+      ],
+      "score": 40
+    },
+    {
+      "id": "india-indiaai-cdac-10000-gpu-round-512-unit-threshold-bids-13-nov-2026-11-05",
+      "date": "2026-11-05",
+      "title": "IndiaAI's next 10,000-GPU compute round halves the entry bar to 512 units; bids close 13 November",
+      "summary": "C-DAC's request for empanelment (RFE C-DAC/GPU/01/2026, issued 7 October) for the IndiaAI Mission seeks up to 10,000 GPUs, TPUs and other accelerators, with bidders needing 512 units at a single Indian data centre, half the 1,000-unit bar of the first round. After two corrigenda, bids close 13 November and technical bids open 14 November. Providers serve five years with data, control planes and backups kept in India, must have at least INR 120 crore average turnover, and can qualify with a purchase order backed by a INR 10 crore guarantee. The existing IndiaAI portal lists 45,081 units, led by 16,496 H100, with lowest bids of INR 153 per H100-hour on demand. Caveat: single trade-press report of a government document; Stage 1 sets no prices, and new capacity may not go live until late 2027. Country conversion: India widens its sovereign compute pool to smaller domestic operators.",
+      "url": "https://www.communicationstoday.co.in/indiaai-halves-entry-bar-to-512-units-for-10000-gpu-compute-round/",
+      "source": "Communications Today, 5 Nov 2026 (C-DAC RFE)",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Policy",
+        "Build"
+      ],
+      "score": 36
+    },
+    {
       "id": "usa-midterms-governors-texas-ohio-georgia-data-centre-moratorium-pledges-2026-11-03",
       "date": "2026-11-03",
       "title": "Candidates pledging data centre pauses win governor races in Texas, Ohio and Georgia",
@@ -3076,6 +3190,6 @@
       "score": 84
     }
   ],
-  "updated": "2026-11-04",
-  "note": "Wire refresh 2026-11-04: added usa-midterms-governors-texas-ohio-georgia-data-centre-moratorium-pledges-2026-11-03, malaysia-google-15bn-data-centres-2027-2028-selangor-negeri-sembilan-1gw-clean-energy-2026-11-04, china-oracle-scraps-7bn-tencent-100k-gpu-lease-southeast-asia-ft-2026-11-04, portugal-decree-data-centres-renewable-power-waterless-cooling-2026-11-04, korea-msit-amd-domestic-npu-full-stack-reference-program-2027-2026-11-04, australia-goodman-digital-realty-a715m-bid-9-9pct-nextdc-2026-11-04, canada-joins-eurohpc-ju-39th-participating-state-2026-11-03. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-05",
+  "note": "Wire refresh 2026-11-05: added usa-texas-hinojosa-extended-moratorium-bmi-53pct-pipeline-exposed-2026-11-05, usa-ballot-measures-40-of-41-restrictions-openai-compute-campus-policy-2026-11-05, usa-lambda-red-clay-lowndes-county-alabama-33-1bn-1gw-campus-2026-11-04, usa-microsoft-declines-nscale-ward-county-texas-expansion-option-2026-11-05, malaysia-pdg-1-3bn-green-financing-jh1-johor-200mw-2026-11-05, india-indiaai-cdac-10000-gpu-round-512-unit-threshold-bids-13-nov-2026-11-05. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
