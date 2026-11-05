@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04 19:46 UTC",
+ "generated": "2026-11-05 16:18 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -63,18 +63,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Naver Secures $9 Billion AI Infrastructure Deal With Brookfield - Businesskorea",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01cnd0UC1QeDUtdDkxcWVQNkhGYmVmVWdXZGNISmoyX2hqR0QySy1zS2s3Q3dXWFlFZjZxM1V2TjN0ZkNrWjhWRktOdDVNRnZWQU9lbjZ5a1BYczdvcTNNWlctcUNUUzVPdVdISURPWW10VGhp?oc=5",
-   "source": "Businesskorea",
-   "date": "2026-10-28",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Sovereign AI Firm Cohere Announces Series E Initial Close, Targeting Up to $5.1B - Wowtale",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uQ3l5R0NNSTlMN1lUNTRKNFNFZUFrYjloY3BfYWNLREJUNFRqRDlqZFdYVW9lang2RUNmUGFRdXBWRmpTMGtrSWtBSElHbl9SWnY4?oc=5",
    "source": "Wowtale",
@@ -87,22 +75,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Vyoma.AI Breaks Ground on 52 MW AI-Ready Data Center in Chennai - Larsen & Toubro",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSEZKLVJCd0d3ZV9XQl8wQXpQN0gwR1U1NF9DWkpxZ0pmWnU4Y19vWTl0b1Z0QW1jQUtJSGVTM1NUdGN4WHQwMEVSTENfVFh4bFdoc1d4UW16WUNjcGZmU3R1S09BTF9ZWU9EMWkyTE4waVQ0eTllU25lWEowQ1RZVGZ0aUJDMHZnWDFENUUxLVdyOUZXR09JYy1kQ2lzNzVrWlU2LUc4bVhGSkdtLURCMElYdFp4TENJbWtVQU9B?oc=5",
-   "source": "Larsen & Toubro",
-   "date": "2026-10-28",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "HIVE Digital secures $129M financing for Canadian sovereign AI infrastructure - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3BZZEZBM2V6SVp0RWVMbWhfQjNUWWN4Uk83R0Z3UjluX0NfR0tpbjB3LWhkbmE1b0VsNXh3Z1JpbFNXMDcxVjQtUTdQcjBpeW1OLVZidlRQMDdXTDN0SF9LZHNaem03T0l5OWwtN1JyVnRraXZZd0pKZzhlZzRRcnVWV1VCYy1DVlE?oc=5",
-   "source": "Yahoo Finance",
-   "date": "2026-10-28",
+   "title": "Brazil earmarks US$ 68 million in leftover 5G auction funds for sovereign AI data center - W.Media",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORS1IM3FMU252M1Z2VkFOTjVwMEVpM0NjRV9MQkdoc2EtTzZRQ1AzcUswdmxLOTdhUWpUTUNId3kyQ0NzR055eV85LW11QW5kZXVzTUx5MG55Unc1bUpReUZVTFg4bEM4RHJWV3BESE9jek1ZdFBkcHpxalpEUXVJYm9saXBxR0pZUHlSTUlsMzYzck9FcFZ6ajFFaU9NNFdrUktSMnlxUQ?oc=5",
+   "source": "W.Media",
+   "date": "2026-11-05",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -147,6 +123,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Beyond Nvidia And Hyperscalers: Beth Kindig Sees A $1 Trillion AI Infrastructure Opportunity For These Stocks - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOUmdkc2Q1bjJmbkY2N3IyTUxQYlZOZ1pMeUlXdkZpN2pIVkwzd3dTUzlhdTNOczNFRVJ3OS0wbTNkX1ZDUFNMR282QlFnbVhDODhXTTRTVXVtWVhfNzVvTjY1QnFOODdteWJjLWIzVW83T1BMbkNEVDBsZlBHd0E3N3RyeEJ5MUJiOFlobDlWbDhaMVVIbE41U1lBZDdzZmdnZnRPbEJ3QkY1NmFkeWRGZmFQdTh4REhNV0RkRGZ4N2VLTWRtcWNhN3lMLXk2b01hbUVmZDEyYnJMbkpJc0xob19hdkFydnVlS1VIZG11QU9oWXBGcHlsc3gzZGZ6UUo3clQybkJudklxX0ZGR3ExRkpJRUk?oc=5",
+   "source": "TradingView",
+   "date": "2026-11-01",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Cohere Targets CAD $7 Billion Series E Funding to Accelerate Sovereign AI - The Fast Mode",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbnhfcmhTbDI0aVhRLVNwVEowcU5GZDhuaHh2UlZGMGduR1VEQVFEQk1tb29ZQ0VzaXRhTVU3TnNNLVN4ZVZ5SVdtWVVULXNZY2N2ano5VjZxVW1EaWZUeEY1LVV0bHVxQnVsRk9rU0dMUk4xRzAwMUJralVPM0lRT1dtMnBOUGloNThreExyTWZNRW96WTdMTGc2YVpmaUlOOEJka3B1dTd0UzZ1SjhsRGFUTE9TQnFRMlFDUFdJZi1TLWxXMHBZRnZYeUVJUQ?oc=5",
    "source": "The Fast Mode",
@@ -163,6 +151,30 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVnBka0M3cVZZSUZKNmRBWTJTLUJVeEF0OXUwUm5kbU1tTmVhNUgtUHhELUltX214NEpUYks4TWZjR2xXNzNfNkNXRWJsaEl3YU15VFhHdklXTGtWa3ZnQW1vQmMxQUpfU3JoNFByRlNBVl9veEFvbWZtMUxxZjUwbnN2VlQxenYtZ0pPUVpyalplRFBsVGVJQXRJNGc5SmdZUlFxaERmZXc?oc=5",
    "source": "Global SWF",
    "date": "2026-11-04",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Ready Set Fund Grow Platform Unlocks a $1.2B Distributed Sovereign Compute Asset Class by Deploying Decentralized AI Edge Infrastructure in Opportunity Zones - Newswire",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRHBDVHFkTVJDWmR2QURUZlZESHhxdktsR2hLTjBSLWxzZWFPNDFJMW0tRW5YQUlDcWZCTDQwSVptTlBmZnBabUZmejlIdzNMMDM0blVZS1FzSXhhMVRqcFhIZ2RDVUVXeFFjbUZGU0xmUTB2c2pFd1o2SmNqVGdfT3M4UlBVeUlvemx1Q09WU05wUG93WHgxQkpVckJ6VlpPaFcwLS13VFQwdHRFUUE?oc=5",
+   "source": "Newswire",
+   "date": "2026-11-05",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Global AI Data Center Market to Reach USD 84.52 Billion by 2032, Growing at a CAGR of 25.8% - Report by Maximize Market Research - PR Newswire UK",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNaDllcHAwa0RPV1BjQzMwWGVIRTRDVThYMkdwb0czbEdzdWlHV0YzdWpDUFlqMFBMcGd2V0o4VlNhNWFZUXdRWkRoVFZBbjcxekdmUER2TEo2OVAyN1czelc4WTRwd0VHVWRfMGlIV3o4SUR2VWo5OWVmYl80RFdXM2pLQUpFS3RDQ2lEV1BsWEREZGpDTnBIeWRhZElVRGFoRXBwWGRxSnduUVVScXhfRUJVeEpyc2Q4RjlrZnp4cGxqMV84MWxxWmhFYk5WUjNVNFZRRy04bGtETTIwcGZtd0VFNkxMbkFuZlF6WVdlQzhCTkJ0dTZPa3ZrdEVyZlhUOHo0Rjg3YTdGaS03dV9VbURB?oc=5",
+   "source": "PR Newswire UK",
+   "date": "2026-11-05",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -208,9 +220,21 @@
   },
   {
    "title": "UK’s Drax power plant set to host $27B AI data center project - Anadolu Ajansı",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ3ZRT0RleW5VTWlNZmlnZ2hMcE1BX1J4b2ZOOFVyajJQa1ZjRHFDSkwzTDdFclVaYXhRcVNxdmF4dVl2ZVNPX00yclNIRnNBbWhaUHc5eC1BMWlPMWdHMUk2bHA1ZjFQSlRfbUs3SDZmaGJ1ZUdzalduNklNVndSOVc1LS1Lek05TXRjY3ZnUWZ6SVFlUXA5c2t1ZnVvMzJWVXBfbExneU5xanVM?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLVV0aktpZV8tTEpLdzg2b3ZVQ3F3U0IwMXZIeG5QMWx1dUhWTE14Zldsa2UxQ0dGNVRwSEd0ZHVBcXNwZ2kzMU1CVk4yYXZ5WWpIZ1ZBeEh3N3o0SnRBQzNBSkg0ejR1d1ZHZU9JVHZNQmh4YTZrRVFNa0J1cDVEazZWeVh2a3hLWkh0a3F5Qkw4OGlRQ192c3BKNjNVNUREZFJhV0pod1lEV2x6Z3hncmJ3?oc=5",
    "source": "Anadolu Ajansı",
    "date": "2026-11-03",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Brookfield (TSX:BN) Plans £20 Billion England AI Data Center Push - Yahoo Finance Australia",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT1l3LTdleEFkN0VhTlVwSENVYVlKR0JCQVlmenFTNHZsZ1pCOHF4LV9ydEk3YjJJRGNQN3V5T1RrR1BoUG5aczdDcHRTMU9sa0lwTzJqdnVwRG15UkpxOHAtNkFmV2doNjN6QV85Vlp2aC1VM3ZhZ2JHdmJHQ19pbg?oc=5",
+   "source": "Yahoo Finance Australia",
+   "date": "2026-11-04",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -243,6 +267,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Riot Platforms Jumps 13% After Signing $28 Billion AI Data Center Lease With Anthropic - bloomingbit",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aaUtpdjNVeUppSTBpMWdEdWNyUWpPQWZSSXU2RkU2MVhTdi1WUmVtVUNKbDlZS2VRSkMtaWhJd2Z4MWhwUnlmeGMtcU5OSXp3LWNRRA?oc=5",
+   "source": "bloomingbit",
+   "date": "2026-11-04",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Samsung launches $45bn physical AI drive with Gumi AI data center - 매일경제",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sUUUwdTUwLV84amVRMktpQ3BvODIzMExLWlNoT09zdEtaejZNTlNNeXk3ZEw3NnczLTBwNmZieDh4VUt1YjJnb2MtWUEwbDBvblo3MzE0NA?oc=5",
    "source": "매일경제",
@@ -267,10 +303,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Government Accelerates 600 Billion Won Pohang AI Data Center Project, Projected to Yield 1.2 Trillion Won in Economic Impact - 머니투데이",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03cGlTUXZBaEtjUEhHZXRvZ2I5RTBqYU50NVRlYkNZa3VqdjUyU1o1blhSSkItTHRFSEdlOTlyX05sbzVzNFAyNEQxSEJzenJjaUF3SC12V0NaaFpYbDZXUGJrSHh0QlhqdDZF?oc=5",
-   "source": "머니투데이",
-   "date": "2026-10-28",
+   "title": "Drax plans £20 billion AI datacenter at UK power station - ET Datacenters",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaDJDUWo2UWR4bWItZThGMXZWVTFmV2VfTUhyZi1ya0cwcDRNTzhWQzJDWE4xZ1VhaFczUGRPMWp3U0kyTFBFZ1l4M1NDWlBwNS1OOUE1WXVtUWJhSC1GUmF2OFpTaWg4RzgyNlhTZTIyYjU0N19ha0ZHWnNDUTRTd2s2QzhiM2xuOGhqUE16UEdrNENtSHhKRmF1dUtDSmxNOHBaOExXZzZKU2JnT1NaTFZVQ2dMRWpMblFjTnhCN20wMDVEMTFMdUtMTFZuem52V2RVRUhzT2JpMkFQVXfSAeIBQVVfeXFMTWJCdkhvS0VyeHZyd2ZYdnhDV2FCOUUzM3pCV2E1aUdtZ0kwY2wzc2RSSWttMXZMTWtQaGZLNTJZcDEyS25VSkdUd3ZNVjdHUm1DdE1jRGlhNHVZZTYtOGVIdmVYeDhmMldNb0VxU0FvUkl1anpMNGNLOG5BUG9PbkczQ1FaTW15X2JMVnViMFRGY2VjS1M0T25WZ3lvU0t5Z1FqTjVxc0Y1eXVEa3ZqUU5QNW9SeUxhVG9CNDJpZWNpTTd1SjV4WVBKT1dRNG9HTDQzSjJsdDU0ZTdVUDV2VFlnQQ?oc=5",
+   "source": "ET Datacenters",
+   "date": "2026-11-04",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -363,22 +399,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Beyond Nvidia And Hyperscalers: Beth Kindig Sees A $1 Trillion AI Infrastructure Opportunity For These Stocks - Stocktwits",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVXhqVmNIZnZaRENRQWdfZ2RqM29HZ2I1RGlfcWhscXFuMDlRaTczbkotenlrY2JFa29ab1lrcFVIYlNXaEdObk56NVdFQWRtS3NlcmNpTVN1X051V2s2RWZGQ0hTMnVMUVZhX0FGZE5QUE55TzdUVWhubU5Gekx0U0ZGUlpWQ3p6LWo4d2V6NjV6bWRkdHFpSzV0UGZiQ2hyVFh1SXh3WXhRdXFhUnliUGlLX0NzbUZ4dzZQdlJMcWJZbWExMDNibDZR?oc=5",
-   "source": "Stocktwits",
-   "date": "2026-11-01",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "SWI Compute launches European NVIDIA AI factory network with 2.3GW target - Intelligent CIO",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUkxwa0d3WFdESGh1WUozRWhXellBb2RTay04d2NqY19RRWdJSjVRQ3NMRXI5bnZQNXVBODBNM1pjbUJrdzlfemtPOW9EdDRCVkh0V1htOUJYVEh0WTVhaU9lTHpZMXlvaHgybjVrSFRnQ3RjUXNUTHZBdElHeW1WcTc0S2dlZEcwUnNLQ0EtLUJSM0hxZjBUd0FEQUlNdXRYZ2pVQ1htcUoxMVNJYXVVc0czN0xRSS1VbURZ?oc=5",
-   "source": "Intelligent CIO",
-   "date": "2026-11-02",
+   "title": "Beyond Hyperscalers: Here’s the Next $1 Trillion AI Infrastructure Opportunity - Beth Kindig – Medium",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObUJxbUxTelo5RGpVdENpWV9jZWpkM0pHS3ByR1QyREcxVVVhcE5rbkx6VmtMbTRZaTYtSU5rV0pfaFBMRF95bW4zbzhnd3I1M3MtMDRBRUpmTnNZREVVY1podjlSMVlpNWdwMmtrOWFIc05VampoOHpYa09wQkJTay1HdXR5TGdGU3pmQ2VFZDZmYUNUSl9EdFp6V1pDN01GRWhpS2w3c1Rzc2l6N2wyOFdxcw?oc=5",
+   "source": "Beth Kindig – Medium",
+   "date": "2026-11-04",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -399,10 +423,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "HIVE Digital secures $129M financing for Canadian sovereign AI infrastructure - Proactive financial news",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQV1VaeEZCT1FCdUtSNUZvTU90dGZaSjhtV2JJakhqX2VtT1E0TXRCRGFOODFoQXd0dDZsWTlFaHhEY05mQXdCN2JoM3JIN3A1U092ci1uT194LURBMTkxMzdWek1BS3cxcWJnbnViMGZhMkpxM1JlOVlhMlB2c1FLWm4zSUprY183UVU0Y0VkaEJKNDdYa1EwUldNSnNnOEJPdXlHN1pVN1FLMWZmWlRzM2VLUWdxMzJkOXo2cTYyZE9UNFNPbE5qc1VCUkVXTmNoWUZ3TmF3?oc=5",
-   "source": "Proactive financial news",
-   "date": "2026-10-28",
+   "title": "WuBlockchain VC Monthly Report: Kalshi Raises $1 Billion as Capital Keeps Flowing Into Payments, Stablecoin Rails, and AI Infrastructure - Substack",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xek9uUzF6OHBUM1MzNkdwcmpDX3gza01MUnlFT1RUaE5LVUVXWENBUUhZUHA3MGdIVjhIYUlPZF9RQXY0by1sSHozUVRyMlBpc3BPRG5ZdUhtRzIyajBuRGR0NU9lV00yMFJoMHhWY2QwWDNqZ09z?oc=5",
+   "source": "Substack",
+   "date": "2026-11-03",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -411,10 +435,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "WuBlockchain VC Monthly Report: Kalshi Raises $1 Billion as Capital Keeps Flowing Into Payments, Stablecoin Rails, and AI Infrastructure - Substack",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xek9uUzF6OHBUM1MzNkdwcmpDX3gza01MUnlFT1RUaE5LVUVXWENBUUhZUHA3MGdIVjhIYUlPZF9RQXY0by1sSHozUVRyMlBpc3BPRG5ZdUhtRzIyajBuRGR0NU9lV00yMFJoMHhWY2QwWDNqZ09z?oc=5",
-   "source": "Substack",
-   "date": "2026-11-03",
+   "title": "Anthropic May Pay Riot 12% Interest on $28B AI Campus Deal - Bitcoin Foundation",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRk1iTE5lemk5TGpKSmlBWWxPaTJLZnJ0Z2RKOVJqYkE2ekFocDhLbUh0bFZJd1BYeDFZNVNkRFV5WlgxT2lHa0drSGg1S0dSV3RlQjVWUFdLSEdtOUF6a2hjYWxta2F3bTZwNThrcjUzN0dlOUw4dmswSEZIRjhnSnhXZDYwc1Nrck9Ea1ZIU1Q0eV9kWERnRzVrRXAwREFKbmdzSg?oc=5",
+   "source": "Bitcoin Foundation",
+   "date": "2026-11-05",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -447,22 +471,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Riot Platforms’ financial results spotlight a 15-year, $28B AI campus lease - Cryptonews.net",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KZUcwZ0h6SUVrNUNpSlh2RkkxdmczOTI5T1dYajBpdjZ3WFNyUEZlQlcybmtYNmtxSDNsYmtaVWZUM3IwYi1STTE2aXJDQlhCXzlSVkw0aw?oc=5",
-   "source": "Cryptonews.net",
+   "title": "Riot Platforms’ financial results spotlight a 15-year, $28B AI campus lease - The Cryptonomist",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1MamhVVE1iLWlWMUk3eGhZQlZWTmZFOXQ0NXZGQ3pKYzJxZHRwWVBweUlYNWs0QUtUVVBwSndRQ0tUM2t2azZFVmFrZ2dmTURDaGYwMDN0VVlDT0ZXWi1FSHNWZlhvZm5fSVdjS29leEdMNFREcTU5UnZLRQ?oc=5",
+   "source": "The Cryptonomist",
    "date": "2026-11-04",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "FingerMotion gets 52.5 MW interest for Alberta AI campus program - scanx.trade",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHdJaURwLVBHMWZuNUxORDEwZDlKVHBQUmx4c1hKaXlmYVVmNFZwMlVDcXdLWHNENDZkX3AwUV9GUi1TX1JXUVRRU3hCbzhqWlZwY3RuMmFVTGc0NUZUa0NMWXB1Uk5mdF9TV002QVlmZm1zemJCODFKQUx3QUFLSEdodGdMTWptQVg4RzBtRDRtRnB6TGtoeWIwUGpBc21ldGRscEtZUno?oc=5",
-   "source": "scanx.trade",
-   "date": "2026-11-03",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -507,10 +519,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "AI Arms Race Puts Sovereign Supply Chains in the Spotlight - The Next Platform",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORG1BZ3hFSkQyVTM2eWN1b2xCVTJfaEVzQ3p3RzNzZkx5SVZ6bE1zUlFvY2R4SWVWdk5veHdDUE1oc3F1dlhDZFNsc0hKeTNDUnUzVUJ0WkZFYjM0dFBsZUFpVmdBTDVKTXEtN2Qxa2ZBUERLSW5ET3JEUDZhbEIyWXNka2d0cDMtMGdiTTZSOW5ZMTVJQnhLUE5KdVNkakVFMU1JM19CSXFRWEpodlE?oc=5",
-   "source": "The Next Platform",
+   "title": "Meet Counterpoint Research at Vultr's AI Factory - Counterpoint Research",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaE44ZTJ5bDh4a0dRcGk0d2JadWxncUNRSFhDWldlUlpuSG9oX1ZVQzVGU0VYWVZSTTE3REVRUmhOOUhaX1hsSi1aUldIVGxQR19zUkx3cUZiQjNUaFVoaHNXbXkxNW1QbExobHlmeXdpQ1doZ0t3SkVRdE1qQXNoQk1XdVY3RVktZHBwbldGMjdNWlNXVDBhTG96aDQ?oc=5",
+   "source": "Counterpoint Research",
    "date": "2026-10-30",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "The AI-Powered Digital Economy: How Kazakhstan Is Transforming Energy into Sovereign Intelligence - Global Banking & Finance Review",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOalFJUlpiUmRMMGdQcjFQeWRJY29Gend2MnRrNmtJWG0wb2hGSHphMzJfREJ6bk0yRzYzdlZ6Z3hLTWF1MDRhQ2RManlnOEFpTUN3OTlYZEVYQlhldktFM1pRY3doU3Y2Z19va1prTmhDSFZsTGRzb1lRc29ic3NiWlBBTUpjQ1V5bF90V3dydEw1MVphRVgwTllFWnZkVGJSNkFVYkhGRWFkclU3eDJhTTJGbVVpeXF6eER4dl9mZ0JRVXJfSlFsZFA5ellNekd6ZnpJ?oc=5",
+   "source": "Global Banking & Finance Review",
+   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -543,18 +567,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "The AI-Powered Digital Economy: How Kazakhstan Is Transforming Energy into Sovereign Intelligence - Global Banking & Finance Review",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOalFJUlpiUmRMMGdQcjFQeWRJY29Gend2MnRrNmtJWG0wb2hGSHphMzJfREJ6bk0yRzYzdlZ6Z3hLTWF1MDRhQ2RManlnOEFpTUN3OTlYZEVYQlhldktFM1pRY3doU3Y2Z19va1prTmhDSFZsTGRzb1lRc29ic3NiWlBBTUpjQ1V5bF90V3dydEw1MVphRVgwTllFWnZkVGJSNkFVYkhGRWFkclU3eDJhTTJGbVVpeXF6eER4dl9mZ0JRVXJfSlFsZFA5ellNekd6ZnpJ?oc=5",
-   "source": "Global Banking & Finance Review",
-   "date": "2026-11-02",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "The euro-sovereignty playbook: How telcos are transforming into trusted AI factories - CIO",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZkNBa2M3WHFSdEx3VHdQQmtBZ1YtSkJGaS0yQmFUa0diMXhCdGlPWG91MlJJN25VdHpESjJQal9qTHBQMUtJVXdnTUlqUDJGZGdCUk40emdwTWpfUGxmeXU5a183aUxwUFBYSnZrUHB3U2VuYVFYRzI2MzduT0lJTzZRZHk4UUQyNUo0c04wcGRnSXFUT1dTdkdFaFZEZmZERTZjVmQzclN4YmNlSE45ODFNcXB2dThVdGx1TDU0cElXdw?oc=5",
    "source": "CIO",
@@ -567,10 +579,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Penguin Solutions to Showcase Full-Stack AI Factory Platform Innovations at SC26 - 01net",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcDc5aUJ0cHhyOGtpWFpITnhERFRMWTcza21QRGJ5YnJ1WUE1OTA3Q3hFbXdWeDJXdG9KWkRxbzY5YlZDWlBtRVFlVXFUU1UxWUlOQjBzcndXM1J6TTZBRXBLa3RqSy1jQ2U1a0tvamNpYU5LVFhRNXkyYWxscThMVFg3S1FtYUJlYnROUnRkTnljV1VCZGI3ZmNOaVEyR2pySmtLbg?oc=5",
-   "source": "01net",
-   "date": "2026-11-03",
+   "title": "E2E Networks launches Blaze, bringing pay-per-token AI inference to India's Sovereign AI Factory - varindia",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX0c1aTJ1UkZ2QzVENWJpTTE3ZHdycEZtcm5EZ2ItakVCTWNCbmFsRjF6VXBDUVlvT0p0YlZHVUpTdnA1V3RfU1JfQ2FXY3JsYlN3R1NUWmdCWFk4TDVhd0J1VTd5Y1NfY21rVmR2WGNScnBSY3hoQVFmMHJVMHVBQkFuN3lEdVhrVlBTOFEyVHBNanlaaVlKU1hmaldaUERjWmZjb1I2TDNRZk10RnpxSUhOZVM5TGNzNWtVaTRYbTAwcnc?oc=5",
+   "source": "varindia",
+   "date": "2026-11-04",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -579,10 +591,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "E2E Networks launches Blaze, bringing pay-per-token AI inference to India's Sovereign AI Factory - varindia",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX0c1aTJ1UkZ2QzVENWJpTTE3ZHdycEZtcm5EZ2ItakVCTWNCbmFsRjF6VXBDUVlvT0p0YlZHVUpTdnA1V3RfU1JfQ2FXY3JsYlN3R1NUWmdCWFk4TDVhd0J1VTd5Y1NfY21rVmR2WGNScnBSY3hoQVFmMHJVMHVBQkFuN3lEdVhrVlBTOFEyVHBNanlaaVlKU1hmaldaUERjWmZjb1I2TDNRZk10RnpxSUhOZVM5TGNzNWtVaTRYbTAwcnc?oc=5",
-   "source": "varindia",
-   "date": "2026-11-04",
+   "title": "Penguin Solutions to Showcase Full-Stack AI Factory Platform Innovations at SC26 - 01net",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcDc5aUJ0cHhyOGtpWFpITnhERFRMWTcza21QRGJ5YnJ1WUE1OTA3Q3hFbXdWeDJXdG9KWkRxbzY5YlZDWlBtRVFlVXFUU1UxWUlOQjBzcndXM1J6TTZBRXBLa3RqSy1jQ2U1a0tvamNpYU5LVFhRNXkyYWxscThMVFg3S1FtYUJlYnROUnRkTnljV1VCZGI3ZmNOaVEyR2pySmtLbg?oc=5",
+   "source": "01net",
+   "date": "2026-11-03",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -627,9 +639,21 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "AI-powered security must match attack speed while keeping data sovereign - varindia",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVzd0NHRGOXVoWERqYlFNSVpWeXIybjhXZFJnelB5ekY4MGhRT0NXSUhHNHBrYXo3Rzh1STRsSi1aRXhHOS00b2RHU0xPVUxZMUNCT2U2SXhQZ3FuTm1GenRtekJDNGQtUjBsejlWTWFlaXF5T3NGZHQteUhfSU1HV0EtbmVrTXV6TFRZeFJ6alV1VGpRTmR0VmlqcEtzWjlhOEFQSQ?oc=5",
+   "title": "Cloudera Positions Hybrid, Sovereign and Agentic AI as the Next Phase of Enterprise Adoption - varindia",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFJkb01obDRpVmZZXzJ1aWtFcXpBbmpSRjJobThtNFhxcjA2aW9HNFJxSExLYnZqaV80VlZNbUFxcFhVamxVSmVRY2JjZzZENktLQlN2ZEU3SXUyV3hUZkpHVEJITndJLWJaQUxFQXhXVV9HNkt4TEZtd1MwSmRiSUJLTjNsVWp4VmtTN2ZEU3VaNXdabXFHdjRxd2RncHJIS1F0OUtjeHBHalNZVDVwbmktMk1TRHJ1OFFWZ01B?oc=5",
    "source": "varindia",
+   "date": "2026-11-03",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Is Earnings And Cloud Partnerships Altering The Investment Case For F5 (FFIV)? - Simply Wall St",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMTZTdnIzeW1GOUltN1ZnS3hNOHJFR3NvcXdnc0tIMXpydGlua1pER0ZJUnJDSGhWT3lGbWNzd1BxMEdsaDVtYWJmb1M5OWE4VFdBSTZZTUxLcEhEb25sdnFFTjlTMjdBY0dwUURGQ0hydGY2VDhrcjZ2c3E4Q3FxX1VpMGV0ODRqVkVMTG9wcVVVSmNUSWNiUXRyMk95RHpadUZOZXhtblJpUHZ3dWNWY3RRLUFWaDBQUXdzSXN30gHDAUFVX3lxTE16bXdQOUxPbDBqblpjZF9EY19BTmpOejM4ZXUwTDg5MmVweVZtWC0yaUY0Rkc5d3dVeDlreVc3c2l4UllIUDJSSnc4Y0UtUUItZm9pMjc1MzZfNlQ5WVVjT2ZpalVBSXM4N29kMzNwTzJUZlNKRXctQnNHNzEyeGNDYU1zM19jTGlWNVRmTnV2UWZ1OWtuTl9lSEJTTm1zTnFSUlR4cXBqR2l2ckxjYTNRb0ctUkJ3NHpNRldKSzRZbU9mRQ?oc=5",
+   "source": "Simply Wall St",
    "date": "2026-11-04",
    "via": "gnews",
    "country_hint": "",
@@ -663,6 +687,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "John Ivison :  Red flags all over  Carney government buy - in of AI company Cohere",
+   "url": "https://calgaryherald.com:443/np-comment/john-ivison-red-flags-all-over-carney-governments-buy-in-of-ai-company-cohere/wcm/0f0c481c-ebf1-4a32-b6bb-510f52bfff6a",
+   "source": "calgaryherald.com",
+   "date": "2026-11-03",
+   "via": "gdelt",
+   "country_hint": "Canada",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "2026 Global AI Report: A Playbook for Private and Sovereign AI - NTT Data",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMFE2c25QVGgxclA0UlhPUUF4bHZUR3FEUWJsYlV2M3N6cFZGeFFMXzRhd0xRckhDam5OaDRXcDBCa1hzTWF4bWFPMnYtUl9WOVE3RkZaaS05WmFwV05ET0dXd01BSDhDWnVhWmpiQ0xSekwwelhKLTc3dk0zd2x6bl9PdHY2Q293Y25zQ1lMWFhhOC1VSmc?oc=5",
    "source": "NTT Data",
@@ -679,42 +715,6 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQREZPOFc3WjQ3akNOOElKVllmTjJRcUczX3FJMDFRektuc05URFgwV1Y4ZjF2bGJKSFMwU3cyWUctWktSdF96RXJxODF3T25aRzhPWk1LTXA4ZEZCaTNMbnEyX3RFREYyWjZ4TEYzN0RJOVp6TlJnWEx0cGhJZ21vREh1OTQxMDBqY203Y3dfRXBFSTVVdzBib200RjZvVVZz?oc=5",
    "source": "IndexBox",
    "date": "2026-11-04",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Sovereign AI: who will build the infrastructure and ontelligence of the next AI economy? - TechCrunch",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYS1ydElNUGQ2bnpRbDBMOURWdFRROThwMTdXZ052ZWg5a3VMUmNPdDJCNXJVYndaTTM1bGxJTE5YT2hKaHNjSTRubG55YTVTM2dZbngxSmY4eUxXV0x3aVF1NGFxb29FOTVxZ1pkWkN1dTE1OFl3WHc4YUdmclg0dExMY0VfQk0wUUx2X1g1dTJ3NHMtWS1kYlFuUGxYTU5mRjJ5aGFXVFlvZzVLZ0RDejVEQkllR2ZsZWlPdEFjWE1YNnVPTVVnMDhsMkNpa21aMVE?oc=5",
-   "source": "TechCrunch",
-   "date": "2026-10-31",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Tencent Cloud, OmniOps partner to provide sovereign AI infrastructure in Saudi Arabia - TNGlobal",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY0o4MHMwWmlvWlJKbnlncU5zczVxVHhvRzMwZnE3Z2diUHZJSGx2ZW5pNHd3STBMd05uNFE3SDMwTGo0d0QtOGJPcWFhOWtvUE4zY0dNSEUza2dQdjBDMWd0R0hZRVNac04wRjNCa2MtLWVGZDZjeHAyNzUwdHVuMXJwMnNpNkFFNXZfTVBrcEtyWEJST2dDR0VURl9ZMzg5VXZtS2E3OTFzUWdyOEFzRVM0NXF6eUZBTDlnNA?oc=5",
-   "source": "TNGlobal",
-   "date": "2026-11-02",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Semidynamics and Nokia Explore Collaboration to Strengthen Europe’s Sovereign AI Capabilities - Akron Beacon Journal",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUUpBZmhKZTQzMVBWREtYVXZ2dnRLYlNvb1ViTElPN083SkxfNjhTRGJfQzNPQXRraGNnRmwzT3NvVnRLNWZWdlRocDAzN1k2b0RTNDhub2hGSWY5S1RjNnBnVXo5TEtydFJmS2RSb1dzYkhaRzhRbV9HYVppNkwwcFItRXdlX2IxNU5ySndfZWJHT01ZWnBRWTRVMUV1emQ0TW1OQWJWWWd3TFZmQUlQckFrOFRVaGh3NG51Z2FiTDV4eEVNN2lRb1dtRGRkMVJsZGJhckQyRE9wQmRuSmpFWkpyaUo?oc=5",
-   "source": "Akron Beacon Journal",
-   "date": "2026-10-29",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
