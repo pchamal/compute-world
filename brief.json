@@ -1,69 +1,69 @@
 {
-  "updated": "2026-11-05",
-  "title": "Compute brief - 5 November 2026",
-  "description": "The market priced the election: the Philadelphia chip index fell 8% and CoreWeave and Nebius lost 11% and 15% as analysts put roughly half the US hyperscale pipeline at regulatory risk. Texas's governor-elect says the pause stays until new laws pass, and OpenAI published a Compute Campus Policy. Wire: Lambda's $33.1 billion Alabama campus, Microsoft passes on more Nscale Texas capacity, PDG finances Johor, IndiaAI opens a 10,000-GPU round. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The chips are sold. The sites are now on the ballot.",
-  "lede": "Two days after US voters backed data center restrictions in 40 of 41 local ballot measures, the market repriced the build: Reuters reported the Philadelphia semiconductor index fell 8% on Thursday, with CoreWeave down 11% and Nebius 15%. Texas governor-elect Gina Hinojosa said she will keep the state's pause in place until the legislature passes local votes, no-NDA rules and ratepayer protections; BMI says 53% of hyperscaler pipeline growth sits in newly flipped governor states, and Cleanview counts 159 GW, or 41% of planned US capacity, where new governors back a pause. Builders are answering with terms: OpenAI pledged to drop NDAs and pay its full power cost, and Lambda named itself anchor of a $33.1 billion, 1 GW campus in Alabama while promising the same. Live list prices did not move: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $3.99 and Crusoe's 1 December rates still scheduled, not live.",
+  "updated": "2026-11-06",
+  "title": "Compute brief - 6 November 2026",
+  "description": "Microsoft is tightening oversight of Nebius, IREN and Nscale while Google still writes a $17 billion Wyoming campus cheque, and Lambda just raised on-demand list prices across its 8x stack. Wire: Google Wyoming $17B / 702 MW Bloom+CCS, Amazon's Comanche Peak nuclear campus, TeraWulf's Anthropic Kentucky EPC. Tape: 66 confirms, 4 ticks (all Lambda), 0 NEW.",
+  "og_kicker": "The offtaker is cutting optionality. The list price just moved.",
+  "lede": "A day after the election selloff priced regulatory risk into neoclouds, the stack repriced delivery and list rates. Bloomberg via Reuters said Microsoft is tightening oversight of projects at Nebius, IREN and Nscale and debating new neocloud contracts as it prioritises owned sites; IREN's Q1 put its >$4 billion ARR target into January 2027 after a Microsoft-requested network redesign at Childress. Hyperscalers are still converting land into campuses they control: Google posted a $17 billion first Wyoming data centre with a 702 MW Bloom fuel-cell CCS plant, Amazon confirmed a Somervell County campus as a direct Comanche Peak nuclear offtaker, and TeraWulf locked Fluor EPC plus a Google credit backstop for Anthropic's ~401 MW Justified lease in Kentucky. On the public tape, Lambda raised 8x on-demand prints overnight — B200 $6.69 to $7.69, H100 $3.99 to $4.59, A100-80GB $2.79 to $3.19, GH200 $2.29 to $2.59 — while CoreWeave H100 held $6.16 and Crusoe's 1 December column stayed scheduled, not live. Tape: 66 confirms, 4 ticks, 0 NEW.",
   "countries": [
     {
-      "id": "usa-texas-moratorium",
+      "id": "usa-google-wyoming",
       "name": "United States",
       "slug": "united-states",
-      "note": "Texas governor-elect will keep the data center pause until new laws pass; BMI puts 53% of hyperscale pipeline growth in newly flipped governor states (Wire, 5 Nov, corroborated)."
+      "note": "Google's first Wyoming data centre: $17 billion long-term, 702 MW Bloom fuel-cell plant with CCS, air-cooled (Wire, 5 Nov)."
     },
     {
-      "id": "usa-ballot-openai",
+      "id": "usa-amazon-somervell",
       "name": "United States",
       "slug": "united-states",
-      "note": "Restrictions won 40 of 41 local ballot measures; OpenAI publishes a Compute Campus Policy and community compact (Wire, 5 Nov)."
+      "note": "Amazon confirms Somervell County campus on Vistra land next to Comanche Peak; direct nuclear offtaker, site prep underway (Wire, 5 Nov)."
     },
     {
-      "id": "usa-lambda-alabama",
+      "id": "usa-terawulf-ky",
       "name": "United States",
       "slug": "united-states",
-      "note": "Lambda anchors a $33.1 billion, 1 GW Lowndes County, Alabama campus; construction from Q1 2027, first operations Q4 2028 (Wire, 4 Nov)."
+      "note": "TeraWulf Justified (Hawesville, KY): Fluor EPC, Anthropic ~401 MW / ~$19B lease, Google credit backstop; RFS late 2027–Q2 2028 (Wire, 6 Nov)."
     },
     {
-      "id": "usa-msft-nscale",
+      "id": "usa-msft-neocloud",
       "name": "United States",
       "slug": "united-states",
-      "note": "Microsoft declines an option of roughly 500 MW to expand its Nscale Texas contract; Nscale says its $103 billion backlog is unchanged (Wire, 5 Nov, FT-led)."
+      "note": "Microsoft tightens Nebius/IREN/Nscale oversight; IREN >$4B ARR slips to Jan 2027 on network redesign (Bloomberg/Reuters, IREN IR, 5–6 Nov)."
     },
     {
-      "id": "mys-pdg-jh1",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Princeton Digital Group raises about $1.3 billion of green financing for its 200 MW JH1 campus in Johor (Wire, 5 Nov)."
+      "id": "usa-texas-ercot-rfi",
+      "name": "United States",
+      "slug": "united-states",
+      "note": "ERCOT Community Impact RFI: 433 of 465 loads replied covering ~177 GW; final report targeted 10 Dec (PUC deck, 5 Nov)."
     },
     {
-      "id": "ind-indiaai-round",
+      "id": "usa-indiaai-hold",
       "name": "India",
       "slug": "india",
-      "note": "IndiaAI's 10,000-GPU empanelment round halves the entry bar to 512 units; bids close 13 November (Wire, 5 Nov, single-source)."
+      "note": "IndiaAI 10,000-GPU round still closes 13 Nov IST; no award yet (prior Wire)."
     }
   ],
   "silicon": [
     {
       "id": "lambda-h100-od",
       "name": "H100 SXM",
-      "display_usd": 3.99,
+      "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 3.99,
-      "delta": 0.0,
-      "note": "Confirm vs 4 Nov print"
+      "delta": 0.6,
+      "note": "Tick vs 5 Nov print"
     },
     {
       "id": "lambda-b200-od",
       "name": "B200 SXM6",
-      "display_usd": 6.69,
+      "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 6.69,
-      "delta": 0.0,
-      "note": "Confirm vs 4 Nov print"
+      "delta": 1.0,
+      "note": "Tick vs 5 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +71,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 4 Nov print"
+      "note": "Confirm vs 5 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +82,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 4 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 5 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +93,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 4 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 5 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +104,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 4 Nov print"
+      "note": "Confirm vs 5 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +115,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 4 Nov print"
+      "note": "Confirm vs 5 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +126,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 4 Nov print"
+      "note": "Confirm vs 5 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -137,114 +137,93 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 4 Nov print"
+      "note": "Confirm vs 5 Nov print"
     }
   ],
   "watch": [
     {
+      "id": "coreweave-q3",
+      "name": "CoreWeave Q3",
+      "note": "Reports after close Mon 10 November; street ~$3.5B rev / ~$(1.17) EPS vs guide $3.45–$3.60B."
+    },
+    {
       "id": "crusoe-dec1-pricing",
       "name": "Crusoe 1 December rates",
-      "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
+      "note": "Still scheduled: H100 $4.50, H200 $5.40, B300 $9.90 on-demand; tape ticks only when the live column moves."
     },
     {
       "id": "texas-moratorium",
-      "name": "Texas pause",
-      "note": "Whether Abbott lifts his pause when the ERCOT review ends in December, or holds it for Hinojosa's January start."
+      "name": "Texas pause / ERCOT audit",
+      "note": "ERCOT Community Impact final report targeted 10 Dec; PUC discussion cited 17 Dec; Hinojosa still pledges keep pause until new laws."
     },
     {
       "id": "indiaai-bids",
       "name": "IndiaAI 10,000-GPU round",
-      "note": "Bids close 13 November; technical bids open 14 November."
-    },
-    {
-      "id": "neocloud-q3",
-      "name": "CoreWeave Q3",
-      "note": "Reports 10 November; first neocloud print after the election selloff."
+      "note": "Bids close 13 November 15:30 IST; technical open 14 November."
     },
     {
       "id": "eu-gigafactory-bids",
       "name": "EU AI gigafactory tender",
-      "note": "Bids due 12 November."
+      "note": "EuroHPC updated 5 Nov: Lot 1 medium now due 4 Feb 2027; Lot 2 large still 3 Dec 2026. Prior 12 Nov date is obsolete."
     },
     {
       "id": "nvidia-q3",
       "name": "Nvidia fiscal Q3",
-      "note": "Reports 17 November."
+      "note": "Call Tue 17 November 2:00 p.m. PT; CFO written commentary ~1:20 p.m. PT."
     },
     {
       "id": "anthropic-ipo",
       "name": "Anthropic IPO",
-      "note": "Listing expected the week of 16 November."
+      "note": "Reuters 6 Nov: potential investors question whether a next-week roadshow/November listing holds after the AI selloff."
     }
   ],
   "sources": [
     {
-      "name": "Reuters via Investing.com: AI, data-center stocks slump as Democratic sweep clouds expansion plans",
-      "url": "https://www.investing.com/news/stock-market-news/ai-datacenter-stocks-slip-as-democratic-sweep-clouds-expansion-plans-5003196",
-      "note": "Lead: SOX down 8%, CoreWeave down 11%, Nebius down 15%."
+      "label": "Google Wyoming blog",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/"
     },
     {
-      "name": "DCD: Texas governor-elect Gina Hinojosa promises continued data center moratorium",
-      "url": "https://www.datacenterdynamics.com/en/news/texas-governor-elect-gina-hinojosa-promises-continued-data-center-moratorium-further-legislation/",
-      "note": "Lead and Wire: United States."
+      "label": "Amazon Somervell",
+      "url": "https://press.aboutamazon.com/2026/11/our-responsible-approach-to-investing-in-somervell-county-texas"
     },
     {
-      "name": "DCD: More than half of US hyperscale projects face regulatory friction (BMI, Cleanview)",
-      "url": "https://www.datacenterdynamics.com/en/news/more-than-half-of-us-hyperscale-data-center-projects-face-regulatory-friction-after-2026-midterm-elections-report/",
-      "note": "Lead: 53% and 159 GW estimates."
+      "label": "TeraWulf Q3",
+      "url": "https://investors.terawulf.com/news-events/press-releases/detail/149/terawulf-reports-third-quarter-2026-results"
     },
     {
-      "name": "CNBC: OpenAI pledges to halt NDAs in new data center policy proposal",
-      "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
-      "note": "Lead and Wire: 40 of 41 ballot measures; Compute Campus Policy."
+      "label": "Fluor Justified EPC",
+      "url": "https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Signs-EPC-Contract-with-TeraWulf-for-Large-Scale-Data-Center-Campus-in-Kentucky/default.aspx"
     },
     {
-      "name": "Lambda: to invest more than $33 billion in Alabama",
-      "url": "https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
-      "note": "Wire: United States."
+      "label": "IREN Q1 FY27",
+      "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results"
     },
     {
-      "name": "DCD: Microsoft declined option for expanded compute contract in Texas with Nscale",
-      "url": "https://www.datacenterdynamics.com/en/news/microsoft-declined-option-for-expanded-compute-contract-in-texas-with-nscale/",
-      "note": "Wire: United States."
+      "label": "Microsoft neocloud oversight (Reuters/Bloomberg)",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281"
     },
     {
-      "name": "DCD: PDG secures $1.3 billion for Malaysia build-out",
-      "url": "https://www.datacenterdynamics.com/en/news/apac-operator-pdg-secures-13-billion-for-malaysia-build-out/",
-      "note": "Wire: Malaysia."
+      "label": "ERCOT Community Impact RFI PUC deck",
+      "url": "https://www.ercot.com/files/docs/2026/11/05/Community-Impact-RFI-PUC-Update.pdf"
     },
     {
-      "name": "Communications Today: IndiaAI halves entry bar to 512 units for 10,000-GPU round",
-      "url": "https://www.communicationstoday.co.in/indiaai-halves-entry-bar-to-512-units-for-10000-gpu-compute-round/",
-      "note": "Wire: India."
+      "label": "Lambda pricing",
+      "url": "https://lambda.ai/pricing"
     },
     {
-      "name": "Lambda Cloud pricing",
-      "url": "https://lambda.ai/pricing",
-      "note": "H100 $3.99 / B200 $6.69 confirm."
+      "label": "Crusoe pricing",
+      "url": "https://www.crusoe.ai/cloud/pricing"
     },
     {
-      "name": "CoreWeave pricing",
-      "url": "https://www.coreweave.com/pricing",
-      "note": "H100 HGX $6.16 per GPU-hour confirm."
+      "label": "EuroHPC AI Gigafactory call",
+      "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"
     },
     {
-      "name": "Crusoe Cloud pricing",
-      "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "B300 $8.96, H100 $3.90, H200 $4.29 on-demand confirm; 1 Dec column scheduled, not logged."
-    },
-    {
-      "name": "DigitalOcean GPU Droplets pricing",
-      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "MI355X spot $4.50, MI350X spot $3.00, B300 spot $6.17 confirm."
-    },
-    {
-      "name": "AWS Capacity Blocks pricing",
-      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-      "note": "P6-B300 $16.146 confirm."
+      "label": "Anthropic IPO timing (Reuters)",
+      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/06/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-reuters-exclusive/"
     }
   ]
 }

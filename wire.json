@@ -3188,8 +3188,67 @@
         "Policy"
       ],
       "score": 84
+    },
+    {
+      "id": "usa-google-wyoming-17bn-first-data-center-702mw-bloom-ccs-2026-11-05",
+      "date": "2026-11-05",
+      "title": "Google commits $17 billion to its first Wyoming data centre, paired with a 702 MW fuel-cell CCS plant",
+      "summary": "Google announced on 5 November 2026 its first data centre in Wyoming, a long-term $17 billion investment in Laramie County with partners Tallgrass Energy, Black Hills Energy, American Electric Power and Related Digital. The campus is contracted with AEP for a commercial-scale 702 MW natural-gas fuel-cell development with carbon capture and storage — Bloom Energy cells, geologic storage at Tallgrass's Eastern Wyoming Sequestration Hub — and will be air-cooled to cut local water use; Google says it will pay for 100% of the power it uses and cover growth-driven infrastructure. Reuters and WyoFile corroborate the same day; the 702 MW Bloom package builds on earlier AEP/Black Hills Cheyenne power filings already on Wire. Caveat: Google did not publish a campus IT-MW or first-power date. Country conversion: a hyperscaler locks a multi-billion Wyoming offtake after midterm data-centre backlash.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+      "source": "Google blog, 5 Nov 2026; Reuters, 5 Nov 2026; WyoFile, 5 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Energy",
+        "Capital"
+      ],
+      "score": 58
+    },
+    {
+      "id": "usa-amazon-somervell-comanche-peak-nuclear-campus-2026-11-05",
+      "date": "2026-11-05",
+      "title": "Amazon confirms a Somervell County data centre campus as direct offtaker from Comanche Peak nuclear",
+      "summary": "Amazon's US Press Center said on 5 November 2026 it is advancing a data centre campus in unincorporated Somervell County near Glen Rose on Vistra land beside the Comanche Peak Nuclear Power Plant, with site preparation underway and at least 550 full-time jobs. Power is to flow on dedicated transmission to an on-site substation with Amazon as a direct nuclear offtaker paying the full energy cost; cooling water comes from the Comanche Creek industrial reservoir under existing Vistra surface rights (projected use under 2% of those rights), not local drinking supplies. Secondary reporting (CryptoBriefing; Texas PUC agenda coverage) frames the project as roughly $5 billion, up to 18 buildings on about 435 acres, and a 20-year PPA for up to 1,200 MW with initial energization targeted late 2027 — those dollar and MW figures are not in Amazon's 5 Nov community post. Caveat: local approvals and PPA buyer identity were reported earlier in 2026; today's post is the clearest public campus confirmation amid Texas's large-load pause. Country conversion: hyperscaler nuclear conversion advances in Texas while ERCOT's audit runs to December.",
+      "url": "https://press.aboutamazon.com/2026/11/our-responsible-approach-to-investing-in-somervell-county-texas",
+      "source": "Amazon US Press Center, 5 Nov 2026; CryptoBriefing, 5 Nov 2026",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 52
+    },
+    {
+      "id": "usa-terawulf-justified-hawesville-anthropic-401mw-fluor-epc-google-backstop-2026-11-06",
+      "date": "2026-11-06",
+      "title": "TeraWulf locks Fluor EPC and a Google credit backstop for Anthropic's ~401 MW Justified campus in Kentucky",
+      "summary": "TeraWulf's 6 November 2026 Q3 release and Fluor's 4 November newsroom say the companies signed a definitive EPC for three data centre buildings at the Justified Data Campus in Hawesville, Kentucky, with early works already underway and Fluor to recognize the award in Q4 once pricing for the first two buildings is finalized. TeraWulf states a 20-year Anthropic lease for about 401 MW of critical IT capacity (~$19 billion contracted revenue over the initial term), a Google credit backstop for anticipated project financing supporting that lease, and phased ready-for-service from late 2027 through Q2 2028. Separately TeraWulf lifted Muskie contracted power from 500 MW to 1,000 MW subject to Kentucky PSC approval. Caveat: site development capex ex-compute is cited in investor materials around $4.0–4.5 billion in secondary summaries; stick to the IR/Fluor figures above for Wire. Country conversion: Anthropic offtake plus investment-grade-linked financing and named EPC move a Kentucky GW-class campus into construction.",
+      "url": "https://investors.terawulf.com/news-events/press-releases/detail/149/terawulf-reports-third-quarter-2026-results",
+      "source": "TeraWulf IR, 6 Nov 2026; Fluor newsroom, 4 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Capital",
+        "Energy"
+      ],
+      "score": 57
     }
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "note": "Wire refresh 2026-11-05: added usa-texas-hinojosa-extended-moratorium-bmi-53pct-pipeline-exposed-2026-11-05, usa-ballot-measures-40-of-41-restrictions-openai-compute-campus-policy-2026-11-05, usa-lambda-red-clay-lowndes-county-alabama-33-1bn-1gw-campus-2026-11-04, usa-microsoft-declines-nscale-ward-county-texas-expansion-option-2026-11-05, malaysia-pdg-1-3bn-green-financing-jh1-johor-200mw-2026-11-05, india-indiaai-cdac-10000-gpu-round-512-unit-threshold-bids-13-nov-2026-11-05. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
