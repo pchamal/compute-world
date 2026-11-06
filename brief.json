@@ -182,48 +182,64 @@
   ],
   "sources": [
     {
-      "label": "Google Wyoming blog",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/"
+      "name": "Bloomberg via Reuters/Investing: Microsoft tightens neocloud oversight",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281",
+      "note": "Lead: Nebius, IREN, Nscale oversight."
     },
     {
-      "label": "Amazon Somervell",
-      "url": "https://press.aboutamazon.com/2026/11/our-responsible-approach-to-investing-in-somervell-county-texas"
+      "name": "IREN Q1 FY27 results",
+      "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results",
+      "note": "Lead: >$4B ARR slips to Jan 2027 after Microsoft network redesign."
     },
     {
-      "label": "TeraWulf Q3",
-      "url": "https://investors.terawulf.com/news-events/press-releases/detail/149/terawulf-reports-third-quarter-2026-results"
+      "name": "DCD: Microsoft design change delays IREN Texas delivery",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-design-change-delays-irens-data-center-delivery-in-texas/",
+      "note": "Lead corroboration."
     },
     {
-      "label": "Fluor Justified EPC",
-      "url": "https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Signs-EPC-Contract-with-TeraWulf-for-Large-Scale-Data-Center-Campus-in-Kentucky/default.aspx"
+      "name": "Google: Investing in Wyoming's infrastructure, energy and workforce",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+      "note": "Wire: United States — $17B first Wyoming campus, 702 MW Bloom+CCS."
     },
     {
-      "label": "IREN Q1 FY27",
-      "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results"
+      "name": "Amazon US Press Center: Somervell County / Comanche Peak",
+      "url": "https://press.aboutamazon.com/2026/11/our-responsible-approach-to-investing-in-somervell-county-texas",
+      "note": "Wire: United States — nuclear offtaker campus."
     },
     {
-      "label": "Microsoft neocloud oversight (Reuters/Bloomberg)",
-      "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281"
+      "name": "TeraWulf Q3 2026 results",
+      "url": "https://investors.terawulf.com/news-events/press-releases/detail/149/terawulf-reports-third-quarter-2026-results",
+      "note": "Wire: United States — Justified Anthropic ~401 MW / Fluor / Google backstop."
     },
     {
-      "label": "ERCOT Community Impact RFI PUC deck",
-      "url": "https://www.ercot.com/files/docs/2026/11/05/Community-Impact-RFI-PUC-Update.pdf"
+      "name": "Fluor: EPC with TeraWulf for Kentucky data center campus",
+      "url": "https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Signs-EPC-Contract-with-TeraWulf-for-Large-Scale-Data-Center-Campus-in-Kentucky/default.aspx",
+      "note": "Wire corroboration."
     },
     {
-      "label": "Lambda pricing",
-      "url": "https://lambda.ai/pricing"
+      "name": "ERCOT Community Impact RFI PUC update (5 Nov 2026)",
+      "url": "https://www.ercot.com/files/docs/2026/11/05/Community-Impact-RFI-PUC-Update.pdf",
+      "note": "Watchlist: ~177 GW replied; final report targeted 10 Dec."
     },
     {
-      "label": "Crusoe pricing",
-      "url": "https://www.crusoe.ai/cloud/pricing"
+      "name": "Lambda GPU Cloud pricing",
+      "url": "https://lambda.ai/pricing",
+      "note": "Tape ticks: B200/H100/A100/GH200 on-demand rises vs 5 Nov."
     },
     {
-      "label": "EuroHPC AI Gigafactory call",
-      "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"
+      "name": "Crusoe Cloud pricing",
+      "url": "https://www.crusoe.ai/cloud/pricing",
+      "note": "Tape: live OD unchanged; Dec 1 column still scheduled."
     },
     {
-      "label": "Anthropic IPO timing (Reuters)",
-      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/06/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-reuters-exclusive/"
+      "name": "EuroHPC AI Gigafactory call for tenders",
+      "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en",
+      "note": "Watchlist: Lot 1 now 4 Feb 2027; Lot 2 still 3 Dec 2026."
+    },
+    {
+      "name": "Reuters via BNN Bloomberg: Anthropic IPO timing under pressure",
+      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/06/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-reuters-exclusive/",
+      "note": "Watchlist: November listing risk."
     }
   ]
 }
