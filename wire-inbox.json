@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09 16:19 UTC",
+ "generated": "2026-11-09 22:22 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -51,6 +51,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Here where we stand on Kimberly - Clark shares after a better - than - feared quarter",
+   "url": "https://www.cnbc.com/investingclub/2026/11/05/heres-where-we-stand-on-kimberly-clark-shares-after-a-better-than-feared-quarter.html",
+   "source": "cnbc.com",
+   "date": "2026-11-05",
+   "via": "gdelt",
+   "country_hint": "United States",
+   "tier": 2,
+   "prescore": 58,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "The $167 Million Month: Why a Power Plant Sets an AI Factory's Revenue Ceiling - Substack",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xSlhqeWc5Vjd0X2k0bzM1S25IV1hKN3dlSXF4UmNTaEhFcG5wRnNWRlVnamprUVJkVTlNUTZqazBjSHVZMHdXRWR2c05YR3JDb3dUVzN6NnVGb0RZV1QtQjRHQl9zaEgwY1VhdHRDcVhDamIxcU0tbQ?oc=5",
    "source": "Substack",
@@ -87,10 +99,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Cohere Hits US$25bn as Canada & NVIDIA Fund Sovereign AI - AI Magazine",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0hFa0gwWUN0Yl9mZVhfY3pSRWZ0Zzd1dFJjc2xVWmk0TUhvcmFLWDJ2TG9WUDRvTXVWZHNvX3BfcHpSR29VR2JJaE1KN0lHUzh2Y1I1ZDBJRU01WjRocTVwaVprNVVTSWZDR3JVelVjWVB4M1p3QjVtU001OEc3amE3V2M3ajVaaXc?oc=5",
-   "source": "AI Magazine",
-   "date": "2026-11-02",
+   "title": "Canada pledges 500 MW of sovereign AI compute in Budget 2026 - Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5NR2xZWjJvd3JtMFRSUkJuLUplT21aRkpKaVE1a2lhS3hxSDNkbmZ6T0FMNExHa2NTZVdGZ0tyWFJaLTF6UHVmcmdtUzBCQXVVS04xcTR5UzNTSUhzeTRlcDdINDRqWmhwYlJHSWVrM215N05sOUp5SFR3?oc=5",
+   "source": "Crypto Briefing",
+   "date": "2026-11-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -123,18 +135,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "IREN’s $20 Billion Backlog Masks the Financial Risks of Its AI Data Center Boom - Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVlxMHZvaWcxV2NkQWxLcjR3dmlDdjM2Q05zb2V3a3d6NXp3UmVkcldLTEJuTkxOVVBoTzlrMmphZFNfOWlsWkVlaVJabzZrT1VZY3BjMVR0VFRyemhvYlVTeElBVzA3UjRWcDlWckFTOFE3TUF2S1pvZzRiOHljSlhVVkV6VjRiaEJJN1dGaG53UHZIVkV2QzJpTmxTbXVWa0szZmVVelBVNFZmNHFKdlREbEZsMlNfNGtuRlNuYw?oc=5",
-   "source": "Investing.com",
-   "date": "2026-11-06",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "XIIIab raises $7.34M convertible bond for AI data center push - Dealroom",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTVpFVDgyeWpvNWlOVDRoaUliaDEtSlpZT2h6emtucVRKZjh5c1FEM21uTUJMQlZhWFdIazJGTk5CZ3lXWXpqekV5RmhvT3U5bnoyeVFxdkFTQ3djQ0dma3VYcHkxb29nVU52OUhPcC1MVzVlLXRjbGR3Uy1TT1FQX2p4bHFCMmQtaEl1bGw1eE1NYkxmdmlqRUp3?oc=5",
    "source": "Dealroom",
@@ -151,6 +151,18 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQWVqbng2NmlrblE0cExyT3ZSZ3F5aFkxUWdxcWd4TC1QTjg2MzNHc19Pa201LXI1aXhTTUlMSkxObjF5OXcwY3hlRzRSVFFjUkMwaUg2TDB1cXNBbWV2S09XdVZUajhzcElGV0k4T2NRbXNlaUthSG1iQ0ZzUnpLNG5KbjhqNDgtRG9DbnlISWRkdw?oc=5",
    "source": "The Tech Buzz",
    "date": "2026-11-03",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "IREN’s $20 Billion Backlog Masks the Financial Risks of Its AI Data Center Boom - Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVlxMHZvaWcxV2NkQWxLcjR3dmlDdjM2Q05zb2V3a3d6NXp3UmVkcldLTEJuTkxOVVBoTzlrMmphZFNfOWlsWkVlaVJabzZrT1VZY3BjMVR0VFRyemhvYlVTeElBVzA3UjRWcDlWckFTOFE3TUF2S1pvZzRiOHljSlhVVkV6VjRiaEJJN1dGaG53UHZIVkV2QzJpTmxTbXVWa0szZmVVelBVNFZmNHFKdlREbEZsMlNfNGtuRlNuYw?oc=5",
+   "source": "Investing.com",
+   "date": "2026-11-06",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -291,6 +303,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Nepal Infrastructure Summit 2026 to Showcase Projects Worth $17 Billion - Ratopati",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYkJnbTFvREpwblRjblNjVF92eTl6aERMZFg2YVBheXpLWXBqTEZkcE0wQ0FiTGZDVnE4cm1MVHdDQjF6Nmg5TXcxa3NRRm1ENzhUanJSN0tVanhNM3JOSXIxUkt6N3ctQlR0d2lZSDVpMnZqR1R6aUFJVXhzZDNwcXA5TGlOQlpFVEp1T3c2anFzMl9FV0RPMWRsMzRGWTNZM1VUWjhQRVd0cktXb0U2MzM0TGtkYllmcDU3UzUwVEM0aTNPdWxPUkNjQ2dUcmhPRXdtdUZlMC0wUXVmc0lEcndVWmtjdlBfbEtzVDk4cw?oc=5",
+   "source": "Ratopati",
+   "date": "2026-11-09",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Marvell to buy Lumentum in $115 billion AI data-center deal - Big News Network.com",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeHJnSGdsMVlEN0Q1SjlKek9qTnF6Rjc4TlJhZDNfczFiYXBPOWdUcjdnRVJWTnpRTVlfdEtnaXI2Q2R6Z05SOXJjTzNpRy1YV3JwOXJVSUZ3TWc1RzJvaW1BS1J3QkxkVTdnRGo5eVVEcFhYb1N6ZkU1aF9lT0hJWHA5UkZNWkFaTVk1N2ZNejNFcnI2UEdncXRwM0xEa1p5emxsNzg0UTQ5Mms?oc=5",
    "source": "Big News Network.com",
@@ -363,22 +387,22 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Anthropic’s 1.7GW Gas Buy Is 4x a China AI Campus’s Wind - FourWeekMBA",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaFFFQ01sdjl3U0psUFY3Sml6TnlJalBQMENmNVA4U1NRZWNMTkNoZnZUTnBXaGxfVFl5STBiMVNnbUJVUVpJclFndWJLeDFOMGpQaEhjWWpVVkV5REIzSFpqWEtOdlAwVEctbkZORzNVellnRFdMLU1BMUdJVlViRzZkNkN6Y0FfU0E?oc=5",
-   "source": "FourWeekMBA",
-   "date": "2026-11-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "AI infrastructure grows in Texas with new facilities in Dallas, College Station - NBC 5 Dallas-Fort Worth",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLXRJOW1mWDQ1TGVQQXZPdHRBZkt3MkQyNjRxTDI4YWlvTGhRbjdVellSaUY5Rmk0Y0pHNF8yeUFLU3N3eE43VlpfSUE4Mnl2LVdwZUctbnFsZ1pOYjRvZ0NvWS1ERDV5cWEtMjFkXzRnOUU2bHdjMmgydm9WRzcwQmh4azVNUFhTeFp2R0pjZ1VlaDBLVVIxYmhoTFR0X3BxY2xFMEdHTThnME9FWGRJ0gG3AUFVX3lxTFBhREVNWVI4eFl2VWkyLVE4N0JUdGxNdmVsRGlPcTRFM3EteUl0TF9FSXZyRkM0OHlxUjdZUFZ1T0tpa1psMjY2WEhIdUZCYk1scS1EeFliOHBTSFpWYWhHa3E0cFRhMUl3RHlKVTc4cmtCWncxcjUxNHNRNXhiRjlIRkM0YTFyNTl1N2F1WDZjSjFZbS1yZTFWWFNFeFhzbTl3bTYzSHR4RWhFQnBuMU9paUM0Wk5aNA?oc=5",
    "source": "NBC 5 Dallas-Fort Worth",
    "date": "2026-11-08",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "The rise of sovereign AI factories: Why the C-suite is rejecting cloud dependency - CIO",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR1BLdEo2OXg2X3M3VjdSRDluSVJwVmFhZTRaR2FNM0FTdFFzM05zQS02bGxfRG9qVmIxa25HcTQzaVpoTDF6bnZjaE5iN2RNTEk4QmNJbUVkUE0wejFJR1p3cFJrUDlqd3pQRi1QMzZlRS1JdWRzMHBwdU9QY3lEY0lTZmVVRWlCS3c1ZTMzVEVFODlUQi04TWhlLUdMZkZaLXdHWXZuSDY2WG5NYlFRbnRXUWkyWmxXd3E4RjN3?oc=5",
+   "source": "CIO",
+   "date": "2026-11-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -423,10 +447,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "The rise of sovereign AI factories: Why the C-suite is rejecting cloud dependency - www.cio.com",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR1BLdEo2OXg2X3M3VjdSRDluSVJwVmFhZTRaR2FNM0FTdFFzM05zQS02bGxfRG9qVmIxa25HcTQzaVpoTDF6bnZjaE5iN2RNTEk4QmNJbUVkUE0wejFJR1p3cFJrUDlqd3pQRi1QMzZlRS1JdWRzMHBwdU9QY3lEY0lTZmVVRWlCS3c1ZTMzVEVFODlUQi04TWhlLUdMZkZaLXdHWXZuSDY2WG5NYlFRbnRXUWkyWmxXd3E4RjN3?oc=5",
-   "source": "www.cio.com",
-   "date": "2026-11-09",
+   "title": "SovAI Joins NVIDIA Inception to Build Behind-the-Meter AI Factories to the NVIDIA DSX Reference Architecture - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFM1VVAwdHhBMGhLM3RnNGtKUHh2UGtJbEVhWnFYcVRVZGpGUkFxUFA1QzNqNGpjQXV1U09IQURBdEF1REk0bjhVbE9oSzVNRjdCczR2YnVmcGFfTVRXbDVSaGxpdzBLeFhQUGs4VzhJcHBaM2lQLXdfNHg3aFc4NF9hZHk5YTRrd21naUN6SmRZai1VazJsbnFoQjVHams?oc=5",
+   "source": "Yahoo Finance",
+   "date": "2026-11-06",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -435,10 +459,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "SovAI Joins NVIDIA Inception to Build Behind-the-Meter AI Factories to the NVIDIA DSX Reference Architecture - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFM1VVAwdHhBMGhLM3RnNGtKUHh2UGtJbEVhWnFYcVRVZGpGUkFxUFA1QzNqNGpjQXV1U09IQURBdEF1REk0bjhVbE9oSzVNRjdCczR2YnVmcGFfTVRXbDVSaGxpdzBLeFhQUGs4VzhJcHBaM2lQLXdfNHg3aFc4NF9hZHk5YTRrd21naUN6SmRZai1VazJsbnFoQjVHams?oc=5",
-   "source": "Yahoo Finance",
-   "date": "2026-11-06",
+   "title": "Nvidia, Rebellions, SK Telecom to advance sovereign AI infrastructure - Evertiq",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDMySlM1T2JrOGd5NEFNQ215bVNsa2pEdHpWX1RLMHU2dmctVW5ENDNYeDN6MDI0RXJTSHo4Q0JiWDRsWW81TEwxdHdzU1AxdlRzMXhFTk1EajgtWWZaYmZVQ0xrd0tuYzVpRi1kNHZDbkxJejlEY1JUWHJMb2RIeWR5YUd1UVNsNzRKZ3pUUUU0WDQ1ZWdreG9kNjNxN1dSbTZwS3NaM3o?oc=5",
+   "source": "Evertiq",
+   "date": "2026-11-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -483,18 +507,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Nvidia, Rebellions, SK Telecom to advance sovereign AI infrastructure - Evertiq",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDMySlM1T2JrOGd5NEFNQ215bVNsa2pEdHpWX1RLMHU2dmctVW5ENDNYeDN6MDI0RXJTSHo4Q0JiWDRsWW81TEwxdHdzU1AxdlRzMXhFTk1EajgtWWZaYmZVQ0xrd0tuYzVpRi1kNHZDbkxJejlEY1JUWHJMb2RIeWR5YUd1UVNsNzRKZ3pUUUU0WDQ1ZWdreG9kNjNxN1dSbTZwS3NaM3o?oc=5",
-   "source": "Evertiq",
-   "date": "2026-11-09",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion - NVIDIA Newsroom",
    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORGhIWmZCWlAyVkMzcDMxdFF3NWtlRmZKZXdMYmxKNmhSN0x1OEN4WTBxS0hmUk90M3I1cHhUb0dDSHdkWmkycGhlcHZFWDlWcGhuYVhfZWFzbTZoV05BM0VtWlZ4RjhjdjJXaUxIS3gyUWlRSHFCeFdPM0UtdTdVRldYWkZZZ1VxWXY0dlByR1NHYldtVy1rTmxXZXp3MzBuR0lxaC14b21mVkIyU1hJRTBhMTR5NVhEVkVlTDQxYVpocEdSMlRlamN3Y19FRENqRlJvV2ZsSC15SjhITjhOODhldHp1MWMzdV9Z?oc=5",
    "source": "NVIDIA Newsroom",
@@ -510,6 +522,18 @@
    "title": "Rebellions to Use NVIDIA NVLink Fusion for Korean Sovereign AI - Unite.AI",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONEhZQzVFQlkyZjc2X0dXazducjUydVlaNnJZcHFQTjlCby16dFEwVFVkYzZqNVhIV2NDMUNGOXBMLXBHZkd3ZjAxQTZRcWV2TW1naHRRUWhVcmRjSEd4d3FzcUNjYmtVY1VYNWRFSzZRbE03cEZXRDU1WGpFWWtReVFxVmpjRGZYcEM0bQ?oc=5",
    "source": "Unite.AI",
+   "date": "2026-11-09",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "SK Telecom joins hands with Nvidia to build sovereign AI infrastructure - The Korea News Plus",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ndllyWnlwTDlsUGJ3cjFpUWoybTk0M2Z3VFplSFRSZTdNUW1CN1R4bEdnTWlPQ1hMb0l6WC16enhfRDExamVwbWJZcXRyaTE0RGVFSGZzU2MtcGFfaVZQTVFQY0o0M19xSEZaY1Voa2dyTDBRLUtz?oc=5",
+   "source": "The Korea News Plus",
    "date": "2026-11-09",
    "via": "gnews",
    "country_hint": "",
@@ -603,10 +627,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "SK Telecom, Nvidia work on South Korea's sovereign AI infrastructure - upi",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMXRNTWwwbTlhMWxJcHhweFhhaFRMdWdUZVhtbkFzYkMxRnVhbWdoenlYNjg0UHU1X19WUldLQ3R0ZlFHTER4NjBsVkplcjk3bklDM1U0aGQtSE40di0zWmdCZ3pXYWhja3FKVVVYSkpCS0wwUXdSYmNoeW56NmZDUGxiTlNXVC1EMnYzUlNJaUxqNW43V0t0aHd1eE9TUF8tRWhIYjFNQl9ZeUtPamdGUDVB0gG3AUFVX3lxTE83N3R5WXRDZVNLUDdWX044WFNTdXBsYnV4dzlBV2JEaUlaUnpEX2ZzRjVHVGNSbk9fRGV0M1N1Y3YtUXd3Ylp1UFlpMUZTS3QwM2ZDOFdZeXJLM3Q2RWF3MVR5T2ZQUDlDblNqY2k1eGxhNGxRa0lNVnpxSFNfa25tcFVtSmp0aDRPRlcxRzg3Nmhpay1Ca01ydk9HQlJVN1AwZ1RvWkQ5ell4S1lWYkNUTDc0X0hzSQ?oc=5",
-   "source": "upi",
-   "date": "2026-11-09",
+   "title": "Tencent Cloud Partners with Saudi Arabia’s OmniOps to Expand Sovereign AI Infrastructure - TechAfrica News",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTI0NE11S1ZjQ2FPMy0wWWROak1KVGI0em5tQTQ5Um82WG03SjNqbFhUazlqTUxRR09aUS1XQTZUMUN3c3VhMTRDNWRmV3owanBLM3M4Nzg0eGdWaE9tZXl1cGxXWE5oYmlfYS1qdDFzaDdFakJBbHFXclk3enIxYm1Cb3R4bHhzZS1tVFZNZV9SVHR0WDloY0ljd3ZkMmZFUjI4elJkWU82XzBCMktaaGNDTzI0Mmo0V0ZLZW4tRFdfQW1F?oc=5",
+   "source": "TechAfrica News",
+   "date": "2026-11-03",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -615,10 +639,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Tencent Cloud Partners with Saudi Arabia’s OmniOps to Expand Sovereign AI Infrastructure - TechAfrica News",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTI0NE11S1ZjQ2FPMy0wWWROak1KVGI0em5tQTQ5Um82WG03SjNqbFhUazlqTUxRR09aUS1XQTZUMUN3c3VhMTRDNWRmV3owanBLM3M4Nzg0eGdWaE9tZXl1cGxXWE5oYmlfYS1qdDFzaDdFakJBbHFXclk3enIxYm1Cb3R4bHhzZS1tVFZNZV9SVHR0WDloY0ljd3ZkMmZFUjI4elJkWU82XzBCMktaaGNDTzI0Mmo0V0ZLZW4tRFdfQW1F?oc=5",
-   "source": "TechAfrica News",
-   "date": "2026-11-03",
+   "title": "SK Telecom, Nvidia work on South Korea's sovereign AI infrastructure - upi",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMXRNTWwwbTlhMWxJcHhweFhhaFRMdWdUZVhtbkFzYkMxRnVhbWdoenlYNjg0UHU1X19WUldLQ3R0ZlFHTER4NjBsVkplcjk3bklDM1U0aGQtSE40di0zWmdCZ3pXYWhja3FKVVVYSkpCS0wwUXdSYmNoeW56NmZDUGxiTlNXVC1EMnYzUlNJaUxqNW43V0t0aHd1eE9TUF8tRWhIYjFNQl9ZeUtPamdGUDVB0gG3AUFVX3lxTE83N3R5WXRDZVNLUDdWX044WFNTdXBsYnV4dzlBV2JEaUlaUnpEX2ZzRjVHVGNSbk9fRGV0M1N1Y3YtUXd3Ylp1UFlpMUZTS3QwM2ZDOFdZeXJLM3Q2RWF3MVR5T2ZQUDlDblNqY2k1eGxhNGxRa0lNVnpxSFNfa25tcFVtSmp0aDRPRlcxRzg3Nmhpay1Ca01ydk9HQlJVN1AwZ1RvWkQ5ell4S1lWYkNUTDc0X0hzSQ?oc=5",
+   "source": "upi",
+   "date": "2026-11-09",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -687,34 +711,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "NVIDIA Deepens Korean Sovereign AI Work on Chips and Rack Systems - Unite.AI",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbmEzNGV3N1E5ZDRBS1RzMVZXSE9Ga0RVSW1xWDhEYm00SXpKSl9wenE4MS0zRjlDY0doMWdJR0JtR2pSRFVBcF9vaERTVzJSOFl1ZndoTy1sSUJhLS1Lc0lhb0VIUVU3ajRnMXdxWlo0bi1IWTdJdEYxcDBBSVpuRkdIaG14Sk0tNU00SFF3TVc?oc=5",
-   "source": "Unite.AI",
-   "date": "2026-11-09",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "SKT, NVIDIA and Rebellions Join Forces to Build Korea’s Sovereign AI Infrastructure - Korea IT Times",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ad3BPRHN1ZXEzN1RxT1pqeGc5VFNNd3BWX2d1emlNbWVMWHVXQ1dBSkpaZU4zTkUtT0FfUzE0ZnI5MlVTYlBwZlNsTEJZWWNuZFdMOTZTdGtsZjRnY1hLZFRrcUxSWkxjV2JqbG5keUs?oc=5",
    "source": "Korea IT Times",
    "date": "2026-11-09",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Sovereign AI Fund Backs Potential Sciences Seed Round - Konsulteer",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPN3J1WUVhbEx2NGJUY0JENWRncUUzRkdFWGx2OXdfUC1IdjFSWVA3QzZ3cGlNLXlTNl9YYS01OHhyY2lOMDVDX2JjVFEwTVZPbDdhTXd6MGxjR20wU1dtQ1BJOEpfcjJyR0RYTDQ0RnVjeGZlcXVoRU1pZnBDc01YQm1wZzJ3WkpyMDZXd25lYkkxRW52RXJRRW5IajRqb3FobnlHdEpSMWgwS0pRa21RTUdDeHZHZ0hjVFBrNDc2NTJraVdCOXJ4aWdLZGQzeXNNbFNqSU1wQklZUWhIQUFkcmZheGxIcWJibWUtZTB3?oc=5",
-   "source": "Konsulteer",
-   "date": "2026-11-05",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
