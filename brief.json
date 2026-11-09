@@ -1,45 +1,51 @@
 {
-  "updated": "2026-11-06",
-  "title": "Compute brief - 6 November 2026",
-  "description": "Microsoft is tightening oversight of Nebius, IREN and Nscale while Google still writes a $17 billion Wyoming campus cheque, and Lambda just raised on-demand list prices across its 8x stack. Wire: Google Wyoming $17B / 702 MW Bloom+CCS, Amazon's Comanche Peak nuclear campus, TeraWulf's Anthropic Kentucky EPC. Tape: 66 confirms, 4 ticks (all Lambda), 0 NEW.",
-  "og_kicker": "The offtaker is cutting optionality. The list price just moved.",
-  "lede": "A day after the election selloff priced regulatory risk into neoclouds, the stack repriced delivery and list rates. Bloomberg via Reuters said Microsoft is tightening oversight of projects at Nebius, IREN and Nscale and debating new neocloud contracts as it prioritises owned sites; IREN's Q1 put its >$4 billion ARR target into January 2027 after a Microsoft-requested network redesign at Childress. Hyperscalers are still converting land into campuses they control: Google posted a $17 billion first Wyoming data centre with a 702 MW Bloom fuel-cell CCS plant, Amazon confirmed a Somervell County campus as a direct Comanche Peak nuclear offtaker, and TeraWulf locked Fluor EPC plus a Google credit backstop for Anthropic's ~401 MW Justified lease in Kentucky. On the public tape, Lambda raised 8x on-demand prints overnight — B200 $6.69 to $7.69, H100 $3.99 to $4.59, A100-80GB $2.79 to $3.19, GH200 $2.29 to $2.59 — while CoreWeave H100 held $6.16 and Crusoe's 1 December column stayed scheduled, not live. Tape: 66 confirms, 4 ticks, 0 NEW.",
+  "updated": "2026-11-09",
+  "title": "Compute brief - 9 November 2026",
+  "description": "Nvidia's board opened an independent investigation into reports that Jensen Huang was targeted by a foreign intelligence effort, and the stock fell about 5% on Monday, while Anthropic kept buying physical capacity: Riot's 10-Q names it as the tenant on a $28 billion, 910 MW Corsicana lease, and the FT reports a $3.4 billion, 1.7 GW gas generator deal. Wire: Riot Corsicana, SoftBank and Grab's $1.85 billion Malaysia programme, SpaceXAI's 6 GW Arizona filing, 600,000 H200s held in Hong Kong, Israel's 300,000-GPU target, Kazakhstan's Ekibastuz phase two. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The chip CEO is under review. The buyer keeps signing for power.",
+  "lede": "Nvidia's board said on Sunday it has opened an independent investigation, overseen by independent directors and outside counsel, after reports that Jensen Huang was the target of a foreign intelligence effort; the board says it has no reason to believe national security or Nvidia secrets were compromised, and CNBC reported the stock down about 5% on Monday while AMD and other chipmakers rose. The buyers did not blink. Riot's 10-Q names Anthropic as the tenant on a 15-year, 910 MW powered land lease for its whole Corsicana, Texas campus at $130 per kW-month, about $28 billion of contract value, and the FT reports Anthropic paid about $3.4 billion for 1.7 GW of gas-fired generators. Microsoft is moving the other way on rented capacity, winding down a 2023 Oracle deal on older Nvidia hardware a day after Bloomberg reported tighter oversight of its neocloud projects; CoreWeave reports Q3 on Tuesday with its 2032 notes yielding above 16%. Live list prices held: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 after Friday's rise.",
   "countries": [
     {
-      "id": "usa-google-wyoming",
+      "id": "usa-riot-corsicana",
       "name": "United States",
       "slug": "united-states",
-      "note": "Google's first Wyoming data centre: $17 billion long-term, 702 MW Bloom fuel-cell plant with CCS, air-cooled (Wire, 5 Nov)."
+      "note": "Riot leases its whole 910 MW Corsicana, Texas campus to Anthropic for about $28 billion over 15 years; first 400 MW by September 2027 (Wire, 4 Nov, confirmed)."
     },
     {
-      "id": "usa-amazon-somervell",
+      "id": "usa-anthropic-onepwr",
       "name": "United States",
       "slug": "united-states",
-      "note": "Amazon confirms Somervell County campus on Vistra land next to Comanche Peak; direct nuclear offtaker, site prep underway (Wire, 5 Nov)."
+      "note": "Anthropic buys commitments for 1.7 GW of gas-fired generators from OnePWR for about $3.4 billion (Wire, 8 Nov, FT single-source)."
     },
     {
-      "id": "usa-terawulf-ky",
+      "id": "usa-spacexai-cochise",
       "name": "United States",
       "slug": "united-states",
-      "note": "TeraWulf Justified (Hawesville, KY): Fluor EPC, Anthropic ~401 MW / ~$19B lease, Google credit backstop; RFS late 2027–Q2 2028 (Wire, 6 Nov)."
+      "note": "SpaceXAI files for a 747-acre, up to 6 GW campus in Cochise County, Arizona; zoning decision 9 December (Wire, 6 Nov)."
     },
     {
-      "id": "usa-msft-neocloud",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "Microsoft tightens Nebius/IREN/Nscale oversight; IREN >$4B ARR slips to Jan 2027 on network redesign (Bloomberg/Reuters, IREN IR, 5–6 Nov)."
+      "id": "mys-softbank-grab",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "SoftBank, Grab and PETROS commit $1.85 billion of staged seed capital toward 5 GW or more of AI capacity in Sarawak and Peninsular Malaysia (Wire, 9 Nov)."
     },
     {
-      "id": "usa-texas-ercot-rfi",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "ERCOT Community Impact RFI: 433 of 465 loads replied covering ~177 GW; final report targeted 10 Dec (PUC deck, 5 Nov)."
+      "id": "chn-h200-hong-kong",
+      "name": "China",
+      "slug": "china",
+      "note": "About 600,000 H200s held in Hong Kong as Beijing withholds large-scale import approval (Wire, 5 Nov, Reuters single-source)."
     },
     {
-      "id": "usa-indiaai-hold",
-      "name": "India",
-      "slug": "india",
-      "note": "IndiaAI 10,000-GPU round still closes 13 Nov IST; no award yet (prior Wire)."
+      "id": "isr-sovereign-target",
+      "name": "Israel",
+      "slug": "israel",
+      "note": "National AI Directorate targets about 300,000 GPUs and 2 GW for a sovereign AI stack (Wire, 9 Nov, single-source)."
+    },
+    {
+      "id": "kaz-ekibastuz-phase2",
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "note": "Preliminary deals add 480 MW at Ekibastuz Data Center Valley; 1 GW target by 2029 (Wire, 6 Nov, single-source)."
     }
   ],
   "silicon": [
@@ -49,10 +55,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-06",
-      "prev_usd": 3.99,
-      "delta": 0.6,
-      "note": "Tick vs 5 Nov print"
+      "as_of": "2026-11-09",
+      "prev_usd": 4.59,
+      "delta": 0.0,
+      "note": "Confirm vs 6 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +66,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-06",
-      "prev_usd": 6.69,
-      "delta": 1.0,
-      "note": "Tick vs 5 Nov print"
+      "as_of": "2026-11-09",
+      "prev_usd": 7.69,
+      "delta": 0.0,
+      "note": "Confirm vs 6 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +77,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 5 Nov print"
+      "note": "Confirm vs 6 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +88,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 5 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 6 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +99,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 5 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 6 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +110,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 5 Nov print"
+      "note": "Confirm vs 6 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +121,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 5 Nov print"
+      "note": "Confirm vs 6 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +132,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 5 Nov print"
+      "note": "Confirm vs 6 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -137,109 +143,129 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 5 Nov print"
+      "note": "Confirm vs 6 Nov print"
     }
   ],
   "watch": [
     {
       "id": "coreweave-q3",
       "name": "CoreWeave Q3",
-      "note": "Reports after close Mon 10 November; street ~$3.5B rev / ~$(1.17) EPS vs guide $3.45–$3.60B."
+      "note": "Reports 10 November after the close; guided revenue $3.45 to $3.6 billion and interest $860 to $940 million against $200 to $260 million adjusted operating income."
+    },
+    {
+      "id": "nebius-q3",
+      "name": "Nebius Q3",
+      "note": "Reports 12 November before the open; first word on Microsoft's tighter oversight."
+    },
+    {
+      "id": "nvidia-board-review",
+      "name": "Nvidia board review",
+      "note": "Independent committee and outside counsel; Nvidia reports fiscal Q3 on 17 November."
     },
     {
       "id": "crusoe-dec1-pricing",
       "name": "Crusoe 1 December rates",
-      "note": "Still scheduled: H100 $4.50, H200 $5.40, B300 $9.90 on-demand; tape ticks only when the live column moves."
-    },
-    {
-      "id": "texas-moratorium",
-      "name": "Texas pause / ERCOT audit",
-      "note": "ERCOT Community Impact final report targeted 10 Dec; PUC discussion cited 17 Dec; Hinojosa still pledges keep pause until new laws."
-    },
-    {
-      "id": "indiaai-bids",
-      "name": "IndiaAI 10,000-GPU round",
-      "note": "Bids close 13 November 15:30 IST; technical open 14 November."
+      "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
     },
     {
       "id": "eu-gigafactory-bids",
       "name": "EU AI gigafactory tender",
-      "note": "EuroHPC updated 5 Nov: Lot 1 medium now due 4 Feb 2027; Lot 2 large still 3 Dec 2026. Prior 12 Nov date is obsolete."
+      "note": "Bids due 12 November."
     },
     {
-      "id": "nvidia-q3",
-      "name": "Nvidia fiscal Q3",
-      "note": "Call Tue 17 November 2:00 p.m. PT; CFO written commentary ~1:20 p.m. PT."
+      "id": "indiaai-bids",
+      "name": "IndiaAI 10,000-GPU round",
+      "note": "Bids close 13 November."
     },
     {
-      "id": "anthropic-ipo",
-      "name": "Anthropic IPO",
-      "note": "Reuters 6 Nov: potential investors question whether a next-week roadshow/November listing holds after the AI selloff."
+      "id": "cochise-hearing",
+      "name": "SpaceXAI Cochise County",
+      "note": "Zoning decision 9 December."
     }
   ],
   "sources": [
     {
-      "name": "Bloomberg via Reuters/Investing: Microsoft tightens neocloud oversight",
-      "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281",
-      "note": "Lead: Nebius, IREN, Nscale oversight."
+      "name": "NVIDIA Newsroom: Statement from NVIDIA Board of Directors",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "note": "Lead: independent investigation, 8 Nov."
     },
     {
-      "name": "IREN Q1 FY27 results",
-      "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results",
-      "note": "Lead: >$4B ARR slips to Jan 2027 after Microsoft network redesign."
+      "name": "CNBC: Nvidia stock falls 5% as scrutiny turns to Jensen Huang",
+      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+      "note": "Lead: Monday share move; AMD and other chipmakers up."
     },
     {
-      "name": "DCD: Microsoft design change delays IREN Texas delivery",
-      "url": "https://www.datacenterdynamics.com/en/news/microsoft-design-change-delays-irens-data-center-delivery-in-texas/",
-      "note": "Lead corroboration."
+      "name": "Riot Platforms Q3 2026 results",
+      "url": "https://www.riotplatforms.com/riot-platforms-reports-third-quarter-2026-financial-results-and-strategic-highlights/",
+      "note": "Lead and Wire: United States, 910 MW Corsicana lease."
     },
     {
-      "name": "Google: Investing in Wyoming's infrastructure, energy and workforce",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
-      "note": "Wire: United States — $17B first Wyoming campus, 702 MW Bloom+CCS."
-    },
-    {
-      "name": "Amazon US Press Center: Somervell County / Comanche Peak",
-      "url": "https://press.aboutamazon.com/2026/11/our-responsible-approach-to-investing-in-somervell-county-texas",
-      "note": "Wire: United States — nuclear offtaker campus."
-    },
-    {
-      "name": "TeraWulf Q3 2026 results",
-      "url": "https://investors.terawulf.com/news-events/press-releases/detail/149/terawulf-reports-third-quarter-2026-results",
-      "note": "Wire: United States — Justified Anthropic ~401 MW / Fluor / Google backstop."
-    },
-    {
-      "name": "Fluor: EPC with TeraWulf for Kentucky data center campus",
-      "url": "https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Signs-EPC-Contract-with-TeraWulf-for-Large-Scale-Data-Center-Campus-in-Kentucky/default.aspx",
+      "name": "DCD: Riot Platforms signs 910MW agreement with unnamed frontier AI lab",
+      "url": "https://www.datacenterdynamics.com/en/news/riot-platforms-signs-910mw-agreement-with-unnamed-frontier-ai-lab/",
       "note": "Wire corroboration."
     },
     {
-      "name": "ERCOT Community Impact RFI PUC update (5 Nov 2026)",
-      "url": "https://www.ercot.com/files/docs/2026/11/05/Community-Impact-RFI-PUC-Update.pdf",
-      "note": "Watchlist: ~177 GW replied; final report targeted 10 Dec."
+      "name": "CNBC: Anthropic secures $3.4 billion generator deal (FT)",
+      "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html",
+      "note": "Lead and Wire: United States, 1.7 GW."
     },
     {
-      "name": "Lambda GPU Cloud pricing",
+      "name": "DCD: Microsoft winds down 2023 compute deal with Oracle",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-winds-down-2023-compute-deal-with-oracle/",
+      "note": "Lead: Microsoft rented-capacity reassessment."
+    },
+    {
+      "name": "SoftBank Group and Grab: joint development agreements for Malaysian AI infrastructure",
+      "url": "https://group.softbank/en/news/press/20261109_0",
+      "note": "Wire: Malaysia."
+    },
+    {
+      "name": "DCD: SpaceXAI plans 6GW data center in Arizona",
+      "url": "https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk/",
+      "note": "Wire: United States."
+    },
+    {
+      "name": "Reuters via Investing.com: Nvidia chips pile up in Hong Kong",
+      "url": "https://www.investing.com/news/stock-market-news/exclusivenvidia-chips-pile-up-in-hong-kong-as-china-withholds-import-approval-5003223",
+      "note": "Wire: China."
+    },
+    {
+      "name": "Ctech: Israel plans its own AI infrastructure with 300,000 GPUs",
+      "url": "https://www.calcalistech.com/ctechnews/article/rj6zywyrgx",
+      "note": "Wire: Israel."
+    },
+    {
+      "name": "Southward Tech: Kazakhstan preliminary deals add 480 MW",
+      "url": "https://southwardtech.com/kazakhstan-data-center-valley-firebird-china-energy/",
+      "note": "Wire: Kazakhstan."
+    },
+    {
+      "name": "Lambda Cloud pricing",
       "url": "https://lambda.ai/pricing",
-      "note": "Tape ticks: B200/H100/A100/GH200 on-demand rises vs 5 Nov."
+      "note": "H100 $4.59 / B200 $7.69 confirm."
+    },
+    {
+      "name": "CoreWeave pricing",
+      "url": "https://www.coreweave.com/pricing",
+      "note": "H100 HGX $6.16 per GPU-hour confirm."
     },
     {
       "name": "Crusoe Cloud pricing",
       "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "Tape: live OD unchanged; Dec 1 column still scheduled."
+      "note": "B300 $8.96, H100 $3.90, H200 $4.29 on-demand confirm; 1 Dec column scheduled, not logged."
     },
     {
-      "name": "EuroHPC AI Gigafactory call for tenders",
-      "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en",
-      "note": "Watchlist: Lot 1 now 4 Feb 2027; Lot 2 still 3 Dec 2026."
+      "name": "DigitalOcean GPU Droplets pricing",
+      "url": "https://www.digitalocean.com/pricing/gpu-droplets",
+      "note": "MI355X spot $4.50, MI350X spot $3.00, B300 spot $6.17 confirm."
     },
     {
-      "name": "Reuters via BNN Bloomberg: Anthropic IPO timing under pressure",
-      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/06/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-reuters-exclusive/",
-      "note": "Watchlist: November listing risk."
+      "name": "AWS Capacity Blocks pricing",
+      "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
+      "note": "P6-B300 $16.146 confirm."
     }
   ]
 }

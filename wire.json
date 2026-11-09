@@ -1,6 +1,137 @@
 {
   "items": [
     {
+      "id": "usa-riot-corsicana-anthropic-910mw-28bn-powered-land-lease-2026-11-04",
+      "date": "2026-11-04",
+      "title": "Riot leases its whole 910 MW Corsicana, Texas campus to Anthropic for about $28 billion over 15 years",
+      "summary": "Riot Platforms' Q3 release (4 November 2026) announced a 15-year triple-net powered land lease with a 'leading Frontier AI Lab' for its entire Corsicana campus in Navarro County, Texas: 910 MW of critical IT capacity on 332 acres, about $28 billion of contract value and about $1.8 billion average annual rent, rising to about $54 billion if both five-year extensions are exercised. Riot's 10-Q names the tenant as Anthropic PBC (signed 28 October, effective 4 November) with base rent of $130 per kW-month escalating 3% a year. Delivery: 400 MW by September 2027, 200 MW by January 2028, 310 MW by July 2028; rent is payable on the full 910 MW regardless of utilisation. Riot puts capital cost at about $6 million per IT MW ($5.5 billion), of which $4 million per MW is reimbursed to the tenant, funded by project debt or else as rent credits at 12% interest. With Rockdale (191 MW, same tenant) Anthropic is counterparty on 1,101 MW of Riot's 1,151 MW contracted. Caveat: the tenant installs and owns the modular compute; Texas sits under the extended state pause, though Corsicana's power is already developed. Country conversion: a gigawatt-class frontier-lab offtake in Texas after the election selloff.",
+      "url": "https://www.riotplatforms.com/riot-platforms-reports-third-quarter-2026-financial-results-and-strategic-highlights/",
+      "source": "Riot Platforms Q3 release and 10-Q, 4 Nov 2026; DCD, 9 Nov 2026; Bitcoin Magazine",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 60
+    },
+    {
+      "id": "malaysia-softbank-grab-petros-1-85bn-seed-5gw-sarawak-peninsular-2026-11-09",
+      "date": "2026-11-09",
+      "title": "SoftBank, Grab and PETROS sign joint development agreements with $1.85 billion seed capital for Malaysian AI infrastructure targeting 5 GW",
+      "summary": "SoftBank Group and Grab announced on 9 November 2026 joint development agreements, with Sarawak's state oil company PETROS, for $1.85 billion of initial combined seed capital to build AI infrastructure in Sarawak and Peninsular Malaysia, with a long-term target of 5 GW or more. The Sarawak project is $1 billion ($800 million SoftBank, $100 million Grab, $100 million PETROS), building on an 8 October Kuching framework agreement; the Peninsular project is $850 million ($650 million Grab, $200 million SoftBank), led by Grab. SoftBank agreed in principle to a five-year lock-up on Grab shares it holds directly. Caveat: capital is staged against development and customer-contract milestones; JV formation and investment terms remain subject to definitive agreements, and no hyperscaler customer, site size or power contract is named yet. Country conversion: a second gigawatt-scale Malaysian programme in a week after Google's $15 billion commitment.",
+      "url": "https://group.softbank/en/news/press/20261109_0",
+      "source": "SoftBank Group and Grab joint release, 9 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Capital",
+        "Build"
+      ],
+      "score": 52
+    },
+    {
+      "id": "usa-anthropic-onepwr-1-7gw-gas-generators-3-4bn-ft-2026-11-08",
+      "date": "2026-11-08",
+      "title": "Anthropic buys about $3.4 billion of commitments for 1.7 GW of gas-fired generators from OnePWR, FT reports",
+      "summary": "The Financial Times reported on 8 November 2026, and CNBC carried, that Anthropic bought commitments for 1.7 GW of heavy-duty gas-fired generators from San Antonio-based OnePWR Solutions in late September for about $3.4 billion, including the engineering and construction capability to install them. Anthropic did not acquire OnePWR and no staff moved; secondary coverage says the deal took over OnePWR's existing Caterpillar orders. Caveat: FT is the only primary source and cites one person familiar; Anthropic has not confirmed, and sites for the generators are not disclosed. Country conversion: a frontier lab is buying its own US behind-the-meter generation queue position, roughly $2 million per MW, alongside its Riot and TeraWulf leases.",
+      "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html",
+      "source": "Financial Times via CNBC, 8 Nov 2026; DCD, 9 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Capital"
+      ],
+      "score": 46
+    },
+    {
+      "id": "usa-spacexai-cochise-county-arizona-6gw-permit-dec-9-hearing-2026-11-06",
+      "date": "2026-11-06",
+      "title": "SpaceXAI applies for a 747-acre, up to 6 GW data centre campus in Cochise County, Arizona; zoning decision 9 December",
+      "summary": "SpaceXAI, via affiliate Tombstone Resources LLC, has applied to Cochise County, Arizona for a special development permit for up to nine 493,000 sq ft data centre buildings on 747 acres near the Willcox Playa, on land owned by AEPCO and Southline Transmission and adjacent to AEPCO's 626 MW Apache Generating Station (DCD, 6 November 2026). The application describes four 1.5 GW phases, construction from March 2027 if zoning is approved, about $3.6 billion of company-funded power infrastructure ($500 million for Phase I) and a 24 GWh battery system. The county decision is set for 9 December. Caveat: 6 GW is the company's full-build claim; timing depends on grid upgrades, and chips, power and cooling to fill it are not secured. Country conversion: a gigawatt-class US campus filed outside the Texas pause map.",
+      "url": "https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk/",
+      "source": "DCD, 6 Nov 2026 (Cochise County application); Arizona Daily Star; Data Center Feed",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 44
+    },
+    {
+      "id": "china-600k-h200-stranded-hong-kong-beijing-withholds-import-approval-2026-11-05",
+      "date": "2026-11-05",
+      "title": "About 600,000 Nvidia H200s sit in Hong Kong as Beijing withholds large-scale import approval, Reuters reports",
+      "summary": "Reuters reported exclusively on 5 November 2026, citing two people familiar, that about 600,000 Nvidia H200 chips are stored in Hong Kong awaiting shipment to mainland China because Beijing has not approved large-volume imports. Several major Chinese internet companies have each received about 10,000 H200s in recent months and small quantities have moved via intermediaries. One person said an eight-card H200 server was offered for more than 6 million yuan (about $900,000) in mainland China by end-October, about three times a year earlier, and Blackwell servers for more than 20 million yuan. Caveat: Reuters is the only source; MIIT, NDRC, Nvidia and the Chinese buyers did not comment. Country conversion stall: US-licensed supply exists but China's own approvals are the binding constraint.",
+      "url": "https://www.investing.com/news/stock-market-news/exclusivenvidia-chips-pile-up-in-hong-kong-as-china-withholds-import-approval-5003223",
+      "source": "Reuters via Investing.com, 5 Nov 2026; DCD, 6 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "CHN"
+      ],
+      "flags": "🇨🇳",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 42
+    },
+    {
+      "id": "israel-national-ai-directorate-300k-gpus-2gw-sovereign-stack-2026-11-09",
+      "date": "2026-11-09",
+      "title": "Israel's National AI Directorate sets a 300,000-GPU, 2 GW sovereign AI target and a domestic frontier model",
+      "summary": "Erez Askal, head of the National AI Directorate in Israel's Prime Minister's Office, presented the national AI strategy at Tel Aviv University's AI & Cyber Week on 9 November 2026 (Ctech): a sovereign AI stack with about 300,000 GPUs (100,000 for academia, government, defence and startups; 200,000 for technology companies and data centres), about 2 GW of electricity capacity for AI infrastructure, data centres and semiconductor manufacturing, and an Israeli frontier model built with partner countries. Caveat: these are targets from a conference presentation; no budget, timeline, sites or vendors were given, and Ctech notes Israel's grid is already strained by data centre demand. Country conversion: Israel states a quantified sovereign compute goal for the first time.",
+      "url": "https://www.calcalistech.com/ctechnews/article/rj6zywyrgx",
+      "source": "Ctech (Calcalist), 9 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "ISR"
+      ],
+      "flags": "🇮🇱",
+      "tags": [
+        "Policy"
+      ],
+      "score": 34
+    },
+    {
+      "id": "kazakhstan-data-center-valley-ekibastuz-480mw-phase-2-preliminary-deals-2026-11-06",
+      "date": "2026-11-06",
+      "title": "Kazakhstan signs preliminary deals with Gaw Capital, Boosteroid and Firebird for 480 MW more at Ekibastuz Data Center Valley",
+      "summary": "Kazakhstan's prime minister's office said on 6 November 2026 that Gaw Capital, Boosteroid and Firebird signed preliminary agreements adding a combined 480 MW at Data Center Valley in Ekibastuz (second phase), with talks on a further 240 MW with China Energy, Aleria and Energy Capital Global; no per-company split was given (Southward Tech, 9 November). The government targets 1 GW by 2029. Phase one is three centres totalling 304 MW: a 68 MW site targeted for Q2 2027, Firebird's 164 MW site with excavation 70% complete, and a 72 MW centre in Q4. Firebird said in October it holds a US export licence for 45,000 Grace Blackwell GPUs. Caveat: the new deals are preliminary and come via a government statement. Country conversion: Kazakhstan adds phase-two demand from both US and Chinese-linked parties.",
+      "url": "https://southwardtech.com/kazakhstan-data-center-valley-firebird-china-energy/",
+      "source": "Southward Tech, 9 Nov 2026 (Kazakhstan PM office, 6 Nov)",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "KAZ"
+      ],
+      "flags": "🇰🇿",
+      "tags": [
+        "Build"
+      ],
+      "score": 32
+    },
+    {
       "id": "usa-texas-hinojosa-extended-moratorium-bmi-53pct-pipeline-exposed-2026-11-05",
       "date": "2026-11-05",
       "title": "Texas governor-elect commits to keep the data centre moratorium until new laws pass; analysts put about half the US hyperscale pipeline at risk",
@@ -3249,6 +3380,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-06",
-  "note": "Wire refresh 2026-11-05: added usa-texas-hinojosa-extended-moratorium-bmi-53pct-pipeline-exposed-2026-11-05, usa-ballot-measures-40-of-41-restrictions-openai-compute-campus-policy-2026-11-05, usa-lambda-red-clay-lowndes-county-alabama-33-1bn-1gw-campus-2026-11-04, usa-microsoft-declines-nscale-ward-county-texas-expansion-option-2026-11-05, malaysia-pdg-1-3bn-green-financing-jh1-johor-200mw-2026-11-05, india-indiaai-cdac-10000-gpu-round-512-unit-threshold-bids-13-nov-2026-11-05. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-09",
+  "note": "Wire refresh 2026-11-09: added usa-riot-corsicana-anthropic-910mw-28bn-powered-land-lease-2026-11-04, malaysia-softbank-grab-petros-1-85bn-seed-5gw-sarawak-peninsular-2026-11-09, usa-anthropic-onepwr-1-7gw-gas-generators-3-4bn-ft-2026-11-08, usa-spacexai-cochise-county-arizona-6gw-permit-dec-9-hearing-2026-11-06, china-600k-h200-stranded-hong-kong-beijing-withholds-import-approval-2026-11-05, israel-national-ai-directorate-300k-gpus-2gw-sovereign-stack-2026-11-09, kazakhstan-data-center-valley-ekibastuz-480mw-phase-2-preliminary-deals-2026-11-06. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
