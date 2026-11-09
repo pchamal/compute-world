@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>A day after the election selloff priced regulatory risk into neoclouds, the stack repriced delivery and list rates. Bloomberg via Reuters said Microsoft is tightening oversight of projects at Nebius, IREN and Nscale and debating new neocloud contracts as it prioritises owned sites; IREN&#x27;s Q1 put its &gt;$4 billion ARR target into January 2027 after a Microsoft-requested network redesign at Childress. Hyperscalers are still converting land into campuses they control: Google posted a $17 billion first Wyoming data centre with a 702 MW Bloom fuel-cell CCS plant, Amazon confirmed a Somervell County campus as a direct Comanche Peak nuclear offtaker, and TeraWulf locked Fluor EPC plus a Google credit backstop for Anthropic&#x27;s ~401 MW Justified lease in Kentucky. On the public tape, Lambda raised 8x on-demand prints overnight — B200 $6.69 to $7.69, H100 $3.99 to $4.59, A100-80GB $2.79 to $3.19, GH200 $2.29 to $2.59 — while CoreWeave H100 held $6.16 and Crusoe&#x27;s 1 December column stayed scheduled, not live. Tape: 66 confirms, 4 ticks, 0 NEW.</description>
+  <description>Nvidia&#x27;s board said on Sunday it has opened an independent investigation, overseen by independent directors and outside counsel, after reports that Jensen Huang was the target of a foreign intelligence effort; the board says it has no reason to believe national security or Nvidia secrets were compromised, and CNBC reported the stock down about 5% on Monday while AMD and other chipmakers rose. The buyers did not blink. Riot&#x27;s 10-Q names Anthropic as the tenant on a 15-year, 910 MW powered land lease for its whole Corsicana, Texas campus at $130 per kW-month, about $28 billion of contract value, and the FT reports Anthropic paid about $3.4 billion for 1.7 GW of gas-fired generators. Microsoft is moving the other way on rented capacity, winding down a 2023 Oracle deal on older Nvidia hardware a day after Bloomberg reported tighter oversight of its neocloud projects; CoreWeave reports Q3 on Tuesday with its 2032 notes yielding above 16%. Live list prices held: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 after Friday&#x27;s rise.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 6 November 2026</title>
+    <title>Compute brief - 9 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-11-06</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>A day after the election selloff priced regulatory risk into neoclouds, the stack repriced delivery and list rates. Bloomberg via Reuters said Microsoft is tightening oversight of projects at Nebius, IREN and Nscale and debating new neocloud contracts as it prioritises owned sites; IREN&#x27;s Q1 put its &gt;$4 billion ARR target into January 2027 after a Microsoft-requested network redesign at Childress. Hyperscalers are still converting land into campuses they control: Google posted a $17 billion first Wyoming data centre with a 702 MW Bloom fuel-cell CCS plant, Amazon confirmed a Somervell County campus as a direct Comanche Peak nuclear offtaker, and TeraWulf locked Fluor EPC plus a Google credit backstop for Anthropic&#x27;s ~401 MW Justified lease in Kentucky. On the public tape, Lambda raised 8x on-demand prints overnight — B200 $6.69 to $7.69, H100 $3.99 to $4.59, A100-80GB $2.79 to $3.19, GH200 $2.29 to $2.59 — while CoreWeave H100 held $6.16 and Crusoe&#x27;s 1 December column stayed scheduled, not live. Tape: 66 confirms, 4 ticks, 0 NEW. Countries: United States: Google&#x27;s first Wyoming data centre: $17 billion long-term, 702 MW Bloom fuel-cell plant with CCS, air-cooled (Wire, 5 Nov). United States: Amazon confirms Somervell County campus on Vistra land next to Comanche Peak; direct nuclear offtaker, site prep underway (Wire, 5 Nov). United States: TeraWulf Justified (Hawesville, KY): Fluor EPC, Anthropic ~401 MW / ~$19B lease, Google credit backstop; RFS late 2027–Q2 2028 (Wire, 6 Nov). United States: Microsoft tightens Nebius/IREN/Nscale oversight; IREN &gt;$4B ARR slips to Jan 2027 on network redesign (Bloomberg/Reuters, IREN IR, 5–6 Nov). United States: ERCOT Community Impact RFI: 433 of 465 loads replied covering ~177 GW; final report targeted 10 Dec (PUC deck, 5 Nov). India: IndiaAI 10,000-GPU round still closes 13 Nov IST; no award yet (prior Wire).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-09</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Nvidia&#x27;s board said on Sunday it has opened an independent investigation, overseen by independent directors and outside counsel, after reports that Jensen Huang was the target of a foreign intelligence effort; the board says it has no reason to believe national security or Nvidia secrets were compromised, and CNBC reported the stock down about 5% on Monday while AMD and other chipmakers rose. The buyers did not blink. Riot&#x27;s 10-Q names Anthropic as the tenant on a 15-year, 910 MW powered land lease for its whole Corsicana, Texas campus at $130 per kW-month, about $28 billion of contract value, and the FT reports Anthropic paid about $3.4 billion for 1.7 GW of gas-fired generators. Microsoft is moving the other way on rented capacity, winding down a 2023 Oracle deal on older Nvidia hardware a day after Bloomberg reported tighter oversight of its neocloud projects; CoreWeave reports Q3 on Tuesday with its 2032 notes yielding above 16%. Live list prices held: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 after Friday&#x27;s rise. Countries: United States: Riot leases its whole 910 MW Corsicana, Texas campus to Anthropic for about $28 billion over 15 years; first 400 MW by September 2027 (Wire, 4 Nov, confirmed). United States: Anthropic buys commitments for 1.7 GW of gas-fired generators from OnePWR for about $3.4 billion (Wire, 8 Nov, FT single-source). United States: SpaceXAI files for a 747-acre, up to 6 GW campus in Cochise County, Arizona; zoning decision 9 December (Wire, 6 Nov). Malaysia: SoftBank, Grab and PETROS commit $1.85 billion of staged seed capital toward 5 GW or more of AI capacity in Sarawak and Peninsular Malaysia (Wire, 9 Nov). China: About 600,000 H200s held in Hong Kong as Beijing withholds large-scale import approval (Wire, 5 Nov, Reuters single-source). Israel: National AI Directorate targets about 300,000 GPUs and 2 GW for a sovereign AI stack (Wire, 9 Nov, single-source). Kazakhstan: Preliminary deals add 480 MW at Ekibastuz Data Center Valley; 1 GW target by 2029 (Wire, 6 Nov, single-source).</description>
   </item>
   <item>
     <title>H100 SXM · $4.59 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/lambda-h100-od</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.59 on-demand at Lambda as of 06 Nov 2026. Tick vs 5 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/lambda-h100-od</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.59 on-demand at Lambda as of 09 Nov 2026. Confirm vs 6 Nov print</description>
   </item>
   <item>
     <title>B200 SXM6 · $7.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/lambda-b200-od</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 06 Nov 2026. Tick vs 5 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/lambda-b200-od</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 09 Nov 2026. Confirm vs 6 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/coreweave-h100-od</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 06 Nov 2026. Confirm vs 5 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/coreweave-h100-od</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 09 Nov 2026. Confirm vs 6 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/crusoe-h100-od</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 06 Nov 2026. Confirm vs 5 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/crusoe-h100-od</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 09 Nov 2026. Confirm vs 6 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/crusoe-b300-od</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 06 Nov 2026. Confirm vs 5 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/crusoe-b300-od</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 09 Nov 2026. Confirm vs 6 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/do-b300-spot</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 06 Nov 2026. Confirm vs 5 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/do-b300-spot</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 09 Nov 2026. Confirm vs 6 Nov print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/do-mi355x-spot</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 06 Nov 2026. Confirm vs 5 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/do-mi355x-spot</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 09 Nov 2026. Confirm vs 6 Nov print</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/do-mi350x-spot</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 06 Nov 2026. Confirm vs 5 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/do-mi350x-spot</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 09 Nov 2026. Confirm vs 6 Nov print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-06/aws-cb-b300</guid>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 06 Nov 2026. Confirm vs 5 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-09/aws-cb-b300</guid>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 09 Nov 2026. Confirm vs 6 Nov print</description>
   </item>
 </channel></rss>
