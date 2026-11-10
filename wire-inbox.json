@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10 16:20 UTC",
+ "generated": "2026-11-10 19:45 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -51,34 +51,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Here where we stand on Kimberly - Clark shares after a better - than - feared quarter",
-   "url": "https://www.cnbc.com/investingclub/2026/11/05/heres-where-we-stand-on-kimberly-clark-shares-after-a-better-than-feared-quarter.html",
-   "source": "cnbc.com",
-   "date": "2026-11-05",
-   "via": "gdelt",
-   "country_hint": "United States",
-   "tier": 2,
-   "prescore": 58,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "The $167 Million Month: Why a Power Plant Sets an AI Factory's Revenue Ceiling - Substack",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xSlhqeWc5Vjd0X2k0bzM1S25IV1hKN3dlSXF4UmNTaEhFcG5wRnNWRlVnamprUVJkVTlNUTZqazBjSHVZMHdXRWR2c05YR3JDb3dUVzN6NnVGb0RZV1QtQjRHQl9zaEgwY1VhdHRDcVhDamIxcU0tbQ?oc=5",
    "source": "Substack",
    "date": "2026-11-03",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Cohere Hits US$25bn as Canada & NVIDIA Fund Sovereign AI - AI Magazine",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0hFa0gwWUN0Yl9mZVhfY3pSRWZ0Zzd1dFJjc2xVWmk0TUhvcmFLWDJ2TG9WUDRvTXVWZHNvX3BfcHpSR29VR2JJaE1KN0lHUzh2Y1I1ZDBJRU01WjRocTVwaVprNVVTSWZDR3JVelVjWVB4M1p3QjVtU001OEc3amE3V2M3ajVaaXc?oc=5",
-   "source": "AI Magazine",
-   "date": "2026-11-02",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -99,9 +75,21 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Israel plans sovereign AI stack with 300,000 GPUs to secure critical infrastructure from foreign dependence - streamlinefeed.co.ke",
+   "title": "SpaceX plans $24 billion gas plant, data center in Texas - ET Datacenters",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcG5mbDBwYkpsdEgwZ3pDdlJsSTFoQXNxVVJrelVNSTV2SldNLV8tSWhIamVrY2RrazRoZ090QzViMWM5XzdMVjQ3NTBCQ0pMT3dqWVp2dDVrSXMxY3hqSnZnVER0ZWlzNHEzNWVWVExhcHhXSmhoS3dUZnpBWmFjU19FLTVBdGFNZlE3ODNuSXQwc2d1UndudVZwX0NDN1prTlQ2V01FTVdFQzBOYnAtOW90QkJNT19oRDB5ZmV6OXdmV0k0UnFTcEVXWjF4dVhyZDcyMmI3ZmdabkXSAeABQVVfeXFMT1Fyd2E4Q3FiT0lreGY4NmwwTnBQSkF3bG5tTmYya0JnTGZEaW1Mb09IMXRRNWgyWlhicmFXcVAtRWdoYW9qRERheUVZaHU3ajlaQ3g3UWpNeVRDeGQ4XzB3MktudjlJU3BicWc4LWhZQVpZbGZ1LVhuRWZuRHZnUXdFZXdQcVNWelI3Y0JxTkpZNkJzdHZjVkZWbkJMNW1rdzcyYjdNYWE0dWJpOHNrdzNaV2prZDdnTEQyV2l5RVBMcnQ1ZmhIUFpPY0JxemdCeUNCLWVPbm9BZlozYkNXLV8?oc=5",
+   "source": "ET Datacenters",
+   "date": "2026-11-10",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Israel plans sovereign AI stack with 300,000 GPUs to secure critical infrastructure from foreign dependence - https://streamlinefeed.co.ke/",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZUZhSGdWNDlhQkVzMzdHblgzY2t1Q0hJYXNzdEkyNkozWFdoZEtjMkRYa2ktV3M4anphSXk4VGdRRTdhZ2ktUnhzcTNGUDZHRFpYaVh0dHhYeEk4cTg1MVlxY25IdHd4YTBJN1F3OHdlX1hwajN1dXVPdW1RN0tQNVdaX2lBRHJ6azBiNGw5Y3ZpR29sRTZmZ2xIZ3IwX3JzRGFncS1PT0VhZG5FanJrM3Z6UXVTRGFDbmRaUm90NW5iNmxIczJWZXpQQlhYSzBBZ1hrcDV6VQ?oc=5",
-   "source": "streamlinefeed.co.ke",
+   "source": "https://streamlinefeed.co.ke/",
    "date": "2026-11-10",
    "via": "gnews",
    "country_hint": "",
@@ -117,30 +105,6 @@
    "date": "2026-11-09",
    "via": "gnews",
    "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "KSA Business : Infra , Humain ink $667m financing deals for Saudi AI infrastructure",
-   "url": "https://www.gdnonline.com:443/Details/1412389/Infra,-Humain-ink-$667m-financing-deals-for-Saudi-AI-infrastructure",
-   "source": "gdnonline.com",
-   "date": "2026-11-10",
-   "via": "gdelt",
-   "country_hint": "United States",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Infra , Humain ink $667m financing deals for Saudi AI infrastructure",
-   "url": "https://tradearabia.com:443/News/489409/Infra-Humain-ink-%24667m-financing-deals-for-Saudi-AI-infrastructure",
-   "source": "tradearabia.com",
-   "date": "2026-11-10",
-   "via": "gdelt",
-   "country_hint": "United Arab Emirates",
    "tier": 4,
    "prescore": 55,
    "corroboration": "Single-source",
@@ -219,6 +183,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Crusoe Sells Unfinished Wyoming AI Data Center Project to Google, Which Plans $17B Investment - AI Insider",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdmEwWllxLWpTa29JX0pTb0R0VnYzbFNHQk04bHY1X29OLXBjZmZ4U0E4OHF0RUpwaFFZYlNIVExSaXhwdUJTX01udkFxcHFZRTJsbUZQNWFoRk54Y2t2aFl1cnQzYmhfQXlhT1dOSGZPcGRobGlGekd5aWpVaEVvaXQ4R1IzdWNMdExNeU44VFFZUFlVMmFzcGV0alJpeWRLOVJydE9JNzlVOXlubnl0Z2NOOWQxME5IRmdjYVFwRGdKYjFnTjhJTA?oc=5",
+   "source": "AI Insider",
+   "date": "2026-11-10",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Samsung SDS Begins Construction of Gumi AI Data Center, Plans Expansion to 120MW - THE ELEC, Korea Electronics Industry Media",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51bGdVdFlpU2doVkNXSXhjbVhtVWVucUszRWlsYTd6UzBNaHNpZUNIdUtLZWtXYk52SmFlMFV4VFdudmdOS2pfdDBEMHcxSE1qTlNvekg2VjdEcnV4eUNXRzZHeE53YUE?oc=5",
    "source": "THE ELEC, Korea Electronics Industry Media",
@@ -235,18 +211,6 @@
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbjVzckU0NlJFNkdDQkZERGtySXUwYUFtTFFlaU9yN2o4bnZ3bVYxQTFHamRWX1lac3M2M2IzS1B0SGk3ZXA2Uk14N2V6ZlZ2QVdUNnpPOUNfZjJYWkM4WjZobXk1TWdqV28zYUNLQml1MmxvV3BtYnRQaGYteWZSLVpadkt5QnVpb3c4V0JIQXVwemx6dWFmdFNPN2dMZElQOWZIV0RQeDFoZDYyb0p0eUNjMmVsQzhXcWpfbWdib3kzcTBQcjVVY3dEelJfdw?oc=5",
    "source": "Business Insider Africa",
    "date": "2026-11-02",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Crusoe Sells Unfinished Wyoming AI Data Center Project to Google, Which Plans $17B Investment - AI Insider",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdmEwWllxLWpTa29JX0pTb0R0VnYzbFNHQk04bHY1X29OLXBjZmZ4U0E4OHF0RUpwaFFZYlNIVExSaXhwdUJTX01udkFxcHFZRTJsbUZQNWFoRk54Y2t2aFl1cnQzYmhfQXlhT1dOSGZPcGRobGlGekd5aWpVaEVvaXQ4R1IzdWNMdExNeU44VFFZUFlVMmFzcGV0alJpeWRLOVJydE9JNzlVOXlubnl0Z2NOOWQxME5IRmdjYVFwRGdKYjFnTjhJTA?oc=5",
-   "source": "AI Insider",
-   "date": "2026-11-10",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -303,18 +267,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Dycom’s $4.8B Backlog Signals AI Fiber Boom — Is DY Stock a Buy? - TradingKey",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVk1HUzZ4UkgtbHFtZjVTdjEyVTIxLUl5UjhoZkhnS0pmOUJISDRJVVNzXy01OG5yWFJ5WnZBQ1JuVlE5cUtLNnJxVXdJTGlXTkRwckNJQ0NJRy1Oa0UwT2NqVnUtRmg0eDJ1ZU5GVF9RSHhHZU11WEFLTXNJeExyU1YzLTQ0ekc3MjdGdnBIQ2hJc0swU1NtVl9zbjY4cnk2TGYwdWRrcGVnZVNJSVc2bjVFQ3d4SU9PbnN1X1I0MA?oc=5",
-   "source": "TradingKey",
-   "date": "2026-11-08",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "NHN Posts Q3 Revenue of 758.3 Billion Won, Operating Profit Up 113% - Inven Global",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVFZkeHBoYzhzTEwtWjJNczkwekp2cDYyWVh0dlU4VERKcE9rVG1Ia3Z3V092SmlBVEJZclAxVDVaZUV6SFZEUWpVWEFfR1htM2NJVzhMRWx6QndNNFRUcjZDZkhSM1NyZzBqZnZyUzhreERicTVhSHFKZks3RE41Z1d3REJhcWZyWkdlbmFmcE80ak1FT0cxT19GRmRtLUhQOS00aXBOY1JXMGs?oc=5",
    "source": "Inven Global",
@@ -355,6 +307,18 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeHJnSGdsMVlEN0Q1SjlKek9qTnF6Rjc4TlJhZDNfczFiYXBPOWdUcjdnRVJWTnpRTVlfdEtnaXI2Q2R6Z05SOXJjTzNpRy1YV3JwOXJVSUZ3TWc1RzJvaW1BS1J3QkxkVTdnRGo5eVVEcFhYb1N6ZkU1aF9lT0hJWHA5UkZNWkFaTVk1N2ZNejNFcnI2UEdncXRwM0xEa1p5emxsNzg0UTQ5Mms?oc=5",
    "source": "Big News Network.com",
    "date": "2026-11-04",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 55,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "SoftBank Posts $7 Billion Quarterly Loss as AI Data Center Wagers Falter - https://streamlinefeed.co.ke/",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVmRKVFJ5MVZoalI3S2NfZ1lHanExUDRhUHBfNk10bHd6N3VIbHFIRmRLRWdkYTNQS0tUaEdJTVkwdnhTUDM4OVhXT2lfUlh0T0RBaDlXTFVNQXItSS1QYzRWcS1zd2YweFlqbkJCekh1cG1xNHljb29ueFhuTEhubXRNRTBJSjI3cnZpNFRzcVpzV1pLbkhuV3JhR2k4cGJvTDFLaDhuQ0Q?oc=5",
+   "source": "https://streamlinefeed.co.ke/",
+   "date": "2026-11-10",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -519,18 +483,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Building a Sovereign AI Strategy With NVIDIA & SUSE - Technology Magazine",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOczZQYXh5cl90V2pwSkx3azI5S3ZEYzBfM3Z3aVpNSi1EM0stS0NhSjVhc05xQnRtSTlBVHNsLU1OUGpDNk42bUVMMXlZTFhQYjRBZ2h1V0s3Qy1mU1pfNlBudEFRMklTZ1NYN0xpcXJ6MjR6b1ZseXI5aWRLaklMMi1NSUZ5YW50R0NBLVlR?oc=5",
-   "source": "Technology Magazine",
-   "date": "2026-11-02",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "CIRES Technologies and NVIDIA AI Factory to power smart ports and smart cities - Port Technology",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbk91Q0dVN0E1N190Z1ZNZ0t6NVRVQThYdWJlQ3p6TnJDamFROGhhTnlyRVFmQ2hRLWZKN01sWFEzNUZ6UjdQVzZoU2I1TUdmMFNycHIyLXlzNEp4ZVBZam82b3AwbnJFU0FLSzFLSFQ2T3RKYktiNXhaTHBPanN1SG9FUzFRcFBZay1nOTY1QWZaUWVjelhJ?oc=5",
    "source": "Port Technology",
@@ -591,6 +543,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "CNCF Welcomes Vultr as a Platinum Member to Advance Open and Sovereign Cloud Infrastructure for AI - PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWUUybllBblY4T19yREdOdTEzTlo5d3hkWlNOODd0TVlCejNGcU5wVGVtLXJrZ3hnMGI3ZkM0Umw5QWp5ekZlR0dDTE0tZ3M2VWthZ043Q3NEWTlEcTJvSk85ZlVIcWJvRl9TWWdjNTJtWWpfcWxEeVNQLTFXSEFxZV9NTVVBUDZiSHZUY2VXM3pXNXJJT2tKdG9nYU9FUVI2UXZWNzQtQTZhb2dSUmotRzdkdzlFMmJmNjZEcmV0M2ZnWGdKTEIzcjNSQkpocDVLdXB0UEVENkYwLW01cnRIbkphWjNHUXhBNWc?oc=5",
+   "source": "PR Newswire",
+   "date": "2026-11-10",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "SK Telecom joins hands with Nvidia to build sovereign AI infrastructure - The Korea News Plus",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ndllyWnlwTDlsUGJ3cjFpUWoybTk0M2Z3VFplSFRSZTdNUW1CN1R4bEdnTWlPQ1hMb0l6WC16enhfRDExamVwbWJZcXRyaTE0RGVFSGZzU2MtcGFfaVZQTVFQY0o0M19xSEZaY1Voa2dyTDBRLUtz?oc=5",
    "source": "The Korea News Plus",
@@ -604,7 +568,7 @@
   },
   {
    "title": "Nebul Adopts NetApp Novus to Power Sovereign AI Infrastructure - Via TT",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMU56LW03QnlIUm1EWDQzQ2hodlFrS2Y5M2Q3SzdQUnZycmlQUThtRkNwMUpIaWg3bHBIcUhGdjlIaXZFWnBhWExlVzB5aFlSZGJ1TTJMQWF6LVZ0TnR2bHdfTWgtWUdmem9IblV6bndXV25FX3c5em84bm1wTXNqaTRWVGQ1TFRIV00zT3Z1TDRfdXI0bVVRaTk4bUZ4Vnc3ZkMwUnQtTUJ0X2k0eFYxU2lSSDdVM2FFVUtpWnZ0dFNna3BvZHBQU213NA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd0J2dV9obW1OaVNkekRMTHVBZzhnM3Ayc2M4blhpTC01NlFZSnpaSVFpdW11aUI1OHpvRzJRbzNhYmlkc1MtNFhWR2QxN2h4OFJnVXNSOF9JT3QxWnJhYWN1Mm02WnRHZm8tc0x1SjBWWWx4enFBeGh2VDU3X0NiUXBFYW00Vk1vSUVlbzFlSHZEWHE2eUZJQ1NlV3M0SFBKWVRNX0g0VWFzWGxtY0tJMHRvR05Cb0xIdk5CVzdoTXc?oc=5",
    "source": "Via TT",
    "date": "2026-11-10",
    "via": "gnews",
@@ -663,10 +627,34 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Nebul Adopts NetApp Novus to Power Sovereign AI Infrastructure - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVXdReHllUzItWGs4bllUWS12SzNXRjdBYTUwNHVHZENRU1lXcmhxRW5DWm15UU1idzlpMWZTZm9vZGhpV0x4d3RqeGh6T2dtc3NGZkowNUxuLUhKU2U0aEVKOXFlckh4SEdxUld2M0xENFh5cDVaUmlmbEZHeDVaMUQ3VWY4QmF6RDVMV2hUR0UwRFk1dHkxZG0tZw?oc=5",
+   "source": "Yahoo Finance",
+   "date": "2026-11-10",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Private and sovereign AI: A key business strategy - NTT Data",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUTFPYzhzWGRWeGhxMElfZ0hfRi1vVnRJMTU4Q3NOVVphbVRjX1JGYkIwamRQX2NjZWp3c2VROVF1OXhiWDhGWWlMcXNVSzc1cmc3SU1id1pZYWFYTXFJWURXS1Ytc0JvNHBGeWJ2QWNHUVFQM3hiVUxuSzJBa1VJS1pHQ25pM29uNE85Y2ZVOGN4RHhJUUZMNXJEUmVQN3RpUlc1b1ZEZUdWNnRzdWR4Q20yQ1RnQm05WVE?oc=5",
    "source": "NTT Data",
    "date": "2026-11-07",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Data sovereignty is reshaping AI infrastructure - CIO",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVGFwRDdmZTdOTnlhU3ZERVJMMXhPWHMtYzAyMm55dnR1Qm1ZQnQxZTJfdFAxTDhldjItWS1NOUgxNDNOd2xtVVN3YWdTYjhWREV5dUV4NEpDTVVrQkFCU01ER0N6cktucm5jLUhrT0RTNl9WNnJNVmFaQlplb2VrTHdhNngwbDhzaThTN2RyNmdQdw?oc=5",
+   "source": "CIO",
+   "date": "2026-11-10",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -687,34 +675,46 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Nebul Adopts NetApp Novus to Power Sovereign AI Infrastructure - www.marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQVhyQUJ6M1hfM2ExQTlsSkozNW42dWpKTnhYbEw5dVJJWlVmVl9PdUtOdm1UelFFNHlnY3Y5cnRwaUdrcWwxSk0xLVBYS1AtZTFkT29PbDQ3WFlSSUx3MXdRQTNVRVp1UXhnUzFUQXVFWG5Wa01HZktFdXJnM08wRTlKcWFoSW1teG82aFBEbTBBUThiaFFlWmhBT1gwbl9CX25QYlFqYWxNZ2otZ3B3RUIwRXo0QQ?oc=5",
-   "source": "www.marketscreener.com",
-   "date": "2026-11-10",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Overwatch Capital and CHIPX Partner to Advance Sovereign AI Infrastructure - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSjRPVFhpZzJDNUI4dE1sQjJwVElHWlBYUFh6aTc1bWg2cUpFUlRjNVJfc1VENUdPWlZjMm1wNHZFc3cwcFRSNm83c3hnaWNaTUhxQldMVEJmM25Ta1VrZVFIV2thLTdxc2huaFpvdExMLVMtYk5PSEtLekZRUTE3NGl4bGs3d2pTQkxDT1lKajdlUjBCa3JqSUpYcWVReEhmU3VuWnhR?oc=5",
-   "source": "Yahoo Finance",
-   "date": "2026-11-10",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "SK Telecom, Nvidia work on South Korea's sovereign AI infrastructure - upi",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMXRNTWwwbTlhMWxJcHhweFhhaFRMdWdUZVhtbkFzYkMxRnVhbWdoenlYNjg0UHU1X19WUldLQ3R0ZlFHTER4NjBsVkplcjk3bklDM1U0aGQtSE40di0zWmdCZ3pXYWhja3FKVVVYSkpCS0wwUXdSYmNoeW56NmZDUGxiTlNXVC1EMnYzUlNJaUxqNW43V0t0aHd1eE9TUF8tRWhIYjFNQl9ZeUtPamdGUDVB0gG3AUFVX3lxTE83N3R5WXRDZVNLUDdWX044WFNTdXBsYnV4dzlBV2JEaUlaUnpEX2ZzRjVHVGNSbk9fRGV0M1N1Y3YtUXd3Ylp1UFlpMUZTS3QwM2ZDOFdZeXJLM3Q2RWF3MVR5T2ZQUDlDblNqY2k1eGxhNGxRa0lNVnpxSFNfa25tcFVtSmp0aDRPRlcxRzg3Nmhpay1Ca01ydk9HQlJVN1AwZ1RvWkQ5ell4S1lWYkNUTDc0X0hzSQ?oc=5",
    "source": "upi",
    "date": "2026-11-09",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Tencent Cloud Partners with Saudi Arabia’s OmniOps to Expand Sovereign AI Infrastructure - TechAfrica News",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTI0NE11S1ZjQ2FPMy0wWWROak1KVGI0em5tQTQ5Um82WG03SjNqbFhUazlqTUxRR09aUS1XQTZUMUN3c3VhMTRDNWRmV3owanBLM3M4Nzg0eGdWaE9tZXl1cGxXWE5oYmlfYS1qdDFzaDdFakJBbHFXclk3enIxYm1Cb3R4bHhzZS1tVFZNZV9SVHR0WDloY0ljd3ZkMmZFUjI4elJkWU82XzBCMktaaGNDTzI0Mmo0V0ZLZW4tRFdfQW1F?oc=5",
+   "source": "TechAfrica News",
+   "date": "2026-11-03",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "AI infrastructure grows in Texas with new facilities in Dallas, College Station - NBC 5 Dallas-Fort Worth",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLXRJOW1mWDQ1TGVQQXZPdHRBZkt3MkQyNjRxTDI4YWlvTGhRbjdVellSaUY5Rmk0Y0pHNF8yeUFLU3N3eE43VlpfSUE4Mnl2LVdwZUctbnFsZ1pOYjRvZ0NvWS1ERDV5cWEtMjFkXzRnOUU2bHdjMmgydm9WRzcwQmh4azVNUFhTeFp2R0pjZ1VlaDBLVVIxYmhoTFR0X3BxY2xFMEdHTThnME9FWGRJ0gG3AUFVX3lxTFBhREVNWVI4eFl2VWkyLVE4N0JUdGxNdmVsRGlPcTRFM3EteUl0TF9FSXZyRkM0OHlxUjdZUFZ1T0tpa1psMjY2WEhIdUZCYk1scS1EeFliOHBTSFpWYWhHa3E0cFRhMUl3RHlKVTc4cmtCWncxcjUxNHNRNXhiRjlIRkM0YTFyNTl1N2F1WDZjSjFZbS1yZTFWWFNFeFhzbTl3bTYzSHR4RWhFQnBuMU9paUM0Wk5aNA?oc=5",
+   "source": "NBC 5 Dallas-Fort Worth",
+   "date": "2026-11-08",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Sovereign AI Infrastructure: Early Validation with Cadence Reality Digital Twin - News and Statistics - IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQREZPOFc3WjQ3akNOOElKVllmTjJRcUczX3FJMDFRektuc05URFgwV1Y4ZjF2bGJKSFMwU3cyWUctWktSdF96RXJxODF3T25aRzhPWk1LTXA4ZEZCaTNMbnEyX3RFREYyWjZ4TEYzN0RJOVp6TlJnWEx0cGhJZ21vREh1OTQxMDBqY203Y3dfRXBFSTVVdzBib200RjZvVVZz?oc=5",
+   "source": "IndexBox",
+   "date": "2026-11-04",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
