@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "id": "norway-statnett-halts-data-centre-grid-reservations-licensing-regime-2026-11-09",
+      "date": "2026-11-09",
+      "title": "Norway halts new grid reservations for data centres until as late as 1 August 2027 and plans a licensing regime",
+      "summary": "Norway's transmission operator Statnett on 9 November 2026 paused new grid capacity reservations for data centres and the processing of new facility-functionality approvals, including applications already received for plants on the 420 kV grid, until new technical requirements are approved by the regulator RME, expected no later than 1 August 2027. The same day the government said it will introduce a licensing (concession) regime for existing and future data centres, favouring those serving defence, emergency services, health and other critical functions, and said crypto mining will not count as socially useful. Statnett figures: about 800 MW connected, 4.2 GW reserved, 9.1 GW in the queue and a further 18 GW requested, against national peak demand of just over 25 GW. Caveat: connected and already-approved facilities are unaffected, and Statnett may still process some smaller plants due before August 2027. Country conversion: one of Europe's cheapest-power hosts closes its queue to new large AI loads for up to nine months.",
+      "url": "https://www.regjeringen.no/no/aktuelt/regjeringen-vil-ha-en-kontrollert-vekst-av-samfunnsnyttige-datasentre-i-norge/id3192054/",
+      "source": "Norwegian Government and Statnett releases, 9 Nov 2026; DCD; DLA Piper; Enerdata",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "NOR"
+      ],
+      "flags": "🇳🇴",
+      "tags": [
+        "Policy",
+        "Energy",
+        "Stall"
+      ],
+      "score": 58
+    },
+    {
+      "id": "usa-ppl-invitium-qts-salem-township-2gw-generation-35gw-pa-pipeline-2026-11-06",
+      "date": "2026-11-06",
+      "title": "PPL's Invitium agrees terms to build about 2 GW of generation for QTS in Salem Township, Pennsylvania; advanced-stage pipeline reaches 35.3 GW",
+      "summary": "On its Q3 2026 call (6 November) PPL said Invitium Energy, its 51% joint venture with Blackstone Infrastructure, agreed all key commercial terms under a letter of intent with QTS for about 2 GW of generation for QTS's Salem Township, Luzerne County data centre: two combined-cycle gas plants plus fuel cells and battery storage, a 20-year initial term with five-year renewals, and an estimated $5 billion to $7 billion of project investment at $2,500 to $3,500 per kW. Fuel cells and batteries could be online from 2029 and the gas plants in 2032 and 2033. PPL's advanced-stage Pennsylvania data centre pipeline rose for an 11th straight quarter to 35.3 GW (up 3.5 GW), with about 11.4 GW under signed service agreements and 8.5 GW under construction (up 2 GW); 300 MW is energised so far. Caveat: the QTS terms are non-binding pending a long-form agreement, and PPL's plan excludes Invitium. Country conversion: a US utility building dedicated generation for a single campus rather than waiting on PJM.",
+      "url": "https://www.datacenterdynamics.com/en/news/ppl-advanced-stage-data-center-pipeline-hits-35gw-in-pennsylvania/",
+      "source": "PPL Q3 2026 earnings call, 6 Nov 2026; DCD, 10 Nov 2026; Lehigh Valley Business",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Build"
+      ],
+      "score": 50
+    },
+    {
+      "id": "usa-spacex-starbase-24bn-gas-plant-supercompute-tax-abatement-dec-9-2026-11-09",
+      "date": "2026-11-09",
+      "title": "SpaceX files for a roughly $24 billion gas-fired power plant and super-compute facility at Starbase, Texas",
+      "summary": "Reuters reported on 9 November 2026, citing a public hearing notice, that SpaceX plans a gas-fired power plant and super-compute facility in Starbase, Texas with an estimated $24 billion of capital investment for its initial phases, and has applied for a property tax abatement and an economic development agreement that the Starbase City Commission will consider on 9 December. SpaceX would build, own and operate the facilities; an affiliate has filed for an 8-mile gas pipeline to Starbase due in service by January 2027. Caveat: the notice gives no generating capacity or compute scale, and the abatement size and term are undisclosed; this sits alongside the separate Cochise County, Arizona filing heard the same day. Country conversion: a second behind-the-meter frontier campus filing in Texas despite the extended state pause.",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-plans-24-billion-gas-power-plant-data-center-project-in-texas-5013083",
+      "source": "Reuters, 9 Nov 2026 (Starbase public hearing notice)",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 44
+    },
+    {
+      "id": "eu-eurohpc-ai-gigafactory-tenders-voided-resubmit-lot2-3-dec-lot1-4-feb-2026-11-05",
+      "date": "2026-11-05",
+      "title": "EuroHPC voids all AI gigafactory tenders for technical reasons; large sites due 3 December, medium sites pushed to 4 February",
+      "summary": "The EuroHPC Joint Undertaking updated its AI Gigafactory call (EUROHPC-2026-CEI-AIGF-01) on 5 November 2026: for undisclosed technical reasons all draft and submitted tenders in the system will not be considered and must be recreated under new submission links. The deadline for Lot 1 is extended to 4 February 2027 to give member states time to complete required steps, while Lot 2 stays at 3 December 2026, both 17:00 Luxembourg time. DCD (10 November) describes the programme as four smaller sites eligible for up to EUR 100 million each in Phase I and three larger sites up to EUR 200 million each. Caveat: DCD's report reverses which lot moved; this item follows the EuroHPC call page. Country conversion: Europe's sovereign compute procurement slips again, and no site awards are possible before 2027.",
+      "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en",
+      "source": "EuroHPC JU call page (updated 5 Nov 2026); DCD, 10 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [],
+      "flags": "🇪🇺",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 46
+    },
+    {
+      "id": "singapore-equinix-sg6-opens-first-dc-cfa-8mw-290m-2026-11-06",
+      "date": "2026-11-06",
+      "title": "Equinix opens SG6, among the first Singapore data centres built under the post-moratorium call-for-application regime",
+      "summary": "Equinix opened SG6, its sixth Singapore IBX, on 6 November 2026 with an initial investment of about $290 million, 8 MW and about 1,550 cabinets in phase one and up to 20 MW at full build-out. Equinix says SG6 is among the first data centres developed under Singapore's Data Centre Call for Application framework, designed for liquid-cooled GPU deployments at a target PUE of 1.20; a co-innovation facility with NUS follows in 2027. Singapore's Senior Minister of State Tan Kiat How gave the launch keynote. Caveat: capacity is small next to Johor and Batam campuses across the border. Country conversion: Singapore's controlled-allocation regime is now delivering live AI-ready capacity.",
+      "url": "https://newsroom.equinix.com/2026-11-06-Equinix-Opens-SG6-in-Singapore,-Expanding-AI-Ready-Capacity-in-One-of-Asia-Pacifics-Most-Connected-Markets",
+      "source": "Equinix release, 6 Nov 2026; MDDI keynote; DCD, 10 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "SGP"
+      ],
+      "flags": "🇸🇬",
+      "tags": [
+        "Build"
+      ],
+      "score": 30
+    },
+    {
+      "id": "china-megaspeed-network-7-5bn-nvidia-hardware-shipments-the-information-2026-11-10",
+      "date": "2026-11-10",
+      "title": "The Information reports at least $7.5 billion of Nvidia hardware reached Chinese companies since 2023 through a network linked to a Megaspeed executive",
+      "summary": "The Information reported on 10 November 2026, citing two people familiar, that at least $7.5 billion of Nvidia hardware has been shipped to Chinese companies since 2023 through a network linked to Alice Huang, a former executive at Singapore-based Nvidia customer Megaspeed whom US officials reportedly concluded was a Chinese intelligence asset (New York Times, 29 October). Nvidia's board has opened an independent investigation, President Trump said the FBI is looking into it, and a shareholder class action was filed in San Jose; Nvidia shares fell a further 4% to 6% on 10 November after a roughly 4% drop on 9 November. Caveat: single-source figure, not confirmed by Nvidia or US authorities, and the export-control status of the shipments is not established. Country conversion: if borne out, a multi-billion-dollar leak of US accelerators into China via Singapore, inviting tighter end-use checks.",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-stock-drops-3-extending-decline-on-report-alleged-chinese-spy-linked-to-nvidia-ceo-aided-75-billion-in-china-chip-shipments-152654028.html",
+      "source": "The Information via Yahoo Finance, 10 Nov 2026; CNBC, 10 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "CHN",
+        "SGP"
+      ],
+      "flags": "🇨🇳",
+      "tags": [
+        "Policy"
+      ],
+      "score": 48
+    },
+    {
       "id": "usa-riot-corsicana-anthropic-910mw-28bn-powered-land-lease-2026-11-04",
       "date": "2026-11-04",
       "title": "Riot leases its whole 910 MW Corsicana, Texas campus to Anthropic for about $28 billion over 15 years",
@@ -3380,6 +3492,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-09",
-  "note": "Wire refresh 2026-11-09: added usa-riot-corsicana-anthropic-910mw-28bn-powered-land-lease-2026-11-04, malaysia-softbank-grab-petros-1-85bn-seed-5gw-sarawak-peninsular-2026-11-09, usa-anthropic-onepwr-1-7gw-gas-generators-3-4bn-ft-2026-11-08, usa-spacexai-cochise-county-arizona-6gw-permit-dec-9-hearing-2026-11-06, china-600k-h200-stranded-hong-kong-beijing-withholds-import-approval-2026-11-05, israel-national-ai-directorate-300k-gpus-2gw-sovereign-stack-2026-11-09, kazakhstan-data-center-valley-ekibastuz-480mw-phase-2-preliminary-deals-2026-11-06. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-10",
+  "note": "Wire refresh 2026-11-10: added norway-statnett-halts-data-centre-grid-reservations-licensing-regime-2026-11-09, usa-ppl-invitium-qts-salem-township-2gw-generation-35gw-pa-pipeline-2026-11-06, usa-spacex-starbase-24bn-gas-plant-supercompute-tax-abatement-dec-9-2026-11-09, eu-eurohpc-ai-gigafactory-tenders-voided-resubmit-lot2-3-dec-lot1-4-feb-2026-11-05, singapore-equinix-sg6-opens-first-dc-cfa-8mw-290m-2026-11-06, china-megaspeed-network-7-5bn-nvidia-hardware-shipments-the-information-2026-11-10. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }

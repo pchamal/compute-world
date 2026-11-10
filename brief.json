@@ -1,51 +1,39 @@
 {
-  "updated": "2026-11-09",
-  "title": "Compute brief - 9 November 2026",
-  "description": "Nvidia's board opened an independent investigation into reports that Jensen Huang was targeted by a foreign intelligence effort, and the stock fell about 5% on Monday, while Anthropic kept buying physical capacity: Riot's 10-Q names it as the tenant on a $28 billion, 910 MW Corsicana lease, and the FT reports a $3.4 billion, 1.7 GW gas generator deal. Wire: Riot Corsicana, SoftBank and Grab's $1.85 billion Malaysia programme, SpaceXAI's 6 GW Arizona filing, 600,000 H200s held in Hong Kong, Israel's 300,000-GPU target, Kazakhstan's Ekibastuz phase two. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The chip CEO is under review. The buyer keeps signing for power.",
-  "lede": "Nvidia's board said on Sunday it has opened an independent investigation, overseen by independent directors and outside counsel, after reports that Jensen Huang was the target of a foreign intelligence effort; the board says it has no reason to believe national security or Nvidia secrets were compromised, and CNBC reported the stock down about 5% on Monday while AMD and other chipmakers rose. The buyers did not blink. Riot's 10-Q names Anthropic as the tenant on a 15-year, 910 MW powered land lease for its whole Corsicana, Texas campus at $130 per kW-month, about $28 billion of contract value, and the FT reports Anthropic paid about $3.4 billion for 1.7 GW of gas-fired generators. Microsoft is moving the other way on rented capacity, winding down a 2023 Oracle deal on older Nvidia hardware a day after Bloomberg reported tighter oversight of its neocloud projects; CoreWeave reports Q3 on Tuesday with its 2032 notes yielding above 16%. Live list prices held: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 after Friday's rise.",
+  "updated": "2026-11-10",
+  "title": "Compute brief - 10 November 2026",
+  "description": "Public grids are closing their doors while builders bring their own power: Norway paused new data centre grid reservations until as late as August 2027, while SpaceX filed for a $24 billion gas plant and super-compute site at Starbase and PPL agreed terms to build about 2 GW of generation for one QTS campus. Nvidia fell for a second day on a report that $7.5 billion of its hardware reached China through a network tied to the Megaspeed affair. Wire: Norway, PPL and QTS, SpaceX Starbase, EuroHPC gigafactory reset, Equinix SG6, Megaspeed. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The grid says wait. The builders bring their own power.",
+  "lede": "Norway's grid operator Statnett on Monday paused new grid reservations for data centres until as late as 1 August 2027 and the government said it will license data centres, after requests reached 31 GW in a country whose peak demand is just over 25 GW. Builders are answering queue risk by owning generation: SpaceX filed a hearing notice for a roughly $24 billion gas-fired plant and super-compute facility at Starbase, Texas, and PPL's Invitium agreed terms to build about 2 GW of gas, fuel cells and batteries for a single QTS campus in Pennsylvania, where PPL's advanced pipeline is now 35.3 GW. Nvidia fell for a second day, down nearly 6% by late morning Eastern on Tuesday, after The Information reported at least $7.5 billion of its hardware reached Chinese buyers through a network linked to the Megaspeed executive at the centre of the board's investigation; AMD and Broadcom rose. Europe slipped again: EuroHPC voided every AI gigafactory tender for technical reasons, with large sites now due 3 December and medium sites 4 February. Live list prices held: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
   "countries": [
     {
-      "id": "usa-riot-corsicana",
+      "id": "nor-statnett-pause",
+      "name": "Norway",
+      "slug": "norway",
+      "note": "Statnett pauses new data centre grid reservations until as late as 1 August 2027; government plans a licensing regime (Wire, 9 Nov, confirmed)."
+    },
+    {
+      "id": "usa-spacex-starbase",
       "name": "United States",
       "slug": "united-states",
-      "note": "Riot leases its whole 910 MW Corsicana, Texas campus to Anthropic for about $28 billion over 15 years; first 400 MW by September 2027 (Wire, 4 Nov, confirmed)."
+      "note": "SpaceX files for a roughly $24 billion gas plant and super-compute facility at Starbase, Texas; tax abatement hearing 9 December (Wire, 9 Nov, Reuters single-source)."
     },
     {
-      "id": "usa-anthropic-onepwr",
+      "id": "usa-ppl-qts",
       "name": "United States",
       "slug": "united-states",
-      "note": "Anthropic buys commitments for 1.7 GW of gas-fired generators from OnePWR for about $3.4 billion (Wire, 8 Nov, FT single-source)."
+      "note": "PPL's Invitium agrees terms for about 2 GW of generation for QTS in Salem Township, Pennsylvania; PA pipeline 35.3 GW (Wire, 6 Nov, confirmed)."
     },
     {
-      "id": "usa-spacexai-cochise",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "SpaceXAI files for a 747-acre, up to 6 GW campus in Cochise County, Arizona; zoning decision 9 December (Wire, 6 Nov)."
-    },
-    {
-      "id": "mys-softbank-grab",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "SoftBank, Grab and PETROS commit $1.85 billion of staged seed capital toward 5 GW or more of AI capacity in Sarawak and Peninsular Malaysia (Wire, 9 Nov)."
-    },
-    {
-      "id": "chn-h200-hong-kong",
+      "id": "chn-megaspeed",
       "name": "China",
       "slug": "china",
-      "note": "About 600,000 H200s held in Hong Kong as Beijing withholds large-scale import approval (Wire, 5 Nov, Reuters single-source)."
+      "note": "The Information reports at least $7.5 billion of Nvidia hardware reached Chinese companies since 2023 via a Megaspeed-linked network (Wire, 10 Nov, single-source)."
     },
     {
-      "id": "isr-sovereign-target",
-      "name": "Israel",
-      "slug": "israel",
-      "note": "National AI Directorate targets about 300,000 GPUs and 2 GW for a sovereign AI stack (Wire, 9 Nov, single-source)."
-    },
-    {
-      "id": "kaz-ekibastuz-phase2",
-      "name": "Kazakhstan",
-      "slug": "kazakhstan",
-      "note": "Preliminary deals add 480 MW at Ekibastuz Data Center Valley; 1 GW target by 2029 (Wire, 6 Nov, single-source)."
+      "id": "sgp-equinix-sg6",
+      "name": "Singapore",
+      "slug": "singapore",
+      "note": "Equinix opens SG6, 8 MW now and up to 20 MW, among the first sites built under the call-for-application regime (Wire, 6 Nov, confirmed)."
     }
   ],
   "silicon": [
@@ -55,10 +43,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print"
+      "note": "Confirm vs 9 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -66,10 +54,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print"
+      "note": "Confirm vs 9 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -77,10 +65,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print"
+      "note": "Confirm vs 9 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -88,10 +76,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 9 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -99,10 +87,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 9 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -110,10 +98,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print"
+      "note": "Confirm vs 9 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -121,10 +109,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print"
+      "note": "Confirm vs 9 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -132,10 +120,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print"
+      "note": "Confirm vs 9 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -143,10 +131,10 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 6 Nov print"
+      "note": "Confirm vs 9 Nov print"
     }
   ],
   "watch": [
@@ -163,7 +151,7 @@
     {
       "id": "nvidia-board-review",
       "name": "Nvidia board review",
-      "note": "Independent committee and outside counsel; Nvidia reports fiscal Q3 on 17 November."
+      "note": "Independent committee and outside counsel; FBI looking into it per President Trump; Nvidia reports fiscal Q3 on 17 November."
     },
     {
       "id": "crusoe-dec1-pricing",
@@ -173,7 +161,7 @@
     {
       "id": "eu-gigafactory-bids",
       "name": "EU AI gigafactory tender",
-      "note": "Bids due 12 November."
+      "note": "All tenders must be resubmitted; large sites (Lot 2) due 3 December, medium sites (Lot 1) 4 February 2027."
     },
     {
       "id": "indiaai-bids",
@@ -181,66 +169,51 @@
       "note": "Bids close 13 November."
     },
     {
-      "id": "cochise-hearing",
-      "name": "SpaceXAI Cochise County",
-      "note": "Zoning decision 9 December."
+      "id": "dec9-hearings",
+      "name": "9 December hearings",
+      "note": "SpaceXAI Cochise County zoning decision and Starbase tax abatement both on 9 December."
     }
   ],
   "sources": [
     {
-      "name": "NVIDIA Newsroom: Statement from NVIDIA Board of Directors",
-      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-      "note": "Lead: independent investigation, 8 Nov."
+      "name": "Regjeringen: controlled growth of socially useful data centres",
+      "url": "https://www.regjeringen.no/no/aktuelt/regjeringen-vil-ha-en-kontrollert-vekst-av-samfunnsnyttige-datasentre-i-norge/id3192054/",
+      "note": "Lead and Wire: Norway licensing and Statnett pause."
     },
     {
-      "name": "CNBC: Nvidia stock falls 5% as scrutiny turns to Jensen Huang",
-      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
-      "note": "Lead: Monday share move; AMD and other chipmakers up."
-    },
-    {
-      "name": "Riot Platforms Q3 2026 results",
-      "url": "https://www.riotplatforms.com/riot-platforms-reports-third-quarter-2026-financial-results-and-strategic-highlights/",
-      "note": "Lead and Wire: United States, 910 MW Corsicana lease."
-    },
-    {
-      "name": "DCD: Riot Platforms signs 910MW agreement with unnamed frontier AI lab",
-      "url": "https://www.datacenterdynamics.com/en/news/riot-platforms-signs-910mw-agreement-with-unnamed-frontier-ai-lab/",
+      "name": "DCD: Norway halts grid connection applications for new data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/norway-halts-grid-connection-applications-for-new-data-centers/",
       "note": "Wire corroboration."
     },
     {
-      "name": "CNBC: Anthropic secures $3.4 billion generator deal (FT)",
-      "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html",
-      "note": "Lead and Wire: United States, 1.7 GW."
+      "name": "Reuters via Investing.com: SpaceX plans $24 billion gas power plant, data center project in Texas",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-plans-24-billion-gas-power-plant-data-center-project-in-texas-5013083",
+      "note": "Lead and Wire: United States."
     },
     {
-      "name": "DCD: Microsoft winds down 2023 compute deal with Oracle",
-      "url": "https://www.datacenterdynamics.com/en/news/microsoft-winds-down-2023-compute-deal-with-oracle/",
-      "note": "Lead: Microsoft rented-capacity reassessment."
+      "name": "DCD: PPL advanced stage data center pipeline hits 35GW in Pennsylvania",
+      "url": "https://www.datacenterdynamics.com/en/news/ppl-advanced-stage-data-center-pipeline-hits-35gw-in-pennsylvania/",
+      "note": "Lead and Wire: United States."
     },
     {
-      "name": "SoftBank Group and Grab: joint development agreements for Malaysian AI infrastructure",
-      "url": "https://group.softbank/en/news/press/20261109_0",
-      "note": "Wire: Malaysia."
+      "name": "CNBC: Nvidia falls for second day",
+      "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+      "note": "Lead: share move, FBI, class action."
     },
     {
-      "name": "DCD: SpaceXAI plans 6GW data center in Arizona",
-      "url": "https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk/",
-      "note": "Wire: United States."
+      "name": "Yahoo Finance: The Information reports $7.5 billion in China chip shipments",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-stock-drops-3-extending-decline-on-report-alleged-chinese-spy-linked-to-nvidia-ceo-aided-75-billion-in-china-chip-shipments-152654028.html",
+      "note": "Wire: China, single-source."
     },
     {
-      "name": "Reuters via Investing.com: Nvidia chips pile up in Hong Kong",
-      "url": "https://www.investing.com/news/stock-market-news/exclusivenvidia-chips-pile-up-in-hong-kong-as-china-withholds-import-approval-5003223",
-      "note": "Wire: China."
+      "name": "EuroHPC JU: AI Gigafactory call for tenders",
+      "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en",
+      "note": "Wire: EU deadlines."
     },
     {
-      "name": "Ctech: Israel plans its own AI infrastructure with 300,000 GPUs",
-      "url": "https://www.calcalistech.com/ctechnews/article/rj6zywyrgx",
-      "note": "Wire: Israel."
-    },
-    {
-      "name": "Southward Tech: Kazakhstan preliminary deals add 480 MW",
-      "url": "https://southwardtech.com/kazakhstan-data-center-valley-firebird-china-energy/",
-      "note": "Wire: Kazakhstan."
+      "name": "Equinix: SG6 opens in Singapore",
+      "url": "https://newsroom.equinix.com/2026-11-06-Equinix-Opens-SG6-in-Singapore,-Expanding-AI-Ready-Capacity-in-One-of-Asia-Pacifics-Most-Connected-Markets",
+      "note": "Wire: Singapore."
     },
     {
       "name": "Lambda Cloud pricing",
@@ -255,7 +228,7 @@
     {
       "name": "Crusoe Cloud pricing",
       "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "B300 $8.96, H100 $3.90, H200 $4.29 on-demand confirm; 1 Dec column scheduled, not logged."
+      "note": "B300 $8.96, H100 $3.90 on-demand confirm; 1 Dec column scheduled, not logged."
     },
     {
       "name": "DigitalOcean GPU Droplets pricing",
