@@ -995,9 +995,9 @@
    "pue": "~1.2-1.4",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
-   "rz": 41,
-   "dl": 0,
-   "rw": "About 600,000 Nvidia H200s sit in Hong Kong as Beijing withholds large-scale…"
+   "rz": 55,
+   "dl": 1,
+   "rw": "The Information reports at least $7.5 billion of Nvidia hardware reached Chi…"
   },
   {
    "n": "Japan",
@@ -1645,9 +1645,9 @@
    "pue": "~1.35-1.6",
    "note": "Hub; power-constrained, imports compute-relevant power",
    "rf": 1.0,
-   "rz": 23,
+   "rz": 40,
    "dl": 1,
-   "rw": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs …"
+   "rw": "The Information reports at least $7.5 billion of Nvidia hardware reached Chi…"
   },
   {
    "n": "Papua New Guinea",
@@ -3395,9 +3395,9 @@
    "pue": "~1.1-1.25",
    "note": "Stargate Norway Narvik 230MW+; reservoir hydro; DC registration law filters loads",
    "rf": 1.0,
-   "rz": 57,
+   "rz": 53,
    "dl": 1,
-   "rw": "Crusoe takes Polar's 40 MW DRA02 building at Tørdal, Norway, for Vera Rubin …"
+   "rw": "Norway halts new grid reservations for data centres until as late as 1 Augus…"
   },
   {
    "n": "Iceland",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "Anthropic buys about $3.4 billion of commitments for 1.7 GW of gas-fired gen…"
+   "rw": "SpaceX files for a roughly $24 billion gas-fired power plant and super-compu…"
   },
   {
    "n": "Canada",
