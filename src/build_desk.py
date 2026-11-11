@@ -174,7 +174,7 @@ def homepage(data, css, app_js, rail, svg):
                                f"{rail['n_countries']} countries priced by compute net worth; "
                                f"{rail['n_chips']} AI accelerators with sourced rental prices.",
                 "publisher": {"@id": SITE + "/#org"},
-                "author": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact.html"},
+                "author": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact"},
                 "inLanguage": "en",
             },
             {
@@ -184,7 +184,7 @@ def homepage(data, css, app_js, rail, svg):
                 "alternateName": ["Compute World", "The Compute Net Worth Index"],
                 "url": SITE + "/",
                 "logo": SITE + "/mark.svg",
-                "founder": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact.html"},
+                "founder": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact"},
                 "foundingDate": "2026-08-10",
                 "address": {
                     "@type": "PostalAddress",
@@ -211,7 +211,7 @@ def homepage(data, css, app_js, rail, svg):
                 "description": "108-country compute net worth (CNW) and sourced silicon rental prints. CC BY 4.0 with attribution to compute.world.",
                 "url": SITE + "/",
                 "license": "https://creativecommons.org/licenses/by/4.0/",
-                "creator": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact.html"},
+                "creator": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact"},
                 "publisher": {"@id": SITE + "/#org"},
                 "dateModified": asof,
                 "distribution": [
@@ -283,7 +283,7 @@ def homepage(data, css, app_js, rail, svg):
   </div>
   <aside class="rail" aria-label="Movers and signals">
     <div class="rail-block"><h3>Movers</h3><p class="sub">Conversion score, change since the 19 Aug snapshot</p><ol class="movers" id="movers"></ol></div>
-    <div class="rail-block"><h3>Latest signals</h3><p class="sub">What moved a country this week</p><ul class="wire" id="wire"></ul><a class="rail-more" href="{SITE}/wire.html">All signals on the Wire</a></div>
+    <div class="rail-block"><h3>Latest signals</h3><p class="sub">What moved a country this week</p><ul class="wire" id="wire"></ul><a class="rail-more" href="{SITE}/wire">All signals on the Wire</a></div>
   </aside>
 </section>
 
@@ -305,7 +305,7 @@ def homepage(data, css, app_js, rail, svg):
 </section>
 
 <section id="projects" class="section">
-  <div class="section-head"><div><h2>Projects on the ground</h2><p class="deck">Sovereign AI factories, as reported. The three stalled projects all stalled on power, which is the whole thesis in three rows.</p></div><div class="side"><a href="{SITE}/campuses.html">Named campuses on the globe</a></div></div>
+  <div class="section-head"><div><h2>Projects on the ground</h2><p class="deck">Sovereign AI factories, as reported. The three stalled projects all stalled on power, which is the whole thesis in three rows.</p></div><div class="side"><a href="{SITE}/campuses">Named campuses on the globe</a></div></div>
   <div class="feed"><div class="feed-head"><div class="chips" id="statusChips"></div><span class="count" id="precCount"></span></div><ul class="plist" id="plist"></ul></div>
 </section>
 
@@ -338,21 +338,21 @@ def homepage(data, css, app_js, rail, svg):
   <div class="section-head"><div><h2>Use this data</h2><p class="deck">Free with attribution for research, journalism and personal use. Commercial products, APIs and bulk redistribution take a licence.</p></div><div class="side"><a href="https://github.com/pchamal/compute-world/blob/main/LICENSE.md">The one-page licence</a></div></div>
   <div class="use">
     <div class="use-block"><h3>Cite</h3><p>One line. URL and as-of date travel with the quote.</p><div class="codebox" id="citeBox"></div><button class="btn primary" data-copy="#citeBox">Copy citation</button></div>
-    <div class="use-block"><h3>Embed the rankings</h3><p>Attribution built in, updates itself.</p><div class="codebox" id="embedBox">&lt;iframe src="{SITE}/embed.html?n=10&amp;sort=u" width="100%" height="520" style="border:1px solid #1B222A" title="The Compute Net Worth Index"&gt;&lt;/iframe&gt;</div><button class="btn" data-copy="#embedBox">Copy embed code</button></div>
+    <div class="use-block"><h3>Embed the rankings</h3><p>Attribution built in, updates itself.</p><div class="codebox" id="embedBox">&lt;iframe src="{SITE}/embed?n=10&amp;sort=u" width="100%" height="520" style="border:1px solid #1B222A" title="The Compute Net Worth Index"&gt;&lt;/iframe&gt;</div><button class="btn" data-copy="#embedBox">Copy embed code</button></div>
     <div class="use-block"><h3>Download</h3><p>CSV exports the rows you are looking at. JSON is the full record, machine-readable.</p><div class="links"><a href="{SITE}/data.json">data.json, countries</a><a href="{SITE}/silicon.json">silicon.json, prices</a><a href="{SITE}/silicon-history.json">silicon-history.json</a><a href="{SITE}/rank-history.json">rank-history.json</a><a href="{SITE}/params.json">params.json</a><a href="{SITE}/llms.txt">llms.txt</a></div></div>
-    <div class="use-block"><h3>Follow</h3><p>Weekday brief, one feed per index. Corrections and new prints go to the desk.</p><div class="links"><a href="{SITE}/brief">The brief</a><a href="{SITE}/brief.xml">RSS, brief</a><a href="{SITE}/silicon.xml">RSS, silicon</a><a href="{SITE}/wire.xml">RSS, signals</a><a href="{SITE}/contact.html">Send a correction</a></div></div>
+    <div class="use-block"><h3>Follow</h3><p>Weekday brief, one feed per index. Corrections and new prints go to the desk.</p><div class="links"><a href="{SITE}/brief">The brief</a><a href="{SITE}/brief.xml">RSS, brief</a><a href="{SITE}/silicon.xml">RSS, silicon</a><a href="{SITE}/wire.xml">RSS, signals</a><a href="{SITE}/contact">Send a correction</a></div></div>
   </div>
 </section>
 
 <section class="section" aria-label="Also on compute.world">
   <div class="section-head"><h2>Also on compute.world</h2></div>
   <div class="also">
-    <a href="{SITE}/silicon.html"><b>The full price tape</b><small>Term book, every venue quote, dated history</small></a>
-    <a href="{SITE}/neoclouds.html"><b>GPU clouds</b><small>Who rents GPUs, by region and silicon</small></a>
-    <a href="{SITE}/hyperscalers.html"><b>Hyperscalers</b><small>271 cloud locations with GPUs</small></a>
-    <a href="{SITE}/inference.html"><b>Inference providers</b><small>Who sells tokens, on what</small></a>
-    <a href="{SITE}/campuses.html"><b>Campuses</b><small>Named sites on a globe, a register not a census</small></a>
-    <a href="{SITE}/data-centers.html"><b>Data centers</b><small>Campus power, water, land, tax, jobs</small></a>
+    <a href="{SITE}/silicon"><b>The full price tape</b><small>Term book, every venue quote, dated history</small></a>
+    <a href="{SITE}/neoclouds"><b>GPU clouds</b><small>Who rents GPUs, by region and silicon</small></a>
+    <a href="{SITE}/hyperscalers"><b>Hyperscalers</b><small>271 cloud locations with GPUs</small></a>
+    <a href="{SITE}/inference"><b>Inference providers</b><small>Who sells tokens, on what</small></a>
+    <a href="{SITE}/campuses"><b>Campuses</b><small>Named sites on a globe, a register not a census</small></a>
+    <a href="{SITE}/data-centers"><b>Data centers</b><small>Campus power, water, land, tax, jobs</small></a>
     <a href="{SITE}/physical-stack"><b>Physical stack</b><small>Eight layers behind AI, credited to MTS Intelligence</small></a>
   </div>
 </section>
@@ -506,7 +506,7 @@ def country_page(c, data, css, domains):
                 "dateModified": asof,
                 "isPartOf": {"@id": SITE + "/#website"},
                 "about": {"@id": url + "#place"},
-                "author": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact.html"},
+                "author": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact"},
                 "publisher": {"@id": SITE + "/#org"},
                 "inLanguage": "en",
             },
@@ -560,19 +560,19 @@ def country_page(c, data, css, domains):
         proj_html = (
             '<table class="peers"><thead><tr><th>Project</th><th>Scale</th><th>Status</th><th class="r">Date</th></tr></thead><tbody>'
             + "".join(
-                f'<tr><td><a href="{esc(p[5] if len(p) > 5 else SITE + "/campuses.html")}">{esc(p[1])}</a></td>'
+                f'<tr><td><a href="{esc(p[5] if len(p) > 5 else SITE + "/campuses")}">{esc(p[1])}</a></td>'
                 f'<td>{esc(p[2])}</td><td><span class="status {p[3]}">{p[3]}</span></td>'
                 f'<td class="r">{esc(p[4])}</td></tr>'
                 for p in projects
             )
             + "</tbody></table>"
-            + f'<p class="small" style="margin-top:12px"><a href="{SITE}/campuses.html">All named campuses on the globe</a></p>'
+            + f'<p class="small" style="margin-top:12px"><a href="{SITE}/campuses">All named campuses on the globe</a></p>'
         )
     else:
         proj_html = (
             f'<p class="small">No sovereign AI factory for {esc(c["name"])} is on the register yet. '
             f'Announcements, contracts and stalls are tracked as reported; '
-            f'<a href="{SITE}/contact.html">send one to the desk</a>.</p>'
+            f'<a href="{SITE}/contact">send one to the desk</a>.</p>'
         )
     peer_rows = []
     for x in peers:
@@ -618,7 +618,7 @@ def country_page(c, data, css, domains):
 <body>
 {masthead(root, asof, current="Countries")}
 <main><div class="wrap">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="{root}index.html">compute.world</a><span>›</span><a href="{root}index.html#board">Countries</a><span>›</span><span>{esc(c["name"])}</span></nav>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">compute.world</a><span>›</span><a href="/#board">Countries</a><span>›</span><span>{esc(c["name"])}</span></nav>
 <article class="article">
   <p class="kicker" style="margin-top:18px">Country profile · Rank {c["rank"]} of 108 · <span class="tier tier-{c["tier"]}">{TIER[c["tier"]]}</span></p>
   <div class="title">{flag_img(c, root, "xl")}<h1>{esc(c["name"])} compute capacity</h1></div>
@@ -649,7 +649,7 @@ def country_page(c, data, css, domains):
 
   <h2 id="cite">Cite this page</h2>
   <div class="cite"><div class="codebox" id="citeBox">{esc(cite_line("The Compute Net Worth Index: " + c["name"], url, asof))}</div><button class="btn primary" data-copy="#citeBox">Copy citation</button></div>
-  <p class="small" style="margin-top:12px">Free with attribution for research, journalism and personal use. Method, sources and every parameter: <a href="{root}index.html#method">how the numbers are made</a>.</p>
+  <p class="small" style="margin-top:12px">Free with attribution for research, journalism and personal use. Method, sources and every parameter: <a href="/#method">how the numbers are made</a>.</p>
 
   <nav class="nextprev" aria-label="Neighbouring ranks">{prev_html}{next_html}</nav>
 </article>
@@ -826,7 +826,7 @@ def chip_page(s, data, css, domains, venue_url):
                 "@type": "WebPage", "@id": url, "url": url, "name": title, "description": description,
                 "datePublished": "2026-08-10", "dateModified": asof,
                 "isPartOf": {"@id": SITE + "/#website"}, "inLanguage": "en",
-                "author": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact.html"},
+                "author": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact"},
                 "publisher": {"@id": SITE + "/#org"},
             },
             {
@@ -936,12 +936,12 @@ def chip_page(s, data, css, domains, venue_url):
 <body>
 {masthead(root, asof, current="Silicon prices")}
 <main><div class="wrap">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="{root}index.html">compute.world</a><span>›</span><a href="{root}index.html#silicon">Silicon prices</a><span>›</span><span>{esc(s["name"])}</span></nav>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">compute.world</a><span>›</span><a href="/#silicon">Silicon prices</a><span>›</span><span>{esc(s["name"])}</span></nav>
 <article class="article">
   <p class="kicker" style="margin-top:18px">Accelerator · Tape rank {s["rank"]} of {len(chips)} · {esc(s["vendor"])}</p>
   <div class="title">{logo_el(s["vendor"], domains, "xl")}<h1>{esc(s["name"])} {"pricing" if s["disp"]["usd"] is None else "rental price"}</h1></div>
   <p class="answer">{lede}</p>
-  <div class="meta"><span>Updated {fmt_date(asof)}</span><span>·</span><a href="#cite">Cite this page</a><span>·</span><a href="{SITE}/silicon.json">Data</a><span>·</span><a href="{SITE}/silicon.html">Full tape</a></div>
+  <div class="meta"><span>Updated {fmt_date(asof)}</span><span>·</span><a href="#cite">Cite this page</a><span>·</span><a href="{SITE}/silicon.json">Data</a><span>·</span><a href="{SITE}/silicon">Full tape</a></div>
 
   <h2>Key numbers</h2>
   <table class="kv"><tbody>{kv_html}</tbody></table>
@@ -1017,7 +1017,7 @@ def llms_txt(data, rail):
         f"{cite_line('The Compute Net Worth Index', SITE + '/', asof)}",
         "House style: compute.world · Compute Net Worth Index. Include the URL and the as-of date.",
         "Scores and methodology are proprietary. Quoting with attribution is free for research and press (CC BY 4.0).",
-        "Commercial products, APIs, and bulk redistribution need a license via https://compute.world/contact.html.",
+        "Commercial products, APIs, and bulk redistribution need a license via https://compute.world/contact.",
         "Do not strip the citation. Do not invent prices or 0% changes where the tape prints a dash.",
         "",
         "## Data",
@@ -1025,10 +1025,10 @@ def llms_txt(data, rail):
         f"- {SITE}/silicon.json (prices), {SITE}/silicon-history.json (dated prints)",
         f"- {SITE}/rank-history.json (append-only daily snapshots)",
         f"- {SITE}/params.json (every assumption)",
-        f"- {SITE}/wire.html + {SITE}/wire.json — The Wire",
-        f"- {SITE}/inference.html, {SITE}/neoclouds.html, {SITE}/hyperscalers.html — vendor catalogs",
-        f"- {SITE}/data-centers.html, {SITE}/campuses.html, {SITE}/physical-stack, {SITE}/brief.html, {SITE}/agents.html",
-        f"- {SITE}/contact.html — The Desk. Search crawlers are welcome; training bots should read this file and cite.",
+        f"- {SITE}/wire + {SITE}/wire.json — The Wire",
+        f"- {SITE}/inference, {SITE}/neoclouds, {SITE}/hyperscalers — vendor catalogs",
+        f"- {SITE}/data-centers, {SITE}/campuses, {SITE}/physical-stack, {SITE}/brief, {SITE}/agents",
+        f"- {SITE}/contact — The Desk. Search crawlers are welcome; training bots should read this file and cite.",
         "",
         "## Country pages (live capacity, ceiling, unlockable, rank)",
     ]

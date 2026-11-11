@@ -68,9 +68,9 @@ STATUS_PTS = {"Live": 1.0, "Building": 0.7, "Contracted": 0.5, "Announced": 0.25
 
 # Named campus pins that match a row on the sovereign-factory register.
 PREC_CAMPUS = {
-    "Johor hub; YTL AI Cloud, Kulai (NVIDIA GB200)": "/campuses.html#ytl-green-data-center-park-kulai",
-    "Scala AI City, Eldorado do Sul": "/campuses.html#scala-ai-city-eldorado",
-    "Stargate UAE, Abu Dhabi (G42, OpenAI, Oracle)": "/campuses.html#stargate-uae-abu-dhabi",
+    "Johor hub; YTL AI Cloud, Kulai (NVIDIA GB200)": "/campuses#ytl-green-data-center-park-kulai",
+    "Scala AI City, Eldorado do Sul": "/campuses#scala-ai-city-eldorado",
+    "Stargate UAE, Abu Dhabi (G42, OpenAI, Oracle)": "/campuses#stargate-uae-abu-dhabi",
 }
 
 # Sovereign AI factories already on the public register (same catalog as build_page.py).
@@ -232,7 +232,7 @@ def precedent_href(iso, name, slug_by_iso):
     if name in PREC_CAMPUS:
         return PREC_CAMPUS[name]
     if iso == "EU":
-        return "/campuses.html"
+        return "/campuses"
     slug = slug_by_iso.get(iso)
     if slug:
         return f"/country/{slug}/#projects"

@@ -68,7 +68,7 @@ ld = json.dumps({
     "datePublished": updated,
     "dateModified": updated,
     "description": D["description"],
-    "url": "https://compute.world/data-centers.html",
+    "url": "https://compute.world/data-centers",
     "author": person_author(),
     "publisher": org_publisher(),
     "isAccessibleForFree": True,
@@ -76,7 +76,7 @@ ld = json.dumps({
 }, ensure_ascii=False)
 crumb = json.dumps(breadcrumb_ld([
     ("compute.world", "https://compute.world/"),
-    ("Data centers FAQ", "https://compute.world/data-centers.html"),
+    ("Data centers FAQ", "https://compute.world/data-centers"),
 ]), ensure_ascii=False)
 faq_ld = json.dumps({
     "@context": "https://schema.org",
@@ -85,7 +85,7 @@ faq_ld = json.dumps({
         {
             "@type": "Question",
             "name": q["q"],
-            "url": f"https://compute.world/data-centers.html#{q['id']}",
+            "url": f"https://compute.world/data-centers#{q['id']}",
             "acceptedAnswer": {"@type": "Answer", "text": q["ld"]},
         }
         for q in D["questions"]
@@ -94,7 +94,7 @@ faq_ld = json.dumps({
 dc_og = og_block(
     html.escape(D["title"] + " · compute.world"),
     html.escape(D["description"]),
-    "https://compute.world/data-centers.html",
+    "https://compute.world/data-centers",
     "og.png",
     og_type="article",
     image_alt="Data centers FAQ — sourced grain on campus power, water, land, tax, jobs",
@@ -109,7 +109,7 @@ PAGE = f'''<!DOCTYPE html>
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>{html.escape(D["title"])} · compute.world</title>
 <meta name="description" content="{html.escape(D["description"])}">
-<link rel="canonical" href="https://compute.world/data-centers.html">
+<link rel="canonical" href="https://compute.world/data-centers">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {dc_og}
 <link rel="alternate" type="application/rss+xml" title="Data centers FAQ · compute.world" href="https://compute.world/data-centers.xml">
@@ -202,9 +202,9 @@ sup a{{border-bottom:none}}
       <span>{nice_short}</span>
       <a href="/data-centers.json">data-centers.json</a>
       <a href="/data-centers.xml">RSS</a>
-      <a href="/campuses.html">Campuses globe</a>
-      <a href="/wire.html">The Wire</a>
-      <a href="/contact.html">The Desk</a>
+      <a href="/campuses">Campuses globe</a>
+      <a href="/wire">The Wire</a>
+      <a href="/contact">The Desk</a>
     </div>
   </div>
 
@@ -218,7 +218,7 @@ sup a{{border-bottom:none}}
   <section class="notes" id="notes" aria-labelledby="notes-h">
     <h2 id="notes-h">Sources</h2>
     <ol>{note_block}</ol>
-    <p style="margin-top:18px;font-size:14px;color:var(--muted)">Cite as: <code>{html.escape(D["cite"])}</code>. A wrong number: <a href="/contact.html">The Desk</a>.</p>
+    <p style="margin-top:18px;font-size:14px;color:var(--muted)">Cite as: <code>{html.escape(D["cite"])}</code>. A wrong number: <a href="/contact">The Desk</a>.</p>
   </section>
 
   <div class="colophon">
@@ -246,8 +246,8 @@ pub = datetime.strptime(updated, "%Y-%m-%d").strftime("%a, %d %b %Y") + " 12:00:
 items = "".join(f'''
   <item>
     <title>{html.escape(q["q"])}</title>
-    <link>https://compute.world/data-centers.html#{html.escape(q["id"])}</link>
-    <guid isPermaLink="true">https://compute.world/data-centers.html#{html.escape(q["id"])}</guid>
+    <link>https://compute.world/data-centers#{html.escape(q["id"])}</link>
+    <guid isPermaLink="true">https://compute.world/data-centers#{html.escape(q["id"])}</guid>
     <pubDate>{pub}</pubDate>
     <description>{html.escape(q["ld"])}</description>
   </item>''' for q in D["questions"])
@@ -255,7 +255,7 @@ items = "".join(f'''
 RSS = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
   <title>Data centers FAQ · compute.world</title>
-  <link>https://compute.world/data-centers.html</link>
+  <link>https://compute.world/data-centers</link>
   <description>{html.escape(D["lede"])}</description>
   <language>en</language>
   <lastBuildDate>{pub}</lastBuildDate>{items}

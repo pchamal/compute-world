@@ -14,21 +14,21 @@ LINKS = (
     ("method", "Method", "/#method"),
     ("profiles", "Country profiles", "/#profiles"),
     ("data", "Data", "/#data"),
-    ("wire", "Wire", "/wire.html"),
-    ("inference", "Inference", "/inference.html"),
-    ("neoclouds", "Neoclouds", "/neoclouds.html"),
-    ("hyperscalers", "Hyperscalers", "/hyperscalers.html"),
-    ("datacenters", "Data centers", "/data-centers.html"),
-    ("campuses", "Campuses", "/campuses.html"),
-    ("stack", "Physical stack", "/physical-stack.html"),
-    ("contact", "Contact", "/contact.html"),
-    ("agents", "Agents", "/agents.html"),
+    ("wire", "Wire", "/wire"),
+    ("inference", "Inference", "/inference"),
+    ("neoclouds", "Neoclouds", "/neoclouds"),
+    ("hyperscalers", "Hyperscalers", "/hyperscalers"),
+    ("datacenters", "Data centers", "/data-centers"),
+    ("campuses", "Campuses", "/campuses"),
+    ("stack", "Physical stack", "/physical-stack"),
+    ("contact", "Contact", "/contact"),
+    ("agents", "Agents", "/agents"),
 )
 
 PAGE_HREF = {
-    "inference": "/inference.html",
-    "neoclouds": "/neoclouds.html",
-    "hyperscalers": "/hyperscalers.html",
+    "inference": "/inference",
+    "neoclouds": "/neoclouds",
+    "hyperscalers": "/hyperscalers",
 }
 HOME_CURRENT = ("silicon",)
 INNER = {

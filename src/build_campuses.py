@@ -124,7 +124,7 @@ ld = json.dumps({
     "datePublished": updated,
     "dateModified": updated,
     "description": D["description"],
-    "url": "https://compute.world/campuses.html",
+    "url": "https://compute.world/campuses",
     "author": person_author(),
     "publisher": org_publisher(),
     "isAccessibleForFree": True,
@@ -132,12 +132,12 @@ ld = json.dumps({
 }, ensure_ascii=False)
 crumb = json.dumps(breadcrumb_ld([
     ("compute.world", "https://compute.world/"),
-    ("Campuses", "https://compute.world/campuses.html"),
+    ("Campuses", "https://compute.world/campuses"),
 ]), ensure_ascii=False)
 camp_og = og_block(
     html.escape(D["title"] + " · compute.world"),
     html.escape(D["description"]),
-    "https://compute.world/campuses.html",
+    "https://compute.world/campuses",
     "og.png",
     og_type="article",
     image_alt="Campuses — desk-curated named-project globe, not a census",
@@ -158,7 +158,7 @@ PAGE = f'''<!DOCTYPE html>
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>{html.escape(D["title"])} · compute.world</title>
 <meta name="description" content="{html.escape(D["description"])}">
-<link rel="canonical" href="https://compute.world/campuses.html">
+<link rel="canonical" href="https://compute.world/campuses">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {camp_og}
 <link rel="icon" href="/mark.svg" type="image/svg+xml">
@@ -284,8 +284,8 @@ letter-spacing:.12em;text-transform:uppercase;color:var(--muted);cursor:pointer}
       <span>{nice_short}</span>
       <span>{len(projects)} named projects</span>
       <a href="/campuses.json">campuses.json</a>
-      <a href="/data-centers.html">Data centers FAQ</a>
-      <a href="/contact.html">The Desk</a>
+      <a href="/data-centers">Data centers FAQ</a>
+      <a href="/contact">The Desk</a>
     </div>
   </div>
 
@@ -335,7 +335,7 @@ letter-spacing:.12em;text-transform:uppercase;color:var(--muted);cursor:pointer}
       {book_notes}
       {held_html}
     </ul>
-    <p style="margin-top:18px;font-size:14px;color:var(--muted)">Cite as: <code>{html.escape(D["cite"])}</code>. A wrong pin: <a href="/contact.html">The Desk</a>. The slogans live on the <a href="/data-centers.html">Data centers FAQ</a>.</p>
+    <p style="margin-top:18px;font-size:14px;color:var(--muted)">Cite as: <code>{html.escape(D["cite"])}</code>. A wrong pin: <a href="/contact">The Desk</a>. The slogans live on the <a href="/data-centers">Data centers FAQ</a>.</p>
   </section>
 
   <div class="colophon">

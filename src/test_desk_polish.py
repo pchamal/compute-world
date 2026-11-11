@@ -8,7 +8,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 
-from desk_chrome import TAGLINE, NAV, MORE, cite_line, masthead
+from desk_chrome import TAGLINE, NAV, MORE, cite_line, footer, masthead
 from seo import robots_txt, SEARCH_BOTS, TRAINING_BOTS, BULK_PATHS
 from desk_data import PREC, PREC_CAMPUS, precedent_href
 
@@ -62,8 +62,11 @@ class Chrome(unittest.TestCase):
     def test_tagline_short(self):
         self.assertEqual(TAGLINE, "Countries. Compute.")
         html = masthead("", "2026-09-07")
-        self.assertIn("Countries. Compute.", html)
+        self.assertIn("Compute.World", html)
         self.assertNotIn("Countries. Compute. Silicon.", html)
+        foot = footer()
+        self.assertIn(TAGLINE, foot)
+        self.assertNotIn("Countries. Compute. Silicon.", foot)
         self.assertIn("Contact Us", html)
         self.assertIn("class=\"chrome\"", html)
         self.assertIn("mark.svg", html)
@@ -72,15 +75,17 @@ class Chrome(unittest.TestCase):
         labels = [n[0] for n in NAV]
         self.assertIn("Contact Us", labels)
         hrefs = [n[1] for n in NAV]
-        self.assertIn("/contact.html", hrefs)
+        self.assertIn("/contact", hrefs)
 
     def test_physical_stack_in_more(self):
         hrefs = [row[0] for row in MORE]
         labels = [row[1] for row in MORE]
-        self.assertIn("https://compute.world/physical-stack.html", hrefs)
+        self.assertIn("https://compute.world/physical-stack", hrefs)
         self.assertIn("Physical stack", labels)
         html = masthead("", "2026-09-14")
-        self.assertIn("physical-stack.html", html)
+        self.assertIn("https://compute.world/physical-stack", html)
+        self.assertNotIn("physical-stack.html", html)
+        self.assertNotIn(".html", html)
         self.assertIn("Physical stack", html)
 
     def test_citation_has_url_and_asof(self):
@@ -157,42 +162,71 @@ class SitemapLastmod(unittest.TestCase):
             with open(os.path.join(ROOT, name), encoding="utf-8") as fh:
                 return json.load(fh)
 
+        from seo import sitemap_xml
+
         silicon = load("silicon.json")
         brief = load("brief.json")
         wire = load("wire.json")
-        ranks = load("rank-history.json")
-        hist = load("silicon-history.json")
-        self.assertEqual(days["/silicon.html"], silicon["updated"][:10])
-        self.assertEqual(days["/silicon.json"], silicon["updated"][:10])
-        self.assertEqual(days["/silicon.xml"], silicon["snapshot"][:10])
-        self.assertEqual(days["/silicon-history.json"], hist["as_of"][:10])
-        self.assertEqual(days["/rank-history.json"], ranks["as_of"][:10])
+        self.assertEqual(days["/silicon"], silicon["updated"][:10])
         self.assertEqual(days["/brief"], brief["updated"][:10])
-        self.assertEqual(days["/brief.json"], brief["updated"][:10])
-        self.assertEqual(days["/brief.xml"], brief["updated"][:10])
-        self.assertEqual(days["/wire.html"], wire["updated"][:10])
-        self.assertEqual(days["/wire.json"], wire["updated"][:10])
-        with open(os.path.join(ROOT, "llms.txt"), encoding="utf-8") as fh:
-            llms = fh.read()
-        self.assertIn(f"Snapshot {days['/llms.txt']}", llms)
+        self.assertEqual(days["/wire"], wire["updated"][:10])
+        self.assertNotIn("/silicon.json", days)
+        self.assertNotIn("/silicon.xml", days)
         with open(os.path.join(ROOT, "contact.html"), encoding="utf-8") as fh:
             contact = fh.read()
-        self.assertEqual(days["/contact.html"], html_updated_day(contact))
-        self.assertRegex(days["/contact.html"], r"^\d{4}-\d{2}-\d{2}$")
-        self.assertNotEqual(days["/silicon.html"], "2026-08-18")
+        self.assertEqual(days["/contact"], html_updated_day(contact))
+        self.assertRegex(days["/contact"], r"^\d{4}-\d{2}-\d{2}$")
+        self.assertNotEqual(days["/silicon"], "2026-08-18")
 
         stamped = {u["loc"]: u.get("lastmod") for u in stamp_lastmod(DEFAULT_SITEMAP, ROOT)}
-        self.assertEqual(stamped[f"{SITE}/silicon.html"], days["/silicon.html"])
+        self.assertEqual(stamped[f"{SITE}/silicon"], days["/silicon"])
         self.assertEqual(stamped[f"{SITE}/brief"], days["/brief"])
-        self.assertEqual(stamped[f"{SITE}/llms.txt"], days["/llms.txt"])
-        self.assertEqual(stamped[f"{SITE}/contact.html"], days["/contact.html"])
-        data = next(u for u in stamp_lastmod(DEFAULT_SITEMAP, ROOT) if u["loc"].endswith("/data.json"))
-        self.assertNotIn("lastmod", data)
+        self.assertEqual(stamped[f"{SITE}/contact"], days["/contact"])
+        locs = [u["loc"] for u in DEFAULT_SITEMAP]
+        for loc in locs:
+            self.assertFalse(loc.endswith((".html", ".json", ".xml", ".txt")), loc)
+            self.assertNotIn("/embed", loc)
+        xml = sitemap_xml(
+            DEFAULT_SITEMAP
+            + [
+                {"loc": f"{SITE}/silicon.json"},
+                {"loc": f"{SITE}/silicon.html", "lastmod": "2026-11-11"},
+                {"loc": f"{SITE}/embed"},
+                {"loc": f"{SITE}/llms.txt"},
+                {"loc": f"{SITE}/country/nepal/", "lastmod": "2026-10-02", "changefreq": "weekly"},
+                {"loc": f"{SITE}/silicon/h100-sxm-80gb/", "lastmod": "2026-11-11"},
+            ]
+        )
+        self.assertIn(f"<loc>{SITE}/silicon</loc>", xml)
+        self.assertIn(f"<loc>{SITE}/country/nepal/</loc>", xml)
+        self.assertIn(f"<loc>{SITE}/silicon/h100-sxm-80gb/</loc>", xml)
+        self.assertEqual(xml.count(f"<loc>{SITE}/silicon</loc>"), 1)
+        self.assertNotIn(".json", xml)
+        self.assertNotIn(".html", xml)
+        self.assertNotIn(".xml<", xml)
+        self.assertNotIn("llms.txt", xml)
+        self.assertNotIn("/embed", xml)
         kept = stamp_lastmod(
             [{"loc": f"{SITE}/country/nepal/", "lastmod": "2026-10-02", "changefreq": "weekly"}],
             ROOT,
         )
         self.assertEqual(kept[0]["lastmod"], "2026-10-02")
+
+
+class NotFound(unittest.TestCase):
+    def test_unknown_paths_are_a_real_404(self):
+        with open(os.path.join(ROOT, "404.html"), encoding="utf-8") as fh:
+            html = fh.read()
+        self.assertIn('name="robots" content="noindex"', html)
+        self.assertNotIn('rel="canonical"', html)
+        self.assertIn('href="/"', html)
+        with open(os.path.join(ROOT, "embed.html"), encoding="utf-8") as fh:
+            embed = fh.read()
+        self.assertIn('name="robots" content="noindex"', embed)
+        with open(os.path.join(ROOT, "_redirects"), encoding="utf-8") as fh:
+            redirects = fh.read()
+        self.assertNotIn("/campuses /campuses.html", redirects)
+        self.assertIn("404.html", redirects)
 
 
 class Projects(unittest.TestCase):

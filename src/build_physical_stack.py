@@ -319,9 +319,9 @@ h1 em{{font-style:italic}}
       <span>{nice_short}</span>
       <a href="{MTS_PAGE}">MTS record</a>
       <a href="{MTS_API}">MTS /api/compute</a>
-      <a href="/campuses.html">Campuses globe</a>
-      <a href="/data-centers.html">Data centers FAQ</a>
-      <a href="/contact.html">The Desk</a>
+      <a href="/campuses">Campuses globe</a>
+      <a href="/data-centers">Data centers FAQ</a>
+      <a href="/contact">The Desk</a>
     </div>
   </div>
 
@@ -351,12 +351,12 @@ h1 em{{font-style:italic}}
   <section class="notes" id="notes" aria-labelledby="notes-h">
     <h2 id="notes-h">How this page sits on the desk</h2>
     <p>This is a credited outline, not a scrape. Prose here is compute.world's. Counts and the H100 spread are marked attributed because we checked them against the MTS page or <code>/api/compute</code>. We do not invent megawatts or dollars, and we do not copy their figures, glyphs, or charts.</p>
-    <p>Country conversion, silicon prints, and named campuses stay on this desk's own tapes. Campus slogans have a clerk's book at the <a href="/data-centers.html">Data centers FAQ</a>. Pins sit on <a href="/campuses.html">Campuses</a>.</p>
+    <p>Country conversion, silicon prints, and named campuses stay on this desk's own tapes. Campus slogans have a clerk's book at the <a href="/data-centers">Data centers FAQ</a>. Pins sit on <a href="/campuses">Campuses</a>.</p>
     <ul>
       <li>This page: <code>{CW_CITE}</code></li>
       <li>The record: <code>{MTS_CITE}</code></li>
     </ul>
-    <p>A wrong attribution: <a href="/contact.html">The Desk</a>.</p>
+    <p>A wrong attribution: <a href="/contact">The Desk</a>.</p>
   </section>
 
   <div class="colophon">

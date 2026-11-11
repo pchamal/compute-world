@@ -16,7 +16,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 # Same live desk date as the nav chips. Not the day this prose was last edited.
 ASOF = desk_asof()
-CITE = cite_line("The Desk", f"{SITE}/contact.html", ASOF)
+CITE = cite_line("The Desk", f"{SITE}/contact", ASOF)
 
 
 def latest_brief_html():
@@ -45,13 +45,13 @@ PAGE = f'''<!DOCTYPE html>
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>The Desk · Contact Us · compute.world</title>
 <meta name="description" content="Contact Us at The Desk: briefings, corrections, cite / data, and speaking. Pukar C. Hamal's public compute desk.">
-<link rel="canonical" href="https://compute.world/contact.html">
+<link rel="canonical" href="https://compute.world/contact">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {og_block("The Desk · Contact Us · compute.world",
     "Briefings, corrections, cite / data, and speaking. Pukar C. Hamal's public compute desk.",
-    "https://compute.world/contact.html", "og.png", image_alt="compute.world — Countries. Compute.")}
+    "https://compute.world/contact", "og.png", image_alt="compute.world — Countries. Compute.")}
 <script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"ContactPage","name":"The Desk","url":"https://compute.world/contact.html","description":"Pukar C. Hamal's public compute desk. Briefings, corrections, cite / data, and speaking.","author":{{"@type":"Person","name":"Pukar C. Hamal","url":"https://compute.world/contact.html","sameAs":["https://pukarhamal.com/"]}},"publisher":{{"@id":"https://compute.world/#org"}}}}
+{{"@context":"https://schema.org","@type":"ContactPage","name":"The Desk","url":"https://compute.world/contact","description":"Pukar C. Hamal's public compute desk. Briefings, corrections, cite / data, and speaking.","author":{{"@type":"Person","name":"Pukar C. Hamal","url":"https://compute.world/contact","sameAs":["https://pukarhamal.com/"]}},"publisher":{{"@id":"https://compute.world/#org"}}}}
 </script>
 <link rel="icon" href="/mark.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
@@ -127,7 +127,7 @@ footer .c2{{margin-top:10px;font-size:12px;color:var(--muted)}}
     <div class="eyebrow">The Desk · Contact Us</div>
     <h1>Briefings, corrections, and <em>better data</em>.</h1>
     <div class="prose">
-      {LATEST}<p>This is <b>Pukar C. Hamal</b>'s public compute desk, written from San Francisco. Companies write when they want a briefing, a sourced print checked, a country conversion question, or to cite or license the tapes. Researchers write when a number is wrong. Campus power, water, land, tax, and jobs have a sourced clerk's book at the <a href="/data-centers.html">Data centers FAQ</a>. Named campuses sit on a desk-curated globe at <a href="/campuses.html">Campuses</a> — a register, not a census.</p>
+      {LATEST}<p>This is <b>Pukar C. Hamal</b>'s public compute desk, written from San Francisco. Companies write when they want a briefing, a sourced print checked, a country conversion question, or to cite or license the tapes. Researchers write when a number is wrong. Campus power, water, land, tax, and jobs have a sourced clerk's book at the <a href="/data-centers">Data centers FAQ</a>. Named campuses sit on a desk-curated globe at <a href="/campuses">Campuses</a> — a register, not a census.</p>
       <p>A light pointer: <a href="https://pukarhamal.com/">pukarhamal.com</a>. The address is kept behind a quick human check, so it reaches a person and not a scraper. Confirm below and it appears.</p>
     </div>
     <div class="lanes">

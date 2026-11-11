@@ -45,3 +45,6 @@
 /inference.json
   Cache-Control: public, max-age=1800
   X-Robots-Tag: noarchive
+
+/404.html
+  X-Robots-Tag: noindex
