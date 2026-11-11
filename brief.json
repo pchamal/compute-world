@@ -1,39 +1,39 @@
 {
-  "updated": "2026-11-10",
-  "title": "Compute brief - 10 November 2026",
-  "description": "Public grids are closing their doors while builders bring their own power: Norway paused new data centre grid reservations until as late as August 2027, while SpaceX filed for a $24 billion gas plant and super-compute site at Starbase and PPL agreed terms to build about 2 GW of generation for one QTS campus. Nvidia fell for a second day on a report that $7.5 billion of its hardware reached China through a network tied to the Megaspeed affair. Wire: Norway, PPL and QTS, SpaceX Starbase, EuroHPC gigafactory reset, Equinix SG6, Megaspeed. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The grid says wait. The builders bring their own power.",
-  "lede": "Norway's grid operator Statnett on Monday paused new grid reservations for data centres until as late as 1 August 2027 and the government said it will license data centres, after requests reached 31 GW in a country whose peak demand is just over 25 GW. Builders are answering queue risk by owning generation: SpaceX filed a hearing notice for a roughly $24 billion gas-fired plant and super-compute facility at Starbase, Texas, and PPL's Invitium agreed terms to build about 2 GW of gas, fuel cells and batteries for a single QTS campus in Pennsylvania, where PPL's advanced pipeline is now 35.3 GW. Nvidia fell for a second day, down nearly 6% by late morning Eastern on Tuesday, after The Information reported at least $7.5 billion of its hardware reached Chinese buyers through a network linked to the Megaspeed executive at the centre of the board's investigation; AMD and Broadcom rose. Europe slipped again: EuroHPC voided every AI gigafactory tender for technical reasons, with large sites now due 3 December and medium sites 4 February. Live list prices held: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
+  "updated": "2026-11-11",
+  "title": "Compute brief - 11 November 2026",
+  "description": "Demand is not the constraint; sites and financing are. Anthropic's amended IPO filing says its $34.9 billion August deal with Lambda is now terminable after Lambda missed a facility-lease deadline, while CoreWeave posted a $132.5 billion backlog and said slower construction could keep GPU prices higher for longer. Wire: Anthropic and Lambda, CoreWeave Q3, Google Malaysia $15 billion, Kraft Sutton 900 MW, Integra Quanah 756 MW, BNEF 181 GW on-site gas. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The contracts are signed. The sites are not.",
+  "lede": "Anthropic's second IPO filing amendment, filed Tuesday, says its August 2026 compute agreement with Lambda, about $34.9 billion of a $41.3 billion set of Lambda commitments, is now terminable by either party because Lambda did not secure the facility lease by the contractual date; neither side has given notice and Anthropic says it does not intend to terminate. The same filing lifts its Microsoft commitment to at least $47.2 billion. Hours later CoreWeave reported Q3 revenue of $3.66 billion, up 168%, raised 2026 guidance and showed backlog of $132.5 billion, up from $104.2 billion in June, while saying it will avoid parent-level unsecured debt through 2027 at current yields. CEO Michael Intrator argued that if sector construction slows, installed compute gets scarcer and GPU pricing may stay higher for longer. TSMC's October revenue hit NT$586.9 billion, up 59.7% year on year and its highest month on record. BloombergNEF counts 181 GW of on-site gas proposed for data centres in the US and Europe as builders route around grid queues. Live list prices held for a third straight day: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
   "countries": [
     {
-      "id": "nor-statnett-pause",
-      "name": "Norway",
-      "slug": "norway",
-      "note": "Statnett pauses new data centre grid reservations until as late as 1 August 2027; government plans a licensing regime (Wire, 9 Nov, confirmed)."
-    },
-    {
-      "id": "usa-spacex-starbase",
+      "id": "usa-anthropic-lambda",
       "name": "United States",
       "slug": "united-states",
-      "note": "SpaceX files for a roughly $24 billion gas plant and super-compute facility at Starbase, Texas; tax abatement hearing 9 December (Wire, 9 Nov, Reuters single-source)."
+      "note": "Anthropic S-1/A: $34.9 billion August Lambda agreement terminable after a missed facility-lease deadline; no notice given (Wire, 10 Nov, confirmed)."
     },
     {
-      "id": "usa-ppl-qts",
+      "id": "usa-coreweave-q3",
       "name": "United States",
       "slug": "united-states",
-      "note": "PPL's Invitium agrees terms for about 2 GW of generation for QTS in Salem Township, Pennsylvania; PA pipeline 35.3 GW (Wire, 6 Nov, confirmed)."
+      "note": "CoreWeave Q3 revenue $3.66 billion, backlog $132.5 billion, 1.85 GW active by end-2026 reaffirmed (Wire, 10 Nov, confirmed)."
     },
     {
-      "id": "chn-megaspeed",
-      "name": "China",
-      "slug": "china",
-      "note": "The Information reports at least $7.5 billion of Nvidia hardware reached Chinese companies since 2023 via a Megaspeed-linked network (Wire, 10 Nov, single-source)."
+      "id": "mys-google-15bn",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "Google commits US$15 billion for 2027 to 2028 campuses in Selangor and Negeri Sembilan plus more than 1 GW of clean energy (Wire, 4 Nov, confirmed)."
     },
     {
-      "id": "sgp-equinix-sg6",
-      "name": "Singapore",
-      "slug": "singapore",
-      "note": "Equinix opens SG6, 8 MW now and up to 20 MW, among the first sites built under the call-for-application regime (Wire, 6 Nov, confirmed)."
+      "id": "usa-kraft-sutton",
+      "name": "United States",
+      "slug": "united-states",
+      "note": "Kraft Group floats a 900 MW, $16 billion campus in Sutton, Massachusetts; town vote targeted May 2027 (Wire, 11 Nov, single-source)."
+    },
+    {
+      "id": "usa-integra-quanah",
+      "name": "United States",
+      "slug": "united-states",
+      "note": "Integra-linked TDLR filing for an $8 billion, up to 756 MW campus in Quanah, Texas (Wire, 10 Nov, single-source)."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print"
+      "note": "Confirm vs 10 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +54,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print"
+      "note": "Confirm vs 10 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -65,10 +65,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print"
+      "note": "Confirm vs 10 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -76,10 +76,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 10 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -87,10 +87,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 10 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -98,10 +98,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print"
+      "note": "Confirm vs 10 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -109,10 +109,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print"
+      "note": "Confirm vs 10 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -120,10 +120,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print"
+      "note": "Confirm vs 10 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -131,27 +131,32 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 9 Nov print"
+      "note": "Confirm vs 10 Nov print"
     }
   ],
   "watch": [
-    {
-      "id": "coreweave-q3",
-      "name": "CoreWeave Q3",
-      "note": "Reports 10 November after the close; guided revenue $3.45 to $3.6 billion and interest $860 to $940 million against $200 to $260 million adjusted operating income."
-    },
     {
       "id": "nebius-q3",
       "name": "Nebius Q3",
       "note": "Reports 12 November before the open; first word on Microsoft's tighter oversight."
     },
     {
+      "id": "lambda-anthropic-lease",
+      "name": "Lambda facility lease",
+      "note": "Whether Lambda secures the lease or either party serves notice on the $34.9 billion August agreement."
+    },
+    {
+      "id": "anthropic-ipo",
+      "name": "Anthropic IPO",
+      "note": "Indicated range $70 to $78 per share, about $1.4 trillion valuation; Nasdaq debut expected next week."
+    },
+    {
       "id": "nvidia-board-review",
       "name": "Nvidia board review",
-      "note": "Independent committee and outside counsel; FBI looking into it per President Trump; Nvidia reports fiscal Q3 on 17 November."
+      "note": "Joon H. Kim and Wachtell, Lipton retained by independent directors; Nvidia reports fiscal Q3 on 17 November."
     },
     {
       "id": "crusoe-dec1-pricing",
@@ -159,61 +164,61 @@
       "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
     },
     {
-      "id": "eu-gigafactory-bids",
-      "name": "EU AI gigafactory tender",
-      "note": "All tenders must be resubmitted; large sites (Lot 2) due 3 December, medium sites (Lot 1) 4 February 2027."
-    },
-    {
       "id": "indiaai-bids",
       "name": "IndiaAI 10,000-GPU round",
       "note": "Bids close 13 November."
     },
     {
-      "id": "dec9-hearings",
-      "name": "9 December hearings",
-      "note": "SpaceXAI Cochise County zoning decision and Starbase tax abatement both on 9 December."
+      "id": "eu-gigafactory-bids",
+      "name": "EU AI gigafactory tender",
+      "note": "Large sites (Lot 2) due 3 December, medium sites (Lot 1) 4 February 2027."
     }
   ],
   "sources": [
     {
-      "name": "Regjeringen: controlled growth of socially useful data centres",
-      "url": "https://www.regjeringen.no/no/aktuelt/regjeringen-vil-ha-en-kontrollert-vekst-av-samfunnsnyttige-datasentre-i-norge/id3192054/",
-      "note": "Lead and Wire: Norway licensing and Statnett pause."
+      "name": "Anthropic S-1/A (Amendment No. 2)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "note": "Lead and Wire: Lambda agreement terminable; Microsoft commitment."
     },
     {
-      "name": "DCD: Norway halts grid connection applications for new data centers",
-      "url": "https://www.datacenterdynamics.com/en/news/norway-halts-grid-connection-applications-for-new-data-centers/",
+      "name": "DCD: Anthropic signs another $4.3bn in compute agreements with Microsoft",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-another-43bn-in-compute-agreements-with-microsoft/",
       "note": "Wire corroboration."
     },
     {
-      "name": "Reuters via Investing.com: SpaceX plans $24 billion gas power plant, data center project in Texas",
-      "url": "https://www.investing.com/news/stock-market-news/spacex-plans-24-billion-gas-power-plant-data-center-project-in-texas-5013083",
-      "note": "Lead and Wire: United States."
+      "name": "CoreWeave Q3 2026 results",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/",
+      "note": "Lead and Wire: backlog, guidance."
     },
     {
-      "name": "DCD: PPL advanced stage data center pipeline hits 35GW in Pennsylvania",
-      "url": "https://www.datacenterdynamics.com/en/news/ppl-advanced-stage-data-center-pipeline-hits-35gw-in-pennsylvania/",
-      "note": "Lead and Wire: United States."
+      "name": "CNBC: CoreWeave beats on revenue and lifts guidance",
+      "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "note": "Call quotes, debt, financing plan."
     },
     {
-      "name": "CNBC: Nvidia falls for second day",
-      "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
-      "note": "Lead: share move, FBI, class action."
+      "name": "TSMC October 2026 revenue report",
+      "url": "https://pr.tsmc.com/english/news/3349",
+      "note": "Lead: NT$586.89 billion, up 59.7% YoY."
     },
     {
-      "name": "Yahoo Finance: The Information reports $7.5 billion in China chip shipments",
-      "url": "https://finance.yahoo.com/markets/article/nvidia-stock-drops-3-extending-decline-on-report-alleged-chinese-spy-linked-to-nvidia-ceo-aided-75-billion-in-china-chip-shipments-152654028.html",
-      "note": "Wire: China, single-source."
+      "name": "Google: US$15 billion Malaysia investment",
+      "url": "https://blog.google/intl/en-my/company-news/inside-google/google-investment-malaysia-digital-infrastructure-november-2026/",
+      "note": "Wire: Malaysia."
     },
     {
-      "name": "EuroHPC JU: AI Gigafactory call for tenders",
-      "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en",
-      "note": "Wire: EU deadlines."
+      "name": "DCD: Kraft Group could build 900MW campus in Sutton, Massachusetts",
+      "url": "https://www.datacenterdynamics.com/en/news/kraft-group-could-build-900mw-data-center-campus-in-sutton-massachusetts-investing-16-billion/",
+      "note": "Wire: United States."
     },
     {
-      "name": "Equinix: SG6 opens in Singapore",
-      "url": "https://newsroom.equinix.com/2026-11-06-Equinix-Opens-SG6-in-Singapore,-Expanding-AI-Ready-Capacity-in-One-of-Asia-Pacifics-Most-Connected-Markets",
-      "note": "Wire: Singapore."
+      "name": "DCD: Application filed for $8bn data center project in Quanah, Texas",
+      "url": "https://www.datacenterdynamics.com/en/news/application-filed-for-8bn-data-center-project-in-quanah-texas/",
+      "note": "Wire: United States."
+    },
+    {
+      "name": "The Guardian: BloombergNEF on 181 GW of on-site gas for data centres",
+      "url": "https://www.theguardian.com/world/2026/nov/11/ai-datacentres-on-site-gas-fired-power-stations",
+      "note": "Lead and Wire."
     },
     {
       "name": "Lambda Cloud pricing",

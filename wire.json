@@ -1,6 +1,121 @@
 {
   "items": [
     {
+      "id": "usa-anthropic-lambda-34-9bn-agreement-terminable-missed-facility-lease-2026-11-10",
+      "date": "2026-11-10",
+      "title": "Anthropic's amended IPO filing says its $34.9 billion August compute deal with Lambda is now terminable after Lambda missed a facility-lease deadline",
+      "summary": "Anthropic's second S-1 amendment, filed 10 November 2026, says that under its August 2026 agreement with Lambda, about $34.9 billion of a roughly $41.3 billion set of Lambda commitments running into 2034, either party may terminate if Lambda did not secure the facility lease by a specific date; Lambda did not, so the agreement is currently terminable by either side. Neither party had given notice and Anthropic says it does not currently intend to terminate. The same filing raises Anthropic's Microsoft commitment to at least $47.2 billion and up to $49.2 billion between November 2026 and June 2033, against $44.9 billion in the 2 November filing. Caveat: the filing does not name the facility; press reports from September tied the roughly $35 billion deal to a Hut 8 campus under development in Nueces County, Texas, which is not confirmed here. Country conversion: the largest single US neocloud contract now hinges on one site lease.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+      "source": "Anthropic S-1/A (Amendment No. 2), SEC, 10 Nov 2026; The Information; DCD, 11 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Stall"
+      ],
+      "score": 60
+    },
+    {
+      "id": "usa-coreweave-q3-backlog-132-5bn-1-85gw-active-2026-capex-37-39bn-2026-11-10",
+      "date": "2026-11-10",
+      "title": "CoreWeave Q3 revenue $3.66 billion, backlog $132.5 billion, still guiding 1.85 GW active power by end-2026",
+      "summary": "CoreWeave reported third-quarter 2026 revenue of $3.66 billion, up 168% year on year, and a net loss of $709 million, and raised 2026 guidance to $13 billion to $13.3 billion of revenue and $1.275 billion to $1.375 billion of adjusted operating income. Revenue backlog rose to about $132.5 billion at 30 September from $104.2 billion at 30 June. Management still expects 1.85 GW of active power by the end of 2026 and $37 billion to $39 billion of 2026 capex, said almost all its power is online or permitted and under construction, and said it does not plan parent-level unsecured debt through 2027 at current yields, relying on customer prepayments, vendor financing and asset-level secured debt. CEO Michael Intrator said a sector-wide construction slowdown could keep GPU pricing higher for longer. Caveat: debt was almost $47 billion at quarter end and some CoreWeave bonds recently yielded above 16% (CNBC). Country conversion: US neocloud capacity is backlog-rich but financing-gated.",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/",
+      "source": "CoreWeave Q3 2026 results and call, 10 Nov 2026; CNBC; Reuters",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Cloud"
+      ],
+      "score": 52
+    },
+    {
+      "id": "malaysia-google-15bn-2027-2028-selangor-negeri-sembilan-1gw-clean-energy-2026-11-04",
+      "date": "2026-11-04",
+      "title": "Google commits US$15 billion to Malaysia data centre campuses in 2027 and 2028 and more than 1 GW of new clean energy",
+      "summary": "Google said on 4 November 2026 it will invest US$15 billion in Malaysia over 2027 and 2028 to expand its operational first campus at Elmina Business Park, Selangor and build new campuses in Selangor and Negeri Sembilan, alongside a coming Google Cloud region. It plans to add more than 1 GW of clean energy capacity to the national grid (with TNB, per Prime Minister Anwar), says it will pay for 100% of the power its campuses use and the direct grid-connection costs, and targets PUE of 1.12 to 1.14. Google projects more than 37,000 local jobs a year during construction and about 9,000 once operating. This builds on its US$2 billion Malaysia commitment of May 2024. Caveat: no MW figure for the campuses; DCD cites reports of 500 MW to 1 GW for the Port Dickson (Negeri Sembilan) site, which Google has not confirmed. Country conversion: a hyperscaler sizes Malaysia beyond Johor with self-funded grid additions.",
+      "url": "https://blog.google/intl/en-my/company-news/inside-google/google-investment-malaysia-digital-infrastructure-november-2026/",
+      "source": "Google Malaysia blog, 4 Nov 2026; Malay Mail; CNA; Bloomberg; DCD",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Build",
+        "Capital",
+        "Energy"
+      ],
+      "score": 55
+    },
+    {
+      "id": "usa-kraft-group-sutton-massachusetts-900mw-16bn-campus-memo-2026-11-11",
+      "date": "2026-11-11",
+      "title": "Kraft Group floats a 900 MW, $16 billion data centre campus in Sutton, Massachusetts",
+      "summary": "A memo from Sutton town manager Austin Cyganiewicz to the Select Board says the Kraft Group, with Unified Global Packaging Group, is planning a data centre campus at Unified's Parkway property: two buildings of about 250,000 sq ft and roughly 90 MW each from 2029, then two more a year to 2033, drawing about 900 MW at full build-out and more than $16 billion of private investment by the developer's estimate. Talks with the regional grid operator for power are under way and reclaimed water would be used for cooling. The memo projects about $10.4 million a year in property tax by 2031, rising to $27.8 million, against a projected 2027 town levy of $32 million; a town meeting vote is targeted for May 2027. Caveat: the proposal is tentative, no application has been filed, and residents raised noise and moratorium concerns; under a state executive order, projects over 25 MW need local approval and a community benefits agreement. Country conversion: a large New England campus attempt in a state that now requires local sign-off.",
+      "url": "https://www.datacenterdynamics.com/en/news/kraft-group-could-build-900mw-data-center-campus-in-sutton-massachusetts-investing-16-billion/",
+      "source": "Sutton, MA town manager memo via DCD, 11 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Policy"
+      ],
+      "score": 44
+    },
+    {
+      "id": "usa-integra-quanah-hardeman-county-texas-756mw-8bn-tdlr-filing-2026-11-10",
+      "date": "2026-11-10",
+      "title": "Integra-linked filing proposes an $8 billion, up to 756 MW data centre in Quanah, Texas",
+      "summary": "19000-200 Holdings, LLC, whose address matches turnkey builder Integra, filed with the Texas Department of Licensing and Regulation for a 288,355 sq ft single-story data centre at 4628 Four Corners Road, Quanah, Hardeman County, with construction from November 2026 to the end of December 2028 and $8 billion of investment, per DCD. Integra's project website puts the campus at up to 756 MW with closed-loop cooling. The site is under 30 miles from Childress, where IREN and Crusoe are developing campuses. Caveat: end user undisclosed; the filing comes as Texas governor-elect Hinojosa has pledged to halt new data centre approvals pending new rules. Country conversion: the North Texas Panhandle corridor keeps drawing gigawatt-class filings into a tightening state regime.",
+      "url": "https://www.datacenterdynamics.com/en/news/application-filed-for-8bn-data-center-project-in-quanah-texas/",
+      "source": "TDLR filing and Integra project site via DCD, 10 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build"
+      ],
+      "score": 40
+    },
+    {
+      "id": "bnef-181gw-onsite-gas-planned-for-data-centres-us-europe-2026-11-11",
+      "date": "2026-11-11",
+      "title": "BloombergNEF counts 181 GW of on-site gas generation proposed for data centres in the US, UK and Europe because of grid delays",
+      "summary": "A BloombergNEF report published 11 November 2026, as reported by The Guardian, finds data centres planned across the US, the UK and mainland Europe propose on-site gas plants totalling 181 GW, with about 90% of on-site gas planned in the US, where full rollout would emit about 345 million tonnes of CO2e a year. BNEF projects AI data centre electricity demand near 2,354 TWh by 2035, about 7% of global demand, and warns that 'temporary' bridge generation risks long-term lock-in. The Guardian notes UK sites such as Wapseys Wood and Quest Park are seeking on-site gas while awaiting grid connections. Caveat: proposed capacity, not built or permitted; figures are as reported by The Guardian, not read from the BNEF report itself. Country conversion: behind-the-meter gas is becoming the default US route around interconnection queues.",
+      "url": "https://www.theguardian.com/world/2026/nov/11/ai-datacentres-on-site-gas-fired-power-stations",
+      "source": "BloombergNEF via The Guardian, 11 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA",
+        "GBR"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "score": 46
+    },
+    {
       "id": "norway-statnett-halts-data-centre-grid-reservations-licensing-regime-2026-11-09",
       "date": "2026-11-09",
       "title": "Norway halts new grid reservations for data centres until as late as 1 August 2027 and plans a licensing regime",
@@ -3492,6 +3607,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-10",
-  "note": "Wire refresh 2026-11-10: added norway-statnett-halts-data-centre-grid-reservations-licensing-regime-2026-11-09, usa-ppl-invitium-qts-salem-township-2gw-generation-35gw-pa-pipeline-2026-11-06, usa-spacex-starbase-24bn-gas-plant-supercompute-tax-abatement-dec-9-2026-11-09, eu-eurohpc-ai-gigafactory-tenders-voided-resubmit-lot2-3-dec-lot1-4-feb-2026-11-05, singapore-equinix-sg6-opens-first-dc-cfa-8mw-290m-2026-11-06, china-megaspeed-network-7-5bn-nvidia-hardware-shipments-the-information-2026-11-10. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-11",
+  "note": "Wire refresh 2026-11-11: added usa-anthropic-lambda-34-9bn-agreement-terminable-missed-facility-lease-2026-11-10, usa-coreweave-q3-backlog-132-5bn-1-85gw-active-2026-capex-37-39bn-2026-11-10, malaysia-google-15bn-2027-2028-selangor-negeri-sembilan-1gw-clean-energy-2026-11-04, usa-kraft-group-sutton-massachusetts-900mw-16bn-campus-memo-2026-11-11, usa-integra-quanah-hardeman-county-texas-756mw-8bn-tdlr-filing-2026-11-10, bnef-181gw-onsite-gas-planned-for-data-centres-us-europe-2026-11-11. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
