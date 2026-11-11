@@ -1,4 +1,5 @@
 _page_script.js
 __pycache__/
 src/deploy/
+.wrangler/
 .DS_Store
