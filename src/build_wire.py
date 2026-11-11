@@ -42,7 +42,7 @@ ld_items = [{"@type": "ListItem", "position": i + 1,
             for i, it in enumerate(items[:20])]
 LD = json.dumps({"@context": "https://schema.org", "@type": "ItemList",
                  "name": "The Wire: sovereign AI and compute infrastructure signals",
-                 "url": "https://compute.world/wire.html", "itemListElement": ld_items})
+                 "url": "https://compute.world/wire", "itemListElement": ld_items})
 
 PAGE = f'''<!DOCTYPE html>
 <html lang="en">
@@ -53,12 +53,12 @@ PAGE = f'''<!DOCTYPE html>
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>The Wire · Sovereign AI &amp; Compute Infrastructure News, Rated · compute.world</title>
 <meta name="description" content="Rated signals on sovereign AI and compute infrastructure: country announcements, AI factory buildouts, chip policy, and compute capital, each scored for credibility. Updated {W["updated"]}.">
-<link rel="canonical" href="https://compute.world/wire.html">
+<link rel="canonical" href="https://compute.world/wire">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {og_block("The Wire · compute news, rated",
     "Sovereign AI and compute infrastructure signals, scored for credibility. From the world's compute &amp; silicon index.",
-    "https://compute.world/wire.html", "og.png", image_alt="compute.world — the world's compute & silicon index")}
-<script type="application/ld+json">{json.dumps(breadcrumb_ld([("compute.world","https://compute.world/"),("The Wire","https://compute.world/wire.html")]))}</script>
+    "https://compute.world/wire", "og.png", image_alt="compute.world — the world's compute & silicon index")}
+<script type="application/ld+json">{json.dumps(breadcrumb_ld([("compute.world","https://compute.world/"),("The Wire","https://compute.world/wire")]))}</script>
 <link rel="alternate" type="application/rss+xml" title="The Wire · compute.world" href="https://compute.world/wire.xml">
 <link rel="icon" href="/mark.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
@@ -164,8 +164,8 @@ details.meth .mb b{{color:var(--ink)}}
     <div class="subrow">
       <span class="lab">Follow</span>
       <a href="/wire.xml">RSS</a>
-      <a href="https://x.com/intent/post?text=The%20Wire%3A%20sovereign%20AI%20and%20compute%20signals%2C%20rated.&url=https%3A%2F%2Fcompute.world%2Fwire.html" rel="noopener">Share on X</a>
-      <a href="/contact.html">Submit a signal</a>
+      <a href="https://x.com/intent/post?text=The%20Wire%3A%20sovereign%20AI%20and%20compute%20signals%2C%20rated.&url=https%3A%2F%2Fcompute.world%2Fwire" rel="noopener">Share on X</a>
+      <a href="/contact">Submit a signal</a>
     </div>
   </div>
 
@@ -179,7 +179,7 @@ details.meth .mb b{{color:var(--ink)}}
     <summary>How the Signal Score works</summary>
     <div class="mb">
       <p><b>Signal Score, 0 to 100, four disclosed components.</b> Source tier, 40%: primary documents (government registers, regulator rulings, company releases) score highest, then wire services and majors, trade press, regional outlets, aggregators. Corroboration, 30%: Confirmed means a primary source plus at least two independents; Corroborated means multiple independents; Single-source and Disputed are labeled as exactly that. Specificity, 20%: announcements that name megawatts, dollars, GPU counts, sites, and dates outrank ones that name a vision. Delivery context, 10%: claims from actors with live or building projects in the <a href="/#precedents">precedents table</a> outrank first announcements, and actors with stalled projects are discounted.</p>
-      <p>The Wire rates claims and publication types. It does not rate the honesty of outlets or of named individuals. Items are gathered by machine (GDELT and Google News queries across 108 countries), scored, and curated by a human before publication. Corrections: <a href="/contact.html">get in touch</a>. Summaries are original; headlines link to their sources. Feed: <a href="/wire.xml">wire.xml</a> · data: <a href="/wire.json">wire.json</a> (CC BY 4.0, attribution to compute.world).</p>
+      <p>The Wire rates claims and publication types. It does not rate the honesty of outlets or of named individuals. Items are gathered by machine (GDELT and Google News queries across 108 countries), scored, and curated by a human before publication. Corrections: <a href="/contact">get in touch</a>. Summaries are original; headlines link to their sources. Feed: <a href="/wire.xml">wire.xml</a> · data: <a href="/wire.json">wire.json</a> (CC BY 4.0, attribution to compute.world).</p>
     </div>
   </details>
 
@@ -221,12 +221,12 @@ rss_items = "".join(f'''
     <link>{html.escape(it["url"])}</link>
     <guid isPermaLink="false">compute.world/wire#{it["id"]}</guid>
     <pubDate>{datetime.strptime(it["date"], "%Y-%m-%d").strftime("%a, %d %b %Y")} 12:00:00 GMT</pubDate>
-    <description>{html.escape(it["summary"])} [Signal {it["score"]}, {html.escape(it["corroboration"])}, via {html.escape(it["source"])}] More: https://compute.world/wire.html</description>
+    <description>{html.escape(it["summary"])} [Signal {it["score"]}, {html.escape(it["corroboration"])}, via {html.escape(it["source"])}] More: https://compute.world/wire</description>
   </item>''' for it in items[:30])
 RSS = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
   <title>The Wire · compute.world</title>
-  <link>https://compute.world/wire.html</link>
+  <link>https://compute.world/wire</link>
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>{rss_items}
 </channel></rss>'''

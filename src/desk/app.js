@@ -127,7 +127,7 @@ function renderBoard(){
   if(state.tab==="countries"){
     foot.innerHTML = '<span>'+esc(L.label)+', '+(rows.length===COUNTRIES.length?'all 108 countries':rows.length+' of 108 countries')+'. Grey figures are estimate fills.</span><span class="spacer"></span><span>Snapshot '+fmtDate(CFG.asOf)+'. Macros refresh from the IMF and World Bank.</span>';
   } else {
-    foot.innerHTML = '<span>Buy-now list from the most liquid public venue. Labeled terms only; on-demand, spot and reserved are never blended.</span><span class="spacer"></span><a href="https://compute.world/silicon.html">Full tape with the term book</a>';
+    foot.innerHTML = '<span>Buy-now list from the most liquid public venue. Labeled terms only; on-demand, spot and reserved are never blended.</span><span class="spacer"></span><a href="https://compute.world/silicon">Full tape with the term book</a>';
   }
   if(isMap) paintMap();
   if(state.open){ const li = $("#row-"+CSS.escape(state.open)); if(li) openRow(li, true); }
@@ -371,7 +371,7 @@ function renderProjects(){
   $("#precCount").textContent = rows.length+" of "+DATA.precedents.length;
   $("#plist").innerHTML = rows.map(p=>{
     const c = byId[p[0]];
-    const href = p[5] || (c ? ROOT+"country/"+c.slug+"/#projects" : "/campuses.html");
+    const href = p[5] || (c ? ROOT+"country/"+c.slug+"/#projects" : "/campuses");
     const who = c ? flag(c)+'<span class="name" style="font-size:15px">'+esc(c.name)+'</span>' : '<img class="flag" src="'+ROOT+'flags/eu.svg" alt="" width="24" height="18" data-code="EU" onerror="flagFail(this)"><span class="name" style="font-size:15px">European Union</span>';
     return '<li><a class="proj-row" href="'+esc(href)+'"><span class="who">'+who+'</span><span class="proj">'+esc(p[1])+'</span><span class="scale">'+esc(p[2])+'</span><span class="status '+p[3]+'">'+p[3]+'</span><span class="date">'+esc(p[4])+'</span></a></li>';
   }).join("");

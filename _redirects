@@ -1,3 +1,5 @@
 # Cloudflare Pages already 308s *.html → extensionless and serves the .html file.
 # Never add the reverse (extensionless → *.html) or you get a redirect loop.
+# /404.html is required. Without a top-level 404.html, Pages serves index.html
+# at 200 for every unknown path (SPA fallback), including /sitemap_index.xml.
 /stack /physical-stack 301

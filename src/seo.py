@@ -58,7 +58,7 @@ def robots_txt():
         "User-agent: *",
         "Allow: /",
         "Allow: /llms.txt",
-        "Allow: /agents.html",
+        "Allow: /agents",
         "",
     ]
     for bot in SEARCH_BOTS:
@@ -66,7 +66,7 @@ def robots_txt():
     for bot in TRAINING_BOTS:
         lines.append(f"User-agent: {bot}")
         lines.append("Allow: /llms.txt")
-        lines.append("Allow: /agents.html")
+        lines.append("Allow: /agents")
         for path in BULK_PATHS:
             lines.append(f"Disallow: {path}")
         lines.append("Crawl-delay: 10")
@@ -76,13 +76,55 @@ def robots_txt():
     return "\n".join(lines)
 
 
+# Pages 308s /page.html to /page. Sitemap locs are that 200 URL.
+# JSON dumps, XML feeds, llms.txt, and the noindex embed are not index pages.
+_SITEMAP_DROP_SUFFIX = (".json", ".xml", ".txt")
+_SITEMAP_SKIP = {"/embed"}
+
+
+def public_path(loc):
+    """Path of the URL Pages serves at 200. Strips a .html Pages redirects away."""
+    path = (loc or "").strip()
+    if path.startswith(SITE):
+        path = path[len(SITE):] or "/"
+    if not path.startswith("/"):
+        path = "/" + path
+    path = path.split("?", 1)[0].split("#", 1)[0]
+    if path.endswith(".html"):
+        path = path[:-5] or "/"
+    if path == "/index":
+        path = "/"
+    return path
+
+
+def public_loc(loc):
+    """Absolute 200 URL. Homepage keeps the trailing slash (https://compute.world/)."""
+    return SITE + public_path(loc)
+
+
+def sitemap_entries(urls):
+    """One loc per indexable HTML page. Drops dumps, feeds, and /embed."""
+    seen = set()
+    out = []
+    for url in urls:
+        path = public_path(url.get("loc") or "")
+        if not path or path.endswith(_SITEMAP_DROP_SUFFIX) or path in _SITEMAP_SKIP:
+            continue
+        loc = SITE + path
+        if loc in seen:
+            continue
+        seen.add(loc)
+        out.append({**url, "loc": loc})
+    return out
+
+
 def sitemap_xml(urls):
     """urls: list of dicts with loc, optional lastmod, changefreq, priority."""
     parts = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
-    for u in urls:
+    for u in sitemap_entries(urls):
         parts.append("<url>")
         parts.append(f"<loc>{u['loc']}</loc>")
         if u.get("lastmod"):
@@ -99,37 +141,20 @@ def sitemap_xml(urls):
 
 # lastmod below is a fallback for a missing artifact. src/build_sitemap.py
 # overwrites it from JSON updated/snapshot/as_of and HTML "Updated" lines.
+# Country and chip profiles are appended by build_desk (trailing-slash URLs).
 DEFAULT_SITEMAP = [
     {"loc": f"{SITE}/", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/silicon.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/silicon.json", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/silicon-history.json", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/rank-history.json", "lastmod": "2026-08-19", "changefreq": "daily"},
-    {"loc": f"{SITE}/silicon.xml", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/inference.html", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/inference.json", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/inference.xml", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/neoclouds.html", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/neoclouds.json", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/neoclouds.xml", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/hyperscalers.html", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/hyperscalers.json", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/hyperscalers.xml", "lastmod": "2026-08-19", "changefreq": "weekly"},
-    {"loc": f"{SITE}/data-centers.html", "lastmod": "2026-08-22", "changefreq": "monthly"},
-    {"loc": f"{SITE}/data-centers.json", "lastmod": "2026-08-22", "changefreq": "monthly"},
-    {"loc": f"{SITE}/data-centers.xml", "lastmod": "2026-08-22", "changefreq": "monthly"},
-    {"loc": f"{SITE}/campuses.html", "lastmod": "2026-08-22", "changefreq": "weekly"},
-    {"loc": f"{SITE}/campuses.json", "lastmod": "2026-08-22", "changefreq": "weekly"},
-    {"loc": f"{SITE}/physical-stack.html", "lastmod": "2026-09-14", "changefreq": "monthly"},
+    {"loc": f"{SITE}/silicon", "lastmod": "2026-08-18", "changefreq": "weekly"},
+    {"loc": f"{SITE}/inference", "lastmod": "2026-08-19", "changefreq": "weekly"},
+    {"loc": f"{SITE}/neoclouds", "lastmod": "2026-08-19", "changefreq": "weekly"},
+    {"loc": f"{SITE}/hyperscalers", "lastmod": "2026-08-19", "changefreq": "weekly"},
+    {"loc": f"{SITE}/data-centers", "lastmod": "2026-08-22", "changefreq": "monthly"},
+    {"loc": f"{SITE}/campuses", "lastmod": "2026-08-22", "changefreq": "weekly"},
+    {"loc": f"{SITE}/physical-stack", "lastmod": "2026-09-14", "changefreq": "monthly"},
     {"loc": f"{SITE}/brief", "lastmod": "2026-08-18", "changefreq": "daily"},
-    {"loc": f"{SITE}/brief.json", "lastmod": "2026-08-18", "changefreq": "daily"},
-    {"loc": f"{SITE}/brief.xml", "lastmod": "2026-08-18", "changefreq": "daily"},
-    {"loc": f"{SITE}/wire.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/agents.html", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/contact.html", "lastmod": "2026-08-22", "changefreq": "monthly"},
-    {"loc": f"{SITE}/data.json", "changefreq": "weekly"},
-    {"loc": f"{SITE}/llms.txt", "lastmod": "2026-08-18", "changefreq": "weekly"},
-    {"loc": f"{SITE}/wire.json", "changefreq": "weekly"},
+    {"loc": f"{SITE}/wire", "lastmod": "2026-08-18", "changefreq": "weekly"},
+    {"loc": f"{SITE}/agents", "lastmod": "2026-08-18", "changefreq": "weekly"},
+    {"loc": f"{SITE}/contact", "lastmod": "2026-08-22", "changefreq": "monthly"},
 ]
 
 
@@ -193,7 +218,7 @@ def person_author():
     return {
         "@type": "Person",
         "name": "Pukar C. Hamal",
-        "url": f"{SITE}/contact.html",
+        "url": f"{SITE}/contact",
         "sameAs": ["https://pukarhamal.com/"],
     }
 
@@ -208,7 +233,7 @@ def org_publisher():
         "founder": person_author(),
         "description": (
             "Pukar C. Hamal's public compute desk: the world's compute & silicon index "
-            "(CNW™ + Silicon Tape). Companies inquire via https://compute.world/contact.html."
+            "(CNW™ + Silicon Tape). Companies inquire via https://compute.world/contact."
         ),
         "sameAs": ["https://github.com/pchamal/compute-world"],
     }

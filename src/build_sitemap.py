@@ -20,44 +20,29 @@ import re
 import subprocess
 
 from desk_data import as_of
-from seo import SITE, sitemap_xml
+from seo import public_path, sitemap_xml
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
-# path -> (filename, top-level keys in preference order)
+# Canonical HTML path -> (artifact, top-level keys in preference order).
+# Dumps and feeds are not sitemap entries; do not add them back here.
 JSON_SOURCES = {
-    "/silicon.html": ("silicon.json", ("updated", "snapshot")),
-    "/silicon.json": ("silicon.json", ("updated", "snapshot")),
-    "/silicon.xml": ("silicon.json", ("updated", "snapshot")),
-    "/silicon-history.json": ("silicon-history.json", ("as_of", "updated")),
-    "/rank-history.json": ("rank-history.json", ("as_of", "updated")),
+    "/silicon": ("silicon.json", ("updated", "snapshot")),
     "/brief": ("brief.json", ("updated",)),
-    "/brief.json": ("brief.json", ("updated",)),
-    "/brief.xml": ("brief.json", ("updated",)),
-    "/wire.html": ("wire.json", ("updated",)),
-    "/wire.json": ("wire.json", ("updated",)),
-    "/inference.html": ("inference.json", ("as_of", "updated", "snapshot")),
-    "/inference.json": ("inference.json", ("as_of", "updated", "snapshot")),
-    "/inference.xml": ("inference.json", ("as_of", "updated", "snapshot")),
-    "/neoclouds.html": ("neoclouds.json", ("as_of", "updated", "snapshot")),
-    "/neoclouds.json": ("neoclouds.json", ("as_of", "updated", "snapshot")),
-    "/neoclouds.xml": ("neoclouds.json", ("as_of", "updated", "snapshot")),
-    "/hyperscalers.html": ("hyperscalers.json", ("as_of", "updated", "snapshot")),
-    "/hyperscalers.json": ("hyperscalers.json", ("as_of", "updated", "snapshot")),
-    "/hyperscalers.xml": ("hyperscalers.json", ("as_of", "updated", "snapshot")),
-    "/data-centers.html": ("data-centers.json", ("updated", "as_of", "snapshot")),
-    "/data-centers.json": ("data-centers.json", ("updated", "as_of", "snapshot")),
-    "/data-centers.xml": ("data-centers.json", ("updated", "as_of", "snapshot")),
-    "/campuses.html": ("campuses.json", ("as_of", "updated", "snapshot")),
-    "/campuses.json": ("campuses.json", ("as_of", "updated", "snapshot")),
+    "/wire": ("wire.json", ("updated",)),
+    "/inference": ("inference.json", ("as_of", "updated", "snapshot")),
+    "/neoclouds": ("neoclouds.json", ("as_of", "updated", "snapshot")),
+    "/hyperscalers": ("hyperscalers.json", ("as_of", "updated", "snapshot")),
+    "/data-centers": ("data-centers.json", ("updated", "as_of", "snapshot")),
+    "/campuses": ("campuses.json", ("as_of", "updated", "snapshot")),
 }
 
 # Masthead date, else the file's last commit date.
 HTML_SOURCES = {
-    "/contact.html": "contact.html",
-    "/agents.html": "agents.html",
-    "/physical-stack.html": "physical-stack.html",
+    "/contact": "contact.html",
+    "/agents": "agents.html",
+    "/physical-stack": "physical-stack.html",
 }
 
 _MONTHS = {}
@@ -161,10 +146,7 @@ def _load_json(root, name):
 
 
 def url_path(loc):
-    if loc.startswith(SITE):
-        rest = loc[len(SITE):] or "/"
-        return rest if rest.startswith("/") else "/" + rest
-    return loc
+    return public_path(loc)
 
 
 def content_dates(root=None):
@@ -237,10 +219,12 @@ def refresh_sitemap(path, root=None):
         for old, new in zip(urls, stamped)
         if old.get("lastmod") != new.get("lastmod")
     ]
+    before = [u["loc"] for u in urls]
+    after = [u["loc"] for u in parse_sitemap(xml)]
     if xml != text:
         with open(path, "w", encoding="utf-8") as fh:
             fh.write(xml)
-    return changed
+    return changed, before != after
 
 
 def main():
@@ -249,13 +233,16 @@ def main():
     if os.path.isfile(deploy):
         targets.append(deploy)
     for path in targets:
-        changed = refresh_sitemap(path)
-        if not changed:
+        changed, membership = refresh_sitemap(path)
+        if not changed and not membership:
             print(f"sitemap lastmod already current: {path}")
             continue
-        print(f"sitemap lastmod refreshed: {path}")
-        for loc, old, new in changed:
-            print(f"  {loc}: {old or '—'} -> {new}")
+        if membership:
+            print(f"sitemap membership refreshed: {path}")
+        if changed:
+            print(f"sitemap lastmod refreshed: {path}")
+            for loc, old, new in changed:
+                print(f"  {loc}: {old or '—'} -> {new}")
 
 
 if __name__ == "__main__":

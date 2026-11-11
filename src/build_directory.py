@@ -448,7 +448,7 @@ def build(slug):
     )
     og = og_block(
         title, html.escape(desc),
-        f"https://compute.world/{slug}.html", cfg["og"],
+        f"https://compute.world/{slug}", cfg["og"],
         og_type="website", image_alt=cfg["og_alt"],
     )
     ld = json.dumps({
@@ -456,7 +456,7 @@ def build(slug):
         "@type": "Dataset",
         "name": cfg["name"],
         "description": cfg["thesis"],
-        "url": f"https://compute.world/{slug}.html",
+        "url": f"https://compute.world/{slug}",
         "dateModified": as_of,
         "datePublished": as_of,
         "creator": person_author(),
@@ -474,7 +474,7 @@ def build(slug):
     })
     crumb = json.dumps(breadcrumb_ld([
         ("compute.world", "https://compute.world/"),
-        (cfg["name"], f"https://compute.world/{slug}.html"),
+        (cfg["name"], f"https://compute.world/{slug}"),
     ]))
     faq_ld = json.dumps({
         "@context": "https://schema.org",
@@ -518,7 +518,7 @@ def build(slug):
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
-<link rel="canonical" href="https://compute.world/{slug}.html">
+<link rel="canonical" href="https://compute.world/{slug}">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {og}
 <link rel="alternate" type="application/rss+xml" title="{html.escape(cfg['name'])} · compute.world" href="https://compute.world/{slug}.xml">
@@ -708,7 +708,7 @@ details.meth .mb b{{color:var(--ink)}}
       <p><b>No invented cities.</b> If a provider is real but the city list is sales-gated, the record exists with undisclosed. lat/lon only when a named city exists (Wikipedia centroid). State-only rows are not upgraded to a metro.</p>
       <p><b>No market caps.</b> No fake fleet counts. Marketing GW figures appear only if they already sit in the JSON notes.</p>
       <p><b>China and the EU</b> appear even when the city is undisclosed. Classification is already in the JSON — Scaleway and OVH are regional hyperscalers; DigitalOcean / Vultr stay neoclouds because the product we care about is GPU Droplets / Cloud GPU.</p>
-      <p>Machine-readable: <a href="/{slug}.json">{slug}.json</a> (CC BY 4.0, attribution to compute.world). Cite as: <code>{html.escape(cfg["cite"])}</code>. Corrections: <a href="/contact.html">get in touch</a>.</p>
+      <p>Machine-readable: <a href="/{slug}.json">{slug}.json</a> (CC BY 4.0, attribution to compute.world). Cite as: <code>{html.escape(cfg["cite"])}</code>. Corrections: <a href="/contact">get in touch</a>.</p>
     </div>
   </details>
   <section class="faq" id="faq">
@@ -883,7 +883,7 @@ setT(cur(),false);
         items.append(f'''
   <item>
     <title>{html.escape(p["name"])} · {html.escape(kind_label(p.get("kind")))}</title>
-    <link>https://compute.world/{slug}.html#{html.escape(p["id"])}</link>
+    <link>https://compute.world/{slug}#{html.escape(p["id"])}</link>
     <guid isPermaLink="false">compute.world/{slug}#{html.escape(p["id"])}</guid>
     <pubDate>{datetime.strptime(as_of, "%Y-%m-%d").strftime("%a, %d %b %Y") if len(as_of)==10 else as_of} 12:00:00 GMT</pubDate>
     <description>{html.escape(p["name"])} ({html.escape(kind_label(p.get("kind")))}). HQ {html.escape(hq_text(p))}. {meta["n_rows"]} sourced location rows. Cities: {html.escape(city)}. {html.escape(chips)}. {html.escape((p.get("notes") or "")[:280])}</description>
@@ -891,7 +891,7 @@ setT(cur(),false);
     rss = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
   <title>{html.escape(cfg["name"])} · compute.world</title>
-  <link>https://compute.world/{slug}.html</link>
+  <link>https://compute.world/{slug}</link>
   <description>{html.escape(cfg["thesis"])} Snapshot {html.escape(as_of)}. {len(providers)} providers. Not a market cap.</description>
   <language>en</language>{"".join(items)}
 </channel></rss>'''

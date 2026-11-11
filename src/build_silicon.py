@@ -297,7 +297,7 @@ ld = json.dumps({
     "name": "The Silicon Tape",
     "alternateName": ["Silicon Tape", "compute.world silicon index"],
     "description": S["thesis"],
-    "url": "https://compute.world/silicon.html",
+    "url": "https://compute.world/silicon",
     "version": S["version"],
     "dateModified": S["updated"],
     "datePublished": S["updated"],
@@ -316,7 +316,7 @@ ld = json.dumps({
 })
 crumb = json.dumps(breadcrumb_ld([
     ("compute.world", "https://compute.world/"),
-    ("The Silicon Tape", "https://compute.world/silicon.html"),
+    ("The Silicon Tape", "https://compute.world/silicon"),
 ]))
 faq_ld = json.dumps({
     "@context": "https://schema.org",
@@ -335,7 +335,7 @@ faq_ld = json.dumps({
         {"@type": "Question", "name": "Why does Cerebras have no $/hour?",
          "acceptedAnswer": {"@type": "Answer", "text": "Cerebras Cloud is sold as a token API and as enterprise. There is no sourced public accelerator-hour in this snapshot. Aggregator ranges such as $0.75–$12.50 are omitted on purpose. Groq is listed the same way: token API, no invented chip-hour."}},
         {"@type": "Question", "name": "What is compute.world?",
-         "acceptedAnswer": {"@type": "Answer", "text": "compute.world is Pukar C. Hamal's public compute desk and the world's compute & silicon index: the Compute Net Worth Index (CNW™) prices 108 countries, and the Silicon Tape prints sourced chips. Companies inquire via https://compute.world/contact.html."}},
+         "acceptedAnswer": {"@type": "Answer", "text": "compute.world is Pukar C. Hamal's public compute desk and the world's compute & silicon index: the Compute Net Worth Index (CNW™) prices 108 countries, and the Silicon Tape prints sourced chips. Companies inquire via https://compute.world/contact."}},
     ],
 })
 si_title = "The Silicon Tape · AI accelerator rental index · compute.world"
@@ -346,7 +346,7 @@ si_desc = (
 )
 si_og = og_block(
     si_title, html.escape(si_desc),
-    "https://compute.world/silicon.html", "og-silicon.png",
+    "https://compute.world/silicon", "og-silicon.png",
     og_type="website",
     image_alt="The Silicon Tape — sourced B200, H100, Ascend 910C, and Cerebras prints",
 )
@@ -362,7 +362,7 @@ PAGE = f'''<!DOCTYPE html>
 <script>(function(){{try{{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){{var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}}document.documentElement.setAttribute("data-theme",t);}}catch(e){{}}}})();</script>
 <title>{html.escape(si_title)}</title>
 <meta name="description" content="{html.escape(si_desc)}">
-<link rel="canonical" href="https://compute.world/silicon.html">
+<link rel="canonical" href="https://compute.world/silicon">
 <meta name="robots" content="index,follow,max-image-preview:large">
 {si_og}
 <link rel="alternate" type="application/rss+xml" title="The Silicon Tape · compute.world" href="https://compute.world/silicon.xml">
@@ -557,7 +557,7 @@ details.meth .mb li{{margin-bottom:6px}}
       <a href="/silicon.xml">RSS</a>
       <a href="/">Nation-State Index</a>
       <a href="/brief">Daily brief</a>
-      <a href="/contact.html">The Desk</a>
+      <a href="/contact">The Desk</a>
     </div>
   </div>
 
@@ -612,7 +612,7 @@ details.meth .mb li{{margin-bottom:6px}}
       <p><b>As-of dates.</b> SemiAnalysis public prints <b>stop at April 2026</b> and are labeled that way. November 2026 figures are neocloud and hyperscaler list pages fetched <b>{S.get("snapshot") or S["updated"]}</b>. Snapshot is the last sourced confirm day, not the last price tick. Dated history lives in <a href="/silicon-history.json">silicon-history.json</a> (append-only). Rank snapshots live in <a href="/rank-history.json">rank-history.json</a> (append-only observed ranks; never interpolated). Inference / Neoclouds / Hyperscalers join that tape once they have a published rank formula.</p>
       <p><b>Omitted this snapshot</b> — no invented rows:</p>
       <ul>{omitted}</ul>
-      <p>Machine-readable: <a href="/silicon.json">silicon.json</a> (CC BY 4.0, attribution to compute.world). Cite as: <code>{html.escape(S["cite"])}</code>. The Desk: <a href="/contact.html">briefings, corrections, cite / data</a>. Half of <a href="/">the world's compute &amp; silicon index</a>.</p>
+      <p>Machine-readable: <a href="/silicon.json">silicon.json</a> (CC BY 4.0, attribution to compute.world). Cite as: <code>{html.escape(S["cite"])}</code>. The Desk: <a href="/contact">briefings, corrections, cite / data</a>. Half of <a href="/">the world's compute &amp; silicon index</a>.</p>
       <p><b>Primary sources</b></p>
       <ul>{source_lis}</ul>
     </div>
@@ -806,16 +806,16 @@ open(os.path.join(ROOT, "silicon.html"), "w").write(PAGE)
 rss_items = "".join(f'''
   <item>
     <title>{html.escape(c["name"])} · {html.escape(display_px(c["display"]))} {html.escape(c["display"]["label"])}</title>
-    <link>https://compute.world/silicon.html#{c["id"]}</link>
+    <link>https://compute.world/silicon#{c["id"]}</link>
     <guid isPermaLink="false">compute.world/silicon#{c["id"]}</guid>
     <pubDate>{datetime.strptime(S["updated"], "%Y-%m-%d").strftime("%a, %d %b %Y")} 12:00:00 GMT</pubDate>
-    <description>{html.escape(c["name"])} ({html.escape(c["vendor"])}, {html.escape(c["memory"])}): display {html.escape(display_px(c["display"]))} {html.escape(c["display"]["label"])} as of {html.escape(nice_date(c["display"]["as_of"]))}. {html.escape(c.get("also", {}).get("text") or "")}. Score {c["score"]:.2f}. {html.escape(c["scarcity"])} More: https://compute.world/silicon.html#{c["id"]}</description>
+    <description>{html.escape(c["name"])} ({html.escape(c["vendor"])}, {html.escape(c["memory"])}): display {html.escape(display_px(c["display"]))} {html.escape(c["display"]["label"])} as of {html.escape(nice_date(c["display"]["as_of"]))}. {html.escape(c.get("also", {}).get("text") or "")}. Score {c["score"]:.2f}. {html.escape(c["scarcity"])} More: https://compute.world/silicon#{c["id"]}</description>
   </item>''' for c in chips)
 
 RSS = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
   <title>The Silicon Tape · compute.world</title>
-  <link>https://compute.world/silicon.html</link>
+  <link>https://compute.world/silicon</link>
   <description>Public AI accelerator rental tape. Snapshot {S["updated"]}. SA prints as-of April 2026. Not a market cap.</description>
   <language>en</language>{rss_items}
 </channel></rss>'''

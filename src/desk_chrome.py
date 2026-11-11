@@ -20,19 +20,19 @@ NAV = [
     ("Method", "#method", None, "mid"),
     ("Country profiles", "#profiles", None, "mid"),
     ("Data", "#data", None, "mid"),
-    ("Contact Us", "/contact.html", None, "cta"),
+    ("Contact Us", "/contact", None, "cta"),
 ]
 
 MORE = [
-    (f"{SITE}/wire.html", "Signals", "The Wire: credibility-scored feed"),
-    (f"{SITE}/neoclouds.html", "GPU clouds", "Who rents GPUs, by region"),
-    (f"{SITE}/hyperscalers.html", "Hyperscalers", "271 cloud locations"),
-    (f"{SITE}/inference.html", "Inference providers", "Who sells tokens"),
-    (f"{SITE}/data-centers.html", "Data centers", "Power, water, land, tax, jobs"),
-    (f"{SITE}/campuses.html", "Campuses", "Named sites on a globe"),
+    (f"{SITE}/wire", "Signals", "The Wire: credibility-scored feed"),
+    (f"{SITE}/neoclouds", "GPU clouds", "Who rents GPUs, by region"),
+    (f"{SITE}/hyperscalers", "Hyperscalers", "271 cloud locations"),
+    (f"{SITE}/inference", "Inference providers", "Who sells tokens"),
+    (f"{SITE}/data-centers", "Data centers", "Power, water, land, tax, jobs"),
+    (f"{SITE}/campuses", "Campuses", "Named sites on a globe"),
     (f"{SITE}/physical-stack", "Physical stack", "Eight layers behind AI, credited to MTS"),
-    (f"{SITE}/agents.html", "For agents", "Machine-readable edition"),
-    (f"{SITE}/brief.html", "The brief", "Weekday public tape"),
+    (f"{SITE}/agents", "For agents", "Machine-readable edition"),
+    (f"{SITE}/brief", "The brief", "Weekday public tape"),
 ]
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -116,9 +116,10 @@ def icons(root):
 
 
 def home_href(root, href):
-    if href.startswith("http") or href.startswith("/") or href.endswith(".html"):
-        return href
-    return f"{root}index.html{href}" if root else f"/{href}" if href.startswith("#") else href
+    """Section links go to /#anchor, the homepage's 200 URL. index.html 308s and drops the hash."""
+    if href.startswith("#"):
+        return f"/{href}"
+    return href
 
 
 def brand_mark(root):
@@ -128,10 +129,15 @@ def brand_mark(root):
     )
 
 
-def masthead(root, as_of, current=None, home="index.html"):
-    brand_href = f"{root}{home}" if root or home != "/" else "/"
-    if not root and home == "index.html":
+def masthead(root, as_of, current=None, home="/"):
+    if home in ("/", "", "index.html"):
         brand_href = "/"
+    elif str(home).endswith(".html"):
+        brand_href = "/" + home[:-5]
+    elif home.startswith("/") or home.startswith("http"):
+        brand_href = home
+    else:
+        brand_href = f"{root}{home}"
     links = []
     for label, href, tab, kind in NAV:
         cls = []
@@ -149,12 +155,12 @@ def masthead(root, as_of, current=None, home="index.html"):
     dated = fmt_date(as_of)
     mark = brand_mark(root)
     extra_m = (
-        f'<a href="{SITE}/wire.html">Signals</a>'
-        f'<a href="{SITE}/neoclouds.html">GPU clouds</a>'
-        f'<a href="{SITE}/data-centers.html">Data centers</a>'
-        f'<a href="{SITE}/campuses.html">Campuses</a>'
+        f'<a href="{SITE}/wire">Signals</a>'
+        f'<a href="{SITE}/neoclouds">GPU clouds</a>'
+        f'<a href="{SITE}/data-centers">Data centers</a>'
+        f'<a href="{SITE}/campuses">Campuses</a>'
         f'<a href="{SITE}/physical-stack">Physical stack</a>'
-        f'<a href="{SITE}/agents.html">For agents</a>'
+        f'<a href="{SITE}/agents">For agents</a>'
     )
     nav_m = "".join(
         '<a href="%s"%s%s>%s</a>' % (
@@ -198,7 +204,7 @@ def footer():
     return f'''<footer><div class="wrap"><div class="cols">
   <div><p class="tag">{TAGLINE} And the wires between them.</p><b>The Compute Net Worth Index</b>, version 1.5, created by Pukar C. Hamal and first published at compute.world on 10 August 2026. A public compute desk: weekday updates, sourced prints only. Country macros refresh from the IMF and World Bank. Compute Net Worth, The Compute Net Worth Index and Gross Domestic Compute are trademarks of Pukar C. Hamal. This site is an analytical framework and an invitation to argue with its inputs in public. It is not investment advice.</div>
   <div><b>Sources</b><br>NVIDIA earnings and keynotes, SemiAnalysis, Epoch AI, IEA, IMF WEO, World Bank, EIU, Transparency International, IHA, ESMAP, Cushman &amp; Wakefield, Rystad, Knight Frank, BNEF, and venue list pages fetched each snapshot. Flags: flag-icons (MIT). Vendor marks belong to their owners.</div>
-  <div><b>Desk</b><br>San Francisco, CA<br><a href="{SITE}/contact.html">Contact Us</a><br><a href="{SITE}/agents.html">Agent edition</a><br><a href="{SITE}/llms.txt">llms.txt</a> · <a href="{SITE}/sitemap.xml">Sitemap</a></div>
+  <div><b>Desk</b><br>San Francisco, CA<br><a href="{SITE}/contact">Contact Us</a><br><a href="{SITE}/agents">Agent edition</a><br><a href="{SITE}/llms.txt">llms.txt</a> · <a href="{SITE}/sitemap.xml">Sitemap</a></div>
 </div></div></footer>'''
 
 
@@ -359,17 +365,17 @@ body.fnav-inner{padding-top:0}
 
 SHARE_PAGES = {
     "index": (f"{SITE}/", "compute.world — Countries. Compute.", "The Compute Net Worth Index"),
-    "silicon": (f"{SITE}/silicon.html", "The Silicon Tape — compute.world", "The Silicon Tape"),
-    "brief": (f"{SITE}/brief.html", "The daily tape — compute.world", "The daily tape"),
-    "wire": (f"{SITE}/wire.html", "The Wire — compute.world", "The Wire"),
-    "inference": (f"{SITE}/inference.html", "The Inference Index — compute.world", "The Inference Index"),
-    "neoclouds": (f"{SITE}/neoclouds.html", "The Neocloud Index — compute.world", "The Neocloud Index"),
-    "hyperscalers": (f"{SITE}/hyperscalers.html", "The Hyperscaler Index — compute.world", "The Hyperscaler Index"),
-    "datacenters": (f"{SITE}/data-centers.html", "Data centers FAQ — compute.world", "Data centers FAQ"),
-    "campuses": (f"{SITE}/campuses.html", "Campuses — compute.world", "Campuses"),
+    "silicon": (f"{SITE}/silicon", "The Silicon Tape — compute.world", "The Silicon Tape"),
+    "brief": (f"{SITE}/brief", "The daily tape — compute.world", "The daily tape"),
+    "wire": (f"{SITE}/wire", "The Wire — compute.world", "The Wire"),
+    "inference": (f"{SITE}/inference", "The Inference Index — compute.world", "The Inference Index"),
+    "neoclouds": (f"{SITE}/neoclouds", "The Neocloud Index — compute.world", "The Neocloud Index"),
+    "hyperscalers": (f"{SITE}/hyperscalers", "The Hyperscaler Index — compute.world", "The Hyperscaler Index"),
+    "datacenters": (f"{SITE}/data-centers", "Data centers FAQ — compute.world", "Data centers FAQ"),
+    "campuses": (f"{SITE}/campuses", "Campuses — compute.world", "Campuses"),
     "stack": (f"{SITE}/physical-stack", "The physical stack — compute.world", "The physical stack behind AI"),
-    "contact": (f"{SITE}/contact.html", "The Desk — compute.world", "The Desk"),
-    "agents": (f"{SITE}/agents.html", "Agent edition — compute.world", "Agent edition"),
+    "contact": (f"{SITE}/contact", "The Desk — compute.world", "The Desk"),
+    "agents": (f"{SITE}/agents", "Agent edition — compute.world", "Agent edition"),
 }
 
 

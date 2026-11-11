@@ -12,12 +12,12 @@ attribute **compute.world** with a link where the medium allows.
 
 Suggested attribution: `Hamal, P. (2026). The Compute Net Worth Index. compute.world.`
 
-The official embed widget (https://compute.world/embed.html) carries its attribution built in
+The official embed widget (https://compute.world/embed) carries its attribution built in
 and may be placed on any website, including commercial ones, unmodified.
 
 ## Commercial license required
 
-Any of the following requires a commercial license (hello via https://compute.world/contact.html):
+Any of the following requires a commercial license (hello via https://compute.world/contact):
 use of the scores or dataset in a commercial product, service, API, model training corpus sold
 to third parties, terminal, or paid publication; bulk or systematic redistribution of the
 dataset; or derivative indexes marketed under or against the names below.

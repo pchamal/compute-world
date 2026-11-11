@@ -58,7 +58,7 @@ def silicon_row(row):
     note = html.escape(row.get("note") or "")
     return (
         f'<tr id="{html.escape(row["id"])}">'
-        f'<td class="chip"><a href="/silicon.html#{html.escape(row["id"])}">{html.escape(row["name"])}</a></td>'
+        f'<td class="chip"><a href="/silicon#{html.escape(row["id"])}">{html.escape(row["name"])}</a></td>'
         f'<td class="px">{money(row.get("display_usd"))}</td>'
         f'<td>{html.escape(row.get("venue") or "")}<span class="sub">{html.escape(row.get("term") or "")}</span></td>'
         f'<td>{html.escape(nice_date(row.get("as_of")))}</td>'
@@ -233,7 +233,7 @@ position:sticky;top:0;background:var(--paper);z-index:3}}
       <a href="/brief.xml">RSS</a>
       <a href="/#silicon">Silicon tab</a>
       <a href="/#subscribe">Subscribe</a>
-      <a href="/contact.html">The Desk</a>
+      <a href="/contact">The Desk</a>
     </div>
   </div>
 
