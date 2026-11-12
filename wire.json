@@ -1,6 +1,141 @@
 {
   "items": [
     {
+      "id": "usa-nvidia-ceo-huang-resigns-kress-interim-jones-chair-2026-11-12",
+      "date": "2026-11-12",
+      "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim CEO and Harvey Jones first board chair",
+      "summary": "Nvidia's 8-K says the board accepted Jensen Huang's resignation as president, CEO and director on 11 November 2026, effective immediately, and appointed CFO Colette Kress, 59, interim CEO while it searches internal and external candidates; she stays CFO. Harvey C. Jones, a director since 1993 and former Synopsys CEO, becomes the company's first board chair. The board says operations, customer commitments and the product roadmap continue without interruption, and fiscal Q3 results stay on 17 November. Nvidia gave no reason; the exit follows the board's 8 November independent review of reports that Huang was targeted by a foreign intelligence effort, and press reports (TechCrunch, CNBC) link it to personal-conduct disclosures. Shares fell about 10% to 12% on 12 November; CoreWeave and Nebius also fell. Caveat: TechCrunch counts about $36 billion of Nvidia cloud-service commitments and large investment and credit-guarantee positions in neoclouds and labs; whether the new leadership keeps that financing posture is unknown. Country conversion: the main US financier of neocloud GPU demand is now under interim management.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "source": "Nvidia 8-K and newsroom, 12 Nov 2026; TechCrunch; CNBC; AP",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Stall"
+      ],
+      "score": 62
+    },
+    {
+      "id": "usa-nebius-q3-third-party-capacity-slips-2027-capex-27bn-2027-capex-40-45bn-2026-11-12",
+      "date": "2026-11-12",
+      "title": "Nebius beats on Q3 revenue but trims 2026 guidance as third-party capacity slips into 2027; lifts 2026 capex to about $27 billion",
+      "summary": "Nebius reported Q3 2026 revenue of $980.8 million, up 571%, adjusted EBITDA of $465.8 million and quarterly capex of about $7.3 billion. It cut 2026 revenue guidance to $3.0 billion to $3.2 billion (from $3.0 billion to $3.4 billion) because some third-party capacity due this year moved into 2027 (Reuters: first half; the CFO said the second quarter), with the contracts still in place, and said its more than $7 billion ARR target arrives about two months late, in February. 2026 capex rises to about $27 billion from $20 billion to $25 billion. For 2027 it guides revenue of $12 billion to $13 billion, capex of $40 billion to $45 billion for more than 1 GW of new capacity mostly at owned sites, 75% to 85% of that capex funded by customer prepayments ($17 billion to $20 billion) and asset-backed financing, and pre-tax break-even in Q4 2027. Contracted power target of 5 GW by year-end is unchanged. Shares fell about 16%. Caveat: Nebius is Amsterdam-listed in name but much of the capacity cited (New Jersey) is US; the delayed third-party sites are not named. Country conversion: neocloud demand is intact, delivery of colocation capacity is the bottleneck.",
+      "url": "https://assets.nebius.com/assets/e2ac679c-fc62-4799-ba0e-6611e59c6863/Nebius-2026-Q3.pdf",
+      "source": "Nebius Q3 2026 results and call, 12 Nov 2026; Reuters; CNBC",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Cloud",
+        "Stall"
+      ],
+      "score": 54
+    },
+    {
+      "id": "india-andhra-pradesh-renew-1gw-anakapalli-cleanmax-neysa-2gw-kurnool-cii-summit-2026-11-12",
+      "date": "2026-11-12",
+      "title": "Andhra Pradesh summit: ReNew plans a 1 GW green data centre in Anakapalli; CleanMax and Neysa a 2 GW compute campus in Kurnool",
+      "summary": "At the CII Partnership Summit in Visakhapatnam on 12 November 2026, ReNew Energy Global announced about Rs 80,000 crore of Andhra Pradesh investment, including Rs 67,000 crore for a 1 GW green hyperscale data centre in Anakapalli (CNBC-TV18). Separately CleanMax signed an MoU with the AP Economic Development Board for a roughly Rs 50,000 crore clean-power complex (3 GW wind and solar, 1 GW pumped hydro) with its own distribution licence to supply a 2 GW compute factory in Kurnool district with Blackstone-backed Neysa, which anchors 1 GW of IT load; Moneycontrol reports Rs 8,000 crore for the Kurnool project and commissioning targeted by March 2028. Caveat: MoU and summit announcements, not financial close; each element is reported by one outlet here and no GPU supply is named. Country conversion: Andhra Pradesh is stacking gigawatt-class campus pledges on captive renewable power.",
+      "url": "https://www.moneycontrol.com/news/business/cleanmax-blackstone-backed-neysa-to-invest-rs-8-000-crore-in-2-gw-ai-data-centre-park-in-andhra-14078284.html",
+      "source": "Moneycontrol and CNBC-TV18, 12 Nov 2026 (CII Partnership Summit, Visakhapatnam)",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 48
+    },
+    {
+      "id": "chile-aws-santiago-region-opens-select-customers-4bn-2026-11-11",
+      "date": "2026-11-11",
+      "title": "AWS opens its South America (Chile) Region to select customers, backed by more than $4 billion of investment",
+      "summary": "Amazon said on 11 November 2026 that its first Chile region, and third in Latin America, is operational in early access for select customers including BancoEstado, BTG, Cencosud, Itau and Ripley, with general availability expected by the end of 2026. Amazon plans to invest more than $4 billion in Chile and estimates more than $7.5 billion of GDP contribution and about 4,100 jobs a year. The region launches with core compute, storage, networking and database services; Bedrock and SageMaker AI arrive within the first year. DCD reports the Santiago facilities are air-cooled with no ongoing cooling-water draw. Caveat: no MW figure and no GPU or Trainium capacity disclosed at launch. Country conversion: Chile gets in-country hyperscale capacity, AI services to follow.",
+      "url": "https://www.aboutamazon.com/news/aws/aws-south-america-chile-region-launch",
+      "source": "Amazon, 11 Nov 2026; DCD, 12 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CHL"
+      ],
+      "flags": "🇨🇱",
+      "tags": [
+        "Cloud",
+        "Build"
+      ],
+      "score": 46
+    },
+    {
+      "id": "saudi-infra-humain-sar-2-5bn-gpu-25mw-grid-1gw-financing-2026-11-09",
+      "date": "2026-11-09",
+      "title": "Saudi National Infrastructure Fund signs up to SAR 2.5 billion of GPU and grid financing for HUMAIN",
+      "summary": "Infra and HUMAIN signed two facilities on 8 November 2026, announced 9 November: up to SAR 1.1 billion (about $293 million) for GPU procurement equal to about 25 MW of IT load, and up to SAR 1.4 billion (about $373 million) for substations, transmission and grid connections sized for up to 1 GW of future IT capacity. They are the first deals under Infra's AI Data Center Financing Program and convert part of a non-binding SAR 4.5 billion framework announced at Davos in January 2026. Caveat: the 1 GW is grid readiness, not committed compute; GPU vendor not named. Country conversion: Saudi Arabia is using state development finance to pre-build grid for AI campuses.",
+      "url": "https://www.spa.gov.sa/en/N2721893",
+      "source": "Saudi Press Agency and HUMAIN, 9 Nov 2026; Arab News",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "SAU"
+      ],
+      "flags": "🇸🇦",
+      "tags": [
+        "Capital",
+        "Energy"
+      ],
+      "score": 45
+    },
+    {
+      "id": "usa-softbank-3-7bn-loss-us-ai-power-generation-equipment-procurement-2026-11-10",
+      "date": "2026-11-10",
+      "title": "SoftBank books a $3.7 billion loss after changing procurement plans for US AI data centre power equipment",
+      "summary": "SoftBank Group reported a fiscal Q2 net loss of 1.12 trillion yen (about $7 billion) on 10 November 2026, including a 597.2 billion yen (about $3.7 billion) loss from changes to procurement plans for power-generation equipment for its US AI data centre projects; reports break it into about $2.85 billion of non-refundable advance payments and $0.88 billion of contract modifications and settlements. Cumulative payments for such equipment, for projects like the PORTS-Pike campus in Ohio, reached $9.48 billion at end-September. SoftBank said it had pre-bought gear fearing shortages and long lead times, and reiterated a 20-year, 8 GW lease with OpenAI in Ohio. Caveat: SoftBank did not say which equipment or vendors were affected or whether site timelines change. Country conversion: a leading US power-first campus sponsor is writing off pre-bought generation, a sign of plan churn behind headline gigawatts.",
+      "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+      "source": "SoftBank Group FY2026 Q2 results, 10 Nov 2026; CNBC; Reuters; Bisnow",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Energy",
+        "Stall"
+      ],
+      "score": 47
+    },
+    {
+      "id": "usa-boise-idaho-six-month-moratorium-large-data-centres-20mw-2026-11-10",
+      "date": "2026-11-10",
+      "title": "Boise passes an immediate six-month moratorium on data centres of 100,000 sq ft or 20 MW and up",
+      "summary": "The Boise City Council voted unanimously on 10 November 2026 for an emergency ordinance, proposed by Mayor Lauren McLean, that stops the city accepting or processing applications for data centres of 100,000 sq ft or more or using 20 MW of power, effective immediately, while it reviews code and studies water, energy, noise and safety impacts. The mayor said no large applications are pending. Oklahoma City extended its own moratorium the same night (KOKH). Caveat: pre-emptive; it does not touch Meta's operating Kuna site or proposals outside city limits such as Rhea Data south of Boise. Country conversion: local pauses keep spreading after voters backed limits in 40 of 41 November ballot measures.",
+      "url": "https://idahocapitalsun.com/2026/11/10/boise-city-council-approves-6-month-moratorium-on-large-data-center-construction/",
+      "source": "Idaho Capital Sun, City of Boise, KTVB, 10 Nov 2026",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 38
+    },
+    {
       "id": "usa-anthropic-lambda-34-9bn-agreement-terminable-missed-facility-lease-2026-11-10",
       "date": "2026-11-10",
       "title": "Anthropic's amended IPO filing says its $34.9 billion August compute deal with Lambda is now terminable after Lambda missed a facility-lease deadline",
@@ -3607,6 +3742,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-11",
-  "note": "Wire refresh 2026-11-11: added usa-anthropic-lambda-34-9bn-agreement-terminable-missed-facility-lease-2026-11-10, usa-coreweave-q3-backlog-132-5bn-1-85gw-active-2026-capex-37-39bn-2026-11-10, malaysia-google-15bn-2027-2028-selangor-negeri-sembilan-1gw-clean-energy-2026-11-04, usa-kraft-group-sutton-massachusetts-900mw-16bn-campus-memo-2026-11-11, usa-integra-quanah-hardeman-county-texas-756mw-8bn-tdlr-filing-2026-11-10, bnef-181gw-onsite-gas-planned-for-data-centres-us-europe-2026-11-11. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-12",
+  "note": "Wire refresh 2026-11-12: added usa-nvidia-ceo-huang-resigns-kress-interim-jones-chair-2026-11-12, usa-nebius-q3-third-party-capacity-slips-2027-capex-27bn-2027-capex-40-45bn-2026-11-12, india-andhra-pradesh-renew-1gw-anakapalli-cleanmax-neysa-2gw-kurnool-cii-summit-2026-11-12, chile-aws-santiago-region-opens-select-customers-4bn-2026-11-11, saudi-infra-humain-sar-2-5bn-gpu-25mw-grid-1gw-financing-2026-11-09, usa-softbank-3-7bn-loss-us-ai-power-generation-equipment-procurement-2026-11-10, usa-boise-idaho-six-month-moratorium-large-data-centres-20mw-2026-11-10. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }

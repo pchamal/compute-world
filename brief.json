@@ -1,39 +1,39 @@
 {
-  "updated": "2026-11-11",
-  "title": "Compute brief - 11 November 2026",
-  "description": "Demand is not the constraint; sites and financing are. Anthropic's amended IPO filing says its $34.9 billion August deal with Lambda is now terminable after Lambda missed a facility-lease deadline, while CoreWeave posted a $132.5 billion backlog and said slower construction could keep GPU prices higher for longer. Wire: Anthropic and Lambda, CoreWeave Q3, Google Malaysia $15 billion, Kraft Sutton 900 MW, Integra Quanah 756 MW, BNEF 181 GW on-site gas. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The contracts are signed. The sites are not.",
-  "lede": "Anthropic's second IPO filing amendment, filed Tuesday, says its August 2026 compute agreement with Lambda, about $34.9 billion of a $41.3 billion set of Lambda commitments, is now terminable by either party because Lambda did not secure the facility lease by the contractual date; neither side has given notice and Anthropic says it does not intend to terminate. The same filing lifts its Microsoft commitment to at least $47.2 billion. Hours later CoreWeave reported Q3 revenue of $3.66 billion, up 168%, raised 2026 guidance and showed backlog of $132.5 billion, up from $104.2 billion in June, while saying it will avoid parent-level unsecured debt through 2027 at current yields. CEO Michael Intrator argued that if sector construction slows, installed compute gets scarcer and GPU pricing may stay higher for longer. TSMC's October revenue hit NT$586.9 billion, up 59.7% year on year and its highest month on record. BloombergNEF counts 181 GW of on-site gas proposed for data centres in the US and Europe as builders route around grid queues. Live list prices held for a third straight day: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
+  "updated": "2026-11-12",
+  "title": "Compute brief - 12 November 2026",
+  "description": "Nvidia lost its founder-CEO. Jensen Huang resigned with immediate effect and CFO Colette Kress is interim CEO, five days before fiscal Q3 results, while Nebius beat on revenue but pushed some third-party capacity into 2027 and lifted 2026 capex to about $27 billion. Wire: Nvidia CEO transition, Nebius Q3, Andhra Pradesh 1 GW and 2 GW pledges, AWS Chile region, Saudi Infra-HUMAIN financing, SoftBank $3.7 billion power-gear loss, Boise moratorium. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The chips have no CEO. The capacity has no date.",
+  "lede": "Nvidia said Thursday that Jensen Huang has resigned as president, CEO and director, effective immediately, after 33 years; its 8-K says the board accepted the resignation on 11 November. CFO Colette Kress is interim CEO and stays CFO, Harvey Jones becomes the first board chair, and fiscal Q3 results stay on 17 November. Nvidia gave no reason; the exit follows the board's 8 November review of reports that Huang was targeted by a foreign intelligence effort. Shares fell about 10% to 12%. Nvidia is also the GPU market's largest financier, with about $36 billion of cloud-service commitments plus stakes in and credit support for neoclouds and labs (TechCrunch), so neocloud stocks fell with it. Nebius beat on Q3 revenue at $980.8 million but cut 2026 guidance to $3.0 to $3.2 billion because some third-party capacity slipped into 2027, raised 2026 capex to about $27 billion and guided $40 to $45 billion for 2027, 75% to 85% funded by prepayments and asset-backed debt. Live list prices held for a fourth straight day: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
   "countries": [
     {
-      "id": "usa-anthropic-lambda",
+      "id": "usa-nvidia-ceo-transition",
       "name": "United States",
       "slug": "united-states",
-      "note": "Anthropic S-1/A: $34.9 billion August Lambda agreement terminable after a missed facility-lease deadline; no notice given (Wire, 10 Nov, confirmed)."
+      "note": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress interim, Harvey Jones first chair; Q3 results still 17 Nov (Wire, 12 Nov, confirmed)."
     },
     {
-      "id": "usa-coreweave-q3",
+      "id": "usa-nebius-q3",
       "name": "United States",
       "slug": "united-states",
-      "note": "CoreWeave Q3 revenue $3.66 billion, backlog $132.5 billion, 1.85 GW active by end-2026 reaffirmed (Wire, 10 Nov, confirmed)."
+      "note": "Nebius Q3 revenue $980.8 million; third-party capacity slips into 2027; 2026 capex about $27 billion, 2027 capex $40 to $45 billion (Wire, 12 Nov, confirmed)."
     },
     {
-      "id": "mys-google-15bn",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Google commits US$15 billion for 2027 to 2028 campuses in Selangor and Negeri Sembilan plus more than 1 GW of clean energy (Wire, 4 Nov, confirmed)."
+      "id": "ind-andhra-pradesh",
+      "name": "India",
+      "slug": "india",
+      "note": "ReNew 1 GW Anakapalli data centre (Rs 67,000 crore) and CleanMax-Neysa 2 GW Kurnool compute campus announced at the CII summit (Wire, 12 Nov, single-source, MoU stage)."
     },
     {
-      "id": "usa-kraft-sutton",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "Kraft Group floats a 900 MW, $16 billion campus in Sutton, Massachusetts; town vote targeted May 2027 (Wire, 11 Nov, single-source)."
+      "id": "chl-aws-region",
+      "name": "Chile",
+      "slug": "chile",
+      "note": "AWS South America (Chile) Region open to select customers; more than $4 billion planned; GA by end-2026 (Wire, 11 Nov, confirmed)."
     },
     {
-      "id": "usa-integra-quanah",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "Integra-linked TDLR filing for an $8 billion, up to 756 MW campus in Quanah, Texas (Wire, 10 Nov, single-source)."
+      "id": "sau-infra-humain",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "note": "Infra signs up to SAR 2.5 billion for HUMAIN: about 25 MW of GPUs plus grid sized for up to 1 GW (Wire, 9 Nov, confirmed)."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print"
+      "note": "Confirm vs 11 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +54,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print"
+      "note": "Confirm vs 11 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -65,10 +65,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print"
+      "note": "Confirm vs 11 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -76,10 +76,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 11 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -87,10 +87,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 11 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -98,10 +98,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print"
+      "note": "Confirm vs 11 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -109,10 +109,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print"
+      "note": "Confirm vs 11 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -120,10 +120,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print"
+      "note": "Confirm vs 11 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -131,17 +131,27 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 10 Nov print"
+      "note": "Confirm vs 11 Nov print"
     }
   ],
   "watch": [
     {
-      "id": "nebius-q3",
-      "name": "Nebius Q3",
-      "note": "Reports 12 November before the open; first word on Microsoft's tighter oversight."
+      "id": "nvidia-q3",
+      "name": "Nvidia fiscal Q3",
+      "note": "17 November, results about 1:20 pm PT, call 2 pm PT; first call under interim CEO Kress. Watch guidance, China, and the cloud-commitment and investment book."
+    },
+    {
+      "id": "nvidia-ceo-search",
+      "name": "Nvidia CEO search",
+      "note": "Board considering internal and external candidates; any change to neocloud backstops or credit guarantees."
+    },
+    {
+      "id": "anthropic-ipo",
+      "name": "Anthropic IPO",
+      "note": "Indicated range $70 to $78 per share; Nasdaq debut expected next week."
     },
     {
       "id": "lambda-anthropic-lease",
@@ -149,24 +159,14 @@
       "note": "Whether Lambda secures the lease or either party serves notice on the $34.9 billion August agreement."
     },
     {
-      "id": "anthropic-ipo",
-      "name": "Anthropic IPO",
-      "note": "Indicated range $70 to $78 per share, about $1.4 trillion valuation; Nasdaq debut expected next week."
-    },
-    {
-      "id": "nvidia-board-review",
-      "name": "Nvidia board review",
-      "note": "Joon H. Kim and Wachtell, Lipton retained by independent directors; Nvidia reports fiscal Q3 on 17 November."
+      "id": "indiaai-bids",
+      "name": "IndiaAI 10,000-GPU round",
+      "note": "Bids close 13 November."
     },
     {
       "id": "crusoe-dec1-pricing",
       "name": "Crusoe 1 December rates",
-      "note": "Posted H100 $4.50, H200 $5.40, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
-    },
-    {
-      "id": "indiaai-bids",
-      "name": "IndiaAI 10,000-GPU round",
-      "note": "Bids close 13 November."
+      "note": "Posted H100 $4.50, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
     },
     {
       "id": "eu-gigafactory-bids",
@@ -176,49 +176,59 @@
   ],
   "sources": [
     {
-      "name": "Anthropic S-1/A (Amendment No. 2)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
-      "note": "Lead and Wire: Lambda agreement terminable; Microsoft commitment."
+      "name": "Nvidia 8-K, Item 5.02 (CEO transition)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "note": "Lead and Wire: resignation accepted 11 Nov; Kress interim; Jones chair."
     },
     {
-      "name": "DCD: Anthropic signs another $4.3bn in compute agreements with Microsoft",
-      "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-another-43bn-in-compute-agreements-with-microsoft/",
-      "note": "Wire corroboration."
+      "name": "Nvidia newsroom: NVIDIA Announces CEO Transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "note": "Lead: Q3 date unchanged, 17 Nov."
     },
     {
-      "name": "CoreWeave Q3 2026 results",
-      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/",
-      "note": "Lead and Wire: backlog, guidance."
+      "name": "TechCrunch: Nvidia's Jensen Huang resigns",
+      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "note": "Share move; Nvidia investment and cloud-commitment book."
     },
     {
-      "name": "CNBC: CoreWeave beats on revenue and lifts guidance",
-      "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
-      "note": "Call quotes, debt, financing plan."
-    },
-    {
-      "name": "TSMC October 2026 revenue report",
-      "url": "https://pr.tsmc.com/english/news/3349",
-      "note": "Lead: NT$586.89 billion, up 59.7% YoY."
-    },
-    {
-      "name": "Google: US$15 billion Malaysia investment",
-      "url": "https://blog.google/intl/en-my/company-news/inside-google/google-investment-malaysia-digital-infrastructure-november-2026/",
-      "note": "Wire: Malaysia."
-    },
-    {
-      "name": "DCD: Kraft Group could build 900MW campus in Sutton, Massachusetts",
-      "url": "https://www.datacenterdynamics.com/en/news/kraft-group-could-build-900mw-data-center-campus-in-sutton-massachusetts-investing-16-billion/",
-      "note": "Wire: United States."
-    },
-    {
-      "name": "DCD: Application filed for $8bn data center project in Quanah, Texas",
-      "url": "https://www.datacenterdynamics.com/en/news/application-filed-for-8bn-data-center-project-in-quanah-texas/",
-      "note": "Wire: United States."
-    },
-    {
-      "name": "The Guardian: BloombergNEF on 181 GW of on-site gas for data centres",
-      "url": "https://www.theguardian.com/world/2026/nov/11/ai-datacentres-on-site-gas-fired-power-stations",
+      "name": "Nebius Q3 2026 results",
+      "url": "https://assets.nebius.com/assets/e2ac679c-fc62-4799-ba0e-6611e59c6863/Nebius-2026-Q3.pdf",
       "note": "Lead and Wire."
+    },
+    {
+      "name": "Reuters via StreetInsider: Nebius pares back 2026 revenue forecast",
+      "url": "https://www.streetinsider.com/Reuters/Nebius+beats+quarterly+revenue+estimates+on+strong+AI+demand/27330371.html",
+      "note": "Capacity delay, capex, funding mix."
+    },
+    {
+      "name": "Moneycontrol: CleanMax and Neysa 2 GW Andhra Pradesh",
+      "url": "https://www.moneycontrol.com/news/business/cleanmax-blackstone-backed-neysa-to-invest-rs-8-000-crore-in-2-gw-ai-data-centre-park-in-andhra-14078284.html",
+      "note": "Wire: India."
+    },
+    {
+      "name": "CNBC-TV18: ReNew Rs 80,000 crore in Andhra Pradesh",
+      "url": "https://www.cnbctv18.com/market/renew-energy-to-invest-rs-80000-crore-in-andhra-pradesh-across-data-centre-solar-and-magnet-manufacturing-20032651.htm",
+      "note": "Wire: India."
+    },
+    {
+      "name": "Amazon: AWS South America (Chile) Region",
+      "url": "https://www.aboutamazon.com/news/aws/aws-south-america-chile-region-launch",
+      "note": "Wire: Chile."
+    },
+    {
+      "name": "Saudi Press Agency: Infra and HUMAIN financing",
+      "url": "https://www.spa.gov.sa/en/N2721893",
+      "note": "Wire: Saudi Arabia."
+    },
+    {
+      "name": "CNBC: SoftBank swings to $7 billion loss",
+      "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+      "note": "Wire: $3.7 billion power-equipment loss."
+    },
+    {
+      "name": "Idaho Capital Sun: Boise six-month moratorium",
+      "url": "https://idahocapitalsun.com/2026/11/10/boise-city-council-approves-6-month-moratorium-on-large-data-center-construction/",
+      "note": "Wire: United States."
     },
     {
       "name": "Lambda Cloud pricing",
