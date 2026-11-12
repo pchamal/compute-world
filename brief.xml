@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Anthropic&#x27;s second IPO filing amendment, filed Tuesday, says its August 2026 compute agreement with Lambda, about $34.9 billion of a $41.3 billion set of Lambda commitments, is now terminable by either party because Lambda did not secure the facility lease by the contractual date; neither side has given notice and Anthropic says it does not intend to terminate. The same filing lifts its Microsoft commitment to at least $47.2 billion. Hours later CoreWeave reported Q3 revenue of $3.66 billion, up 168%, raised 2026 guidance and showed backlog of $132.5 billion, up from $104.2 billion in June, while saying it will avoid parent-level unsecured debt through 2027 at current yields. CEO Michael Intrator argued that if sector construction slows, installed compute gets scarcer and GPU pricing may stay higher for longer. TSMC&#x27;s October revenue hit NT$586.9 billion, up 59.7% year on year and its highest month on record. BloombergNEF counts 181 GW of on-site gas proposed for data centres in the US and Europe as builders route around grid queues. Live list prices held for a third straight day: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
+  <description>Nvidia said Thursday that Jensen Huang has resigned as president, CEO and director, effective immediately, after 33 years; its 8-K says the board accepted the resignation on 11 November. CFO Colette Kress is interim CEO and stays CFO, Harvey Jones becomes the first board chair, and fiscal Q3 results stay on 17 November. Nvidia gave no reason; the exit follows the board&#x27;s 8 November review of reports that Huang was targeted by a foreign intelligence effort. Shares fell about 10% to 12%. Nvidia is also the GPU market&#x27;s largest financier, with about $36 billion of cloud-service commitments plus stakes in and credit support for neoclouds and labs (TechCrunch), so neocloud stocks fell with it. Nebius beat on Q3 revenue at $980.8 million but cut 2026 guidance to $3.0 to $3.2 billion because some third-party capacity slipped into 2027, raised 2026 capex to about $27 billion and guided $40 to $45 billion for 2027, 75% to 85% funded by prepayments and asset-backed debt. Live list prices held for a fourth straight day: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 11 November 2026</title>
+    <title>Compute brief - 12 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-11-11</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Anthropic&#x27;s second IPO filing amendment, filed Tuesday, says its August 2026 compute agreement with Lambda, about $34.9 billion of a $41.3 billion set of Lambda commitments, is now terminable by either party because Lambda did not secure the facility lease by the contractual date; neither side has given notice and Anthropic says it does not intend to terminate. The same filing lifts its Microsoft commitment to at least $47.2 billion. Hours later CoreWeave reported Q3 revenue of $3.66 billion, up 168%, raised 2026 guidance and showed backlog of $132.5 billion, up from $104.2 billion in June, while saying it will avoid parent-level unsecured debt through 2027 at current yields. CEO Michael Intrator argued that if sector construction slows, installed compute gets scarcer and GPU pricing may stay higher for longer. TSMC&#x27;s October revenue hit NT$586.9 billion, up 59.7% year on year and its highest month on record. BloombergNEF counts 181 GW of on-site gas proposed for data centres in the US and Europe as builders route around grid queues. Live list prices held for a third straight day: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: United States: Anthropic S-1/A: $34.9 billion August Lambda agreement terminable after a missed facility-lease deadline; no notice given (Wire, 10 Nov, confirmed). United States: CoreWeave Q3 revenue $3.66 billion, backlog $132.5 billion, 1.85 GW active by end-2026 reaffirmed (Wire, 10 Nov, confirmed). Malaysia: Google commits US$15 billion for 2027 to 2028 campuses in Selangor and Negeri Sembilan plus more than 1 GW of clean energy (Wire, 4 Nov, confirmed). United States: Kraft Group floats a 900 MW, $16 billion campus in Sutton, Massachusetts; town vote targeted May 2027 (Wire, 11 Nov, single-source). United States: Integra-linked TDLR filing for an $8 billion, up to 756 MW campus in Quanah, Texas (Wire, 10 Nov, single-source).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-12</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Nvidia said Thursday that Jensen Huang has resigned as president, CEO and director, effective immediately, after 33 years; its 8-K says the board accepted the resignation on 11 November. CFO Colette Kress is interim CEO and stays CFO, Harvey Jones becomes the first board chair, and fiscal Q3 results stay on 17 November. Nvidia gave no reason; the exit follows the board&#x27;s 8 November review of reports that Huang was targeted by a foreign intelligence effort. Shares fell about 10% to 12%. Nvidia is also the GPU market&#x27;s largest financier, with about $36 billion of cloud-service commitments plus stakes in and credit support for neoclouds and labs (TechCrunch), so neocloud stocks fell with it. Nebius beat on Q3 revenue at $980.8 million but cut 2026 guidance to $3.0 to $3.2 billion because some third-party capacity slipped into 2027, raised 2026 capex to about $27 billion and guided $40 to $45 billion for 2027, 75% to 85% funded by prepayments and asset-backed debt. Live list prices held for a fourth straight day: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: United States: Jensen Huang resigns as Nvidia CEO; CFO Colette Kress interim, Harvey Jones first chair; Q3 results still 17 Nov (Wire, 12 Nov, confirmed). United States: Nebius Q3 revenue $980.8 million; third-party capacity slips into 2027; 2026 capex about $27 billion, 2027 capex $40 to $45 billion (Wire, 12 Nov, confirmed). India: ReNew 1 GW Anakapalli data centre (Rs 67,000 crore) and CleanMax-Neysa 2 GW Kurnool compute campus announced at the CII summit (Wire, 12 Nov, single-source, MoU stage). Chile: AWS South America (Chile) Region open to select customers; more than $4 billion planned; GA by end-2026 (Wire, 11 Nov, confirmed). Saudi Arabia: Infra signs up to SAR 2.5 billion for HUMAIN: about 25 MW of GPUs plus grid sized for up to 1 GW (Wire, 9 Nov, confirmed).</description>
   </item>
   <item>
     <title>H100 SXM · $4.59 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/lambda-h100-od</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.59 on-demand at Lambda as of 11 Nov 2026. Confirm vs 10 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/lambda-h100-od</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.59 on-demand at Lambda as of 12 Nov 2026. Confirm vs 11 Nov print</description>
   </item>
   <item>
     <title>B200 SXM6 · $7.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/lambda-b200-od</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 11 Nov 2026. Confirm vs 10 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/lambda-b200-od</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 12 Nov 2026. Confirm vs 11 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/coreweave-h100-od</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 11 Nov 2026. Confirm vs 10 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/coreweave-h100-od</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 12 Nov 2026. Confirm vs 11 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/crusoe-h100-od</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 11 Nov 2026. Confirm vs 10 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/crusoe-h100-od</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 12 Nov 2026. Confirm vs 11 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/crusoe-b300-od</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 11 Nov 2026. Confirm vs 10 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/crusoe-b300-od</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 12 Nov 2026. Confirm vs 11 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/do-b300-spot</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 11 Nov 2026. Confirm vs 10 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/do-b300-spot</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 12 Nov 2026. Confirm vs 11 Nov print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/do-mi355x-spot</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 11 Nov 2026. Confirm vs 10 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/do-mi355x-spot</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 12 Nov 2026. Confirm vs 11 Nov print</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/do-mi350x-spot</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 11 Nov 2026. Confirm vs 10 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/do-mi350x-spot</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 12 Nov 2026. Confirm vs 11 Nov print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-11/aws-cb-b300</guid>
-    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 11 Nov 2026. Confirm vs 10 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-12/aws-cb-b300</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 12 Nov 2026. Confirm vs 11 Nov print</description>
   </item>
 </channel></rss>
