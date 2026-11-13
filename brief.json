@@ -1,39 +1,39 @@
 {
-  "updated": "2026-11-12",
-  "title": "Compute brief - 12 November 2026",
-  "description": "Nvidia lost its founder-CEO. Jensen Huang resigned with immediate effect and CFO Colette Kress is interim CEO, five days before fiscal Q3 results, while Nebius beat on revenue but pushed some third-party capacity into 2027 and lifted 2026 capex to about $27 billion. Wire: Nvidia CEO transition, Nebius Q3, Andhra Pradesh 1 GW and 2 GW pledges, AWS Chile region, Saudi Infra-HUMAIN financing, SoftBank $3.7 billion power-gear loss, Boise moratorium. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The chips have no CEO. The capacity has no date.",
-  "lede": "Nvidia said Thursday that Jensen Huang has resigned as president, CEO and director, effective immediately, after 33 years; its 8-K says the board accepted the resignation on 11 November. CFO Colette Kress is interim CEO and stays CFO, Harvey Jones becomes the first board chair, and fiscal Q3 results stay on 17 November. Nvidia gave no reason; the exit follows the board's 8 November review of reports that Huang was targeted by a foreign intelligence effort. Shares fell about 10% to 12%. Nvidia is also the GPU market's largest financier, with about $36 billion of cloud-service commitments plus stakes in and credit support for neoclouds and labs (TechCrunch), so neocloud stocks fell with it. Nebius beat on Q3 revenue at $980.8 million but cut 2026 guidance to $3.0 to $3.2 billion because some third-party capacity slipped into 2027, raised 2026 capex to about $27 billion and guided $40 to $45 billion for 2027, 75% to 85% funded by prepayments and asset-backed debt. Live list prices held for a fourth straight day: 70 confirms, 0 ticks and 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
+  "updated": "2026-11-13",
+  "title": "Compute brief - 13 November 2026",
+  "description": "Buyers are paying for power before they sign leases. Fermi got a $200 million prepayment from an unnamed investment-grade hyperscaler for 600 MW at Project Matador while its TensorWave lease died, Cerebras signed Microsoft but says new capacity only ramps from December, and NAVER sold 20 MW to a US inference company for about $1.5 billion. Wire: Fermi, Cerebras, NAVER, Australia cancellations and CDC 1.4 GW filing, Kazakhstan Gcore MoU. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "Power before paper.",
+  "lede": "The day after Nvidia lost its founder-CEO, the clearest signal came from buyers paying for power before they sign leases. Fermi said an unnamed investment-grade hyperscaler agreed a $200 million prepayment and a $15 million early-works deal to advance 600 MW at Project Matador in Texas from 2027, with no lease yet; the same release said Fermi's August lease with AMD-backed TensorWave is terminated. Cerebras signed Microsoft as its third hyperscaler customer and has 700 MW under contract, but expects cloud revenue to stay flat this quarter because new capacity only starts ramping in December. NAVER sold 20 MW of 2027 capacity to a US inference company for about 2 trillion won ($1.5 billion). On Nvidia, Reuters reports interim CEO Colette Kress pushed back on Huang's large financing deals, including investments in OpenAI and Lambda, that a proposed $250 billion plan to support OpenAI's Ohio project was pared to $120 billion, and that the stock fell as much as 14% on Thursday before closing down 4.3%. List prices held for a fifth straight day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
   "countries": [
     {
-      "id": "usa-nvidia-ceo-transition",
+      "id": "usa-fermi-matador",
       "name": "United States",
       "slug": "united-states",
-      "note": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress interim, Harvey Jones first chair; Q3 results still 17 Nov (Wire, 12 Nov, confirmed)."
+      "note": "Unnamed investment-grade hyperscaler prepays $200 million for 600 MW at Fermi's Project Matador; TensorWave lease terminated (Wire, 12 Nov, confirmed)."
     },
     {
-      "id": "usa-nebius-q3",
+      "id": "usa-cerebras-q3",
       "name": "United States",
       "slug": "united-states",
-      "note": "Nebius Q3 revenue $980.8 million; third-party capacity slips into 2027; 2026 capex about $27 billion, 2027 capex $40 to $45 billion (Wire, 12 Nov, confirmed)."
+      "note": "Cerebras signs Microsoft, 700 MW under contract, RPO $26.1 billion; capacity ramps from December (Wire, 12 Nov, confirmed)."
     },
     {
-      "id": "ind-andhra-pradesh",
-      "name": "India",
-      "slug": "india",
-      "note": "ReNew 1 GW Anakapalli data centre (Rs 67,000 crore) and CleanMax-Neysa 2 GW Kurnool compute campus announced at the CII summit (Wire, 12 Nov, single-source, MoU stage)."
+      "id": "kor-naver-ai-factory",
+      "name": "South Korea",
+      "slug": "south-korea",
+      "note": "NAVER signs 2 trillion won, 20 MW AI Factory contract with a US inference company; 55 MW in 2027, 200 MW by 2028 (Wire, 12 Nov, confirmed)."
     },
     {
-      "id": "chl-aws-region",
-      "name": "Chile",
-      "slug": "chile",
-      "note": "AWS South America (Chile) Region open to select customers; more than $4 billion planned; GA by end-2026 (Wire, 11 Nov, confirmed)."
+      "id": "aus-backlash-kemps-creek",
+      "name": "Australia",
+      "slug": "australia",
+      "note": "AirTrunk Lane Cove and Stockland Cooks River projects cancelled, Tungkillo paused; CDC refiles Kemps Creek at 1.4 GW (Wire, 12 Nov, corroborated)."
     },
     {
-      "id": "sau-infra-humain",
-      "name": "Saudi Arabia",
-      "slug": "saudi-arabia",
-      "note": "Infra signs up to SAR 2.5 billion for HUMAIN: about 25 MW of GPUs plus grid sized for up to 1 GW (Wire, 9 Nov, confirmed)."
+      "id": "kaz-gcore-tengriai",
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "note": "Gcore and TengriAI MoU to explore up to 100 MW GPU data centre, 2027 to 2029 (Wire, 12 Nov, single-source, MoU)."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print"
+      "note": "Confirm vs 12 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +54,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print"
+      "note": "Confirm vs 12 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -65,10 +65,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print"
+      "note": "Confirm vs 12 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -76,10 +76,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 12 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -87,10 +87,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 12 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -98,10 +98,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print"
+      "note": "Confirm vs 12 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -109,10 +109,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print"
+      "note": "Confirm vs 12 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -120,10 +120,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print"
+      "note": "Confirm vs 12 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -131,10 +131,10 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 11 Nov print"
+      "note": "Confirm vs 12 Nov print"
     }
   ],
   "watch": [
@@ -144,24 +144,24 @@
       "note": "17 November, results about 1:20 pm PT, call 2 pm PT; first call under interim CEO Kress. Watch guidance, China, and the cloud-commitment and investment book."
     },
     {
-      "id": "nvidia-ceo-search",
-      "name": "Nvidia CEO search",
-      "note": "Board considering internal and external candidates; any change to neocloud backstops or credit guarantees."
-    },
-    {
       "id": "anthropic-ipo",
       "name": "Anthropic IPO",
-      "note": "Indicated range $70 to $78 per share; Nasdaq debut expected next week."
+      "note": "Prices 18 November, trades on Nasdaq as ANT from 19 November; range $70 to $78."
+    },
+    {
+      "id": "nvidia-ceo-search",
+      "name": "Nvidia CEO search",
+      "note": "Internal and external candidates; any change to neocloud backstops, credit guarantees or the OpenAI Ohio support."
+    },
+    {
+      "id": "fermi-lease",
+      "name": "Fermi Matador lease",
+      "note": "Whether the unnamed hyperscaler signs a definitive lease and the $90 million steel purchase."
     },
     {
       "id": "lambda-anthropic-lease",
       "name": "Lambda facility lease",
       "note": "Whether Lambda secures the lease or either party serves notice on the $34.9 billion August agreement."
-    },
-    {
-      "id": "indiaai-bids",
-      "name": "IndiaAI 10,000-GPU round",
-      "note": "Bids close 13 November."
     },
     {
       "id": "crusoe-dec1-pricing",
@@ -176,59 +176,44 @@
   ],
   "sources": [
     {
-      "name": "Nvidia 8-K, Item 5.02 (CEO transition)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
-      "note": "Lead and Wire: resignation accepted 11 Nov; Kress interim; Jones chair."
+      "name": "Fermi Q3 2026 results (8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026118351/ea031197701ex99-1.htm",
+      "note": "Lead and Wire: 600 MW hyperscaler prepayment; TensorWave lease terminated."
     },
     {
-      "name": "Nvidia newsroom: NVIDIA Announces CEO Transition",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-      "note": "Lead: Q3 date unchanged, 17 Nov."
+      "name": "Cerebras Q3 2026 results (8-K Exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073366/cbrsannouncesfinancialresu.htm",
+      "note": "Lead and Wire: 700 MW under contract; RPO $26.1 billion."
     },
     {
-      "name": "TechCrunch: Nvidia's Jensen Huang resigns",
-      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
-      "note": "Share move; Nvidia investment and cloud-commitment book."
+      "name": "CNBC: Cerebras beats, announces Microsoft deal",
+      "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "note": "Microsoft signed in October; revenue from Q1 2027."
     },
     {
-      "name": "Nebius Q3 2026 results",
-      "url": "https://assets.nebius.com/assets/e2ac679c-fc62-4799-ba0e-6611e59c6863/Nebius-2026-Q3.pdf",
-      "note": "Lead and Wire."
+      "name": "Korea Times: Naver clinches $1.5 billion AI computing deal",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20261112/naver-clinches-15-bill-ai-computing-deal-with-us-firm",
+      "note": "Wire: South Korea."
     },
     {
-      "name": "Reuters via StreetInsider: Nebius pares back 2026 revenue forecast",
-      "url": "https://www.streetinsider.com/Reuters/Nebius+beats+quarterly+revenue+estimates+on+strong+AI+demand/27330371.html",
-      "note": "Capacity delay, capex, funding mix."
+      "name": "Reuters via Investing.com: Kress, the CFO who challenged Huang's bets",
+      "url": "https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936",
+      "note": "Lead: financing pushback; share move."
     },
     {
-      "name": "Moneycontrol: CleanMax and Neysa 2 GW Andhra Pradesh",
-      "url": "https://www.moneycontrol.com/news/business/cleanmax-blackstone-backed-neysa-to-invest-rs-8-000-crore-in-2-gw-ai-data-centre-park-in-andhra-14078284.html",
-      "note": "Wire: India."
+      "name": "DCD: Three Australian developments change course",
+      "url": "https://www.datacenterdynamics.com/en/news/three-data-center-developments-in-australia-change-course-after-community-backlash/",
+      "note": "Wire: Australia."
     },
     {
-      "name": "CNBC-TV18: ReNew Rs 80,000 crore in Andhra Pradesh",
-      "url": "https://www.cnbctv18.com/market/renew-energy-to-invest-rs-80000-crore-in-andhra-pradesh-across-data-centre-solar-and-magnet-manufacturing-20032651.htm",
-      "note": "Wire: India."
+      "name": "DCD: CDC files 1.4 GW Kemps Creek campus",
+      "url": "https://www.datacenterdynamics.com/en/news/cdc-files-to-develop-14gw-data-center-campus-in-kemps-creek-australia/",
+      "note": "Wire: Australia."
     },
     {
-      "name": "Amazon: AWS South America (Chile) Region",
-      "url": "https://www.aboutamazon.com/news/aws/aws-south-america-chile-region-launch",
-      "note": "Wire: Chile."
-    },
-    {
-      "name": "Saudi Press Agency: Infra and HUMAIN financing",
-      "url": "https://www.spa.gov.sa/en/N2721893",
-      "note": "Wire: Saudi Arabia."
-    },
-    {
-      "name": "CNBC: SoftBank swings to $7 billion loss",
-      "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
-      "note": "Wire: $3.7 billion power-equipment loss."
-    },
-    {
-      "name": "Idaho Capital Sun: Boise six-month moratorium",
-      "url": "https://idahocapitalsun.com/2026/11/10/boise-city-council-approves-6-month-moratorium-on-large-data-center-construction/",
-      "note": "Wire: United States."
+      "name": "Gcore and TengriAI: 100 MW Kazakhstan MoU",
+      "url": "https://www.prnewswire.com/news-releases/gcore-and-tengriai-to-explore-100-mw-ai-data-center-in-kazakhstan-302937793.html",
+      "note": "Wire: Kazakhstan."
     },
     {
       "name": "Lambda Cloud pricing",

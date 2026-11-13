@@ -1,6 +1,104 @@
 {
   "items": [
     {
+      "id": "usa-fermi-matador-600mw-hyperscaler-200m-prepay-tensorwave-lease-terminated-2026-11-12",
+      "date": "2026-11-12",
+      "title": "Fermi signs an unnamed investment-grade hyperscaler to 600 MW at Project Matador with a $200 million prepayment; TensorWave lease terminated",
+      "summary": "Fermi America said on 12 November 2026 that an undisclosed investment-grade hyperscaler has signed agreements to advance an initial 600 MW of power capacity at Project Matador in the Texas Panhandle beginning in 2027: a $200 million prepayment agreement and a $15 million early construction and site development agreement, with a $90 million structural steel and building materials purchase still being finalised. The customer is committing capital before signing a lease; the parties are still working toward a definitive long-term lease. Fermi also said it and TensorWave terminated the data centre lease signed in August 2026, along with the associated AMD credit support agreement. Fermi remains pre-revenue: Q3 net loss $141.6 million, cash and restricted cash $315.5 million, net debt $958.4 million. Caveat: no lease is signed and the hyperscaler is not named. Country conversion: in the US, permitted behind-the-meter power is now valuable enough for a hyperscaler to prepay before a lease, while an AMD-backed neocloud tenancy fell away.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026118351/ea031197701ex99-1.htm",
+      "source": "Fermi Q3 2026 results (8-K Exhibit 99.1), 12 Nov 2026; DCD",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Capital",
+        "Stall"
+      ],
+      "score": 50
+    },
+    {
+      "id": "usa-cerebras-q3-microsoft-third-hyperscaler-700mw-under-contract-26-1bn-rpo-2026-11-12",
+      "date": "2026-11-12",
+      "title": "Cerebras signs Microsoft as its third hyperscaler customer and says 700 MW of data centre capacity is under contract",
+      "summary": "Cerebras reported Q3 2026 core revenue of $230.9 million, up 70%, with core cloud revenue of $144.9 million, up 272%, and remaining performance obligations of $26.1 billion at 30 September. It said 700 MW of data centre capacity is now under contract and guided Q4 core revenue of $310 million to $330 million; it expects to triple revenue in 2027. On the call it named Microsoft, which signed in October, as its third hyperscaler customer after AWS and Oracle, with revenue expected from Q1 2027 (CNBC). Executives said cloud revenue stays roughly flat in Q4 because new data centre capacity only starts ramping in December, with larger portions of the 700 MW arriving from mid-2027 (DCD). Caveat: Microsoft deal terms are not disclosed. Country conversion: US non-Nvidia inference silicon is winning hyperscaler placements, but land, power and shells still gate revenue.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073366/cbrsannouncesfinancialresu.htm",
+      "source": "Cerebras Q3 2026 results (8-K Exhibit 99.1) and call, 12 Nov 2026; CNBC; DCD",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Cloud",
+        "Capital",
+        "Build"
+      ],
+      "score": 46
+    },
+    {
+      "id": "korea-naver-ai-factory-2tn-won-20mw-us-inference-customer-first-contract-2026-11-12",
+      "date": "2026-11-12",
+      "title": "NAVER signs its first AI Factory customer: a 2 trillion won (about $1.5 billion) 20 MW compute contract with a US inference company",
+      "summary": "On its Q3 2026 call on 12 November, NAVER said it signed a computing-services contract worth about 2 trillion won with an unnamed US AI inference company, covering about 20 MW of next-generation GPU capacity with initial supply in 2027 and commercial service from the first half of 2027. NAVER plans to start its AI Factory at 55 MW in 2027 and reach 200 MW by 2028, says it has already secured data centre capacity beyond that target, and is in talks with more than 10 further prospective customers. The build is financed through the Brookfield-backed vehicle announced in October. Caveat: customer, term, pricing and GPU model are not disclosed; Korean reports put the term at four to five years. Country conversion: Korea is selling AI compute capacity to US buyers; about $1.5 billion over 20 MW is roughly $75 million per MW (our arithmetic, term undisclosed).",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20261112/naver-clinches-15-bill-ai-computing-deal-with-us-firm",
+      "source": "NAVER Q3 2026 earnings call, 12 Nov 2026; Korea Times; Yonhap",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Cloud",
+        "Capital"
+      ],
+      "score": 44
+    },
+    {
+      "id": "australia-airtrunk-lane-cove-stockland-cooks-river-cancelled-tungkillo-paused-cdc-kemps-creek-1-4gw-2026-11-12",
+      "date": "2026-11-12",
+      "title": "Australia: two Sydney data centre projects scrapped and one in South Australia paused after community backlash, as CDC refiles Kemps Creek at 1.4 GW",
+      "summary": "DCD reported on 12 November 2026 that AirTrunk has dropped a proposed 140 MW data centre at Lane Cove West in Sydney, calling the site unsuitable, and Stockland's planned AI data centre at Cooks River, Sydney, has been cancelled, while Quantum DC's Tungkillo project in South Australia is paused, all after community opposition; Goodman dropped a 90 MW Lane Cove West campus in September. The same day DCD reported CDC has refiled its Kemps Creek, western Sydney, application with NSW, growing it from one 144 MW building to six buildings totalling 1.4 GW with an on-site substation. Caveat: the cancellations rely on DCD and local media; the Kemps Creek figure is a planning filing, not an approval. Country conversion: Australian capacity is shifting from inner-city sites to large western Sydney campuses as local opposition hardens.",
+      "url": "https://www.datacenterdynamics.com/en/news/three-data-center-developments-in-australia-change-course-after-community-backlash/",
+      "source": "DCD, 12 Nov 2026 (two reports); In the Cove; NSW planning portal",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Policy",
+        "Stall",
+        "Build"
+      ],
+      "score": 38
+    },
+    {
+      "id": "kazakhstan-gcore-tengriai-100mw-gpu-data-centre-mou-2027-2029-2026-11-12",
+      "date": "2026-11-12",
+      "title": "Gcore and TengriAI sign an MoU to explore a GPU data centre in Kazakhstan of up to 100 MW, phased 2027 to 2029",
+      "summary": "Gcore and TengriAI announced on 12 November 2026 a memorandum of understanding to explore a GPU data centre in Kazakhstan with target capacity of up to 100 MW, phased between 2027 and 2029. TengriAI would handle land, power, permitting and construction; Gcore, an Nvidia Preferred Cloud Partner based in Luxembourg, would supply the AI cloud stack, operations and customer demand, with capacity sold to customers across Central Asia. Caveat: an MoU to explore only; no site, financing, GPU supply or export licence is disclosed. Country conversion: adds a fourth announced AI capacity track in Kazakhstan alongside Ekibastuz, Freedom and Firebird.",
+      "url": "https://www.prnewswire.com/news-releases/gcore-and-tengriai-to-explore-100-mw-ai-data-center-in-kazakhstan-302937793.html",
+      "source": "Gcore and TengriAI press release, 12 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "KAZ"
+      ],
+      "flags": "🇰🇿",
+      "tags": [
+        "Build",
+        "Cloud"
+      ],
+      "score": 30
+    },
+    {
       "id": "usa-nvidia-ceo-huang-resigns-kress-interim-jones-chair-2026-11-12",
       "date": "2026-11-12",
       "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim CEO and Harvey Jones first board chair",
@@ -3742,6 +3840,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-12",
-  "note": "Wire refresh 2026-11-12: added usa-nvidia-ceo-huang-resigns-kress-interim-jones-chair-2026-11-12, usa-nebius-q3-third-party-capacity-slips-2027-capex-27bn-2027-capex-40-45bn-2026-11-12, india-andhra-pradesh-renew-1gw-anakapalli-cleanmax-neysa-2gw-kurnool-cii-summit-2026-11-12, chile-aws-santiago-region-opens-select-customers-4bn-2026-11-11, saudi-infra-humain-sar-2-5bn-gpu-25mw-grid-1gw-financing-2026-11-09, usa-softbank-3-7bn-loss-us-ai-power-generation-equipment-procurement-2026-11-10, usa-boise-idaho-six-month-moratorium-large-data-centres-20mw-2026-11-10. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-13",
+  "note": "Wire refresh 2026-11-13: added usa-fermi-matador-600mw-hyperscaler-200m-prepay-tensorwave-lease-terminated-2026-11-12, usa-cerebras-q3-microsoft-third-hyperscaler-700mw-under-contract-26-1bn-rpo-2026-11-12, korea-naver-ai-factory-2tn-won-20mw-us-inference-customer-first-contract-2026-11-12, australia-airtrunk-lane-cove-stockland-cooks-river-cancelled-tungkillo-paused-cdc-kemps-creek-1-4gw-2026-11-12, kazakhstan-gcore-tengriai-100mw-gpu-data-centre-mou-2027-2029-2026-11-12. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
