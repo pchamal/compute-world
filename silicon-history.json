@@ -51950,6 +51950,30 @@
       "venue": "AWS",
       "config": "p5e US",
       "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/"
+    },
+    {
+      "id": "huawei-ascend-910c|SMM Beijing|1y monthly|2026-11-13|10.79",
+      "chip": "huawei-ascend-910c",
+      "date": "2026-11-13",
+      "price": 10.79,
+      "currency": "CNY",
+      "unit": "card-hr",
+      "term": "1y monthly",
+      "venue": "SMM Beijing",
+      "config": "list",
+      "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000"
+    },
+    {
+      "id": "huawei-ascend-910c|SMM Beijing|1y monthly|2026-11-13|10.79",
+      "chip": "huawei-ascend-910c",
+      "date": "2026-11-13",
+      "price": 10.79,
+      "currency": "CNY",
+      "unit": "card-hr",
+      "term": "1y monthly",
+      "venue": "SMM Beijing",
+      "config": "1y-monthly",
+      "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000"
     }
   ]
 }

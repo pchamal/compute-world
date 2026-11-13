@@ -156,25 +156,25 @@
       "id": "smm-910c",
       "name": "SMM Computing Power Bulletin: Ascend 910C Atlas 800T A3",
       "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000",
-      "note": "29 Jul 2026. ¥63,000/month per 8-card server, 1y min, Beijing. Tight supply."
+      "note": "Bulletin 29 Jul 2026, re-read 2026-11-13: still ¥63,000/month per 8-card server, 1y min, Beijing. Tight supply."
     },
     {
       "id": "pboc-usdcny",
       "name": "PBOC USD/CNY central parity",
-      "url": "https://www.news.cn/20260818/49fc10868e3d40d889d5cf1a3cd0526d/c.html",
-      "note": "SMM 910C labeled at 6.7899 on 2026-07-29 (print date). 18 Aug 2026 Xinhua print 6.7905 is a later parity, not the print-date FX."
+      "url": "http://xinhuanet.com.cn/20261113/731eaea19d4e47e09ebd30212eca29c0/c.html",
+      "note": "13 Nov 2026 Xinhua relay of the CFETS central parity: 100 USD = 671.52 CNY (6.7152). Labels the SMM 910C USD conversion. Not the 29 Jul 2026 print-date rate (6.7899)."
     },
     {
       "id": "cerebras",
       "name": "Cerebras pricing",
-      "url": "https://www.cerebras.ai/pricing",
-      "note": "Token / enterprise. Fetched 2026-08-18. No public accelerator-hour."
+      "url": "https://inference-docs.cerebras.ai/models/openai-oss",
+      "note": "Token / enterprise. Fetched 2026-11-13. gpt-oss-120b $0.35 / $0.75 per 1M tok. No public accelerator-hour."
     },
     {
       "id": "groq",
       "name": "Groq pricing",
-      "url": "https://groq.com/pricing",
-      "note": "Token API. Fetched 2026-08-18. No invented chip-hour."
+      "url": "https://console.groq.com/docs/model/openai/gpt-oss-120b",
+      "note": "Token API. Fetched 2026-11-13. gpt-oss-120b $0.15 / $0.60 per 1M tok. No invented chip-hour."
     },
     {
       "id": "digitalocean",
@@ -3770,24 +3770,24 @@
         "SMM Beijing"
       ],
       "display": {
-        "usd_per_gpu_hr": 1.59,
+        "usd_per_gpu_hr": 1.61,
         "cny_per_gpu_hr": 10.79,
         "cny_per_card_month": 7875,
-        "fx_usdcny": 6.7899,
-        "fx_as_of": "2026-07-29",
+        "fx_usdcny": 6.7152,
+        "fx_as_of": "2026-11-13",
         "fx_source_id": "pboc-usdcny",
         "primary": "CNY",
         "term": "1y monthly",
         "venue": "SMM Beijing",
-        "as_of": "2026-07-29",
+        "as_of": "2026-11-13",
         "source_id": "smm-910c",
         "label": "SMM Beijing · ¥10.79/hr",
-        "note": "¥63,000/month per 8-card Atlas 800T A3, 1y min. ¥7,875/card-month ÷ 730 h/mo = ¥10.79/hr. USD ~$1.59 at PBOC 6.7899 on 2026-07-29. CNY is the primary print.",
+        "note": "¥63,000/month per 8-card Atlas 800T A3, 1y min. ¥7,875/card-month ÷ 730 h/mo = ¥10.79/hr. USD ~$1.61 at PBOC 6.7152 on 2026-11-13. CNY is the primary print.",
         "config": "list"
       },
       "also": {
-        "text": "~$1.59/hr at PBOC 6.7899 (29 Jul 2026)",
-        "as_of": "2026-07-29"
+        "text": "~$1.61/hr at PBOC 6.7152 (13 Nov 2026)",
+        "as_of": "2026-11-13"
       },
       "availability": "SMM Computing Power Bulletin, 29 Jul 2026: 9 units of spot Ascend 910C Atlas 800T A3 entered the Beijing market at ¥63,000/month per 8-card server, one-year minimum. Tight overall supply; this batch called scarce. Not a neocloud on-demand sticker.",
       "cannot_show": [
@@ -3801,9 +3801,9 @@
         {
           "venue": "SMM Beijing",
           "term": "1y monthly",
-          "usd_per_gpu_hr": 1.59,
+          "usd_per_gpu_hr": 1.61,
           "cny_per_gpu_hr": 10.79,
-          "as_of": "2026-07-29",
+          "as_of": "2026-11-13",
           "source_id": "smm-910c",
           "note": "¥63,000 / 8-card month, 1y min. ¥7,875/card-month ÷ 730 h/mo = ¥10.79/hr.",
           "config": "1y-monthly"
@@ -3812,10 +3812,10 @@
           "venue": "PBOC",
           "term": "USD/CNY central parity",
           "usd_per_gpu_hr": null,
-          "fx_usdcny": 6.7899,
-          "as_of": "2026-07-29",
+          "fx_usdcny": 6.7152,
+          "as_of": "2026-11-13",
           "source_id": "pboc-usdcny",
-          "note": "Used only to label ¥10.79/hr in USD (~$1.59) on the print date. CNY remains primary."
+          "note": "Used only to label ¥10.79/hr in USD (~$1.61). Central parity 6.7152 on 2026-11-13. CNY remains primary. Not the 29 Jul 2026 print-date rate."
         }
       ],
       "score": 1.6,
@@ -3847,17 +3847,57 @@
           {
             "date": "2026-07-29",
             "price": 10.79
+          },
+          {
+            "date": "2026-11-13",
+            "price": 10.79
           }
         ],
         "steps": [
           {
             "date": "2026-07-29",
             "price": 10.79
+          },
+          {
+            "date": "2026-08-10",
+            "price": 10.79
+          },
+          {
+            "date": "2026-08-22",
+            "price": 10.79
+          },
+          {
+            "date": "2026-09-03",
+            "price": 10.79
+          },
+          {
+            "date": "2026-09-15",
+            "price": 10.79
+          },
+          {
+            "date": "2026-09-26",
+            "price": 10.79
+          },
+          {
+            "date": "2026-10-08",
+            "price": 10.79
+          },
+          {
+            "date": "2026-10-20",
+            "price": 10.79
+          },
+          {
+            "date": "2026-11-01",
+            "price": 10.79
+          },
+          {
+            "date": "2026-11-13",
+            "price": 10.79
           }
         ],
         "direction": "flat",
         "window": null,
-        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0\"/></svg>",
+        "svg": "<svg class=\"spark\" viewBox=\"0 0 80 28\" width=\"80\" height=\"28\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"miter\" stroke-linecap=\"butt\" d=\"M2.0,14.0 H10.4 V14.0 H18.9 V14.0 H27.3 V14.0 H35.8 V14.0 H44.2 V14.0 H52.7 V14.0 H61.1 V14.0 H69.6 V14.0 H78.0 V14.0\"/></svg>",
         "title": "Step chart of dated prints. Carry-forward is for drawing only."
       },
       "tape_print": {
@@ -3875,11 +3915,11 @@
           "venue": "SMM Beijing",
           "term": "1y monthly",
           "label": "SMM 1y",
-          "as_of": "2026-07-29",
+          "as_of": "2026-11-13",
           "url": "https://news.metal.com/newscontent/104030369-smm-computing-power-bulletin-9-units-of-spot-ascend-910c-atlas-800t-a3-enter-the-beijing-market-monthly-rent-63000",
           "currency": "CNY",
           "cny_per_gpu_hr": 10.79,
-          "usd_per_gpu_hr": 1.59,
+          "usd_per_gpu_hr": 1.61,
           "note": "¥63,000 / 8-card month, 1y min. ¥7,875/card-month ÷ 730 h/mo = ¥10.79/hr."
         },
         "y3": null
@@ -3904,7 +3944,7 @@
         "usd_per_gpu_hr": null,
         "term": "token / enterprise",
         "venue": "Cerebras",
-        "as_of": "2026-08-18",
+        "as_of": "2026-11-13",
         "source_id": "cerebras",
         "label": "token / enterprise",
         "note": "Cerebras Cloud is inference-token and enterprise. No public accelerator-hour. Do not use aggregator $0.75–$12.50.",
@@ -3912,7 +3952,7 @@
       },
       "also": {
         "text": "gpt-oss-120b $0.35 / $0.75 per 1M tok",
-        "as_of": "2026-08-18"
+        "as_of": "2026-11-13"
       },
       "availability": "Cerebras publishes token (developer) and enterprise tiers. There is no sourced public accelerator-hour in this snapshot. Aggregator chip-hour ranges are omitted on purpose.",
       "cannot_show": [
@@ -3927,7 +3967,7 @@
           "venue": "Cerebras",
           "term": "token / enterprise",
           "usd_per_gpu_hr": null,
-          "as_of": "2026-08-18",
+          "as_of": "2026-11-13",
           "source_id": "cerebras",
           "config": "token",
           "note": "No public accelerator-hour. Do not use aggregator $0.75–$12.50."
@@ -3939,7 +3979,7 @@
           "in_per_mtok": 0.35,
           "out_per_mtok": 0.75,
           "unit": "1M tok",
-          "as_of": "2026-08-18",
+          "as_of": "2026-11-13",
           "source_id": "cerebras",
           "config": "token",
           "note": "gpt-oss-120b. Not a chip-hour."
@@ -5505,7 +5545,7 @@
         "usd_per_gpu_hr": null,
         "term": "token API",
         "venue": "Groq",
-        "as_of": "2026-08-18",
+        "as_of": "2026-11-13",
         "source_id": "groq",
         "label": "token API",
         "note": "GroqCloud is a token API. No sourced public chip-hour in this snapshot.",
@@ -5513,7 +5553,7 @@
       },
       "also": {
         "text": "gpt-oss-120b $0.15 / $0.60 per 1M tok",
-        "as_of": "2026-08-18"
+        "as_of": "2026-11-13"
       },
       "availability": "Promoted from omitted: Groq publishes token-API pricing, not a chip-hour. The tape will not invent one.",
       "cannot_show": [
@@ -5528,10 +5568,10 @@
           "venue": "Groq",
           "term": "token API",
           "usd_per_gpu_hr": null,
-          "as_of": "2026-08-18",
+          "as_of": "2026-11-13",
           "source_id": "groq",
           "config": "token",
-          "note": "See groq.com/pricing. Not a chip-hour."
+          "note": "See the GroqCloud gpt-oss-120b model card. Not a chip-hour."
         },
         {
           "venue": "Groq",
@@ -5540,7 +5580,7 @@
           "in_per_mtok": 0.15,
           "out_per_mtok": 0.6,
           "unit": "1M tok",
-          "as_of": "2026-08-18",
+          "as_of": "2026-11-13",
           "source_id": "groq",
           "config": "token",
           "note": "gpt-oss-120b. Not a chip-hour."

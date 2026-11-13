@@ -788,6 +788,37 @@ def _slot_price(slot):
     return None
 
 
+def _print_currency(prints):
+    currencies = {(p.get("currency") or "USD") for p in prints or []}
+    if len(currencies) == 1:
+        return next(iter(currencies))
+    return None
+
+
+def _match_price(slot, prints):
+    """Slot price in the currency the confirm prints use.
+
+    A CNY confirm matches cny_per_gpu_hr even when the same slot also carries
+    a USD label. USD confirms keep matching usd_per_gpu_hr. A missing currency
+    stays USD, which is what the US list confirms already write.
+    """
+    if not isinstance(slot, dict):
+        return None
+    cur = _print_currency(prints)
+    if cur == "CNY":
+        got = _num(slot.get("cny_per_gpu_hr"))
+        if got is None:
+            got = _num(slot.get("price"))
+        return got
+    if cur == "USD":
+        got = _num(slot.get("usd_per_gpu_hr"))
+        if got is None and slot.get("currency") != "CNY" and slot.get("primary") != "CNY":
+            got = _num(slot.get("price"))
+        if got is not None:
+            return got
+    return _slot_price(slot)
+
+
 def _same_price(a, b):
     aa, bb = _num(a), _num(b)
     return aa is not None and aa == bb
@@ -931,6 +962,10 @@ def apply_history_confirms(silicon, history):
     is the latest pre-day print. The new dollar is copied from history. It is
     not invented. Sibling SKUs that share a term but not a price (Lambda 1CC
     16 / 64 / 256) are left alone.
+
+    CNY-primary cards (Ascend 910C) store the rental in history as CNY and a
+    dated USD label beside it. A CNY confirm stamps as_of from the CNY print.
+    It does not copy that CNY figure onto the USD label.
     """
     day = (history.get("as_of") or "").strip()
     if not day or not parse_date(day):
@@ -963,10 +998,13 @@ def apply_history_confirms(silicon, history):
                 continue
             day_prices = {_num(p.get("price")) for p in prints}
             for slot in group:
-                if any(_same_price(_slot_price(slot), p.get("price")) for p in prints):
+                if any(_same_price(_match_price(slot, prints), p.get("price")) for p in prints):
                     _stamp_as_of(slot, day, stamped_box)
                     if slot is disp:
                         display_ok = True
+            # CNY confirms advance the date only. The USD label is a separate FX print.
+            if _print_currency(prints) == "CNY":
+                continue
             if any(
                 slot.get("cny_per_gpu_hr") is not None and slot.get("usd_per_gpu_hr") is None
                 for slot in group
@@ -997,7 +1035,8 @@ def apply_history_confirms(silicon, history):
         for rec in (c.get("terms") or {}).values():
             if not _priced_row(rec):
                 continue
-            if any(_same_price(_slot_price(rec), p.get("price")) for p in series_points(cid, rec)):
+            term_prints = series_points(cid, rec)
+            if any(_same_price(_match_price(rec, term_prints), p.get("price")) for p in term_prints):
                 _stamp_as_of(rec, day, stamped_box)
 
         also = c.get("also")
@@ -1156,7 +1195,41 @@ def _confirm_self_check():
                         "as_of": "2026-09-15",
                     },
                 ],
-            }
+            },
+            {
+                "id": "cny-chip",
+                "display": {
+                    "venue": "SMM Beijing",
+                    "term": "1y monthly",
+                    "config": "list",
+                    "primary": "CNY",
+                    "cny_per_gpu_hr": 10.79,
+                    "usd_per_gpu_hr": 1.59,
+                    "as_of": "2026-07-29",
+                },
+                "also": {"text": "~$1.59/hr at PBOC 6.7899 (29 Jul 2026)", "as_of": "2026-07-29"},
+                "quotes": [
+                    {
+                        "venue": "SMM Beijing",
+                        "term": "1y monthly",
+                        "config": "1y-monthly",
+                        "cny_per_gpu_hr": 10.79,
+                        "usd_per_gpu_hr": 1.59,
+                        "as_of": "2026-07-29",
+                    }
+                ],
+                "terms": {
+                    "y1": {
+                        "venue": "SMM Beijing",
+                        "term": "1y monthly",
+                        "currency": "CNY",
+                        "cny_per_gpu_hr": 10.79,
+                        "usd_per_gpu_hr": 1.59,
+                        "price": 10.79,
+                        "as_of": "2026-07-29",
+                    }
+                },
+            },
         ],
     }
     history = {
@@ -1198,6 +1271,15 @@ def _confirm_self_check():
                 "price": 8.87,
                 "date": "2026-10-09",
             },
+            {
+                "chip": "cny-chip",
+                "venue": "SMM Beijing",
+                "term": "1y monthly",
+                "config": "list",
+                "currency": "CNY",
+                "price": 10.79,
+                "date": "2026-10-09",
+            },
         ],
     }
     apply_history_confirms(silicon, history)
@@ -1216,6 +1298,14 @@ def _confirm_self_check():
     assert "2026-08-18" in silicon["sources"][1]["note"]
     assert "2026-09-15" not in silicon["snapshot_note"]
     assert "2026-10-09" in silicon["snapshot_note"]
+    cny = silicon["chips"][1]
+    assert cny["display"]["as_of"] == "2026-10-09", cny["display"]
+    assert cny["display"]["cny_per_gpu_hr"] == 10.79
+    assert cny["display"]["usd_per_gpu_hr"] == 1.59
+    assert cny["also"]["as_of"] == "2026-10-09"
+    assert cny["also"]["text"] == "~$1.59/hr at PBOC 6.7899 (29 Jul 2026)"
+    assert cny["quotes"][0]["as_of"] == "2026-10-09" and cny["quotes"][0]["usd_per_gpu_hr"] == 1.59
+    assert cny["terms"]["y1"]["as_of"] == "2026-10-09" and cny["terms"]["y1"]["usd_per_gpu_hr"] == 1.59
 
 
 if __name__ == "__main__":
@@ -1266,8 +1356,27 @@ if __name__ == "__main__":
     if sa.get("as_of") != "2026-03" or sa.get("usd_per_gpu_hr") != 2.35:
         sys.exit(f"SA 1y must stay March 2026 STALE: {sa}")
     smm = (by.get("huawei-ascend-910c") or {}).get("display") or {}
-    if smm.get("as_of") != "2026-07-29":
-        sys.exit(f"SMM 910C as_of {smm.get('as_of')}")
+    if smm.get("cny_per_gpu_hr") != 10.79 or smm.get("usd_per_gpu_hr") != 1.61:
+        sys.exit(f"SMM 910C price {smm}")
+    if smm.get("fx_usdcny") != 6.7152 or smm.get("fx_as_of") != "2026-11-13":
+        sys.exit(f"SMM 910C fx {smm.get('fx_usdcny')} {smm.get('fx_as_of')}")
+    cny_today = any(
+        p.get("chip") == "huawei-ascend-910c"
+        and (p.get("date") or p.get("as_of")) == day
+        and _num(p.get("price")) == _num(10.79)
+        and (p.get("currency") or "") == "CNY"
+        for p in history.get("points") or []
+    )
+    if cny_today:
+        if smm.get("as_of") != day:
+            sys.exit(f"SMM 910C confirm {day} did not stamp display: {smm.get('as_of')}")
+    elif smm.get("as_of") == day:
+        sys.exit(f"SMM 910C as_of is the tape day without a CNY confirm")
+    also910 = (by.get("huawei-ascend-910c") or {}).get("also") or {}
+    if also910.get("as_of") != smm.get("as_of"):
+        sys.exit(f"SMM 910C also as_of {also910}")
+    if "$1.59" in (also910.get("text") or "") or "6.7899" in (also910.get("text") or ""):
+        sys.exit(f"SMM 910C also still on the July FX label: {also910}")
     frozen = [
         "nvidia-h200-sxm-141gb",
         "nvidia-gb200-nvl72",
@@ -1315,8 +1424,19 @@ if __name__ == "__main__":
     for sid in ("lambda", "coreweave", "crusoe", "aws-cb", "gcp-tpu", "digitalocean"):
         if f"List page fetched {day}" not in fetched.get(sid, ""):
             sys.exit(f"{sid} fetched note: {fetched.get(sid)}")
-    if "2026-08-18" not in fetched.get("cerebras", ""):
+    if "Fetched 2026-11-13" not in fetched.get("cerebras", ""):
         sys.exit(f"cerebras note moved: {fetched.get('cerebras')}")
+    if "Fetched 2026-11-13" not in fetched.get("groq", ""):
+        sys.exit(f"groq note moved: {fetched.get('groq')}")
+    for cid, text in (
+        ("cerebras-wse3", "gpt-oss-120b $0.35 / $0.75 per 1M tok"),
+        ("groq-lpu", "gpt-oss-120b $0.15 / $0.60 per 1M tok"),
+    ):
+        card = by.get(cid) or {}
+        disp = card.get("display") or {}
+        also = card.get("also") or {}
+        if disp.get("as_of") != "2026-11-13" or also.get("as_of") != "2026-11-13" or also.get("text") != text:
+            sys.exit(f"{cid} token confirm {disp.get('as_of')} {also}")
     print(f"ok · {len(history['points'])} dated points · harvested+{n}")
     for name, got, exp in expected_grid_pcts(silicon, history):
         print(f"  {name}: {got}")
