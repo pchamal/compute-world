@@ -1,39 +1,39 @@
 {
-  "updated": "2026-11-13",
-  "title": "Compute brief - 13 November 2026",
-  "description": "Buyers are paying for power before they sign leases. Fermi got a $200 million prepayment from an unnamed investment-grade hyperscaler for 600 MW at Project Matador while its TensorWave lease died, Cerebras signed Microsoft but says new capacity only ramps from December, and NAVER sold 20 MW to a US inference company for about $1.5 billion. Wire: Fermi, Cerebras, NAVER, Australia cancellations and CDC 1.4 GW filing, Kazakhstan Gcore MoU. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "Power before paper.",
-  "lede": "The day after Nvidia lost its founder-CEO, the clearest signal came from buyers paying for power before they sign leases. Fermi said an unnamed investment-grade hyperscaler agreed a $200 million prepayment and a $15 million early-works deal to advance 600 MW at Project Matador in Texas from 2027, with no lease yet; the same release said Fermi's August lease with AMD-backed TensorWave is terminated. Cerebras signed Microsoft as its third hyperscaler customer and has 700 MW under contract, but expects cloud revenue to stay flat this quarter because new capacity only starts ramping in December. NAVER sold 20 MW of 2027 capacity to a US inference company for about 2 trillion won ($1.5 billion). On Nvidia, Reuters reports interim CEO Colette Kress pushed back on Huang's large financing deals, including investments in OpenAI and Lambda, that a proposed $250 billion plan to support OpenAI's Ohio project was pared to $120 billion, and that the stock fell as much as 14% on Thursday before closing down 4.3%. List prices held for a fifth straight day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
+  "updated": "2026-11-16",
+  "title": "Compute brief - 16 November 2026",
+  "description": "The grid connection is now the asset. In Spain a stalled developer sold its 150 MW connection to Blackstone; in Canada Telus walked away from two Vancouver sites after protests; in India and Japan, AirTrunk and Digital Realty lined up 1.8 GW and 700 MW. Wire: Box2Bit and Blackstone, AirTrunk Andhra Pradesh, Digital Realty Japan, Telus Vancouver exit, Core Scientific Hunt County. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The connection is the asset.",
+  "lede": "Ahead of Nvidia's first results without Jensen Huang on Tuesday, the weekend's clearest signal was that a granted grid connection now trades on its own. In Spain, Box2Bit dropped its last Aragon project after Red Electrica denied substation access elsewhere and sold the 150 MW connection it did hold to Blackstone, whose Calatorao campus already has planning permission for 430 MW. In Canada, Telus pulled out of two Vancouver AI data centres that had 85 MW of BC Hydro power behind them, after local protests and a council change; Westbank says a new partner will continue. Capital kept flowing to places that can deliver power: AirTrunk signed an MoU for 1.8 GW near Visakhapatnam, Digital Realty told Nikkei it will spend $10 billion to take Japan from 193 MW to about 700 MW, and Core Scientific filed a $1.3 billion building in Hunt County, Texas, where AMD is set to lease 110 MW. List prices held for a sixth straight day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
   "countries": [
     {
-      "id": "usa-fermi-matador",
+      "id": "esp-box2bit-blackstone",
+      "name": "Spain",
+      "slug": "spain",
+      "note": "Box2Bit exits Epila and sells its 150 MW grid connection to Blackstone's Calatorao campus (Wire, 16 Nov, single-source)."
+    },
+    {
+      "id": "ind-airtrunk-ap",
+      "name": "India",
+      "slug": "india",
+      "note": "AirTrunk MoU with Andhra Pradesh for 400 MW at Rambilli and 1.4 GW at Tootipala (Wire, 14 Nov, confirmed, MoU)."
+    },
+    {
+      "id": "jpn-digital-realty",
+      "name": "Japan",
+      "slug": "japan",
+      "note": "Digital Realty and Mitsubishi plan $10 billion over a decade, 193 MW to about 700 MW (Wire, 14 Nov, corroborated, CEO interview)."
+    },
+    {
+      "id": "can-telus-vancouver",
+      "name": "Canada",
+      "slug": "canada",
+      "note": "Telus exits Westbank's two Vancouver AI data centres; Westbank continues with an unnamed partner (Wire, 14 Nov, corroborated)."
+    },
+    {
+      "id": "usa-core-scientific-hunt",
       "name": "United States",
       "slug": "united-states",
-      "note": "Unnamed investment-grade hyperscaler prepays $200 million for 600 MW at Fermi's Project Matador; TensorWave lease terminated (Wire, 12 Nov, confirmed)."
-    },
-    {
-      "id": "usa-cerebras-q3",
-      "name": "United States",
-      "slug": "united-states",
-      "note": "Cerebras signs Microsoft, 700 MW under contract, RPO $26.1 billion; capacity ramps from December (Wire, 12 Nov, confirmed)."
-    },
-    {
-      "id": "kor-naver-ai-factory",
-      "name": "South Korea",
-      "slug": "south-korea",
-      "note": "NAVER signs 2 trillion won, 20 MW AI Factory contract with a US inference company; 55 MW in 2027, 200 MW by 2028 (Wire, 12 Nov, confirmed)."
-    },
-    {
-      "id": "aus-backlash-kemps-creek",
-      "name": "Australia",
-      "slug": "australia",
-      "note": "AirTrunk Lane Cove and Stockland Cooks River projects cancelled, Tungkillo paused; CDC refiles Kemps Creek at 1.4 GW (Wire, 12 Nov, corroborated)."
-    },
-    {
-      "id": "kaz-gcore-tengriai",
-      "name": "Kazakhstan",
-      "slug": "kazakhstan",
-      "note": "Gcore and TengriAI MoU to explore up to 100 MW GPU data centre, 2027 to 2029 (Wire, 12 Nov, single-source, MoU)."
+      "note": "Core Scientific files $1.3 billion Hunt County building; AMD set to lease 110 MW; bitcoin mining exit by year-end (Wire, 16 Nov, confirmed)."
     }
   ],
   "silicon": [
@@ -43,10 +43,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print"
+      "note": "Confirm vs 13 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +54,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print"
+      "note": "Confirm vs 13 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -65,10 +65,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print"
+      "note": "Confirm vs 13 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -76,10 +76,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 13 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -87,10 +87,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 13 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -98,10 +98,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print"
+      "note": "Confirm vs 13 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -109,10 +109,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print"
+      "note": "Confirm vs 13 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -120,10 +120,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print"
+      "note": "Confirm vs 13 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -131,37 +131,32 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-16",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 12 Nov print"
+      "note": "Confirm vs 13 Nov print"
     }
   ],
   "watch": [
     {
       "id": "nvidia-q3",
       "name": "Nvidia fiscal Q3",
-      "note": "17 November, results about 1:20 pm PT, call 2 pm PT; first call under interim CEO Kress. Watch guidance, China, and the cloud-commitment and investment book."
+      "note": "17 November, results about 1:20 pm PT, call 2 pm PT; first call under interim CEO Kress. Guide was $108 billion plus or minus 2% and 74% gross margin; watch the Q4 guide, supply, China and neocloud backstops."
     },
     {
       "id": "anthropic-ipo",
       "name": "Anthropic IPO",
-      "note": "Prices 18 November, trades on Nasdaq as ANT from 19 November; range $70 to $78."
+      "note": "Prices evening of 18 November, trades on Nasdaq as ANT from 19 November; 825 million shares at $70 to $78."
     },
     {
-      "id": "nvidia-ceo-search",
-      "name": "Nvidia CEO search",
-      "note": "Internal and external candidates; any change to neocloud backstops, credit guarantees or the OpenAI Ohio support."
+      "id": "blackstone-calatorao",
+      "name": "Blackstone Calatorao",
+      "note": "Whether the extra 150 MW changes the 430 MW phasing or timeline."
     },
     {
-      "id": "fermi-lease",
-      "name": "Fermi Matador lease",
-      "note": "Whether the unnamed hyperscaler signs a definitive lease and the $90 million steel purchase."
-    },
-    {
-      "id": "lambda-anthropic-lease",
-      "name": "Lambda facility lease",
-      "note": "Whether Lambda secures the lease or either party serves notice on the $34.9 billion August agreement."
+      "id": "vancouver-m3",
+      "name": "Vancouver M3 rezoning",
+      "note": "City consultation 2 to 15 December; who Westbank's new partner is and whether the BC Hydro allocation transfers."
     },
     {
       "id": "crusoe-dec1-pricing",
@@ -176,44 +171,34 @@
   ],
   "sources": [
     {
-      "name": "Fermi Q3 2026 results (8-K Exhibit 99.1)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026118351/ea031197701ex99-1.htm",
-      "note": "Lead and Wire: 600 MW hyperscaler prepayment; TensorWave lease terminated."
+      "name": "DCD: Box2Bit sells 150 MW to Blackstone",
+      "url": "https://www.datacenterdynamics.com/en/news/box2bit-sells-150-mw-to-blackstone-and-lets-epila-take-the-lead-in-aragon/",
+      "note": "Lead and Wire: Spain."
     },
     {
-      "name": "Cerebras Q3 2026 results (8-K Exhibit 99.1)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026073366/cbrsannouncesfinancialresu.htm",
-      "note": "Lead and Wire: 700 MW under contract; RPO $26.1 billion."
+      "name": "DCD: Telus abandons Vancouver AI data center plans",
+      "url": "https://www.datacenterdynamics.com/en/news/telus-abandons-its-vancouver-ai-data-center-development-plans/",
+      "note": "Lead and Wire: Canada."
     },
     {
-      "name": "CNBC: Cerebras beats, announces Microsoft deal",
-      "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-      "note": "Microsoft signed in October; revenue from Q1 2027."
+      "name": "DCD: AirTrunk signs MoU for 1.8 GW in Andhra Pradesh",
+      "url": "https://www.datacenterdynamics.com/en/news/airtrunk-signs-mou-for-18gw-of-data-center-capacity-in-andhra-pradesh-india/",
+      "note": "Wire: India."
     },
     {
-      "name": "Korea Times: Naver clinches $1.5 billion AI computing deal",
-      "url": "https://www.koreatimes.co.kr/business/tech-science/20261112/naver-clinches-15-bill-ai-computing-deal-with-us-firm",
-      "note": "Wire: South Korea."
+      "name": "Nikkei Asia: Digital Realty to spend $10bn more in Japan",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/digital-realty-trust-to-spend-10bn-more-on-japan-data-centers-ceo",
+      "note": "Wire: Japan."
     },
     {
-      "name": "Reuters via Investing.com: Kress, the CFO who challenged Huang's bets",
-      "url": "https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936",
-      "note": "Lead: financing pushback; share move."
+      "name": "DCD: Core Scientific files for 285 MW site outside Dallas",
+      "url": "https://www.datacenterdynamics.com/en/news/core-scientific-files-for-285mw-data-center-outside-dallas-texas/",
+      "note": "Wire: United States."
     },
     {
-      "name": "DCD: Three Australian developments change course",
-      "url": "https://www.datacenterdynamics.com/en/news/three-data-center-developments-in-australia-change-course-after-community-backlash/",
-      "note": "Wire: Australia."
-    },
-    {
-      "name": "DCD: CDC files 1.4 GW Kemps Creek campus",
-      "url": "https://www.datacenterdynamics.com/en/news/cdc-files-to-develop-14gw-data-center-campus-in-kemps-creek-australia/",
-      "note": "Wire: Australia."
-    },
-    {
-      "name": "Gcore and TengriAI: 100 MW Kazakhstan MoU",
-      "url": "https://www.prnewswire.com/news-releases/gcore-and-tengriai-to-explore-100-mw-ai-data-center-in-kazakhstan-302937793.html",
-      "note": "Wire: Kazakhstan."
+      "name": "CNBC: Kress faces key questions at Nvidia earnings",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+      "note": "Watch: Nvidia Q3."
     },
     {
       "name": "Lambda Cloud pricing",
