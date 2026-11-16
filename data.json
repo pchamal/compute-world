@@ -347,7 +347,7 @@
    "rf": 0.72,
    "rz": 59,
    "dl": 1,
-   "rw": "Andhra Pradesh summit: ReNew plans a 1 GW green data centre in Anakapalli; C…"
+   "rw": "India: AirTrunk signs an MoU with Andhra Pradesh for 1.8 GW across two campu…"
   },
   {
    "n": "Pakistan",
@@ -1045,9 +1045,9 @@
    "pue": "~1.2-1.4",
    "note": "23 GW geothermal resource (3rd largest), 0.61 installed; consenting-constrained",
    "rf": 0.85,
-   "rz": 57,
+   "rz": 65,
    "dl": 1,
-   "rw": "JERA, Dell and RHAELM sign MoU for national-scale AI infrastructure in Japan…"
+   "rw": "Japan: Digital Realty plans $10 billion with Mitsubishi to take Japan capaci…"
   },
   {
    "n": "South Korea",
@@ -3845,9 +3845,9 @@
    "pue": "~1.2-1.4",
    "note": "Iberian solar + cables",
    "rf": 0.85,
-   "rz": 45,
+   "rz": 39,
    "dl": 1,
-   "rw": "IREN secures grid power and a civil works license for a planned 300 MW AI ca…"
+   "rw": "Spain: Box2Bit drops its last Aragon data centre project and sells the 150 M…"
   },
   {
    "n": "Portugal",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "Fermi signs an unnamed investment-grade hyperscaler to 600 MW at Project Mat…"
+   "rw": "Core Scientific files a $1.3 billion core-and-shell build in Hunt County, Te…"
   },
   {
    "n": "Canada",
@@ -4697,7 +4697,7 @@
    "rf": 1.0,
    "rz": 47,
    "dl": 1,
-   "rw": "Canada joins the EuroHPC Joint Undertaking as its 39th participating state"
+   "rw": "Canada: Telus pulls out of Westbank's two Vancouver AI data centres; Westban…"
   },
   {
    "n": "Mexico",
