@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Ahead of Nvidia&#x27;s first results without Jensen Huang on Tuesday, the weekend&#x27;s clearest signal was that a granted grid connection now trades on its own. In Spain, Box2Bit dropped its last Aragon project after Red Electrica denied substation access elsewhere and sold the 150 MW connection it did hold to Blackstone, whose Calatorao campus already has planning permission for 430 MW. In Canada, Telus pulled out of two Vancouver AI data centres that had 85 MW of BC Hydro power behind them, after local protests and a council change; Westbank says a new partner will continue. Capital kept flowing to places that can deliver power: AirTrunk signed an MoU for 1.8 GW near Visakhapatnam, Digital Realty told Nikkei it will spend $10 billion to take Japan from 193 MW to about 700 MW, and Core Scientific filed a $1.3 billion building in Hunt County, Texas, where AMD is set to lease 110 MW. List prices held for a sixth straight day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
+  <description>On the morning of Nvidia&#x27;s first results without Jensen Huang, Washington changed what a foreign AI data centre can sell. A Commerce Department interim final rule released on 16 November requires a license to ship advanced AI chips to Indonesia, Malaysia, Singapore, Thailand or Brazil, unless the buyer or its parent is headquartered in the United States and the exporter files monthly reports. It also requires a license for chips headed to any data centre that will supply more than 12 million aggregate TPP of compute to China-headquartered companies, which puts know-your-customer checks on the operator. For the Johor, Singapore and Batam build-outs, the tenant&#x27;s passport now decides how fast capacity converts. In the US, capital kept moving: OpenAI took 457 MW of AMD MI455X capacity from TensorWave, and Blackstone&#x27;s listed REIT agreed to buy 75% of two AWS campuses (647 MW) for about $5 billion. List prices held for a seventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 16 November 2026</title>
+    <title>Compute brief - 17 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-11-16</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Ahead of Nvidia&#x27;s first results without Jensen Huang on Tuesday, the weekend&#x27;s clearest signal was that a granted grid connection now trades on its own. In Spain, Box2Bit dropped its last Aragon project after Red Electrica denied substation access elsewhere and sold the 150 MW connection it did hold to Blackstone, whose Calatorao campus already has planning permission for 430 MW. In Canada, Telus pulled out of two Vancouver AI data centres that had 85 MW of BC Hydro power behind them, after local protests and a council change; Westbank says a new partner will continue. Capital kept flowing to places that can deliver power: AirTrunk signed an MoU for 1.8 GW near Visakhapatnam, Digital Realty told Nikkei it will spend $10 billion to take Japan from 193 MW to about 700 MW, and Core Scientific filed a $1.3 billion building in Hunt County, Texas, where AMD is set to lease 110 MW. List prices held for a sixth straight day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: Spain: Box2Bit exits Epila and sells its 150 MW grid connection to Blackstone&#x27;s Calatorao campus (Wire, 16 Nov, single-source). India: AirTrunk MoU with Andhra Pradesh for 400 MW at Rambilli and 1.4 GW at Tootipala (Wire, 14 Nov, confirmed, MoU). Japan: Digital Realty and Mitsubishi plan $10 billion over a decade, 193 MW to about 700 MW (Wire, 14 Nov, corroborated, CEO interview). Canada: Telus exits Westbank&#x27;s two Vancouver AI data centres; Westbank continues with an unnamed partner (Wire, 14 Nov, corroborated). United States: Core Scientific files $1.3 billion Hunt County building; AMD set to lease 110 MW; bitcoin mining exit by year-end (Wire, 16 Nov, confirmed).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-17</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>On the morning of Nvidia&#x27;s first results without Jensen Huang, Washington changed what a foreign AI data centre can sell. A Commerce Department interim final rule released on 16 November requires a license to ship advanced AI chips to Indonesia, Malaysia, Singapore, Thailand or Brazil, unless the buyer or its parent is headquartered in the United States and the exporter files monthly reports. It also requires a license for chips headed to any data centre that will supply more than 12 million aggregate TPP of compute to China-headquartered companies, which puts know-your-customer checks on the operator. For the Johor, Singapore and Batam build-outs, the tenant&#x27;s passport now decides how fast capacity converts. In the US, capital kept moving: OpenAI took 457 MW of AMD MI455X capacity from TensorWave, and Blackstone&#x27;s listed REIT agreed to buy 75% of two AWS campuses (647 MW) for about $5 billion. List prices held for a seventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: Malaysia: New US license requirement for advanced AI chips unless the buyer is US-headquartered (Wire, 16 Nov, confirmed). Singapore: Same BIS license requirement; remote-access control for China-headquartered customers (Wire, 16 Nov, confirmed). Indonesia: Added to the BIS license list with Thailand and Brazil (Wire, 16 Nov, confirmed). United States: OpenAI takes 457 MW of AMD capacity from TensorWave; BXDC buys 75% of 647 MW of AWS campuses for about $5 billion (Wire, 16 Nov, confirmed). Australia: Firmus seeks $3 billion and customer prepayments; 916 MW contracted, 46 MW live (Wire, 16 Nov, single-source). Egypt: Vodafone Egypt, Elsewedy and Cassava JV: 20 MW first, up to 200 MW, $1 billion at full build (Wire, 17 Nov, confirmed).</description>
   </item>
   <item>
     <title>H100 SXM · $4.59 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/lambda-h100-od</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.59 on-demand at Lambda as of 16 Nov 2026. Confirm vs 13 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/lambda-h100-od</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.59 on-demand at Lambda as of 17 Nov 2026. Confirm vs 16 Nov print</description>
   </item>
   <item>
     <title>B200 SXM6 · $7.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/lambda-b200-od</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 16 Nov 2026. Confirm vs 13 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/lambda-b200-od</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 17 Nov 2026. Confirm vs 16 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/coreweave-h100-od</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 16 Nov 2026. Confirm vs 13 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/coreweave-h100-od</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 17 Nov 2026. Confirm vs 16 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/crusoe-h100-od</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 16 Nov 2026. Confirm vs 13 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/crusoe-h100-od</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 17 Nov 2026. Confirm vs 16 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/crusoe-b300-od</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 16 Nov 2026. Confirm vs 13 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/crusoe-b300-od</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 17 Nov 2026. Confirm vs 16 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/do-b300-spot</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 16 Nov 2026. Confirm vs 13 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/do-b300-spot</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 17 Nov 2026. Confirm vs 16 Nov print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/do-mi355x-spot</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 16 Nov 2026. Confirm vs 13 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/do-mi355x-spot</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 17 Nov 2026. Confirm vs 16 Nov print</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/do-mi350x-spot</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 16 Nov 2026. Confirm vs 13 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/do-mi350x-spot</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 17 Nov 2026. Confirm vs 16 Nov print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-16/aws-cb-b300</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 16 Nov 2026. Confirm vs 13 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-17/aws-cb-b300</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 17 Nov 2026. Confirm vs 16 Nov print</description>
   </item>
 </channel></rss>
