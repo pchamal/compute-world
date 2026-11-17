@@ -1,39 +1,45 @@
 {
-  "updated": "2026-11-16",
-  "title": "Compute brief - 16 November 2026",
-  "description": "The grid connection is now the asset. In Spain a stalled developer sold its 150 MW connection to Blackstone; in Canada Telus walked away from two Vancouver sites after protests; in India and Japan, AirTrunk and Digital Realty lined up 1.8 GW and 700 MW. Wire: Box2Bit and Blackstone, AirTrunk Andhra Pradesh, Digital Realty Japan, Telus Vancouver exit, Core Scientific Hunt County. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The connection is the asset.",
-  "lede": "Ahead of Nvidia's first results without Jensen Huang on Tuesday, the weekend's clearest signal was that a granted grid connection now trades on its own. In Spain, Box2Bit dropped its last Aragon project after Red Electrica denied substation access elsewhere and sold the 150 MW connection it did hold to Blackstone, whose Calatorao campus already has planning permission for 430 MW. In Canada, Telus pulled out of two Vancouver AI data centres that had 85 MW of BC Hydro power behind them, after local protests and a council change; Westbank says a new partner will continue. Capital kept flowing to places that can deliver power: AirTrunk signed an MoU for 1.8 GW near Visakhapatnam, Digital Realty told Nikkei it will spend $10 billion to take Japan from 193 MW to about 700 MW, and Core Scientific filed a $1.3 billion building in Hunt County, Texas, where AMD is set to lease 110 MW. List prices held for a sixth straight day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
+  "updated": "2026-11-17",
+  "title": "Compute brief - 17 November 2026",
+  "description": "Export control moves from the chip to the data centre. A new US rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thailand and Brazil license-only unless the buyer is US-headquartered, and licenses remote compute for China-headquartered customers. Wire: BIS remote-access rule, OpenAI and TensorWave 457 MW, BXDC buys AWS campuses, Firmus raise, Egypt, Greece, AIGF Northern, SKT and Hyosung. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "Who owns the tenant now matters.",
+  "lede": "On the morning of Nvidia's first results without Jensen Huang, Washington changed what a foreign AI data centre can sell. A Commerce Department interim final rule released on 16 November requires a license to ship advanced AI chips to Indonesia, Malaysia, Singapore, Thailand or Brazil, unless the buyer or its parent is headquartered in the United States and the exporter files monthly reports. It also requires a license for chips headed to any data centre that will supply more than 12 million aggregate TPP of compute to China-headquartered companies, which puts know-your-customer checks on the operator. For the Johor, Singapore and Batam build-outs, the tenant's passport now decides how fast capacity converts. In the US, capital kept moving: OpenAI took 457 MW of AMD MI455X capacity from TensorWave, and Blackstone's listed REIT agreed to buy 75% of two AWS campuses (647 MW) for about $5 billion. List prices held for a seventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
   "countries": [
     {
-      "id": "esp-box2bit-blackstone",
-      "name": "Spain",
-      "slug": "spain",
-      "note": "Box2Bit exits Epila and sells its 150 MW grid connection to Blackstone's Calatorao campus (Wire, 16 Nov, single-source)."
+      "id": "mys-bis-ifr",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "New US license requirement for advanced AI chips unless the buyer is US-headquartered (Wire, 16 Nov, confirmed)."
     },
     {
-      "id": "ind-airtrunk-ap",
-      "name": "India",
-      "slug": "india",
-      "note": "AirTrunk MoU with Andhra Pradesh for 400 MW at Rambilli and 1.4 GW at Tootipala (Wire, 14 Nov, confirmed, MoU)."
+      "id": "sgp-bis-ifr",
+      "name": "Singapore",
+      "slug": "singapore",
+      "note": "Same BIS license requirement; remote-access control for China-headquartered customers (Wire, 16 Nov, confirmed)."
     },
     {
-      "id": "jpn-digital-realty",
-      "name": "Japan",
-      "slug": "japan",
-      "note": "Digital Realty and Mitsubishi plan $10 billion over a decade, 193 MW to about 700 MW (Wire, 14 Nov, corroborated, CEO interview)."
+      "id": "idn-bis-ifr",
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "note": "Added to the BIS license list with Thailand and Brazil (Wire, 16 Nov, confirmed)."
     },
     {
-      "id": "can-telus-vancouver",
-      "name": "Canada",
-      "slug": "canada",
-      "note": "Telus exits Westbank's two Vancouver AI data centres; Westbank continues with an unnamed partner (Wire, 14 Nov, corroborated)."
-    },
-    {
-      "id": "usa-core-scientific-hunt",
+      "id": "usa-tensorwave-bxdc",
       "name": "United States",
       "slug": "united-states",
-      "note": "Core Scientific files $1.3 billion Hunt County building; AMD set to lease 110 MW; bitcoin mining exit by year-end (Wire, 16 Nov, confirmed)."
+      "note": "OpenAI takes 457 MW of AMD capacity from TensorWave; BXDC buys 75% of 647 MW of AWS campuses for about $5 billion (Wire, 16 Nov, confirmed)."
+    },
+    {
+      "id": "aus-firmus",
+      "name": "Australia",
+      "slug": "australia",
+      "note": "Firmus seeks $3 billion and customer prepayments; 916 MW contracted, 46 MW live (Wire, 16 Nov, single-source)."
+    },
+    {
+      "id": "egy-adc",
+      "name": "Egypt",
+      "slug": "egypt",
+      "note": "Vodafone Egypt, Elsewedy and Cassava JV: 20 MW first, up to 200 MW, $1 billion at full build (Wire, 17 Nov, confirmed)."
     }
   ],
   "silicon": [
@@ -43,10 +49,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print"
+      "note": "Confirm vs 16 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +60,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print"
+      "note": "Confirm vs 16 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -65,10 +71,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print"
+      "note": "Confirm vs 16 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -76,10 +82,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 16 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -87,10 +93,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 16 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -98,10 +104,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print"
+      "note": "Confirm vs 16 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -109,10 +115,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print"
+      "note": "Confirm vs 16 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -120,10 +126,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print"
+      "note": "Confirm vs 16 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -131,32 +137,27 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 13 Nov print"
+      "note": "Confirm vs 16 Nov print"
     }
   ],
   "watch": [
     {
       "id": "nvidia-q3",
       "name": "Nvidia fiscal Q3",
-      "note": "17 November, results about 1:20 pm PT, call 2 pm PT; first call under interim CEO Kress. Guide was $108 billion plus or minus 2% and 74% gross margin; watch the Q4 guide, supply, China and neocloud backstops."
+      "note": "Today, 17 November: results about 1:20 pm PT, call 2 pm PT, first under interim CEO Kress. Guide was $108 billion plus or minus 2% and 74% gross margin; LSEG consensus about $109.1 billion. Watch the Q4 guide, supply, Southeast Asia exposure under the new rule, and neocloud backstops."
+    },
+    {
+      "id": "bis-ifr-fr",
+      "name": "BIS remote-access rule",
+      "note": "Federal Register publication expected 19 November per Nixon Peabody; comment period and a 90-day window to license existing arrangements follow."
     },
     {
       "id": "anthropic-ipo",
       "name": "Anthropic IPO",
       "note": "Prices evening of 18 November, trades on Nasdaq as ANT from 19 November; 825 million shares at $70 to $78."
-    },
-    {
-      "id": "blackstone-calatorao",
-      "name": "Blackstone Calatorao",
-      "note": "Whether the extra 150 MW changes the 430 MW phasing or timeline."
-    },
-    {
-      "id": "vancouver-m3",
-      "name": "Vancouver M3 rezoning",
-      "note": "City consultation 2 to 15 December; who Westbank's new partner is and whether the BC Hydro allocation transfers."
     },
     {
       "id": "crusoe-dec1-pricing",
@@ -166,38 +167,43 @@
     {
       "id": "eu-gigafactory-bids",
       "name": "EU AI gigafactory tender",
-      "note": "Large sites (Lot 2) due 3 December, medium sites (Lot 1) 4 February 2027."
+      "note": "Large sites (Lot 2) due 3 December, medium sites (Lot 1) 4 February 2027; AIGF Northern is a new bidder."
     }
   ],
   "sources": [
     {
-      "name": "DCD: Box2Bit sells 150 MW to Blackstone",
-      "url": "https://www.datacenterdynamics.com/en/news/box2bit-sells-150-mw-to-blackstone-and-lets-epila-take-the-lead-in-aragon/",
-      "note": "Lead and Wire: Spain."
+      "name": "BIS: rule addressing remote access to advanced SI technology",
+      "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+      "note": "Lead and Wire: US export controls."
     },
     {
-      "name": "DCD: Telus abandons Vancouver AI data center plans",
-      "url": "https://www.datacenterdynamics.com/en/news/telus-abandons-its-vancouver-ai-data-center-development-plans/",
-      "note": "Lead and Wire: Canada."
+      "name": "Nixon Peabody: BIS targets remote access through overseas data centers",
+      "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
+      "note": "Rule details: 12M TPP threshold, 19 Nov publication, 90 days."
     },
     {
-      "name": "DCD: AirTrunk signs MoU for 1.8 GW in Andhra Pradesh",
-      "url": "https://www.datacenterdynamics.com/en/news/airtrunk-signs-mou-for-18gw-of-data-center-capacity-in-andhra-pradesh-india/",
-      "note": "Wire: India."
+      "name": "NBC News: US closes loophole on top AI chips",
+      "url": "https://www.nbcnews.com/tech/tech-news/us-closes-loophole-let-chinese-companies-use-top-ai-chips-rcna609634",
+      "note": "Reaction, China foreign ministry."
     },
     {
-      "name": "Nikkei Asia: Digital Realty to spend $10bn more in Japan",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/digital-realty-trust-to-spend-10bn-more-on-japan-data-centers-ceo",
-      "note": "Wire: Japan."
-    },
-    {
-      "name": "DCD: Core Scientific files for 285 MW site outside Dallas",
-      "url": "https://www.datacenterdynamics.com/en/news/core-scientific-files-for-285mw-data-center-outside-dallas-texas/",
+      "name": "TensorWave: agreement with OpenAI for more than 450 MW",
+      "url": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure",
       "note": "Wire: United States."
     },
     {
-      "name": "CNBC: Kress faces key questions at Nvidia earnings",
-      "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+      "name": "BXDC: $5 billion acquisition of stabilized data center portfolio",
+      "url": "https://ir.bxdc.com/press-releases-and-news/press-release-details/2026/Blackstone-Digital-Infrastructure-Trust-Announces-5-Billion-Acquisition-of-Stabilized-Data-Center-Portfolio/default.aspx",
+      "note": "Wire: United States."
+    },
+    {
+      "name": "DCD: Firmus looks to raise $3bn",
+      "url": "https://www.datacenterdynamics.com/en/news/firmus-looks-to-raise-3bn-in-private-equity-and-secure-prepayments-report/",
+      "note": "Wire: Australia."
+    },
+    {
+      "name": "CNBC: Nvidia Q3 live coverage",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
       "note": "Watch: Nvidia Q3."
     },
     {

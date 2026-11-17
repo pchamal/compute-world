@@ -1,6 +1,169 @@
 {
   "items": [
     {
+      "id": "usa-bis-remote-access-ifr-license-idn-mys-sgp-tha-bra-2026-11-16",
+      "date": "2026-11-16",
+      "title": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thailand and Brazil license-only and controls remote access for China-headquartered customers",
+      "summary": "The Bureau of Industry and Security released an interim final rule on 16 November 2026, which it says was written at the direction of Treasury and the National Security Council, to stop export controls being sidestepped through remote access to data centres in third countries. A license is now required to export, reexport or transfer advanced semiconductors to or within Indonesia, Malaysia, Singapore, Thailand and Brazil, reviewed case by case; the requirement does not apply where the consignee or its ultimate parent is headquartered in the United States and the exporter meets new monthly reporting rules (section 743.10). Separately, a license is needed for chips going to any data centre worldwide that will give more than 12 million aggregate TPP of compute, at one site or across linked sites, to companies headquartered in China, other D:5 destinations or Macau, with know-your-customer diligence expected from the data centre (Nixon Peabody reading of the rule). Nixon Peabody says Federal Register publication is expected on 19 November and existing arrangements get 90 days to obtain a license. China's foreign ministry criticised the rule on 17 November (NBC). Country conversion: in the five named countries, AI capacity built for non-US-headquartered tenants now sits behind a US license queue, while US hyperscalers keep a reporting-only path.",
+      "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+      "source": "BIS press release, 16 Nov 2026; Federal Register public inspection (RIN 0694-AK50); Nixon Peabody; NBC News",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA",
+        "MYS",
+        "SGP",
+        "IDN",
+        "THA",
+        "BRA"
+      ],
+      "flags": "🇺🇸🇲🇾🇸🇬🇮🇩🇹🇭🇧🇷",
+      "tags": [
+        "Policy",
+        "Export controls"
+      ],
+      "score": 62
+    },
+    {
+      "id": "usa-tensorwave-openai-457mw-amd-mi455x-helios-six-year-2026-11-16",
+      "date": "2026-11-16",
+      "title": "US: OpenAI signs a six-year deal for 457 MW of AMD MI455X Helios capacity from TensorWave",
+      "summary": "TensorWave announced on 16 November 2026 (Business Wire) a six-year agreement to provide OpenAI with 457 MW of dedicated, single-tenant AI capacity across multiple US data centres, built on AMD Instinct MI455X GPUs in Helios rack-scale systems. First capacity is expected in the first half of 2027 and full deployment by early 2028. DCD notes TensorWave raised a $350 million Series B in June 2026 and claims 2 GW of long-term US capacity; its earlier lease at Fermi's Project Matador was terminated this month. Caveat: no contract value or sites disclosed. Country conversion: a second large AMD-based anchor in the US in a week, after AMD's own 110 MW lease with Core Scientific in Texas.",
+      "url": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure",
+      "source": "TensorWave (Business Wire), 16 Nov 2026; DCD",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Demand",
+        "Silicon",
+        "Capacity"
+      ],
+      "score": 48
+    },
+    {
+      "id": "usa-bxdc-aws-jv-75pct-5bn-647mw-indiana-mississippi-7pct-cap-2026-11-16",
+      "date": "2026-11-16",
+      "title": "US: Blackstone's listed REIT buys 75% of two AWS campuses (13 buildings, 647 MW) for about $5 billion at a 7% cap rate",
+      "summary": "Blackstone Digital Infrastructure Trust (NYSE: BXDC) said on 16 November 2026 it signed a definitive agreement to acquire a 75% interest in two joint ventures with AWS that own 13 newly built powered shells across two AWS campuses, valued at about $5 billion at an initial 7.0% capitalization rate. AWS keeps 25% and leases back 100% triple net for an initial 12 years, extendable to 32. REBusinessOnline reports the 647 MW portfolio is nine buildings in northern Indiana and four in Mississippi, with debt covering half the price at closing. Closing is expected in Q4 2026. Country conversion: a hyperscaler is recycling capital out of finished US campuses into public-market REIT money, which frees AWS balance sheet for new builds.",
+      "url": "https://ir.bxdc.com/press-releases-and-news/press-release-details/2026/Blackstone-Digital-Infrastructure-Trust-Announces-5-Billion-Acquisition-of-Stabilized-Data-Center-Portfolio/default.aspx",
+      "source": "BXDC press release and 8-K, 16 Nov 2026; DCD; REBusinessOnline",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Hyperscaler"
+      ],
+      "score": 46
+    },
+    {
+      "id": "australia-firmus-3bn-private-raise-customer-prepayments-916mw-contracted-46mw-live-2026-11-16",
+      "date": "2026-11-16",
+      "title": "Australia: Firmus seeks $3 billion in private equity and customer prepayments after its pulled IPO",
+      "summary": "DCD, citing the Australian Financial Review and three unnamed sources, reported on 16 November 2026 that Australian neocloud Firmus is trying to raise $3 billion in equity and secure prepayments from large customers including Nvidia, OpenAI and Meta, which could fund up to 12.5% of contracts under development. Firmus had about 916 MW of contracted capacity and 46 MW operating as of September 2026; its IPO was pulled earlier, which the company blamed on market volatility. Its last private round raised $2 billion at a $10.5 billion post-money valuation. Caveat: single press report; Firmus has not confirmed terms. Country conversion: Australia's largest contracted AI build (Tasmania and mainland) now depends on customer cash, not public markets, to move from contract to energised capacity.",
+      "url": "https://www.datacenterdynamics.com/en/news/firmus-looks-to-raise-3bn-in-private-equity-and-secure-prepayments-report/",
+      "source": "DCD, 16 Nov 2026, citing AFR",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Capital",
+        "Neocloud",
+        "Stall"
+      ],
+      "score": 40
+    },
+    {
+      "id": "egypt-vodafone-elsewedy-cassava-adc-egypt-20mw-to-200mw-1bn-sovereign-ai-2026-11-17",
+      "date": "2026-11-17",
+      "title": "Egypt: Vodafone Egypt, Elsewedy and Cassava form Africa Data Centres Egypt, 20 MW first and up to 200 MW",
+      "summary": "Vodacom's interim results for the six months to 30 September 2026 disclose a joint venture of Vodafone Egypt, Elsewedy Electric and Cassava Technologies, Africa Data Centres Egypt, to build what it calls Egypt's largest data centre and the country's first sovereign AI data centre. It targets 20 MW of initial capacity within three years, with potential to expand to 200 MW; phase one is expected to draw about $200 million of foreign direct investment, rising to $1 billion at full capacity (DCD, 17 Nov). Caveat: no site, power source or anchor tenant disclosed. Country conversion: Egypt gets a named telco-industrial-backed AI build with a stated MW path, starting small.",
+      "url": "https://www.datacenterdynamics.com/en/news/vodafone-joint-venture-to-develop-two-major-data-center-projects-in-egypt/",
+      "source": "Vodacom interim results (Nov 2026); Vodacom newsroom; DCD, 17 Nov 2026",
+      "tier": 3,
+      "corroboration": "Confirmed",
+      "countries": [
+        "EGY"
+      ],
+      "flags": "🇪🇬",
+      "tags": [
+        "Build",
+        "Sovereign"
+      ],
+      "score": 34
+    },
+    {
+      "id": "greece-hiif-23pct-data4-greece-ath1-paiania-90mw-2026-11-17",
+      "date": "2026-11-17",
+      "title": "Greece: the state's new sovereign fund takes 23% of Data4 Greece, its first digital-infrastructure deal",
+      "summary": "DCD reported on 17 November 2026 that the Hellenic Innovation & Infrastructure Fund (HIIF), the investment arm of the Hellenic Growth Fund, has taken a 23% minority stake in Data4 Greece. Brookfield-owned Data4 is building the ATH1 campus at Paiania near Athens: 90 MW across two data centres at full build-out and more than €300 million of investment; the first 15 MW phase went live in July 2026 and the campus is fully leased to an unnamed major international tech company. HIIF was seeded with €300 million. Caveat: price not disclosed. Country conversion: Greece's state capital is now co-investing in leased data-centre capacity rather than only offering incentives.",
+      "url": "https://www.datacenterdynamics.com/en/news/data4-sells-minority-stake-in-greek-unit-to-hellenic-sovereign-fund/",
+      "source": "DCD, 17 Nov 2026",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "GRC"
+      ],
+      "flags": "🇬🇷",
+      "tags": [
+        "Capital",
+        "Sovereign"
+      ],
+      "score": 30
+    },
+    {
+      "id": "nordics-baltics-aigf-northern-nokia-nscale-telia-verda-skeleton-oulu-iru-valmiera-2026-11-17",
+      "date": "2026-11-17",
+      "title": "Finland, Estonia, Latvia, Sweden: Nokia, Nscale, Telia, Verda and Skeleton form AIGF Northern to bid for an EU AI gigafactory",
+      "summary": "DCD reported on 17 November 2026 that Nokia, Nscale, Skeleton, Telia and Verda formed AI Gigafactory Northern (AIGF Northern), a consortium that intends to bid in the EuroHPC Joint Undertaking's AI gigafactory call. Planned sites are Oulu (Finland), Iru (Estonia) and Valmiera (Latvia), with a Swedish site still to be chosen. Roles: Nokia networks, Nscale and Verda AI cloud, Telia connectivity and operations, Skeleton high-power systems. Caveat: a bid consortium only, with no MW, capex or power contracts disclosed; Lot 2 bids are due 3 December. Country conversion: the Nordic-Baltic corridor enters the EU gigafactory race as one multi-country bid rather than competing national ones.",
+      "url": "https://www.datacenterdynamics.com/en/news/nokia-nscale-skeleton-telia-and-verda-form-gigafactory-consortium/",
+      "source": "DCD, 17 Nov 2026",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "FIN",
+        "EST",
+        "LVA",
+        "SWE"
+      ],
+      "flags": "🇫🇮🇪🇪🇱🇻🇸🇪",
+      "tags": [
+        "Policy",
+        "Sovereign",
+        "Build"
+      ],
+      "score": 32
+    },
+    {
+      "id": "korea-skt-hyosung-mou-345kv-substations-800v-dc-5gw-2029-2026-11-16",
+      "date": "2026-11-16",
+      "title": "South Korea: SK Telecom locks Hyosung as supplier for 345 kV substation gear behind its gigawatt-scale AI data centres",
+      "summary": "Hyosung Heavy Industries and SK Telecom signed a strategic partnership MoU on 16 November 2026 at SKT Tower in Seoul (Hyosung newsroom). Hyosung will supply core equipment for the 345 kV substations serving SKT's AI data centres, and the two will coordinate production and delivery schedules in advance for long-lead items such as transformers. They will also test 800 V DC distribution and solid-state transformers and share substation O&M know-how. Seoul Economic Daily notes SKT targets 5 GW of AI data centre capacity by 2029 and 15 GW by 2035, per SKT's July plan. Caveat: an MoU with no volumes or value. Country conversion: Korea's largest AI build plan is reserving grid equipment ahead of sites, the step that most often delays capacity.",
+      "url": "https://www.hyosung.com/kr/newsroom/view/19375",
+      "source": "Hyosung Heavy Industries newsroom, 16 Nov 2026; SK Telecom newsroom; Seoul Economic Daily; The Elec",
+      "tier": 3,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Energy",
+        "Supply chain"
+      ],
+      "score": 30
+    },
+    {
       "id": "spain-box2bit-exits-epila-150mw-grid-connection-sold-to-blackstone-calatorao-2026-11-16",
       "date": "2026-11-16",
       "title": "Spain: Box2Bit drops its last Aragon data centre project and sells the 150 MW grid connection to Blackstone",
@@ -3939,6 +4102,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-16",
-  "note": "Wire refresh 2026-11-16: added spain-box2bit-exits-epila-150mw-grid-connection-sold-to-blackstone-calatorao-2026-11-16, india-airtrunk-andhra-pradesh-mou-1-8gw-rambilli-400mw-tootipala-1-4gw-2026-11-14, japan-digital-realty-mitsubishi-10bn-193mw-to-700mw-decade-2026-11-14, canada-telus-exits-westbank-vancouver-ai-data-centres-85mw-bc-hydro-2026-11-14, usa-core-scientific-hunt-county-tx-1-3bn-filing-amd-110mw-exits-bitcoin-mining-2026-11-16. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-17",
+  "note": "Wire refresh 2026-11-17: added usa-bis-remote-access-ifr-license-idn-mys-sgp-tha-bra-2026-11-16, usa-tensorwave-openai-457mw-amd-mi455x-helios-six-year-2026-11-16, usa-bxdc-aws-jv-75pct-5bn-647mw-indiana-mississippi-7pct-cap-2026-11-16, australia-firmus-3bn-private-raise-customer-prepayments-916mw-contracted-46mw-live-2026-11-16, egypt-vodafone-elsewedy-cassava-adc-egypt-20mw-to-200mw-1bn-sovereign-ai-2026-11-17, greece-hiif-23pct-data4-greece-ath1-paiania-90mw-2026-11-17, nordics-baltics-aigf-northern-nokia-nscale-telia-verda-skeleton-oulu-iru-valmiera-2026-11-17, korea-skt-hyosung-mou-345kv-substations-800v-dc-5gw-2029-2026-11-16. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
