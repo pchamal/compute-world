@@ -1097,7 +1097,7 @@
    "rf": 0.95,
    "rz": 74,
    "dl": 1,
-   "rw": "NAVER signs its first AI Factory customer: a 2 trillion won (about $1.5 bill…"
+   "rw": "South Korea: SK Telecom locks Hyosung as supplier for 345 kV substation gear…"
   },
   {
    "n": "Taiwan",
@@ -1445,9 +1445,9 @@
    "pue": "~1.35-1.6",
    "note": "Mature market",
    "rf": 0.72,
-   "rz": 19,
-   "dl": -1,
-   "rw": "US Commerce drafts remote-access rule to curb China rental of advanced GPUs …"
+   "rz": 31,
+   "dl": 1,
+   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
   },
   {
    "n": "Malaysia",
@@ -1497,7 +1497,7 @@
    "rf": 0.85,
    "rz": 88,
    "dl": 1,
-   "rw": "SoftBank, Grab and PETROS sign joint development agreements with $1.85 billi…"
+   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
   },
   {
    "n": "Indonesia",
@@ -1547,7 +1547,7 @@
    "rf": 0.72,
    "rz": 43,
    "dl": 1,
-   "rw": "BDx breaks ground on 640 MW CGK4 AI campus in West Java with 845 MVA PLN pow…"
+   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
   },
   {
    "n": "Philippines",
@@ -1647,7 +1647,7 @@
    "rf": 1.0,
    "rz": 40,
    "dl": 1,
-   "rw": "The Information reports at least $7.5 billion of Nvidia hardware reached Chi…"
+   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
   },
   {
    "n": "Papua New Guinea",
@@ -2245,9 +2245,9 @@
    "pue": "~1.35-1.6",
    "note": "Suez cable chokepoint hub; El Dabaa nuclear building; Cassava GPU rollout",
    "rf": 0.4,
-   "rz": 11,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 21,
+   "dl": 1,
+   "rw": "Egypt: Vodafone Egypt, Elsewedy and Cassava form Africa Data Centres Egypt, …"
   },
   {
    "n": "Algeria",
@@ -3495,9 +3495,9 @@
    "pue": "~1.1-1.25",
    "note": "+4 GW via uprating (AFRY); EcoDataCenter/Mistral lease",
    "rf": 1.0,
-   "rz": 35,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 44,
+   "dl": 1,
+   "rw": "Finland, Estonia, Latvia, Sweden: Nokia, Nscale, Telia, Verda and Skeleton f…"
   },
   {
    "n": "Finland",
@@ -3547,7 +3547,7 @@
    "rf": 0.95,
    "rz": 55,
    "dl": 1,
-   "rw": "Sesterce plans a EUR 10bn-plus AI campus at the former Kaipola paper mill in…"
+   "rw": "Finland, Estonia, Latvia, Sweden: Nokia, Nscale, Telia, Verda and Skeleton f…"
   },
   {
    "n": "Denmark",
@@ -3995,9 +3995,9 @@
    "pue": "~1.2-1.4",
    "note": "Emerging cable hub",
    "rf": 0.72,
-   "rz": 26,
+   "rz": 35,
    "dl": 1,
-   "rw": "G42's Khazna and Core42 sign MoUs with Copelouzos to explore an AI factory i…"
+   "rw": "Greece: the state's new sovereign fund takes 23% of Data4 Greece, its first …"
   },
   {
    "n": "Netherlands",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "Core Scientific files a $1.3 billion core-and-shell build in Hunt County, Te…"
+   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
   },
   {
    "n": "Canada",
@@ -5195,9 +5195,9 @@
    "pue": "~1.2-1.4",
    "note": "176 GW inventoried, 62% used; remainder Amazonian; Fortaleza cable hub",
    "rf": 0.55,
-   "rz": 42,
+   "rz": 57,
    "dl": 1,
-   "rw": "Brazil's 5G auction fund approves a R$375 million sovereign AI data centre f…"
+   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
   },
   {
    "n": "Paraguay",
@@ -5547,7 +5547,7 @@
    "rf": 1.0,
    "rz": 42,
    "dl": 1,
-   "rw": "Australia: two Sydney data centre projects scrapped and one in South Austral…"
+   "rw": "Australia: Firmus seeks $3 billion in private equity and customer prepayment…"
   },
   {
    "n": "New Zealand",
