@@ -1,45 +1,39 @@
 {
-  "updated": "2026-11-17",
-  "title": "Compute brief - 17 November 2026",
-  "description": "Export control moves from the chip to the data centre. A new US rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thailand and Brazil license-only unless the buyer is US-headquartered, and licenses remote compute for China-headquartered customers. Wire: BIS remote-access rule, OpenAI and TensorWave 457 MW, BXDC buys AWS campuses, Firmus raise, Egypt, Greece, AIGF Northern, SKT and Hyosung. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "Who owns the tenant now matters.",
-  "lede": "On the morning of Nvidia's first results without Jensen Huang, Washington changed what a foreign AI data centre can sell. A Commerce Department interim final rule released on 16 November requires a license to ship advanced AI chips to Indonesia, Malaysia, Singapore, Thailand or Brazil, unless the buyer or its parent is headquartered in the United States and the exporter files monthly reports. It also requires a license for chips headed to any data centre that will supply more than 12 million aggregate TPP of compute to China-headquartered companies, which puts know-your-customer checks on the operator. For the Johor, Singapore and Batam build-outs, the tenant's passport now decides how fast capacity converts. In the US, capital kept moving: OpenAI took 457 MW of AMD MI455X capacity from TensorWave, and Blackstone's listed REIT agreed to buy 75% of two AWS campuses (647 MW) for about $5 billion. List prices held for a seventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
+  "updated": "2026-11-18",
+  "title": "Compute brief - 18 November 2026",
+  "description": "Chips are cleared; permits are not. Nvidia guided $130 billion with no China data centre revenue, and the same night Loudoun County paused new data centre and substation approvals for up to 12 months. Wire: Loudoun pause, Nvidia Q3, PJM one-year study, Megaspeed probe, Texas permits, Cleanview Q3 starts, Amazon India power, Haifa, Sydney, Giga Energy. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The bottleneck moved to the zoning board.",
+  "lede": "Nvidia reported $115.8 billion of quarterly revenue on 17 November, guided the next quarter to $130 billion with no China data centre revenue assumed, and lifted next year's growth outlook to 75%, saying chips, packaging and memory supply are coming together. Hours later, Loudoun County, the largest data centre market in the world, voted 7-1-1 to stop acting on new data centre and substation rezonings for up to 12 months, backdated to 15 September, with 33 applications in the queue. The day before, PJM asked FERC to cut the study of new data centre load and generation from two years to one, and Texas resumed environmental permits. Silicon is no longer what limits where capacity converts; zoning boards and grid queues are. List prices held for an eighth day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
   "countries": [
     {
-      "id": "mys-bis-ifr",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "New US license requirement for advanced AI chips unless the buyer is US-headquartered (Wire, 16 Nov, confirmed)."
-    },
-    {
-      "id": "sgp-bis-ifr",
-      "name": "Singapore",
-      "slug": "singapore",
-      "note": "Same BIS license requirement; remote-access control for China-headquartered customers (Wire, 16 Nov, confirmed)."
-    },
-    {
-      "id": "idn-bis-ifr",
-      "name": "Indonesia",
-      "slug": "indonesia",
-      "note": "Added to the BIS license list with Thailand and Brazil (Wire, 16 Nov, confirmed)."
-    },
-    {
-      "id": "usa-tensorwave-bxdc",
+      "id": "usa-loudoun-pause",
       "name": "United States",
       "slug": "united-states",
-      "note": "OpenAI takes 457 MW of AMD capacity from TensorWave; BXDC buys 75% of 647 MW of AWS campuses for about $5 billion (Wire, 16 Nov, confirmed)."
+      "note": "Loudoun County pauses data centre and substation approvals up to 12 months; PJM files a one-year joint study; Nvidia guides $130 billion (Wire, 16 to 17 Nov, confirmed)."
     },
     {
-      "id": "aus-firmus",
+      "id": "sgp-megaspeed",
+      "name": "Singapore",
+      "slug": "singapore",
+      "note": "US Justice and Commerce confirm a criminal export-control probe into Megaspeed (Wire, 17 Nov, confirmed)."
+    },
+    {
+      "id": "ind-amazon-power",
+      "name": "India",
+      "slug": "india",
+      "note": "Amazon commits $7 billion more to renewables by 2030 and signs 934 MW of PPAs (Wire, 17 Nov, confirmed)."
+    },
+    {
+      "id": "isr-haifa",
+      "name": "Israel",
+      "slug": "israel",
+      "note": "Enlight and Shemen plan up to 150 MW in Haifa; grid application filed (Wire, 16 Nov, confirmed)."
+    },
+    {
+      "id": "aus-macquarie",
       "name": "Australia",
       "slug": "australia",
-      "note": "Firmus seeks $3 billion and customer prepayments; 916 MW contracted, 46 MW live (Wire, 16 Nov, single-source)."
-    },
-    {
-      "id": "egy-adc",
-      "name": "Egypt",
-      "slug": "egypt",
-      "note": "Vodafone Egypt, Elsewedy and Cassava JV: 20 MW first, up to 200 MW, $1 billion at full build (Wire, 17 Nov, confirmed)."
+      "note": "Macquarie Data Centres files for 200 MW, AU$2 billion in Macquarie Park, Sydney (Wire, 17 Nov, single-source)."
     }
   ],
   "silicon": [
@@ -49,10 +43,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print"
+      "note": "Confirm vs 17 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +54,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print"
+      "note": "Confirm vs 17 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +65,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print"
+      "note": "Confirm vs 17 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +76,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 17 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +87,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 17 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +98,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print"
+      "note": "Confirm vs 17 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +109,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print"
+      "note": "Confirm vs 17 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +120,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print"
+      "note": "Confirm vs 17 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -137,27 +131,27 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 16 Nov print"
+      "note": "Confirm vs 17 Nov print"
     }
   ],
   "watch": [
     {
-      "id": "nvidia-q3",
-      "name": "Nvidia fiscal Q3",
-      "note": "Today, 17 November: results about 1:20 pm PT, call 2 pm PT, first under interim CEO Kress. Guide was $108 billion plus or minus 2% and 74% gross margin; LSEG consensus about $109.1 billion. Watch the Q4 guide, supply, Southeast Asia exposure under the new rule, and neocloud backstops."
+      "id": "anthropic-ipo",
+      "name": "Anthropic IPO",
+      "note": "Prices after the close today, 18 November; trades on Nasdaq as ANT from 19 November. Filed range $70 to $78 for 825 million shares; CNBC reports it may upsize and price above $80."
     },
     {
       "id": "bis-ifr-fr",
       "name": "BIS remote-access rule",
-      "note": "Federal Register publication expected 19 November per Nixon Peabody; comment period and a 90-day window to license existing arrangements follow."
+      "note": "Federal Register publication expected 19 November per Nixon Peabody; a 90-day window to license existing arrangements follows."
     },
     {
-      "id": "anthropic-ipo",
-      "name": "Anthropic IPO",
-      "note": "Prices evening of 18 November, trades on Nasdaq as ANT from 19 November; 825 million shares at $70 to $78."
+      "id": "huang-testimony",
+      "name": "Huang before Congress",
+      "note": "Former Nvidia CEO Jensen Huang is reported to appear before House committees on 1 December."
     },
     {
       "id": "crusoe-dec1-pricing",
@@ -165,46 +159,51 @@
       "note": "Posted H100 $4.50, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
     },
     {
-      "id": "eu-gigafactory-bids",
-      "name": "EU AI gigafactory tender",
-      "note": "Large sites (Lot 2) due 3 December, medium sites (Lot 1) 4 February 2027; AIGF Northern is a new bidder."
+      "id": "pjm-ferc",
+      "name": "PJM Fast Energization",
+      "note": "60-day comment period requested at FERC (ER27-531), order sought within 120 days."
+    },
+    {
+      "id": "ercot-report",
+      "name": "ERCOT data centre report",
+      "note": "Formal report to Texas regulators expected in December; Governor-elect Hinojosa takes office in January 2027."
     }
   ],
   "sources": [
     {
-      "name": "BIS: rule addressing remote access to advanced SI technology",
-      "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
-      "note": "Lead and Wire: US export controls."
+      "name": "Nvidia: Q3 fiscal 2027 results",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+      "note": "Lead and Wire: United States."
     },
     {
-      "name": "Nixon Peabody: BIS targets remote access through overseas data centers",
-      "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
-      "note": "Rule details: 12M TPP threshold, 19 Nov publication, 90 days."
+      "name": "Loudoun Now: supervisors approve 12-month data center pause",
+      "url": "https://www.loudounnow.com/news/loudoun-supervisors-approve-12-month-data-center-pause/article_595ee60a-6c09-427e-ac37-af7bde569964.html",
+      "note": "Lead and Wire: United States."
     },
     {
-      "name": "NBC News: US closes loophole on top AI chips",
-      "url": "https://www.nbcnews.com/tech/tech-news/us-closes-loophole-let-chinese-companies-use-top-ai-chips-rcna609634",
-      "note": "Reaction, China foreign ministry."
-    },
-    {
-      "name": "TensorWave: agreement with OpenAI for more than 450 MW",
-      "url": "https://www.businesswire.com/news/home/20261116130015/en/TensorWave-Announces-Agreement-with-OpenAI-to-Deliver-More-Than-450MW-of-AMD-Powered-AI-Infrastructure",
+      "name": "PJM: plan would cut interconnection process time in half",
+      "url": "https://insidelines.pjm.com/pjm-proposal-would-cut-interconnection-process-time-in-half/",
       "note": "Wire: United States."
     },
     {
-      "name": "BXDC: $5 billion acquisition of stabilized data center portfolio",
-      "url": "https://ir.bxdc.com/press-releases-and-news/press-release-details/2026/Blackstone-Digital-Infrastructure-Trust-Announces-5-Billion-Acquisition-of-Stabilized-Data-Center-Portfolio/default.aspx",
+      "name": "DOJ and Commerce: joint statement on Megaspeed",
+      "url": "https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation",
+      "note": "Wire: Singapore."
+    },
+    {
+      "name": "DCD: Texas regulator resumes data center permitting",
+      "url": "https://www.datacenterdynamics.com/en/news/texas-environmental-regulator-resumes-data-center-permitting-following-ercot-review/",
       "note": "Wire: United States."
     },
     {
-      "name": "DCD: Firmus looks to raise $3bn",
-      "url": "https://www.datacenterdynamics.com/en/news/firmus-looks-to-raise-3bn-in-private-equity-and-secure-prepayments-report/",
-      "note": "Wire: Australia."
+      "name": "Amazon: $7 billion in renewable energy in India by 2030",
+      "url": "https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy",
+      "note": "Wire: India."
     },
     {
-      "name": "CNBC: Nvidia Q3 live coverage",
-      "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
-      "note": "Watch: Nvidia Q3."
+      "name": "CNBC: Anthropic considers upsizing IPO",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "note": "Watch: Anthropic IPO."
     },
     {
       "name": "Lambda Cloud pricing",

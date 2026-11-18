@@ -1,6 +1,196 @@
 {
   "items": [
     {
+      "id": "usa-loudoun-12-month-pause-legislative-data-centre-substation-applications-33-active-2026-11-17",
+      "date": "2026-11-17",
+      "title": "US: Loudoun County, the world's largest data centre market, pauses new data centre and substation approvals for up to 12 months",
+      "summary": "Loudoun County's Board of Supervisors voted 7-1-1 on 17 November 2026 to stop acting on legislative applications (rezonings and special exceptions) for data centres and substations for up to 12 months, backdated to 15 September 2026, while it finishes Phase 2 of its data centre zoning standards (Loudoun Now; county agenda). Bisnow reports 33 active legislative applications are affected. Exempt: substations deemed necessary for grid reliability, applications in the Route 28 tax district, already-approved projects and administrative reviews such as site plans. After the pause, at most five backlog applications will be heard per meeting. The county attorney said a moratorium on a use is not legal in Virginia, so the board is using the 12-month review clock, and warned of a real litigation risk; DCD cites a county fact sheet putting data centre revenue at $1.3 billion, 40% of the 2027 budget. Country conversion: new entitlements in Data Center Alley stall until about September 2027, so capacity that is not already zoned shifts to other counties and states.",
+      "url": "https://www.loudounnow.com/news/loudoun-supervisors-approve-12-month-data-center-pause/article_595ee60a-6c09-427e-ac37-af7bde569964.html",
+      "source": "Loudoun County Board of Supervisors agenda, 17 Nov 2026; Loudoun Now; Bisnow; WUSA9; DCD",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 58
+    },
+    {
+      "id": "usa-nvidia-q3-fy27-115-8bn-data-centre-107-6bn-q4-guide-130bn-ex-china-fy28-75pct-2026-11-17",
+      "date": "2026-11-17",
+      "title": "US: Nvidia reports $115.8 billion quarter, guides $130 billion with no China data centre revenue and lifts next-year growth to 75%",
+      "summary": "Nvidia reported fiscal Q3 2027 (quarter ended 25 October 2026) revenue of $115.8 billion, up 103% year on year, with Data Center revenue of $107.6 billion, up 110%, and GAAP gross margin of 74.8% (company release, 17 November 2026). It guided Q4, which has an extra week, to $130.0 billion plus or minus 3% and said it assumes no Data Center compute revenue from China; gross margin is guided to 71% to 72%. Interim CEO Colette Kress raised the fiscal 2028 growth outlook to 75% from 70%, citing supply of chips, advanced packaging and memory, and the company said it would not take questions on Jensen Huang's resignation (Reuters, CNBC). Nvidia said Vera Rubin NVL72 has shipped, with racks running at CoreWeave, Google Cloud, Microsoft Azure, Oracle and Nebius. Country conversion: US chip supply is not the constraint on capacity; power and permits are.",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+      "source": "Nvidia press release, 17 Nov 2026; Reuters; CNBC; Fortune",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Silicon",
+        "Demand"
+      ],
+      "score": 55
+    },
+    {
+      "id": "usa-pjm-fast-energization-ferc-er27-531-one-year-joint-load-generation-study-2026-11-16",
+      "date": "2026-11-16",
+      "title": "US: PJM files to study data centre load and new generation together in a single one-year process",
+      "summary": "PJM filed its Fast Energization proposal with FERC at the end of 16 November 2026 (docket ER27-531). It would study generation interconnection and transmission service for large loads such as data centres together, cutting the projected timeline from two years to one, move readiness and financial requirements earlier to weed out speculative projects, create new transmission services including for loads willing to limit grid use, and give states the cost of upgrades driven by large loads so they can bill them. PJM asked for a 60-day comment period and a FERC order within 120 days; it also filed separate ride-through requirements so data centres stay connected during grid disturbances. Country conversion: the largest US grid region is trying to halve the wait from signed load to energised capacity, at the price of stricter upfront deposits.",
+      "url": "https://insidelines.pjm.com/pjm-proposal-would-cut-interconnection-process-time-in-half/",
+      "source": "PJM Inside Lines, 16 Nov 2026; FERC eLibrary ER27-531; Utility Dive",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "score": 46
+    },
+    {
+      "id": "singapore-doj-commerce-confirm-megaspeed-criminal-export-probe-2026-11-17",
+      "date": "2026-11-17",
+      "title": "Singapore: US Justice and Commerce confirm a criminal export-control investigation into Megaspeed, Southeast Asia's largest Nvidia buyer",
+      "summary": "In a joint statement dated 17 November 2026, the US Department of Justice and Department of Commerce said Commerce opened an investigation into Singapore-based Megaspeed in 2024 for potential export control violations, requested records from Nvidia in May 2025, and that Nvidia put Megaspeed on its no-sell list in June 2025. BIS agents and Singapore law enforcement then carried out an on-site end-use check and interviewed then-CEO Alice Huang, after which DOJ took the lead on a criminal investigation. BBC describes Megaspeed as the biggest buyer of Nvidia chips in Southeast Asia; Politico notes it has not been added to the Entity List. Caveat: no charges announced. Country conversion: with the new BIS licence rule, GPU-heavy capacity in Singapore faces both a licence queue and heavier customer due diligence.",
+      "url": "https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation",
+      "source": "DOJ and Commerce joint statement, 17 Nov 2026; BBC; Politico; CNBC",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "SGP",
+        "USA"
+      ],
+      "flags": "🇸🇬🇺🇸",
+      "tags": [
+        "Policy",
+        "Export controls"
+      ],
+      "score": 44
+    },
+    {
+      "id": "usa-texas-tceq-resumes-data-centre-permits-spacex-starbase-air-permit-cameron-rejects-abatement-2026-11-17",
+      "date": "2026-11-17",
+      "title": "US: Texas resumes data centre environmental permits and clears SpaceX's Starbase gas plant, but Cameron County rejects its tax break",
+      "summary": "The Texas Commission on Environmental Quality resumed normal permit review on 16 November 2026 after notice from Governor Greg Abbott's office on 13 November, ending a pause he ordered in August, once ERCOT had gathered responses from 93% of 465 projects for a December report (DCD, citing the Texas Tribune). TCEQ then issued a major air permit for SpaceX's planned $24 billion gas-fired data centre at Starbase. On 17 November, Cameron County commissioners voted against holding another meeting on SpaceX's tax break request, so the abatement will not advance (DCD, citing local reporting). Governor-elect Gina Hinojosa, who campaigned on a moratorium, takes office in January 2027. Country conversion: Texas permits flow again for now, but local tax incentives and the incoming governor are the new gates.",
+      "url": "https://www.datacenterdynamics.com/en/news/texas-environmental-regulator-resumes-data-center-permitting-following-ercot-review/",
+      "source": "DCD, 18 Nov 2026, citing Texas Tribune; DCD on Cameron County, 18 Nov 2026",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "score": 40
+    },
+    {
+      "id": "usa-cleanview-q3-2026-construction-starts-8-4gw-vs-11-2gw-58gw-under-construction-2026-11-18",
+      "date": "2026-11-18",
+      "title": "US: new data centre construction starts fell to 8.4 GW in Q3 from 11.2 GW, but October rebounded to 4.6 GW",
+      "summary": "Cleanview data reported by DCD on 18 November 2026 show US data centre construction starts of 8.4 GW in Q3 2026, down from a record 11.2 GW in Q2 and the first quarterly dip since Q1 2025. Starts in 2026 total 38 GW, double 2025, and October alone reached 4.6 GW, the highest since June. Cleanview counts 58 GW under construction against 65 GW operating, with Texas leading at 9.8 GW started in the last 12 months, then Virginia at 4.5 GW and Louisiana at 2.8 GW; Amazon (4.6 GW), Google (4.1 GW) and Meta (3.9 GW) were the top developers. Caveat: one tracker's methodology. Country conversion: the US pipeline under construction nearly equals its whole operating fleet.",
+      "url": "https://www.datacenterdynamics.com/en/news/cleanview-us-data-center-construction-slows-in-q3-2026-following-record-breaking-q2/",
+      "source": "DCD, 18 Nov 2026, citing Cleanview",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Capacity"
+      ],
+      "score": 34
+    },
+    {
+      "id": "india-amazon-7bn-renewables-by-2030-934mw-ppas-karnataka-madhya-pradesh-rajasthan-2026-11-17",
+      "date": "2026-11-17",
+      "title": "India: Amazon commits $7 billion more to renewable power by 2030 and signs 934 MW of new PPAs",
+      "summary": "Amazon said on 17 November 2026 it will invest $7 billion in renewable energy projects in India by 2030, on top of $4 billion already contracted. It signed power purchase agreements with four projects totalling 934 MW: 234 MW of wind in Karnataka, a 200 MW solar and wind project in Karnataka, 300 MW of solar in Madhya Pradesh and 200 MW of solar in Rajasthan. Its India portfolio is now 14 utility-scale projects and 43 on-site solar installations. Developers and PPA lengths were not disclosed. Country conversion: a hyperscaler is pre-buying the clean power its Indian cloud regions need, the input that most often lags in Indian data centre buildouts.",
+      "url": "https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy",
+      "source": "Amazon, 17 Nov 2026; DCD; Mint; Economic Times",
+      "tier": 3,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Energy",
+        "Hyperscaler"
+      ],
+      "score": 32
+    },
+    {
+      "id": "israel-enlight-shemen-haifa-up-to-150mw-data-centre-50-50-jv-grid-application-2026-11-16",
+      "date": "2026-11-16",
+      "title": "Israel: Enlight and Shemen plan a data centre of up to 150 MW in Haifa",
+      "summary": "Nasdaq-listed Enlight Renewable Energy and Shemen Yielding Real Estate announced on 16 November 2026 an agreement to develop, finance, build and operate a data centre of up to 150 MW on Shemen's land at Hof Shemen in Haifa, through a 50:50 project company led by Enlight, with a lease term of about 25 years. A 150 MW grid connection application has been filed; the final site size depends on grid capacity and approvals. Enlight has an option to buy 50% of the land at no less than NIS 6.3 million per dunam (DCD). Caveat: no tenant, timeline or final approvals yet. Country conversion: an Israeli power developer is moving into data centres with a grid application in hand.",
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403923/0/en/enlight-renewable-energy-and-shemen-yielding-real-estate-sign-agreement-to-advance-development-of-a-data-center-with-planned-power-capacity-of-up-to-150-mw-in-israel.html",
+      "source": "Enlight (GlobeNewswire), 16 Nov 2026; DCD; Calcalist",
+      "tier": 3,
+      "corroboration": "Confirmed",
+      "countries": [
+        "ISR"
+      ],
+      "flags": "🇮🇱",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 30
+    },
+    {
+      "id": "australia-macquarie-data-centres-sears-200mw-macquarie-park-aud2bn-2026-11-17",
+      "date": "2026-11-17",
+      "title": "Australia: Macquarie Data Centres files for a 200 MW, AU$2 billion campus in Sydney's Macquarie Park",
+      "summary": "DCD reported on 17 November 2026 that Macquarie Data Centres has applied to the New South Wales government (SEARS) for the Macquarie Engineering and Technology Campus at 2 Alma Road, Macquarie Park: 200 MW across 42,015 square metres, up to six storeys, with about AU$2 billion (US$1.35 billion) of investment, replacing existing office buildings. No timeline was given. Macquarie today runs IC2 and IC3 East with IC3 Super West in development, 65 MW combined in Macquarie Park. Caveat: early planning filing. Country conversion: Sydney's operators keep densifying existing metro clusters while Firmus chases private money for its larger builds.",
+      "url": "https://www.datacenterdynamics.com/en/news/macquarie-data-centres-eyes-200mw-campus-in-sydney-australia/",
+      "source": "DCD, 17 Nov 2026, citing NSW SEARS application",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "AUS"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Build"
+      ],
+      "score": 28
+    },
+    {
+      "id": "usa-giga-energy-project-clay-60mw-1bn-10-year-lease-hunt-county-texas-2026-11-17",
+      "date": "2026-11-17",
+      "title": "US: Giga Energy signs a $1 billion, 10-year lease for its 60 MW Project Clay in Hunt County, Texas",
+      "summary": "Giga Energy announced on 17 November 2026 a $1 billion lease with an undisclosed US-based AI cloud provider for Project Clay, a 60 MW modular data centre in Hunt County, Texas, which it broke ground on in July and will develop, own and operate. It targets ready-for-service in spring 2027, uses closed-loop cooling with no water for compute, and taps underused dedicated power infrastructure rather than local distribution capacity. DCD gives the lease term as ten years. Hunt County is also where AMD is leasing 110 MW from Core Scientific. Country conversion: a second AI lease in the same Texas county in a week, built to the conditions the incoming governor has set out.",
+      "url": "https://www.gigaenergy.com/news/giga-news-hunt-county-deal",
+      "source": "Giga Energy, 17 Nov 2026; DCD",
+      "tier": 3,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Demand",
+        "Build"
+      ],
+      "score": 28
+    },
+    {
       "id": "usa-bis-remote-access-ifr-license-idn-mys-sgp-tha-bra-2026-11-16",
       "date": "2026-11-16",
       "title": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thailand and Brazil license-only and controls remote access for China-headquartered customers",
@@ -4102,6 +4292,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-17",
-  "note": "Wire refresh 2026-11-17: added usa-bis-remote-access-ifr-license-idn-mys-sgp-tha-bra-2026-11-16, usa-tensorwave-openai-457mw-amd-mi455x-helios-six-year-2026-11-16, usa-bxdc-aws-jv-75pct-5bn-647mw-indiana-mississippi-7pct-cap-2026-11-16, australia-firmus-3bn-private-raise-customer-prepayments-916mw-contracted-46mw-live-2026-11-16, egypt-vodafone-elsewedy-cassava-adc-egypt-20mw-to-200mw-1bn-sovereign-ai-2026-11-17, greece-hiif-23pct-data4-greece-ath1-paiania-90mw-2026-11-17, nordics-baltics-aigf-northern-nokia-nscale-telia-verda-skeleton-oulu-iru-valmiera-2026-11-17, korea-skt-hyosung-mou-345kv-substations-800v-dc-5gw-2029-2026-11-16. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-18",
+  "note": "Wire refresh 2026-11-18: added usa-loudoun-12-month-pause-legislative-data-centre-substation-applications-33-active-2026-11-17, usa-nvidia-q3-fy27-115-8bn-data-centre-107-6bn-q4-guide-130bn-ex-china-fy28-75pct-2026-11-17, usa-pjm-fast-energization-ferc-er27-531-one-year-joint-load-generation-study-2026-11-16, singapore-doj-commerce-confirm-megaspeed-criminal-export-probe-2026-11-17, usa-texas-tceq-resumes-data-centre-permits-spacex-starbase-air-permit-cameron-rejects-abatement-2026-11-17, usa-cleanview-q3-2026-construction-starts-8-4gw-vs-11-2gw-58gw-under-construction-2026-11-18, india-amazon-7bn-renewables-by-2030-934mw-ppas-karnataka-madhya-pradesh-rajasthan-2026-11-17, israel-enlight-shemen-haifa-up-to-150mw-data-centre-50-50-jv-grid-application-2026-11-16, australia-macquarie-data-centres-sears-200mw-macquarie-park-aud2bn-2026-11-17, usa-giga-energy-project-clay-60mw-1bn-10-year-lease-hunt-county-texas-2026-11-17. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
