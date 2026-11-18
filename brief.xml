@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>On the morning of Nvidia&#x27;s first results without Jensen Huang, Washington changed what a foreign AI data centre can sell. A Commerce Department interim final rule released on 16 November requires a license to ship advanced AI chips to Indonesia, Malaysia, Singapore, Thailand or Brazil, unless the buyer or its parent is headquartered in the United States and the exporter files monthly reports. It also requires a license for chips headed to any data centre that will supply more than 12 million aggregate TPP of compute to China-headquartered companies, which puts know-your-customer checks on the operator. For the Johor, Singapore and Batam build-outs, the tenant&#x27;s passport now decides how fast capacity converts. In the US, capital kept moving: OpenAI took 457 MW of AMD MI455X capacity from TensorWave, and Blackstone&#x27;s listed REIT agreed to buy 75% of two AWS campuses (647 MW) for about $5 billion. List prices held for a seventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
+  <description>Nvidia reported $115.8 billion of quarterly revenue on 17 November, guided the next quarter to $130 billion with no China data centre revenue assumed, and lifted next year&#x27;s growth outlook to 75%, saying chips, packaging and memory supply are coming together. Hours later, Loudoun County, the largest data centre market in the world, voted 7-1-1 to stop acting on new data centre and substation rezonings for up to 12 months, backdated to 15 September, with 33 applications in the queue. The day before, PJM asked FERC to cut the study of new data centre load and generation from two years to one, and Texas resumed environmental permits. Silicon is no longer what limits where capacity converts; zoning boards and grid queues are. List prices held for an eighth day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 17 November 2026</title>
+    <title>Compute brief - 18 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-11-17</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>On the morning of Nvidia&#x27;s first results without Jensen Huang, Washington changed what a foreign AI data centre can sell. A Commerce Department interim final rule released on 16 November requires a license to ship advanced AI chips to Indonesia, Malaysia, Singapore, Thailand or Brazil, unless the buyer or its parent is headquartered in the United States and the exporter files monthly reports. It also requires a license for chips headed to any data centre that will supply more than 12 million aggregate TPP of compute to China-headquartered companies, which puts know-your-customer checks on the operator. For the Johor, Singapore and Batam build-outs, the tenant&#x27;s passport now decides how fast capacity converts. In the US, capital kept moving: OpenAI took 457 MW of AMD MI455X capacity from TensorWave, and Blackstone&#x27;s listed REIT agreed to buy 75% of two AWS campuses (647 MW) for about $5 billion. List prices held for a seventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: Malaysia: New US license requirement for advanced AI chips unless the buyer is US-headquartered (Wire, 16 Nov, confirmed). Singapore: Same BIS license requirement; remote-access control for China-headquartered customers (Wire, 16 Nov, confirmed). Indonesia: Added to the BIS license list with Thailand and Brazil (Wire, 16 Nov, confirmed). United States: OpenAI takes 457 MW of AMD capacity from TensorWave; BXDC buys 75% of 647 MW of AWS campuses for about $5 billion (Wire, 16 Nov, confirmed). Australia: Firmus seeks $3 billion and customer prepayments; 916 MW contracted, 46 MW live (Wire, 16 Nov, single-source). Egypt: Vodafone Egypt, Elsewedy and Cassava JV: 20 MW first, up to 200 MW, $1 billion at full build (Wire, 17 Nov, confirmed).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-18</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Nvidia reported $115.8 billion of quarterly revenue on 17 November, guided the next quarter to $130 billion with no China data centre revenue assumed, and lifted next year&#x27;s growth outlook to 75%, saying chips, packaging and memory supply are coming together. Hours later, Loudoun County, the largest data centre market in the world, voted 7-1-1 to stop acting on new data centre and substation rezonings for up to 12 months, backdated to 15 September, with 33 applications in the queue. The day before, PJM asked FERC to cut the study of new data centre load and generation from two years to one, and Texas resumed environmental permits. Silicon is no longer what limits where capacity converts; zoning boards and grid queues are. List prices held for an eighth day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: United States: Loudoun County pauses data centre and substation approvals up to 12 months; PJM files a one-year joint study; Nvidia guides $130 billion (Wire, 16 to 17 Nov, confirmed). Singapore: US Justice and Commerce confirm a criminal export-control probe into Megaspeed (Wire, 17 Nov, confirmed). India: Amazon commits $7 billion more to renewables by 2030 and signs 934 MW of PPAs (Wire, 17 Nov, confirmed). Israel: Enlight and Shemen plan up to 150 MW in Haifa; grid application filed (Wire, 16 Nov, confirmed). Australia: Macquarie Data Centres files for 200 MW, AU$2 billion in Macquarie Park, Sydney (Wire, 17 Nov, single-source).</description>
   </item>
   <item>
     <title>H100 SXM · $4.59 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/lambda-h100-od</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.59 on-demand at Lambda as of 17 Nov 2026. Confirm vs 16 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/lambda-h100-od</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.59 on-demand at Lambda as of 18 Nov 2026. Confirm vs 17 Nov print</description>
   </item>
   <item>
     <title>B200 SXM6 · $7.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/lambda-b200-od</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 17 Nov 2026. Confirm vs 16 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/lambda-b200-od</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 18 Nov 2026. Confirm vs 17 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/coreweave-h100-od</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 17 Nov 2026. Confirm vs 16 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/coreweave-h100-od</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 18 Nov 2026. Confirm vs 17 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/crusoe-h100-od</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 17 Nov 2026. Confirm vs 16 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/crusoe-h100-od</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 18 Nov 2026. Confirm vs 17 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/crusoe-b300-od</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 17 Nov 2026. Confirm vs 16 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/crusoe-b300-od</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 18 Nov 2026. Confirm vs 17 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/do-b300-spot</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 17 Nov 2026. Confirm vs 16 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/do-b300-spot</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 18 Nov 2026. Confirm vs 17 Nov print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/do-mi355x-spot</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 17 Nov 2026. Confirm vs 16 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/do-mi355x-spot</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 18 Nov 2026. Confirm vs 17 Nov print</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/do-mi350x-spot</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 17 Nov 2026. Confirm vs 16 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/do-mi350x-spot</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 18 Nov 2026. Confirm vs 17 Nov print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-17/aws-cb-b300</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 17 Nov 2026. Confirm vs 16 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-18/aws-cb-b300</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 18 Nov 2026. Confirm vs 17 Nov print</description>
   </item>
 </channel></rss>
