@@ -1,6 +1,140 @@
 {
   "items": [
     {
+      "id": "usa-anthropic-ipo-83-81-3bn-plus-26bn-private-placement-ant-nasdaq-2026-11-18",
+      "date": "2026-11-18",
+      "title": "US: Anthropic prices the largest IPO on record at $83, raising $81.3 billion plus a $26 billion private placement",
+      "summary": "Anthropic priced its IPO on 18 November 2026 at $83 per Class A share, above the $70 to $78 marketed range: 980 million shares (956.4 million primary, 23.6 million from selling stockholders) for $81.34 billion, plus a concurrent $26.0 billion private placement of Class N stock at the same price (SEC pricing term sheet). Bloomberg puts the combined raise at $107.3 billion; CNBC and AP put the fully diluted value near $1.5 trillion. Shares trade on Nasdaq as ANT from 19 November; underwriters hold a 30-day option on 147 million more primary shares. Country conversion: the largest buyer of US compute outside the hyperscalers now has public-market access to fund leases and chips, at the same moment Nvidia is signalling more discipline on neocloud guarantees.",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "source": "Anthropic, 18 Nov 2026; SEC free writing prospectus; CNBC; AP; Bloomberg",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Demand"
+      ],
+      "score": 52
+    },
+    {
+      "id": "usa-transmission-owners-ferc-show-cause-data-centre-contracts-pjm-80pct-10yr-caiso-nyiso-15yr-miso-20yr-2026-11-18",
+      "date": "2026-11-18",
+      "title": "US: transmission owners ask FERC to bind data centres to 10 to 20 year grid-upgrade contracts",
+      "summary": "Responding to FERC's June show-cause order on large-load interconnection, five of six grid operators had filed by 16 November (Southwest Power Pool is due 20 November), and the transmission-owning utilities filed their own cost proposals (Latitude Media, 18 Nov). In PJM, a data centre would sign a cost recovery agreement with the transmission owner paying at least 80% of requested transmission service for a minimum of 10 years, with collateral starting at 25% and rising to 100% by in-service, and an exit fee. California and New York propose 15-year terms; MISO proposes a three-way contract of up to 20 years. Comments on several filings are due 7 December; FERC rejected most of PJM's previous large-load plan in October. Country conversion: faster studies come with long take-or-pay obligations, pushing interconnection risk onto developers and their tenants.",
+      "url": "https://www.latitudemedia.com/news/utilities-want-ferc-to-lock-data-centers-into-paying-for-grid-upgrades/",
+      "source": "Latitude Media, 18 Nov 2026, citing FERC filings",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Policy"
+      ],
+      "score": 42
+    },
+    {
+      "id": "usa-nvidia-q3-10q-118bn-max-guarantee-exposure-neocloud-commitments-32bn-2026-11-18",
+      "date": "2026-11-18",
+      "title": "US: Nvidia discloses up to $118 billion of infrastructure guarantees while tightening terms for neoclouds",
+      "summary": "Nvidia's third-quarter filing shows maximum gross exposure of up to $118 billion in financial guarantees tied to AI infrastructure: up to $105 billion for SB Energy's PORTS-Pike campus in Ohio (about 4.25 GW, nine buildings, 20-year leases to OpenAI, first guarantee from fiscal 2029), $9.5 billion of power and systems credit support and $3.5 billion of land, power and shell guarantees for neocloud providers; no guarantee payments had been made as of 25 October (TechTarget). New footnote language says commitments to neoclouds take effect only once they secure financing and may be reduced or cancelled on data centre delays; Morgan Stanley says disclosed neocloud commitments fell to $32 billion from $36 billion and cut its deployment forecast to 4 GW from 5 GW (CNBC). CoreWeave and Iren fell about 3% on 18 November. Country conversion: US neocloud builds now need their own financing before Nvidia's backstop applies.",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-neocloud-financing.html",
+      "source": "CNBC, 18 Nov 2026; TechTarget, 18 Nov 2026; Nvidia Q3 FY27 filing",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Capital",
+        "Stall"
+      ],
+      "score": 44
+    },
+    {
+      "id": "korea-lg-uplus-paju-aidc-789bn-won-fourth-building-200mw-by-2028-2026-11-19",
+      "date": "2026-11-19",
+      "title": "South Korea: LG Uplus commits another 789 billion won to its 200 MW Paju AI data centre",
+      "summary": "LG Uplus disclosed on 19 November 2026 (regulatory filing, board approval the same day) a new facility investment of up to 789 billion won for the next phase of its Paju AI data centre in Gyeonggi Province, a fourth building, with spending scheduled from 23 November 2026 to 31 January 2029. The amount is an approval ceiling set at about 130% of the estimate and equals 8.7% of consolidated equity. Earlier commitments were 615.6 billion won (first building, April 2025) and 1.3 trillion won (second and third buildings, July 2026), taking disclosed Paju investment above 2.7 trillion won toward 200 MW across four buildings by 2028 (Chosun Biz; CBC Globe). Country conversion: Korean telco capacity keeps moving from plan to funded build, citing customer demand.",
+      "url": "https://biz.chosun.com/en/en-it/2026/11/19/DIQXSKB3MNDZ7FMRY23AC7L5MQ/",
+      "source": "LG Uplus regulatory disclosure, 19 Nov 2026; Chosun Biz; CBC Globe",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Build",
+        "Capital"
+      ],
+      "score": 36
+    },
+    {
+      "id": "israel-mega-or-nebius-134mw-it-beit-shemesh-masmiya-third-agreement-2026-11-19",
+      "date": "2026-11-19",
+      "title": "Israel: Mega Or signs Nebius for another 134 MW of IT capacity, one site still waiting on a grid connection",
+      "summary": "Mega Or's data centre arm Mega DC signed a third agreement with a Nebius subsidiary for 134 MW of IT capacity across MDCIL-4 in Beit Shemesh (under construction, grid connection approved, up to 135 MW IT) and MDCIL-7 in Masmiya, Yoav Regional Council (Calcalist, 19 Nov 2026). Masmiya has no grid approval yet and its application is frozen by the Electricity Authority; approval is a condition for finalising that part of the deal. Completion targeted by end of Q2 2028; seven-year term from delivery with a five-year extension option; estimated construction cost about $1.6 billion (about $12 million per MW IT) and NIS 550 million average annual NOI when full. Earlier deals covered 8 MW (Modi'in) and 80 MW (Beit Shemesh and Masmiya). Country conversion: Israel's neocloud pipeline is now gated by the Electricity Authority's connection queue.",
+      "url": "https://www.calcalistech.com/ctechnews/article/zrt5oaw9s",
+      "source": "Calcalist (Ctech), 19 Nov 2026",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "ISR"
+      ],
+      "flags": "🇮🇱",
+      "tags": [
+        "Demand",
+        "Build",
+        "Stall"
+      ],
+      "score": 32
+    },
+    {
+      "id": "usa-salt-lake-city-180-day-ban-new-data-centres-6-0-vote-2026-11-17",
+      "date": "2026-11-17",
+      "title": "US: Salt Lake City bans new data centres for 180 days",
+      "summary": "The Salt Lake City Council voted 6-0 (one member absent) on 17 November 2026 for a citywide 180-day ban on new data centres while it drafts rules on energy and water use, noise, heat and lighting; the ordinance cites the Great Salt Lake, air quality and high utility demand (Axios Salt Lake City, 18 Nov). Council members suspended the 24-hour agenda rule to pass the last-minute measure. It follows permit applications filed in September by Florida-based Qlevr LLC for a data centre in the Northpoint neighbourhood (Salt Lake Tribune, via Axios). Country conversion: a second US jurisdiction in one week stops new entitlements, after Loudoun County's 12-month pause.",
+      "url": "https://www.axios.com/local/salt-lake-city/2026/11/18/council-approves-data-center-moratorium-180-days",
+      "source": "Axios Salt Lake City, 18 Nov 2026",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Stall"
+      ],
+      "score": 30
+    },
+    {
+      "id": "jordan-400mw-al-risha-data-centre-200mw-ai-campus-jod-3-6bn-gdp-minister-2026-11-19",
+      "date": "2026-11-19",
+      "title": "Jordan: digital economy minister previews a 400 MW Al-Risha data centre and a 200 MW AI campus",
+      "summary": "Jordan's Minister of Digital Economy and Entrepreneurship Sami Smeirat told Arab News on 19 November 2026, at the Jordan-EU Investment Conference at the Dead Sea, that a package of announcements would include a 400 MW data centre in the Al-Risha area and a 200 MW AI campus, plus other data centres and university AI research upgrades. He expects the projects to add about 3.6 billion Jordanian dinars ($5 billion) to GDP. No developers, investors, timelines or power sources were given in the interview. Caveat: ministerial preview ahead of the formal announcements. Country conversion: Jordan enters the Gulf-adjacent pipeline on paper; conversion depends on named sponsors and power.",
+      "url": "https://www.arabnews.com/business/jordan-expects-5b-gdp-boost-from-ai-and-data-centers-minister-tells-arab-news-3012961",
+      "source": "Arab News, 19 Nov 2026",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "JOR"
+      ],
+      "flags": "🇯🇴",
+      "tags": [
+        "Build",
+        "Sovereign"
+      ],
+      "score": 26
+    },
+    {
       "id": "usa-loudoun-12-month-pause-legislative-data-centre-substation-applications-33-active-2026-11-17",
       "date": "2026-11-17",
       "title": "US: Loudoun County, the world's largest data centre market, pauses new data centre and substation approvals for up to 12 months",
@@ -4292,6 +4426,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-18",
-  "note": "Wire refresh 2026-11-18: added usa-loudoun-12-month-pause-legislative-data-centre-substation-applications-33-active-2026-11-17, usa-nvidia-q3-fy27-115-8bn-data-centre-107-6bn-q4-guide-130bn-ex-china-fy28-75pct-2026-11-17, usa-pjm-fast-energization-ferc-er27-531-one-year-joint-load-generation-study-2026-11-16, singapore-doj-commerce-confirm-megaspeed-criminal-export-probe-2026-11-17, usa-texas-tceq-resumes-data-centre-permits-spacex-starbase-air-permit-cameron-rejects-abatement-2026-11-17, usa-cleanview-q3-2026-construction-starts-8-4gw-vs-11-2gw-58gw-under-construction-2026-11-18, india-amazon-7bn-renewables-by-2030-934mw-ppas-karnataka-madhya-pradesh-rajasthan-2026-11-17, israel-enlight-shemen-haifa-up-to-150mw-data-centre-50-50-jv-grid-application-2026-11-16, australia-macquarie-data-centres-sears-200mw-macquarie-park-aud2bn-2026-11-17, usa-giga-energy-project-clay-60mw-1bn-10-year-lease-hunt-county-texas-2026-11-17. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-19",
+  "note": "Wire refresh 2026-11-19: added usa-anthropic-ipo-83-81-3bn-plus-26bn-private-placement-ant-nasdaq-2026-11-18, usa-transmission-owners-ferc-show-cause-data-centre-contracts-pjm-80pct-10yr-caiso-nyiso-15yr-miso-20yr-2026-11-18, usa-nvidia-q3-10q-118bn-max-guarantee-exposure-neocloud-commitments-32bn-2026-11-18, korea-lg-uplus-paju-aidc-789bn-won-fourth-building-200mw-by-2028-2026-11-19, israel-mega-or-nebius-134mw-it-beit-shemesh-masmiya-third-agreement-2026-11-19, usa-salt-lake-city-180-day-ban-new-data-centres-6-0-vote-2026-11-17, jordan-400mw-al-risha-data-centre-200mw-ai-campus-jod-3-6bn-gdp-minister-2026-11-19. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
