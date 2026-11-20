@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>Anthropic priced its IPO at $83 on 18 November, raising $81.3 billion, plus a $26 billion private placement at the same price, the largest offering on record; shares trade as ANT from today. The same day, Nvidia&#x27;s quarterly filing showed up to $118 billion of infrastructure guarantees but new language that its neocloud commitments start only once those companies secure their own financing, and US transmission owners asked FERC to bind data centres to 10 to 20 year grid-upgrade contracts with collateral. Salt Lake City banned new data centres for 180 days a day after Loudoun&#x27;s pause. Capital is flowing to the model labs; the long-dated risk is being pushed onto whoever builds and leases the megawatts. List prices held for a ninth day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
+  <description>The Senate passed the Bipartisan American Affordability and Jobs Act 62 to 33 on 19 November; it directs FERC to make data centres pay embedded and incremental transmission costs and sets ratepayer protections for loads of 20 MW or more. It now goes to the House. The same day the House Foreign Affairs Committee released BIS licence data: 3,444,160 Nvidia H200 and AMD MI325X chips requested for Chinese buyers, 879,868 approved across 21 licences as of 11 May, every approval marked not shipped. California&#x27;s attorney general subpoenaed Nvidia over China diversion and disclosure. Markets sold AI risk: the Nasdaq fell 2.25%, AMD 7.7% on a Hunterbrook short report, CoreWeave more than 6%, and Anthropic closed its first day at $97.17, up 17% on the $83 IPO price, before opening 9% lower on Friday. List prices held for a tenth day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 19 November 2026</title>
+    <title>Compute brief - 20 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-11-19</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Anthropic priced its IPO at $83 on 18 November, raising $81.3 billion, plus a $26 billion private placement at the same price, the largest offering on record; shares trade as ANT from today. The same day, Nvidia&#x27;s quarterly filing showed up to $118 billion of infrastructure guarantees but new language that its neocloud commitments start only once those companies secure their own financing, and US transmission owners asked FERC to bind data centres to 10 to 20 year grid-upgrade contracts with collateral. Salt Lake City banned new data centres for 180 days a day after Loudoun&#x27;s pause. Capital is flowing to the model labs; the long-dated risk is being pushed onto whoever builds and leases the megawatts. List prices held for a ninth day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: United States: Anthropic raises $81.3 billion at $83; transmission owners seek 10 to 20 year data centre contracts at FERC; Nvidia tightens neocloud guarantee terms; Salt Lake City 180-day ban (Wire, 17 to 18 Nov). South Korea: LG Uplus approves up to 789 billion won more for its 200 MW Paju AI data centre (Wire, 19 Nov, corroborated). Israel: Mega Or signs Nebius for 134 MW more; the Masmiya site awaits a frozen grid application (Wire, 19 Nov, single-source). Jordan: Minister previews a 400 MW Al-Risha data centre and a 200 MW AI campus (Wire, 19 Nov, single-source).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-20</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>The Senate passed the Bipartisan American Affordability and Jobs Act 62 to 33 on 19 November; it directs FERC to make data centres pay embedded and incremental transmission costs and sets ratepayer protections for loads of 20 MW or more. It now goes to the House. The same day the House Foreign Affairs Committee released BIS licence data: 3,444,160 Nvidia H200 and AMD MI325X chips requested for Chinese buyers, 879,868 approved across 21 licences as of 11 May, every approval marked not shipped. California&#x27;s attorney general subpoenaed Nvidia over China diversion and disclosure. Markets sold AI risk: the Nasdaq fell 2.25%, AMD 7.7% on a Hunterbrook short report, CoreWeave more than 6%, and Anthropic closed its first day at $97.17, up 17% on the $83 IPO price, before opening 9% lower on Friday. List prices held for a tenth day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: United States: Senate passes BAAJA 62 to 33: FERC to charge data centres embedded and incremental transmission costs; 20 MW ratepayer protections; House next (Wire, 19 Nov). China: 879,868 H200 and MI325X approved for PRC buyers across 21 licences as of May, none shipped; Shantou Ascend 950DT token-export cluster live (Wire, 18 to 19 Nov). Jordan: Mindstream Energy is the Al-Risha sponsor: 70 MW from Q2 2027 to 400 MW, off-grid on Al Risha gas (Wire, 20 Nov, corroborated). Malaysia: US consortium to support a government sovereign AI cloud, $50 million offered via SI SPARK (Wire, 18 Nov, corroborated). Brunei: UNN intends to award Vertiv the Rimba Data Centre tender, nearly $1 billion from US vendors (Wire, 18 Nov, single-source).</description>
   </item>
   <item>
     <title>H100 SXM · $4.59 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/lambda-h100-od</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.59 on-demand at Lambda as of 19 Nov 2026. Confirm vs 18 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/lambda-h100-od</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.59 on-demand at Lambda as of 20 Nov 2026. Confirm vs 19 Nov print</description>
   </item>
   <item>
     <title>B200 SXM6 · $7.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/lambda-b200-od</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 19 Nov 2026. Confirm vs 18 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/lambda-b200-od</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 20 Nov 2026. Confirm vs 19 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/coreweave-h100-od</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 19 Nov 2026. Confirm vs 18 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/coreweave-h100-od</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 20 Nov 2026. Confirm vs 19 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/crusoe-h100-od</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 19 Nov 2026. Confirm vs 18 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/crusoe-h100-od</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 20 Nov 2026. Confirm vs 19 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/crusoe-b300-od</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 19 Nov 2026. Confirm vs 18 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/crusoe-b300-od</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 20 Nov 2026. Confirm vs 19 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/do-b300-spot</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 19 Nov 2026. Confirm vs 18 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/do-b300-spot</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 20 Nov 2026. Confirm vs 19 Nov print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/do-mi355x-spot</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 19 Nov 2026. Confirm vs 18 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/do-mi355x-spot</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 20 Nov 2026. Confirm vs 19 Nov print</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/do-mi350x-spot</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 19 Nov 2026. Confirm vs 18 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/do-mi350x-spot</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 20 Nov 2026. Confirm vs 19 Nov print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-19/aws-cb-b300</guid>
-    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 19 Nov 2026. Confirm vs 18 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-20/aws-cb-b300</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 20 Nov 2026. Confirm vs 19 Nov print</description>
   </item>
 </channel></rss>
