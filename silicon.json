@@ -289,7 +289,7 @@
           "venue": "Lambda",
           "term": "1CC 2w–1y",
           "usd_per_gpu_hr": 9.86,
-          "as_of": "2026-09-15",
+          "as_of": "2026-11-20",
           "source_id": "lambda",
           "config": "1cc-16",
           "note": "1-Click Clusters, 16 GPU, reservation 2 weeks–1 year. Not instance OD. 1y+ is contact — no public card."
@@ -673,7 +673,7 @@
           "venue": "Lambda",
           "term": "1CC 2w–1y",
           "label": "1CC 2w–1y",
-          "as_of": "2026-09-15",
+          "as_of": "2026-11-20",
           "url": "https://lambda.ai/pricing",
           "currency": "USD",
           "usd_per_gpu_hr": 9.86,
