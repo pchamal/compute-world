@@ -5,6 +5,27 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Jordan: Mindstream Energy names itself sponsor of the 400 MW Al-Risha AI campus, 70 MW from Q2 2027 on off-grid gas</title>
+    <link>https://petra.gov.jo/en/news/mindstream-energy-launches-1-billion-ai-infrastructure-project-in-jordan</link>
+    <guid isPermaLink="false">compute.world/wire#jordan-mindstream-al-risha-400mw-70mw-q2-2027-off-grid-gas-npc-1bn-2026-11-20</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>US developer Mindstream Energy launched the Al Risha AI Infrastructure Campus in Mafraq Governorate at the Jordan-EU Investment Conference, per Petra on 20 November. Initial capacity is 70 MW with operations targeted for Q2 2027, building to 400 MW. Power comes from on-site generation on gas from the adjacent Al Risha field under a supply agreement with the National Petroleum Company, independent of the national grid, with solar planned later. First-phase infrastructure is estimated at $150 million to $400 million and cumulative infrastructure above $1 billion, excluding compute hardware. Caveat: no anchor tenant or financing named. Country conversion: this names the sponsor and power source behind the minister&#x27;s 19 November 400 MW preview. [Signal 36, Corroborated, via Petra (Jordan News Agency), 20 Nov 2026; Forbes Middle East] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>US: Senate passes BAAJA 62 to 33, making data centres pay embedded and incremental grid costs</title>
+    <link>https://www.datacenterdynamics.com/en/news/us-senate-passes-bill-requiring-data-centers-to-pay-more-for-grid-infrastructure/</link>
+    <guid isPermaLink="false">compute.world/wire#usa-senate-baaja-62-33-data-centres-pay-embedded-incremental-transmission-20mw-ratepayer-protection-2026-11-19</guid>
+    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+    <description>The Senate passed the Bipartisan American Affordability and Jobs Act of 2026 by 62 to 33 on 19 November; 14 Democrats and one independent joined most Republicans. Section 2107 would direct FERC, within 270 days of enactment, to revise its 1994 transmission pricing policy so computational loads pay both embedded and incremental expansion costs, and sets ratepayer protections for covered loads of 20 MW or more (including multi-site loads under common control and phased projects expected to reach 20 MW). It also widens FERC permitting authority for interstate transmission and shortens federal environmental reviews. Caveat: the House passed a narrower version last year; the bill is not law. Country conversion: if enacted, US grid cost for large AI campuses moves from the ratebase onto the tenant, raising delivered cost per MW in tight markets such as PJM. [Signal 54, Confirmed, via DCD, 19 Nov 2026; AP; NPR, 20 Nov 2026; USA Today; Foley Hoag bill analysis] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>China: House committee discloses US approvals for 879,868 H200 and MI325X chips to Chinese buyers, none shipped as of May</title>
+    <link>https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china</link>
+    <guid isPermaLink="false">compute.world/wire#china-hfac-ecra-disclosure-bis-approved-879868-h200-mi325x-21-licences-not-shipped-2026-11-19</guid>
+    <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
+    <description>House Foreign Affairs Chairman Brian Mast used Export Control Reform Act authority on 19 November to publish BIS licence data as of 11 May 2026. Applications covered 3,444,160 Nvidia H200 and AMD MI325X chips to PRC companies; BIS approved 879,868 across 21 licences, including 75,000 for Alibaba, 150,000 for Tencent and subsidiaries, 43,000 for Baidu and 4,000 for BYD. Every approval in the released table is marked approved, not shipped. Nearly all Nvidia applications list Maginfra, Beijing New Matrix, ZTE Kangxun or Lenovo as installers, and every application rated diversion risk low. Caveat: data is six months old; shipments since May are not disclosed. Country conversion: China&#x27;s licensed import pipeline for frontier US silicon is large on paper and politically exposed, with the same day&#x27;s AMD short report and California subpoena of Nvidia adding pressure. [Signal 50, Confirmed, via House Foreign Affairs Committee ECRA disclosure, 19 Nov 2026; CNBC; The Register, 20 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
     <title>South Korea: LG Uplus commits another 789 billion won to its 200 MW Paju AI data centre</title>
     <link>https://biz.chosun.com/en/en-it/2026/11/19/DIQXSKB3MNDZ7FMRY23AC7L5MQ/</link>
     <guid isPermaLink="false">compute.world/wire#korea-lg-uplus-paju-aidc-789bn-won-fourth-building-200mw-by-2028-2026-11-19</guid>
@@ -24,6 +45,27 @@
     <guid isPermaLink="false">compute.world/wire#jordan-400mw-al-risha-data-centre-200mw-ai-campus-jod-3-6bn-gdp-minister-2026-11-19</guid>
     <pubDate>Thu, 19 Nov 2026 12:00:00 GMT</pubDate>
     <description>Jordan&#x27;s Minister of Digital Economy and Entrepreneurship Sami Smeirat told Arab News on 19 November 2026, at the Jordan-EU Investment Conference at the Dead Sea, that a package of announcements would include a 400 MW data centre in the Al-Risha area and a 200 MW AI campus, plus other data centres and university AI research upgrades. He expects the projects to add about 3.6 billion Jordanian dinars ($5 billion) to GDP. No developers, investors, timelines or power sources were given in the interview. Caveat: ministerial preview ahead of the formal announcements. Country conversion: Jordan enters the Gulf-adjacent pipeline on paper; conversion depends on named sponsors and power. [Signal 26, Single-source, via Arab News, 19 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Brunei: Unified National Networks to award Vertiv the Rimba Data Centre tender, nearly $1 billion sourced from US vendors</title>
+    <link>https://www.whitehouse.gov/fact-sheets/2026/11/fact-sheet-president-donald-j-trump-secures-historic-economic-deals-for-american-workers-and-strengthens-americas-leadership-in-asia/</link>
+    <guid isPermaLink="false">compute.world/wire#brunei-unn-intends-award-vertiv-rimba-data-centre-tender-1bn-us-vendors-2026-11-18</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>The White House fact sheet on the ASEAN Summit (18 November) says Brunei&#x27;s Unified National Networks intends to award US company Vertiv the Rimba Data Centre tender and source the nearly $1 billion buildout from US vendors, calling it the largest-ever development of SI (AI) infrastructure in Brunei. Caveat: intent to award, not a signed contract; capacity in MW and timeline not given. Country conversion: Brunei moves from no AI build to a named tender with a US supply chain under the SI Exports Program. [Signal 30, Single-source, via White House fact sheet, 18 Nov 2026; Reuters; CNA] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Malaysia: US consortium to help build a government sovereign AI cloud, with $50 million offered through SI SPARK</title>
+    <link>https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/KENYATAAN-MEDIA_MALAYSIA-DAN-AMERIKA-SYARIKAT-BERHASRAT-BEKERJASAMA-MENYOKONG-PEMBANGUNAN-AWAN-AI-BERDAULAT-MALAYSIA.pdf</link>
+    <guid isPermaLink="false">compute.world/wire#malaysia-us-consortium-sovereign-ai-cloud-mcmc-50m-si-spark-2026-11-18</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Anwar Ibrahim and Donald Trump announced on 18 November that a US consortium will support Malaysia&#x27;s government sovereign AI cloud, facilitated through US-ASEAN SI SPARK. Malaysia&#x27;s regulator MCMC says Malaysia will set design, procurement and operating arrangements, infrastructure and data stay in Malaysia under Malaysian law and control, US participation is subject to Malaysian procurement, and the US intends to provide $50 million subject to agreed terms and scope. Caveat: no consortium members, capacity or budget beyond the $50 million named. Country conversion: adds a government-controlled compute layer on top of Malaysia&#x27;s commercial Johor and Selangor build. [Signal 32, Corroborated, via MCMC media statement, 18 Nov 2026; White House fact sheet; Reuters] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>China: first Ascend 950DT cluster built to sell AI tokens abroad starts operating in Shantou</title>
+    <link>https://www.scmp.com/tech/big-tech/article/3374791/chinas-token-export-ambitions-take-shape-new-huawei-powered-data-centre</link>
+    <guid isPermaLink="false">compute.world/wire#china-shantou-ascend-950dt-token-export-cluster-china-telecom-cable-landing-1bn-yuan-2026-11-18</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <description>SCMP reported on 18 November, citing local media, that China&#x27;s first computing cluster on Huawei&#x27;s Ascend 950DT chips aimed at overseas customers began operations the prior week in Shantou, Guangdong. The 1 billion yuan ($150 million) project sits at China Telecom&#x27;s submarine cable landing station and is operated by Guangdong Tianyima Information Industry under a token export model. Caveat: chip count and MW not disclosed. Country conversion: China starts exporting inference output rather than hardware, a route around US controls on the chips themselves. [Signal 34, Corroborated, via SCMP, 18 Nov 2026; DigiTimes, 19 Nov 2026] More: https://compute.world/wire</description>
   </item>
   <item>
     <title>US: Anthropic prices the largest IPO on record at $83, raising $81.3 billion plus a $26 billion private placement</title>
@@ -171,47 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#australia-firmus-3bn-private-raise-customer-prepayments-916mw-contracted-46mw-live-2026-11-16</guid>
     <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
     <description>DCD, citing the Australian Financial Review and three unnamed sources, reported on 16 November 2026 that Australian neocloud Firmus is trying to raise $3 billion in equity and secure prepayments from large customers including Nvidia, OpenAI and Meta, which could fund up to 12.5% of contracts under development. Firmus had about 916 MW of contracted capacity and 46 MW operating as of September 2026; its IPO was pulled earlier, which the company blamed on market volatility. Its last private round raised $2 billion at a $10.5 billion post-money valuation. Caveat: single press report; Firmus has not confirmed terms. Country conversion: Australia&#x27;s largest contracted AI build (Tasmania and mainland) now depends on customer cash, not public markets, to move from contract to energised capacity. [Signal 40, Single-source, via DCD, 16 Nov 2026, citing AFR] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>South Korea: SK Telecom locks Hyosung as supplier for 345 kV substation gear behind its gigawatt-scale AI data centres</title>
-    <link>https://www.hyosung.com/kr/newsroom/view/19375</link>
-    <guid isPermaLink="false">compute.world/wire#korea-skt-hyosung-mou-345kv-substations-800v-dc-5gw-2029-2026-11-16</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Hyosung Heavy Industries and SK Telecom signed a strategic partnership MoU on 16 November 2026 at SKT Tower in Seoul (Hyosung newsroom). Hyosung will supply core equipment for the 345 kV substations serving SKT&#x27;s AI data centres, and the two will coordinate production and delivery schedules in advance for long-lead items such as transformers. They will also test 800 V DC distribution and solid-state transformers and share substation O&amp;M know-how. Seoul Economic Daily notes SKT targets 5 GW of AI data centre capacity by 2029 and 15 GW by 2035, per SKT&#x27;s July plan. Caveat: an MoU with no volumes or value. Country conversion: Korea&#x27;s largest AI build plan is reserving grid equipment ahead of sites, the step that most often delays capacity. [Signal 30, Confirmed, via Hyosung Heavy Industries newsroom, 16 Nov 2026; SK Telecom newsroom; Seoul Economic Daily; The Elec] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Spain: Box2Bit drops its last Aragon data centre project and sells the 150 MW grid connection to Blackstone</title>
-    <link>https://www.datacenterdynamics.com/en/news/box2bit-sells-150-mw-to-blackstone-and-lets-epila-take-the-lead-in-aragon/</link>
-    <guid isPermaLink="false">compute.world/wire#spain-box2bit-exits-epila-150mw-grid-connection-sold-to-blackstone-calatorao-2026-11-16</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>DCD reported on 16 November 2026 that Box2Bit, a Capital Energy subsidiary, has withdrawn from the Epilon data centre project in Épila, Aragon, and is selling the 150 MW of grid connection capacity it obtained for the project to Blackstone. Red Eléctrica had denied its subsidiary consumption access at the Calatorao 220 kV substation; Box2Bit&#x27;s other two Aragon campuses (the €3.4 billion Ebro Campus in Cariñena and the €1 billion La Charluca site in Calatayud) were already ruled out for lack of transmission access. The 150 MW goes to Blackstone&#x27;s Calatorao campus, which has final planning permission for 430 MW in two phases; El Español puts the associated investment above €13 billion. Épila&#x27;s mayor says Box2Bit failed to make the first land payment and its land rights expired in May. Caveat: sale price is not disclosed and the report relies on DCD and El Español. Country conversion: in Spain, a granted grid connection is now a tradeable asset that moves from a stalled developer to a funded campus. [Signal 42, Single-source, via DCD, 16 Nov 2026; El Español] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Core Scientific files a $1.3 billion core-and-shell build in Hunt County, Texas, where AMD is set to lease 110 MW, as it exits bitcoin mining</title>
-    <link>https://www.datacenterdynamics.com/en/news/core-scientific-files-for-285mw-data-center-outside-dallas-texas/</link>
-    <guid isPermaLink="false">compute.world/wire#usa-core-scientific-hunt-county-tx-1-3bn-filing-amd-110mw-exits-bitcoin-mining-2026-11-16</guid>
-    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
-    <description>A Texas Department of Licensing and Regulation filing by Telios Quinlan One LLC describes a $1.3 billion, 341,325 sq ft data centre core-and-shell building at Quinlan, Hunt County, about 53 miles northeast of Dallas, with construction from November 2026 to September 2028 (DCD, 16 November 2026). Core Scientific bought the 265-acre site in March for $232.5 million and says it can support up to 285 MW leasable (430 MW gross), energising from 2027 and fully powered by 2029; AMD is set to lease 110 MW there. On its 5 November Q3 call Core Scientific said it will complete its exit from bitcoin mining by year-end and enter 2027 as a high-density colocation provider; mining revenue fell to $17.4 million from $66.2 million a year earlier. Caveat: the filing covers one building, not the full 285 MW. Country conversion: in the US another miner&#x27;s power is being converted to AI colocation with a chipmaker as anchor tenant. [Signal 40, Confirmed, via TDLR filing via DCD, 16 Nov 2026; Core Scientific Q3 2026 call and 10-Q] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>India: AirTrunk signs an MoU with Andhra Pradesh for 1.8 GW across two campuses near Visakhapatnam</title>
-    <link>https://www.datacenterdynamics.com/en/news/airtrunk-signs-mou-for-18gw-of-data-center-capacity-in-andhra-pradesh-india/</link>
-    <guid isPermaLink="false">compute.world/wire#india-airtrunk-andhra-pradesh-mou-1-8gw-rambilli-400mw-tootipala-1-4gw-2026-11-14</guid>
-    <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
-    <description>AirTrunk said on 14 November 2026 that it signed a memorandum of understanding with Andhra Pradesh Chief Minister N. Chandrababu Naidu for two proposed data centre campuses in Anakapalli district: 400 MW at Rambilli and 1.4 GW at Tootipala, both outside Visakhapatnam (DCD, citing AirTrunk&#x27;s LinkedIn post). Indian media put the proposed investment at about ₹1.03 lakh crore (about $11 billion); AirTrunk has not confirmed a figure. AirTrunk, owned by Blackstone and CPP Investments, entered India earlier this year by acquiring Lumina CloudInfra. The company says the campuses would use low-water, air-cooled designs and industrial water supply. Caveat: an MoU only; no land, power allocation, customer or timeline is disclosed. Country conversion: Andhra Pradesh adds a second hyperscale-scale commitment after Google&#x27;s $15 billion Vizag AI hub, concentrating India&#x27;s proposed AI capacity on the Vizag coast. [Signal 44, Confirmed, via AirTrunk (LinkedIn), 14 Nov 2026; DCD; NewsBytes] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Japan: Digital Realty plans $10 billion with Mitsubishi to take Japan capacity from 193 MW to about 700 MW over a decade</title>
-    <link>https://asia.nikkei.com/business/technology/artificial-intelligence/digital-realty-trust-to-spend-10bn-more-on-japan-data-centers-ceo</link>
-    <guid isPermaLink="false">compute.world/wire#japan-digital-realty-mitsubishi-10bn-193mw-to-700mw-decade-2026-11-14</guid>
-    <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Digital Realty CEO Andy Power told Nikkei (published 14 November 2026 in Japanese, 15 November in Nikkei Asia) that the company will invest $10 billion in Japan over the next ten years through MC Digital Realty, its 50/50 joint venture with Mitsubishi Corp., lifting Japanese capacity from 193 MW to about 700 MW. Japan is its top Asian investment destination; it has invested about $4 billion there so far, and the new capacity will prioritise AI inference. The JV began building KIX15, a 24 MW Osaka facility, in October, due online in Q4 2028. Caveat: an interview, not a company release; the split between Digital Realty and Mitsubishi is not disclosed. Country conversion: Japan is drawing decade-long inference capacity commitments from global operators, with grid connections rather than capital named as the constraint. [Signal 40, Corroborated, via Nikkei / Nikkei Asia interview with CEO Andy Power, 14 to 15 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Canada: Telus pulls out of Westbank&#x27;s two Vancouver AI data centres; Westbank says a new partner will continue</title>
-    <link>https://www.datacenterdynamics.com/en/news/telus-abandons-its-vancouver-ai-data-center-development-plans/</link>
-    <guid isPermaLink="false">compute.world/wire#canada-telus-exits-westbank-vancouver-ai-data-centres-85mw-bc-hydro-2026-11-14</guid>
-    <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Telus confirmed to Daily Hive on 14 November 2026 that it will not proceed with co-developing two Vancouver AI data centres with Westbank: the conversion of the M3 office building at 111 East 5th Avenue and a new building at 150 West Georgia Street. Westbank said it is proceeding with a new, unnamed partner. The projects were part of Telus&#x27;s May 2026 sovereign AI cluster plan, which started from 85 MW of BC Hydro power and targeted more than 150 MW by 2032. Telus gave no reason; the sites faced local protests, M3 still needs a rezoning (consultation scheduled 2 to 15 December), and October civic elections changed Vancouver&#x27;s council. Caveat: the new partner is not named and the BC Hydro allocation&#x27;s status is not disclosed. Country conversion: Canada&#x27;s sovereign AI build loses its national telco sponsor at the urban sites, shifting execution to a private developer. [Signal 38, Corroborated, via Daily Hive (Telus and Westbank statements), 14 Nov 2026; DCD, 16 Nov 2026] More: https://compute.world/wire</description>
   </item>
 </channel></rss>

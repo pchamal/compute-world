@@ -995,9 +995,9 @@
    "pue": "~1.2-1.4",
    "note": "541.6 GW tech feasible; US export controls bind; domestic chips scaling",
    "rf": 0.85,
-   "rz": 55,
+   "rz": 66,
    "dl": 1,
-   "rw": "The Information reports at least $7.5 billion of Nvidia hardware reached Chi…"
+   "rw": "China: House committee discloses US approvals for 879,868 H200 and MI325X ch…"
   },
   {
    "n": "Japan",
@@ -1497,7 +1497,7 @@
    "rf": 0.85,
    "rz": 88,
    "dl": 1,
-   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
+   "rw": "Malaysia: US consortium to help build a government sovereign AI cloud, with …"
   },
   {
    "n": "Indonesia",
@@ -2045,9 +2045,9 @@
    "pue": "~1.2-1.4",
    "note": "",
    "rf": 0.55,
-   "rz": 18,
+   "rz": 29,
    "dl": 1,
-   "rw": "Jordan: digital economy minister previews a 400 MW Al-Risha data centre and …"
+   "rw": "Jordan: Mindstream Energy names itself sponsor of the 400 MW Al-Risha AI cam…"
   },
   {
    "n": "Turkey",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "US: Anthropic prices the largest IPO on record at $83, raising $81.3 billion…"
+   "rw": "US: Senate passes BAAJA 62 to 33, making data centres pay embedded and incre…"
   },
   {
    "n": "Canada",
