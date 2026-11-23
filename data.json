@@ -347,7 +347,7 @@
    "rf": 0.72,
    "rz": 59,
    "dl": 1,
-   "rw": "India: Amazon commits $7 billion more to renewable power by 2030 and signs 9…"
+   "rw": "India: L&T's LTN Compute wins a multi-year B300 deployment order at its Chen…"
   },
   {
    "n": "Pakistan",
@@ -997,7 +997,7 @@
    "rf": 0.85,
    "rz": 66,
    "dl": 1,
-   "rw": "China: House committee discloses US approvals for 879,868 H200 and MI325X ch…"
+   "rw": "Taiwan: TSMC holds some shipments to Chinese and non-Chinese designers while…"
   },
   {
    "n": "Japan",
@@ -1145,9 +1145,9 @@
    "pue": "~1.2-1.4",
    "note": "World-class offshore wind; thin reserve margin; cable-cut incidents",
    "rf": 0.95,
-   "rz": 47,
+   "rz": 59,
    "dl": 1,
-   "rw": "Powertech books FOPLP AI packaging capacity through 2030; $2.2B ramp + Singa…"
+   "rw": "Taiwan: TSMC holds some shipments to Chinese and non-Chinese designers while…"
   },
   {
    "n": "Mongolia",
@@ -1445,9 +1445,9 @@
    "pue": "~1.35-1.6",
    "note": "Mature market",
    "rf": 0.72,
-   "rz": 31,
+   "rz": 44,
    "dl": 1,
-   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
+   "rw": "Southeast Asia: at least two Nvidia server partners halt shipments to the re…"
   },
   {
    "n": "Malaysia",
@@ -1497,7 +1497,7 @@
    "rf": 0.85,
    "rz": 88,
    "dl": 1,
-   "rw": "Malaysia: US consortium to help build a government sovereign AI cloud, with …"
+   "rw": "Southeast Asia: at least two Nvidia server partners halt shipments to the re…"
   },
   {
    "n": "Indonesia",
@@ -1547,7 +1547,7 @@
    "rf": 0.72,
    "rz": 43,
    "dl": 1,
-   "rw": "US: BIS rule makes advanced AI chips to Indonesia, Malaysia, Singapore, Thai…"
+   "rw": "Indonesia: Firmus seeks a $1.5 billion bond to buy GB300s for its DayOne pro…"
   },
   {
    "n": "Philippines",
@@ -1647,7 +1647,7 @@
    "rf": 1.0,
    "rz": 40,
    "dl": 1,
-   "rw": "Singapore: US Justice and Commerce confirm a criminal export-control investi…"
+   "rw": "Southeast Asia: at least two Nvidia server partners halt shipments to the re…"
   },
   {
    "n": "Papua New Guinea",
@@ -3995,9 +3995,9 @@
    "pue": "~1.2-1.4",
    "note": "Emerging cable hub",
    "rf": 0.72,
-   "rz": 35,
+   "rz": 41,
    "dl": 1,
-   "rw": "Greece: the state's new sovereign fund takes 23% of Data4 Greece, its first …"
+   "rw": "Greece: environmental filing details AWS and PPC's 300 MW Kozani campus on a…"
   },
   {
    "n": "Netherlands",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "US: Senate passes BAAJA 62 to 33, making data centres pay embedded and incre…"
+   "rw": "US: Nvidia board unanimously reinstates Jensen Huang as CEO, citing input fr…"
   },
   {
    "n": "Canada",
@@ -4697,7 +4697,7 @@
    "rf": 1.0,
    "rz": 47,
    "dl": 1,
-   "rw": "Canada: Telus pulls out of Westbank's two Vancouver AI data centres; Westban…"
+   "rw": "Canada: Alberta's Bill 42 would put data centres of 10 MW or more under the …"
   },
   {
    "n": "Mexico",
@@ -5547,7 +5547,7 @@
    "rf": 1.0,
    "rz": 42,
    "dl": 1,
-   "rw": "Australia: Macquarie Data Centres files for a 200 MW, AU$2 billion campus in…"
+   "rw": "Indonesia: Firmus seeks a $1.5 billion bond to buy GB300s for its DayOne pro…"
   },
   {
    "n": "New Zealand",
@@ -5595,9 +5595,9 @@
    "pue": "~1.1-1.25",
    "note": "Geothermal world #5; consenting-constrained hydro",
    "rf": 0.95,
-   "rz": 24,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 34,
+   "dl": 1,
+   "rw": "New Zealand: Contact Energy lodges consent for a 250 MW Stratford data centr…"
   }
  ]
 }
