@@ -1,6 +1,206 @@
 {
   "items": [
     {
+      "id": "usa-trump-threatens-tremendous-tax-us-companies-data-centres-abroad-no-order-published-2026-11-20",
+      "date": "2026-11-20",
+      "title": "US: Trump threatens to block or tax US companies that build data centres abroad",
+      "summary": "At a White House press conference on 20 November, President Trump said: \"We're not going to allow our companies to build data centers outside of our country,\" then added that if they do, \"we're going to put a tremendous tax on them.\" He said he had not yet raised the idea with his staff and named China and Finland in his remarks. No rate, scope, start date or legal authority was given, and no presidential action or Federal Register rule had been published as of 21 November. Caveat: Congress holds the taxing power and the Supreme Court ruled in February 2026 that IEEPA does not authorise tariffs, so this is a stated intention, not policy. Country conversion: a credible penalty would tilt hyperscaler capex toward US sites and raise the political price of offshore campuses that host US-controlled silicon, at the same time as the BIS remote-access rule tightens Southeast Asia.",
+      "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "source": "CNBC, 20 Nov 2026; AP; Axios, 20 Nov 2026",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Build"
+      ],
+      "score": 52
+    },
+    {
+      "id": "taiwan-tsmc-holds-shipments-bis-ifr-16nm-14nm-presumed-advanced-computing-nikkei-2026-11-20",
+      "date": "2026-11-20",
+      "title": "Taiwan: TSMC holds some shipments to Chinese and non-Chinese designers while it reviews the BIS 16nm and 14nm presumption",
+      "summary": "Nikkei Asia reported on 20 November that TSMC has put several shipments to Chinese and non-Chinese chip designers on hold while it checks compliance with the BIS interim final rule that took effect 19 November. Under the rule, foundries and OSATs must presume chips made on 16nm, 14nm or more advanced nodes are controlled advanced-computing chips unless the designer supplies certified Total Processing Performance or performance-density documentation; fewer than 30 billion transistors and no HBM is not by itself proof of exemption. Industry executives told Nikkei the scope reaches smartphone, automotive and consumer chips. Caveat: single outlet, TSMC has not commented publicly and the volume held is not disclosed. Country conversion: the US is pushing compliance onto Taiwan's foundry gate, so every designer on a modern node now needs paperwork before wafers ship.",
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls",
+      "source": "Nikkei Asia, 20 Nov 2026; Tom's Hardware, 22 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "TWN",
+        "CHN"
+      ],
+      "flags": "🇹🇼",
+      "tags": [
+        "Export controls",
+        "Silicon",
+        "Policy"
+      ],
+      "score": 46
+    },
+    {
+      "id": "sea-nvidia-server-partners-halt-southeast-asia-shipments-bis-licence-nikkei-2026-11-20",
+      "date": "2026-11-20",
+      "title": "Southeast Asia: at least two Nvidia server partners halt shipments to the region after the BIS licence rule",
+      "summary": "Nikkei Asia reported from Taipei on 20 November that at least two Nvidia server partners have stopped shipping to Southeast Asian customers. One unnamed maker halted all shipments to the region from 20 November and stopped taking orders from new regional clients while it gathers customer information for licence applications; another paused on legal advice although its servers were compliant. A third keeps shipping but will seek licences for orders placed after 19 November and is shifting focus to Japan and South Korea. Suppliers fear the hit falls on clusters in Malaysia, Thailand, Singapore and Indonesia. Caveat: companies unnamed; Reuters relayed the Nikkei report. Country conversion: the BIS remote-access rule is already converting into delivery delays and inventory risk for the region's neocloud build.",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-server-suppliers-halt-southeast-asia-shipments-over-us-curbs",
+      "source": "Nikkei Asia, 20 Nov 2026; Reuters via Lianhe Zaobao, 22 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "MYS",
+        "SGP",
+        "THA",
+        "IDN"
+      ],
+      "flags": "🇲🇾🇸🇬🇹🇭🇮🇩",
+      "tags": [
+        "Export controls",
+        "Silicon",
+        "Supply chain"
+      ],
+      "score": 48
+    },
+    {
+      "id": "usa-nvidia-board-reinstates-huang-ceo-us-government-input-compliance-officer-2026-11-23",
+      "date": "2026-11-23",
+      "title": "US: Nvidia board unanimously reinstates Jensen Huang as CEO, citing input from senior US government officials",
+      "summary": "Nvidia announced on 23 November that its board voted unanimously to reinstate Jensen Huang as president, CEO and director, effective immediately, eleven days after he resigned on 12 November. The board said it received input from senior levels of the US government and, on that basis, is confident the reinstatement poses no national security risk. Harvey Jones stays as chair; Colette Kress returns to CFO only. The independent-director investigation into reports that Huang was the target of a foreign intelligence effort continues, a new National Security and Export Control Committee is retaining counsel, and Nvidia is searching for a Chief Compliance Officer. Caveat: AP reports the board had rejected Huang's offer to return days earlier. Country conversion: Washington now has a visible hand in the governance of the dominant accelerator vendor, ahead of Huang's 1 December House interviews.",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "source": "Nvidia newsroom, 23 Nov 2026; AP; The Verge, 23 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Silicon",
+        "Policy"
+      ],
+      "score": 50
+    },
+    {
+      "id": "usa-applied-digital-150mw-18yr-ig-hyperscaler-5-4bn-base-term-41bn-contracted-2026-11-23",
+      "date": "2026-11-23",
+      "title": "US: Applied Digital signs a 150 MW, 18-year lease with an investment-grade hyperscaler at higher pricing",
+      "summary": "Applied Digital said on 23 November it signed an 18-year lease with an unnamed tier-one investment-grade hyperscaler for 150 MW of critical IT capacity: about $5.4 billion base-term revenue, about $12.7 billion if all renewals run over a 33-year term. The company says the lease carries higher pricing than its prior leases. Contracted base-term revenue now exceeds $41 billion, portfolio is over 1.6 GW contracted critical IT and 2.2 GW grid-connected peak load, and about 75% of base-term revenue is investment-grade. Financing runs through its $5 billion Macquarie equity programme then project finance; delivery is expected to begin in the first half of 2028. Caveat: site and tenant not named. Country conversion: US wholesale AI capacity is still clearing at rising rates on 18-year terms despite the midterm backlash.",
+      "url": "https://www.globenewswire.com/news-release/2026/11/23/3408272/0/en/applied-digital-secures-new-150-mw-18-year-lease-with-tier-one-investment-grade-hyperscaler-bringing-contracted-base-term-revenue-above-41-billion.html",
+      "source": "Applied Digital press release, 23 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Build",
+        "Finance",
+        "Neocloud"
+      ],
+      "score": 42
+    },
+    {
+      "id": "canada-alberta-bill-42-data-centres-10mw-600m-setback-auc-regulator-wires-cost-2026-11-18",
+      "date": "2026-11-18",
+      "title": "Canada: Alberta's Bill 42 would put data centres of 10 MW or more under the AUC with 600 m setbacks and developer-paid wires",
+      "summary": "Alberta introduced Bill 42, the Energy, Environment and Utilities Statutes Amendment Act, 2026, on 18 November. If passed, the Alberta Utilities Commission becomes the primary provincial regulator for data centres of 10 MW or larger; a 600 metre minimum setback from homes and limits on Class 1 and 2 farmland and irrigated land would apply, with exemptions for designated industrial zones, brownfields and existing power plant sites. Proponents would pay for wires inside their project footprint, a new data centre designation would widen power options, and facilities would have to be designed for waste-heat recovery. Minister Nate Glubish said about 30 per cent of current proposals could be affected. Caveat: thresholds and setbacks are to be set by regulation; projects with an AESO service agreement or permit would be grandfathered. Country conversion: Canada's biggest data centre queue (AESO has over 25 GW of requests) gets a tighter siting gate.",
+      "url": "https://www.alberta.ca/protecting-land-and-communities",
+      "source": "Government of Alberta, 18 Nov 2026; CBC; DCD, 23 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CAN"
+      ],
+      "flags": "🇨🇦",
+      "tags": [
+        "Policy",
+        "Energy"
+      ],
+      "score": 40
+    },
+    {
+      "id": "greece-aws-ppc-kozani-agios-dimitrios-300mw-240mw-it-eia-1gw-option-2026-11-23",
+      "date": "2026-11-23",
+      "title": "Greece: environmental filing details AWS and PPC's 300 MW Kozani campus on a retired coal plant site",
+      "summary": "An environmental impact assessment reported by OT.gr and DCD on 23 November describes the AWS campus at PPC's former Agios Dimitrios coal plant in Kozani: 300 MW power (240 MW IT) across four buildings and 20 data halls, reusing the plant's 400 kV substations through two new underground cables, with scope to reach 1 GW. PPC invests about EUR 1 billion and AWS a similar amount for IT; AWS holds exclusivity on the 1 GW option until May 2027. The 300 MW agreement is expected to be finalised by Q1 2027, construction to start summer 2027 and finish end 2028; annual water use is estimated at about 203,000 cubic metres. Caveat: based on the filing as reported, not an AWS announcement. Country conversion: Greece turns retired lignite grid capacity into a hyperscale anchor; AWS has no Greek region yet.",
+      "url": "https://www.datacenterdynamics.com/en/news/details-shared-of-aws-300mw-data-center-in-kozani-greece/",
+      "source": "DCD, 23 Nov 2026, citing OT.gr and the EIA",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "GRC"
+      ],
+      "flags": "🇬🇷",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 38
+    },
+    {
+      "id": "india-lt-ltn-compute-chennai-b300-large-order-inference-provider-250mw-phase1-2026-11-23",
+      "date": "2026-11-23",
+      "title": "India: L&T's LTN Compute wins a multi-year B300 deployment order at its Chennai AI factory",
+      "summary": "Larsen & Toubro said on 23 November that Vyoma.AI's subsidiary LTN Compute has a multi-year engagement with an unnamed inference infrastructure provider to deploy additional Nvidia B300 GPUs at its Chennai data centre, part of a 10,000 GPU cluster. L&T classes it as a Large order, which in its scale means INR 2,500 to 5,000 crore. The Chennai campus is planned as a gigawatt-scale hub with a 250 MW phase one and 150 MVA of power readiness. Caveat: customer, GPU count and exact value not disclosed. Country conversion: Indian capacity is being sold to export inference demand on current-generation Blackwell, not only to the IndiaAI mission.",
+      "url": "https://www.larsentoubro.com/pressreleases/2026/2026-11-23-larsen-toubro-secures-large-order-for-deploying-ai-cluster",
+      "source": "Larsen & Toubro press release, 23 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build",
+        "Silicon",
+        "Neocloud"
+      ],
+      "score": 36
+    },
+    {
+      "id": "indonesia-firmus-1-5bn-bond-up-to-4bn-debt-gb300-dayone-69-month-8pct-bloomberg-2026-11-23",
+      "date": "2026-11-23",
+      "title": "Indonesia: Firmus seeks a $1.5 billion bond to buy GB300s for its DayOne project, Bloomberg reports",
+      "summary": "Bloomberg reported that Australian neocloud Firmus is seeking about $1.5 billion in a bond, part of a debt package that could reach $4 billion, to buy Nvidia GB300 systems for its Indonesian data centre project with DayOne Data Centers. People familiar said talks with banks and investors took place last week; the bond and a separate bank loan would each run 69 months, with the bond expected to yield around 8 per cent, possibly before year end. This follows reports of a roughly $3 billion equity raise and customer prepayments after Firmus dropped its IPO. Caveat: anonymous sources; terms not final. Country conversion: Indonesia's GB300 build is now financed at high-yield cost and sits inside the new BIS licence perimeter.",
+      "url": "https://www.datacenterdynamics.com/en/news/firmus-seeks-15bn-bond-offering-report/",
+      "source": "Bloomberg via DCD, 23 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "IDN",
+        "AUS"
+      ],
+      "flags": "🇮🇩",
+      "tags": [
+        "Finance",
+        "Neocloud",
+        "Silicon"
+      ],
+      "score": 34
+    },
+    {
+      "id": "new-zealand-contact-energy-cdc-stratford-250mw-resource-consent-lodged-fid-2027-2026-11-23",
+      "date": "2026-11-23",
+      "title": "New Zealand: Contact Energy lodges consent for a 250 MW Stratford data centre with CDC",
+      "summary": "Contact Energy chief executive Mike Fuge confirmed a resource consent application for the 250 MW Stratford development, proposed with CDC Data Centres near the retired Taranaki Combined Cycle plant, has been lodged with Stratford District Council, The Post reported on 23 November. UBS benchmarks a hyperscale site of that size at NZD 4.5 to 5 billion; Contact targets a final investment decision in mid to late 2027 and first operations potentially by end 2028. Caveat: no customer or financing yet; Fuge said landing an international customer is key. Country conversion: another retired thermal plant site converts into a grid-backed AI campus candidate.",
+      "url": "https://www.thepost.co.nz/nz-news/361121336/consent-lodged-multibillion-dollar-stratford-data-centre",
+      "source": "The Post / Taranaki Daily News, 23 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "NZL"
+      ],
+      "flags": "🇳🇿",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 30
+    },
+    {
       "id": "usa-senate-baaja-62-33-data-centres-pay-embedded-incremental-transmission-20mw-ratepayer-protection-2026-11-19",
       "date": "2026-11-19",
       "title": "US: Senate passes BAAJA 62 to 33, making data centres pay embedded and incremental grid costs",
@@ -4544,6 +4744,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-20",
-  "note": "Wire refresh 2026-11-20: added usa-senate-baaja-62-33-data-centres-pay-embedded-incremental-transmission-20mw-ratepayer-protection-2026-11-19, china-hfac-ecra-disclosure-bis-approved-879868-h200-mi325x-21-licences-not-shipped-2026-11-19, jordan-mindstream-al-risha-400mw-70mw-q2-2027-off-grid-gas-npc-1bn-2026-11-20, brunei-unn-intends-award-vertiv-rimba-data-centre-tender-1bn-us-vendors-2026-11-18, malaysia-us-consortium-sovereign-ai-cloud-mcmc-50m-si-spark-2026-11-18, china-shantou-ascend-950dt-token-export-cluster-china-telecom-cable-landing-1bn-yuan-2026-11-18. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-23",
+  "note": "Wire refresh 2026-11-23: added usa-trump-threatens-tremendous-tax-us-companies-data-centres-abroad-no-order-published-2026-11-20, taiwan-tsmc-holds-shipments-bis-ifr-16nm-14nm-presumed-advanced-computing-nikkei-2026-11-20, sea-nvidia-server-partners-halt-southeast-asia-shipments-bis-licence-nikkei-2026-11-20, usa-nvidia-board-reinstates-huang-ceo-us-government-input-compliance-officer-2026-11-23, usa-applied-digital-150mw-18yr-ig-hyperscaler-5-4bn-base-term-41bn-contracted-2026-11-23, canada-alberta-bill-42-data-centres-10mw-600m-setback-auc-regulator-wires-cost-2026-11-18, greece-aws-ppc-kozani-agios-dimitrios-300mw-240mw-it-eia-1gw-option-2026-11-23, india-lt-ltn-compute-chennai-b300-large-order-inference-provider-250mw-phase1-2026-11-23, indonesia-firmus-1-5bn-bond-up-to-4bn-debt-gb300-dayone-69-month-8pct-bloomberg-2026-11-23, new-zealand-contact-energy-cdc-stratford-250mw-resource-consent-lodged-fid-2027-2026-11-23. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }

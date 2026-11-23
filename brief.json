@@ -1,39 +1,45 @@
 {
-  "updated": "2026-11-20",
-  "title": "Compute brief - 20 November 2026",
-  "description": "Washington priced the risk on both ends of the stack. The Senate voted to make data centres pay for their own grid, and a House committee published BIS licences for 879,868 H200 and MI325X chips approved for China, none shipped as of May. Wire: Senate BAAJA, China licence ledger, Shantou token-export cluster, Jordan Al-Risha sponsor, Brunei Rimba tender, Malaysia sovereign AI cloud. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The grid bill goes to the tenant; the China ledger goes public.",
-  "lede": "The Senate passed the Bipartisan American Affordability and Jobs Act 62 to 33 on 19 November; it directs FERC to make data centres pay embedded and incremental transmission costs and sets ratepayer protections for loads of 20 MW or more. It now goes to the House. The same day the House Foreign Affairs Committee released BIS licence data: 3,444,160 Nvidia H200 and AMD MI325X chips requested for Chinese buyers, 879,868 approved across 21 licences as of 11 May, every approval marked not shipped. California's attorney general subpoenaed Nvidia over China diversion and disclosure. Markets sold AI risk: the Nasdaq fell 2.25%, AMD 7.7% on a Hunterbrook short report, CoreWeave more than 6%, and Anthropic closed its first day at $97.17, up 17% on the $83 IPO price, before opening 9% lower on Friday. List prices held for a tenth day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
+  "updated": "2026-11-23",
+  "title": "Compute brief - 23 November 2026",
+  "description": "Washington is redrawing where compute can sit. Trump threatened a tremendous tax on US companies that build data centres abroad, the BIS rule stalled server and foundry shipments across Asia, and Nvidia's board reinstated Jensen Huang after input from senior US officials. Wire: US offshore threat, TSMC holds, Southeast Asia server halt, Huang back, Applied Digital 150 MW, Alberta Bill 42, Greece Kozani, India L&T B300, Indonesia Firmus bond, New Zealand Stratford. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "Build it here, or pay: Washington moves the map.",
+  "lede": "President Trump said on 20 November that the US will not allow its companies to build data centres abroad, or will put a tremendous tax on them if they do; no rate, scope or legal authority was given and nothing has been published. The BIS remote-access rule that took effect on 19 November is already biting: Nikkei reports at least two Nvidia server partners halted shipments to Southeast Asia and TSMC held some shipments to Chinese and non-Chinese designers while it checks the new 16nm and 14nm presumption. On 23 November Nvidia's board unanimously reinstated Jensen Huang as CEO, eleven days after he resigned, saying senior US government officials gave input that he poses no national security risk. Demand is not slowing at home: Applied Digital signed a 150 MW, 18-year hyperscaler lease at higher pricing. List prices held for an eleventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
   "countries": [
     {
-      "id": "usa-senate-baaja",
+      "id": "usa-offshore-tax",
       "name": "United States",
       "slug": "united-states",
-      "note": "Senate passes BAAJA 62 to 33: FERC to charge data centres embedded and incremental transmission costs; 20 MW ratepayer protections; House next (Wire, 19 Nov)."
+      "note": "Trump threatens to block or tax US companies building data centres abroad (no order yet); Huang reinstated at Nvidia; Applied Digital 150 MW 18-year lease (Wire, 20 to 23 Nov)."
     },
     {
-      "id": "chn-bis-licence-ledger",
-      "name": "China",
-      "slug": "china",
-      "note": "879,868 H200 and MI325X approved for PRC buyers across 21 licences as of May, none shipped; Shantou Ascend 950DT token-export cluster live (Wire, 18 to 19 Nov)."
+      "id": "twn-tsmc-holds",
+      "name": "Taiwan",
+      "slug": "taiwan",
+      "note": "TSMC holds some shipments while it reviews the BIS 16nm and 14nm presumption (Wire, 20 Nov, single-source)."
     },
     {
-      "id": "jor-mindstream",
-      "name": "Jordan",
-      "slug": "jordan",
-      "note": "Mindstream Energy is the Al-Risha sponsor: 70 MW from Q2 2027 to 400 MW, off-grid on Al Risha gas (Wire, 20 Nov, corroborated)."
-    },
-    {
-      "id": "mys-sovereign-cloud",
+      "id": "mys-server-halt",
       "name": "Malaysia",
       "slug": "malaysia",
-      "note": "US consortium to support a government sovereign AI cloud, $50 million offered via SI SPARK (Wire, 18 Nov, corroborated)."
+      "note": "At least two Nvidia server partners halt Southeast Asia shipments pending BIS licences; Singapore, Thailand and Indonesia also exposed (Wire, 20 Nov, single-source)."
     },
     {
-      "id": "brn-rimba",
-      "name": "Brunei",
-      "slug": "brunei",
-      "note": "UNN intends to award Vertiv the Rimba Data Centre tender, nearly $1 billion from US vendors (Wire, 18 Nov, single-source)."
+      "id": "can-alberta-bill-42",
+      "name": "Canada",
+      "slug": "canada",
+      "note": "Alberta Bill 42: AUC regulates data centres of 10 MW or more, 600 m setbacks, developer-paid wires (Wire, 18 Nov)."
+    },
+    {
+      "id": "grc-kozani",
+      "name": "Greece",
+      "slug": "greece",
+      "note": "AWS and PPC Kozani campus: 300 MW on a retired coal plant's 400 kV substations, 1 GW option (Wire, 23 Nov, single-source)."
+    },
+    {
+      "id": "ind-lt-b300",
+      "name": "India",
+      "slug": "india",
+      "note": "L&T's LTN Compute wins a multi-year B300 order at Chennai for an inference provider; 250 MW phase one (Wire, 23 Nov)."
     }
   ],
   "silicon": [
@@ -43,10 +49,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print"
+      "note": "Confirm vs 20 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -54,10 +60,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print"
+      "note": "Confirm vs 20 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -65,10 +71,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print"
+      "note": "Confirm vs 20 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -76,10 +82,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 20 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -87,10 +93,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 20 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -98,10 +104,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print"
+      "note": "Confirm vs 20 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -109,10 +115,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print"
+      "note": "Confirm vs 20 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -120,10 +126,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print"
+      "note": "Confirm vs 20 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -131,27 +137,27 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 19 Nov print"
+      "note": "Confirm vs 20 Nov print"
     }
   ],
   "watch": [
     {
-      "id": "baaja-house",
-      "name": "BAAJA in the House",
-      "note": "The House passed a narrower permitting bill last year; watch for conference or a straight vote before the Congress ends. FERC gets 270 days after enactment to revise transmission pricing."
+      "id": "offshore-tax-instrument",
+      "name": "Offshore data centre penalty",
+      "note": "Watch for an executive order, Treasury guidance or a bill; Congress holds the taxing power and IEEPA tariffs were struck down in February."
     },
     {
       "id": "huang-testimony",
       "name": "Huang and Teter before Congress",
-      "note": "Former Nvidia CEO Jensen Huang sits for transcribed interviews with three House committees on 1 December; general counsel Tim Teter on 2 December."
+      "note": "Jensen Huang sits for transcribed interviews with three House committees on 1 December; general counsel Tim Teter on 2 December. Nvidia's independent investigation continues."
     },
     {
-      "id": "ant-options",
-      "name": "Anthropic options",
-      "note": "Options on ANT start trading Monday 23 November (CNBC); underwriters hold a 30-day option on 147 million more shares."
+      "id": "sea-licences",
+      "name": "Southeast Asia licences",
+      "note": "Facilities serving large Chinese customers have 90 days to apply; watch whether server makers resume shipments to Malaysia, Thailand, Singapore and Indonesia."
     },
     {
       "id": "crusoe-dec1-pricing",
@@ -159,61 +165,71 @@
       "note": "Posted H100 $4.50, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
     },
     {
-      "id": "bis-ifr-comments",
-      "name": "BIS remote-access rule",
-      "note": "Comments on the 19 November remote-access rule (91 FR 74970) are due 19 January 2027."
+      "id": "baaja-house",
+      "name": "BAAJA in the House",
+      "note": "Senate-passed grid cost bill still needs the House before the Congress ends."
     },
     {
-      "id": "jordan-tenant",
-      "name": "Al-Risha anchor tenant",
-      "note": "Mindstream named power and phase one cost but no tenant or financing; Q2 2027 is the first 70 MW date."
+      "id": "bis-ifr-comments",
+      "name": "BIS remote-access rule",
+      "note": "Comments on the 19 November rule (91 FR 74970) are due 19 January 2027."
     }
   ],
   "sources": [
     {
-      "name": "DCD: US Senate passes bill requiring data centers to pay more for grid infrastructure",
-      "url": "https://www.datacenterdynamics.com/en/news/us-senate-passes-bill-requiring-data-centers-to-pay-more-for-grid-infrastructure/",
+      "name": "CNBC: Trump vows to stop US companies from building data centers abroad",
+      "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
       "note": "Lead and Wire: United States."
     },
     {
-      "name": "Foley Hoag: BAAJA data centre provisions",
-      "url": "https://foleyhoag.com/news-and-insights/blogs/energy-and-climate-counsel/2026/october/baaja-blast-part-3-data-centers-and-large-loads-under-the-senate-permitting-bill/",
-      "note": "Lead: Section 2107 detail."
+      "name": "Axios: Trump threatens tax on US companies building data centers overseas",
+      "url": "https://www.axios.com/2026/11/20/us-ai-trump-data-centers-overseas",
+      "note": "Lead: quotes and context."
     },
     {
-      "name": "House Foreign Affairs Committee: AI chip licence disclosure",
-      "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
-      "note": "Lead and Wire: China."
+      "name": "Nikkei Asia: Nvidia server suppliers halt Southeast Asia shipments",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-server-suppliers-halt-southeast-asia-shipments-over-us-curbs",
+      "note": "Lead and Wire: Southeast Asia."
     },
     {
-      "name": "California DOJ: Bonta serves investigative subpoena on Nvidia",
-      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia",
-      "note": "Lead."
+      "name": "Nikkei Asia: Chip supply chain warns of broader disruption",
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls",
+      "note": "Lead and Wire: Taiwan."
     },
     {
-      "name": "CNBC: Anthropic IPO fails to lift AI stocks",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
-      "note": "Lead: market reaction."
+      "name": "Nvidia: Board reinstates Jensen Huang",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "note": "Lead and Wire: United States."
     },
     {
-      "name": "SCMP: China's token export ambitions take shape",
-      "url": "https://www.scmp.com/tech/big-tech/article/3374791/chinas-token-export-ambitions-take-shape-new-huawei-powered-data-centre",
-      "note": "Wire: China."
+      "name": "Applied Digital: 150 MW 18-year lease",
+      "url": "https://www.globenewswire.com/news-release/2026/11/23/3408272/0/en/applied-digital-secures-new-150-mw-18-year-lease-with-tier-one-investment-grade-hyperscaler-bringing-contracted-base-term-revenue-above-41-billion.html",
+      "note": "Lead and Wire: United States."
     },
     {
-      "name": "Petra: Mindstream Energy launches Al Risha AI campus",
-      "url": "https://petra.gov.jo/en/news/mindstream-energy-launches-1-billion-ai-infrastructure-project-in-jordan",
-      "note": "Wire: Jordan."
+      "name": "Government of Alberta: Bill 42",
+      "url": "https://www.alberta.ca/protecting-land-and-communities",
+      "note": "Wire: Canada."
     },
     {
-      "name": "White House: ASEAN deals fact sheet",
-      "url": "https://www.whitehouse.gov/fact-sheets/2026/11/fact-sheet-president-donald-j-trump-secures-historic-economic-deals-for-american-workers-and-strengthens-americas-leadership-in-asia/",
-      "note": "Wire: Brunei, Malaysia."
+      "name": "DCD: AWS 300MW Kozani campus details",
+      "url": "https://www.datacenterdynamics.com/en/news/details-shared-of-aws-300mw-data-center-in-kozani-greece/",
+      "note": "Wire: Greece."
     },
     {
-      "name": "MCMC: Malaysia and US sovereign AI cloud statement",
-      "url": "https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/KENYATAAN-MEDIA_MALAYSIA-DAN-AMERIKA-SYARIKAT-BERHASRAT-BEKERJASAMA-MENYOKONG-PEMBANGUNAN-AWAN-AI-BERDAULAT-MALAYSIA.pdf",
-      "note": "Wire: Malaysia."
+      "name": "L&T: Large order for AI cluster",
+      "url": "https://www.larsentoubro.com/pressreleases/2026/2026-11-23-larsen-toubro-secures-large-order-for-deploying-ai-cluster",
+      "note": "Wire: India."
+    },
+    {
+      "name": "DCD: Firmus seeks $1.5bn bond",
+      "url": "https://www.datacenterdynamics.com/en/news/firmus-seeks-15bn-bond-offering-report/",
+      "note": "Wire: Indonesia."
+    },
+    {
+      "name": "The Post: Stratford data centre consent lodged",
+      "url": "https://www.thepost.co.nz/nz-news/361121336/consent-lodged-multibillion-dollar-stratford-data-centre",
+      "note": "Wire: New Zealand."
     },
     {
       "name": "Lambda Cloud pricing",
