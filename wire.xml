@@ -5,6 +5,48 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Thailand: NTT and B.Grimm Power sign MoU for a 400 MW data centre opportunity</title>
+    <link>https://www.datacenterdynamics.com/en/news/ntt-signs-mou-with-bgrimm-for-400mw-data-center-project-in-thailand/</link>
+    <guid isPermaLink="false">compute.world/wire#thailand-ntt-bgrimm-400mw-mou-thb113bn-2026-11-24</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B.Grimm Power said it signed a memorandum of understanding with NTT Global Data Centers to pursue a 400 MW data centre, AI ecosystem and energy infrastructure opportunity in Thailand worth about THB 113 billion ($3.3 billion), DCD reported on 24 November. No site or timeline was disclosed. NTT runs three Bangkok-area sites, with Bangkok 4 at Amata City Chonburi due in Q2 2027. Caveat: MoU only; any GPU deployment would need a BIS licence for Thailand unless the end user is US-headquartered. Country conversion: Thai utility power is being packaged for AI load even as Thailand enters the US licence perimeter. [Signal 32, Single-source, via DCD, 24 Nov 2026; B.Grimm Power] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Singapore, Malaysia, Thailand: BIS adds seven Megaspeed-linked firms to the Entity List</title>
+    <link>https://public-inspection.federalregister.gov/2026-23999.pdf</link>
+    <guid isPermaLink="false">compute.world/wire#singapore-malaysia-thailand-bis-entity-list-megaspeed-seven-entities-presumption-of-denial-2026-11-23</guid>
+    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
+    <description>The Bureau of Industry and Security filed a final rule for public inspection on 23 November (FR Doc 2026-23999, publication 25 November) adding seven entities to the Entity List for significant risk of diverting advanced computing commodities: Megaspeed International Pte. Ltd., Swiftdata Pte. Ltd. and Apex Enterprise Solutions (Singapore) in Singapore; Speedmatrix Sdn Bhd, MSFusion Sdn. Bhd. and PT Megaspeed International under Malaysia; and Megaspeed (Thailand) Co., Ltd. A licence is required for all items subject to the EAR, reviewed under a presumption of denial; goods already en route may proceed if delivered within 30 days. Malaysia&#x27;s MITI said on 24 November that MIDA will tell all data centre operators not to host, lease space to or serve the listed entities. Caveat: the rule gives no detail of the alleged diversion; Megaspeed has previously denied wrongdoing. Country conversion: the first named enforcement under the new remote-access regime lands on Southeast Asian neocloud capacity, a day after Nvidia reinstated Huang. [Signal 54, Confirmed, via BIS final rule, Federal Register public inspection, 23 Nov 2026; Malaysia MITI, 24 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>US: TSMC files for a proposed 2nm fab in Brazos County, Texas</title>
+    <link>https://www.datacenterdynamics.com/en/news/tsmc-files-application-for-proposed-2nm-chip-fab-in-brazos-county-texas/</link>
+    <guid isPermaLink="false">compute.world/wire#usa-tsmc-brazos-county-texas-2nm-fab-application-23bn-40yr-groundbreak-2027-2026-11-23</guid>
+    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
+    <description>TSMC filed an application with the Texas Comptroller on 23 November for at least one 2nm fab on a 3,232-acre parcel in Brazos County, next to SpaceX&#x27;s planned TeraFab in Grimes County. The filing projects almost $23 billion of capital investment and 2,099 direct jobs over 40 years, with construction from 2027 and operations by 2029. Caveat: the application says no final site decision has been made, county records show TSMC has not bought the land, and officials say Sherman is still under review. Country conversion: leading-edge logic capacity keeps moving onshore in Texas, beside the US&#x27;s other planned AI fab. [Signal 42, Corroborated, via DCD, 23 Nov 2026; KBTX] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Taiwan: TSMC says no customer has changed orders or shipments</title>
+    <link>https://www.cna.com.tw/news/afe/202611230249.aspx</link>
+    <guid isPermaLink="false">compute.world/wire#taiwan-tsmc-hou-no-customer-adjusted-orders-shipments-ai-demand-exceeds-capacity-2026-11-23</guid>
+    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
+    <description>TSMC senior vice president Hou Yung-ching, also chairman of the Taiwan Semiconductor Industry Association, said on 23 November after a government meeting with industry and finance leaders that no customer had adjusted orders or shipments after recent events and that advanced-process demand still exceeds capacity. He put Taiwan&#x27;s semiconductor output at about NT$9.19 trillion in 2026, up over 40 per cent from NT$6.5 trillion in 2025. Caveat: the statement does not address the shipments Nikkei reported held for BIS review on 20 November; TSMC&#x27;s November revenue, due by 10 December, is the first hard check. Country conversion: Taiwan&#x27;s foundry gate signals no demand break from the Nvidia scandal or the new US rule. [Signal 36, Corroborated, via CNA (Taiwan), 23 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>India: CtrlS signs MoU with Bihar for a 150 MW AI facility</title>
+    <link>https://www.datacenterdynamics.com/en/news/ctrls-moves-forward-with-150mw-data-center-project-in-bihar-india/</link>
+    <guid isPermaLink="false">compute.world/wire#india-ctrls-bihar-150mw-ai-factory-mou-rs10000cr-patna-2029-2026-11-23</guid>
+    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
+    <description>CtrlS Datacenters signed an MoU with the Bihar government on 23 November to invest Rs 10,000 crore (about $1 billion) in a 150 MW hyperscale AI facility on about 100 acres near a 220/400 kV substation, preferably around Patna, due online in 2029 or 2030. CtrlS opened a 12 MW Patna facility last month and targets 4.4 GW nationally by 2030. Caveat: MoU only; no tenant named. Country conversion: Indian capacity is spreading to eastern states that had none. [Signal 28, Single-source, via DCD, 23 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Latvia: Northern Europe Energy secures land for a 200 MW campus outside Riga</title>
+    <link>https://www.datacenterdynamics.com/en/news/northern-europe-energy-eyes-200mw-data-center-project-outside-riga-latvia/</link>
+    <guid isPermaLink="false">compute.world/wire#latvia-northern-europe-energy-salaspils-200mw-330kv-riga-2026-11-23</guid>
+    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Northern Europe Energy Group said it has exclusive rights to about 16 hectares in Salaspils, 30 km southeast of Riga, for a data centre campus of more than 200 MW. Phase one would draw from the existing 110 kV network and phase two would connect directly to 330 kV lines beside the site. Caveat: early planning; no customer or financing. Country conversion: Baltic transmission headroom is being banked for AI load as Nordic markets take nearly half of European leasing. [Signal 22, Single-source, via DCD, 23 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
     <title>US: Nvidia board unanimously reinstates Jensen Huang as CEO, citing input from senior US government officials</title>
     <link>https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director</link>
     <guid isPermaLink="false">compute.world/wire#usa-nvidia-board-reinstates-huang-ceo-us-government-input-compliance-officer-2026-11-23</guid>
@@ -45,6 +87,20 @@
     <guid isPermaLink="false">compute.world/wire#new-zealand-contact-energy-cdc-stratford-250mw-resource-consent-lodged-fid-2027-2026-11-23</guid>
     <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
     <description>Contact Energy chief executive Mike Fuge confirmed a resource consent application for the 250 MW Stratford development, proposed with CDC Data Centres near the retired Taranaki Combined Cycle plant, has been lodged with Stratford District Council, The Post reported on 23 November. UBS benchmarks a hyperscale site of that size at NZD 4.5 to 5 billion; Contact targets a final investment decision in mid to late 2027 and first operations potentially by end 2028. Caveat: no customer or financing yet; Fuge said landing an international customer is key. Country conversion: another retired thermal plant site converts into a grid-backed AI campus candidate. [Signal 30, Single-source, via The Post / Taranaki Daily News, 23 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Spain: data centre decree in force, with 80 per cent hourly-matched new renewables and curtailment duties</title>
+    <link>https://www.boe.es/buscar/act.php?id=BOE-A-2026-24439</link>
+    <guid isPermaLink="false">compute.world/wire#spain-real-decreto-1032-2026-data-centres-80pct-hourly-renewable-curtailment-in-force-2026-11-22</guid>
+    <pubDate>Sun, 22 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Royal Decree 1032/2026, approved by the Council of Ministers on 20 November and published in the BOE on 21 November, took effect on 22 November. It applies to data centres that have sought or will seek grid access and connection permits. They must cover 80 per cent of consumption with new renewable supply through self-consumption or PPAs, matched hourly, with an optional transition of 60 per cent, 70 per cent from 2029 and 80 per cent from 2032, and a compensation charge (6 euros per MWh at 60 to 80 per cent annual coverage) for shortfalls. Sites must also join automatic power-reduction schemes and can be disconnected to protect the system; water and PUE limits apply, and Article 5 sets data-location rules for high-category public systems. Minister Aagesen said that without the rule bills could rise by up to 5 billion euros. Caveat: operators contested feasibility; grid-queue effects are not yet visible. Country conversion: Spain now prices grid access for AI load in renewables and flexibility. [Signal 44, Confirmed, via BOE, 21 Nov 2026; MITECO, 20 Nov 2026; DCD, 23 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>US: Apollo and Goldman price about $44 billion of notes to buy Vera Rubin GPUs for SpaceX</title>
+    <link>https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion</link>
+    <guid isPermaLink="false">compute.world/wire#usa-apollo-goldman-44bn-spacex-gpu-financing-vera-rubin-saturn-funding-1h-2027-2026-11-20</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Apollo and Goldman Sachs announced on 20 November the pricing of approximately $44 billion of senior and subordinated notes to fund GPUs and related equipment for SpaceX, the largest GPU financing to date. The deal was oversubscribed and upsized, with anchor commitments from BlackRock, Goldman Sachs Asset Management and KKR-advised accounts. Proceeds buy Nvidia Vera Rubin systems for SpaceX&#x27;s terrestrial compute build; lease schedules start on delivery in the first half of 2027. IFR reports the public tranches price at 7.66 to 8.36 per cent, with the largest ($25.2 billion senior secured, due April 2033) at 8.259 per cent. Caveat: tranche detail is from IFR, not the press release. Country conversion: US compute is now financed as a leased asset class at high-yield coupons, and the collateral is next-generation Nvidia silicon. [Signal 48, Confirmed, via Apollo / Goldman Sachs press release, 20 Nov 2026; IFR; DCD, 23 Nov 2026] More: https://compute.world/wire</description>
   </item>
   <item>
     <title>US: Trump threatens to block or tax US companies that build data centres abroad</title>
@@ -157,61 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#usa-nvidia-q3-10q-118bn-max-guarantee-exposure-neocloud-commitments-32bn-2026-11-18</guid>
     <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
     <description>Nvidia&#x27;s third-quarter filing shows maximum gross exposure of up to $118 billion in financial guarantees tied to AI infrastructure: up to $105 billion for SB Energy&#x27;s PORTS-Pike campus in Ohio (about 4.25 GW, nine buildings, 20-year leases to OpenAI, first guarantee from fiscal 2029), $9.5 billion of power and systems credit support and $3.5 billion of land, power and shell guarantees for neocloud providers; no guarantee payments had been made as of 25 October (TechTarget). New footnote language says commitments to neoclouds take effect only once they secure financing and may be reduced or cancelled on data centre delays; Morgan Stanley says disclosed neocloud commitments fell to $32 billion from $36 billion and cut its deployment forecast to 4 GW from 5 GW (CNBC). CoreWeave and Iren fell about 3% on 18 November. Country conversion: US neocloud builds now need their own financing before Nvidia&#x27;s backstop applies. [Signal 44, Corroborated, via CNBC, 18 Nov 2026; TechTarget, 18 Nov 2026; Nvidia Q3 FY27 filing] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: new data centre construction starts fell to 8.4 GW in Q3 from 11.2 GW, but October rebounded to 4.6 GW</title>
-    <link>https://www.datacenterdynamics.com/en/news/cleanview-us-data-center-construction-slows-in-q3-2026-following-record-breaking-q2/</link>
-    <guid isPermaLink="false">compute.world/wire#usa-cleanview-q3-2026-construction-starts-8-4gw-vs-11-2gw-58gw-under-construction-2026-11-18</guid>
-    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Cleanview data reported by DCD on 18 November 2026 show US data centre construction starts of 8.4 GW in Q3 2026, down from a record 11.2 GW in Q2 and the first quarterly dip since Q1 2025. Starts in 2026 total 38 GW, double 2025, and October alone reached 4.6 GW, the highest since June. Cleanview counts 58 GW under construction against 65 GW operating, with Texas leading at 9.8 GW started in the last 12 months, then Virginia at 4.5 GW and Louisiana at 2.8 GW; Amazon (4.6 GW), Google (4.1 GW) and Meta (3.9 GW) were the top developers. Caveat: one tracker&#x27;s methodology. Country conversion: the US pipeline under construction nearly equals its whole operating fleet. [Signal 34, Single-source, via DCD, 18 Nov 2026, citing Cleanview] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: Salt Lake City bans new data centres for 180 days</title>
-    <link>https://www.axios.com/local/salt-lake-city/2026/11/18/council-approves-data-center-moratorium-180-days</link>
-    <guid isPermaLink="false">compute.world/wire#usa-salt-lake-city-180-day-ban-new-data-centres-6-0-vote-2026-11-17</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>The Salt Lake City Council voted 6-0 (one member absent) on 17 November 2026 for a citywide 180-day ban on new data centres while it drafts rules on energy and water use, noise, heat and lighting; the ordinance cites the Great Salt Lake, air quality and high utility demand (Axios Salt Lake City, 18 Nov). Council members suspended the 24-hour agenda rule to pass the last-minute measure. It follows permit applications filed in September by Florida-based Qlevr LLC for a data centre in the Northpoint neighbourhood (Salt Lake Tribune, via Axios). Country conversion: a second US jurisdiction in one week stops new entitlements, after Loudoun County&#x27;s 12-month pause. [Signal 30, Single-source, via Axios Salt Lake City, 18 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: Loudoun County, the world&#x27;s largest data centre market, pauses new data centre and substation approvals for up to 12 months</title>
-    <link>https://www.loudounnow.com/news/loudoun-supervisors-approve-12-month-data-center-pause/article_595ee60a-6c09-427e-ac37-af7bde569964.html</link>
-    <guid isPermaLink="false">compute.world/wire#usa-loudoun-12-month-pause-legislative-data-centre-substation-applications-33-active-2026-11-17</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Loudoun County&#x27;s Board of Supervisors voted 7-1-1 on 17 November 2026 to stop acting on legislative applications (rezonings and special exceptions) for data centres and substations for up to 12 months, backdated to 15 September 2026, while it finishes Phase 2 of its data centre zoning standards (Loudoun Now; county agenda). Bisnow reports 33 active legislative applications are affected. Exempt: substations deemed necessary for grid reliability, applications in the Route 28 tax district, already-approved projects and administrative reviews such as site plans. After the pause, at most five backlog applications will be heard per meeting. The county attorney said a moratorium on a use is not legal in Virginia, so the board is using the 12-month review clock, and warned of a real litigation risk; DCD cites a county fact sheet putting data centre revenue at $1.3 billion, 40% of the 2027 budget. Country conversion: new entitlements in Data Center Alley stall until about September 2027, so capacity that is not already zoned shifts to other counties and states. [Signal 58, Confirmed, via Loudoun County Board of Supervisors agenda, 17 Nov 2026; Loudoun Now; Bisnow; WUSA9; DCD] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: Nvidia reports $115.8 billion quarter, guides $130 billion with no China data centre revenue and lifts next-year growth to 75%</title>
-    <link>https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx</link>
-    <guid isPermaLink="false">compute.world/wire#usa-nvidia-q3-fy27-115-8bn-data-centre-107-6bn-q4-guide-130bn-ex-china-fy28-75pct-2026-11-17</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Nvidia reported fiscal Q3 2027 (quarter ended 25 October 2026) revenue of $115.8 billion, up 103% year on year, with Data Center revenue of $107.6 billion, up 110%, and GAAP gross margin of 74.8% (company release, 17 November 2026). It guided Q4, which has an extra week, to $130.0 billion plus or minus 3% and said it assumes no Data Center compute revenue from China; gross margin is guided to 71% to 72%. Interim CEO Colette Kress raised the fiscal 2028 growth outlook to 75% from 70%, citing supply of chips, advanced packaging and memory, and the company said it would not take questions on Jensen Huang&#x27;s resignation (Reuters, CNBC). Nvidia said Vera Rubin NVL72 has shipped, with racks running at CoreWeave, Google Cloud, Microsoft Azure, Oracle and Nebius. Country conversion: US chip supply is not the constraint on capacity; power and permits are. [Signal 55, Confirmed, via Nvidia press release, 17 Nov 2026; Reuters; CNBC; Fortune] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Singapore: US Justice and Commerce confirm a criminal export-control investigation into Megaspeed, Southeast Asia&#x27;s largest Nvidia buyer</title>
-    <link>https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation</link>
-    <guid isPermaLink="false">compute.world/wire#singapore-doj-commerce-confirm-megaspeed-criminal-export-probe-2026-11-17</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>In a joint statement dated 17 November 2026, the US Department of Justice and Department of Commerce said Commerce opened an investigation into Singapore-based Megaspeed in 2024 for potential export control violations, requested records from Nvidia in May 2025, and that Nvidia put Megaspeed on its no-sell list in June 2025. BIS agents and Singapore law enforcement then carried out an on-site end-use check and interviewed then-CEO Alice Huang, after which DOJ took the lead on a criminal investigation. BBC describes Megaspeed as the biggest buyer of Nvidia chips in Southeast Asia; Politico notes it has not been added to the Entity List. Caveat: no charges announced. Country conversion: with the new BIS licence rule, GPU-heavy capacity in Singapore faces both a licence queue and heavier customer due diligence. [Signal 44, Confirmed, via DOJ and Commerce joint statement, 17 Nov 2026; BBC; Politico; CNBC] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: Texas resumes data centre environmental permits and clears SpaceX&#x27;s Starbase gas plant, but Cameron County rejects its tax break</title>
-    <link>https://www.datacenterdynamics.com/en/news/texas-environmental-regulator-resumes-data-center-permitting-following-ercot-review/</link>
-    <guid isPermaLink="false">compute.world/wire#usa-texas-tceq-resumes-data-centre-permits-spacex-starbase-air-permit-cameron-rejects-abatement-2026-11-17</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>The Texas Commission on Environmental Quality resumed normal permit review on 16 November 2026 after notice from Governor Greg Abbott&#x27;s office on 13 November, ending a pause he ordered in August, once ERCOT had gathered responses from 93% of 465 projects for a December report (DCD, citing the Texas Tribune). TCEQ then issued a major air permit for SpaceX&#x27;s planned $24 billion gas-fired data centre at Starbase. On 17 November, Cameron County commissioners voted against holding another meeting on SpaceX&#x27;s tax break request, so the abatement will not advance (DCD, citing local reporting). Governor-elect Gina Hinojosa, who campaigned on a moratorium, takes office in January 2027. Country conversion: Texas permits flow again for now, but local tax incentives and the incoming governor are the new gates. [Signal 40, Corroborated, via DCD, 18 Nov 2026, citing Texas Tribune; DCD on Cameron County, 18 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>India: Amazon commits $7 billion more to renewable power by 2030 and signs 934 MW of new PPAs</title>
-    <link>https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy</link>
-    <guid isPermaLink="false">compute.world/wire#india-amazon-7bn-renewables-by-2030-934mw-ppas-karnataka-madhya-pradesh-rajasthan-2026-11-17</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Amazon said on 17 November 2026 it will invest $7 billion in renewable energy projects in India by 2030, on top of $4 billion already contracted. It signed power purchase agreements with four projects totalling 934 MW: 234 MW of wind in Karnataka, a 200 MW solar and wind project in Karnataka, 300 MW of solar in Madhya Pradesh and 200 MW of solar in Rajasthan. Its India portfolio is now 14 utility-scale projects and 43 on-site solar installations. Developers and PPA lengths were not disclosed. Country conversion: a hyperscaler is pre-buying the clean power its Indian cloud regions need, the input that most often lags in Indian data centre buildouts. [Signal 32, Confirmed, via Amazon, 17 Nov 2026; DCD; Mint; Economic Times] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Australia: Macquarie Data Centres files for a 200 MW, AU$2 billion campus in Sydney&#x27;s Macquarie Park</title>
-    <link>https://www.datacenterdynamics.com/en/news/macquarie-data-centres-eyes-200mw-campus-in-sydney-australia/</link>
-    <guid isPermaLink="false">compute.world/wire#australia-macquarie-data-centres-sears-200mw-macquarie-park-aud2bn-2026-11-17</guid>
-    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
-    <description>DCD reported on 17 November 2026 that Macquarie Data Centres has applied to the New South Wales government (SEARS) for the Macquarie Engineering and Technology Campus at 2 Alma Road, Macquarie Park: 200 MW across 42,015 square metres, up to six storeys, with about AU$2 billion (US$1.35 billion) of investment, replacing existing office buildings. No timeline was given. Macquarie today runs IC2 and IC3 East with IC3 Super West in development, 65 MW combined in Macquarie Park. Caveat: early planning filing. Country conversion: Sydney&#x27;s operators keep densifying existing metro clusters while Firmus chases private money for its larger builds. [Signal 28, Single-source, via DCD, 17 Nov 2026, citing NSW SEARS application] More: https://compute.world/wire</description>
   </item>
 </channel></rss>

@@ -347,7 +347,7 @@
    "rf": 0.72,
    "rz": 59,
    "dl": 1,
-   "rw": "India: L&T's LTN Compute wins a multi-year B300 deployment order at its Chen…"
+   "rw": "India: CtrlS signs MoU with Bihar for a 150 MW AI facility"
   },
   {
    "n": "Pakistan",
@@ -1047,7 +1047,7 @@
    "rf": 0.85,
    "rz": 65,
    "dl": 1,
-   "rw": "Japan: Digital Realty plans $10 billion with Mitsubishi to take Japan capaci…"
+   "rw": "Thailand: NTT and B.Grimm Power sign MoU for a 400 MW data centre opportunit…"
   },
   {
    "n": "South Korea",
@@ -1147,7 +1147,7 @@
    "rf": 0.95,
    "rz": 59,
    "dl": 1,
-   "rw": "Taiwan: TSMC holds some shipments to Chinese and non-Chinese designers while…"
+   "rw": "US: TSMC files for a proposed 2nm fab in Brazos County, Texas"
   },
   {
    "n": "Mongolia",
@@ -1447,7 +1447,7 @@
    "rf": 0.72,
    "rz": 44,
    "dl": 1,
-   "rw": "Southeast Asia: at least two Nvidia server partners halt shipments to the re…"
+   "rw": "Thailand: NTT and B.Grimm Power sign MoU for a 400 MW data centre opportunit…"
   },
   {
    "n": "Malaysia",
@@ -1497,7 +1497,7 @@
    "rf": 0.85,
    "rz": 88,
    "dl": 1,
-   "rw": "Southeast Asia: at least two Nvidia server partners halt shipments to the re…"
+   "rw": "Singapore, Malaysia, Thailand: BIS adds seven Megaspeed-linked firms to the …"
   },
   {
    "n": "Indonesia",
@@ -1647,7 +1647,7 @@
    "rf": 1.0,
    "rz": 40,
    "dl": 1,
-   "rw": "Southeast Asia: at least two Nvidia server partners halt shipments to the re…"
+   "rw": "Singapore, Malaysia, Thailand: BIS adds seven Megaspeed-linked firms to the …"
   },
   {
    "n": "Papua New Guinea",
@@ -3845,9 +3845,9 @@
    "pue": "~1.2-1.4",
    "note": "Iberian solar + cables",
    "rf": 0.85,
-   "rz": 39,
+   "rz": 53,
    "dl": 1,
-   "rw": "Spain: Box2Bit drops its last Aragon data centre project and sells the 150 M…"
+   "rw": "Spain: data centre decree in force, with 80 per cent hourly-matched new rene…"
   },
   {
    "n": "Portugal",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "US: Nvidia board unanimously reinstates Jensen Huang as CEO, citing input fr…"
+   "rw": "US: TSMC files for a proposed 2nm fab in Brazos County, Texas"
   },
   {
    "n": "Canada",
