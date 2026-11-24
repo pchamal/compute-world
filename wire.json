@@ -1,6 +1,164 @@
 {
   "items": [
     {
+      "id": "singapore-malaysia-thailand-bis-entity-list-megaspeed-seven-entities-presumption-of-denial-2026-11-23",
+      "date": "2026-11-23",
+      "title": "Singapore, Malaysia, Thailand: BIS adds seven Megaspeed-linked firms to the Entity List",
+      "summary": "The Bureau of Industry and Security filed a final rule for public inspection on 23 November (FR Doc 2026-23999, publication 25 November) adding seven entities to the Entity List for significant risk of diverting advanced computing commodities: Megaspeed International Pte. Ltd., Swiftdata Pte. Ltd. and Apex Enterprise Solutions (Singapore) in Singapore; Speedmatrix Sdn Bhd, MSFusion Sdn. Bhd. and PT Megaspeed International under Malaysia; and Megaspeed (Thailand) Co., Ltd. A licence is required for all items subject to the EAR, reviewed under a presumption of denial; goods already en route may proceed if delivered within 30 days. Malaysia's MITI said on 24 November that MIDA will tell all data centre operators not to host, lease space to or serve the listed entities. Caveat: the rule gives no detail of the alleged diversion; Megaspeed has previously denied wrongdoing. Country conversion: the first named enforcement under the new remote-access regime lands on Southeast Asian neocloud capacity, a day after Nvidia reinstated Huang.",
+      "url": "https://public-inspection.federalregister.gov/2026-23999.pdf",
+      "source": "BIS final rule, Federal Register public inspection, 23 Nov 2026; Malaysia MITI, 24 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "SGP",
+        "MYS",
+        "THA"
+      ],
+      "flags": "🇸🇬",
+      "tags": [
+        "Export controls",
+        "Policy",
+        "Neocloud"
+      ],
+      "score": 54
+    },
+    {
+      "id": "usa-apollo-goldman-44bn-spacex-gpu-financing-vera-rubin-saturn-funding-1h-2027-2026-11-20",
+      "date": "2026-11-20",
+      "title": "US: Apollo and Goldman price about $44 billion of notes to buy Vera Rubin GPUs for SpaceX",
+      "summary": "Apollo and Goldman Sachs announced on 20 November the pricing of approximately $44 billion of senior and subordinated notes to fund GPUs and related equipment for SpaceX, the largest GPU financing to date. The deal was oversubscribed and upsized, with anchor commitments from BlackRock, Goldman Sachs Asset Management and KKR-advised accounts. Proceeds buy Nvidia Vera Rubin systems for SpaceX's terrestrial compute build; lease schedules start on delivery in the first half of 2027. IFR reports the public tranches price at 7.66 to 8.36 per cent, with the largest ($25.2 billion senior secured, due April 2033) at 8.259 per cent. Caveat: tranche detail is from IFR, not the press release. Country conversion: US compute is now financed as a leased asset class at high-yield coupons, and the collateral is next-generation Nvidia silicon.",
+      "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+      "source": "Apollo / Goldman Sachs press release, 20 Nov 2026; IFR; DCD, 23 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Finance",
+        "Silicon"
+      ],
+      "score": 48
+    },
+    {
+      "id": "spain-real-decreto-1032-2026-data-centres-80pct-hourly-renewable-curtailment-in-force-2026-11-22",
+      "date": "2026-11-22",
+      "title": "Spain: data centre decree in force, with 80 per cent hourly-matched new renewables and curtailment duties",
+      "summary": "Royal Decree 1032/2026, approved by the Council of Ministers on 20 November and published in the BOE on 21 November, took effect on 22 November. It applies to data centres that have sought or will seek grid access and connection permits. They must cover 80 per cent of consumption with new renewable supply through self-consumption or PPAs, matched hourly, with an optional transition of 60 per cent, 70 per cent from 2029 and 80 per cent from 2032, and a compensation charge (6 euros per MWh at 60 to 80 per cent annual coverage) for shortfalls. Sites must also join automatic power-reduction schemes and can be disconnected to protect the system; water and PUE limits apply, and Article 5 sets data-location rules for high-category public systems. Minister Aagesen said that without the rule bills could rise by up to 5 billion euros. Caveat: operators contested feasibility; grid-queue effects are not yet visible. Country conversion: Spain now prices grid access for AI load in renewables and flexibility.",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24439",
+      "source": "BOE, 21 Nov 2026; MITECO, 20 Nov 2026; DCD, 23 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "ESP"
+      ],
+      "flags": "🇪🇸",
+      "tags": [
+        "Policy",
+        "Energy",
+        "Grid"
+      ],
+      "score": 44
+    },
+    {
+      "id": "usa-tsmc-brazos-county-texas-2nm-fab-application-23bn-40yr-groundbreak-2027-2026-11-23",
+      "date": "2026-11-23",
+      "title": "US: TSMC files for a proposed 2nm fab in Brazos County, Texas",
+      "summary": "TSMC filed an application with the Texas Comptroller on 23 November for at least one 2nm fab on a 3,232-acre parcel in Brazos County, next to SpaceX's planned TeraFab in Grimes County. The filing projects almost $23 billion of capital investment and 2,099 direct jobs over 40 years, with construction from 2027 and operations by 2029. Caveat: the application says no final site decision has been made, county records show TSMC has not bought the land, and officials say Sherman is still under review. Country conversion: leading-edge logic capacity keeps moving onshore in Texas, beside the US's other planned AI fab.",
+      "url": "https://www.datacenterdynamics.com/en/news/tsmc-files-application-for-proposed-2nm-chip-fab-in-brazos-county-texas/",
+      "source": "DCD, 23 Nov 2026; KBTX",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA",
+        "TWN"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Silicon",
+        "Foundry",
+        "Build"
+      ],
+      "score": 42
+    },
+    {
+      "id": "taiwan-tsmc-hou-no-customer-adjusted-orders-shipments-ai-demand-exceeds-capacity-2026-11-23",
+      "date": "2026-11-23",
+      "title": "Taiwan: TSMC says no customer has changed orders or shipments",
+      "summary": "TSMC senior vice president Hou Yung-ching, also chairman of the Taiwan Semiconductor Industry Association, said on 23 November after a government meeting with industry and finance leaders that no customer had adjusted orders or shipments after recent events and that advanced-process demand still exceeds capacity. He put Taiwan's semiconductor output at about NT$9.19 trillion in 2026, up over 40 per cent from NT$6.5 trillion in 2025. Caveat: the statement does not address the shipments Nikkei reported held for BIS review on 20 November; TSMC's November revenue, due by 10 December, is the first hard check. Country conversion: Taiwan's foundry gate signals no demand break from the Nvidia scandal or the new US rule.",
+      "url": "https://www.cna.com.tw/news/afe/202611230249.aspx",
+      "source": "CNA (Taiwan), 23 Nov 2026",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "TWN"
+      ],
+      "flags": "🇹🇼",
+      "tags": [
+        "Silicon",
+        "Foundry"
+      ],
+      "score": 36
+    },
+    {
+      "id": "thailand-ntt-bgrimm-400mw-mou-thb113bn-2026-11-24",
+      "date": "2026-11-24",
+      "title": "Thailand: NTT and B.Grimm Power sign MoU for a 400 MW data centre opportunity",
+      "summary": "B.Grimm Power said it signed a memorandum of understanding with NTT Global Data Centers to pursue a 400 MW data centre, AI ecosystem and energy infrastructure opportunity in Thailand worth about THB 113 billion ($3.3 billion), DCD reported on 24 November. No site or timeline was disclosed. NTT runs three Bangkok-area sites, with Bangkok 4 at Amata City Chonburi due in Q2 2027. Caveat: MoU only; any GPU deployment would need a BIS licence for Thailand unless the end user is US-headquartered. Country conversion: Thai utility power is being packaged for AI load even as Thailand enters the US licence perimeter.",
+      "url": "https://www.datacenterdynamics.com/en/news/ntt-signs-mou-with-bgrimm-for-400mw-data-center-project-in-thailand/",
+      "source": "DCD, 24 Nov 2026; B.Grimm Power",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "THA",
+        "JPN"
+      ],
+      "flags": "🇹🇭",
+      "tags": [
+        "Build",
+        "Energy"
+      ],
+      "score": 32
+    },
+    {
+      "id": "india-ctrls-bihar-150mw-ai-factory-mou-rs10000cr-patna-2029-2026-11-23",
+      "date": "2026-11-23",
+      "title": "India: CtrlS signs MoU with Bihar for a 150 MW AI facility",
+      "summary": "CtrlS Datacenters signed an MoU with the Bihar government on 23 November to invest Rs 10,000 crore (about $1 billion) in a 150 MW hyperscale AI facility on about 100 acres near a 220/400 kV substation, preferably around Patna, due online in 2029 or 2030. CtrlS opened a 12 MW Patna facility last month and targets 4.4 GW nationally by 2030. Caveat: MoU only; no tenant named. Country conversion: Indian capacity is spreading to eastern states that had none.",
+      "url": "https://www.datacenterdynamics.com/en/news/ctrls-moves-forward-with-150mw-data-center-project-in-bihar-india/",
+      "source": "DCD, 23 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Build"
+      ],
+      "score": 28
+    },
+    {
+      "id": "latvia-northern-europe-energy-salaspils-200mw-330kv-riga-2026-11-23",
+      "date": "2026-11-23",
+      "title": "Latvia: Northern Europe Energy secures land for a 200 MW campus outside Riga",
+      "summary": "Northern Europe Energy Group said it has exclusive rights to about 16 hectares in Salaspils, 30 km southeast of Riga, for a data centre campus of more than 200 MW. Phase one would draw from the existing 110 kV network and phase two would connect directly to 330 kV lines beside the site. Caveat: early planning; no customer or financing. Country conversion: Baltic transmission headroom is being banked for AI load as Nordic markets take nearly half of European leasing.",
+      "url": "https://www.datacenterdynamics.com/en/news/northern-europe-energy-eyes-200mw-data-center-project-outside-riga-latvia/",
+      "source": "DCD, 23 Nov 2026",
+      "tier": 3,
+      "corroboration": "Single-source",
+      "countries": [
+        "LVA"
+      ],
+      "flags": "🇱🇻",
+      "tags": [
+        "Build",
+        "Grid"
+      ],
+      "score": 22
+    },
+    {
       "id": "usa-trump-threatens-tremendous-tax-us-companies-data-centres-abroad-no-order-published-2026-11-20",
       "date": "2026-11-20",
       "title": "US: Trump threatens to block or tax US companies that build data centres abroad",
@@ -4744,6 +4902,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-23",
-  "note": "Wire refresh 2026-11-23: added usa-trump-threatens-tremendous-tax-us-companies-data-centres-abroad-no-order-published-2026-11-20, taiwan-tsmc-holds-shipments-bis-ifr-16nm-14nm-presumed-advanced-computing-nikkei-2026-11-20, sea-nvidia-server-partners-halt-southeast-asia-shipments-bis-licence-nikkei-2026-11-20, usa-nvidia-board-reinstates-huang-ceo-us-government-input-compliance-officer-2026-11-23, usa-applied-digital-150mw-18yr-ig-hyperscaler-5-4bn-base-term-41bn-contracted-2026-11-23, canada-alberta-bill-42-data-centres-10mw-600m-setback-auc-regulator-wires-cost-2026-11-18, greece-aws-ppc-kozani-agios-dimitrios-300mw-240mw-it-eia-1gw-option-2026-11-23, india-lt-ltn-compute-chennai-b300-large-order-inference-provider-250mw-phase1-2026-11-23, indonesia-firmus-1-5bn-bond-up-to-4bn-debt-gb300-dayone-69-month-8pct-bloomberg-2026-11-23, new-zealand-contact-energy-cdc-stratford-250mw-resource-consent-lodged-fid-2027-2026-11-23. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-24",
+  "note": "Wire refresh 2026-11-24: added singapore-malaysia-thailand-bis-entity-list-megaspeed-seven-entities-presumption-of-denial-2026-11-23, usa-apollo-goldman-44bn-spacex-gpu-financing-vera-rubin-saturn-funding-1h-2027-2026-11-20, spain-real-decreto-1032-2026-data-centres-80pct-hourly-renewable-curtailment-in-force-2026-11-22, usa-tsmc-brazos-county-texas-2nm-fab-application-23bn-40yr-groundbreak-2027-2026-11-23, taiwan-tsmc-hou-no-customer-adjusted-orders-shipments-ai-demand-exceeds-capacity-2026-11-23, thailand-ntt-bgrimm-400mw-mou-thb113bn-2026-11-24, india-ctrls-bihar-150mw-ai-factory-mou-rs10000cr-patna-2029-2026-11-23, latvia-northern-europe-energy-salaspils-200mw-330kv-riga-2026-11-23. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }

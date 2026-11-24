@@ -1,8 +1,8 @@
 {
   "name": "The Silicon Tape · compute.world",
-  "updated": "2026-11-23",
-  "snapshot": "2026-11-23",
-  "snapshot_note": "Last sourced confirm day, not the last price tick. Confirm day 2026-11-23: 70 confirms, 0 ticks, 0 NEW. Lambda H100 $4.59 / B200 $7.69 unchanged. Full re-read Lambda/CoreWeave NA+EU/Crusoe/DigitalOcean/GCP TPU/AWS CB.",
+  "updated": "2026-11-24",
+  "snapshot": "2026-11-24",
+  "snapshot_note": "Last sourced confirm day, not the last price tick. Confirm day 2026-11-24: 70 confirms, 0 ticks, 0 NEW. Lambda H100 $4.59 / B200 $7.69 unchanged. Full re-read Lambda/CoreWeave NA+EU/Crusoe/DigitalOcean/GCP TPU/AWS CB.",
   "version": "v0",
   "license": "CC BY 4.0 with attribution to compute.world",
   "cite": "Hamal, P. (2026). The Silicon Tape. compute.world.",
@@ -90,31 +90,31 @@
       "id": "lambda",
       "name": "Lambda",
       "url": "https://lambda.ai/pricing",
-      "note": "List page fetched 2026-11-23."
+      "note": "List page fetched 2026-11-24."
     },
     {
       "id": "coreweave",
       "name": "CoreWeave",
       "url": "https://www.coreweave.com/pricing",
-      "note": "List page fetched 2026-11-23."
+      "note": "List page fetched 2026-11-24."
     },
     {
       "id": "crusoe",
       "name": "Crusoe",
       "url": "https://www.crusoe.ai/cloud/pricing",
-      "note": "List page fetched 2026-11-23."
+      "note": "List page fetched 2026-11-24."
     },
     {
       "id": "aws-cb",
       "name": "AWS Capacity Blocks",
       "url": "https://aws.amazon.com/ec2/capacityblocks/pricing/",
-      "note": "List page fetched 2026-11-23."
+      "note": "List page fetched 2026-11-24."
     },
     {
       "id": "gcp-tpu",
       "name": "Google Cloud TPU",
       "url": "https://cloud.google.com/tpu/pricing",
-      "note": "List page fetched 2026-11-23."
+      "note": "List page fetched 2026-11-24."
     },
     {
       "id": "gcp-accel",
@@ -180,7 +180,7 @@
       "id": "digitalocean",
       "name": "DigitalOcean GPU Droplets",
       "url": "https://www.digitalocean.com/pricing/gpu-droplets",
-      "note": "List page fetched 2026-11-23."
+      "note": "List page fetched 2026-11-24."
     }
   ],
   "chips": [
@@ -209,7 +209,7 @@
         "usd_per_gpu_hr": 7.69,
         "term": "on-demand",
         "venue": "Lambda",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "lambda",
         "label": "Lambda OD",
         "config": "8x-sxm",
@@ -217,7 +217,7 @@
       },
       "also": {
         "text": "1CC 16-GPU $9.86 (2w–1y) · CoreWeave $8.60 OD · Crusoe OD contact sales (was $8.50 on 20 Oct) · AWS CB $14.208 (different term)",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "Crusoe sales-gated. SemiAnalysis (2 Apr 2026): rental capacity increasingly impossible; market-wide booked through August–September 2026. CoreWeave near-term capacity sold-out in August 2026 after a ~25% July raise. Lambda 1-Click Clusters print $9.86 / GPU-hr on the 16-GPU row (2 weeks–1 year); 1y+ is contact.",
       "cannot_show": [
@@ -232,7 +232,7 @@
           "venue": "Lambda",
           "term": "on-demand",
           "usd_per_gpu_hr": 7.69,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "lambda",
           "config": "8x-sxm"
         },
@@ -240,7 +240,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 8.6,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -248,7 +248,7 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 4.26,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave"
         },
         {
@@ -263,7 +263,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks",
           "usd_per_gpu_hr": 14.208,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "aws-cb",
           "note": "Not on-demand.",
           "config": "cb"
@@ -307,7 +307,7 @@
           "venue": "Lambda",
           "term": "1CC 2w–1y",
           "usd_per_gpu_hr": 8.87,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "lambda",
           "config": "1cc-256",
           "note": "1-Click Clusters, 256+ GPU, 2 weeks–1 year. Prefer the 16-GPU row on the tape."
@@ -330,18 +330,18 @@
         "d30": {
           "pct": 14.9,
           "then": 6.69,
-          "then_date": "2026-10-23",
+          "then_date": "2026-10-26",
           "now": 7.69,
-          "now_date": "2026-11-23",
-          "title": "Lambda on-demand $6.69 on 2026-10-23 → $7.69 on 2026-11-23 (+14.9%)"
+          "now_date": "2026-11-24",
+          "title": "Lambda on-demand $6.69 on 2026-10-26 → $7.69 on 2026-11-24 (+14.9%)"
         },
         "d90": {
           "pct": 14.9,
           "then": 6.69,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 7.69,
-          "now_date": "2026-11-23",
-          "title": "Lambda on-demand $6.69 on 2026-08-25 → $7.69 on 2026-11-23 (+14.9%)"
+          "now_date": "2026-11-24",
+          "title": "Lambda on-demand $6.69 on 2026-08-26 → $7.69 on 2026-11-24 (+14.9%)"
         },
         "d1y": {
           "pct": null,
@@ -613,6 +613,10 @@
           {
             "date": "2026-11-23",
             "price": 7.69
+          },
+          {
+            "date": "2026-11-24",
+            "price": 7.69
           }
         ],
         "steps": [
@@ -633,7 +637,7 @@
             "price": 4.99
           },
           {
-            "date": "2026-05-30",
+            "date": "2026-05-31",
             "price": 6.69
           },
           {
@@ -641,19 +645,19 @@
             "price": 6.69
           },
           {
-            "date": "2026-08-09",
+            "date": "2026-08-10",
             "price": 6.69
           },
           {
-            "date": "2026-09-13",
+            "date": "2026-09-14",
             "price": 6.69
           },
           {
-            "date": "2026-10-19",
+            "date": "2026-10-20",
             "price": 6.69
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 7.69
           }
         ],
@@ -666,7 +670,7 @@
         "usd_per_gpu_hr": 8.5,
         "n": 3,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": true
       },
       "terms": {
@@ -688,7 +692,7 @@
       "display_usd": 6.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "prev_usd": 6.69,
       "delta": "0% 1Q",
       "note": "Display: Lambda OD 8× SXM6. Confirm vs 16 Oct. 1M is 0% (same $6.69 print)."
@@ -720,7 +724,7 @@
         "usd_per_gpu_hr": 4.59,
         "term": "on-demand",
         "venue": "Lambda",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "lambda",
         "label": "Lambda OD",
         "config": "8x-sxm",
@@ -728,7 +732,7 @@
       },
       "also": {
         "text": "DO OD $4.41 · 12m $3.26 · CoreWeave $6.16 · SA 1y $2.35 Mar 2026 STALE · Apr p25–p75 $2.10–$2.70",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "Widely listed as 1x on-demand. Committed H100 clusters remain scarce on the Apr 2026 SemiAnalysis read. Today's headline is Lambda OD $3.99 (8×). DigitalOcean prints OD $4.41 and 12-month reserved $3.26 (effective 1 Aug 2026). SA 1y $2.35 (Mar 2026) is a stale second quote — last public period April 2026. Sourced Lambda path: $2.99 (12 Aug 2025) → $3.99 (21 May 2026, still the 18 Aug 2026 list).",
       "cannot_show": [
@@ -777,7 +781,7 @@
           "venue": "Lambda",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.59,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "lambda",
           "config": "8x-sxm"
         },
@@ -785,7 +789,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 6.16,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -793,14 +797,14 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 2.46,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave"
         },
         {
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 3.9,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "crusoe",
           "config": "HGX",
           "note": "HGX OD list. Back to $3.90 on 21 Oct from $4.50 (16 to 20 Oct); $3.90 was the list through 15 Oct."
@@ -809,7 +813,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks",
           "usd_per_gpu_hr": 5.97,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "aws-cb",
           "note": "Not on-demand.",
           "config": "cb"
@@ -851,7 +855,7 @@
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.41,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet",
           "note": "New DO pricing effective 1 Aug 2026."
@@ -860,7 +864,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 3.26,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not on-demand. Not a guessed discount off OD."
@@ -874,18 +878,18 @@
         "d30": {
           "pct": 15.0,
           "then": 3.99,
-          "then_date": "2026-10-23",
+          "then_date": "2026-10-26",
           "now": 4.59,
-          "now_date": "2026-11-23",
-          "title": "Lambda on-demand $3.99 on 2026-10-23 → $4.59 on 2026-11-23 (+15.0%)"
+          "now_date": "2026-11-24",
+          "title": "Lambda on-demand $3.99 on 2026-10-26 → $4.59 on 2026-11-24 (+15.0%)"
         },
         "d90": {
           "pct": 15.0,
           "then": 3.99,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 4.59,
-          "now_date": "2026-11-23",
-          "title": "Lambda on-demand $3.99 on 2026-08-25 → $4.59 on 2026-11-23 (+15.0%)"
+          "now_date": "2026-11-24",
+          "title": "Lambda on-demand $3.99 on 2026-08-26 → $4.59 on 2026-11-24 (+15.0%)"
         },
         "d1y": {
           "pct": null,
@@ -1161,6 +1165,10 @@
           {
             "date": "2026-11-23",
             "price": 4.59
+          },
+          {
+            "date": "2026-11-24",
+            "price": 4.59
           }
         ],
         "steps": [
@@ -1185,23 +1193,23 @@
             "price": 2.99
           },
           {
-            "date": "2026-04-29",
+            "date": "2026-04-30",
             "price": 2.99
           },
           {
-            "date": "2026-06-20",
+            "date": "2026-06-21",
             "price": 3.99
           },
           {
-            "date": "2026-08-11",
+            "date": "2026-08-12",
             "price": 3.99
           },
           {
-            "date": "2026-10-02",
+            "date": "2026-10-03",
             "price": 3.99
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 4.59
           }
         ],
@@ -1273,7 +1281,7 @@
         "usd_per_gpu_hr": 4.59,
         "n": 5,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": true
       },
       "terms": {
@@ -1284,7 +1292,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "label": "DO 12m",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://www.digitalocean.com/pricing/gpu-droplets",
           "currency": "USD",
           "usd_per_gpu_hr": 3.26,
@@ -1295,7 +1303,7 @@
       "display_usd": 3.99,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "prev_usd": 3.99,
       "delta": "0% 1Q",
       "note": "Lambda OD $3.99 confirm. CoreWeave OD $6.16; DO OD $4.41 / 12m $3.26."
@@ -1326,7 +1334,7 @@
         "usd_per_gpu_hr": 6.31,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "coreweave",
         "label": "CoreWeave OD",
         "note": "Spot $2.62 on the same list.",
@@ -1334,7 +1342,7 @@
       },
       "also": {
         "text": "DO OD $4.47 · 12m $3.40 · Crusoe $4.29",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "Listed at CoreWeave, Crusoe, and hyperscaler Capacity Blocks / OD stickers. SemiAnalysis public composite is blank.",
       "cannot_show": [
@@ -1349,7 +1357,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 6.31,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -1357,14 +1365,14 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 2.62,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave"
         },
         {
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.29,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "crusoe",
           "config": "HGX",
           "note": "HGX OD list. Back to $4.29 on 21 Oct from $5.40 (16 to 20 Oct); $4.29 was the list through 15 Oct."
@@ -1373,7 +1381,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks p5e",
           "usd_per_gpu_hr": 6.866,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "aws-cb",
           "note": "Not on-demand."
         },
@@ -1381,7 +1389,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks p5en",
           "usd_per_gpu_hr": 7.895,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "aws-cb",
           "note": "Not on-demand."
         },
@@ -1406,7 +1414,7 @@
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.47,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet",
           "note": "New DO pricing effective 1 Aug 2026."
@@ -1415,7 +1423,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 3.4,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not on-demand."
@@ -1427,20 +1435,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 6.31,
-          "then_date": "2026-10-19",
-          "now": 6.31,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $6.31 on 2026-10-19 → $6.31 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 6.31,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 6.31,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $6.31 on 2026-08-25 → $6.31 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "CoreWeave on-demand $6.31 on 2026-08-26 → $6.31 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -1530,7 +1534,7 @@
             "price": 6.31
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 6.31
           }
         ],
@@ -1556,23 +1560,23 @@
             "price": 6.31
           },
           {
-            "date": "2026-05-03",
+            "date": "2026-05-04",
             "price": 6.31
           },
           {
-            "date": "2026-06-23",
+            "date": "2026-06-24",
             "price": 6.31
           },
           {
-            "date": "2026-08-13",
+            "date": "2026-08-14",
             "price": 6.31
           },
           {
-            "date": "2026-10-03",
+            "date": "2026-10-04",
             "price": 6.31
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 6.31
           }
         ],
@@ -1585,7 +1589,7 @@
         "usd_per_gpu_hr": 4.47,
         "n": 3,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": true
       },
       "terms": {
@@ -1596,7 +1600,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "label": "DO 12m",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://www.digitalocean.com/pricing/gpu-droplets",
           "currency": "USD",
           "usd_per_gpu_hr": 3.4,
@@ -1627,7 +1631,7 @@
         "usd_per_gpu_hr": 10.5,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "coreweave",
         "label": "CoreWeave",
         "note": "4-GPU instance ($42 / 4), not a 72-rack. No spot.",
@@ -1635,7 +1639,7 @@
       },
       "also": {
         "text": "—",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "Thin public tape: CoreWeave list plus AWS Capacity Blocks. No spot. Not a deep secondary market.",
       "cannot_show": [
@@ -1650,7 +1654,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 10.5,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "note": "Instance $42 / 4 GPUs. No spot.",
           "config": "4-gpu-instance"
@@ -1660,7 +1664,7 @@
           "term": "Capacity Blocks u-p6e-gb200x72",
           "usd_per_gpu_hr": 10.582,
           "unit": "accelerator-hr",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "aws-cb",
           "note": "Not on-demand.",
           "config": "cb"
@@ -1672,20 +1676,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 10.5,
-          "then_date": "2026-10-19",
-          "now": 10.5,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $10.5 on 2026-10-19 → $10.5 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 10.5,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 10.5,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $10.5 on 2026-08-25 → $10.5 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "CoreWeave on-demand $10.5 on 2026-08-26 → $10.5 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -1771,7 +1771,7 @@
             "price": 10.5
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 10.5
           }
         ],
@@ -1789,11 +1789,11 @@
             "price": 10.5
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 10.5
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 10.5
           },
           {
@@ -1805,15 +1805,15 @@
             "price": 10.5
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 10.5
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 10.5
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 10.5
           }
         ],
@@ -1826,7 +1826,7 @@
         "usd_per_gpu_hr": 10.5,
         "n": 1,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -1860,7 +1860,7 @@
         "usd_per_gpu_hr": 3.19,
         "term": "on-demand",
         "venue": "Lambda",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "lambda",
         "label": "Lambda OD",
         "note": "40GB $1.99 OD on the same list.",
@@ -1868,7 +1868,7 @@
       },
       "also": {
         "text": "CoreWeave $2.70 OD",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "Widely listed prior-gen. Liquid relative to Blackwell.",
       "cannot_show": [
@@ -1882,7 +1882,7 @@
           "venue": "Lambda",
           "term": "on-demand",
           "usd_per_gpu_hr": 3.19,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "lambda",
           "note": "80GB.",
           "config": "8x-sxm"
@@ -1891,7 +1891,7 @@
           "venue": "Lambda",
           "term": "on-demand 40GB",
           "usd_per_gpu_hr": 1.99,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "lambda",
           "note": "40GB SKU. Not the headline 80GB print.",
           "config": "40gb"
@@ -1900,7 +1900,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.7,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -1908,14 +1908,14 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 1.21,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave"
         },
         {
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.3,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "crusoe"
         },
         {
@@ -1934,18 +1934,18 @@
         "d30": {
           "pct": 14.3,
           "then": 2.79,
-          "then_date": "2026-10-23",
+          "then_date": "2026-10-26",
           "now": 3.19,
-          "now_date": "2026-11-23",
-          "title": "Lambda on-demand $2.79 on 2026-10-23 → $3.19 on 2026-11-23 (+14.3%)"
+          "now_date": "2026-11-24",
+          "title": "Lambda on-demand $2.79 on 2026-10-26 → $3.19 on 2026-11-24 (+14.3%)"
         },
         "d90": {
           "pct": 14.3,
           "then": 2.79,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 3.19,
-          "now_date": "2026-11-23",
-          "title": "Lambda on-demand $2.79 on 2026-08-25 → $3.19 on 2026-11-23 (+14.3%)"
+          "now_date": "2026-11-24",
+          "title": "Lambda on-demand $2.79 on 2026-08-26 → $3.19 on 2026-11-24 (+14.3%)"
         },
         "d1y": {
           "pct": null,
@@ -2217,6 +2217,10 @@
           {
             "date": "2026-11-23",
             "price": 3.19
+          },
+          {
+            "date": "2026-11-24",
+            "price": 3.19
           }
         ],
         "steps": [
@@ -2241,23 +2245,23 @@
             "price": 2.79
           },
           {
-            "date": "2026-04-29",
+            "date": "2026-04-30",
             "price": 2.79
           },
           {
-            "date": "2026-06-20",
+            "date": "2026-06-21",
             "price": 2.79
           },
           {
-            "date": "2026-08-11",
+            "date": "2026-08-12",
             "price": 2.79
           },
           {
-            "date": "2026-10-02",
+            "date": "2026-10-03",
             "price": 2.79
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 3.19
           }
         ],
@@ -2270,7 +2274,7 @@
         "usd_per_gpu_hr": 2.7,
         "n": 3,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": true
       },
       "terms": {
@@ -2301,7 +2305,7 @@
         "usd_per_gpu_hr": 4.48,
         "term": "spot",
         "venue": "CoreWeave NA",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "coreweave",
         "label": "CoreWeave NA spot",
         "note": "Instance $35.84 / 8 GPUs. OD contact sales.",
@@ -2309,7 +2313,7 @@
       },
       "also": {
         "text": "DO 12m $7.94 · DO spot $6.17 · AWS CB $16.146 · Crusoe OD $8.96 · CoreWeave OD contact sales",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "CoreWeave lists NA spot $35.84 / 8 GPUs ($4.48/GPU-hr) and EU spot $36.70 / 8. On-demand is contact sales — no public OD dollar print in this snapshot. DigitalOcean prints interruptible spot $6.17 (live list re-read 2026-10-15; was $8.00 on 2026-10-09) and 12-month reserved $7.94 (pricing effective 1 Aug 2026).",
       "cannot_show": [
@@ -2324,7 +2328,7 @@
           "venue": "CoreWeave NA",
           "term": "spot",
           "usd_per_gpu_hr": 4.48,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "note": "Instance $35.84 / 8 GPUs.",
           "config": "8x-na"
@@ -2333,7 +2337,7 @@
           "venue": "CoreWeave EU",
           "term": "spot",
           "usd_per_gpu_hr": 4.5875,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "note": "Instance $36.70 / 8 GPUs.",
           "config": "8x-eu"
@@ -2350,7 +2354,7 @@
           "venue": "AWS",
           "term": "Capacity Blocks",
           "usd_per_gpu_hr": 16.146,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "aws-cb",
           "config": "cb",
           "note": "p6-b300.48xlarge, $16.146 / accelerator-hr. Not on-demand."
@@ -2359,7 +2363,7 @@
           "venue": "DigitalOcean",
           "term": "spot",
           "usd_per_gpu_hr": 6.17,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-spot",
           "note": "Interruptible spot. Not a public on-demand list."
@@ -2368,7 +2372,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 7.94,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. CoreWeave reserved is contact — no public card."
@@ -2377,7 +2381,7 @@
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 8.96,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "crusoe",
           "config": "HGX",
           "note": "HGX B300 288 GB on-demand list. First dated print on the tape 2026-10-19."
@@ -2393,18 +2397,18 @@
         "d30": {
           "pct": 0.0,
           "then": 4.48,
-          "then_date": "2026-10-23",
+          "then_date": "2026-10-26",
           "now": 4.48,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave NA spot $4.48 on 2026-10-23 → $4.48 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "CoreWeave NA spot $4.48 on 2026-10-26 → $4.48 on 2026-11-24 (0.0%)"
         },
         "d90": {
           "pct": 0.0,
           "then": 4.48,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 4.48,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave NA spot $4.48 on 2026-08-25 → $4.48 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "CoreWeave NA spot $4.48 on 2026-08-26 → $4.48 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -2668,6 +2672,10 @@
           {
             "date": "2026-11-23",
             "price": 4.48
+          },
+          {
+            "date": "2026-11-24",
+            "price": 4.48
           }
         ],
         "steps": [
@@ -2684,11 +2692,11 @@
             "price": 4.48
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 4.48
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 4.48
           },
           {
@@ -2700,15 +2708,15 @@
             "price": 4.48
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 4.48
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 4.48
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 4.48
           }
         ],
@@ -2721,7 +2729,7 @@
         "usd_per_gpu_hr": 4.588,
         "n": 3,
         "term_family": "spot",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": true
       },
       "terms": {
@@ -2732,7 +2740,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "label": "DO 12m",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://www.digitalocean.com/pricing/gpu-droplets",
           "currency": "USD",
           "usd_per_gpu_hr": 7.94,
@@ -2763,7 +2771,7 @@
         "usd_per_gpu_hr": 4.5,
         "term": "spot",
         "venue": "DigitalOcean",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "digitalocean",
         "label": "DigitalOcean spot",
         "config": "gpu-droplet-spot",
@@ -2771,7 +2779,7 @@
       },
       "also": {
         "text": "No public OD · Crusoe listed, no number",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "No public on-demand list. Display is DigitalOcean interruptible spot $2.97 (live list re-read 2026-10-05; was $4.50 on 2026-08-18). Crusoe lists the SKU without a number. TensorWave is not treated as a public list. No 12-month reserved card on the DO page.",
       "cannot_show": [
@@ -2785,7 +2793,7 @@
           "venue": "DigitalOcean",
           "term": "spot",
           "usd_per_gpu_hr": 4.5,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-spot",
           "note": "Interruptible spot. Display print. Not on-demand. Not a reserved tenor."
@@ -2812,20 +2820,20 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": -18.2,
-          "then": 5.5,
-          "then_date": "2026-10-23",
+          "pct": 51.5,
+          "then": 2.97,
+          "then_date": "2026-10-26",
           "now": 4.5,
-          "now_date": "2026-11-23",
-          "title": "DigitalOcean spot $5.5 on 2026-10-23 → $4.5 on 2026-11-23 (-18.2%)"
+          "now_date": "2026-11-24",
+          "title": "DigitalOcean spot $2.97 on 2026-10-26 → $4.5 on 2026-11-24 (+51.5%)"
         },
         "d90": {
           "pct": 0.0,
           "then": 4.5,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 4.5,
-          "now_date": "2026-11-23",
-          "title": "DigitalOcean spot $4.5 on 2026-08-25 → $4.5 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "DigitalOcean spot $4.5 on 2026-08-26 → $4.5 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -3125,6 +3133,10 @@
           {
             "date": "2026-11-23",
             "price": 4.5
+          },
+          {
+            "date": "2026-11-24",
+            "price": 4.5
           }
         ],
         "steps": [
@@ -3141,11 +3153,11 @@
             "price": 4.5
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 4.5
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 4.5
           },
           {
@@ -3157,15 +3169,15 @@
             "price": 5.5
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 4.5
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 4.5
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 4.5
           }
         ],
@@ -3178,7 +3190,7 @@
         "usd_per_gpu_hr": 4.5,
         "n": 1,
         "term_family": "spot",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -3209,14 +3221,14 @@
         "usd_per_gpu_hr": 12.0,
         "term": "on-demand",
         "venue": "GCP",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "gcp-tpu",
         "label": "GCP OD",
         "config": "list"
       },
       "also": {
         "text": "1y $8.40 · 3y $5.40",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "GCP-only list. Not a multi-venue rental tape.",
       "cannot_show": [
@@ -3230,7 +3242,7 @@
           "venue": "GCP",
           "term": "on-demand",
           "usd_per_gpu_hr": 12.0,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "gcp-tpu",
           "config": "list"
         },
@@ -3238,7 +3250,7 @@
           "venue": "GCP",
           "term": "1y",
           "usd_per_gpu_hr": 8.4,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "gcp-tpu",
           "config": "1y"
         },
@@ -3246,7 +3258,7 @@
           "venue": "GCP",
           "term": "3y",
           "usd_per_gpu_hr": 5.4,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "gcp-tpu",
           "config": "3y"
         }
@@ -3257,20 +3269,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 12.0,
-          "then_date": "2026-10-19",
-          "now": 12.0,
-          "now_date": "2026-11-23",
-          "title": "GCP on-demand $12 on 2026-10-19 → $12 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 12.0,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 12.0,
-          "now_date": "2026-11-23",
-          "title": "GCP on-demand $12 on 2026-08-25 → $12 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "GCP on-demand $12 on 2026-08-26 → $12 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -3356,7 +3364,7 @@
             "price": 12.0
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 12.0
           }
         ],
@@ -3374,11 +3382,11 @@
             "price": 12.0
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 12.0
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 12.0
           },
           {
@@ -3390,15 +3398,15 @@
             "price": 12.0
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 12.0
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 12.0
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 12.0
           }
         ],
@@ -3411,7 +3419,7 @@
         "usd_per_gpu_hr": 12.0,
         "n": 1,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -3422,7 +3430,7 @@
           "venue": "GCP",
           "term": "1y",
           "label": "GCP 1y",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://cloud.google.com/tpu/pricing",
           "currency": "USD",
           "usd_per_gpu_hr": 8.4
@@ -3432,7 +3440,7 @@
           "venue": "GCP",
           "term": "3y",
           "label": "GCP 3y",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://cloud.google.com/tpu/pricing",
           "currency": "USD",
           "usd_per_gpu_hr": 5.4
@@ -3460,7 +3468,7 @@
         "usd_per_gpu_hr": 3.0,
         "term": "spot",
         "venue": "DigitalOcean",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "digitalocean",
         "label": "DigitalOcean spot",
         "config": "gpu-droplet-spot",
@@ -3468,7 +3476,7 @@
       },
       "also": {
         "text": "DO 12m reserved $4.76 · no public OD",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "DigitalOcean is the public primary: interruptible spot $2.46 (live list re-read 2026-10-05; was $4.00 on 2026-08-18) and contractual 12-month reserved $4.76 (pricing effective 1 Aug 2026). No on-demand card on the DO page. No other sourced public list in this snapshot.",
       "cannot_show": [
@@ -3483,7 +3491,7 @@
           "venue": "DigitalOcean",
           "term": "spot",
           "usd_per_gpu_hr": 3.0,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-spot",
           "note": "Interruptible spot. Display print. Not on-demand."
@@ -3492,7 +3500,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 4.76,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not a guessed discount off spot."
@@ -3504,20 +3512,20 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": -14.3,
-          "then": 3.5,
-          "then_date": "2026-10-23",
+          "pct": 22.0,
+          "then": 2.46,
+          "then_date": "2026-10-26",
           "now": 3.0,
-          "now_date": "2026-11-23",
-          "title": "DigitalOcean spot $3.5 on 2026-10-23 → $3 on 2026-11-23 (-14.3%)"
+          "now_date": "2026-11-24",
+          "title": "DigitalOcean spot $2.46 on 2026-10-26 → $3 on 2026-11-24 (+22.0%)"
         },
         "d90": {
           "pct": -25.0,
           "then": 4.0,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 3.0,
-          "now_date": "2026-11-23",
-          "title": "DigitalOcean spot $4 on 2026-08-25 → $3 on 2026-11-23 (-25.0%)"
+          "now_date": "2026-11-24",
+          "title": "DigitalOcean spot $4 on 2026-08-26 → $3 on 2026-11-24 (-25.0%)"
         },
         "d1y": {
           "pct": null,
@@ -3825,6 +3833,10 @@
           {
             "date": "2026-11-23",
             "price": 3.0
+          },
+          {
+            "date": "2026-11-24",
+            "price": 3.0
           }
         ],
         "steps": [
@@ -3841,11 +3853,11 @@
             "price": 4.0
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 4.0
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 4.0
           },
           {
@@ -3857,15 +3869,15 @@
             "price": 3.5
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 3.0
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 3.0
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 3.0
           }
         ],
@@ -3878,7 +3890,7 @@
         "usd_per_gpu_hr": 3.0,
         "n": 1,
         "term_family": "spot",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -3889,7 +3901,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "label": "DO 12m",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://www.digitalocean.com/pricing/gpu-droplets",
           "currency": "USD",
           "usd_per_gpu_hr": 4.76,
@@ -4008,7 +4020,7 @@
         "usd_per_gpu_hr": 10.79,
         "n": 1,
         "term_family": "cny-monthly",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -4125,7 +4137,7 @@
         "usd_per_gpu_hr": null,
         "n": 0,
         "term_family": "token",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -4158,7 +4170,7 @@
         "usd_per_gpu_hr": 2.25,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "coreweave",
         "label": "CoreWeave OD",
         "note": "Spot $0.98 on the same list.",
@@ -4166,7 +4178,7 @@
       },
       "also": {
         "text": "DigitalOcean $1.57 OD",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "Listed on-demand at CoreWeave and Crusoe.",
       "cannot_show": [
@@ -4179,7 +4191,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.25,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "config": "list"
         },
@@ -4187,21 +4199,21 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 0.98,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave"
         },
         {
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 1.5,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "crusoe"
         },
         {
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 1.57,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet"
         }
@@ -4212,20 +4224,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 2.25,
-          "then_date": "2026-10-19",
-          "now": 2.25,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $2.25 on 2026-10-19 → $2.25 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 2.25,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 2.25,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $2.25 on 2026-08-25 → $2.25 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "CoreWeave on-demand $2.25 on 2026-08-26 → $2.25 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -4311,7 +4319,7 @@
             "price": 2.25
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.25
           }
         ],
@@ -4329,11 +4337,11 @@
             "price": 2.25
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 2.25
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 2.25
           },
           {
@@ -4345,15 +4353,15 @@
             "price": 2.25
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 2.25
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 2.25
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.25
           }
         ],
@@ -4366,7 +4374,7 @@
         "usd_per_gpu_hr": 1.57,
         "n": 3,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": true
       },
       "terms": {
@@ -4399,7 +4407,7 @@
         "usd_per_gpu_hr": 2.59,
         "term": "on-demand",
         "venue": "DigitalOcean",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "digitalocean",
         "label": "DigitalOcean OD",
         "config": "gpu-droplet",
@@ -4407,7 +4415,7 @@
       },
       "also": {
         "text": "DO 12m reserved $1.91",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "DigitalOcean on-demand $2.59 (1 or 8 GPUs). 12-month reserved $1.91. Crusoe $3.45 and Oracle $6.00 remain second quotes. TensorWave is not a public list.",
       "cannot_show": [
@@ -4421,7 +4429,7 @@
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.59,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet"
         },
@@ -4429,7 +4437,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 1.91,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not on-demand."
@@ -4438,7 +4446,7 @@
           "venue": "Crusoe",
           "term": "on-demand",
           "usd_per_gpu_hr": 3.45,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "crusoe",
           "config": "list"
         },
@@ -4459,18 +4467,18 @@
         "d30": {
           "pct": 0.0,
           "then": 2.59,
-          "then_date": "2026-10-23",
+          "then_date": "2026-10-26",
           "now": 2.59,
-          "now_date": "2026-11-23",
-          "title": "DigitalOcean on-demand $2.59 on 2026-10-23 → $2.59 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "DigitalOcean on-demand $2.59 on 2026-10-26 → $2.59 on 2026-11-24 (0.0%)"
         },
         "d90": {
           "pct": 0.0,
           "then": 2.59,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 2.59,
-          "now_date": "2026-11-23",
-          "title": "DigitalOcean on-demand $2.59 on 2026-08-25 → $2.59 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "DigitalOcean on-demand $2.59 on 2026-08-26 → $2.59 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -4746,6 +4754,10 @@
           {
             "date": "2026-11-23",
             "price": 2.59
+          },
+          {
+            "date": "2026-11-24",
+            "price": 2.59
           }
         ],
         "steps": [
@@ -4762,11 +4774,11 @@
             "price": 2.59
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 2.59
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 2.59
           },
           {
@@ -4778,15 +4790,15 @@
             "price": 2.59
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 2.59
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 2.59
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.59
           }
         ],
@@ -4799,7 +4811,7 @@
         "usd_per_gpu_hr": 2.59,
         "n": 2,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": true
       },
       "terms": {
@@ -4810,7 +4822,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "label": "DO 12m",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://www.digitalocean.com/pricing/gpu-droplets",
           "currency": "USD",
           "usd_per_gpu_hr": 1.91,
@@ -4840,7 +4852,7 @@
         "usd_per_gpu_hr": 3.8,
         "term": "on-demand",
         "venue": "DigitalOcean",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "digitalocean",
         "label": "DigitalOcean OD",
         "config": "gpu-droplet",
@@ -4848,7 +4860,7 @@
       },
       "also": {
         "text": "DO 12m reserved $2.88",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "DigitalOcean on-demand $3.80 (1 or 8 GPUs). 12-month reserved $2.88. TensorWave is not a public list.",
       "cannot_show": [
@@ -4861,7 +4873,7 @@
           "venue": "DigitalOcean",
           "term": "on-demand",
           "usd_per_gpu_hr": 3.8,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet"
         },
@@ -4869,7 +4881,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "usd_per_gpu_hr": 2.88,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "digitalocean",
           "config": "gpu-droplet-12m",
           "note": "Contractual 12-month reserved. Not on-demand."
@@ -4883,18 +4895,18 @@
         "d30": {
           "pct": 0.0,
           "then": 3.8,
-          "then_date": "2026-10-23",
+          "then_date": "2026-10-26",
           "now": 3.8,
-          "now_date": "2026-11-23",
-          "title": "DigitalOcean on-demand $3.8 on 2026-10-23 → $3.8 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "DigitalOcean on-demand $3.8 on 2026-10-26 → $3.8 on 2026-11-24 (0.0%)"
         },
         "d90": {
           "pct": 0.0,
           "then": 3.8,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 3.8,
-          "now_date": "2026-11-23",
-          "title": "DigitalOcean on-demand $3.8 on 2026-08-25 → $3.8 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "DigitalOcean on-demand $3.8 on 2026-08-26 → $3.8 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -5170,6 +5182,10 @@
           {
             "date": "2026-11-23",
             "price": 3.8
+          },
+          {
+            "date": "2026-11-24",
+            "price": 3.8
           }
         ],
         "steps": [
@@ -5186,11 +5202,11 @@
             "price": 3.8
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 3.8
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 3.8
           },
           {
@@ -5202,15 +5218,15 @@
             "price": 3.8
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 3.8
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 3.8
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 3.8
           }
         ],
@@ -5223,7 +5239,7 @@
         "usd_per_gpu_hr": 3.8,
         "n": 1,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -5234,7 +5250,7 @@
           "venue": "DigitalOcean",
           "term": "12m reserved",
           "label": "DO 12m",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://www.digitalocean.com/pricing/gpu-droplets",
           "currency": "USD",
           "usd_per_gpu_hr": 2.88,
@@ -5264,14 +5280,14 @@
         "usd_per_gpu_hr": 2.7,
         "term": "on-demand",
         "venue": "GCP",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "gcp-tpu",
         "label": "GCP OD",
         "config": "list"
       },
       "also": {
         "text": "1y $1.89",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "GCP-only list.",
       "cannot_show": [
@@ -5285,7 +5301,7 @@
           "venue": "GCP",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.7,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "gcp-tpu",
           "config": "list"
         },
@@ -5293,7 +5309,7 @@
           "venue": "GCP",
           "term": "1y",
           "usd_per_gpu_hr": 1.89,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "gcp-tpu",
           "config": "1y"
         }
@@ -5304,20 +5320,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 2.7,
-          "then_date": "2026-10-19",
-          "now": 2.7,
-          "now_date": "2026-11-23",
-          "title": "GCP on-demand $2.7 on 2026-10-19 → $2.7 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 2.7,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 2.7,
-          "now_date": "2026-11-23",
-          "title": "GCP on-demand $2.7 on 2026-08-25 → $2.7 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "GCP on-demand $2.7 on 2026-08-26 → $2.7 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -5403,7 +5415,7 @@
             "price": 2.7
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.7
           }
         ],
@@ -5421,11 +5433,11 @@
             "price": 2.7
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 2.7
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 2.7
           },
           {
@@ -5437,15 +5449,15 @@
             "price": 2.7
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 2.7
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 2.7
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.7
           }
         ],
@@ -5458,7 +5470,7 @@
         "usd_per_gpu_hr": 2.7,
         "n": 1,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -5469,7 +5481,7 @@
           "venue": "GCP",
           "term": "1y",
           "label": "GCP 1y",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://cloud.google.com/tpu/pricing",
           "currency": "USD",
           "usd_per_gpu_hr": 1.89
@@ -5498,7 +5510,7 @@
         "usd_per_gpu_hr": 2.235,
         "term": "Capacity Blocks",
         "venue": "AWS",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "aws-cb",
         "label": "AWS CB",
         "note": "trn2.48xlarge, $2.235 / chip-hr, 16 chips. Not on-demand.",
@@ -5506,7 +5518,7 @@
       },
       "also": {
         "text": "Not on-demand",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "AWS Capacity Blocks only (trn2.48xlarge, 16 chips). Not an on-demand SKU in this snapshot.",
       "cannot_show": [
@@ -5534,20 +5546,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 2.235,
-          "then_date": "2026-10-19",
-          "now": 2.235,
-          "now_date": "2026-11-23",
-          "title": "AWS Capacity Blocks $2.235 on 2026-10-19 → $2.235 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 2.235,
           "then_date": "2026-08-21",
           "now": 2.235,
-          "now_date": "2026-11-23",
-          "title": "AWS Capacity Blocks $2.235 on 2026-08-21 → $2.235 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "AWS Capacity Blocks $2.235 on 2026-08-21 → $2.235 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -5613,7 +5621,7 @@
             "price": 2.235
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.235
           }
         ],
@@ -5631,11 +5639,11 @@
             "price": 2.235
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 2.235
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 2.235
           },
           {
@@ -5647,15 +5655,15 @@
             "price": 2.235
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 2.235
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 2.235
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.235
           }
         ],
@@ -5668,7 +5676,7 @@
         "usd_per_gpu_hr": 2.235,
         "n": 1,
         "term_family": "capacity-blocks",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -5774,7 +5782,7 @@
         "usd_per_gpu_hr": null,
         "n": 0,
         "term_family": "token",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -5804,7 +5812,7 @@
         "usd_per_gpu_hr": 6.5,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "coreweave",
         "label": "CoreWeave OD",
         "note": "1 GPU. No spot.",
@@ -5812,7 +5820,7 @@
       },
       "also": {
         "text": "Lambda 1x $2.59 OD · No CoreWeave spot",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "CoreWeave on-demand $6.50, one GPU per instance (confirm 2026-11-06). Lambda 1x GH200 $2.59 on-demand confirmed 2026-11-06. Spot listed N/A on CoreWeave.",
       "cannot_show": [
@@ -5827,7 +5835,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 6.5,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "note": "1 GPU. No spot.",
           "config": "list"
@@ -5836,7 +5844,7 @@
           "venue": "Lambda",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.59,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "lambda",
           "note": "1x GH200. Confirmed on Lambda instance table.",
           "config": "1x"
@@ -5850,20 +5858,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 6.5,
-          "then_date": "2026-10-19",
-          "now": 6.5,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $6.5 on 2026-10-19 → $6.5 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 6.5,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 6.5,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $6.5 on 2026-08-25 → $6.5 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "CoreWeave on-demand $6.5 on 2026-08-26 → $6.5 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -5949,7 +5953,7 @@
             "price": 6.5
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 6.5
           }
         ],
@@ -5967,11 +5971,11 @@
             "price": 6.5
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 6.5
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 6.5
           },
           {
@@ -5983,15 +5987,15 @@
             "price": 6.5
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 6.5
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 6.5
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 6.5
           }
         ],
@@ -6004,7 +6008,7 @@
         "usd_per_gpu_hr": 2.59,
         "n": 2,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": true
       },
       "terms": {
@@ -6033,7 +6037,7 @@
         "usd_per_gpu_hr": 2.5,
         "term": "on-demand",
         "venue": "CoreWeave",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "coreweave",
         "label": "CoreWeave OD",
         "note": "Instance $20 / 8 GPUs. Spot $1.39 ($11.09/8).",
@@ -6041,7 +6045,7 @@
       },
       "also": {
         "text": "Spot $1.39 ($11.09/8)",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "CoreWeave Server Edition, 8 GPUs. On-demand $20/instance ($2.50/GPU-hr). Spot $11.09/instance ($1.39/GPU-hr).",
       "cannot_show": [
@@ -6056,7 +6060,7 @@
           "venue": "CoreWeave",
           "term": "on-demand",
           "usd_per_gpu_hr": 2.5,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "note": "Instance $20 / 8 GPUs.",
           "config": "8x"
@@ -6065,7 +6069,7 @@
           "venue": "CoreWeave",
           "term": "spot",
           "usd_per_gpu_hr": 1.39,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "coreweave",
           "note": "Instance $11.09 / 8 GPUs."
         }
@@ -6078,20 +6082,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 2.5,
-          "then_date": "2026-10-19",
-          "now": 2.5,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $2.5 on 2026-10-19 → $2.5 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 2.5,
           "then_date": "2026-08-21",
           "now": 2.5,
-          "now_date": "2026-11-23",
-          "title": "CoreWeave on-demand $2.5 on 2026-08-21 → $2.5 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "CoreWeave on-demand $2.5 on 2026-08-21 → $2.5 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -6157,7 +6157,7 @@
             "price": 2.5
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.5
           }
         ],
@@ -6175,11 +6175,11 @@
             "price": 2.5
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 2.5
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 2.5
           },
           {
@@ -6191,15 +6191,15 @@
             "price": 2.5
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 2.5
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 2.5
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 2.5
           }
         ],
@@ -6212,7 +6212,7 @@
         "usd_per_gpu_hr": 2.5,
         "n": 1,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -6243,14 +6243,14 @@
         "usd_per_gpu_hr": 4.2,
         "term": "on-demand",
         "venue": "GCP",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "source_id": "gcp-tpu",
         "label": "GCP OD",
         "config": "list"
       },
       "also": {
         "text": "1y $2.94",
-        "as_of": "2026-11-23"
+        "as_of": "2026-11-24"
       },
       "availability": "GCP-only list. Prior-gen TPU.",
       "cannot_show": [
@@ -6264,7 +6264,7 @@
           "venue": "GCP",
           "term": "on-demand",
           "usd_per_gpu_hr": 4.2,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "gcp-tpu",
           "config": "list"
         },
@@ -6272,7 +6272,7 @@
           "venue": "GCP",
           "term": "1y",
           "usd_per_gpu_hr": 2.94,
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "source_id": "gcp-tpu",
           "config": "1y"
         }
@@ -6283,20 +6283,16 @@
           "title": "US list prices do not tick daily. 7d lights up after a week of our own scrape."
         },
         "d30": {
-          "pct": 0.0,
-          "then": 4.2,
-          "then_date": "2026-10-19",
-          "now": 4.2,
-          "now_date": "2026-11-23",
-          "title": "GCP on-demand $4.2 on 2026-10-19 → $4.2 on 2026-11-23 (0.0%)"
+          "pct": null,
+          "title": "No dated pair in the 1M window (30d ±5d)."
         },
         "d90": {
           "pct": 0.0,
           "then": 4.2,
-          "then_date": "2026-08-25",
+          "then_date": "2026-08-26",
           "now": 4.2,
-          "now_date": "2026-11-23",
-          "title": "GCP on-demand $4.2 on 2026-08-25 → $4.2 on 2026-11-23 (0.0%)"
+          "now_date": "2026-11-24",
+          "title": "GCP on-demand $4.2 on 2026-08-26 → $4.2 on 2026-11-24 (0.0%)"
         },
         "d1y": {
           "pct": null,
@@ -6382,7 +6378,7 @@
             "price": 4.2
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 4.2
           }
         ],
@@ -6400,11 +6396,11 @@
             "price": 4.2
           },
           {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "price": 4.2
           },
           {
-            "date": "2026-09-30",
+            "date": "2026-10-01",
             "price": 4.2
           },
           {
@@ -6416,15 +6412,15 @@
             "price": 4.2
           },
           {
-            "date": "2026-11-01",
+            "date": "2026-11-02",
             "price": 4.2
           },
           {
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "price": 4.2
           },
           {
-            "date": "2026-11-23",
+            "date": "2026-11-24",
             "price": 4.2
           }
         ],
@@ -6437,7 +6433,7 @@
         "usd_per_gpu_hr": 4.2,
         "n": 1,
         "term_family": "on-demand",
-        "as_of": "2026-11-23",
+        "as_of": "2026-11-24",
         "show": false
       },
       "terms": {
@@ -6448,7 +6444,7 @@
           "venue": "GCP",
           "term": "1y",
           "label": "GCP 1y",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "url": "https://cloud.google.com/tpu/pricing",
           "currency": "USD",
           "usd_per_gpu_hr": 2.94
@@ -6464,7 +6460,7 @@
       "window": "1Q",
       "pct": 14.9,
       "venue": "Lambda OD",
-      "title": "Lambda on-demand $6.69 on 2026-08-25 → $7.69 on 2026-11-23 (+14.9%)"
+      "title": "Lambda on-demand $6.69 on 2026-08-26 → $7.69 on 2026-11-24 (+14.9%)"
     },
     {
       "id": "nvidia-a100-sxm-80gb",
@@ -6472,7 +6468,7 @@
       "window": "1Q",
       "pct": 14.3,
       "venue": "Lambda OD",
-      "title": "Lambda on-demand $2.79 on 2026-08-25 → $3.19 on 2026-11-23 (+14.3%)"
+      "title": "Lambda on-demand $2.79 on 2026-08-26 → $3.19 on 2026-11-24 (+14.3%)"
     },
     {
       "id": "nvidia-b200-sxm6",
@@ -6480,7 +6476,7 @@
       "window": "1M",
       "pct": 14.9,
       "venue": "Lambda OD",
-      "title": "Lambda on-demand $6.69 on 2026-10-23 → $7.69 on 2026-11-23 (+14.9%)"
+      "title": "Lambda on-demand $6.69 on 2026-10-26 → $7.69 on 2026-11-24 (+14.9%)"
     },
     {
       "id": "nvidia-h100-sxm-80gb",
@@ -6488,7 +6484,7 @@
       "window": "1Q",
       "pct": 15.0,
       "venue": "Lambda OD",
-      "title": "Lambda on-demand $3.99 on 2026-08-25 → $4.59 on 2026-11-23 (+15.0%)"
+      "title": "Lambda on-demand $3.99 on 2026-08-26 → $4.59 on 2026-11-24 (+15.0%)"
     }
   ]
 }
