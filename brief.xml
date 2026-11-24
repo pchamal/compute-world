@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>President Trump said on 20 November that the US will not allow its companies to build data centres abroad, or will put a tremendous tax on them if they do; no rate, scope or legal authority was given and nothing has been published. The BIS remote-access rule that took effect on 19 November is already biting: Nikkei reports at least two Nvidia server partners halted shipments to Southeast Asia and TSMC held some shipments to Chinese and non-Chinese designers while it checks the new 16nm and 14nm presumption. On 23 November Nvidia&#x27;s board unanimously reinstated Jensen Huang as CEO, eleven days after he resigned, saying senior US government officials gave input that he poses no national security risk. Demand is not slowing at home: Applied Digital signed a 150 MW, 18-year hyperscaler lease at higher pricing. List prices held for an eleventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
+  <description>The BIS remote-access rule now has named targets. On 23 November Commerce filed a final rule adding seven Megaspeed-linked companies in Singapore, Malaysia and Thailand to the Entity List, with all EAR items licensed under a presumption of denial, and Malaysia told its data centre operators not to host or serve them. Capital is still pricing compute as an asset class: Apollo and Goldman priced about $44 billion of notes to buy Nvidia Vera Rubin systems for SpaceX, the largest GPU financing yet, with lease schedules starting in the first half of 2027. Spain&#x27;s Royal Decree 1032/2026 took effect on 22 November, tying grid access for data centres to 80 per cent hourly-matched new renewables and curtailment duties, and TSMC filed for a possible 2nm fab in Brazos County, Texas, while saying no customer has changed orders. List prices held for a twelfth straight trading day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 23 November 2026</title>
+    <title>Compute brief - 24 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>President Trump said on 20 November that the US will not allow its companies to build data centres abroad, or will put a tremendous tax on them if they do; no rate, scope or legal authority was given and nothing has been published. The BIS remote-access rule that took effect on 19 November is already biting: Nikkei reports at least two Nvidia server partners halted shipments to Southeast Asia and TSMC held some shipments to Chinese and non-Chinese designers while it checks the new 16nm and 14nm presumption. On 23 November Nvidia&#x27;s board unanimously reinstated Jensen Huang as CEO, eleven days after he resigned, saying senior US government officials gave input that he poses no national security risk. Demand is not slowing at home: Applied Digital signed a 150 MW, 18-year hyperscaler lease at higher pricing. List prices held for an eleventh day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: United States: Trump threatens to block or tax US companies building data centres abroad (no order yet); Huang reinstated at Nvidia; Applied Digital 150 MW 18-year lease (Wire, 20 to 23 Nov). Taiwan: TSMC holds some shipments while it reviews the BIS 16nm and 14nm presumption (Wire, 20 Nov, single-source). Malaysia: At least two Nvidia server partners halt Southeast Asia shipments pending BIS licences; Singapore, Thailand and Indonesia also exposed (Wire, 20 Nov, single-source). Canada: Alberta Bill 42: AUC regulates data centres of 10 MW or more, 600 m setbacks, developer-paid wires (Wire, 18 Nov). Greece: AWS and PPC Kozani campus: 300 MW on a retired coal plant&#x27;s 400 kV substations, 1 GW option (Wire, 23 Nov, single-source). India: L&amp;T&#x27;s LTN Compute wins a multi-year B300 order at Chennai for an inference provider; 250 MW phase one (Wire, 23 Nov).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-24</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>The BIS remote-access rule now has named targets. On 23 November Commerce filed a final rule adding seven Megaspeed-linked companies in Singapore, Malaysia and Thailand to the Entity List, with all EAR items licensed under a presumption of denial, and Malaysia told its data centre operators not to host or serve them. Capital is still pricing compute as an asset class: Apollo and Goldman priced about $44 billion of notes to buy Nvidia Vera Rubin systems for SpaceX, the largest GPU financing yet, with lease schedules starting in the first half of 2027. Spain&#x27;s Royal Decree 1032/2026 took effect on 22 November, tying grid access for data centres to 80 per cent hourly-matched new renewables and curtailment duties, and TSMC filed for a possible 2nm fab in Brazos County, Texas, while saying no customer has changed orders. List prices held for a twelfth straight trading day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69. Countries: Singapore: BIS adds Megaspeed International, Swiftdata and Apex Enterprise Solutions to the Entity List, presumption of denial (Wire, 23 Nov). Malaysia: Speedmatrix, MSFusion and PT Megaspeed listed; MITI tells operators not to host or serve them (Wire, 23 to 24 Nov). United States: Apollo and Goldman price about $44 billion of notes for SpaceX Vera Rubin GPUs; TSMC files for a possible Brazos County 2nm fab (Wire, 20 to 23 Nov). Spain: Royal Decree 1032/2026 in force 22 Nov: 80 per cent hourly-matched new renewables, curtailment duties, water and PUE limits (Wire). Taiwan: TSMC&#x27;s Hou: no customer has changed orders or shipments; demand still exceeds capacity (Wire, 23 Nov). Thailand: NTT and B.Grimm MoU for a 400 MW opportunity, about THB 113 billion; Megaspeed (Thailand) also listed (Wire, 23 to 24 Nov, single-source).</description>
   </item>
   <item>
     <title>H100 SXM · $4.59 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/lambda-h100-od</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.59 on-demand at Lambda as of 23 Nov 2026. Confirm vs 20 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/lambda-h100-od</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.59 on-demand at Lambda as of 24 Nov 2026. Confirm vs 23 Nov print</description>
   </item>
   <item>
     <title>B200 SXM6 · $7.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/lambda-b200-od</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 23 Nov 2026. Confirm vs 20 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/lambda-b200-od</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 24 Nov 2026. Confirm vs 23 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/coreweave-h100-od</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 23 Nov 2026. Confirm vs 20 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/coreweave-h100-od</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 24 Nov 2026. Confirm vs 23 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/crusoe-h100-od</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 23 Nov 2026. Confirm vs 20 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/crusoe-h100-od</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 24 Nov 2026. Confirm vs 23 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/crusoe-b300-od</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 23 Nov 2026. Confirm vs 20 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/crusoe-b300-od</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 24 Nov 2026. Confirm vs 23 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/do-b300-spot</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 23 Nov 2026. Confirm vs 20 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/do-b300-spot</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 24 Nov 2026. Confirm vs 23 Nov print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/do-mi355x-spot</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 23 Nov 2026. Confirm vs 20 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/do-mi355x-spot</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 24 Nov 2026. Confirm vs 23 Nov print</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/do-mi350x-spot</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 23 Nov 2026. Confirm vs 20 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/do-mi350x-spot</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 24 Nov 2026. Confirm vs 23 Nov print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-23/aws-cb-b300</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 23 Nov 2026. Confirm vs 20 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-24/aws-cb-b300</guid>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 24 Nov 2026. Confirm vs 23 Nov print</description>
   </item>
 </channel></rss>
