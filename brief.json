@@ -1,45 +1,45 @@
 {
-  "updated": "2026-11-24",
-  "title": "Compute brief - 24 November 2026",
-  "description": "Enforcement follows the rule: BIS blacklisted seven Megaspeed-linked firms in Singapore, Malaysia and Thailand, Spain's data centre decree took effect, and Apollo and Goldman priced $44 billion of debt to buy Vera Rubin GPUs for SpaceX. Wire: Megaspeed Entity List, SpaceX GPU financing, Spain RD 1032/2026, TSMC Brazos 2nm filing, TSMC no order changes, Thailand NTT/B.Grimm 400 MW, India CtrlS Bihar, Latvia Salaspils. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "The rule gets names: Megaspeed is blacklisted.",
-  "lede": "The BIS remote-access rule now has named targets. On 23 November Commerce filed a final rule adding seven Megaspeed-linked companies in Singapore, Malaysia and Thailand to the Entity List, with all EAR items licensed under a presumption of denial, and Malaysia told its data centre operators not to host or serve them. Capital is still pricing compute as an asset class: Apollo and Goldman priced about $44 billion of notes to buy Nvidia Vera Rubin systems for SpaceX, the largest GPU financing yet, with lease schedules starting in the first half of 2027. Spain's Royal Decree 1032/2026 took effect on 22 November, tying grid access for data centres to 80 per cent hourly-matched new renewables and curtailment duties, and TSMC filed for a possible 2nm fab in Brazos County, Texas, while saying no customer has changed orders. List prices held for a twelfth straight trading day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69.",
+  "updated": "2026-11-25",
+  "title": "Compute brief - 25 November 2026",
+  "description": "Orders up, stocks down: Dell booked $60.2 billion of AI orders and a record $132.3 billion backlog while chip stocks gave back the Huang rally, and grids from Estonia to Finland and France became the binding constraint. Wire: Dell AI backlog, XTX Kajaani, Estonia 3.3 GW requests, Google Indre 1.2 GW connection, US Army power-plus-data-centre RFP, Samsung HBM base die crunch, South Africa power station sites. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "Backlog at a record, chips in a selloff.",
+  "lede": "The order book and the stock market split. Dell booked $60.2 billion of AI server orders in its third quarter and ended with a record $132.3 billion AI backlog, lifting full-year revenue guidance to $202 billion, yet the Philadelphia semiconductor index fell 7.9 per cent on 24 November and chip stocks kept falling on 25 November as AI financing and rate worries returned. Power, not demand, is the constraint in Europe: Estonia's grid operator has 3.3 GW of data centre requests, nearly twice national peak, XTX opened 22.5 MW in Kajaani while warning that grid permits now take years, and a Google unit sought a 1.2 GW connection in France that RTE says would take seven to eight years. In silicon, Samsung is reported short of HBM base die capacity, with demand seen doubling to about 30,000 wafers a month in 2027. List prices held for a thirteenth straight trading day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 ahead of Crusoe's posted 1 December step-up.",
   "countries": [
     {
-      "id": "sgp-megaspeed-entity-list",
-      "name": "Singapore",
-      "slug": "singapore",
-      "note": "BIS adds Megaspeed International, Swiftdata and Apex Enterprise Solutions to the Entity List, presumption of denial (Wire, 23 Nov)."
-    },
-    {
-      "id": "mys-megaspeed-entity-list",
-      "name": "Malaysia",
-      "slug": "malaysia",
-      "note": "Speedmatrix, MSFusion and PT Megaspeed listed; MITI tells operators not to host or serve them (Wire, 23 to 24 Nov)."
-    },
-    {
-      "id": "usa-spacex-gpu-notes",
+      "id": "usa-dell-backlog",
       "name": "United States",
       "slug": "united-states",
-      "note": "Apollo and Goldman price about $44 billion of notes for SpaceX Vera Rubin GPUs; TSMC files for a possible Brazos County 2nm fab (Wire, 20 to 23 Nov)."
+      "note": "Dell books $60.2 billion of AI orders, record $132.3 billion AI backlog; Army offers nine installations for power-plus-data-centre leases (Wire, 19 to 24 Nov)."
     },
     {
-      "id": "esp-rd-1032",
-      "name": "Spain",
-      "slug": "spain",
-      "note": "Royal Decree 1032/2026 in force 22 Nov: 80 per cent hourly-matched new renewables, curtailment duties, water and PUE limits (Wire)."
+      "id": "est-elering-3-3gw",
+      "name": "Estonia",
+      "slug": "estonia",
+      "note": "Elering: 3.3 GW of data centre requests, 600 MW signed, 1.3 GW in offers, close to the limit (Wire, 24 Nov, single-source)."
     },
     {
-      "id": "twn-tsmc-no-change",
-      "name": "Taiwan",
-      "slug": "taiwan",
-      "note": "TSMC's Hou: no customer has changed orders or shipments; demand still exceeds capacity (Wire, 23 Nov)."
+      "id": "fin-xtx-kajaani",
+      "name": "Finland",
+      "slug": "finland",
+      "note": "XTX opens 22.5 MW in Kajaani; says grid expropriation permits now take years (Wire, 24 Nov)."
     },
     {
-      "id": "tha-ntt-bgrimm",
-      "name": "Thailand",
-      "slug": "thailand",
-      "note": "NTT and B.Grimm MoU for a 400 MW opportunity, about THB 113 billion; Megaspeed (Thailand) also listed (Wire, 23 to 24 Nov, single-source)."
+      "id": "fra-google-indre",
+      "name": "France",
+      "slug": "france",
+      "note": "Google unit filed a 1.2 GW connection request at Villedieu-sur-Indre; RTE proposal about EUR 67 million, seven to eight years; Google says no decision (Wire, 23 Nov)."
+    },
+    {
+      "id": "kor-samsung-base-die",
+      "name": "South Korea",
+      "slug": "south-korea",
+      "note": "Samsung reportedly short of HBM base die capacity; demand seen at about 30,000 4nm-equivalent wafers a month in 2027 (Wire, 25 Nov, single-source)."
+    },
+    {
+      "id": "zaf-power-stations",
+      "name": "South Africa",
+      "slug": "south-africa",
+      "note": "Ramaphosa pitches end-of-life power station sites for AI data centres (Wire, 18 Nov)."
     }
   ],
   "silicon": [
@@ -49,10 +49,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print"
+      "note": "Confirm vs 24 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +60,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print"
+      "note": "Confirm vs 24 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +71,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print"
+      "note": "Confirm vs 24 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +82,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 24 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +93,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 24 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +104,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print"
+      "note": "Confirm vs 24 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +115,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print"
+      "note": "Confirm vs 24 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +126,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print"
+      "note": "Confirm vs 24 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -137,89 +137,84 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-24",
+      "as_of": "2026-11-25",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 23 Nov print"
+      "note": "Confirm vs 24 Nov print"
     }
   ],
   "watch": [
-    {
-      "id": "megaspeed-fallout",
-      "name": "Megaspeed fallout",
-      "note": "Entity List savings clause lets in-transit goods deliver within 30 days of 23 Nov; watch which hosts and Nvidia partners cut ties, and whether more names follow."
-    },
-    {
-      "id": "offshore-tax-instrument",
-      "name": "Offshore data centre penalty",
-      "note": "Still no executive order, Treasury guidance or bill. Microsoft's Brad Smith said on 22 Nov that cloud regions must sit near customers."
-    },
-    {
-      "id": "huang-testimony",
-      "name": "Huang and Teter before Congress",
-      "note": "Jensen Huang sits for transcribed House interviews on 1 December; general counsel Tim Teter on 2 December."
-    },
     {
       "id": "crusoe-dec1-pricing",
       "name": "Crusoe 1 December rates",
       "note": "Posted H100 $4.50, B300 $9.90 on-demand from 1 Dec; tape logs a tick only when the live rate changes."
     },
     {
+      "id": "huang-testimony",
+      "name": "Huang before Congress",
+      "note": "Closed-door House interviews 1 December (Teter 2 December); public Senate Banking hearing on export controls 3 December."
+    },
+    {
+      "id": "megaspeed-fallout",
+      "name": "Megaspeed fallout",
+      "note": "MIDA notice tells Malaysian operators not to host or serve the seven listed entities; 30-day in-transit window runs to about 23 December."
+    },
+    {
+      "id": "chip-selloff",
+      "name": "AI chip selloff",
+      "note": "SOX fell 7.9 per cent on 24 Nov and chip stocks fell again on 25 Nov; watch whether financing spreads reach neocloud debt."
+    },
+    {
       "id": "tsmc-nov-revenue",
       "name": "TSMC November revenue",
-      "note": "Due by 10 December; first monthly check on whether orders held through the BIS rule and the Nvidia selloff."
+      "note": "Due by 10 December."
     },
     {
       "id": "bis-ifr-comments",
       "name": "BIS remote-access rule",
-      "note": "Comments on the 19 November rule are due 19 January 2027; the 90-day licence window for facilities serving large Chinese customers runs to about mid-February."
+      "note": "Comments due 19 January 2027; 90-day licence window to about mid-February."
     }
   ],
   "sources": [
     {
-      "name": "BIS: Additions to the Entity List (FR Doc 2026-23999)",
-      "url": "https://public-inspection.federalregister.gov/2026-23999.pdf",
-      "note": "Lead and Wire: Singapore, Malaysia, Thailand."
-    },
-    {
-      "name": "Malaysia MITI: Addition of Malaysian entities to the US Entity List",
-      "url": "https://www.miti.gov.my/miti/resources/Media%20Release/THE_ADDITION_OF_MALAYSIAN_ENTITIES_TO_THE_US_ENTITY_LIST_-_UNDER_BUREAU_OF_INDUSTRY_AND_SECURITY_OF_THE_US_DEPARTMENT_OF_COMMERCE.pdf",
-      "note": "Lead and Wire: Malaysia."
-    },
-    {
-      "name": "Apollo and Goldman Sachs: $44 billion SpaceX GPU financing",
-      "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+      "name": "Dell Technologies: Q3 FY27 results",
+      "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
       "note": "Lead and Wire: United States."
     },
     {
-      "name": "BOE: Real Decreto 1032/2026",
-      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-24439",
-      "note": "Lead and Wire: Spain."
+      "name": "ERR: Data center grid requests exceed Estonia's peak demand",
+      "url": "https://news.err.ee/1610204917/data-center-grid-requests-exceed-estonia-s-peak-power-demand-several-times-over",
+      "note": "Lead and Wire: Estonia."
     },
     {
-      "name": "DCD: TSMC files for 2nm fab in Brazos County",
-      "url": "https://www.datacenterdynamics.com/en/news/tsmc-files-application-for-proposed-2nm-chip-fab-in-brazos-county-texas/",
-      "note": "Lead and Wire: United States."
+      "name": "XTX Markets: First Kajaani data centre opens",
+      "url": "https://www.xtxmarkets.com/news/2026-xtx-markets-opens-first-data-centre/",
+      "note": "Lead and Wire: Finland."
     },
     {
-      "name": "CNA: TSMC's Hou sees no order or shipment changes",
-      "url": "https://www.cna.com.tw/news/afe/202611230249.aspx",
-      "note": "Lead and Wire: Taiwan."
+      "name": "DCD: Google 1.2GW Châteauroux report",
+      "url": "https://www.datacenterdynamics.com/en/news/google-planning-12gw-data-center-near-ch%C3%A2teauroux-france-report/",
+      "note": "Lead and Wire: France."
     },
     {
-      "name": "DCD: NTT and B.Grimm 400MW MoU",
-      "url": "https://www.datacenterdynamics.com/en/news/ntt-signs-mou-with-bgrimm-for-400mw-data-center-project-in-thailand/",
-      "note": "Wire: Thailand."
+      "name": "TrendForce: Samsung HBM base die crunch",
+      "url": "https://www.trendforce.com/news/2026/11/25/breaking-samsung-grapples-with-hbm-base-die-crunch-as-internal-wafer-demand-seen-doubling-to-30k-per-month-in-2027/",
+      "note": "Lead and Wire: South Korea."
     },
     {
-      "name": "DCD: CtrlS 150MW Bihar",
-      "url": "https://www.datacenterdynamics.com/en/news/ctrls-moves-forward-with-150mw-data-center-project-in-bihar-india/",
-      "note": "Wire: India."
+      "name": "Holland & Knight: Army SCI power and data centre RFP",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/11/armys-new-sci-rfp-invites-power-data-center-lease-proposals",
+      "note": "Wire: United States."
     },
     {
-      "name": "DCD: Northern Europe Energy Salaspils 200MW",
-      "url": "https://www.datacenterdynamics.com/en/news/northern-europe-energy-eyes-200mw-data-center-project-outside-riga-latvia/",
-      "note": "Wire: Latvia."
+      "name": "South African Government: Ramaphosa AI opportunity speech",
+      "url": "https://www.gov.za/news/speeches/president-cyril-ramaphosa-south-african-ai-opportunity-conference-18-nov-2026",
+      "note": "Wire: South Africa."
+    },
+    {
+      "name": "Investing.com: US chip stocks tumble",
+      "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-extend-losses-premarket-as-ai-spending-concerns-resurface-5050161",
+      "note": "Lead: markets."
     },
     {
       "name": "Lambda Cloud pricing",

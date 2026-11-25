@@ -1,6 +1,147 @@
 {
   "items": [
     {
+      "id": "usa-dell-q3-fy27-ai-backlog-132-3bn-orders-60-2bn-ai-server-rev-22bn-2026-11-24",
+      "date": "2026-11-24",
+      "title": "US: Dell books $60.2 billion of AI server orders and ends Q3 with a record $132.3 billion AI backlog",
+      "summary": "Dell Technologies reported fiscal 2027 third-quarter results on 24 November: revenue of $54.9 billion, up 103 per cent year on year, with AI-optimized server revenue of $22.0 billion, up 291 per cent, and Infrastructure Solutions Group revenue of $42.0 billion. Dell booked $60.2 billion of AI orders in the quarter and ended with a record $132.3 billion AI backlog, which COO Jeff Clarke said was vetted for customer quality and access to capital, land and power. Full-year guidance rose to $202.0 billion of revenue (from $192.0 billion) and $78.0 billion of AI-optimized server revenue (from $74.0 billion). Caveat: backlog is not revenue, and Dell shares fell with chip stocks on 25 November as AI spending and financing concerns resurfaced. Country conversion: US AI factory demand is still converting into firm server orders at OEM level, even as OEMs reprice contracts for memory inflation.",
+      "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+      "source": "Dell Technologies Q3 FY27 press release, 24 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Economics",
+        "Servers",
+        "Demand"
+      ],
+      "score": 50
+    },
+    {
+      "id": "finland-xtx-markets-kajaani-22-5mw-first-dc-open-expropriation-permit-delays-third-facility-2026-11-24",
+      "date": "2026-11-24",
+      "title": "Finland: XTX Markets opens its first 22.5 MW Kajaani data centre and warns grid expropriation delays threaten more investment",
+      "summary": "XTX Markets said on 24 November that the first data centre on its 193-hectare Kajaani campus is open, with 22.5 MW of IT capacity and 15,000 square metres of floor space; the second facility is due in 2027. The firm has invested over EUR 400 million, mostly with Finnish contractors, and says it has ambitions to invest billions more. Power and grid connections are secured for the first two facilities, but COO Mike Irwin said expropriation permits for grid development that once took months now take years, leaving power for the third facility (due mid-2028) and later annual builds uncertain. Caveat: this is the company's own account of the permitting dispute; no government response was published. Country conversion: Finland is converting private AI compute into domestic capacity, but grid-line permitting is now the gating item.",
+      "url": "https://www.xtxmarkets.com/news/2026-xtx-markets-opens-first-data-centre/",
+      "source": "XTX Markets press release, 24 Nov 2026; DCD; Yle",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "FIN"
+      ],
+      "flags": "🇫🇮",
+      "tags": [
+        "Build",
+        "Grid",
+        "Policy"
+      ],
+      "score": 38
+    },
+    {
+      "id": "estonia-elering-3-3gw-data-centre-connection-requests-600mw-signed-1-3gw-offers-near-limit-2026-11-24",
+      "date": "2026-11-24",
+      "title": "Estonia: Elering says data centre connection requests reach 3.3 GW, nearly twice national peak demand",
+      "summary": "Estonian transmission operator Elering told ERR on 24 November that data centre connection requests have reached 3,300 MW, nearly twice Estonia's peak electricity demand. It has signed connection agreements for 600 MW and has active offers for a further 1,300 MW, and board member Reigo Kebja said Elering is close to the point where it cannot issue new connection offers. Economy Minister Erkki Keldo said he will discuss with developers whether projects should bring new domestic generation or pay additional taxes; Finland is already considering a generation requirement. Only one major site operates today (Greenergy, Hüüru, drawing about 2 MW, planned to 200 MW by early 2028, hosting a Nebius AI factory). Caveat: many applications may never be built. Country conversion: Baltic grid headroom, not demand, is now the limit on AI load in Estonia.",
+      "url": "https://news.err.ee/1610204917/data-center-grid-requests-exceed-estonia-s-peak-power-demand-several-times-over",
+      "source": "ERR News, 24 Nov 2026 (Elering)",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "EST"
+      ],
+      "flags": "🇪🇪",
+      "tags": [
+        "Grid",
+        "Policy",
+        "Energy"
+      ],
+      "score": 36
+    },
+    {
+      "id": "france-google-tricolore-computing-villedieu-sur-indre-1-2gw-rte-connection-67m-2026-11-23",
+      "date": "2026-11-23",
+      "title": "France: Google unit filed a 1.2 GW grid connection request for a second Indre data centre site",
+      "summary": "Mediapart reported on 23 November that Google subsidiary Tricolore Computing filed a connection request for a 1.2 GW data centre at Villedieu-sur-Indre, near Châteauroux, and that RTE proposed a connection project of about EUR 67 million that could take seven to eight years. The site was sought as a mirror of Google's confirmed Ozans project (195 acres, up to 500 MW, under CNDP public consultation; Engie signed an energy MoU this month). Google told DCD that no final decision has been made on Ozans or any other site and that these are exploratory long-term planning, not active parallel projects; the local mayor said the plan was on hold and the landowner has opposed a sale. Country conversion: hyperscaler demand in France is now reserving multi-GW grid capacity years ahead of any build decision.",
+      "url": "https://www.datacenterdynamics.com/en/news/google-planning-12gw-data-center-near-ch%C3%A2teauroux-france-report/",
+      "source": "Mediapart, 23 Nov 2026; DCD; France 3 Centre-Val de Loire",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "FRA"
+      ],
+      "flags": "🇫🇷",
+      "tags": [
+        "Hyperscaler",
+        "Grid",
+        "Build"
+      ],
+      "score": 34
+    },
+    {
+      "id": "usa-army-sci-rfp-daca27-nine-installations-power-plus-data-centre-25yr-eul-2026-11-19",
+      "date": "2026-11-19",
+      "title": "US: Army opens nine installations to 25-year leases for power generation paired with data centres",
+      "summary": "The Army's Strategic Capital Initiative released RFP DACA27-1-27-0015900 (dated 19 November, announced 20 November) seeking enhanced-use lease proposals for commercial power generation, optionally paired with data centres, at Fort Bragg, Blue Grass Army Depot, Pine Bluff Arsenal, Fort Rucker, Fort Hood, Fort McCoy, Sierra Army Depot, Tooele Army Depot and Joint Base Lewis-McChord. Data-centre-only bids are excluded; power must reach the installation within one hour of a grid outage for at least 14 days, with a preference for up to 90 days. The initial term is 25 years; site tours run 30 November to 17 December and proposals are due 18 January 2027. Caveat: parcels vary widely and some (Tooele) carry groundwater contamination. Country conversion: US federal land is being offered to AI builders on condition they bring their own generation.",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/11/armys-new-sci-rfp-invites-power-data-center-lease-proposals",
+      "source": "US Army SCI RFP DACA27-1-27-0015900 (SAM.gov); Holland & Knight, 23 Nov 2026; DCD",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Energy",
+        "Land"
+      ],
+      "score": 40
+    },
+    {
+      "id": "korea-samsung-hbm-base-die-shortage-30k-4nm-wpm-2027-giheung-p5-taylor-p2-2026-11-25",
+      "date": "2026-11-25",
+      "title": "South Korea: Samsung faces an HBM base die crunch as internal demand is seen doubling to 30,000 wafers a month",
+      "summary": "TrendForce reported on 25 November, citing industry sources, that Samsung's memory division will need roughly 30,000 4nm-equivalent base die wafers a month in 2027, about double this year, and that 4nm base die output is confined to select foundry lines at Hwaseong and Pyeongtaek. Samsung reportedly plans to convert its Giheung R&D line to 4nm base die, dedicate part of Pyeongtaek P5 to base die, and tentatively earmark Taylor P2 in Texas for HBM5 base dies for AMD and Nvidia; it is also said to be developing an HBM4E custom base die for Meta on its 2nm process. Hankyung reports Samsung targets doubling HBM4/HBM4E output in 2027, with HBM wafer input rising from 180,000 to 250,000 a month. Caveat: unconfirmed by Samsung. Country conversion: custom HBM is pulling Korean foundry capacity, and part of it to Texas, into the AI memory chain.",
+      "url": "https://www.trendforce.com/news/2026/11/25/breaking-samsung-grapples-with-hbm-base-die-crunch-as-internal-wafer-demand-seen-doubling-to-30k-per-month-in-2027/",
+      "source": "TrendForce, 25 Nov 2026, citing Seoul Economic Daily, Maeil Business, The Bell, Hankyung",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "KOR",
+        "USA"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Memory",
+        "Foundry",
+        "HBM"
+      ],
+      "score": 36
+    },
+    {
+      "id": "south-africa-ramaphosa-end-of-life-power-station-sites-ai-data-centres-2026-11-18",
+      "date": "2026-11-18",
+      "title": "South Africa: Ramaphosa pitches ageing power station sites for AI data centres",
+      "summary": "Speaking at the South African AI opportunity conference in San Jose on 18 November, President Cyril Ramaphosa said South Africa has existing industrial sites, including power station sites approaching the end of their operational lives, that may be suitable for redevelopment as AI data centre locations, alongside strong solar and wind resources. He noted that Africa, home to nearly a fifth of humanity, holds only a tiny fraction of global data centre capacity. Caveat: no specific sites, capacities or incentives were named, and water and power needs have not been assessed; Eskom's Hendrina and Arnot stations are due to close by 2030 but are not currently planned as data centres. Country conversion: South Africa is offering existing grid connections at retiring coal plants as its AI infrastructure pitch.",
+      "url": "https://www.gov.za/news/speeches/president-cyril-ramaphosa-south-african-ai-opportunity-conference-18-nov-2026",
+      "source": "South African Government, speech of 18 Nov 2026; DCD; TechCentral",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "ZAF"
+      ],
+      "flags": "🇿🇦",
+      "tags": [
+        "Policy",
+        "Energy",
+        "Sovereign"
+      ],
+      "score": 28
+    },
+    {
       "id": "singapore-malaysia-thailand-bis-entity-list-megaspeed-seven-entities-presumption-of-denial-2026-11-23",
       "date": "2026-11-23",
       "title": "Singapore, Malaysia, Thailand: BIS adds seven Megaspeed-linked firms to the Entity List",
@@ -4902,6 +5043,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-24",
-  "note": "Wire refresh 2026-11-24: added singapore-malaysia-thailand-bis-entity-list-megaspeed-seven-entities-presumption-of-denial-2026-11-23, usa-apollo-goldman-44bn-spacex-gpu-financing-vera-rubin-saturn-funding-1h-2027-2026-11-20, spain-real-decreto-1032-2026-data-centres-80pct-hourly-renewable-curtailment-in-force-2026-11-22, usa-tsmc-brazos-county-texas-2nm-fab-application-23bn-40yr-groundbreak-2027-2026-11-23, taiwan-tsmc-hou-no-customer-adjusted-orders-shipments-ai-demand-exceeds-capacity-2026-11-23, thailand-ntt-bgrimm-400mw-mou-thb113bn-2026-11-24, india-ctrls-bihar-150mw-ai-factory-mou-rs10000cr-patna-2029-2026-11-23, latvia-northern-europe-energy-salaspils-200mw-330kv-riga-2026-11-23. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-25",
+  "note": "Wire refresh 2026-11-25: added usa-dell-q3-fy27-ai-backlog-132-3bn-orders-60-2bn-ai-server-rev-22bn-2026-11-24, finland-xtx-markets-kajaani-22-5mw-first-dc-open-expropriation-permit-delays-third-facility-2026-11-24, estonia-elering-3-3gw-data-centre-connection-requests-600mw-signed-1-3gw-offers-near-limit-2026-11-24, france-google-tricolore-computing-villedieu-sur-indre-1-2gw-rte-connection-67m-2026-11-23, usa-army-sci-rfp-daca27-nine-installations-power-plus-data-centre-25yr-eul-2026-11-19, korea-samsung-hbm-base-die-shortage-30k-4nm-wpm-2027-giheung-p5-taylor-p2-2026-11-25, south-africa-ramaphosa-end-of-life-power-station-sites-ai-data-centres-2026-11-18. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
