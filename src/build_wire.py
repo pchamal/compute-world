@@ -35,11 +35,27 @@ for it in items:
     <span class="wscore"><span class="bar"><i style="width:{it["score"]}%"></i></span>{it["score"]} · {score_label(it["score"])}</span></div>
 </article>''')
 
-ld_items = [{"@type": "ListItem", "position": i + 1,
-             "item": {"@type": "NewsArticle", "headline": it["title"], "datePublished": it["date"],
-                      "url": it["url"], "description": it["summary"],
-                      "publisher": {"@type": "Organization", "name": it["source"]}}}
-            for i, it in enumerate(items[:20])]
+def wire_item_ld(it, i):
+    # The item lives on compute.world. The outside article is the source, not this URL.
+    page = f"https://compute.world/wire#{it['id']}"
+    return {
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+            "@type": "NewsArticle",
+            "@id": page,
+            "url": page,
+            "headline": it["title"],
+            "datePublished": it["date"],
+            "description": it["summary"],
+            "isBasedOn": it["url"],
+            "citation": it["url"],
+            "publisher": {"@type": "Organization", "name": "compute.world", "url": "https://compute.world/"},
+        },
+    }
+
+
+ld_items = [wire_item_ld(it, i) for i, it in enumerate(items[:20])]
 LD = json.dumps({"@context": "https://schema.org", "@type": "ItemList",
                  "name": "The Wire: sovereign AI and compute infrastructure signals",
                  "url": "https://compute.world/wire", "itemListElement": ld_items})
@@ -60,6 +76,7 @@ PAGE = f'''<!DOCTYPE html>
     "https://compute.world/wire", "og.png", image_alt="compute.world — the world's compute & silicon index")}
 <script type="application/ld+json">{json.dumps(breadcrumb_ld([("compute.world","https://compute.world/"),("The Wire","https://compute.world/wire")]))}</script>
 <link rel="alternate" type="application/rss+xml" title="The Wire · compute.world" href="https://compute.world/wire.xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/mark.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">

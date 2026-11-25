@@ -7,11 +7,17 @@ stamps lastmod from the file the URL actually serves:
 
 - JSON desks: top-level updated / snapshot / as_of (never a nested quote date)
 - HTML desks: dateModified, else the masthead "Updated" line
-- llms.txt: the banner "Snapshot YYYY-MM-DD", else the desk as-of
-- homepage: same as-of as the desk (silicon / brief / rank-history)
+- llms.txt: the banner "Snapshot YYYY-MM-DD", else the homepage content date
+- homepage: latest real change among country pages, chip pages, and the
+  silicon / brief / wire artifact dates. rank-history as_of is not used:
+  the weekday rank job writes a new snapshot date even when no row changed.
+- country profile: last rank-row change, or a newer Wire signal on that page
+- chip profile: last price change on a venue/term series, or last rank-row
+  change. A repeated scrape of the same price does not move lastmod.
 - undated HTML: git commit date of that file
 
-Country and chip URLs are left alone. Does not invent prices, ranks, or copy.
+Does not invent prices, ranks, or copy. Does not stamp today's date onto a
+page whose own record did not change.
 """
 from __future__ import annotations
 
@@ -19,7 +25,7 @@ import os
 import re
 import subprocess
 
-from desk_data import as_of
+from desk_data import chip_slug, slugify
 from seo import public_path, sitemap_xml
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -149,17 +155,124 @@ def url_path(loc):
     return public_path(loc)
 
 
+def _latest_change(history_rows):
+    """history_rows: iterable of (day, id, signature) in date order.
+
+    Returns id -> day of the latest signature change. The first row for an id
+    counts. A later row with the same signature does not.
+    """
+    prev = {}
+    last = {}
+    for day, rid, sig in history_rows:
+        if not day or not rid:
+            continue
+        if prev.get(rid) != sig:
+            prev[rid] = sig
+            last[rid] = day
+    return last
+
+
+def chip_price_change_days(history):
+    """Last date a chip's venue+term price actually changed. Same price again is ignored."""
+    points = list((history or {}).get("points") or [])
+    points.sort(key=lambda p: (str(p.get("date") or ""), p.get("venue") or "", p.get("term") or ""))
+    series = {}
+    rows = []
+    for p in points:
+        day = iso_day(p.get("date"))
+        cid = p.get("chip")
+        if not day or not cid:
+            continue
+        key = (cid, p.get("venue") or "", p.get("term") or "")
+        px = p.get("price")
+        prev = series.get(key, (None, None))
+        if prev[1] != px:
+            series[key] = (day, px)
+            rows.append((day, cid, (key, px)))
+    return _latest_change(rows)
+
+
+def rank_change_days(history, index, fields):
+    snaps = [s for s in ((history or {}).get("snapshots") or []) if s.get("index") == index]
+    snaps.sort(key=lambda s: s.get("date") or "")
+    rows = []
+    for snap in snaps:
+        day = iso_day(snap.get("date"))
+        if not day:
+            continue
+        for row in snap.get("rows") or []:
+            rid = row.get("id")
+            sig = tuple(row.get(field) for field in fields)
+            rows.append((day, rid, sig))
+    return _latest_change(rows)
+
+
+def wire_country_days(wire):
+    """Latest Wire item date per country. The country page prints that signal."""
+    last = {}
+    for item in (wire or {}).get("items") or []:
+        day = iso_day(item.get("date"))
+        if not day:
+            continue
+        for iso in item.get("countries") or []:
+            if iso not in last or day > last[iso]:
+                last[iso] = day
+    return last
+
+
+def profile_days(root=None):
+    """Path -> lastmod for /country/{slug}/ and /silicon/{slug}/ only."""
+    root = root or ROOT
+    silicon = _load_json(root, "silicon.json")
+    hist = _load_json(root, "silicon-history.json")
+    ranks = _load_json(root, "rank-history.json")
+    wire = _load_json(root, "wire.json")
+    data = _load_json(root, "data.json")
+    days = {}
+    if not isinstance(silicon, dict):
+        silicon = {}
+    price_chg = chip_price_change_days(hist if isinstance(hist, dict) else {})
+    rank_si = rank_change_days(
+        ranks if isinstance(ranks, dict) else {},
+        "silicon",
+        ("rank", "score", "display_usd", "venue", "term", "liquidity", "demand", "frontier"),
+    )
+    for chip in silicon.get("chips") or []:
+        cid = chip.get("id")
+        slug = chip_slug(cid, chip.get("vendor"))
+        if not slug:
+            continue
+        cands = [price_chg.get(cid), rank_si.get(cid)]
+        if not any(cands):
+            disp = (chip.get("display") or {}).get("as_of")
+            cands.append(iso_day(disp))
+            for quote in chip.get("quotes") or []:
+                cands.append(iso_day(quote.get("as_of") or quote.get("date")))
+        best = max((d for d in cands if d), default="")
+        if best:
+            days[f"/silicon/{slug}/"] = best
+    rank_co = rank_change_days(
+        ranks if isinstance(ranks, dict) else {},
+        "countries",
+        ("rank", "t", "u", "gdc", "re", "rz"),
+    )
+    signals = wire_country_days(wire if isinstance(wire, dict) else {})
+    for country in (data.get("countries") or []) if isinstance(data, dict) else []:
+        iso = country.get("i3")
+        name = country.get("n") or ""
+        slug = slugify(name) if name else (country.get("sl") or "")
+        if not iso or not slug:
+            continue
+        best = max((d for d in (rank_co.get(iso), signals.get(iso)) if d), default="")
+        if best:
+            days[f"/country/{slug}/"] = best
+    return days
+
+
 def content_dates(root=None):
     """Map sitemap path -> YYYY-MM-DD drawn from the artifact, not a frozen constant."""
     root = root or ROOT
-    silicon = _load_json(root, "silicon.json")
-    brief = _load_json(root, "brief.json")
-    ranks = _load_json(root, "rank-history.json")
-    home = as_of(silicon, brief, ranks)
     days = {}
-    if iso_day(home):
-        days["/"] = iso_day(home)
-
     loaded = {}
     for path, (name, keys) in JSON_SOURCES.items():
         if name not in loaded:
@@ -172,6 +285,14 @@ def content_dates(root=None):
         day = html_updated_day(_read(root, rel)) or git_day(root, rel)
         if day:
             days[path] = day
+
+    profiles = profile_days(root)
+    days.update(profiles)
+    home_cands = [days.get(path) for path in ("/silicon", "/brief", "/wire")]
+    home_cands.extend(profiles.values())
+    home = max((d for d in home_cands if d), default="")
+    if home:
+        days["/"] = home
 
     llms = llms_day(_read(root, "llms.txt")) or days.get("/")
     if llms:

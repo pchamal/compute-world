@@ -109,6 +109,7 @@ def icons(root):
     mark = f"{root}mark.svg"
     touch = f"{root}apple-touch-icon.png"
     return (
+        f'<link rel="icon" href="{root}favicon.ico" sizes="32x32">\n'
         f'<link rel="icon" href="{mark}" type="image/svg+xml">\n'
         f'<link rel="icon" href="{root}favicon-32.png" type="image/png" sizes="32x32">\n'
         f'<link rel="apple-touch-icon" href="{touch}">'
@@ -241,11 +242,16 @@ document.addEventListener("click",function(e){var b=e.target.closest("[data-copy
 </script>'''
 
 
-def head(title, description, canonical, root, css, jsonld=None, og_type="website", image=None, as_of=""):
+def head(title, description, canonical, root, css, jsonld=None, og_type="website", image=None, as_of="", prev_href="", next_href=""):
     css_out = css.replace("{{root}}", root)
     ld = f'<script type="application/ld+json">{jsonld}</script>\n' if jsonld else ""
     img = image or f"{SITE}/og.png"
     cite = citation_meta(title, canonical, as_of)
+    rels = ""
+    if prev_href:
+        rels += f'<link rel="prev" href="{esc(prev_href)}">\n'
+    if next_href:
+        rels += f'<link rel="next" href="{esc(next_href)}">\n'
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -254,7 +260,7 @@ def head(title, description, canonical, root, css, jsonld=None, og_type="website
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
 <link rel="canonical" href="{esc(canonical)}">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+{rels}<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <meta name="theme-color" content="#F3F5F2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0F1216" media="(prefers-color-scheme: dark)">
 <meta name="author" content="Pukar C. Hamal">

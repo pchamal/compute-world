@@ -9,7 +9,7 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 
 from desk_chrome import TAGLINE, NAV, MORE, cite_line, footer, masthead
-from seo import robots_txt, SEARCH_BOTS, TRAINING_BOTS, BULK_PATHS
+from seo import robots_txt, SEARCH_BOTS, TRAINING_BOTS, BULK_PATHS, PRIVATE_PATHS, LICENSE_LINE
 from desk_data import PREC, PREC_CAMPUS, precedent_href
 
 
@@ -109,6 +109,14 @@ class Robots(unittest.TestCase):
             self.assertIn(f"User-agent: {bot}", txt)
         for bot in TRAINING_BOTS:
             self.assertIn(f"User-agent: {bot}", txt)
+        self.assertNotIn("Crawl-delay", txt)
+        for path in PRIVATE_PATHS:
+            self.assertIn(f"Disallow: {path}", txt)
+        # Search-bot groups are more specific than User-agent: *, so the
+        # private paths have to be repeated there or Googlebot would ignore them.
+        google = txt.split("User-agent: Googlebot", 1)[1].split("User-agent:", 1)[0]
+        for path in PRIVATE_PATHS:
+            self.assertIn(f"Disallow: {path}", google)
 
 
 class ContactDeskDate(unittest.TestCase):
@@ -210,7 +218,16 @@ class SitemapLastmod(unittest.TestCase):
             [{"loc": f"{SITE}/country/nepal/", "lastmod": "2026-10-02", "changefreq": "weekly"}],
             ROOT,
         )
-        self.assertEqual(kept[0]["lastmod"], "2026-10-02")
+        self.assertEqual(kept[0]["lastmod"], days["/country/nepal/"])
+        self.assertRegex(kept[0]["lastmod"], r"^\d{4}-\d{2}-\d{2}$")
+        country_days = [d for p, d in days.items() if p.startswith("/country/")]
+        chip_days = [d for p, d in days.items() if p.startswith("/silicon/")]
+        self.assertEqual(len(country_days), 108)
+        self.assertGreater(len(set(country_days)), 1)
+        self.assertGreaterEqual(len(chip_days), 20)
+        self.assertGreater(len(set(chip_days)), 1)
+        # A placeholder date must not survive once the country's own change date is known.
+        self.assertNotEqual(kept[0]["lastmod"], "2026-10-02")
 
 
 class NotFound(unittest.TestCase):

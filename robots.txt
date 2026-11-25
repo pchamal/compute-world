@@ -1,29 +1,51 @@
 # compute.world robots. Search (Google, Bing, Apple, OAI-SearchBot) is welcome.
 # Training / bulk scrapers: use /llms.txt and cite; do not vacuum JSON dumps.
 # The site is indexed. This file does not noindex anything.
+# /src/, /_redesign_ref/, and /wire-inbox.json are disallowed for every user-agent.
 
 User-agent: *
 Allow: /
 Allow: /llms.txt
 Allow: /agents
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: Googlebot
 Allow: /
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: Bingbot
 Allow: /
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: Applebot
 Allow: /
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: GPTBot
 Allow: /llms.txt
@@ -37,7 +59,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: Google-Extended
 Allow: /llms.txt
@@ -51,7 +75,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: ClaudeBot
 Allow: /llms.txt
@@ -65,7 +91,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: anthropic-ai
 Allow: /llms.txt
@@ -79,7 +107,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: Applebot-Extended
 Allow: /llms.txt
@@ -93,7 +123,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: CCBot
 Allow: /llms.txt
@@ -107,7 +139,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: Bytespider
 Allow: /llms.txt
@@ -121,7 +155,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: Amazonbot
 Allow: /llms.txt
@@ -135,7 +171,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: meta-externalagent
 Allow: /llms.txt
@@ -149,7 +187,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: FacebookBot
 Allow: /llms.txt
@@ -163,7 +203,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: cohere-ai
 Allow: /llms.txt
@@ -177,7 +219,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: Diffbot
 Allow: /llms.txt
@@ -191,7 +235,9 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 User-agent: YouBot
 Allow: /llms.txt
@@ -205,6 +251,8 @@ Disallow: /neoclouds.json
 Disallow: /inference.json
 Disallow: /wire.json
 Disallow: /silicon.json
-Crawl-delay: 10
+Disallow: /src/
+Disallow: /_redesign_ref/
+Disallow: /wire-inbox.json
 
 Sitemap: https://compute.world/sitemap.xml

@@ -48,3 +48,21 @@
 
 /404.html
   X-Robots-Tag: noindex
+
+/src/*
+  X-Robots-Tag: noindex
+
+/_redesign_ref/*
+  X-Robots-Tag: noindex
+
+/wire-inbox.json
+  X-Robots-Tag: noindex
+
+/README.md
+  X-Robots-Tag: noindex
+
+/LICENSE.md
+  X-Robots-Tag: noindex
+
+/wrangler.jsonc
+  X-Robots-Tag: noindex

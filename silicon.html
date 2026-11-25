@@ -6,21 +6,21 @@
 <meta name="theme-color" content="#F3F5F2">
 <script>(function(){try{var t=localStorage.getItem("cnw_theme");if(t!=="dark"&&t!=="light"){var h=new Date().getHours();t=(h>=19||h<7)?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
 <title>The Silicon Tape · AI accelerator rental index · compute.world</title>
-<meta name="description" content="The Silicon Tape: 20 sourced AI accelerator prints. Snapshot 2026-11-24. B200 $6.69 Lambda OD · H100 $3.99 Lambda OD · Ascend 910C ¥10.79/hr. Term book 1m / 1q / 1y / 3y; change windows 1M / 1Q / 1Y / 3Y. No invented tenors or 7-day candles.">
+<meta name="description" content="The Silicon Tape: 20 sourced AI accelerator prints. Snapshot 2026-11-24. B200 $7.69 Lambda OD · H100 $4.59 Lambda OD · Ascend 910C ¥10.79/hr. Term book 1m / 1q / 1y / 3y; change windows 1M / 1Q / 1Y / 3Y. No invented tenors or 7-day candles.">
 <link rel="canonical" href="https://compute.world/silicon">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:site_name" content="compute.world">
 <meta property="og:type" content="website">
 <meta property="og:title" content="The Silicon Tape · AI accelerator rental index · compute.world">
-<meta property="og:description" content="The Silicon Tape: 20 sourced AI accelerator prints. Snapshot 2026-11-24. B200 $6.69 Lambda OD · H100 $3.99 Lambda OD · Ascend 910C ¥10.79/hr. Term book 1m / 1q / 1y / 3y; change windows 1M / 1Q / 1Y / 3Y. No invented tenors or 7-day candles.">
+<meta property="og:description" content="The Silicon Tape: 20 sourced AI accelerator prints. Snapshot 2026-11-24. B200 $7.69 Lambda OD · H100 $4.59 Lambda OD · Ascend 910C ¥10.79/hr. Term book 1m / 1q / 1y / 3y; change windows 1M / 1Q / 1Y / 3Y. No invented tenors or 7-day candles.">
 <meta property="og:url" content="https://compute.world/silicon">
 <meta property="og:image" content="https://compute.world/og-silicon.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="The Silicon Tape — sourced B200, H100, Ascend 910C, and Cerebras prints">
+<meta property="og:image:alt" content="The Silicon Tape: sourced B200, H100, Ascend 910C, and Cerebras prints">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Silicon Tape · AI accelerator rental index · compute.world">
-<meta name="twitter:description" content="The Silicon Tape: 20 sourced AI accelerator prints. Snapshot 2026-11-24. B200 $6.69 Lambda OD · H100 $3.99 Lambda OD · Ascend 910C ¥10.79/hr. Term book 1m / 1q / 1y / 3y; change windows 1M / 1Q / 1Y / 3Y. No invented tenors or 7-day candles.">
+<meta name="twitter:description" content="The Silicon Tape: 20 sourced AI accelerator prints. Snapshot 2026-11-24. B200 $7.69 Lambda OD · H100 $4.59 Lambda OD · Ascend 910C ¥10.79/hr. Term book 1m / 1q / 1y / 3y; change windows 1M / 1Q / 1Y / 3Y. No invented tenors or 7-day candles.">
 <meta name="twitter:image" content="https://compute.world/og-silicon.png">
 <meta name="author" content="Pukar C. Hamal">
 <meta name="citation_title" content="The Silicon Tape · AI accelerator rental index · compute.world">
@@ -32,6 +32,7 @@
 <meta name="dc.rights" content="CC BY 4.0">
 <link rel="cite-as" href="https://compute.world/silicon">
 <link rel="alternate" type="application/rss+xml" title="The Silicon Tape · compute.world" href="https://compute.world/silicon.xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/mark.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -213,7 +214,8 @@ position:sticky;top:0;background:var(--paper);z-index:4;box-shadow:0 1px 0 var(-
 .tape tbody tr.chiprow.even td{background:var(--tint)}
 .tape tbody tr.chiprow:hover td,.tape tbody tr.chiprow.open td{background:var(--row-hover)}
 .tape .cn{font-weight:600;border-bottom:1px solid transparent}
-.tape tr.chiprow:hover .cn{color:var(--accent);border-bottom-color:var(--accent)}
+.tape .cn a{color:inherit;border-bottom-color:transparent}
+.tape tr.chiprow:hover .cn,.tape tr.chiprow:hover .cn a{color:var(--accent);border-bottom-color:var(--accent)}
 .tape .tick{display:block;font-size:11px;color:var(--faint);margin-top:2px;letter-spacing:.02em}
 .tape .px{font-size:15px;font-weight:600;letter-spacing:-.02em;display:block}
 .tape .term,.tape .asof,.tape .sub{display:block;font-size:11px;letter-spacing:.02em;color:var(--faint);line-height:1.45;margin-top:2px;text-transform:none}
@@ -405,7 +407,7 @@ details.meth .mb li{margin-bottom:6px}
       <tbody>
 <tr class="chiprow odd" id="nvidia-b200-sxm6" data-id="nvidia-b200-sxm6" data-vendor="NVIDIA" data-rank="1" data-score="3.0" data-price="7.69" data-m1="" data-q1="" data-y1="9.86" data-y3="" data-d30="14.9" data-d90="14.9" data-d1y="" data-d3y="" data-venues="5" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">1</td>
-  <td class="chip" data-col="name"><span class="cn">B200 SXM6</span><span class="tick">NVIDIA · 180 GB HBM3e</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/b200-sxm6/">B200 SXM6</a></span><span class="tick">NVIDIA · 180 GB HBM3e</span></td>
   <td class="price" data-col="price">
     <span class="px">$7.69</span>
     <span class="term"><span class="leadlab">OD</span> Lambda OD</span>
@@ -428,7 +430,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="nvidia-h100-sxm-80gb" data-id="nvidia-h100-sxm-80gb" data-vendor="NVIDIA" data-rank="2" data-score="2.75" data-price="4.59" data-m1="" data-q1="" data-y1="3.26" data-y3="" data-d30="15.0" data-d90="15.0" data-d1y="" data-d3y="" data-venues="7" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">2</td>
-  <td class="chip" data-col="name"><span class="cn">H100 SXM 80GB</span><span class="tick">NVIDIA · 80 GB HBM3</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/h100-sxm-80gb/">H100 SXM 80GB</a></span><span class="tick">NVIDIA · 80 GB HBM3</span></td>
   <td class="price" data-col="price">
     <span class="px">$4.59</span>
     <span class="term"><span class="leadlab">OD</span> Lambda OD</span>
@@ -451,7 +453,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="nvidia-h200-sxm-141gb" data-id="nvidia-h200-sxm-141gb" data-vendor="NVIDIA" data-rank="3" data-score="2.75" data-price="6.31" data-m1="" data-q1="" data-y1="3.4" data-y3="" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="6" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">3</td>
-  <td class="chip" data-col="name"><span class="cn">H200 SXM 141GB</span><span class="tick">NVIDIA · 141 GB HBM3e</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/h200-sxm-141gb/">H200 SXM 141GB</a></span><span class="tick">NVIDIA · 141 GB HBM3e</span></td>
   <td class="price" data-col="price">
     <span class="px">$6.31</span>
     <span class="term"><span class="leadlab">OD</span> CoreWeave OD</span>
@@ -474,7 +476,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="nvidia-gb200-nvl72" data-id="nvidia-gb200-nvl72" data-vendor="NVIDIA" data-rank="4" data-score="2.6" data-price="10.5" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="2" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">4</td>
-  <td class="chip" data-col="name"><span class="cn">GB200 NVL72</span><span class="tick">NVIDIA · NVL72</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/gb200-nvl72/">GB200 NVL72</a></span><span class="tick">NVIDIA · NVL72</span></td>
   <td class="price" data-col="price">
     <span class="px">$10.50</span>
     <span class="term"><span class="leadlab">OD</span> CoreWeave</span>
@@ -497,7 +499,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="nvidia-a100-sxm-80gb" data-id="nvidia-a100-sxm-80gb" data-vendor="NVIDIA" data-rank="5" data-score="2.15" data-price="3.19" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="14.3" data-d90="14.3" data-d1y="" data-d3y="" data-venues="4" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">5</td>
-  <td class="chip" data-col="name"><span class="cn">A100 SXM 80GB</span><span class="tick">NVIDIA · 80 GB</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/a100-sxm-80gb/">A100 SXM 80GB</a></span><span class="tick">NVIDIA · 80 GB</span></td>
   <td class="price" data-col="price">
     <span class="px">$3.19</span>
     <span class="term"><span class="leadlab">OD</span> Lambda OD</span>
@@ -520,7 +522,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="nvidia-b300-hgx" data-id="nvidia-b300-hgx" data-vendor="NVIDIA" data-rank="6" data-score="1.85" data-price="4.48" data-m1="" data-q1="" data-y1="7.94" data-y3="" data-d30="0.0" data-d90="0.0" data-d1y="" data-d3y="" data-venues="3" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">6</td>
-  <td class="chip" data-col="name"><span class="cn">HGX B300</span><span class="tick">NVIDIA · 270 GB</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/b300-hgx/">HGX B300</a></span><span class="tick">NVIDIA · 270 GB</span></td>
   <td class="price" data-col="price">
     <span class="px">$4.48</span>
     <span class="term"><span class="leadlab">Spot</span> CoreWeave NA spot</span>
@@ -543,7 +545,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="amd-mi355x" data-id="amd-mi355x" data-vendor="AMD" data-rank="7" data-score="1.85" data-price="4.5" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="51.5" data-d90="0.0" data-d1y="" data-d3y="" data-venues="2" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">7</td>
-  <td class="chip" data-col="name"><span class="cn">MI355X</span><span class="tick">AMD · 288 GB HBM3E</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/mi355x/">MI355X</a></span><span class="tick">AMD · 288 GB HBM3E</span></td>
   <td class="price" data-col="price">
     <span class="px">$4.50</span>
     <span class="term"><span class="leadlab">Spot</span> DigitalOcean spot</span>
@@ -566,7 +568,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="google-tpu-v7-ironwood" data-id="google-tpu-v7-ironwood" data-vendor="Google" data-rank="8" data-score="1.85" data-price="12.0" data-m1="" data-q1="" data-y1="8.4" data-y3="5.4" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">8</td>
-  <td class="chip" data-col="name"><span class="cn">TPU v7 Ironwood</span><span class="tick">Google · 192 GiB HBM</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/tpu-v7-ironwood/">TPU v7 Ironwood</a></span><span class="tick">Google · 192 GiB HBM</span></td>
   <td class="price" data-col="price">
     <span class="px">$12.00</span>
     <span class="term"><span class="leadlab">OD</span> GCP OD</span>
@@ -589,7 +591,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="amd-mi350x" data-id="amd-mi350x" data-vendor="AMD" data-rank="9" data-score="1.6" data-price="3.0" data-m1="" data-q1="" data-y1="4.76" data-y3="" data-d30="22.0" data-d90="-25.0" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">9</td>
-  <td class="chip" data-col="name"><span class="cn">MI350X</span><span class="tick">AMD · 288 GB HBM3E</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/mi350x/">MI350X</a></span><span class="tick">AMD · 288 GB HBM3E</span></td>
   <td class="price" data-col="price">
     <span class="px">$3.00</span>
     <span class="term"><span class="leadlab">Spot</span> DigitalOcean spot</span>
@@ -612,7 +614,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="huawei-ascend-910c" data-id="huawei-ascend-910c" data-vendor="Huawei" data-rank="10" data-score="1.6" data-price="1.59" data-m1="" data-q1="" data-y1="1.59" data-y3="" data-d30="" data-d90="" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">10</td>
-  <td class="chip" data-col="name"><span class="cn">Ascend 910C</span><span class="tick">Huawei · 8-card Atlas 800T A3</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/ascend-910c/">Ascend 910C</a></span><span class="tick">Huawei · 8-card Atlas 800T A3</span></td>
   <td class="price" data-col="price">
     <span class="px">¥10.79</span>
     <span class="term"><span class="leadlab">1y</span> SMM Beijing · ¥10.79/hr</span>
@@ -635,7 +637,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="cerebras-wse3" data-id="cerebras-wse3" data-vendor="Cerebras" data-rank="11" data-score="1.5" data-price="" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="" data-d90="" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">11</td>
-  <td class="chip" data-col="name"><span class="cn">WSE-3</span><span class="tick">Cerebras · WSE-3 wafer</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/wse3/">WSE-3</a></span><span class="tick">Cerebras · WSE-3 wafer</span></td>
   <td class="price" data-col="price">
     <span class="px">—</span>
     <span class="term"><span class="leadlab">Token</span> token / enterprise</span>
@@ -658,7 +660,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="nvidia-l40s-48gb" data-id="nvidia-l40s-48gb" data-vendor="NVIDIA" data-rank="12" data-score="1.4" data-price="2.25" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="3" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">12</td>
-  <td class="chip" data-col="name"><span class="cn">L40S 48GB</span><span class="tick">NVIDIA · 48 GB GDDR6</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/l40s-48gb/">L40S 48GB</a></span><span class="tick">NVIDIA · 48 GB GDDR6</span></td>
   <td class="price" data-col="price">
     <span class="px">$2.25</span>
     <span class="term"><span class="leadlab">OD</span> CoreWeave OD</span>
@@ -681,7 +683,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="amd-mi300x" data-id="amd-mi300x" data-vendor="AMD" data-rank="13" data-score="1.4" data-price="2.59" data-m1="" data-q1="" data-y1="1.91" data-y3="" data-d30="0.0" data-d90="0.0" data-d1y="" data-d3y="" data-venues="3" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">13</td>
-  <td class="chip" data-col="name"><span class="cn">MI300X</span><span class="tick">AMD · 192 GB HBM3</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/mi300x/">MI300X</a></span><span class="tick">AMD · 192 GB HBM3</span></td>
   <td class="price" data-col="price">
     <span class="px">$2.59</span>
     <span class="term"><span class="leadlab">OD</span> DigitalOcean OD</span>
@@ -704,7 +706,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="amd-mi325x" data-id="amd-mi325x" data-vendor="AMD" data-rank="14" data-score="1.25" data-price="3.8" data-m1="" data-q1="" data-y1="2.88" data-y3="" data-d30="0.0" data-d90="0.0" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">14</td>
-  <td class="chip" data-col="name"><span class="cn">MI325X</span><span class="tick">AMD · 256 GB HBM3E</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/mi325x/">MI325X</a></span><span class="tick">AMD · 256 GB HBM3E</span></td>
   <td class="price" data-col="price">
     <span class="px">$3.80</span>
     <span class="term"><span class="leadlab">OD</span> DigitalOcean OD</span>
@@ -727,7 +729,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="google-tpu-v6e-trillium" data-id="google-tpu-v6e-trillium" data-vendor="Google" data-rank="15" data-score="1.25" data-price="2.7" data-m1="" data-q1="" data-y1="1.89" data-y3="" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">15</td>
-  <td class="chip" data-col="name"><span class="cn">TPU v6e Trillium</span><span class="tick">Google · 32 GB</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/tpu-v6e-trillium/">TPU v6e Trillium</a></span><span class="tick">Google · 32 GB</span></td>
   <td class="price" data-col="price">
     <span class="px">$2.70</span>
     <span class="term"><span class="leadlab">OD</span> GCP OD</span>
@@ -750,7 +752,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="amazon-trainium2" data-id="amazon-trainium2" data-vendor="Amazon" data-rank="16" data-score="1.25" data-price="2.235" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">16</td>
-  <td class="chip" data-col="name"><span class="cn">Trainium2</span><span class="tick">Amazon · 96 GiB / chip</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/trainium2/">Trainium2</a></span><span class="tick">Amazon · 96 GiB / chip</span></td>
   <td class="price" data-col="price">
     <span class="px">$2.235</span>
     <span class="term"><span class="leadlab">CB</span> AWS CB</span>
@@ -773,7 +775,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="groq-lpu" data-id="groq-lpu" data-vendor="Groq" data-rank="17" data-score="1.25" data-price="" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="" data-d90="" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">17</td>
-  <td class="chip" data-col="name"><span class="cn">LPU</span><span class="tick">Groq · LPU</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/lpu/">LPU</a></span><span class="tick">Groq · LPU</span></td>
   <td class="price" data-col="price">
     <span class="px">—</span>
     <span class="term"><span class="leadlab">Token</span> token API</span>
@@ -796,7 +798,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="nvidia-gh200" data-id="nvidia-gh200" data-vendor="NVIDIA" data-rank="18" data-score="1.25" data-price="6.5" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="2" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">18</td>
-  <td class="chip" data-col="name"><span class="cn">GH200</span><span class="tick">NVIDIA · 96 GB</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/gh200/">GH200</a></span><span class="tick">NVIDIA · 96 GB</span></td>
   <td class="price" data-col="price">
     <span class="px">$6.50</span>
     <span class="term"><span class="leadlab">OD</span> CoreWeave OD</span>
@@ -819,7 +821,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow odd" id="nvidia-rtx-pro-6000-blackwell" data-id="nvidia-rtx-pro-6000-blackwell" data-vendor="NVIDIA" data-rank="19" data-score="1.0" data-price="2.5" data-m1="" data-q1="" data-y1="" data-y3="" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">19</td>
-  <td class="chip" data-col="name"><span class="cn">RTX PRO 6000 Blackwell</span><span class="tick">NVIDIA · 96 GB</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/rtx-pro-6000-blackwell/">RTX PRO 6000 Blackwell</a></span><span class="tick">NVIDIA · 96 GB</span></td>
   <td class="price" data-col="price">
     <span class="px">$2.50</span>
     <span class="term"><span class="leadlab">OD</span> CoreWeave OD</span>
@@ -842,7 +844,7 @@ details.meth .mb li{margin-bottom:6px}
 </tr>
 <tr class="chiprow even" id="google-tpu-v5p" data-id="google-tpu-v5p" data-vendor="Google" data-rank="20" data-score="1.0" data-price="4.2" data-m1="" data-q1="" data-y1="2.94" data-y3="" data-d30="" data-d90="0.0" data-d1y="" data-d3y="" data-venues="1" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">20</td>
-  <td class="chip" data-col="name"><span class="cn">TPU v5p</span><span class="tick">Google · 95 GiB</span></td>
+  <td class="chip" data-col="name"><span class="cn"><a href="/silicon/tpu-v5p/">TPU v5p</a></span><span class="tick">Google · 95 GiB</span></td>
   <td class="price" data-col="price">
     <span class="px">$4.20</span>
     <span class="term"><span class="leadlab">OD</span> GCP OD</span>

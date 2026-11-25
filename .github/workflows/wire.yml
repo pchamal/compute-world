@@ -32,7 +32,8 @@ jobs:
         run: |
           cp wire.json src/wire.json
           cd src && python3 cnw_model.py && python3 build_page.py
-          cp deploy/index.html deploy/data.json deploy/sitemap.xml deploy/llms.txt deploy/robots.txt deploy/embed.html deploy/agents.html ..
+          # llms.txt is written by build_desk.write_site. Do not copy deploy/llms.txt over the root file.
+          cp deploy/index.html deploy/data.json deploy/sitemap.xml deploy/robots.txt deploy/embed.html deploy/agents.html ..
           rm -rf ../country ../silicon
           cp -R deploy/country deploy/silicon deploy/fonts deploy/flags deploy/map.svg ..
       - name: Refresh sitemap lastmod from artifact dates
