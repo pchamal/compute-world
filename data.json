@@ -1097,7 +1097,7 @@
    "rf": 0.95,
    "rz": 74,
    "dl": 1,
-   "rw": "South Korea: LG Uplus commits another 789 billion won to its 200 MW Paju AI …"
+   "rw": "South Korea: Samsung faces an HBM base die crunch as internal demand is seen…"
   },
   {
    "n": "Taiwan",
@@ -3245,9 +3245,9 @@
    "pue": "~1.2-1.4",
    "note": "Eskom fragility; Cassava/NVIDIA first 3,000 GPUs; Koeberg nuclear",
    "rf": 0.55,
-   "rz": 18,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 27,
+   "dl": 1,
+   "rw": "South Africa: Ramaphosa pitches ageing power station sites for AI data centr…"
   },
   {
    "n": "Madagascar",
@@ -3547,7 +3547,7 @@
    "rf": 0.95,
    "rz": 55,
    "dl": 1,
-   "rw": "Finland, Estonia, Latvia, Sweden: Nokia, Nscale, Telia, Verda and Skeleton f…"
+   "rw": "Finland: XTX Markets opens its first 22.5 MW Kajaani data centre and warns g…"
   },
   {
    "n": "Denmark",
@@ -3745,9 +3745,9 @@
    "pue": "~1.2-1.4",
    "note": "Nuclear surplus exporter; Mistral buildout; Brookfield €10B",
    "rf": 0.85,
-   "rz": 52,
+   "rz": 63,
    "dl": 1,
-   "rw": "Bull and CRA sign MoU for the Czech AI Gigafactory bid, first deal under the…"
+   "rw": "France: Google unit filed a 1.2 GW grid connection request for a second Indr…"
   },
   {
    "n": "Germany",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "US: TSMC files for a proposed 2nm fab in Brazos County, Texas"
+   "rw": "South Korea: Samsung faces an HBM base die crunch as internal demand is seen…"
   },
   {
    "n": "Canada",
