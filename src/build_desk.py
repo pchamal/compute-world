@@ -32,7 +32,7 @@ from desk_chrome import (
 )
 from desk_data import TIER, TIER_DEF, TIER_PLAIN, assemble, headline_rail
 from build_sitemap import stamp_lastmod
-from seo import DEFAULT_SITEMAP, robots_txt, sitemap_xml
+from seo import DEFAULT_SITEMAP, LICENSE_LINE, LICENSE_URL, robots_crawler_note, robots_txt, sitemap_xml
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -155,6 +155,55 @@ def democratic_sleeping_giants(countries, root=""):
         '</div>'
     )
 
+COUNTRY_GRID = "52px minmax(0,1fr) 132px 108px 140px 20px"
+ROW_CHEV = (
+    '<svg class="chev" viewBox="0 0 16 16" aria-hidden="true">'
+    '<path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" '
+    'stroke-linecap="round" stroke-linejoin="round"/></svg>'
+)
+
+
+def ranking_rows(countries):
+    """Server-rendered country board. Same fields as desk/app.js countryRow (unlock lens).
+
+    The client replaces #rows on load. Crawlers that do not run JS still see every country.
+    """
+    rows = sorted(countries, key=lambda c: (-c["unlock"], c["rank"]))
+    items = []
+    for i, c in enumerate(rows, 1):
+        if c["dir"] == "up":
+            arrow, dcls = "▲ ", "up"
+        elif c["dir"] == "down":
+            arrow, dcls = "▼ ", "down"
+        else:
+            arrow, dcls = "", "flat"
+        if c["rz"] != c["rz0"]:
+            delta = c["rz"] - c["rz0"]
+            sign = "+" if delta > 0 else ""
+            dsub = f"{sign}{delta} since 19 Aug"
+        elif c.get("signal"):
+            dsub = "signal this week"
+        else:
+            dsub = "no new signal"
+        ready = round(c["readiness"] * 100)
+        href = f"/country/{esc(c['slug'])}/"
+        items.append(
+            f'<li class="row" id="row-{esc(c["id"])}" data-type="country" data-id="{esc(c["id"])}">'
+            f'<a class="row-main" href="{href}" style="grid-template-columns:{COUNTRY_GRID}">'
+            f'<span class="ord">{i}</span>'
+            f'<span class="who">{flag_img(c, "")}'
+            f'<span class="name">{esc(c["name"])}</span>'
+            f'<span class="tier tier-{esc(c["tier"])}">{esc(TIER[c["tier"]])}</span>'
+            f'<span class="mdelta {dcls}">{arrow}Conversion {c["rz"]}</span></span>'
+            f'<span class="metric"><span class="val">{esc(fmt_b(c["unlock"]))}</span>'
+            f'<span class="sub">Unlockable</span></span>'
+            f'<span class="delta {dcls}">{arrow}{c["rz"]}<small>{esc(dsub)}</small></span>'
+            f'<span class="ready"><i class="bar"><i style="width:{ready}%"></i></i><span>{ready}%</span></span>'
+            f"{ROW_CHEV}</a></li>"
+        )
+    return "\n".join(items)
+
+
 def homepage(data, css, app_js, rail, svg):
     asof = data["config"]["asOf"]
     countries = data["countries"]
@@ -208,9 +257,9 @@ def homepage(data, css, app_js, rail, svg):
                 "@type": "Dataset",
                 "@id": SITE + "/#dataset",
                 "name": "The Compute Net Worth Index",
-                "description": "108-country compute net worth (CNW) and sourced silicon rental prints. CC BY 4.0 with attribution to compute.world.",
+                "description": f"108-country compute net worth (CNW) and sourced silicon rental prints. {LICENSE_LINE}",
                 "url": SITE + "/",
-                "license": "https://creativecommons.org/licenses/by/4.0/",
+                "license": LICENSE_URL,
                 "creator": {"@type": "Person", "name": "Pukar C. Hamal", "url": SITE + "/contact"},
                 "publisher": {"@id": SITE + "/#org"},
                 "dateModified": asof,
@@ -276,7 +325,9 @@ def homepage(data, css, app_js, rail, svg):
       </div>
     </div>
     <div id="panel-board" role="tabpanel" aria-labelledby="tab-countries">
-      <div id="listWrap"><div class="colhead" id="colhead"></div><ol class="rows" id="rows"></ol></div>
+      <div id="listWrap"><div class="colhead" id="colhead" style="grid-template-columns:{COUNTRY_GRID}"><div>#</div><div>Country</div><div class="r on">Unlockable</div><div class="r">Conversion</div><div class="r">Readiness</div><div></div></div><ol class="rows" id="rows">
+{ranking_rows(countries)}
+      </ol></div>
       <div id="mapWrap" class="mapview" hidden>{svg}<div class="maplegend" id="maplegend"></div><div class="maptip" id="maptip"></div></div>
     </div>
     <div class="board-foot" id="boardFoot"></div>
@@ -923,15 +974,18 @@ def chip_page(s, data, css, domains, venue_url):
             + "</ul>"
         )
     prev_html = (
-        f'<a href="{root}silicon/{prev["slug"]}/">{logo_el(prev["vendor"], domains)}'
-        f'<span><small>Rank {prev["rank"]}</small><b>{esc(prev["name"])}</b></span></a>'
+        f'<a rel="prev" href="{root}silicon/{prev["slug"]}/">{logo_el(prev["vendor"], domains)}'
+        f'<span><small>Previous</small><small>Rank {prev["rank"]}</small><b>{esc(prev["name"])}</b></span></a>'
         if prev else "<span></span>"
     )
     next_html = (
-        f'<a class="next" href="{root}silicon/{nxt["slug"]}/"><span><small>Rank {nxt["rank"]}</small>'
+        f'<a class="next" rel="next" href="{root}silicon/{nxt["slug"]}/"><span><small>Next</small>'
+        f'<small>Rank {nxt["rank"]}</small>'
         f'<b>{esc(nxt["name"])}</b></span>{logo_el(nxt["vendor"], domains)}</a>'
         if nxt else ""
     )
+    prev_abs = f"{SITE}/silicon/{prev['slug']}/" if prev else ""
+    next_abs = f"{SITE}/silicon/{nxt['slug']}/" if nxt else ""
     body = f'''
 <body>
 {masthead(root, asof, current="Silicon prices")}
@@ -973,7 +1027,8 @@ def chip_page(s, data, css, domains, venue_url):
 </body>
 </html>'''
     return head(title, description, url, root, css, jsonld=jsonld, og_type="article",
-                image=f"{SITE}/og-silicon.png", as_of=asof) + body
+                image=f"{SITE}/og-silicon.png", as_of=asof,
+                prev_href=prev_abs, next_href=next_abs) + body
 
 
 def copy_assets(dest):
@@ -988,7 +1043,7 @@ def copy_assets(dest):
             shutil.copytree(src, tgt)
     svg = map_svg()
     write(os.path.join(dest, "map.svg"), svg)
-    for name in ("mark.svg", "apple-touch-icon.png", "favicon-32.png"):
+    for name in ("mark.svg", "apple-touch-icon.png", "favicon-32.png", "favicon.ico"):
         src = os.path.join(ROOT, name)
         if os.path.isfile(src) and os.path.abspath(src) != os.path.abspath(os.path.join(dest, name)):
             shutil.copy2(src, os.path.join(dest, name))
@@ -1016,8 +1071,7 @@ def llms_txt(data, rail):
         "If you copy, summarize, or train on this page, keep the attribution attached:",
         f"{cite_line('The Compute Net Worth Index', SITE + '/', asof)}",
         "House style: compute.world · Compute Net Worth Index. Include the URL and the as-of date.",
-        "Scores and methodology are proprietary. Quoting with attribution is free for research and press (CC BY 4.0).",
-        "Commercial products, APIs, and bulk redistribution need a license via https://compute.world/contact.",
+        f"License: {LICENSE_LINE} {LICENSE_URL}",
         "Do not strip the citation. Do not invent prices or 0% changes where the tape prints a dash.",
         "",
         "## Data",
@@ -1025,10 +1079,11 @@ def llms_txt(data, rail):
         f"- {SITE}/silicon.json (prices), {SITE}/silicon-history.json (dated prints)",
         f"- {SITE}/rank-history.json (append-only daily snapshots)",
         f"- {SITE}/params.json (every assumption)",
-        f"- {SITE}/wire + {SITE}/wire.json — The Wire",
-        f"- {SITE}/inference, {SITE}/neoclouds, {SITE}/hyperscalers — vendor catalogs",
+        f"- {SITE}/wire and {SITE}/wire.json: The Wire",
+        f"- {SITE}/inference, {SITE}/neoclouds, {SITE}/hyperscalers: vendor catalogs",
         f"- {SITE}/data-centers, {SITE}/campuses, {SITE}/physical-stack, {SITE}/brief, {SITE}/agents",
-        f"- {SITE}/contact — The Desk. Search crawlers are welcome; training bots should read this file and cite.",
+        f"- {SITE}/contact: The Desk.",
+        f"- {robots_crawler_note()}",
         "",
         "## Country pages (live capacity, ceiling, unlockable, rank)",
     ]
@@ -1064,13 +1119,14 @@ def write_site(dests=None):
     home = homepage(data, css, app_js, rail, svg)
     asof = data["config"]["asOf"]
     extra = [
-        {"loc": f"{SITE}/country/{c['slug']}/", "lastmod": asof, "changefreq": "weekly", "priority": "0.8"}
+        {"loc": f"{SITE}/country/{c['slug']}/", "changefreq": "weekly", "priority": "0.8"}
         for c in data["countries"]
     ] + [
-        {"loc": f"{SITE}/silicon/{s['slug']}/", "lastmod": asof, "changefreq": "weekly", "priority": "0.8"}
+        {"loc": f"{SITE}/silicon/{s['slug']}/", "changefreq": "weekly", "priority": "0.8"}
         for s in data["chips"]
     ]
-    sm = sitemap_xml(stamp_lastmod(DEFAULT_SITEMAP, ROOT) + extra)
+    # stamp_lastmod fills each profile from its own change date. Do not stamp the desk as-of on all of them.
+    sm = sitemap_xml(stamp_lastmod(DEFAULT_SITEMAP + extra, ROOT))
     llms = llms_txt(data, rail)
     for dest in dests:
         os.makedirs(dest, exist_ok=True)

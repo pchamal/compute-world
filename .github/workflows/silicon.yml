@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "silicon-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add silicon.html silicon.xml rank-history.json index.html country silicon fonts flags map.svg sitemap.xml llms.txt robots.txt mark.svg apple-touch-icon.png favicon-32.png contact.html || true
+          git add silicon.html silicon.xml rank-history.json index.html country silicon fonts flags map.svg sitemap.xml llms.txt robots.txt mark.svg apple-touch-icon.png favicon-32.png favicon.ico contact.html || true
           git diff --cached --quiet || git commit -m "silicon: rebuild tape ($(date -u +%Y-%m-%d))"
           # build_desk may leave untracked favicons/mark; stash so rebase can run
           git stash push -u -m "silicon-bot leftover" || true

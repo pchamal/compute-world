@@ -9,6 +9,7 @@ from subscribe import css as sub_css, markup as sub_markup, script as sub_script
 from seo import og_block, breadcrumb_ld, person_author, org_publisher, nice_day
 from tape_print import DASH_TITLE, enrich_silicon
 from desk_chrome import MARKET_THEME_CSS
+from desk_data import chip_slug
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -26,7 +27,58 @@ H100_ASOF = nice_day(S.get("updated"))
 _h100 = next((c for c in chips if c.get("id") == "nvidia-h100-sxm-80gb"), {})
 _h100_disp = _h100.get("display") or {}
 _h100_px = _h100_disp.get("usd_per_gpu_hr")
-H100_PX = f"${_h100_px:.2f}" if isinstance(_h100_px, (int, float)) else "$3.99"
+# No fallback price. A missing print is omitted, not replaced with a stale figure.
+if isinstance(_h100_px, (int, float)):
+    H100_BUY = f"Buy-now is the current Lambda on-demand list: ${_h100_px:.2f} as of {H100_ASOF}."
+    H100_BUY_HTML = f"Buy-now is Lambda on-demand <b>${_h100_px:.2f}</b> as of {H100_ASOF}."
+else:
+    H100_BUY = f"Buy-now is the current Lambda on-demand list as of {H100_ASOF}." if H100_ASOF else "Buy-now is the current Lambda on-demand list."
+    H100_BUY_HTML = H100_BUY
+
+
+# Chips named in the meta description. Prices come from each chip's display print.
+_DESC_IDS = ("nvidia-b200-sxm6", "nvidia-h100-sxm-80gb", "huawei-ascend-910c")
+
+
+def desc_chip_name(c):
+    name = c.get("name") or ""
+    if name.startswith("Ascend"):
+        return name
+    return name.split()[0] if name else ""
+
+
+def desc_price_clause(c):
+    """One 'B200 $7.69 Lambda OD' clause, or '' when the print has no price."""
+    d = c.get("display") or {}
+    short = desc_chip_name(c)
+    if not short:
+        return ""
+    if d.get("primary") == "CNY" and isinstance(d.get("cny_per_gpu_hr"), (int, float)):
+        return f"{short} ¥{d['cny_per_gpu_hr']:.2f}/hr"
+    px = d.get("usd_per_gpu_hr")
+    if not isinstance(px, (int, float)):
+        return ""
+    label = (d.get("label") or "").strip()
+    if label:
+        return f"{short} ${px:.2f} {label}"
+    return f"{short} ${px:.2f}"
+
+
+def silicon_description(chips, updated):
+    by_id = {c.get("id"): c for c in chips}
+    clauses = []
+    for cid in _DESC_IDS:
+        c = by_id.get(cid)
+        if not c:
+            continue
+        clause = desc_price_clause(c)
+        if clause:
+            clauses.append(clause)
+    head = f"The Silicon Tape: {len(chips)} sourced AI accelerator prints. Snapshot {updated}."
+    tail = "Term book 1m / 1q / 1y / 3y; change windows 1M / 1Q / 1Y / 3Y. No invented tenors or 7-day candles."
+    if clauses:
+        return f"{head} {' · '.join(clauses)}. {tail}"
+    return f"{head} {tail}"
 
 
 def expected_score(c):
@@ -257,9 +309,11 @@ for i, c in enumerate(chips):
             v = rec.get("price")
         return "" if v is None else v
     stripe = "odd" if i % 2 == 0 else "even"
+    slug = chip_slug(c.get("id"), c.get("vendor"))
+    name_link = f'<a href="/silicon/{html.escape(slug)}/">{html.escape(c["name"])}</a>'
     rows.append(f'''<tr class="chiprow {stripe}" id="{html.escape(c["id"])}" data-id="{html.escape(c["id"])}" data-vendor="{html.escape(c["vendor"])}" data-rank="{c["rank"]}" data-score="{c["score"]}" data-price="{d["usd_per_gpu_hr"] if d.get("usd_per_gpu_hr") is not None else ""}" data-m1="{term_px("m1")}" data-q1="{term_px("q1")}" data-y1="{term_px("y1")}" data-y3="{term_px("y3")}" data-d30="{"" if d30 is None else d30}" data-d90="{"" if d90 is None else d90}" data-d1y="{"" if d1y is None else d1y}" data-d3y="{"" if d3y is None else d3y}" data-venues="{nven}" tabindex="0" role="button" aria-expanded="false" aria-controls="drawer">
   <td class="num" data-col="rank">{c["rank"]}</td>
-  <td class="chip" data-col="name"><span class="cn">{html.escape(c["name"])}</span><span class="tick">{tick}</span></td>
+  <td class="chip" data-col="name"><span class="cn">{name_link}</span><span class="tick">{tick}</span></td>
   <td class="price" data-col="price">
     <span class="px">{html.escape(display_px(d))}</span>
     <span class="term"><span class="leadlab">{html.escape(lead_mark(d))}</span> {html.escape(d.get("label") or "")}</span>
@@ -329,7 +383,7 @@ faq_ld = json.dumps({
         {"@type": "Question", "name": "Why are 1m / 1q / 3y dashes on most US lists?",
          "acceptedAnswer": {"@type": "Answer", "text": "US neoclouds publish on-demand, sometimes spot, and rarely a 12-month reserved card. They do not publish 1-month, 1-quarter, or 3-year list prices. We do not impute a discount off on-demand. A dash means no sourced tenor."}},
         {"@type": "Question", "name": "Why isn't today's H100 $2.35?",
-         "acceptedAnswer": {"@type": "Answer", "text": f"SemiAnalysis 1y $2.35 is a March 2026 print. The last public SA period is April 2026 and is labeled STALE. Buy-now is the current Lambda on-demand list: {H100_PX} as of {H100_ASOF}."}},
+         "acceptedAnswer": {"@type": "Answer", "text": f"SemiAnalysis 1y $2.35 is a March 2026 print. The last public SA period is April 2026 and is labeled STALE. {H100_BUY}"}},
         {"@type": "Question", "name": "Why are sparklines steps, not candles?",
          "acceptedAnswer": {"@type": "Answer", "text": "The tape has dated observed prints, not a daily market. A sparkline is a step chart of those prints. Carry-forward is for drawing only. We do not invent 1d or 7d candles."}},
         {"@type": "Question", "name": "Why does Cerebras have no $/hour?",
@@ -339,16 +393,12 @@ faq_ld = json.dumps({
     ],
 })
 si_title = "The Silicon Tape · AI accelerator rental index · compute.world"
-si_desc = (
-    f"The Silicon Tape: {len(chips)} sourced AI accelerator prints. "
-    f"Snapshot {S['updated']}. B200 $6.69 Lambda OD · H100 $3.99 Lambda OD · Ascend 910C ¥10.79/hr. "
-    "Term book 1m / 1q / 1y / 3y; change windows 1M / 1Q / 1Y / 3Y. No invented tenors or 7-day candles."
-)
+si_desc = silicon_description(chips, S["updated"])
 si_og = og_block(
     si_title, html.escape(si_desc),
     "https://compute.world/silicon", "og-silicon.png",
     og_type="website",
-    image_alt="The Silicon Tape — sourced B200, H100, Ascend 910C, and Cerebras prints",
+    image_alt="The Silicon Tape: sourced B200, H100, Ascend 910C, and Cerebras prints",
 )
 tape_json = json.dumps({"sources": S["sources"], "chips": chips}, ensure_ascii=False)
 vendor_bar = vendor_buttons(chips)
@@ -366,6 +416,7 @@ PAGE = f'''<!DOCTYPE html>
 <meta name="robots" content="index,follow,max-image-preview:large">
 {si_og}
 <link rel="alternate" type="application/rss+xml" title="The Silicon Tape · compute.world" href="https://compute.world/silicon.xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/mark.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -444,7 +495,8 @@ position:sticky;top:0;background:var(--paper);z-index:4;box-shadow:0 1px 0 var(-
 .tape tbody tr.chiprow.even td{{background:var(--tint)}}
 .tape tbody tr.chiprow:hover td,.tape tbody tr.chiprow.open td{{background:var(--row-hover)}}
 .tape .cn{{font-weight:600;border-bottom:1px solid transparent}}
-.tape tr.chiprow:hover .cn{{color:var(--accent);border-bottom-color:var(--accent)}}
+.tape .cn a{{color:inherit;border-bottom-color:transparent}}
+.tape tr.chiprow:hover .cn,.tape tr.chiprow:hover .cn a{{color:var(--accent);border-bottom-color:var(--accent)}}
 .tape .tick{{display:block;font-size:11px;color:var(--faint);margin-top:2px;letter-spacing:.02em}}
 .tape .px{{font-size:15px;font-weight:600;letter-spacing:-.02em;display:block}}
 .tape .term,.tape .asof,.tape .sub{{display:block;font-size:11px;letter-spacing:.02em;color:var(--faint);line-height:1.45;margin-top:2px;text-transform:none}}
@@ -629,7 +681,7 @@ details.meth .mb li{{margin-bottom:6px}}
     <h3>Why are 1m / 1q / 3y dashes on most US lists?</h3>
     <p>Venues do not publish those tenors. US neoclouds print on-demand, sometimes spot, and rarely a 12-month reserved card. They do not publish 1-month, 1-quarter, or 3-year list prices. We do not impute a discount off on-demand. A dash means no sourced tenor.</p>
     <h3>Why isn't today's H100 $2.35?</h3>
-    <p>SemiAnalysis 1y $2.35 is a <b>March 2026</b> print. The last public SA period is April 2026 and is labeled STALE. Buy-now is Lambda on-demand <b>{H100_PX}</b> as of {H100_ASOF}. The SA series still lives in the drawer, as a step chart, not as today's headline.</p>
+    <p>SemiAnalysis 1y $2.35 is a <b>March 2026</b> print. The last public SA period is April 2026 and is labeled STALE. {H100_BUY_HTML} The SA series still lives in the drawer, as a step chart, not as today's headline.</p>
     <h3>Why are sparklines steps, not candles?</h3>
     <p>The tape has dated observed prints — not a session market. A sparkline is a step chart of those prints. Carry-forward is for drawing only. A percent needs two real same-venue same-term prints. Missing pair = —.</p>
     <h3>What is Tape Print?</h3>

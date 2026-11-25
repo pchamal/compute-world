@@ -46,7 +46,24 @@ BULK_PATHS = (
     "/silicon.json",
 )
 
+# Source, reference, and inbox paths. Disallowed for every user-agent.
+# These are not a substitute for noindex; _headers also sends noindex.
+PRIVATE_PATHS = (
+    "/src/",
+    "/_redesign_ref/",
+    "/wire-inbox.json",
+)
+
+# Same sentence the homepage Dataset JSON-LD uses. One statement, no second licence.
+LICENSE_LINE = "CC BY 4.0 with attribution to compute.world."
+LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
+
 SITE = "https://compute.world"
+
+
+def _disallow(lines, paths):
+    for path in paths:
+        lines.append(f"Disallow: {path}")
 
 
 def robots_txt():
@@ -54,26 +71,41 @@ def robots_txt():
         "# compute.world robots. Search (Google, Bing, Apple, OAI-SearchBot) is welcome.",
         "# Training / bulk scrapers: use /llms.txt and cite; do not vacuum JSON dumps.",
         "# The site is indexed. This file does not noindex anything.",
+        "# /src/, /_redesign_ref/, and /wire-inbox.json are disallowed for every user-agent.",
         "",
         "User-agent: *",
         "Allow: /",
         "Allow: /llms.txt",
         "Allow: /agents",
-        "",
     ]
+    _disallow(lines, PRIVATE_PATHS)
+    lines.append("")
     for bot in SEARCH_BOTS:
-        lines.extend([f"User-agent: {bot}", "Allow: /", ""])
+        lines.append(f"User-agent: {bot}")
+        lines.append("Allow: /")
+        _disallow(lines, PRIVATE_PATHS)
+        lines.append("")
     for bot in TRAINING_BOTS:
         lines.append(f"User-agent: {bot}")
         lines.append("Allow: /llms.txt")
         lines.append("Allow: /agents")
-        for path in BULK_PATHS:
-            lines.append(f"Disallow: {path}")
-        lines.append("Crawl-delay: 10")
+        _disallow(lines, BULK_PATHS)
+        _disallow(lines, PRIVATE_PATHS)
         lines.append("")
     lines.append(f"Sitemap: {SITE}/sitemap.xml")
     lines.append("")
     return "\n".join(lines)
+
+
+def robots_crawler_note():
+    """Restate robots.txt disallows. Does not claim any crawler is admitted."""
+    private = ", ".join(PRIVATE_PATHS)
+    bulk = ", ".join(BULK_PATHS)
+    return (
+        f"robots.txt disallows {private} on every user-agent group. "
+        f"The named training and bulk crawlers are also disallowed from {bulk}. "
+        "This file does not say that any crawler is admitted."
+    )
 
 
 # Pages 308s /page.html to /page. Sitemap locs are that 200 URL.
