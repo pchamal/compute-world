@@ -1,45 +1,51 @@
 {
-  "updated": "2026-11-25",
-  "title": "Compute brief - 25 November 2026",
-  "description": "Orders up, stocks down: Dell booked $60.2 billion of AI orders and a record $132.3 billion backlog while chip stocks gave back the Huang rally, and grids from Estonia to Finland and France became the binding constraint. Wire: Dell AI backlog, XTX Kajaani, Estonia 3.3 GW requests, Google Indre 1.2 GW connection, US Army power-plus-data-centre RFP, Samsung HBM base die crunch, South Africa power station sites. Tape: 70 confirms, 0 ticks, 0 NEW.",
-  "og_kicker": "Backlog at a record, chips in a selloff.",
-  "lede": "The order book and the stock market split. Dell booked $60.2 billion of AI server orders in its third quarter and ended with a record $132.3 billion AI backlog, lifting full-year revenue guidance to $202 billion, yet the Philadelphia semiconductor index fell 7.9 per cent on 24 November and chip stocks kept falling on 25 November as AI financing and rate worries returned. Power, not demand, is the constraint in Europe: Estonia's grid operator has 3.3 GW of data centre requests, nearly twice national peak, XTX opened 22.5 MW in Kajaani while warning that grid permits now take years, and a Google unit sought a 1.2 GW connection in France that RTE says would take seven to eight years. In silicon, Samsung is reported short of HBM base die capacity, with demand seen doubling to about 30,000 wafers a month in 2027. List prices held for a thirteenth straight trading day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 ahead of Crusoe's posted 1 December step-up.",
+  "updated": "2026-11-26",
+  "title": "Compute brief - 26 November 2026",
+  "description": "The export rule reaches the balance sheet: Nvidia halted server shipments to four Southeast Asian countries, lenders paused billions in loans tied to Chinese tenants, Fitch warned Asia data centre investment will slow, and S&P put Nvidia's AA rating on watch. Wire: SEA loan freeze, Nvidia SEA shipment halt, Z.AI and Moonshot delays, S&P Nvidia CreditWatch and record AI CDS, Air Force 30,000-GPU RFI, KT Cloud 60 MW Ansan, GDS capex cut, Sharon AI 8,208 B300s in Sydney, Ohio 800 MW gas approval, Sines 202 MW. Tape: 70 confirms, 0 ticks, 0 NEW.",
+  "og_kicker": "The chip rule hits the loan book.",
+  "lede": "The US remote-access rule moved from customs to credit this week. Nvidia told server partners including Dell and Supermicro to stop shipping to Malaysia, Singapore, Thailand and Indonesia, the Financial Times reported on 26 November, and Bloomberg reported that lenders have paused or dropped loans tied to ByteDance, Alibaba and Tencent tenants, from Bridge Data Centres' $6.6 billion facility to a $372 million Digital Halo loan and a $480 million Aolani loan. Fitch said Asia-Pacific data centre investment will slow and that neoclouds face the most pressure; Reuters reported Z.AI's next flagship has slipped and Moonshot expects release cycles to double without offshore compute. In the US, S&P put Nvidia's AA rating on CreditWatch Negative over governance, while five-year default swaps for Oracle, Alphabet, SpaceX and CoreWeave hit records. US markets are closed for Thanksgiving and other news was thin. List prices held for a fourteenth straight tape day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 and Crusoe's 1 December step-up still pending.",
   "countries": [
     {
-      "id": "usa-dell-backlog",
+      "id": "mys-sgp-tha-loan-freeze",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "note": "Lenders pause Bridge Data Centres $6.6 billion loan diligence, one bank passes on $372 million Digital Halo loan; Nvidia halts server shipments to Malaysia, Singapore, Thailand and Indonesia (Wire, 26 Nov, single-source)."
+    },
+    {
+      "id": "sgp-aolani-nvidia-halt",
+      "name": "Singapore",
+      "slug": "singapore",
+      "note": "Banks reassess $480 million Aolani neocloud loan; Nvidia booked $104 billion of 2025 revenue through its Singapore unit; shipments halted (Wire, 26 Nov, single-source)."
+    },
+    {
+      "id": "chn-model-delays-gds",
+      "name": "China",
+      "slug": "china",
+      "note": "Z.AI GLM-5.5 slips, Moonshot sees release cycles doubling without offshore compute (Reuters, 26 Nov, single-source); GDS cuts 2026 capex guide to about $1.2 billion from $1.5 billion (25 Nov)."
+    },
+    {
+      "id": "usa-sp-af-ohio",
       "name": "United States",
       "slug": "united-states",
-      "note": "Dell books $60.2 billion of AI orders, record $132.3 billion AI backlog; Army offers nine installations for power-plus-data-centre leases (Wire, 19 to 24 Nov)."
+      "note": "S&P puts Nvidia AA on CreditWatch Negative; Oracle, Alphabet, SpaceX and CoreWeave CDS at records; Air Force seeks 30,000-GPU, about $2 billion supercomputer; Ohio approves 800 MW gas plant for EdgeConneX (Wire, 25 Nov)."
     },
     {
-      "id": "est-elering-3-3gw",
-      "name": "Estonia",
-      "slug": "estonia",
-      "note": "Elering: 3.3 GW of data centre requests, 600 MW signed, 1.3 GW in offers, close to the limit (Wire, 24 Nov, single-source)."
-    },
-    {
-      "id": "fin-xtx-kajaani",
-      "name": "Finland",
-      "slug": "finland",
-      "note": "XTX opens 22.5 MW in Kajaani; says grid expropriation permits now take years (Wire, 24 Nov)."
-    },
-    {
-      "id": "fra-google-indre",
-      "name": "France",
-      "slug": "france",
-      "note": "Google unit filed a 1.2 GW connection request at Villedieu-sur-Indre; RTE proposal about EUR 67 million, seven to eight years; Google says no decision (Wire, 23 Nov)."
-    },
-    {
-      "id": "kor-samsung-base-die",
+      "id": "kor-kt-cloud-ansan",
       "name": "South Korea",
       "slug": "south-korea",
-      "note": "Samsung reportedly short of HBM base die capacity; demand seen at about 30,000 4nm-equivalent wafers a month in 2027 (Wire, 25 Nov, single-source)."
+      "note": "KT Cloud takes all 60 MW of Keppel's Ansan AI data centre, ready 2030 (Wire, 26 Nov)."
     },
     {
-      "id": "zaf-power-stations",
-      "name": "South Africa",
-      "slug": "south-africa",
-      "note": "Ramaphosa pitches end-of-life power station sites for AI data centres (Wire, 18 Nov)."
+      "id": "aus-sharon-esds",
+      "name": "Australia",
+      "slug": "australia",
+      "note": "Sharon AI installs 8,208 B300s in Sydney for ESDS; handover mid-December, billing January 2027 (Wire, 26 Nov)."
+    },
+    {
+      "id": "prt-hermes-sines",
+      "name": "Portugal",
+      "slug": "portugal",
+      "note": "Fortitude Capital plans 202 MW Hermes AI campus in Sines (Wire, 26 Nov, single-source)."
     }
   ],
   "silicon": [
@@ -49,10 +55,10 @@
       "display_usd": 4.59,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 4.59,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print"
+      "note": "Confirm vs 25 Nov print"
     },
     {
       "id": "lambda-b200-od",
@@ -60,10 +66,10 @@
       "display_usd": 7.69,
       "venue": "Lambda",
       "term": "on-demand",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 7.69,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print"
+      "note": "Confirm vs 25 Nov print"
     },
     {
       "id": "coreweave-h100-od",
@@ -71,10 +77,10 @@
       "display_usd": 6.16,
       "venue": "CoreWeave",
       "term": "on-demand",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 6.16,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print"
+      "note": "Confirm vs 25 Nov print"
     },
     {
       "id": "crusoe-h100-od",
@@ -82,10 +88,10 @@
       "display_usd": 3.9,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 3.9,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
+      "note": "Confirm vs 25 Nov print; Crusoe lists $4.50 from 1 Dec 2026"
     },
     {
       "id": "crusoe-b300-od",
@@ -93,10 +99,10 @@
       "display_usd": 8.96,
       "venue": "Crusoe",
       "term": "on-demand",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 8.96,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
+      "note": "Confirm vs 25 Nov print; Crusoe lists $9.90 from 1 Dec 2026"
     },
     {
       "id": "do-b300-spot",
@@ -104,10 +110,10 @@
       "display_usd": 6.17,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 6.17,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print"
+      "note": "Confirm vs 25 Nov print"
     },
     {
       "id": "do-mi355x-spot",
@@ -115,10 +121,10 @@
       "display_usd": 4.5,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 4.5,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print"
+      "note": "Confirm vs 25 Nov print"
     },
     {
       "id": "do-mi350x-spot",
@@ -126,10 +132,10 @@
       "display_usd": 3.0,
       "venue": "DigitalOcean",
       "term": "spot",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 3.0,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print"
+      "note": "Confirm vs 25 Nov print"
     },
     {
       "id": "aws-cb-b300",
@@ -137,10 +143,10 @@
       "display_usd": 16.146,
       "venue": "AWS",
       "term": "Capacity Blocks",
-      "as_of": "2026-11-25",
+      "as_of": "2026-11-26",
       "prev_usd": 16.146,
       "delta": 0.0,
-      "note": "Confirm vs 24 Nov print"
+      "note": "Confirm vs 25 Nov print"
     }
   ],
   "watch": [
@@ -155,66 +161,76 @@
       "note": "Closed-door House interviews 1 December (Teter 2 December); public Senate Banking hearing on export controls 3 December."
     },
     {
-      "id": "megaspeed-fallout",
-      "name": "Megaspeed fallout",
-      "note": "MIDA notice tells Malaysian operators not to host or serve the seven listed entities; 30-day in-transit window runs to about 23 December."
+      "id": "sea-licences",
+      "name": "Southeast Asia licences",
+      "note": "Whether Nvidia's shipment halt lifts as licences arrive; 90-day window for existing remote-access services to about mid-February."
     },
     {
-      "id": "chip-selloff",
-      "name": "AI chip selloff",
-      "note": "SOX fell 7.9 per cent on 24 Nov and chip stocks fell again on 25 Nov; watch whether financing spreads reach neocloud debt."
+      "id": "nvidia-creditwatch",
+      "name": "Nvidia CreditWatch",
+      "note": "S&P review of up to 90 days; a one-notch cut would take Nvidia to AA-."
+    },
+    {
+      "id": "af-rfi",
+      "name": "Air Force 30,000-GPU RFI",
+      "note": "Responses due 11 December."
     },
     {
       "id": "tsmc-nov-revenue",
       "name": "TSMC November revenue",
       "note": "Due by 10 December."
-    },
-    {
-      "id": "bis-ifr-comments",
-      "name": "BIS remote-access rule",
-      "note": "Comments due 19 January 2027; 90-day licence window to about mid-February."
     }
   ],
   "sources": [
     {
-      "name": "Dell Technologies: Q3 FY27 results",
-      "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+      "name": "The Straits Times (Bloomberg): Data centre deals grind to halt after AI chip curbs",
+      "url": "https://www.straitstimes.com/business/billions-in-data-centre-deals-grind-to-halt-after-ai-chip-curbs",
+      "note": "Lead and Wire: Malaysia, Singapore, Thailand."
+    },
+    {
+      "name": "Reuters via Investing.com: Nvidia halts server shipments to four Southeast Asian countries, FT reports",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports-5052112",
+      "note": "Lead and Wire: Southeast Asia."
+    },
+    {
+      "name": "Reuters via Investing.com: Fitch says US chip curbs will slow Asia data centre investment",
+      "url": "https://www.investing.com/news/stock-market-news/us-chip-curbs-will-slow-asia-datacenter-investment-fitch-says-5052417",
+      "note": "Lead."
+    },
+    {
+      "name": "Reuters via Investing.com: US chip curbs threaten Chinese AI model development",
+      "url": "https://www.investing.com/news/stock-market-news/exclusiveus-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-5052154",
+      "note": "Wire: China."
+    },
+    {
+      "name": "CNBC: S&P warns Nvidia credit rating could be cut",
+      "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
       "note": "Lead and Wire: United States."
     },
     {
-      "name": "ERR: Data center grid requests exceed Estonia's peak demand",
-      "url": "https://news.err.ee/1610204917/data-center-grid-requests-exceed-estonia-s-peak-power-demand-several-times-over",
-      "note": "Lead and Wire: Estonia."
-    },
-    {
-      "name": "XTX Markets: First Kajaani data centre opens",
-      "url": "https://www.xtxmarkets.com/news/2026-xtx-markets-opens-first-data-centre/",
-      "note": "Lead and Wire: Finland."
-    },
-    {
-      "name": "DCD: Google 1.2GW Châteauroux report",
-      "url": "https://www.datacenterdynamics.com/en/news/google-planning-12gw-data-center-near-ch%C3%A2teauroux-france-report/",
-      "note": "Lead and Wire: France."
-    },
-    {
-      "name": "TrendForce: Samsung HBM base die crunch",
-      "url": "https://www.trendforce.com/news/2026/11/25/breaking-samsung-grapples-with-hbm-base-die-crunch-as-internal-wafer-demand-seen-doubling-to-30k-per-month-in-2027/",
-      "note": "Lead and Wire: South Korea."
-    },
-    {
-      "name": "Holland & Knight: Army SCI power and data centre RFP",
-      "url": "https://www.hklaw.com/en/insights/publications/2026/11/armys-new-sci-rfp-invites-power-data-center-lease-proposals",
+      "name": "Reuters via Investing.com: AI credit default swap spreads widen",
+      "url": "https://www.investing.com/news/stock-market-news/ai-credit-default-swap-spreads-widen-on-unease-over-cash-flow-5049729",
       "note": "Wire: United States."
     },
     {
-      "name": "South African Government: Ramaphosa AI opportunity speech",
-      "url": "https://www.gov.za/news/speeches/president-cyril-ramaphosa-south-african-ai-opportunity-conference-18-nov-2026",
-      "note": "Wire: South Africa."
+      "name": "DCD: US Air Force plans 30,000-GPU supercomputer",
+      "url": "https://www.datacenterdynamics.com/en/news/us-air-force-plans-30000-gpu-hpc-and-ai-supercomputer/",
+      "note": "Wire: United States."
     },
     {
-      "name": "Investing.com: US chip stocks tumble",
-      "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-extend-losses-premarket-as-ai-spending-concerns-resurface-5050161",
-      "note": "Lead: markets."
+      "name": "Keppel: KDCF III secures kt cloud as master tenant",
+      "url": "https://www.keppel.com/media/keppel-data-centre-fund-iii-secures-kt-cloud-as-master-tenant-for-60-mw-south-korea-data-centre-/",
+      "note": "Wire: South Korea."
+    },
+    {
+      "name": "DCD: GDS cuts capex expectations",
+      "url": "https://www.datacenterdynamics.com/en/news/gds-holdings-posts-10-percent-net-revenue-increase-yoy-revises-down-capex-expectations/",
+      "note": "Wire: China."
+    },
+    {
+      "name": "TrendForce: FC-BGA equipment lead times reach 30 months",
+      "url": "https://www.trendforce.com/news/2026/11/26/news-fc-bga-equipment-lead-times-reportedly-jump-fivefold-to-30-months-amid-surging-ai-substrate-demand/",
+      "note": "Signal: silicon."
     },
     {
       "name": "Lambda Cloud pricing",

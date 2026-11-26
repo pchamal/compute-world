@@ -1,6 +1,213 @@
 {
   "items": [
     {
+      "id": "malaysia-singapore-thailand-lenders-pause-dc-loans-bdc-6-6bn-digital-halo-372m-aolani-480m-gmi-300m-bloomberg-2026-11-26",
+      "date": "2026-11-26",
+      "title": "Malaysia, Singapore, Thailand: lenders pause billions in data centre and GPU loans tied to ByteDance, Alibaba and Tencent after US chip curbs",
+      "summary": "Bloomberg reported on 26 November, via The Straits Times, that lenders have slowed or dropped data centre and GPU loans linked to Chinese tenants after the BIS rule that took effect on 19 November. Some lenders are doing more due diligence on an upsized $6.6 billion loan sought by Bain Capital's Bridge Data Centres, whose Malaysian facilities serve ByteDance. One bank passed on a fully underwritten $372 million loan for Partners Group-backed Digital Halo (Malaysia, serving Alibaba). Banks are reassessing a $480 million loan for Singapore neocloud Aolani, and at least one fund dropped out of a $300 million GMI Cloud loan for a Thai data centre to be used by Tencent. DayOne has put its US listing plans on hold, and UOB's roughly $1 billion risk transfer has slowed. Fitch said on 26 November that Asia-Pacific data centre investment will slow and become more selective, with neoclouds under the most pressure. Caveat: deal details rest on anonymous sources; the companies declined to comment or did not respond. Country conversion: export-licence risk is now converting directly into a financing freeze for Southeast Asian AI capacity that serves Chinese tenants.",
+      "url": "https://www.straitstimes.com/business/billions-in-data-centre-deals-grind-to-halt-after-ai-chip-curbs",
+      "source": "Bloomberg via The Straits Times, 26 Nov 2026; Fitch Ratings via Reuters, 26 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "MYS",
+        "SGP",
+        "THA"
+      ],
+      "flags": "🇲🇾🇸🇬🇹🇭",
+      "tags": [
+        "Finance",
+        "Export controls",
+        "Neocloud",
+        "Stall"
+      ],
+      "score": 50
+    },
+    {
+      "id": "sea-nvidia-orders-partners-halt-server-shipments-malaysia-singapore-thailand-indonesia-ft-2026-11-26",
+      "date": "2026-11-26",
+      "title": "Southeast Asia: Nvidia tells server partners to stop shipping to Malaysia, Singapore, Thailand and Indonesia",
+      "summary": "The Financial Times reported on 26 November that Nvidia has instructed its manufacturing partners to halt server deliveries to Malaysia, Singapore, Thailand and Indonesia, and that partners including Dell and Supermicro have told customers in those countries that Nvidia will not authorise their shipments. It is unclear whether the halt is temporary while Nvidia and partners work out compliance with the BIS interim final rule, effective 19 November, which requires licences for advanced chips to those countries and Brazil and for overseas data centres serving China-headquartered customers above a threshold of roughly 750 H100s. The FT noted Nvidia booked $104 billion of 2025 revenue through its Singapore subsidiary. Separately, CNBC reported on 25 November that sellers have floated deals for thousands of B300 GPUs since the rule was announced; no prices or completed sales were reported. Caveat: Nvidia did not comment; this goes further than the 20 November Nikkei report of individual partners pausing. Country conversion: Southeast Asia's pipeline of Nvidia capacity is frozen at the vendor level, not only by individual OEMs.",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports-5052112",
+      "source": "Financial Times via Reuters, 26 Nov 2026; TrendForce; CNBC, 25 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "MYS",
+        "SGP",
+        "THA",
+        "IDN"
+      ],
+      "flags": "🇲🇾🇸🇬🇹🇭🇮🇩",
+      "tags": [
+        "Export controls",
+        "Servers",
+        "Supply chain"
+      ],
+      "score": 48
+    },
+    {
+      "id": "china-zai-glm-5-5-delay-moonshot-release-cycle-doubling-overseas-compute-rule-reuters-2026-11-26",
+      "date": "2026-11-26",
+      "title": "China: Z.AI's GLM-5.5 slips and Moonshot sees release cycles doubling as overseas compute access is curbed",
+      "summary": "Reuters reported exclusively on 26 November that Z.AI (Zhipu) had planned to release its roughly 3 trillion parameter GLM-5.5 in November but has not, held up partly by anti-distillation safeguards, and that the new US computing restrictions could push the launch into the first quarter of 2027 or later. Moonshot AI, which rents compute and prioritises overseas providers, internally expects its six-month interval between major releases could stretch to 12 months or longer if overseas access is cut off, with Kimi K4 possibly delayed to around mid-2027; a source said domestic capacity could not make up the shortfall. Moonshot is stepping up efforts to rent compute in Europe and plans to approach Chinese chipmakers. Caveat: anonymous sources; neither company commented. Country conversion: the BIS remote-access rule is translating into measurable delays for Chinese frontier model output that relied on offshore Nvidia capacity.",
+      "url": "https://www.investing.com/news/stock-market-news/exclusiveus-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say-5052154",
+      "source": "Reuters exclusive, 26 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "CHN"
+      ],
+      "flags": "🇨🇳",
+      "tags": [
+        "Export controls",
+        "Demand",
+        "Capacity"
+      ],
+      "score": 40
+    },
+    {
+      "id": "usa-sp-nvidia-aa-creditwatch-negative-oracle-coreweave-alphabet-spacex-record-cds-2026-11-25",
+      "date": "2026-11-25",
+      "title": "US: S&P puts Nvidia's AA rating on CreditWatch Negative as AI borrowers' default swaps hit records",
+      "summary": "S&P Global Ratings placed Nvidia's AA issuer and senior unsecured ratings on CreditWatch with negative implications on 25 November, citing management and governance deficiencies exposed by the CEO's resignation and reinstatement and questions over export control compliance; any cut within 90 days would likely be one notch to AA-. Nvidia priced $25 billion of senior notes in June and backs some partners' debt, leases and hardware purchases. Reuters reported on 25 November that five-year CDS spreads for Oracle, Alphabet, SpaceX and CoreWeave hit record levels overnight per S&P Global Market Intelligence, with SoftBank at 501 basis points, its widest since October 2022; Investing.com put Oracle's five-year CDS at a record 356 basis points. Nvidia closed down 3.9 per cent at $149.30 on 25 November. Caveat: CDS levels are third-party marks; S&P said Nvidia's business position is unchanged for now. Country conversion: the cost of capital behind US AI capacity is rising at the top of the stack, including for the vendor that guarantees neocloud commitments.",
+      "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+      "source": "S&P Global Ratings via CNBC and Reuters, 25 Nov 2026; Reuters, 25 Nov 2026",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Finance",
+        "Economics",
+        "Capital"
+      ],
+      "score": 44
+    },
+    {
+      "id": "usa-air-force-daf-advanced-aerospace-computing-30000-gpu-2bn-sources-sought-30mw-2026-11-25",
+      "date": "2026-11-25",
+      "title": "US: Air Force seeks commercial models for a 30,000-GPU, roughly $2 billion aerospace AI supercomputer",
+      "summary": "The Air Force District of Washington posted a sources-sought notice, DAF Advanced Aerospace Computing, on SAM.gov around 25 November for a purpose-built aerospace HPC and AI supercomputer of up to about 30,000 GPUs or equivalent, for tensor workloads, physical AI, large model training and dense simulation. It estimates about $2 billion of computing equipment and data centre facilities and asks about public-private models, take-or-pay or anchor-tenant commitments for non-defense capacity, and pricing tiers for dedicated GPU capacity with public-interest preemption clauses. The current site has about 750 kW of room power, scalable to 30 MW with substation capacity, plus a planned further 30 MW pad and batteries. Responses are due 11 December. Caveat: a market survey, not a procurement or award. Country conversion: the US military is moving to own frontier-class compute through financed public-private structures, adding sovereign demand to the US build.",
+      "url": "https://www.datacenterdynamics.com/en/news/us-air-force-plans-30000-gpu-hpc-and-ai-supercomputer/",
+      "source": "SAM.gov notice FA7014 via DCD, 26 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Sovereign",
+        "Demand",
+        "Capacity"
+      ],
+      "score": 34
+    },
+    {
+      "id": "korea-kt-cloud-keppel-kdcf-iii-ansan-60mw-master-tenant-2030-2026-11-26",
+      "date": "2026-11-26",
+      "title": "South Korea: KT Cloud signs as master tenant for Keppel's 60 MW Ansan AI data centre",
+      "summary": "Keppel said on 26 November that Keppel Data Centre Fund III has secured kt cloud as master tenant for the full capacity of its 60 MW greenfield data centre in Ansan, in the Seoul metropolitan area, with construction starting this month and service targeted for 2030. The eight-storey facility will have liquid cooling for high-density AI. KT Cloud broke ground on a separate 50 MW Ansan facility in October and plans to run them as an integrated campus; it targets up to 1 GW of AI capacity by 2031. Caveat: lease value and rent were not disclosed by Keppel; a Korean filing values KT Cloud's right-of-use asset at about KRW 653.5 billion. Country conversion: Korean AI demand is converting into fully pre-let capacity near Seoul, but with a 2030 delivery date.",
+      "url": "https://www.keppel.com/media/keppel-data-centre-fund-iii-secures-kt-cloud-as-master-tenant-for-60-mw-south-korea-data-centre-/",
+      "source": "Keppel press release, 26 Nov 2026; DCD",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KOR"
+      ],
+      "flags": "🇰🇷",
+      "tags": [
+        "Build",
+        "Capacity",
+        "Cloud"
+      ],
+      "score": 30
+    },
+    {
+      "id": "china-gds-q3-2026-capex-guide-cut-1-5bn-to-1-2bn-utilisation-81pct-2026-11-25",
+      "date": "2026-11-25",
+      "title": "China: GDS cuts 2026 capex guidance by 20 per cent to about $1.2 billion",
+      "summary": "GDS Holdings reported third-quarter 2026 net revenue of about $477 million, up 10 per cent year on year, with adjusted EBITDA up 2.8 per cent to $207 million (43.4 per cent margin) and utilisation of 81.2 per cent, up 6.8 points. Area committed and pre-committed rose 25.5 per cent to 823,876 square metres. GDS cut its full-year capex expectation to about $1.2 billion from the $1.5 billion guided last quarter, citing its preliminary view of the business situation and market conditions; revenue guidance was unchanged. Caveat: GDS did not tie the cut to any specific customer or to export controls. Country conversion: China's largest independent operator is filling existing halls but pulling back new spend, consistent with constrained access to accelerators.",
+      "url": "https://www.datacenterdynamics.com/en/news/gds-holdings-posts-10-percent-net-revenue-increase-yoy-revises-down-capex-expectations/",
+      "source": "GDS Holdings Q3 2026 results via DCD, 25 Nov 2026",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "CHN"
+      ],
+      "flags": "🇨🇳",
+      "tags": [
+        "Economics",
+        "Capital",
+        "Build"
+      ],
+      "score": 30
+    },
+    {
+      "id": "australia-sharon-ai-esds-8208-b300-sydney-handover-mid-dec-billing-jan-2027-1-25bn-2026-11-26",
+      "date": "2026-11-26",
+      "title": "Australia: Sharon AI installs 8,208 Nvidia B300s in Sydney for India's ESDS, billing from January 2027",
+      "summary": "A regulatory filing by Indian cloud provider ESDS Software Solution, reported by w.media and DCD on 26 November, says Sharon AI has installed a cluster of 8,208 Nvidia B300 GPUs for ESDS in Sydney, now in final testing, with handover expected in mid-December and billing from January 2027. The five-year contract signed in April 2026 was valued by Sharon AI at $1.25 billion. Revenue had earlier been expected from the third quarter of 2026; the parties agreed to defer acceptance until testing is complete. Caveat: delivery slipped about two quarters. Country conversion: Australia is converting into an offshore B300 host for an Indian cloud, outside the five licence-required countries.",
+      "url": "https://www.datacenterdynamics.com/en/news/8208-gpus-deployed-by-sharon-ai-for-esds-software-solution-in-australia/",
+      "source": "ESDS regulatory filing via w.media and DCD, 26 Nov 2026",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "AUS",
+        "IND"
+      ],
+      "flags": "🇦🇺",
+      "tags": [
+        "Neocloud",
+        "Capacity",
+        "Silicon"
+      ],
+      "score": 28
+    },
+    {
+      "id": "usa-ohio-power-siting-board-approves-800mw-gas-plant-edgeconnex-ashville-despite-referendum-2026-11-25",
+      "date": "2026-11-25",
+      "title": "US: Ohio Power Siting Board approves 800 MW behind-the-meter gas plant for EdgeConneX despite local referendum",
+      "summary": "The Ohio Power Siting Board approved an up to 800 MW natural gas plant to power an EdgeConneX data centre behind the meter in Ashville, Pickaway County, the Ohio Capital Journal reported and DCD relayed on 25 November. About 81 per cent of Ashville voters had rejected the village's agreement with EdgeConneX in a midterm referendum; the board said it holds final permitting authority and found the project in the public interest, citing economic benefits, council support and construction noise limits. EdgeConneX had offered up to $102 million to the community. Opponents have 30 days to seek rehearing, then a possible Ohio Supreme Court appeal. Caveat: a separate 430 MW EdgeConneX gas plant for New Albany is still in filing. Country conversion: state regulators are overriding local votes to convert gas into on-site data centre power.",
+      "url": "https://www.datacenterdynamics.com/en/news/ohio-regulators-approve-up-to-800mw-gas-plant-set-to-power-edgeconnex-data-center-in-pickaway-county/",
+      "source": "Ohio Capital Journal; DCD, 25 Nov 2026",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Policy",
+        "Build"
+      ],
+      "score": 26
+    },
+    {
+      "id": "portugal-fortitude-capital-hermes-202mw-sines-zils-ai-campus-2026-11-26",
+      "date": "2026-11-26",
+      "title": "Portugal: Fortitude Capital plans 202 MW Hermes AI campus in Sines",
+      "summary": "Portuguese investment firm Fortitude Capital is developing the Hermes Data Center, a 202 MW greenfield campus for AI and HPC workloads in the Sines Industrial and Logistics Zone, DCD reported on 26 November. Hermes was added to the portfolio of zone manager Aicep Global Parques after Iberdrola withdrew its Green Ammonia Express project, which had reserved 21 hectares. Sines already hosts Start Campus, planned for up to 1.2 GW of IT. Caveat: no investment figure, power contract, tenant or timeline was disclosed. Country conversion: Sines is converting land freed from a cancelled green hydrogen project into a second AI campus.",
+      "url": "https://www.datacenterdynamics.com/en/news/fortitude-capital-plans-a-202-mw-ai-campus-in-sines/",
+      "source": "DCD (from DCD Spanish/Portuguese edition), 26 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "PRT"
+      ],
+      "flags": "🇵🇹",
+      "tags": [
+        "Build",
+        "Land",
+        "Energy"
+      ],
+      "score": 22
+    },
+    {
       "id": "usa-dell-q3-fy27-ai-backlog-132-3bn-orders-60-2bn-ai-server-rev-22bn-2026-11-24",
       "date": "2026-11-24",
       "title": "US: Dell books $60.2 billion of AI server orders and ends Q3 with a record $132.3 billion AI backlog",
@@ -5043,6 +5250,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-25",
-  "note": "Wire refresh 2026-11-25: added usa-dell-q3-fy27-ai-backlog-132-3bn-orders-60-2bn-ai-server-rev-22bn-2026-11-24, finland-xtx-markets-kajaani-22-5mw-first-dc-open-expropriation-permit-delays-third-facility-2026-11-24, estonia-elering-3-3gw-data-centre-connection-requests-600mw-signed-1-3gw-offers-near-limit-2026-11-24, france-google-tricolore-computing-villedieu-sur-indre-1-2gw-rte-connection-67m-2026-11-23, usa-army-sci-rfp-daca27-nine-installations-power-plus-data-centre-25yr-eul-2026-11-19, korea-samsung-hbm-base-die-shortage-30k-4nm-wpm-2027-giheung-p5-taylor-p2-2026-11-25, south-africa-ramaphosa-end-of-life-power-station-sites-ai-data-centres-2026-11-18. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-26",
+  "note": "Wire refresh 2026-11-26: added malaysia-singapore-thailand-lenders-pause-dc-loans-bdc-6-6bn-digital-halo-372m-aolani-480m-gmi-300m-bloomberg-2026-11-26, sea-nvidia-orders-partners-halt-server-shipments-malaysia-singapore-thailand-indonesia-ft-2026-11-26, china-zai-glm-5-5-delay-moonshot-release-cycle-doubling-overseas-compute-rule-reuters-2026-11-26, usa-sp-nvidia-aa-creditwatch-negative-oracle-coreweave-alphabet-spacex-record-cds-2026-11-25, usa-air-force-daf-advanced-aerospace-computing-30000-gpu-2bn-sources-sought-30mw-2026-11-25, korea-kt-cloud-keppel-kdcf-iii-ansan-60mw-master-tenant-2030-2026-11-26, china-gds-q3-2026-capex-guide-cut-1-5bn-to-1-2bn-utilisation-81pct-2026-11-25, australia-sharon-ai-esds-8208-b300-sydney-handover-mid-dec-billing-jan-2027-1-25bn-2026-11-26, usa-ohio-power-siting-board-approves-800mw-gas-plant-edgeconnex-ashville-despite-referendum-2026-11-25, portugal-fortitude-capital-hermes-202mw-sines-zils-ai-campus-2026-11-26. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
