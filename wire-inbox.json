@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27 16:01 UTC",
+ "generated": "2026-11-27 21:18 UTC",
  "note": "Machine-gathered candidates. Human review required before any item enters wire.json.",
  "candidates": [
   {
@@ -75,69 +75,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Deutsche Telekom boosts its sovereign AI push with 100 million for Mistral - Techzine Global",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUVU0WUwwd1diM3FTaXJJTnhfVnRLT2t6YUZLM0V6TmhDQ0V3MnpKZFU5TV9BNjBybURrRzVpeXhCNWw4SXkxN0E0RzdUQXpscDFfT3AxMm04dnhtWTJzWXhKTDZwcUU4bndZNjVRY0pVVUc5bjI2NF8zRTJxdnBybFREY2E4MUlnWENOYVIta1FldTFmc290QXl2YVp2QzY3UnBqVmxKbE9xSFc1NkFQVG13N1BnMDJKSUt3dlVxRXpXdW51?oc=5",
-   "source": "Techzine Global",
-   "date": "2026-11-20",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Deutsche Telekom invests €100 million in Mistral to accelerate sovereign AI in Europe - Intelligent CIO",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZExGWXcxaVpfZkpVaFIweWpWcEM3aExYWTRjZS12eEtCR20wRHhWbktlUGpqLUppX0VrRlljQXE5aHBQX3lrVm1nOWJrQUlfWlU3YXNsQlBhMkhMTExFUU9nWWwxVkFIUUZ5SG5ibkZRR0tyWnBVcU04akhmdWM4UU54bldBOGNtWnZsdldUaDJOS3ZSTno5OWFtbjVYRlg0OVpKenhINWdqSmVMbjNpZy1GX19jcVZWSVZ5dlJRUGVLTVNZVG9mY09Jcw?oc=5",
-   "source": "Intelligent CIO",
-   "date": "2026-11-25",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "JohnAIC Raises $1.9M to Scale Sovereign AI Infrastructure in India - Deccan Chronicle",
    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPQ21qRlBBV3J3RGFtUTBmWHFDQ3Y3emNyZnA0SWJONVhFRS13dGlObWR6anhURzlYWkFQendLVzJVckk3QUxOazM0aDlBLVdidFZELUQyNTF5WDZ6TFp6cUZwQmxxMDRzWEdFRGlsVV94T2NGLVV2X2tnT2RzZVEzMXNvMG9IZWpOdGtya1ZreE1NeElCXzNHNlNLdGg2amFuck1MczFjdzd5ZzZGT3JwU3BJcHlSeGkxZzU5SDNOR2dTVVdjYWhrVnFsSzZLS2NTaTlLZTZSMktMLVE0Q1p3eElWcjBQeUxzN1A2c1ZfWjJHWnpuckdrN3NETFM2Q1FiamF6NWZzcnNRVUFTeXQwcG5WQmnSAZoCQVVfeXFMUGp1UnhpczFHVFIxUTN4NlhJc3VucnFCX04xcFk1bHBZTHN0dHRObnZadG1DdnA1MXNpRWMzbkIyNkxmbU1KUzJkaE1GSVlMMTAzZFJNZHRRakp3S2FRR18tQVJwRG5MYTlnYkd4eVMwWFg3U0FVMThrY0Exa2p6WU5KLVVfSHEwWUtwWmd5WUs0TmJtdVRidHljSDlsY0FWU0V4WVlyUV83STExVkk3bDQ5UDg0WFNpZE5wZE5PUE5YVEZ5QkphY3pLN2tISWNOa1dvSTBEOUl0c2RCWWg4cUxkdWNkTnRFR2U3cHRGVXRfT0F3NHdHaGI2c1FtdGtIMF93YVFzNVRGa3Ewd0J0cjhBeURTcGRiNUxn?oc=5",
    "source": "Deccan Chronicle",
-   "date": "2026-11-23",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Agon raises $70 million in Series A round to build Europe's defence AI lab - The Economic Times",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbEF2MXFqMDFzRFB6ZjZfNHcwN2UwcUxGdlo2TTRqdjd0aFpmNkJ0Wk5CR19RVGRIMl94UFVuRE1adktfVWNvS0g3SFhpbGpDV3VVeHIxLXN2S3d3bURHbDhCVGNwOVVocmZWNEZ0RWQ0bWljVU4zT1BYdjcyRU82RV9PMFlzLUxKdDVKcHlfQjA2aWFlbHFqZkVyeUc5dVVNRVg1RGhsdHBneTRDQkhnMk1QakFHLUw1RVlKcWE3ZWZKV29RX2pnakJ6S1NJM2FjdWJoMWxrTVBTMFB3aWpoZzZFLVZLX0RGVkxn0gHwAUFVX3lxTE8zaDk1ZWIyOVhpY09sdjRmbDlKbWdFa2EyZGVyQURjbndzZUtIc2tjNjJEUFRoMmJrQ1FseWI3WXI2Z1RLeEd4RG9GRE1kc1FJdUxNV1ZBa042UkdTQlJ5WEhmdG9QTjc0Vjd4cF95SGxpQlQzUDgya24tblJRQThBR2dWR09mOHRuaHppZDFyajN2NjhIa3AxRW9LQlFGancxQVgzU0U5VFV3RzVDcGNOaUoxQWpoODhDNGFfMkZ5R0xpNElQN1RKaUJBdkpBZUlFd1p4cDhNN1VreDBWZlo3c1Bvb19GemRBYUdwRXQ5Uw?oc=5",
-   "source": "The Economic Times",
-   "date": "2026-11-23",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Agon Raises $70M to Build European Defence AI Infrastructure - n24.com.tr",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ1dPOVJkSWM3Y1NDRFVweExWX1dGNEZFUWRUeS1NUDFwcEFLRHV4YWZHRkZrWFNFbW1sMTNxMDVLdk12ZGYybFhWWGJnUk5GZFJCN0gzRHRBU0VYeUZhU0E5QkIxYjZvaXpyV0wtVXlJNGRWamk4RG9LWnNXdGJpRTNKMkFuUGRKdVZsakZFVnllRTMySG1hZlpR?oc=5",
-   "source": "n24.com.tr",
-   "date": "2026-11-23",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Agon Raises €63.98 Million to Build Sovereign Defence AI - n24.com.tr",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUDAzOF85S3FpSGROeDBGd1RiX2hGeFBSMGk3WkU4S29ONmJHSG1GT3FETHlRRGY3aVkxYnUxdWQ0RW5wbS1mX1o5a2J4cFo1YVlFQ2lfODdzaktob1BwMWZTbEx1UHNEYkRCaXN5SlBRWUpBWkpLYlRpUVNZd2Fhc1FsYW4wZEpvUEdzTGxCVXVDT3l5?oc=5",
-   "source": "n24.com.tr",
    "date": "2026-11-23",
    "via": "gnews",
    "country_hint": "",
@@ -231,18 +171,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Applied Digital Secures $300M Bridge Loan for Louisiana Campus - Wisevoter",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMlNHQThxZUd2d2VnalVpSC1oY2NadTNERVllTFNsejJHYnBrcVFWUXJiX3M3bnJrckpGTkp3MWxjR2I3NFZ6eU03LXozOVREUXNRM0hXNEZUWWlnQnY0UkNMaWl3dXMzRExaYUtXcmVndG5GYWRLTHN5WXp6U3VKd0FjMk1ZWURMMUx3YnZOR1owTFphZUhrUnc1NWItang3?oc=5",
-   "source": "Wisevoter",
-   "date": "2026-11-25",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Global AI industry needs nearly $3 trillion in annual spending to justify infrastructure investments by 20 - The Economic Times",
    "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPSnJKY0FMMHlWTDdxWTUwN2JCNE1QSGRVYTNVMEZ0cnA1bTNfOGNDMXV1WmF1TTROTGZ6ZkNXenducVJrbjlWdzVvVXJyc0hRMjNsak5IZVRYZDFPV3FuckhRa25RQmtMUFNia3U3TVVGWVNsMjh6U0puVGotam9TbTZPUnRqSkRpX0dXM19fWGViNWpDVmlLRW1uS2VIUmhPVGd1cU81VjJ2TUtqX3ctSzhZSlZEanlJSlZnUl96cmpfaElYOXljak1yV0NiNWptTFFCZHhsam8xVGpHVDVieG5oWmdXeVJ3eGhMcktQOU1pV0hoSXVEcEJvNzJZa29KOVBtVnR6NFJZREdrVGVfTDZLeWlMWXRhNkRHRWt2YVRXVVVwTDZfbU9INU3SAbICQVVfeXFMTmt5RG1qX1pxeHJXbjFKQVZUdUY3cW55dzN0TTc1R1l3S09paW1vcVgzZWI5NFdZLVowM0dHeFdBd0dTSEEtYkxuYXB6cVR6S2tSZ0daX2VlUjZ0dDUydnZ6WDBaS19ldjllZ1RCak9nclo5UEI2bVo3T0hENkNicmZjOVlXcVpOc2c2alZlNlJHeTgya0NfQ0MzTmtvdXhrbkVaZDR4eVNsbEpwMGNYY0s3SGFRdjdEV0FPMkowbmhFTDdTQUh4a0xsWlM3TmxabDFtUTZEZHFWQmlEc2dqdUY5WnVGR25meWdlMkFBT3BvVHNSTjlxOS16VWZIZ2pyY2tZM2ViRVhZbXowTXVVcENBTEhhOE1yRmotVTRTZ3RMZ0lCQUdNYzJrbVpoRUxERUxn?oc=5",
    "source": "The Economic Times",
@@ -270,18 +198,6 @@
    "title": "Nvidia Stock to $620 by January? Meta AI Predicts Wild Rally After Jensen Huang’s Return - Tokenist",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTHR1WkYxb0NDMm92ejlYWklaN2t0Q0RfbEx2cndXMk5NaUF5Ty1ESktpa3NTME54MkhhcWdTRXVGQTJFekZ2VlVBTi1yLWJYSHh0bjNwOUlGajNMZ3Ytdno1QzVMbEVaVjBoV2JoOG9ZVjZ5dExRSHJsUWltVkNubWctdm1WLXZpaDAxdDdkMzFic0NJV1ZmYll0ZFV4U2wtM0Z1Sm1wd2h1VlE?oc=5",
    "source": "Tokenist",
-   "date": "2026-11-26",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 55,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Alice Huang-linked firms financed $270 million in China AI servers - ET Datacenters",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNUkdXY0cwaUtkb3VJVThTVmZ3bEE4Sk1weU1ZZTVrWTNySHQ2Sk8yejFNaVZQMVVVQ2dOV3FmNlJnRGtCdTBQSzJXNmx3XzhpVFVnZEVBWHp0VElTdG5MQWdOWmI4UDM3MmU5WFVMMThwWWg5M0hlNk0wRk9qdDFNWnJkM3hTTk5LRVBGS2VCbFJ5THVFTC1ZYXpyR1ZveUtmbXFqWjNzcHJ0M1pkckxuNnB0UWtRU0RlNWtYbDhEZ2YyRnozeGVDUi1MWDhqcmtFSWZUaEh6dEp2SGJXTXp0X0k5SDRjVndCYUpr0gHwAUFVX3lxTE84aWVIXzk5b1BWb3NzOXY0WHNkaEpRVmo4S1A5ZkkwMlA2UnhXOUlRZzFlZVEwZm9hZ3g2akVKT3VoV1VEZzNzUW0xV0RjV3lWU0RXdWdDb0NPcXpzMkNzUThNZEZfajlDQ3dkZ2ZtdUdxeVdsYTJtVWdDaWh4Ri1nbjZvRFV4d3dTek9lTjR4Ulh5bllnUHl3U2trUkVmN3dfd3RFMDZjN0tCTXhQM0lOR1V0d0JOM09XRmFjQ2JkTWRfOVE5VTRSZVF3ZWpNVEhubWx6SDV3cEFacU8wMUJIXzdCWjR2aGNZYy1NOFpfVA?oc=5",
-   "source": "ET Datacenters",
    "date": "2026-11-26",
    "via": "gnews",
    "country_hint": "",
@@ -363,6 +279,30 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "Guest column: Will data centers use up all of our water? - InForum",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU1plTDIzN3JEeUhPV2lrOHdVRGJjNkg0dmp0YlVuMHlVMlhNZk9EWk80Ty1GQ3RzRUlBTkZaNjE5UXdzMFFibEFXMmRqdVRfNVcxWUpETjhGQ3pNdWppV1FYM1dNdGNZZ0ZkSjJrQlFxUXh3Y2luT001OEZlOTBXbDUwNzg1NXZuODBFMGtSVXdFSzhJN1ZfVmR3?oc=5",
+   "source": "InForum",
+   "date": "2026-11-24",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "LTN Compute deploys NVIDIA B300 GPUs at Chennai data center - ET Datacenters",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSzEtQVV3Y1RYYlFRdnpxNjVVcEZVbzF5X2p2ZVAySmxvVVlpQW4yUVowREpFeVlLdjhlRS1QU0otdGJINGlsaUxyenV2NWtyXzZEX3RRWnpHNlVCMjQzTjFrMEg1WE1ESkMzTFR5QTVtbDJWdHlGYzVUT01VRmlGV1VYMERWTXprWUpoSkhyUHZmSE1DcFlybmprMDBEallZQmRWcmpRdGlaTVZiSUJYU29vcWpOQzFkV2dWb3ktdC1KbE5tb2pCakZ1b0NHOThHLUNGZnRQVXVpN1VTZ1RmdFVUSdIB6AFBVV95cUxNOE4temQ4bGktc3BpOEpCcG9wQUtGNEllOFB3SnBuZVQ4LUdCaG9rQmZkRTJFcEQtWU9ySjBVRWRsd28zOGc1dWRuMjRpQS1nS0JvRlZtdTV3Z3Q0MHFpdmRNTHpOOGMxTlJxUHhJZzFFTkZPUDE4azd5MUFBUk1tb0J1WndISVBkZUNYbUVVQTdlSEtJNjIwU3NkQmFtenN4WmhYS0wzaTN2OHNvZGZzME1BNGN0dXJpeHhCbjd1UW5tVEpDOTBaOWN0cFhfTEs2MzlLYXI0bEd4MGdlV1pPVVA4dTFZRkVn?oc=5",
+   "source": "ET Datacenters",
+   "date": "2026-11-24",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Sunway Group Accelerates Secure and Sovereign Enterprise-wide Artificial Intelligence With HPE - Business Wire",
    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWVp4eFNwMkZFcjVJS0xNenh6TU04R2NjM0JvMGpCV1hGVWE5RkhyRlBsMVNnc3oxR1g2N19xNUJXSEVZZHctRU5JN1gzeENnR1k4T0hSR25FdmtTY1F5TFZxZWttdkdIZC1BU1lPaUp3azJFSGt3WC1BcWVRRlhHOHpaekJoSDZ4c05CTnI4WnhFT0d2RHlPNkRkTl9iVTQzV0dUVHdvaEZNS2M5ZTVOdDhjZHFrRk9odTBCVDBHaVl4MnJPRWtNRVluNHJCRFdNNGdGTzR0ZVpDNFdZbW9KcG9PdnZFZw?oc=5",
    "source": "Business Wire",
@@ -375,9 +315,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "LTN Compute to expand Chennai AI data center with Nvidia B300 GPUs - ET Telecom",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVFZHdGotZEw4NURqT1d0MzVrS2U4NGdRWmo1MGdaWHd5TFhiaF94a0t0VmxXYjhvQXlRa3RLWkxsOExPWi0yczZyX2s0blBHTkpvTVBSQl8xNEF0eXdFWWw0TW5GZDd4M0x2eTh5NDZ0Y1FQQWlYTjNpWkpyNzFHdk14aEdtTzJJVWh3d1h5QTJNSnN1b3JaQl9nc1pYdzNoS3NqbXB3bVdwbU1jRkNVTUYzMkxtVkNTTlZOUFV5VDNUd1M2VDZ3MTg4X0ZDZF8y0gHWAUFVX3lxTE1qd19MbjVwdmt4Q3l0TUZSWkNhaDNSdkstS3ZSeWNpNGJMTEpyYktENzI2WDFDV0QwcGR4RWxkUXBJSWMwd2VsZXNZVmVpOFhYa29ocU50MWpxeG5XeWVpSHZXVkM2S1RETkJNV0dVZEVLblNFbkZJZThvUFpaZ3BRX3ljSzVIUXNUQmJrRXNSeUQ3VzIwTlRaclhMeEpBbWRnQWw1VzlXeEZYM01mN0tmWTdCbHg1MmRjV2Zzb0ZBc3g2aUxzZ2J2b1pRZWNpOEUtN29kSXc?oc=5",
-   "source": "ET Telecom",
+   "title": "How Ukraine is building an AI-powered government that can withstand war - GovInsider",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWEtnNG1XSkVIMTdwTWxKck5uNDE0UU9MZnAwRHA2RGJNMzlJRVZkRURuZnp1djlHOGZnNEZ2UVYtUGg4OTRCU2w2MzhvckNkeDljUDNtdHlBcGNYWGQ5blVDVDE1YzZoZjF3VHB1aFg3UFUyOF9wRDN1aXpjSVlQZWlWRnNRSzJEYnhwaW9SSHZ5Qlo3c0pBaWJidGRLX0lwblQ2dzVYQVZTcHIxRUc2dg?oc=5",
+   "source": "GovInsider",
    "date": "2026-11-23",
    "via": "gnews",
    "country_hint": "",
@@ -411,6 +351,18 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "[PRNewswire] Ensign InfoSecurity partners with HPE - Yonhap News Agency",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rZTNfckI4TTRfX1ZiVVNLbjdvOXFjZFFJc3VfQ1FDSUZxNUhlMFljMFo5emREdnA5Wk1PWEFQOGpuY2l3N01KNTU2NEJydGJUNjFVdFZ6UG1TTzkxYmZtWjdEZ0pRZFpZNVRnU2RoTFVjNVdrODNjYmtESWZZZjQ?oc=5",
+   "source": "Yonhap News Agency",
+   "date": "2026-11-26",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "Atos Launches its Sovereign Agentic Studio in China to Accelerate Enterprise AI from Pilot to Scale - The Manila Times",
    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTkdBRTJtcXJ5WVJZVW1wWklyNkFhdWY1NUlMLUNGZ2pWVkppMllSYnRRMjNYbU95N3hnd0xDcHVGYnBGZ05nY0RmUjQtUlZkQzNyaDJYdWRBNnNvN2NnbTdwLU04WTlkaUM3X3dfUU1mNEJqMXhhTXJBd3UtU2wtNkVIS0pDb0g3OGZfUkpqMF9XcmhTV1BfejFHUXVGQ2otVjc1SE5qR3Z3akpzM2NVMktZWllmNFJ2S1dNZUR0M0dwWUFTUnBBZ3lPTzdudDhWa3o1Tml2a2dCdXlMMlpRdkVjc3B1aDdQTy1JMXJsd2NxbFpBcDk3R1pNYzNleFdES2E4SUFIWHHSAYgCQVVfeXFMT05HQUUybXFyeVlSWVVtcFpJcjZBYXVmNTVJTC1DRmdqVlZKaTJZUmJ0UTIzWG1PeTd4Z3dMQ3B1RmJwRmdOZ2NEZlI0LVJWZEMzcmgyWHVkQTZzbzdjZ203cC1NOFk5ZGlDN193X1FNZjRCajF4YU1yQXd1LVNsLTZFSEtKQ29INzhmX1JKajBfV3JoU1dQX3oxR1F1RkNqLVY3NUhOakd2d2pKczNjVTJLWVpZZjRSdktXTWVEdDNHcFlBU1JwQWd5T083bnQ4Vmt6NU5pdmtnQnV5TDJaUXZFY3NwdWg3UE8tSTFybHdjcWxaQXA5N0daTWMzZXhXREthOElBSFhx?oc=5",
    "source": "The Manila Times",
@@ -435,18 +387,6 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Atos Unveils Sovereign Agentic AI Studio In China - BernamaBiz",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kUmx0YU9CeXB5bGw4MnlNR091Y1gyMGx3MEtEbDBOQjJQVmdENHFEclpjNWkyc0F0Q3ZjV281NVVhWFpoUkVEcHNYd1RUOUlfNXM3Vg?oc=5",
-   "source": "BernamaBiz",
-   "date": "2026-11-24",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Larsen & Toubro Secures (Large*) Order for Deploying AI Cluster - Larsen & Toubro",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZlJlVWNMWHpBVFF2ZHo1Yld1azVuT1RzS2w3bE5vT3ZLeUpCbXV4bnFHSGNxMDhKSWtxai02eVkyLXNYb21DQVRsNEQ1aU5sSjZxVHV2YVFfUHFreTlvb1JGVGdRS1lOQnM5dm1RcmdEN3BvelBHS3RqQWxpYzFQZjhvQ1dSdkNFUkJfSDZBbWRmQTZLRXYza3MzZEp2cGlldkF5Y3plY21lT0plenQ0TW5aaTh3M01x?oc=5",
    "source": "Larsen & Toubro",
@@ -459,10 +399,46 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Ensign InfoSecurity partners with HPE to help enterprises deploy AI with greater control and security - The Malaysian Reserve",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT2xOT29LcXZ6YmNXSWp3VTlkdDNKLUFZWnJKT1R5RGpIdF9HY0FaVTJYOXZWVHBlRXlYZkxoRDh3clRIOVQ1MGtGYmxNU2paRkw3WWZCb1BSWk9fejQ2bHJvWldhbGpiRkJ6NnVsWFRKRG9aUXp0TG5VczFmU0pwaXVGREVZUGhIeG9LSGdKYW5oQWQxcHVreU1GdkhFeWNGNFlWQWFxdTN0VVo1S05vT3oyb2w3VWktRnRUT1h0TVpjdTRqR3puek9Qb0JLb2l1N2Fwb1RIZWtrYlo3enc?oc=5",
-   "source": "The Malaysian Reserve",
-   "date": "2026-11-26",
+   "title": "Atos Unveils Sovereign Agentic AI Studio In China - BernamaBiz",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kUmx0YU9CeXB5bGw4MnlNR091Y1gyMGx3MEtEbDBOQjJQVmdENHFEclpjNWkyc0F0Q3ZjV281NVVhWFpoUkVEcHNYd1RUOUlfNXM3Vg?oc=5",
+   "source": "BernamaBiz",
+   "date": "2026-11-24",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "LTN Compute to expand Chennai AI data center with Nvidia B300 GPUs - ET Telecom",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVFZHdGotZEw4NURqT1d0MzVrS2U4NGdRWmo1MGdaWHd5TFhiaF94a0t0VmxXYjhvQXlRa3RLWkxsOExPWi0yczZyX2s0blBHTkpvTVBSQl8xNEF0eXdFWWw0TW5GZDd4M0x2eTh5NDZ0Y1FQQWlYTjNpWkpyNzFHdk14aEdtTzJJVWh3d1h5QTJNSnN1b3JaQl9nc1pYdzNoS3NqbXB3bVdwbU1jRkNVTUYzMkxtVkNTTlZOUFV5VDNUd1M2VDZ3MTg4X0ZDZF8y0gHWAUFVX3lxTE1qd19MbjVwdmt4Q3l0TUZSWkNhaDNSdkstS3ZSeWNpNGJMTEpyYktENzI2WDFDV0QwcGR4RWxkUXBJSWMwd2VsZXNZVmVpOFhYa29ocU50MWpxeG5XeWVpSHZXVkM2S1RETkJNV0dVZEVLblNFbkZJZThvUFpaZ3BRX3ljSzVIUXNUQmJrRXNSeUQ3VzIwTlRaclhMeEpBbWRnQWw1VzlXeEZYM01mN0tmWTdCbHg1MmRjV2Zzb0ZBc3g2aUxzZ2J2b1pRZWNpOEUtN29kSXc?oc=5",
+   "source": "ET Telecom",
+   "date": "2026-11-23",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "L&T secures ₹2,500-5,000 crore order to deploy NVIDIA B300 GPUs at Chennai data centre - ET Enterprise AI",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcmxRcmZ3d3dNaERIa1ltcy1odk9DSy1yWUVuS2Q5Yk41QnVjRDJrTklXZ1dRNUtDVUJOQmUycWlVazA2VnB6cmpsMUFRVEUxMmE0Ty1pR3BQVE1OcUJzTW5nVmhiQkFMbjg2ekpqbVZkOEhMRmpmUmtVVHBCOHF0bmRNTnJGRlloenlBLVlBMTliU0ZBbzJLLVd1NG5CUHZzcWRja2dQZmJRYlNKbmp1MnhYbnljM0ZjckNjMmt3QjZsY3dOWTRzNFZqXzF1NjRTeW1IdU5HRUtmZklWSDFjNHM3SHBXS3A2VWYxQdIB8gFBVV95cUxNRnhoTGs2Q0lOREFVTGdpeFcwMVpCLTJ5aUp3alVQOEFVbHRFaEQ4Sm9lazhrbXBZeTAxbFZHdVZNSnFoNldxX0ZPd2JvcXZYT2hnTzZFYm9qdDFYcHNvUnFiR3Z3R3ViYjBjUzktNHQ1QXI5cUwwUVpMcWdmVGc1ejd6RzNDNW5neXhHYjdYQmpBc0d0WVFYam1tYkNtOHZtMHJYbE9GaEFXV1N5Y0tSMmt2djVHcWdzYjNlVVVOSVZTYWo2NER2RURsYXNBWU9laXhLakpmd0JVX25xdUZKYjNmOXpsRF9LNzN3cTlBNmk4dw?oc=5",
+   "source": "ET Enterprise AI",
+   "date": "2026-11-23",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "L&T Secures Large Order for AI Cluster at Chennai - Entrepreneur India",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc192QmtPLXlSMWF4a1RnZHk5QVk2SXZmYlBBdzFVS1pheDlEZnBHMk02Y2RobENBeXJaaDJyR3FONU9TdG9BQmFSWWZPeW1sZTJ0SHItX096cDB5LTNuOUtxSkQtNHloU3IwTEVpM3ktNXBDMFRUalhUMkZYMG1LN0JUdV93WUpOZm1PSkcxbkZWOVRuaEx3TnFudkc1NEdCSXNR?oc=5",
+   "source": "Entrepreneur India",
+   "date": "2026-11-24",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -495,9 +471,9 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "L&T secures ₹2,500-5,000 crore order to deploy NVIDIA B300 GPUs at Chennai data centre - ET Enterprise AI",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcmxRcmZ3d3dNaERIa1ltcy1odk9DSy1yWUVuS2Q5Yk41QnVjRDJrTklXZ1dRNUtDVUJOQmUycWlVazA2VnB6cmpsMUFRVEUxMmE0Ty1pR3BQVE1OcUJzTW5nVmhiQkFMbjg2ekpqbVZkOEhMRmpmUmtVVHBCOHF0bmRNTnJGRlloenlBLVlBMTliU0ZBbzJLLVd1NG5CUHZzcWRja2dQZmJRYlNKbmp1MnhYbnljM0ZjckNjMmt3QjZsY3dOWTRzNFZqXzF1NjRTeW1IdU5HRUtmZklWSDFjNHM3SHBXS3A2VWYxQdIB8gFBVV95cUxNRnhoTGs2Q0lOREFVTGdpeFcwMVpCLTJ5aUp3alVQOEFVbHRFaEQ4Sm9lazhrbXBZeTAxbFZHdVZNSnFoNldxX0ZPd2JvcXZYT2hnTzZFYm9qdDFYcHNvUnFiR3Z3R3ViYjBjUzktNHQ1QXI5cUwwUVpMcWdmVGc1ejd6RzNDNW5neXhHYjdYQmpBc0d0WVFYam1tYkNtOHZtMHJYbE9GaEFXV1N5Y0tSMmt2djVHcWdzYjNlVVVOSVZTYWo2NER2RURsYXNBWU9laXhLakpmd0JVX25xdUZKYjNmOXpsRF9LNzN3cTlBNmk4dw?oc=5",
-   "source": "ET Enterprise AI",
+   "title": "L&T secures Rs 2,500-5,000 crore Chennai AI cluster order - Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOEpiNlE1cjFhdlA1S004TlRJT3phRTc2MW51c3dNZ2FOREdtTkRZUVFWdkkyUGRhakY3NjJtNDhLRDhtTmpDUmhPeWo3alBBS3VXaExLV00zbm9XRFJNSUJSZFpYUnRkNW0yaTVjVm5yeDk1UFpXVER5WDBoZDRQR0V4c1RIeGhxSW1VOXZPT0Y1eDVHbXljV285ZnJCQjdTRjRiNnd2M3JmdnFpOEc0Qm1SSQ?oc=5",
+   "source": "Multibagg AI",
    "date": "2026-11-23",
    "via": "gnews",
    "country_hint": "",
@@ -531,10 +507,34 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
+   "title": "L&T wins Nvidia B300 deployment order for Chennai AI data centre - Business Upturn",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYWFZLXFCN0Q1WHNqd0JDaFplTzVIT3JvQk5PYXp0RnlrUmFGNk5VeDJBalJVRkFOVlo2bzVHa0RFYktnVlRHbnFWR0VNWXlIU1puWE1mTVFONDJQb1JkM2hydFpuMHNJNGZERXZQSGtnaVN6Q0h5YVlDYkx6aVpNWXVmVEFrMHlXbXR3aXNBd3VrLWg5cnVCRkR5UVFwX2NSVXVGeTV3?oc=5",
+   "source": "Business Upturn",
+   "date": "2026-11-23",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
    "title": "L&T secures 'large' order for NVIDIA B300 GPUs at Chennai data centre; shares trade lower - Business Today",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUVk1WVV3aWJ1UFMyWmtOMUl0Nlh6Z0R0d2llSFlfdk5FYUFvZVliWWE4N21MVHQwaV92eVFiRWJqcURFdGxyX29mU0JkZnZ1Wm1rN1dNam9ISzBrUjlpbndqeVMtX1BxaEQ5SFB5MkJfU2NVWU5HdEtCOTk0V1lNS2dUdlN3QTQtM3hFbjJCS3R4X3M0UTk0RHlLcmt1MlByTndmVHVKNWpDNVMyLWtyZlVjNkdrZWJ0ZFBrX01kLVFJNC02UUx1UTl0YzU1WXJNXzI4c2t3NnNEczDSAeABQVVfeXFMTXVRSmJUbzFjSXh6VkFsUE9rRFVjeURoTkp4WnJKcDhLbDNIeEFJbXZrYWZIU3N5UkdnR0E5RmcwTDVuSGN4WVZLeC1iZGNxZEFDdjNFUThtbHFUUXFDNjhvdXdQcVJYcjliSWp3QWNiSlVncTRCOUY1elRzQ2xOSms4RFdCdkNzVUxTVXlOam1BR2JNeFdkVDRkblpPSkxaemtZYkJiLTY2aThwVE91SEc5SVlHM0dDY2pRaEQyQUd4OUNoZ0pZQl8xc3Jick9QaVV3ZG9OMi1TS0JmTGVWZ0c?oc=5",
    "source": "Business Today",
    "date": "2026-11-23",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Deutsche Telekom Adds Rural 5G Coverage While Scaling Up Munich AI Capacity - ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdEdlUkVwTk1ud3RrWkRicTlJZ2hmS2owN1hQb1kzeGN1dUliLVAyZ21fNWdxMExGclBCUE9Xc0FhV3hMdlVJQUpQWTRfN253clFMU1JjSHBKcHlCU0x5MjNMTVBmVmpfamRxUjg1WlRwMHhhaFJPbklrc0FmUnBMMW1Mby0yUHktVlhjUktJZFloV2xESmpPbU12VGJHcmRoaFVpSklnRTlTYVpFSGhxOTBqWmc1aXAyc3RXSU1mWjdsQ3hMaDk2T1pSdmZycnZjcG9OcWwzMnJ6X2E3ZG4zSQ?oc=5",
+   "source": "ad-hoc-news.de",
+   "date": "2026-11-22",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -579,10 +579,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Solita and ConfidentialMind Target Europe’s Sovereign AI Gap - The Futurum Group",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWpjVGFpbFk5cU8wLW1yaC1LcXIxV2FnekRCYVhkTjM3Wl9rdVRDNmpSS3NiVHRaY292NVU2djJ1VE93Wk9GYnU5am9xY19yRTlRdkV4QkRsU2dRUF9vbVptRks0UVdDdlFQcHdDbXh0eDd5Y3FJVW1vSHpWRi02ZWhVVExkMmMzWlBsNzU1UjY1dUhRVlZLVHBOT3o?oc=5",
-   "source": "The Futurum Group",
-   "date": "2026-11-26",
+   "title": "UAE telco du launches sovereign AI platform - Data Center Dynamics",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaWtzX2dmaE52ZG5EdjJ6Rk9iMEJXbE1kVnZjZjBLLUFNNEtEZ0ZUd2F0c0NHdWZFSk9ZcXJEaU5kczhjWnR4OHNkNFhmUGctYlJ6TGEwcFpuZ0V5TGtaY3dMc0QydkNRaHZXVndtdGZoX01TVFFLVGFnemhSUkJxS3hvTE5zN05RWUtneVh1ZDI?oc=5",
+   "source": "Data Center Dynamics",
+   "date": "2026-11-23",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -651,34 +651,10 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "UAE telco du launches sovereign AI platform - Data Center Dynamics",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaWtzX2dmaE52ZG5EdjJ6Rk9iMEJXbE1kVnZjZjBLLUFNNEtEZ0ZUd2F0c0NHdWZFSk9ZcXJEaU5kczhjWnR4OHNkNFhmUGctYlJ6TGEwcFpuZ0V5TGtaY3dMc0QydkNRaHZXVndtdGZoX01TVFFLVGFnemhSUkJxS3hvTE5zN05RWUtneVh1ZDI?oc=5",
-   "source": "Data Center Dynamics",
-   "date": "2026-11-23",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
    "title": "Microsoft (MSFT) Deepens Europe Sovereign AI Push With Expanded Public Sector Cloud Pact - Yahoo Finance",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNG5icEJ2X2FHSlByQWNnS2EwUzVrM0F5NUhaZElKTGEzWUxwbFdnaEJETXc0U0RDMHktQ190RTRPVWZUOHg3S1psS1VPMVNvTEc0TXlfOFkzLURzMHh1X0VteVdlSjhpNVRpVEVzVlhNdmVJUHpENndWOFdOUXZnWExlUDVGQlZ0RWQ0SGdZODgxM1BqN1Jpd0dLRzBYWWF5U2pUZ0t3?oc=5",
    "source": "Yahoo Finance",
    "date": "2026-11-25",
-   "via": "gnews",
-   "country_hint": "",
-   "tier": 4,
-   "prescore": 39,
-   "corroboration": "Single-source",
-   "note": "REVIEW: verify, corroborate, summarize, tag countries"
-  },
-  {
-   "title": "Why Sovereign AI Is Worth Building, and Where It Breaks - Unite.AI",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xNVZxNkc4YjhOQ1ZXNUxjMFdyVnVtbXpGS0pIdGRlSlUxNVpIdUJYZ0tPbUtndC13QUJFV2Z3czlORkQzYXpSQWt2dWlYQVIwWF93MGhMOUdzXzJiUjAwTFVKalhucWV6ZUE?oc=5",
-   "source": "Unite.AI",
-   "date": "2026-11-20",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
@@ -711,10 +687,34 @@
    "note": "REVIEW: verify, corroborate, summarize, tag countries"
   },
   {
-   "title": "Large AI companies 'desperate for compute' are crowding out Canadian startups at home - CBC",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3a2t2MFNZQlQxX3ZxNDZwd19QYVNYd3ZpU3VvVHF2Y1Y1NDVQYlYwaWQ1eUFJaEh1LWhyaU1xYVlPemVVSEpLazVSUURCTnNWMVY5Ykh5XzNZOGZBemJuODZSMXhqRG4tUGRBQmhiZ1U5U3BPTzN2V0d4WjY?oc=5",
-   "source": "CBC",
-   "date": "2026-11-20",
+   "title": "Australia must leverage the benefits of the AI boom - Australian Academy of Science",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN0V2bU1kZG5JdzR1WWxGTnduYkpueEZldkJMV3VHeDd5b1ZxWXIzenNYSDhJSEY5Y0RLaGExaFpYU1VNdm5lVHZBUzZ3R0V3UUIwMl8yejlHNW1XdGdCVGsyM0dxX1RDc3l5eHpJTmg4RDJtWFBON2NUN1ZpSnNwdGhIZFRpZDVFa1A2LU1jOA?oc=5",
+   "source": "Australian Academy of Science",
+   "date": "2026-11-25",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Sovereign AI and National Security Strategic Investment Fund backing British autonomous defence systems firm - GOV.UK",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMVd0d1pIejRXSFZEaGNMclpnTFg1ZlJFeUtSR3BVNGR2N1NYQUF5OEt3cm8yRVB0clJ5NjltRHZnaGRjck1LX2RWTXlYbm8xblpXN21CMjRmRG5ESHZSRXE2R1NpcnRnUDdqT0ktU3UwcG5xWXBrNmxTcXBQeEZrUU1Bemg1TlNLNXNDcjhfbkh5WmpDWFVyeVJpdG5QYjZ6MC11NGI2TkF2TzlhaE5XZFlkdDhaYkxxc2JtOV9GczB1SVZqdzN0RGVRYjdqUjVJOWVCcFZRVmVSRFk?oc=5",
+   "source": "GOV.UK",
+   "date": "2026-11-23",
+   "via": "gnews",
+   "country_hint": "",
+   "tier": 4,
+   "prescore": 39,
+   "corroboration": "Single-source",
+   "note": "REVIEW: verify, corroborate, summarize, tag countries"
+  },
+  {
+   "title": "Concierto AI Is Now Live: Sovereign AI for Every Employee, Inside the Enterprise's Own Cloud or Data Center - PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMDkxaEVaSEV2MmNiZXFtVU1XM2lWaTJhNHh6S0dDSy00R3VSOUFkVFJ6a18xUDI2dmlUQzBMWElZVDVXdDlEdXU0QTdNMWZ0bmw2T1NuVXJBb0w4d0JPNXhHX0JYUGJqLWNLMnZYbzJ0ZTdLaEhYRXV3bG1UcDIwTk1UQUNSaU5CUDExV3VFUTVqQ3hTMmdwbkRIdlFfclVLMmQ4bzBLeGotbFNfSkdJaEFBMjFaTlhGQWxFekR2aDEwNzdyQmNsMV9MSkR0YkdkMnJHQ1E2UnFlX0lLRkVJeUwtSlcyOF9sS1ZSS1hPQ0VWQQ?oc=5",
+   "source": "PR Newswire",
+   "date": "2026-11-26",
    "via": "gnews",
    "country_hint": "",
    "tier": 4,
