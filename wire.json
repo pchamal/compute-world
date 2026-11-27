@@ -1,6 +1,239 @@
 {
   "items": [
     {
+      "id": "singapore-dpm-gan-unverified-nvidia-halt-reviewing-anti-diversion-checks-natixis-third-capacity-china-linked-2026-11-27",
+      "date": "2026-11-27",
+      "title": "Singapore: DPM Gan says Nvidia shipment halt not verified, reviews anti-diversion checks; Equinix and Digital Realty play down impact",
+      "summary": "Deputy Prime Minister and Trade Minister Gan Kim Yong said on 27 November that Singapore has not confirmed the reported Nvidia server shipment halt, is engaging local businesses on the impact, and is working with the US to keep access to high-end chips for the many US hyperscalers operating there. He said Singapore is reviewing its processes to strengthen regulation and monitoring so it does not become a conduit for illegal trade (Bernama via Malay Mail). The Business Times reported that Equinix said its confidence in Southeast Asia is unchanged and Digital Realty expects limited impact on its colocation business, while Keppel, STT GDC, Singtel and AirTrunk declined to comment. Natixis estimates nearly a third of operational data centre capacity across Singapore, Malaysia, Thailand and Indonesia is linked to Chinese owners or tenants, above 45% in Malaysia and Thailand. Caveat: analysts expect the halt to be temporary; Nvidia has not commented. Country conversion: Singapore is positioning as the compliant, US-hyperscaler-heavy hub while Johor and Thailand carry the China-tenant exposure.",
+      "url": "https://www.malaymail.com/news/singapore/2026/11/27/singapore-yet-to-verify-nvidia-chip-shipment-halt-says-dpm-gan/245024",
+      "source": "Bernama via Malay Mail, 27 Nov 2026; The Business Times, 27 Nov 2026",
+      "tier": 1,
+      "corroboration": "Corroborated",
+      "countries": [
+        "SGP",
+        "MYS",
+        "THA",
+        "IDN"
+      ],
+      "flags": "🇸🇬",
+      "tags": [
+        "Export controls",
+        "Policy",
+        "Demand"
+      ],
+      "score": 38
+    },
+    {
+      "id": "malaysia-petra-peninsular-demand-22-6gw-2027-to-49-8gw-2050-data-centres-21pct-nuclear-2040-2026-11-26",
+      "date": "2026-11-26",
+      "title": "Malaysia: Peninsular power demand projected to more than double to 49.8 GW by 2050, data centres rising to 21% of load",
+      "summary": "Malaysia's Ministry of Energy Transition and Water Transformation (Petra), quoting the JPPPET tariff planning committee in a written parliamentary reply published 26 November, projected Peninsular Malaysia electricity demand rising from 22.6 GW in 2027 to 49.8 GW by 2050 (about 3.5% CAGR). Data centres are projected to rise from 11% of peninsular demand in 2027 to 21% in 2050. The initial scenario has nuclear entering in phases from 2040 at about 2% of generation, roughly 2.0 GW, subject to a MyPOWER feasibility study. Caveat: a planning projection, not committed capacity, and published the same week US chip curbs and an Nvidia shipment pause hit Malaysian AI projects. Country conversion: Malaysia is planning its grid around data centres roughly doubling their share of load.",
+      "url": "https://theedgemalaysia.com/node/827552",
+      "source": "Petra parliamentary reply via The Edge Malaysia and Bernama, 26 Nov 2026; Bloomberg, 27 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "MYS"
+      ],
+      "flags": "🇲🇾",
+      "tags": [
+        "Energy",
+        "Grid",
+        "Demand",
+        "Policy"
+      ],
+      "score": 30
+    },
+    {
+      "id": "usa-coreweave-4-5bn-meta-linked-gpu-loan-7-7-5pct-vs-unsecured-18pct-cds-15pct-bloomberg-2026-11-26",
+      "date": "2026-11-26",
+      "title": "US: banks prepare $4.5 billion Meta-linked CoreWeave GPU loan at about 7% to 7.5% while its unsecured notes yield near 18%",
+      "summary": "Bloomberg reported on 26 November that Morgan Stanley and MUFG are preparing a $4.5 billion loan for CoreWeave backed by its Meta contract, with GPUs for a Meta data centre in Dalton, Georgia as collateral, and launch possible as early as the week of 30 November. Preliminary pricing is a 7% to 7.5% yield, with the Meta contract expected to support investment-grade ratings despite CoreWeave's sub-investment-grade rating. The same day, CoreWeave's 9% unsecured 2031 notes yielded nearly 18% and five-year CDS reached 15.34% (ICE), a record one-day rise of up to 2.09 points. CoreWeave had $47.5 billion of debt at end-Q3. Caveat: terms and timing are subject to change; single-source on loan details. Country conversion: US neocloud capacity is now financed contract by contract, with customer credit, not the operator's, setting the cost of capital.",
+      "url": "https://abbonews.com/coreweave-stock-extends-rebound-after-report-of-4-5-billion-meta-linked-loan/",
+      "source": "Bloomberg via Abbo News, 26 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Neocloud",
+        "Finance",
+        "Capital"
+      ],
+      "score": 34
+    },
+    {
+      "id": "usa-fcc-authorizes-spacex-starmind-1-million-orbital-data-centre-satellites-2033-2040-milestones-2026-11-25",
+      "date": "2026-11-25",
+      "title": "US: FCC authorizes SpaceX Starmind constellation of up to 1 million orbital data centre satellites",
+      "summary": "FCC Chairman Brendan Carr announced on 25 November that the Commission authorized SpaceX's Starmind system of up to 1 million low-Earth-orbit satellites designed as solar-powered orbital data centres, over petitions to deny from Amazon's Kuiper, Viasat and the American Astronomical Society. Reported milestones require the first satellite by 25 November 2033, 10% (100,000) by 2035, 50% by 2038 and the full system by 2040. The FCC dismissed environmental and optical astronomy concerns as outside its authority; Earthjustice said NEPA review was required. Caveat: an authorization, not a deployment; no compute capacity, chip count or cost was disclosed. Country conversion: the US regulator has opened a licensed path for orbital compute at constellation scale.",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+      "source": "FCC report and order; CNBC; Spaceflight Now, 25 to 26 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Policy",
+        "Capacity",
+        "Energy"
+      ],
+      "score": 28
+    },
+    {
+      "id": "japan-jera-talks-meta-anthropic-google-microsoft-amazon-thermal-plant-colocation-tokyo-2026-11-27",
+      "date": "2026-11-27",
+      "title": "Japan: JERA in talks with Meta, Anthropic, Google, Microsoft and Amazon to site data centres at Tokyo-area thermal plants",
+      "summary": "JERA global CEO Yukio Kani told Nikkei (27 November) that Japan's largest generator is in talks with Anthropic, Meta, Google, Microsoft and Amazon to build data centres next to power plants around Tokyo, following its October deal with Dell and Rhaelm for a 400 MW behind-the-meter campus at the 4.38 GW LNG-fired Chiba station (about $15 billion across phases, operations from 2028). JERA plans standardized designs for deployment at multiple thermal sites; Yokohama Thermal is another candidate. JERA runs more than 20 thermal plants totalling almost 55 GW. Caveat: talks only; no MW, prices or signed agreements with the named companies. Country conversion: Japan's thermal fleet is becoming the fast path to powered land for US AI buyers.",
+      "url": "https://www.datacenterdynamics.com/en/news/japans-jera-in-talks-with-us-hyperscalers-to-colocate-data-centers-at-thermal-power-plants-in-japan/",
+      "source": "Nikkei Asia; DCD, 27 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "JPN"
+      ],
+      "flags": "🇯🇵",
+      "tags": [
+        "Energy",
+        "Hyperscaler",
+        "Build"
+      ],
+      "score": 30
+    },
+    {
+      "id": "usa-eia-proposes-data-center-energy-consumption-survey-eia-872-1mw-1400-respondents-2026-11-27",
+      "date": "2026-11-27",
+      "title": "US: EIA proposes first annual Data Center Energy Consumption Survey covering every site of 1 MW or more",
+      "summary": "The US Energy Information Administration published a Federal Register notice on 27 November (91 FR 76760) proposing Form EIA-872, the Data Center Energy Consumption Survey, to collect facility-level energy use and cooling and power characteristics from all US data centres with IT design capacity of at least 1 MW, including colocation, hyperscale, edge, crypto mines and what it calls super intelligence data centres. EIA estimates about 1,400 respondents and plans to run it in 2027 as an annual collection. Comments are due 26 January 2027. Caveat: proposed collection; no customer data will be gathered. Country conversion: the US is building its first official measurement of data centre electricity demand.",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24077/agency-information-collection-proposed-new-survey",
+      "source": "Federal Register (EIA), 27 Nov 2026",
+      "tier": 1,
+      "corroboration": "Confirmed",
+      "countries": [
+        "USA"
+      ],
+      "flags": "🇺🇸",
+      "tags": [
+        "Energy",
+        "Policy",
+        "Grid"
+      ],
+      "score": 22
+    },
+    {
+      "id": "kuwait-wren-house-kia-buys-gic-80pct-equinix-xscale-europe-jv-2026-11-27",
+      "date": "2026-11-27",
+      "title": "Kuwait: KIA's Wren House buys GIC's 80% stake in Equinix's European xScale hyperscale JV",
+      "summary": "Wren House Infrastructure Management, the direct infrastructure arm of the Kuwait Investment Authority, agreed to acquire GIC's 80% stake in the xScale joint venture with Equinix, DCD reported on 27 November. Equinix keeps 20% and continues to operate the fully contracted portfolio in Dublin, Frankfurt, London and Paris. Completion is expected in Q1 2027. Financial terms were not disclosed; earlier reports said GIC was considering a sale at EUR 800 million to EUR 1 billion. Equinix and GIC have invested more than $22 billion in xScale since 2019. Caveat: price undisclosed. Country conversion: Gulf sovereign capital is replacing Singapore sovereign capital as owner of contracted European hyperscale capacity.",
+      "url": "https://www.datacenterdynamics.com/en/news/kuwait-wealth-fund-backed-investment-firm-purchases-gics-majority-stake-in-xscale/",
+      "source": "DCD, 27 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "KWT",
+        "SGP",
+        "IRL",
+        "DEU",
+        "GBR",
+        "FRA"
+      ],
+      "flags": "🇰🇼",
+      "tags": [
+        "Capital",
+        "Sovereign",
+        "Hyperscaler"
+      ],
+      "score": 24
+    },
+    {
+      "id": "belgium-google-farciennes-construction-halted-revoked-permit-sambre-water-cooling-2026-11-27",
+      "date": "2026-11-27",
+      "title": "Belgium: Wallonia halts construction at Google's Farciennes data centre after work continued on a revoked permit",
+      "summary": "Construction at Google's Farciennes data centre campus was halted this week after Greenpeace showed satellite images of work continuing despite the permit's revocation, DCD reported on 27 November citing TechZine. Walloon official Raphael Stokis said about 300 workers were on site. Minister Francois Desquesnes revoked the permit in August 2026 after a hot, dry summer, over a revised plan to cool the merged facility with water from the River Sambre; Google appealed in October. Google has committed EUR 5 billion to Belgian cloud and AI infrastructure. Caveat: Google had not commented. Country conversion: water for cooling is now a binding permit constraint on hyperscale build in Wallonia.",
+      "url": "https://www.datacenterdynamics.com/en/news/construction-paused-at-google-data-center-in-farciennes-belgium/",
+      "source": "DCD; TechZine, 27 Nov 2026",
+      "tier": 2,
+      "corroboration": "Corroborated",
+      "countries": [
+        "BEL"
+      ],
+      "flags": "🇧🇪",
+      "tags": [
+        "Water",
+        "Policy",
+        "Stall",
+        "Hyperscaler"
+      ],
+      "score": 22
+    },
+    {
+      "id": "india-telangana-5gw-data-centre-target-2029-300mw-live-2gw-pipeline-2026-11-26",
+      "date": "2026-11-26",
+      "title": "India: Telangana targets 5 GW of data centre capacity by 2029, from 300 MW live and 2 GW in pipeline",
+      "summary": "Telangana Deputy Chief Minister and Energy Minister Bhatti Vikramarka said on 26 November that the state aims to reach 5 GW of data centre capacity by 2029, against 300 MW operating today and another 2 GW of projects in the pipeline, and invited operators and green energy producers to the Invest Telangana Global Summit on 7 to 9 December. Caveat: a state target, not committed capacity; no funding or power plan was detailed. Country conversion: Indian states are competing on GW targets for AI capacity, with Hyderabad pitching against Andhra Pradesh and Maharashtra.",
+      "url": "https://www.thehindu.com/news/national/telangana/telangana-aims-to-achieve-5-gw-data-centre-capacity-by-2029-bhatti/article71747002.ece",
+      "source": "The Hindu, 26 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "IND"
+      ],
+      "flags": "🇮🇳",
+      "tags": [
+        "Policy",
+        "Capacity",
+        "Build"
+      ],
+      "score": 20
+    },
+    {
+      "id": "netherlands-opposes-us-match-act-asml-duv-eu-countermeasures-blocking-statute-2026-11-27",
+      "date": "2026-11-27",
+      "title": "Netherlands: trade minister urges US not to enforce MATCH Act on ASML, weighs EU countermeasures",
+      "summary": "Dutch Foreign Trade Minister Sjoerd Sjoerdsma told Reuters the Netherlands would urge Washington not to enforce the MATCH Act if it becomes law, warning it would harm ASML and other European firms, TrendForce reported on 27 November. Congress is weighing whether to attach the bill to the annual defense bill in December; it would require allies including the Netherlands and Japan to tighten export controls or face unilateral US restrictions, including on ASML immersion DUV tools and servicing. Sjoerdsma is working with the European Commission, Germany and France against passage and said bilateral and EU-level measures, potentially countermeasures, would be explored. China is projected at about 20% of ASML revenue this year (Bloomberg). Caveat: single-source via Reuters; the bill has not passed. Country conversion: lithography export control is becoming a US and EU trade dispute.",
+      "url": "https://www.trendforce.com/news/2026/11/27/news-netherlands-opposes-match-acts-tighter-curbs-on-asmls-china-sales-eyes-eu-countermeasures/",
+      "source": "Reuters via TrendForce, 27 Nov 2026",
+      "tier": 2,
+      "corroboration": "Single-source",
+      "countries": [
+        "NLD",
+        "USA",
+        "CHN"
+      ],
+      "flags": "🇳🇱",
+      "tags": [
+        "Export controls",
+        "Silicon",
+        "Policy"
+      ],
+      "score": 26
+    },
+    {
+      "id": "kenya-vodafone-safaricom-data-centres-9-1mw-to-35mw-sovereign-ai-gpuaas-2026-11-27",
+      "date": "2026-11-27",
+      "title": "Kenya: Vodafone plans to triple Safaricom's data centre footprint to 35 MW for sovereign AI and GPU-as-a-service",
+      "summary": "Vodafone's H1 FY2027 results say Safaricom's data centres in Kenya and Ethiopia total 9.1 MW across six facilities and will grow to 35 MW across two central data centres, giving Safaricom one of Kenya's largest footprints for sovereign AI and GPU-as-a-service, DCD reported on 27 November. Caveat: no sites, timing, capex or Kenya and Ethiopia split disclosed; Vodacom's Safaricom stake purchase was voided by Kenya's High Court in September 2026 and is under appeal. Country conversion: East Africa's largest telco is moving from colocation into sovereign GPU capacity.",
+      "url": "https://www.datacenterdynamics.com/en/news/vodafone-to-triple-safaricoms-data-center-footprint-to-35mw/",
+      "source": "Vodafone H1 FY2027 results; DCD, 27 Nov 2026",
+      "tier": 2,
+      "corroboration": "Confirmed",
+      "countries": [
+        "KEN",
+        "ETH"
+      ],
+      "flags": "🇰🇪",
+      "tags": [
+        "Sovereign",
+        "Build",
+        "Capacity"
+      ],
+      "score": 18
+    },
+    {
       "id": "malaysia-singapore-thailand-lenders-pause-dc-loans-bdc-6-6bn-digital-halo-372m-aolani-480m-gmi-300m-bloomberg-2026-11-26",
       "date": "2026-11-26",
       "title": "Malaysia, Singapore, Thailand: lenders pause billions in data centre and GPU loans tied to ByteDance, Alibaba and Tencent after US chip curbs",
@@ -5250,6 +5483,6 @@
       "score": 57
     }
   ],
-  "updated": "2026-11-26",
-  "note": "Wire refresh 2026-11-26: added malaysia-singapore-thailand-lenders-pause-dc-loans-bdc-6-6bn-digital-halo-372m-aolani-480m-gmi-300m-bloomberg-2026-11-26, sea-nvidia-orders-partners-halt-server-shipments-malaysia-singapore-thailand-indonesia-ft-2026-11-26, china-zai-glm-5-5-delay-moonshot-release-cycle-doubling-overseas-compute-rule-reuters-2026-11-26, usa-sp-nvidia-aa-creditwatch-negative-oracle-coreweave-alphabet-spacex-record-cds-2026-11-25, usa-air-force-daf-advanced-aerospace-computing-30000-gpu-2bn-sources-sought-30mw-2026-11-25, korea-kt-cloud-keppel-kdcf-iii-ansan-60mw-master-tenant-2030-2026-11-26, china-gds-q3-2026-capex-guide-cut-1-5bn-to-1-2bn-utilisation-81pct-2026-11-25, australia-sharon-ai-esds-8208-b300-sydney-handover-mid-dec-billing-jan-2027-1-25bn-2026-11-26, usa-ohio-power-siting-board-approves-800mw-gas-plant-edgeconnex-ashville-despite-referendum-2026-11-25, portugal-fortitude-capital-hermes-202mw-sines-zils-ai-campus-2026-11-26. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
+  "updated": "2026-11-27",
+  "note": "Wire refresh 2026-11-27: added singapore-dpm-gan-unverified-nvidia-halt-reviewing-anti-diversion-checks-natixis-third-capacity-china-linked-2026-11-27, malaysia-petra-peninsular-demand-22-6gw-2027-to-49-8gw-2050-data-centres-21pct-nuclear-2040-2026-11-26, usa-coreweave-4-5bn-meta-linked-gpu-loan-7-7-5pct-vs-unsecured-18pct-cds-15pct-bloomberg-2026-11-26, usa-fcc-authorizes-spacex-starmind-1-million-orbital-data-centre-satellites-2033-2040-milestones-2026-11-25, japan-jera-talks-meta-anthropic-google-microsoft-amazon-thermal-plant-colocation-tokyo-2026-11-27, usa-eia-proposes-data-center-energy-consumption-survey-eia-872-1mw-1400-respondents-2026-11-27, kuwait-wren-house-kia-buys-gic-80pct-equinix-xscale-europe-jv-2026-11-27, belgium-google-farciennes-construction-halted-revoked-permit-sambre-water-cooling-2026-11-27, india-telangana-5gw-data-centre-target-2029-300mw-live-2gw-pipeline-2026-11-26, netherlands-opposes-us-match-act-asml-duv-eu-countermeasures-blocking-statute-2026-11-27, kenya-vodafone-safaricom-data-centres-9-1mw-to-35mw-sovereign-ai-gpuaas-2026-11-27. Tape: 70 confirms, 0 ticks, 0 NEW across Lambda, CoreWeave, Crusoe, DigitalOcean, GCP TPU and AWS Capacity Blocks."
 }
