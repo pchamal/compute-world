@@ -2,76 +2,76 @@
 <rss version="2.0"><channel>
   <title>The daily tape · compute.world</title>
   <link>https://compute.world/brief</link>
-  <description>The US remote-access rule moved from customs to credit this week. Nvidia told server partners including Dell and Supermicro to stop shipping to Malaysia, Singapore, Thailand and Indonesia, the Financial Times reported on 26 November, and Bloomberg reported that lenders have paused or dropped loans tied to ByteDance, Alibaba and Tencent tenants, from Bridge Data Centres&#x27; $6.6 billion facility to a $372 million Digital Halo loan and a $480 million Aolani loan. Fitch said Asia-Pacific data centre investment will slow and that neoclouds face the most pressure; Reuters reported Z.AI&#x27;s next flagship has slipped and Moonshot expects release cycles to double without offshore compute. In the US, S&amp;P put Nvidia&#x27;s AA rating on CreditWatch Negative over governance, while five-year default swaps for Oracle, Alphabet, SpaceX and CoreWeave hit records. US markets are closed for Thanksgiving and other news was thin. List prices held for a fourteenth straight tape day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 and Crusoe&#x27;s 1 December step-up still pending.</description>
+  <description>A day after the Financial Times reported that Nvidia told Dell, Supermicro and other partners to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia, Singapore&#x27;s Deputy Prime Minister Gan Kim Yong said on 27 November the halt has not been confirmed and that Singapore is reviewing its regulations and monitoring so it does not become a conduit for illegal trade. Equinix and Digital Realty played down the impact, but Natixis estimates nearly a third of operational capacity across the four markets is linked to Chinese owners or tenants, above 45% in Malaysia and Thailand. In the US the cost of capital is splitting by customer: Bloomberg reported banks are preparing a $4.5 billion CoreWeave loan backed by its Meta contract at about 7% to 7.5%, while CoreWeave&#x27;s unsecured 2031 notes yielded near 18% and its five-year CDS hit 15.34%. List prices held for a fifteenth straight tape day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 and Crusoe&#x27;s 1 December step-up due Tuesday.</description>
   <language>en</language>
   <item>
-    <title>Compute brief - 26 November 2026</title>
+    <title>Compute brief - 27 November 2026</title>
     <link>https://compute.world/brief</link>
-    <guid isPermaLink="true">https://compute.world/brief#2026-11-26</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>The US remote-access rule moved from customs to credit this week. Nvidia told server partners including Dell and Supermicro to stop shipping to Malaysia, Singapore, Thailand and Indonesia, the Financial Times reported on 26 November, and Bloomberg reported that lenders have paused or dropped loans tied to ByteDance, Alibaba and Tencent tenants, from Bridge Data Centres&#x27; $6.6 billion facility to a $372 million Digital Halo loan and a $480 million Aolani loan. Fitch said Asia-Pacific data centre investment will slow and that neoclouds face the most pressure; Reuters reported Z.AI&#x27;s next flagship has slipped and Moonshot expects release cycles to double without offshore compute. In the US, S&amp;P put Nvidia&#x27;s AA rating on CreditWatch Negative over governance, while five-year default swaps for Oracle, Alphabet, SpaceX and CoreWeave hit records. US markets are closed for Thanksgiving and other news was thin. List prices held for a fourteenth straight tape day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 and Crusoe&#x27;s 1 December step-up still pending. Countries: Malaysia: Lenders pause Bridge Data Centres $6.6 billion loan diligence, one bank passes on $372 million Digital Halo loan; Nvidia halts server shipments to Malaysia, Singapore, Thailand and Indonesia (Wire, 26 Nov, single-source). Singapore: Banks reassess $480 million Aolani neocloud loan; Nvidia booked $104 billion of 2025 revenue through its Singapore unit; shipments halted (Wire, 26 Nov, single-source). China: Z.AI GLM-5.5 slips, Moonshot sees release cycles doubling without offshore compute (Reuters, 26 Nov, single-source); GDS cuts 2026 capex guide to about $1.2 billion from $1.5 billion (25 Nov). United States: S&amp;P puts Nvidia AA on CreditWatch Negative; Oracle, Alphabet, SpaceX and CoreWeave CDS at records; Air Force seeks 30,000-GPU, about $2 billion supercomputer; Ohio approves 800 MW gas plant for EdgeConneX (Wire, 25 Nov). South Korea: KT Cloud takes all 60 MW of Keppel&#x27;s Ansan AI data centre, ready 2030 (Wire, 26 Nov). Australia: Sharon AI installs 8,208 B300s in Sydney for ESDS; handover mid-December, billing January 2027 (Wire, 26 Nov). Portugal: Fortitude Capital plans 202 MW Hermes AI campus in Sines (Wire, 26 Nov, single-source).</description>
+    <guid isPermaLink="true">https://compute.world/brief#2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>A day after the Financial Times reported that Nvidia told Dell, Supermicro and other partners to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia, Singapore&#x27;s Deputy Prime Minister Gan Kim Yong said on 27 November the halt has not been confirmed and that Singapore is reviewing its regulations and monitoring so it does not become a conduit for illegal trade. Equinix and Digital Realty played down the impact, but Natixis estimates nearly a third of operational capacity across the four markets is linked to Chinese owners or tenants, above 45% in Malaysia and Thailand. In the US the cost of capital is splitting by customer: Bloomberg reported banks are preparing a $4.5 billion CoreWeave loan backed by its Meta contract at about 7% to 7.5%, while CoreWeave&#x27;s unsecured 2031 notes yielded near 18% and its five-year CDS hit 15.34%. List prices held for a fifteenth straight tape day: 70 confirms, 0 ticks, 0 NEW, with Lambda H100 at $4.59 and B200 at $7.69 and Crusoe&#x27;s 1 December step-up due Tuesday. Countries: Singapore: DPM Gan says Nvidia shipment halt not verified; Singapore reviewing anti-diversion regulation and monitoring and engaging the US on chip access for US hyperscalers (Wire, 27 Nov). Malaysia: Peninsular power demand projected from 22.6 GW in 2027 to 49.8 GW by 2050, data centres rising from 11% to 21% of load; Natixis says over 45% of live capacity is China-linked (Wire, 26 to 27 Nov). United States: $4.5 billion Meta-linked CoreWeave GPU loan at about 7% to 7.5% versus near 18% on unsecured notes (single-source); FCC authorizes SpaceX Starmind; EIA proposes data centre energy survey (Wire, 25 to 27 Nov). Japan: JERA in talks with Meta, Anthropic, Google, Microsoft and Amazon to site data centres at Tokyo-area thermal plants (Wire, 27 Nov, single-source). Kuwait: KIA&#x27;s Wren House buys GIC&#x27;s 80% stake in Equinix&#x27;s European xScale JV, completing Q1 2027 (Wire, 27 Nov). India: Telangana targets 5 GW of data centre capacity by 2029 from 300 MW live (Wire, 26 Nov). Netherlands: Trade minister urges US not to enforce MATCH Act on ASML and weighs EU countermeasures (Wire, 27 Nov, single-source). Belgium: Construction halted at Google&#x27;s Farciennes campus after work continued on a revoked, water-linked permit (Wire, 27 Nov). Kenya: Vodafone plans to triple Safaricom&#x27;s data centre footprint to 35 MW for sovereign AI and GPU-as-a-service (Wire, 27 Nov).</description>
   </item>
   <item>
     <title>H100 SXM · $4.59 on-demand</title>
     <link>https://compute.world/brief#lambda-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/lambda-h100-od</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 SXM: display $4.59 on-demand at Lambda as of 26 Nov 2026. Confirm vs 25 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/lambda-h100-od</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 SXM: display $4.59 on-demand at Lambda as of 27 Nov 2026. Confirm vs 26 Nov print</description>
   </item>
   <item>
     <title>B200 SXM6 · $7.69 on-demand</title>
     <link>https://compute.world/brief#lambda-b200-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/lambda-b200-od</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 26 Nov 2026. Confirm vs 25 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/lambda-b200-od</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B200 SXM6: display $7.69 on-demand at Lambda as of 27 Nov 2026. Confirm vs 26 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $6.16 on-demand</title>
     <link>https://compute.world/brief#coreweave-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/coreweave-h100-od</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 26 Nov 2026. Confirm vs 25 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/coreweave-h100-od</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $6.16 on-demand at CoreWeave as of 27 Nov 2026. Confirm vs 26 Nov print</description>
   </item>
   <item>
     <title>H100 HGX · $3.90 on-demand</title>
     <link>https://compute.world/brief#crusoe-h100-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/crusoe-h100-od</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 26 Nov 2026. Confirm vs 25 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/crusoe-h100-od</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>H100 HGX: display $3.90 on-demand at Crusoe as of 27 Nov 2026. Confirm vs 26 Nov print; Crusoe lists $4.50 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $8.96 on-demand</title>
     <link>https://compute.world/brief#crusoe-b300-od</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/crusoe-b300-od</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 26 Nov 2026. Confirm vs 25 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/crusoe-b300-od</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $8.96 on-demand at Crusoe as of 27 Nov 2026. Confirm vs 26 Nov print; Crusoe lists $9.90 from 1 Dec 2026</description>
   </item>
   <item>
     <title>B300 HGX · $6.17 spot</title>
     <link>https://compute.world/brief#do-b300-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/do-b300-spot</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 26 Nov 2026. Confirm vs 25 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/do-b300-spot</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $6.17 spot at DigitalOcean as of 27 Nov 2026. Confirm vs 26 Nov print</description>
   </item>
   <item>
     <title>MI355X · $4.50 spot</title>
     <link>https://compute.world/brief#do-mi355x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/do-mi355x-spot</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI355X: display $4.50 spot at DigitalOcean as of 26 Nov 2026. Confirm vs 25 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/do-mi355x-spot</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI355X: display $4.50 spot at DigitalOcean as of 27 Nov 2026. Confirm vs 26 Nov print</description>
   </item>
   <item>
     <title>MI350X · $3.00 spot</title>
     <link>https://compute.world/brief#do-mi350x-spot</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/do-mi350x-spot</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>MI350X: display $3.00 spot at DigitalOcean as of 26 Nov 2026. Confirm vs 25 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/do-mi350x-spot</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>MI350X: display $3.00 spot at DigitalOcean as of 27 Nov 2026. Confirm vs 26 Nov print</description>
   </item>
   <item>
     <title>B300 HGX · $16.146 Capacity Blocks</title>
     <link>https://compute.world/brief#aws-cb-b300</link>
-    <guid isPermaLink="false">compute.world/brief/2026-11-26/aws-cb-b300</guid>
-    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
-    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 26 Nov 2026. Confirm vs 25 Nov print</description>
+    <guid isPermaLink="false">compute.world/brief/2026-11-27/aws-cb-b300</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>B300 HGX: display $16.146 Capacity Blocks at AWS as of 27 Nov 2026. Confirm vs 26 Nov print</description>
   </item>
 </channel></rss>
