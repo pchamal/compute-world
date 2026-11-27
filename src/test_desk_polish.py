@@ -161,7 +161,9 @@ class ContactDeskDate(unittest.TestCase):
 class SitemapLastmod(unittest.TestCase):
     def test_desk_lastmod_follows_artifacts(self):
         import json
-        from build_sitemap import content_dates, html_updated_day, stamp_lastmod
+        from build_sitemap import (
+            BUILT_HTML, built_html_day, content_dates, html_updated_day, stamp_lastmod,
+        )
         from seo import DEFAULT_SITEMAP, SITE
 
         days = content_dates(ROOT)
@@ -185,11 +187,34 @@ class SitemapLastmod(unittest.TestCase):
         self.assertEqual(days["/contact"], html_updated_day(contact))
         self.assertRegex(days["/contact"], r"^\d{4}-\d{2}-\d{2}$")
         self.assertNotEqual(days["/silicon"], "2026-08-18")
+        # Catalog as_of / dateModified stay on the source vintage. lastmod
+        # follows the built HTML once that file moved past the snapshot.
+        snapshots = {
+            "/inference": load("inference.json")["as_of"][:10],
+            "/neoclouds": load("neoclouds.json")["as_of"][:10],
+            "/hyperscalers": load("hyperscalers.json")["as_of"][:10],
+            "/campuses": load("campuses.json")["as_of"][:10],
+            "/data-centers": load("data-centers.json")["updated"][:10],
+            "/physical-stack": "2026-09-14",
+        }
+        for path, rel in BUILT_HTML.items():
+            built = built_html_day(ROOT, rel)
+            self.assertEqual(days[path], built, path)
+            self.assertRegex(built, r"^\d{4}-\d{2}-\d{2}$")
+            if built > snapshots[path]:
+                self.assertNotEqual(days[path], snapshots[path], path)
+        for name in ("brief.yml", "silicon.yml", "wire.yml", "rank-history.yml"):
+            with open(os.path.join(ROOT, ".github", "workflows", name), encoding="utf-8") as fh:
+                workflow = fh.read()
+            self.assertIn("build_sitemap.py", workflow)
+            self.assertIn("fetch-depth: 0", workflow)
 
         stamped = {u["loc"]: u.get("lastmod") for u in stamp_lastmod(DEFAULT_SITEMAP, ROOT)}
         self.assertEqual(stamped[f"{SITE}/silicon"], days["/silicon"])
         self.assertEqual(stamped[f"{SITE}/brief"], days["/brief"])
         self.assertEqual(stamped[f"{SITE}/contact"], days["/contact"])
+        self.assertEqual(stamped[f"{SITE}/inference"], days["/inference"])
+        self.assertEqual(stamped[f"{SITE}/physical-stack"], days["/physical-stack"])
         locs = [u["loc"] for u in DEFAULT_SITEMAP]
         for loc in locs:
             self.assertFalse(loc.endswith((".html", ".json", ".xml", ".txt")), loc)
@@ -228,6 +253,29 @@ class SitemapLastmod(unittest.TestCase):
         self.assertGreater(len(set(chip_days)), 1)
         # A placeholder date must not survive once the country's own change date is known.
         self.assertNotEqual(kept[0]["lastmod"], "2026-10-02")
+
+    def test_built_html_day_uses_masthead_without_history(self):
+        import tempfile
+        from build_sitemap import built_html_day
+
+        with tempfile.TemporaryDirectory() as tmp:
+            # Name is not a tracked page, so a parent repo's git log cannot supply this day.
+            with open(os.path.join(tmp, "sitemap-lastmod-probe.html"), "w", encoding="utf-8") as fh:
+                fh.write(
+                    'dateModified": "2026-08-19"\n'
+                    '<div class="asof">Updated <b>3 Mar 2024</b></div>\n'
+                )
+            self.assertEqual(built_html_day(tmp, "sitemap-lastmod-probe.html"), "2024-03-03")
+
+    def test_committed_sitemap_matches_built_html(self):
+        from build_sitemap import BUILT_HTML, built_html_day, parse_sitemap
+        from seo import public_path
+
+        with open(os.path.join(ROOT, "sitemap.xml"), encoding="utf-8") as fh:
+            urls = {public_path(u["loc"]): u for u in parse_sitemap(fh.read())}
+        for path, rel in BUILT_HTML.items():
+            self.assertEqual(urls[path]["lastmod"], built_html_day(ROOT, rel), path)
+            self.assertIn("changefreq", urls[path])
 
 
 class NotFound(unittest.TestCase):
