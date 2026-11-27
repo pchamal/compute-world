@@ -5,8 +5,17 @@ Weekday publishers (brief, silicon, wire) used to rewrite sitemap.xml from
 DEFAULT_SITEMAP, whose lastmod strings were frozen in August. This script
 stamps lastmod from the file the URL actually serves:
 
-- JSON desks: top-level updated / snapshot / as_of (never a nested quote date)
-- HTML desks: dateModified, else the masthead "Updated" line
+- Daily JSON desks (silicon, brief, wire): top-level updated / snapshot
+  (never a nested quote date). A workflow may have rebuilt the HTML and not
+  committed it yet, so this date can be newer than git log.
+- Catalog desks (inference, neoclouds, hyperscalers, data-centers, campuses)
+  and physical-stack: git commit date of the built HTML
+  (`git log -1 --format=%cs`). Their JSON as_of and JSON-LD dateModified stay
+  on the catalog snapshot and must not freeze lastmod after a later rebuild.
+  Sitemap workflows check out with fetch-depth 0. A shallow checkout has no
+  history for that file; fall back to the masthead Updated chip, not today.
+- Other HTML desks (contact, agents): dateModified, else the masthead
+  Updated line, else the file's last commit
 - llms.txt: the banner "Snapshot YYYY-MM-DD", else the homepage content date
 - homepage: latest real change among country pages, chip pages, and the
   silicon / brief / wire artifact dates. rank-history as_of is not used:
@@ -48,6 +57,17 @@ JSON_SOURCES = {
 HTML_SOURCES = {
     "/contact": "contact.html",
     "/agents": "agents.html",
+    "/physical-stack": "physical-stack.html",
+}
+
+# Served HTML whose catalog snapshot (as_of / dateModified) lags a rebuild.
+# lastmod is the HTML commit day, not that frozen snapshot.
+BUILT_HTML = {
+    "/inference": "inference.html",
+    "/neoclouds": "neoclouds.html",
+    "/hyperscalers": "hyperscalers.html",
+    "/data-centers": "data-centers.html",
+    "/campuses": "campuses.html",
     "/physical-stack": "physical-stack.html",
 }
 
@@ -97,6 +117,13 @@ def html_updated_day(text):
     m = re.search(r'dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})"', text)
     if m:
         return m.group(1)
+    return masthead_day(text)
+
+
+def masthead_day(text):
+    """As-of chip on the page. Ignores JSON-LD dateModified."""
+    if not text:
+        return ""
     m = re.search(r"Updated <b>(\d{1,2}\s+[A-Za-z]+\s+\d{4})</b>", text)
     if m:
         return parse_nice_day(m.group(1))
@@ -104,6 +131,18 @@ def html_updated_day(text):
     if m:
         return m.group(1)
     return ""
+
+
+def built_html_day(root, rel):
+    """Last change of a served HTML file.
+
+    Commit day when history contains the file. Otherwise the masthead Updated
+    chip. Does not invent today's date.
+    """
+    committed = git_day(root, rel)
+    if committed:
+        return committed
+    return masthead_day(_read(root, rel))
 
 
 def llms_day(text):
@@ -285,6 +324,14 @@ def content_dates(root=None):
         day = html_updated_day(_read(root, rel)) or git_day(root, rel)
         if day:
             days[path] = day
+
+    # Snapshot dates stay on the catalog vintage. A later edit of the served
+    # HTML is the change crawlers should see, and it is not a date after that
+    # commit. Full history is required for the git day; see built_html_day.
+    for path, rel in BUILT_HTML.items():
+        built = built_html_day(root, rel)
+        if built:
+            days[path] = built
 
     profiles = profile_days(root)
     days.update(profiles)
