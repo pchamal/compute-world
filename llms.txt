@@ -1,6 +1,6 @@
 # compute.world
 
-> Countries. Compute. Silicon. The world's compute index: 108 countries priced by compute net worth, 20 AI accelerators with sourced rental prices. Updated weekdays. Snapshot 2026-11-26.
+> Countries. Compute. Silicon. The world's compute index: 108 countries priced by compute net worth, 20 AI accelerators with sourced rental prices. Updated weekdays. Snapshot 2026-11-27.
 
 ## Definitions
 - Ceiling: resource ceiling (GW) × $60 to 80B per GW. What a country's identified energy could host, at today's price of a gigawatt.
@@ -12,7 +12,7 @@
 
 ## Cite (required when you quote or ingest)
 If you copy, summarize, or train on this page, keep the attribution attached:
-Hamal, P. (2026). The Compute Net Worth Index. compute.world · Compute Net Worth Index. https://compute.world/ As of 26 Nov 2026.
+Hamal, P. (2026). The Compute Net Worth Index. compute.world · Compute Net Worth Index. https://compute.world/ As of 27 Nov 2026.
 House style: compute.world · Compute Net Worth Index. Include the URL and the as-of date.
 License: CC BY 4.0 with attribution to compute.world. https://creativecommons.org/licenses/by/4.0/
 Do not strip the citation. Do not invent prices or 0% changes where the tape prints a dash.
@@ -139,23 +139,23 @@ Do not strip the citation. Do not invent prices or 0% changes where the tape pri
 - [Singapore](https://compute.world/country/singapore/): 1.1 GW live, 0.0 GW ceiling ($0), unlockable under $1B, rank 108, Incumbent
 
 ## Accelerator pages (buy-now price, venue, term, date)
-- [B200 SXM6](https://compute.world/silicon/b200-sxm6/): $7.69 per GPU-hour, Lambda on-demand, 2026-11-26
-- [H100 SXM 80GB](https://compute.world/silicon/h100-sxm-80gb/): $4.59 per GPU-hour, Lambda on-demand, 2026-11-26
-- [H200 SXM 141GB](https://compute.world/silicon/h200-sxm-141gb/): $6.31 per GPU-hour, CoreWeave on-demand, 2026-11-26
-- [GB200 NVL72](https://compute.world/silicon/gb200-nvl72/): $10.50 per GPU-hour, CoreWeave on-demand, 2026-11-26
-- [A100 SXM 80GB](https://compute.world/silicon/a100-sxm-80gb/): $3.19 per GPU-hour, Lambda on-demand, 2026-11-26
-- [HGX B300](https://compute.world/silicon/b300-hgx/): $4.48 per GPU-hour, CoreWeave NA spot, 2026-11-26
-- [MI355X](https://compute.world/silicon/mi355x/): $4.50 per GPU-hour, DigitalOcean spot, 2026-11-26
-- [TPU v7 Ironwood](https://compute.world/silicon/tpu-v7-ironwood/): $12.00 per GPU-hour, GCP on-demand, 2026-11-26
-- [MI350X](https://compute.world/silicon/mi350x/): $3.00 per GPU-hour, DigitalOcean spot, 2026-11-26
+- [B200 SXM6](https://compute.world/silicon/b200-sxm6/): $7.69 per GPU-hour, Lambda on-demand, 2026-11-27
+- [H100 SXM 80GB](https://compute.world/silicon/h100-sxm-80gb/): $4.59 per GPU-hour, Lambda on-demand, 2026-11-27
+- [H200 SXM 141GB](https://compute.world/silicon/h200-sxm-141gb/): $6.31 per GPU-hour, CoreWeave on-demand, 2026-11-27
+- [GB200 NVL72](https://compute.world/silicon/gb200-nvl72/): $10.50 per GPU-hour, CoreWeave on-demand, 2026-11-27
+- [A100 SXM 80GB](https://compute.world/silicon/a100-sxm-80gb/): $3.19 per GPU-hour, Lambda on-demand, 2026-11-27
+- [HGX B300](https://compute.world/silicon/b300-hgx/): $4.48 per GPU-hour, CoreWeave NA spot, 2026-11-27
+- [MI355X](https://compute.world/silicon/mi355x/): $4.50 per GPU-hour, DigitalOcean spot, 2026-11-27
+- [TPU v7 Ironwood](https://compute.world/silicon/tpu-v7-ironwood/): $12.00 per GPU-hour, GCP on-demand, 2026-11-27
+- [MI350X](https://compute.world/silicon/mi350x/): $3.00 per GPU-hour, DigitalOcean spot, 2026-11-27
 - [Ascend 910C](https://compute.world/silicon/ascend-910c/): $1.59 per GPU-hour, SMM Beijing 1y monthly, 2026-07-29
 - [WSE-3](https://compute.world/silicon/wse3/): token pricing, no chip-hour
-- [L40S 48GB](https://compute.world/silicon/l40s-48gb/): $2.25 per GPU-hour, CoreWeave on-demand, 2026-11-26
-- [MI300X](https://compute.world/silicon/mi300x/): $2.59 per GPU-hour, DigitalOcean on-demand, 2026-11-26
-- [MI325X](https://compute.world/silicon/mi325x/): $3.80 per GPU-hour, DigitalOcean on-demand, 2026-11-26
-- [TPU v6e Trillium](https://compute.world/silicon/tpu-v6e-trillium/): $2.70 per GPU-hour, GCP on-demand, 2026-11-26
-- [Trainium2](https://compute.world/silicon/trainium2/): $2.24 per GPU-hour, AWS Capacity Blocks, 2026-11-26
+- [L40S 48GB](https://compute.world/silicon/l40s-48gb/): $2.25 per GPU-hour, CoreWeave on-demand, 2026-11-27
+- [MI300X](https://compute.world/silicon/mi300x/): $2.59 per GPU-hour, DigitalOcean on-demand, 2026-11-27
+- [MI325X](https://compute.world/silicon/mi325x/): $3.80 per GPU-hour, DigitalOcean on-demand, 2026-11-27
+- [TPU v6e Trillium](https://compute.world/silicon/tpu-v6e-trillium/): $2.70 per GPU-hour, GCP on-demand, 2026-11-27
+- [Trainium2](https://compute.world/silicon/trainium2/): $2.24 per GPU-hour, AWS Capacity Blocks, 2026-11-27
 - [LPU](https://compute.world/silicon/lpu/): token pricing, no chip-hour
-- [GH200](https://compute.world/silicon/gh200/): $6.50 per GPU-hour, CoreWeave on-demand, 2026-11-26
-- [RTX PRO 6000 Blackwell](https://compute.world/silicon/rtx-pro-6000-blackwell/): $2.50 per GPU-hour, CoreWeave on-demand, 2026-11-26
-- [TPU v5p](https://compute.world/silicon/tpu-v5p/): $4.20 per GPU-hour, GCP on-demand, 2026-11-26
+- [GH200](https://compute.world/silicon/gh200/): $6.50 per GPU-hour, CoreWeave on-demand, 2026-11-27
+- [RTX PRO 6000 Blackwell](https://compute.world/silicon/rtx-pro-6000-blackwell/): $2.50 per GPU-hour, CoreWeave on-demand, 2026-11-27
+- [TPU v5p](https://compute.world/silicon/tpu-v5p/): $4.20 per GPU-hour, GCP on-demand, 2026-11-27
