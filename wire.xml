@@ -5,6 +5,76 @@
   <description>Sovereign AI and compute infrastructure signals, scored for credibility. From The Compute Net Worth Index.</description>
   <language>en</language>
   <item>
+    <title>Singapore: DPM Gan says Nvidia shipment halt not verified, reviews anti-diversion checks; Equinix and Digital Realty play down impact</title>
+    <link>https://www.malaymail.com/news/singapore/2026/11/27/singapore-yet-to-verify-nvidia-chip-shipment-halt-says-dpm-gan/245024</link>
+    <guid isPermaLink="false">compute.world/wire#singapore-dpm-gan-unverified-nvidia-halt-reviewing-anti-diversion-checks-natixis-third-capacity-china-linked-2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Deputy Prime Minister and Trade Minister Gan Kim Yong said on 27 November that Singapore has not confirmed the reported Nvidia server shipment halt, is engaging local businesses on the impact, and is working with the US to keep access to high-end chips for the many US hyperscalers operating there. He said Singapore is reviewing its processes to strengthen regulation and monitoring so it does not become a conduit for illegal trade (Bernama via Malay Mail). The Business Times reported that Equinix said its confidence in Southeast Asia is unchanged and Digital Realty expects limited impact on its colocation business, while Keppel, STT GDC, Singtel and AirTrunk declined to comment. Natixis estimates nearly a third of operational data centre capacity across Singapore, Malaysia, Thailand and Indonesia is linked to Chinese owners or tenants, above 45% in Malaysia and Thailand. Caveat: analysts expect the halt to be temporary; Nvidia has not commented. Country conversion: Singapore is positioning as the compliant, US-hyperscaler-heavy hub while Johor and Thailand carry the China-tenant exposure. [Signal 38, Corroborated, via Bernama via Malay Mail, 27 Nov 2026; The Business Times, 27 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Japan: JERA in talks with Meta, Anthropic, Google, Microsoft and Amazon to site data centres at Tokyo-area thermal plants</title>
+    <link>https://www.datacenterdynamics.com/en/news/japans-jera-in-talks-with-us-hyperscalers-to-colocate-data-centers-at-thermal-power-plants-in-japan/</link>
+    <guid isPermaLink="false">compute.world/wire#japan-jera-talks-meta-anthropic-google-microsoft-amazon-thermal-plant-colocation-tokyo-2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>JERA global CEO Yukio Kani told Nikkei (27 November) that Japan&#x27;s largest generator is in talks with Anthropic, Meta, Google, Microsoft and Amazon to build data centres next to power plants around Tokyo, following its October deal with Dell and Rhaelm for a 400 MW behind-the-meter campus at the 4.38 GW LNG-fired Chiba station (about $15 billion across phases, operations from 2028). JERA plans standardized designs for deployment at multiple thermal sites; Yokohama Thermal is another candidate. JERA runs more than 20 thermal plants totalling almost 55 GW. Caveat: talks only; no MW, prices or signed agreements with the named companies. Country conversion: Japan&#x27;s thermal fleet is becoming the fast path to powered land for US AI buyers. [Signal 30, Single-source, via Nikkei Asia; DCD, 27 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>US: EIA proposes first annual Data Center Energy Consumption Survey covering every site of 1 MW or more</title>
+    <link>https://www.federalregister.gov/documents/2026/11/27/2026-24077/agency-information-collection-proposed-new-survey</link>
+    <guid isPermaLink="false">compute.world/wire#usa-eia-proposes-data-center-energy-consumption-survey-eia-872-1mw-1400-respondents-2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>The US Energy Information Administration published a Federal Register notice on 27 November (91 FR 76760) proposing Form EIA-872, the Data Center Energy Consumption Survey, to collect facility-level energy use and cooling and power characteristics from all US data centres with IT design capacity of at least 1 MW, including colocation, hyperscale, edge, crypto mines and what it calls super intelligence data centres. EIA estimates about 1,400 respondents and plans to run it in 2027 as an annual collection. Comments are due 26 January 2027. Caveat: proposed collection; no customer data will be gathered. Country conversion: the US is building its first official measurement of data centre electricity demand. [Signal 22, Confirmed, via Federal Register (EIA), 27 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Kuwait: KIA&#x27;s Wren House buys GIC&#x27;s 80% stake in Equinix&#x27;s European xScale hyperscale JV</title>
+    <link>https://www.datacenterdynamics.com/en/news/kuwait-wealth-fund-backed-investment-firm-purchases-gics-majority-stake-in-xscale/</link>
+    <guid isPermaLink="false">compute.world/wire#kuwait-wren-house-kia-buys-gic-80pct-equinix-xscale-europe-jv-2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Wren House Infrastructure Management, the direct infrastructure arm of the Kuwait Investment Authority, agreed to acquire GIC&#x27;s 80% stake in the xScale joint venture with Equinix, DCD reported on 27 November. Equinix keeps 20% and continues to operate the fully contracted portfolio in Dublin, Frankfurt, London and Paris. Completion is expected in Q1 2027. Financial terms were not disclosed; earlier reports said GIC was considering a sale at EUR 800 million to EUR 1 billion. Equinix and GIC have invested more than $22 billion in xScale since 2019. Caveat: price undisclosed. Country conversion: Gulf sovereign capital is replacing Singapore sovereign capital as owner of contracted European hyperscale capacity. [Signal 24, Single-source, via DCD, 27 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Belgium: Wallonia halts construction at Google&#x27;s Farciennes data centre after work continued on a revoked permit</title>
+    <link>https://www.datacenterdynamics.com/en/news/construction-paused-at-google-data-center-in-farciennes-belgium/</link>
+    <guid isPermaLink="false">compute.world/wire#belgium-google-farciennes-construction-halted-revoked-permit-sambre-water-cooling-2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Construction at Google&#x27;s Farciennes data centre campus was halted this week after Greenpeace showed satellite images of work continuing despite the permit&#x27;s revocation, DCD reported on 27 November citing TechZine. Walloon official Raphael Stokis said about 300 workers were on site. Minister Francois Desquesnes revoked the permit in August 2026 after a hot, dry summer, over a revised plan to cool the merged facility with water from the River Sambre; Google appealed in October. Google has committed EUR 5 billion to Belgian cloud and AI infrastructure. Caveat: Google had not commented. Country conversion: water for cooling is now a binding permit constraint on hyperscale build in Wallonia. [Signal 22, Corroborated, via DCD; TechZine, 27 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Netherlands: trade minister urges US not to enforce MATCH Act on ASML, weighs EU countermeasures</title>
+    <link>https://www.trendforce.com/news/2026/11/27/news-netherlands-opposes-match-acts-tighter-curbs-on-asmls-china-sales-eyes-eu-countermeasures/</link>
+    <guid isPermaLink="false">compute.world/wire#netherlands-opposes-us-match-act-asml-duv-eu-countermeasures-blocking-statute-2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Dutch Foreign Trade Minister Sjoerd Sjoerdsma told Reuters the Netherlands would urge Washington not to enforce the MATCH Act if it becomes law, warning it would harm ASML and other European firms, TrendForce reported on 27 November. Congress is weighing whether to attach the bill to the annual defense bill in December; it would require allies including the Netherlands and Japan to tighten export controls or face unilateral US restrictions, including on ASML immersion DUV tools and servicing. Sjoerdsma is working with the European Commission, Germany and France against passage and said bilateral and EU-level measures, potentially countermeasures, would be explored. China is projected at about 20% of ASML revenue this year (Bloomberg). Caveat: single-source via Reuters; the bill has not passed. Country conversion: lithography export control is becoming a US and EU trade dispute. [Signal 26, Single-source, via Reuters via TrendForce, 27 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Kenya: Vodafone plans to triple Safaricom&#x27;s data centre footprint to 35 MW for sovereign AI and GPU-as-a-service</title>
+    <link>https://www.datacenterdynamics.com/en/news/vodafone-to-triple-safaricoms-data-center-footprint-to-35mw/</link>
+    <guid isPermaLink="false">compute.world/wire#kenya-vodafone-safaricom-data-centres-9-1mw-to-35mw-sovereign-ai-gpuaas-2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Vodafone&#x27;s H1 FY2027 results say Safaricom&#x27;s data centres in Kenya and Ethiopia total 9.1 MW across six facilities and will grow to 35 MW across two central data centres, giving Safaricom one of Kenya&#x27;s largest footprints for sovereign AI and GPU-as-a-service, DCD reported on 27 November. Caveat: no sites, timing, capex or Kenya and Ethiopia split disclosed; Vodacom&#x27;s Safaricom stake purchase was voided by Kenya&#x27;s High Court in September 2026 and is under appeal. Country conversion: East Africa&#x27;s largest telco is moving from colocation into sovereign GPU capacity. [Signal 18, Confirmed, via Vodafone H1 FY2027 results; DCD, 27 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>Malaysia: Peninsular power demand projected to more than double to 49.8 GW by 2050, data centres rising to 21% of load</title>
+    <link>https://theedgemalaysia.com/node/827552</link>
+    <guid isPermaLink="false">compute.world/wire#malaysia-petra-peninsular-demand-22-6gw-2027-to-49-8gw-2050-data-centres-21pct-nuclear-2040-2026-11-26</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Malaysia&#x27;s Ministry of Energy Transition and Water Transformation (Petra), quoting the JPPPET tariff planning committee in a written parliamentary reply published 26 November, projected Peninsular Malaysia electricity demand rising from 22.6 GW in 2027 to 49.8 GW by 2050 (about 3.5% CAGR). Data centres are projected to rise from 11% of peninsular demand in 2027 to 21% in 2050. The initial scenario has nuclear entering in phases from 2040 at about 2% of generation, roughly 2.0 GW, subject to a MyPOWER feasibility study. Caveat: a planning projection, not committed capacity, and published the same week US chip curbs and an Nvidia shipment pause hit Malaysian AI projects. Country conversion: Malaysia is planning its grid around data centres roughly doubling their share of load. [Signal 30, Confirmed, via Petra parliamentary reply via The Edge Malaysia and Bernama, 26 Nov 2026; Bloomberg, 27 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>US: banks prepare $4.5 billion Meta-linked CoreWeave GPU loan at about 7% to 7.5% while its unsecured notes yield near 18%</title>
+    <link>https://abbonews.com/coreweave-stock-extends-rebound-after-report-of-4-5-billion-meta-linked-loan/</link>
+    <guid isPermaLink="false">compute.world/wire#usa-coreweave-4-5bn-meta-linked-gpu-loan-7-7-5pct-vs-unsecured-18pct-cds-15pct-bloomberg-2026-11-26</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Bloomberg reported on 26 November that Morgan Stanley and MUFG are preparing a $4.5 billion loan for CoreWeave backed by its Meta contract, with GPUs for a Meta data centre in Dalton, Georgia as collateral, and launch possible as early as the week of 30 November. Preliminary pricing is a 7% to 7.5% yield, with the Meta contract expected to support investment-grade ratings despite CoreWeave&#x27;s sub-investment-grade rating. The same day, CoreWeave&#x27;s 9% unsecured 2031 notes yielded nearly 18% and five-year CDS reached 15.34% (ICE), a record one-day rise of up to 2.09 points. CoreWeave had $47.5 billion of debt at end-Q3. Caveat: terms and timing are subject to change; single-source on loan details. Country conversion: US neocloud capacity is now financed contract by contract, with customer credit, not the operator&#x27;s, setting the cost of capital. [Signal 34, Single-source, via Bloomberg via Abbo News, 26 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>India: Telangana targets 5 GW of data centre capacity by 2029, from 300 MW live and 2 GW in pipeline</title>
+    <link>https://www.thehindu.com/news/national/telangana/telangana-aims-to-achieve-5-gw-data-centre-capacity-by-2029-bhatti/article71747002.ece</link>
+    <guid isPermaLink="false">compute.world/wire#india-telangana-5gw-data-centre-target-2029-300mw-live-2gw-pipeline-2026-11-26</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
+    <description>Telangana Deputy Chief Minister and Energy Minister Bhatti Vikramarka said on 26 November that the state aims to reach 5 GW of data centre capacity by 2029, against 300 MW operating today and another 2 GW of projects in the pipeline, and invited operators and green energy producers to the Invest Telangana Global Summit on 7 to 9 December. Caveat: a state target, not committed capacity; no funding or power plan was detailed. Country conversion: Indian states are competing on GW targets for AI capacity, with Hyderabad pitching against Andhra Pradesh and Maharashtra. [Signal 20, Single-source, via The Hindu, 26 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
     <title>Malaysia, Singapore, Thailand: lenders pause billions in data centre and GPU loans tied to ByteDance, Alibaba and Tencent after US chip curbs</title>
     <link>https://www.straitstimes.com/business/billions-in-data-centre-deals-grind-to-halt-after-ai-chip-curbs</link>
     <guid isPermaLink="false">compute.world/wire#malaysia-singapore-thailand-lenders-pause-dc-loans-bdc-6-6bn-digital-halo-372m-aolani-480m-gmi-300m-bloomberg-2026-11-26</guid>
@@ -45,6 +115,13 @@
     <guid isPermaLink="false">compute.world/wire#portugal-fortitude-capital-hermes-202mw-sines-zils-ai-campus-2026-11-26</guid>
     <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
     <description>Portuguese investment firm Fortitude Capital is developing the Hermes Data Center, a 202 MW greenfield campus for AI and HPC workloads in the Sines Industrial and Logistics Zone, DCD reported on 26 November. Hermes was added to the portfolio of zone manager Aicep Global Parques after Iberdrola withdrew its Green Ammonia Express project, which had reserved 21 hectares. Sines already hosts Start Campus, planned for up to 1.2 GW of IT. Caveat: no investment figure, power contract, tenant or timeline was disclosed. Country conversion: Sines is converting land freed from a cancelled green hydrogen project into a second AI campus. [Signal 22, Single-source, via DCD (from DCD Spanish/Portuguese edition), 26 Nov 2026] More: https://compute.world/wire</description>
+  </item>
+  <item>
+    <title>US: FCC authorizes SpaceX Starmind constellation of up to 1 million orbital data centre satellites</title>
+    <link>https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html</link>
+    <guid isPermaLink="false">compute.world/wire#usa-fcc-authorizes-spacex-starmind-1-million-orbital-data-centre-satellites-2033-2040-milestones-2026-11-25</guid>
+    <pubDate>Wed, 25 Nov 2026 12:00:00 GMT</pubDate>
+    <description>FCC Chairman Brendan Carr announced on 25 November that the Commission authorized SpaceX&#x27;s Starmind system of up to 1 million low-Earth-orbit satellites designed as solar-powered orbital data centres, over petitions to deny from Amazon&#x27;s Kuiper, Viasat and the American Astronomical Society. Reported milestones require the first satellite by 25 November 2033, 10% (100,000) by 2035, 50% by 2038 and the full system by 2040. The FCC dismissed environmental and optical astronomy concerns as outside its authority; Earthjustice said NEPA review was required. Caveat: an authorization, not a deployment; no compute capacity, chip count or cost was disclosed. Country conversion: the US regulator has opened a licensed path for orbital compute at constellation scale. [Signal 28, Confirmed, via FCC report and order; CNBC; Spaceflight Now, 25 to 26 Nov 2026] More: https://compute.world/wire</description>
   </item>
   <item>
     <title>US: S&amp;P puts Nvidia&#x27;s AA rating on CreditWatch Negative as AI borrowers&#x27; default swaps hit records</title>
@@ -136,82 +213,5 @@
     <guid isPermaLink="false">compute.world/wire#taiwan-tsmc-hou-no-customer-adjusted-orders-shipments-ai-demand-exceeds-capacity-2026-11-23</guid>
     <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
     <description>TSMC senior vice president Hou Yung-ching, also chairman of the Taiwan Semiconductor Industry Association, said on 23 November after a government meeting with industry and finance leaders that no customer had adjusted orders or shipments after recent events and that advanced-process demand still exceeds capacity. He put Taiwan&#x27;s semiconductor output at about NT$9.19 trillion in 2026, up over 40 per cent from NT$6.5 trillion in 2025. Caveat: the statement does not address the shipments Nikkei reported held for BIS review on 20 November; TSMC&#x27;s November revenue, due by 10 December, is the first hard check. Country conversion: Taiwan&#x27;s foundry gate signals no demand break from the Nvidia scandal or the new US rule. [Signal 36, Corroborated, via CNA (Taiwan), 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>India: CtrlS signs MoU with Bihar for a 150 MW AI facility</title>
-    <link>https://www.datacenterdynamics.com/en/news/ctrls-moves-forward-with-150mw-data-center-project-in-bihar-india/</link>
-    <guid isPermaLink="false">compute.world/wire#india-ctrls-bihar-150mw-ai-factory-mou-rs10000cr-patna-2029-2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>CtrlS Datacenters signed an MoU with the Bihar government on 23 November to invest Rs 10,000 crore (about $1 billion) in a 150 MW hyperscale AI facility on about 100 acres near a 220/400 kV substation, preferably around Patna, due online in 2029 or 2030. CtrlS opened a 12 MW Patna facility last month and targets 4.4 GW nationally by 2030. Caveat: MoU only; no tenant named. Country conversion: Indian capacity is spreading to eastern states that had none. [Signal 28, Single-source, via DCD, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Latvia: Northern Europe Energy secures land for a 200 MW campus outside Riga</title>
-    <link>https://www.datacenterdynamics.com/en/news/northern-europe-energy-eyes-200mw-data-center-project-outside-riga-latvia/</link>
-    <guid isPermaLink="false">compute.world/wire#latvia-northern-europe-energy-salaspils-200mw-330kv-riga-2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Northern Europe Energy Group said it has exclusive rights to about 16 hectares in Salaspils, 30 km southeast of Riga, for a data centre campus of more than 200 MW. Phase one would draw from the existing 110 kV network and phase two would connect directly to 330 kV lines beside the site. Caveat: early planning; no customer or financing. Country conversion: Baltic transmission headroom is being banked for AI load as Nordic markets take nearly half of European leasing. [Signal 22, Single-source, via DCD, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: Nvidia board unanimously reinstates Jensen Huang as CEO, citing input from senior US government officials</title>
-    <link>https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director</link>
-    <guid isPermaLink="false">compute.world/wire#usa-nvidia-board-reinstates-huang-ceo-us-government-input-compliance-officer-2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Nvidia announced on 23 November that its board voted unanimously to reinstate Jensen Huang as president, CEO and director, effective immediately, eleven days after he resigned on 12 November. The board said it received input from senior levels of the US government and, on that basis, is confident the reinstatement poses no national security risk. Harvey Jones stays as chair; Colette Kress returns to CFO only. The independent-director investigation into reports that Huang was the target of a foreign intelligence effort continues, a new National Security and Export Control Committee is retaining counsel, and Nvidia is searching for a Chief Compliance Officer. Caveat: AP reports the board had rejected Huang&#x27;s offer to return days earlier. Country conversion: Washington now has a visible hand in the governance of the dominant accelerator vendor, ahead of Huang&#x27;s 1 December House interviews. [Signal 50, Confirmed, via Nvidia newsroom, 23 Nov 2026; AP; The Verge, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: Applied Digital signs a 150 MW, 18-year lease with an investment-grade hyperscaler at higher pricing</title>
-    <link>https://www.globenewswire.com/news-release/2026/11/23/3408272/0/en/applied-digital-secures-new-150-mw-18-year-lease-with-tier-one-investment-grade-hyperscaler-bringing-contracted-base-term-revenue-above-41-billion.html</link>
-    <guid isPermaLink="false">compute.world/wire#usa-applied-digital-150mw-18yr-ig-hyperscaler-5-4bn-base-term-41bn-contracted-2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Applied Digital said on 23 November it signed an 18-year lease with an unnamed tier-one investment-grade hyperscaler for 150 MW of critical IT capacity: about $5.4 billion base-term revenue, about $12.7 billion if all renewals run over a 33-year term. The company says the lease carries higher pricing than its prior leases. Contracted base-term revenue now exceeds $41 billion, portfolio is over 1.6 GW contracted critical IT and 2.2 GW grid-connected peak load, and about 75% of base-term revenue is investment-grade. Financing runs through its $5 billion Macquarie equity programme then project finance; delivery is expected to begin in the first half of 2028. Caveat: site and tenant not named. Country conversion: US wholesale AI capacity is still clearing at rising rates on 18-year terms despite the midterm backlash. [Signal 42, Confirmed, via Applied Digital press release, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Greece: environmental filing details AWS and PPC&#x27;s 300 MW Kozani campus on a retired coal plant site</title>
-    <link>https://www.datacenterdynamics.com/en/news/details-shared-of-aws-300mw-data-center-in-kozani-greece/</link>
-    <guid isPermaLink="false">compute.world/wire#greece-aws-ppc-kozani-agios-dimitrios-300mw-240mw-it-eia-1gw-option-2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>An environmental impact assessment reported by OT.gr and DCD on 23 November describes the AWS campus at PPC&#x27;s former Agios Dimitrios coal plant in Kozani: 300 MW power (240 MW IT) across four buildings and 20 data halls, reusing the plant&#x27;s 400 kV substations through two new underground cables, with scope to reach 1 GW. PPC invests about EUR 1 billion and AWS a similar amount for IT; AWS holds exclusivity on the 1 GW option until May 2027. The 300 MW agreement is expected to be finalised by Q1 2027, construction to start summer 2027 and finish end 2028; annual water use is estimated at about 203,000 cubic metres. Caveat: based on the filing as reported, not an AWS announcement. Country conversion: Greece turns retired lignite grid capacity into a hyperscale anchor; AWS has no Greek region yet. [Signal 38, Single-source, via DCD, 23 Nov 2026, citing OT.gr and the EIA] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>India: L&amp;T&#x27;s LTN Compute wins a multi-year B300 deployment order at its Chennai AI factory</title>
-    <link>https://www.larsentoubro.com/pressreleases/2026/2026-11-23-larsen-toubro-secures-large-order-for-deploying-ai-cluster</link>
-    <guid isPermaLink="false">compute.world/wire#india-lt-ltn-compute-chennai-b300-large-order-inference-provider-250mw-phase1-2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Larsen &amp; Toubro said on 23 November that Vyoma.AI&#x27;s subsidiary LTN Compute has a multi-year engagement with an unnamed inference infrastructure provider to deploy additional Nvidia B300 GPUs at its Chennai data centre, part of a 10,000 GPU cluster. L&amp;T classes it as a Large order, which in its scale means INR 2,500 to 5,000 crore. The Chennai campus is planned as a gigawatt-scale hub with a 250 MW phase one and 150 MVA of power readiness. Caveat: customer, GPU count and exact value not disclosed. Country conversion: Indian capacity is being sold to export inference demand on current-generation Blackwell, not only to the IndiaAI mission. [Signal 36, Confirmed, via Larsen &amp; Toubro press release, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Indonesia: Firmus seeks a $1.5 billion bond to buy GB300s for its DayOne project, Bloomberg reports</title>
-    <link>https://www.datacenterdynamics.com/en/news/firmus-seeks-15bn-bond-offering-report/</link>
-    <guid isPermaLink="false">compute.world/wire#indonesia-firmus-1-5bn-bond-up-to-4bn-debt-gb300-dayone-69-month-8pct-bloomberg-2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Bloomberg reported that Australian neocloud Firmus is seeking about $1.5 billion in a bond, part of a debt package that could reach $4 billion, to buy Nvidia GB300 systems for its Indonesian data centre project with DayOne Data Centers. People familiar said talks with banks and investors took place last week; the bond and a separate bank loan would each run 69 months, with the bond expected to yield around 8 per cent, possibly before year end. This follows reports of a roughly $3 billion equity raise and customer prepayments after Firmus dropped its IPO. Caveat: anonymous sources; terms not final. Country conversion: Indonesia&#x27;s GB300 build is now financed at high-yield cost and sits inside the new BIS licence perimeter. [Signal 34, Single-source, via Bloomberg via DCD, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>New Zealand: Contact Energy lodges consent for a 250 MW Stratford data centre with CDC</title>
-    <link>https://www.thepost.co.nz/nz-news/361121336/consent-lodged-multibillion-dollar-stratford-data-centre</link>
-    <guid isPermaLink="false">compute.world/wire#new-zealand-contact-energy-cdc-stratford-250mw-resource-consent-lodged-fid-2027-2026-11-23</guid>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Contact Energy chief executive Mike Fuge confirmed a resource consent application for the 250 MW Stratford development, proposed with CDC Data Centres near the retired Taranaki Combined Cycle plant, has been lodged with Stratford District Council, The Post reported on 23 November. UBS benchmarks a hyperscale site of that size at NZD 4.5 to 5 billion; Contact targets a final investment decision in mid to late 2027 and first operations potentially by end 2028. Caveat: no customer or financing yet; Fuge said landing an international customer is key. Country conversion: another retired thermal plant site converts into a grid-backed AI campus candidate. [Signal 30, Single-source, via The Post / Taranaki Daily News, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>Spain: data centre decree in force, with 80 per cent hourly-matched new renewables and curtailment duties</title>
-    <link>https://www.boe.es/buscar/act.php?id=BOE-A-2026-24439</link>
-    <guid isPermaLink="false">compute.world/wire#spain-real-decreto-1032-2026-data-centres-80pct-hourly-renewable-curtailment-in-force-2026-11-22</guid>
-    <pubDate>Sun, 22 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Royal Decree 1032/2026, approved by the Council of Ministers on 20 November and published in the BOE on 21 November, took effect on 22 November. It applies to data centres that have sought or will seek grid access and connection permits. They must cover 80 per cent of consumption with new renewable supply through self-consumption or PPAs, matched hourly, with an optional transition of 60 per cent, 70 per cent from 2029 and 80 per cent from 2032, and a compensation charge (6 euros per MWh at 60 to 80 per cent annual coverage) for shortfalls. Sites must also join automatic power-reduction schemes and can be disconnected to protect the system; water and PUE limits apply, and Article 5 sets data-location rules for high-category public systems. Minister Aagesen said that without the rule bills could rise by up to 5 billion euros. Caveat: operators contested feasibility; grid-queue effects are not yet visible. Country conversion: Spain now prices grid access for AI load in renewables and flexibility. [Signal 44, Confirmed, via BOE, 21 Nov 2026; MITECO, 20 Nov 2026; DCD, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: Apollo and Goldman price about $44 billion of notes to buy Vera Rubin GPUs for SpaceX</title>
-    <link>https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion</link>
-    <guid isPermaLink="false">compute.world/wire#usa-apollo-goldman-44bn-spacex-gpu-financing-vera-rubin-saturn-funding-1h-2027-2026-11-20</guid>
-    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
-    <description>Apollo and Goldman Sachs announced on 20 November the pricing of approximately $44 billion of senior and subordinated notes to fund GPUs and related equipment for SpaceX, the largest GPU financing to date. The deal was oversubscribed and upsized, with anchor commitments from BlackRock, Goldman Sachs Asset Management and KKR-advised accounts. Proceeds buy Nvidia Vera Rubin systems for SpaceX&#x27;s terrestrial compute build; lease schedules start on delivery in the first half of 2027. IFR reports the public tranches price at 7.66 to 8.36 per cent, with the largest ($25.2 billion senior secured, due April 2033) at 8.259 per cent. Caveat: tranche detail is from IFR, not the press release. Country conversion: US compute is now financed as a leased asset class at high-yield coupons, and the collateral is next-generation Nvidia silicon. [Signal 48, Confirmed, via Apollo / Goldman Sachs press release, 20 Nov 2026; IFR; DCD, 23 Nov 2026] More: https://compute.world/wire</description>
-  </item>
-  <item>
-    <title>US: Trump threatens to block or tax US companies that build data centres abroad</title>
-    <link>https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html</link>
-    <guid isPermaLink="false">compute.world/wire#usa-trump-threatens-tremendous-tax-us-companies-data-centres-abroad-no-order-published-2026-11-20</guid>
-    <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
-    <description>At a White House press conference on 20 November, President Trump said: &quot;We&#x27;re not going to allow our companies to build data centers outside of our country,&quot; then added that if they do, &quot;we&#x27;re going to put a tremendous tax on them.&quot; He said he had not yet raised the idea with his staff and named China and Finland in his remarks. No rate, scope, start date or legal authority was given, and no presidential action or Federal Register rule had been published as of 21 November. Caveat: Congress holds the taxing power and the Supreme Court ruled in February 2026 that IEEPA does not authorise tariffs, so this is a stated intention, not policy. Country conversion: a credible penalty would tilt hyperscaler capex toward US sites and raise the political price of offshore campuses that host US-controlled silicon, at the same time as the BIS remote-access rule tightens Southeast Asia. [Signal 52, Corroborated, via CNBC, 20 Nov 2026; AP; Axios, 20 Nov 2026] More: https://compute.world/wire</description>
   </item>
 </channel></rss>

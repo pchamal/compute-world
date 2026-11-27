@@ -347,7 +347,7 @@
    "rf": 0.72,
    "rz": 59,
    "dl": 1,
-   "rw": "Australia: Sharon AI installs 8,208 Nvidia B300s in Sydney for India's ESDS,…"
+   "rw": "India: Telangana targets 5 GW of data centre capacity by 2029, from 300 MW l…"
   },
   {
    "n": "Pakistan",
@@ -997,7 +997,7 @@
    "rf": 0.85,
    "rz": 66,
    "dl": 1,
-   "rw": "China: Z.AI's GLM-5.5 slips and Moonshot sees release cycles doubling as ove…"
+   "rw": "Netherlands: trade minister urges US not to enforce MATCH Act on ASML, weigh…"
   },
   {
    "n": "Japan",
@@ -1047,7 +1047,7 @@
    "rf": 0.85,
    "rz": 65,
    "dl": 1,
-   "rw": "Thailand: NTT and B.Grimm Power sign MoU for a 400 MW data centre opportunit…"
+   "rw": "Japan: JERA in talks with Meta, Anthropic, Google, Microsoft and Amazon to s…"
   },
   {
    "n": "South Korea",
@@ -1447,7 +1447,7 @@
    "rf": 0.72,
    "rz": 44,
    "dl": 1,
-   "rw": "Malaysia, Singapore, Thailand: lenders pause billions in data centre and GPU…"
+   "rw": "Singapore: DPM Gan says Nvidia shipment halt not verified, reviews anti-dive…"
   },
   {
    "n": "Malaysia",
@@ -1497,7 +1497,7 @@
    "rf": 0.85,
    "rz": 88,
    "dl": 1,
-   "rw": "Malaysia, Singapore, Thailand: lenders pause billions in data centre and GPU…"
+   "rw": "Singapore: DPM Gan says Nvidia shipment halt not verified, reviews anti-dive…"
   },
   {
    "n": "Indonesia",
@@ -1547,7 +1547,7 @@
    "rf": 0.72,
    "rz": 43,
    "dl": 1,
-   "rw": "Southeast Asia: Nvidia tells server partners to stop shipping to Malaysia, S…"
+   "rw": "Singapore: DPM Gan says Nvidia shipment halt not verified, reviews anti-dive…"
   },
   {
    "n": "Philippines",
@@ -1647,7 +1647,7 @@
    "rf": 1.0,
    "rz": 40,
    "dl": 1,
-   "rw": "Malaysia, Singapore, Thailand: lenders pause billions in data centre and GPU…"
+   "rw": "Singapore: DPM Gan says Nvidia shipment halt not verified, reviews anti-dive…"
   },
   {
    "n": "Papua New Guinea",
@@ -1895,9 +1895,9 @@
    "pue": "~1.35-1.6",
    "note": "",
    "rf": 0.95,
-   "rz": 13,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 20,
+   "dl": 1,
+   "rw": "Kuwait: KIA's Wren House buys GIC's 80% stake in Equinix's European xScale h…"
   },
   {
    "n": "Oman",
@@ -2495,9 +2495,9 @@
    "pue": "~1.1-1.25",
    "note": "45 GW potential / 30 econ; GERD fully online; power sold to miners; Addis 2,400m cool",
    "rf": 0.1,
-   "rz": 28,
-   "dl": 0,
-   "rw": "Live buildout underway"
+   "rz": 33,
+   "dl": 1,
+   "rw": "Kenya: Vodafone plans to triple Safaricom's data centre footprint to 35 MW f…"
   },
   {
    "n": "Kenya",
@@ -2545,9 +2545,9 @@
    "pue": "~1.2-1.4",
    "note": "Geothermal up to 10 GW (world #6 installed); Microsoft/G42 DC stalled on power",
    "rf": 0.4,
-   "rz": 11,
-   "dl": -1,
-   "rw": "Microsoft and G42's Kenya campus stalls for lack of power"
+   "rz": 15,
+   "dl": 1,
+   "rw": "Kenya: Vodafone plans to triple Safaricom's data centre footprint to 35 MW f…"
   },
   {
    "n": "Tanzania",
@@ -3647,7 +3647,7 @@
    "rf": 0.95,
    "rz": 79,
    "dl": 1,
-   "rw": "BloombergNEF counts 181 GW of on-site gas generation proposed for data centr…"
+   "rw": "Kuwait: KIA's Wren House buys GIC's 80% stake in Equinix's European xScale h…"
   },
   {
    "n": "Ireland",
@@ -3695,9 +3695,9 @@
    "pue": "~1.1-1.25",
    "note": "Dublin new-connection constraints = cautionary incumbent",
    "rf": 0.95,
-   "rz": 51,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 59,
+   "dl": 1,
+   "rw": "Kuwait: KIA's Wren House buys GIC's 80% stake in Equinix's European xScale h…"
   },
   {
    "n": "France",
@@ -3745,9 +3745,9 @@
    "pue": "~1.2-1.4",
    "note": "Nuclear surplus exporter; Mistral buildout; Brookfield €10B",
    "rf": 0.85,
-   "rz": 63,
+   "rz": 65,
    "dl": 1,
-   "rw": "France: Google unit filed a 1.2 GW grid connection request for a second Indr…"
+   "rw": "Kuwait: KIA's Wren House buys GIC's 80% stake in Equinix's European xScale h…"
   },
   {
    "n": "Germany",
@@ -3795,9 +3795,9 @@
    "pue": "~1.2-1.4",
    "note": "FRA hub; nuclear phased out",
    "rf": 1.0,
-   "rz": 65,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 73,
+   "dl": 1,
+   "rw": "Kuwait: KIA's Wren House buys GIC's 80% stake in Equinix's European xScale h…"
   },
   {
    "n": "Spain",
@@ -4045,9 +4045,9 @@
    "pue": "~1.1-1.25",
    "note": "AMS hub; grid congestion for new large loads",
    "rf": 1.0,
-   "rz": 50,
-   "dl": 0,
-   "rw": "No live signals yet"
+   "rz": 58,
+   "dl": 1,
+   "rw": "Netherlands: trade minister urges US not to enforce MATCH Act on ASML, weigh…"
   },
   {
    "n": "Poland",
@@ -4647,7 +4647,7 @@
    "rf": 0.95,
    "rz": 71,
    "dl": 1,
-   "rw": "US: S&P puts Nvidia's AA rating on CreditWatch Negative as AI borrowers' def…"
+   "rw": "US: EIA proposes first annual Data Center Energy Consumption Survey covering…"
   },
   {
    "n": "Canada",
